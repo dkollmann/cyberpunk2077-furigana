@@ -1,16 +1,31 @@
 #define WIN32_LEAN_AND_MEAN
+#define NOMINMAX
 //#include <Windows.h>
 #include <iostream>
 #include <RED4ext/RED4ext.hpp>
 
-void MyGlobalFunc(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, RED4ext::CString* aOut, int64_t a4)
+void StrOrd(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, int* aOut, int64_t a4)
 {
-    std::cout << "Hello from the global function!";
+    RED4ext::CString *text = nullptr;
+    int index = 0;
 
-    if (aOut)
+    RED4ext::GetParameter(aFrame, &text);
+    RED4ext::GetParameter(aFrame, &index);
+
+    aFrame->code++; // skip ParamEnd
+
+    if(aOut != nullptr)
     {
-        RED4ext::CString result("Returned from MyGlobalFunc");
-        *aOut = result;
+        int len = (int) text->length;
+
+        if(index >= 0 && index < len)
+        {
+            *aOut = (int) text->text.ptr[index];
+        }
+        else
+        {
+            *aOut = 0;
+        }
     }
 }
 
@@ -19,8 +34,10 @@ RED4EXT_C_EXPORT bool RED4EXT_CALL Load(RED4ext::PluginHandle aHandle, const RED
     auto rtti = RED4ext::CRTTISystem::Get();
 
     {
-        auto func = RED4ext::CGlobalFunction::Create("MyGlobalFunc", "MyGlobalFunc", &MyGlobalFunc);
-        func->SetReturnType("String");
+        auto func = RED4ext::CGlobalFunction::Create("StrOrd", "StrOrd", &StrOrd);
+        func->AddParam("String", "text");
+        func->AddParam("Int32", "index");
+        func->SetReturnType("Int32");
         rtti->RegisterFunction(func);
     }
 

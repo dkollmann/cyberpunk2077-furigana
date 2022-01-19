@@ -7,8 +7,11 @@ rem Run the compiler
 echo Cyberpunk 2077 Path: %CP2077%
 
 echo Copying files...
-mkdir ..\dist\r6\scripts
-copy /y ..\src\redscript\* ..\dist\r6\scripts\*
+mkdir ..\dist\r6\scripts\cyberpunk2077-furigana
+copy /y ..\src\redscript\* ..\dist\r6\scripts\cyberpunk2077-furigana\*
+
+mkdir ..\dist\bin\x64\plugins
+copy /y ..\src\red4ext\x64\Debug\*.dll ..\dist\bin\x64\plugins\*.asi
 
 echo Copy to CP2077 folder...
 xcopy /y /e ..\dist\* "%CP2077%"

@@ -6,7 +6,7 @@ private func SplitKanji(text :String) -> array<String>
 	let i = 0;
 	while i < size
 	{
-		let ch = UnicodeScalar( StrMid(text, i, 1) );
+		let ch = StrOrd(text, i);
 
 		LogChannel(n"DEBUG", ch);
 
