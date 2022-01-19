@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cyberpunk2077-furigana", "cyberpunk2077-furigana.vcxproj", "{B8B6FA54-3FAC-4895-BA2D-3498B0F00B87}"
+	ProjectSection(ProjectDependencies) = postProject
+		{35F85427-A1AD-CD1C-2AA2-C7F39656C420} = {35F85427-A1AD-CD1C-2AA2-C7F39656C420}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RED4ext.SDK", "sdk\premake\projects\RED4ext.SDK.vcxproj", "{35F85427-A1AD-CD1C-2AA2-C7F39656C420}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8B6FA54-3FAC-4895-BA2D-3498B0F00B87}.Debug|x64.ActiveCfg = Debug|x64
+		{B8B6FA54-3FAC-4895-BA2D-3498B0F00B87}.Debug|x64.Build.0 = Debug|x64
+		{B8B6FA54-3FAC-4895-BA2D-3498B0F00B87}.Debug|x86.ActiveCfg = Debug|Win32
+		{B8B6FA54-3FAC-4895-BA2D-3498B0F00B87}.Debug|x86.Build.0 = Debug|Win32
+		{B8B6FA54-3FAC-4895-BA2D-3498B0F00B87}.Release|x64.ActiveCfg = Release|x64
+		{B8B6FA54-3FAC-4895-BA2D-3498B0F00B87}.Release|x64.Build.0 = Release|x64
+		{B8B6FA54-3FAC-4895-BA2D-3498B0F00B87}.Release|x86.ActiveCfg = Release|Win32
+		{B8B6FA54-3FAC-4895-BA2D-3498B0F00B87}.Release|x86.Build.0 = Release|Win32
+		{35F85427-A1AD-CD1C-2AA2-C7F39656C420}.Debug|x64.ActiveCfg = Debug|x64
+		{35F85427-A1AD-CD1C-2AA2-C7F39656C420}.Debug|x64.Build.0 = Debug|x64
+		{35F85427-A1AD-CD1C-2AA2-C7F39656C420}.Debug|x86.ActiveCfg = Debug|x64
+		{35F85427-A1AD-CD1C-2AA2-C7F39656C420}.Release|x64.ActiveCfg = Release|x64
+		{35F85427-A1AD-CD1C-2AA2-C7F39656C420}.Release|x64.Build.0 = Release|x64
+		{35F85427-A1AD-CD1C-2AA2-C7F39656C420}.Release|x86.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAB78A23-B76B-49F6-B2B8-FD9C7B4CE526}
+	EndGlobalSection
+EndGlobal
