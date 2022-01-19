@@ -5,7 +5,7 @@
 
 void StrOrd(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, int* aOut, int64_t a4)
 {
-    RED4ext::CString *text = nullptr;
+    RED4ext::CString text;
     int index = 0;
 
     RED4ext::GetParameter(aFrame, &text);
@@ -15,11 +15,11 @@ void StrOrd(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, int* a
 
     if(aOut != nullptr)
     {
-        int len = (int) text->length;
+        int len = (int) text.Length();
 
         if(index >= 0 && index < len)
         {
-            *aOut = (int) text->text.ptr[index];
+            *aOut = (int) text.c_str()[index];
         }
         else
         {
@@ -71,8 +71,8 @@ RED4EXT_C_EXPORT bool RED4EXT_CALL Load(RED4ext::PluginHandle aHandle, const RED
 
 RED4EXT_C_EXPORT void RED4EXT_CALL Query(RED4ext::PluginInfo* aInfo)
 {
-    aInfo->name = L"RED4ext.FunctionRegistration";
-    aInfo->author = L"WopsS";
+    aInfo->name = L"Cyberpunk 2077 Furigana";
+    aInfo->author = L"Daniel Kollmann";
     aInfo->version = RED4EXT_SEMVER(1, 0, 0);
     aInfo->runtime = RED4EXT_RUNTIME_LATEST;
     aInfo->sdk = RED4EXT_SDK_LATEST;
