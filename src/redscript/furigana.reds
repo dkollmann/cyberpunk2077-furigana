@@ -3,7 +3,7 @@ public static native func StrOrd(text: String, index: Int32) -> Int32;
 //@addMethod(SubtitleLineLogicController)
 private func SplitKanji(text :String) -> array<String>
 {
-	/*let size = StrLen(text);
+	let size = StrLen(text);
 
 	let i = 0;
 	while i < size
@@ -13,7 +13,7 @@ private func SplitKanji(text :String) -> array<String>
 		LogChannel(n"DEBUG", ToString(ch));
 
 		i += 1;
-	}*/
+	}
 }
 
 @replaceMethod(SubtitleLineLogicController)

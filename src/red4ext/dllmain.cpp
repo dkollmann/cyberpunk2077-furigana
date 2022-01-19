@@ -28,20 +28,44 @@ void StrOrd(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, int* a
     }
 }
 
-RED4EXT_C_EXPORT bool RED4EXT_CALL Load(RED4ext::PluginHandle aHandle, const RED4ext::IRED4ext* aInterface)
+RED4EXT_C_EXPORT void RED4EXT_CALL RegisterTypes()
+{
+}
+
+RED4EXT_C_EXPORT void RED4EXT_CALL PostRegisterTypes()
 {
     //MessageBoxA(NULL, "Registered Furigana DLL", "Furigana DLL", MB_OK);
 
     auto rtti = RED4ext::CRTTISystem::Get();
+    const RED4ext::CBaseFunction::Flags flags = { .isNative = true, .isStatic = true };
 
     {
         auto func = RED4ext::CGlobalFunction::Create("StrOrd", "StrOrd", &StrOrd);
+        func->flags = flags;
         func->AddParam("String", "text");
         func->AddParam("Int32", "index");
         func->SetReturnType("Int32");
         rtti->RegisterFunction(func);
     }
+}
 
+BOOL APIENTRY DllMain(HMODULE aModule, DWORD aReason, LPVOID aReserved)
+{
+    switch (aReason)
+    {
+    case DLL_PROCESS_ATTACH:
+        RED4ext::RTTIRegistrator::Add(RegisterTypes, PostRegisterTypes);
+        break;
+
+    case DLL_PROCESS_DETACH:
+        break;
+    }
+
+    return TRUE;
+}
+
+RED4EXT_C_EXPORT bool RED4EXT_CALL Load(RED4ext::PluginHandle aHandle, const RED4ext::IRED4ext* aInterface)
+{
     return true;
 }
 
