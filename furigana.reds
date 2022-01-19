@@ -1,14 +1,3 @@
-private func ApplyFurigana(controller :ref<SubtitleLineLogicController>, speaker :inkTextRef, speakerNameDisplayText :String) -> Void
-{
-	let translated :String;
-
-	LogChannel(n"DEBUG", "SUBTITLE: " + inkTextRef.GetText(speaker));
-
-	//translated = GetLocalizedText();
-
-	inkTextRef.SetLocalizedTextScript(speaker, speakerNameDisplayText, controller.m_spekerNameParams);
-}
-
 @replaceMethod(SubtitleLineLogicController)
 public func SetLineData(lineData: scnDialogLineData) -> Void
 {
@@ -61,7 +50,7 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 	{
 		// handle radio lines
 		this.m_targetTextWidgetRef = this.m_radioSubtitle;
-		ApplyFurigana(this, this.m_radioSpeaker, speakerNameDisplayText);
+		inkTextRef.SetLocalizedTextScript(this.m_radioSpeaker, speakerNameDisplayText, this.m_spekerNameParams);
 		inkWidgetRef.SetVisible(this.m_speakerNameWidget, false);
 		inkWidgetRef.SetVisible(this.m_subtitleWidget, false);
 		inkWidgetRef.SetVisible(this.m_radioSpeaker, true);
@@ -93,7 +82,7 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 			{
 				// handle dialogue
 				this.m_targetTextWidgetRef = this.m_subtitleWidget;
-				ApplyFurigana(this, this.m_speakerNameWidget, speakerNameDisplayText);
+				inkTextRef.SetLocalizedTextScript(this.m_speakerNameWidget, speakerNameDisplayText, this.m_spekerNameParams);
 				inkWidgetRef.SetVisible(this.m_speakerNameWidget, true);
 				inkWidgetRef.SetVisible(this.m_subtitleWidget, true);
 				inkWidgetRef.SetVisible(this.m_radioSpeaker, false);
@@ -130,8 +119,10 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 	else
 	{
 		// handle mother tongue?
-		if scnDialogLineData.HasMothertongueTag(lineData)
+		if true  //scnDialogLineData.HasMothertongueTag(lineData)
 		{
+			LogChannel(n"DEBUG", "SUBTITLE: " + speakerName);
+
 			displayData = scnDialogLineData.GetDisplayText(lineData);
 			motherTongueCtrl = inkWidgetRef.GetControllerByType(this.m_motherTongueContainter, n"inkTextMotherTongueController") as inkTextMotherTongueController;
 			motherTongueCtrl.SetPreTranslatedText(displayData.preTranslatedText);
