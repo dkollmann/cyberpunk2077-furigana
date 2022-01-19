@@ -1,6 +1,12 @@
-private func ApplyFurigana(controller :SubtitleLineLogicController, text :String) -> Void
+private func ApplyFurigana(controller :ref<SubtitleLineLogicController>, speaker :inkTextRef, speakerNameDisplayText :String) -> Void
 {
+	let translated :String;
 
+	LogChannel(n"DEBUG", "SUBTITLE: " + inkTextRef.GetText(speaker));
+
+	//translated = GetLocalizedText();
+
+	inkTextRef.SetLocalizedTextScript(speaker, speakerNameDisplayText, controller.m_spekerNameParams);
 }
 
 @replaceMethod(SubtitleLineLogicController)
@@ -22,7 +28,8 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 	if IsStringValid(lineData.speakerName)
 	{
 		speakerName = lineData.speakerName;
-	} else
+	}
+	else
 	{
 		speakerName = lineData.speaker.GetDisplayName();
 	}
@@ -54,7 +61,7 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 	{
 		// handle radio lines
 		this.m_targetTextWidgetRef = this.m_radioSubtitle;
-		inkTextRef.SetLocalizedTextScript(this.m_radioSpeaker, speakerNameDisplayText, this.m_spekerNameParams);
+		ApplyFurigana(this, this.m_radioSpeaker, speakerNameDisplayText);
 		inkWidgetRef.SetVisible(this.m_speakerNameWidget, false);
 		inkWidgetRef.SetVisible(this.m_subtitleWidget, false);
 		inkWidgetRef.SetVisible(this.m_radioSpeaker, true);
@@ -86,7 +93,7 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 			{
 				// handle dialogue
 				this.m_targetTextWidgetRef = this.m_subtitleWidget;
-				inkTextRef.SetLocalizedTextScript(this.m_speakerNameWidget, speakerNameDisplayText, this.m_spekerNameParams);
+				ApplyFurigana(this, this.m_speakerNameWidget, speakerNameDisplayText);
 				inkWidgetRef.SetVisible(this.m_speakerNameWidget, true);
 				inkWidgetRef.SetVisible(this.m_subtitleWidget, true);
 				inkWidgetRef.SetVisible(this.m_radioSpeaker, false);
