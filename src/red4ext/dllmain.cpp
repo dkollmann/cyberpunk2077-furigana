@@ -1,7 +1,6 @@
 #define WIN32_LEAN_AND_MEAN
 #define NOMINMAX
-//#include <Windows.h>
-#include <iostream>
+#include <Windows.h>
 #include <RED4ext/RED4ext.hpp>
 
 void StrOrd(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, int* aOut, int64_t a4)
@@ -31,6 +30,8 @@ void StrOrd(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, int* a
 
 RED4EXT_C_EXPORT bool RED4EXT_CALL Load(RED4ext::PluginHandle aHandle, const RED4ext::IRED4ext* aInterface)
 {
+    //MessageBoxA(NULL, "Registered Furigana DLL", "Furigana DLL", MB_OK);
+
     auto rtti = RED4ext::CRTTISystem::Get();
 
     {
