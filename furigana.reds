@@ -91,13 +91,14 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 		}
 	}
 
-	// handle Kiroshi implant?
+	// handle Kiroshi implant
 	if scnDialogLineData.HasKiroshiTag(lineData)
 	{
 		displayData = scnDialogLineData.GetDisplayText(lineData);
 
 		if this.IsKiroshiEnabled()
 		{
+			// this is the tranlated text from the braindance
 			kiroshiAnimationCtrl = inkWidgetRef.GetController(this.m_kiroshiAnimationContainer) as inkTextKiroshiAnimController;
 			kiroshiAnimationCtrl.SetPreTranslatedText(displayData.preTranslatedText);
 			kiroshiAnimationCtrl.SetPostTranslatedText(displayData.postTranslatedText);
@@ -108,6 +109,7 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 		}
 		else
 		{
+			// show the text readable for the player
 			motherTongueCtrl = inkWidgetRef.GetControllerByType(this.m_motherTongueContainter, n"inkTextMotherTongueController") as inkTextMotherTongueController;
 			motherTongueCtrl.SetPreTranslatedText("");
 			motherTongueCtrl.SetNativeText(displayData.text, displayData.language);
@@ -119,10 +121,9 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 	else
 	{
 		// handle mother tongue?
-		if true  //scnDialogLineData.HasMothertongueTag(lineData)
+		if scnDialogLineData.HasMothertongueTag(lineData)
 		{
-			LogChannel(n"DEBUG", "SUBTITLE: " + speakerName);
-
+			// allows dialogue to be shown which can or cannot be understood by the player
 			displayData = scnDialogLineData.GetDisplayText(lineData);
 			motherTongueCtrl = inkWidgetRef.GetControllerByType(this.m_motherTongueContainter, n"inkTextMotherTongueController") as inkTextMotherTongueController;
 			motherTongueCtrl.SetPreTranslatedText(displayData.preTranslatedText);
@@ -133,6 +134,9 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 		}
 		else
 		{
+			// show normal lines
+			LogChannel(n"DEBUG", "SUBTITLE: " + speakerName);
+
 			inkTextRef.SetText(this.m_targetTextWidgetRef, this.m_lineData.text);
 			this.PlayLibraryAnimation(n"intro");
 		}
