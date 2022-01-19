@@ -1,3 +1,19 @@
+//@addMethod(SubtitleLineLogicController)
+private func SplitKanji(text :String) -> array<String>
+{
+	let size = StrLen(text);
+
+	let i = 0;
+	while i < size
+	{
+		let ch = UnicodeScalar( StrMid(text, i, 1) );
+
+		LogChannel(n"DEBUG", ch);
+
+		i += 1;
+	}
+}
+
 @replaceMethod(SubtitleLineLogicController)
 public func SetLineData(lineData: scnDialogLineData) -> Void
 {
@@ -136,6 +152,8 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 		{
 			// show normal lines
 			LogChannel(n"DEBUG", "SUBTITLE: " + speakerName);
+
+			let kanjis = SplitKanji(this.m_lineData.text);
 
 			inkTextRef.SetText(this.m_targetTextWidgetRef, this.m_lineData.text);
 			this.PlayLibraryAnimation(n"intro");
