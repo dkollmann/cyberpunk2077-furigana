@@ -5,10 +5,162 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="Source Files\mecab">
+      <UniqueIdentifier>{a952aaf8-59cd-4c96-9f33-cec12c008067}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="mecab\mecab\src\char_property.cpp">
+      <Filter>Source Files\mecab</Filter>
+    </ClCompile>
+    <ClCompile Include="mecab\mecab\src\connector.cpp">
+      <Filter>Source Files\mecab</Filter>
+    </ClCompile>
+    <ClCompile Include="mecab\mecab\src\context_id.cpp">
+      <Filter>Source Files\mecab</Filter>
+    </ClCompile>
+    <ClCompile Include="mecab\mecab\src\dictionary.cpp">
+      <Filter>Source Files\mecab</Filter>
+    </ClCompile>
+    <ClCompile Include="mecab\mecab\src\dictionary_compiler.cpp">
+      <Filter>Source Files\mecab</Filter>
+    </ClCompile>
+    <ClCompile Include="mecab\mecab\src\dictionary_generator.cpp">
+      <Filter>Source Files\mecab</Filter>
+    </ClCompile>
+    <ClCompile Include="mecab\mecab\src\dictionary_rewriter.cpp">
+      <Filter>Source Files\mecab</Filter>
+    </ClCompile>
+    <ClCompile Include="mecab\mecab\src\eval.cpp">
+      <Filter>Source Files\mecab</Filter>
+    </ClCompile>
+    <ClCompile Include="mecab\mecab\src\feature_index.cpp">
+      <Filter>Source Files\mecab</Filter>
+    </ClCompile>
+    <ClCompile Include="mecab\mecab\src\iconv_utils.cpp">
+      <Filter>Source Files\mecab</Filter>
+    </ClCompile>
+    <ClCompile Include="mecab\mecab\src\lbfgs.cpp">
+      <Filter>Source Files\mecab</Filter>
+    </ClCompile>
+    <ClCompile Include="mecab\mecab\src\learner.cpp">
+      <Filter>Source Files\mecab</Filter>
+    </ClCompile>
+    <ClCompile Include="mecab\mecab\src\learner_tagger.cpp">
+      <Filter>Source Files\mecab</Filter>
+    </ClCompile>
+    <ClCompile Include="mecab\mecab\src\mecab.cpp">
+      <Filter>Source Files\mecab</Filter>
+    </ClCompile>
+    <ClCompile Include="mecab\mecab\src\nbest_generator.cpp">
+      <Filter>Source Files\mecab</Filter>
+    </ClCompile>
+    <ClCompile Include="mecab\mecab\src\param.cpp">
+      <Filter>Source Files\mecab</Filter>
+    </ClCompile>
+    <ClCompile Include="mecab\mecab\src\string_buffer.cpp">
+      <Filter>Source Files\mecab</Filter>
+    </ClCompile>
+    <ClCompile Include="mecab\mecab\src\tagger.cpp">
+      <Filter>Source Files\mecab</Filter>
+    </ClCompile>
+    <ClCompile Include="mecab\mecab\src\tokenizer.cpp">
+      <Filter>Source Files\mecab</Filter>
+    </ClCompile>
+    <ClCompile Include="mecab\mecab\src\utils.cpp">
+      <Filter>Source Files\mecab</Filter>
+    </ClCompile>
+    <ClCompile Include="mecab\mecab\src\viterbi.cpp">
+      <Filter>Source Files\mecab</Filter>
+    </ClCompile>
+    <ClCompile Include="mecab\mecab\src\writer.cpp">
+      <Filter>Source Files\mecab</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mecab\mecab\src\char_property.h">
+      <Filter>Source Files\mecab</Filter>
+    </ClInclude>
+    <ClInclude Include="mecab\mecab\src\common.h">
+      <Filter>Source Files\mecab</Filter>
+    </ClInclude>
+    <ClInclude Include="mecab\mecab\src\connector.h">
+      <Filter>Source Files\mecab</Filter>
+    </ClInclude>
+    <ClInclude Include="mecab\mecab\src\context_id.h">
+      <Filter>Source Files\mecab</Filter>
+    </ClInclude>
+    <ClInclude Include="mecab\mecab\src\darts.h">
+      <Filter>Source Files\mecab</Filter>
+    </ClInclude>
+    <ClInclude Include="mecab\mecab\src\dictionary.h">
+      <Filter>Source Files\mecab</Filter>
+    </ClInclude>
+    <ClInclude Include="mecab\mecab\src\dictionary_rewriter.h">
+      <Filter>Source Files\mecab</Filter>
+    </ClInclude>
+    <ClInclude Include="mecab\mecab\src\feature_index.h">
+      <Filter>Source Files\mecab</Filter>
+    </ClInclude>
+    <ClInclude Include="mecab\mecab\src\freelist.h">
+      <Filter>Source Files\mecab</Filter>
+    </ClInclude>
+    <ClInclude Include="mecab\mecab\src\iconv_utils.h">
+      <Filter>Source Files\mecab</Filter>
+    </ClInclude>
+    <ClInclude Include="mecab\mecab\src\lbfgs.h">
+      <Filter>Source Files\mecab</Filter>
+    </ClInclude>
+    <ClInclude Include="mecab\mecab\src\learner_node.h">
+      <Filter>Source Files\mecab</Filter>
+    </ClInclude>
+    <ClInclude Include="mecab\mecab\src\learner_tagger.h">
+      <Filter>Source Files\mecab</Filter>
+    </ClInclude>
+    <ClInclude Include="mecab\mecab\src\mecab.h">
+      <Filter>Source Files\mecab</Filter>
+    </ClInclude>
+    <ClInclude Include="mecab\mecab\src\mmap.h">
+      <Filter>Source Files\mecab</Filter>
+    </ClInclude>
+    <ClInclude Include="mecab\mecab\src\nbest_generator.h">
+      <Filter>Source Files\mecab</Filter>
+    </ClInclude>
+    <ClInclude Include="mecab\mecab\src\param.h">
+      <Filter>Source Files\mecab</Filter>
+    </ClInclude>
+    <ClInclude Include="mecab\mecab\src\scoped_ptr.h">
+      <Filter>Source Files\mecab</Filter>
+    </ClInclude>
+    <ClInclude Include="mecab\mecab\src\stream_wrapper.h">
+      <Filter>Source Files\mecab</Filter>
+    </ClInclude>
+    <ClInclude Include="mecab\mecab\src\string_buffer.h">
+      <Filter>Source Files\mecab</Filter>
+    </ClInclude>
+    <ClInclude Include="mecab\mecab\src\thread.h">
+      <Filter>Source Files\mecab</Filter>
+    </ClInclude>
+    <ClInclude Include="mecab\mecab\src\tokenizer.h">
+      <Filter>Source Files\mecab</Filter>
+    </ClInclude>
+    <ClInclude Include="mecab\mecab\src\ucs.h">
+      <Filter>Source Files\mecab</Filter>
+    </ClInclude>
+    <ClInclude Include="mecab\mecab\src\ucstable.h">
+      <Filter>Source Files\mecab</Filter>
+    </ClInclude>
+    <ClInclude Include="mecab\mecab\src\utils.h">
+      <Filter>Source Files\mecab</Filter>
+    </ClInclude>
+    <ClInclude Include="mecab\mecab\src\viterbi.h">
+      <Filter>Source Files\mecab</Filter>
+    </ClInclude>
+    <ClInclude Include="mecab\mecab\src\writer.h">
+      <Filter>Source Files\mecab</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

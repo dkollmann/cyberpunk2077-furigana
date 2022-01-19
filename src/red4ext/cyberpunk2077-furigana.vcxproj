@@ -86,7 +86,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;CYBERPUNK2077FURIGANA_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;CYBERPUNK2077FURIGANA_EXPORTS;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;HAVE_STRING_H;HAVE_WINDOWS_H;HAVE_UNISTD_H;HAVE_STDINT_H;HAVE_UNSIGNED_LONG_LONG_INT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
@@ -108,7 +108,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;NDEBUG;CYBERPUNK2077FURIGANA_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;CYBERPUNK2077FURIGANA_EXPORTS;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;HAVE_STRING_H;HAVE_WINDOWS_H;HAVE_UNISTD_H;HAVE_STDINT_H;HAVE_UNSIGNED_LONG_LONG_INT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
@@ -130,7 +130,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;CYBERPUNK2077FURIGANA_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;CYBERPUNK2077FURIGANA_EXPORTS;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;HAVE_STRING_H;HAVE_WINDOWS_H;HAVE_UNISTD_H;HAVE_STDINT_H;HAVE_UNSIGNED_LONG_LONG_INT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
@@ -152,7 +152,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;CYBERPUNK2077FURIGANA_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;CYBERPUNK2077FURIGANA_EXPORTS;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;HAVE_STRING_H;HAVE_WINDOWS_H;HAVE_UNISTD_H;HAVE_STDINT_H;HAVE_UNSIGNED_LONG_LONG_INT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
@@ -172,6 +172,57 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="mecab\mecab\src\char_property.cpp" />
+    <ClCompile Include="mecab\mecab\src\connector.cpp" />
+    <ClCompile Include="mecab\mecab\src\context_id.cpp" />
+    <ClCompile Include="mecab\mecab\src\dictionary.cpp" />
+    <ClCompile Include="mecab\mecab\src\dictionary_compiler.cpp" />
+    <ClCompile Include="mecab\mecab\src\dictionary_generator.cpp" />
+    <ClCompile Include="mecab\mecab\src\dictionary_rewriter.cpp" />
+    <ClCompile Include="mecab\mecab\src\eval.cpp" />
+    <ClCompile Include="mecab\mecab\src\feature_index.cpp" />
+    <ClCompile Include="mecab\mecab\src\iconv_utils.cpp" />
+    <ClCompile Include="mecab\mecab\src\lbfgs.cpp" />
+    <ClCompile Include="mecab\mecab\src\learner.cpp" />
+    <ClCompile Include="mecab\mecab\src\learner_tagger.cpp" />
+    <ClCompile Include="mecab\mecab\src\mecab.cpp" />
+    <ClCompile Include="mecab\mecab\src\nbest_generator.cpp" />
+    <ClCompile Include="mecab\mecab\src\param.cpp" />
+    <ClCompile Include="mecab\mecab\src\string_buffer.cpp" />
+    <ClCompile Include="mecab\mecab\src\tagger.cpp" />
+    <ClCompile Include="mecab\mecab\src\tokenizer.cpp" />
+    <ClCompile Include="mecab\mecab\src\utils.cpp" />
+    <ClCompile Include="mecab\mecab\src\viterbi.cpp" />
+    <ClCompile Include="mecab\mecab\src\writer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mecab\mecab\src\char_property.h" />
+    <ClInclude Include="mecab\mecab\src\common.h" />
+    <ClInclude Include="mecab\mecab\src\connector.h" />
+    <ClInclude Include="mecab\mecab\src\context_id.h" />
+    <ClInclude Include="mecab\mecab\src\darts.h" />
+    <ClInclude Include="mecab\mecab\src\dictionary.h" />
+    <ClInclude Include="mecab\mecab\src\dictionary_rewriter.h" />
+    <ClInclude Include="mecab\mecab\src\feature_index.h" />
+    <ClInclude Include="mecab\mecab\src\freelist.h" />
+    <ClInclude Include="mecab\mecab\src\iconv_utils.h" />
+    <ClInclude Include="mecab\mecab\src\lbfgs.h" />
+    <ClInclude Include="mecab\mecab\src\learner_node.h" />
+    <ClInclude Include="mecab\mecab\src\learner_tagger.h" />
+    <ClInclude Include="mecab\mecab\src\mecab.h" />
+    <ClInclude Include="mecab\mecab\src\mmap.h" />
+    <ClInclude Include="mecab\mecab\src\nbest_generator.h" />
+    <ClInclude Include="mecab\mecab\src\param.h" />
+    <ClInclude Include="mecab\mecab\src\scoped_ptr.h" />
+    <ClInclude Include="mecab\mecab\src\stream_wrapper.h" />
+    <ClInclude Include="mecab\mecab\src\string_buffer.h" />
+    <ClInclude Include="mecab\mecab\src\thread.h" />
+    <ClInclude Include="mecab\mecab\src\tokenizer.h" />
+    <ClInclude Include="mecab\mecab\src\ucs.h" />
+    <ClInclude Include="mecab\mecab\src\ucstable.h" />
+    <ClInclude Include="mecab\mecab\src\utils.h" />
+    <ClInclude Include="mecab\mecab\src\viterbi.h" />
+    <ClInclude Include="mecab\mecab\src\writer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

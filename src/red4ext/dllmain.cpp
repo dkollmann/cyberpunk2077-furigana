@@ -82,3 +82,21 @@ RED4EXT_C_EXPORT uint32_t RED4EXT_CALL Supports()
 {
     return RED4EXT_API_VERSION_LATEST;
 }
+
+// ++++++++++++++++++++++++++++++++++++++
+//   Mecap error handling
+// ++++++++++++++++++++++++++++++++++++++
+
+namespace {
+    const size_t kErrorBufferSize = 256;
+    char kErrorBuffer[kErrorBufferSize];
+}
+
+const char* getGlobalError() {
+    return kErrorBuffer;
+}
+
+void setGlobalError(const char* str) {
+    strncpy(kErrorBuffer, str, kErrorBufferSize - 1);
+    kErrorBuffer[kErrorBufferSize - 1] = '\0';
+}
