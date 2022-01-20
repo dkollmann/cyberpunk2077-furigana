@@ -90,13 +90,14 @@ def addfurigana(mecab, kakasi, entry, variant):
 
 		return False
 
-	hasfurigana, str = addfurigana_text(mecab, kakasi, v)
+	else:
+		hasfurigana, str = addfurigana_text(mecab, kakasi, v)
 
-	if hasfurigana:
-		entry[variant] = str
-		return True
+		if hasfurigana:
+			entry[variant] = str
+			return True
 
-	return False
+		return False
 
 
 def processjson(mecab, kakasi, file, jsn):
