@@ -1,7 +1,6 @@
-# requires mecab-python3 unidic and pykakasi package
-import os, json, MeCab, unidic, pykakasi
-
-from furigana.furigana.furigana import is_kanji, split_furigana, use_pykakasi
+# requires mecab-python3, unidic and pykakasi package
+import os, json, unicodedata, MeCab, unidic, pykakasi
+import xml.etree.cElementTree as ET
 
 sourcepath = "../src/wolvenkit/Cyberpunk 2077 Furigana/files/Raw"
 
@@ -9,7 +8,57 @@ if not os.path.isfile( os.path.join(unidic.DICDIR, "matrix.bin")):
 	print("You have to run as admin: python -m unidic download")
 	exit(100)
 
-def addfurigana(mecab, kana2hiragana, entry, variant):
+
+def is_kanji(ch):
+	return 'CJK UNIFIED IDEOGRAPH' in unicodedata.name(ch)
+
+
+def addfurigana_text(mecab, kakasi, text):
+	# because of our format, the text cannot contain brackets
+	openbracket = "{"
+	closebracket = "}"
+	assert openbracket not in text and closebracket not in text, "We have to use a different syntax"
+
+	node = mecab.parseToNode(text)
+
+	str = ""
+	hasfurigana = False
+	while node is not None:
+		if len(node.surface) > 0:
+			conv = kakasi.convert(node.surface)
+
+			for c in conv:
+				orig = c["orig"]
+				hira = c["hira"]
+
+				if orig != hira:
+					hasfurigana = True
+
+					# find start and end
+					for a in range(len(orig)):
+						if orig[a] != hira[a]:
+							break
+
+					b = 0
+					for b in range(-1, -len(orig), -1):
+						if orig[b] != hira[b]:
+							break
+
+					if a > 0 and b < 0:
+						hiragana = hira[a:b]
+					else:
+						hiragana = hira
+
+					str += orig[:a + 1] + openbracket + hiragana + closebracket + orig[b:]
+				else:
+					str += orig
+
+		node = node.next
+
+	return (hasfurigana, str)
+
+
+def addfurigana(mecab, kakasi, entry, variant):
 	if variant not in entry:
 		return False
 
@@ -25,30 +74,32 @@ def addfurigana(mecab, kana2hiragana, entry, variant):
 	if not haskanji:
 		return False
 
-	# because of our format, the text cannot contain brackets
-	openbracket = "{"
-	closebracket = "}"
-	assert openbracket not in v and closebracket not in v, "We have to use a different syntax"
+	# detect xml
+	if v.startswith("<") and v.endswith("/>"):
+		xl = ET.fromstring(v)
+		t = xl.attrib["t"]
 
-	split = split_furigana(v, mecab, kana2hiragana)
+		hasfurigana, str = addfurigana_text(mecab, kakasi, t)
 
-	final = ""
-	hasfurigana = False
-	for s in split:
-		if len(s) == 2:
-			final += s[0] + openbracket + s[1] + closebracket
-			hasfurigana = True
-		else:
-			final += s[0]
+		if hasfurigana:
+			xl.attrib["t"] = str
+
+			str2 = ET.tostring(xl, encoding="unicode")
+			entry[variant] = str2
+			return True
+
+		return False
+
+	hasfurigana, str = addfurigana_text(mecab, kakasi, v)
 
 	if hasfurigana:
-		entry[variant] = final
+		entry[variant] = str
 		return True
 
 	return False
 
 
-def processjson(mecab, kana2hiragana, file, jsn):
+def processjson(mecab, kakasi, file, jsn):
 	print("Processing " + os.path.basename(file) + "...")
 
 	chunks = jsn["Chunks"]
@@ -63,9 +114,9 @@ def processjson(mecab, kana2hiragana, file, jsn):
 
 			hasfurigana = False
 			for e in entries:
-				if addfurigana(mecab, kana2hiragana, e, "femaleVariant"):
+				if addfurigana(mecab, kakasi, e, "femaleVariant"):
 					hasfurigana = True
-				if addfurigana(mecab, kana2hiragana, e, "maleVariant"):
+				if addfurigana(mecab, kakasi, e, "maleVariant"):
 					hasfurigana = True
 
 			if hasfurigana:
@@ -80,25 +131,21 @@ def processjson(mecab, kana2hiragana, file, jsn):
 					json.dump(jsn, f, indent=2, ensure_ascii=False, check_circular=False)
 
 
-def process(mecab, kana2hiragana, path):
+def process(mecab, kakasi, path):
 	for f in os.listdir(path):
 		p = os.path.join(path, f)
 
 		if os.path.isdir(p):
-			process(mecab, kana2hiragana, p)
+			process(mecab, kakasi, p)
 
 		elif f.endswith(".json"):
 			with open(p, "r", encoding="utf8") as ff:
 				jsn = json.load(ff)
-				processjson(mecab, kana2hiragana, p, jsn)
+				processjson(mecab, kakasi, p, jsn)
 
 
 # taken from https://github.com/MikimotoH/furigana/blob/master/furigana/furigana.py
-mecab = MeCab.Tagger()#"-Ochasen")
-mecab.parse('') # 空でパースする必要がある
+mecab = MeCab.Tagger()  #"-Ochasen"
+kakasi = pykakasi.kakasi()
 
-kana2hiragana = use_pykakasi()
-
-#split = split_furigana("じっとして。やり過ごすの", mecab, kana2hiragana)
-
-process(mecab, kana2hiragana, sourcepath)
+process(mecab, kakasi, sourcepath)
