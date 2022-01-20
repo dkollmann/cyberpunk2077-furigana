@@ -1,5 +1,5 @@
-# requires mecab-python3 unidic and jaconv package
-import os, json, MeCab, unidic, jaconv
+# requires mecab-python3 unidic and pykakasi package
+import os, json, MeCab, unidic, pykakasi
 
 from furigana.furigana.furigana import is_kanji, split_okurigana
 
@@ -12,7 +12,7 @@ if not os.path.isfile( os.path.join(unidic.DICDIR, "matrix.bin")):
 
 
 # taken from https://github.com/MikimotoH/furigana/blob/master/furigana/furigana.py
-def split_furigana(node):
+def split_furigana(kakasi, node):
 	ret = []
 
 	while node is not None:
@@ -30,7 +30,9 @@ def split_furigana(node):
 				kana = split[7] # 読み仮名を代入
 			else:
 				kana = node.surface
-			hiragana = jaconv.kata2hira(kana)
+			#hiragana = jaconv.kata2hira(kana)
+			conv = kakasi.convert(kana)
+			hiragana = conv[0]["hira"]
 			for pair in split_okurigana(origin, hiragana):
 				ret += [pair]
 		else:
@@ -40,21 +42,21 @@ def split_furigana(node):
 	return ret
 
 
-def addfurigana(tagger, entry, variant):
+def addfurigana(tagger, kakasi, entry, variant):
 	if variant not in entry:
 		return False
 
 	v = entry[variant]
 
 	node = tagger.parseToNode(v)
-	split = split_furigana(node)
+	split = split_furigana(kakasi, node)
 
 	a = 0
 
 	return True
 
 
-def processjson(tagger, file, jsn):
+def processjson(tagger, kakasi, file, jsn):
 	print("Processing " + os.path.basename(file) + "...")
 
 	chunks = jsn["Chunks"]
@@ -69,29 +71,31 @@ def processjson(tagger, file, jsn):
 
 			hasfurigana = False
 			for e in entries:
-				if addfurigana(tagger, e, "femaleVariant"):
+				if addfurigana(tagger, kakasi, e, "femaleVariant"):
 					hasfurigana = True
-				if addfurigana(tagger, e, "maleVariant"):
+				if addfurigana(tagger, kakasi, e, "maleVariant"):
 					hasfurigana = True
 
 			a = 0
 
 
-def process(tagger, path):
+def process(tagger, kakasi, path):
 	for f in os.listdir(path):
 		p = os.path.join(path, f)
 
 		if os.path.isdir(p):
-			process(tagger, p)
+			process(tagger, kakasi, p)
 
 		elif f.endswith(".json"):
 			with open(p, "r", encoding="utf8") as ff:
 				jsn = json.load(ff)
-				processjson(tagger, p, jsn)
+				processjson(tagger, kakasi, p, jsn)
 
 
 # taken from https://github.com/MikimotoH/furigana/blob/master/furigana/furigana.py
 tagger = MeCab.Tagger()#"-Ochasen")
 tagger.parse('') # 空でパースする必要がある
 
-process(tagger, sourcepath)
+kakasi = pykakasi.kakasi()
+
+process(tagger, kakasi, sourcepath)
