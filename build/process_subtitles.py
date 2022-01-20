@@ -17,47 +17,60 @@ def is_kanji(ch):
 	return 'CJK UNIFIED IDEOGRAPH' in unicodedata.name(ch)
 
 
+def has_kanji(str):
+	for c in str:
+		if is_kanji(c):
+			return True
+
+	return False
+
+
 def addfurigana_text(mecab, kakasi, text):
 	# because of our format, the text cannot contain brackets
 	openbracket = "{"
 	closebracket = "}"
 	assert openbracket not in text and closebracket not in text, "We have to use a different syntax"
 
-	node = mecab.parseToNode(text)
-
 	str = ""
 	hasfurigana = False
-	while node is not None:
-		if len(node.surface) > 0:
-			conv = kakasi.convert(node.surface)
+	conv = kakasi.convert(text)
 
-			for c in conv:
-				orig = c["orig"]
-				hira = c["hira"]
+	for c in conv:
+		orig = c["orig"]
+		hira = c["hira"]
 
-				if orig != hira:
-					hasfurigana = True
+		# ignore any conversion other than kanji
+		if not has_kanji(orig) or orig == hira:
+			str += orig
+			continue
 
-					# find start and end
-					for a in range(len(orig)):
-						if orig[a] != hira[a]:
-							break
+		hasfurigana = True
 
-					b = 0
-					for b in range(-1, -len(orig), -1):
-						if orig[b] != hira[b]:
-							break
+		# find start and end
+		a = 0
+		b = 0
 
-					if a > 0 and b < 0:
-						hiragana = hira[a:b]
-					else:
-						hiragana = hira
+		for a in range(len(orig)):
+			if orig[a] != hira[a]:
+				break
 
-					str += orig[:a + 1] + openbracket + hiragana + closebracket + orig[b:]
-				else:
-					str += orig
+		for b in range(len(orig)):
+			n = len(orig) - b - 1
+			m = len(hira) - b - 1
+			if orig[n] != hira[m]:
+				break
 
-		node = node.next
+		borig = len(orig) - b
+		bhira = len(hira) - b
+
+		kanji = orig[a:borig]
+		furigana = hira[a:bhira]
+		prehiragana = hira[:a]
+		posthiragana = hira[bhira:]
+
+		s = prehiragana + kanji + openbracket + furigana + closebracket + posthiragana
+
+		str += s
 
 	return (hasfurigana, str)
 
@@ -69,13 +82,7 @@ def addfurigana(mecab, kakasi, entry, variant):
 	v = entry[variant]
 
 	# check if there are any kanji
-	haskanji = False
-	for c in v:
-		if is_kanji(c):
-			haskanji = True
-			break
-
-	if not haskanji:
+	if not has_kanji(v):
 		return False
 
 	# detect xml
