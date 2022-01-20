@@ -4,7 +4,6 @@ import os, json, MeCab, unidic, pykakasi
 from furigana.furigana.furigana import is_kanji, split_okurigana
 
 sourcepath = "../src/wolvenkit/Cyberpunk 2077 Furigana/files/Raw"
-targetpath = "../src/wolvenkit/Cyberpunk 2077 Furigana/files/Raw_Subtitles"
 
 if not os.path.isfile( os.path.join(unidic.DICDIR, "matrix.bin")):
 	print("You have to run as admin: python -m unidic download")
@@ -75,9 +74,11 @@ def addfurigana(tagger, kakasi, entry, variant):
 		else:
 			final += s[0]
 
-	a = 0
+	if hasfurigana:
+		entry[variant] = final
+		return True
 
-	return hasfurigana
+	return False
 
 
 def processjson(tagger, kakasi, file, jsn):
@@ -100,7 +101,16 @@ def processjson(tagger, kakasi, file, jsn):
 				if addfurigana(tagger, kakasi, e, "maleVariant"):
 					hasfurigana = True
 
-			a = 0
+			if hasfurigana:
+				file = file.replace("\\", "/")
+				outfile = file.replace("/Raw/", "/Raw_Subtitles/")
+				outdir = os.path.dirname(outfile)
+
+				if not os.path.isdir(outdir):
+					os.makedirs(outdir)
+
+				with open(outfile, "w", encoding="utf8") as f:
+					json.dump(jsn, f, indent=2, ensure_ascii=False, check_circular=False)
 
 
 def process(tagger, kakasi, path):
