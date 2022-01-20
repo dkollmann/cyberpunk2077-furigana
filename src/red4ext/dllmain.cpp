@@ -1,7 +1,74 @@
-#define WIN32_LEAN_AND_MEAN
+﻿#define WIN32_LEAN_AND_MEAN
 #define NOMINMAX
 #include <Windows.h>
 #include <RED4ext/RED4ext.hpp>
+#include <mecab.h>
+#include <string>
+#include <vector>
+#include <iostream>
+
+template<typename T> bool ToWChar(const char *utf8, T &wchar)
+{
+    const int ln = (int) std::strlen(utf8);
+    const int sz = MultiByteToWideChar(CP_UTF8, MB_PRECOMPOSED, utf8, ln, nullptr, 0);
+
+    if(sz == 0)
+        return false;
+
+    wchar.resize(sz);
+
+    const int sz2 = MultiByteToWideChar(CP_UTF8, MB_PRECOMPOSED, utf8, ln, (wchar_t*) wchar.data(), sz);
+
+    return sz2 != 0;
+}
+
+void MecabParse(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, int* aOut, int64_t a4)
+{
+    RED4ext::CString text;
+    RED4ext::GetParameter(aFrame, &text);
+
+    aFrame->code++; // skip ParamEnd
+
+
+    std::vector<wchar_t> wstring;
+
+    const MeCab::Node* node = MeCab::createTagger("")->parseToNode((const char*) u8"隣の客はよく柿食う客だ。");
+    for(; node; node = node->next)
+    {
+        switch(node->stat)
+        {
+        case MECAB_BOS_NODE:
+        case MECAB_EOS_NODE:
+            continue;
+
+        default:
+            std::cout
+                << node->feature
+                //        << ' ' << (int)(node->surface - input)
+                //        << ' ' << (int)(node->surface - input + node->length)
+                //        << ' ' << node->rcAttr
+                //        << ' ' << node->lcAttr
+                //        << ' ' << node->posid
+                //        << ' ' << (int)node->char_type
+                //        << ' ' << (int)node->stat
+                //        << ' ' << (int)node->isbest
+                //        << ' ' << node->alpha
+                //        << ' ' << node->beta
+                //        << ' ' << node->prob
+                //        << ' ' << node->cost
+                << std::endl;
+
+            ToWChar(node->feature, wstring);
+
+            MessageBox(NULL, wstring.data(), L"Furigana", MB_OK);
+        }
+    }
+
+    if(aOut != nullptr)
+    {
+        *aOut = 0;
+    }
+}
 
 void StrOrd(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, int* aOut, int64_t a4)
 {
@@ -44,6 +111,14 @@ RED4EXT_C_EXPORT void RED4EXT_CALL PostRegisterTypes()
         func->flags = flags;
         func->AddParam("String", "text");
         func->AddParam("Int32", "index");
+        func->SetReturnType("Int32");
+        rtti->RegisterFunction(func);
+    }
+
+    {
+        auto func = RED4ext::CGlobalFunction::Create("MecabParse", "MecabParse", &MecabParse);
+        func->flags = flags;
+        func->AddParam("String", "text");
         func->SetReturnType("Int32");
         rtti->RegisterFunction(func);
     }

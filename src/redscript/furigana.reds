@@ -1,8 +1,11 @@
 public static native func StrOrd(text: String, index: Int32) -> Int32;
+public static native func MecabParse(text :String) -> Int32;
 
 //@addMethod(SubtitleLineLogicController)
 private func SplitKanji(text :String) -> array<String>
 {
+	MecabParse(text);
+	
 	let size = StrLen(text);
 
 	let i = 0;
