@@ -20,14 +20,16 @@ def addfurigana(tagger, entry, variant):
 
 	return True
 
-def processjson(tagger, jsn):
+def processjson(tagger, file, jsn):
+	print("Processing " + os.path.basename(file) + "...")
+	
 	chunks = jsn["Chunks"]
 
 	for c in chunks:
 		cc = chunks[c]
 		t = cc["Type"]
 
-		if t == "localizationPersistenceSubtitleEntries":
+		if t == "localizationPersistenceSubtitleEntries" and "Properties" in cc:
 			props = cc["Properties"]
 			entries = props["entries"]
 
@@ -51,7 +53,7 @@ def process(tagger, path):
 		elif f.endswith(".json"):
 			with open(p, "r", encoding="utf8") as ff:
 				jsn = json.load(ff)
-				processjson(tagger, jsn)
+				processjson(tagger, p, jsn)
 
 tagger = MeCab.Tagger()
 
