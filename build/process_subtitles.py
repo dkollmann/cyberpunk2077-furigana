@@ -48,8 +48,18 @@ def addfurigana(tagger, kakasi, entry, variant):
 
 	v = entry[variant]
 
+	# because of our format, the text cannot contain brackets
+	assert "[" not in v and "]" not in v, "We have to use a different syntax"
+
 	node = tagger.parseToNode(v)
 	split = split_furigana(kakasi, node)
+
+	final = ""
+	for s in split:
+		if len(s) == 2:
+			final += s[0] + "[" + s[1] + "]"
+		else:
+			final += s[0]
 
 	a = 0
 
