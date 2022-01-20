@@ -48,22 +48,36 @@ def addfurigana(tagger, kakasi, entry, variant):
 
 	v = entry[variant]
 
+	# check if there are any kanji
+	haskanji = False
+	for c in v:
+		if is_kanji(c):
+			haskanji = True
+			break
+
+	if not haskanji:
+		return False
+
 	# because of our format, the text cannot contain brackets
-	assert "[" not in v and "]" not in v, "We have to use a different syntax"
+	openbracket = "{"
+	closebracket = "}"
+	assert openbracket not in v and closebracket not in v, "We have to use a different syntax"
 
 	node = tagger.parseToNode(v)
 	split = split_furigana(kakasi, node)
 
 	final = ""
+	hasfurigana = False
 	for s in split:
 		if len(s) == 2:
-			final += s[0] + "[" + s[1] + "]"
+			final += s[0] + openbracket + s[1] + closebracket
+			hasfurigana = True
 		else:
 			final += s[0]
 
 	a = 0
 
-	return True
+	return hasfurigana
 
 
 def processjson(tagger, kakasi, file, jsn):
