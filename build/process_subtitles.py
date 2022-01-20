@@ -1,5 +1,6 @@
 # requires mecab-python3, unidic and pykakasi package
 import os, json, unicodedata, MeCab, unidic, pykakasi
+import shutil
 import xml.etree.cElementTree as ET
 
 sourcepath = "../src/wolvenkit/Cyberpunk 2077 Furigana/files/Raw"
@@ -7,6 +8,9 @@ sourcepath = "../src/wolvenkit/Cyberpunk 2077 Furigana/files/Raw"
 if not os.path.isfile( os.path.join(unidic.DICDIR, "matrix.bin")):
 	print("You have to run as admin: python -m unidic download")
 	exit(100)
+
+if os.path.isdir(os.path.abspath(sourcepath + "_Subtitles")):
+	shutil.rmtree( os.path.abspath(sourcepath + "_Subtitles") )
 
 
 def is_kanji(ch):
