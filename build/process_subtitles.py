@@ -132,7 +132,20 @@ def get_kanjireading(processdata, katakana, kanji):
 	return foundreadings
 
 
+kanjinumbers = ("一", "二", "三", "四", "五", "六", "七", "八", "九", "十", "零")
+
+
 def find_reading(processdata, kanji, katakana, readings, filename):
+	showproblem = True
+
+	# check if this is a number
+	if len(kanji) == 2 and kanji[0] in kanjinumbers:
+		showproblem = False
+
+	# check if this is a "saying"
+	if len(kanji) == 2 and kanji[1] == "々":
+		return False
+
 	# get all the readings for the kanji
 	katakanaleft = katakana
 
@@ -157,7 +170,8 @@ def find_reading(processdata, kanji, katakana, readings, filename):
 
 		# when one kanji fails we have to abort
 		if not found:
-			processdata.addproblem(filename, "Could not match kanji \"" + k + "\" to kana \"" + katakanaleft + "\".", k)
+			if showproblem:
+				processdata.addproblem(filename, "Could not match kanji \"" + k + "\" to kana \"" + katakanaleft + "\".", k)
 			return False
 
 	# check if all of the reading was "consumed"
