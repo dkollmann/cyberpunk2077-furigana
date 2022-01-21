@@ -127,7 +127,7 @@ def get_kanjireading(processdata, katakana, kanji):
 			else:
 				node = node.next
 
-	processdata.readingscache[kanji] = foundreadings
+	processdata.addtocache(kanji, foundreadings)
 
 	return foundreadings
 
@@ -579,7 +579,13 @@ class ProcessData:
 
 					cached.append((k, h))
 
-			self.readingscache[r] = cached
+			self.addtocache(r, cached)
+
+
+	def addtocache(self, kanji, cachedreadings):
+		sort = sorted(cachedreadings, key=lambda x: len(x[0]), reverse=True)
+		self.readingscache[kanji] = sort
+
 
 	def addproblem(self, filename, text, kanji=None):
 		self.problems.append( (filename, text, kanji) )
