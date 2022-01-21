@@ -532,7 +532,7 @@ problems = []
 
 # when no reading can be found, we try to use one of these readings instead
 additionalreadings = {
-	#"応": ["オウ", "ヨウ", "ノウ"]
+	"応": (("オウ", "ヨウ", "ノウ"), ("あた", "まさに", "こた"))
 }
 
 class ProcessData:
@@ -544,13 +544,21 @@ class ProcessData:
 		self.problems = problems
 
 		for r in additionalreadings:
-			rr = additionalreadings[r]
+			addk, addh = additionalreadings[r]
 
 			cached = []
-			for k in rr:
-				h = kana2hira(self, k)
 
-				cached.append( (k, h) )
+			if addk:
+				for k in addk:
+					h = kana2hira(self, k)
+
+					cached.append( (k, h) )
+
+			if addh:
+				for h in addh:
+					k = hira2kana(self, h)
+
+					cached.append((k, h))
 
 			self.readingscache[r] = cached
 
@@ -562,6 +570,7 @@ process(ProcessData(mecab, kakasi, jam, additionalreadings, problems), sourcepat
 sys.stdout.write(" done.\n")
 
 if len(problems) > 0:
-	for p in problems:
+	for i in range( min(100, len(problems)) ):
+		p = problems[i]
 		print( p[0] + ": " + p[1])
 	print("Found " + str(len(problems)) + " problems...")
