@@ -36,12 +36,13 @@ def find_reading(processdata, kanji, furigana, readings, filename):
 		found = False
 
 		# check if we have an additional reading for this
-		if k in additionalreadings:
-			foundreadings = additionalreadings[k]
+		if k in processdata.readingscache:
+			foundreadings = processdata.readingscache[k]
 
 		else:
 			foundreadings = []
 
+			# check jamkit
 			if processdata.jam is not None:
 				data = processdata.jam.lookup(k, strict_lookup=True, lookup_ne=False)
 				if len(data.chars) > 0:
@@ -52,16 +53,24 @@ def find_reading(processdata, kanji, furigana, readings, filename):
 					for r in on_readings:
 						foundreadings.append(r.value)
 
-			else:
+			# check mecab
+			if processdata.mecab is not None:
 				node = processdata.mecab.parseToNode(k + "一")  # this is a hack to get the Chinese reading
 				while node:
 					if len(node.surface) > 0:
 						sp = node.feature.split(",")
 						if len(sp) >= 7:
-							foundreadings.append(sp[6])
+							kana = sp[6]
+
+							# when the kana is the whole word, skip it
+							if len(kana) != len(katakana) and kana not in foundreadings:
+								foundreadings.append(kana)
+
 						node = node.bnext
 					else:
 						node = node.next
+
+			processdata.readingscache[k] = foundreadings
 
 		# check if we found something
 		if len(foundreadings) < 1:
@@ -70,10 +79,6 @@ def find_reading(processdata, kanji, furigana, readings, filename):
 
 		# try to match the kanji with the reading
 		for kana in foundreadings:
-			# when the kana is the whole word, skip it
-			if len(kana) == len(katakana):
-				continue
-
 			if katakanaleft.startswith(kana):
 				found = True
 				readings.append(kana)
@@ -310,7 +315,7 @@ class ProcessData:
 		self.mecab = mecab
 		self.kakasi = kakasi
 		self.jam = jam
-		self.additionalreadings = additionalreadings
+		self.readingscache = dict(additionalreadings)
 		self.problems = problems
 
 	def addproblem(self, filename, text):
