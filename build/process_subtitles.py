@@ -14,7 +14,7 @@ if os.path.isdir(os.path.abspath(sourcepath + "_Subtitles")):
 
 
 def is_kanji(ch):
-	return ('CJK UNIFIED IDEOGRAPH' in unicodedata.name(ch)) or ch == '々'
+	return ('CJK UNIFIED IDEOGRAPH' in unicodedata.name(ch)) or ch == '々' or ch == 'ヶ'
 
 
 def has_kanji(str):
@@ -224,22 +224,24 @@ def split_hiragana(kanjisplit, hiragana, katakana):
 
 	# we get better results when matching the hiragana from back to start
 	end = len(hiragana)
+	endfind = end
 	for i in range(len(kanjisplit)):
 		e = kanjisplit[ len(kanjisplit) - i - 1 ]
 
 		# ignore kanji elements
 		if e[1]:
+			endfind -= 1
 			continue
 
 		# try to find the non-kanji text
 		t = e[0]
 		text = hiragana
-		pos = hiragana.rfind(t, 0, end)
+		pos = hiragana.rfind(t, 0, endfind)
 
 		# check if this is a unwanted katakana conversion
 		if pos < 0:
 			text = katakana
-			pos = katakana.rfind(t, 0, end)
+			pos = katakana.rfind(t, 0, endfind)
 
 		assert pos >= 0, "Failed to find hiragana"
 
@@ -250,6 +252,7 @@ def split_hiragana(kanjisplit, hiragana, katakana):
 
 		result.append(e)
 		end = pos
+		endfind = end
 
 	if end >= 0:
 		kanji = hiragana[:end]
