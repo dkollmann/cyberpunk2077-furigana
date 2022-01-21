@@ -14,7 +14,7 @@ if os.path.isdir(os.path.abspath(sourcepath + "_Subtitles")):
 
 
 def is_kanji(ch):
-	return 'CJK UNIFIED IDEOGRAPH' in unicodedata.name(ch)
+	return 'CJK UNIFIED IDEOGRAPH' in unicodedata.name(ch) or ch == '々'
 
 
 def has_kanji(str):
@@ -23,6 +23,14 @@ def has_kanji(str):
 			return True
 
 	return False
+
+
+def all_kanji(str):
+	for c in str:
+		if not is_kanji(c):
+			return False
+
+	return True
 
 
 def kana2hira(processdata, kana):
@@ -161,6 +169,91 @@ def find_reading(processdata, kanji, katakana, readings, filename):
 	return True
 
 
+def split_kanji(kanji):
+	result = []
+
+	start = 0
+	waskanji = is_kanji(kanji[0])
+
+	i = 1
+	while i < len(kanji):
+		k = kanji[i]
+		iskanji = is_kanji(k)
+
+		if waskanji != iskanji:
+			kk = kanji[start:i]
+			result.append( (kk, waskanji) )
+
+			start = i
+			waskanji = iskanji
+
+		i += 1
+
+	if start < len(kanji):
+		kk = kanji[start:]
+		result.append((kk, waskanji))
+
+	return result
+
+
+def split_katakana(hiraganasplit, katakana):
+	# sanity check first
+	ln = 0
+	for t, ik in hiraganasplit:
+		ln += len(t)
+	assert ln == len(katakana), "The hiragana and the katakana must be the same length"
+
+	# apply the same split to the katakana
+	result = []
+	start = 0
+	for t, ik in hiraganasplit:
+		k = katakana[start:len(t)]
+		result.append( (k, ik) )
+		start = len(t)
+
+	assert len(result) == len(hiraganasplit), "Both splits must have the same length"
+
+	return result
+
+
+def split_hiragana(kanjisplit, hiragana):
+	result = []
+
+	start = 0
+	findstart = 0
+	for e in kanjisplit:
+		# ignore kanji elements, just advance the start, as the kanji has to be at least one character
+		if e[1]:
+			findstart += 1
+			continue
+
+		# try to find the non-kanji text
+		pos = hiragana.find(e[0], findstart)
+		assert pos >= 0, "Failed to find hiragana"
+
+		kanji = hiragana[start:pos]
+
+		result.append( (kanji, True) )
+		result.append(e)
+		start = pos + len(e[0])
+		findstart = start
+
+	if start < len(hiragana):
+		kanji = hiragana[start:]
+
+		result.append( (kanji, True) )
+
+	# sanity check results
+	assert len(kanjisplit) == len(result), "Both splits must be the same length"
+	for i in range(len(kanjisplit)):
+		assert kanjisplit[i][1] == result[i][1], "The type of elements must be the same"
+
+		if not kanjisplit[i][1]:
+			assert kanjisplit[i][0] == result[i][0], "Non-kanji elements must be the same"
+
+	return result
+
+
 def addfurigana_text(processdata, text, filename):
 	# because of our format, the text cannot contain brackets
 	openbracket = "{"
@@ -190,42 +283,37 @@ def addfurigana_text(processdata, text, filename):
 
 		hasfurigana = True
 
-		# find start and end
-		a = 0
-		b = 0
+		# find the kanji blocks
+		split_kanjis = split_kanji(orig)
 
-		for a in range(len(orig)):
-			if orig[a] != hira[a]:
-				break
-
-		for b in range(len(orig)):
-			n = len(orig) - b - 1
-			m = len(hira) - b - 1
-			if orig[n] != hira[m]:
-				break
-
-		borig = len(orig) - b
-		bhira = len(hira) - b
-
-		kanji = orig[a:borig]
-		furigana = hira[a:bhira]
-		katakana = kana[a:bhira]
-		prehiragana = hira[:a]
-		posthiragana = hira[bhira:]
-
-		# try if we can match each kanji to a specific reading
-		matchedkana = False
-		if len(kanji) > 1:
-			readings = []
-			matchedkana = find_reading(processdata, kanji, katakana, readings, filename)
-
-		if matchedkana:
-			s = prehiragana
-			for k in range(len(kanji)):
-				s += kanji[k] + openbracket + readings[k] + closebracket
-			s += posthiragana
+		if len(split_kanjis) > 1:
+			split_hira = split_hiragana(split_kanjis, hira)
+			split_kana = split_katakana(split_hira, kana)
 		else:
-			s = prehiragana + kanji + openbracket + furigana + closebracket + posthiragana
+			assert split_kanjis[0][1], "This must be a kanji element"
+			split_hira = [ (hira, True) ]
+			split_kana = [ (kana, True) ]
+
+		# for each kanji block, try to match the individual hiragana
+		s = ""
+		for i in range(len(split_kanjis)):
+			kanji = split_kanjis[i][0]
+			iskanji = split_kanjis[i][1]
+			hiragana = split_hira[i][0]
+			katakana = split_kana[i][0]
+
+			matchedkana = False
+
+			# check if matching needs to happen
+			if iskanji and len(katakana) > 1:
+				readings = []
+				matchedkana = find_reading(processdata, kanji, katakana, readings, filename)
+
+			if matchedkana:
+				for k in range(len(kanji)):
+					s += kanji[k] + openbracket + readings[k] + closebracket
+			else:
+				s += kanji + openbracket + hiragana + closebracket
 
 		str += s
 
@@ -354,8 +442,8 @@ def countfiles(path):
 
 	return count
 
-# taken from https://github.com/MikimotoH/furigana/blob/master/furigana/furigana.py
-mecab = MeCab.Tagger()  #"-Ochasen"
+
+mecab = MeCab.Tagger()
 kakasi = pykakasi.kakasi()
 jam = Jamdict()
 
@@ -397,3 +485,5 @@ if len(problems) > 0:
 	print("Found " + str(len(problems)) + " problems...")
 	for p in problems:
 		print( p[0] + ": " + p[1])
+
+breakpointhere = 1
