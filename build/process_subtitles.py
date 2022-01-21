@@ -25,10 +25,69 @@ def has_kanji(str):
 	return False
 
 
-def find_reading(processdata, kanji, furigana, readings, filename):
-	# get katakana reading
-	katakana = kakasi.convert(furigana)[0]["kana"]
+def kana2hira(processdata, kana):
+	conv = processdata.kakasi.convert(kana)
 
+	hira = ""
+	for c in conv:
+		hira += c["hira"]
+
+	assert len(kana) == len(hira), "Expected both to be the same length"
+
+	return hira
+
+
+def get_cachedreading(processdata, katakana):
+	hiragana = kana2hira(processdata, katakana)
+
+	return (katakana, hiragana)
+
+
+def get_kanjireading(processdata, katakana, kanji):
+	if kanji in processdata.readingscache:
+		return processdata.readingscache[kanji]
+
+	foundreadings = []
+
+	# check jamkit
+	if processdata.jam is not None:
+		data = processdata.jam.lookup(kanji, strict_lookup=True, lookup_ne=False)
+		if len(data.chars) > 0:
+			assert len(data.chars) == 1
+			assert len(data.chars[0].rm_groups) == 1
+
+			on_readings = data.chars[0].rm_groups[0].on_readings
+			for r in on_readings:
+				foundreadings.append(r.value)
+
+	# check mecab
+	if processdata.mecab is not None:
+		node = processdata.mecab.parseToNode(kanji + "一")  # this is a hack to get the Chinese reading
+		while node:
+			if len(node.surface) > 0:
+				sp = node.feature.split(",")
+				if len(sp) >= 7:
+					kana = sp[6]
+
+					# when the kana is the whole word, skip it
+					if len(kana) != len(katakana) and kana not in foundreadings:
+						foundreadings.append(kana)
+
+				node = node.bnext
+			else:
+				node = node.next
+
+	cached = []
+
+	for r in foundreadings:
+		cached.append( get_cachedreading(processdata, r) )
+
+	processdata.readingscache[kanji] = cached
+
+	return cached
+
+
+def find_reading(processdata, kanji, katakana, readings, filename):
 	# get all the readings for the kanji
 	katakanaleft = katakana
 
@@ -36,41 +95,7 @@ def find_reading(processdata, kanji, furigana, readings, filename):
 		found = False
 
 		# check if we have an additional reading for this
-		if k in processdata.readingscache:
-			foundreadings = processdata.readingscache[k]
-
-		else:
-			foundreadings = []
-
-			# check jamkit
-			if processdata.jam is not None:
-				data = processdata.jam.lookup(k, strict_lookup=True, lookup_ne=False)
-				if len(data.chars) > 0:
-					assert len(data.chars) == 1
-					assert len(data.chars[0].rm_groups) == 1
-
-					on_readings = data.chars[0].rm_groups[0].on_readings
-					for r in on_readings:
-						foundreadings.append(r.value)
-
-			# check mecab
-			if processdata.mecab is not None:
-				node = processdata.mecab.parseToNode(k + "一")  # this is a hack to get the Chinese reading
-				while node:
-					if len(node.surface) > 0:
-						sp = node.feature.split(",")
-						if len(sp) >= 7:
-							kana = sp[6]
-
-							# when the kana is the whole word, skip it
-							if len(kana) != len(katakana) and kana not in foundreadings:
-								foundreadings.append(kana)
-
-						node = node.bnext
-					else:
-						node = node.next
-
-			processdata.readingscache[k] = foundreadings
+		foundreadings = get_kanjireading(processdata, katakana, k)
 
 		# check if we found something
 		if len(foundreadings) < 1:
@@ -78,10 +103,10 @@ def find_reading(processdata, kanji, furigana, readings, filename):
 			return False
 
 		# try to match the kanji with the reading
-		for kana in foundreadings:
+		for kana, hira in foundreadings:
 			if katakanaleft.startswith(kana):
 				found = True
-				readings.append(kana)
+				readings.append(hira)
 				katakanaleft = katakanaleft[len(kana):]
 				break
 
@@ -112,6 +137,9 @@ def addfurigana_text(processdata, text, filename):
 	for c in conv:
 		orig = c["orig"]
 		hira = c["hira"]
+		kana = c["kana"]
+
+		assert len(hira) == len(kana), "Expected both to be the same length"
 
 		# handle the case of an untranslated kanji
 		if len(hira) < 1:
@@ -144,6 +172,7 @@ def addfurigana_text(processdata, text, filename):
 
 		kanji = orig[a:borig]
 		furigana = hira[a:bhira]
+		katakana = kana[a:bhira]
 		prehiragana = hira[:a]
 		posthiragana = hira[bhira:]
 
@@ -151,7 +180,7 @@ def addfurigana_text(processdata, text, filename):
 		matchedkana = False
 		if len(kanji) > 1:
 			readings = []
-			matchedkana = find_reading(processdata, kanji, furigana, readings, filename)
+			matchedkana = find_reading(processdata, kanji, katakana, readings, filename)
 
 		if matchedkana:
 			s = prehiragana
@@ -315,13 +344,22 @@ class ProcessData:
 		self.mecab = mecab
 		self.kakasi = kakasi
 		self.jam = jam
-		self.readingscache = dict(additionalreadings)
+		self.readingscache = {}
 		self.problems = problems
+
+		for r in additionalreadings:
+			rr = additionalreadings[r]
+
+			cached = []
+			for k in rr:
+				cached.append( get_cachedreading(self, k) )
+
+			self.readingscache[r] = cached
 
 	def addproblem(self, filename, text):
 		self.problems.append( (filename, text) )
 
-sys.stdout.write("Processing 0%")
+sys.stdout.write("Processing 00%")
 process(ProcessData(mecab, kakasi, jam, additionalreadings, problems), sourcepath, 0, count)
 sys.stdout.write(" done.\n")
 
