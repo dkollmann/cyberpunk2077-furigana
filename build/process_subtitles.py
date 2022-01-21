@@ -146,12 +146,24 @@ def addfurigana(mecab, kakasi, entry, variant):
 
 	# detect xml
 	if v.startswith("<") and v.endswith("/>"):
+		escapedquote = "\\\""
+		replacequotes = "$€"
+		fixquotes = escapedquote in v
+
+		if fixquotes:
+			assert replacequotes not in v, "Use a different replacement"
+
+			v = v.replace(escapedquote, replacequotes)
+
 		xl = ET.fromstring(v)
 		t = xl.attrib["t"]
 
 		hasfurigana, str = addfurigana_text(mecab, kakasi, t)
 
 		if hasfurigana:
+			if fixquotes:
+				str = str.replace(replacequotes, escapedquote)
+
 			xl.attrib["t"] = str
 
 			str2 = ET.tostring(xl, encoding="unicode")
