@@ -144,7 +144,7 @@ def find_reading(processdata, kanji, katakana, readings, filename):
 
 		# check if we found something
 		if len(foundreadings) < 1:
-			processdata.addproblem(filename, "Failed to find any reading for \"" + k + "\".")
+			processdata.addproblem(filename, "Failed to find any reading for \"" + k + "\".", k)
 			return False
 
 		# try to match the kanji with the reading
@@ -157,12 +157,12 @@ def find_reading(processdata, kanji, katakana, readings, filename):
 
 		# when one kanji fails we have to abort
 		if not found:
-			processdata.addproblem(filename, "Could not match kanji \"" + k + "\" to kana \"" + katakanaleft + "\".")
+			processdata.addproblem(filename, "Could not match kanji \"" + k + "\" to kana \"" + katakanaleft + "\".", k)
 			return False
 
 	# check if all of the reading was "consumed"
 	if len(katakanaleft) > 0:
-		processdata.addproblem(filename, "Matched all kanji of \"" + kanji + "\" to \"" + katakana + "\" but \"" + katakanaleft + "\" was left over.")
+		processdata.addproblem(filename, "Matched all kanji of \"" + kanji + "\" to \"" + katakana + "\" but \"" + katakanaleft + "\" was left over.", kanji)
 		return False
 
 	assert len(readings) > 0, "There should be readings here"
@@ -532,7 +532,9 @@ problems = []
 
 # when no reading can be found, we try to use one of these readings instead
 additionalreadings = {
-	"応": (("オウ", "ヨウ", "ノウ"), ("あた", "まさに", "こた"))
+	"応": (("オウ", "ヨウ", "ノウ"), ("あた", "まさに", "こた")),
+	"摂": (("セツ", "ショウ"), ("おさ", " かね", "と")),
+	"癒": (("ユ"), ("いや", "い"))
 }
 
 class ProcessData:
@@ -562,15 +564,31 @@ class ProcessData:
 
 			self.readingscache[r] = cached
 
-	def addproblem(self, filename, text):
-		self.problems.append( (filename, text) )
+	def addproblem(self, filename, text, kanji=None):
+		self.problems.append( (filename, text, kanji) )
 
 sys.stdout.write("Processing 0%")
 process(ProcessData(mecab, kakasi, jam, additionalreadings, problems), sourcepath, 0, count)
 sys.stdout.write(" done.\n")
 
 if len(problems) > 0:
+	# print 100 problems
 	for i in range( min(100, len(problems)) ):
 		p = problems[i]
 		print( p[0] + ": " + p[1])
 	print("Found " + str(len(problems)) + " problems...")
+
+	# sort problems by kanji
+	counted = {}
+	for p in problems:
+		kanji = p[2]
+		if kanji is not None:
+			if kanji in counted:
+				counted[kanji] += 1
+			else:
+				counted[kanji] = 1
+	sort = sorted(counted.items(), key=lambda x: x[1], reverse=True)
+	sys.stdout.write("Issues: ")
+	for k, n in sort:
+		sys.stdout.write(k + ": " + str(n) + ", ")
+	print(".")
