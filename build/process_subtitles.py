@@ -1,7 +1,7 @@
-# requires mecab-python3, unidic and pykakasi package
-import os, sys, json, unicodedata, MeCab, unidic, pykakasi
-import shutil
+# requires mecab-python3, unidic, pykakasi, jamdict, wheel, jamdict-data package
+import os, sys, shutil, json, unicodedata, MeCab, unidic, pykakasi
 import xml.etree.cElementTree as ET
+from jamdict import Jamdict
 
 sourcepath = "../src/wolvenkit/Cyberpunk 2077 Furigana/files/Raw"
 
@@ -25,7 +25,7 @@ def has_kanji(str):
 	return False
 
 
-def find_reading(mecab, kakasi, additionalreadings, kanji, furigana, readings, problems, filename):
+def find_reading(processdata, kanji, furigana, readings, filename):
 	# get katakana reading
 	katakana = kakasi.convert(furigana)[0]["kana"]
 
@@ -41,15 +41,32 @@ def find_reading(mecab, kakasi, additionalreadings, kanji, furigana, readings, p
 
 		else:
 			foundreadings = []
-			node = mecab.parseToNode(k + "一")  # this is a hack to get the Chinese reading
-			while node:
-				if len(node.surface) > 0:
-					sp = node.feature.split(",")
-					if len(sp) >= 7:
-						foundreadings.append(sp[6])
-					node = node.bnext
-				else:
-					node = node.next
+
+			if processdata.jam is not None:
+				data = processdata.jam.lookup(k, strict_lookup=True, lookup_ne=False)
+				if len(data.chars) > 0:
+					assert len(data.chars) == 1
+					assert len(data.chars[0].rm_groups) == 1
+
+					on_readings = data.chars[0].rm_groups[0].on_readings
+					for r in on_readings:
+						foundreadings.append(r.value)
+
+			else:
+				node = processdata.mecab.parseToNode(k + "一")  # this is a hack to get the Chinese reading
+				while node:
+					if len(node.surface) > 0:
+						sp = node.feature.split(",")
+						if len(sp) >= 7:
+							foundreadings.append(sp[6])
+						node = node.bnext
+					else:
+						node = node.next
+
+		# check if we found something
+		if len(foundreadings) < 1:
+			processdata.addproblem(filename, "Failed to find any reading for \"" + k + "\".")
+			return False
 
 		# try to match the kanji with the reading
 		for kana in foundreadings:
@@ -65,18 +82,19 @@ def find_reading(mecab, kakasi, additionalreadings, kanji, furigana, readings, p
 
 		# when one kanji fails we have to abort
 		if not found:
-			problems.append( (filename, "Could not match kanji \"" + k + "\" to kana \"" + katakanaleft + "\".") )
+			processdata.addproblem(filename, "Could not match kanji \"" + k + "\" to kana \"" + katakanaleft + "\".")
 			return False
 
 	# check if all of the reading was "consumed"
 	if len(katakanaleft) > 0:
-		problems.append( (filename, "Matched all kanji of \"" + kanji + "\" to \"" + katakana + "\" but \"" + katakanaleft + "\" was left over.") )
+		processdata.addproblem(filename, "Matched all kanji of \"" + kanji + "\" to \"" + katakana + "\" but \"" + katakanaleft + "\" was left over.")
 		return False
 
+	assert len(readings) > 0, "There should be readings here"
 	return True
 
 
-def addfurigana_text(mecab, kakasi, additionalreadings, text, problems, filename):
+def addfurigana_text(processdata, text, filename):
 	# because of our format, the text cannot contain brackets
 	openbracket = "{"
 	closebracket = "}"
@@ -92,7 +110,7 @@ def addfurigana_text(mecab, kakasi, additionalreadings, text, problems, filename
 
 		# handle the case of an untranslated kanji
 		if len(hira) < 1:
-			problems.append( (filename, "Failed to translate '" + orig + "'.") )
+			processdata.addproblem(filename, "Failed to translate '" + orig + "'.")
 			continue
 
 		# ignore any conversion other than kanji
@@ -128,7 +146,7 @@ def addfurigana_text(mecab, kakasi, additionalreadings, text, problems, filename
 		matchedkana = False
 		if len(kanji) > 1:
 			readings = []
-			matchedkana = find_reading(mecab, kakasi, additionalreadings, kanji, furigana, readings, problems, filename)
+			matchedkana = find_reading(processdata, kanji, furigana, readings, filename)
 
 		if matchedkana:
 			s = prehiragana
@@ -143,7 +161,7 @@ def addfurigana_text(mecab, kakasi, additionalreadings, text, problems, filename
 	return (hasfurigana, str)
 
 
-def addfurigana(mecab, kakasi, additionalreadings, entry, variant, problems, filename):
+def addfurigana(processdata, entry, variant, filename):
 	if variant not in entry:
 		return False
 
@@ -173,7 +191,7 @@ def addfurigana(mecab, kakasi, additionalreadings, entry, variant, problems, fil
 		xl = ET.fromstring(v)
 		t = xl.attrib["t"]
 
-		hasfurigana, str = addfurigana_text(mecab, kakasi, additionalreadings, t, problems, filename)
+		hasfurigana, str = addfurigana_text(processdata, t, filename)
 
 		if hasfurigana:
 			if fixquotes:
@@ -191,7 +209,7 @@ def addfurigana(mecab, kakasi, additionalreadings, entry, variant, problems, fil
 		return False
 
 	else:
-		hasfurigana, str = addfurigana_text(mecab, kakasi, additionalreadings, v, problems, filename)
+		hasfurigana, str = addfurigana_text(processdata, v, filename)
 
 		if hasfurigana:
 			entry[variant] = str
@@ -200,7 +218,7 @@ def addfurigana(mecab, kakasi, additionalreadings, entry, variant, problems, fil
 		return False
 
 
-def processjson(mecab, kakasi, additionalreadings, file, jsn, problems):
+def processjson(processdata, file, jsn):
 	chunks = jsn["Chunks"]
 
 	for c in chunks:
@@ -213,9 +231,9 @@ def processjson(mecab, kakasi, additionalreadings, file, jsn, problems):
 
 			hasfurigana = False
 			for e in entries:
-				if addfurigana(mecab, kakasi, additionalreadings, e, "femaleVariant", problems, file):
+				if addfurigana(processdata, e, "femaleVariant", file):
 					hasfurigana = True
-				if addfurigana(mecab, kakasi, additionalreadings, e, "maleVariant", problems, file):
+				if addfurigana(processdata, e, "maleVariant", file):
 					hasfurigana = True
 
 			if hasfurigana:
@@ -230,12 +248,12 @@ def processjson(mecab, kakasi, additionalreadings, file, jsn, problems):
 					json.dump(jsn, f, indent=2, ensure_ascii=False, check_circular=False)
 
 
-def process(mecab, kakasi, additionalreadings, path, filen, count, problems):
+def process(processdata, path, filen, count):
 	for f in os.listdir(path):
 		p = os.path.join(path, f)
 
 		if os.path.isdir(p):
-			filen = process(mecab, kakasi, additionalreadings, p, filen, count, problems)
+			filen = process(processdata, p, filen, count)
 
 		elif f.endswith(".json"):
 			p1 = 10 * filen // count
@@ -247,7 +265,7 @@ def process(mecab, kakasi, additionalreadings, path, filen, count, problems):
 
 			with open(p, "r", encoding="utf8") as ff:
 				jsn = json.load(ff)
-				processjson(mecab, kakasi, additionalreadings, p, jsn, problems)
+				processjson(processdata, p, jsn)
 
 	return filen
 
@@ -268,23 +286,41 @@ def countfiles(path):
 # taken from https://github.com/MikimotoH/furigana/blob/master/furigana/furigana.py
 mecab = MeCab.Tagger()  #"-Ochasen"
 kakasi = pykakasi.kakasi()
+jam = Jamdict()
 
 count = countfiles(sourcepath)
 problems = []
 
 # when no reading can be found, we try to use one of these readings instead
 additionalreadings = {
-	"世": ["セイ", "セ", "ソウ"],
-	"当": ["トウ"],
-	"応": ["オウ", "ヨウ", "ノウ"],
-	"己": ["コ", "キ"],
-	"売": ["バイ"],
-	"楽": ["ガク", "ラク", "ゴウ"]
+	"応": ["オウ", "ヨウ", "ノウ"]
 }
 
+'''
+"世": ["セイ", "セ", "ソウ"],
+"当": ["トウ"],
+"応": ["オウ", "ヨウ", "ノウ"],
+"己": ["コ", "キ"],
+"売": ["バイ"],
+"楽": ["ガク", "ラク", "ゴウ"]
+'''
+
+class ProcessData:
+	def __init__(self, mecab, kakasi, jam, additionalreadings, problems):
+		self.mecab = mecab
+		self.kakasi = kakasi
+		self.jam = jam
+		self.additionalreadings = additionalreadings
+		self.problems = problems
+
+	def addproblem(self, filename, text):
+		self.problems.append( (filename, text) )
+
 sys.stdout.write("Processing 0%")
-process(mecab, kakasi, additionalreadings, sourcepath, 0, count, problems)
+process(ProcessData(mecab, kakasi, jam, additionalreadings, problems), sourcepath, 0, count)
 sys.stdout.write(" done.\n")
 
-for p in problems:
-	print( p[0] + ": " + p[1])
+if len(problems) > 0:
+	print("Found " + str(len(problems)) + " problems...")
+	for p in problems:
+		print( p[0] + ": " + p[1])
