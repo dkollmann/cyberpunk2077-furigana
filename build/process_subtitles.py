@@ -1,5 +1,5 @@
 # requires mecab-python3, unidic, pykakasi, jamdict, wheel, jamdict-data package
-import os, sys, shutil, json, unicodedata, MeCab, unidic, pykakasi
+import os, sys, shutil, json, MeCab, unidic, pykakasi
 import xml.etree.cElementTree as ET
 from jamdict import Jamdict
 
@@ -14,7 +14,9 @@ if os.path.isdir(os.path.abspath(sourcepath + "_Subtitles")):
 
 
 def is_kanji(ch):
-	return ('CJK UNIFIED IDEOGRAPH' in unicodedata.name(ch)) or ch == '々' or ch == 'ヶ'
+	n = ord(ch)
+
+	return (n >= 19968 and n <= 40959) or n == 12293 or n == 12534
 
 
 def has_kanji(str):
