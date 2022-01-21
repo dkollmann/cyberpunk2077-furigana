@@ -219,29 +219,34 @@ def split_katakana(hiraganasplit, katakana):
 def split_hiragana(kanjisplit, hiragana):
 	result = []
 
-	start = 0
-	findstart = 0
-	for e in kanjisplit:
-		# ignore kanji elements, just advance the start, as the kanji has to be at least one character
+	# we get better results when matching the hiragana from back to start
+	end = len(hiragana)
+	for i in range(len(kanjisplit)):
+		e = kanjisplit[ len(kanjisplit) - i - 1 ]
+
+		# ignore kanji elements
 		if e[1]:
-			findstart += 1
 			continue
 
 		# try to find the non-kanji text
-		pos = hiragana.find(e[0], findstart)
+		t = e[0]
+		pos = hiragana.rfind(t, 0, end)
 		assert pos >= 0, "Failed to find hiragana"
 
-		kanji = hiragana[start:pos]
+		start = pos + len(t)
+		if start < end:
+			kanji = hiragana[start:end]
+			result.append( (kanji, True) )
 
-		result.append( (kanji, True) )
 		result.append(e)
-		start = pos + len(e[0])
-		findstart = start
+		end = pos
 
-	if start < len(hiragana):
-		kanji = hiragana[start:]
+	if end >= 0:
+		kanji = hiragana[:end]
 
 		result.append( (kanji, True) )
+
+	result.reverse()
 
 	# sanity check results
 	assert len(kanjisplit) == len(result), "Both splits must be the same length"
