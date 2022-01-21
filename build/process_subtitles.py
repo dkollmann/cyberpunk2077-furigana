@@ -1,5 +1,5 @@
 # requires mecab-python3, unidic and pykakasi package
-import os, json, unicodedata, MeCab, unidic, pykakasi
+import os, sys, json, unicodedata, MeCab, unidic, pykakasi
 import shutil
 import xml.etree.cElementTree as ET
 
@@ -72,7 +72,7 @@ def find_reading(mecab, kakasi, kanji, furigana, readings):
 	return True
 
 
-def addfurigana_text(mecab, kakasi, text):
+def addfurigana_text(mecab, kakasi, text, problems, filename):
 	# because of our format, the text cannot contain brackets
 	openbracket = "{"
 	closebracket = "}"
@@ -88,7 +88,7 @@ def addfurigana_text(mecab, kakasi, text):
 
 		# handle the case of an untranslated kanji
 		if len(hira) < 1:
-			print("  Failed to translate '" + orig + "'.")
+			problems.append( (filename, "Failed to translate '" + orig + "'.") )
 			continue
 
 		# ignore any conversion other than kanji
@@ -139,7 +139,7 @@ def addfurigana_text(mecab, kakasi, text):
 	return (hasfurigana, str)
 
 
-def addfurigana(mecab, kakasi, entry, variant):
+def addfurigana(mecab, kakasi, entry, variant, problems, filename):
 	if variant not in entry:
 		return False
 
@@ -169,7 +169,7 @@ def addfurigana(mecab, kakasi, entry, variant):
 		xl = ET.fromstring(v)
 		t = xl.attrib["t"]
 
-		hasfurigana, str = addfurigana_text(mecab, kakasi, t)
+		hasfurigana, str = addfurigana_text(mecab, kakasi, t, problems, filename)
 
 		if hasfurigana:
 			if fixquotes:
@@ -187,7 +187,7 @@ def addfurigana(mecab, kakasi, entry, variant):
 		return False
 
 	else:
-		hasfurigana, str = addfurigana_text(mecab, kakasi, v)
+		hasfurigana, str = addfurigana_text(mecab, kakasi, v, problems, filename)
 
 		if hasfurigana:
 			entry[variant] = str
@@ -196,7 +196,7 @@ def addfurigana(mecab, kakasi, entry, variant):
 		return False
 
 
-def processjson(mecab, kakasi, file, jsn):
+def processjson(mecab, kakasi, file, jsn, problems):
 	chunks = jsn["Chunks"]
 
 	for c in chunks:
@@ -209,9 +209,9 @@ def processjson(mecab, kakasi, file, jsn):
 
 			hasfurigana = False
 			for e in entries:
-				if addfurigana(mecab, kakasi, e, "femaleVariant"):
+				if addfurigana(mecab, kakasi, e, "femaleVariant", problems, file):
 					hasfurigana = True
-				if addfurigana(mecab, kakasi, e, "maleVariant"):
+				if addfurigana(mecab, kakasi, e, "maleVariant", problems, file):
 					hasfurigana = True
 
 			if hasfurigana:
@@ -226,21 +226,24 @@ def processjson(mecab, kakasi, file, jsn):
 					json.dump(jsn, f, indent=2, ensure_ascii=False, check_circular=False)
 
 
-def process(mecab, kakasi, path, filen, count):
+def process(mecab, kakasi, path, filen, count, problems):
 	for f in os.listdir(path):
 		p = os.path.join(path, f)
 
 		if os.path.isdir(p):
-			filen = process(mecab, kakasi, p, filen, count)
+			filen = process(mecab, kakasi, p, filen, count, problems)
 
 		elif f.endswith(".json"):
+			p1 = 10 * filen // count
 			filen += 1
+			p2 = 10 * filen // count
 
-			print("Processing " + f + " (" + str(filen) + "/" + str(count) + ") ...")
+			if p1 != p2:
+				sys.stdout.write(" " + str(p2 * 10) + "%")
 
 			with open(p, "r", encoding="utf8") as ff:
 				jsn = json.load(ff)
-				processjson(mecab, kakasi, p, jsn)
+				processjson(mecab, kakasi, p, jsn, problems)
 
 	return filen
 
@@ -263,5 +266,11 @@ mecab = MeCab.Tagger()  #"-Ochasen"
 kakasi = pykakasi.kakasi()
 
 count = countfiles(sourcepath)
+problems = []
 
-process(mecab, kakasi, sourcepath, 0, count)
+sys.stdout.write("Processing 0%")
+process(mecab, kakasi, sourcepath, 0, count, problems)
+sys.stdout.write(" done.\n")
+
+for p in problems:
+	print( p[0] + ": " + p[1])
