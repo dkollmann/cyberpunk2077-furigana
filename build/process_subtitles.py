@@ -86,6 +86,11 @@ def addfurigana_text(mecab, kakasi, text):
 		orig = c["orig"]
 		hira = c["hira"]
 
+		# handle the case of an untranslated kanji
+		if len(hira) < 1:
+			print("  Failed to translate '" + orig + "'.")
+			continue
+
 		# ignore any conversion other than kanji
 		if not has_kanji(orig) or orig == hira:
 			str += orig
@@ -149,11 +154,17 @@ def addfurigana(mecab, kakasi, entry, variant):
 		escapedquote = "\\\""
 		replacequotes = "$€"
 		fixquotes = escapedquote in v
+		fixandchar = "&" in v
 
 		if fixquotes:
 			assert replacequotes not in v, "Use a different replacement"
 
 			v = v.replace(escapedquote, replacequotes)
+
+		if fixandchar:
+			assert "§" not in v, "Use a different replacement"
+
+			v = v.replace("&", "§")
 
 		xl = ET.fromstring(v)
 		t = xl.attrib["t"]
@@ -163,6 +174,9 @@ def addfurigana(mecab, kakasi, entry, variant):
 		if hasfurigana:
 			if fixquotes:
 				str = str.replace(replacequotes, escapedquote)
+
+			if fixandchar:
+				str = str.replace("§", "&")
 
 			xl.attrib["t"] = str
 
@@ -183,8 +197,6 @@ def addfurigana(mecab, kakasi, entry, variant):
 
 
 def processjson(mecab, kakasi, file, jsn):
-	print("Processing " + os.path.basename(file) + "...")
-
 	chunks = jsn["Chunks"]
 
 	for c in chunks:
@@ -214,21 +226,42 @@ def processjson(mecab, kakasi, file, jsn):
 					json.dump(jsn, f, indent=2, ensure_ascii=False, check_circular=False)
 
 
-def process(mecab, kakasi, path):
+def process(mecab, kakasi, path, filen, count):
 	for f in os.listdir(path):
 		p = os.path.join(path, f)
 
 		if os.path.isdir(p):
-			process(mecab, kakasi, p)
+			filen = process(mecab, kakasi, p, filen, count)
 
 		elif f.endswith(".json"):
+			filen += 1
+
+			print("Processing " + f + " (" + str(filen) + "/" + str(count) + ") ...")
+
 			with open(p, "r", encoding="utf8") as ff:
 				jsn = json.load(ff)
 				processjson(mecab, kakasi, p, jsn)
 
+	return filen
+
+def countfiles(path):
+	count = 0
+
+	for f in os.listdir(path):
+		p = os.path.join(path, f)
+
+		if os.path.isdir(p):
+			count += countfiles(p)
+
+		elif f.endswith(".json"):
+			count += 1
+
+	return count
 
 # taken from https://github.com/MikimotoH/furigana/blob/master/furigana/furigana.py
 mecab = MeCab.Tagger()  #"-Ochasen"
 kakasi = pykakasi.kakasi()
 
-process(mecab, kakasi, sourcepath)
+count = countfiles(sourcepath)
+
+process(mecab, kakasi, sourcepath, 0, count)
