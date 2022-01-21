@@ -216,6 +216,15 @@ def split_katakana(hiraganasplit, katakana):
 	return result
 
 
+basehiragana = {
+	"が": "か", "ざ": "さ", "だ": "た", "ば": "は", "ぱ": "は",
+	"ぎ": "き", "じ": "し", "ぢ": "ち", "び": "ひ", "ぴ": "ひ",
+	"ぐ": "く", "ず": "す", "づ": "つ", "ぶ": "ふ", "ぷ": "ふ",
+	"げ": "け", "ぜ": "せ", "で": "て", "べ": "へ", "ぺ": "へ",
+	"ご": "こ", "ぞ": "そ", "ど": "と", "ぼ": "ほ", "ぽ": "ほ"
+}
+
+
 def split_hiragana(kanjisplit, hiragana, katakana):
 	result = []
 
@@ -237,6 +246,12 @@ def split_hiragana(kanjisplit, hiragana, katakana):
 		t = e[0]
 		text = hiragana
 		pos = hiragana.rfind(t, 0, endfind)
+
+		# handle the case that the pronunciation of a character was changed
+		if pos < 0 and len(t) == 1 and t in basehiragana:
+			t2 = basehiragana[t]
+			pos = hiragana.rfind(t2, 0, endfind)
+			# todo should 'e' be updated to have the hiragana pronunciation?
 
 		# check if this is a unwanted katakana conversion
 		if pos < 0:
@@ -547,8 +562,6 @@ process(ProcessData(mecab, kakasi, jam, additionalreadings, problems), sourcepat
 sys.stdout.write(" done.\n")
 
 if len(problems) > 0:
-	print("Found " + str(len(problems)) + " problems...")
 	for p in problems:
 		print( p[0] + ": " + p[1])
-
-breakpointhere = 1
+	print("Found " + str(len(problems)) + " problems...")
