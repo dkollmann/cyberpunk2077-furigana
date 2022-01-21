@@ -537,23 +537,6 @@ def countfiles(path):
 	return count
 
 
-mecab = MeCab.Tagger()
-kakasi = pykakasi.kakasi()
-jam = Jamdict()
-
-count = countfiles(sourcepath)
-problems = []
-
-# when no reading can be found, we try to use one of these readings instead
-additionalreadings = {
-	"応": (("オウ", "ヨウ", "ノウ"), ("あた", "まさに", "こた")),
-	"摂": (("セツ", "ショウ"), ("おさ", "かね", "と")),
-	"癒": (("ユ",), ("いや", "い")),
-	"話": (("ワ",), ("はなし", "はな")),
-	"事": (("ジ", "ズ"), ("こと", "ごと", "つか")),
-	"通": (("ツウ", "ツ,", "トウ"), ("とお", "どお", "かよ"))
-}
-
 class ProcessData:
 	def __init__(self, mecab, kakasi, jam, additionalreadings, problems):
 		self.mecab = mecab
@@ -589,6 +572,31 @@ class ProcessData:
 
 	def addproblem(self, filename, text, kanji=None):
 		self.problems.append( (filename, text, kanji) )
+
+
+mecab = MeCab.Tagger()
+kakasi = pykakasi.kakasi()
+jam = Jamdict()
+
+count = countfiles(sourcepath)
+problems = []
+
+# provide additional readings needed by the subtitles
+additionalreadings = {
+	"応": (("オウ", "ヨウ", "ノウ"), ("あた", "まさに", "こた")),
+	"摂": (("セツ", "ショウ"), ("おさ", "かね", "と")),
+	"癒": (("ユ",), ("いや", "い")),
+	"話": (("ワ",), ("はなし", "はな")),
+	"事": (("ジ", "ズ"), ("こと", "ごと", "つか")),
+	"通": (("ツウ", "ツ,", "トウ"), ("とお", "どお", "かよ")),
+	"間": (("カン", "ケン", "ゲン"), ("あいだ", "あい", "ま")),
+	"配": (("ハイ", "パイ"), ("くば",)),
+	"発": (("ハツ", "ハッ", "ホツ"), ("はな", "つか", "おこ", "あば", "た")),
+	"入": (("ジュ", "ニュウ"), ("はい", "いっ", "い")),
+	"結": (("ケチ", "ケツ", "ケッ"), ("むす", "ゆ")),
+	"手": (("シュ", "ズ"), ("て", "で", "た")),
+	"日": (("ニチ", "ジツ"), ("ひ", "び", "か"))
+}
 
 sys.stdout.write("Processing 0%")
 process(ProcessData(mecab, kakasi, jam, additionalreadings, problems), sourcepath, 0, count)
