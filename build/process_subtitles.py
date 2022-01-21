@@ -310,15 +310,19 @@ def addfurigana_text(processdata, text, filename):
 			matchedkana = False
 
 			# check if matching needs to happen
-			if iskanji and len(katakana) > 1:
-				readings = []
-				matchedkana = find_reading(processdata, kanji, katakana, readings, filename)
+			if iskanji:
+				if len(katakana) > 1:
+					readings = []
+					matchedkana = find_reading(processdata, kanji, katakana, readings, filename)
 
-			if matchedkana:
-				for k in range(len(kanji)):
-					s += kanji[k] + openbracket + readings[k] + closebracket
+				if matchedkana:
+					for k in range(len(kanji)):
+						s += kanji[k] + openbracket + readings[k] + closebracket
+				else:
+					s += kanji + openbracket + hiragana + closebracket
+
 			else:
-				s += kanji + openbracket + hiragana + closebracket
+				s += kanji
 
 		str += s
 
