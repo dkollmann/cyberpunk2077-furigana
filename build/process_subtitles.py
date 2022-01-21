@@ -37,10 +37,32 @@ def kana2hira(processdata, kana):
 	return hira
 
 
-def get_cachedreading(processdata, katakana):
-	hiragana = kana2hira(processdata, katakana)
+def hira2kana(processdata, hira):
+	conv = processdata.kakasi.convert(hira)
 
-	return (katakana, hiragana)
+	kana = ""
+	for c in conv:
+		kana += c["kana"]
+
+	assert len(kana) == len(hira), "Expected both to be the same length"
+
+	return kana
+
+
+def has_reading_kana(readings, newkana):
+	for r in readings:
+		if r[0] == newkana:
+			return True
+
+	return False
+
+
+def has_reading_hira(readings, newhira):
+	for r in readings:
+		if r[1] == newhira:
+			return True
+
+	return False
 
 
 def get_kanjireading(processdata, katakana, kanji):
@@ -58,7 +80,25 @@ def get_kanjireading(processdata, katakana, kanji):
 
 			on_readings = data.chars[0].rm_groups[0].on_readings
 			for r in on_readings:
-				foundreadings.append(r.value)
+				k = r.value
+
+				if not has_reading_kana(foundreadings, k):
+					h = kana2hira(processdata, k)
+
+					foundreadings.append( (k, h) )
+
+			kun_readings = data.chars[0].rm_groups[0].kun_readings
+			for r in kun_readings:
+				h = r.value.lstrip("-")
+
+				dot = h.find(".")
+				if dot >= 0:
+					h = h[:dot]
+
+				if not has_reading_hira(foundreadings, h):
+					k = hira2kana(processdata, h)
+
+					foundreadings.append((k, h))
 
 	# check mecab
 	if processdata.mecab is not None:
@@ -70,21 +110,18 @@ def get_kanjireading(processdata, katakana, kanji):
 					kana = sp[6]
 
 					# when the kana is the whole word, skip it
-					if len(kana) != len(katakana) and kana not in foundreadings:
-						foundreadings.append(kana)
+					if len(kana) != len(katakana) and not has_reading_kana(foundreadings, kana):
+						hira = kana2hira(processdata, kana)
+
+						foundreadings.append(( kana, hira) )
 
 				node = node.bnext
 			else:
 				node = node.next
 
-	cached = []
+	processdata.readingscache[kanji] = foundreadings
 
-	for r in foundreadings:
-		cached.append( get_cachedreading(processdata, r) )
-
-	processdata.readingscache[kanji] = cached
-
-	return cached
+	return foundreadings
 
 
 def find_reading(processdata, kanji, katakana, readings, filename):
@@ -327,17 +364,8 @@ problems = []
 
 # when no reading can be found, we try to use one of these readings instead
 additionalreadings = {
-	"応": ["オウ", "ヨウ", "ノウ"]
+	#"応": ["オウ", "ヨウ", "ノウ"]
 }
-
-'''
-"世": ["セイ", "セ", "ソウ"],
-"当": ["トウ"],
-"応": ["オウ", "ヨウ", "ノウ"],
-"己": ["コ", "キ"],
-"売": ["バイ"],
-"楽": ["ガク", "ラク", "ゴウ"]
-'''
 
 class ProcessData:
 	def __init__(self, mecab, kakasi, jam, additionalreadings, problems):
@@ -352,14 +380,16 @@ class ProcessData:
 
 			cached = []
 			for k in rr:
-				cached.append( get_cachedreading(self, k) )
+				h = kana2hira(self, k)
+
+				cached.append( (k, h) )
 
 			self.readingscache[r] = cached
 
 	def addproblem(self, filename, text):
 		self.problems.append( (filename, text) )
 
-sys.stdout.write("Processing 00%")
+sys.stdout.write("Processing 0%")
 process(ProcessData(mecab, kakasi, jam, additionalreadings, problems), sourcepath, 0, count)
 sys.stdout.write(" done.\n")
 
