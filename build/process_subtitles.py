@@ -46,6 +46,9 @@ def find_reading(mecab, kakasi, kanji, furigana, readings):
 		found = False
 		for f in features:
 			ff = f.split(",")
+			if len(ff) < 7:
+				return False
+
 			kana = ff[6]
 
 			# when the kana is the whole word, skip it
@@ -112,8 +115,11 @@ def addfurigana_text(mecab, kakasi, text):
 		prehiragana = hira[:a]
 		posthiragana = hira[bhira:]
 
-		readings = []
-		matchedkana = find_reading(mecab, kakasi, kanji, furigana, readings)
+		# try if we can match each kanji to a specific reading
+		matchedkana = False
+		if len(kanji) > 1:
+			readings = []
+			matchedkana = find_reading(mecab, kakasi, kanji, furigana, readings)
 
 		if matchedkana:
 			s = prehiragana
