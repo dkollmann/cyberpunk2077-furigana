@@ -547,8 +547,11 @@ problems = []
 # when no reading can be found, we try to use one of these readings instead
 additionalreadings = {
 	"応": (("オウ", "ヨウ", "ノウ"), ("あた", "まさに", "こた")),
-	"摂": (("セツ", "ショウ"), ("おさ", " かね", "と")),
-	"癒": (("ユ"), ("いや", "い"))
+	"摂": (("セツ", "ショウ"), ("おさ", "かね", "と")),
+	"癒": (("ユ",), ("いや", "い")),
+	"話": (("ワ",), ("はなし", "はな")),
+	"事": (("ジ", "ズ"), ("こと", "ごと", "つか")),
+	"通": (("ツウ", "ツ,", "トウ"), ("とお", "どお", "かよ"))
 }
 
 class ProcessData:
@@ -606,3 +609,13 @@ if len(problems) > 0:
 	for k, n in sort:
 		sys.stdout.write(k + ": " + str(n) + ", ")
 	print(".")
+	# show top problems
+	k = sort[0][0]
+	i = 0
+	for p in problems:
+		kanji = p[2]
+		if kanji == k:
+			i += 1
+			print(p[0] + ": " + p[1])
+			if i >= 10:
+				break
