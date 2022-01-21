@@ -14,7 +14,7 @@ if os.path.isdir(os.path.abspath(sourcepath + "_Subtitles")):
 
 
 def is_kanji(ch):
-	return 'CJK UNIFIED IDEOGRAPH' in unicodedata.name(ch) or ch == '々'
+	return ('CJK UNIFIED IDEOGRAPH' in unicodedata.name(ch)) or ch == '々'
 
 
 def has_kanji(str):
@@ -216,8 +216,11 @@ def split_katakana(hiraganasplit, katakana):
 	return result
 
 
-def split_hiragana(kanjisplit, hiragana):
+def split_hiragana(kanjisplit, hiragana, katakana):
 	result = []
+
+	# the conversion to hiragana will also convert any katakana, so we have to reverse this
+	assert len(hiragana) == len(katakana), "Expected both to be the same length"
 
 	# we get better results when matching the hiragana from back to start
 	end = len(hiragana)
@@ -230,12 +233,19 @@ def split_hiragana(kanjisplit, hiragana):
 
 		# try to find the non-kanji text
 		t = e[0]
+		text = hiragana
 		pos = hiragana.rfind(t, 0, end)
+
+		# check if this is a unwanted katakana conversion
+		if pos < 0:
+			text = katakana
+			pos = katakana.rfind(t, 0, end)
+
 		assert pos >= 0, "Failed to find hiragana"
 
 		start = pos + len(t)
 		if start < end:
-			kanji = hiragana[start:end]
+			kanji = text[start:end]
 			result.append( (kanji, True) )
 
 		result.append(e)
@@ -257,6 +267,47 @@ def split_hiragana(kanjisplit, hiragana):
 			assert kanjisplit[i][0] == result[i][0], "Non-kanji elements must be the same"
 
 	return result
+
+
+def katakana_vowels_init():
+	result = {}
+
+	vowels = {
+		"ア": ("ア", "カ", "サ", "タ", "ナ", "ハ", "マ", "ヤ", "ラ", "ワ", "ガ", "ザ", "ダ", "バ", "パ", "ャ"),
+		"イ": ("イ", "キ", "シ", "チ", "ニ", "ヒ", "ミ", "リ", "ヰ", "ギ", "ジ", "ヂ", "ビ", "ピ"),
+		"ウ": ("ウ", "ク", "ス", "ツ", "ヌ", "フ", "ム", "ユ", "ル", "グ", "ズ", "ヅ", "ブ", "プ", "ュ"),
+		"エ": ("エ", "ケ", "セ", "テ", "ネ", "ヘ", "メ", "レ", "ヱ", "ゲ", "ゼ", "デ", "ベ", "ペ"),
+		"オ": ("オ", "コ", "ソ", "ト", "ノ", "ホ", "モ", "ヨ", "ロ", "ヲ", "ゴ", "ゾ", "ド", "ボ", "ポ", "ョ")
+	}
+
+	for v in vowels:
+		for k in vowels[v]:
+			result[ ord(k) ] = v
+
+	return result
+
+
+katakana_vowels = katakana_vowels_init()
+
+
+def fix_longvowels(original, katakana):
+	# when the original string uses a 'ー' character, it is lost during the conversion to katakana, so we restore it
+	pos = original.find("ー")
+
+	while pos > 0:
+		# determine the vowel which is represented
+		vowel = original[pos-1:pos]
+		vowel_ord = ord(vowel)
+
+		if vowel_ord in katakana_vowels:
+			vowel2 = katakana_vowels[vowel_ord]
+
+			# find the occurence and replace it
+			katakana = katakana.replace(vowel + vowel2, vowel + "ー")
+
+		pos = original.find("ー", pos + 1)
+
+	return katakana
 
 
 def addfurigana_text(processdata, text, filename):
@@ -292,7 +343,9 @@ def addfurigana_text(processdata, text, filename):
 		split_kanjis = split_kanji(orig)
 
 		if len(split_kanjis) > 1:
-			split_hira = split_hiragana(split_kanjis, hira)
+			kana = fix_longvowels(orig, kana)
+
+			split_hira = split_hiragana(split_kanjis, hira, kana)
 			split_kana = split_katakana(split_hira, kana)
 		else:
 			assert split_kanjis[0][1], "This must be a kanji element"
