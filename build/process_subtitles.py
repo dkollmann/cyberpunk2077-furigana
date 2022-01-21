@@ -25,7 +25,7 @@ def has_kanji(str):
 	return False
 
 
-def find_reading(mecab, kakasi, kanji, furigana, readings):
+def find_reading(mecab, kakasi, kanji, furigana, readings, problems, filename):
 	# get katakana reading
 	katakana = kakasi.convert(furigana)[0]["kana"]
 
@@ -47,7 +47,7 @@ def find_reading(mecab, kakasi, kanji, furigana, readings):
 		for f in features:
 			ff = f.split(",")
 			if len(ff) < 7:
-				return False
+				continue
 
 			kana = ff[6]
 
@@ -63,10 +63,12 @@ def find_reading(mecab, kakasi, kanji, furigana, readings):
 
 		# when one kanji fails we have to abort
 		if not found:
+			problems.append( (filename, "Could not match kanji \"" + k + "\" to kana \"" + katakanaleft + "\".") )
 			return False
 
 	# check if all of the reading was "consumed"
 	if len(katakanaleft) > 0:
+		problems.append( (filename, "Matched all kanji of \"" + kanji + "\" to \"" + katakana + "\" but \"" + katakanaleft + "\" was left over.") )
 		return False
 
 	return True
@@ -124,7 +126,7 @@ def addfurigana_text(mecab, kakasi, text, problems, filename):
 		matchedkana = False
 		if len(kanji) > 1:
 			readings = []
-			matchedkana = find_reading(mecab, kakasi, kanji, furigana, readings)
+			matchedkana = find_reading(mecab, kakasi, kanji, furigana, readings, problems, filename)
 
 		if matchedkana:
 			s = prehiragana
