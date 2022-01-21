@@ -25,6 +25,50 @@ def has_kanji(str):
 	return False
 
 
+def find_reading(mecab, kakasi, kanji, furigana, readings):
+	# get katakana reading
+	katakana = kakasi.convert(furigana)[0]["kana"]
+
+	# get all the readings for the kanji
+	katakanaleft = katakana
+
+	for k in kanji:
+		features = []
+		node = mecab.parseToNode(k + "一")  # this is a hack to get the Chinese reading
+		while node:
+			if len(node.surface) > 0:
+				features.append(node.feature)
+				node = node.bnext
+			else:
+				node = node.next
+
+		# try to match the kanji with the reading
+		found = False
+		for f in features:
+			ff = f.split(",")
+			kana = ff[6]
+
+			# when the kana is the whole word, skip it
+			if len(kana) == len(katakana):
+				continue
+
+			if katakanaleft.startswith(kana):
+				found = True
+				readings.append(kana)
+				katakanaleft = katakanaleft[len(kana):]
+				break
+
+		# when one kanji fails we have to abort
+		if not found:
+			return False
+
+	# check if all of the reading was "consumed"
+	if len(katakanaleft) > 0:
+		return False
+
+	return True
+
+
 def addfurigana_text(mecab, kakasi, text):
 	# because of our format, the text cannot contain brackets
 	openbracket = "{"
@@ -68,7 +112,16 @@ def addfurigana_text(mecab, kakasi, text):
 		prehiragana = hira[:a]
 		posthiragana = hira[bhira:]
 
-		s = prehiragana + kanji + openbracket + furigana + closebracket + posthiragana
+		readings = []
+		matchedkana = find_reading(mecab, kakasi, kanji, furigana, readings)
+
+		if matchedkana:
+			s = prehiragana
+			for k in range(len(kanji)):
+				s += kanji[k] + openbracket + readings[k] + closebracket
+			s += posthiragana
+		else:
+			s = prehiragana + kanji + openbracket + furigana + closebracket + posthiragana
 
 		str += s
 
