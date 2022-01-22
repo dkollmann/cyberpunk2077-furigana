@@ -9,16 +9,18 @@ public class FuriganaSubtitleWidget
 	public func init(ctrl :ref<SubtitleLineLogicController>) -> ref<FuriganaSubtitleWidget>
 	{
 		this.root = new inkFlex();
-		this.root.Reparent( ctrl.GetRootCompoundWidget() );
+
+		ctrl.GetRootCompoundWidget().AddChildWidget(this.root);
+
 		return this;
 	}
 
 	private func HideAllFuriganaWidgets() -> Void
 	{
+		this.root.RemoveAllChildren();
+
 		for w in this.furiganaWidgets
 		{
-			w.SetVisible(false);
-
 			ArrayPush(this.furiganaWidgetsHidden, w);
 		}
 
@@ -38,18 +40,17 @@ public class FuriganaSubtitleWidget
 		}
 
 		// create a new widget
-		LogChannel(n"DEBUG", "Create furigana widget");
-
 		let w = new inkText();
 
-		w.SetVisible(false);
+		LogChannel(n"DEBUG", "Create furigana widget: " + ToString(w.GetClassName()));
+
 		//w.SetSize(new Vector2(400, 400));
 		//w.SetAnchor(inkEAnchor.Fill);
-		w.SetFitToContent(true);
 		w.SetFontFamily("base\\gameplay\\gui\\fonts\\foreign\\japanese\\mgenplus\\mgenplus.inkfontfamily", n"Medium");  // base\gameplay\gui\fonts\foreign\japanese\smart_font_ui\smart_font_ui.inkfontfamily
 		w.SetFontSize(24);
-
-		w.Reparent(this.root);
+		w.EnableAutoScroll(true);
+		//w.SetFitToContent(true);
+		w.SetSizeRule(inkESizeRule.Stretch);
 
 		ArrayPush(this.furiganaWidgetsHidden, w);
 
@@ -66,7 +67,7 @@ public class FuriganaSubtitleWidget
 		let count = size / 3;
 
 		let wpos = 0.0;
-		let wordmargin = 1.0;
+		let wordmargin = 0.0;
 
 		let i = 0;
 		while i < size
@@ -81,9 +82,12 @@ public class FuriganaSubtitleWidget
 
 			let w = this.GetFuriganaWidget();
 
-			w.SetTranslation(wpos, 0.0);
-			w.SetText(str);
-			w.SetVisible(true);
+			//w.SetTranslation(wpos, 0.0);
+			w.SetTextDirect(str);
+			w.SetFitToContent(false);
+			w.SetFitToContent(true);
+
+			this.root.AddChildWidget(w);
 
 			wpos += w.GetWidth() + wordmargin;
 
