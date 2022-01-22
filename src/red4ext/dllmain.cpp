@@ -3,7 +3,30 @@
 //#include <Windows.h>
 #include <RED4ext/RED4ext.hpp>
 #include "utf8proc/utf8proc.h"
+#include <vector>
 #include <assert.h>
+
+template<typename T> class vectorstring : public std::vector<T>
+{
+public:
+
+    void addstring(const T *str, int start, int end)
+    {
+        assert(start >= 0 && end >= start);
+
+        size_t len = (size_t)(end - start + 1);
+        size_t pos = this->size();
+
+        this->resize(pos + len);
+
+        std::memcpy(this->data() + pos, str + start, len * sizeof(T));
+    }
+
+    void addzero()
+    {
+        this->push_back((T)0);
+    }
+};
 
 constexpr bool iskanji(int n)
 {
@@ -163,6 +186,67 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
 #endif // _DEBUG
 }
 
+void StrStripFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, RED4ext::CString* aOut, int64_t a4)
+{
+    RED4ext::CString text;
+    RED4ext::GetParameter(aFrame, &text);
+
+    aFrame->code++; // skip ParamEnd
+
+    // if the result cannot be stored, there is no point of doing this
+    if(aOut == nullptr)
+        return;
+
+    // check if there are actually furigana in there
+    auto textstr = text.c_str();
+    const int textsize = (int) text.Length();
+    bool hasfurigana = false;
+    for(int i = 0; i < textsize; ++i)
+    {
+        // this is okay because it is an ascii character
+        if( textstr[i] == '{' )
+        {
+            hasfurigana = true;
+            break;
+        }
+    }
+
+    // handle the simple case that there is no furigana
+    if(!hasfurigana)
+    {
+        *aOut = text;
+        return;
+    }
+
+    vectorstring<char> stripped;
+    stripped.reserve(textsize);
+
+    int start = 0;
+    for(int i = 1; i < textsize; ++i)
+    {
+        // this is okay because it is an ascii character
+        if( textstr[i] == '{' )
+        {
+            stripped.addstring(textstr, start, i - 1);
+        }
+        if( textstr[i] == '}' )
+        {
+            start = i + 1;
+        }
+    }
+
+    if(start < textsize)
+    {
+        stripped.addstring(textstr, start, textsize - 1);
+    }
+
+    stripped.addzero();
+
+    RED4ext::CString result( stripped.data() );
+
+    (*aOut) = std::move(result);
+}
+
 RED4EXT_C_EXPORT void RED4EXT_CALL RegisterTypes()
 {
 }
@@ -179,6 +263,14 @@ RED4EXT_C_EXPORT void RED4EXT_CALL PostRegisterTypes()
         func->flags = flags;
         func->AddParam("String", "text");
         func->SetReturnType("array<Int16>");
+        rtti->RegisterFunction(func);
+    }
+
+    {
+        auto func = RED4ext::CGlobalFunction::Create("StrStripFurigana", "StrStripFurigana", &StrStripFurigana);
+        func->flags = flags;
+        func->AddParam("String", "text");
+        func->SetReturnType("String");
         rtti->RegisterFunction(func);
     }
 }

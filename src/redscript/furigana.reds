@@ -6,6 +6,9 @@
 	  n == 2 --> The type of the block. 0 = text, 1 = kanji, 2 = furigana */
 private static native func StrSplitFurigana(text: String) -> array<Int16>;
 
+/** Removes all furigana from a given string. */
+private static native func StrStripFurigana(text: String) -> String;
+
 @addMethod(SubtitleLineLogicController)
 private func GenerateFurigana(text :String) -> String
 {
@@ -31,22 +34,12 @@ private func GenerateFurigana(text :String) -> String
 
 		LogChannel(n"DEBUG", "  " + ToString(start) + "  " + ToString(size) + "  " + ToString(type));
 
-		let str = StrMid(text, start, size);
-
-		switch type
-		{
-			case 0:  // text
-				outstr += str;
-			case 1:  // kanji
-				outstr += str;
-			case 2:  // furigana
-				outstr += ("[" + str + "]");
-		}
+		//let str = StrMid(text, start, size);
 
 		i += 3;
 	}
 
-	return outstr;
+	return StrStripFurigana(text);
 }
 
 @replaceMethod(SubtitleLineLogicController)
