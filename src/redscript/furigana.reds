@@ -1,19 +1,11 @@
-public static native func StrOrd(text: String, index: Int32) -> Int32;
+private static native func StrSplitFurigana(text: String) -> Int32;
 
-//@addMethod(SubtitleLineLogicController)
-private func SplitKanji(text :String) -> array<String>
+@addMethod(SubtitleLineLogicController)
+private func GenerateFurigana(text :String) -> Void
 {
-	let size = StrLen(text);
+	let res = StrSplitFurigana(text);
 
-	let i = 0;
-	while i < size
-	{
-		let ch = StrOrd(text, i);
-
-		LogChannel(n"DEBUG", ToString(ch));
-
-		i += 1;
-	}
+	LogChannel(n"DEBUG", "Furigana: " + ToString(res));
 }
 
 @replaceMethod(SubtitleLineLogicController)
@@ -155,7 +147,7 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 			// show normal lines
 			LogChannel(n"DEBUG", "SUBTITLE: " + speakerName);
 
-			let kanjis = SplitKanji(this.m_lineData.text);
+			this.GenerateFurigana(this.m_lineData.text);
 
 			inkTextRef.SetText(this.m_targetTextWidgetRef, this.m_lineData.text);
 			this.PlayLibraryAnimation(n"intro");
