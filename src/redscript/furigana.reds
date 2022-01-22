@@ -1,11 +1,56 @@
-private static native func StrSplitFurigana(text: String) -> Int32;
+/** Generates a list of blocks for the given string.
+	The list works as following:
+	  n = index % 3
+	  n == 0 --> The first character of the block inside the string.
+	  n == 1 --> The last character of the block inside the string.
+	  n == 2 --> The type of the block. 0 = text, 1 = kanji, 2 = furigana */
+private static native func StrSplitFurigana(text: String) -> array<Int16>;
 
 @addMethod(SubtitleLineLogicController)
-private func GenerateFurigana(text :String) -> Void
+private func GenerateFurigana(text :String) -> String
 {
-	let res = StrSplitFurigana(text);
+	let blocks = StrSplitFurigana(text);
+	let size = ArraySize(blocks);
+	let count = size / 3;
 
-	LogChannel(n"DEBUG", "Furigana: " + ToString(res));
+	LogChannel(n"DEBUG", "Furigana: " + ToString(count));
+
+	if count < 1
+	{
+		return text;
+	}
+
+	let outstr = "";
+
+	let i = 0;
+	while i < size
+	{
+		let begin = Cast<Int32>( blocks[i] );
+		let end =   Cast<Int32>( blocks[i + 1] );
+		let type =  Cast<Int32>( blocks[i + 2] );
+
+		LogChannel(n"DEBUG", "  " + ToString(begin) + "  " + ToString(end) + "  " + ToString(type));
+
+		/*let str =   StrMid(text, begin, end - begin + 1);
+
+		LogChannel(n"DEBUG", str);
+
+		switch type
+		{
+			case 0:  // text
+				outstr += str;
+			case 1:  // kanji
+				outstr += str;
+			case 2:  // furigana
+				outstr += ("[" + str + "]");
+		}*/
+
+		i += 3;
+	}
+
+	//LogChannel(n"DEBUG", "----");
+
+	return outstr;
 }
 
 @replaceMethod(SubtitleLineLogicController)
@@ -147,9 +192,9 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 			// show normal lines
 			LogChannel(n"DEBUG", "SUBTITLE: " + speakerName);
 
-			this.GenerateFurigana(this.m_lineData.text);
+			let txt = this.GenerateFurigana(this.m_lineData.text);
 
-			inkTextRef.SetText(this.m_targetTextWidgetRef, this.m_lineData.text);
+			inkTextRef.SetText(this.m_targetTextWidgetRef, txt);
 			this.PlayLibraryAnimation(n"intro");
 		}
 	}

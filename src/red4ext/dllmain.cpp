@@ -26,9 +26,11 @@ template<typename T> bool ToWChar(const char* utf8, T& wchar)
     return sz2 != 0;
 }
 
-#define RETURN_EMPTY_LIST() {*aOut = 0; return;}
+typedef RED4ext::DynArray<short> StrSplitFuriganaList;
 
-void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, int* aOut, int64_t a4)
+#define ADDFRAGMENT(from, to, type) { fragments.PushBack((short)from); fragments.PushBack((short)to); fragments.PushBack((short)type); }
+
+void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, StrSplitFuriganaList* aOut, int64_t a4)
 {
     RED4ext::CString text;
     RED4ext::GetParameter(aFrame, &text);
@@ -38,6 +40,8 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
     // if the result cannot be stored, there is no point of doing this
     if(aOut == nullptr)
         return;
+
+    StrSplitFuriganaList &fragments = *aOut;
 
     // check if there are actually furigana in there
     auto textstr = text.c_str();
@@ -54,20 +58,18 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
 
     // handle the simple case that there is no furigana
     if(!hasfurigana)
-        RETURN_EMPTY_LIST();
+        return;
 
     // we have furigana so we have to start extracting it. This is easier with wchar_t.
     std::vector<wchar_t> subtitle;
     if( !ToWChar(textstr, subtitle) )
-        RETURN_EMPTY_LIST();
+        return;
 
-    const int subtitlelen = (int) subtitle.size();
+    fragments.Reserve(64);
 
-    enum class type : int { text = 0, kanji = 1, furigana = 2 };
-    struct frag { int from; int to; type tpe; };
+    const int subtitlelen = (int)subtitle.size();
 
-    std::vector<frag> fragments;
-    fragments.reserve(8);
+    enum class type : short { text = 0, kanji = 1, furigana = 2 };
 
     int start = 0;
     bool insideblock = false;
@@ -80,7 +82,7 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
             if(ch == L'}')
             {
                 // add the furigana block
-                fragments.push_back({start, i - 1, type::furigana});
+                ADDFRAGMENT(start, i - 1, type::furigana);
 
                 // continue outside of the block
                 start = i + 1;
@@ -105,14 +107,17 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
                 // check if we are good
                 assert(j >= start && j < i);
                 if(j >= i)
-                    RETURN_EMPTY_LIST();
+                {
+                    fragments.Clear();
+                    return;
+                }
 
                 // add the text block before the kanji
                 if(j > start)
-                    fragments.push_back({start, j - 1, type::text});
+                    ADDFRAGMENT(start, j - 1, type::text);
 
                 // add the kanji block
-                fragments.push_back({j, i - 1, type::kanji});
+                ADDFRAGMENT(j, i - 1, type::kanji);
 
                 // continue the block
                 start = i + 1;
@@ -126,11 +131,11 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
     if(start < subtitlelen)
     {
         // add the text at the end
-        fragments.push_back({start, subtitlelen - 1, type::text});
+        ADDFRAGMENT(start, subtitlelen - 1, type::text);
     }
-
-    *aOut = (int) fragments.size();
 }
+
+#undef ADDFRAGMENT
 
 RED4EXT_C_EXPORT void RED4EXT_CALL RegisterTypes()
 {
@@ -147,7 +152,7 @@ RED4EXT_C_EXPORT void RED4EXT_CALL PostRegisterTypes()
         auto func = RED4ext::CGlobalFunction::Create("StrSplitFurigana", "StrSplitFurigana", &StrSplitFurigana);
         func->flags = flags;
         func->AddParam("String", "text");
-        func->SetReturnType("Int32");
+        func->SetReturnType("array<Int16>");
         rtti->RegisterFunction(func);
     }
 }
