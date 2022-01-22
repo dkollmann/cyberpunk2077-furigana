@@ -27,4 +27,4 @@ echo Packaging files...
 call WolvenKit.Console\WolvenKit.CLI.exe pack -p "%MODFILES%" -o %ARCHIVEFOLDER%
 color 07
 
-move /y %ARCHIVEFOLDER%\Mod.archive "%ARCHIVEFOLDER%\Furigana.archive"
+move /y %ARCHIVEFOLDER%\Mod.archive "%ARCHIVEFOLDER%\cyberpunk2077-furigana.archive"
