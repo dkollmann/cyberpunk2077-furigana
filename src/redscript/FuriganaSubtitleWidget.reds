@@ -2,7 +2,7 @@ private static native func DebugTextWidget(widget1 :ref<inkText>, widget2 :wref<
 
 public class FuriganaSubtitleWidget
 {
-	private let root :ref<inkFlex>;
+	private let root :ref<inkHorizontalPanel>;
 	
 	private let furiganaWidgets: array< ref<inkText> >;
 
@@ -12,7 +12,9 @@ public class FuriganaSubtitleWidget
 
 	public func init(ctrl :ref<SubtitleLineLogicController>, orgwidget :inkTextRef) -> ref<FuriganaSubtitleWidget>
 	{
-		this.root = new inkFlex();
+		this.root = new inkHorizontalPanel();
+		this.root.SetAnchor(inkEAnchor.Fill);
+
 		this.originalWidget = orgwidget;
 
 		ctrl.GetRootCompoundWidget().AddChildWidget(this.root);
