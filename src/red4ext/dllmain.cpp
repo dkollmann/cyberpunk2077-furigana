@@ -2,6 +2,7 @@
 #define NOMINMAX
 //#include <Windows.h>
 #include <RED4ext/RED4ext.hpp>
+#include <RED4ext/Scripting/Natives/Generated/ink/TextWidget.hpp>
 #include "utf8proc/utf8proc.h"
 #include <vector>
 #include <assert.h>
@@ -247,6 +248,25 @@ void StrStripFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
     (*aOut) = std::move(result);
 }
 
+#define COPYUNK(name) std::memcpy(&widget1->name, &widget22->name, sizeof(RED4ext::ink::TextWidget::name));
+
+void DebugTextWidget(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, void* aOut, int64_t a4)
+{
+    RED4ext::Handle<RED4ext::ink::TextWidget> widget1;
+    RED4ext::GetParameter(aFrame, &widget1);
+
+    RED4ext::WeakHandle<RED4ext::ink::TextWidget> widget2;
+    RED4ext::GetParameter(aFrame, &widget2);
+    auto widget22 = widget2.Lock();
+
+    aFrame->code++; // skip ParamEnd
+
+    //COPYUNK(unk254);  // makes it invisible
+    //COPYUNK(unk25A);  // makes it invisible
+    //COPYUNK(unk280);  // weird invisible
+    //COPYUNK(unk2B9);  //
+}
+
 RED4EXT_C_EXPORT void RED4EXT_CALL RegisterTypes()
 {
 }
@@ -271,6 +291,14 @@ RED4EXT_C_EXPORT void RED4EXT_CALL PostRegisterTypes()
         func->flags = flags;
         func->AddParam("String", "text");
         func->SetReturnType("String");
+        rtti->RegisterFunction(func);
+    }
+
+    {
+        auto func = RED4ext::CGlobalFunction::Create("DebugTextWidget", "DebugTextWidget", &DebugTextWidget);
+        func->flags = flags;
+        func->AddParam("ref<inkText>", "widget1");
+        func->AddParam("wref<inkText>", "widget2");
         rtti->RegisterFunction(func);
     }
 }

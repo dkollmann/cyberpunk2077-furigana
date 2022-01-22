@@ -93,7 +93,7 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 		inkWidgetRef.SetVisible(this.m_radioSubtitle, true);
 
 		if this.furiganaRadio == null {
-			this.furiganaRadio = new FuriganaSubtitleWidget().init(this);
+			this.furiganaRadio = new FuriganaSubtitleWidget().init(this, this.m_radioSubtitle);
 		}
 
 		targetFurigana = this.furiganaRadio;
@@ -110,7 +110,7 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 			inkWidgetRef.SetVisible(this.m_radioSubtitle, true);
 
 			if this.furiganaRadio == null {
-				this.furiganaRadio = new FuriganaSubtitleWidget().init(this);
+				this.furiganaRadio = new FuriganaSubtitleWidget().init(this, this.m_radioSubtitle);
 			}
 
 			targetFurigana = this.furiganaRadio;
@@ -127,7 +127,7 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 				inkWidgetRef.SetVisible(this.m_radioSubtitle, false);
 
 				if this.furiganaSubtitle == null {
-					this.furiganaSubtitle = new FuriganaSubtitleWidget().init(this);
+					this.furiganaSubtitle = new FuriganaSubtitleWidget().init(this, this.m_subtitleWidget);
 				}
 
 				targetFurigana = this.furiganaSubtitle;
@@ -143,7 +143,7 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 				inkWidgetRef.SetVisible(this.m_radioSubtitle, false);
 
 				if this.furiganaSubtitle == null {
-					this.furiganaSubtitle = new FuriganaSubtitleWidget().init(this);
+					this.furiganaSubtitle = new FuriganaSubtitleWidget().init(this, this.m_subtitleWidget);
 				}
 
 				targetFurigana = this.furiganaSubtitle;
@@ -195,7 +195,7 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 		else
 		{
 			// show normal lines
-			LogChannel(n"DEBUG", "SUBTITLE: " + speakerName);
+			LogChannel(n"DEBUG", "SUBTITLE: " + speakerName + " on " + ToString(inkTextRef.GetName(this.m_targetTextWidgetRef)) + " : " + ToString(inkTextRef.Get(this.m_targetTextWidgetRef).GetClassName()));
 
 			let txt = this.GenerateFurigana(this.m_lineData.text, targetFurigana);
 

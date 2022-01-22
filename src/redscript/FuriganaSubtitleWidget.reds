@@ -1,3 +1,5 @@
+private static native func DebugTextWidget(widget1 :ref<inkText>, widget2 :wref<inkWidget>) -> Void;
+
 public class FuriganaSubtitleWidget
 {
 	private let root :ref<inkFlex>;
@@ -6,9 +8,12 @@ public class FuriganaSubtitleWidget
 
 	private let furiganaWidgetsHidden: array< ref<inkText> >;
 
-	public func init(ctrl :ref<SubtitleLineLogicController>) -> ref<FuriganaSubtitleWidget>
+	private let originalWidget: inkTextRef;
+
+	public func init(ctrl :ref<SubtitleLineLogicController>, orgwidget :inkTextRef) -> ref<FuriganaSubtitleWidget>
 	{
 		this.root = new inkFlex();
+		this.originalWidget = orgwidget;
 
 		ctrl.GetRootCompoundWidget().AddChildWidget(this.root);
 
@@ -48,9 +53,13 @@ public class FuriganaSubtitleWidget
 		//w.SetAnchor(inkEAnchor.Fill);
 		w.SetFontFamily("base\\gameplay\\gui\\fonts\\foreign\\japanese\\mgenplus\\mgenplus.inkfontfamily", n"Medium");  // base\gameplay\gui\fonts\foreign\japanese\smart_font_ui\smart_font_ui.inkfontfamily
 		w.SetFontSize(24);
-		w.EnableAutoScroll(true);
+		w.SetFitToContent(true);
+		//w.EnableAutoScroll(true);
 		//w.SetFitToContent(true);
-		w.SetSizeRule(inkESizeRule.Stretch);
+		//w.SetSizeRule(inkESizeRule.Stretch);
+
+		let w2 = inkTextRef.Get(this.originalWidget);
+		DebugTextWidget(w, w2);
 
 		ArrayPush(this.furiganaWidgetsHidden, w);
 
@@ -84,8 +93,6 @@ public class FuriganaSubtitleWidget
 
 			//w.SetTranslation(wpos, 0.0);
 			w.SetTextDirect(str);
-			w.SetFitToContent(false);
-			w.SetFitToContent(true);
 
 			this.root.AddChildWidget(w);
 
