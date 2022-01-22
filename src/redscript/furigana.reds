@@ -47,10 +47,10 @@ private func GetFuriganaWidget() -> ref<inkText>
 	let w = new inkText();
 
 	w.SetVisible(false);
-	w.SetSize(new Vector2(400, 400));
-	w.SetAnchor(inkEAnchor.Fill);
-	w.SetFontFamily("base\\gameplay\\gui\\fonts\\foreign\\japanese\\mgenplus\\mgenplus.inkfontfamily");  // base\gameplay\gui\fonts\foreign\japanese\smart_font_ui\smart_font_ui.inkfontfamily
-    w.SetFontStyle(n"Medium");
+	//w.SetSize(new Vector2(400, 400));
+	//w.SetAnchor(inkEAnchor.Fill);
+	w.SetFitToContent(true);
+	w.SetFontFamily("base\\gameplay\\gui\\fonts\\foreign\\japanese\\mgenplus\\mgenplus.inkfontfamily", n"Medium");  // base\gameplay\gui\fonts\foreign\japanese\smart_font_ui\smart_font_ui.inkfontfamily
     w.SetFontSize(24);
 
 	w.Reparent( this.GetRootCompoundWidget() );
@@ -70,6 +70,9 @@ private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>) -> Void
 	let size = ArraySize(blocks);
 	let count = size / 3;
 
+	let wpos = 0.0;
+	let wordmargin = 1.0;
+
 	let i = 0;
 	while i < size
 	{
@@ -83,8 +86,13 @@ private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>) -> Void
 
 		let w = this.GetFuriganaWidget();
 
+		w.SetTranslation(wpos, 0.0);
 		w.SetText(str);
 		w.SetVisible(true);
+
+		wpos += w.GetWidth() + wordmargin;
+
+		LogChannel(n"DEBUG", "  POS " + ToString(wpos));
 
 		i += 3;
 	}
