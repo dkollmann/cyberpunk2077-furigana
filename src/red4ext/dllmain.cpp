@@ -1,8 +1,8 @@
 #define WIN32_LEAN_AND_MEAN
 #define NOMINMAX
-#include <Windows.h>
+//#include <Windows.h>
 #include <RED4ext/RED4ext.hpp>
-#include <vector>
+#include "utf8proc/utf8proc.h"
 #include <assert.h>
 
 constexpr bool iskanji(int n)
@@ -11,24 +11,24 @@ constexpr bool iskanji(int n)
     return (n >= 19968 && n <= 40959) || n == 12293 || n == 12534;
 }
 
-template<typename T> bool ToWChar(const char* utf8, T& wchar)
+enum class StrSplitFuriganaListType : short
 {
-    const int ln = (int) std::strlen(utf8);
-    const int sz = MultiByteToWideChar(CP_UTF8, MB_PRECOMPOSED, utf8, ln, nullptr, 0);
-
-    if(sz == 0)
-        return false;
-
-    wchar.resize(sz);
-
-    const int sz2 = MultiByteToWideChar(CP_UTF8, MB_PRECOMPOSED, utf8, ln, (wchar_t*) wchar.data(), sz);
-
-    return sz2 != 0;
-}
+    Text = 0,
+    Kanji = 1,
+    Furigana = 2
+};
 
 typedef RED4ext::DynArray<short> StrSplitFuriganaList;
 
-#define ADDFRAGMENT(from, to, type) { fragments.PushBack((short)from); fragments.PushBack((short)to); fragments.PushBack((short)type); }
+void AddFragment(StrSplitFuriganaList &fragments, int start, int len, StrSplitFuriganaListType type)
+{
+    assert(start >= 0);
+    assert(len > 0);
+
+    fragments.PushBack((short)start);
+    fragments.PushBack((short)len);
+    fragments.PushBack((short)type);
+}
 
 void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, StrSplitFuriganaList* aOut, int64_t a4)
 {
@@ -45,10 +45,11 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
 
     // check if there are actually furigana in there
     auto textstr = text.c_str();
-    const int len = (int) text.Length();
+    const int textsize = (int) text.Length();
     bool hasfurigana = false;
-    for(int i = 0; i < len; ++i)
+    for(int i = 0; i < textsize; ++i)
     {
+        // this is okay because it is an ascii character
         if( textstr[i] == '{' )
         {
             hasfurigana = true;
@@ -60,82 +61,107 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
     if(!hasfurigana)
         return;
 
-    // we have furigana so we have to start extracting it. This is easier with wchar_t.
-    std::vector<wchar_t> subtitle;
-    if( !ToWChar(textstr, subtitle) )
-        return;
-
     fragments.Reserve(64);
 
-    const int subtitlelen = (int)subtitle.size();
-
-    enum class type : short { text = 0, kanji = 1, furigana = 2 };
-
     int start = 0;
+    int kanjiblock = -1;
+    int kanjisize = 0;
+    int lastsize = 0;
     bool insideblock = false;
-    for(int i = 0; i < subtitlelen && start <= i; ++i)
-    {
-        const wchar_t ch = subtitle[i];
 
+    auto subtitle = (const utf8proc_uint8_t*) textstr;
+    for(int index = 0; index < textsize; )
+    {
+        // get the next character
+        utf8proc_int32_t ch;
+        const int chsize = (int) utf8proc_iterate(subtitle + index, -1, &ch);
+
+        if(chsize <= 0)
+            break;
+
+        // process the character
         if(insideblock)
         {
-            if(ch == L'}')
+            if(ch == (int)'}')
             {
                 // add the furigana block
-                ADDFRAGMENT(start, i - 1, type::furigana);
+                AddFragment(fragments, start, index - start, StrSplitFuriganaListType::Furigana);
 
                 // continue outside of the block
-                start = i + 1;
+                start = index + chsize;
                 insideblock = false;
             }
         }
         else
         {
-            if(ch == L'{')
+            if(ch == (int)'{')
             {
-                // find kanjis
-                int j;
-                for(j = i - 1; j >= start; --j)
-                {
-                    const wchar_t ch2 = subtitle[j];
-
-                    if( !iskanji(ch2) )
-                        break;
-                }
-                j++;
-
-                // check if we are good
-                assert(j >= start && j < i);
-                if(j >= i)
-                {
-                    fragments.Clear();
-                    return;
-                }
-
                 // add the text block before the kanji
-                if(j > start)
-                    ADDFRAGMENT(start, j - 1, type::text);
+                if(kanjiblock > start)
+                    AddFragment(fragments, start, kanjiblock - start, StrSplitFuriganaListType::Text);
 
                 // add the kanji block
-                ADDFRAGMENT(j, i - 1, type::kanji);
+                assert(kanjiblock >= 0);
+                if(kanjiblock >= 0)
+                    AddFragment(fragments, kanjiblock, index - kanjiblock, StrSplitFuriganaListType::Kanji);
 
                 // continue the block
-                start = i + 1;
+                start = index + chsize;
                 insideblock = true;
+                kanjiblock = -1;
+                kanjisize = 0;
+            }
+            else
+            {
+                if( kanjiblock < 0 && iskanji(ch) )
+                {
+                    kanjiblock = index;
+                    kanjisize = chsize;
+                }
             }
         }
+
+        lastsize = chsize;
+        index += chsize;
     }
 
     assert(!insideblock);
 
-    if(start < subtitlelen)
+    if(start < textsize)
     {
         // add the text at the end
-        ADDFRAGMENT(start, subtitlelen - 1, type::text);
+        AddFragment(fragments, start, textsize - start, StrSplitFuriganaListType::Text);
     }
-}
 
-#undef ADDFRAGMENT
+#ifdef _DEBUG
+    // sanity check the data
+    int f = 0;
+    for(int index = 0; index < textsize; )
+    {
+        // get the next character
+        utf8proc_int32_t ch;
+        const int chsize = (int) utf8proc_iterate(subtitle + index, -1, &ch);
+
+        if(chsize <= 0)
+            break;
+
+        index += chsize;
+
+        // check if we are within the fragment
+        int start = fragments[f];
+        int len = fragments[f+1];
+        auto tpe = (StrSplitFuriganaListType) fragments[f+2];
+
+        assert(index >= start && index <= start + len);
+
+        // check if we move to the next fragment
+        if(index >= start + len)
+        {
+            f += 3;
+        }
+    }
+#endif // _DEBUG
+}
 
 RED4EXT_C_EXPORT void RED4EXT_CALL RegisterTypes()
 {

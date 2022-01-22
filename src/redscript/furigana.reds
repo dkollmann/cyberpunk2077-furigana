@@ -1,8 +1,8 @@
 /** Generates a list of blocks for the given string.
 	The list works as following:
 	  n = index % 3
-	  n == 0 --> The first character of the block inside the string.
-	  n == 1 --> The last character of the block inside the string.
+	  n == 0 --> The first byte of the block, inside the string.
+	  n == 1 --> The size of the block in bytes, inside the string.
 	  n == 2 --> The type of the block. 0 = text, 1 = kanji, 2 = furigana */
 private static native func StrSplitFurigana(text: String) -> array<Int16>;
 
@@ -25,15 +25,13 @@ private func GenerateFurigana(text :String) -> String
 	let i = 0;
 	while i < size
 	{
-		let begin = Cast<Int32>( blocks[i] );
-		let end =   Cast<Int32>( blocks[i + 1] );
-		let type =  Cast<Int32>( blocks[i + 2] );
+		let start = Cast<Int32>( blocks[i] );
+		let size  = Cast<Int32>( blocks[i + 1] );
+		let type  = Cast<Int32>( blocks[i + 2] );
 
-		LogChannel(n"DEBUG", "  " + ToString(begin) + "  " + ToString(end) + "  " + ToString(type));
+		LogChannel(n"DEBUG", "  " + ToString(start) + "  " + ToString(size) + "  " + ToString(type));
 
-		/*let str =   StrMid(text, begin, end - begin + 1);
-
-		LogChannel(n"DEBUG", str);
+		let str = StrMid(text, start, size);
 
 		switch type
 		{
@@ -43,12 +41,10 @@ private func GenerateFurigana(text :String) -> String
 				outstr += str;
 			case 2:  // furigana
 				outstr += ("[" + str + "]");
-		}*/
+		}
 
 		i += 3;
 	}
-
-	//LogChannel(n"DEBUG", "----");
 
 	return outstr;
 }

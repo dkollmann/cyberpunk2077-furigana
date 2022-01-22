@@ -5,10 +5,21 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="Source Files\utf8proc">
+      <UniqueIdentifier>{f6a48af0-30b4-49be-8709-55759a5468c5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="utf8proc\utf8proc.c">
+      <Filter>Source Files\utf8proc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utf8proc\utf8proc.h">
+      <Filter>Source Files\utf8proc</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
