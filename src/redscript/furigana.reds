@@ -42,14 +42,20 @@ private func GetFuriganaWidget() -> ref<inkText>
 	}
 
 	// create a new widget
+	LogChannel(n"DEBUG", "Create furigana widget");
+
 	let w = new inkText();
 
 	w.SetVisible(false);
+	w.SetSize(new Vector2(400, 400));
+	w.SetAnchor(inkEAnchor.Fill);
+	w.SetFontFamily("base\\gameplay\\gui\\fonts\\foreign\\japanese\\mgenplus\\mgenplus.inkfontfamily");  // base\gameplay\gui\fonts\foreign\japanese\smart_font_ui\smart_font_ui.inkfontfamily
+    w.SetFontStyle(n"Medium");
+    w.SetFontSize(24);
 
 	w.Reparent( this.GetRootCompoundWidget() );
 
 	ArrayPush(this.furiganaWidgetsHidden, w);
-
 
 	return w;
 }
@@ -78,7 +84,6 @@ private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>) -> Void
 		let w = this.GetFuriganaWidget();
 
 		w.SetText(str);
-
 		w.SetVisible(true);
 
 		i += 3;
