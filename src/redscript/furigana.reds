@@ -9,21 +9,60 @@ private static native func StrSplitFurigana(text: String) -> array<Int16>;
 /** Removes all furigana from a given string. */
 private static native func StrStripFurigana(text: String) -> String;
 
+@addField(SubtitleLineLogicController)
+let furiganaWidgets: array< ref<inkText> >;
+
+@addField(SubtitleLineLogicController)
+let furiganaWidgetsHidden: array< ref<inkText> >;
+
 @addMethod(SubtitleLineLogicController)
-private func GenerateFurigana(text :String) -> String
+private func HideAllFuriganaWidgets() -> Void
 {
-	let blocks = StrSplitFurigana(text);
-	let size = ArraySize(blocks);
-	let count = size / 3;
-
-	LogChannel(n"DEBUG", "Furigana: " + ToString(count));
-
-	if count < 1
+	for w in this.furiganaWidgets
 	{
-		return text;
+		w.SetVisible(false);
+
+		ArrayPush(this.furiganaWidgetsHidden, w);
 	}
 
-	let outstr = "";
+	ArrayResize(this.furiganaWidgets, 0);  // hopefully this retains the memory
+}
+
+@addMethod(SubtitleLineLogicController)
+private func GetFuriganaWidget() -> ref<inkText>
+{
+	// use an existing widget
+	if ArraySize(this.furiganaWidgetsHidden) > 0
+	{
+		let w = ArrayPop(this.furiganaWidgetsHidden);
+
+		ArrayPush(this.furiganaWidgets, w);
+
+		return w;
+	}
+
+	// create a new widget
+	let w = new inkText();
+
+	w.SetVisible(false);
+
+	w.Reparent( this.GetRootCompoundWidget() );
+
+	ArrayPush(this.furiganaWidgetsHidden, w);
+
+
+	return w;
+}
+
+@addMethod(SubtitleLineLogicController)
+private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>) -> Void
+{
+	// move all widgets to the hidden list
+	this.HideAllFuriganaWidgets();
+
+	// add the widgets as needed
+	let size = ArraySize(blocks);
+	let count = size / 3;
 
 	let i = 0;
 	while i < size
@@ -34,10 +73,31 @@ private func GenerateFurigana(text :String) -> String
 
 		LogChannel(n"DEBUG", "  " + ToString(start) + "  " + ToString(size) + "  " + ToString(type));
 
-		//let str = StrMid(text, start, size);
+		let str = StrMid(text, start, size);
+
+		let w = this.GetFuriganaWidget();
+
+		w.SetText(str);
+
+		w.SetVisible(true);
 
 		i += 3;
 	}
+}
+
+@addMethod(SubtitleLineLogicController)
+private func GenerateFurigana(text :String) -> String
+{
+	let blocks = StrSplitFurigana(text);
+	let size = ArraySize(blocks);
+	let count = size / 3;
+
+	if count < 1
+	{
+		return text;
+	}
+
+	this.GenerateFuriganaWidgets(text, blocks);
 
 	return StrStripFurigana(text);
 }
