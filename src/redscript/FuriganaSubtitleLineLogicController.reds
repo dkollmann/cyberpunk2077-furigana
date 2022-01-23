@@ -56,32 +56,28 @@ private static func PrintWidgets(widget :inkWidgetRef) -> Void
 	LogChannel(n"DEBUG", "--------------------");
 }
 
-/** This widget is the root of all subtitles being shown. */
-@addField(SubtitleLineLogicController)
-private let subtitlesWidget :ref<inkCompoundWidget>;
-
 /** This widget is our woot panel we use for our widgets. */
 @addField(SubtitleLineLogicController)
-private let root :ref<inkHorizontalPanel>;
+private let furiganaroot :ref<inkHorizontalPanel>;
 
 @addMethod(SubtitleLineLogicController)
 private func CreateContainer() -> Void
 {
-	this.root = new inkHorizontalPanel();
-	this.root.SetFitToContent(true);
-	this.root.SetName(n"furiganaSubtitle");
+	this.furiganaroot = new inkHorizontalPanel();
+	this.furiganaroot.SetFitToContent(true);
+	this.furiganaroot.SetName(n"furiganaSubtitle");
 
-	this.subtitlesWidget = this.GetRootWidget() as inkCompoundWidget;
-	Assert(this.subtitlesWidget, "Failed to get root widget!!");
+	let subtitlesWidget = this.GetRootWidget() as inkCompoundWidget;
+	Assert(subtitlesWidget, "Failed to get root widget!!");
 
-	let rootParent = this.subtitlesWidget.GetWidgetByPathName(n"Line/subtitleFlex") as inkCompoundWidget;
+	let rootParent = subtitlesWidget.GetWidgetByPathName(n"Line/subtitleFlex") as inkCompoundWidget;
 	Assert(rootParent, "Failed to get root Line/subtitleFlex!!");
 
-	let www = this.subtitlesWidget.GetWidgetByPathName(n"Line/subtitleFlex/subtitle") as inkText;
-	Assert(www, "Failed to get root Line/subtitleFlex/subtitle!!");
-	www.SetTintColor(new Color(Cast<Uint8>(0), Cast<Uint8>(255), Cast<Uint8>(0), Cast<Uint8>(255)));
+	//let www = this.subtitlesWidget.GetWidgetByPathName(n"Line/subtitleFlex/subtitle") as inkText;
+	//Assert(www, "Failed to get root Line/subtitleFlex/subtitle!!");
+	//www.SetTintColor(new Color(Cast<Uint8>(0), Cast<Uint8>(255), Cast<Uint8>(0), Cast<Uint8>(255)));
 
-	this.root.Reparent(rootParent);
+	this.furiganaroot.Reparent(rootParent);
 
 	//LogChannel(n"DEBUG", "Added our own root widget...");
 	//PrintWidgets(this.subtitlesWidget, "");
@@ -109,6 +105,9 @@ private func GetFuriganaWidget() -> ref<inkText>
 @addMethod(SubtitleLineLogicController)
 private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>) -> Void
 {
+	// create the container for our widgets
+	this.CreateContainer();
+
 	// add the widgets as needed
 	let size = ArraySize(blocks);
 	let count = size / 3;
@@ -128,13 +127,13 @@ private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>) -> Void
 
 		w.SetTextDirect(str);
 
-		w.Reparent(this.root);
+		w.Reparent(this.furiganaroot);
 
 		i += 3;
 	}
 
-	LogChannel(n"DEBUG", "Added all the widgets...");
-	PrintWidgets(this.subtitlesWidget, "");
+	//LogChannel(n"DEBUG", "Added all the widgets...");
+	//PrintWidgets(this.subtitlesWidget, "");
 }
 
 @addMethod(SubtitleLineLogicController)
@@ -292,8 +291,6 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 		{
 			// show normal lines
 			//LogChannel(n"DEBUG", "SUBTITLE: " + speakerName + " on " + ToString(inkTextRef.GetName(this.m_targetTextWidgetRef)) + " : " + ToString(inkTextRef.Get(this.m_targetTextWidgetRef).GetClassName()));
-
-			this.CreateContainer();
 
 			let txt = this.GenerateFurigana(this.m_lineData.text);
 
