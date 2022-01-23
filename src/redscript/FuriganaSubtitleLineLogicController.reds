@@ -92,7 +92,7 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 		inkWidgetRef.SetVisible(this.m_radioSpeaker, true);
 		inkWidgetRef.SetVisible(this.m_radioSubtitle, true);
 
-		if this.furiganaRadio == null {
+		if !IsDefined(this.furiganaRadio) {
 			this.furiganaRadio = new FuriganaSubtitleWidget().init(this, this.m_radioSubtitle);
 		}
 
@@ -109,7 +109,7 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 			inkWidgetRef.SetVisible(this.m_radioSpeaker, false);
 			inkWidgetRef.SetVisible(this.m_radioSubtitle, true);
 
-			if this.furiganaRadio == null {
+			if !IsDefined(this.furiganaRadio) {
 				this.furiganaRadio = new FuriganaSubtitleWidget().init(this, this.m_radioSubtitle);
 			}
 
@@ -126,7 +126,7 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 				inkWidgetRef.SetVisible(this.m_radioSpeaker, false);
 				inkWidgetRef.SetVisible(this.m_radioSubtitle, false);
 
-				if this.furiganaSubtitle == null {
+				if !IsDefined(this.furiganaSubtitle) {
 					this.furiganaSubtitle = new FuriganaSubtitleWidget().init(this, this.m_subtitleWidget);
 				}
 
@@ -142,7 +142,7 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 				inkWidgetRef.SetVisible(this.m_radioSpeaker, false);
 				inkWidgetRef.SetVisible(this.m_radioSubtitle, false);
 
-				if this.furiganaSubtitle == null {
+				if !IsDefined(this.furiganaSubtitle) {
 					this.furiganaSubtitle = new FuriganaSubtitleWidget().init(this, this.m_subtitleWidget);
 				}
 
