@@ -9,14 +9,136 @@ private static native func StrSplitFurigana(text: String) -> array<Int16>;
 /** Removes all furigana from a given string. */
 private static native func StrStripFurigana(text: String) -> String;
 
-@addField(SubtitleLineLogicController)
-let furiganaRadio :ref<FuriganaSubtitleWidget>;
+private static func Assert(cond :Bool, msg :String) -> Void
+{
+	if !cond {
+		LogChannel(n"DEBUG", "ASSERT: " + msg);
+	}
+}
 
+private static func Assert(widget :wref<inkWidget>, msg :String) -> Void
+{
+	if !IsDefined(widget) {
+		LogChannel(n"DEBUG", "ASSERT: " + msg);
+	}
+}
+
+private static func PrintWidgets(widget :wref<inkWidget>, indent :String) -> Void
+{
+	LogChannel(n"DEBUG", indent + ToString(widget.GetName()) + " : " + ToString(widget.GetClassName()));
+
+	let compound = widget as inkCompoundWidget;
+
+	if IsDefined(compound)
+	{
+		let count = compound.GetNumChildren();
+
+		let i = 0;
+		while i < count
+		{
+			let w2 = compound.GetWidgetByIndex(i);
+
+			PrintWidgets(w2, indent + " ");
+
+			i += 1;
+		}
+	}
+}
+
+private static func PrintWidgets(widget :inkWidgetRef) -> Void
+{
+	LogChannel(n"DEBUG", "--------------------");
+
+	let w = inkWidgetRef.Get(widget);
+
+	PrintWidgets(w, "");
+
+	LogChannel(n"DEBUG", "--------------------");
+}
+
+/** This widget is the root of all subtitles being shown. */
 @addField(SubtitleLineLogicController)
-let furiganaSubtitle :ref<FuriganaSubtitleWidget>;
+private let subtitlesWidget :ref<inkCompoundWidget>;
+
+/** This widget is our woot panel we use for our widgets. */
+@addField(SubtitleLineLogicController)
+private let root :ref<inkHorizontalPanel>;
 
 @addMethod(SubtitleLineLogicController)
-private func GenerateFurigana(text :String, target :ref<FuriganaSubtitleWidget>) -> String
+private func CreateContainer() -> Void
+{
+	this.root = new inkHorizontalPanel();
+	this.root.SetFitToContent(true);
+	this.root.SetName(n"furiganaSubtitle");
+
+	this.subtitlesWidget = this.GetRootWidget() as inkCompoundWidget;
+	Assert(this.subtitlesWidget, "Failed to get root widget!!");
+
+	let rootParent = this.subtitlesWidget.GetWidgetByPathName(n"Line/subtitleFlex") as inkCompoundWidget;
+	Assert(rootParent, "Failed to get root Line/subtitleFlex!!");
+
+	let www = this.subtitlesWidget.GetWidgetByPathName(n"Line/subtitleFlex/subtitle") as inkText;
+	Assert(www, "Failed to get root Line/subtitleFlex/subtitle!!");
+	www.SetTintColor(new Color(Cast<Uint8>(0), Cast<Uint8>(255), Cast<Uint8>(0), Cast<Uint8>(255)));
+
+	this.root.Reparent(rootParent);
+
+	//LogChannel(n"DEBUG", "Added our own root widget...");
+	//PrintWidgets(this.subtitlesWidget, "");
+}
+
+@addMethod(SubtitleLineLogicController)
+private func GetFuriganaWidget() -> ref<inkText>
+{
+	// create a new widget
+	let w = new inkText();
+
+	w.SetName(n"furiganaTextWidget");
+	//w.SetSize(new Vector2(400, 400));
+	//w.SetAnchor(inkEAnchor.Fill);
+	w.SetFontFamily("base\\gameplay\\gui\\fonts\\foreign\\japanese\\mgenplus\\mgenplus.inkfontfamily", n"Medium");  // base\gameplay\gui\fonts\foreign\japanese\smart_font_ui\smart_font_ui.inkfontfamily
+	w.SetFontSize(48);
+	w.SetFitToContent(true);
+	//w.EnableAutoScroll(true);
+	//w.SetFitToContent(true);
+	//w.SetSizeRule(inkESizeRule.Stretch);
+
+	return w;
+}
+
+@addMethod(SubtitleLineLogicController)
+private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>) -> Void
+{
+	// add the widgets as needed
+	let size = ArraySize(blocks);
+	let count = size / 3;
+
+	let i = 0;
+	while i < size
+	{
+		let start = Cast<Int32>( blocks[i] );
+		let size  = Cast<Int32>( blocks[i + 1] );
+		let type  = Cast<Int32>( blocks[i + 2] );
+
+		//LogChannel(n"DEBUG", "  " + ToString(start) + "  " + ToString(size) + "  " + ToString(type));
+
+		let str = StrMid(text, start, size);
+
+		let w = this.GetFuriganaWidget();
+
+		w.SetTextDirect(str);
+
+		w.Reparent(this.root);
+
+		i += 3;
+	}
+
+	LogChannel(n"DEBUG", "Added all the widgets...");
+	PrintWidgets(this.subtitlesWidget, "");
+}
+
+@addMethod(SubtitleLineLogicController)
+private func GenerateFurigana(text :String) -> String
 {
 	let blocks = StrSplitFurigana(text);
 	let size = ArraySize(blocks);
@@ -27,7 +149,7 @@ private func GenerateFurigana(text :String, target :ref<FuriganaSubtitleWidget>)
 		return text;
 	}
 
-	target.GenerateFuriganaWidgets(text, blocks);
+	this.GenerateFuriganaWidgets(text, blocks);
 
 	return StrStripFurigana(text);
 }
@@ -80,8 +202,6 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 		inkWidgetRef.SetState(this.m_speakerNameWidget, speakerNameWidgetStateName);
 	}
 
-	let targetFurigana :ref<FuriganaSubtitleWidget>;
-
 	if Equals(lineData.type, scnDialogLineType.Radio)
 	{
 		// handle radio lines
@@ -91,12 +211,6 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 		inkWidgetRef.SetVisible(this.m_subtitleWidget, false);
 		inkWidgetRef.SetVisible(this.m_radioSpeaker, true);
 		inkWidgetRef.SetVisible(this.m_radioSubtitle, true);
-
-		if !IsDefined(this.furiganaRadio) {
-			this.furiganaRadio = new FuriganaSubtitleWidget().init(this, this.m_radioSubtitle);
-		}
-
-		targetFurigana = this.furiganaRadio;
 	}
 	else
 	{
@@ -108,12 +222,6 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 			inkWidgetRef.SetVisible(this.m_subtitleWidget, false);
 			inkWidgetRef.SetVisible(this.m_radioSpeaker, false);
 			inkWidgetRef.SetVisible(this.m_radioSubtitle, true);
-
-			if !IsDefined(this.furiganaRadio) {
-				this.furiganaRadio = new FuriganaSubtitleWidget().init(this, this.m_radioSubtitle);
-			}
-
-			targetFurigana = this.furiganaRadio;
 		}
 		else
 		{
@@ -125,12 +233,6 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 				inkWidgetRef.SetVisible(this.m_subtitleWidget, true);
 				inkWidgetRef.SetVisible(this.m_radioSpeaker, false);
 				inkWidgetRef.SetVisible(this.m_radioSubtitle, false);
-
-				if !IsDefined(this.furiganaSubtitle) {
-					this.furiganaSubtitle = new FuriganaSubtitleWidget().init(this, this.m_subtitleWidget);
-				}
-
-				targetFurigana = this.furiganaSubtitle;
 			}
 			else
 			{
@@ -141,12 +243,6 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 				inkWidgetRef.SetVisible(this.m_subtitleWidget, true);
 				inkWidgetRef.SetVisible(this.m_radioSpeaker, false);
 				inkWidgetRef.SetVisible(this.m_radioSubtitle, false);
-
-				if !IsDefined(this.furiganaSubtitle) {
-					this.furiganaSubtitle = new FuriganaSubtitleWidget().init(this, this.m_subtitleWidget);
-				}
-
-				targetFurigana = this.furiganaSubtitle;
 			}
 		}
 	}
@@ -195,12 +291,14 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 		else
 		{
 			// show normal lines
-			LogChannel(n"DEBUG", "SUBTITLE: " + speakerName + " on " + ToString(inkTextRef.GetName(this.m_targetTextWidgetRef)) + " : " + ToString(inkTextRef.Get(this.m_targetTextWidgetRef).GetClassName()));
+			//LogChannel(n"DEBUG", "SUBTITLE: " + speakerName + " on " + ToString(inkTextRef.GetName(this.m_targetTextWidgetRef)) + " : " + ToString(inkTextRef.Get(this.m_targetTextWidgetRef).GetClassName()));
 
-			let txt = this.GenerateFurigana(this.m_lineData.text, targetFurigana);
+			this.CreateContainer();
+
+			let txt = this.GenerateFurigana(this.m_lineData.text);
 
 			inkTextRef.SetText(this.m_targetTextWidgetRef, txt);
-			this.PlayLibraryAnimation(n"intro");
+			//this.PlayLibraryAnimation(n"intro");
 		}
 	}
 }
