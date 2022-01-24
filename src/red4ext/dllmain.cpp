@@ -230,7 +230,7 @@ void StrStripFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
         {
             stripped.addstring(textstr, start, i - 1);
         }
-        if( textstr[i] == '}' )
+        else if( textstr[i] == '}' )
         {
             start = i + 1;
         }

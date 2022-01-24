@@ -147,9 +147,44 @@ private func AddTextWidget(text :String, parent :ref<inkHorizontalPanel>, fontsi
 	w.SetFontSize(fontsize);
 	w.SetFitToContent(true);
 	w.SetHAlign(inkEHorizontalAlign.Left);
-	w.SetVAlign(inkEVerticalAlign.Top);
+	w.SetVAlign(inkEVerticalAlign.Bottom);
 	w.SetText(text);
+	w.SetMargin(0.0, 0.0, 0.0, 10.0);
 	w.Reparent(parent);
+}
+
+private func AddKanjiWithFuriganaWidgets(kanji :String, furigana :String, parent :ref<inkHorizontalPanel>, fontsize :Int32, color :Color) -> Void
+{
+	let furiganasize = Cast<Int32>( Cast<Float>(fontsize) * 0.6 );
+
+	let panel = new inkVerticalPanel();
+	panel.SetName(n"furiganaKH");
+	panel.SetFitToContent(true);
+	panel.SetHAlign(inkEHorizontalAlign.Left);
+	panel.SetVAlign(inkEVerticalAlign.Top);
+	panel.Reparent(parent);
+
+	let wf = new inkText();
+	wf.SetName(n"furiganaText");
+	wf.SetFontFamily("base\\gameplay\\gui\\fonts\\foreign\\japanese\\mgenplus\\mgenplus.inkfontfamily", n"Medium");
+	wf.SetTintColor(color);
+	wf.SetFontSize(furiganasize);
+	wf.SetFitToContent(true);
+	wf.SetHAlign(inkEHorizontalAlign.Center);
+	wf.SetVAlign(inkEVerticalAlign.Top);
+	wf.SetText(furigana);
+	wf.Reparent(panel);
+
+	let wk = new inkText();
+	wk.SetName(n"kanjiText");
+	wk.SetFontFamily("base\\gameplay\\gui\\fonts\\foreign\\japanese\\mgenplus\\mgenplus.inkfontfamily", n"Medium");
+	wk.SetTintColor(color);
+	wk.SetFontSize(fontsize);
+	wk.SetFitToContent(true);
+	wk.SetHAlign(inkEHorizontalAlign.Center);
+	wk.SetVAlign(inkEVerticalAlign.Top);
+	wk.SetText(kanji);
+	wk.Reparent(panel);
 }
 
 @addMethod(SubtitleLineLogicController)
@@ -161,6 +196,10 @@ private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>, fontsiz
 	// add the widgets as needed
 	let size = ArraySize(blocks);
 	let count = size / 3;
+
+	let furiganacolor1 = new Color(Cast<Uint8>(214), Cast<Uint8>(180), Cast<Uint8>(133), Cast<Uint8>(255));
+	let furiganacolor2 = new Color(Cast<Uint8>(191), Cast<Uint8>(215), Cast<Uint8>(132), Cast<Uint8>(255));
+	let furiganaclridx = 0;
 
 	// limit length
 	let maxlinelength = 60;
@@ -178,36 +217,72 @@ private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>, fontsiz
 		let str = StrMid(text, start, size);
 		let count = UnicodeStringLen(str);
 
-		// limit the length, but only for text
-		if type == 0 && currcharlen + count > maxlinelength
+		// handle normal text
+		if type == 0
 		{
-			// try to find a word
-			let remains = maxlinelength - currcharlen;
-			let word = StrFindLastWord(str, remains);
-
-			if word >= 0
+			// limit the length
+			if type == 0 && currcharlen + count > maxlinelength
 			{
-				// we found a word to split
-				let str1 = StrMid(str, 0, word);
+				// try to find a word
+				let remains = maxlinelength - currcharlen;
+				let word = StrFindLastWord(str, remains);
 
-				AddTextWidget(str1, linewidget, fontsize);
+				if word >= 0
+				{
+					// we found a word to split
+					let str1 = StrMid(str, 0, word);
 
-				// we need a new root for the next line
-				linewidget = this.CreateNewLineWidget();
+					AddTextWidget(str1, linewidget, fontsize);
 
-				// the next line takes the rest
-				str = StrMid(str, word);
-				currcharlen = 0;
+					// we need a new root for the next line
+					linewidget = this.CreateNewLineWidget();
+
+					// the next line takes the rest
+					str = StrMid(str, word);
+					currcharlen = 0;
+				}
+				else
+				{
+					// no word found to split so simply add the text as usual
+				}
+			}
+
+			AddTextWidget(str, linewidget, fontsize);
+		}
+		else
+		{
+			// handle kanji
+			if type == 1
+			{
+				i += 3;
+
+				let fstart = Cast<Int32>( blocks[i] );
+				let fsize  = Cast<Int32>( blocks[i + 1] );
+				let ftype  = Cast<Int32>( blocks[i + 2] );
+
+				Assert(ftype == 2, "Expected furigana type!");
+
+				let furigana = StrMid(text, fstart, fsize);
+
+				let clr :Color;
+				if furiganaclridx == 0 {
+					clr = furiganacolor1;
+					furiganaclridx = 1;
+				} else {
+					clr = furiganacolor2;
+					furiganaclridx = 0;
+				}
+
+				AddKanjiWithFuriganaWidgets(str, furigana, linewidget, fontsize, clr);
 			}
 			else
 			{
-				// no word found to split so simply add the text as usual
+				// we should not encounter "lonely" furigana
+				LogChannel(n"DEBUG", "Found furigana not connected with any kanji.");
 			}
 		}
 
 		currcharlen += count;
-
-		AddTextWidget(str, linewidget, fontsize);
 
 		i += 3;
 	}
