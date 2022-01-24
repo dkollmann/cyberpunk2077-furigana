@@ -248,6 +248,44 @@ void StrStripFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
     (*aOut) = std::move(result);
 }
 
+void StrFindLastWord(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, int* aOut, int64_t a4)
+{
+    RED4ext::CString text;
+    RED4ext::GetParameter(aFrame, &text);
+
+    int end = -1;
+    RED4ext::GetParameter(aFrame, &end);
+
+    aFrame->code++; // skip ParamEnd
+
+    // if the result cannot be stored, there is no point of doing this
+    if(aOut == nullptr)
+        return;
+
+    const int len = text.Length();
+
+    if(end < 1 || end > len)
+        end = len;
+
+    const size_t size = (size_t) end;
+
+    std::string str;
+    str.resize(size);
+
+    std::memcpy(str.data(), text.c_str(), size);
+
+    size_t pos = str.rfind(' ');
+
+    if(pos == std::string::npos)
+    {
+        *aOut = -1;
+    }
+    else
+    {
+        *aOut = (int) pos;
+    }
+}
+
 #define COPYUNK(name) std::memcpy(&widget1->name, &widget22->name, sizeof(RED4ext::ink::TextWidget::name));
 
 void DebugTextWidget(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, void* aOut, int64_t a4)
@@ -291,6 +329,15 @@ RED4EXT_C_EXPORT void RED4EXT_CALL PostRegisterTypes()
         func->flags = flags;
         func->AddParam("String", "text");
         func->SetReturnType("String");
+        rtti->RegisterFunction(func);
+    }
+
+    {
+        auto func = RED4ext::CGlobalFunction::Create("StrFindLastWord", "StrFindLastWord", &StrFindLastWord);
+        func->flags = flags;
+        func->AddParam("String", "text");
+        func->AddParam("Int32", "end");
+        func->SetReturnType("Int32");
         rtti->RegisterFunction(func);
     }
 
