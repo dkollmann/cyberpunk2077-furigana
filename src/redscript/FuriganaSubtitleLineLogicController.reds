@@ -12,6 +12,9 @@ private static native func StrStripFurigana(text: String) -> String;
 /** Determine the last word in the string before "end". */
 private static native func StrFindLastWord(text: String, end :Int32) -> Int32;
 
+/** Counts the number of actual utf-8 characters in the string. */
+private static native func UnicodeStringLen(text: String) -> Int32;
+
 private static func Assert(cond :Bool, msg :String) -> Void
 {
 	if !cond {
@@ -96,16 +99,20 @@ private let subtitlesPanel :ref<inkVerticalPanel>;
 
 /** This widget is our root panel we use for our widgets. */
 @addField(SubtitleLineLogicController)
-private let furiganaroots :array< ref<inkHorizontalPanel> >;
+private let furiganaroot :ref<inkVerticalPanel>;
+
+/** The widgets represent one line of our subtitles. */
+@addField(SubtitleLineLogicController)
+private let furiganalines :array< ref<inkHorizontalPanel> >;
 
 @addMethod(SubtitleLineLogicController)
-private func CreateContainer() -> ref<inkHorizontalPanel>
+private func CreateRootWidget() -> Void
 {
-	let furiganaroot = new inkHorizontalPanel();
-	furiganaroot.SetName(n"furiganaSubtitle");
-	furiganaroot.SetFitToContent(true);
-	furiganaroot.SetHAlign(inkEHorizontalAlign.Left);
-	furiganaroot.SetVAlign(inkEVerticalAlign.Top);
+	this.furiganaroot = new inkVerticalPanel();
+	this.furiganaroot.SetName(n"furiganaSubtitle");
+	this.furiganaroot.SetFitToContent(true);
+	this.furiganaroot.SetHAlign(inkEHorizontalAlign.Left);
+	this.furiganaroot.SetVAlign(inkEVerticalAlign.Top);
 
 	let subtitlesWidget = this.GetRootWidget() as inkCompoundWidget;
 	Assert(subtitlesWidget, "Failed to get root widget!!");
@@ -113,11 +120,22 @@ private func CreateContainer() -> ref<inkHorizontalPanel>
 	let rootParent = subtitlesWidget.GetWidgetByPathName(n"Line/subtitleFlex") as inkCompoundWidget;
 	Assert(rootParent, "Failed to get root Line/subtitleFlex!!");
 
-	furiganaroot.Reparent(rootParent);
+	this.furiganaroot.Reparent(rootParent);
+}
 
-	ArrayPush(this.furiganaroots, furiganaroot);
+@addMethod(SubtitleLineLogicController)
+private func CreateNewLineWidget() -> ref<inkHorizontalPanel>
+{
+	let newline = new inkHorizontalPanel();
+	newline.SetName(n"furiganaSubtitleLine");
+	newline.SetFitToContent(true);
+	newline.SetHAlign(inkEHorizontalAlign.Left);
+	newline.SetVAlign(inkEVerticalAlign.Top);
+	newline.Reparent(this.furiganaroot);
 
-	return furiganaroot;
+	ArrayPush(this.furiganalines, newline);
+
+	return newline;
 }
 
 private func AddTextWidget(text :String, parent :ref<inkHorizontalPanel>, fontsize :Int32) -> Void
@@ -137,14 +155,17 @@ private func AddTextWidget(text :String, parent :ref<inkHorizontalPanel>, fontsi
 @addMethod(SubtitleLineLogicController)
 private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>, fontsize :Int32) -> Void
 {
+	// create the root for all our lines
+	this.CreateRootWidget();
+
 	// add the widgets as needed
 	let size = ArraySize(blocks);
 	let count = size / 3;
 
 	// limit length
-	let maxcharlen = 20;
+	let maxlinelength = 60;
 
-	let furiganaroot = this.CreateContainer();
+	let linewidget = this.CreateNewLineWidget();
 	let currcharlen = 0;
 
 	let i = 0;
@@ -155,13 +176,13 @@ private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>, fontsiz
 		let type  = Cast<Int32>( blocks[i + 2] );
 
 		let str = StrMid(text, start, size);
-		let count = size;  // TODO: Count utf8 chars instead
+		let count = UnicodeStringLen(str);
 
 		// limit the length, but only for text
-		if type == 0 && currcharlen + count > maxcharlen
+		if type == 0 && currcharlen + count > maxlinelength
 		{
 			// try to find a word
-			let remains = maxcharlen - currcharlen;
+			let remains = maxlinelength - currcharlen;
 			let word = StrFindLastWord(str, remains);
 
 			if word >= 0
@@ -169,13 +190,13 @@ private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>, fontsiz
 				// we found a word to split
 				let str1 = StrMid(str, 0, word);
 
-				AddTextWidget(str1, furiganaroot, fontsize);
+				AddTextWidget(str1, linewidget, fontsize);
 
 				// we need a new root for the next line
-				furiganaroot = this.CreateContainer();
+				linewidget = this.CreateNewLineWidget();
 
 				// the next line takes the rest
-				str = StrMid(str, word + 1);
+				str = StrMid(str, word);
 				currcharlen = 0;
 			}
 			else
@@ -186,7 +207,7 @@ private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>, fontsiz
 
 		currcharlen += count;
 
-		AddTextWidget(str, furiganaroot, fontsize);
+		AddTextWidget(str, linewidget, fontsize);
 
 		i += 3;
 	}

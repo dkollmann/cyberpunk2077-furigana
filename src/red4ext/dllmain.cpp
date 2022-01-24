@@ -1,4 +1,4 @@
-#define WIN32_LEAN_AND_MEAN
+﻿#define WIN32_LEAN_AND_MEAN
 #define NOMINMAX
 //#include <Windows.h>
 #include <RED4ext/RED4ext.hpp>
@@ -269,21 +269,57 @@ void StrFindLastWord(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFram
 
     const size_t size = (size_t) end;
 
-    std::string str;
-    str.resize(size);
-
-    std::memcpy(str.data(), text.c_str(), size);
-
-    size_t pos = str.rfind(' ');
-
-    if(pos == std::string::npos)
+    // find the last word
+    int lastword = -1;
+    for(int index = 0; index < end; )
     {
-        *aOut = -1;
+        // get the next character
+        utf8proc_int32_t ch;
+        const int chsize = (int) utf8proc_iterate((const utf8proc_uint8_t*)text.c_str() + index, -1, &ch);
+
+        if(chsize <= 0)
+            break;
+
+        index += chsize;
+
+        if(ch == ' ' || ch == '.' || ch == ',' || ch == 0x3002 /*。*/ || ch == 0x3001 /*、*/)
+        {
+            lastword = index;
+        }
     }
-    else
+
+    *aOut = lastword;
+}
+
+void UnicodeStringLen(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, int* aOut, int64_t a4)
+{
+    RED4ext::CString text;
+    RED4ext::GetParameter(aFrame, &text);
+
+    aFrame->code++; // skip ParamEnd
+
+    // if the result cannot be stored, there is no point of doing this
+    if(aOut == nullptr)
+        return;
+
+    const int len = text.Length();
+
+    int count = 0;
+    for(int index = 0; index < len; )
     {
-        *aOut = (int) pos;
+        // get the next character
+        utf8proc_int32_t ch;
+        const int chsize = (int) utf8proc_iterate((const utf8proc_uint8_t*)text.c_str() + index, -1, &ch);
+
+        if(chsize <= 0)
+            break;
+
+        index += chsize;
+
+        count++;
     }
+
+    *aOut = count;
 }
 
 #define COPYUNK(name) std::memcpy(&widget1->name, &widget22->name, sizeof(RED4ext::ink::TextWidget::name));
@@ -337,6 +373,14 @@ RED4EXT_C_EXPORT void RED4EXT_CALL PostRegisterTypes()
         func->flags = flags;
         func->AddParam("String", "text");
         func->AddParam("Int32", "end");
+        func->SetReturnType("Int32");
+        rtti->RegisterFunction(func);
+    }
+
+    {
+        auto func = RED4ext::CGlobalFunction::Create("UnicodeStringLen", "UnicodeStringLen", &UnicodeStringLen);
+        func->flags = flags;
+        func->AddParam("String", "text");
         func->SetReturnType("Int32");
         rtti->RegisterFunction(func);
     }
