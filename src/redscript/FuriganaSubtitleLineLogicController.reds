@@ -56,6 +56,12 @@ private static func PrintWidgets(widget :inkWidgetRef) -> Void
 	LogChannel(n"DEBUG", "--------------------");
 }
 
+@replaceMethod(SubtitlesGameController)
+protected func CreateLine(lineSpawnData: ref<LineSpawnData>) -> Void
+{
+	this.AsyncSpawnFromLocal(this.m_subtitlesPanel, n"Line", this, n"OnLineSpawned", lineSpawnData);
+}
+
 /** This widget is our woot panel we use for our widgets. */
 @addField(SubtitleLineLogicController)
 private let furiganaroot :ref<inkHorizontalPanel>;
@@ -77,7 +83,7 @@ private func CreateContainer() -> Void
 	//Assert(www, "Failed to get root Line/subtitleFlex/subtitle!!");
 	//www.SetTintColor(new Color(Cast<Uint8>(0), Cast<Uint8>(255), Cast<Uint8>(0), Cast<Uint8>(255)));
 
-	this.furiganaroot.Reparent(rootParent);
+	this.furiganaroot.Reparent(rootParent, 2);
 
 	//LogChannel(n"DEBUG", "Added our own root widget...");
 	//PrintWidgets(this.subtitlesWidget, "");
