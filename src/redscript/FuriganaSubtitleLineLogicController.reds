@@ -99,8 +99,10 @@ private let furiganaroot :ref<inkHorizontalPanel>;
 private func CreateContainer() -> Void
 {
 	this.furiganaroot = new inkHorizontalPanel();
-	this.furiganaroot.SetFitToContent(true);
 	this.furiganaroot.SetName(n"furiganaSubtitle");
+	this.furiganaroot.SetFitToContent(true);
+	this.furiganaroot.SetHAlign(inkEHorizontalAlign.Left);
+	this.furiganaroot.SetVAlign(inkEVerticalAlign.Top);
 
 	let subtitlesWidget = this.GetRootWidget() as inkCompoundWidget;
 	Assert(subtitlesWidget, "Failed to get root widget!!");
@@ -145,6 +147,8 @@ private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>, fontsiz
 		w.SetTintColor(new Color(Cast<Uint8>(93), Cast<Uint8>(245), Cast<Uint8>(255), Cast<Uint8>(255)));
 		w.SetFontSize(fontsize);
 		w.SetFitToContent(true);
+		w.SetHAlign(inkEHorizontalAlign.Left);
+		w.SetVAlign(inkEVerticalAlign.Top);
 		w.SetText(str);
 		w.Reparent(this.furiganaroot);
 
@@ -318,8 +322,8 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 			if this.GenerateFurigana(this.m_lineData.text, fontsize)
 			{
 				// has furigana
-				//inkTextRef.SetVisible(this.m_targetTextWidgetRef, false);
-				inkTextRef.SetText(this.m_targetTextWidgetRef, this.m_lineData.text);
+				inkTextRef.SetVisible(this.m_targetTextWidgetRef, false);
+				//inkTextRef.SetText(this.m_targetTextWidgetRef, this.m_lineData.text);
 			}
 			else
 			{
