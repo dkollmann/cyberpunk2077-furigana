@@ -62,7 +62,36 @@ protected func CreateLine(lineSpawnData: ref<LineSpawnData>) -> Void
 	this.AsyncSpawnFromLocal(this.m_subtitlesPanel, n"Line", this, n"OnLineSpawned", lineSpawnData);
 }
 
-/** This widget is our woot panel we use for our widgets. */
+@addMethod(SubtitlesGameController)
+protected cb func OnLineSpawned(widget: ref<inkWidget>, userData: ref<IScriptable>) -> Bool
+{
+	let controller: wref<SubtitleLineLogicController>;
+	let newLineEntry: subtitleLineMapEntry;
+	let lineSpawnData: ref<LineSpawnData> = userData as LineSpawnData;
+
+	if IsDefined(widget)
+	{
+		this.SetupLine(widget, lineSpawnData);
+		controller = widget.GetController() as SubtitleLineLogicController;
+		newLineEntry.id = lineSpawnData.m_lineData.id;
+		newLineEntry.widget = widget;
+		newLineEntry.owner = lineSpawnData.m_lineData.speaker;
+		ArrayPush(this.m_lineMap, newLineEntry);
+		this.OnSubCreated(controller);
+		controller.subtitlesPanel = this.m_subtitlesPanel;
+		controller.SetKiroshiStatus(this.IsKiroshiEnabled(lineSpawnData.m_lineData));
+		controller.SetLineData(lineSpawnData.m_lineData);
+		controller.ShowBackground(this.m_showBackgroud);
+	}
+
+	this.TryRemovePendingHideLines();
+}
+
+/** This widget containing all visible subtitle lines. */
+@addField(SubtitleLineLogicController)
+private let subtitlesPanel :ref<inkVerticalPanel>;
+
+/** This widget is our root panel we use for our widgets. */
 @addField(SubtitleLineLogicController)
 private let furiganaroot :ref<inkHorizontalPanel>;
 
@@ -138,8 +167,8 @@ private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>) -> Void
 		i += 3;
 	}
 
-	//LogChannel(n"DEBUG", "Added all the widgets...");
-	//PrintWidgets(this.subtitlesWidget, "");
+	LogChannel(n"DEBUG", "Added all the widgets...");
+	PrintWidgets(this.subtitlesPanel, "");
 }
 
 @addMethod(SubtitleLineLogicController)
