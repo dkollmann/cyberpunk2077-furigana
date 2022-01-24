@@ -112,33 +112,14 @@ private func CreateContainer() -> Void
 	//Assert(www, "Failed to get root Line/subtitleFlex/subtitle!!");
 	//www.SetTintColor(new Color(Cast<Uint8>(0), Cast<Uint8>(255), Cast<Uint8>(0), Cast<Uint8>(255)));
 
-	this.furiganaroot.Reparent(rootParent, 2);
+	this.furiganaroot.Reparent(rootParent);
 
 	//LogChannel(n"DEBUG", "Added our own root widget...");
 	//PrintWidgets(this.subtitlesWidget, "");
 }
 
 @addMethod(SubtitleLineLogicController)
-private func GetFuriganaWidget() -> ref<inkText>
-{
-	// create a new widget
-	let w = new inkText();
-
-	w.SetName(n"furiganaTextWidget");
-	//w.SetSize(new Vector2(400, 400));
-	//w.SetAnchor(inkEAnchor.Fill);
-	w.SetFontFamily("base\\gameplay\\gui\\fonts\\foreign\\japanese\\mgenplus\\mgenplus.inkfontfamily", n"Medium");  // base\gameplay\gui\fonts\foreign\japanese\smart_font_ui\smart_font_ui.inkfontfamily
-	w.SetFontSize(48);
-	w.SetFitToContent(true);
-	//w.EnableAutoScroll(true);
-	//w.SetFitToContent(true);
-	//w.SetSizeRule(inkESizeRule.Stretch);
-
-	return w;
-}
-
-@addMethod(SubtitleLineLogicController)
-private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>) -> Void
+private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>, fontsize :Int32) -> Void
 {
 	// create the container for our widgets
 	this.CreateContainer();
@@ -158,21 +139,24 @@ private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>) -> Void
 
 		let str = StrMid(text, start, size);
 
-		let w = this.GetFuriganaWidget();
-
-		w.SetTextDirect(str);
-
+		let w = new inkText();
+		w.SetName(n"furiganaTextWidget");
+		w.SetFontFamily("base\\gameplay\\gui\\fonts\\foreign\\japanese\\mgenplus\\mgenplus.inkfontfamily", n"Medium");
+		w.SetTintColor(new Color(Cast<Uint8>(93), Cast<Uint8>(245), Cast<Uint8>(255), Cast<Uint8>(255)));
+		w.SetFontSize(fontsize);
+		w.SetFitToContent(true);
+		w.SetText(str);
 		w.Reparent(this.furiganaroot);
 
 		i += 3;
 	}
 
-	LogChannel(n"DEBUG", "Added all the widgets...");
-	PrintWidgets(this.subtitlesPanel, "");
+	//LogChannel(n"DEBUG", "Added all the widgets...");
+	//PrintWidgets(this.subtitlesPanel, "");
 }
 
 @addMethod(SubtitleLineLogicController)
-private func GenerateFurigana(text :String) -> String
+private func GenerateFurigana(text :String, fontsize :Int32) -> Bool
 {
 	let blocks = StrSplitFurigana(text);
 	let size = ArraySize(blocks);
@@ -180,12 +164,14 @@ private func GenerateFurigana(text :String) -> String
 
 	if count < 1
 	{
-		return text;
+		return false;
 	}
 
-	this.GenerateFuriganaWidgets(text, blocks);
+	this.GenerateFuriganaWidgets(text, blocks, fontsize);
 
-	return StrStripFurigana(text);
+	//return StrStripFurigana(text);
+
+	return true;
 }
 
 @replaceMethod(SubtitleLineLogicController)
@@ -327,10 +313,20 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 			// show normal lines
 			//LogChannel(n"DEBUG", "SUBTITLE: " + speakerName + " on " + ToString(inkTextRef.GetName(this.m_targetTextWidgetRef)) + " : " + ToString(inkTextRef.Get(this.m_targetTextWidgetRef).GetClassName()));
 
-			let txt = this.GenerateFurigana(this.m_lineData.text);
+			let fontsize = inkTextRef.GetFontSize(this.m_targetTextWidgetRef);
 
-			inkTextRef.SetText(this.m_targetTextWidgetRef, txt);
-			//this.PlayLibraryAnimation(n"intro");
+			if this.GenerateFurigana(this.m_lineData.text, fontsize)
+			{
+				// has furigana
+				//inkTextRef.SetVisible(this.m_targetTextWidgetRef, false);
+				inkTextRef.SetText(this.m_targetTextWidgetRef, this.m_lineData.text);
+			}
+			else
+			{
+				// no furigana
+				inkTextRef.SetText(this.m_targetTextWidgetRef, this.m_lineData.text);
+				//this.PlayLibraryAnimation(n"intro");
+			}
 		}
 	}
 }
