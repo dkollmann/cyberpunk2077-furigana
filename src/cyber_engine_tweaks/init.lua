@@ -11,7 +11,7 @@ registerForEvent("onInit", function()
 	end
 
 	-- some local properties
-	local settingsFilename = "config_furigana.json"
+	local settingsFilename = "settings.json"
 
 	local kanjicolorize = { [1] = "No Colors", [2] = "Same Color", [3] = "Two Colors" }
 
@@ -24,7 +24,7 @@ registerForEvent("onInit", function()
 	}
 
 	-- load settings
-	state = nativeSettings.loadSettings(settingsFilename, stateDefaults)
+	state = nativeSettings.loadSettingsFile(io.open(settingsFilename, "r"), stateDefaults)
 	
 	-- make settings retrievable
 	Observe('FuriganaSettings', 'Get', function(self)
@@ -37,7 +37,7 @@ registerForEvent("onInit", function()
 	-- reference https://github.com/justarandomguyintheinternet/CP77_nativeSettings
 
 	nativeSettings.addTab("/furigana", "Furigana", function() -- Add our mods tab (path, label)
-		nativeSettings.saveSettings(settingsFilename, state)
+		nativeSettings.saveSettingsFile(io.open(settingsFilename, "w"), state)
 	end)
 
 	nativeSettings.addSwitch("/furigana", "Enabled", "Disable the mod to get the original subtitles.", state.enabled, stateDefaults.enabled, function(value) -- path, label, desc, currentValue, defaultValue, callback
