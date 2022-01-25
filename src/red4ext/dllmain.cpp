@@ -29,6 +29,10 @@ public:
     }
 };
 
+static const int JapaneseSpace = 0x3000; /*　*/
+static const int JapaneseDot   = 0x3002; /*。*/
+static const int JapaneseComma = 0x3001; /*、*/
+
 constexpr bool iskanji(int n)
 {
     // must be the same as from the python script that generates the furigana
@@ -102,7 +106,7 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
                     break;
             }
 
-            if( iskatakana(ch) )
+            else if( iskatakana(ch) )
             {
                 haskatakana = true;
 
@@ -349,7 +353,7 @@ void StrFindLastWord(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFram
 
         index += chsize;
 
-        if(ch == ' ' || ch == '.' || ch == ',' || ch == 0x3002 /*。*/ || ch == 0x3001 /*、*/)
+        if(ch == ' ' || ch == '.' || ch == ',' || ch == JapaneseSpace || ch == JapaneseDot || ch == JapaneseComma)
         {
             lastword = index;
         }
