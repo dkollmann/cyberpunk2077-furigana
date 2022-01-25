@@ -290,12 +290,23 @@ private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>, fontsiz
 				let furigana = StrMid(text, fstart, fsize);
 
 				let clr :Color;
-				if furiganaclridx == 0 {
-					clr = furiganacolor1;
-					furiganaclridx = 1;
-				} else {
-					clr = furiganacolor2;
-					furiganaclridx = 0;
+				if settings.colorizeKanji == 0
+				{
+					clr = textcolor;
+				}
+				else
+				{
+					if furiganaclridx == 0 {
+						clr = furiganacolor1;
+					} else {
+						clr = furiganacolor2;
+					}
+
+					if settings.colorizeKanji == 2
+					{
+						// switch colors around
+						furiganaclridx = (furiganaclridx + 1) % 2;
+					}
 				}
 
 				AddKanjiWithFuriganaWidgets(str, furigana, linewidget, fontsize, clr);

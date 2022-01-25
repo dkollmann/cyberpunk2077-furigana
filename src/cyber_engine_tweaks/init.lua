@@ -40,9 +40,6 @@ registerForEvent("onInit", function()
 		nativeSettings.saveSettings(settingsFilename, state)
 	end)
 
-	nativeSettings.addTab("/tester", "Test", function() -- Add our mods tab (path, label)
-	end)
-
 	nativeSettings.addSwitch("/furigana", "Enabled", "Disable the mod to get the original subtitles.", state.enabled, stateDefaults.enabled, function(value) -- path, label, desc, currentValue, defaultValue, callback
 		print("Changed Enabled to ", value)
 		state.enabled = value
