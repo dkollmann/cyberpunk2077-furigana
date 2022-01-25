@@ -1,8 +1,6 @@
 print("Loading Cyperunk 2077 Furigana settings")
 
 registerForEvent("onInit", function()
-	print("Init settings")
-
 	local kanjicolorize = { [1] = "No Colors", [2] = "Same Color", [3] = "Two Colors" }
 
 	-- create default settings
@@ -19,14 +17,15 @@ registerForEvent("onInit", function()
 	end
 	
 	-- init session
-	print("Init session...")
 	local GameSession = require('GameSession')
 
 	if GameSession then
 		GameSession.StoreInDir('sessions') -- Set directory to store session data
 		GameSession.Persist(state) -- Link the data that should be watched and persisted
+	else
+		print("Error: GameSession not found! Furigana settings will not be saved!")
 	end
-	
+
 	Observe('FuriganaSettings', 'PersistState', function(self)
 		state.enabled = self.prop
 	end)
@@ -36,7 +35,6 @@ registerForEvent("onInit", function()
 	end)
 
 	-- creare ui
-	print("Create settings ui...")
 	local nativeSettings = GetMod("nativeSettings") -- Get a reference to the nativeSettings mod
 
 	if not nativeSettings then -- Make sure the mod is installed
@@ -69,6 +67,4 @@ registerForEvent("onInit", function()
 		print("User clicked Report Issue")
 		-- Add any logic you need in here, such as calling a function from your mod
 	end)
-
-	print("Loaded Cyberpunk 2077 Furigana settings.")
 end)
