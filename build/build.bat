@@ -15,6 +15,9 @@ copy /y ..\src\redscript\* ..\dist\r6\scripts\cyberpunk2077-furigana\*
 mkdir ..\dist\red4ext\plugins
 copy /y ..\src\red4ext\x64\Debug\*.dll ..\dist\red4ext\plugins\*
 
+mkdir ..\dist\bin\x64\plugins\cyber_engine_tweaks\mods\cyberpunk2077-furigana
+copy /y ..\src\cyber_engine_tweaks\* ..\dist\bin\x64\plugins\cyber_engine_tweaks\mods\cyberpunk2077-furigana\*
+
 echo Copy to CP2077 folder...
 xcopy /y /e ..\dist\* "%CP2077%"
 
