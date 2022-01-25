@@ -159,8 +159,8 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
 
 #ifdef _DEBUG
     // sanity check the data
-    int f = 0;
-    for(int index = 0; index < textsize; )
+    unsigned int f = 0;
+    for(int index = 0; index < textsize && f < fragments.size; )
     {
         // get the next character
         utf8proc_int32_t ch;
