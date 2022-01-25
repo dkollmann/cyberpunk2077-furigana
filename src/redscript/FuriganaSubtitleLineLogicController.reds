@@ -130,7 +130,7 @@ private func CreateNewLineWidget() -> ref<inkHorizontalPanel>
 	newline.SetName(n"furiganaSubtitleLine");
 	newline.SetFitToContent(true);
 	newline.SetHAlign(inkEHorizontalAlign.Left);
-	newline.SetVAlign(inkEVerticalAlign.Top);
+	newline.SetVAlign(inkEVerticalAlign.Bottom);
 	newline.Reparent(this.furiganaroot);
 
 	ArrayPush(this.furiganalines, newline);
@@ -150,6 +150,7 @@ private func AddTextWidget(text :String, parent :ref<inkHorizontalPanel>, fontsi
 	w.SetVAlign(inkEVerticalAlign.Bottom);
 	w.SetText(text);
 	w.SetMargin(0.0, 0.0, 0.0, 10.0);
+	w.SetVerticalAlignment(textVerticalAlignment.Bottom);
 	w.Reparent(parent);
 }
 
@@ -161,7 +162,8 @@ private func AddKanjiWithFuriganaWidgets(kanji :String, furigana :String, parent
 	panel.SetName(n"furiganaKH");
 	panel.SetFitToContent(true);
 	panel.SetHAlign(inkEHorizontalAlign.Left);
-	panel.SetVAlign(inkEVerticalAlign.Top);
+	panel.SetVAlign(inkEVerticalAlign.Bottom);
+	panel.SetMargin(1.0, 0.0, 1.0, 0.0);
 	panel.Reparent(parent);
 
 	let wf = new inkText();
@@ -171,7 +173,7 @@ private func AddKanjiWithFuriganaWidgets(kanji :String, furigana :String, parent
 	wf.SetFontSize(furiganasize);
 	wf.SetFitToContent(true);
 	wf.SetHAlign(inkEHorizontalAlign.Center);
-	wf.SetVAlign(inkEVerticalAlign.Top);
+	wf.SetVAlign(inkEVerticalAlign.Bottom);
 	wf.SetText(furigana);
 	wf.Reparent(panel);
 
@@ -182,7 +184,7 @@ private func AddKanjiWithFuriganaWidgets(kanji :String, furigana :String, parent
 	wk.SetFontSize(fontsize);
 	wk.SetFitToContent(true);
 	wk.SetHAlign(inkEHorizontalAlign.Center);
-	wk.SetVAlign(inkEVerticalAlign.Top);
+	wk.SetVAlign(inkEVerticalAlign.Bottom);
 	wk.SetText(kanji);
 	wk.Reparent(panel);
 }
