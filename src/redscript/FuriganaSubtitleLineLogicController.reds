@@ -65,6 +65,18 @@ private static func PrintWidgets(widget :inkWidgetRef) -> Void
 	LogChannel(n"DEBUG", "--------------------");
 }
 
+/** The settings object. Must be in sync with the lua script. */
+public class FuriganaSettings
+{
+  public let enabled: Bool;
+  public let colorizeKanji :Int32;
+  public let colorizeKatakana :Bool;
+  public let addSpaces :Bool;
+
+  public func PersistState() -> Void {}
+  public func LoadPersistedState() -> Void {}
+}
+
 @replaceMethod(SubtitlesGameController)
 protected func CreateLine(lineSpawnData: ref<LineSpawnData>) -> Void
 {
