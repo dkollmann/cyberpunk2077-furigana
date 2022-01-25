@@ -32,6 +32,8 @@ public:
 static const int JapaneseSpace = 0x3000; /*　*/
 static const int JapaneseDot   = 0x3002; /*。*/
 static const int JapaneseComma = 0x3001; /*、*/
+static const int JapaneseExclamationMark = 0xFF01; /*！*/
+static const int JapaneseQuestionMark    = 0xFF1F; /*？*/
 
 constexpr bool iskanji(int n)
 {
@@ -64,12 +66,94 @@ void AddFragment(StrSplitFuriganaList &fragments, int start, int len, StrSplitFu
     fragments.PushBack((short)type);
 }
 
+void StrAddSpaces(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, RED4ext::CString* aOut, int64_t a4)
+{
+    RED4ext::CString text;
+    RED4ext::GetParameter(aFrame, &text);
+
+    aFrame->code++; // skip ParamEnd
+
+    // if the result cannot be stored, there is no point of doing this
+    if(aOut == nullptr)
+        return;
+
+    auto textstr = text.c_str();
+    const int len = text.Length();
+
+    // check if we will add spaces
+    bool needspaces = false;
+    for(int index = 0; index < len; )
+    {
+        // get the next character
+        utf8proc_int32_t ch;
+        const int chsize = (int) utf8proc_iterate((const utf8proc_uint8_t*)textstr + index, -1, &ch);
+
+        if(chsize <= 0)
+            break;
+
+        index += chsize;
+
+        // there is no point of adding a space at the end
+        if(index == len)
+            break;
+
+        if(ch == JapaneseComma || ch == JapaneseDot)
+        {
+            needspaces = true;
+            break;
+        }
+    }
+
+    if(!needspaces)
+    {
+        // just return the string as it is
+        *aOut = text;
+        return;
+    }
+
+    // add the actual spaces
+    std::vector<char> str;
+    str.resize(len);
+
+    std::memcpy(str.data(), textstr, len);
+
+    for(size_t index = 0; index < str.size(); )
+    {
+        // get the next character
+        utf8proc_int32_t ch;
+        const int chsize = (int) utf8proc_iterate((const utf8proc_uint8_t*)str.data() + index, -1, &ch);
+
+        if(chsize <= 0)
+            break;
+
+        index += chsize;
+
+        // there is no point of adding a space at the end
+        if(index == str.size())
+            break;
+
+        if(ch == JapaneseComma || ch == JapaneseDot || ch == JapaneseExclamationMark || ch == JapaneseQuestionMark)
+        {
+            // insert a space
+            str.insert(str.begin() + index, { (char)0xE3, (char)0x80, (char)0x80 });
+
+            index += 3;
+        }
+    }
+
+    str.push_back(0);
+
+    RED4ext::CString str2(str.data());
+
+    *aOut = std::move(str2);
+}
+
 void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, StrSplitFuriganaList* aOut, int64_t a4)
 {
     RED4ext::CString text;
     RED4ext::GetParameter(aFrame, &text);
 
-    bool dokatakana;
+    bool dokatakana = false;
     RED4ext::GetParameter(aFrame, &dokatakana);
 
     aFrame->code++; // skip ParamEnd
@@ -333,6 +417,7 @@ void StrFindLastWord(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFram
     if(aOut == nullptr)
         return;
 
+    auto textstr = text.c_str();
     const int len = text.Length();
 
     if(end < 1 || end > len)
@@ -346,14 +431,15 @@ void StrFindLastWord(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFram
     {
         // get the next character
         utf8proc_int32_t ch;
-        const int chsize = (int) utf8proc_iterate((const utf8proc_uint8_t*)text.c_str() + index, -1, &ch);
+        const int chsize = (int) utf8proc_iterate((const utf8proc_uint8_t*)textstr + index, -1, &ch);
 
         if(chsize <= 0)
             break;
 
         index += chsize;
 
-        if(ch == ' ' || ch == '.' || ch == ',' || ch == JapaneseSpace || ch == JapaneseDot || ch == JapaneseComma)
+        if( ch == ' ' || ch == '.' || ch == ',' || ch == '!' || ch == '?' ||
+            ch == JapaneseSpace || ch == JapaneseDot || ch == JapaneseComma || ch == JapaneseExclamationMark || ch == JapaneseQuestionMark )
         {
             lastword = index;
         }
@@ -373,6 +459,7 @@ void UnicodeStringLen(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
     if(aOut == nullptr)
         return;
 
+    auto textstr = text.c_str();
     const int len = text.Length();
 
     int count = 0;
@@ -380,7 +467,7 @@ void UnicodeStringLen(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
     {
         // get the next character
         utf8proc_int32_t ch;
-        const int chsize = (int) utf8proc_iterate((const utf8proc_uint8_t*)text.c_str() + index, -1, &ch);
+        const int chsize = (int) utf8proc_iterate((const utf8proc_uint8_t*)textstr + index, -1, &ch);
 
         if(chsize <= 0)
             break;
@@ -403,6 +490,14 @@ RED4EXT_C_EXPORT void RED4EXT_CALL PostRegisterTypes()
 
     auto rtti = RED4ext::CRTTISystem::Get();
     const RED4ext::CBaseFunction::Flags flags = { .isNative = true, .isStatic = true };
+
+    {
+        auto func = RED4ext::CGlobalFunction::Create("StrAddSpaces", "StrAddSpaces", &StrAddSpaces);
+        func->flags = flags;
+        func->AddParam("String", "text");
+        func->SetReturnType("String");
+        rtti->RegisterFunction(func);
+    }
 
     {
         auto func = RED4ext::CGlobalFunction::Create("StrSplitFurigana", "StrSplitFurigana", &StrSplitFurigana);

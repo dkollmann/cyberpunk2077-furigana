@@ -1,3 +1,6 @@
+/** Adds unnecessary spaces after . and , to make subtitles easier to read. */
+private static native func StrAddSpaces(text: String) -> String;
+
 /** Generates a list of blocks for the given string.
 	The list works as following:
 	  n = index % 3
@@ -206,7 +209,7 @@ private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>, fontsiz
 	let furiganaclridx = 0;
 
 	// limit length
-	let maxlinelength = 60;
+	let maxlinelength = 50;
 
 	let linewidget = this.CreateNewLineWidget();
 	let currcharlen = 0;
@@ -302,9 +305,14 @@ private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>, fontsiz
 @addMethod(SubtitleLineLogicController)
 private func GenerateFurigana(text :String, fontsize :Int32) -> Bool
 {
-	let splitKatakana = true;
+	let addspaces = true;
+	let colorizeKatakana = true;
 
-	let blocks = StrSplitFurigana(text, splitKatakana);
+	if addspaces {
+		text = StrAddSpaces(text);
+	}
+
+	let blocks = StrSplitFurigana(text, colorizeKatakana);
 	let size = ArraySize(blocks);
 	let count = size / 3;
 
