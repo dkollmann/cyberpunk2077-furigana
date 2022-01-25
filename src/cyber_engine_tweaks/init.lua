@@ -26,22 +26,12 @@ registerForEvent("onInit", function()
 	-- load settings
 	state = nativeSettings.loadSettings(settingsFilename, stateDefaults)
 	
-	-- init session
-	--local GameSession = require('GameSession')
-
-	--if GameSession then
-	--	GameSession.StoreInDir('sessions') -- Set directory to store session data
-	--	GameSession.Persist(state) -- Link the data that should be watched and persisted
-	--else
-	--	print("Error: GameSession not found! Furigana settings will not be saved!")
-	--end
-
-	Observe('FuriganaSettings', 'PersistState', function(self)
-		state.enabled = self.prop
-	end)
-
-	Observe('FuriganaSettings', 'LoadPersistedState', function(self)
-		self.prop = state.enabled
+	-- make settings retrievable
+	Observe('FuriganaSettings', 'Get', function(self)
+		self.enabled = state.enabled
+		self.colorizeKanji = state.colorizeKanji - 1
+		self.colorizeKatakana = state.colorizeKatakana
+		self.addSpaces = state.addSpaces
 	end)
 
 	-- reference https://github.com/justarandomguyintheinternet/CP77_nativeSettings

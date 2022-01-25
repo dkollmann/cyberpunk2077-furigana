@@ -73,8 +73,7 @@ public class FuriganaSettings
   public let colorizeKatakana :Bool;
   public let addSpaces :Bool;
 
-  public func PersistState() -> Void {}
-  public func LoadPersistedState() -> Void {}
+  public func Get() -> Void {}
 }
 
 @replaceMethod(SubtitlesGameController)
@@ -205,7 +204,7 @@ private func AddKanjiWithFuriganaWidgets(kanji :String, furigana :String, parent
 }
 
 @addMethod(SubtitleLineLogicController)
-private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>, fontsize :Int32) -> Void
+private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>, fontsize :Int32, settings :ref<FuriganaSettings>) -> Void
 {
 	// create the root for all our lines
 	this.CreateRootWidget();
@@ -315,29 +314,38 @@ private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>, fontsiz
 }
 
 @addMethod(SubtitleLineLogicController)
-private func GenerateFurigana(text :String, fontsize :Int32) -> Bool
+private func GenerateFurigana(text :String, fontsize :Int32) -> String
 {
-	let addspaces = true;
-	let colorizeKatakana = true;
+	// get settings
+	let settings = new FuriganaSettings();
+	settings.Get();
 
-	if addspaces {
+	/*LogChannel(n"DEBUG", "Settings:");
+	LogChannel(n"DEBUG", "  enabled: " + ToString(settings.enabled));
+	LogChannel(n"DEBUG", "  colorizeKanji: " + ToString(settings.colorizeKanji));
+	LogChannel(n"DEBUG", "  colorizeKatakana: " + ToString(settings.colorizeKatakana));
+	LogChannel(n"DEBUG", "  addSpaces: " + ToString(settings.addSpaces));*/
+
+	if !settings.enabled {
+		return StrStripFurigana(text);
+	}
+
+	if settings.addSpaces {
 		text = StrAddSpaces(text);
 	}
 
-	let blocks = StrSplitFurigana(text, colorizeKatakana);
+	let blocks = StrSplitFurigana(text, settings.colorizeKatakana);
 	let size = ArraySize(blocks);
 	let count = size / 3;
 
 	if count < 1
 	{
-		return false;
+		return text;
 	}
 
-	this.GenerateFuriganaWidgets(text, blocks, fontsize);
+	this.GenerateFuriganaWidgets(text, blocks, fontsize, settings);
 
-	//return StrStripFurigana(text);
-
-	return true;
+	return "";
 }
 
 @replaceMethod(SubtitleLineLogicController)
@@ -480,8 +488,9 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 			//LogChannel(n"DEBUG", "SUBTITLE: " + speakerName + " on " + ToString(inkTextRef.GetName(this.m_targetTextWidgetRef)) + " : " + ToString(inkTextRef.Get(this.m_targetTextWidgetRef).GetClassName()));
 
 			let fontsize = inkTextRef.GetFontSize(this.m_targetTextWidgetRef);
+			let text = this.GenerateFurigana(this.m_lineData.text, fontsize);
 
-			if this.GenerateFurigana(this.m_lineData.text, fontsize)
+			if StrLen(text) < 1
 			{
 				// has furigana
 				inkTextRef.SetVisible(this.m_targetTextWidgetRef, false);
@@ -490,7 +499,7 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 			else
 			{
 				// no furigana
-				inkTextRef.SetText(this.m_targetTextWidgetRef, this.m_lineData.text);
+				inkTextRef.SetText(this.m_targetTextWidgetRef, text);
 				//this.PlayLibraryAnimation(n"intro");
 			}
 		}
