@@ -35,11 +35,17 @@ constexpr bool iskanji(int n)
     return (n >= 19968 && n <= 40959) || n == 12293 || n == 12534;
 }
 
+constexpr bool iskatakana(int n)
+{
+    return (n >= 12448 && n <= 12543);
+}
+
 enum class StrSplitFuriganaListType : short
 {
     Text = 0,
     Kanji = 1,
-    Furigana = 2
+    Furigana = 2,
+    Katakana = 3
 };
 
 typedef RED4ext::DynArray<short> StrSplitFuriganaList;
@@ -59,6 +65,9 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
     RED4ext::CString text;
     RED4ext::GetParameter(aFrame, &text);
 
+    bool dokatakana;
+    RED4ext::GetParameter(aFrame, &dokatakana);
+
     aFrame->code++; // skip ParamEnd
 
     // if the result cannot be stored, there is no point of doing this
@@ -71,18 +80,52 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
     auto textstr = text.c_str();
     const int textsize = (int) text.Length();
     bool hasfurigana = false;
-    for(int i = 0; i < textsize; ++i)
+    bool haskatakana = false;
+
+    if(dokatakana)
     {
-        // this is okay because it is an ascii character
-        if( textstr[i] == '{' )
+        for(int index = 0; index < textsize; )
         {
-            hasfurigana = true;
-            break;
+            utf8proc_int32_t ch;
+            const int chsize = (int) utf8proc_iterate((const utf8proc_uint8_t*)textstr + index, -1, &ch);
+
+            if(chsize <= 0)
+                break;
+
+            index += chsize;
+
+            if( ch == '{' )
+            {
+                hasfurigana = true;
+
+                if(hasfurigana && haskatakana)
+                    break;
+            }
+
+            if( iskatakana(ch) )
+            {
+                haskatakana = true;
+
+                if(hasfurigana && haskatakana)
+                    break;
+            }
+        }
+    }
+    else
+    {
+        for(int i = 0; i < textsize; ++i)
+        {
+            // this is okay because it is an ascii character
+            if( textstr[i] == (int)'{' )
+            {
+                hasfurigana = true;
+                break;
+            }
         }
     }
 
     // handle the simple case that there is no furigana
-    if(!hasfurigana)
+    if(!hasfurigana && !haskatakana)
         return;
 
     fragments.Reserve(64);
@@ -90,7 +133,7 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
     int start = 0;
     int kanjiblock = -1;
     int kanjisize = 0;
-    int lastsize = 0;
+    int katakanablock = -1;
     bool insideblock = false;
 
     auto subtitle = (const utf8proc_uint8_t*) textstr;
@@ -142,10 +185,34 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
                     kanjiblock = index;
                     kanjisize = chsize;
                 }
+
+                // handle extracting katakana
+                if(dokatakana)
+                {
+                    if( iskatakana(ch) )
+                    {
+                        if(katakanablock < 0)
+                        {
+                            katakanablock = index;
+
+                            if(katakanablock > start)
+                                AddFragment(fragments, start, katakanablock - start, StrSplitFuriganaListType::Text);
+                        }
+                    }
+                    else
+                    {
+                        if(katakanablock >= 0)
+                        {
+                            AddFragment(fragments, katakanablock, index - katakanablock, StrSplitFuriganaListType::Katakana);
+
+                            start = index + chsize;
+                            katakanablock = -1;
+                        }
+                    }
+                }
             }
         }
 
-        lastsize = chsize;
         index += chsize;
     }
 
@@ -154,7 +221,7 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
     if(start < textsize)
     {
         // add the text at the end
-        AddFragment(fragments, start, textsize - start, StrSplitFuriganaListType::Text);
+        AddFragment(fragments, start, textsize - start, katakanablock >= 0 ? StrSplitFuriganaListType::Katakana : StrSplitFuriganaListType::Text);
     }
 
 #ifdef _DEBUG
@@ -322,25 +389,6 @@ void UnicodeStringLen(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
     *aOut = count;
 }
 
-#define COPYUNK(name) std::memcpy(&widget1->name, &widget22->name, sizeof(RED4ext::ink::TextWidget::name));
-
-void DebugTextWidget(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, void* aOut, int64_t a4)
-{
-    RED4ext::Handle<RED4ext::ink::TextWidget> widget1;
-    RED4ext::GetParameter(aFrame, &widget1);
-
-    RED4ext::WeakHandle<RED4ext::ink::TextWidget> widget2;
-    RED4ext::GetParameter(aFrame, &widget2);
-    auto widget22 = widget2.Lock();
-
-    aFrame->code++; // skip ParamEnd
-
-    //COPYUNK(unk254);  // makes it invisible
-    //COPYUNK(unk25A);  // makes it invisible
-    //COPYUNK(unk280);  // weird invisible
-    //COPYUNK(unk2B9);  //
-}
-
 RED4EXT_C_EXPORT void RED4EXT_CALL RegisterTypes()
 {
 }
@@ -356,6 +404,7 @@ RED4EXT_C_EXPORT void RED4EXT_CALL PostRegisterTypes()
         auto func = RED4ext::CGlobalFunction::Create("StrSplitFurigana", "StrSplitFurigana", &StrSplitFurigana);
         func->flags = flags;
         func->AddParam("String", "text");
+        func->AddParam("Bool", "splitKatakana");
         func->SetReturnType("array<Int16>");
         rtti->RegisterFunction(func);
     }
@@ -382,14 +431,6 @@ RED4EXT_C_EXPORT void RED4EXT_CALL PostRegisterTypes()
         func->flags = flags;
         func->AddParam("String", "text");
         func->SetReturnType("Int32");
-        rtti->RegisterFunction(func);
-    }
-
-    {
-        auto func = RED4ext::CGlobalFunction::Create("DebugTextWidget", "DebugTextWidget", &DebugTextWidget);
-        func->flags = flags;
-        func->AddParam("ref<inkText>", "widget1");
-        func->AddParam("wref<inkText>", "widget2");
         rtti->RegisterFunction(func);
     }
 }

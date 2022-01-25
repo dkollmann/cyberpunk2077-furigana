@@ -3,8 +3,8 @@
 	  n = index % 3
 	  n == 0 --> The first byte of the block, inside the string.
 	  n == 1 --> The size of the block in bytes, inside the string.
-	  n == 2 --> The type of the block. 0 = text, 1 = kanji, 2 = furigana */
-private static native func StrSplitFurigana(text: String) -> array<Int16>;
+	  n == 2 --> The type of the block. 0 = text, 1 = kanji, 2 = furigana, 3 = katakana */
+private static native func StrSplitFurigana(text: String, splitKatakana :Bool) -> array<Int16>;
 
 /** Removes all furigana from a given string. */
 private static native func StrStripFurigana(text: String) -> String;
@@ -138,12 +138,12 @@ private func CreateNewLineWidget() -> ref<inkHorizontalPanel>
 	return newline;
 }
 
-private func AddTextWidget(text :String, parent :ref<inkHorizontalPanel>, fontsize :Int32) -> Void
+private func AddTextWidget(text :String, parent :ref<inkHorizontalPanel>, fontsize :Int32, color :Color) -> Void
 {
 	let w = new inkText();
 	w.SetName(n"furiganaTextWidget");
 	w.SetFontFamily("base\\gameplay\\gui\\fonts\\foreign\\japanese\\mgenplus\\mgenplus.inkfontfamily", n"Medium");
-	w.SetTintColor(new Color(Cast<Uint8>(93), Cast<Uint8>(245), Cast<Uint8>(255), Cast<Uint8>(255)));
+	w.SetTintColor(color);
 	w.SetFontSize(fontsize);
 	w.SetFitToContent(true);
 	w.SetHAlign(inkEHorizontalAlign.Left);
@@ -199,6 +199,8 @@ private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>, fontsiz
 	let size = ArraySize(blocks);
 	let count = size / 3;
 
+	let textcolor = new Color(Cast<Uint8>(93), Cast<Uint8>(245), Cast<Uint8>(255), Cast<Uint8>(255));
+	let katakanacolor = new Color(Cast<Uint8>(93), Cast<Uint8>(210), Cast<Uint8>(255), Cast<Uint8>(255));
 	let furiganacolor1 = new Color(Cast<Uint8>(214), Cast<Uint8>(180), Cast<Uint8>(133), Cast<Uint8>(255));
 	let furiganacolor2 = new Color(Cast<Uint8>(191), Cast<Uint8>(215), Cast<Uint8>(132), Cast<Uint8>(255));
 	let furiganaclridx = 0;
@@ -219,10 +221,17 @@ private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>, fontsiz
 		let str = StrMid(text, start, size);
 		let count = UnicodeStringLen(str);
 
-		// handle normal text
-		if type == 0
+		// handle normal text and katakana
+		if type == 0 || type == 3
 		{
-			// limit the length
+			let clr :Color;
+			if type == 0 {
+				clr = textcolor;
+			} else {
+				clr = katakanacolor;
+			}
+
+			// limit the length, but not for katakana
 			if type == 0 && currcharlen + count > maxlinelength
 			{
 				// try to find a word
@@ -234,7 +243,7 @@ private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>, fontsiz
 					// we found a word to split
 					let str1 = StrMid(str, 0, word);
 
-					AddTextWidget(str1, linewidget, fontsize);
+					AddTextWidget(str1, linewidget, fontsize, clr);
 
 					// we need a new root for the next line
 					linewidget = this.CreateNewLineWidget();
@@ -249,7 +258,7 @@ private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>, fontsiz
 				}
 			}
 
-			AddTextWidget(str, linewidget, fontsize);
+			AddTextWidget(str, linewidget, fontsize, clr);
 		}
 		else
 		{
@@ -293,7 +302,9 @@ private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>, fontsiz
 @addMethod(SubtitleLineLogicController)
 private func GenerateFurigana(text :String, fontsize :Int32) -> Bool
 {
-	let blocks = StrSplitFurigana(text);
+	let splitKatakana = true;
+
+	let blocks = StrSplitFurigana(text, splitKatakana);
 	let size = ArraySize(blocks);
 	let count = size / 3;
 
