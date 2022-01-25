@@ -18,6 +18,9 @@ copy /y ..\src\red4ext\x64\Debug\*.dll ..\dist\red4ext\plugins\*
 mkdir ..\dist\bin\x64\plugins\cyber_engine_tweaks\mods\cyberpunk2077-furigana
 copy /y ..\src\cyber_engine_tweaks\* ..\dist\bin\x64\plugins\cyber_engine_tweaks\mods\cyberpunk2077-furigana\*
 
+mkdir ..\dist\bin\x64\plugins\cyber_engine_tweaks\mods\nativeSettings
+copy /y ..\src\CP77_nativeSettings\nativeSettings\* ..\dist\bin\x64\plugins\cyber_engine_tweaks\mods\nativeSettings\*
+
 echo Copy to CP2077 folder...
 xcopy /y /e ..\dist\* "%CP2077%"
 
