@@ -408,8 +408,8 @@ void StrFindLastWord(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFram
     RED4ext::CString text;
     RED4ext::GetParameter(aFrame, &text);
 
-    int end = -1;
-    RED4ext::GetParameter(aFrame, &end);
+    int desiredlength = -1;
+    RED4ext::GetParameter(aFrame, &desiredlength);
 
     aFrame->code++; // skip ParamEnd
 
@@ -420,14 +420,14 @@ void StrFindLastWord(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFram
     auto textstr = text.c_str();
     const int len = text.Length();
 
-    if(end < 1 || end > len)
-        end = len;
+    if(desiredlength < 1 || desiredlength > len)
+        desiredlength = len;
 
-    const size_t size = (size_t) end;
+    const size_t size = (size_t) desiredlength;
 
     // find the last word
     int lastword = -1;
-    for(int index = 0; index < end; )
+    for(int index = 0; index < len; )
     {
         // get the next character
         utf8proc_int32_t ch;
@@ -441,7 +441,18 @@ void StrFindLastWord(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFram
         if( ch == ' ' || ch == '.' || ch == ',' || ch == '!' || ch == '?' ||
             ch == JapaneseSpace || ch == JapaneseDot || ch == JapaneseComma || ch == JapaneseExclamationMark || ch == JapaneseQuestionMark )
         {
-            lastword = index;
+            if(index < desiredlength)
+            {
+                lastword = index;
+            }
+            else
+            {
+                // if we are past the desired length, take the first word be can find
+                if(lastword < 0)
+                    lastword = index;
+
+                break;
+            }
         }
     }
 

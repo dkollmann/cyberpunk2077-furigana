@@ -23,7 +23,7 @@ registerForEvent("onInit", function()
 		addSpaces = false,
 		showFurigana = true,
 		furiganaScale = 60,
-		maxLineLength = 50
+		maxLineLength = 40
 	}
 
 	-- load settings
