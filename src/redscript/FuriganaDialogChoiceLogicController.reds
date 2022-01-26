@@ -1,13 +1,9 @@
-@replaceMethod(DialogChoiceLogicController)
+/*@replaceMethod(DialogChoiceLogicController)
 public final func SetText(value: String, isFailed: Bool) -> Void
 {
-	LogChannel(n"DEBUG", "DIALOG " + value);
-
-	PrintWidgets(this.m_TextFlexRef);
-
 	inkTextRef.SetText(this.m_ActiveTextRef, value);
 	inkWidgetRef.SetOpacity(this.m_ActiveTextRef, isFailed ? 1.00 : 1.00);
-}
+}*/
 
 @replaceMethod(DialogHubLogicController)
 private final func UpdateDialogHubData() -> Void
@@ -35,6 +31,10 @@ private final func UpdateDialogHubData() -> Void
 		tags = GetCaptionTagsFromArray(currListChoiceData.captionParts.parts);
 		localizedText = currListChoiceData.localizedName;
 
+		if StrLen(tags) > 0 {
+			localizedText = ("[" + tags + "] ") + localizedText;
+		}
+
 		if fontsize < 0 {
 			fontsize = inkTextRef.GetFontSize(currentItem.m_ActiveTextRef);
 		}
@@ -47,6 +47,8 @@ private final func UpdateDialogHubData() -> Void
 
 		// generate furigana
 		generator.GenerateFurigana(rootParent, localizedText, Cast<Uint64>(0), fontsize);
+
+		inkTextRef.SetVisible(currentItem.m_ActiveTextRef, false);
 
 		/*if Equals(tags, "")
 		{
