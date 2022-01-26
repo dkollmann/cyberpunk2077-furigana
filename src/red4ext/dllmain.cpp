@@ -6,6 +6,7 @@
 #include "utf8proc/utf8proc.h"
 #include <vector>
 #include <assert.h>
+#include <charconv>
 
 template<typename T> class vectorstring : public std::vector<T>
 {
@@ -491,6 +492,27 @@ void UnicodeStringLen(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
     *aOut = count;
 }
 
+void CRUIDToDecimalString(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, RED4ext::CString* aOut, int64_t a4)
+{
+    RED4ext::CRUID id;
+    RED4ext::GetParameter(aFrame, &id);
+
+    aFrame->code++; // skip ParamEnd
+
+    // if the result cannot be stored, there is no point of doing this
+    if(aOut == nullptr)
+        return;
+
+    std::array<char, 64> str;
+    std::memset(str.data(), 0, str.size());
+
+    std::to_chars(str.data(), str.data() + str.size(), id.unk00);
+
+    RED4ext::CString str2(str.data());
+    *aOut = std::move(str2);
+}
+
+
 RED4EXT_C_EXPORT void RED4EXT_CALL RegisterTypes()
 {
 }
@@ -541,6 +563,14 @@ RED4EXT_C_EXPORT void RED4EXT_CALL PostRegisterTypes()
         func->flags = flags;
         func->AddParam("String", "text");
         func->SetReturnType("Int32");
+        rtti->RegisterFunction(func);
+    }
+
+    {
+        auto func = RED4ext::CGlobalFunction::Create("CRUIDToDecimalString", "CRUIDToDecimalString", &CRUIDToDecimalString);
+        func->flags = flags;
+        func->AddParam("CRUID", "id");
+        func->SetReturnType("String");
         rtti->RegisterFunction(func);
     }
 }

@@ -18,6 +18,9 @@ private static native func StrFindLastWord(text: String, end :Int32) -> Int32;
 /** Counts the number of actual utf-8 characters in the string. */
 private static native func UnicodeStringLen(text: String) -> Int32;
 
+/** Converts a CRUID into a decimal string. */
+private static native func CRUIDToDecimalString(id :CRUID) -> String;
+
 private static func Assert(cond :Bool, msg :String) -> Void
 {
 	if !cond {
@@ -75,6 +78,7 @@ public class FuriganaSettings
   public let showFurigana :Bool;
   public let furiganaScale :Float;
   public let maxLineLength :Int32;
+  public let showLineIDs :Bool;
 
   public func Get() -> Void {}
 }
@@ -212,7 +216,7 @@ private func AddKanjiWithFuriganaWidgets(kanji :String, furigana :String, parent
 }
 
 @addMethod(SubtitleLineLogicController)
-private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>, fontsize :Int32, settings :ref<FuriganaSettings>) -> Void
+private func GenerateFuriganaWidgets(text :String, lineid :CRUID, blocks :array<Int16>, fontsize :Int32, settings :ref<FuriganaSettings>) -> Void
 {
 	// create the root for all our lines
 	this.CreateRootWidget();
@@ -227,12 +231,31 @@ private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>, fontsiz
 	let furiganacolor2 = new Color(Cast<Uint8>(191), Cast<Uint8>(215), Cast<Uint8>(132), Cast<Uint8>(255));
 	let furiganaclridx = 0;
 
+	// add debug info
+	if settings.showLineIDs
+	{
+		let id = CRUIDToDecimalString(lineid);
+
+		LogChannel(n"DEBUG", "Line: " + id);
+
+		let w = new inkText();
+		w.SetName(n"lineid");
+		w.SetFontFamily("base\\gameplay\\gui\\fonts\\foreign\\japanese\\mgenplus\\mgenplus.inkfontfamily", n"Medium");
+		w.SetFontSize(20);
+		w.SetFitToContent(true);
+		//w.SetHAlign(inkEHorizontalAlign.Center);
+		//w.SetVAlign(inkEVerticalAlign.Bottom);
+		w.SetText(id);
+		w.Reparent(this.furiganaroot);
+	}
+
 	// limit length
 	let maxlinelength = settings.maxLineLength;
 
 	let linewidget = this.CreateNewLineWidget();
-	let currcharlen = 0;
 
+	// generate the widgets
+	let currcharlen = 0;
 	let i = 0;
 	while i < size
 	{
@@ -340,7 +363,7 @@ private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>, fontsiz
 }
 
 @addMethod(SubtitleLineLogicController)
-private func GenerateFurigana(text :String, fontsize :Int32) -> String
+private func GenerateFurigana(text :String, lineid :CRUID, fontsize :Int32) -> String
 {
 	// get settings
 	let settings = new FuriganaSettings();
@@ -369,7 +392,7 @@ private func GenerateFurigana(text :String, fontsize :Int32) -> String
 		return text;
 	}
 
-	this.GenerateFuriganaWidgets(text, blocks, fontsize, settings);
+	this.GenerateFuriganaWidgets(text, lineid, blocks, fontsize, settings);
 
 	return "";
 }
@@ -514,7 +537,7 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 			//LogChannel(n"DEBUG", "SUBTITLE: " + speakerName + " on " + ToString(inkTextRef.GetName(this.m_targetTextWidgetRef)) + " : " + ToString(inkTextRef.Get(this.m_targetTextWidgetRef).GetClassName()));
 
 			let fontsize = inkTextRef.GetFontSize(this.m_targetTextWidgetRef);
-			let text = this.GenerateFurigana(this.m_lineData.text, fontsize);
+			let text = this.GenerateFurigana(this.m_lineData.text, lineData.id, fontsize);
 
 			if StrLen(text) < 1
 			{

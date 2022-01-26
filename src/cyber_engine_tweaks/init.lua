@@ -23,7 +23,8 @@ registerForEvent("onInit", function()
 		addSpaces = false,
 		showFurigana = true,
 		furiganaScale = 60,
-		maxLineLength = 40
+		maxLineLength = 40,
+		showLineIDs = false
 	}
 
 	-- load settings
@@ -38,6 +39,7 @@ registerForEvent("onInit", function()
 		self.showFurigana = state.showFurigana
 		self.furiganaScale = state.furiganaScale / 100.0
 		self.maxLineLength = state.maxLineLength
+		self.showLineIDs = state.showLineIDs
 	end)
 
 	-- reference https://github.com/justarandomguyintheinternet/CP77_nativeSettings
@@ -45,6 +47,8 @@ registerForEvent("onInit", function()
 	nativeSettings.addTab("/furigana", "Furigana", function() -- Add our mods tab (path, label)
 		nativeSettings.saveSettingsFile(io.open(settingsFilename, "w"), state)
 	end)
+
+	nativeSettings.addSubcategory("/furigana/debug", "Debug Options")
 
 	nativeSettings.addSwitch("/furigana", "Enabled", "Disable the mod to get the original subtitles.", state.enabled, stateDefaults.enabled, function(value) -- path, label, desc, currentValue, defaultValue, callback
 		print("Changed Enabled to ", value)
@@ -81,8 +85,12 @@ registerForEvent("onInit", function()
 		state.maxLineLength = value
 	end)
 
+	nativeSettings.addSwitch("/furigana/debug", "Show Line IDs", "Shows the ID of the individual lines. This is needed to report issues.", state.showLineIDs, stateDefaults.showLineIDs, function(value) -- path, label, desc, currentValue, defaultValue, callback
+		print("Changed Show Line IDs to ", value)
+		state.showLineIDs = value
+	end)
 
-	nativeSettings.addButton("/furigana", "Report Incorrect Reading", "When you see incorrect kanji readings, please report them. Opens browser window.", "Report Issue", 45, function() -- Parameters: path, label, desc, buttonText, textSize, callback, optionalIndex
+	nativeSettings.addButton("/furigana/debug", "Report Incorrect Reading", "When you see incorrect kanji readings, please report them. Opens browser window.", "Report Issue", 45, function() -- Parameters: path, label, desc, buttonText, textSize, callback, optionalIndex
 		print("User clicked Report Issue")
 	end)
 end)
