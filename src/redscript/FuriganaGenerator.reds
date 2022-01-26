@@ -85,20 +85,17 @@ public class FuriganaSettings
 
 public class FuriganaGenerator
 {
-	/** This widget containing all visible subtitle lines. */
-	private let subtitlesPanel :ref<inkVerticalPanel>;
-
 	/** This widget is our root panel we use for our widgets. */
-	private let furiganaroot :ref<inkVerticalPanel>;
+	private let furiganaroot :ref<inkCompoundWidget>;
 
 	/** The widgets represent one line of our subtitles. */
 	private let furiganalines :array< ref<inkHorizontalPanel> >;
 
-	private func CreateRootWidget(parent :ref<inkCompoundWidget>, checkForExisting :Bool) -> Void
+	private func CreateRootWidget(parent :ref<inkCompoundWidget>, singleline :Bool, checkForExisting :Bool) -> Void
 	{
 		if checkForExisting
 		{
-			let root = parent.GetWidgetByPathName(n"furiganaSubtitle") as inkVerticalPanel;
+			let root = parent.GetWidgetByPathName(n"furiganaSubtitle") as inkCompoundWidget;
 
 			if IsDefined(root) {
 				root.RemoveAllChildren();
@@ -108,7 +105,7 @@ public class FuriganaGenerator
 			}
 		}
 
-		this.furiganaroot = new inkVerticalPanel();
+		this.furiganaroot = singleline ? new inkHorizontalPanel() : new inkVerticalPanel();
 		this.furiganaroot.SetName(n"furiganaSubtitle");
 		this.furiganaroot.SetFitToContent(true);
 		this.furiganaroot.SetHAlign(inkEHorizontalAlign.Left);
@@ -131,7 +128,7 @@ public class FuriganaGenerator
 		return newline;
 	}
 
-	private func AddTextWidget(text :String, parent :ref<inkHorizontalPanel>, fontsize :Int32, color :Color) -> Void
+	private func AddTextWidget(text :String, parent :ref<inkCompoundWidget>, fontsize :Int32, color :Color) -> Void
 	{
 		let w = new inkText();
 		w.SetName(n"furiganaTextWidget");
@@ -159,7 +156,7 @@ public class FuriganaGenerator
 		wk.Reparent(parent);
 	}
 
-	private func AddKanjiWithFuriganaWidgets(kanji :String, furigana :String, parent :ref<inkHorizontalPanel>, fontsize :Int32, furiganascale :Float, color :Color) -> Void
+	private func AddKanjiWithFuriganaWidgets(kanji :String, furigana :String, parent :ref<inkCompoundWidget>, fontsize :Int32, furiganascale :Float, color :Color) -> Void
 	{
 		let furiganasize = Cast<Int32>( Cast<Float>(fontsize) * furiganascale );
 
@@ -188,7 +185,8 @@ public class FuriganaGenerator
 	private func GenerateFuriganaWidgets(parent :ref<inkCompoundWidget>, text :String, lineid :Uint64, blocks :array<Int16>, fontsize :Int32, singleline :Bool, checkForExisting :Bool, settings :ref<FuriganaSettings>) -> Void
 	{
 		// create the root for all our lines
-		this.CreateRootWidget(parent, checkForExisting);
+		this.CreateRootWidget(parent, singleline, checkForExisting);
+		
 
 		// add the widgets as needed
 		let size = ArraySize(blocks);
@@ -221,7 +219,7 @@ public class FuriganaGenerator
 		// limit length
 		let maxlinelength = settings.maxLineLength;
 
-		let linewidget = this.CreateNewLineWidget();
+		let linewidget = singleline ? this.furiganaroot : this.CreateNewLineWidget();
 
 		// generate the widgets
 		let currcharlen = 0;
@@ -246,7 +244,7 @@ public class FuriganaGenerator
 				}
 
 				// limit the length, but not for katakana
-				if type == 0 && currcharlen + count > maxlinelength
+				if type == 0 && !singleline && currcharlen + count > maxlinelength
 				{
 					// try to find a word
 					let remains = maxlinelength - currcharlen;
