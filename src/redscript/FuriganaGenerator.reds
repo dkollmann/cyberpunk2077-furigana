@@ -94,8 +94,20 @@ public class FuriganaGenerator
 	/** The widgets represent one line of our subtitles. */
 	private let furiganalines :array< ref<inkHorizontalPanel> >;
 
-	private func CreateRootWidget(parent :ref<inkCompoundWidget>) -> Void
+	private func CreateRootWidget(parent :ref<inkCompoundWidget>, checkForExisting :Bool) -> Void
 	{
+		if checkForExisting
+		{
+			let root = parent.GetWidgetByPathName(n"furiganaSubtitle") as inkVerticalPanel;
+
+			if IsDefined(root) {
+				root.RemoveAllChildren();
+
+				this.furiganaroot = root;
+				return;
+			}
+		}
+
 		this.furiganaroot = new inkVerticalPanel();
 		this.furiganaroot.SetName(n"furiganaSubtitle");
 		this.furiganaroot.SetFitToContent(true);
@@ -173,10 +185,10 @@ public class FuriganaGenerator
 		this.AddKanjiWidget(kanji, panel, fontsize, color);
 	}
 
-	private func GenerateFuriganaWidgets(parent :ref<inkCompoundWidget>, text :String, lineid :Uint64, blocks :array<Int16>, fontsize :Int32, settings :ref<FuriganaSettings>) -> Void
+	private func GenerateFuriganaWidgets(parent :ref<inkCompoundWidget>, text :String, lineid :Uint64, blocks :array<Int16>, fontsize :Int32, singleline :Bool, checkForExisting :Bool, settings :ref<FuriganaSettings>) -> Void
 	{
 		// create the root for all our lines
-		this.CreateRootWidget(parent);
+		this.CreateRootWidget(parent, checkForExisting);
 
 		// add the widgets as needed
 		let size = ArraySize(blocks);
@@ -319,7 +331,7 @@ public class FuriganaGenerator
 		}
 	}
 
-	public func GenerateFurigana(parent :ref<inkCompoundWidget>, text :String, lineid :Uint64, fontsize :Int32) -> String
+	public func GenerateFurigana(parent :ref<inkCompoundWidget>, text :String, lineid :Uint64, fontsize :Int32, singleline :Bool, checkForExisting :Bool) -> String
 	{
 		// get settings
 		let settings = new FuriganaSettings();
@@ -348,7 +360,7 @@ public class FuriganaGenerator
 			return text;
 		}
 
-		this.GenerateFuriganaWidgets(parent, text, lineid, blocks, fontsize, settings);
+		this.GenerateFuriganaWidgets(parent, text, lineid, blocks, fontsize, singleline, checkForExisting, settings);
 
 		return "";
 	}

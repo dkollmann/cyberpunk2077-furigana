@@ -46,7 +46,7 @@ private final func UpdateDialogHubData() -> Void
 		Assert(rootParent, "Failed to get root active_text_wrapper!!");
 
 		// generate furigana
-		generator.GenerateFurigana(rootParent, localizedText, Cast<Uint64>(0), fontsize);
+		generator.GenerateFurigana(rootParent, localizedText, Cast<Uint64>(0), fontsize,  true, true);
 
 		inkTextRef.SetVisible(currentItem.m_ActiveTextRef, false);
 
