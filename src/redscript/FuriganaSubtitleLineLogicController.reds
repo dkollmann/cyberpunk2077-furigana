@@ -152,6 +152,7 @@ private func CreateNewLineWidget() -> ref<inkHorizontalPanel>
 	newline.SetFitToContent(true);
 	newline.SetHAlign(inkEHorizontalAlign.Left);
 	newline.SetVAlign(inkEVerticalAlign.Bottom);
+	newline.SetMargin(0.0, 0.0, 0.0, 10.0);
 	newline.Reparent(this.furiganaroot);
 
 	ArrayPush(this.furiganalines, newline);
@@ -170,8 +171,6 @@ private func AddTextWidget(text :String, parent :ref<inkHorizontalPanel>, fontsi
 	w.SetHAlign(inkEHorizontalAlign.Left);
 	w.SetVAlign(inkEVerticalAlign.Bottom);
 	w.SetText(text);
-	w.SetMargin(0.0, 0.0, 0.0, 10.0);
-	w.SetVerticalAlignment(textVerticalAlignment.Bottom);
 	w.Reparent(parent);
 }
 
@@ -198,7 +197,7 @@ private func AddKanjiWithFuriganaWidgets(kanji :String, furigana :String, parent
 	panel.SetFitToContent(true);
 	panel.SetHAlign(inkEHorizontalAlign.Left);
 	panel.SetVAlign(inkEVerticalAlign.Bottom);
-	panel.SetMargin(1.0, 0.0, 1.0, 0.0);
+	panel.SetMargin(1.0, 0.0, 1.0, 1.0);
 	panel.Reparent(parent);
 
 	let wf = new inkText();
