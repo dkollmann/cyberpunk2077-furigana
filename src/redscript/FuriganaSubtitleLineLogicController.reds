@@ -72,6 +72,9 @@ public class FuriganaSettings
   public let colorizeKanji :Int32;
   public let colorizeKatakana :Bool;
   public let addSpaces :Bool;
+  public let showFurigana :Bool;
+  public let furiganaScale :Float;
+  public let maxLineLength :Int32;
 
   public func Get() -> Void {}
 }
@@ -168,9 +171,23 @@ private func AddTextWidget(text :String, parent :ref<inkHorizontalPanel>, fontsi
 	w.Reparent(parent);
 }
 
-private func AddKanjiWithFuriganaWidgets(kanji :String, furigana :String, parent :ref<inkHorizontalPanel>, fontsize :Int32, color :Color) -> Void
+private func AddKanjiWidget(kanji :String, parent :ref<inkCompoundWidget>, fontsize :Int32, color :Color) -> Void
 {
-	let furiganasize = Cast<Int32>( Cast<Float>(fontsize) * 0.6 );
+	let wk = new inkText();
+	wk.SetName(n"kanjiText");
+	wk.SetFontFamily("base\\gameplay\\gui\\fonts\\foreign\\japanese\\mgenplus\\mgenplus.inkfontfamily", n"Medium");
+	wk.SetTintColor(color);
+	wk.SetFontSize(fontsize);
+	wk.SetFitToContent(true);
+	wk.SetHAlign(inkEHorizontalAlign.Center);
+	wk.SetVAlign(inkEVerticalAlign.Bottom);
+	wk.SetText(kanji);
+	wk.Reparent(parent);
+}
+
+private func AddKanjiWithFuriganaWidgets(kanji :String, furigana :String, parent :ref<inkHorizontalPanel>, fontsize :Int32, furiganascale :Float, color :Color) -> Void
+{
+	let furiganasize = Cast<Int32>( Cast<Float>(fontsize) * furiganascale );
 
 	let panel = new inkVerticalPanel();
 	panel.SetName(n"furiganaKH");
@@ -191,16 +208,7 @@ private func AddKanjiWithFuriganaWidgets(kanji :String, furigana :String, parent
 	wf.SetText(furigana);
 	wf.Reparent(panel);
 
-	let wk = new inkText();
-	wk.SetName(n"kanjiText");
-	wk.SetFontFamily("base\\gameplay\\gui\\fonts\\foreign\\japanese\\mgenplus\\mgenplus.inkfontfamily", n"Medium");
-	wk.SetTintColor(color);
-	wk.SetFontSize(fontsize);
-	wk.SetFitToContent(true);
-	wk.SetHAlign(inkEHorizontalAlign.Center);
-	wk.SetVAlign(inkEVerticalAlign.Bottom);
-	wk.SetText(kanji);
-	wk.Reparent(panel);
+	AddKanjiWidget(kanji, panel, fontsize, color);
 }
 
 @addMethod(SubtitleLineLogicController)
@@ -220,7 +228,7 @@ private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>, fontsiz
 	let furiganaclridx = 0;
 
 	// limit length
-	let maxlinelength = 50;
+	let maxlinelength = settings.maxLineLength;
 
 	let linewidget = this.CreateNewLineWidget();
 	let currcharlen = 0;
@@ -281,14 +289,6 @@ private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>, fontsiz
 			{
 				i += 3;
 
-				let fstart = Cast<Int32>( blocks[i] );
-				let fsize  = Cast<Int32>( blocks[i + 1] );
-				let ftype  = Cast<Int32>( blocks[i + 2] );
-
-				Assert(ftype == 2, "Expected furigana type!");
-
-				let furigana = StrMid(text, fstart, fsize);
-
 				let clr :Color;
 				if settings.colorizeKanji == 0
 				{
@@ -309,7 +309,22 @@ private func GenerateFuriganaWidgets(text :String, blocks :array<Int16>, fontsiz
 					}
 				}
 
-				AddKanjiWithFuriganaWidgets(str, furigana, linewidget, fontsize, clr);
+				if settings.showFurigana
+				{
+					let fstart = Cast<Int32>( blocks[i] );
+					let fsize  = Cast<Int32>( blocks[i + 1] );
+					let ftype  = Cast<Int32>( blocks[i + 2] );
+
+					Assert(ftype == 2, "Expected furigana type!");
+
+					let furigana = StrMid(text, fstart, fsize);
+
+					AddKanjiWithFuriganaWidgets(str, furigana, linewidget, fontsize, settings.furiganaScale, clr);
+				}
+				else
+				{
+					AddKanjiWidget(str, linewidget, fontsize, clr);
+				}
 			}
 			else
 			{

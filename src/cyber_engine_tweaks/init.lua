@@ -20,7 +20,10 @@ registerForEvent("onInit", function()
 		enabled = true,
 		colorizeKanji = 3,
 		colorizeKatakana = true,
-		addSpaces = false
+		addSpaces = false,
+		showFurigana = true,
+		furiganaScale = 60,
+		maxLineLength = 50
 	}
 
 	-- load settings
@@ -32,6 +35,9 @@ registerForEvent("onInit", function()
 		self.colorizeKanji = state.colorizeKanji - 1
 		self.colorizeKatakana = state.colorizeKatakana
 		self.addSpaces = state.addSpaces
+		self.showFurigana = state.showFurigana
+		self.furiganaScale = state.furiganaScale / 100.0
+		self.maxLineLength = state.maxLineLength
 	end)
 
 	-- reference https://github.com/justarandomguyintheinternet/CP77_nativeSettings
@@ -43,6 +49,16 @@ registerForEvent("onInit", function()
 	nativeSettings.addSwitch("/furigana", "Enabled", "Disable the mod to get the original subtitles.", state.enabled, stateDefaults.enabled, function(value) -- path, label, desc, currentValue, defaultValue, callback
 		print("Changed Enabled to ", value)
 		state.enabled = value
+	end)
+
+	nativeSettings.addSwitch("/furigana", "Show Furigana", "Add furigana to the kanji.", state.showFurigana, stateDefaults.showFurigana, function(value) -- path, label, desc, currentValue, defaultValue, callback
+		print("Changed Show Furigana to ", value)
+		state.showFurigana = value
+	end)
+
+	nativeSettings.addRangeFloat("/furigana", "Furigana Size", "The size of the furigana characters compared to the kanji ones.", 10, 100, 1, "%.0f%%", state.furiganaScale, stateDefaults.furiganaScale, function(value) -- path, label, desc, min, max, step, format, currentValue, defaultValue, callback, optionalIndex
+		print("Changed Furigana Size to ", value)
+		state.furiganaScale = value
 	end)
 
 	nativeSettings.addSelectorString("/furigana", "Colorize Kanji", "Kanji and their furigana are shown in a different color, so it is easier to distinguish them.", kanjicolorize, state.colorizeKanji, stateDefaults.colorizeKanji, function(value) -- path, label, desc, elements, currentValue, defaultValue, callback
@@ -59,6 +75,12 @@ registerForEvent("onInit", function()
 		print("Changed Add Extra Spaces to ", value)
 		state.addSpaces = value
 	end)
+
+	nativeSettings.addRangeInt("/furigana", "Max Line Length", "The maximum number of characters per line.", 10, 100, 1, state.maxLineLength, stateDefaults.maxLineLength, function(value) -- path, label, desc, min, max, step, currentValue, defaultValue, callback, optionalIndex
+		print("ChangedMax Line Length to ", value)
+		state.maxLineLength = value
+	end)
+
 
 	nativeSettings.addButton("/furigana", "Report Incorrect Reading", "When you see incorrect kanji readings, please report them. Opens browser window.", "Report Issue", 45, function() -- Parameters: path, label, desc, buttonText, textSize, callback, optionalIndex
 		print("User clicked Report Issue")
