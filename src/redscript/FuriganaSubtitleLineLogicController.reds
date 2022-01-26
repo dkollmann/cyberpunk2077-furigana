@@ -139,9 +139,14 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 
 			let generator = new FuriganaGenerator();
 			let fontsize = inkTextRef.GetFontSize(this.m_targetTextWidgetRef);
+
 			let subtitlesWidget = this.GetRootWidget() as inkCompoundWidget;
 			Assert(subtitlesWidget, "Failed to get root widget!!");
-			let text = generator.GenerateFurigana(subtitlesWidget, this.m_lineData.text, lineData.id, fontsize);
+
+			let rootParent = subtitlesWidget.GetWidgetByPathName(n"Line/subtitleFlex") as inkCompoundWidget;
+			Assert(rootParent, "Failed to get root Line/subtitleFlex!!");
+
+			let text = generator.GenerateFurigana(rootParent, this.m_lineData.text, CRUIDToUint64(lineData.id), fontsize);
 
 			if StrLen(text) < 1
 			{

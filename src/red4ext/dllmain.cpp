@@ -492,7 +492,7 @@ void UnicodeStringLen(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
     *aOut = count;
 }
 
-void CRUIDToDecimalString(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, RED4ext::CString* aOut, int64_t a4)
+void CRUIDToUint64(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, uint64_t* aOut, int64_t a4)
 {
     RED4ext::CRUID id;
     RED4ext::GetParameter(aFrame, &id);
@@ -503,13 +503,7 @@ void CRUIDToDecimalString(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* 
     if(aOut == nullptr)
         return;
 
-    std::array<char, 64> str;
-    std::memset(str.data(), 0, str.size());
-
-    std::to_chars(str.data(), str.data() + str.size(), id.unk00);
-
-    RED4ext::CString str2(str.data());
-    *aOut = std::move(str2);
+    *aOut = id.unk00;
 }
 
 
@@ -567,10 +561,10 @@ RED4EXT_C_EXPORT void RED4EXT_CALL PostRegisterTypes()
     }
 
     {
-        auto func = RED4ext::CGlobalFunction::Create("CRUIDToDecimalString", "CRUIDToDecimalString", &CRUIDToDecimalString);
+        auto func = RED4ext::CGlobalFunction::Create("CRUIDToUint64", "CRUIDToUint64", &CRUIDToUint64);
         func->flags = flags;
         func->AddParam("CRUID", "id");
-        func->SetReturnType("String");
+        func->SetReturnType("Uint64");
         rtti->RegisterFunction(func);
     }
 }

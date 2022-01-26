@@ -3,6 +3,8 @@ public final func SetText(value: String, isFailed: Bool) -> Void
 {
 	LogChannel(n"DEBUG", "DIALOG " + value);
 
+	PrintWidgets(this.m_TextFlexRef);
+
 	inkTextRef.SetText(this.m_ActiveTextRef, value);
 	inkWidgetRef.SetOpacity(this.m_ActiveTextRef, isFailed ? 1.00 : 1.00);
 }
@@ -21,7 +23,10 @@ private final func UpdateDialogHubData() -> Void
 	let count: Int32 = ArraySize(this.m_data.choices);
 	let i: Int32 = 0;
 
+	let fontsize = -1;
 	let generator = new FuriganaGenerator();
+
+	//PrintWidgets(this.m_mainVert, "");
 
 	while i < count
 	{
@@ -30,13 +35,26 @@ private final func UpdateDialogHubData() -> Void
 		tags = GetCaptionTagsFromArray(currListChoiceData.captionParts.parts);
 		localizedText = currListChoiceData.localizedName;
 
-		if Equals(tags, "")
+		if fontsize < 0 {
+			fontsize = inkTextRef.GetFontSize(currentItem.m_ActiveTextRef);
+		}
+
+		let textflex = inkWidgetRef.Get(currentItem.m_TextFlexRef) as inkCompoundWidget;
+		Assert(textflex, "Failed to get m_TextFlexRef!!");
+
+		let rootParent = textflex.GetWidgetByPathName(n"active_text_wrapper") as inkCompoundWidget;
+		Assert(rootParent, "Failed to get root active_text_wrapper!!");
+
+		// generate furigana
+		generator.GenerateFurigana(rootParent, localizedText, Cast<Uint64>(0), fontsize);
+
+		/*if Equals(tags, "")
 		{
 			currentItem.SetText(localizedText, ChoiceTypeWrapper.IsType(currListChoiceData.type, gameinteractionsChoiceType.Inactive));
 		} else
 		{
 			currentItem.SetText("[" + tags + "] " + localizedText, ChoiceTypeWrapper.IsType(currListChoiceData.type, gameinteractionsChoiceType.Inactive));
-		}
+		}*/
 
 		currentItem.SetType(currListChoiceData.type);
 		currentItem.SetDedicatedInput(currListChoiceData.inputActionName);

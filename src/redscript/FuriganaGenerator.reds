@@ -18,8 +18,8 @@ private static native func StrFindLastWord(text: String, end :Int32) -> Int32;
 /** Counts the number of actual utf-8 characters in the string. */
 private static native func UnicodeStringLen(text: String) -> Int32;
 
-/** Converts a CRUID into a decimal string. */
-private static native func CRUIDToDecimalString(id :CRUID) -> String;
+/** Gets the id from a CRUID and returns it. */
+private static native func CRUIDToUint64(id :CRUID) -> Uint64;
 
 private static func Assert(cond :Bool, msg :String) -> Void
 {
@@ -94,18 +94,14 @@ public class FuriganaGenerator
 	/** The widgets represent one line of our subtitles. */
 	private let furiganalines :array< ref<inkHorizontalPanel> >;
 
-	private func CreateRootWidget(subtitlesWidget :ref<inkCompoundWidget>) -> Void
+	private func CreateRootWidget(parent :ref<inkCompoundWidget>) -> Void
 	{
 		this.furiganaroot = new inkVerticalPanel();
 		this.furiganaroot.SetName(n"furiganaSubtitle");
 		this.furiganaroot.SetFitToContent(true);
 		this.furiganaroot.SetHAlign(inkEHorizontalAlign.Left);
 		this.furiganaroot.SetVAlign(inkEVerticalAlign.Top);
-
-		let rootParent = subtitlesWidget.GetWidgetByPathName(n"Line/subtitleFlex") as inkCompoundWidget;
-		Assert(rootParent, "Failed to get root Line/subtitleFlex!!");
-
-		this.furiganaroot.Reparent(rootParent);
+		this.furiganaroot.Reparent(parent);
 	}
 
 	private func CreateNewLineWidget() -> ref<inkHorizontalPanel>
@@ -177,10 +173,10 @@ public class FuriganaGenerator
 		this.AddKanjiWidget(kanji, panel, fontsize, color);
 	}
 
-	private func GenerateFuriganaWidgets(subtitlesWidget :ref<inkCompoundWidget>, text :String, lineid :CRUID, blocks :array<Int16>, fontsize :Int32, settings :ref<FuriganaSettings>) -> Void
+	private func GenerateFuriganaWidgets(parent :ref<inkCompoundWidget>, text :String, lineid :Uint64, blocks :array<Int16>, fontsize :Int32, settings :ref<FuriganaSettings>) -> Void
 	{
 		// create the root for all our lines
-		this.CreateRootWidget(subtitlesWidget);
+		this.CreateRootWidget(parent);
 
 		// add the widgets as needed
 		let size = ArraySize(blocks);
@@ -193,9 +189,9 @@ public class FuriganaGenerator
 		let furiganaclridx = 0;
 
 		// add debug info
-		if settings.showLineIDs
+		if settings.showLineIDs && lineid > Cast<Uint64>(0)
 		{
-			let id = CRUIDToDecimalString(lineid);
+			let id = ToString(lineid);
 
 			LogChannel(n"DEBUG", "Line: " + id);
 
@@ -323,7 +319,7 @@ public class FuriganaGenerator
 		}
 	}
 
-	public func GenerateFurigana(subtitlesWidget :ref<inkCompoundWidget>, text :String, lineid :CRUID, fontsize :Int32) -> String
+	public func GenerateFurigana(parent :ref<inkCompoundWidget>, text :String, lineid :Uint64, fontsize :Int32) -> String
 	{
 		// get settings
 		let settings = new FuriganaSettings();
@@ -352,7 +348,7 @@ public class FuriganaGenerator
 			return text;
 		}
 
-		this.GenerateFuriganaWidgets(subtitlesWidget, text, lineid, blocks, fontsize, settings);
+		this.GenerateFuriganaWidgets(parent, text, lineid, blocks, fontsize, settings);
 
 		return "";
 	}
