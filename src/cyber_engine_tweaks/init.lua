@@ -24,7 +24,8 @@ registerForEvent("onInit", function()
 		showFurigana = true,
 		furiganaScale = 60,
 		maxLineLength = 40,
-		showLineIDs = false
+		showLineIDs = false,
+		dialogBackgroundOpacity = 15
 	}
 
 	-- load settings
@@ -40,6 +41,7 @@ registerForEvent("onInit", function()
 		self.furiganaScale = state.furiganaScale / 100.0
 		self.maxLineLength = state.maxLineLength
 		self.showLineIDs = state.showLineIDs
+		self.dialogBackgroundOpacity = state.dialogBackgroundOpacity / 100.0
 	end)
 
 	-- reference https://github.com/justarandomguyintheinternet/CP77_nativeSettings
@@ -83,6 +85,11 @@ registerForEvent("onInit", function()
 	nativeSettings.addRangeInt("/furigana", "Max Line Length", "The maximum number of characters per line.", 10, 100, 1, state.maxLineLength, stateDefaults.maxLineLength, function(value) -- path, label, desc, min, max, step, currentValue, defaultValue, callback, optionalIndex
 		print("ChangedMax Line Length to ", value)
 		state.maxLineLength = value
+	end)
+
+	nativeSettings.addRangeFloat("/furigana", "Dialog Background Opacity", "Making the background more transparent when selecting dialog options keeps the kanji more readable.", 10, 100, 1, "%.0f%%", state.dialogBackgroundOpacity, stateDefaults.dialogBackgroundOpacity, function(value) -- path, label, desc, min, max, step, format, currentValue, defaultValue, callback, optionalIndex
+		print("Changed Dialog Background Opacity to ", value)
+		state.dialogBackgroundOpacity = value
 	end)
 
 	nativeSettings.addSwitch("/furigana/debug", "Show Line IDs", "Shows the ID of the individual lines. This is needed to report issues.", state.showLineIDs, stateDefaults.showLineIDs, function(value) -- path, label, desc, currentValue, defaultValue, callback

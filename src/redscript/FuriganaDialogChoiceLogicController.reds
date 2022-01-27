@@ -1,9 +1,14 @@
-/*@replaceMethod(DialogChoiceLogicController)
-public final func SetText(value: String, isFailed: Bool) -> Void
+@addField(DialogChoiceLogicController)
+public let backgroundOpacity :Float;
+
+@replaceMethod(DialogChoiceLogicController)
+public final func SetDimmed(value: Bool) -> Void
 {
-	inkTextRef.SetText(this.m_ActiveTextRef, value);
-	inkWidgetRef.SetOpacity(this.m_ActiveTextRef, isFailed ? 1.00 : 1.00);
-}*/
+	let opacity: Float = value ? 0.40 : 1.00;
+	inkWidgetRef.SetOpacity(this.m_ActiveTextRef, opacity);
+	inkWidgetRef.SetOpacity(this.m_InActiveTextRef, opacity);
+	this.m_SelectedBg.SetOpacity(opacity * this.backgroundOpacity);
+}
 
 @replaceMethod(DialogHubLogicController)
 private final func UpdateDialogHubData() -> Void
@@ -20,7 +25,7 @@ private final func UpdateDialogHubData() -> Void
 	let i: Int32 = 0;
 
 	let fontsize = -1;
-	let generator = new FuriganaGenerator();
+	let generator = new FuriganaGenerator().init();
 
 	//PrintWidgets(this.m_mainVert, "");
 
@@ -47,6 +52,9 @@ private final func UpdateDialogHubData() -> Void
 
 		// generate furigana
 		generator.GenerateFurigana(rootParent, localizedText, Cast<Uint64>(0), fontsize,  true, true);
+
+		// make background transparent so the furigana remains readable
+		currentItem.backgroundOpacity = generator.settings.dialogBackgroundOpacity;
 
 		inkTextRef.SetVisible(currentItem.m_ActiveTextRef, false);
 

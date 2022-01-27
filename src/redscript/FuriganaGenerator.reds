@@ -79,17 +79,29 @@ public class FuriganaSettings
   public let furiganaScale :Float;
   public let maxLineLength :Int32;
   public let showLineIDs :Bool;
+  public let dialogBackgroundOpacity :Float;
 
   public func Get() -> Void {}
 }
 
 public class FuriganaGenerator
 {
+	/** The settings. */
+	public let settings :ref<FuriganaSettings>;
+
 	/** This widget is our root panel we use for our widgets. */
 	private let furiganaroot :ref<inkCompoundWidget>;
 
 	/** The widgets represent one line of our subtitles. */
 	private let furiganalines :array< ref<inkHorizontalPanel> >;
+
+	public func init() -> ref<FuriganaGenerator>
+	{
+		this.settings = new FuriganaSettings();
+		this.settings.Get();
+
+		return this;
+	}
 
 	private func CreateRootWidget(parent :ref<inkCompoundWidget>, singleline :Bool, checkForExisting :Bool) -> Void
 	{
@@ -182,11 +194,10 @@ public class FuriganaGenerator
 		this.AddKanjiWidget(kanji, panel, fontsize, color);
 	}
 
-	private func GenerateFuriganaWidgets(parent :ref<inkCompoundWidget>, text :String, lineid :Uint64, blocks :array<Int16>, fontsize :Int32, singleline :Bool, checkForExisting :Bool, settings :ref<FuriganaSettings>) -> Void
+	private func GenerateFuriganaWidgets(parent :ref<inkCompoundWidget>, text :String, lineid :Uint64, blocks :array<Int16>, fontsize :Int32, singleline :Bool, checkForExisting :Bool) -> Void
 	{
 		// create the root for all our lines
 		this.CreateRootWidget(parent, singleline, checkForExisting);
-		
 
 		// add the widgets as needed
 		let size = ArraySize(blocks);
@@ -199,7 +210,7 @@ public class FuriganaGenerator
 		let furiganaclridx = 0;
 
 		// add debug info
-		if settings.showLineIDs && lineid > Cast<Uint64>(0)
+		if this.settings.showLineIDs && lineid > Cast<Uint64>(0)
 		{
 			let id = ToString(lineid);
 
@@ -217,7 +228,7 @@ public class FuriganaGenerator
 		}
 
 		// limit length
-		let maxlinelength = settings.maxLineLength;
+		let maxlinelength = this.settings.maxLineLength;
 
 		let linewidget = singleline ? this.furiganaroot : this.CreateNewLineWidget();
 
@@ -280,7 +291,7 @@ public class FuriganaGenerator
 					i += 3;
 
 					let clr :Color;
-					if settings.colorizeKanji == 0
+					if this.settings.colorizeKanji == 0
 					{
 						clr = textcolor;
 					}
@@ -292,14 +303,14 @@ public class FuriganaGenerator
 							clr = furiganacolor2;
 						}
 
-						if settings.colorizeKanji == 2
+						if this.settings.colorizeKanji == 2
 						{
 							// switch colors around
 							furiganaclridx = (furiganaclridx + 1) % 2;
 						}
 					}
 
-					if settings.showFurigana
+					if this.settings.showFurigana
 					{
 						let fstart = Cast<Int32>( blocks[i] );
 						let fsize  = Cast<Int32>( blocks[i + 1] );
@@ -309,7 +320,7 @@ public class FuriganaGenerator
 
 						let furigana = StrMid(text, fstart, fsize);
 
-						this.AddKanjiWithFuriganaWidgets(str, furigana, linewidget, fontsize, settings.furiganaScale, clr);
+						this.AddKanjiWithFuriganaWidgets(str, furigana, linewidget, fontsize, this.settings.furiganaScale, clr);
 					}
 					else
 					{
@@ -331,25 +342,21 @@ public class FuriganaGenerator
 
 	public func GenerateFurigana(parent :ref<inkCompoundWidget>, text :String, lineid :Uint64, fontsize :Int32, singleline :Bool, checkForExisting :Bool) -> String
 	{
-		// get settings
-		let settings = new FuriganaSettings();
-		settings.Get();
-
 		/*LogChannel(n"DEBUG", "Settings:");
 		LogChannel(n"DEBUG", "  enabled: " + ToString(settings.enabled));
 		LogChannel(n"DEBUG", "  colorizeKanji: " + ToString(settings.colorizeKanji));
 		LogChannel(n"DEBUG", "  colorizeKatakana: " + ToString(settings.colorizeKatakana));
 		LogChannel(n"DEBUG", "  addSpaces: " + ToString(settings.addSpaces));*/
 
-		if !settings.enabled {
+		if !this.settings.enabled {
 			return StrStripFurigana(text);
 		}
 
-		if settings.addSpaces {
+		if this.settings.addSpaces {
 			text = StrAddSpaces(text);
 		}
 
-		let blocks = StrSplitFurigana(text, settings.colorizeKatakana);
+		let blocks = StrSplitFurigana(text, this.settings.colorizeKatakana);
 		let size = ArraySize(blocks);
 		let count = size / 3;
 
@@ -358,7 +365,7 @@ public class FuriganaGenerator
 			return text;
 		}
 
-		this.GenerateFuriganaWidgets(parent, text, lineid, blocks, fontsize, singleline, checkForExisting, settings);
+		this.GenerateFuriganaWidgets(parent, text, lineid, blocks, fontsize, singleline, checkForExisting);
 
 		return "";
 	}

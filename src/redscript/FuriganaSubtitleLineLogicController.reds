@@ -137,7 +137,7 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 			// show normal lines
 			//LogChannel(n"DEBUG", "SUBTITLE: " + speakerName + " on " + ToString(inkTextRef.GetName(this.m_targetTextWidgetRef)) + " : " + ToString(inkTextRef.Get(this.m_targetTextWidgetRef).GetClassName()));
 
-			let generator = new FuriganaGenerator();
+			let generator = new FuriganaGenerator().init();
 			let fontsize = inkTextRef.GetFontSize(this.m_targetTextWidgetRef);
 
 			let subtitlesWidget = this.GetRootWidget() as inkCompoundWidget;
