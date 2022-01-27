@@ -177,7 +177,7 @@ public class FuriganaGenerator
 		panel.SetFitToContent(true);
 		panel.SetHAlign(inkEHorizontalAlign.Left);
 		panel.SetVAlign(inkEVerticalAlign.Bottom);
-		panel.SetMargin(1.0, 0.0, 1.0, 1.0);
+		panel.SetMargin(1.0, 0.0, 1.0, 0.0);
 		panel.Reparent(parent);
 
 		let wf = new inkText();
@@ -189,6 +189,7 @@ public class FuriganaGenerator
 		wf.SetHAlign(inkEHorizontalAlign.Center);
 		wf.SetVAlign(inkEVerticalAlign.Bottom);
 		wf.SetText(furigana);
+		wf.SetMargin(0.0, 0.0, 0.0, 1.0);
 		wf.Reparent(panel);
 
 		this.AddKanjiWidget(kanji, panel, fontsize, color);

@@ -80,8 +80,16 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 		}
 		else
 		{
-			inkTextRef.SetText(this.m_text_normal, lineData.text);
-			inkTextRef.SetText(this.m_text_wide, lineData.text);
+			let root = inkWidgetRef.Get(this.m_TextContainer) as inkCompoundWidget;
+			Assert(root, "Failed to get m_TextContainer!!");
+
+			generator.GenerateFurigana(root, lineData.text, CRUIDToUint64(lineData.id), fontsize, false, false);
+
+			inkTextRef.SetVisible(this.m_container_normal, false);
+			inkTextRef.SetVisible(this.m_container_wide, false);
+
+			//inkTextRef.SetText(this.m_text_normal, lineData.text);
+			//inkTextRef.SetText(this.m_text_wide, lineData.text);
 		}
 	}
 }
