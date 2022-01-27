@@ -21,6 +21,9 @@ private static native func UnicodeStringLen(text: String) -> Int32;
 /** Gets the id from a CRUID and returns it. */
 private static native func CRUIDToUint64(id :CRUID) -> Uint64;
 
+/** Open an url in the browser. */
+private static native func OpenBrowser(url :String) -> Void;
+
 private static func Assert(cond :Bool, msg :String) -> Void
 {
 	if !cond {

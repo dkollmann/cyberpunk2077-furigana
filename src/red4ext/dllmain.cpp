@@ -1,6 +1,7 @@
 ﻿#define WIN32_LEAN_AND_MEAN
 #define NOMINMAX
-//#include <Windows.h>
+#include <Windows.h>
+#include <shellapi.h>
 #include <RED4ext/RED4ext.hpp>
 #include <RED4ext/Scripting/Natives/Generated/ink/TextWidget.hpp>
 #include "utf8proc/utf8proc.h"
@@ -506,6 +507,15 @@ void CRUIDToUint64(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame,
     *aOut = id.unk00;
 }
 
+void OpenBrowser(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, uint64_t* aOut, int64_t a4)
+{
+    RED4ext::CString url;
+    RED4ext::GetParameter(aFrame, &url);
+
+    aFrame->code++; // skip ParamEnd
+
+    ShellExecuteA(NULL, "open", url.c_str(), NULL, NULL, SW_SHOWNORMAL);
+}
 
 RED4EXT_C_EXPORT void RED4EXT_CALL RegisterTypes()
 {
@@ -565,6 +575,14 @@ RED4EXT_C_EXPORT void RED4EXT_CALL PostRegisterTypes()
         func->flags = flags;
         func->AddParam("CRUID", "id");
         func->SetReturnType("Uint64");
+        rtti->RegisterFunction(func);
+    }
+
+    {
+        auto func = RED4ext::CGlobalFunction::Create("OpenBrowser", "OpenBrowser", &OpenBrowser);
+        func->flags = flags;
+        func->AddParam("String", "url");
+        func->SetReturnType("Void");
         rtti->RegisterFunction(func);
     }
 }

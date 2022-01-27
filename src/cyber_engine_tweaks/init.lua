@@ -122,5 +122,7 @@ registerForEvent("onInit", function()
 
 	nativeSettings.addButton("/furigana/debug", "Report Incorrect Reading", "When you see incorrect kanji readings, please report them. Opens browser window.", "Report Issue", 45, function() -- Parameters: path, label, desc, buttonText, textSize, callback, optionalIndex
 		print("User clicked Report Issue")
+
+		OpenBrowser("http://www.google.com");
 	end)
 end)
