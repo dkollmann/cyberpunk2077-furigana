@@ -71,23 +71,40 @@ private static func PrintWidgets(widget :inkWidgetRef) -> Void
 /** The settings object. Must be in sync with the lua script. */
 public class FuriganaSettings
 {
-  public let enabled: Bool;
-  public let colorizeKanji :Int32;
-  public let colorizeKatakana :Bool;
-  public let addSpaces :Bool;
-  public let showFurigana :Bool;
-  public let furiganaScale :Float;
-  public let maxLineLength :Int32;
-  public let showLineIDs :Bool;
-  public let dialogBackgroundOpacity :Float;
+	public let enabled: Bool;
+	public let colorizeKanji :Int32;
+	public let colorizeKatakana :Bool;
+	public let addSpaces :Bool;
+	public let showFurigana :Bool;
+	public let furiganaScale :Float;
 
-  public func Get() -> Void {}
+	public let dialogMaxLineLength :Int32;
+	public let dialogBackgroundOpacity :Float;
+
+	public let chatterMaxLineLength :Int32;
+	public let chatterTextScale :Float;
+
+	public let showLineIDs :Bool;
+	
+	public func Get() -> Void {}
+}
+
+enum FuriganaGeneratorMode
+{
+	Dialog = 0,
+	Chatter = 1
 }
 
 public class FuriganaGenerator
 {
+	/** The mode of the generator. */
+	public let mode :FuriganaGeneratorMode;
+
 	/** The settings. */
 	public let settings :ref<FuriganaSettings>;
+
+	/** The maximum lin length. */
+	private let maxLineLength :Int32;
 
 	/** This widget is our root panel we use for our widgets. */
 	private let furiganaroot :ref<inkCompoundWidget>;
@@ -95,10 +112,17 @@ public class FuriganaGenerator
 	/** The widgets represent one line of our subtitles. */
 	private let furiganalines :array< ref<inkHorizontalPanel> >;
 
-	public func init() -> ref<FuriganaGenerator>
+	public func init(mode :FuriganaGeneratorMode) -> ref<FuriganaGenerator>
 	{
+		this.mode = mode;
 		this.settings = new FuriganaSettings();
 		this.settings.Get();
+
+		if Equals(mode, FuriganaGeneratorMode.Dialog) {
+			this.maxLineLength = this.settings.dialogMaxLineLength;
+		} else {
+			this.maxLineLength = this.settings.chatterMaxLineLength;
+		}
 
 		return this;
 	}
@@ -222,14 +246,12 @@ public class FuriganaGenerator
 			w.SetFontFamily("base\\gameplay\\gui\\fonts\\foreign\\japanese\\mgenplus\\mgenplus.inkfontfamily", n"Medium");
 			w.SetFontSize(20);
 			w.SetFitToContent(true);
-			//w.SetHAlign(inkEHorizontalAlign.Center);
-			//w.SetVAlign(inkEVerticalAlign.Bottom);
 			w.SetText(id);
 			w.Reparent(this.furiganaroot);
 		}
 
 		// limit length
-		let maxlinelength = this.settings.maxLineLength;
+		let maxlinelength = this.maxLineLength;
 
 		let linewidget = singleline ? this.furiganaroot : this.CreateNewLineWidget();
 

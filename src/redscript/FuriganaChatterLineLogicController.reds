@@ -43,8 +43,9 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 	inkWidgetRef.SetVisible(this.m_TextContainer, false);
 	inkWidgetRef.SetVisible(this.m_speachBubble, true);
 
-	let generator = new FuriganaGenerator().init();
+	let generator = new FuriganaGenerator().init(FuriganaGeneratorMode.Chatter);
 	let fontsize = inkTextRef.GetFontSize(this.m_text_normal);
+	fontsize = Cast<Int32>( Cast<Float>(fontsize) * generator.settings.chatterTextScale );
 
 	if scnDialogLineData.HasKiroshiTag(lineData)
 	{

@@ -25,7 +25,7 @@ private final func UpdateDialogHubData() -> Void
 	let i: Int32 = 0;
 
 	let fontsize = -1;
-	let generator = new FuriganaGenerator().init();
+	let generator = new FuriganaGenerator().init(FuriganaGeneratorMode.Dialog);
 
 	//PrintWidgets(this.m_mainVert, "");
 

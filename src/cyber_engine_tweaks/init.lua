@@ -21,9 +21,14 @@ registerForEvent("onInit", function()
 		addSpaces = false,
 		showFurigana = true,
 		furiganaScale = 60,
-		maxLineLength = 40,
-		showLineIDs = false,
-		dialogBackgroundOpacity = 15
+
+		dialogMaxLineLength = 40,
+		dialogBackgroundOpacity = 15,
+
+		chatterMaxLineLength = 40,
+		chatterTextScale = 150,
+
+		showLineIDs = false
 	}
 
 	-- load settings
@@ -37,9 +42,14 @@ registerForEvent("onInit", function()
 		self.addSpaces = state.addSpaces
 		self.showFurigana = state.showFurigana
 		self.furiganaScale = state.furiganaScale / 100.0
-		self.maxLineLength = state.maxLineLength
-		self.showLineIDs = state.showLineIDs
+
+		self.dialogMaxLineLength = state.dialogMaxLineLength
 		self.dialogBackgroundOpacity = state.dialogBackgroundOpacity / 100.0
+
+		self.chatterMaxLineLength = state.chatterMaxLineLength
+		self.chatterTextScale = state.chatterTextScale / 100.0
+
+		self.showLineIDs = state.showLineIDs
 	end)
 
 	-- reference https://github.com/justarandomguyintheinternet/CP77_nativeSettings
@@ -48,6 +58,8 @@ registerForEvent("onInit", function()
 		nativeSettings.saveSettingsFile(io.open(settingsFilename, "w"), state)
 	end)
 
+	nativeSettings.addSubcategory("/furigana/dialog", "Dialogues")
+	nativeSettings.addSubcategory("/furigana/chatter", "Chatter")
 	nativeSettings.addSubcategory("/furigana/debug", "Debug Options")
 
 	nativeSettings.addSwitch("/furigana", "Enabled", "Disable the mod to get the original subtitles.", state.enabled, stateDefaults.enabled, function(value) -- path, label, desc, currentValue, defaultValue, callback
@@ -80,16 +92,29 @@ registerForEvent("onInit", function()
 		state.addSpaces = value
 	end)
 
-	nativeSettings.addRangeInt("/furigana", "Max Line Length", "The maximum number of characters per line.", 10, 100, 1, state.maxLineLength, stateDefaults.maxLineLength, function(value) -- path, label, desc, min, max, step, currentValue, defaultValue, callback, optionalIndex
-		print("ChangedMax Line Length to ", value)
-		state.maxLineLength = value
+	------------------------------ DIALOG ------------------------------
+	nativeSettings.addRangeInt("/furigana/dialog", "Max Line Length", "The maximum number of characters per line in dialogues.", 10, 100, 1, state.dialogMaxLineLength, stateDefaults.dialogMaxLineLength, function(value) -- path, label, desc, min, max, step, currentValue, defaultValue, callback, optionalIndex
+		print("Changed Dialog Max Line Length to ", value)
+		state.dialogdialogMaxLineLength = value
 	end)
 
-	nativeSettings.addRangeFloat("/furigana", "Dialog Background Opacity", "Making the background more transparent when selecting dialog options keeps the kanji more readable.", 10, 100, 1, "%.0f%%", state.dialogBackgroundOpacity, stateDefaults.dialogBackgroundOpacity, function(value) -- path, label, desc, min, max, step, format, currentValue, defaultValue, callback, optionalIndex
+	nativeSettings.addRangeFloat("/furigana/dialog", "Background Opacity", "Making the background more transparent when selecting dialog options keeps the kanji more readable.", 10, 100, 1, "%.0f%%", state.dialogBackgroundOpacity, stateDefaults.dialogBackgroundOpacity, function(value) -- path, label, desc, min, max, step, format, currentValue, defaultValue, callback, optionalIndex
 		print("Changed Dialog Background Opacity to ", value)
 		state.dialogBackgroundOpacity = value
 	end)
 
+	------------------------------ CHATTER ------------------------------
+	nativeSettings.addRangeInt("/furigana/chatter", "Max Line Length", "The maximum number of characters per line.", 10, 100, 1, state.chatterMaxLineLength, stateDefaults.chatterMaxLineLength, function(value) -- path, label, desc, min, max, step, currentValue, defaultValue, callback, optionalIndex
+		print("Changed Chatter Max Line Length to ", value)
+		state.chatterMaxLineLength = value
+	end)
+
+	nativeSettings.addRangeFloat("/furigana/chatter", "Chatter Text Size", "Increase the size of chatter text in the world so it is easier to read.", 100, 300, 1, "%.0f%%", state.chatterTextScale, stateDefaults.chatterTextScale, function(value) -- path, label, desc, min, max, step, format, currentValue, defaultValue, callback, optionalIndex
+		print("Changed Chatter Text Size to ", value)
+		state.chatterTextScale = value
+	end)
+
+	------------------------------ DEBUG ------------------------------
 	nativeSettings.addSwitch("/furigana/debug", "Show Line IDs", "Shows the ID of the individual lines. This is needed to report issues.", state.showLineIDs, stateDefaults.showLineIDs, function(value) -- path, label, desc, currentValue, defaultValue, callback
 		print("Changed Show Line IDs to ", value)
 		state.showLineIDs = value
