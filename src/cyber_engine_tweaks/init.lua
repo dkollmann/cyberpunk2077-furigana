@@ -1,5 +1,3 @@
-print("Loading Cyperunk 2077 Furigana settings")
-
 registerForEvent("onInit", function()
 
 	-- creare ui
