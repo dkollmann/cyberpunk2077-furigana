@@ -344,12 +344,76 @@ def fix_longvowels(original, katakana):
 	return katakana
 
 
+def split_custreadtags(text, opentag, closetag):
+	result = []
+
+	start = 0
+	while True:
+		pos = text.find(opentag, start)
+		if pos < 0:
+			break
+
+		pos2 = text.find(closetag, pos)
+		assert pos2 > pos, "Missing close tag"
+
+		if start < pos:
+			# add the previous text
+			t = text[start:pos]
+			result.append( (t, False) )
+
+		# add this text
+		t2 = text[pos+1:pos2]
+		result.append( (t2, True) )
+
+		start = pos2 + 1
+
+	# add remaining text
+	if start < len(text):
+		t = text[start:]
+		result.append( (t, False) )
+
+	return result
+
+
 def addfurigana_text(processdata, text, filename):
 	# because of our format, the text cannot contain brackets
-	openbracket = "{"
-	closebracket = "}"
-	assert openbracket not in text and closebracket not in text, "We have to use a different syntax"
+	assert processdata.openbracket not in text and processdata.closebracket not in text, "We have to use a different syntax"
+	assert processdata.customreadings_opentag not in text and processdata.customreadings_closetag not in text, "We have to use a different tag for custom readings"
 
+	# try to find custom readings
+	hasfurigana = False
+	text2 = text
+	for kanji in processdata.customreadings:
+		reading = processdata.customreadings[kanji]
+
+		t = text2.replace(kanji, reading)
+
+		if len(t) != len(text2):
+			hasfurigana = True
+
+		text2 = t
+
+	textparts = split_custreadtags(text2, processdata.customreadings_opentag, processdata.customreadings_closetag)
+
+	textparts2 = []
+	for t, iscust in textparts:
+		if iscust:
+			textparts2.append(t)
+			hasfurigana = True
+		else:
+			hasfuri, str = addfurigana_textpart(processdata, t, filename)
+
+			textparts2.append(str)
+
+			if hasfuri:
+				hasfurigana = True
+
+	tfinal = "".join(textparts2)
+
+	return (hasfurigana, tfinal)
+
+
+def addfurigana_textpart(processdata, text, filename):
 	str = ""
 	hasfurigana = False
 	conv = kakasi.convert(text)
@@ -404,9 +468,9 @@ def addfurigana_text(processdata, text, filename):
 
 				if matchedkana:
 					for k in range(len(kanji)):
-						s += kanji[k] + openbracket + readings[k] + closebracket
+						s += kanji[k] + processdata.openbracket + readings[k] + processdata.closebracket
 				else:
-					s += kanji + openbracket + hiragana + closebracket
+					s += kanji + processdata.openbracket + hiragana + processdata.closebracket
 
 			else:
 				s += kanji
@@ -540,15 +604,22 @@ def countfiles(path):
 
 
 class ProcessData:
-	def __init__(self, mecab, kakasi, jam, additionalreadings, problems):
+	def __init__(self, mecab, kakasi, jam, openbracket, closebracket, additionalreadings, customreadings, problems):
 		self.mecab = mecab
 		self.kakasi = kakasi
 		self.jam = jam
+		self.openbracket = openbracket
+		self.closebracket = closebracket
 		self.readingscache = {}
+		self.customreadings = {}
+		self.customreadings_opentag = "<"
+		self.customreadings_closetag = ">"
 		self.problems = problems
 
 		for r in additionalreadings:
 			addk, addh = additionalreadings[r]
+			assert isinstance(addk, tuple), "Expected tuple type. Did you for get a comma?"
+			assert isinstance(addh, tuple), "Expected tuple type. Did you for get a comma?"
 
 			cached = []
 
@@ -565,6 +636,23 @@ class ProcessData:
 					cached.append((k, h))
 
 			self.addtocache(r, cached)
+
+		for kanji, read in customreadings:
+			assert len(kanji) == len(read), "The reading must represent the exact parts of the kanji."
+			word = "".join(kanji)
+
+			repl = self.customreadings_opentag
+			for i in range(len(kanji)):
+				k = kanji[i]
+				r = read[i]
+
+				if is_kanji(k):
+					repl += k + openbracket + r + closebracket
+				else:
+					repl += k
+			repl += self.customreadings_closetag
+
+			self.customreadings[word] = repl
 
 
 	def addtocache(self, kanji, cachedreadings):
@@ -597,11 +685,17 @@ additionalreadings = {
 	"入": (("ジュ", "ニュウ"), ("はい", "いっ", "い")),
 	"結": (("ケチ", "ケツ", "ケッ"), ("むす", "ゆ")),
 	"手": (("シュ", "ズ"), ("て", "で", "た")),
-	"日": (("ニチ", "ジツ"), ("ひ", "び", "か"))
+	"日": (("ニチ", "ジツ"), ("ひ", "び", "か")),
+	"真": (("シン",), ("まこと", "ま"))
 }
 
+# provide readings for kanji words, in case that translation is incorrect
+customreadings = [
+	(("真", "の", "戦", "士"), ("しん", "の", "せん", "し"))
+]
+
 sys.stdout.write("Processing 0%")
-process(ProcessData(mecab, kakasi, jam, additionalreadings, problems), sourcepath, 0, count)
+process(ProcessData(mecab, kakasi, jam, "{", "}", additionalreadings, customreadings, problems), sourcepath, 0, count)
 sys.stdout.write(" done.\n")
 
 if len(problems) > 0:
