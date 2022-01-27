@@ -12,6 +12,7 @@ registerForEvent("onInit", function()
 	local settingsFilename = "settings.json"
 
 	local kanjicolorize = { [1] = "No Colors", [2] = "Same Color", [3] = "Two Colors" }
+	local mothertonguetransmode = { [1] = "Show Instant", [2] = "Fade In"}
 
 	-- create default settings
 	local stateDefaults = {
@@ -27,6 +28,10 @@ registerForEvent("onInit", function()
 
 		chatterMaxLineLength = 40,
 		chatterTextScale = 150,
+
+		motherTongueShow = true,
+		motherTongueScale = 100,
+		motherTongueTransMode = 2,
 
 		showLineIDs = false
 	}
@@ -49,6 +54,10 @@ registerForEvent("onInit", function()
 		self.chatterMaxLineLength = state.chatterMaxLineLength
 		self.chatterTextScale = state.chatterTextScale / 100.0
 
+		self.motherTongueShow = state.motherTongueShow;
+		self.motherTongueScale = state.motherTongueScale / 100.0;
+		self.motherTongueTransMode = state.motherTongueTransMode;
+
 		self.showLineIDs = state.showLineIDs
 	end)
 
@@ -58,36 +67,39 @@ registerForEvent("onInit", function()
 		nativeSettings.saveSettingsFile(io.open(settingsFilename, "w"), state)
 	end)
 
+	nativeSettings.addSubcategory("/furigana/general", "General")
 	nativeSettings.addSubcategory("/furigana/dialog", "Dialogues")
 	nativeSettings.addSubcategory("/furigana/chatter", "Chatter")
+	nativeSettings.addSubcategory("/furigana/mothertongue", "Foreign Speech (Haitian Creole)")
 	nativeSettings.addSubcategory("/furigana/debug", "Debug Options")
 
-	nativeSettings.addSwitch("/furigana", "Enabled", "Disable the mod to get the original subtitles.", state.enabled, stateDefaults.enabled, function(value) -- path, label, desc, currentValue, defaultValue, callback
+	------------------------------ GENERAL ------------------------------
+	nativeSettings.addSwitch("/furigana/general", "Enabled", "Disable the mod to get the original subtitles.", state.enabled, stateDefaults.enabled, function(value) -- path, label, desc, currentValue, defaultValue, callback
 		print("Changed Enabled to ", value)
 		state.enabled = value
 	end)
 
-	nativeSettings.addSwitch("/furigana", "Show Furigana", "Add furigana to the kanji.", state.showFurigana, stateDefaults.showFurigana, function(value) -- path, label, desc, currentValue, defaultValue, callback
+	nativeSettings.addSwitch("/furigana/general", "Show Furigana", "Add furigana to the kanji.", state.showFurigana, stateDefaults.showFurigana, function(value) -- path, label, desc, currentValue, defaultValue, callback
 		print("Changed Show Furigana to ", value)
 		state.showFurigana = value
 	end)
 
-	nativeSettings.addRangeFloat("/furigana", "Furigana Size", "The size of the furigana characters compared to the kanji ones.", 10, 100, 1, "%.0f%%", state.furiganaScale, stateDefaults.furiganaScale, function(value) -- path, label, desc, min, max, step, format, currentValue, defaultValue, callback, optionalIndex
+	nativeSettings.addRangeFloat("/furigana/general", "Furigana Size", "The size of the furigana characters compared to the kanji ones.", 10, 100, 1, "%.0f%%", state.furiganaScale, stateDefaults.furiganaScale, function(value) -- path, label, desc, min, max, step, format, currentValue, defaultValue, callback, optionalIndex
 		print("Changed Furigana Size to ", value)
 		state.furiganaScale = value
 	end)
 
-	nativeSettings.addSelectorString("/furigana", "Colorize Kanji", "Kanji and their furigana are shown in a different color, so it is easier to distinguish them.", kanjicolorize, state.colorizeKanji, stateDefaults.colorizeKanji, function(value) -- path, label, desc, elements, currentValue, defaultValue, callback
+	nativeSettings.addSelectorString("/furigana/general", "Colorize Kanji", "Kanji and their furigana are shown in a different color, so it is easier to distinguish them.", kanjicolorize, state.colorizeKanji, stateDefaults.colorizeKanji, function(value) -- path, label, desc, elements, currentValue, defaultValue, callback
 		print("Changed Colorize Kanji to ", kanjicolorize[value])
 		state.colorizeKanji = value
 	end)
 
-	nativeSettings.addSwitch("/furigana", "Colorize Katakana", "Katakana is shown in a different color, so it is easier to distinguish them.", state.colorizeKatakana, stateDefaults.colorizeKatakana, function(value) -- path, label, desc, currentValue, defaultValue, callback
+	nativeSettings.addSwitch("/furigana/general", "Colorize Katakana", "Katakana is shown in a different color, so it is easier to distinguish them.", state.colorizeKatakana, stateDefaults.colorizeKatakana, function(value) -- path, label, desc, currentValue, defaultValue, callback
 		print("Changed Colorize Katakana to ", value)
 		state.colorizeKatakana = value
 	end)
 
-	nativeSettings.addSwitch("/furigana", "Add Extra Spaces", "Add spaces to the text, like in Roman languages, so it is easier to see the sentence structure.", state.addSpaces, stateDefaults.addSpaces, function(value) -- path, label, desc, currentValue, defaultValue, callback
+	nativeSettings.addSwitch("/furigana/general", "Add Extra Spaces", "Add spaces to the text, like in Roman languages, so it is easier to see the sentence structure.", state.addSpaces, stateDefaults.addSpaces, function(value) -- path, label, desc, currentValue, defaultValue, callback
 		print("Changed Add Extra Spaces to ", value)
 		state.addSpaces = value
 	end)
@@ -112,6 +124,22 @@ registerForEvent("onInit", function()
 	nativeSettings.addRangeFloat("/furigana/chatter", "Chatter Text Size", "Increase the size of chatter text in the world so it is easier to read.", 100, 300, 1, "%.0f%%", state.chatterTextScale, stateDefaults.chatterTextScale, function(value) -- path, label, desc, min, max, step, format, currentValue, defaultValue, callback, optionalIndex
 		print("Changed Chatter Text Size to ", value)
 		state.chatterTextScale = value
+	end)
+
+	------------------------------ MOTHER TONGUE ------------------------------
+	nativeSettings.addSwitch("/furigana/mothertongue", "Show Untranslated Text", "Show a subtitle for the untranslated speech.", state.motherTongueShow, stateDefaults.motherTongueShow, function(value) -- path, label, desc, currentValue, defaultValue, callback
+		print("Changed Show Untranslated Text to ", value)
+		state.motherTongueShow = value
+	end)
+
+	nativeSettings.addRangeFloat("/furigana/mothertongue", "Untranslated Text Size", "The size of the untranslated text, when shown.", 10, 200, 1, "%.0f%%", state.motherTongueScale, stateDefaults.motherTongueScale, function(value) -- path, label, desc, min, max, step, format, currentValue, defaultValue, callback, optionalIndex
+		print("Changed Untranslated Text Size to ", value)
+		state.motherTongueScale = value
+	end)
+
+	nativeSettings.addSelectorString("/furigana/mothertongue", "Translated Text Mode", "Select how translated text will be shown.", mothertonguetransmode, state.motherTongueTransMode, stateDefaults.motherTongueTransMode, function(value) -- path, label, desc, elements, currentValue, defaultValue, callback
+		print("Changed Translated Text Mode to ", mothertonguetransmode[value])
+		state.colormotherTongueTransModezeKanji = value
 	end)
 
 	------------------------------ DEBUG ------------------------------

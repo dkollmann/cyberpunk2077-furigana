@@ -40,7 +40,7 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 	inkWidgetRef.SetVisible(this.m_text_wide, isWide);
 	inkWidgetRef.SetVisible(this.m_container_normal, !isWide);
 	inkWidgetRef.SetVisible(this.m_container_wide, isWide);
-	inkWidgetRef.SetVisible(this.m_TextContainer, false);
+	inkWidgetRef.SetVisible(this.m_TextContainer, true);
 	inkWidgetRef.SetVisible(this.m_speachBubble, true);
 
 	let generator = new FuriganaGenerator().init(FuriganaGeneratorMode.Chatter);
@@ -58,6 +58,12 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 			animCtrl.SetPostTranslatedText(displayData.postTranslatedText);
 			this.SetupAnimation(lineData.duration, animCtrl);
 			animCtrl.PlaySetAnimation();
+			LogChannel(n"DEBUG", "CHATTER A");
+
+			let root = inkWidgetRef.Get(this.m_TextContainer) as inkCompoundWidget;
+			Assert(root, "Failed to get m_TextContainer!!");
+
+			generator.GenerateFurigana(root, displayData.translation, displayData.text, CRUIDToUint64(lineData.id), fontsize, false, false);
 		}
 		else
 		{
@@ -66,6 +72,7 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 			motherTongueCtrl.SetTranslatedText("");
 			motherTongueCtrl.SetPostTranslatedText("");
 			motherTongueCtrl.ApplyTexts();
+			LogChannel(n"DEBUG", "CHATTER B");
 		}
 	}
 	else
@@ -78,19 +85,22 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 			motherTongueCtrl.SetTranslatedText(displayData.translation);
 			motherTongueCtrl.SetPostTranslatedText(displayData.postTranslatedText);
 			motherTongueCtrl.ApplyTexts();
+			LogChannel(n"DEBUG", "CHATTER C");
 		}
 		else
 		{
 			let root = inkWidgetRef.Get(this.m_TextContainer) as inkCompoundWidget;
 			Assert(root, "Failed to get m_TextContainer!!");
 
-			generator.GenerateFurigana(root, lineData.text, CRUIDToUint64(lineData.id), fontsize, false, false);
+			generator.GenerateFurigana(root, lineData.text, "", CRUIDToUint64(lineData.id), fontsize, false, false);
 
 			inkTextRef.SetVisible(this.m_container_normal, false);
 			inkTextRef.SetVisible(this.m_container_wide, false);
 
 			//inkTextRef.SetText(this.m_text_normal, lineData.text);
 			//inkTextRef.SetText(this.m_text_wide, lineData.text);
+
+			LogChannel(n"DEBUG", "CHATTER D");
 		}
 	}
 }

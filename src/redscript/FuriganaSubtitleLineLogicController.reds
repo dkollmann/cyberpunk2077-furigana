@@ -144,7 +144,7 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 			let rootParent = subtitlesWidget.GetWidgetByPathName(n"Line/subtitleFlex") as inkCompoundWidget;
 			Assert(rootParent, "Failed to get root Line/subtitleFlex!!");
 
-			let text = generator.GenerateFurigana(rootParent, this.m_lineData.text, CRUIDToUint64(lineData.id), fontsize, false, false);
+			let text = generator.GenerateFurigana(rootParent, this.m_lineData.text, "", CRUIDToUint64(lineData.id), fontsize, false, false);
 
 			if StrLen(text) < 1
 			{

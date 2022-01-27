@@ -87,6 +87,10 @@ public class FuriganaSettings
 	public let chatterMaxLineLength :Int32;
 	public let chatterTextScale :Float;
 
+	public let motherTongueShow :Bool;
+	public let motherTongueScale :Float;
+	public let motherTongueTransMode :Int32;
+
 	public let showLineIDs :Bool;
 	
 	public func Get() -> Void {}
@@ -222,8 +226,15 @@ public class FuriganaGenerator
 		this.AddKanjiWidget(kanji, panel, fontsize, color);
 	}
 
-	private func GenerateFuriganaWidgets(parent :ref<inkCompoundWidget>, text :String, lineid :Uint64, blocks :array<Int16>, fontsize :Int32, singleline :Bool, checkForExisting :Bool) -> Void
+	private func GenerateFuriganaWidgets(parent :ref<inkCompoundWidget>, japaneseText :String, motherTongueText :String, lineid :Uint64, blocks :array<Int16>, fontsize :Int32, singleline :Bool, checkForExisting :Bool) -> Void
 	{
+		let hasmothertongue = this.settings.motherTongueShow && StrLen(motherTongueText) > 0;
+
+		if hasmothertongue {
+			// we do not support mixing these features
+			singleline = false;
+		}
+
 		// create the root for all our lines
 		this.CreateRootWidget(parent, singleline, checkForExisting);
 
@@ -232,6 +243,7 @@ public class FuriganaGenerator
 		let count = size / 3;
 
 		let textcolor = new Color(Cast<Uint8>(93), Cast<Uint8>(245), Cast<Uint8>(255), Cast<Uint8>(255));
+		let mothertonguecolor = new Color(Cast<Uint8>(255), Cast<Uint8>(255), Cast<Uint8>(255), Cast<Uint8>(255));
 		let katakanacolor = new Color(Cast<Uint8>(93), Cast<Uint8>(210), Cast<Uint8>(255), Cast<Uint8>(255));
 		let furiganacolor1 = new Color(Cast<Uint8>(214), Cast<Uint8>(180), Cast<Uint8>(133), Cast<Uint8>(255));
 		let furiganacolor2 = new Color(Cast<Uint8>(191), Cast<Uint8>(215), Cast<Uint8>(132), Cast<Uint8>(255));
@@ -253,6 +265,15 @@ public class FuriganaGenerator
 			w.Reparent(this.furiganaroot);
 		}
 
+		// add mother tongue text
+		if hasmothertongue
+		{
+			let line = this.CreateNewLineWidget();
+			let fsize = Cast<Int32>( Cast<Float>(fontsize) * this.settings.motherTongueScale );
+
+			this.AddTextWidget(motherTongueText, line, fsize, mothertonguecolor);
+		}
+
 		// limit length
 		let maxlinelength = this.maxLineLength;
 
@@ -267,7 +288,7 @@ public class FuriganaGenerator
 			let size  = Cast<Int32>( blocks[i + 1] );
 			let type  = Cast<Int32>( blocks[i + 2] );
 
-			let str = StrMid(text, start, size);
+			let str = StrMid(japaneseText, start, size);
 			let count = UnicodeStringLen(str);
 
 			// handle normal text and katakana
@@ -344,7 +365,7 @@ public class FuriganaGenerator
 
 						Assert(ftype == 2, "Expected furigana type!");
 
-						let furigana = StrMid(text, fstart, fsize);
+						let furigana = StrMid(japaneseText, fstart, fsize);
 
 						this.AddKanjiWithFuriganaWidgets(str, furigana, linewidget, fontsize, this.settings.furiganaScale, clr);
 					}
@@ -366,7 +387,7 @@ public class FuriganaGenerator
 		}
 	}
 
-	public func GenerateFurigana(parent :ref<inkCompoundWidget>, text :String, lineid :Uint64, fontsize :Int32, singleline :Bool, checkForExisting :Bool) -> String
+	public func GenerateFurigana(parent :ref<inkCompoundWidget>, japaneseText :String, motherTongueText :String, lineid :Uint64, fontsize :Int32, singleline :Bool, checkForExisting :Bool) -> String
 	{
 		/*LogChannel(n"DEBUG", "Settings:");
 		LogChannel(n"DEBUG", "  enabled: " + ToString(settings.enabled));
@@ -375,23 +396,23 @@ public class FuriganaGenerator
 		LogChannel(n"DEBUG", "  addSpaces: " + ToString(settings.addSpaces));*/
 
 		if !this.settings.enabled {
-			return StrStripFurigana(text);
+			return StrStripFurigana(japaneseText);
 		}
 
 		if this.settings.addSpaces {
-			text = StrAddSpaces(text);
+			japaneseText = StrAddSpaces(japaneseText);
 		}
 
-		let blocks = StrSplitFurigana(text, this.settings.colorizeKatakana);
+		let blocks = StrSplitFurigana(japaneseText, this.settings.colorizeKatakana);
 		let size = ArraySize(blocks);
 		let count = size / 3;
 
 		if count < 1
 		{
-			return text;
+			return japaneseText;
 		}
 
-		this.GenerateFuriganaWidgets(parent, text, lineid, blocks, fontsize, singleline, checkForExisting);
+		this.GenerateFuriganaWidgets(parent, japaneseText, motherTongueText, lineid, blocks, fontsize, singleline, checkForExisting);
 
 		return "";
 	}
