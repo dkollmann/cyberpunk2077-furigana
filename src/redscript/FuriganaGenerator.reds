@@ -10,6 +10,14 @@ enum StrSplitFuriganaIndex
     COUNT = 4
 }
 
+enum StrSplitFuriganaType
+{
+	Text = 0,
+	Kanji = 1,
+	Furigana = 2,
+	Katakana = 3
+}
+
 /** Generates a list of blocks for the given string.
 	The list works as following:
 	  n = index % 4
@@ -148,7 +156,7 @@ public class FuriganaGenerator
 	private func AddFadeInAnimation(widget :ref<inkWidget>, delay :Float, duration :Float) -> Void
 	{
 		let interp = new inkAnimTransparency();
-		interp.SetStartTransparency(0.0);
+		interp.SetStartTransparency(0.01);  // higher than zero
 		interp.SetEndTransparency(1.0);
 		interp.SetStartDelay(delay);
 		interp.SetDuration(duration);
@@ -159,6 +167,13 @@ public class FuriganaGenerator
 		anim.AddInterpolator(interp);
 
 		widget.PlayAnimation(anim);
+	}
+
+	private func AddFadeInAnimation(widget :ref<inkWidget>, currentcount :Int32, length :Int32, totalcount :Int32, totalduration :Float, fadeinduration :Float) -> Void
+	{
+		let delay = Cast<Float>(currentcount) / Cast<Float>(totalcount) * totalduration;
+
+		this.AddFadeInAnimation(widget, delay, fadeinduration);
 	}
 
 	private func CreateRootWidget(parent :ref<inkCompoundWidget>, singleline :Bool, checkForExisting :Bool) -> Void
@@ -267,6 +282,11 @@ public class FuriganaGenerator
 		let IndexType = EnumInt(StrSplitFuriganaIndex.Type);
 		let IndexCOUNT = EnumInt(StrSplitFuriganaIndex.COUNT);
 
+		let TypeText  = EnumInt(StrSplitFuriganaType.Text);
+		let TypeKanji = EnumInt(StrSplitFuriganaType.Kanji);
+		let TypeFurigana = EnumInt(StrSplitFuriganaType.Furigana);
+		let TypeKatakana = EnumInt(StrSplitFuriganaType.Katakana);
+
 		let hasmothertongue = this.settings.motherTongueShow && StrLen(motherTongueText) > 0;
 
 		if hasmothertongue {
@@ -278,17 +298,24 @@ public class FuriganaGenerator
 		let count = size / IndexCOUNT;
 
 		// handle the fade-in
-		let fadeinstart = 0.0;
-		let fadeintime = 0.0;
+		let fadeinduration = 0.0;
+		let fadeintime = 0.2;
 		let totalcharcount = 0;
 		if this.settings.motherTongueTransMode == 1 && StrLen(motherTongueText) > 0 {
 			// fadein the translated text
-			fadeintime = duration * 0.5;
+			fadeinduration = duration * 0.5;
 
 			let i = 0;
 			while i < size
 			{
-				i += 1;
+				let type  = Cast<Int32>( blocks[i + IndexType] );
+
+				if type != TypeFurigana
+				{
+					totalcharcount += Cast<Int32>( blocks[i + IndexCharCount] );
+				}
+
+				i += IndexCOUNT;
 			}
 		}
 
@@ -337,6 +364,7 @@ public class FuriganaGenerator
 
 		// generate the widgets
 		let currcharlen = 0;
+		let currentcharcount = 0;
 		let i = 0;
 		while i < size
 		{
@@ -346,10 +374,9 @@ public class FuriganaGenerator
 			let type  = Cast<Int32>( blocks[i + IndexType] );
 
 			let str = StrMid(japaneseText, start, size);
-			//let count = UnicodeStringLen(str);
 
 			// handle normal text and katakana
-			if type == 0 || type == 3
+			if type == TypeText || type == TypeKatakana
 			{
 				let clr :Color;
 				if type == 0 {
@@ -359,7 +386,7 @@ public class FuriganaGenerator
 				}
 
 				// limit the length, but not for katakana
-				if type == 0 && !singleline && currcharlen + count > maxlinelength
+				if type == TypeText && !singleline && currcharlen + count > maxlinelength
 				{
 					// try to find a word
 					let remains = maxlinelength - currcharlen;
@@ -371,9 +398,12 @@ public class FuriganaGenerator
 						let str1 = StrMid(str, 0, word);
 
 						let w = this.AddTextWidget(str1, linewidget, fontsize, clr);
-						if fadeintime > 0.0
+						if fadeinduration > 0.0
 						{
-							this.AddFadeInAnimation(w, fadeinstart, fadeintime);
+							let count1 = UnicodeStringLen(str1);
+							this.AddFadeInAnimation(w, currentcharcount, count, totalcharcount, fadeinduration, fadeintime);
+
+							currentcharcount += count1;
 						}
 
 						// we need a new root for the next line
@@ -382,6 +412,10 @@ public class FuriganaGenerator
 						// the next line takes the rest
 						str = StrMid(str, word);
 						currcharlen = 0;
+
+						if fadeinduration > 0.0 {
+							count = UnicodeStringLen(str);
+						}
 					}
 					else
 					{
@@ -390,15 +424,16 @@ public class FuriganaGenerator
 				}
 
 				let w = this.AddTextWidget(str, linewidget, fontsize, clr);
-				if fadeintime > 0.0
+				if fadeinduration > 0.0
 				{
-					this.AddFadeInAnimation(w, fadeinstart, fadeintime);
+					this.AddFadeInAnimation(w, currentcharcount, count, totalcharcount, fadeinduration, fadeintime);
+					currentcharcount += count;
 				}
 			}
 			else
 			{
 				// handle kanji
-				if type == 1
+				if type == TypeKanji
 				{
 					i += IndexCOUNT;
 
@@ -431,7 +466,7 @@ public class FuriganaGenerator
 						//let fcount = Cast<Int32>( blocks[i + IndexCharCount] );
 						let ftype  = Cast<Int32>( blocks[i + IndexType] );
 
-						Assert(ftype == 2, "Expected furigana type!");
+						Assert(ftype == TypeFurigana, "Expected furigana type!");
 
 						let furigana = StrMid(japaneseText, fstart, fsize);
 
@@ -442,9 +477,10 @@ public class FuriganaGenerator
 						w = this.AddKanjiWidget(str, linewidget, fontsize, clr);
 					}
 
-					if fadeintime > 0.0
+					if fadeinduration > 0.0
 					{
-						this.AddFadeInAnimation(w, fadeinstart, fadeintime);
+						this.AddFadeInAnimation(w, currentcharcount, count, totalcharcount, fadeinduration, fadeintime);
+						currentcharcount += count;
 					}
 				}
 				else
