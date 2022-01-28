@@ -32,6 +32,7 @@ registerForEvent("onInit", function()
 		motherTongueShow = true,
 		motherTongueScale = 80,
 		motherTongueTransMode = 2,
+		motherTongueFadeInTime = 20,
 
 		showLineIDs = false
 	}
@@ -57,6 +58,7 @@ registerForEvent("onInit", function()
 		self.motherTongueShow = state.motherTongueShow
 		self.motherTongueScale = state.motherTongueScale / 100.0
 		self.motherTongueTransMode = state.motherTongueTransMode - 1
+		self.motherTongueFadeInTime = state.motherTongueFadeInTime / 100.0
 
 		self.showLineIDs = state.showLineIDs
 	end)
@@ -140,6 +142,11 @@ registerForEvent("onInit", function()
 	nativeSettings.addSelectorString("/furigana/mothertongue", "Translated Text Mode", "Select how translated text will be shown.", mothertonguetransmode, state.motherTongueTransMode, stateDefaults.motherTongueTransMode, function(value) -- path, label, desc, elements, currentValue, defaultValue, callback
 		print("Changed Translated Text Mode to ", mothertonguetransmode[value])
 		state.colormotherTongueTransModezeKanji = value
+	end)
+
+	nativeSettings.addRangeFloat("/furigana/mothertongue", "Translated Text Fade-in Time", "The time the translated text needs to fade-in, relative to the duration of the untranslated line.", 10, 100, 1, "%.0f%%", state.motherTongueFadeInTime, stateDefaults.motherTongueFadeInTime, function(value) -- path, label, desc, min, max, step, format, currentValue, defaultValue, callback, optionalIndex
+		print("Changed Translated Text Fade-in Time to ", value)
+		state.motherTongueFadeInTime = value
 	end)
 
 	------------------------------ DEBUG ------------------------------

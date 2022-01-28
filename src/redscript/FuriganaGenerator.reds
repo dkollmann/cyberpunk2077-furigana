@@ -109,6 +109,7 @@ public class FuriganaSettings
 	public let motherTongueShow :Bool;
 	public let motherTongueScale :Float;
 	public let motherTongueTransMode :Int32;
+	public let motherTongueFadeInTime :Float;
 
 	public let showLineIDs :Bool;
 	
@@ -169,11 +170,13 @@ public class FuriganaGenerator
 		widget.PlayAnimation(anim);
 	}
 
-	private func AddFadeInAnimation(widget :ref<inkWidget>, currentcount :Int32, length :Int32, totalcount :Int32, totalduration :Float, fadeinduration :Float) -> Void
+	private func AddFadeInAnimation(widget :ref<inkWidget>, currentcount :Int32, length :Int32, totalcount :Int32, totalduration :Float) -> Void
 	{
-		let delay = Cast<Float>(currentcount) / Cast<Float>(totalcount) * totalduration;
+		let f =  totalduration / Cast<Float>(totalcount);
+		let delay = Cast<Float>(currentcount) * f;
+		let duration = Cast<Float>(length) * f;
 
-		this.AddFadeInAnimation(widget, delay, fadeinduration);
+		this.AddFadeInAnimation(widget, delay, duration);
 	}
 
 	private func CreateRootWidget(parent :ref<inkCompoundWidget>, singleline :Bool, checkForExisting :Bool) -> Void
@@ -299,11 +302,10 @@ public class FuriganaGenerator
 
 		// handle the fade-in
 		let fadeinduration = 0.0;
-		let fadeintime = 0.2;
 		let totalcharcount = 0;
 		if this.settings.motherTongueTransMode == 1 && StrLen(motherTongueText) > 0 {
 			// fadein the translated text
-			fadeinduration = duration * 0.5;
+			fadeinduration = duration * this.settings.motherTongueFadeInTime;
 
 			let i = 0;
 			while i < size
@@ -401,7 +403,7 @@ public class FuriganaGenerator
 						if fadeinduration > 0.0
 						{
 							let count1 = UnicodeStringLen(str1);
-							this.AddFadeInAnimation(w, currentcharcount, count, totalcharcount, fadeinduration, fadeintime);
+							this.AddFadeInAnimation(w, currentcharcount, count, totalcharcount, fadeinduration);
 
 							currentcharcount += count1;
 						}
@@ -426,7 +428,7 @@ public class FuriganaGenerator
 				let w = this.AddTextWidget(str, linewidget, fontsize, clr);
 				if fadeinduration > 0.0
 				{
-					this.AddFadeInAnimation(w, currentcharcount, count, totalcharcount, fadeinduration, fadeintime);
+					this.AddFadeInAnimation(w, currentcharcount, count, totalcharcount, fadeinduration);
 					currentcharcount += count;
 				}
 			}
@@ -479,7 +481,7 @@ public class FuriganaGenerator
 
 					if fadeinduration > 0.0
 					{
-						this.AddFadeInAnimation(w, currentcharcount, count, totalcharcount, fadeinduration, fadeintime);
+						this.AddFadeInAnimation(w, currentcharcount, count, totalcharcount, fadeinduration);
 						currentcharcount += count;
 					}
 				}
