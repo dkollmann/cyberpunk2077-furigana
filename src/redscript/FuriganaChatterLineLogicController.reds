@@ -28,73 +28,45 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 	let fontsize = inkTextRef.GetFontSize(this.m_text_normal);
 	fontsize = Cast<Int32>( Cast<Float>(fontsize) * generator.settings.chatterTextScale );
 
-	if scnDialogLineData.HasKiroshiTag(lineData)
+	let kiroshi = scnDialogLineData.HasKiroshiTag(lineData);
+	if kiroshi && !this.IsKiroshiEnabled()
 	{
-		displayData = scnDialogLineData.GetDisplayText(lineData);
-		if this.IsKiroshiEnabled()
-		{
-			inkWidgetRef.SetVisible(this.m_text_normal, false);
-			inkWidgetRef.SetVisible(this.m_text_wide,false);
-			inkWidgetRef.SetVisible(this.m_container_normal, false);
-			inkWidgetRef.SetVisible(this.m_container_wide, false);
+		let isWide = StrLen(displayData.translation) >= this.c_ExtraWideTextWidth;
+		let motherTongueCtrl = isWide ?  this.m_motherTongueCtrl_Wide : this.m_motherTongueCtrl_Normal;
 
-			let root = inkWidgetRef.Get(this.m_TextContainer) as inkCompoundWidget;
-			Assert(root, "Failed to get m_TextContainer!!");
+		inkWidgetRef.SetVisible(this.m_text_normal, !isWide);
+		inkWidgetRef.SetVisible(this.m_text_wide, isWide);
+		inkWidgetRef.SetVisible(this.m_container_normal, !isWide);
+		inkWidgetRef.SetVisible(this.m_container_wide, isWide);
+
+		motherTongueCtrl.SetPreTranslatedText("");
+		motherTongueCtrl.SetNativeText(displayData.text, displayData.language);
+		motherTongueCtrl.SetTranslatedText("");
+		motherTongueCtrl.SetPostTranslatedText("");
+		motherTongueCtrl.ApplyTexts();
+	}
+	else
+	{
+		inkWidgetRef.SetVisible(this.m_text_normal, false);
+		inkWidgetRef.SetVisible(this.m_text_wide,false);
+		inkWidgetRef.SetVisible(this.m_container_normal, false);
+		inkWidgetRef.SetVisible(this.m_container_wide, false);
+
+		let root = inkWidgetRef.Get(this.m_TextContainer) as inkCompoundWidget;
+		Assert(root, "Failed to get m_TextContainer!!");
+
+		if kiroshi || scnDialogLineData.HasMothertongueTag(lineData)
+		{
+			displayData = scnDialogLineData.GetDisplayText(lineData);
 
 			generator.GenerateFurigana(root, displayData.translation, displayData.text, lineData.duration, CRUIDToUint64(lineData.id), fontsize, false, false);
 		}
 		else
 		{
-			let isWide = StrLen(displayData.translation) >= this.c_ExtraWideTextWidth;
-			let motherTongueCtrl = isWide ?  this.m_motherTongueCtrl_Wide : this.m_motherTongueCtrl_Normal;
-
-			inkWidgetRef.SetVisible(this.m_text_normal, !isWide);
-			inkWidgetRef.SetVisible(this.m_text_wide, isWide);
-			inkWidgetRef.SetVisible(this.m_container_normal, !isWide);
-			inkWidgetRef.SetVisible(this.m_container_wide, isWide);
-
-			motherTongueCtrl.SetPreTranslatedText("");
-			motherTongueCtrl.SetNativeText(displayData.text, displayData.language);
-			motherTongueCtrl.SetTranslatedText("");
-			motherTongueCtrl.SetPostTranslatedText("");
-			motherTongueCtrl.ApplyTexts();
-			LogChannel(n"DEBUG", "CHATTER B");
-		}
-	}
-	else
-	{
-		if scnDialogLineData.HasMothertongueTag(lineData)
-		{
-			displayData = scnDialogLineData.GetDisplayText(lineData);
-
-			let isWide = StrLen(displayData.translation) >= this.c_ExtraWideTextWidth;
-			let motherTongueCtrl = isWide ?  this.m_motherTongueCtrl_Wide : this.m_motherTongueCtrl_Normal;
-
-			inkWidgetRef.SetVisible(this.m_text_normal, !isWide);
-			inkWidgetRef.SetVisible(this.m_text_wide, isWide);
-			inkWidgetRef.SetVisible(this.m_container_normal, !isWide);
-			inkWidgetRef.SetVisible(this.m_container_wide, isWide);
-
-			motherTongueCtrl.SetPreTranslatedText(displayData.preTranslatedText);
-			motherTongueCtrl.SetNativeText(displayData.text, displayData.language);
-			motherTongueCtrl.SetTranslatedText(displayData.translation);
-			motherTongueCtrl.SetPostTranslatedText(displayData.postTranslatedText);
-			motherTongueCtrl.ApplyTexts();
-		}
-		else
-		{
-			inkWidgetRef.SetVisible(this.m_text_normal, false);
-			inkWidgetRef.SetVisible(this.m_text_wide,false);
-			inkWidgetRef.SetVisible(this.m_container_normal, false);
-			inkWidgetRef.SetVisible(this.m_container_wide, false);
-
-			let root = inkWidgetRef.Get(this.m_TextContainer) as inkCompoundWidget;
-			Assert(root, "Failed to get m_TextContainer!!");
-
 			generator.GenerateFurigana(root, lineData.text, "", lineData.duration, CRUIDToUint64(lineData.id), fontsize, false, false);
-
-			inkTextRef.SetVisible(this.m_container_normal, false);
-			inkTextRef.SetVisible(this.m_container_wide, false);
 		}
+
+		inkTextRef.SetVisible(this.m_container_normal, false);
+		inkTextRef.SetVisible(this.m_container_wide, false);
 	}
 }

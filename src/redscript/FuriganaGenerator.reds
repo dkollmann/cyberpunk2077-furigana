@@ -93,7 +93,6 @@ private static func PrintWidgets(widget :inkWidgetRef) -> Void
 /** The settings object. Must be in sync with the lua script. */
 public class FuriganaSettings
 {
-	public let enabled: Bool;
 	public let colorizeKanji :Int32;
 	public let colorizeKatakana :Bool;
 	public let addSpaces :Bool;
@@ -498,18 +497,8 @@ public class FuriganaGenerator
 		}
 	}
 
-	public func GenerateFurigana(parent :ref<inkCompoundWidget>, japaneseText :String, motherTongueText :String, duration :Float, lineid :Uint64, fontsize :Int32, singleline :Bool, checkForExisting :Bool) -> String
+	public func GenerateFurigana(parent :ref<inkCompoundWidget>, japaneseText :String, motherTongueText :String, duration :Float, lineid :Uint64, fontsize :Int32, singleline :Bool, checkForExisting :Bool) -> Void
 	{
-		/*LogChannel(n"DEBUG", "Settings:");
-		LogChannel(n"DEBUG", "  enabled: " + ToString(settings.enabled));
-		LogChannel(n"DEBUG", "  colorizeKanji: " + ToString(settings.colorizeKanji));
-		LogChannel(n"DEBUG", "  colorizeKatakana: " + ToString(settings.colorizeKatakana));
-		LogChannel(n"DEBUG", "  addSpaces: " + ToString(settings.addSpaces));*/
-
-		if !this.settings.enabled {
-			return StrStripFurigana(japaneseText);
-		}
-
 		if this.settings.addSpaces {
 			japaneseText = StrAddSpaces(japaneseText);
 		}
@@ -518,13 +507,6 @@ public class FuriganaGenerator
 		let size = ArraySize(blocks);
 		let count = size / EnumInt(StrSplitFuriganaIndex.COUNT);
 
-		if count < 1
-		{
-			return japaneseText;
-		}
-
 		this.GenerateFuriganaWidgets(parent, japaneseText, motherTongueText, duration, lineid, blocks, fontsize, singleline, checkForExisting);
-
-		return "";
 	}
 }

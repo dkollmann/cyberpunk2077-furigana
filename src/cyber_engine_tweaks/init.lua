@@ -16,7 +16,6 @@ registerForEvent("onInit", function()
 
 	-- create default settings
 	local stateDefaults = {
-		enabled = true,
 		colorizeKanji = 3,
 		colorizeKatakana = true,
 		addSpaces = false,
@@ -42,7 +41,6 @@ registerForEvent("onInit", function()
 	
 	-- make settings retrievable
 	Observe('FuriganaSettings', 'Get', function(self)
-		self.enabled = state.enabled
 		self.colorizeKanji = state.colorizeKanji - 1
 		self.colorizeKatakana = state.colorizeKatakana
 		self.addSpaces = state.addSpaces
@@ -76,11 +74,6 @@ registerForEvent("onInit", function()
 	nativeSettings.addSubcategory("/furigana/debug", "Debug Options")
 
 	------------------------------ GENERAL ------------------------------
-	nativeSettings.addSwitch("/furigana/general", "Enabled", "Disable the mod to get the original subtitles.", state.enabled, stateDefaults.enabled, function(value) -- path, label, desc, currentValue, defaultValue, callback
-		print("Changed Enabled to ", value)
-		state.enabled = value
-	end)
-
 	nativeSettings.addSwitch("/furigana/general", "Show Furigana", "Add furigana to the kanji.", state.showFurigana, stateDefaults.showFurigana, function(value) -- path, label, desc, currentValue, defaultValue, callback
 		print("Changed Show Furigana to ", value)
 		state.showFurigana = value

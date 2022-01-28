@@ -91,73 +91,39 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 		}
 	}
 
-	// handle Kiroshi implant
-	if scnDialogLineData.HasKiroshiTag(lineData)
+	let kiroshi = scnDialogLineData.HasKiroshiTag(lineData);
+	if kiroshi && !this.IsKiroshiEnabled()
 	{
-		displayData = scnDialogLineData.GetDisplayText(lineData);
-
-		if this.IsKiroshiEnabled()
-		{
-			// this is the tranlated text from the braindance
-			kiroshiAnimationCtrl = inkWidgetRef.GetController(this.m_kiroshiAnimationContainer) as inkTextKiroshiAnimController;
-			kiroshiAnimationCtrl.SetPreTranslatedText(displayData.preTranslatedText);
-			kiroshiAnimationCtrl.SetPostTranslatedText(displayData.postTranslatedText);
-			kiroshiAnimationCtrl.SetNativeText(displayData.text, displayData.language);
-			kiroshiAnimationCtrl.SetTargetText(displayData.translation);
-			this.SetupAnimation(this.m_lineData.duration, kiroshiAnimationCtrl);
-			kiroshiAnimationCtrl.PlaySetAnimation();
-		}
-		else
-		{
-			// show the text readable for the player
-			motherTongueCtrl = inkWidgetRef.GetControllerByType(this.m_motherTongueContainter, n"inkTextMotherTongueController") as inkTextMotherTongueController;
-			motherTongueCtrl.SetPreTranslatedText("");
-			motherTongueCtrl.SetNativeText(displayData.text, displayData.language);
-			motherTongueCtrl.SetTranslatedText("");
-			motherTongueCtrl.SetPostTranslatedText("");
-			motherTongueCtrl.ApplyTexts();
-		}
+		motherTongueCtrl = inkWidgetRef.GetControllerByType(this.m_motherTongueContainter, n"inkTextMotherTongueController") as inkTextMotherTongueController;
+		motherTongueCtrl.SetPreTranslatedText("");
+		motherTongueCtrl.SetNativeText(displayData.text, displayData.language);
+		motherTongueCtrl.SetTranslatedText("");
+		motherTongueCtrl.SetPostTranslatedText("");
+		motherTongueCtrl.ApplyTexts();
 	}
 	else
 	{
-		// handle mother tongue?
-		if scnDialogLineData.HasMothertongueTag(lineData)
+		inkTextRef.SetVisible(this.m_targetTextWidgetRef, false);
+
+		// show normal lines
+		let generator = new FuriganaGenerator().init(FuriganaGeneratorMode.Dialog);
+		let fontsize = inkTextRef.GetFontSize(this.m_targetTextWidgetRef);
+
+		let subtitlesWidget = this.GetRootWidget() as inkCompoundWidget;
+		Assert(subtitlesWidget, "Failed to get root widget!!");
+
+		let rootParent = subtitlesWidget.GetWidgetByPathName(n"Line/subtitleFlex") as inkCompoundWidget;
+		Assert(rootParent, "Failed to get root Line/subtitleFlex!!");
+
+		if kiroshi || scnDialogLineData.HasMothertongueTag(lineData)
 		{
-			// allows dialogue to be shown which can or cannot be understood by the player
 			displayData = scnDialogLineData.GetDisplayText(lineData);
-			motherTongueCtrl = inkWidgetRef.GetControllerByType(this.m_motherTongueContainter, n"inkTextMotherTongueController") as inkTextMotherTongueController;
-			motherTongueCtrl.SetPreTranslatedText(displayData.preTranslatedText);
-			motherTongueCtrl.SetNativeText(displayData.text, displayData.language);
-			motherTongueCtrl.SetTranslatedText(displayData.translation);
-			motherTongueCtrl.SetPostTranslatedText(displayData.postTranslatedText);
-			motherTongueCtrl.ApplyTexts();
+
+			generator.GenerateFurigana(rootParent, displayData.translation, displayData.text, this.m_lineData.duration, CRUIDToUint64(lineData.id), fontsize, false, false);
 		}
 		else
 		{
-			// show normal lines
-			let generator = new FuriganaGenerator().init(FuriganaGeneratorMode.Dialog);
-			let fontsize = inkTextRef.GetFontSize(this.m_targetTextWidgetRef);
-
-			let subtitlesWidget = this.GetRootWidget() as inkCompoundWidget;
-			Assert(subtitlesWidget, "Failed to get root widget!!");
-
-			let rootParent = subtitlesWidget.GetWidgetByPathName(n"Line/subtitleFlex") as inkCompoundWidget;
-			Assert(rootParent, "Failed to get root Line/subtitleFlex!!");
-
-			let text = generator.GenerateFurigana(rootParent, this.m_lineData.text, "", this.m_lineData.duration, CRUIDToUint64(lineData.id), fontsize, false, false);
-
-			if StrLen(text) < 1
-			{
-				// has furigana
-				inkTextRef.SetVisible(this.m_targetTextWidgetRef, false);
-				//inkTextRef.SetText(this.m_targetTextWidgetRef, this.m_lineData.text);
-			}
-			else
-			{
-				// no furigana
-				inkTextRef.SetText(this.m_targetTextWidgetRef, text);
-				//this.PlayLibraryAnimation(n"intro");
-			}
+			generator.GenerateFurigana(rootParent, this.m_lineData.text, "", this.m_lineData.duration, CRUIDToUint64(lineData.id), fontsize, false, false);
 		}
 	}
 }
