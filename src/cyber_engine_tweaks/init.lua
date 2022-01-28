@@ -54,9 +54,9 @@ registerForEvent("onInit", function()
 		self.chatterMaxLineLength = state.chatterMaxLineLength
 		self.chatterTextScale = state.chatterTextScale / 100.0
 
-		self.motherTongueShow = state.motherTongueShow;
-		self.motherTongueScale = state.motherTongueScale / 100.0;
-		self.motherTongueTransMode = state.motherTongueTransMode;
+		self.motherTongueShow = state.motherTongueShow
+		self.motherTongueScale = state.motherTongueScale / 100.0
+		self.motherTongueTransMode = state.motherTongueTransMode - 1
 
 		self.showLineIDs = state.showLineIDs
 	end)

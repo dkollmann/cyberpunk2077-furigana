@@ -51,7 +51,7 @@ private final func UpdateDialogHubData() -> Void
 		Assert(rootParent, "Failed to get root active_text_wrapper!!");
 
 		// generate furigana
-		generator.GenerateFurigana(rootParent, localizedText, "", Cast<Uint64>(0), fontsize,  true, true);
+		generator.GenerateFurigana(rootParent, localizedText, "", 0.0, Cast<Uint64>(0), fontsize,  true, true);
 
 		// make background transparent so the furigana remains readable
 		currentItem.backgroundOpacity = generator.settings.dialogBackgroundOpacity;

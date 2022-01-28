@@ -134,6 +134,22 @@ public class FuriganaGenerator
 		return this;
 	}
 
+	private func AddFadeInAnimation(widget :ref<inkWidget>, delay :Float, duration :Float) -> Void
+	{
+		let interp = new inkAnimTransparency();
+		interp.SetStartTransparency(0.0);
+		interp.SetEndTransparency(1.0);
+		interp.SetStartDelay(delay);
+		interp.SetDuration(duration);
+		interp.SetType(inkanimInterpolationType.Linear);
+		interp.SetMode(inkanimInterpolationMode.EasyIn);
+
+		let anim = new inkAnimDef();
+		anim.AddInterpolator(interp);
+
+		widget.PlayAnimation(anim);
+	}
+
 	private func CreateRootWidget(parent :ref<inkCompoundWidget>, singleline :Bool, checkForExisting :Bool) -> Void
 	{
 		if checkForExisting
@@ -171,7 +187,7 @@ public class FuriganaGenerator
 		return newline;
 	}
 
-	private func AddTextWidget(text :String, parent :ref<inkCompoundWidget>, fontsize :Int32, color :Color) -> Void
+	private func AddTextWidget(text :String, parent :ref<inkCompoundWidget>, fontsize :Int32, color :Color) -> ref<inkText>
 	{
 		let w = new inkText();
 		w.SetName(n"furiganaTextWidget");
@@ -183,9 +199,11 @@ public class FuriganaGenerator
 		w.SetVAlign(inkEVerticalAlign.Bottom);
 		w.SetText(text);
 		w.Reparent(parent);
+
+		return w;
 	}
 
-	private func AddKanjiWidget(kanji :String, parent :ref<inkCompoundWidget>, fontsize :Int32, color :Color) -> Void
+	private func AddKanjiWidget(kanji :String, parent :ref<inkCompoundWidget>, fontsize :Int32, color :Color) -> ref<inkText>
 	{
 		let wk = new inkText();
 		wk.SetName(n"kanjiText");
@@ -197,9 +215,11 @@ public class FuriganaGenerator
 		wk.SetVAlign(inkEVerticalAlign.Bottom);
 		wk.SetText(kanji);
 		wk.Reparent(parent);
+
+		return wk;
 	}
 
-	private func AddKanjiWithFuriganaWidgets(kanji :String, furigana :String, parent :ref<inkCompoundWidget>, fontsize :Int32, furiganascale :Float, color :Color) -> Void
+	private func AddKanjiWithFuriganaWidgets(kanji :String, furigana :String, parent :ref<inkCompoundWidget>, fontsize :Int32, furiganascale :Float, color :Color) -> ref<inkVerticalPanel>
 	{
 		let furiganasize = Cast<Int32>( Cast<Float>(fontsize) * furiganascale );
 
@@ -224,15 +244,23 @@ public class FuriganaGenerator
 		wf.Reparent(panel);
 
 		this.AddKanjiWidget(kanji, panel, fontsize, color);
+
+		return panel;
 	}
 
-	private func GenerateFuriganaWidgets(parent :ref<inkCompoundWidget>, japaneseText :String, motherTongueText :String, lineid :Uint64, blocks :array<Int16>, fontsize :Int32, singleline :Bool, checkForExisting :Bool) -> Void
+	private func GenerateFuriganaWidgets(parent :ref<inkCompoundWidget>, japaneseText :String, motherTongueText :String, duration :Float, lineid :Uint64, blocks :array<Int16>, fontsize :Int32, singleline :Bool, checkForExisting :Bool) -> Void
 	{
 		let hasmothertongue = this.settings.motherTongueShow && StrLen(motherTongueText) > 0;
+		let fadeinstart = 0.0;
+		let fadeintime = 0.0;
 
 		if hasmothertongue {
 			// we do not support mixing these features
 			singleline = false;
+
+			if this.settings.motherTongueTransMode == 1 {
+				fadeintime = duration * 0.5;
+			}
 		}
 
 		// create the root for all our lines
@@ -315,7 +343,11 @@ public class FuriganaGenerator
 						// we found a word to split
 						let str1 = StrMid(str, 0, word);
 
-						this.AddTextWidget(str1, linewidget, fontsize, clr);
+						let w = this.AddTextWidget(str1, linewidget, fontsize, clr);
+						if fadeintime > 0.0
+						{
+							this.AddFadeInAnimation(w, fadeinstart, fadeintime);
+						}
 
 						// we need a new root for the next line
 						linewidget = this.CreateNewLineWidget();
@@ -330,7 +362,11 @@ public class FuriganaGenerator
 					}
 				}
 
-				this.AddTextWidget(str, linewidget, fontsize, clr);
+				let w = this.AddTextWidget(str, linewidget, fontsize, clr);
+				if fadeintime > 0.0
+				{
+					this.AddFadeInAnimation(w, fadeinstart, fadeintime);
+				}
 			}
 			else
 			{
@@ -359,6 +395,8 @@ public class FuriganaGenerator
 						}
 					}
 
+					let w :ref<inkWidget>;
+					
 					if this.settings.showFurigana
 					{
 						let fstart = Cast<Int32>( blocks[i] );
@@ -369,11 +407,16 @@ public class FuriganaGenerator
 
 						let furigana = StrMid(japaneseText, fstart, fsize);
 
-						this.AddKanjiWithFuriganaWidgets(str, furigana, linewidget, fontsize, this.settings.furiganaScale, clr);
+						w = this.AddKanjiWithFuriganaWidgets(str, furigana, linewidget, fontsize, this.settings.furiganaScale, clr);
 					}
 					else
 					{
-						this.AddKanjiWidget(str, linewidget, fontsize, clr);
+						w = this.AddKanjiWidget(str, linewidget, fontsize, clr);
+					}
+
+					if fadeintime > 0.0
+					{
+						this.AddFadeInAnimation(w, fadeinstart, fadeintime);
 					}
 				}
 				else
@@ -389,7 +432,7 @@ public class FuriganaGenerator
 		}
 	}
 
-	public func GenerateFurigana(parent :ref<inkCompoundWidget>, japaneseText :String, motherTongueText :String, lineid :Uint64, fontsize :Int32, singleline :Bool, checkForExisting :Bool) -> String
+	public func GenerateFurigana(parent :ref<inkCompoundWidget>, japaneseText :String, motherTongueText :String, duration :Float, lineid :Uint64, fontsize :Int32, singleline :Bool, checkForExisting :Bool) -> String
 	{
 		/*LogChannel(n"DEBUG", "Settings:");
 		LogChannel(n"DEBUG", "  enabled: " + ToString(settings.enabled));
@@ -414,7 +457,7 @@ public class FuriganaGenerator
 			return japaneseText;
 		}
 
-		this.GenerateFuriganaWidgets(parent, japaneseText, motherTongueText, lineid, blocks, fontsize, singleline, checkForExisting);
+		this.GenerateFuriganaWidgets(parent, japaneseText, motherTongueText, duration, lineid, blocks, fontsize, singleline, checkForExisting);
 
 		return "";
 	}
