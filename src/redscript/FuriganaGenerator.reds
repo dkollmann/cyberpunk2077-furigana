@@ -269,6 +269,8 @@ public class FuriganaGenerator
 		if hasmothertongue
 		{
 			let line = this.CreateNewLineWidget();
+			line.SetHAlign(inkEHorizontalAlign.Center);
+
 			let fsize = Cast<Int32>( Cast<Float>(fontsize) * this.settings.motherTongueScale );
 
 			this.AddTextWidget(motherTongueText, line, fsize, mothertonguecolor);

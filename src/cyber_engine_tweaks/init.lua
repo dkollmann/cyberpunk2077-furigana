@@ -30,7 +30,7 @@ registerForEvent("onInit", function()
 		chatterTextScale = 150,
 
 		motherTongueShow = true,
-		motherTongueScale = 100,
+		motherTongueScale = 80,
 		motherTongueTransMode = 2,
 
 		showLineIDs = false
