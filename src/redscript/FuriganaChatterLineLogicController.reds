@@ -21,10 +21,6 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 	displayData = scnDialogLineData.GetDisplayText(lineData);
 	this.m_ownerId = lineData.speaker.GetEntityID();
 
-	inkWidgetRef.SetVisible(this.m_text_normal, false);
-	inkWidgetRef.SetVisible(this.m_text_wide,false);
-	inkWidgetRef.SetVisible(this.m_container_normal, false);
-	inkWidgetRef.SetVisible(this.m_container_wide, false);
 	inkWidgetRef.SetVisible(this.m_TextContainer, true);
 	inkWidgetRef.SetVisible(this.m_speachBubble, true);
 
@@ -37,8 +33,10 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 		displayData = scnDialogLineData.GetDisplayText(lineData);
 		if this.IsKiroshiEnabled()
 		{
-			//this.SetupAnimation(lineData.duration, animCtrl);
-			LogChannel(n"DEBUG", "CHATTER A");
+			inkWidgetRef.SetVisible(this.m_text_normal, false);
+			inkWidgetRef.SetVisible(this.m_text_wide,false);
+			inkWidgetRef.SetVisible(this.m_container_normal, false);
+			inkWidgetRef.SetVisible(this.m_container_wide, false);
 
 			let root = inkWidgetRef.Get(this.m_TextContainer) as inkCompoundWidget;
 			Assert(root, "Failed to get m_TextContainer!!");
@@ -47,11 +45,19 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 		}
 		else
 		{
-			/*motherTongueCtrl.SetPreTranslatedText("");
+			let isWide = StrLen(displayData.translation) >= this.c_ExtraWideTextWidth;
+			let motherTongueCtrl = isWide ?  this.m_motherTongueCtrl_Wide : this.m_motherTongueCtrl_Normal;
+
+			inkWidgetRef.SetVisible(this.m_text_normal, !isWide);
+			inkWidgetRef.SetVisible(this.m_text_wide, isWide);
+			inkWidgetRef.SetVisible(this.m_container_normal, !isWide);
+			inkWidgetRef.SetVisible(this.m_container_wide, isWide);
+
+			motherTongueCtrl.SetPreTranslatedText("");
 			motherTongueCtrl.SetNativeText(displayData.text, displayData.language);
 			motherTongueCtrl.SetTranslatedText("");
 			motherTongueCtrl.SetPostTranslatedText("");
-			motherTongueCtrl.ApplyTexts();*/
+			motherTongueCtrl.ApplyTexts();
 			LogChannel(n"DEBUG", "CHATTER B");
 		}
 	}
@@ -60,15 +66,28 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 		if scnDialogLineData.HasMothertongueTag(lineData)
 		{
 			displayData = scnDialogLineData.GetDisplayText(lineData);
-			/*motherTongueCtrl.SetPreTranslatedText(displayData.preTranslatedText);
+
+			let isWide = StrLen(displayData.translation) >= this.c_ExtraWideTextWidth;
+			let motherTongueCtrl = isWide ?  this.m_motherTongueCtrl_Wide : this.m_motherTongueCtrl_Normal;
+
+			inkWidgetRef.SetVisible(this.m_text_normal, !isWide);
+			inkWidgetRef.SetVisible(this.m_text_wide, isWide);
+			inkWidgetRef.SetVisible(this.m_container_normal, !isWide);
+			inkWidgetRef.SetVisible(this.m_container_wide, isWide);
+
+			motherTongueCtrl.SetPreTranslatedText(displayData.preTranslatedText);
 			motherTongueCtrl.SetNativeText(displayData.text, displayData.language);
 			motherTongueCtrl.SetTranslatedText(displayData.translation);
 			motherTongueCtrl.SetPostTranslatedText(displayData.postTranslatedText);
-			motherTongueCtrl.ApplyTexts();*/
-			LogChannel(n"DEBUG", "CHATTER C");
+			motherTongueCtrl.ApplyTexts();
 		}
 		else
 		{
+			inkWidgetRef.SetVisible(this.m_text_normal, false);
+			inkWidgetRef.SetVisible(this.m_text_wide,false);
+			inkWidgetRef.SetVisible(this.m_container_normal, false);
+			inkWidgetRef.SetVisible(this.m_container_wide, false);
+
 			let root = inkWidgetRef.Get(this.m_TextContainer) as inkCompoundWidget;
 			Assert(root, "Failed to get m_TextContainer!!");
 
@@ -76,11 +95,6 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 
 			inkTextRef.SetVisible(this.m_container_normal, false);
 			inkTextRef.SetVisible(this.m_container_wide, false);
-
-			//inkTextRef.SetText(this.m_text_normal, lineData.text);
-			//inkTextRef.SetText(this.m_text_wide, lineData.text);
-
-			LogChannel(n"DEBUG", "CHATTER D");
 		}
 	}
 }
