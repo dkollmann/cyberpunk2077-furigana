@@ -58,13 +58,24 @@ enum class StrSplitFuriganaListType : short
 
 typedef RED4ext::DynArray<short> StrSplitFuriganaList;
 
-void AddFragment(StrSplitFuriganaList &fragments, int start, int len, StrSplitFuriganaListType type)
+enum class StrSplitFuriganaIndex : int
+{
+    Start = 0,
+    Size = 1,
+    CharCount = 2,
+    Type = 3,
+    COUNT = 4
+};
+
+void AddFragment(StrSplitFuriganaList &fragments, int start, int size, int charcount, StrSplitFuriganaListType type)
 {
     assert(start >= 0);
-    assert(len > 0);
+    assert(size > 0);
+    assert(charcount > 0 && charcount <= size);
 
     fragments.PushBack((short)start);
-    fragments.PushBack((short)len);
+    fragments.PushBack((short)size);
+    fragments.PushBack((short)charcount);
     fragments.PushBack((short)type);
 }
 
@@ -139,7 +150,7 @@ void StrAddSpaces(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, 
             // insert a space
             str.insert(str.begin() + index, { (char)0xE3, (char)0x80, (char)0x80 });
 
-            index += 3;
+            index += (int)StrSplitFuriganaIndex::COUNT;
         }
     }
 
@@ -218,12 +229,15 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
     if(!hasfurigana && !haskatakana)
         return;
 
-    fragments.Reserve(64);
+    fragments.Reserve(128);
 
     int start = 0;
+    int charcount = 0;
     int kanjiblock = -1;
+    int kanjiblock_charcount = 0;
     int kanjisize = 0;
     int katakanablock = -1;
+    int katakanablock_charcount = 0;
     bool insideblock = false;
 
     auto subtitle = (const utf8proc_uint8_t*) textstr;
@@ -242,11 +256,16 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
             if(ch == (int)'}')
             {
                 // add the furigana block
-                AddFragment(fragments, start, index - start, StrSplitFuriganaListType::Furigana);
+                AddFragment(fragments, start, index - start, charcount, StrSplitFuriganaListType::Furigana);
 
                 // continue outside of the block
                 start = index + chsize;
+                charcount = 0;
                 insideblock = false;
+            }
+            else
+            {
+                charcount++;
             }
         }
         else
@@ -255,17 +274,23 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
             {
                 // add the text block before the kanji
                 if(kanjiblock > start)
-                    AddFragment(fragments, start, kanjiblock - start, StrSplitFuriganaListType::Text);
+                {
+                    AddFragment(fragments, start, kanjiblock - start, charcount, StrSplitFuriganaListType::Text);
+                    charcount = 0;
+                }
 
                 // add the kanji block
                 assert(kanjiblock >= 0);
                 if(kanjiblock >= 0)
-                    AddFragment(fragments, kanjiblock, index - kanjiblock, StrSplitFuriganaListType::Kanji);
+                {
+                    AddFragment(fragments, kanjiblock, index - kanjiblock, kanjiblock_charcount, StrSplitFuriganaListType::Kanji);
+                    kanjiblock_charcount = 0;
+                    kanjiblock = -1;
+                }
 
                 // continue the block
                 start = index + chsize;
                 insideblock = true;
-                kanjiblock = -1;
                 kanjisize = 0;
             }
             else
@@ -274,31 +299,50 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
                 {
                     kanjiblock = index;
                     kanjisize = chsize;
+                    assert(kanjiblock_charcount == 0);
                 }
 
                 // handle extracting katakana
+                bool iskata = false;
                 if(dokatakana)
                 {
                     if( iskatakana(ch) )
                     {
+                        iskata = true;
+
                         if(katakanablock < 0)
                         {
                             katakanablock = index;
 
+                            // add the text before the katakana
                             if(katakanablock > start)
-                                AddFragment(fragments, start, katakanablock - start, StrSplitFuriganaListType::Text);
+                            {
+                                AddFragment(fragments, start, katakanablock - start, charcount, StrSplitFuriganaListType::Text);
+                                charcount = 0;
+                            }
                         }
+
+                        katakanablock_charcount++;
                     }
                     else
                     {
                         if(katakanablock >= 0)
                         {
-                            AddFragment(fragments, katakanablock, index - katakanablock, StrSplitFuriganaListType::Katakana);
+                            AddFragment(fragments, katakanablock, index - katakanablock, katakanablock_charcount, StrSplitFuriganaListType::Katakana);
 
-                            start = index + chsize;
+                            start = index;
                             katakanablock = -1;
+                            katakanablock_charcount = 0;
                         }
                     }
+                }
+
+                if(!iskata)
+                {
+                    if(kanjiblock >= 0)
+                        kanjiblock_charcount++;
+                    else
+                        charcount++;
                 }
             }
         }
@@ -311,12 +355,16 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
     if(start < textsize)
     {
         // add the text at the end
-        AddFragment(fragments, start, textsize - start, katakanablock >= 0 ? StrSplitFuriganaListType::Katakana : StrSplitFuriganaListType::Text);
+        if(katakanablock >= 0)
+            AddFragment(fragments, start, textsize - start, katakanablock_charcount, StrSplitFuriganaListType::Katakana);
+        else
+            AddFragment(fragments, start, textsize - start, charcount, StrSplitFuriganaListType::Text);
     }
 
 #ifdef _DEBUG
     // sanity check the data
     unsigned int f = 0;
+    int testcount = 0;
     for(int index = 0; index < textsize && f < fragments.size; )
     {
         // get the next character
@@ -328,17 +376,33 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
 
         index += chsize;
 
-        // check if we are within the fragment
-        int start = fragments[f];
-        int len = fragments[f+1];
-        auto tpe = (StrSplitFuriganaListType) fragments[f+2];
+        if(ch == (int)'{' || ch == (int)'}')
+            continue;
 
-        assert(index >= start && index <= start + len);
+        testcount++;
+
+        // check if we are within the fragment
+        int start = fragments[f + (int)StrSplitFuriganaIndex::Start];
+        int sz = fragments[f + (int)StrSplitFuriganaIndex::Size];
+        int count = fragments[f + (int)StrSplitFuriganaIndex::CharCount];
+        auto tpe = (StrSplitFuriganaListType) fragments[f + (int)StrSplitFuriganaIndex::Type];
+
+        assert(index >= start && index <= start + sz);
 
         // check if we move to the next fragment
-        if(index >= start + len)
+        if(index >= start + sz)
         {
-            f += 3;
+            assert(index == start + sz);
+            assert(count == testcount);
+            testcount = 0;
+
+            f += (int)StrSplitFuriganaIndex::COUNT;
+
+            if(f < fragments.size)
+            {
+                int start2 = fragments[f + (int)StrSplitFuriganaIndex::Start];
+                assert(start2 == index || start2 == index + 1);  // next character could be { or }
+            }
         }
     }
 #endif // _DEBUG

@@ -1,12 +1,22 @@
 /** Adds unnecessary spaces after . and , to make subtitles easier to read. */
 private static native func StrAddSpaces(text: String) -> String;
 
+enum StrSplitFuriganaIndex
+{
+    Start = 0,
+    Size = 1,
+    CharCount = 2,
+    Type = 3,
+    COUNT = 4
+}
+
 /** Generates a list of blocks for the given string.
 	The list works as following:
-	  n = index % 3
+	  n = index % 4
 	  n == 0 --> The first byte of the block, inside the string.
 	  n == 1 --> The size of the block in bytes, inside the string.
-	  n == 2 --> The type of the block. 0 = text, 1 = kanji, 2 = furigana, 3 = katakana */
+	  n == 2 --> The number of characters of the block.
+	  n == 3 --> The type of the block. 0 = text, 1 = kanji, 2 = furigana, 3 = katakana */
 private static native func StrSplitFurigana(text: String, splitKatakana :Bool) -> array<Int16>;
 
 /** Removes all furigana from a given string. */
@@ -23,6 +33,7 @@ private static native func CRUIDToUint64(id :CRUID) -> Uint64;
 
 /** Open an url in the browser. */
 private static native func OpenBrowser(url :String) -> Void;
+
 
 private static func Assert(cond :Bool, msg :String) -> Void
 {
@@ -250,16 +261,34 @@ public class FuriganaGenerator
 
 	private func GenerateFuriganaWidgets(parent :ref<inkCompoundWidget>, japaneseText :String, motherTongueText :String, duration :Float, lineid :Uint64, blocks :array<Int16>, fontsize :Int32, singleline :Bool, checkForExisting :Bool) -> Void
 	{
+		let IndexStart = EnumInt(StrSplitFuriganaIndex.Start);
+		let IndexSize = EnumInt(StrSplitFuriganaIndex.Size);
+		let IndexCharCount = EnumInt(StrSplitFuriganaIndex.CharCount);
+		let IndexType = EnumInt(StrSplitFuriganaIndex.Type);
+		let IndexCOUNT = EnumInt(StrSplitFuriganaIndex.COUNT);
+
 		let hasmothertongue = this.settings.motherTongueShow && StrLen(motherTongueText) > 0;
-		let fadeinstart = 0.0;
-		let fadeintime = 0.0;
 
 		if hasmothertongue {
 			// we do not support mixing these features
 			singleline = false;
+		}
 
-			if this.settings.motherTongueTransMode == 1 {
-				fadeintime = duration * 0.5;
+		let size = ArraySize(blocks);
+		let count = size / IndexCOUNT;
+
+		// handle the fade-in
+		let fadeinstart = 0.0;
+		let fadeintime = 0.0;
+		let totalcharcount = 0;
+		if this.settings.motherTongueTransMode == 1 && StrLen(motherTongueText) > 0 {
+			// fadein the translated text
+			fadeintime = duration * 0.5;
+
+			let i = 0;
+			while i < size
+			{
+				i += 1;
 			}
 		}
 
@@ -267,9 +296,6 @@ public class FuriganaGenerator
 		this.CreateRootWidget(parent, singleline, checkForExisting);
 
 		// add the widgets as needed
-		let size = ArraySize(blocks);
-		let count = size / 3;
-
 		let textcolor = new Color(Cast<Uint8>(93), Cast<Uint8>(245), Cast<Uint8>(255), Cast<Uint8>(255));
 		let mothertonguecolor = new Color(Cast<Uint8>(255), Cast<Uint8>(255), Cast<Uint8>(255), Cast<Uint8>(255));
 		let katakanacolor = new Color(Cast<Uint8>(93), Cast<Uint8>(210), Cast<Uint8>(255), Cast<Uint8>(255));
@@ -314,12 +340,13 @@ public class FuriganaGenerator
 		let i = 0;
 		while i < size
 		{
-			let start = Cast<Int32>( blocks[i] );
-			let size  = Cast<Int32>( blocks[i + 1] );
-			let type  = Cast<Int32>( blocks[i + 2] );
+			let start = Cast<Int32>( blocks[i + IndexStart] );
+			let size  = Cast<Int32>( blocks[i + IndexSize] );
+			let count = Cast<Int32>( blocks[i + IndexCharCount] );
+			let type  = Cast<Int32>( blocks[i + IndexType] );
 
 			let str = StrMid(japaneseText, start, size);
-			let count = UnicodeStringLen(str);
+			//let count = UnicodeStringLen(str);
 
 			// handle normal text and katakana
 			if type == 0 || type == 3
@@ -373,7 +400,7 @@ public class FuriganaGenerator
 				// handle kanji
 				if type == 1
 				{
-					i += 3;
+					i += IndexCOUNT;
 
 					let clr :Color;
 					if this.settings.colorizeKanji == 0
@@ -396,12 +423,13 @@ public class FuriganaGenerator
 					}
 
 					let w :ref<inkWidget>;
-					
+
 					if this.settings.showFurigana
 					{
-						let fstart = Cast<Int32>( blocks[i] );
-						let fsize  = Cast<Int32>( blocks[i + 1] );
-						let ftype  = Cast<Int32>( blocks[i + 2] );
+						let fstart = Cast<Int32>( blocks[i + IndexStart] );
+						let fsize  = Cast<Int32>( blocks[i + IndexSize] );
+						//let fcount = Cast<Int32>( blocks[i + IndexCharCount] );
+						let ftype  = Cast<Int32>( blocks[i + IndexType] );
 
 						Assert(ftype == 2, "Expected furigana type!");
 
@@ -428,7 +456,7 @@ public class FuriganaGenerator
 
 			currcharlen += count;
 
-			i += 3;
+			i += IndexCOUNT;
 		}
 	}
 
@@ -450,7 +478,7 @@ public class FuriganaGenerator
 
 		let blocks = StrSplitFurigana(japaneseText, this.settings.colorizeKatakana);
 		let size = ArraySize(blocks);
-		let count = size / 3;
+		let count = size / EnumInt(StrSplitFuriganaIndex.COUNT);
 
 		if count < 1
 		{
