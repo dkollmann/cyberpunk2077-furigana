@@ -18,31 +18,28 @@ private final func SetLabel(data: script_ref<InteractionChoiceData>) -> Void
 		deviceAction = action as ScriptableDeviceAction;
 	}
 
+	inkTextRef.SetVisible(this.m_label, false);
+	inkTextRef.SetVisible(this.m_labelFail, false);
+
 	if IsDefined(deviceAction) && deviceAction.IsInactive() && NotEquals(deviceAction.GetInactiveReason(), "")
 	{
-		textParams = new inkTextParams();
+		/*textParams = new inkTextParams();
 		textParams.AddString("ACTION", locText);
 		textParams.AddLocalizedString("ADDITIONALINFO", deviceAction.GetInactiveReason());
 		inkTextRef.SetLocalizedTextScript(this.m_label, "LocKey#42173", textParams);
-		inkTextRef.SetLocalizedTextScript(this.m_labelFail, "LocKey#42173", textParams);
+		inkTextRef.SetLocalizedTextScript(this.m_labelFail, "LocKey#42173", textParams);*/
+
+		locText += " (" + deviceAction.GetInactiveReason() + ")";
 	}
-	else
-	{
-		inkTextRef.SetVisible(this.m_label, false);
-		inkTextRef.SetVisible(this.m_labelFail, false);
+	
+	let rootParent = this.m_RootWidget.GetWidgetByPathName(n"text_holder") as inkCompoundWidget;
+	Assert(rootParent, "Failed to get root text_holder!!");
 
-		LogChannel(n"DEBUG", "Interaction: " + locText);
-		PrintWidgets(this.m_RootWidget, "");
+	// generate furigana
+	let generator = new FuriganaGenerator().init(FuriganaGeneratorMode.Interaction);
+	let fontsize = inkTextRef.GetFontSize(this.m_label);
 
-		let rootParent = this.m_RootWidget.GetWidgetByPathName(n"text_holder") as inkCompoundWidget;
-		Assert(rootParent, "Failed to get root text_holder!!");
-
-		// generate furigana
-		let generator = new FuriganaGenerator().init(FuriganaGeneratorMode.Interaction);
-		let fontsize = inkTextRef.GetFontSize(this.m_label);
-
-		generator.GenerateFurigana(rootParent, locText, "", 0.0, Cast<Uint64>(0), fontsize, true, false);
-	}
+	generator.GenerateFurigana(rootParent, locText, "", 0.0, Cast<Uint64>(0), fontsize, true, true);
 }
 
 @replaceMethod(interactionItemLogicController)
@@ -91,8 +88,8 @@ public final func SetData(data: script_ref<InteractionChoiceData>, opt skillChec
 
 		this.SetTexture(this.m_skillCheckIcon, iconID);
 
-		inkWidgetRef.SetVisible(this.m_label, skillCheck.isPassed);
-		inkWidgetRef.SetVisible(this.m_labelFail, !skillCheck.isPassed);
+		//inkWidgetRef.SetVisible(this.m_label, skillCheck.isPassed);
+		//inkWidgetRef.SetVisible(this.m_labelFail, !skillCheck.isPassed);
 		inkWidgetRef.SetVisible(this.m_SkillCheckPassBG, skillCheck.isPassed);
 		inkWidgetRef.SetVisible(this.m_SkillCheckFailBG, !skillCheck.isPassed);
 		inkWidgetRef.SetVisible(this.m_skillCheckNormalReqs, skillCheck.isPassed || !skillCheck.hasAdditionalRequirements);
@@ -132,8 +129,8 @@ public final func SetData(data: script_ref<InteractionChoiceData>, opt skillChec
 
 		inkWidgetRef.SetVisible(this.m_SkillCheckPassBG, false);
 		inkWidgetRef.SetVisible(this.m_SkillCheckFailBG, true);
-		inkWidgetRef.SetVisible(this.m_label, false);
-		inkWidgetRef.SetVisible(this.m_labelFail, true);
+		//inkWidgetRef.SetVisible(this.m_label, false);
+		//inkWidgetRef.SetVisible(this.m_labelFail, true);
 	}
 	else
 	{
@@ -141,8 +138,8 @@ public final func SetData(data: script_ref<InteractionChoiceData>, opt skillChec
 		
 		inkWidgetRef.SetVisible(this.m_SkillCheckPassBG, true);
 		inkWidgetRef.SetVisible(this.m_SkillCheckFailBG, false);
-		inkWidgetRef.SetVisible(this.m_label, true);
-		inkWidgetRef.SetVisible(this.m_labelFail, false);
+		//inkWidgetRef.SetVisible(this.m_label, true);
+		//inkWidgetRef.SetVisible(this.m_labelFail, false);
 	}
 
 	if ChoiceTypeWrapper.IsType(Deref(data).type, gameinteractionsChoiceType.Selected) && !this.m_isSelected
