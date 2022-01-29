@@ -27,8 +27,6 @@ private final func UpdateDialogHubData() -> Void
 	let fontsize = -1;
 	let generator = new FuriganaGenerator().init(FuriganaGeneratorMode.Dialog);
 
-	//PrintWidgets(this.m_mainVert, "");
-
 	while i < count
 	{
 		currentItem = this.m_itemControllers[i];
@@ -51,20 +49,12 @@ private final func UpdateDialogHubData() -> Void
 		Assert(rootParent, "Failed to get root active_text_wrapper!!");
 
 		// generate furigana
-		generator.GenerateFurigana(rootParent, localizedText, "", 0.0, Cast<Uint64>(0), fontsize,  true, true);
+		generator.GenerateFurigana(rootParent, localizedText, "", 0.0, Cast<Uint64>(0), fontsize, true, true);
 
 		// make background transparent so the furigana remains readable
 		currentItem.backgroundOpacity = generator.settings.dialogBackgroundOpacity;
 
 		inkTextRef.SetVisible(currentItem.m_ActiveTextRef, false);
-
-		/*if Equals(tags, "")
-		{
-			currentItem.SetText(localizedText, ChoiceTypeWrapper.IsType(currListChoiceData.type, gameinteractionsChoiceType.Inactive));
-		} else
-		{
-			currentItem.SetText("[" + tags + "] " + localizedText, ChoiceTypeWrapper.IsType(currListChoiceData.type, gameinteractionsChoiceType.Inactive));
-		}*/
 
 		currentItem.SetType(currListChoiceData.type);
 		currentItem.SetDedicatedInput(currListChoiceData.inputActionName);

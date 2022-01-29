@@ -59,9 +59,17 @@ private static func Assert(widget :wref<inkWidget>, msg :String) -> Void
 
 private static func PrintWidgets(widget :wref<inkWidget>, indent :String) -> Void
 {
-	LogChannel(n"DEBUG", indent + ToString(widget.GetName()) + " : " + ToString(widget.GetClassName()));
-
+	let text = widget as inkText;
 	let compound = widget as inkCompoundWidget;
+
+	let str = indent + ToString(widget.GetName()) + " : " + ToString(widget.GetClassName());
+
+	if IsDefined(text)
+	{
+		str += " = \"" + text.GetText() + "\"";
+	}
+
+	LogChannel(n"DEBUG", str);
 
 	if IsDefined(compound)
 	{
@@ -118,7 +126,8 @@ public class FuriganaSettings
 enum FuriganaGeneratorMode
 {
 	Dialog = 0,
-	Chatter = 1
+	Chatter = 1,
+	Interaction = 2
 }
 
 public class FuriganaGenerator
