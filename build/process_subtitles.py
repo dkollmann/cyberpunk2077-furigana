@@ -551,11 +551,14 @@ def processjson(processdata, file, jsn):
 			for e in entries:
 				stringid = e["stringId"]
 				relstringid = stringid % 4294967296
-				hexid = hex(relstringid)[2:].upper() + "^"
+				hexid = hex(relstringid)[2:].upper()
+				if hexid.endswith("000"):
+					hexid = hexid[:-3] + "Z"
+				strid = hexid + "^"
 
-				if addfurigana(processdata, e, "femaleVariant", hexid, file):
+				if addfurigana(processdata, e, "femaleVariant", strid, file):
 					hasfurigana = True
-				if addfurigana(processdata, e, "maleVariant", hexid, file):
+				if addfurigana(processdata, e, "maleVariant", strid, file):
 					hasfurigana = True
 
 			if hasfurigana:

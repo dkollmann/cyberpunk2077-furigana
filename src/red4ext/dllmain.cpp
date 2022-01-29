@@ -161,6 +161,19 @@ void StrAddSpaces(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, 
     *aOut = std::move(str2);
 }
 
+
+int FindStringIdEnd(const char *text)
+{
+    for(int i = 0; i < 17; ++i)
+    {
+        if( text[i] == '^' )
+            return i + 1;
+    }
+
+    return -1;
+}
+
+
 void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, StrSplitFuriganaList* aOut, int64_t a4)
 {
     RED4ext::CString text;
@@ -180,12 +193,13 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
     // check if there are actually furigana in there
     auto textstr = text.c_str();
     const int textsize = (int) text.Length();
+    const int stringidend = FindStringIdEnd(textstr);
     bool hasfurigana = false;
     bool haskatakana = false;
 
     if(dokatakana)
     {
-        for(int index = 0; index < textsize; )
+        for(int index = stringidend; index < textsize; )
         {
             utf8proc_int32_t ch;
             const int chsize = (int) utf8proc_iterate((const utf8proc_uint8_t*)textstr + index, -1, &ch);
@@ -214,7 +228,7 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
     }
     else
     {
-        for(int i = 0; i < textsize; ++i)
+        for(int i = stringidend; i < textsize; ++i)
         {
             // this is okay because it is an ascii character
             if( textstr[i] == (int)'{' )
@@ -231,7 +245,7 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
 
     fragments.Reserve(128);
 
-    int start = 0;
+    int start = stringidend;
     int charcount = 0;
     int kanjiblock = -1;
     int kanjiblock_charcount = 0;
@@ -241,7 +255,7 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
     bool insideblock = false;
 
     auto subtitle = (const utf8proc_uint8_t*) textstr;
-    for(int index = 0; index < textsize; )
+    for(int index = stringidend; index < textsize; )
     {
         // get the next character
         utf8proc_int32_t ch;
@@ -365,7 +379,7 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
     // sanity check the data
     unsigned int f = 0;
     int testcount = 0;
-    for(int index = 0; index < textsize && f < fragments.size; )
+    for(int index = stringidend; index < textsize && f < fragments.size; )
     {
         // get the next character
         utf8proc_int32_t ch;
@@ -422,8 +436,9 @@ void StrStripFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
     // check if there are actually furigana in there
     auto textstr = text.c_str();
     const int textsize = (int) text.Length();
+    const int stringidend = FindStringIdEnd(textstr);
     bool hasfurigana = false;
-    for(int i = 0; i < textsize; ++i)
+    for(int i = stringidend; i < textsize; ++i)
     {
         // this is okay because it is an ascii character
         if( textstr[i] == '{' )
@@ -443,8 +458,8 @@ void StrStripFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
     vectorstring<char> stripped;
     stripped.reserve(textsize);
 
-    int start = 0;
-    for(int i = 1; i < textsize; ++i)
+    int start = stringidend;
+    for(int i = stringidend; i < textsize; ++i)
     {
         // this is okay because it is an ascii character
         if( textstr[i] == '{' )
