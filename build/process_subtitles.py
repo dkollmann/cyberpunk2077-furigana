@@ -480,7 +480,7 @@ def addfurigana_textpart(processdata, text, filename):
 	return (hasfurigana, str)
 
 
-def addfurigana(processdata, entry, variant, filename):
+def addfurigana(processdata, entry, variant, stringid, filename):
 	if variant not in entry:
 		return False
 
@@ -519,7 +519,7 @@ def addfurigana(processdata, entry, variant, filename):
 			if fixandchar:
 				str = str.replace("§", "&")
 
-			xl.attrib["t"] = str
+			xl.attrib["t"] = stringid + str
 
 			str2 = ET.tostring(xl, encoding="unicode")
 			entry[variant] = str2
@@ -531,11 +531,10 @@ def addfurigana(processdata, entry, variant, filename):
 		hasfurigana, str = addfurigana_text(processdata, v, filename)
 
 		if hasfurigana:
-			entry[variant] = str
+			entry[variant] = stringid + str
 			return True
 
 		return False
-
 
 def processjson(processdata, file, jsn):
 	chunks = jsn["Chunks"]
@@ -550,9 +549,13 @@ def processjson(processdata, file, jsn):
 
 			hasfurigana = False
 			for e in entries:
-				if addfurigana(processdata, e, "femaleVariant", file):
+				stringid = e["stringId"]
+				relstringid = stringid % 4294967296
+				hexid = hex(relstringid)[2:].upper() + "^"
+
+				if addfurigana(processdata, e, "femaleVariant", hexid, file):
 					hasfurigana = True
-				if addfurigana(processdata, e, "maleVariant", file):
+				if addfurigana(processdata, e, "maleVariant", hexid, file):
 					hasfurigana = True
 
 			if hasfurigana:
