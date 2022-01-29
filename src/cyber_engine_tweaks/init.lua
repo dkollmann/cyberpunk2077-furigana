@@ -11,12 +11,12 @@ registerForEvent("onInit", function()
 	-- some local properties
 	local settingsFilename = "settings.json"
 
-	local kanjicolorize = { [1] = "No Colors", [2] = "Same Color", [3] = "Two Colors" }
+	local kanjicolorize = { [1] = "No Colors", [2] = "Same Color", [3] = "Change Colors (per word)", [4] = "Change Colors (per line)" }
 	local mothertonguetransmode = { [1] = "Show Instant", [2] = "Fade In"}
 
 	-- create default settings
 	local stateDefaults = {
-		colorizeKanji = 3,
+		colorizeKanji = 4,
 		colorizeKatakana = true,
 		addSpaces = false,
 		showFurigana = true,

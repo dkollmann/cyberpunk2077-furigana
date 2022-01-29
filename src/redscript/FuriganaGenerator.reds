@@ -402,6 +402,12 @@ public class FuriganaGenerator
 			// handle normal text and katakana
 			if type == TypeText || type == TypeKatakana
 			{
+				// when there is no kanji with furigana, reset the color index
+				if this.settings.colorizeKanji == 2 {
+					furiganaclridx= 0;
+				}
+
+				// determine color
 				let clr :Color;
 				if type == 0 {
 					clr = textcolor;
@@ -474,7 +480,7 @@ public class FuriganaGenerator
 							clr = furiganacolor2;
 						}
 
-						if this.settings.colorizeKanji == 2
+						if this.settings.colorizeKanji >= 2
 						{
 							// switch colors around
 							furiganaclridx = (furiganaclridx + 1) % 2;
