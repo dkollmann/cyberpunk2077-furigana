@@ -332,18 +332,23 @@ public class FuriganaGenerator
 		let furiganaclridx = 0;
 
 		// add debug info
-		if this.settings.showLineIDs && lineid > Cast<Uint64>(0)
+		if this.settings.showLineIDs
 		{
-			let id = ToString(lineid);
+			let idend = Cast<Int32>(blocks[0]) - 1;
+			let idstr = StrMid(japaneseText, 0, idend);
 
-			LogChannel(n"DEBUG", "Line: " + id);
+			if lineid > Cast<Uint64>(1000) {
+				idstr += " - " + ToString(lineid);
+			}
+
+			LogChannel(n"DEBUG", "Line: " + idstr);
 
 			let w = new inkText();
 			w.SetName(n"lineid");
 			w.SetFontFamily("base\\gameplay\\gui\\fonts\\foreign\\japanese\\mgenplus\\mgenplus.inkfontfamily", n"Medium");
 			w.SetFontSize(20);
 			w.SetFitToContent(true);
-			w.SetText(id);
+			w.SetText(idstr);
 			w.Reparent(this.furiganaroot);
 		}
 
