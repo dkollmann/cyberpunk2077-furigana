@@ -37,6 +37,21 @@ static const int JapaneseComma = 0x3001; /*、*/
 static const int JapaneseExclamationMark = 0xFF01; /*！*/
 static const int JapaneseQuestionMark    = 0xFF1F; /*？*/
 
+template<typename T> bool ToWChar(const char *utf8, T &wchar)
+{
+    const int ln = (int) std::strlen(utf8);
+    const int sz = MultiByteToWideChar(CP_UTF8, MB_PRECOMPOSED, utf8, ln, nullptr, 0);
+
+    if(sz == 0)
+        return false;
+
+    wchar.resize(sz);
+
+    const int sz2 = MultiByteToWideChar(CP_UTF8, MB_PRECOMPOSED, utf8, ln, (wchar_t*) wchar.data(), sz);
+
+    return sz2 != 0;
+}
+
 constexpr bool iskanji(int n)
 {
     // must be the same as from the python script that generates the furigana
@@ -197,8 +212,8 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
     bool hasfurigana = false;
     bool haskatakana = false;
 
-    if(dokatakana)
     {
+        int charcount = 0;
         for(int index = stringidend; index < textsize; )
         {
             utf8proc_int32_t ch;
@@ -208,6 +223,7 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
                 break;
 
             index += chsize;
+            charcount++;
 
             if( ch == '{' )
             {
@@ -217,7 +233,7 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
                     break;
             }
 
-            else if( iskatakana(ch) )
+            else if( dokatakana && iskatakana(ch) )
             {
                 haskatakana = true;
 
@@ -225,23 +241,14 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
                     break;
             }
         }
-    }
-    else
-    {
-        for(int i = stringidend; i < textsize; ++i)
+
+        // handle the simple case that there is no furigana
+        if(!hasfurigana && !haskatakana)
         {
-            // this is okay because it is an ascii character
-            if( textstr[i] == (int)'{' )
-            {
-                hasfurigana = true;
-                break;
-            }
+            AddFragment(fragments, stringidend, textsize - stringidend, charcount, StrSplitFuriganaListType::Text);
+            return;
         }
     }
-
-    // handle the simple case that there is no furigana
-    if(!hasfurigana && !haskatakana)
-        return;
 
     fragments.Reserve(128);
 
@@ -284,7 +291,7 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
         }
         else
         {
-            if(ch == (int)'{')
+            if(hasfurigana && ch == (int)'{')
             {
                 // add the text block before the kanji
                 if(kanjiblock > start)
@@ -318,7 +325,7 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
 
                 // handle extracting katakana
                 bool iskata = false;
-                if(dokatakana)
+                if(haskatakana)
                 {
                     if( iskatakana(ch) )
                     {

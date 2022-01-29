@@ -8,6 +8,9 @@ set CP2077=C:\Program Files (x86)\GOG Galaxy\Games\Cyberpunk 2077
 rem Run the compiler
 echo Cyberpunk 2077 Path: %CP2077%
 
+echo Killing Cyberpunk2077.exe...
+taskkill /F /IM Cyberpunk2077.exe
+
 echo Copying files...
 mkdir ..\dist\r6\scripts\cyberpunk2077-furigana
 copy /y ..\src\redscript\* ..\dist\r6\scripts\cyberpunk2077-furigana\*
