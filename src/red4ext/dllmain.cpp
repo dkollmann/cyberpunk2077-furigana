@@ -170,7 +170,7 @@ int FindStringIdEnd(const char *text)
             return i + 1;
     }
 
-    return -1;
+    return 0;
 }
 
 

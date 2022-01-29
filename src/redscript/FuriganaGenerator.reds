@@ -334,8 +334,17 @@ public class FuriganaGenerator
 		// add debug info
 		if this.settings.showLineIDs
 		{
-			let idend = Cast<Int32>(blocks[0]) - 1;
-			let idstr = StrMid(japaneseText, 0, idend);
+			let idstr :String;
+
+			let firstblockstart = Cast<Int32>(blocks[0]);
+			if firstblockstart > 0
+			{
+				idstr = StrMid(japaneseText, 0, firstblockstart - 1);
+			}
+			else
+			{
+				idstr = "";
+			}
 
 			if lineid > Cast<Uint64>(1000) {
 				idstr += " - " + ToString(lineid);
