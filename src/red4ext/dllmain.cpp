@@ -377,7 +377,7 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
     {
         // add the text at the end
         if(katakanablock >= 0)
-            AddFragment(fragments, start, textsize - start, katakanablock_charcount, StrSplitFuriganaListType::Katakana);
+            AddFragment(fragments, katakanablock, textsize - katakanablock, katakanablock_charcount, StrSplitFuriganaListType::Katakana);
         else
             AddFragment(fragments, start, textsize - start, charcount, StrSplitFuriganaListType::Text);
     }
