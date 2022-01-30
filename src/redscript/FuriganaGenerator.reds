@@ -98,6 +98,18 @@ private static func PrintWidgets(widget :inkWidgetRef) -> Void
 	LogChannel(n"DEBUG", "--------------------");
 }
 
+public static func GenerateSettingsPreview(widget :ref<inkVerticalPanel>) -> Void
+{
+	LogChannel(n"DEBUG", "Settings Preview for " + ToString(widget));
+
+	let generator = new FuriganaGenerator().init(FuriganaGeneratorMode.Dialog);
+
+	let text =	"化{ば}け猫{ねこ}（ばけねこ）は、日本{にっぽん}の妖{よう}怪{かい}の一種{いっしゅ}。その名{めい}のとおりネコが妖{よう}怪{かい}に変{へん}化{か}（へんげ）したものであるが、猫{ねこ}又{また}と混{こん}同{どう}されることが多{おお}く、その区{く}別{べつ}はあいまいである。日本各地{にほんかくち}に化{ば}け猫{ねこ}の伝{でん}説{せつ}が残{のこ}されているが、佐{さ}賀{が}県{けん}の鍋{なべ}島{しま}の化{ば}け猫{ねこ}騒{そう}動{どう}が特{とく}に有{ゆう}名{めい}である（詳{しょう}細{さい}は、鍋{なべ}島{しま}の化{ば}け猫{ねこ}騒{そう}動{どう}を参{さん}照{しょう}）。";
+	let fontsize = 40;
+
+	generator.GenerateFurigana(widget, text, "", 0.0, Cast<Uint64>(0), fontsize, false, false);
+}
+
 /** The settings object. Must be in sync with the lua script. */
 public class FuriganaSettings
 {
@@ -333,11 +345,12 @@ public class FuriganaGenerator
 		this.CreateRootWidget(parent, singleline, checkForExisting);
 
 		// add the widgets as needed
-		let textcolor = new Color(Cast<Uint8>(93), Cast<Uint8>(245), Cast<Uint8>(255), Cast<Uint8>(255));
-		let mothertonguecolor = new Color(Cast<Uint8>(255), Cast<Uint8>(255), Cast<Uint8>(255), Cast<Uint8>(255));
-		let katakanacolor = new Color(Cast<Uint8>(93), Cast<Uint8>(210), Cast<Uint8>(255), Cast<Uint8>(255));
-		let furiganacolor1 = new Color(Cast<Uint8>(214), Cast<Uint8>(180), Cast<Uint8>(133), Cast<Uint8>(255));
-		let furiganacolor2 = new Color(Cast<Uint8>(191), Cast<Uint8>(215), Cast<Uint8>(132), Cast<Uint8>(255));
+		let textcolor = new Color(Cast<Uint8>(93), Cast<Uint8>(245), Cast<Uint8>(255), Cast<Uint8>(255));            // 184, 100, 68
+		let mothertonguecolor = new Color(Cast<Uint8>(173), Cast<Uint8>(173), Cast<Uint8>(173), Cast<Uint8>(255));
+		let katakanacolor = new Color(Cast<Uint8>(93), Cast<Uint8>(210), Cast<Uint8>(255), Cast<Uint8>(255));        // 197, 100, 68
+		let furiganacolor1 = new Color(Cast<Uint8>(214), Cast<Uint8>(180), Cast<Uint8>(133), Cast<Uint8>(255));      //  35,  50, 68
+		let furiganacolor2 = new Color(Cast<Uint8>(191), Cast<Uint8>(215), Cast<Uint8>(132), Cast<Uint8>(255));      //  77,  51, 68
+																													 // 360, 100, 100
 		let furiganaclridx = 0;
 
 		// add debug info

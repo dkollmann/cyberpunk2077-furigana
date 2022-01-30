@@ -1,3 +1,38 @@
+-- taken from https://stackoverflow.com/questions/2353211/hsl-to-rgb-color-conversion
+function hue2rgb(p, q, t)
+	if t < 0 then t = t + 1 end
+	if t > 1 then t = t - 1 end
+	if t < 1/6 then return p + (q - p) * 6 * t end
+	if t < 1/2 then return q end
+	if t < 2/3 then return p + (q - p) * (2/3 - t) * 6 end
+	return p
+end
+
+function hslToRgb(h, s, l)
+    local r, g, b
+
+    if s == 0 then
+        r = 1 -- achromatic
+		g = 1
+		b = l
+    else
+		local q
+		if l < 0.5 then
+			q = l * (1 + s)
+		else
+			q = l + s - l * s
+		end
+
+        local p = 2 * l - q
+
+        r = hue2rgb(p, q, h + 1/3)
+        g = hue2rgb(p, q, h)
+        b = hue2rgb(p, q, h - 1/3)
+	end
+
+    return { r=math.floor(r * 255 + 0.5), g=math.floor(g * 255 + 0.5), b=math.floor(b * 255 + 0.5) }
+end
+
 registerForEvent("onInit", function()
 
 	-- creare ui
@@ -32,6 +67,18 @@ registerForEvent("onInit", function()
 		motherTongueScale = 80,
 		motherTongueTransMode = 2,
 		motherTongueFadeInTime = 20,
+
+		colorTextHue = 184,
+		colorTextSat = 100,
+
+		colorMotherTongueLight  =100,
+
+		colorKatakanaHue = 197,
+		colorKatakanaSat = 100,
+
+		colorKanjiHue1 = 35,
+		colorKanjiHue2 = 77,
+		colorKanjiSat = 50,
 
 		showLineIDs = false
 	}
@@ -71,6 +118,7 @@ registerForEvent("onInit", function()
 	nativeSettings.addSubcategory("/furigana/dialog", "Dialogues")
 	nativeSettings.addSubcategory("/furigana/chatter", "Chatter")
 	nativeSettings.addSubcategory("/furigana/mothertongue", "Foreign Speech (Haitian Creole)")
+	nativeSettings.addSubcategory("/furigana/colors", "Text Colors")
 	nativeSettings.addSubcategory("/furigana/debug", "Debug Options")
 
 	------------------------------ GENERAL ------------------------------
@@ -140,6 +188,24 @@ registerForEvent("onInit", function()
 	nativeSettings.addRangeFloat("/furigana/mothertongue", "Translated Text Fade-in Time", "The time the translated text needs to fade-in, relative to the duration of the untranslated line.", 10, 100, 1, "%.0f%%", state.motherTongueFadeInTime, stateDefaults.motherTongueFadeInTime, function(value) -- path, label, desc, min, max, step, format, currentValue, defaultValue, callback, optionalIndex
 		print("Changed Translated Text Fade-in Time to ", value)
 		state.motherTongueFadeInTime = value
+	end)
+
+	------------------------------ COLORS ------------------------------
+	FuriganaPreview = nativeSettings.addCustom("/furigana/colors", function(widget, options)
+		print("Generate Text Preview for", widget)
+
+		GenerateSettingsPreview(widget)
+	end)
+
+	ColorTextHueOption = nativeSettings.addRangeInt("/furigana/colors", "Normal Text Hue", "The color of the normal text.", 0, 360, 1, state.colorTextHue, stateDefaults.colorTextHue, function(value) -- path, label, desc, min, max, step, currentValue, defaultValue, callback, optionalIndex
+		print("Changed Normal Text Hue to ", value)
+		state.colorTextHue = value
+
+		ColorTextHueOption.controller.sliderWidget:SetTintColor(0, 255, 0, 255)
+		ColorTextHueOption.controller.LabelText:SetTintColor(0, 255, 0, 255)
+		ColorTextHueOption.controller.ValueText:SetTintColor(0, 255, 0, 255)
+
+		GenerateSettingsPreview(nativeSettings.settingsOptionsList.widget)
 	end)
 
 	------------------------------ DEBUG ------------------------------

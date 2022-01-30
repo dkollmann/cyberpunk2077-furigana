@@ -375,7 +375,7 @@ def split_custreadtags(text, opentag, closetag):
 	return result
 
 
-def addfurigana_text(processdata, text, filename):
+def addfurigana_text(processdata, text, filename = None):
 	# because of our format, the text cannot contain brackets
 	assert processdata.openbracket not in text and processdata.closebracket not in text, "We have to use a different syntax"
 	assert processdata.customreadings_opentag not in text and processdata.customreadings_closetag not in text, "We have to use a different tag for custom readings"
@@ -700,8 +700,12 @@ customreadings = [
 	(("真", "の", "戦", "士"), ("しん", "の", "せん", "し"))
 ]
 
+processdata = ProcessData(mecab, kakasi, jam, "{", "}", additionalreadings, customreadings, problems)
+
+#hasfurigana, textwithfurigana = addfurigana_text(processdata, "化け猫（ばけねこ）は、日本の妖怪の一種。その名のとおりネコが妖怪に変化（へんげ）したものであるが、猫又と混同されることが多く[2]、その区別はあいまいである。日本各地に化け猫の伝説が残されているが、佐賀県の鍋島の化け猫騒動が特に有名である（詳細は、#鍋島の化け猫騒動を参照）。")
+
 sys.stdout.write("Processing 0%")
-process(ProcessData(mecab, kakasi, jam, "{", "}", additionalreadings, customreadings, problems), sourcepath, 0, count)
+process(processdata, sourcepath, 0, count)
 sys.stdout.write(" done.\n")
 
 if len(problems) > 0:
