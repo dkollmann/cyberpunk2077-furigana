@@ -120,43 +120,77 @@ registerForEvent("onInit", function()
 		self.showLineIDs = state.showLineIDs
 	end)
 
+	-- ui helper functions
+	function UpdateTextPreview()
+		GenerateSettingsPreview(nativeSettings.settingsMainController.settingsOptionsList.widget)
+	end
+	
+	function UpdateColorSlider(slider, hue, sat, light)
+		local clr = hslToRgb(hue / 360.0, sat / 100.0, light / 100.0);
+	
+		slider.controller.sliderWidget:SetTintColor(clr.r, clr.g, clr.b, 255)
+		slider.controller.LabelText:SetTintColor(clr.r, clr.g, clr.b, 255)
+		slider.controller.ValueText:SetTintColor(clr.r, clr.g, clr.b, 255)
+	
+		UpdateTextPreview()
+	end
+
 	-- reference https://github.com/justarandomguyintheinternet/CP77_nativeSettings
 
 	nativeSettings.addTab("/furigana", "Furigana", function() -- Add our mods tab (path, label)
 		nativeSettings.saveSettingsFile(io.open(settingsFilename, "w"), state)
 	end)
 
+	nativeSettings.addSubcategory("/furigana/preview", "Text Preview")
 	nativeSettings.addSubcategory("/furigana/general", "General")
+	nativeSettings.addSubcategory("/furigana/colors", "Text Colors")
 	nativeSettings.addSubcategory("/furigana/dialog", "Dialogues")
 	nativeSettings.addSubcategory("/furigana/chatter", "Chatter")
 	nativeSettings.addSubcategory("/furigana/mothertongue", "Foreign Speech (Haitian Creole)")
-	nativeSettings.addSubcategory("/furigana/colors", "Text Colors")
 	nativeSettings.addSubcategory("/furigana/debug", "Debug Options")
+
+	------------------------------ TEXT PREVIEW ------------------------------
+	FuriganaPreview = nativeSettings.addCustom("/furigana/preview", function(widget, options)
+		GenerateSettingsPreview(widget)
+	end)
 
 	------------------------------ GENERAL ------------------------------
 	nativeSettings.addSwitch("/furigana/general", "Show Furigana", "Add furigana to the kanji.", state.showFurigana, stateDefaults.showFurigana, function(value) -- path, label, desc, currentValue, defaultValue, callback
 		print("Changed Show Furigana to ", value)
 		state.showFurigana = value
+		UpdateTextPreview()
 	end)
 
 	nativeSettings.addRangeFloat("/furigana/general", "Furigana Size", "The size of the furigana characters compared to the kanji ones.", 10, 100, 1, "%.0f%%", state.furiganaScale, stateDefaults.furiganaScale, function(value) -- path, label, desc, min, max, step, format, currentValue, defaultValue, callback, optionalIndex
 		print("Changed Furigana Size to ", value)
 		state.furiganaScale = value
+		UpdateTextPreview()
 	end)
 
 	nativeSettings.addSelectorString("/furigana/general", "Colorize Kanji", "Kanji and their furigana are shown in a different color, so it is easier to distinguish them.", kanjicolorize, state.colorizeKanji, stateDefaults.colorizeKanji, function(value) -- path, label, desc, elements, currentValue, defaultValue, callback
 		print("Changed Colorize Kanji to ", kanjicolorize[value])
 		state.colorizeKanji = value
+		UpdateTextPreview()
 	end)
 
 	nativeSettings.addSwitch("/furigana/general", "Colorize Katakana", "Katakana is shown in a different color, so it is easier to distinguish them.", state.colorizeKatakana, stateDefaults.colorizeKatakana, function(value) -- path, label, desc, currentValue, defaultValue, callback
 		print("Changed Colorize Katakana to ", value)
 		state.colorizeKatakana = value
+		UpdateTextPreview()
 	end)
 
 	nativeSettings.addSwitch("/furigana/general", "Add Extra Spaces", "Add spaces to the text, like in Roman languages, so it is easier to see the sentence structure.", state.addSpaces, stateDefaults.addSpaces, function(value) -- path, label, desc, currentValue, defaultValue, callback
 		print("Changed Add Extra Spaces to ", value)
 		state.addSpaces = value
+		UpdateTextPreview()
+	end)
+
+	------------------------------ COLORS ------------------------------
+	ColorTextHueSlider = nativeSettings.addRangeInt("/furigana/colors", "Normal Text Hue", "The color of the normal text.", 0, 360, 1, state.colorTextHue, stateDefaults.colorTextHue, function(value) -- path, label, desc, min, max, step, currentValue, defaultValue, callback, optionalIndex
+		print("Changed Normal Text Hue to ", value)
+		state.colorTextHue = value
+
+		UpdateColorSlider(ColorTextHueSlider, state.colorTextHue, state.colorTextSat, 68)
 	end)
 
 	------------------------------ DIALOG ------------------------------
@@ -200,28 +234,6 @@ registerForEvent("onInit", function()
 	nativeSettings.addRangeFloat("/furigana/mothertongue", "Translated Text Fade-in Time", "The time the translated text needs to fade-in, relative to the duration of the untranslated line.", 10, 100, 1, "%.0f%%", state.motherTongueFadeInTime, stateDefaults.motherTongueFadeInTime, function(value) -- path, label, desc, min, max, step, format, currentValue, defaultValue, callback, optionalIndex
 		print("Changed Translated Text Fade-in Time to ", value)
 		state.motherTongueFadeInTime = value
-	end)
-
-	------------------------------ COLORS ------------------------------
-	FuriganaPreview = nativeSettings.addCustom("/furigana/colors", function(widget, options)
-		print("Generate Text Preview for", widget)
-
-		GenerateSettingsPreview(widget)
-	end)
-
-	ColorTextHueOption = nativeSettings.addRangeInt("/furigana/colors", "Normal Text Hue", "The color of the normal text.", 0, 360, 1, state.colorTextHue, stateDefaults.colorTextHue, function(value) -- path, label, desc, min, max, step, currentValue, defaultValue, callback, optionalIndex
-		--print("Changed Normal Text Hue to ", value)
-		state.colorTextHue = value
-
-		local clr = hslToRgb(state.colorTextHue / 360.0, state.colorTextSat / 100.0, 68.0 / 100.0);
-
-		--print("New color: R=" .. clr.r .. "  G=" .. clr.g .. "  B=" .. clr.b)
-
-		ColorTextHueOption.controller.sliderWidget:SetTintColor(clr.r, clr.g, clr.b, 255)
-		ColorTextHueOption.controller.LabelText:SetTintColor(clr.r, clr.g, clr.b, 255)
-		ColorTextHueOption.controller.ValueText:SetTintColor(clr.r, clr.g, clr.b, 255)
-
-		GenerateSettingsPreview(nativeSettings.settingsMainController.settingsOptionsList.widget)
 	end)
 
 	------------------------------ DEBUG ------------------------------
