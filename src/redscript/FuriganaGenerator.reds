@@ -102,17 +102,59 @@ public static func GenerateSettingsPreview(widget :ref<inkVerticalPanel>) -> Voi
 {
 	LogChannel(n"DEBUG", "Settings Preview for " + ToString(widget));
 
-	let generator = new FuriganaGenerator().init(FuriganaGeneratorMode.Dialog);
+	let generator = new FuriganaGenerator().init(FuriganaGeneratorMode.SettingsPreview);
 
 	let text =	"化{ば}け猫{ねこ}（ばけねこ）は、日本{にっぽん}の妖{よう}怪{かい}の一種{いっしゅ}。その名{めい}のとおりネコが妖{よう}怪{かい}に変{へん}化{か}（へんげ）したものであるが、猫{ねこ}又{また}と混{こん}同{どう}されることが多{おお}く、その区{く}別{べつ}はあいまいである。日本各地{にほんかくち}に化{ば}け猫{ねこ}の伝{でん}説{せつ}が残{のこ}されているが、佐{さ}賀{が}県{けん}の鍋{なべ}島{しま}の化{ば}け猫{ねこ}騒{そう}動{どう}が特{とく}に有{ゆう}名{めい}である（詳{しょう}細{さい}は、鍋{なべ}島{しま}の化{ば}け猫{ねこ}騒{そう}動{どう}を参{さん}照{しょう}）。";
 	let fontsize = 40;
 
-	generator.GenerateFurigana(widget, text, "", 0.0, Cast<Uint64>(0), fontsize, false, false);
+	generator.GenerateFurigana(widget, text, "", 0.0, Cast<Uint64>(0), fontsize, false, true);
 }
 
 /** The settings object. Must be in sync with the lua script. */
 public class FuriganaSettings
 {
+	// taken from https://stackoverflow.com/questions/2353211/hsl-to-rgb-color-conversion
+	private static func hue2rgb(p :Float, q :Float, t :Float) -> Float
+	{
+		if t < 0.0 { t += 1.0; }
+		if t > 1.0 { t -= 1.0; }
+		if t < 1.0/6.0 { return p + (q - p) * 6.0 * t; }
+		if t < 1.0/2.0 { return q; }
+		if t < 2.0/3.0 { return p + (q - p) * (2.0/3.0 - t) * 6.0; }
+		return p;
+	}
+
+	private static func hslToRgb(h :Float, s :Float, l :Float) -> Color
+	{
+		let r :Float;
+		let g :Float;
+		let b :Float;
+
+		if s == 0.0
+		{
+			r = 1.0; // achromatic
+			g = 1.0;
+			b = l;
+		}
+		else
+		{
+			let q :Float;
+			if l < 0.5 {
+				q = l * (1.0 + s);
+			} else {
+				q = l + s - l * s;
+			}
+
+			let p = 2.0 * l - q;
+
+			r = FuriganaSettings.hue2rgb(p, q, h + 1.0/3.0);
+			g = FuriganaSettings.hue2rgb(p, q, h);
+			b = FuriganaSettings.hue2rgb(p, q, h - 1.0/3.0);
+		}
+
+		return new Color(Cast<Uint8>(r * 255.0 + 0.5), Cast<Uint8>(g * 255.0 + 0.5), Cast<Uint8>(b * 255.0 + 0.5), Cast<Uint8>(255));
+	}
+
 	public let colorizeKanji :Int32;
 	public let colorizeKatakana :Bool;
 	public let addSpaces :Bool;
@@ -130,16 +172,34 @@ public class FuriganaSettings
 	public let motherTongueTransMode :Int32;
 	public let motherTongueFadeInTime :Float;
 
+	public let colorTextHue :Float;
+	public let colorTextSat :Float;
+
+	public let colorMotherTongueLight :Float;
+
+	public let colorKatakanaHue :Float;
+	public let colorKatakanaSat :Float;
+
+	public let colorKanjiHue1 :Float;
+	public let colorKanjiHue2 :Float;
+	public let colorKanjiSat :Float;
+
 	public let showLineIDs :Bool;
 	
 	public func Get() -> Void {}
+
+	public func GetTextColor() -> Color
+	{
+		return FuriganaSettings.hslToRgb(this.colorTextHue, this.colorTextSat, 68.0 / 100.0);
+	}
 }
 
 enum FuriganaGeneratorMode
 {
 	Dialog = 0,
 	Chatter = 1,
-	Interaction = 2
+	Interaction = 2,
+	SettingsPreview = 3
 }
 
 public class FuriganaGenerator
@@ -165,10 +225,17 @@ public class FuriganaGenerator
 		this.settings = new FuriganaSettings();
 		this.settings.Get();
 
-		if Equals(mode, FuriganaGeneratorMode.Dialog) {
+		if Equals(mode, FuriganaGeneratorMode.Dialog)
+		{
 			this.maxLineLength = this.settings.dialogMaxLineLength;
-		} else {
-			this.maxLineLength = this.settings.chatterMaxLineLength;
+		}
+		else
+		{
+			if Equals(mode, FuriganaGeneratorMode.SettingsPreview) {
+				this.maxLineLength = 40;
+			} else {
+				this.maxLineLength = this.settings.chatterMaxLineLength;
+			}
 		}
 
 		return this;
@@ -345,7 +412,7 @@ public class FuriganaGenerator
 		this.CreateRootWidget(parent, singleline, checkForExisting);
 
 		// add the widgets as needed
-		let textcolor = new Color(Cast<Uint8>(93), Cast<Uint8>(245), Cast<Uint8>(255), Cast<Uint8>(255));            // 184, 100, 68
+		let textcolor = this.settings.GetTextColor();            // 184, 100, 68
 		let mothertonguecolor = new Color(Cast<Uint8>(173), Cast<Uint8>(173), Cast<Uint8>(173), Cast<Uint8>(255));
 		let katakanacolor = new Color(Cast<Uint8>(93), Cast<Uint8>(210), Cast<Uint8>(255), Cast<Uint8>(255));        // 197, 100, 68
 		let furiganacolor1 = new Color(Cast<Uint8>(214), Cast<Uint8>(180), Cast<Uint8>(133), Cast<Uint8>(255));      //  35,  50, 68

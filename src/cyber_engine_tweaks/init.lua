@@ -71,7 +71,7 @@ registerForEvent("onInit", function()
 		colorTextHue = 184,
 		colorTextSat = 100,
 
-		colorMotherTongueLight  =100,
+		colorMotherTongueLight = 100,
 
 		colorKatakanaHue = 197,
 		colorKatakanaSat = 100,
@@ -104,6 +104,18 @@ registerForEvent("onInit", function()
 		self.motherTongueScale = state.motherTongueScale / 100.0
 		self.motherTongueTransMode = state.motherTongueTransMode - 1
 		self.motherTongueFadeInTime = state.motherTongueFadeInTime / 100.0
+
+		self.colorTextHue = state.colorTextHue / 360.0
+		self.colorTextSat = state.colorTextSat / 100.0
+
+		self.colorMotherTongueLight = state.colorMotherTongueLight / 100.0
+
+		self.colorKatakanaHue = state.colorKatakanaHue / 360.0
+		self.colorKatakanaSat = state.colorKatakanaSat / 100.0
+
+		self.colorKanjiHue1 = state.colorKanjiHue1 / 360.0
+		self.colorKanjiHue2 = state.colorKanjiHue2 / 360.0
+		self.colorKanjiSat = state.colorKanjiSat / 100.0
 
 		self.showLineIDs = state.showLineIDs
 	end)
@@ -198,14 +210,18 @@ registerForEvent("onInit", function()
 	end)
 
 	ColorTextHueOption = nativeSettings.addRangeInt("/furigana/colors", "Normal Text Hue", "The color of the normal text.", 0, 360, 1, state.colorTextHue, stateDefaults.colorTextHue, function(value) -- path, label, desc, min, max, step, currentValue, defaultValue, callback, optionalIndex
-		print("Changed Normal Text Hue to ", value)
+		--print("Changed Normal Text Hue to ", value)
 		state.colorTextHue = value
 
-		ColorTextHueOption.controller.sliderWidget:SetTintColor(0, 255, 0, 255)
-		ColorTextHueOption.controller.LabelText:SetTintColor(0, 255, 0, 255)
-		ColorTextHueOption.controller.ValueText:SetTintColor(0, 255, 0, 255)
+		local clr = hslToRgb(state.colorTextHue / 360.0, state.colorTextSat / 100.0, 68.0 / 100.0);
 
-		GenerateSettingsPreview(nativeSettings.settingsOptionsList.widget)
+		--print("New color: R=" .. clr.r .. "  G=" .. clr.g .. "  B=" .. clr.b)
+
+		ColorTextHueOption.controller.sliderWidget:SetTintColor(clr.r, clr.g, clr.b, 255)
+		ColorTextHueOption.controller.LabelText:SetTintColor(clr.r, clr.g, clr.b, 255)
+		ColorTextHueOption.controller.ValueText:SetTintColor(clr.r, clr.g, clr.b, 255)
+
+		GenerateSettingsPreview(nativeSettings.settingsMainController.settingsOptionsList.widget)
 	end)
 
 	------------------------------ DEBUG ------------------------------
