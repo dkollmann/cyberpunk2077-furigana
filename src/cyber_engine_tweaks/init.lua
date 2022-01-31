@@ -160,10 +160,10 @@ registerForEvent("onInit", function()
 	end)
 
 	nativeSettings.addSubcategory("/furigana/general", "General")
-	nativeSettings.addSubcategory("/furigana/colors", "Text Colors")
 	nativeSettings.addSubcategory("/furigana/dialog", "Dialogues")
 	nativeSettings.addSubcategory("/furigana/chatter", "Chatter")
 	nativeSettings.addSubcategory("/furigana/mothertongue", "Foreign Speech (Haitian Creole)")
+	nativeSettings.addSubcategory("/furigana/colors", "Text Colors")
 	nativeSettings.addSubcategory("/furigana/debug", "Debug Options")
 
 	------------------------------ TEXT PREVIEW ------------------------------

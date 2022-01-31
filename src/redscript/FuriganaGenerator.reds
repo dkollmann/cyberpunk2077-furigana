@@ -118,7 +118,7 @@ public static func GenerateSettingsPreview(widget :ref<inkCompoundWidget>, creat
 		text.SetHAlign(inkEHorizontalAlign.Center);
 		//text.SetVAlign(inkEVerticalAlign.Bottom);
 		text.SetText("Settings marked with * affect the preview text.");
-		text.SetMargin(0.0, 1.0, 0.0, 1.0);
+		text.SetMargin(0.0, 10.0, 0.0, 1.0);
 		text.Reparent(widget, 3);
 
 		widget = w;
