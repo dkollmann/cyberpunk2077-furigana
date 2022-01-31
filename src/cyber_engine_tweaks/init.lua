@@ -238,6 +238,27 @@ registerForEvent("onInit", function()
 		UpdateColorSlider(ColorKatakanaSatSlider, state.colorKatakanaHue, state.colorKatakanaSat, 68)
 	end)
 
+	ColorKanjiHue1Slider = nativeSettings.addRangeInt("/furigana/colors", "Normal Kanji Color #1*", "The color of the kanji.", 0, 360, 1, state.colorKanjiHue1, stateDefaults.colorKanjiHue1, function(value) -- path, label, desc, min, max, step, currentValue, defaultValue, callback, optionalIndex
+		print("Changed Kanji Color #1 to ", value)
+		state.colorKanjiHue1 = value
+
+		UpdateColorSlider(ColorKanjiHue1Slider, state.colorKanjiHue1, state.colorKanjiSat, 68)
+	end)
+
+	ColorKanjiHue2Slider = nativeSettings.addRangeInt("/furigana/colors", "Normal Kanji Color #2*", "The color of the kanji.", 0, 360, 1, state.colorKanjiHue2, stateDefaults.colorKanjiHue2, function(value) -- path, label, desc, min, max, step, currentValue, defaultValue, callback, optionalIndex
+		print("Changed Kanji Color #2 to ", value)
+		state.colorKanjiHue2 = value
+
+		UpdateColorSlider(ColorKanjiHue2Slider, state.colorKanjiHue2, state.colorKanjiSat, 68)
+	end)
+
+	ColorKanjiSatSlider = nativeSettings.addRangeInt("/furigana/colors", "Normal Kanji Saturation*", "The saturation of the kanji.", 0, 100, 1, state.colorKanjiSat, stateDefaults.colorKanjiSat, function(value) -- path, label, desc, min, max, step, currentValue, defaultValue, callback, optionalIndex
+		print("Changed Kanji Saturation to ", value)
+		state.colorKanjiSat = value
+
+		UpdateColorSlider(ColorKanjiSatSlider, state.colorKanjiHue1, state.colorKanjiSat, 68)
+	end)
+
 	------------------------------ DIALOG ------------------------------
 	nativeSettings.addRangeInt("/furigana/dialog", "Max Line Length", "The maximum number of characters per line in dialogues.", 10, 100, 1, state.dialogMaxLineLength, stateDefaults.dialogMaxLineLength, function(value) -- path, label, desc, min, max, step, currentValue, defaultValue, callback, optionalIndex
 		print("Changed Dialog Max Line Length to ", value)
