@@ -165,7 +165,7 @@ void StrAddSpaces(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, 
             // insert a space
             str.insert(str.begin() + index, { (char)0xE3, (char)0x80, (char)0x80 });
 
-            index += (int)StrSplitFuriganaIndex::COUNT;
+            index += 3;
         }
     }
 
