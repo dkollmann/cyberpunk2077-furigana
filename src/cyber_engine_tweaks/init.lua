@@ -133,6 +133,13 @@ registerForEvent("onInit", function()
 			GenerateSettingsPreview(widget, false)
 		end
 	end
+
+	function RemoveTextPreview()
+		local widget = nativeSettings.settingsMainController:GetRootCompoundWidget():GetWidgetByPathName(Game.StringToName("wrapper/wrapper"))
+
+		widget:RemoveChildByName(Game.StringToName("previewText"))
+		widget:RemoveChildByName(Game.StringToName("previewTextHint"))
+	end
 	
 	function UpdateColorSlider(slider, hue, sat, light)
 		local clr = hslToRgb(hue / 360.0, sat / 100.0, light / 100.0);
@@ -148,6 +155,8 @@ registerForEvent("onInit", function()
 
 	nativeSettings.addTab("/furigana", "Furigana", function() -- Add our mods tab (path, label)
 		nativeSettings.saveSettingsFile(io.open(settingsFilename, "w"), state)
+
+		RemoveTextPreview()
 	end)
 
 	nativeSettings.addSubcategory("/furigana/general", "General")
@@ -163,31 +172,31 @@ registerForEvent("onInit", function()
 	end)
 
 	------------------------------ GENERAL ------------------------------
-	nativeSettings.addSwitch("/furigana/general", "Show Furigana", "Add furigana to the kanji.", state.showFurigana, stateDefaults.showFurigana, function(value) -- path, label, desc, currentValue, defaultValue, callback
+	nativeSettings.addSwitch("/furigana/general", "Show Furigana*", "Add furigana to the kanji.", state.showFurigana, stateDefaults.showFurigana, function(value) -- path, label, desc, currentValue, defaultValue, callback
 		print("Changed Show Furigana to ", value)
 		state.showFurigana = value
 		UpdateTextPreview()
 	end)
 
-	nativeSettings.addRangeFloat("/furigana/general", "Furigana Size", "The size of the furigana characters compared to the kanji ones.", 10, 100, 1, "%.0f%%", state.furiganaScale, stateDefaults.furiganaScale, function(value) -- path, label, desc, min, max, step, format, currentValue, defaultValue, callback, optionalIndex
+	nativeSettings.addRangeFloat("/furigana/general", "Furigana Size*", "The size of the furigana characters compared to the kanji ones.", 10, 100, 1, "%.0f%%", state.furiganaScale, stateDefaults.furiganaScale, function(value) -- path, label, desc, min, max, step, format, currentValue, defaultValue, callback, optionalIndex
 		print("Changed Furigana Size to ", value)
 		state.furiganaScale = value
 		UpdateTextPreview()
 	end)
 
-	nativeSettings.addSelectorString("/furigana/general", "Colorize Kanji", "Kanji and their furigana are shown in a different color, so it is easier to distinguish them.", kanjicolorize, state.colorizeKanji, stateDefaults.colorizeKanji, function(value) -- path, label, desc, elements, currentValue, defaultValue, callback
+	nativeSettings.addSelectorString("/furigana/general", "Colorize Kanji*", "Kanji and their furigana are shown in a different color, so it is easier to distinguish them.", kanjicolorize, state.colorizeKanji, stateDefaults.colorizeKanji, function(value) -- path, label, desc, elements, currentValue, defaultValue, callback
 		print("Changed Colorize Kanji to ", kanjicolorize[value])
 		state.colorizeKanji = value
 		UpdateTextPreview()
 	end)
 
-	nativeSettings.addSwitch("/furigana/general", "Colorize Katakana", "Katakana is shown in a different color, so it is easier to distinguish them.", state.colorizeKatakana, stateDefaults.colorizeKatakana, function(value) -- path, label, desc, currentValue, defaultValue, callback
+	nativeSettings.addSwitch("/furigana/general", "Colorize Katakana*", "Katakana is shown in a different color, so it is easier to distinguish them.", state.colorizeKatakana, stateDefaults.colorizeKatakana, function(value) -- path, label, desc, currentValue, defaultValue, callback
 		print("Changed Colorize Katakana to ", value)
 		state.colorizeKatakana = value
 		UpdateTextPreview()
 	end)
 
-	nativeSettings.addSwitch("/furigana/general", "Add Extra Spaces", "Add spaces to the text, like in Roman languages, so it is easier to see the sentence structure.", state.addSpaces, stateDefaults.addSpaces, function(value) -- path, label, desc, currentValue, defaultValue, callback
+	nativeSettings.addSwitch("/furigana/general", "Add Extra Spaces*", "Add spaces to the text, like in Roman languages, so it is easier to see the sentence structure.", state.addSpaces, stateDefaults.addSpaces, function(value) -- path, label, desc, currentValue, defaultValue, callback
 		print("Changed Add Extra Spaces to ", value)
 		state.addSpaces = value
 		UpdateTextPreview()
@@ -224,14 +233,16 @@ registerForEvent("onInit", function()
 	end)
 
 	------------------------------ MOTHER TONGUE ------------------------------
-	nativeSettings.addSwitch("/furigana/mothertongue", "Show Untranslated Text", "Show a subtitle for the untranslated speech.", state.motherTongueShow, stateDefaults.motherTongueShow, function(value) -- path, label, desc, currentValue, defaultValue, callback
+	nativeSettings.addSwitch("/furigana/mothertongue", "Show Untranslated Text*", "Show a subtitle for the untranslated speech.", state.motherTongueShow, stateDefaults.motherTongueShow, function(value) -- path, label, desc, currentValue, defaultValue, callback
 		print("Changed Show Untranslated Text to ", value)
 		state.motherTongueShow = value
+		UpdateTextPreview()
 	end)
 
-	nativeSettings.addRangeFloat("/furigana/mothertongue", "Untranslated Text Size", "The size of the untranslated text, when shown.", 10, 200, 1, "%.0f%%", state.motherTongueScale, stateDefaults.motherTongueScale, function(value) -- path, label, desc, min, max, step, format, currentValue, defaultValue, callback, optionalIndex
+	nativeSettings.addRangeFloat("/furigana/mothertongue", "Untranslated Text Size*", "The size of the untranslated text, when shown.", 10, 200, 1, "%.0f%%", state.motherTongueScale, stateDefaults.motherTongueScale, function(value) -- path, label, desc, min, max, step, format, currentValue, defaultValue, callback, optionalIndex
 		print("Changed Untranslated Text Size to ", value)
 		state.motherTongueScale = value
+		UpdateTextPreview()
 	end)
 
 	nativeSettings.addSelectorString("/furigana/mothertongue", "Translated Text Mode", "Select how translated text will be shown.", mothertonguetransmode, state.motherTongueTransMode, stateDefaults.motherTongueTransMode, function(value) -- path, label, desc, elements, currentValue, defaultValue, callback

@@ -109,6 +109,18 @@ public static func GenerateSettingsPreview(widget :ref<inkCompoundWidget>, creat
 		w.SetHAlign(inkEHorizontalAlign.Center);
 		w.Reparent(widget, 2);
 
+		let text = new inkText();
+		text.SetName(n"previewTextHint");
+		text.SetFontFamily("base\\gameplay\\gui\\fonts\\foreign\\japanese\\mgenplus\\mgenplus.inkfontfamily", n"Medium");
+		//text.SetTintColor(color);
+		text.SetFontSize(30);
+		text.SetFitToContent(true);
+		text.SetHAlign(inkEHorizontalAlign.Center);
+		//text.SetVAlign(inkEVerticalAlign.Bottom);
+		text.SetText("Settings marked with * affect the preview text.");
+		text.SetMargin(0.0, 1.0, 0.0, 1.0);
+		text.Reparent(widget, 3);
+
 		widget = w;
 	}
 
