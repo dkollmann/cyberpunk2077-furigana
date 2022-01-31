@@ -214,6 +214,16 @@ public class FuriganaSettings
 	{
 		return FuriganaSettings.hslToRgb(this.colorTextHue, this.colorTextSat, 68.0 / 100.0);
 	}
+
+	public func GetMotherTongueColor() -> Color
+	{
+		return FuriganaSettings.hslToRgb(0.0, 0.0, this.colorMotherTongueLight);
+	}
+
+	public func GetKatakanaColor() -> Color
+	{
+		return FuriganaSettings.hslToRgb(this.colorKatakanaHue, this.colorKatakanaSat, 68.0 / 100.0);
+	}
 }
 
 enum FuriganaGeneratorMode
@@ -435,8 +445,8 @@ public class FuriganaGenerator
 
 		// add the widgets as needed
 		let textcolor = this.settings.GetTextColor();            // 184, 100, 68
-		let mothertonguecolor = new Color(Cast<Uint8>(173), Cast<Uint8>(173), Cast<Uint8>(173), Cast<Uint8>(255));
-		let katakanacolor = new Color(Cast<Uint8>(93), Cast<Uint8>(210), Cast<Uint8>(255), Cast<Uint8>(255));        // 197, 100, 68
+		let mothertonguecolor = this.settings.GetMotherTongueColor();
+		let katakanacolor = this.settings.GetKatakanaColor();        // 197, 100, 68
 		let furiganacolor1 = new Color(Cast<Uint8>(214), Cast<Uint8>(180), Cast<Uint8>(133), Cast<Uint8>(255));      //  35,  50, 68
 		let furiganacolor2 = new Color(Cast<Uint8>(191), Cast<Uint8>(215), Cast<Uint8>(132), Cast<Uint8>(255));      //  77,  51, 68
 																													 // 360, 100, 100

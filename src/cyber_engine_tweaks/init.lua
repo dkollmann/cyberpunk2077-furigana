@@ -203,18 +203,39 @@ registerForEvent("onInit", function()
 	end)
 
 	------------------------------ COLORS ------------------------------
-	ColorTextHueSlider = nativeSettings.addRangeInt("/furigana/colors", "Normal Text Color", "The color of the normal text.", 0, 360, 1, state.colorTextHue, stateDefaults.colorTextHue, function(value) -- path, label, desc, min, max, step, currentValue, defaultValue, callback, optionalIndex
+	ColorTextHueSlider = nativeSettings.addRangeInt("/furigana/colors", "Normal Text Color*", "The color of the normal text.", 0, 360, 1, state.colorTextHue, stateDefaults.colorTextHue, function(value) -- path, label, desc, min, max, step, currentValue, defaultValue, callback, optionalIndex
 		print("Changed Normal Text Color to ", value)
 		state.colorTextHue = value
 
 		UpdateColorSlider(ColorTextHueSlider, state.colorTextHue, state.colorTextSat, 68)
 	end)
 
-	ColorTextHueSlider = nativeSettings.addRangeInt("/furigana/colors", "Normal Text Saturation", "The saturation of the normal text.", 0, 100, 1, state.colorTextSat, stateDefaults.colorTextSat, function(value) -- path, label, desc, min, max, step, currentValue, defaultValue, callback, optionalIndex
+	ColorTextSatSlider = nativeSettings.addRangeInt("/furigana/colors", "Normal Text Saturation*", "The saturation of the normal text.", 0, 100, 1, state.colorTextSat, stateDefaults.colorTextSat, function(value) -- path, label, desc, min, max, step, currentValue, defaultValue, callback, optionalIndex
 		print("Changed Normal Text Saturation to ", value)
 		state.colorTextSat = value
 
-		UpdateColorSlider(ColorTextHueSlider, state.colorTextHue, state.colorTextSat, 68)
+		UpdateColorSlider(ColorTextSatSlider, state.colorTextHue, state.colorTextSat, 68)
+	end)
+
+	ColorUntranslatedLightSlider = nativeSettings.addRangeInt("/furigana/colors", "Untranslated Text Brightness*", "The brightness of untranslated text.", 0, 100, 1, state.colorMotherTongueLight, stateDefaults.colorMotherTongueLight, function(value) -- path, label, desc, min, max, step, currentValue, defaultValue, callback, optionalIndex
+		print("Changed Untranslated Text Brightness to ", value)
+		state.colorMotherTongueLight = value
+
+		UpdateColorSlider(ColorUntranslatedLightSlider, 0, 0, state.colorMotherTongueLight)
+	end)
+
+	ColorKatakanaHueSlider = nativeSettings.addRangeInt("/furigana/colors", "Katakana Color*", "The color of the katakana.", 0, 360, 1, state.colorKatakanaHue, stateDefaults.colorKatakanaHue, function(value) -- path, label, desc, min, max, step, currentValue, defaultValue, callback, optionalIndex
+		print("Changed Katakana Color to ", value)
+		state.colorKatakanaHue = value
+
+		UpdateColorSlider(ColorKatakanaHueSlider, state.colorKatakanaHue, state.colorKatakanaSat, 68)
+	end)
+
+	ColorKatakanaSatSlider = nativeSettings.addRangeInt("/furigana/colors", "Katakana Saturation*", "The saturation of the katakana.", 0, 100, 1, state.colorKatakanaSat, stateDefaults.colorKatakanaSat, function(value) -- path, label, desc, min, max, step, currentValue, defaultValue, callback, optionalIndex
+		print("Changed Katakana Saturation to ", value)
+		state.colorKatakanaSat = value
+
+		UpdateColorSlider(ColorKatakanaSatSlider, state.colorKatakanaHue, state.colorKatakanaSat, 68)
 	end)
 
 	------------------------------ DIALOG ------------------------------
