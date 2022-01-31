@@ -12,8 +12,8 @@ function hslToRgb(h, s, l)
     local r, g, b
 
     if s == 0 then
-        r = 1 -- achromatic
-		g = 1
+        r = l -- achromatic
+		g = l
 		b = l
     else
 		local q
@@ -203,9 +203,16 @@ registerForEvent("onInit", function()
 	end)
 
 	------------------------------ COLORS ------------------------------
-	ColorTextHueSlider = nativeSettings.addRangeInt("/furigana/colors", "Normal Text Hue", "The color of the normal text.", 0, 360, 1, state.colorTextHue, stateDefaults.colorTextHue, function(value) -- path, label, desc, min, max, step, currentValue, defaultValue, callback, optionalIndex
-		print("Changed Normal Text Hue to ", value)
+	ColorTextHueSlider = nativeSettings.addRangeInt("/furigana/colors", "Normal Text Color", "The color of the normal text.", 0, 360, 1, state.colorTextHue, stateDefaults.colorTextHue, function(value) -- path, label, desc, min, max, step, currentValue, defaultValue, callback, optionalIndex
+		print("Changed Normal Text Color to ", value)
 		state.colorTextHue = value
+
+		UpdateColorSlider(ColorTextHueSlider, state.colorTextHue, state.colorTextSat, 68)
+	end)
+
+	ColorTextHueSlider = nativeSettings.addRangeInt("/furigana/colors", "Normal Text Saturation", "The saturation of the normal text.", 0, 100, 1, state.colorTextSat, stateDefaults.colorTextSat, function(value) -- path, label, desc, min, max, step, currentValue, defaultValue, callback, optionalIndex
+		print("Changed Normal Text Saturation to ", value)
+		state.colorTextSat = value
 
 		UpdateColorSlider(ColorTextHueSlider, state.colorTextHue, state.colorTextSat, 68)
 	end)

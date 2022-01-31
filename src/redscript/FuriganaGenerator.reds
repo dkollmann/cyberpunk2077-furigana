@@ -154,8 +154,8 @@ public class FuriganaSettings
 
 		if s == 0.0
 		{
-			r = 1.0; // achromatic
-			g = 1.0;
+			r = l; // achromatic
+			g = l;
 			b = l;
 		}
 		else
