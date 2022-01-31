@@ -98,16 +98,26 @@ private static func PrintWidgets(widget :inkWidgetRef) -> Void
 	LogChannel(n"DEBUG", "--------------------");
 }
 
-public static func GenerateSettingsPreview(widget :ref<inkVerticalPanel>) -> Void
+public static func GenerateSettingsPreview(widget :ref<inkCompoundWidget>, create :Bool) -> Void
 {
 	LogChannel(n"DEBUG", "Settings Preview for " + ToString(widget));
+
+	if create
+	{
+		let w = new inkHorizontalPanel();
+		w.SetName(n"previewText");
+		w.SetHAlign(inkEHorizontalAlign.Center);
+		w.Reparent(widget, 2);
+
+		widget = w;
+	}
 
 	let generator = new FuriganaGenerator().init(FuriganaGeneratorMode.SettingsPreview);
 
 	let text =	"化{ば}け猫{ねこ}（ばけねこ）は、日本{にっぽん}の妖{よう}怪{かい}の一種{いっしゅ}。その名{めい}のとおりネコが妖{よう}怪{かい}に変{へん}化{か}（へんげ）したものであるが、猫{ねこ}又{また}と混{こん}同{どう}されることが多{おお}く、その区{く}別{べつ}はあいまいである。日本各地{にほんかくち}に化{ば}け猫{ねこ}の伝{でん}説{せつ}が残{のこ}されているが、佐{さ}賀{が}県{けん}の鍋{なべ}島{しま}の化{ば}け猫{ねこ}騒{そう}動{どう}が特{とく}に有{ゆう}名{めい}である（詳{しょう}細{さい}は、鍋{なべ}島{しま}の化{ば}け猫{ねこ}騒{そう}動{どう}を参{さん}照{しょう}）。";
 	let fontsize = 40;
 
-	generator.GenerateFurigana(widget, text, "", 0.0, Cast<Uint64>(0), fontsize, false, true);
+	generator.GenerateFurigana(widget, text, "Untranslated Mothertongue Text", 0.0, Cast<Uint64>(0), fontsize, false, !create);
 }
 
 /** The settings object. Must be in sync with the lua script. */

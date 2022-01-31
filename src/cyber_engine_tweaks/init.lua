@@ -121,8 +121,17 @@ registerForEvent("onInit", function()
 	end)
 
 	-- ui helper functions
-	function UpdateTextPreview()
-		GenerateSettingsPreview(nativeSettings.settingsMainController.settingsOptionsList.widget)
+	UpdateTextPreviewPathName = Game.StringToName("wrapper/wrapper/previewText")
+	function UpdateTextPreview(create)
+		if create then
+			local widget = nativeSettings.settingsMainController:GetRootCompoundWidget():GetWidgetByPathName(Game.StringToName("wrapper/wrapper"))
+
+			GenerateSettingsPreview(widget, true)
+		else
+			local widget = nativeSettings.settingsMainController:GetRootCompoundWidget():GetWidgetByPathName(UpdateTextPreviewPathName)
+
+			GenerateSettingsPreview(widget, false)
+		end
 	end
 	
 	function UpdateColorSlider(slider, hue, sat, light)
@@ -132,7 +141,7 @@ registerForEvent("onInit", function()
 		slider.controller.LabelText:SetTintColor(clr.r, clr.g, clr.b, 255)
 		slider.controller.ValueText:SetTintColor(clr.r, clr.g, clr.b, 255)
 	
-		UpdateTextPreview()
+		UpdateTextPreview(false)
 	end
 
 	-- reference https://github.com/justarandomguyintheinternet/CP77_nativeSettings
@@ -141,7 +150,6 @@ registerForEvent("onInit", function()
 		nativeSettings.saveSettingsFile(io.open(settingsFilename, "w"), state)
 	end)
 
-	nativeSettings.addSubcategory("/furigana/preview", "Text Preview")
 	nativeSettings.addSubcategory("/furigana/general", "General")
 	nativeSettings.addSubcategory("/furigana/colors", "Text Colors")
 	nativeSettings.addSubcategory("/furigana/dialog", "Dialogues")
@@ -150,8 +158,8 @@ registerForEvent("onInit", function()
 	nativeSettings.addSubcategory("/furigana/debug", "Debug Options")
 
 	------------------------------ TEXT PREVIEW ------------------------------
-	FuriganaPreview = nativeSettings.addCustom("/furigana/preview", function(widget, options)
-		GenerateSettingsPreview(widget)
+	FuriganaPreview = nativeSettings.addCustom("/furigana", function(widget, options)
+		UpdateTextPreview(true)
 	end)
 
 	------------------------------ GENERAL ------------------------------
