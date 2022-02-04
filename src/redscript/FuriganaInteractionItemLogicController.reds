@@ -39,7 +39,7 @@ private final func SetLabel(data: script_ref<InteractionChoiceData>) -> Void
 	let generator = new FuriganaGenerator().init(FuriganaGeneratorMode.Interaction);
 	let fontsize = inkTextRef.GetFontSize(this.m_label);
 
-	generator.GenerateFurigana(rootParent, locText, "", 0.0, Cast<Uint64>(0), fontsize, true, true);
+	generator.GenerateFurigana(rootParent, locText, "", 0.0, Cast<Uint64>(0), fontsize, true, true, false);
 }
 
 @replaceMethod(interactionItemLogicController)

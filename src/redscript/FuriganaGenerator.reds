@@ -129,7 +129,7 @@ public static func GenerateSettingsPreview(widget :ref<inkCompoundWidget>, creat
 	let text =	"ナイトシティで動{どう}物{ぶつ}を見{み}たのは初{はじ}めてだ。もちろん、ゴキブリを除{のぞ}いてな";
 	let fontsize = 40;
 
-	generator.GenerateFurigana(widget, text, "Untranslated Mothertongue Text", 0.0, Cast<Uint64>(0), fontsize, false, !create);
+	generator.GenerateFurigana(widget, text, "Untranslated Mothertongue Text", 0.0, Cast<Uint64>(0), fontsize, false, !create, false);
 }
 
 /** The settings object. Must be in sync with the lua script. */
@@ -184,7 +184,7 @@ public class FuriganaSettings
 	public let furiganaScale :Float;
 
 	public let dialogMaxLineLength :Int32;
-	public let dialogBackgroundOpacity :Float;
+	public let dialogTextBrightness :Float;
 
 	public let chatterMaxLineLength :Int32;
 	public let chatterTextScale :Float;
@@ -210,9 +210,11 @@ public class FuriganaSettings
 	
 	public func Get() -> Void {}
 
-	public func GetTextColor() -> Color
+	public func GetTextColor(selectedDialogOption :Bool) -> Color
 	{
-		return FuriganaSettings.hslToRgb(this.colorTextHue, this.colorTextSat, 68.0 / 100.0);
+		let light = selectedDialogOption ? MaxF(0.0, 68.0 - this.dialogTextBrightness) : 68.0;
+
+		return FuriganaSettings.hslToRgb(this.colorTextHue, this.colorTextSat, light / 100.0);
 	}
 
 	public func GetMotherTongueColor() -> Color
@@ -220,19 +222,25 @@ public class FuriganaSettings
 		return FuriganaSettings.hslToRgb(0.0, 0.0, this.colorMotherTongueLight);
 	}
 
-	public func GetKatakanaColor() -> Color
+	public func GetKatakanaColor(selectedDialogOption :Bool) -> Color
 	{
-		return FuriganaSettings.hslToRgb(this.colorKatakanaHue, this.colorKatakanaSat, 68.0 / 100.0);
+		let light = selectedDialogOption ? MaxF(0.0, 68.0 - this.dialogTextBrightness) : 68.0;
+
+		return FuriganaSettings.hslToRgb(this.colorKatakanaHue, this.colorKatakanaSat, light / 100.0);
 	}
 
-	public func GetKanjiColor1() -> Color
+	public func GetKanjiColor1(selectedDialogOption :Bool) -> Color
 	{
-		return FuriganaSettings.hslToRgb(this.colorKanjiHue1, this.colorKanjiSat, 68.0 / 100.0);
+		let light = selectedDialogOption ? MaxF(0.0, 68.0 - this.dialogTextBrightness) : 68.0;
+
+		return FuriganaSettings.hslToRgb(this.colorKanjiHue1, this.colorKanjiSat, light / 100.0);
 	}
 
-	public func GetKanjiColor2() -> Color
+	public func GetKanjiColor2(selectedDialogOption :Bool) -> Color
 	{
-		return FuriganaSettings.hslToRgb(this.colorKanjiHue2, this.colorKanjiSat, 68.0 / 100.0);
+		let light = selectedDialogOption ? MaxF(0.0, 68.0 - this.dialogTextBrightness) : 68.0;
+
+		return FuriganaSettings.hslToRgb(this.colorKanjiHue2, this.colorKanjiSat, light / 100.0);
 	}
 }
 
@@ -406,7 +414,7 @@ public class FuriganaGenerator
 		return panel;
 	}
 
-	private func GenerateFuriganaWidgets(parent :ref<inkCompoundWidget>, japaneseText :String, motherTongueText :String, duration :Float, lineid :Uint64, blocks :array<Int16>, fontsize :Int32, singleline :Bool, checkForExisting :Bool) -> Void
+	private func GenerateFuriganaWidgets(parent :ref<inkCompoundWidget>, japaneseText :String, motherTongueText :String, duration :Float, lineid :Uint64, blocks :array<Int16>, fontsize :Int32, singleline :Bool, checkForExisting :Bool, selectedDialogOption :Bool) -> Void
 	{
 		let IndexStart = EnumInt(StrSplitFuriganaIndex.Start);
 		let IndexSize = EnumInt(StrSplitFuriganaIndex.Size);
@@ -454,12 +462,12 @@ public class FuriganaGenerator
 		this.CreateRootWidget(parent, singleline, checkForExisting);
 
 		// add the widgets as needed
-		let textcolor = this.settings.GetTextColor();            // 184, 100, 68
+		let textcolor = this.settings.GetTextColor(selectedDialogOption);
 		let mothertonguecolor = this.settings.GetMotherTongueColor();
-		let katakanacolor = this.settings.GetKatakanaColor();        // 197, 100, 68
-		let furiganacolor1 = this.settings.GetKanjiColor1();      //  35,  50, 68
-		let furiganacolor2 = this.settings.GetKanjiColor2();      //  77,  51, 68
-																													 // 360, 100, 100
+		let katakanacolor = this.settings.GetKatakanaColor(selectedDialogOption);
+		let furiganacolor1 = this.settings.GetKanjiColor1(selectedDialogOption);
+		let furiganacolor2 = this.settings.GetKanjiColor2(selectedDialogOption);
+
 		let furiganaclridx = 0;
 
 		// add debug info
@@ -648,7 +656,7 @@ public class FuriganaGenerator
 		}
 	}
 
-	public func GenerateFurigana(parent :ref<inkCompoundWidget>, japaneseText :String, motherTongueText :String, duration :Float, lineid :Uint64, fontsize :Int32, singleline :Bool, checkForExisting :Bool) -> Void
+	public func GenerateFurigana(parent :ref<inkCompoundWidget>, japaneseText :String, motherTongueText :String, duration :Float, lineid :Uint64, fontsize :Int32, singleline :Bool, checkForExisting :Bool, selectedDialogOption :Bool) -> Void
 	{
 		if this.settings.addSpaces {
 			japaneseText = StrAddSpaces(japaneseText);
@@ -658,6 +666,6 @@ public class FuriganaGenerator
 		let size = ArraySize(blocks);
 		let count = size / EnumInt(StrSplitFuriganaIndex.COUNT);
 
-		this.GenerateFuriganaWidgets(parent, japaneseText, motherTongueText, duration, lineid, blocks, fontsize, singleline, checkForExisting);
+		this.GenerateFuriganaWidgets(parent, japaneseText, motherTongueText, duration, lineid, blocks, fontsize, singleline, checkForExisting, selectedDialogOption);
 	}
 }

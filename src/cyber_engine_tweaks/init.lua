@@ -58,7 +58,7 @@ registerForEvent("onInit", function()
 		furiganaScale = 60,
 
 		dialogMaxLineLength = 40,
-		dialogBackgroundOpacity = 15,
+		dialogTextBrightness = 60,
 
 		chatterMaxLineLength = 40,
 		chatterTextScale = 150,
@@ -95,7 +95,7 @@ registerForEvent("onInit", function()
 		self.furiganaScale = state.furiganaScale / 100.0
 
 		self.dialogMaxLineLength = state.dialogMaxLineLength
-		self.dialogBackgroundOpacity = state.dialogBackgroundOpacity / 100.0
+		self.dialogTextBrightness = 100.0 - state.dialogTextBrightness -- / 100.0
 
 		self.chatterMaxLineLength = state.chatterMaxLineLength
 		self.chatterTextScale = state.chatterTextScale / 100.0
@@ -265,9 +265,9 @@ registerForEvent("onInit", function()
 		state.dialogdialogMaxLineLength = value
 	end)
 
-	nativeSettings.addRangeFloat("/furigana/dialog", "Background Opacity", "Making the background more transparent when selecting dialog options keeps the kanji more readable.", 10, 100, 1, "%.0f%%", state.dialogBackgroundOpacity, stateDefaults.dialogBackgroundOpacity, function(value) -- path, label, desc, min, max, step, format, currentValue, defaultValue, callback, optionalIndex
-		print("Changed Dialog Background Opacity to ", value)
-		state.dialogBackgroundOpacity = value
+	nativeSettings.addRangeFloat("/furigana/dialog", "Selected Text Brightness", "This makes text darker when selecting dialog options, keeping the kanji readable when being selected.", 0, 100, 1, "%.0f%%", state.dialogTextBrightness, stateDefaults.dialogTextBrightness, function(value) -- path, label, desc, min, max, step, format, currentValue, defaultValue, callback, optionalIndex
+		print("Changed Selected Text Brightness to ", value)
+		state.dialogTextBrightness = value
 	end)
 
 	------------------------------ CHATTER ------------------------------
@@ -313,6 +313,6 @@ registerForEvent("onInit", function()
 	nativeSettings.addButton("/furigana/debug", "Report Incorrect Reading", "When you see incorrect kanji readings, please report them. Opens browser window.", "Report Issue", 45, function() -- Parameters: path, label, desc, buttonText, textSize, callback, optionalIndex
 		print("User clicked Report Issue")
 
-		OpenBrowser("http://www.google.com");
+		OpenBrowser("https://www.nexusmods.com/cyberpunk2077/mods/3775?tab=posts");
 	end)
 end)

@@ -1,15 +1,3 @@
-@addField(DialogChoiceLogicController)
-public let backgroundOpacity :Float;
-
-@replaceMethod(DialogChoiceLogicController)
-public final func SetDimmed(value: Bool) -> Void
-{
-	let opacity: Float = value ? 0.40 : 1.00;
-	inkWidgetRef.SetOpacity(this.m_ActiveTextRef, opacity);
-	inkWidgetRef.SetOpacity(this.m_InActiveTextRef, opacity);
-	this.m_SelectedBg.SetOpacity(opacity * this.backgroundOpacity);
-}
-
 @replaceMethod(DialogHubLogicController)
 private final func UpdateDialogHubData() -> Void
 {
@@ -48,11 +36,10 @@ private final func UpdateDialogHubData() -> Void
 		let rootParent = textflex.GetWidgetByPathName(n"active_text_wrapper") as inkCompoundWidget;
 		Assert(rootParent, "Failed to get root active_text_wrapper!!");
 
-		// generate furigana
-		generator.GenerateFurigana(rootParent, localizedText, "", 0.0, Cast<Uint64>(0), fontsize, true, true);
+		let selected = this.m_dialogHubData.m_isSelected && this.m_dialogHubData.m_selectedInd == i;
 
-		// make background transparent so the furigana remains readable
-		currentItem.backgroundOpacity = generator.settings.dialogBackgroundOpacity;
+		// generate furigana
+		generator.GenerateFurigana(rootParent, localizedText, "", 0.0, Cast<Uint64>(0), fontsize, true, true, selected);
 
 		inkTextRef.SetVisible(currentItem.m_ActiveTextRef, false);
 
@@ -60,7 +47,7 @@ private final func UpdateDialogHubData() -> Void
 		currentItem.SetDedicatedInput(currListChoiceData.inputActionName);
 		currentItem.SetIsPhoneLockActive(this.m_data.isPhoneLockActive);
 		currentItem.SetDimmed(ChoiceTypeWrapper.IsType(currListChoiceData.type, gameinteractionsChoiceType.Inactive) || ChoiceTypeWrapper.IsType(currListChoiceData.type, gameinteractionsChoiceType.CheckFailed) || !ChoiceTypeWrapper.IsType(currListChoiceData.type, gameinteractionsChoiceType.QuestImportant) && ChoiceTypeWrapper.IsType(currListChoiceData.type, gameinteractionsChoiceType.AlreadyRead));
-		currentItem.SetSelected(this.m_dialogHubData.m_isSelected && this.m_dialogHubData.m_selectedInd == i);
+		currentItem.SetSelected(selected);
 		currentItem.SetData(this.m_dialogHubData.m_currentNum + i, this.m_dialogHubData.m_argTotalCountAcrossHubs, this.m_dialogHubData.m_hasAboveElements, this.m_dialogHubData.m_hasBelowElements);
 
 		if ChoiceTypeWrapper.IsType(currListChoiceData.type, gameinteractionsChoiceType.PossessedDialog)
