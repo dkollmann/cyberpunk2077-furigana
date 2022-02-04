@@ -6,7 +6,7 @@ set SUBTITLEPATH=base\localization\jp-jp\subtitles
 set SOURCE=..\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw_Subtitles\%SUBTITLEPATH%
 SET MODFILES=..\src\wolvenkit\Cyberpunk 2077 Furigana\files\Mod
 set TARGET=%MODFILES%\%SUBTITLEPATH%
-set ARCHIVEFOLDER=..\dist\archive\pc\mod
+set ARCHIVEFOLDER=..\src\wolvenkit\Cyberpunk 2077 Furigana\packed\archive\pc\mod
 
 echo Removing previous files...
 rmdir /s/q "%TARGET%"
@@ -24,7 +24,7 @@ del /s /q "%TARGET%\*.json.json" > __killme__
 del /q __killme__
 
 echo Packaging files...
-call WolvenKit.Console\WolvenKit.CLI.exe pack -p "%MODFILES%" -o %ARCHIVEFOLDER%
+call WolvenKit.Console\WolvenKit.CLI.exe pack -p "%MODFILES%" -o "%ARCHIVEFOLDER%"
 color 07
 
-move /y %ARCHIVEFOLDER%\Mod.archive "%ARCHIVEFOLDER%\cyberpunk2077-furigana.archive"
+move /y "%ARCHIVEFOLDER%\Mod.archive" "%ARCHIVEFOLDER%\cyberpunk2077-furigana.archive"
