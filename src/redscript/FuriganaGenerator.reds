@@ -663,9 +663,33 @@ public class FuriganaGenerator
 		}
 
 		let blocks = StrSplitFurigana(japaneseText, this.settings.colorizeKatakana);
-		let size = ArraySize(blocks);
-		let count = size / EnumInt(StrSplitFuriganaIndex.COUNT);
 
 		this.GenerateFuriganaWidgets(parent, japaneseText, motherTongueText, duration, lineid, blocks, fontsize, singleline, checkForExisting, selectedDialogOption);
+	}
+
+	public func GenerateFuriganaLegacy(parent :ref<inkCompoundWidget>, japaneseText :String, lineid :Uint64, fontsize :Int32) -> Bool
+	{
+		if this.settings.addSpaces {
+			japaneseText = StrAddSpaces(japaneseText);
+		}
+
+		let blocks = StrSplitFurigana(japaneseText, this.settings.colorizeKatakana);
+
+		// check if there is a single entry
+		if ArraySize(blocks) == EnumInt(StrSplitFuriganaIndex.COUNT)
+		{
+			let type = Cast<Int32>( blocks[ EnumInt(StrSplitFuriganaIndex.Type) ] );
+
+			// check if this block is a text block
+			if type == EnumInt(StrSplitFuriganaType.Text)
+			{
+				// do not generate our stuff
+				return false;
+			}
+		}
+
+		this.GenerateFuriganaWidgets(parent, japaneseText, "", 0.0, lineid, blocks, fontsize, true, false, false);
+
+		return true;
 	}
 }
