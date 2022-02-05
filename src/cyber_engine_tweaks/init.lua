@@ -313,6 +313,6 @@ registerForEvent("onInit", function()
 	nativeSettings.addButton("/furigana/debug", "Report Incorrect Reading", "When you see incorrect kanji readings, please report them. Opens browser window.", "Report Issue", 45, function() -- Parameters: path, label, desc, buttonText, textSize, callback, optionalIndex
 		print("User clicked Report Issue")
 
-		OpenBrowser("https://www.nexusmods.com/cyberpunk2077/mods/3775?tab=posts");
+		OpenBrowser("https://www.nexusmods.com/cyberpunk2077/articles/299");
 	end)
 end)
