@@ -208,6 +208,10 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
     // check if there are actually furigana in there
     auto textstr = text.c_str();
     const int textsize = (int) text.Length();
+
+    if(textsize < 1)
+        return;
+
     const int stringidend = FindStringIdEnd(textstr);
     bool hasfurigana = false;
     bool haskatakana = false;

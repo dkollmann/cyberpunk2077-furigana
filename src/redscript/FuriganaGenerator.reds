@@ -674,9 +674,15 @@ public class FuriganaGenerator
 		}
 
 		let blocks = StrSplitFurigana(japaneseText, this.settings.colorizeKatakana);
+		let size = ArraySize(blocks);
+
+		// check if there is any data
+		if size < 1 {
+			return false;
+		}
 
 		// check if there is a single entry
-		if ArraySize(blocks) == EnumInt(StrSplitFuriganaIndex.COUNT)
+		if size == EnumInt(StrSplitFuriganaIndex.COUNT)
 		{
 			let type = Cast<Int32>( blocks[ EnumInt(StrSplitFuriganaIndex.Type) ] );
 
