@@ -40,6 +40,16 @@ private final func SetLabel(data: script_ref<InteractionChoiceData>) -> Void
 	let fontsize = inkTextRef.GetFontSize(this.m_label);
 
 	generator.GenerateFurigana(rootParent, locText, "", 0.0, Cast<Uint64>(0), fontsize, true, true, false);
+
+	generator.furiganaroot.SetHAlign(inkEHorizontalAlign.Center);
+	generator.furiganaroot.SetMargin(150.0, 0.0, 0.0, 0.0);
+
+	// adjust fail size
+	let failSize = rootParent.GetWidgetByPathName(n"Fail_panel/Canvas_fail_flex/inputLabel");
+	Assert(failSize, "Failed to get root text_holder/Fail_panel/Canvas_fail_flex/inputLabel!!");
+
+	failSize.SetFitToContent(false);
+	failSize.SetWidth(400);
 }
 
 @replaceMethod(interactionItemLogicController)
