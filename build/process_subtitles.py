@@ -166,13 +166,14 @@ kanjireadings = {
 	"入": KanjiReading(("ジュ", "ニュウ"), ("はい", "いっ", "い")),
 	"結": KanjiReading(("ケチ", "ケツ", "ケッ"), ("むす", "ゆ")),
 	"手": KanjiReading(("シュ", "ズ"), ("て", "で", "た")),
-	"日": KanjiReading(("ニチ", "ジツ"), ("ひ", "び", "か")),
-	"真": KanjiReading(("シン",), ("まこと", "ま"))
+	"日": KanjiReading(("ニチ", "ジツ", "ニ"), ("ひ", "び", "か")),
+	"真": KanjiReading(("シン",), ("まこと", "ま")),
+	"一": KanjiReading(("イチ", "イツ", "イ"), ("ひと",)),
 }
 
 # provide readings for kanji words, in case that translation is incorrect
 wordreadings = [
-	WordReading(("真", "の", "戦", "士"), ("しん", "の", "せん", "し"))
+	WordReading(("真", "の", "戦", "士"), ("しん", "の", "せん", "し")),
 ]
 
 maker = Instance("{", "}", kakasi, mecab, jam)
