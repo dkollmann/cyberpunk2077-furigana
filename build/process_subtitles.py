@@ -1,5 +1,5 @@
 # requires mecab-python3, unidic, pykakasi, jamdict, wheel, jamdict-data package
-from furiganamaker import Instance, Reading, CustomReading, has_kanji
+from furiganamaker import Instance, KanjiReading, WordReading, has_kanji
 import os, sys, shutil, json, MeCab, unidic, pykakasi
 import xml.etree.cElementTree as ET
 from jamdict import Jamdict
@@ -152,29 +152,31 @@ problems = []
 
 # provide additional readings needed by the subtitles
 additionalreadings = {
-	"応": Reading(("オウ", "ヨウ", "ノウ"), ("あた", "まさに", "こた")),
-	"摂": Reading(("セツ", "ショウ"), ("おさ", "かね", "と")),
-	"癒": Reading(("ユ",), ("いや", "い")),
-	"話": Reading(("ワ",), ("はなし", "はな")),
-	"事": Reading(("ジ", "ズ"), ("こと", "ごと", "つか")),
-	"通": Reading(("ツウ", "ツ,", "トウ"), ("とお", "どお", "かよ")),
-	"間": Reading(("カン", "ケン", "ゲン"), ("あいだ", "あい", "ま")),
-	"配": Reading(("ハイ", "パイ"), ("くば",)),
-	"発": Reading(("ハツ", "ハッ", "ホツ"), ("はな", "つか", "おこ", "あば", "た")),
-	"入": Reading(("ジュ", "ニュウ"), ("はい", "いっ", "い")),
-	"結": Reading(("ケチ", "ケツ", "ケッ"), ("むす", "ゆ")),
-	"手": Reading(("シュ", "ズ"), ("て", "で", "た")),
-	"日": Reading(("ニチ", "ジツ"), ("ひ", "び", "か")),
-	"真": Reading(("シン",), ("まこと", "ま"))
+	"応": KanjiReading(("オウ", "ヨウ", "ノウ"), ("あた", "まさに", "こた")),
+	"摂": KanjiReading(("セツ", "ショウ"), ("おさ", "かね", "と")),
+	"癒": KanjiReading(("ユ",), ("いや", "い")),
+	"話": KanjiReading(("ワ",), ("はなし", "はな")),
+	"事": KanjiReading(("ジ", "ズ"), ("こと", "ごと", "つか")),
+	"通": KanjiReading(("ツウ", "ツ,", "トウ"), ("とお", "どお", "かよ")),
+	"間": KanjiReading(("カン", "ケン", "ゲン"), ("あいだ", "あい", "ま")),
+	"配": KanjiReading(("ハイ", "パイ"), ("くば",)),
+	"発": KanjiReading(("ハツ", "ハッ", "ホツ"), ("はな", "つか", "おこ", "あば", "た")),
+	"入": KanjiReading(("ジュ", "ニュウ"), ("はい", "いっ", "い")),
+	"結": KanjiReading(("ケチ", "ケツ", "ケッ"), ("むす", "ゆ")),
+	"手": KanjiReading(("シュ", "ズ"), ("て", "で", "た")),
+	"日": KanjiReading(("ニチ", "ジツ"), ("ひ", "び", "か")),
+	"真": KanjiReading(("シン",), ("まこと", "ま"))
 }
 
 # provide readings for kanji words, in case that translation is incorrect
 customreadings = [
-	CustomReading(("真", "の", "戦", "士"), ("しん", "の", "せん", "し"))
+	WordReading(("真", "の", "戦", "士"), ("しん", "の", "せん", "し"))
 ]
 
 maker = Instance("{", "}", kakasi, mecab, jam)
-maker.init(additionalreadings, customreadings)
+
+maker.add_kanjireadings(additionalreadings)
+maker.add_wordreadings(customreadings)
 
 sys.stdout.write("Processing 0%")
 process(maker, sourcepath, 0, count, problems)
