@@ -1,5 +1,5 @@
 # requires mecab-python3, unidic, pykakasi, jamdict, wheel, jamdict-data package
-from furiganamaker import Instance, KanjiReading, WordReading, has_kanji
+from furiganamaker import Instance, KanjiReading, WordReading, Problems, has_kanji
 import os, sys, shutil, json, MeCab, unidic, pykakasi
 import xml.etree.cElementTree as ET
 from jamdict import Jamdict
@@ -70,6 +70,7 @@ def addfurigana(instance, entry, variant, stringid, filename, problems):
 
 		return False
 
+
 def processjson(instance, file, jsn, problems):
 	chunks = jsn["Chunks"]
 
@@ -128,6 +129,7 @@ def process(instance, path, filen, count, problems):
 
 	return filen
 
+
 def countfiles(path):
 	count = 0
 
@@ -151,7 +153,7 @@ count = countfiles(sourcepath)
 problems = []
 
 # provide additional readings needed by the subtitles
-additionalreadings = {
+kanjireadings = {
 	"応": KanjiReading(("オウ", "ヨウ", "ノウ"), ("あた", "まさに", "こた")),
 	"摂": KanjiReading(("セツ", "ショウ"), ("おさ", "かね", "と")),
 	"癒": KanjiReading(("ユ",), ("いや", "い")),
@@ -169,14 +171,14 @@ additionalreadings = {
 }
 
 # provide readings for kanji words, in case that translation is incorrect
-customreadings = [
+wordreadings = [
 	WordReading(("真", "の", "戦", "士"), ("しん", "の", "せん", "し"))
 ]
 
 maker = Instance("{", "}", kakasi, mecab, jam)
 
-maker.add_kanjireadings(additionalreadings)
-maker.add_wordreadings(customreadings)
+maker.add_kanjireadings(kanjireadings)
+maker.add_wordreadings(wordreadings)
 
 sys.stdout.write("Processing 0%")
 process(maker, sourcepath, 0, count, problems)
@@ -184,30 +186,11 @@ sys.stdout.write(" done.\n")
 
 if len(problems) > 0:
 	# print 100 problems
-	for i in range( min(100, len(problems)) ):
-		p = problems[i]
-		print(str(p.userdata) + ": " + p.description)
-	print("Found " + str(len(problems)) + " problems...")
+	Problems.print_all(problems, 100)
 
 	# sort problems by kanji
-	counted = {}
-	for p in problems:
-		if p.kanji is not None:
-			if p.kanji in counted:
-				counted[p.kanji] += 1
-			else:
-				counted[p.kanji] = 1
-	sort = sorted(counted.items(), key=lambda x: x[1], reverse=True)
-	sys.stdout.write("Issues: ")
-	for k, n in sort:
-		sys.stdout.write(k + ": " + str(n) + ", ")
-	print(".")
+	sort = Problems.print_kanjiproblems_list(problems)
+
 	# show top problems
 	k = sort[0][0]
-	i = 0
-	for p in problems:
-		if p.kanji == k:
-			i += 1
-			print(str(p.userdata) + ": " + p.description)
-			if i >= 10:
-				break
+	Problems.print_kanjiproblems(problems, k, 10)
