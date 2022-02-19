@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:30.0138291Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wbr_jpn_chat_004.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "やっぱりここにいたか！",
+                    "maleVariant": null,
+                    "stringId": 1806855581997850624
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ちょっとくらい、いいでしょ？",
+                    "maleVariant": null,
+                    "stringId": 1806856496708444160
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "信用してたのに！ 買い物に行ってすぐ戻るんじゃなかったのか？",
+                    "maleVariant": null,
+                    "stringId": 1806856641848139776
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ねえ、お金持ってない？",
+                    "maleVariant": null,
+                    "stringId": 1806856805711208448
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "買い物用にやった金はどうした？",
+                    "maleVariant": null,
+                    "stringId": 1806856959910600704
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ちゃんと取り戻すって。そろそろ確変入るから。あとちょっとだけ",
+                    "maleVariant": null,
+                    "stringId": 1806857168015187968
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "やめろ！",
+                    "maleVariant": null,
+                    "stringId": 1806857406754971648
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1806855581997850624,
-            "femaleVariant": "やっぱりここにいたか！"
-          },
-          {
-            "stringId": 1806856496708444160,
-            "femaleVariant": "ちょっとくらい、いいでしょ？"
-          },
-          {
-            "stringId": 1806856641848139776,
-            "femaleVariant": "信用してたのに！ 買い物に行ってすぐ戻るんじゃなかったのか？"
-          },
-          {
-            "stringId": 1806856805711208448,
-            "femaleVariant": "ねえ、お金持ってない？"
-          },
-          {
-            "stringId": 1806856959910600704,
-            "femaleVariant": "買い物用にやった金はどうした？"
-          },
-          {
-            "stringId": 1806857168015187968,
-            "femaleVariant": "ちゃんと取り戻すって。そろそろ確変入るから。あとちょっとだけ"
-          },
-          {
-            "stringId": 1806857406754971648,
-            "femaleVariant": "やめろ！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

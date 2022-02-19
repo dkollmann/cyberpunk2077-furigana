@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:28.7872793Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\std_arr_chat_015.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ここよ、ここ！ あの人たちがライブをした店に自分がいるなんて！",
+                    "maleVariant": null,
+                    "stringId": 2167890254985875456
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "はいはい、よかったね。もう行かない？",
+                    "maleVariant": null,
+                    "stringId": 2214431610316886016
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "もう、冷たいな",
+                    "maleVariant": null,
+                    "stringId": 2221584187127074816
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "音楽は好きよ。ライブにもよく行くし。脳細胞がイカレてたら、私もファンになってたかもね",
+                    "maleVariant": null,
+                    "stringId": 2221584597598441472
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "でも生憎そうじゃない",
+                    "maleVariant": null,
+                    "stringId": 2221594023155830784
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ジョニーが演ったのよ。〈Samurai〉と",
+                    "maleVariant": null,
+                    "stringId": 2221594210775437312
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ふうん。だから？",
+                    "maleVariant": null,
+                    "stringId": 2221594701509005312
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2167890254985875456,
-            "femaleVariant": "ここよ、ここ！ あの人たちがライブをした店に自分がいるなんて！"
-          },
-          {
-            "stringId": 2214431610316886016,
-            "femaleVariant": "はいはい、よかったね。もう行かない？"
-          },
-          {
-            "stringId": 2221584187127074816,
-            "femaleVariant": "もう、冷たいな"
-          },
-          {
-            "stringId": 2221584597598441472,
-            "femaleVariant": "音楽は好きよ。ライブにもよく行くし。脳細胞がイカレてたら、私もファンになってたかもね"
-          },
-          {
-            "stringId": 2221594023155830784,
-            "femaleVariant": "でも生憎そうじゃない"
-          },
-          {
-            "stringId": 2221594210775437312,
-            "femaleVariant": "ジョニーが演ったのよ。〈Samurai〉と"
-          },
-          {
-            "stringId": 2221594701509005312,
-            "femaleVariant": "ふうん。だから？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

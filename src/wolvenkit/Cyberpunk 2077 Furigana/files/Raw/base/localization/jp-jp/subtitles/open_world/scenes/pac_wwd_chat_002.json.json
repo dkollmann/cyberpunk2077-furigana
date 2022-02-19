@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:27.8340904Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\pac_wwd_chat_002.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="creo" o="Brigitte pap renmen sa a ditou." t="ブリジットは怒るだろうな…" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 1963304545701371904
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="creo" o="Depi ki lè li oblije konnen?" t="わざわざ彼女に知らせる必要ないでしょ？" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 1964713802564653056
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="creo" o="Ou panse manzè se yon Danbala ki wè tout bagay?" t="ダンバラじゃあるまいし、言わなきゃバレない" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 1964714061973966848
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="creo" o="Sa ou reproche manzè?" t="ブリジットが嫌いなの？" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 1964716264101007360
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="creo" o="Manzè se tout moun, li pwoteje nou..." t="みんなの心配をして守ってくれてるのに…" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 1964716805669539840
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="creo" o="Fòk mwen di manzè tou lè mwen pral lan twalèt?" t="だからといって、トイレに行く時も彼女に報告するわけ？" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 1964717670031708160
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963304545701371904,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Brigitte pap renmen sa a ditou.\" t=\"ブリジットは怒るだろうな…\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 1964713802564653056,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Depi ki lè li oblije konnen?\" t=\"わざわざ彼女に知らせる必要ないでしょ？\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 1964714061973966848,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Ou panse manzè se yon Danbala ki wè tout bagay?\" t=\"ダンバラじゃあるまいし、言わなきゃバレない\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 1964716264101007360,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Sa ou reproche manzè?\" t=\"ブリジットが嫌いなの？\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 1964716805669539840,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Manzè se tout moun, li pwoteje nou...\" t=\"みんなの心配をして守ってくれてるのに…\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 1964717670031708160,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Fòk mwen di manzè tou lè mwen pral lan twalèt?\" t=\"だからといって、トイレに行く時も彼女に報告するわけ？\" b=\"\" a=\"\"/>"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

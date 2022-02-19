@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:30.8296476Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\street_stories\sts_hey_gle_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1週間前に終わってるはずだろ？",
+                    "maleVariant": null,
+                    "stringId": 1756142778230128640
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そのはず…なんですが、ニス職人が怪我をしてしまって… あの男がいなきゃお手上げです",
+                    "maleVariant": null,
+                    "stringId": 1756144517339561984
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "早く何とかしろ。お前も怪我することになるぞ",
+                    "maleVariant": null,
+                    "stringId": 1756145090533146624
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1756142778230128640,
-            "femaleVariant": "1週間前に終わってるはずだろ？"
-          },
-          {
-            "stringId": 1756144517339561984,
-            "femaleVariant": "そのはず…なんですが、ニス職人が怪我をしてしまって… あの男がいなきゃお手上げです"
-          },
-          {
-            "stringId": 1756145090533146624,
-            "femaleVariant": "早く何とかしろ。お前も怪我することになるぞ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

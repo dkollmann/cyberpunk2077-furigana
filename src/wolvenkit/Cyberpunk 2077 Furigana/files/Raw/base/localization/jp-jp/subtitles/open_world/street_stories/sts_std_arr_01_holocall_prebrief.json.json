@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:31.3402491Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\street_stories\sts_std_arr_01_holocall_prebrief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "V、仕事だ。クライアントがベータ・アシッドを大量に盗まれた",
+                    "maleVariant": null,
+                    "stringId": 2328588232751656960
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そいつが何なのかは俺も知らねえ。だがかなり高価な代物らしく、クライアントは何が何でも取り戻したがってる",
+                    "maleVariant": null,
+                    "stringId": 2334622692453105664
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そこでお前の出番ってわけさ――武器の準備を忘れるなよ。詳細を添付してある",
+                    "maleVariant": null,
+                    "stringId": 2334622821587337216
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328588232751656960,
-            "femaleVariant": "V、仕事だ。クライアントがベータ・アシッドを大量に盗まれた"
-          },
-          {
-            "stringId": 2334622692453105664,
-            "femaleVariant": "そいつが何なのかは俺も知らねえ。だがかなり高価な代物らしく、クライアントは何が何でも取り戻したがってる"
-          },
-          {
-            "stringId": 2334622821587337216,
-            "femaleVariant": "そこでお前の出番ってわけさ――武器の準備を忘れるなよ。詳細を添付してある"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

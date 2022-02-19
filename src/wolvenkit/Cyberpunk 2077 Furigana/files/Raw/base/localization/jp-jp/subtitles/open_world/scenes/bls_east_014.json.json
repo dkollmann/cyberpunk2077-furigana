@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:23.5933275Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\bls_east_014.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "もう暑すぎ。また停電で扇風機も使えないし",
+                    "maleVariant": null,
+                    "stringId": 2189456006657564672
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "はあ、本当困るわよね。水も出ないし。でも仕方ないから。ところで新しい仕事はどう？",
+                    "maleVariant": null,
+                    "stringId": 2189472625848967168
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何とか注文をさばいてる感じ。でも残り物を持って帰れるのは助かる",
+                    "maleVariant": null,
+                    "stringId": 2189475760571113472
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "へえ、何かいいのがあったら分けてよ。食べ物はいつでも大歓迎よ",
+                    "maleVariant": null,
+                    "stringId": 2189482292226514944
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あーでも私、オーガニックは持ち帰らないよ。量も少ないし、何か気持ち悪いし。前に家族に食べさせたら、みんなあたっちゃって",
+                    "maleVariant": null,
+                    "stringId": 2189482860722479104
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "コックが中に唾入れてたりして",
+                    "maleVariant": null,
+                    "stringId": 2189495729048477696
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "DNA追跡と監視カメラがなきゃ、私だってやってる",
+                    "maleVariant": null,
+                    "stringId": 2189496390104342528
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2189456006657564672,
-            "femaleVariant": "もう暑すぎ。また停電で扇風機も使えないし"
-          },
-          {
-            "stringId": 2189472625848967168,
-            "femaleVariant": "はあ、本当困るわよね。水も出ないし。でも仕方ないから。ところで新しい仕事はどう？"
-          },
-          {
-            "stringId": 2189475760571113472,
-            "femaleVariant": "何とか注文をさばいてる感じ。でも残り物を持って帰れるのは助かる"
-          },
-          {
-            "stringId": 2189482292226514944,
-            "femaleVariant": "へえ、何かいいのがあったら分けてよ。食べ物はいつでも大歓迎よ"
-          },
-          {
-            "stringId": 2189482860722479104,
-            "femaleVariant": "あーでも私、オーガニックは持ち帰らないよ。量も少ないし、何か気持ち悪いし。前に家族に食べさせたら、みんなあたっちゃって"
-          },
-          {
-            "stringId": 2189495729048477696,
-            "femaleVariant": "コックが中に唾入れてたりして"
-          },
-          {
-            "stringId": 2189496390104342528,
-            "femaleVariant": "DNA追跡と監視カメラがなきゃ、私だってやってる"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

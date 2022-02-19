@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:38.1418800Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\quest\q115\q115_11b_netrunners_nest_guards.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "メンテナンスハッチはちゃんと閉めたよな？",
+                    "maleVariant": null,
+                    "stringId": 1724338396454690816
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "はい",
+                    "maleVariant": null,
+                    "stringId": 1724338888278777856
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "応援の到着予定は？",
+                    "maleVariant": null,
+                    "stringId": 1724339155942481920
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "既に飛び立っており、規定の時間内に到着予定です",
+                    "maleVariant": null,
+                    "stringId": 1724339381562482688
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1724338396454690816,
-            "femaleVariant": "メンテナンスハッチはちゃんと閉めたよな？"
-          },
-          {
-            "stringId": 1724338888278777856,
-            "femaleVariant": "はい"
-          },
-          {
-            "stringId": 1724339155942481920,
-            "femaleVariant": "応援の到着予定は？"
-          },
-          {
-            "stringId": 1724339381562482688,
-            "femaleVariant": "既に飛び立っており、規定の時間内に到着予定です"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

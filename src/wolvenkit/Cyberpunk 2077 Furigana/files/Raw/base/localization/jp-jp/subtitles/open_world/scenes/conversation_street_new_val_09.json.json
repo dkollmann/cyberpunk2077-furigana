@@ -1,30 +1,46 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:25.3653244Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\conversation_street_new_val_09.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="mex" o="El matasanos le conectó unos cuantos nervios a los dientes. En cuanto empezamos a taladrar, empezó a moverse como loco... ¡Parecía que estaba bailando!" t="リパーが歯に神経をごっそりとつないでさ――ドリルを当てた瞬間、全身がビクンビクンって！ 踊ってるみたいだった！" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 2276542212266434572
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="mex" o="Madres... Lo tiene que haber sentido en todo el cuerpo..." t="おっそろしい… 全身で感じたんだな…" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 2276542212266434584
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2276542212266434572,
-            "femaleVariant": "<kiroshi l=\"mex\" o=\"El matasanos le conectó unos cuantos nervios a los dientes. En cuanto empezamos a taladrar, empezó a moverse como loco... ¡Parecía que estaba bailando!\" t=\"リパーが歯に神経をごっそりとつないでさ――ドリルを当てた瞬間、全身がビクンビクンって！ 踊ってるみたいだった！\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 2276542212266434584,
-            "femaleVariant": "<kiroshi l=\"mex\" o=\"Madres... Lo tiene que haber sentido en todo el cuerpo...\" t=\"おっそろしい… 全身で感じたんだな…\" b=\"\" a=\"\"/>"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

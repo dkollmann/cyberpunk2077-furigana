@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.4021234Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wat_kab_chat_23.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "今回はいけるって、チューマ！ ビンビン感じんだよ！",
+                    "maleVariant": null,
+                    "stringId": 2156507721716178944
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "はあ… ここんとこ、どれだけ負けてるんだ？",
+                    "maleVariant": null,
+                    "stringId": 2211399419558207488
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "大したことない… 腕時計に、インプラントに… あとアパートの部屋…",
+                    "maleVariant": null,
+                    "stringId": 2211400306737389568
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なんだって！？",
+                    "maleVariant": null,
+                    "stringId": 2211400460936781824
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "大丈夫だって！ 今日にでも取り戻せる！ お前が金を貸してくれれば…",
+                    "maleVariant": null,
+                    "stringId": 2211401097665683456
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いいや、断る",
+                    "maleVariant": null,
+                    "stringId": 2211402330757505024
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2156507721716178944,
-            "femaleVariant": "今回はいけるって、チューマ！ ビンビン感じんだよ！"
-          },
-          {
-            "stringId": 2211399419558207488,
-            "femaleVariant": "はあ… ここんとこ、どれだけ負けてるんだ？"
-          },
-          {
-            "stringId": 2211400306737389568,
-            "femaleVariant": "大したことない… 腕時計に、インプラントに… あとアパートの部屋…"
-          },
-          {
-            "stringId": 2211400460936781824,
-            "femaleVariant": "なんだって！？"
-          },
-          {
-            "stringId": 2211401097665683456,
-            "femaleVariant": "大丈夫だって！ 今日にでも取り戻せる！ お前が金を貸してくれれば…"
-          },
-          {
-            "stringId": 2211402330757505024,
-            "femaleVariant": "いいや、断る"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

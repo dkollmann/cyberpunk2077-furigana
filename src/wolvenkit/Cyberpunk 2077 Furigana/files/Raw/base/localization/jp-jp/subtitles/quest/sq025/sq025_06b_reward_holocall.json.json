@@ -1,39 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:39.6620887Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\quest\sq025\sq025_06b_reward_holocall.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "デラマン・ネットワークへようこそ。ご機嫌いかがですか？",
+                    "maleVariant": null,
+                    "stringId": 1945772020274995200
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いまいちね。そっちはどう？",
+                    "maleVariant": "いまいちだな。そっちは？",
+                    "stringId": 1999691393957126144
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "全ての車両が無事に帰ってきました。万事良好と言ってよいでしょう",
+                    "maleVariant": null,
+                    "stringId": 1999694635298480128
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "御礼をお渡ししますので、オフィスでお待ちしております！ ぜひ、“直接”お礼を言わせてください",
+                    "maleVariant": null,
+                    "stringId": 1999782213439741952
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1945772020274995200,
-            "femaleVariant": "デラマン・ネットワークへようこそ。ご機嫌いかがですか？"
-          },
-          {
-            "stringId": 1999691393957126144,
-            "femaleVariant": "いまいちね。そっちはどう？",
-            "maleVariant": "いまいちだな。そっちは？"
-          },
-          {
-            "stringId": 1999694635298480128,
-            "femaleVariant": "全ての車両が無事に帰ってきました。万事良好と言ってよいでしょう"
-          },
-          {
-            "stringId": 1999782213439741952,
-            "femaleVariant": "御礼をお渡ししますので、オフィスでお待ちしております！ ぜひ、“直接”お礼を言わせてください"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

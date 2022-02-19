@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:23.5674423Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\bls_east_009.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "たまに街の人と話すと、こっちの話が全然通じてない",
+                    "maleVariant": null,
+                    "stringId": 1973548567678197760
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あたしの話し方って変だと思う？",
+                    "maleVariant": null,
+                    "stringId": 1976310748131643392
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "変？ いや… クランのみんなと同じだと思うけど",
+                    "maleVariant": null,
+                    "stringId": 1976310779437928448
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ふーん… やっぱそうか",
+                    "maleVariant": null,
+                    "stringId": 1976310805039960064
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "街に行く機会を増やさないと…",
+                    "maleVariant": null,
+                    "stringId": 1976310826112143360
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1973548567678197760,
-            "femaleVariant": "たまに街の人と話すと、こっちの話が全然通じてない"
-          },
-          {
-            "stringId": 1976310748131643392,
-            "femaleVariant": "あたしの話し方って変だと思う？"
-          },
-          {
-            "stringId": 1976310779437928448,
-            "femaleVariant": "変？ いや… クランのみんなと同じだと思うけど"
-          },
-          {
-            "stringId": 1976310805039960064,
-            "femaleVariant": "ふーん… やっぱそうか"
-          },
-          {
-            "stringId": 1976310826112143360,
-            "femaleVariant": "街に行く機会を増やさないと…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

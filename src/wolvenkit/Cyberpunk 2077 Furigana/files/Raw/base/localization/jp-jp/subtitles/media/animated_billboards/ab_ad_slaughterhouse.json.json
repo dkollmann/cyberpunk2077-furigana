@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:21.2859400Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\media\animated_billboards\ab_ad_slaughterhouse.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "がおーっ！！！",
+                    "maleVariant": null,
+                    "stringId": 1985318266759716864
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "本物の肉を、なんと70%も配合！",
+                    "maleVariant": null,
+                    "stringId": 1993602540893425664
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "スローターハウス。本能を刺激する味",
+                    "maleVariant": null,
+                    "stringId": 1993602868770557952
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1985318266759716864,
-            "femaleVariant": "がおーっ！！！"
-          },
-          {
-            "stringId": 1993602540893425664,
-            "femaleVariant": "本物の肉を、なんと70%も配合！"
-          },
-          {
-            "stringId": 1993602868770557952,
-            "femaleVariant": "スローターハウス。本能を刺激する味"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

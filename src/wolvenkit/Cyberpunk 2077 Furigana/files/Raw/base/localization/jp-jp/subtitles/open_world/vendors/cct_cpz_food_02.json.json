@@ -1,50 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:32.7740261Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\vendors\cct_cpz_food_02.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "腹ごしらえをしたいんだけど？",
+                    "maleVariant": "腹ごしらえをしたいんだが？",
+                    "stringId": 1977642913912881156
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "お疲れのようね。お客から苦情は来ないの？",
+                    "maleVariant": "疲れてるようだな。客から苦情は来ないのか？",
+                    "stringId": 1977643492005412864
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "お疲れのようね",
+                    "maleVariant": "お疲れのようだな",
+                    "stringId": 1977644022920413184
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "腹ごしらえをしたいんだけど？",
+                    "maleVariant": "腹ごしらえをしたいんだが",
+                    "stringId": 1977644889329401856
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ふう… 今日そう言ったのが、あんたで30人目だよ",
+                    "maleVariant": null,
+                    "stringId": 1977645223078559744
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何でも作るよ。好きなものを言ってくれ",
+                    "maleVariant": null,
+                    "stringId": 1979471441208000512
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1977642913912881156,
-            "femaleVariant": "腹ごしらえをしたいんだけど？",
-            "maleVariant": "腹ごしらえをしたいんだが？"
-          },
-          {
-            "stringId": 1977643492005412864,
-            "femaleVariant": "お疲れのようね。お客から苦情は来ないの？",
-            "maleVariant": "疲れてるようだな。客から苦情は来ないのか？"
-          },
-          {
-            "stringId": 1977644022920413184,
-            "femaleVariant": "お疲れのようね",
-            "maleVariant": "お疲れのようだな"
-          },
-          {
-            "stringId": 1977644889329401856,
-            "femaleVariant": "腹ごしらえをしたいんだけど？",
-            "maleVariant": "腹ごしらえをしたいんだが"
-          },
-          {
-            "stringId": 1977645223078559744,
-            "femaleVariant": "ふう… 今日そう言ったのが、あんたで30人目だよ"
-          },
-          {
-            "stringId": 1979471441208000512,
-            "femaleVariant": "何でも作るよ。好きなものを言ってくれ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

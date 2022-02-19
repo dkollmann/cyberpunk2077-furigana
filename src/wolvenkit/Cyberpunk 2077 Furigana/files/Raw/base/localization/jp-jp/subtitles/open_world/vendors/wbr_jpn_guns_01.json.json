@@ -1,47 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:33.3362439Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\vendors\wbr_jpn_guns_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どんな銃を置いてる？",
+                    "maleVariant": null,
+                    "stringId": 1885075933355196416
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ストリートで気をつけた方がいい銃は？",
+                    "maleVariant": null,
+                    "stringId": 1885075933355196432
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "銃を見たい",
+                    "maleVariant": null,
+                    "stringId": 1885075933405528068
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "これは要注意、みたいな銃はある？",
+                    "maleVariant": "これは要注意、みたいな銃はあるか？",
+                    "stringId": 1885075933489414148
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ソル22だね。誰かが大量に闇市場に横流ししたんだ。あれはやべえテックさ。1発くらえばお陀仏だぞ",
+                    "maleVariant": null,
+                    "stringId": 1885075933489414156
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "うちは初めてかい？ ようこそ、よく来たな",
+                    "maleVariant": null,
+                    "stringId": 1974951213682446336
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1885075933355196416,
-            "femaleVariant": "どんな銃を置いてる？"
-          },
-          {
-            "stringId": 1885075933355196432,
-            "femaleVariant": "ストリートで気をつけた方がいい銃は？"
-          },
-          {
-            "stringId": 1885075933405528068,
-            "femaleVariant": "銃を見たい"
-          },
-          {
-            "stringId": 1885075933489414148,
-            "femaleVariant": "これは要注意、みたいな銃はある？",
-            "maleVariant": "これは要注意、みたいな銃はあるか？"
-          },
-          {
-            "stringId": 1885075933489414156,
-            "femaleVariant": "ソル22だね。誰かが大量に闇市場に横流ししたんだ。あれはやべえテックさ。1発くらえばお陀仏だぞ"
-          },
-          {
-            "stringId": 1974951213682446336,
-            "femaleVariant": "うちは初めてかい？ ようこそ、よく来たな"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

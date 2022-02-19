@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:27.6992663Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\pac_cvi_chat_013.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "で、みんなは？ 元気にしてる？",
+                    "maleVariant": null,
+                    "stringId": 2179208896737210368
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ああ、相変わらずさ。家がやばくてな、トタン板で補強しないと",
+                    "maleVariant": null,
+                    "stringId": 2189811502947221504
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "すぐそこに高級ホテルがあるのに、私たちは空き缶みたいな家に住まざるを得ないなんて、不公平よね",
+                    "maleVariant": null,
+                    "stringId": 2189811765158330368
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ヴードゥー・ボーイズが何とかしれくれればいいのに… みんなのためにも",
+                    "maleVariant": null,
+                    "stringId": 2189811981013991424
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "まあ、そういうな。街のギャングを退けてくれるだけで、十分ありがたい",
+                    "maleVariant": null,
+                    "stringId": 2189816933631377408
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "その代わり、酸性雨や、次にいつスコップが手に入るか心配しないといけないけど",
+                    "maleVariant": null,
+                    "stringId": 2189817343549095936
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "贅沢は言えない。精一杯生きるしかないんだ",
+                    "maleVariant": null,
+                    "stringId": 2189817702447300608
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2179208896737210368,
-            "femaleVariant": "で、みんなは？ 元気にしてる？"
-          },
-          {
-            "stringId": 2189811502947221504,
-            "femaleVariant": "ああ、相変わらずさ。家がやばくてな、トタン板で補強しないと"
-          },
-          {
-            "stringId": 2189811765158330368,
-            "femaleVariant": "すぐそこに高級ホテルがあるのに、私たちは空き缶みたいな家に住まざるを得ないなんて、不公平よね"
-          },
-          {
-            "stringId": 2189811981013991424,
-            "femaleVariant": "ヴードゥー・ボーイズが何とかしれくれればいいのに… みんなのためにも"
-          },
-          {
-            "stringId": 2189816933631377408,
-            "femaleVariant": "まあ、そういうな。街のギャングを退けてくれるだけで、十分ありがたい"
-          },
-          {
-            "stringId": 2189817343549095936,
-            "femaleVariant": "その代わり、酸性雨や、次にいつスコップが手に入るか心配しないといけないけど"
-          },
-          {
-            "stringId": 2189817702447300608,
-            "femaleVariant": "贅沢は言えない。精一杯生きるしかないんだ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

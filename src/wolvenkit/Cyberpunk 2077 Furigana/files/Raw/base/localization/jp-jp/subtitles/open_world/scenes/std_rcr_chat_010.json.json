@@ -1,62 +1,110 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:28.9415512Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\std_rcr_chat_010.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "おい、ルシア、仕事は？ 休みでも取ったのか？",
+                    "maleVariant": null,
+                    "stringId": 1963295426646941696
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ハッ、少なくとも来週まではね！",
+                    "maleVariant": null,
+                    "stringId": 1979088912125861888
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "停電のおかげでベルトが動かなくなって、直すのに時間がかかってるんだって",
+                    "maleVariant": null,
+                    "stringId": 1979097681593442304
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そうか… お気の毒に",
+                    "maleVariant": null,
+                    "stringId": 1979114021595193344
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ん？ どういうこと？",
+                    "maleVariant": null,
+                    "stringId": 1979114635960066048
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "工場の人員を減らす必要があるから、適当な理由をつけてリストラするって聞いてな",
+                    "maleVariant": null,
+                    "stringId": 1979114968719368192
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "え… ちょっと、ウソでしょ？",
+                    "maleVariant": null,
+                    "stringId": 1979117100533096448
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ただのうわさかもしれないが… 念のため、次の仕事を探した方がいいかもな",
+                    "maleVariant": null,
+                    "stringId": 1979118733442752512
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "最悪！ せっかくいい気分だったのに、あんたのせいで台無しよ",
+                    "maleVariant": null,
+                    "stringId": 1979121737772376064
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どういたしまして",
+                    "maleVariant": null,
+                    "stringId": 1979123280085065728
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963295426646941696,
-            "femaleVariant": "おい、ルシア、仕事は？ 休みでも取ったのか？"
-          },
-          {
-            "stringId": 1979088912125861888,
-            "femaleVariant": "ハッ、少なくとも来週まではね！"
-          },
-          {
-            "stringId": 1979097681593442304,
-            "femaleVariant": "停電のおかげでベルトが動かなくなって、直すのに時間がかかってるんだって"
-          },
-          {
-            "stringId": 1979114021595193344,
-            "femaleVariant": "そうか… お気の毒に"
-          },
-          {
-            "stringId": 1979114635960066048,
-            "femaleVariant": "ん？ どういうこと？"
-          },
-          {
-            "stringId": 1979114968719368192,
-            "femaleVariant": "工場の人員を減らす必要があるから、適当な理由をつけてリストラするって聞いてな"
-          },
-          {
-            "stringId": 1979117100533096448,
-            "femaleVariant": "え… ちょっと、ウソでしょ？"
-          },
-          {
-            "stringId": 1979118733442752512,
-            "femaleVariant": "ただのうわさかもしれないが… 念のため、次の仕事を探した方がいいかもな"
-          },
-          {
-            "stringId": 1979121737772376064,
-            "femaleVariant": "最悪！ せっかくいい気分だったのに、あんたのせいで台無しよ"
-          },
-          {
-            "stringId": 1979123280085065728,
-            "femaleVariant": "どういたしまして"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.6113680Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wat_lch_chat_032.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "うちの子が、フィーダーから離れないんだ",
+                    "maleVariant": null,
+                    "stringId": 2156550085547421696
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "新しいゲームか何か？",
+                    "maleVariant": null,
+                    "stringId": 2222769755419918336
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ゲームねえ… 虹色のネズミやウサギが出てくる、おかしなヤツさ…",
+                    "maleVariant": null,
+                    "stringId": 2222770172031746048
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "別にいいじゃない？ 自分で試してみた？",
+                    "maleVariant": null,
+                    "stringId": 2222771126219128832
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いや… 俺までハマったらまずいしな…",
+                    "maleVariant": null,
+                    "stringId": 2222771769658916864
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2156550085547421696,
-            "femaleVariant": "うちの子が、フィーダーから離れないんだ"
-          },
-          {
-            "stringId": 2222769755419918336,
-            "femaleVariant": "新しいゲームか何か？"
-          },
-          {
-            "stringId": 2222770172031746048,
-            "femaleVariant": "ゲームねえ… 虹色のネズミやウサギが出てくる、おかしなヤツさ…"
-          },
-          {
-            "stringId": 2222771126219128832,
-            "femaleVariant": "別にいいじゃない？ 自分で試してみた？"
-          },
-          {
-            "stringId": 2222771769658916864,
-            "femaleVariant": "いや… 俺までハマったらまずいしな…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

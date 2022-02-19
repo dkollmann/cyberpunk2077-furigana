@@ -1,30 +1,46 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:25.2896853Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\conversation_street_new_tcl_06.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "背骨がきしむ… これはお告げだ。今日は敵が襲ってこないか、雨が降る。そのどっちかだな",
+                    "maleVariant": null,
+                    "stringId": 2276539732191256588
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "へえ、そりゃ一刻も早くみんなに教えてやらねえと",
+                    "maleVariant": null,
+                    "stringId": 2276539732208033792
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2276539732191256588,
-            "femaleVariant": "背骨がきしむ… これはお告げだ。今日は敵が襲ってこないか、雨が降る。そのどっちかだな"
-          },
-          {
-            "stringId": 2276539732208033792,
-            "femaleVariant": "へえ、そりゃ一刻も早くみんなに教えてやらねえと"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

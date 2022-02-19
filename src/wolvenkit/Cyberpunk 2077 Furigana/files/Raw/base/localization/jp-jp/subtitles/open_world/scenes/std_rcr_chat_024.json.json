@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.0447830Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\std_rcr_chat_024.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "今すぐ代車を用意してくれ。車が故障したんだ。故障だよ、こ・しょ・う！ わかるか？",
+                    "maleVariant": null,
+                    "stringId": 2167652664053878784
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そうだ、間違いなく壊れてる。バッテリーが死んでるんだ",
+                    "maleVariant": null,
+                    "stringId": 2217271112934055936
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いや、燃料計を見てどうする、このバカ！ エンジンがかからないから、そもそも動かないんだよ！",
+                    "maleVariant": null,
+                    "stringId": 2217271553335975936
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "バッテリーだって言ってるだろ！",
+                    "maleVariant": null,
+                    "stringId": 2217272247677837312
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そうだ、人間のオペレーターに代われ。話が通じないにも程があるぞ、このボケ！",
+                    "maleVariant": null,
+                    "stringId": 2217272734099660800
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "お前じゃなきゃ何でもいい… くたばれポンコツAI！",
+                    "maleVariant": null,
+                    "stringId": 2217273352105189376
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2167652664053878784,
-            "femaleVariant": "今すぐ代車を用意してくれ。車が故障したんだ。故障だよ、こ・しょ・う！ わかるか？"
-          },
-          {
-            "stringId": 2217271112934055936,
-            "femaleVariant": "そうだ、間違いなく壊れてる。バッテリーが死んでるんだ"
-          },
-          {
-            "stringId": 2217271553335975936,
-            "femaleVariant": "いや、燃料計を見てどうする、このバカ！ エンジンがかからないから、そもそも動かないんだよ！"
-          },
-          {
-            "stringId": 2217272247677837312,
-            "femaleVariant": "バッテリーだって言ってるだろ！"
-          },
-          {
-            "stringId": 2217272734099660800,
-            "femaleVariant": "そうだ、人間のオペレーターに代われ。話が通じないにも程があるぞ、このボケ！"
-          },
-          {
-            "stringId": 2217273352105189376,
-            "femaleVariant": "お前じゃなきゃ何でもいい… くたばれポンコツAI！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

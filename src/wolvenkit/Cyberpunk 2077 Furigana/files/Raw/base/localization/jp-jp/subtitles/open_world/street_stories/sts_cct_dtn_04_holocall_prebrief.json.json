@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:30.7714129Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\street_stories\sts_cct_dtn_04_holocall_prebrief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "よう。バイオテクニカの大物に関する依頼だ",
+                    "maleVariant": null,
+                    "stringId": 2328502717706264576
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そいつは企業ホテルに閉じこもってる――セキュリティも万全、つまり腕の立つ傭兵にしかこなせない仕事だ",
+                    "maleVariant": null,
+                    "stringId": 2333235932506603520
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "興味ないわけないよな？ 詳細は添付のとおりだ",
+                    "maleVariant": null,
+                    "stringId": 2333236193392312320
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328502717706264576,
-            "femaleVariant": "よう。バイオテクニカの大物に関する依頼だ"
-          },
-          {
-            "stringId": 2333235932506603520,
-            "femaleVariant": "そいつは企業ホテルに閉じこもってる――セキュリティも万全、つまり腕の立つ傭兵にしかこなせない仕事だ"
-          },
-          {
-            "stringId": 2333236193392312320,
-            "femaleVariant": "興味ないわけないよな？ 詳細は添付のとおりだ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

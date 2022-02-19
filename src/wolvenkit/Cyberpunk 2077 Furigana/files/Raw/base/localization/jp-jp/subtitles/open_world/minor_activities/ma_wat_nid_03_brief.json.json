@@ -1,30 +1,46 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:23.4027186Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\minor_activities\ma_wat_nid_03_brief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "V、トーテンタンツから叫び声が聞こえるらしいの。まあ、それはいつものことなんだけど――",
+                    "maleVariant": null,
+                    "stringId": 2354922090172641280
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "今回はバンドのリハーサルじゃないかもしれない。もっと… 不吉なことが起きてる可能性もある",
+                    "maleVariant": null,
+                    "stringId": 2354990892595933184
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2354922090172641280,
-            "femaleVariant": "V、トーテンタンツから叫び声が聞こえるらしいの。まあ、それはいつものことなんだけど――"
-          },
-          {
-            "stringId": 2354990892595933184,
-            "femaleVariant": "今回はバンドのリハーサルじゃないかもしれない。もっと… 不吉なことが起きてる可能性もある"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,30 +1,46 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:31.9467196Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\street_stories\sts_wat_kab_05_holocall_prebrief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "アロイス・ダカンを紹介するわ。名前負けしてる役立たずのクズよ。ダカンは私を裏切って街から逃げ出した",
+                    "maleVariant": null,
+                    "stringId": 2328526912915742720
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "まあ、それはどうでもいいの。重要なのは、あいつが自分のコンピューターに残していったデータよ。詳細は添付を確認すればわかるわ",
+                    "maleVariant": null,
+                    "stringId": 2331709031553798144
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328526912915742720,
-            "femaleVariant": "アロイス・ダカンを紹介するわ。名前負けしてる役立たずのクズよ。ダカンは私を裏切って街から逃げ出した"
-          },
-          {
-            "stringId": 2331709031553798144,
-            "femaleVariant": "まあ、それはどうでもいいの。重要なのは、あいつが自分のコンピューターに残していったデータよ。詳細は添付を確認すればわかるわ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

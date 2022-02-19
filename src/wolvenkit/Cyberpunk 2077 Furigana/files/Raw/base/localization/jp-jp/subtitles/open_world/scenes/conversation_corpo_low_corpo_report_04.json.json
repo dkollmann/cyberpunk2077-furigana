@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:24.6210871Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\conversation_corpo_low_corpo_report_04.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "会議まであと2日ですね",
+                    "maleVariant": null,
+                    "stringId": 1985079206516662272
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "出欠の連絡は？ 全員分来た？",
+                    "maleVariant": null,
+                    "stringId": 1985079730636890112
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ええ。どうせドタキャンが出るとは思いますが",
+                    "maleVariant": null,
+                    "stringId": 1985079828347396096
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1985079206516662272,
-            "femaleVariant": "会議まであと2日ですね"
-          },
-          {
-            "stringId": 1985079730636890112,
-            "femaleVariant": "出欠の連絡は？ 全員分来た？"
-          },
-          {
-            "stringId": 1985079828347396096,
-            "femaleVariant": "ええ。どうせドタキャンが出るとは思いますが"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

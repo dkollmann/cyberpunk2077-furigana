@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:25.0293048Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\conversation_street_new_6th_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "本当にいいのね？ 後で後悔しても遅いよ",
+                    "maleVariant": null,
+                    "stringId": 2276020532033003536
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ああ、問題ない",
+                    "maleVariant": null,
+                    "stringId": 2276020532049780736
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そう来なくちゃ。意志あるところに道は開ける。でしょ？",
+                    "maleVariant": null,
+                    "stringId": 2276020532049780748
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2276020532033003536,
-            "femaleVariant": "本当にいいのね？ 後で後悔しても遅いよ"
-          },
-          {
-            "stringId": 2276020532049780736,
-            "femaleVariant": "ああ、問題ない"
-          },
-          {
-            "stringId": 2276020532049780748,
-            "femaleVariant": "そう来なくちゃ。意志あるところに道は開ける。でしょ？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

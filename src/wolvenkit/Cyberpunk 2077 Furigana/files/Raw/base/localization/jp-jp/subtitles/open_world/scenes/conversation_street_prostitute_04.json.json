@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:25.5359171Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\conversation_street_prostitute_04.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そんなの無理よこの変態！",
+                    "maleVariant": null,
+                    "stringId": 1967730847711797248
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いや、そういうつもりで言ったんじゃなくて…",
+                    "maleVariant": null,
+                    "stringId": 1967734609163624448
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "じゃあ何のつもりでそんなバカなこと言ったわけ？",
+                    "maleVariant": null,
+                    "stringId": 1967734713870229504
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1967730847711797248,
-            "femaleVariant": "そんなの無理よこの変態！"
-          },
-          {
-            "stringId": 1967734609163624448,
-            "femaleVariant": "いや、そういうつもりで言ったんじゃなくて…"
-          },
-          {
-            "stringId": 1967734713870229504,
-            "femaleVariant": "じゃあ何のつもりでそんなバカなこと言ったわけ？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

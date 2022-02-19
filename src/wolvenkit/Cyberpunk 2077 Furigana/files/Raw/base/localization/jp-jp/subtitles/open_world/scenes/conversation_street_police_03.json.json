@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:25.4820658Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\conversation_street_police_03.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "またお前か？",
+                    "maleVariant": null,
+                    "stringId": 1967704076039790592
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "勘弁してくれよ。見逃してくれ！",
+                    "maleVariant": null,
+                    "stringId": 1967705685260017664
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "まったく。で、最後に食べたのはいつだ？",
+                    "maleVariant": null,
+                    "stringId": 1967705793741496320
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1967704076039790592,
-            "femaleVariant": "またお前か？"
-          },
-          {
-            "stringId": 1967705685260017664,
-            "femaleVariant": "勘弁してくれよ。見逃してくれ！"
-          },
-          {
-            "stringId": 1967705793741496320,
-            "femaleVariant": "まったく。で、最後に食べたのはいつだ？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:27.8169469Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\pac_cvi_chat_033.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何人か姿を消してる。スカベンジャーの仕業ってうわさよ",
+                    "maleVariant": null,
+                    "stringId": 2179569491437187072
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ヴードゥー・ボーイズは何してんだ？ 奴らのシマだろ？ ナメられたままでいいのかよ",
+                    "maleVariant": null,
+                    "stringId": 2182551396966711296
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "シマだろうと、関係ないんでしょ。自分たちの問題で手一杯なんじゃない？",
+                    "maleVariant": null,
+                    "stringId": 2182551648457179136
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "関係ないわけねえだろ！ パシフィカがスカベンジャーに荒らされてんだぞ？",
+                    "maleVariant": null,
+                    "stringId": 2182551809518452736
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "今はまだ数人だが、このままじゃあっという間に一帯を支配されるぞ！",
+                    "maleVariant": null,
+                    "stringId": 2182551977290612736
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ええ… これじゃ外も歩けない。ただでさえいろいろ大変だっていうのに",
+                    "maleVariant": null,
+                    "stringId": 2182552115803308032
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2179569491437187072,
-            "femaleVariant": "何人か姿を消してる。スカベンジャーの仕業ってうわさよ"
-          },
-          {
-            "stringId": 2182551396966711296,
-            "femaleVariant": "ヴードゥー・ボーイズは何してんだ？ 奴らのシマだろ？ ナメられたままでいいのかよ"
-          },
-          {
-            "stringId": 2182551648457179136,
-            "femaleVariant": "シマだろうと、関係ないんでしょ。自分たちの問題で手一杯なんじゃない？"
-          },
-          {
-            "stringId": 2182551809518452736,
-            "femaleVariant": "関係ないわけねえだろ！ パシフィカがスカベンジャーに荒らされてんだぞ？"
-          },
-          {
-            "stringId": 2182551977290612736,
-            "femaleVariant": "今はまだ数人だが、このままじゃあっという間に一帯を支配されるぞ！"
-          },
-          {
-            "stringId": 2182552115803308032,
-            "femaleVariant": "ええ… これじゃ外も歩けない。ただでさえいろいろ大変だっていうのに"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

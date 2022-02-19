@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:27.9783946Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\pac_wwd_chat_029.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ここを毎日車が走ってた頃を思い出すな。エンジンやクラクションが一日中鳴り響いてた",
+                    "maleVariant": null,
+                    "stringId": 2179643510736150528
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それが今じゃこれだ。静かすぎる",
+                    "maleVariant": null,
+                    "stringId": 2211507386043265024
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "子供たちはよくここに座ってたっけ。排気ガスまみれになるのに",
+                    "maleVariant": null,
+                    "stringId": 2212633214378504192
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "世界も変わったのね。いつの間にか",
+                    "maleVariant": null,
+                    "stringId": 2212635488848900096
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "世界はもう変わってたんだ。俺たちが気づかなかっただけで",
+                    "maleVariant": null,
+                    "stringId": 2212640937300127744
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2179643510736150528,
-            "femaleVariant": "ここを毎日車が走ってた頃を思い出すな。エンジンやクラクションが一日中鳴り響いてた"
-          },
-          {
-            "stringId": 2211507386043265024,
-            "femaleVariant": "それが今じゃこれだ。静かすぎる"
-          },
-          {
-            "stringId": 2212633214378504192,
-            "femaleVariant": "子供たちはよくここに座ってたっけ。排気ガスまみれになるのに"
-          },
-          {
-            "stringId": 2212635488848900096,
-            "femaleVariant": "世界も変わったのね。いつの間にか"
-          },
-          {
-            "stringId": 2212640937300127744,
-            "femaleVariant": "世界はもう変わってたんだ。俺たちが気づかなかっただけで"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

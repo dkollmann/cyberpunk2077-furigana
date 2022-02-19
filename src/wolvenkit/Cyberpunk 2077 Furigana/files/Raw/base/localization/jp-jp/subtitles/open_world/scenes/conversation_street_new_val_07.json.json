@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:25.3514298Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\conversation_street_new_val_07.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="mex" o="Man, fue un pinche baño de sangre... Los pendejos se lo chingaron en el quinceañera de su hija." t="まさに血の海だった。自分の娘の誕生日パーティーで殺されるとはな" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 2276541826893783056
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="mex" o="Madres. ¿Y los demás? ¿Escaparon con vida?" t="マジかよ。他の人たちは助かったのか？" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 2276541826893783068
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="mex" o="Ninguno de los nuestros." t="ウチの連中は全滅だ" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 2276541826893783080
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2276541826893783056,
-            "femaleVariant": "<kiroshi l=\"mex\" o=\"Man, fue un pinche baño de sangre... Los pendejos se lo chingaron en el quinceañera de su hija.\" t=\"まさに血の海だった。自分の娘の誕生日パーティーで殺されるとはな\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 2276541826893783068,
-            "femaleVariant": "<kiroshi l=\"mex\" o=\"Madres. ¿Y los demás? ¿Escaparon con vida?\" t=\"マジかよ。他の人たちは助かったのか？\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 2276541826893783080,
-            "femaleVariant": "<kiroshi l=\"mex\" o=\"Ninguno de los nuestros.\" t=\"ウチの連中は全滅だ\" b=\"\" a=\"\"/>"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.2813691Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wat_kab_chat_004.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "有機食品は詐欺だ――そんなの記事にしなくても、わかりきったことじゃない",
+                    "maleVariant": null,
+                    "stringId": 1802462615191543808
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "でも何十億って、とんでもない額の話だぞ！ それを誰も気にしないってのか？",
+                    "maleVariant": null,
+                    "stringId": 1802463047171301376
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "世間はそういうもんよ",
+                    "maleVariant": null,
+                    "stringId": 1802463229740965888
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "大衆は… いいえ、あたしたちだって、何かを変えられるなんて思ってない",
+                    "maleVariant": null,
+                    "stringId": 1802463469202169856
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "だが証拠がある",
+                    "maleVariant": null,
+                    "stringId": 1802464051203792896
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そうね。じゃあ、その証拠とやらを、運良く殺されずに公表できたとして、その後どうなる？",
+                    "maleVariant": null,
+                    "stringId": 1802464231592419328
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "トップが失脚する",
+                    "maleVariant": null,
+                    "stringId": 1802464425503481856
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "かもね。でも結局、それを知った街の人は何て言うと思う？ 「俺もあいつなら同じことをやってた」よ",
+                    "maleVariant": null,
+                    "stringId": 1802464530394636288
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1802462615191543808,
-            "femaleVariant": "有機食品は詐欺だ――そんなの記事にしなくても、わかりきったことじゃない"
-          },
-          {
-            "stringId": 1802463047171301376,
-            "femaleVariant": "でも何十億って、とんでもない額の話だぞ！ それを誰も気にしないってのか？"
-          },
-          {
-            "stringId": 1802463229740965888,
-            "femaleVariant": "世間はそういうもんよ"
-          },
-          {
-            "stringId": 1802463469202169856,
-            "femaleVariant": "大衆は… いいえ、あたしたちだって、何かを変えられるなんて思ってない"
-          },
-          {
-            "stringId": 1802464051203792896,
-            "femaleVariant": "だが証拠がある"
-          },
-          {
-            "stringId": 1802464231592419328,
-            "femaleVariant": "そうね。じゃあ、その証拠とやらを、運良く殺されずに公表できたとして、その後どうなる？"
-          },
-          {
-            "stringId": 1802464425503481856,
-            "femaleVariant": "トップが失脚する"
-          },
-          {
-            "stringId": 1802464530394636288,
-            "femaleVariant": "かもね。でも結局、それを知った街の人は何て言うと思う？ 「俺もあいつなら同じことをやってた」よ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

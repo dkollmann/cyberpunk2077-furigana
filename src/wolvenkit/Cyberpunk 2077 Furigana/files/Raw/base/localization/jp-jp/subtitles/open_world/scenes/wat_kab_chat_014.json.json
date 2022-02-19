@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.3444466Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wat_kab_chat_014.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なあ、いいだろ… こんな冷たい機械ばっかり使うんじゃなくてさ、こう、血の通った人間同士… 俺と君で…",
+                    "maleVariant": null,
+                    "stringId": 2156373511487594496
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "お断りよ。何か買う気はあるの？",
+                    "maleVariant": null,
+                    "stringId": 2169023306446196736
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そうか… わかった。それじゃあ『チアリーダーとパコろう！ 7』を…",
+                    "maleVariant": null,
+                    "stringId": 2169023995402571776
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2156373511487594496,
-            "femaleVariant": "なあ、いいだろ… こんな冷たい機械ばっかり使うんじゃなくてさ、こう、血の通った人間同士… 俺と君で…"
-          },
-          {
-            "stringId": 2169023306446196736,
-            "femaleVariant": "お断りよ。何か買う気はあるの？"
-          },
-          {
-            "stringId": 2169023995402571776,
-            "femaleVariant": "そうか… わかった。それじゃあ『チアリーダーとパコろう！ 7』を…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

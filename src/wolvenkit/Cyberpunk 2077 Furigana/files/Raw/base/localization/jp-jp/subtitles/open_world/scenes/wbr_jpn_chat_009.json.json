@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:30.0444525Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wbr_jpn_chat_009.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "よう、忘れんなよ、今晩だぞ",
+                    "maleVariant": null,
+                    "stringId": 1806908953341845504
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "忘れるかよ！ 俺はこれだけを楽しみに生きてんだ",
+                    "maleVariant": null,
+                    "stringId": 1806909946938908672
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "勝ったら、例の店にいこう。さらなる“お楽しみ”が待ってるぜ",
+                    "maleVariant": null,
+                    "stringId": 1806910114761400320
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いや、遠慮しとく。俺はポーカーだけでいい",
+                    "maleVariant": null,
+                    "stringId": 1806910278003712000
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "本気か？",
+                    "maleVariant": null,
+                    "stringId": 1806910452721639424
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "もうすぐガキが生まれるんだ。無駄遣いはできない",
+                    "maleVariant": null,
+                    "stringId": 1806910707064233984
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1806908953341845504,
-            "femaleVariant": "よう、忘れんなよ、今晩だぞ"
-          },
-          {
-            "stringId": 1806909946938908672,
-            "femaleVariant": "忘れるかよ！ 俺はこれだけを楽しみに生きてんだ"
-          },
-          {
-            "stringId": 1806910114761400320,
-            "femaleVariant": "勝ったら、例の店にいこう。さらなる“お楽しみ”が待ってるぜ"
-          },
-          {
-            "stringId": 1806910278003712000,
-            "femaleVariant": "いや、遠慮しとく。俺はポーカーだけでいい"
-          },
-          {
-            "stringId": 1806910452721639424,
-            "femaleVariant": "本気か？"
-          },
-          {
-            "stringId": 1806910707064233984,
-            "femaleVariant": "もうすぐガキが生まれるんだ。無駄遣いはできない"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:25.3953910Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\conversation_street_new_wrt_03.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "クソ腹立つ。道中は電波が入らないから、誰かが私をライクしてもわからない",
+                    "maleVariant": null,
+                    "stringId": 2276543156202938384
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ここの人はどう？ レジーがあんたのプロフィールを見てたよ。他の連中と違って、人相もそこまで悪くないし",
+                    "maleVariant": null,
+                    "stringId": 2276543156219715584
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "昔レジーって犬を飼ってたんだけど、逃げられてさ。歴史が繰り返される予感…",
+                    "maleVariant": null,
+                    "stringId": 2276543156219715596
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2276543156202938384,
-            "femaleVariant": "クソ腹立つ。道中は電波が入らないから、誰かが私をライクしてもわからない"
-          },
-          {
-            "stringId": 2276543156219715584,
-            "femaleVariant": "ここの人はどう？ レジーがあんたのプロフィールを見てたよ。他の連中と違って、人相もそこまで悪くないし"
-          },
-          {
-            "stringId": 2276543156219715596,
-            "femaleVariant": "昔レジーって犬を飼ってたんだけど、逃げられてさ。歴史が繰り返される予感…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

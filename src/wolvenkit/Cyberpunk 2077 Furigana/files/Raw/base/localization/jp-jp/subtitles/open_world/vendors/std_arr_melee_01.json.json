@@ -1,50 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:33.1105514Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\vendors\std_arr_melee_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どんな武器を売ってるの？",
+                    "maleVariant": "どんな武器を売ってるんだ？",
+                    "stringId": 1783753881799118848
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いい設備ね",
+                    "maleVariant": "いい設備だな",
+                    "stringId": 1783753881799118864
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何を売ってるの？",
+                    "maleVariant": "何を売ってるんだ？",
+                    "stringId": 1783753881832673284
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "かなり設備が整ってるね",
+                    "maleVariant": "ずいぶんと設備が整ってるな",
+                    "stringId": 1783753881866227716
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "気に入ったか",
+                    "maleVariant": null,
+                    "stringId": 1783753881866227724
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "で、用があるなら言ってくれ。でなきゃ今すぐ消えるんだな",
+                    "maleVariant": null,
+                    "stringId": 1974782685205549056
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1783753881799118848,
-            "femaleVariant": "どんな武器を売ってるの？",
-            "maleVariant": "どんな武器を売ってるんだ？"
-          },
-          {
-            "stringId": 1783753881799118864,
-            "femaleVariant": "いい設備ね",
-            "maleVariant": "いい設備だな"
-          },
-          {
-            "stringId": 1783753881832673284,
-            "femaleVariant": "何を売ってるの？",
-            "maleVariant": "何を売ってるんだ？"
-          },
-          {
-            "stringId": 1783753881866227716,
-            "femaleVariant": "かなり設備が整ってるね",
-            "maleVariant": "ずいぶんと設備が整ってるな"
-          },
-          {
-            "stringId": 1783753881866227724,
-            "femaleVariant": "気に入ったか"
-          },
-          {
-            "stringId": 1974782685205549056,
-            "femaleVariant": "で、用があるなら言ってくれ。でなきゃ今すぐ消えるんだな"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

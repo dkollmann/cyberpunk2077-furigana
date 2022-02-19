@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:26.6903304Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\hey_rey_chat_014.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="mex" o="Aah, le gustas. O igual y le atraen los chicos blancos." t="あいつ、お前を気に入ってるようだな。ていうか白人が好きなだけか" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 2161787888711528448
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あのティーノ？ 知り合いなの？",
+                    "maleVariant": null,
+                    "stringId": 2218943345937715200
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="mex" o="Claro, desde que éramos pequeños." t="ああ。幼馴染だ" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 2218943622157799424
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "お断りだって伝えて。タイプじゃない",
+                    "maleVariant": null,
+                    "stringId": 2218943725522227200
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="mex" o="No lo haré, por tu propio bien. Y piénsalo, chum. Da muuuy buenas propinas." t="伝えない方が身のためだ。それにあいつ、チップもたくさんくれるぞ" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 2218946361810063360
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "私は別に副業をする気ないの",
+                    "maleVariant": null,
+                    "stringId": 2218948261544562688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="mex" o="Lo que digas, princesa. Como quieras." t="そうかよ。じゃあ好きにしろ" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 2218948600326885376
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2161787888711528448,
-            "femaleVariant": "<kiroshi l=\"mex\" o=\"Aah, le gustas. O igual y le atraen los chicos blancos.\" t=\"あいつ、お前を気に入ってるようだな。ていうか白人が好きなだけか\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 2218943345937715200,
-            "femaleVariant": "あのティーノ？ 知り合いなの？"
-          },
-          {
-            "stringId": 2218943622157799424,
-            "femaleVariant": "<kiroshi l=\"mex\" o=\"Claro, desde que éramos pequeños.\" t=\"ああ。幼馴染だ\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 2218943725522227200,
-            "femaleVariant": "お断りだって伝えて。タイプじゃない"
-          },
-          {
-            "stringId": 2218946361810063360,
-            "femaleVariant": "<kiroshi l=\"mex\" o=\"No lo haré, por tu propio bien. Y piénsalo, chum. Da muuuy buenas propinas.\" t=\"伝えない方が身のためだ。それにあいつ、チップもたくさんくれるぞ\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 2218948261544562688,
-            "femaleVariant": "私は別に副業をする気ないの"
-          },
-          {
-            "stringId": 2218948600326885376,
-            "femaleVariant": "<kiroshi l=\"mex\" o=\"Lo que digas, princesa. Como quieras.\" t=\"そうかよ。じゃあ好きにしろ\" b=\"\" a=\"\"/>"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

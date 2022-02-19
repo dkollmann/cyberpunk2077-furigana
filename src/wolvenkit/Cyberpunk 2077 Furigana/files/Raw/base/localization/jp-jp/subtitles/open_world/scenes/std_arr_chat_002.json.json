@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:28.7182825Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\std_arr_chat_002.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何も殴らなくても… 道に迷ったのか聞かれただけなのに",
+                    "maleVariant": null,
+                    "stringId": 1963259988687233024
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "道を聞くふりをしてただけだ。俺がいなかったら、お前は今頃バラバラにされてゴミ袋に入れられてる",
+                    "maleVariant": null,
+                    "stringId": 1966219490676686848
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "感謝ならともかく、文句を言われる筋合いはない",
+                    "maleVariant": null,
+                    "stringId": 1966220363444240384
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あんたの目には全ての男がレイプ魔か人殺しに映ってるの？",
+                    "maleVariant": null,
+                    "stringId": 1966220689610096640
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "最近は夜まであたしについてくるし、正直迷惑なのよ！",
+                    "maleVariant": null,
+                    "stringId": 1966220969722494976
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なんだと？ 誰のためにやってると思ってんだ！",
+                    "maleVariant": null,
+                    "stringId": 1966221701443993600
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963259988687233024,
-            "femaleVariant": "何も殴らなくても… 道に迷ったのか聞かれただけなのに"
-          },
-          {
-            "stringId": 1966219490676686848,
-            "femaleVariant": "道を聞くふりをしてただけだ。俺がいなかったら、お前は今頃バラバラにされてゴミ袋に入れられてる"
-          },
-          {
-            "stringId": 1966220363444240384,
-            "femaleVariant": "感謝ならともかく、文句を言われる筋合いはない"
-          },
-          {
-            "stringId": 1966220689610096640,
-            "femaleVariant": "あんたの目には全ての男がレイプ魔か人殺しに映ってるの？"
-          },
-          {
-            "stringId": 1966220969722494976,
-            "femaleVariant": "最近は夜まであたしについてくるし、正直迷惑なのよ！"
-          },
-          {
-            "stringId": 1966221701443993600,
-            "femaleVariant": "なんだと？ 誰のためにやってると思ってんだ！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

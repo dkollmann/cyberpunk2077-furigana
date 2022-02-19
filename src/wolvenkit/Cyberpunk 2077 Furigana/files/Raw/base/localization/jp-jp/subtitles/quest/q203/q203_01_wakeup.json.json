@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:38.2816986Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\quest\q203\q203_01_wakeup.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ハロー、ナイトシティ！ さあ、さっさとカビだらけの寝床を這い出て空を見ろ！ 俺たち凡人は一生たどり着くことのできない、巨大宇宙ステーション――クリスタル・パレスを拝めるチャンスは今日だけだぞ！",
+                    "maleVariant": null,
+                    "stringId": 1319688154699657216
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なんでもクリスタル・パレスじゃ、豪華なカジノや最高の美女に、息を呑む絶景が楽しめるとか… おい、でも待てよ？ ナイトシティの売り文句も同じだよな？ スコップ食らいの俺たち貧乏人には、地上の楽園も軌道の楽園も大差ないんじゃないか？",
+                    "maleVariant": null,
+                    "stringId": 1319693954465787904
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "まあそれはさておき、高台を見つけてパレス観測としゃれこもうじゃないか。あーあ、ナイトシティの哀れな下層民はお気の毒――またしても除け者にされちまうな",
+                    "maleVariant": null,
+                    "stringId": 1319694647884902400
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どん底でスモッグを見上げるお前らのために、懐かしいアーティストの曲をかけてやろう！ レディース・アンド・ジェントルメン、ジョニー・シルヴァーハンド！",
+                    "maleVariant": null,
+                    "stringId": 1319700776853565440
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ジョニー、きっとあんたもどこかで聞いてくれてるんだろ？",
+                    "maleVariant": null,
+                    "stringId": 1490641495070994432
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[立ち上がる]",
+                    "maleVariant": null,
+                    "stringId": 1857786890562564100
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1319688154699657216,
-            "femaleVariant": "ハロー、ナイトシティ！ さあ、さっさとカビだらけの寝床を這い出て空を見ろ！ 俺たち凡人は一生たどり着くことのできない、巨大宇宙ステーション――クリスタル・パレスを拝めるチャンスは今日だけだぞ！"
-          },
-          {
-            "stringId": 1319693954465787904,
-            "femaleVariant": "なんでもクリスタル・パレスじゃ、豪華なカジノや最高の美女に、息を呑む絶景が楽しめるとか… おい、でも待てよ？ ナイトシティの売り文句も同じだよな？ スコップ食らいの俺たち貧乏人には、地上の楽園も軌道の楽園も大差ないんじゃないか？"
-          },
-          {
-            "stringId": 1319694647884902400,
-            "femaleVariant": "まあそれはさておき、高台を見つけてパレス観測としゃれこもうじゃないか。あーあ、ナイトシティの哀れな下層民はお気の毒――またしても除け者にされちまうな"
-          },
-          {
-            "stringId": 1319700776853565440,
-            "femaleVariant": "どん底でスモッグを見上げるお前らのために、懐かしいアーティストの曲をかけてやろう！ レディース・アンド・ジェントルメン、ジョニー・シルヴァーハンド！"
-          },
-          {
-            "stringId": 1490641495070994432,
-            "femaleVariant": "ジョニー、きっとあんたもどこかで聞いてくれてるんだろ？"
-          },
-          {
-            "stringId": 1857786890562564100,
-            "femaleVariant": "[立ち上がる]"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

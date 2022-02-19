@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:26.8378079Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\hey_spr_chat_014.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ゲホッ、ゲホッ…",
+                    "maleVariant": null,
+                    "stringId": 2162076589666054144
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "うわ、ひどそうだな。スモッグフィルター使ってんのか？",
+                    "maleVariant": null,
+                    "stringId": 2209932055038758912
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いや、スモッグじゃない。あれを飲んで… ゲホッ",
+                    "maleVariant": null,
+                    "stringId": 2217586485489930240
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "すまん… 昨日、水道の水を飲んだら何かが喉にひっかかって… ゲホッ！ それ以来ずっとなんだ",
+                    "maleVariant": null,
+                    "stringId": 2217587775070638080
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "水道水！？",
+                    "maleVariant": null,
+                    "stringId": 2217589334126989312
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ラジオで、飲めるって",
+                    "maleVariant": null,
+                    "stringId": 2217590374045945856
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ノース・オークならともかく、ウェルスプリングスだぞ？ すぐにリパーのとこに行って、喉を交換したほうがいい",
+                    "maleVariant": null,
+                    "stringId": 2217591236529065984
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2162076589666054144,
-            "femaleVariant": "ゲホッ、ゲホッ…"
-          },
-          {
-            "stringId": 2209932055038758912,
-            "femaleVariant": "うわ、ひどそうだな。スモッグフィルター使ってんのか？"
-          },
-          {
-            "stringId": 2217586485489930240,
-            "femaleVariant": "いや、スモッグじゃない。あれを飲んで… ゲホッ"
-          },
-          {
-            "stringId": 2217587775070638080,
-            "femaleVariant": "すまん… 昨日、水道の水を飲んだら何かが喉にひっかかって… ゲホッ！ それ以来ずっとなんだ"
-          },
-          {
-            "stringId": 2217589334126989312,
-            "femaleVariant": "水道水！？"
-          },
-          {
-            "stringId": 2217590374045945856,
-            "femaleVariant": "ラジオで、飲めるって"
-          },
-          {
-            "stringId": 2217591236529065984,
-            "femaleVariant": "ノース・オークならともかく、ウェルスプリングスだぞ？ すぐにリパーのとこに行って、喉を交換したほうがいい"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

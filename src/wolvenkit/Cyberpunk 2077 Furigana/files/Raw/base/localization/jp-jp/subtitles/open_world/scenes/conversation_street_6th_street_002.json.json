@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:24.8595738Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\conversation_street_6th_street_002.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "はあ？ よくそんな寝言が言えるな？",
+                    "maleVariant": null,
+                    "stringId": 1977799416667480064
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "次しくったら容赦しねえからな！",
+                    "maleVariant": null,
+                    "stringId": 1977801042077720576
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "待てよ、そもそも俺は一度もしくってなんかねえ",
+                    "maleVariant": null,
+                    "stringId": 1977801055516270592
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1977799416667480064,
-            "femaleVariant": "はあ？ よくそんな寝言が言えるな？"
-          },
-          {
-            "stringId": 1977801042077720576,
-            "femaleVariant": "次しくったら容赦しねえからな！"
-          },
-          {
-            "stringId": 1977801055516270592,
-            "femaleVariant": "待てよ、そもそも俺は一度もしくってなんかねえ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

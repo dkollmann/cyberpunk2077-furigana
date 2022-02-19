@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:31.4691293Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\street_stories\sts_std_arr_11_scene.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "頭蓋内圧力… 心拍数は安定… 順調だ",
+                    "maleVariant": null,
+                    "stringId": 1557855670780784640
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "だが油断は禁物だぞ。慎重に",
+                    "maleVariant": null,
+                    "stringId": 1557862555294593024
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ライトが点滅したら、無理やり引っ張り出すぞ",
+                    "maleVariant": null,
+                    "stringId": 1557863110972764160
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1557855670780784640,
-            "femaleVariant": "頭蓋内圧力… 心拍数は安定… 順調だ"
-          },
-          {
-            "stringId": 1557862555294593024,
-            "femaleVariant": "だが油断は禁物だぞ。慎重に"
-          },
-          {
-            "stringId": 1557863110972764160,
-            "femaleVariant": "ライトが点滅したら、無理やり引っ張り出すぞ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

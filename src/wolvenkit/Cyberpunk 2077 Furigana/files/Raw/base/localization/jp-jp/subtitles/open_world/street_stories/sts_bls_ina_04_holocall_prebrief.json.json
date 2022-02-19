@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:30.4275621Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\street_stories\sts_bls_ina_04_holocall_prebrief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "V、聞いたかい？ ミリテクが新しいモバイルレーダーを州境に配備した。密輸業は大打撃――アルデカルドスにとっても、私にとっても邪魔な存在だ",
+                    "maleVariant": null,
+                    "stringId": 2328763362761789444
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そいつの構造を調べたいんだが、現物がないと始まらない",
+                    "maleVariant": null,
+                    "stringId": 2332972600377720832
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "奪ってきてくれたら報酬はしっかり払う。詳細を送るよ",
+                    "maleVariant": null,
+                    "stringId": 2332972827205681152
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328763362761789444,
-            "femaleVariant": "V、聞いたかい？ ミリテクが新しいモバイルレーダーを州境に配備した。密輸業は大打撃――アルデカルドスにとっても、私にとっても邪魔な存在だ"
-          },
-          {
-            "stringId": 2332972600377720832,
-            "femaleVariant": "そいつの構造を調べたいんだが、現物がないと始まらない"
-          },
-          {
-            "stringId": 2332972827205681152,
-            "femaleVariant": "奪ってきてくれたら報酬はしっかり払う。詳細を送るよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:30.9169303Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\street_stories\sts_hey_gle_05_holocall_debriefs.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "スカンジウムを受け取った。おかげでハッピーだ",
+                    "maleVariant": null,
+                    "stringId": 2328735637624352768
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "私がそんなことを言うのは、モーゼがさまよいしエジプトの砂漠に雨が降るより珍しいぞ",
+                    "maleVariant": null,
+                    "stringId": 2334354666344398848
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "とにかくご苦労だった。金を送っておこう",
+                    "maleVariant": null,
+                    "stringId": 2334364495947481088
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328735637624352768,
-            "femaleVariant": "スカンジウムを受け取った。おかげでハッピーだ"
-          },
-          {
-            "stringId": 2334354666344398848,
-            "femaleVariant": "私がそんなことを言うのは、モーゼがさまよいしエジプトの砂漠に雨が降るより珍しいぞ"
-          },
-          {
-            "stringId": 2334364495947481088,
-            "femaleVariant": "とにかくご苦労だった。金を送っておこう"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

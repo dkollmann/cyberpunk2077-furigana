@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:22.5763457Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\media\quests\sq012_river_ward_decorated.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "こんにちは、アリフ・イクバルがWNSニュースをお届けします",
+                    "maleVariant": null,
+                    "stringId": 1792240161548836864
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "サイバーサイコシス発症者による、ライン市長襲撃というショッキングな事件の続報です",
+                    "maleVariant": null,
+                    "stringId": 1796858381269188608
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "市長は記者会見の最中に襲われましたが、犯人はNCPDのリバー・ウォード刑事によって実行直前に取り押さえられました",
+                    "maleVariant": null,
+                    "stringId": 1796859723714904064
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "“スーパーコップ”として称賛されたウォード刑事は、市長より勲章を授与されました",
+                    "maleVariant": null,
+                    "stringId": 1796860063570968576
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あわや惨劇という恐ろしい事件でしたが、次の市長選で再選を狙いたい市長には、思わぬ幸運をもたらすかもしれません",
+                    "maleVariant": null,
+                    "stringId": 1796865065446260736
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "襲撃後の世論調査では、現市長はライバルのジェファーソン・ペラレス氏に対するリードを12パーセントから19パーセントにまで広げました",
+                    "maleVariant": null,
+                    "stringId": 1796865310376837120
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "CMの後もローカルニュースです",
+                    "maleVariant": null,
+                    "stringId": 1796865549821263872
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1792240161548836864,
-            "femaleVariant": "こんにちは、アリフ・イクバルがWNSニュースをお届けします"
-          },
-          {
-            "stringId": 1796858381269188608,
-            "femaleVariant": "サイバーサイコシス発症者による、ライン市長襲撃というショッキングな事件の続報です"
-          },
-          {
-            "stringId": 1796859723714904064,
-            "femaleVariant": "市長は記者会見の最中に襲われましたが、犯人はNCPDのリバー・ウォード刑事によって実行直前に取り押さえられました"
-          },
-          {
-            "stringId": 1796860063570968576,
-            "femaleVariant": "“スーパーコップ”として称賛されたウォード刑事は、市長より勲章を授与されました"
-          },
-          {
-            "stringId": 1796865065446260736,
-            "femaleVariant": "あわや惨劇という恐ろしい事件でしたが、次の市長選で再選を狙いたい市長には、思わぬ幸運をもたらすかもしれません"
-          },
-          {
-            "stringId": 1796865310376837120,
-            "femaleVariant": "襲撃後の世論調査では、現市長はライバルのジェファーソン・ペラレス氏に対するリードを12パーセントから19パーセントにまで広げました"
-          },
-          {
-            "stringId": 1796865549821263872,
-            "femaleVariant": "CMの後もローカルニュースです"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

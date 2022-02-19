@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:28.8645631Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\std_arr_chat_028.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "今日も飛んできた",
+                    "maleVariant": null,
+                    "stringId": 2168036817355853824
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "え？ 何が？",
+                    "maleVariant": null,
+                    "stringId": 2211130605405167616
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AVだよ！ 8の字を描きながら毒をまき散らしてるんだ！ もう半世紀は続いてるんだぞ！",
+                    "maleVariant": null,
+                    "stringId": 2212880550973890560
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AVね… でも車もガスは出すでしょ？",
+                    "maleVariant": null,
+                    "stringId": 2212884117961007104
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "CHOOH2に毒はない！ わからないのか？ AVは農薬散布機みたいなもんだ。化学物質を降らせて、市民を共産主義者に洗脳する気なんだよ！",
+                    "maleVariant": null,
+                    "stringId": 2212884347573985280
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2168036817355853824,
-            "femaleVariant": "今日も飛んできた"
-          },
-          {
-            "stringId": 2211130605405167616,
-            "femaleVariant": "え？ 何が？"
-          },
-          {
-            "stringId": 2212880550973890560,
-            "femaleVariant": "AVだよ！ 8の字を描きながら毒をまき散らしてるんだ！ もう半世紀は続いてるんだぞ！"
-          },
-          {
-            "stringId": 2212884117961007104,
-            "femaleVariant": "AVね… でも車もガスは出すでしょ？"
-          },
-          {
-            "stringId": 2212884347573985280,
-            "femaleVariant": "CHOOH2に毒はない！ わからないのか？ AVは農薬散布機みたいなもんだ。化学物質を降らせて、市民を共産主義者に洗脳する気なんだよ！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

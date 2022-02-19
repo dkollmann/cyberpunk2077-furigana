@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:23.8549902Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\bls_south_013.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いつまで漁ってるんだ！？ もう行かなきゃマズいぞ",
+                    "maleVariant": null,
+                    "stringId": 2178239594641219584
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "落ち着けって。新しい膝のおかげで、まるでガゼルのように速く走れるようになったからな",
+                    "maleVariant": null,
+                    "stringId": 2181089667308019712
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どこで手に入れたんだ？",
+                    "maleVariant": null,
+                    "stringId": 2181091621081931776
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "兄貴のお下がりさ。向こうは最新の強化モデルを手に入れたから",
+                    "maleVariant": null,
+                    "stringId": 2181092073244680192
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "今頃になって弟の存在を思い出したってのか？ 前はお前を見ても他人のふりしてたくせに",
+                    "maleVariant": null,
+                    "stringId": 2181092625215086592
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あの頃、兄貴は上司と昼飯を食うようになってたからな。その後デカいプロジェクトに失敗してからは、誰も一緒に食いたがらない",
+                    "maleVariant": null,
+                    "stringId": 2181093702077472768
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "コーポは爆弾処理班みたいなもんだ。一度失敗したら終わり。とにかく、その自慢の脚を使え。行くぞ",
+                    "maleVariant": null,
+                    "stringId": 2181096401867071488
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2178239594641219584,
-            "femaleVariant": "いつまで漁ってるんだ！？ もう行かなきゃマズいぞ"
-          },
-          {
-            "stringId": 2181089667308019712,
-            "femaleVariant": "落ち着けって。新しい膝のおかげで、まるでガゼルのように速く走れるようになったからな"
-          },
-          {
-            "stringId": 2181091621081931776,
-            "femaleVariant": "どこで手に入れたんだ？"
-          },
-          {
-            "stringId": 2181092073244680192,
-            "femaleVariant": "兄貴のお下がりさ。向こうは最新の強化モデルを手に入れたから"
-          },
-          {
-            "stringId": 2181092625215086592,
-            "femaleVariant": "今頃になって弟の存在を思い出したってのか？ 前はお前を見ても他人のふりしてたくせに"
-          },
-          {
-            "stringId": 2181093702077472768,
-            "femaleVariant": "あの頃、兄貴は上司と昼飯を食うようになってたからな。その後デカいプロジェクトに失敗してからは、誰も一緒に食いたがらない"
-          },
-          {
-            "stringId": 2181096401867071488,
-            "femaleVariant": "コーポは爆弾処理班みたいなもんだ。一度失敗したら終わり。とにかく、その自慢の脚を使え。行くぞ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,52 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:32.9815838Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\vendors\hey_rey_junkshop_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "買い物がしたい",
+                    "maleVariant": null,
+                    "stringId": 1863331944444870656
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "お店は順調？",
+                    "maleVariant": "お店は順調か？",
+                    "stringId": 1863331944461647884
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "欲しいものがあって…",
+                    "maleVariant": null,
+                    "stringId": 1863331944545533956
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なら、恥ずかしがらないで言ってくれ！",
+                    "maleVariant": null,
+                    "stringId": 1863331944545533964
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "景気はどう？",
+                    "maleVariant": "景気はどうだ？",
+                    "stringId": 1863331944612642820
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "お客さんが絶えることはないけど… 色々と逆風がきつくてね。宗教団体とか政府の人間が、“公序良俗に反する”ってスローガンを掲げてしょっちゅう来るんだよ",
+                    "maleVariant": null,
+                    "stringId": 1863331944612642828
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "おかしいと思わないか？ 銃ならどこででも売ってるし、誰も何とも思わねえのに。うちの売り物で人が死ぬことなんてないだろ？",
+                    "maleVariant": null,
+                    "stringId": 1975117007708016640
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1863331944444870656,
-            "femaleVariant": "買い物がしたい"
-          },
-          {
-            "stringId": 1863331944461647884,
-            "femaleVariant": "お店は順調？",
-            "maleVariant": "お店は順調か？"
-          },
-          {
-            "stringId": 1863331944545533956,
-            "femaleVariant": "欲しいものがあって…"
-          },
-          {
-            "stringId": 1863331944545533964,
-            "femaleVariant": "なら、恥ずかしがらないで言ってくれ！"
-          },
-          {
-            "stringId": 1863331944612642820,
-            "femaleVariant": "景気はどう？",
-            "maleVariant": "景気はどうだ？"
-          },
-          {
-            "stringId": 1863331944612642828,
-            "femaleVariant": "お客さんが絶えることはないけど… 色々と逆風がきつくてね。宗教団体とか政府の人間が、“公序良俗に反する”ってスローガンを掲げてしょっちゅう来るんだよ"
-          },
-          {
-            "stringId": 1975117007708016640,
-            "femaleVariant": "おかしいと思わないか？ 銃ならどこででも売ってるし、誰も何とも思わねえのに。うちの売り物で人が死ぬことなんてないだろ？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

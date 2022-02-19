@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:21.6701720Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\media\fluff\n54_news_3.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "N54ニュースです。まずは本日起きたあの事件。サイバーサイコによる銃乱射が発生しました",
+                    "maleVariant": null,
+                    "stringId": 1751810722014748672
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "レスター・マッケンジー容疑者28歳が、ウェルスプリングスのリバーモールで発砲したとのこと",
+                    "maleVariant": null,
+                    "stringId": 1751815390258323456
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "10分間にわたって無差別に銃を乱射したのち、駆けつけたマックス・タックに射殺されています",
+                    "maleVariant": null,
+                    "stringId": 1751815607238057984
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "現場では35人の死亡が確認され、20人が重体とのことです",
+                    "maleVariant": null,
+                    "stringId": 1751815779741392896
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "この事件を受け、IMA、インプラント製造業協会はコメントを出しています。では、読み上げます。「本件は完全に予測不能な事態でしたが、業界を代表して亡くなられた方々のご冥福をお祈りし、心よりお悔やみ申し上げます」… 以上です",
+                    "maleVariant": null,
+                    "stringId": 1751815920133136384
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "リバーモールの経営会社はまもなくの営業再開を発表しており、被害者家族に対し、モールの全テナントで50%オフセールを実施するとしています",
+                    "maleVariant": null,
+                    "stringId": 1751816099649347584
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "N54ニュースでは今後も事件の続報をお伝えします",
+                    "maleVariant": null,
+                    "stringId": 1751816253982957568
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1751810722014748672,
-            "femaleVariant": "N54ニュースです。まずは本日起きたあの事件。サイバーサイコによる銃乱射が発生しました"
-          },
-          {
-            "stringId": 1751815390258323456,
-            "femaleVariant": "レスター・マッケンジー容疑者28歳が、ウェルスプリングスのリバーモールで発砲したとのこと"
-          },
-          {
-            "stringId": 1751815607238057984,
-            "femaleVariant": "10分間にわたって無差別に銃を乱射したのち、駆けつけたマックス・タックに射殺されています"
-          },
-          {
-            "stringId": 1751815779741392896,
-            "femaleVariant": "現場では35人の死亡が確認され、20人が重体とのことです"
-          },
-          {
-            "stringId": 1751815920133136384,
-            "femaleVariant": "この事件を受け、IMA、インプラント製造業協会はコメントを出しています。では、読み上げます。「本件は完全に予測不能な事態でしたが、業界を代表して亡くなられた方々のご冥福をお祈りし、心よりお悔やみ申し上げます」… 以上です"
-          },
-          {
-            "stringId": 1751816099649347584,
-            "femaleVariant": "リバーモールの経営会社はまもなくの営業再開を発表しており、被害者家族に対し、モールの全テナントで50%オフセールを実施するとしています"
-          },
-          {
-            "stringId": 1751816253982957568,
-            "femaleVariant": "N54ニュースでは今後も事件の続報をお伝えします"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:27.3405128Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\ma_scene_threatning_03.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ズタズタにしてやるよ！",
+                    "maleVariant": null,
+                    "stringId": 2007155843664052224
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あんたはここで死ぬのよ！ 聞こえてる？",
+                    "maleVariant": null,
+                    "stringId": 2007155914245799936
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何もできないろくでなしのくせに、散々調子に乗りやがって…！",
+                    "maleVariant": null,
+                    "stringId": 2007156028716744704
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "せいぜいあの世で後悔するのね！",
+                    "maleVariant": null,
+                    "stringId": 2007156163236462592
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2007155843664052224,
-            "femaleVariant": "ズタズタにしてやるよ！"
-          },
-          {
-            "stringId": 2007155914245799936,
-            "femaleVariant": "あんたはここで死ぬのよ！ 聞こえてる？"
-          },
-          {
-            "stringId": 2007156028716744704,
-            "femaleVariant": "何もできないろくでなしのくせに、散々調子に乗りやがって…！"
-          },
-          {
-            "stringId": 2007156163236462592,
-            "femaleVariant": "せいぜいあの世で後悔するのね！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

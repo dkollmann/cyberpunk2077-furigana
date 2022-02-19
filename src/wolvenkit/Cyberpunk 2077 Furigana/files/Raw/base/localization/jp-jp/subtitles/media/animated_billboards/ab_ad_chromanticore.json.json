@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:21.2674470Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\media\animated_billboards\ab_ad_chromanticore.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "疲れてる？ だるい？ 力が出ない？",
+                    "maleVariant": null,
+                    "stringId": 1985311448885010432
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "私に任せて。クロマンティコアに新フレーバーがなんと、全16種類も登場…",
+                    "maleVariant": null,
+                    "stringId": 1993584194370195456
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "激しくいこ！",
+                    "maleVariant": null,
+                    "stringId": 1993584625628532736
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1985311448885010432,
-            "femaleVariant": "疲れてる？ だるい？ 力が出ない？"
-          },
-          {
-            "stringId": 1993584194370195456,
-            "femaleVariant": "私に任せて。クロマンティコアに新フレーバーがなんと、全16種類も登場…"
-          },
-          {
-            "stringId": 1993584625628532736,
-            "femaleVariant": "激しくいこ！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

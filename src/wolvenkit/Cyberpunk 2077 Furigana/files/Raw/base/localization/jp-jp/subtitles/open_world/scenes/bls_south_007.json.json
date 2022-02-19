@@ -1,70 +1,126 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:23.8116021Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\bls_south_007.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "落ち着いて。一息つかせてちょうだい…",
+                    "maleVariant": null,
+                    "stringId": 1973556380106268672
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あそこの農場って、ドームの中にあるって本当？",
+                    "maleVariant": null,
+                    "stringId": 1974972641759272960
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それで？ どうだった？ ねえ！",
+                    "maleVariant": null,
+                    "stringId": 1974972818054258688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "本当よ",
+                    "maleVariant": null,
+                    "stringId": 1974978067527704576
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "月にあるのとそっくりだってのも？",
+                    "maleVariant": null,
+                    "stringId": 1974979230524317696
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どうだろう。月には行ったことがないから",
+                    "maleVariant": null,
+                    "stringId": 1974980262390210560
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "じゃあさ、じゃあさ、みんな農場に行って働くことになるの？",
+                    "maleVariant": null,
+                    "stringId": 1974982278592143360
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "まだわからない",
+                    "maleVariant": null,
+                    "stringId": 1974982756558249984
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ソウルがそう言ってたよ！",
+                    "maleVariant": null,
+                    "stringId": 1974984133766356992
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ママ、すごく疲れてるの。ちょっと休ませて",
+                    "maleVariant": null,
+                    "stringId": 1974985909181685760
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "えー、まだお話聞きたい！ おねがい！",
+                    "maleVariant": null,
+                    "stringId": 1974986929169309696
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "んー… しょうがない子ね",
+                    "maleVariant": null,
+                    "stringId": 1974987982895915008
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1973556380106268672,
-            "femaleVariant": "落ち着いて。一息つかせてちょうだい…"
-          },
-          {
-            "stringId": 1974972641759272960,
-            "femaleVariant": "あそこの農場って、ドームの中にあるって本当？"
-          },
-          {
-            "stringId": 1974972818054258688,
-            "femaleVariant": "それで？ どうだった？ ねえ！"
-          },
-          {
-            "stringId": 1974978067527704576,
-            "femaleVariant": "本当よ"
-          },
-          {
-            "stringId": 1974979230524317696,
-            "femaleVariant": "月にあるのとそっくりだってのも？"
-          },
-          {
-            "stringId": 1974980262390210560,
-            "femaleVariant": "どうだろう。月には行ったことがないから"
-          },
-          {
-            "stringId": 1974982278592143360,
-            "femaleVariant": "じゃあさ、じゃあさ、みんな農場に行って働くことになるの？"
-          },
-          {
-            "stringId": 1974982756558249984,
-            "femaleVariant": "まだわからない"
-          },
-          {
-            "stringId": 1974984133766356992,
-            "femaleVariant": "ソウルがそう言ってたよ！"
-          },
-          {
-            "stringId": 1974985909181685760,
-            "femaleVariant": "ママ、すごく疲れてるの。ちょっと休ませて"
-          },
-          {
-            "stringId": 1974986929169309696,
-            "femaleVariant": "えー、まだお話聞きたい！ おねがい！"
-          },
-          {
-            "stringId": 1974987982895915008,
-            "femaleVariant": "んー… しょうがない子ね"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

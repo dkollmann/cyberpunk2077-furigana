@@ -1,48 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:33.1395123Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\vendors\std_rcr_medicstore_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "買い物をしたい",
+                    "maleVariant": null,
+                    "stringId": 1828465360056528896
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何か“特別な”ものはある？",
+                    "maleVariant": "何か“特別な”ものはあるか？",
+                    "stringId": 1828465360056528912
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "商品を見たい",
+                    "maleVariant": null,
+                    "stringId": 1828465360090083332
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ええ。何をお探し？",
+                    "maleVariant": null,
+                    "stringId": 1828465360090083340
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "特別な売り物はない？ 雨の日だけのとっておきとか",
+                    "maleVariant": "特別な売り物はないか？ 雨の日だけのとっておきとか",
+                    "stringId": 1828465360123637764
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そうね… ナイトシティの店はたいていカウンターに銃を隠してるものだけど、うちにあるとも限らないし、ないとも限らない… わかるでしょ。厄介事はナシよ",
+                    "maleVariant": null,
+                    "stringId": 1828465360157192196
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1828465360056528896,
-            "femaleVariant": "買い物をしたい"
-          },
-          {
-            "stringId": 1828465360056528912,
-            "femaleVariant": "何か“特別な”ものはある？",
-            "maleVariant": "何か“特別な”ものはあるか？"
-          },
-          {
-            "stringId": 1828465360090083332,
-            "femaleVariant": "商品を見たい"
-          },
-          {
-            "stringId": 1828465360090083340,
-            "femaleVariant": "ええ。何をお探し？"
-          },
-          {
-            "stringId": 1828465360123637764,
-            "femaleVariant": "特別な売り物はない？ 雨の日だけのとっておきとか",
-            "maleVariant": "特別な売り物はないか？ 雨の日だけのとっておきとか"
-          },
-          {
-            "stringId": 1828465360157192196,
-            "femaleVariant": "そうね… ナイトシティの店はたいていカウンターに銃を隠してるものだけど、うちにあるとも限らないし、ないとも限らない… わかるでしょ。厄介事はナシよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

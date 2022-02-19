@@ -1,54 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:33.2299298Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\vendors\wat_kab_ripperdoc_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "アップグレードしたいんだけど",
+                    "maleVariant": "アップグレードしたいんだが",
+                    "stringId": 1766016670462922752
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "カブキ近辺で最近面白いことはあった？",
+                    "maleVariant": "カブキ近辺で最近面白いことはあったか？",
+                    "stringId": 1766016670479699980
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "アップグレードしたいんだけど",
+                    "maleVariant": "アップグレードしたいんだが",
+                    "stringId": 1979375562925592576
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "任せてくれ。さっそく始めよう",
+                    "maleVariant": null,
+                    "stringId": 1979375811547156480
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "最近のカブキはどう？ 何か面白い話はある？",
+                    "maleVariant": "最近のカブキはどうだ？ 何か面白い話はあるか？",
+                    "stringId": 1979378498804174848
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そりゃもう。こないだ、サツが数人やってきてな。ガサ入れか、店の許可証でも調べんのかと思ったら…",
+                    "maleVariant": null,
+                    "stringId": 1979378712545906688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ソビエトのスパイを探してたのさ。びっくりだろ？ 結局そのスパイが何やったのかは、わからずじまいだが…",
+                    "maleVariant": null,
+                    "stringId": 1979386343880708096
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1766016670462922752,
-            "femaleVariant": "アップグレードしたいんだけど",
-            "maleVariant": "アップグレードしたいんだが"
-          },
-          {
-            "stringId": 1766016670479699980,
-            "femaleVariant": "カブキ近辺で最近面白いことはあった？",
-            "maleVariant": "カブキ近辺で最近面白いことはあったか？"
-          },
-          {
-            "stringId": 1979375562925592576,
-            "femaleVariant": "アップグレードしたいんだけど",
-            "maleVariant": "アップグレードしたいんだが"
-          },
-          {
-            "stringId": 1979375811547156480,
-            "femaleVariant": "任せてくれ。さっそく始めよう"
-          },
-          {
-            "stringId": 1979378498804174848,
-            "femaleVariant": "最近のカブキはどう？ 何か面白い話はある？",
-            "maleVariant": "最近のカブキはどうだ？ 何か面白い話はあるか？"
-          },
-          {
-            "stringId": 1979378712545906688,
-            "femaleVariant": "そりゃもう。こないだ、サツが数人やってきてな。ガサ入れか、店の許可証でも調べんのかと思ったら…"
-          },
-          {
-            "stringId": 1979386343880708096,
-            "femaleVariant": "ソビエトのスパイを探してたのさ。びっくりだろ？ 結局そのスパイが何やったのかは、わからずじまいだが…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

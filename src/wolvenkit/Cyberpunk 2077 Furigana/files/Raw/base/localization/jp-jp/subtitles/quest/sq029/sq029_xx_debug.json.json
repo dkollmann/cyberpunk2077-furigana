@@ -1,70 +1,126 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:39.9574003Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\quest\sq029\sq029_xx_debug.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us]Default Start",
+                    "maleVariant": null,
+                    "stringId": 1427218559893360640
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us]BBQ Dinner",
+                    "maleVariant": null,
+                    "stringId": 1427219519264903168
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us]Conclusion",
+                    "maleVariant": null,
+                    "stringId": 1427219988456525824
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ある",
+                    "maleVariant": null,
+                    "stringId": 1427220671893196800
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us]No",
+                    "maleVariant": null,
+                    "stringId": 1427220933030563840
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][pl_pl]Tower",
+                    "maleVariant": null,
+                    "stringId": 1741450917198139392
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][pl_pl]AR Game",
+                    "maleVariant": null,
+                    "stringId": 1882230281501380608
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db]Sex scene",
+                    "maleVariant": null,
+                    "stringId": 2208206991357259780
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db]Morning after",
+                    "maleVariant": null,
+                    "stringId": 2208207725427568640
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][pl_pl]Post-Holocall",
+                    "maleVariant": null,
+                    "stringId": 2217075746803953664
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][pl_pl]Start",
+                    "maleVariant": null,
+                    "stringId": 2261856903625846788
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][pl_pl]After Climb",
+                    "maleVariant": null,
+                    "stringId": 2261902228113731584
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1427218559893360640,
-            "femaleVariant": "[en_us]Default Start"
-          },
-          {
-            "stringId": 1427219519264903168,
-            "femaleVariant": "[en_us]BBQ Dinner"
-          },
-          {
-            "stringId": 1427219988456525824,
-            "femaleVariant": "[en_us]Conclusion"
-          },
-          {
-            "stringId": 1427220671893196800,
-            "femaleVariant": "ある"
-          },
-          {
-            "stringId": 1427220933030563840,
-            "femaleVariant": "[en_us]No"
-          },
-          {
-            "stringId": 1741450917198139392,
-            "femaleVariant": "[en_us][pl_pl]Tower"
-          },
-          {
-            "stringId": 1882230281501380608,
-            "femaleVariant": "[en_us][pl_pl]AR Game"
-          },
-          {
-            "stringId": 2208206991357259780,
-            "femaleVariant": "[en_us][db_db]Sex scene"
-          },
-          {
-            "stringId": 2208207725427568640,
-            "femaleVariant": "[en_us][db_db]Morning after"
-          },
-          {
-            "stringId": 2217075746803953664,
-            "femaleVariant": "[en_us][pl_pl]Post-Holocall"
-          },
-          {
-            "stringId": 2261856903625846788,
-            "femaleVariant": "[en_us][pl_pl]Start"
-          },
-          {
-            "stringId": 2261902228113731584,
-            "femaleVariant": "[en_us][pl_pl]After Climb"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

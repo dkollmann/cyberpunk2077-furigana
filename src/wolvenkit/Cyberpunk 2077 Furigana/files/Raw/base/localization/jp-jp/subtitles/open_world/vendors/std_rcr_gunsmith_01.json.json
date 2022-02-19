@@ -1,47 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:33.1359090Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\vendors\std_rcr_gunsmith_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "新しい武器を探してる",
+                    "maleVariant": null,
+                    "stringId": 1828465168108400640
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "お店は順調？",
+                    "maleVariant": "お店は順調か？",
+                    "stringId": 1828465168108400656
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "新しい銃を探してる",
+                    "maleVariant": null,
+                    "stringId": 1828465168125177860
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なら探すのは終わりね",
+                    "maleVariant": null,
+                    "stringId": 1828465168141955072
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "商売の調子は？",
+                    "maleVariant": null,
+                    "stringId": 1828465168158732292
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "まずまずね。旧式の銃を持つくらいなら飢え死にしたほうがマシって人が多いから",
+                    "maleVariant": null,
+                    "stringId": 1828465168158732300
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1828465168108400640,
-            "femaleVariant": "新しい武器を探してる"
-          },
-          {
-            "stringId": 1828465168108400656,
-            "femaleVariant": "お店は順調？",
-            "maleVariant": "お店は順調か？"
-          },
-          {
-            "stringId": 1828465168125177860,
-            "femaleVariant": "新しい銃を探してる"
-          },
-          {
-            "stringId": 1828465168141955072,
-            "femaleVariant": "なら探すのは終わりね"
-          },
-          {
-            "stringId": 1828465168158732292,
-            "femaleVariant": "商売の調子は？"
-          },
-          {
-            "stringId": 1828465168158732300,
-            "femaleVariant": "まずまずね。旧式の銃を持つくらいなら飢え死にしたほうがマシって人が多いから"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

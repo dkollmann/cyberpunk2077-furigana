@@ -1,63 +1,110 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:37.2626828Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\quest\q104\q104_07a_gas_station_infiltration.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "車がある。ノーマッドのね",
+                    "maleVariant": "車がある。ノーマッドのな",
+                    "stringId": 1641739873595183104
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "侵入した",
+                    "maleVariant": null,
+                    "stringId": 1641743311095746560
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "OK。援護は任せて",
+                    "maleVariant": null,
+                    "stringId": 1641745439738580992
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "送受信タワーに見張りが2人",
+                    "maleVariant": null,
+                    "stringId": 1641746755491745792
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "うん、間違いない。クランの車だよ",
+                    "maleVariant": null,
+                    "stringId": 1641749635485421568
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ヘルマンは絶対ここにいるはず",
+                    "maleVariant": null,
+                    "stringId": 1641752003035811840
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "用心して",
+                    "maleVariant": null,
+                    "stringId": 1641773404522303488
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "クソ野郎ども… 生きて帰れると思うなよ",
+                    "maleVariant": null,
+                    "stringId": 1767636926003568640
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ヘルマンの居場所がわかった。今から向かう",
+                    "maleVariant": null,
+                    "stringId": 1773383462876504064
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "OK。援護は任せて",
+                    "maleVariant": null,
+                    "stringId": 1773417475257004032
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1641739873595183104,
-            "femaleVariant": "車がある。ノーマッドのね",
-            "maleVariant": "車がある。ノーマッドのな"
-          },
-          {
-            "stringId": 1641743311095746560,
-            "femaleVariant": "侵入した"
-          },
-          {
-            "stringId": 1641745439738580992,
-            "femaleVariant": "OK。援護は任せて"
-          },
-          {
-            "stringId": 1641746755491745792,
-            "femaleVariant": "送受信タワーに見張りが2人"
-          },
-          {
-            "stringId": 1641749635485421568,
-            "femaleVariant": "うん、間違いない。クランの車だよ"
-          },
-          {
-            "stringId": 1641752003035811840,
-            "femaleVariant": "ヘルマンは絶対ここにいるはず"
-          },
-          {
-            "stringId": 1641773404522303488,
-            "femaleVariant": "用心して"
-          },
-          {
-            "stringId": 1767636926003568640,
-            "femaleVariant": "クソ野郎ども… 生きて帰れると思うなよ"
-          },
-          {
-            "stringId": 1773383462876504064,
-            "femaleVariant": "ヘルマンの居場所がわかった。今から向かう"
-          },
-          {
-            "stringId": 1773417475257004032,
-            "femaleVariant": "OK。援護は任せて"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

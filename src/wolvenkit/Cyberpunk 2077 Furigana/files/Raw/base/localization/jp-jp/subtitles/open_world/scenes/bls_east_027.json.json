@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:23.6722093Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\bls_east_027.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "見てよ。お好きにどうぞって感じ。どう思う？",
+                    "maleVariant": null,
+                    "stringId": 2178293728947806208
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "うん… ここなら農場でも開けそう",
+                    "maleVariant": null,
+                    "stringId": 2211209758667632640
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "作物が育つと思う？",
+                    "maleVariant": null,
+                    "stringId": 2211210087249408000
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "もちろん。品質の保証はできないけど",
+                    "maleVariant": null,
+                    "stringId": 2211210737131646976
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ハッ、ついに私たちにも転機が来たのね。アメリカンドリームよ",
+                    "maleVariant": null,
+                    "stringId": 2211211180335362048
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2178293728947806208,
-            "femaleVariant": "見てよ。お好きにどうぞって感じ。どう思う？"
-          },
-          {
-            "stringId": 2211209758667632640,
-            "femaleVariant": "うん… ここなら農場でも開けそう"
-          },
-          {
-            "stringId": 2211210087249408000,
-            "femaleVariant": "作物が育つと思う？"
-          },
-          {
-            "stringId": 2211210737131646976,
-            "femaleVariant": "もちろん。品質の保証はできないけど"
-          },
-          {
-            "stringId": 2211211180335362048,
-            "femaleVariant": "ハッ、ついに私たちにも転機が来たのね。アメリカンドリームよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

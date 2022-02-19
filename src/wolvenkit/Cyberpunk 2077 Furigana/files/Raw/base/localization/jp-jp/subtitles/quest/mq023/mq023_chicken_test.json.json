@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:36.0683609Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\mq023\\mq023_chicken_test.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db]MQ023 Chicken test. Choose where to start:",
+                    "maleVariant": null,
+                    "stringId": 1925896561012645888
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db]Start.",
+                    "maleVariant": null,
+                    "stringId": 2350337376125853700
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db]Noodle shop.",
+                    "maleVariant": null,
+                    "stringId": 2350337882277683200
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db]Vendor stand.",
+                    "maleVariant": null,
+                    "stringId": 2350337959167664128
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1925896561012645888,
-            "femaleVariant": "[en_us][db_db]MQ023 Chicken test. Choose where to start:"
-          },
-          {
-            "stringId": 2350337376125853700,
-            "femaleVariant": "[en_us][db_db]Start."
-          },
-          {
-            "stringId": 2350337882277683200,
-            "femaleVariant": "[en_us][db_db]Noodle shop."
-          },
-          {
-            "stringId": 2350337959167664128,
-            "femaleVariant": "[en_us][db_db]Vendor stand."
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

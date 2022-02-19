@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.0834741Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\std_rcr_chat_030.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9番を2つ。1つをスーパーサイズで、もう1個はレギュラーで…",
+                    "maleVariant": null,
+                    "stringId": 2167932552526712832
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "はい… 以上ですか？",
+                    "maleVariant": null,
+                    "stringId": 2182266711452209152
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6番をソース多めで。あと45番を2つと、7番を1つ。Lサイズのニコーラも1つくれ",
+                    "maleVariant": null,
+                    "stringId": 2182266931418288128
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "果糖の追加はいかかですか？",
+                    "maleVariant": null,
+                    "stringId": 2182267795377803264
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あー、じゃあ頼むよ",
+                    "maleVariant": null,
+                    "stringId": 2182267946104311808
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2167932552526712832,
-            "femaleVariant": "9番を2つ。1つをスーパーサイズで、もう1個はレギュラーで…"
-          },
-          {
-            "stringId": 2182266711452209152,
-            "femaleVariant": "はい… 以上ですか？"
-          },
-          {
-            "stringId": 2182266931418288128,
-            "femaleVariant": "6番をソース多めで。あと45番を2つと、7番を1つ。Lサイズのニコーラも1つくれ"
-          },
-          {
-            "stringId": 2182267795377803264,
-            "femaleVariant": "果糖の追加はいかかですか？"
-          },
-          {
-            "stringId": 2182267946104311808,
-            "femaleVariant": "あー、じゃあ頼むよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

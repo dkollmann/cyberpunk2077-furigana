@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:23.6378088Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\bls_east_021.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そろそろ出発したほうがいい。これ以上長居してると、根が生えちまう",
+                    "maleVariant": null,
+                    "stringId": 2178265220515176448
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なに、もう景色に飽きたわけ？",
+                    "maleVariant": null,
+                    "stringId": 2181079985345511424
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "景色もクソも、風力タービンしかないだろ。気分転換に山でも見たいんだよ",
+                    "maleVariant": null,
+                    "stringId": 2181080266951081984
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "アパラチアとかどうだ？ 放射能も収まったらしいし",
+                    "maleVariant": null,
+                    "stringId": 2181080589325287424
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そうだね… ひとまず気分転換に、ちょっと物資を集めにいこうか",
+                    "maleVariant": null,
+                    "stringId": 2181080800583991296
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "風力タービンから離れられるなら何でもいいさ",
+                    "maleVariant": null,
+                    "stringId": 2181080969715105792
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2178265220515176448,
-            "femaleVariant": "そろそろ出発したほうがいい。これ以上長居してると、根が生えちまう"
-          },
-          {
-            "stringId": 2181079985345511424,
-            "femaleVariant": "なに、もう景色に飽きたわけ？"
-          },
-          {
-            "stringId": 2181080266951081984,
-            "femaleVariant": "景色もクソも、風力タービンしかないだろ。気分転換に山でも見たいんだよ"
-          },
-          {
-            "stringId": 2181080589325287424,
-            "femaleVariant": "アパラチアとかどうだ？ 放射能も収まったらしいし"
-          },
-          {
-            "stringId": 2181080800583991296,
-            "femaleVariant": "そうだね… ひとまず気分転換に、ちょっと物資を集めにいこうか"
-          },
-          {
-            "stringId": 2181080969715105792,
-            "femaleVariant": "風力タービンから離れられるなら何でもいいさ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

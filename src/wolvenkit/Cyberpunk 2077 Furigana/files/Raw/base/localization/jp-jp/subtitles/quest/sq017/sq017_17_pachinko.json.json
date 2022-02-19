@@ -1,49 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:39.3703156Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\quest\sq017\sq017_17_pachinko.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "すみません、エレベーターは故障中で",
+                    "maleVariant": null,
+                    "stringId": 1339984088743809024
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ケリーに会いに来た",
+                    "maleVariant": null,
+                    "stringId": 1339986038541520916
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ケリー・ユーロダインに誘われてきたんだけど。聞いてない？",
+                    "maleVariant": "ケリー・ユーロダインに誘われてきたんだが。聞いてないか？",
+                    "stringId": 1339994563900608512
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そういうことなら、どうぞごゆっくり",
+                    "maleVariant": null,
+                    "stringId": 1339995028210061312
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "じゃあここで何してるの？",
+                    "maleVariant": "じゃあここで何してるんだ？",
+                    "stringId": 1818663045486567424
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なら、ここで何してるわけ？",
+                    "maleVariant": "なら、ここで何してるんだ？",
+                    "stringId": 1818664320353656832
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1339984088743809024,
-            "femaleVariant": "すみません、エレベーターは故障中で"
-          },
-          {
-            "stringId": 1339986038541520916,
-            "femaleVariant": "ケリーに会いに来た"
-          },
-          {
-            "stringId": 1339994563900608512,
-            "femaleVariant": "ケリー・ユーロダインに誘われてきたんだけど。聞いてない？",
-            "maleVariant": "ケリー・ユーロダインに誘われてきたんだが。聞いてないか？"
-          },
-          {
-            "stringId": 1339995028210061312,
-            "femaleVariant": "そういうことなら、どうぞごゆっくり"
-          },
-          {
-            "stringId": 1818663045486567424,
-            "femaleVariant": "じゃあここで何してるの？",
-            "maleVariant": "じゃあここで何してるんだ？"
-          },
-          {
-            "stringId": 1818664320353656832,
-            "femaleVariant": "なら、ここで何してるわけ？",
-            "maleVariant": "なら、ここで何してるんだ？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

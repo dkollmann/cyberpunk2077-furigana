@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:23.9154840Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\bls_south_022.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "CHOOH2、ずいぶん値上がりしたよね。このままだとディーゼルより高くなりそう",
+                    "maleVariant": null,
+                    "stringId": 2178299332183711744
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "バイオテクニカが使用料を上げたのかもな",
+                    "maleVariant": null,
+                    "stringId": 2182510920708374528
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "コーポの連中、何様のつもり？ 自転車にでも乗れっての？",
+                    "maleVariant": null,
+                    "stringId": 2182511172232396800
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "逆に自分の首を絞めてるようなもんじゃない",
+                    "maleVariant": null,
+                    "stringId": 2182511302692028416
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あ、わかった。小麦の収穫量のせいだ。今年はずいぶん不作だったらしい",
+                    "maleVariant": null,
+                    "stringId": 2182511531919130624
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "小麦？ 何の関係があるのよ",
+                    "maleVariant": null,
+                    "stringId": 2182511856205938688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "おいおい、CHOOH2の原材料を知らないのか？",
+                    "maleVariant": null,
+                    "stringId": 2182511971633184768
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どうでもいい。中身が何であれ、車が走ればね",
+                    "maleVariant": null,
+                    "stringId": 2182512206514208768
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2178299332183711744,
-            "femaleVariant": "CHOOH2、ずいぶん値上がりしたよね。このままだとディーゼルより高くなりそう"
-          },
-          {
-            "stringId": 2182510920708374528,
-            "femaleVariant": "バイオテクニカが使用料を上げたのかもな"
-          },
-          {
-            "stringId": 2182511172232396800,
-            "femaleVariant": "コーポの連中、何様のつもり？ 自転車にでも乗れっての？"
-          },
-          {
-            "stringId": 2182511302692028416,
-            "femaleVariant": "逆に自分の首を絞めてるようなもんじゃない"
-          },
-          {
-            "stringId": 2182511531919130624,
-            "femaleVariant": "あ、わかった。小麦の収穫量のせいだ。今年はずいぶん不作だったらしい"
-          },
-          {
-            "stringId": 2182511856205938688,
-            "femaleVariant": "小麦？ 何の関係があるのよ"
-          },
-          {
-            "stringId": 2182511971633184768,
-            "femaleVariant": "おいおい、CHOOH2の原材料を知らないのか？"
-          },
-          {
-            "stringId": 2182512206514208768,
-            "femaleVariant": "どうでもいい。中身が何であれ、車が走ればね"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:22.7654107Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\community\e3_kabuki_entrance_cart_pusher.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "人々よ、聞け！ ハイチは前兆に過ぎなかったのだ",
+                    "maleVariant": null,
+                    "stringId": 1802580862837010432
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "画面を閉じよ！ 行いを改めよ！",
+                    "maleVariant": null,
+                    "stringId": 1802582968444727296
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "塔の上、雲の上の者は、お前たちが溺れる姿をただ眺めるだろう",
+                    "maleVariant": null,
+                    "stringId": 1802583038422495232
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1本の指は簡単に折られるが、集まれば硬い拳となる！",
+                    "maleVariant": null,
+                    "stringId": 1802583495299641344
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ともに手を取ろう！ 我々に力を！ 手遅れになる前に！",
+                    "maleVariant": null,
+                    "stringId": 1802583703219679232
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "世界を浄化する大いなる波がやって来る！",
+                    "maleVariant": null,
+                    "stringId": 1802584832242429952
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1802580862837010432,
-            "femaleVariant": "人々よ、聞け！ ハイチは前兆に過ぎなかったのだ"
-          },
-          {
-            "stringId": 1802582968444727296,
-            "femaleVariant": "画面を閉じよ！ 行いを改めよ！"
-          },
-          {
-            "stringId": 1802583038422495232,
-            "femaleVariant": "塔の上、雲の上の者は、お前たちが溺れる姿をただ眺めるだろう"
-          },
-          {
-            "stringId": 1802583495299641344,
-            "femaleVariant": "1本の指は簡単に折られるが、集まれば硬い拳となる！"
-          },
-          {
-            "stringId": 1802583703219679232,
-            "femaleVariant": "ともに手を取ろう！ 我々に力を！ 手遅れになる前に！"
-          },
-          {
-            "stringId": 1802584832242429952,
-            "femaleVariant": "世界を浄化する大いなる波がやって来る！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:24.1181773Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\cct_cpz_chat_027.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "想像できるか…？ 70階以上あったビルが… 崩れ落ちたなんて…",
+                    "maleVariant": null,
+                    "stringId": 2172083067071094784
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ええ… おじいちゃんが救助隊の一員だったんだけど… 毎日夜通しで遺体を掘り出してたんだって…",
+                    "maleVariant": null,
+                    "stringId": 2205866264681091072
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "たまにその時のことを話してくれたけど… がれきの下から悲鳴が聞こえたとか…",
+                    "maleVariant": null,
+                    "stringId": 2205869672720863232
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ひどい話だ…",
+                    "maleVariant": null,
+                    "stringId": 2205869946004934656
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2172083067071094784,
-            "femaleVariant": "想像できるか…？ 70階以上あったビルが… 崩れ落ちたなんて…"
-          },
-          {
-            "stringId": 2205866264681091072,
-            "femaleVariant": "ええ… おじいちゃんが救助隊の一員だったんだけど… 毎日夜通しで遺体を掘り出してたんだって…"
-          },
-          {
-            "stringId": 2205869672720863232,
-            "femaleVariant": "たまにその時のことを話してくれたけど… がれきの下から悲鳴が聞こえたとか…"
-          },
-          {
-            "stringId": 2205869946004934656,
-            "femaleVariant": "ひどい話だ…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

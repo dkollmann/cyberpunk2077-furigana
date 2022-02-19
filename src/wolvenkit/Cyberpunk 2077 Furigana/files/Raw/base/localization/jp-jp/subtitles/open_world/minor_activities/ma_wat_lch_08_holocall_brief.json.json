@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:23.3690730Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\minor_activities\ma_wat_lch_08_holocall_brief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "NCPD業務委託者に通達。ドレイク通りとカートライト通りの交差点で、組織犯罪活動の報告あり",
+                    "maleVariant": null,
+                    "stringId": 2328908920680378368
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "武装強盗および恐喝容疑のあるタイガークロウズが現場で確認されている。リーダーはモコミチ・ヤマダ、通称“モーターボーイ”",
+                    "maleVariant": null,
+                    "stringId": 2350856711307628544
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ヤマダ一味をエリアから排除した者には、ナイトシティより報酬が支払われる",
+                    "maleVariant": null,
+                    "stringId": 2350882628818014208
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328908920680378368,
-            "femaleVariant": "NCPD業務委託者に通達。ドレイク通りとカートライト通りの交差点で、組織犯罪活動の報告あり"
-          },
-          {
-            "stringId": 2350856711307628544,
-            "femaleVariant": "武装強盗および恐喝容疑のあるタイガークロウズが現場で確認されている。リーダーはモコミチ・ヤマダ、通称“モーターボーイ”"
-          },
-          {
-            "stringId": 2350882628818014208,
-            "femaleVariant": "ヤマダ一味をエリアから排除した者には、ナイトシティより報酬が支払われる"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

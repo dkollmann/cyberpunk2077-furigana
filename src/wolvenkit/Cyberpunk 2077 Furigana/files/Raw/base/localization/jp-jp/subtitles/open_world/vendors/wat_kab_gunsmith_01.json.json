@@ -1,49 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:33.1985247Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\vendors\wat_kab_gunsmith_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "新しい銃が欲しい",
+                    "maleVariant": null,
+                    "stringId": 1866067841231114240
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "スカベンジャーが面倒を起こしてない？",
+                    "maleVariant": "スカベンジャーが面倒を起こしてないか？",
+                    "stringId": 1866067841231114256
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "新しい銃が欲しいの。何かいいのない？",
+                    "maleVariant": "新しい銃が欲しいんだ。何かいいのないか？",
+                    "stringId": 1866067841247891460
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どうぞ好きに見てってくれ",
+                    "maleVariant": null,
+                    "stringId": 1866067841247891468
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "スカベンジャーが面倒を起こしてない？",
+                    "maleVariant": "スカベンジャーが面倒を起こしてないか？",
+                    "stringId": 1866067841264668676
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "来る日もあれば、来ない日もある。俺は特に困ってないが… おかげさまでな",
+                    "maleVariant": null,
+                    "stringId": 1866067841264668684
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1866067841231114240,
-            "femaleVariant": "新しい銃が欲しい"
-          },
-          {
-            "stringId": 1866067841231114256,
-            "femaleVariant": "スカベンジャーが面倒を起こしてない？",
-            "maleVariant": "スカベンジャーが面倒を起こしてないか？"
-          },
-          {
-            "stringId": 1866067841247891460,
-            "femaleVariant": "新しい銃が欲しいの。何かいいのない？",
-            "maleVariant": "新しい銃が欲しいんだ。何かいいのないか？"
-          },
-          {
-            "stringId": 1866067841247891468,
-            "femaleVariant": "どうぞ好きに見てってくれ"
-          },
-          {
-            "stringId": 1866067841264668676,
-            "femaleVariant": "スカベンジャーが面倒を起こしてない？",
-            "maleVariant": "スカベンジャーが面倒を起こしてないか？"
-          },
-          {
-            "stringId": 1866067841264668684,
-            "femaleVariant": "来る日もあれば、来ない日もある。俺は特に困ってないが… おかげさまでな"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

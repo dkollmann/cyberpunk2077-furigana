@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:27.3364792Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\ma_scene_threatning_02.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "死ぬ前に、何か言い残すことはあるかい？",
+                    "maleVariant": null,
+                    "stringId": 2007151579533279232
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どうした？ さっきまでの笑顔はどこに行ったのさ？",
+                    "maleVariant": null,
+                    "stringId": 2007151653504024576
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ふん。仲間が助けに来るとでも思ってるわけ？ 残念。あんたは一人っきりで死ぬんだよ",
+                    "maleVariant": null,
+                    "stringId": 2007151734269542400
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "しょうもない野郎め！ 息をしてるだけで迷惑なんだよ",
+                    "maleVariant": null,
+                    "stringId": 2007151808324173824
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2007151579533279232,
-            "femaleVariant": "死ぬ前に、何か言い残すことはあるかい？"
-          },
-          {
-            "stringId": 2007151653504024576,
-            "femaleVariant": "どうした？ さっきまでの笑顔はどこに行ったのさ？"
-          },
-          {
-            "stringId": 2007151734269542400,
-            "femaleVariant": "ふん。仲間が助けに来るとでも思ってるわけ？ 残念。あんたは一人っきりで死ぬんだよ"
-          },
-          {
-            "stringId": 2007151808324173824,
-            "femaleVariant": "しょうもない野郎め！ 息をしてるだけで迷惑なんだよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

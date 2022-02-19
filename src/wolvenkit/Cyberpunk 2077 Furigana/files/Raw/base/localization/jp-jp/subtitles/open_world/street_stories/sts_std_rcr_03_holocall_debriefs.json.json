@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:31.5957165Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\street_stories\sts_std_rcr_03_holocall_debriefs.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "やってくれたな、V。お前がフラビオを死なせたおかげで、俺の信用はガタ落ちだ。フィクサーにとって、信用以上に大事なもんはねえ",
+                    "maleVariant": null,
+                    "stringId": 2328611416749551616
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "さすがだな、まさにプロの仕事だった。フラビオの奴が、お前ほどタフな奴には会ったことがないって言ってたぜ",
+                    "maleVariant": null,
+                    "stringId": 2328866650331721728
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "今回は大目に見てやろう。俺が優しい奴でよかったな。ただし、これでワン・ストライクだ。次はホームランを決めてくれ",
+                    "maleVariant": null,
+                    "stringId": 2342032689102950400
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そして、今後出会うこともないだろうな。お前みたいな傭兵はそういない。それじゃあ、報酬は送っといたぜ",
+                    "maleVariant": null,
+                    "stringId": 2342034204723089408
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328611416749551616,
-            "femaleVariant": "やってくれたな、V。お前がフラビオを死なせたおかげで、俺の信用はガタ落ちだ。フィクサーにとって、信用以上に大事なもんはねえ"
-          },
-          {
-            "stringId": 2328866650331721728,
-            "femaleVariant": "さすがだな、まさにプロの仕事だった。フラビオの奴が、お前ほどタフな奴には会ったことがないって言ってたぜ"
-          },
-          {
-            "stringId": 2342032689102950400,
-            "femaleVariant": "今回は大目に見てやろう。俺が優しい奴でよかったな。ただし、これでワン・ストライクだ。次はホームランを決めてくれ"
-          },
-          {
-            "stringId": 2342034204723089408,
-            "femaleVariant": "そして、今後出会うこともないだろうな。お前みたいな傭兵はそういない。それじゃあ、報酬は送っといたぜ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

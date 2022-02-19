@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:28.8170161Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\std_arr_chat_020.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "手を洗いたい",
+                    "maleVariant": null,
+                    "stringId": 2167941624791224320
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "大丈夫、落ち着いて。すぐに帰れるから",
+                    "maleVariant": null,
+                    "stringId": 2214502934741618688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "こんな不潔な場所… マーサはここのモノを食べて肝炎になったんだぞ？",
+                    "maleVariant": null,
+                    "stringId": 2221694310860296192
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "私たちはここでは食べないから",
+                    "maleVariant": null,
+                    "stringId": 2221694711651209216
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "殺菌しないと！ 大腸菌がスキャンで見えた！ ウェットティッシュをくれ、もう無理だ",
+                    "maleVariant": null,
+                    "stringId": 2221694881268862976
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あとちょっとで買い物終わるから、ね",
+                    "maleVariant": null,
+                    "stringId": 2221695385122213888
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2167941624791224320,
-            "femaleVariant": "手を洗いたい"
-          },
-          {
-            "stringId": 2214502934741618688,
-            "femaleVariant": "大丈夫、落ち着いて。すぐに帰れるから"
-          },
-          {
-            "stringId": 2221694310860296192,
-            "femaleVariant": "こんな不潔な場所… マーサはここのモノを食べて肝炎になったんだぞ？"
-          },
-          {
-            "stringId": 2221694711651209216,
-            "femaleVariant": "私たちはここでは食べないから"
-          },
-          {
-            "stringId": 2221694881268862976,
-            "femaleVariant": "殺菌しないと！ 大腸菌がスキャンで見えた！ ウェットティッシュをくれ、もう無理だ"
-          },
-          {
-            "stringId": 2221695385122213888,
-            "femaleVariant": "あとちょっとで買い物終わるから、ね"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

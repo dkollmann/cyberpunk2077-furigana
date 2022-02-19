@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.6994396Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wat_nid_chat_001.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "問題はそこじゃない。見方を変えるんだ、チューマ",
+                    "maleVariant": null,
+                    "stringId": 1802497586358771712
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "奴は足を失ったんだぞ、ロブ。コンテナの下敷きになって",
+                    "maleVariant": null,
+                    "stringId": 1802498130443886592
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "だからインプラントを盗むんだよ",
+                    "maleVariant": null,
+                    "stringId": 1802498298434150400
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それじゃなんの解決にもならない。今年に入ってから、もう3回も似たような事故が起きてる",
+                    "maleVariant": null,
+                    "stringId": 1802498461156368384
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ついでに工場のデータもいただく。きっと欲しがるフィクサーがいるはずだ",
+                    "maleVariant": null,
+                    "stringId": 1802498634280460288
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いやいや…",
+                    "maleVariant": null,
+                    "stringId": 1802498832939474944
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なくなったのがお前の足だったらどうする？ お互いに助け合わなきゃ、誰も助けてくれないんだ",
+                    "maleVariant": null,
+                    "stringId": 1802499095922335744
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1802497586358771712,
-            "femaleVariant": "問題はそこじゃない。見方を変えるんだ、チューマ"
-          },
-          {
-            "stringId": 1802498130443886592,
-            "femaleVariant": "奴は足を失ったんだぞ、ロブ。コンテナの下敷きになって"
-          },
-          {
-            "stringId": 1802498298434150400,
-            "femaleVariant": "だからインプラントを盗むんだよ"
-          },
-          {
-            "stringId": 1802498461156368384,
-            "femaleVariant": "それじゃなんの解決にもならない。今年に入ってから、もう3回も似たような事故が起きてる"
-          },
-          {
-            "stringId": 1802498634280460288,
-            "femaleVariant": "ついでに工場のデータもいただく。きっと欲しがるフィクサーがいるはずだ"
-          },
-          {
-            "stringId": 1802498832939474944,
-            "femaleVariant": "いやいや…"
-          },
-          {
-            "stringId": 1802499095922335744,
-            "femaleVariant": "なくなったのがお前の足だったらどうする？ お互いに助け合わなきゃ、誰も助けてくれないんだ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

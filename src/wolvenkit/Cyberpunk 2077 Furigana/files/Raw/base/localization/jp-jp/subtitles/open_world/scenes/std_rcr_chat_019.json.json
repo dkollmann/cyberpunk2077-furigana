@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:28.9983453Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\std_rcr_chat_019.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "先生、“ランチ”はいつものところに置いといたから",
+                    "maleVariant": null,
+                    "stringId": 2167621766914789376
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そうか、ありがとう。急げばまだひと吸いできるかな。お母さんに言っといてくれ。おたくのスティムはこの街一番だって",
+                    "maleVariant": null,
+                    "stringId": 2214562282616492032
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "先生、話題変えて。学校の話がいい",
+                    "maleVariant": null,
+                    "stringId": 2229078090105327616
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "え、何だって？",
+                    "maleVariant": null,
+                    "stringId": 2229078409140867072
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "誰かが聞いてるかも…",
+                    "maleVariant": null,
+                    "stringId": 2229078468867756032
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ああ、そうか… じゃあ、昔の学校はブレインダンスがなかったって知ってるかい？ 今と違って、本を読まないといけなかったんだ。そうやって知識を吸って… じゃなくて、吸収したんだ",
+                    "maleVariant": null,
+                    "stringId": 2229079029226770432
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ええ、バーチャがなかったの？ それってすっっっごくつまらなそう",
+                    "maleVariant": null,
+                    "stringId": 2229080389926096896
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2167621766914789376,
-            "femaleVariant": "先生、“ランチ”はいつものところに置いといたから"
-          },
-          {
-            "stringId": 2214562282616492032,
-            "femaleVariant": "そうか、ありがとう。急げばまだひと吸いできるかな。お母さんに言っといてくれ。おたくのスティムはこの街一番だって"
-          },
-          {
-            "stringId": 2229078090105327616,
-            "femaleVariant": "先生、話題変えて。学校の話がいい"
-          },
-          {
-            "stringId": 2229078409140867072,
-            "femaleVariant": "え、何だって？"
-          },
-          {
-            "stringId": 2229078468867756032,
-            "femaleVariant": "誰かが聞いてるかも…"
-          },
-          {
-            "stringId": 2229079029226770432,
-            "femaleVariant": "ああ、そうか… じゃあ、昔の学校はブレインダンスがなかったって知ってるかい？ 今と違って、本を読まないといけなかったんだ。そうやって知識を吸って… じゃなくて、吸収したんだ"
-          },
-          {
-            "stringId": 2229080389926096896,
-            "femaleVariant": "ええ、バーチャがなかったの？ それってすっっっごくつまらなそう"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

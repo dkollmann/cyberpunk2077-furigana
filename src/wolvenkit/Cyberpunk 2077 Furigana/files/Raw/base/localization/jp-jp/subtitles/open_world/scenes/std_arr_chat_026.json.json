@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:28.8569532Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\std_arr_chat_026.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "また面会中止って… これで何回目なのよ。ふざけやがって…",
+                    "maleVariant": null,
+                    "stringId": 2168020971862544384
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そんな汚い言葉どこで覚えたの！？",
+                    "maleVariant": null,
+                    "stringId": 2211115407160074240
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "さあ、家族との面会すらロクにできない、父親気取りのどっかの脳ナシの影響かな？",
+                    "maleVariant": null,
+                    "stringId": 2212920687040618496
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "な… 何言ってるの？",
+                    "maleVariant": null,
+                    "stringId": 2212921360427737088
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "私、もう二度と来ないから。時間がクソもったいない",
+                    "maleVariant": null,
+                    "stringId": 2212923417566076928
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あなたのお父さんなのよ…",
+                    "maleVariant": null,
+                    "stringId": 2212925494769967104
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "まともな父親なら、刑務所に入るような真似しない！ それに家族がわざわざ面会に来てるのに、看守を買収するくらいもできないわけ！？",
+                    "maleVariant": null,
+                    "stringId": 2212925712185909248
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2168020971862544384,
-            "femaleVariant": "また面会中止って… これで何回目なのよ。ふざけやがって…"
-          },
-          {
-            "stringId": 2211115407160074240,
-            "femaleVariant": "そんな汚い言葉どこで覚えたの！？"
-          },
-          {
-            "stringId": 2212920687040618496,
-            "femaleVariant": "さあ、家族との面会すらロクにできない、父親気取りのどっかの脳ナシの影響かな？"
-          },
-          {
-            "stringId": 2212921360427737088,
-            "femaleVariant": "な… 何言ってるの？"
-          },
-          {
-            "stringId": 2212923417566076928,
-            "femaleVariant": "私、もう二度と来ないから。時間がクソもったいない"
-          },
-          {
-            "stringId": 2212925494769967104,
-            "femaleVariant": "あなたのお父さんなのよ…"
-          },
-          {
-            "stringId": 2212925712185909248,
-            "femaleVariant": "まともな父親なら、刑務所に入るような真似しない！ それに家族がわざわざ面会に来てるのに、看守を買収するくらいもできないわけ！？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

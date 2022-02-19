@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:28.8948055Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\std_rcr_chat_002.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "僕は将来、世界一のノーマッドになるんだ！",
+                    "maleVariant": null,
+                    "stringId": 1963291900445237248
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そいつはすごいな。普通のノーマッドになるのかい？ それともスカウトかな？",
+                    "maleVariant": null,
+                    "stringId": 1969142892513181696
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "スカウト！ ヤイバのバイクに乗って、隊で一番速い人になる！",
+                    "maleVariant": null,
+                    "stringId": 1969143248206938112
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "でね、バイクに乗りながら銃を撃てるように訓練するんだよ。バン！ バン！",
+                    "maleVariant": null,
+                    "stringId": 1969143666966249472
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ノーマッドになんかならないの。ペトロケムで働くのよ。おじいちゃんや――",
+                    "maleVariant": null,
+                    "stringId": 1969143905605369856
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "おい、いいだろ。せめて今だけでも、夢を見させてやれ",
+                    "maleVariant": null,
+                    "stringId": 1969144417780219904
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963291900445237248,
-            "femaleVariant": "僕は将来、世界一のノーマッドになるんだ！"
-          },
-          {
-            "stringId": 1969142892513181696,
-            "femaleVariant": "そいつはすごいな。普通のノーマッドになるのかい？ それともスカウトかな？"
-          },
-          {
-            "stringId": 1969143248206938112,
-            "femaleVariant": "スカウト！ ヤイバのバイクに乗って、隊で一番速い人になる！"
-          },
-          {
-            "stringId": 1969143666966249472,
-            "femaleVariant": "でね、バイクに乗りながら銃を撃てるように訓練するんだよ。バン！ バン！"
-          },
-          {
-            "stringId": 1969143905605369856,
-            "femaleVariant": "ノーマッドになんかならないの。ペトロケムで働くのよ。おじいちゃんや――"
-          },
-          {
-            "stringId": 1969144417780219904,
-            "femaleVariant": "おい、いいだろ。せめて今だけでも、夢を見させてやれ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

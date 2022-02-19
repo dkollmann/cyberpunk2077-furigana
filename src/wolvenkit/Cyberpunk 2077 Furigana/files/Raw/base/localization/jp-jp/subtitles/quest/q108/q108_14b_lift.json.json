@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:37.5441213Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\quest\q108\q108_14b_lift.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "早く、乗って",
+                    "maleVariant": null,
+                    "stringId": 1199713875651371008
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "急いで",
+                    "maleVariant": null,
+                    "stringId": 1780446051313819648
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あいつらも乗せてあげる気？ 早くして！",
+                    "maleVariant": null,
+                    "stringId": 1789366170710614016
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "おい、まだかよ",
+                    "maleVariant": null,
+                    "stringId": 1789367420999081984
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "乗って！",
+                    "maleVariant": null,
+                    "stringId": 1789372393531023364
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "エレベーターに敵が乗ってるかもしれない。気をつけるんだよ",
+                    "maleVariant": null,
+                    "stringId": 2233328576890486784
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ここから脱出しないと。急ぐよ",
+                    "maleVariant": null,
+                    "stringId": 2233356649551708160
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いらっしゃい",
+                    "maleVariant": null,
+                    "stringId": 2237419660830654464
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1199713875651371008,
-            "femaleVariant": "早く、乗って"
-          },
-          {
-            "stringId": 1780446051313819648,
-            "femaleVariant": "急いで"
-          },
-          {
-            "stringId": 1789366170710614016,
-            "femaleVariant": "あいつらも乗せてあげる気？ 早くして！"
-          },
-          {
-            "stringId": 1789367420999081984,
-            "femaleVariant": "おい、まだかよ"
-          },
-          {
-            "stringId": 1789372393531023364,
-            "femaleVariant": "乗って！"
-          },
-          {
-            "stringId": 2233328576890486784,
-            "femaleVariant": "エレベーターに敵が乗ってるかもしれない。気をつけるんだよ"
-          },
-          {
-            "stringId": 2233356649551708160,
-            "femaleVariant": "ここから脱出しないと。急ぐよ"
-          },
-          {
-            "stringId": 2237419660830654464,
-            "femaleVariant": "いらっしゃい"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

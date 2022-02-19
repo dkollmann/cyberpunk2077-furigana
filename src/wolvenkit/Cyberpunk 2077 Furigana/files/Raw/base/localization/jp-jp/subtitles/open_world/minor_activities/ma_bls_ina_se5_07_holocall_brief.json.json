@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:23.1528982Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\minor_activities\ma_bls_ina_se5_07_holocall_brief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "NCPD業務委託者に通達。セージ・ガルチ通りで組織犯罪活動の報告あり",
+                    "maleVariant": null,
+                    "stringId": 2328989029368246272
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "被疑者の名はルーファス・マクブライド、無免許でリパードククリニックを経営した疑い。過去に3件、患者に重度の後遺症をもたらし、自殺を装った殺人を行った記録あり",
+                    "maleVariant": null,
+                    "stringId": 2358876231829917696
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "被疑者はギャング組織「レイス」に匿われている模様。マクブライドおよび協力者による脅威を無力化した者には、市より報酬が支払われる",
+                    "maleVariant": null,
+                    "stringId": 2358876272615329792
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328989029368246272,
-            "femaleVariant": "NCPD業務委託者に通達。セージ・ガルチ通りで組織犯罪活動の報告あり"
-          },
-          {
-            "stringId": 2358876231829917696,
-            "femaleVariant": "被疑者の名はルーファス・マクブライド、無免許でリパードククリニックを経営した疑い。過去に3件、患者に重度の後遺症をもたらし、自殺を装った殺人を行った記録あり"
-          },
-          {
-            "stringId": 2358876272615329792,
-            "femaleVariant": "被疑者はギャング組織「レイス」に匿われている模様。マクブライドおよび協力者による脅威を無力化した者には、市より報酬が支払われる"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

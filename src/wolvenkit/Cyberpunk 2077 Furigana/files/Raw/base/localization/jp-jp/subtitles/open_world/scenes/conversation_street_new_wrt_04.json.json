@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:25.3988132Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\conversation_street_new_wrt_04.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "で、インタビューには応じるが、名前は出さないことと、夕食に付き合うことを条件にしたんだ。なんなら朝飯も一緒に食うかってな、へへ",
+                    "maleVariant": null,
+                    "stringId": 2276543334628630544
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ふうん、いいじゃん。で、うまくいったの？",
+                    "maleVariant": null,
+                    "stringId": 2276543334628630556
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いいや。夕食どころか、カリエンテのクーポンをもらっただけだ。信じられるか？",
+                    "maleVariant": null,
+                    "stringId": 2276543334628630568
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2276543334628630544,
-            "femaleVariant": "で、インタビューには応じるが、名前は出さないことと、夕食に付き合うことを条件にしたんだ。なんなら朝飯も一緒に食うかってな、へへ"
-          },
-          {
-            "stringId": 2276543334628630556,
-            "femaleVariant": "ふうん、いいじゃん。で、うまくいったの？"
-          },
-          {
-            "stringId": 2276543334628630568,
-            "femaleVariant": "いいや。夕食どころか、カリエンテのクーポンをもらっただけだ。信じられるか？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

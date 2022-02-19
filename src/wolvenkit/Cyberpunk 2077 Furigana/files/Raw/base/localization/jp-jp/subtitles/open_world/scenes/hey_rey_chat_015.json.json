@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:26.6943486Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\hey_rey_chat_015.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "パドレから伝言だ。街を出ろ",
+                    "maleVariant": null,
+                    "stringId": 2161802766998335488
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "伝言！？ 何それ、私はあいつの所有物じゃないんだけど。何様のつもり？",
+                    "maleVariant": null,
+                    "stringId": 2221378812394180608
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "騒ぐなよ。理由はわかってるだろ",
+                    "maleVariant": null,
+                    "stringId": 2221381655545090048
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ふざけんな！ じゃあどうすりゃよかったって言うのよ？ 仕方なかったんだって！",
+                    "maleVariant": null,
+                    "stringId": 2221381761879085056
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "パドレはそう思ってない",
+                    "maleVariant": null,
+                    "stringId": 2221382263266185216
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何が言いたいのよ？",
+                    "maleVariant": null,
+                    "stringId": 2221382294941569024
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いいか、お前はやり直すチャンスをもらったんだ。誰もがもらえるわけじゃない。特にあんなことがあった後で… とにかく街を出ろ",
+                    "maleVariant": null,
+                    "stringId": 2221383014902239232
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "私はずっとこの街で生きてきたのに！",
+                    "maleVariant": null,
+                    "stringId": 2221383166568271872
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2161802766998335488,
-            "femaleVariant": "パドレから伝言だ。街を出ろ"
-          },
-          {
-            "stringId": 2221378812394180608,
-            "femaleVariant": "伝言！？ 何それ、私はあいつの所有物じゃないんだけど。何様のつもり？"
-          },
-          {
-            "stringId": 2221381655545090048,
-            "femaleVariant": "騒ぐなよ。理由はわかってるだろ"
-          },
-          {
-            "stringId": 2221381761879085056,
-            "femaleVariant": "ふざけんな！ じゃあどうすりゃよかったって言うのよ？ 仕方なかったんだって！"
-          },
-          {
-            "stringId": 2221382263266185216,
-            "femaleVariant": "パドレはそう思ってない"
-          },
-          {
-            "stringId": 2221382294941569024,
-            "femaleVariant": "何が言いたいのよ？"
-          },
-          {
-            "stringId": 2221383014902239232,
-            "femaleVariant": "いいか、お前はやり直すチャンスをもらったんだ。誰もがもらえるわけじゃない。特にあんなことがあった後で… とにかく街を出ろ"
-          },
-          {
-            "stringId": 2221383166568271872,
-            "femaleVariant": "私はずっとこの街で生きてきたのに！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

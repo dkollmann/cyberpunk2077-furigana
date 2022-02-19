@@ -1,48 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:33.3265817Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\vendors\wbr_jpn_food_02.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "食事をとりたい",
+                    "maleVariant": null,
+                    "stringId": 1884923752043921408
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "体調は大丈夫？",
+                    "maleVariant": "体調は大丈夫か？",
+                    "stringId": 1884923752043921424
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "食事をとりたい",
+                    "maleVariant": null,
+                    "stringId": 1884923752094253060
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ゲホッ！ ゲホッ…！ 何にする？",
+                    "maleVariant": null,
+                    "stringId": 1884923752094253068
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "その咳、大丈夫？",
+                    "maleVariant": "その咳、大丈夫か？",
+                    "stringId": 1884923752161361924
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あんたには… ゲホッ、ゲホッ！ 関係ない",
+                    "maleVariant": null,
+                    "stringId": 1884923752161361932
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1884923752043921408,
-            "femaleVariant": "食事をとりたい"
-          },
-          {
-            "stringId": 1884923752043921424,
-            "femaleVariant": "体調は大丈夫？",
-            "maleVariant": "体調は大丈夫か？"
-          },
-          {
-            "stringId": 1884923752094253060,
-            "femaleVariant": "食事をとりたい"
-          },
-          {
-            "stringId": 1884923752094253068,
-            "femaleVariant": "ゲホッ！ ゲホッ…！ 何にする？"
-          },
-          {
-            "stringId": 1884923752161361924,
-            "femaleVariant": "その咳、大丈夫？",
-            "maleVariant": "その咳、大丈夫か？"
-          },
-          {
-            "stringId": 1884923752161361932,
-            "femaleVariant": "あんたには… ゲホッ、ゲホッ！ 関係ない"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

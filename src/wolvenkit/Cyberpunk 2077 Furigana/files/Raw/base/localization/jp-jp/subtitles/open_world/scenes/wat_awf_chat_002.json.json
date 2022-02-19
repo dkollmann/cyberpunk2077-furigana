@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.1364506Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wat_awf_chat_002.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "昨晩の試合見たか？",
+                    "maleVariant": null,
+                    "stringId": 1963247011426770944
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いや。どこのチームの試合だ？",
+                    "maleVariant": null,
+                    "stringId": 1967803834118230016
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "「どこ」って、うちに決まってんだろ！？ 20ポイント差で負けてさ。20だぞ！",
+                    "maleVariant": null,
+                    "stringId": 1967805494810955776
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "はあ、俺に連中みたいなインプラントを入れてくれたら、絶対スターになれるのに",
+                    "maleVariant": null,
+                    "stringId": 1967806006314717184
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963247011426770944,
-            "femaleVariant": "昨晩の試合見たか？"
-          },
-          {
-            "stringId": 1967803834118230016,
-            "femaleVariant": "いや。どこのチームの試合だ？"
-          },
-          {
-            "stringId": 1967805494810955776,
-            "femaleVariant": "「どこ」って、うちに決まってんだろ！？ 20ポイント差で負けてさ。20だぞ！"
-          },
-          {
-            "stringId": 1967806006314717184,
-            "femaleVariant": "はあ、俺に連中みたいなインプラントを入れてくれたら、絶対スターになれるのに"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

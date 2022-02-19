@@ -1,58 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:33.3623633Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\vendors\wbr_jpn_netrun_02.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "手を貸してよ",
+                    "maleVariant": "手を貸してくれ",
+                    "stringId": 1895292199911895040
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ワカコとは長いの？",
+                    "maleVariant": "ワカコとは長いのか？",
+                    "stringId": 1895292199911895056
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "手を貸して",
+                    "maleVariant": "手を貸してくれ",
+                    "stringId": 1895292199945449472
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "借りがあるからな",
+                    "maleVariant": null,
+                    "stringId": 1895292199945449480
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ワカコと仕事をして長いの？",
+                    "maleVariant": "ワカコと仕事をして長いのか？",
+                    "stringId": 1895292199962226692
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "若い頃から知ってる。とても美人だったんだ",
+                    "maleVariant": null,
+                    "stringId": 1895292199979003904
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "夫も全員知ってるってことか…",
+                    "maleVariant": null,
+                    "stringId": 1936122664803127296
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いやいや、俺は外から見てただけさ",
+                    "maleVariant": null,
+                    "stringId": 1936123014675189760
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1895292199911895040,
-            "femaleVariant": "手を貸してよ",
-            "maleVariant": "手を貸してくれ"
-          },
-          {
-            "stringId": 1895292199911895056,
-            "femaleVariant": "ワカコとは長いの？",
-            "maleVariant": "ワカコとは長いのか？"
-          },
-          {
-            "stringId": 1895292199945449472,
-            "femaleVariant": "手を貸して",
-            "maleVariant": "手を貸してくれ"
-          },
-          {
-            "stringId": 1895292199945449480,
-            "femaleVariant": "借りがあるからな"
-          },
-          {
-            "stringId": 1895292199962226692,
-            "femaleVariant": "ワカコと仕事をして長いの？",
-            "maleVariant": "ワカコと仕事をして長いのか？"
-          },
-          {
-            "stringId": 1895292199979003904,
-            "femaleVariant": "若い頃から知ってる。とても美人だったんだ"
-          },
-          {
-            "stringId": 1936122664803127296,
-            "femaleVariant": "夫も全員知ってるってことか…"
-          },
-          {
-            "stringId": 1936123014675189760,
-            "femaleVariant": "いやいや、俺は外から見てただけさ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:26.5210652Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\hey_gle_chat_017.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "お隣さんが出てくことになって、妹が落ち込んじゃってさ。そこの子と仲良かったから… 名前はバートだっけな",
+                    "maleVariant": null,
+                    "stringId": 2161749616877449216
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "妹にどう説明するんだ？",
+                    "maleVariant": null,
+                    "stringId": 2176632322600452096
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ん… 逃げないとヴァレンティーノズに捕まっちゃうから、その方がいいんだよって",
+                    "maleVariant": null,
+                    "stringId": 2176632676633264128
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "連中ももう少し俺たちに寄り添ってくれないもんかね。あれだけ金を払ってるってのに",
+                    "maleVariant": null,
+                    "stringId": 2176632899988340736
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "で、そのお隣さんたちは何をしたんだ？",
+                    "maleVariant": null,
+                    "stringId": 2176633055966117888
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "バートのお姉ちゃんが「シックス・ストリートに行った」んだって",
+                    "maleVariant": null,
+                    "stringId": 2176633258903322624
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そしたらうちの妹がさ、「シックス・ストリートってどこ？ 行っちゃいけないとこなの？」なんて聞いてくるの。参っちゃうよ",
+                    "maleVariant": null,
+                    "stringId": 2176633846760194048
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そりゃつらいな",
+                    "maleVariant": null,
+                    "stringId": 2218431679167184896
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2161749616877449216,
-            "femaleVariant": "お隣さんが出てくことになって、妹が落ち込んじゃってさ。そこの子と仲良かったから… 名前はバートだっけな"
-          },
-          {
-            "stringId": 2176632322600452096,
-            "femaleVariant": "妹にどう説明するんだ？"
-          },
-          {
-            "stringId": 2176632676633264128,
-            "femaleVariant": "ん… 逃げないとヴァレンティーノズに捕まっちゃうから、その方がいいんだよって"
-          },
-          {
-            "stringId": 2176632899988340736,
-            "femaleVariant": "連中ももう少し俺たちに寄り添ってくれないもんかね。あれだけ金を払ってるってのに"
-          },
-          {
-            "stringId": 2176633055966117888,
-            "femaleVariant": "で、そのお隣さんたちは何をしたんだ？"
-          },
-          {
-            "stringId": 2176633258903322624,
-            "femaleVariant": "バートのお姉ちゃんが「シックス・ストリートに行った」んだって"
-          },
-          {
-            "stringId": 2176633846760194048,
-            "femaleVariant": "そしたらうちの妹がさ、「シックス・ストリートってどこ？ 行っちゃいけないとこなの？」なんて聞いてくるの。参っちゃうよ"
-          },
-          {
-            "stringId": 2218431679167184896,
-            "femaleVariant": "そりゃつらいな"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

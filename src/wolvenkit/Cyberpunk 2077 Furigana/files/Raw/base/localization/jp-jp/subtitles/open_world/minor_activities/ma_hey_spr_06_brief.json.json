@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:23.2190576Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\minor_activities\ma_hey_spr_06_brief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "V、ゼータテクのコーポ数名がオートショップに入った後… 行方不明になってるの",
+                    "maleVariant": null,
+                    "stringId": 2357655775014432768
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "家族経営の店なんだけど、経営は火の車だったみたい",
+                    "maleVariant": null,
+                    "stringId": 2357678334598590464
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "オーナーが精神的に耐えきれなくなった可能性がある。私の直感がそう言ってるわ",
+                    "maleVariant": null,
+                    "stringId": 2357679071772684288
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2357655775014432768,
-            "femaleVariant": "V、ゼータテクのコーポ数名がオートショップに入った後… 行方不明になってるの"
-          },
-          {
-            "stringId": 2357678334598590464,
-            "femaleVariant": "家族経営の店なんだけど、経営は火の車だったみたい"
-          },
-          {
-            "stringId": 2357679071772684288,
-            "femaleVariant": "オーナーが精神的に耐えきれなくなった可能性がある。私の直感がそう言ってるわ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

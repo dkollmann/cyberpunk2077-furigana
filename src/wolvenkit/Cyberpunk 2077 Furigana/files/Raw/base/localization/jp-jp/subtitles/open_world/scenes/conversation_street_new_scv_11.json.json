@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:25.2409178Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\conversation_street_new_scv_11.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="rus" o="Хочется уехать уже отсюда. Пожить где-нибудь нормально." t="もうこんな場所はうんざりだ。普通の生活がしたい" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 2276537681730248720
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="rus" o="Если ты уедешь, кто ж тут останется?" t="その時は、何を捨てて何を持っていくつもり？" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 2276537681730248732
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="rus" o="Как это кто? Малолетние пёзды, конечно." t="何をって？ 性病だけは持っていきたくないな" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 2276537681747025920
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2276537681730248720,
-            "femaleVariant": "<kiroshi l=\"rus\" o=\"Хочется уехать уже отсюда. Пожить где-нибудь нормально.\" t=\"もうこんな場所はうんざりだ。普通の生活がしたい\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 2276537681730248732,
-            "femaleVariant": "<kiroshi l=\"rus\" o=\"Если ты уедешь, кто ж тут останется?\" t=\"その時は、何を捨てて何を持っていくつもり？\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 2276537681747025920,
-            "femaleVariant": "<kiroshi l=\"rus\" o=\"Как это кто? Малолетние пёзды, конечно.\" t=\"何をって？ 性病だけは持っていきたくないな\" b=\"\" a=\"\"/>"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

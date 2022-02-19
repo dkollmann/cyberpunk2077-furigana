@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.5291546Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wat_lch_chat_018.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "悪いけど満額は払えない。諦めて",
+                    "maleVariant": null,
+                    "stringId": 2156487448952336384
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なんでだ？ クライアントはちゃんと送り届けた",
+                    "maleVariant": null,
+                    "stringId": 2169349781556875264
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ええ。腹を撃たれて、脚が折れた状態でね",
+                    "maleVariant": null,
+                    "stringId": 2169350026386788352
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "俺は無茶するな、下がってろって言ったんだ。なのにあのバカが、モーガン・ブラックハンドを気取りやがった",
+                    "maleVariant": null,
+                    "stringId": 2169350448098889728
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あんたの気持ちは痛いほどわかる。でもクライアントってのはバカなのよ。その扱いを覚えるのも仕事のうち。わかった？ これ以上ごねるなら、こっちにも考えがあるわ",
+                    "maleVariant": null,
+                    "stringId": 2169351026694737920
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "とにかく、話はこれで終わり。引くったって10%だけよ。いい？ よし",
+                    "maleVariant": null,
+                    "stringId": 2169352399624654848
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2156487448952336384,
-            "femaleVariant": "悪いけど満額は払えない。諦めて"
-          },
-          {
-            "stringId": 2169349781556875264,
-            "femaleVariant": "なんでだ？ クライアントはちゃんと送り届けた"
-          },
-          {
-            "stringId": 2169350026386788352,
-            "femaleVariant": "ええ。腹を撃たれて、脚が折れた状態でね"
-          },
-          {
-            "stringId": 2169350448098889728,
-            "femaleVariant": "俺は無茶するな、下がってろって言ったんだ。なのにあのバカが、モーガン・ブラックハンドを気取りやがった"
-          },
-          {
-            "stringId": 2169351026694737920,
-            "femaleVariant": "あんたの気持ちは痛いほどわかる。でもクライアントってのはバカなのよ。その扱いを覚えるのも仕事のうち。わかった？ これ以上ごねるなら、こっちにも考えがあるわ"
-          },
-          {
-            "stringId": 2169352399624654848,
-            "femaleVariant": "とにかく、話はこれで終わり。引くったって10%だけよ。いい？ よし"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

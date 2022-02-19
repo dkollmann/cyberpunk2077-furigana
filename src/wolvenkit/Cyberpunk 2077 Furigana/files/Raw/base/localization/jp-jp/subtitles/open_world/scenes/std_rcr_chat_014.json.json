@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:28.9620615Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\std_rcr_chat_014.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ここの怠け者どもにはうんざりだ…",
+                    "maleVariant": null,
+                    "stringId": 2167583306455732224
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ホント、プライドってものがないのよね",
+                    "maleVariant": null,
+                    "stringId": 2214544611510423552
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "うちの上の連中なんか特にだ。伝説のロッカーボーイだか何だか知らないが、夜通しクスリを吸ったり大音量で音楽を流してるだけだ。おかげで一睡もできやしない",
+                    "maleVariant": null,
+                    "stringId": 2228790780600094720
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "苦情を言ったら、仕返しされるしね…",
+                    "maleVariant": null,
+                    "stringId": 2228826334876241920
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "昔はよかった。あの頃に戻ればいいのにな…",
+                    "maleVariant": null,
+                    "stringId": 2228826932262572032
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "昔って、クズみたいな連中はメガブロックに住めなかった頃のこと？",
+                    "maleVariant": null,
+                    "stringId": 2228827845245112320
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そうだ",
+                    "maleVariant": null,
+                    "stringId": 2228829954459930624
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2167583306455732224,
-            "femaleVariant": "ここの怠け者どもにはうんざりだ…"
-          },
-          {
-            "stringId": 2214544611510423552,
-            "femaleVariant": "ホント、プライドってものがないのよね"
-          },
-          {
-            "stringId": 2228790780600094720,
-            "femaleVariant": "うちの上の連中なんか特にだ。伝説のロッカーボーイだか何だか知らないが、夜通しクスリを吸ったり大音量で音楽を流してるだけだ。おかげで一睡もできやしない"
-          },
-          {
-            "stringId": 2228826334876241920,
-            "femaleVariant": "苦情を言ったら、仕返しされるしね…"
-          },
-          {
-            "stringId": 2228826932262572032,
-            "femaleVariant": "昔はよかった。あの頃に戻ればいいのにな…"
-          },
-          {
-            "stringId": 2228827845245112320,
-            "femaleVariant": "昔って、クズみたいな連中はメガブロックに住めなかった頃のこと？"
-          },
-          {
-            "stringId": 2228829954459930624,
-            "femaleVariant": "そうだ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

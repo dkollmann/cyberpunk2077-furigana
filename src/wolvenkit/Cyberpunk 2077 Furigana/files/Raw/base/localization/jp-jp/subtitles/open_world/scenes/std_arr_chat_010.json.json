@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:28.7689646Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\std_arr_chat_010.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "『ビッグ・イート・ショー』の最新話、見たか？ 東ヨーロッパのやつ",
+                    "maleVariant": null,
+                    "stringId": 1963264479763406848
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あー、思い出させないでくれ… 見た後、その日に食べたもの全部吐きそうになったんだぞ",
+                    "maleVariant": null,
+                    "stringId": 1969019417605685248
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "まったく… あのキノコは何だったんだ…？ マッシュルームならまだわかるが、あの黒いヤニみたいなのを食える奴の気がしれない",
+                    "maleVariant": null,
+                    "stringId": 1969020460712312832
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "だよな。しかも毒みたいなもんだから、酒と一緒に流し込むわけにもいかないらしいぞ",
+                    "maleVariant": null,
+                    "stringId": 1969020680711946240
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "東ヨーロッパの奴らは何考えてんだか。培養肉バーガーとか、もっとマシなもんを食えばいいのに",
+                    "maleVariant": null,
+                    "stringId": 1969020896517275648
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "アメリカに生まれてきてよかったな",
+                    "maleVariant": null,
+                    "stringId": 1969021102273052672
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963264479763406848,
-            "femaleVariant": "『ビッグ・イート・ショー』の最新話、見たか？ 東ヨーロッパのやつ"
-          },
-          {
-            "stringId": 1969019417605685248,
-            "femaleVariant": "あー、思い出させないでくれ… 見た後、その日に食べたもの全部吐きそうになったんだぞ"
-          },
-          {
-            "stringId": 1969020460712312832,
-            "femaleVariant": "まったく… あのキノコは何だったんだ…？ マッシュルームならまだわかるが、あの黒いヤニみたいなのを食える奴の気がしれない"
-          },
-          {
-            "stringId": 1969020680711946240,
-            "femaleVariant": "だよな。しかも毒みたいなもんだから、酒と一緒に流し込むわけにもいかないらしいぞ"
-          },
-          {
-            "stringId": 1969020896517275648,
-            "femaleVariant": "東ヨーロッパの奴らは何考えてんだか。培養肉バーガーとか、もっとマシなもんを食えばいいのに"
-          },
-          {
-            "stringId": 1969021102273052672,
-            "femaleVariant": "アメリカに生まれてきてよかったな"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

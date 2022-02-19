@@ -1,50 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:32.9915462Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\vendors\hey_spr_clothingshop_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ここならあたし好みのいいモノが見つかりそう",
+                    "maleVariant": "ここなら俺好みのいいモノが見つかりそうだ",
+                    "stringId": 1740348629291868164
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "少しはダイエットしたら？",
+                    "maleVariant": "少しはダイエットしたらどうだ？",
+                    "stringId": 1740348757520130048
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ここならあたし好みのいいモノが見つかりそう",
+                    "maleVariant": "ここなら俺好みのいいモノが見つかりそうだ",
+                    "stringId": 1740370914904088576
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "“そう”？ きっと見つかるわよ！ ファッションは心よ。まず試着して、感じてみて！",
+                    "maleVariant": null,
+                    "stringId": 1740371606846808064
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "もう少し痩せれば、そのパンツも映えるのに",
+                    "maleVariant": null,
+                    "stringId": 1740371878822256640
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "全然わかってないね。私みたいな体型でないと着れない服もたくさんあるんだよ",
+                    "maleVariant": "わかってないね、お兄さん。甘ーいボディになればなるほど、いっぱい服を着れるのよ",
+                    "stringId": 1740373423802523648
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1740348629291868164,
-            "femaleVariant": "ここならあたし好みのいいモノが見つかりそう",
-            "maleVariant": "ここなら俺好みのいいモノが見つかりそうだ"
-          },
-          {
-            "stringId": 1740348757520130048,
-            "femaleVariant": "少しはダイエットしたら？",
-            "maleVariant": "少しはダイエットしたらどうだ？"
-          },
-          {
-            "stringId": 1740370914904088576,
-            "femaleVariant": "ここならあたし好みのいいモノが見つかりそう",
-            "maleVariant": "ここなら俺好みのいいモノが見つかりそうだ"
-          },
-          {
-            "stringId": 1740371606846808064,
-            "femaleVariant": "“そう”？ きっと見つかるわよ！ ファッションは心よ。まず試着して、感じてみて！"
-          },
-          {
-            "stringId": 1740371878822256640,
-            "femaleVariant": "もう少し痩せれば、そのパンツも映えるのに"
-          },
-          {
-            "stringId": 1740373423802523648,
-            "femaleVariant": "全然わかってないね。私みたいな体型でないと着れない服もたくさんあるんだよ",
-            "maleVariant": "わかってないね、お兄さん。甘ーいボディになればなるほど、いっぱい服を着れるのよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

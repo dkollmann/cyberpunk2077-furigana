@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:21.6421855Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\media\fluff\jefferson_peralez_ad.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "昨年、ナイトシティ議会は全部で32の企業に対し、法人税の支払い義務を免除しました",
+                    "maleVariant": null,
+                    "stringId": 1793610736917716992
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "例を挙げると、カン・タオ、アラサカ、ムーア・テクノロジー、ダイナラーです",
+                    "maleVariant": null,
+                    "stringId": 1803789058476589056
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "合計すると、これらの企業の純利益は、数十兆ユーロドルという途方もない額になります",
+                    "maleVariant": null,
+                    "stringId": 1803789243176960000
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "この世にも恐ろしい企業誘致法案は、なんと99対1で可決されてしまいました",
+                    "maleVariant": null,
+                    "stringId": 1803789581271416832
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "反対の1票は私が投じたものです",
+                    "maleVariant": null,
+                    "stringId": 1803789797361958912
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "皆さんが私を市長に選んでさえくれれば、誘致法案は… 絶対に何とかしてみせます",
+                    "maleVariant": null,
+                    "stringId": 1803790006741614592
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ジェファーソン・ペラレスに一票を。それでは、ご清聴ありがとうございました",
+                    "maleVariant": null,
+                    "stringId": 1803790278784172032
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1793610736917716992,
-            "femaleVariant": "昨年、ナイトシティ議会は全部で32の企業に対し、法人税の支払い義務を免除しました"
-          },
-          {
-            "stringId": 1803789058476589056,
-            "femaleVariant": "例を挙げると、カン・タオ、アラサカ、ムーア・テクノロジー、ダイナラーです"
-          },
-          {
-            "stringId": 1803789243176960000,
-            "femaleVariant": "合計すると、これらの企業の純利益は、数十兆ユーロドルという途方もない額になります"
-          },
-          {
-            "stringId": 1803789581271416832,
-            "femaleVariant": "この世にも恐ろしい企業誘致法案は、なんと99対1で可決されてしまいました"
-          },
-          {
-            "stringId": 1803789797361958912,
-            "femaleVariant": "反対の1票は私が投じたものです"
-          },
-          {
-            "stringId": 1803790006741614592,
-            "femaleVariant": "皆さんが私を市長に選んでさえくれれば、誘致法案は… 絶対に何とかしてみせます"
-          },
-          {
-            "stringId": 1803790278784172032,
-            "femaleVariant": "ジェファーソン・ペラレスに一票を。それでは、ご清聴ありがとうございました"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

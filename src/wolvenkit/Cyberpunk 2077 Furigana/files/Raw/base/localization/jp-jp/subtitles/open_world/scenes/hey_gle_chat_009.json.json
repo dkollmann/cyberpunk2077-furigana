@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:26.4848735Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\hey_gle_chat_009.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あなたはスタッフにも、素晴らしいブレーンにもなれる。でもそこまで。キャンペーンの主役には絶対になれない",
+                    "maleVariant": null,
+                    "stringId": 1832762598201352192
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "私ならやれるわ",
+                    "maleVariant": null,
+                    "stringId": 1832764961221894144
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "意気込みはわかるけど、何かが… 足りないのよ。人が求めるような何かが",
+                    "maleVariant": null,
+                    "stringId": 1832765131930066944
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "トンプソンの後ろ盾があれば、議席を取れる可能性は十分ある。退くつもりはないわ",
+                    "maleVariant": null,
+                    "stringId": 1832765298896920576
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "トンプソンはアラサカと組んだ",
+                    "maleVariant": null,
+                    "stringId": 1832767069799178240
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "え？",
+                    "maleVariant": null,
+                    "stringId": 1832767235692290048
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "じゃ、頑張ってね",
+                    "maleVariant": null,
+                    "stringId": 1832767383868661760
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1832762598201352192,
-            "femaleVariant": "あなたはスタッフにも、素晴らしいブレーンにもなれる。でもそこまで。キャンペーンの主役には絶対になれない"
-          },
-          {
-            "stringId": 1832764961221894144,
-            "femaleVariant": "私ならやれるわ"
-          },
-          {
-            "stringId": 1832765131930066944,
-            "femaleVariant": "意気込みはわかるけど、何かが… 足りないのよ。人が求めるような何かが"
-          },
-          {
-            "stringId": 1832765298896920576,
-            "femaleVariant": "トンプソンの後ろ盾があれば、議席を取れる可能性は十分ある。退くつもりはないわ"
-          },
-          {
-            "stringId": 1832767069799178240,
-            "femaleVariant": "トンプソンはアラサカと組んだ"
-          },
-          {
-            "stringId": 1832767235692290048,
-            "femaleVariant": "え？"
-          },
-          {
-            "stringId": 1832767383868661760,
-            "femaleVariant": "じゃ、頑張ってね"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

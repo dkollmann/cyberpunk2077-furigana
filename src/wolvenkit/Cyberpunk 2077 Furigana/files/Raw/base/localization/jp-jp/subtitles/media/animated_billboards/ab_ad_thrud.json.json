@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:21.2987476Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\media\animated_billboards\ab_ad_thrud.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "怒れ！",
+                    "maleVariant": null,
+                    "stringId": 1985322358940803072
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "猛れ！",
+                    "maleVariant": null,
+                    "stringId": 1993608852213649408
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "戦え！",
+                    "maleVariant": null,
+                    "stringId": 1993609399587098624
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "スルード！ 本能に従え！",
+                    "maleVariant": null,
+                    "stringId": 1993609676729929728
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1985322358940803072,
-            "femaleVariant": "怒れ！"
-          },
-          {
-            "stringId": 1993608852213649408,
-            "femaleVariant": "猛れ！"
-          },
-          {
-            "stringId": 1993609399587098624,
-            "femaleVariant": "戦え！"
-          },
-          {
-            "stringId": 1993609676729929728,
-            "femaleVariant": "スルード！ 本能に従え！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

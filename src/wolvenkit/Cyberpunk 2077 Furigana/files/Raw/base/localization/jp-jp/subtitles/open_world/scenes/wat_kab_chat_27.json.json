@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.4247584Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wat_kab_chat_27.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いや、まだそこまではわかっていません…",
+                    "maleVariant": null,
+                    "stringId": 2156558223988465664
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ここではよそ者は信用されませんから…",
+                    "maleVariant": null,
+                    "stringId": 2212774054677815296
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "しかしヨリ… 息子が先代を殺したなどと表立って騒ぐ者はいないでしょう…",
+                    "maleVariant": null,
+                    "stringId": 2212775357378306048
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いえ、名前はわかりません。バーや通りで、そういう話が耳に入ってきただけで…",
+                    "maleVariant": null,
+                    "stringId": 2212776938144374784
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どのバーかって…？",
+                    "maleVariant": null,
+                    "stringId": 2212777750295846912
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そんな、カブキ中のバーに急襲部隊を送り込むなんて無茶です！",
+                    "maleVariant": null,
+                    "stringId": 2212777854247477248
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "落ち着いてください。これ以上、噂が広まるのはもちろん阻止――",
+                    "maleVariant": null,
+                    "stringId": 2212778988756377600
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ええ、私が個別に対処します。すぐにご報告しますので",
+                    "maleVariant": null,
+                    "stringId": 2212786870088474624
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2156558223988465664,
-            "femaleVariant": "いや、まだそこまではわかっていません…"
-          },
-          {
-            "stringId": 2212774054677815296,
-            "femaleVariant": "ここではよそ者は信用されませんから…"
-          },
-          {
-            "stringId": 2212775357378306048,
-            "femaleVariant": "しかしヨリ… 息子が先代を殺したなどと表立って騒ぐ者はいないでしょう…"
-          },
-          {
-            "stringId": 2212776938144374784,
-            "femaleVariant": "いえ、名前はわかりません。バーや通りで、そういう話が耳に入ってきただけで…"
-          },
-          {
-            "stringId": 2212777750295846912,
-            "femaleVariant": "どのバーかって…？"
-          },
-          {
-            "stringId": 2212777854247477248,
-            "femaleVariant": "そんな、カブキ中のバーに急襲部隊を送り込むなんて無茶です！"
-          },
-          {
-            "stringId": 2212778988756377600,
-            "femaleVariant": "落ち着いてください。これ以上、噂が広まるのはもちろん阻止――"
-          },
-          {
-            "stringId": 2212786870088474624,
-            "femaleVariant": "ええ、私が個別に対処します。すぐにご報告しますので"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

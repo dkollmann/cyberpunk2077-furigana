@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:27.8047337Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\pac_cvi_chat_031.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "クレーターサイズの巨大なクソ溜め。それがパシフィカだ",
+                    "maleVariant": null,
+                    "stringId": 2179548064633876480
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ヴードゥー・ボーイズが頑張ってるだろ",
+                    "maleVariant": null,
+                    "stringId": 2188366581593784320
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "隠れ家にこもって、ネットウォッチと追いかけっこして――それのどこが頑張ってるって言うんだ",
+                    "maleVariant": null,
+                    "stringId": 2188366900478328832
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "じゃあ企業や警察がここをうろついてた方がいいってのか？ 俺は今のままでいい",
+                    "maleVariant": null,
+                    "stringId": 2188367026391334912
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "少なくとも警察は、見せかけだけでも一定の秩序を保とうとする",
+                    "maleVariant": null,
+                    "stringId": 2188367147975819264
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なのに今のここはどうだ？ コンバット・ゾーンだぞ！ 地域限定版のこの世の終わりだな！",
+                    "maleVariant": null,
+                    "stringId": 2188367360325042176
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "まあな… 地区のはずれじゃ、目をくり抜かれた死体が見つかってるらしいぞ",
+                    "maleVariant": null,
+                    "stringId": 2188367496941912064
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "勘弁してくれ。最悪だ",
+                    "maleVariant": null,
+                    "stringId": 2188367858256035840
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2179548064633876480,
-            "femaleVariant": "クレーターサイズの巨大なクソ溜め。それがパシフィカだ"
-          },
-          {
-            "stringId": 2188366581593784320,
-            "femaleVariant": "ヴードゥー・ボーイズが頑張ってるだろ"
-          },
-          {
-            "stringId": 2188366900478328832,
-            "femaleVariant": "隠れ家にこもって、ネットウォッチと追いかけっこして――それのどこが頑張ってるって言うんだ"
-          },
-          {
-            "stringId": 2188367026391334912,
-            "femaleVariant": "じゃあ企業や警察がここをうろついてた方がいいってのか？ 俺は今のままでいい"
-          },
-          {
-            "stringId": 2188367147975819264,
-            "femaleVariant": "少なくとも警察は、見せかけだけでも一定の秩序を保とうとする"
-          },
-          {
-            "stringId": 2188367360325042176,
-            "femaleVariant": "なのに今のここはどうだ？ コンバット・ゾーンだぞ！ 地域限定版のこの世の終わりだな！"
-          },
-          {
-            "stringId": 2188367496941912064,
-            "femaleVariant": "まあな… 地区のはずれじゃ、目をくり抜かれた死体が見つかってるらしいぞ"
-          },
-          {
-            "stringId": 2188367858256035840,
-            "femaleVariant": "勘弁してくれ。最悪だ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

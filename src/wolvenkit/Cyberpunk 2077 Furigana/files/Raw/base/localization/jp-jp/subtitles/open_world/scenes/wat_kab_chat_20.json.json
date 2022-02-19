@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.3798686Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wat_kab_chat_20.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "これ、いくらだ？",
+                    "maleVariant": null,
+                    "stringId": 2156459956411801600
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "売り物じゃない。客が逃げるからどっか行ってくれ",
+                    "maleVariant": null,
+                    "stringId": 2169196822621638656
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なんだと？ 俺も客だぞ！ 金だってある！",
+                    "maleVariant": null,
+                    "stringId": 2169197143938879488
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そりゃよかったな。さっさと消えないと痛い目見るぞ",
+                    "maleVariant": null,
+                    "stringId": 2169197406737190912
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ちくしょう！ こんな店！ レビューで星0にしてやる！",
+                    "maleVariant": null,
+                    "stringId": 2169198323830149120
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2156459956411801600,
-            "femaleVariant": "これ、いくらだ？"
-          },
-          {
-            "stringId": 2169196822621638656,
-            "femaleVariant": "売り物じゃない。客が逃げるからどっか行ってくれ"
-          },
-          {
-            "stringId": 2169197143938879488,
-            "femaleVariant": "なんだと？ 俺も客だぞ！ 金だってある！"
-          },
-          {
-            "stringId": 2169197406737190912,
-            "femaleVariant": "そりゃよかったな。さっさと消えないと痛い目見るぞ"
-          },
-          {
-            "stringId": 2169198323830149120,
-            "femaleVariant": "ちくしょう！ こんな店！ レビューで星0にしてやる！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

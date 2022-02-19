@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.7551926Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wat_nid_chat_009.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "クソ、もしトラブルに巻き込まれてたら、親父が何て言うか…",
+                    "maleVariant": null,
+                    "stringId": 1963288585217024000
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "落ち着け。どうせ入れやしない。トーテンタンツなんて俺たちみたいな奴が行くような場所じゃないんだ",
+                    "maleVariant": null,
+                    "stringId": 1964994819994140672
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "きっとギャングの誰かとデートしてるだけだ。放っといてあげな",
+                    "maleVariant": null,
+                    "stringId": 1964995475110871040
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "妹がメイルストロームのクローム野郎とヤッてるかもしれないのに、放っておけるわけがないだろ！",
+                    "maleVariant": null,
+                    "stringId": 1964995763276333056
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "だから落ち着けって。メイルストロームだって見た目はアレだけど、中身は人間だ",
+                    "maleVariant": null,
+                    "stringId": 1964996161114456064
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "自分の脳みそまでクロームにしようとしてる奴らの、どこが人間なんだよ！？",
+                    "maleVariant": null,
+                    "stringId": 1964996415322832896
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963288585217024000,
-            "femaleVariant": "クソ、もしトラブルに巻き込まれてたら、親父が何て言うか…"
-          },
-          {
-            "stringId": 1964994819994140672,
-            "femaleVariant": "落ち着け。どうせ入れやしない。トーテンタンツなんて俺たちみたいな奴が行くような場所じゃないんだ"
-          },
-          {
-            "stringId": 1964995475110871040,
-            "femaleVariant": "きっとギャングの誰かとデートしてるだけだ。放っといてあげな"
-          },
-          {
-            "stringId": 1964995763276333056,
-            "femaleVariant": "妹がメイルストロームのクローム野郎とヤッてるかもしれないのに、放っておけるわけがないだろ！"
-          },
-          {
-            "stringId": 1964996161114456064,
-            "femaleVariant": "だから落ち着けって。メイルストロームだって見た目はアレだけど、中身は人間だ"
-          },
-          {
-            "stringId": 1964996415322832896,
-            "femaleVariant": "自分の脳みそまでクロームにしようとしてる奴らの、どこが人間なんだよ！？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

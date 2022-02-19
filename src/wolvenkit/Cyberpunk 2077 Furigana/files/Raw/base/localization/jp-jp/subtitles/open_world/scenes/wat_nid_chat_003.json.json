@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.7155060Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wat_nid_chat_003.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ふう！ やっぱクズを殺ると気分がスカッとする",
+                    "maleVariant": null,
+                    "stringId": 1802510207875145728
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あのあきらめた瞬間… 死を悟った時の顔がまた、たまんねえんだ",
+                    "maleVariant": null,
+                    "stringId": 1802510776069120000
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "抵抗しねえ奴を殺っても、つまんねえだろ",
+                    "maleVariant": null,
+                    "stringId": 1802512292377124864
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いいや",
+                    "maleVariant": null,
+                    "stringId": 1802512551601889280
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あんな小物を叩いて何が楽しい？ チョロすぎる",
+                    "maleVariant": null,
+                    "stringId": 1802512644564443136
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "小物だろうがプロだろうが関係ねえ。目から光が消える瞬間を見たいだけだ",
+                    "maleVariant": null,
+                    "stringId": 1802512836395130880
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1802510207875145728,
-            "femaleVariant": "ふう！ やっぱクズを殺ると気分がスカッとする"
-          },
-          {
-            "stringId": 1802510776069120000,
-            "femaleVariant": "あのあきらめた瞬間… 死を悟った時の顔がまた、たまんねえんだ"
-          },
-          {
-            "stringId": 1802512292377124864,
-            "femaleVariant": "抵抗しねえ奴を殺っても、つまんねえだろ"
-          },
-          {
-            "stringId": 1802512551601889280,
-            "femaleVariant": "いいや"
-          },
-          {
-            "stringId": 1802512644564443136,
-            "femaleVariant": "あんな小物を叩いて何が楽しい？ チョロすぎる"
-          },
-          {
-            "stringId": 1802512836395130880,
-            "femaleVariant": "小物だろうがプロだろうが関係ねえ。目から光が消える瞬間を見たいだけだ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

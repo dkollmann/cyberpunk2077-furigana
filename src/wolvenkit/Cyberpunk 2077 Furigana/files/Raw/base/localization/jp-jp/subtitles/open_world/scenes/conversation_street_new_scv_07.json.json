@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:25.2140382Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\conversation_street_new_scv_07.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "カン・タオのリムジンが湾岸沿いの倉庫の前に停まっててさ。で、中にいた男がバーチャを見てたのよ",
+                    "maleVariant": null,
+                    "stringId": 2276536725043060744
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "え、気づかれなかったわけ？ ていうか… ヤッたの？",
+                    "maleVariant": null,
+                    "stringId": 2276536725043060756
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "やろうと思ったけど、向こうが勃たなかったのよ。ムカついたから、みんなを呼んで… 車はバラして、男は沈めたわ",
+                    "maleVariant": null,
+                    "stringId": 2276536725043060768
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2276536725043060744,
-            "femaleVariant": "カン・タオのリムジンが湾岸沿いの倉庫の前に停まっててさ。で、中にいた男がバーチャを見てたのよ"
-          },
-          {
-            "stringId": 2276536725043060756,
-            "femaleVariant": "え、気づかれなかったわけ？ ていうか… ヤッたの？"
-          },
-          {
-            "stringId": 2276536725043060768,
-            "femaleVariant": "やろうと思ったけど、向こうが勃たなかったのよ。ムカついたから、みんなを呼んで… 車はバラして、男は沈めたわ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

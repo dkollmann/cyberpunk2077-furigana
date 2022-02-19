@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:30.2671886Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wbr_nok_chat_005.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "アリスのこと聞いた？ お父さんのことでもっと落ち込んでるかと思ったけど…",
+                    "maleVariant": null,
+                    "stringId": 1963359110190727168
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あの子は元々、父親のことを嫌ってたから",
+                    "maleVariant": null,
+                    "stringId": 1979172214680162304
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "確かにラインは嫌われ者だったけど、父親であることに変わりはないでしょ？",
+                    "maleVariant": null,
+                    "stringId": 1979172299807756288
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それにしても、すごい話よね。心臓発作だっけ？",
+                    "maleVariant": null,
+                    "stringId": 1979172378677448704
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ええ。市長があんなことになるなんて、それ自体が何よりのスキャンダルよ",
+                    "maleVariant": null,
+                    "stringId": 1979172470750810112
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963359110190727168,
-            "femaleVariant": "アリスのこと聞いた？ お父さんのことでもっと落ち込んでるかと思ったけど…"
-          },
-          {
-            "stringId": 1979172214680162304,
-            "femaleVariant": "あの子は元々、父親のことを嫌ってたから"
-          },
-          {
-            "stringId": 1979172299807756288,
-            "femaleVariant": "確かにラインは嫌われ者だったけど、父親であることに変わりはないでしょ？"
-          },
-          {
-            "stringId": 1979172378677448704,
-            "femaleVariant": "それにしても、すごい話よね。心臓発作だっけ？"
-          },
-          {
-            "stringId": 1979172470750810112,
-            "femaleVariant": "ええ。市長があんなことになるなんて、それ自体が何よりのスキャンダルよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

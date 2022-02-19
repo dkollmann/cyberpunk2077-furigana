@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:36.0003864Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\quest\mq017\mq017_streetkid_chicken_test.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db]Play with debug options?",
+                    "maleVariant": null,
+                    "stringId": 1832995699194470400
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db]Yes.",
+                    "maleVariant": null,
+                    "stringId": 1832996087100481540
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db]No.",
+                    "maleVariant": null,
+                    "stringId": 1832996367279988736
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db]Beginning (Coyote).",
+                    "maleVariant": null,
+                    "stringId": 1916839510055723012
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db]Required lifepath & facts were set.",
+                    "maleVariant": null,
+                    "stringId": 1916840180104175616
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db]Truck scene (Santo Domingo).",
+                    "maleVariant": null,
+                    "stringId": 1916857916641386496
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1832995699194470400,
-            "femaleVariant": "[en_us][db_db]Play with debug options?"
-          },
-          {
-            "stringId": 1832996087100481540,
-            "femaleVariant": "[en_us][db_db]Yes."
-          },
-          {
-            "stringId": 1832996367279988736,
-            "femaleVariant": "[en_us][db_db]No."
-          },
-          {
-            "stringId": 1916839510055723012,
-            "femaleVariant": "[en_us][db_db]Beginning (Coyote)."
-          },
-          {
-            "stringId": 1916840180104175616,
-            "femaleVariant": "[en_us][db_db]Required lifepath & facts were set."
-          },
-          {
-            "stringId": 1916857916641386496,
-            "femaleVariant": "[en_us][db_db]Truck scene (Santo Domingo)."
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

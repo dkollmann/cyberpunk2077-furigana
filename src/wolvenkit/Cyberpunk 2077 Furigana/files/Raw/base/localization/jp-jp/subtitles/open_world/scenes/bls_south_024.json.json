@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:23.9298858Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\bls_south_024.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "発電量が少なくて当然だ。パネルが埃まみれになってやがる",
+                    "maleVariant": null,
+                    "stringId": 2178303088333938688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "研究所の人たちには、嵐を止める方法も考えてほしいものね",
+                    "maleVariant": null,
+                    "stringId": 2188194950707658752
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "俺たちにできることはない。報告して清掃員を送ってもらおう",
+                    "maleVariant": null,
+                    "stringId": 2188195143947632640
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "清掃員が来たってどうせ手抜きをされて、私たちが文句を言われるんでしょ。目に見えてる",
+                    "maleVariant": null,
+                    "stringId": 2188195292644098048
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "とにかく他に損害がないか確かめよう",
+                    "maleVariant": null,
+                    "stringId": 2188195402450976768
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "はいはい。急かさないでよ",
+                    "maleVariant": null,
+                    "stringId": 2188195579601600512
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2178303088333938688,
-            "femaleVariant": "発電量が少なくて当然だ。パネルが埃まみれになってやがる"
-          },
-          {
-            "stringId": 2188194950707658752,
-            "femaleVariant": "研究所の人たちには、嵐を止める方法も考えてほしいものね"
-          },
-          {
-            "stringId": 2188195143947632640,
-            "femaleVariant": "俺たちにできることはない。報告して清掃員を送ってもらおう"
-          },
-          {
-            "stringId": 2188195292644098048,
-            "femaleVariant": "清掃員が来たってどうせ手抜きをされて、私たちが文句を言われるんでしょ。目に見えてる"
-          },
-          {
-            "stringId": 2188195402450976768,
-            "femaleVariant": "とにかく他に損害がないか確かめよう"
-          },
-          {
-            "stringId": 2188195579601600512,
-            "femaleVariant": "はいはい。急かさないでよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

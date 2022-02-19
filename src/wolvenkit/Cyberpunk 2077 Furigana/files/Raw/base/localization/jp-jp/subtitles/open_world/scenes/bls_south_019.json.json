@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:23.8986928Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\bls_south_019.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "寝ぼけたこというな。あれをどうやって越えるんだ。無理だね",
+                    "maleVariant": null,
+                    "stringId": 2178293551208062976
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "賭けるか？",
+                    "maleVariant": null,
+                    "stringId": 2182404667176894464
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あのでかい壁を見てみろ、ヒビひとつない。ネズミのイチモツだって通れやしないぞ",
+                    "maleVariant": null,
+                    "stringId": 2182404870130876416
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あのな、人が建てた壁だぞ。「過ちは人の常」だ",
+                    "maleVariant": null,
+                    "stringId": 2182405080567496704
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "州境なんて大したことない。天を隔てられないように、地も隔てられやしないのさ",
+                    "maleVariant": null,
+                    "stringId": 2182405361887854592
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "バカでかいコンクリートの壁なら可能だろ",
+                    "maleVariant": null,
+                    "stringId": 2182405481610067968
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "まあ、見ていろ。すぐにわかる",
+                    "maleVariant": null,
+                    "stringId": 2182405680252305408
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "気づいたときには、もう向こう側だ",
+                    "maleVariant": null,
+                    "stringId": 2182405930685808640
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2178293551208062976,
-            "femaleVariant": "寝ぼけたこというな。あれをどうやって越えるんだ。無理だね"
-          },
-          {
-            "stringId": 2182404667176894464,
-            "femaleVariant": "賭けるか？"
-          },
-          {
-            "stringId": 2182404870130876416,
-            "femaleVariant": "あのでかい壁を見てみろ、ヒビひとつない。ネズミのイチモツだって通れやしないぞ"
-          },
-          {
-            "stringId": 2182405080567496704,
-            "femaleVariant": "あのな、人が建てた壁だぞ。「過ちは人の常」だ"
-          },
-          {
-            "stringId": 2182405361887854592,
-            "femaleVariant": "州境なんて大したことない。天を隔てられないように、地も隔てられやしないのさ"
-          },
-          {
-            "stringId": 2182405481610067968,
-            "femaleVariant": "バカでかいコンクリートの壁なら可能だろ"
-          },
-          {
-            "stringId": 2182405680252305408,
-            "femaleVariant": "まあ、見ていろ。すぐにわかる"
-          },
-          {
-            "stringId": 2182405930685808640,
-            "femaleVariant": "気づいたときには、もう向こう側だ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

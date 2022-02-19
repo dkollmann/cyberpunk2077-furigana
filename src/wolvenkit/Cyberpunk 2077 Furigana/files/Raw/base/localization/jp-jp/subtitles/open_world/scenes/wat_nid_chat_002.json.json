@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.7041897Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wat_nid_chat_002.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "助けて！ マイケルが――マイケルが殺された！",
+                    "maleVariant": null,
+                    "stringId": 1802505240074379264
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "落ち着いて。残念ですが、我々にはどうにもできません",
+                    "maleVariant": null,
+                    "stringId": 1802506576278970368
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ウソでしょ！？ 殺人事件なのよ！",
+                    "maleVariant": null,
+                    "stringId": 1802506731166228480
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "すみませんが、法律ですから。警備に連絡されては",
+                    "maleVariant": null,
+                    "stringId": 1802506885097185280
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "誰も見当たらないの…",
+                    "maleVariant": null,
+                    "stringId": 1802507045789360128
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "企業の敷地内は我々の管轄外なので…",
+                    "maleVariant": null,
+                    "stringId": 1802507230389067776
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1802505240074379264,
-            "femaleVariant": "助けて！ マイケルが――マイケルが殺された！"
-          },
-          {
-            "stringId": 1802506576278970368,
-            "femaleVariant": "落ち着いて。残念ですが、我々にはどうにもできません"
-          },
-          {
-            "stringId": 1802506731166228480,
-            "femaleVariant": "ウソでしょ！？ 殺人事件なのよ！"
-          },
-          {
-            "stringId": 1802506885097185280,
-            "femaleVariant": "すみませんが、法律ですから。警備に連絡されては"
-          },
-          {
-            "stringId": 1802507045789360128,
-            "femaleVariant": "誰も見当たらないの…"
-          },
-          {
-            "stringId": 1802507230389067776,
-            "femaleVariant": "企業の敷地内は我々の管轄外なので…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

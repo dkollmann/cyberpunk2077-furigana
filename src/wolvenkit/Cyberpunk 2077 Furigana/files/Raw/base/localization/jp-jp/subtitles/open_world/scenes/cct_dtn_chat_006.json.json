@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:24.2172346Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\cct_dtn_chat_006.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "これ以上見過ごすわけにはない。何のことかわかってるな？",
+                    "maleVariant": null,
+                    "stringId": 1963513715118292992
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "言ってなよ。どうせ何もしないくせに",
+                    "maleVariant": null,
+                    "stringId": 1963524457871687680
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "企業の仕事を請け負ってるからって、法を超えたつもりか？",
+                    "maleVariant": null,
+                    "stringId": 1963524845559595008
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それもある。でも一番の理由は、自分の妹をしょっ引く兄なんていないってことよ！",
+                    "maleVariant": null,
+                    "stringId": 1963525119078547456
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "母さんにどんな思いをさせてるか、わかってるのか？",
+                    "maleVariant": null,
+                    "stringId": 1963525468833169408
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "母さんを持ち込まないで。それに、私の仕送りがなきゃ生きていけないんだから",
+                    "maleVariant": null,
+                    "stringId": 1963525743811739648
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963513715118292992,
-            "femaleVariant": "これ以上見過ごすわけにはない。何のことかわかってるな？"
-          },
-          {
-            "stringId": 1963524457871687680,
-            "femaleVariant": "言ってなよ。どうせ何もしないくせに"
-          },
-          {
-            "stringId": 1963524845559595008,
-            "femaleVariant": "企業の仕事を請け負ってるからって、法を超えたつもりか？"
-          },
-          {
-            "stringId": 1963525119078547456,
-            "femaleVariant": "それもある。でも一番の理由は、自分の妹をしょっ引く兄なんていないってことよ！"
-          },
-          {
-            "stringId": 1963525468833169408,
-            "femaleVariant": "母さんにどんな思いをさせてるか、わかってるのか？"
-          },
-          {
-            "stringId": 1963525743811739648,
-            "femaleVariant": "母さんを持ち込まないで。それに、私の仕送りがなきゃ生きていけないんだから"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

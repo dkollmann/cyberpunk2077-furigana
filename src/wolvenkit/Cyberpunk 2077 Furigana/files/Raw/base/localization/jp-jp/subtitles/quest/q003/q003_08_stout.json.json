@@ -1,52 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:36.8948626Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\quest\q003\q003_08_stout.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そう身構えなくてもいい",
+                    "maleVariant": null,
+                    "stringId": 1155715969380454400
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "で… 今度は何の用？",
+                    "maleVariant": "で… 今度は何の用だ？",
+                    "stringId": 1759060469251764224
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ふん…",
+                    "maleVariant": null,
+                    "stringId": 1762060493590032384
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "逃げるのか？ みっともない",
+                    "maleVariant": null,
+                    "stringId": 1968514203441315840
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[食べ物を置く]",
+                    "maleVariant": null,
+                    "stringId": 2027889305722961920
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[抱き上げる]",
+                    "maleVariant": null,
+                    "stringId": 2027899944877047808
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何の用？",
+                    "maleVariant": "何の用だ？",
+                    "stringId": 2032201909329084420
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1155715969380454400,
-            "femaleVariant": "そう身構えなくてもいい"
-          },
-          {
-            "stringId": 1759060469251764224,
-            "femaleVariant": "で… 今度は何の用？",
-            "maleVariant": "で… 今度は何の用だ？"
-          },
-          {
-            "stringId": 1762060493590032384,
-            "femaleVariant": "ふん…"
-          },
-          {
-            "stringId": 1968514203441315840,
-            "femaleVariant": "逃げるのか？ みっともない"
-          },
-          {
-            "stringId": 2027889305722961920,
-            "femaleVariant": "[食べ物を置く]"
-          },
-          {
-            "stringId": 2027899944877047808,
-            "femaleVariant": "[抱き上げる]"
-          },
-          {
-            "stringId": 2032201909329084420,
-            "femaleVariant": "何の用？",
-            "maleVariant": "何の用だ？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

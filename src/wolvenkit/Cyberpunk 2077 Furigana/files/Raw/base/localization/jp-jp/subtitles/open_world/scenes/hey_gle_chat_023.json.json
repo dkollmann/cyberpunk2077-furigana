@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:26.5649171Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\hey_gle_chat_023.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "この辺りも、昔はもう少しマシだった気がするがな",
+                    "maleVariant": null,
+                    "stringId": 2161788985688535040
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "同感だ。銃撃戦もこんなに多くなかったし、サイバーサイコはずっと少なかった",
+                    "maleVariant": null,
+                    "stringId": 2177914670113603584
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "市長もそろそろ、市民の強制武装を考え始めるべきだと思うね",
+                    "maleVariant": null,
+                    "stringId": 2177914831527198720
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そうすりゃサイコ野郎が店に押し入ったとしても、中にいる客全員で撃ちまくればいい",
+                    "maleVariant": null,
+                    "stringId": 2177915026881101824
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ああ、そりゃ名案だな。一斉射撃で一件落着だ",
+                    "maleVariant": null,
+                    "stringId": 2177915218510462976
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "銃を携帯する人間が少なすぎる。そこがナイトシティの問題だな",
+                    "maleVariant": null,
+                    "stringId": 2177915710569431040
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "でもよ… どっかの間抜けが、間違って誰かを撃っちまうかもしれないぞ？",
+                    "maleVariant": null,
+                    "stringId": 2177915833512869888
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "その時はお気の毒様だな。でも自分が鉛弾を食らうよりはマシさ",
+                    "maleVariant": null,
+                    "stringId": 2177916100320935936
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2161788985688535040,
-            "femaleVariant": "この辺りも、昔はもう少しマシだった気がするがな"
-          },
-          {
-            "stringId": 2177914670113603584,
-            "femaleVariant": "同感だ。銃撃戦もこんなに多くなかったし、サイバーサイコはずっと少なかった"
-          },
-          {
-            "stringId": 2177914831527198720,
-            "femaleVariant": "市長もそろそろ、市民の強制武装を考え始めるべきだと思うね"
-          },
-          {
-            "stringId": 2177915026881101824,
-            "femaleVariant": "そうすりゃサイコ野郎が店に押し入ったとしても、中にいる客全員で撃ちまくればいい"
-          },
-          {
-            "stringId": 2177915218510462976,
-            "femaleVariant": "ああ、そりゃ名案だな。一斉射撃で一件落着だ"
-          },
-          {
-            "stringId": 2177915710569431040,
-            "femaleVariant": "銃を携帯する人間が少なすぎる。そこがナイトシティの問題だな"
-          },
-          {
-            "stringId": 2177915833512869888,
-            "femaleVariant": "でもよ… どっかの間抜けが、間違って誰かを撃っちまうかもしれないぞ？"
-          },
-          {
-            "stringId": 2177916100320935936,
-            "femaleVariant": "その時はお気の毒様だな。でも自分が鉛弾を食らうよりはマシさ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

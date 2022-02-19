@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:22.5460016Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\media\quests\sq006_03_election_results_version_a.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "皆さん、こんにちは。ジリアン・ジョーダンが、N54ニュースによる選挙速報をお伝えします。ナイトシティ市長選挙の開票が先ほど終わり、結果が出た模様です",
+                    "maleVariant": null,
+                    "stringId": 1744646259704651776
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "移譲党のナイトシティ現職市長ウェルドン・ホルト氏は、47.8%の得票を集めました。ルシアス・ライン元市長殺害への関与が疑われる中、健闘を見せたと言えるのではないでしょうか",
+                    "maleVariant": null,
+                    "stringId": 1744677367045484544
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "結果的に接戦を制したのは、49.3%の得票率を獲得した連邦党候補のジェファーソン・ペラレス氏でした",
+                    "maleVariant": null,
+                    "stringId": 1744677625985036288
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ホルト市長は敗北演説を行い、勝利した候補に祝辞を述べました",
+                    "maleVariant": null,
+                    "stringId": 1744678119251963904
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ペラレス氏が大胆な公約を実現することができるか、今後注目が集まります",
+                    "maleVariant": null,
+                    "stringId": 1744678493669093376
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "CMの後、連敗続きのコルセアーズに秘策はあるのでしょうか？",
+                    "maleVariant": null,
+                    "stringId": 1744678782824411136
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1744646259704651776,
-            "femaleVariant": "皆さん、こんにちは。ジリアン・ジョーダンが、N54ニュースによる選挙速報をお伝えします。ナイトシティ市長選挙の開票が先ほど終わり、結果が出た模様です"
-          },
-          {
-            "stringId": 1744677367045484544,
-            "femaleVariant": "移譲党のナイトシティ現職市長ウェルドン・ホルト氏は、47.8%の得票を集めました。ルシアス・ライン元市長殺害への関与が疑われる中、健闘を見せたと言えるのではないでしょうか"
-          },
-          {
-            "stringId": 1744677625985036288,
-            "femaleVariant": "結果的に接戦を制したのは、49.3%の得票率を獲得した連邦党候補のジェファーソン・ペラレス氏でした"
-          },
-          {
-            "stringId": 1744678119251963904,
-            "femaleVariant": "ホルト市長は敗北演説を行い、勝利した候補に祝辞を述べました"
-          },
-          {
-            "stringId": 1744678493669093376,
-            "femaleVariant": "ペラレス氏が大胆な公約を実現することができるか、今後注目が集まります"
-          },
-          {
-            "stringId": 1744678782824411136,
-            "femaleVariant": "CMの後、連敗続きのコルセアーズに秘策はあるのでしょうか？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

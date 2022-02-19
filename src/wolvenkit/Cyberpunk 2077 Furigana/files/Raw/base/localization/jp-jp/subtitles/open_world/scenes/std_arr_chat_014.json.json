@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:28.7821436Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\std_arr_chat_014.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それでどこかの部屋に閉じ込めて、何時間も暴行したらしいよ",
+                    "maleVariant": null,
+                    "stringId": 2167875610674122752
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "で？ それが警察の仕事だろ",
+                    "maleVariant": null,
+                    "stringId": 2214413480169410560
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いくら警察でもやっていいことと悪いことがある。シックス・ストリートに同情するわけじゃないけど… ああ、もういい",
+                    "maleVariant": null,
+                    "stringId": 2221567679705485312
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "考えてもみろ。NCPDの装備はギャングにも劣る。数で勝てるわけでもない",
+                    "maleVariant": null,
+                    "stringId": 2221567779513143296
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それに署に連行したって、すぐ釈放しなきゃならないだろ？ 理由もなくずっと置いとけない",
+                    "maleVariant": null,
+                    "stringId": 2221568006877974528
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "手っ取り早く情報を聞き出す手段を選んだだけさ",
+                    "maleVariant": null,
+                    "stringId": 2221568120996597760
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それはそうだけど",
+                    "maleVariant": null,
+                    "stringId": 2221573257240612864
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2167875610674122752,
-            "femaleVariant": "それでどこかの部屋に閉じ込めて、何時間も暴行したらしいよ"
-          },
-          {
-            "stringId": 2214413480169410560,
-            "femaleVariant": "で？ それが警察の仕事だろ"
-          },
-          {
-            "stringId": 2221567679705485312,
-            "femaleVariant": "いくら警察でもやっていいことと悪いことがある。シックス・ストリートに同情するわけじゃないけど… ああ、もういい"
-          },
-          {
-            "stringId": 2221567779513143296,
-            "femaleVariant": "考えてもみろ。NCPDの装備はギャングにも劣る。数で勝てるわけでもない"
-          },
-          {
-            "stringId": 2221568006877974528,
-            "femaleVariant": "それに署に連行したって、すぐ釈放しなきゃならないだろ？ 理由もなくずっと置いとけない"
-          },
-          {
-            "stringId": 2221568120996597760,
-            "femaleVariant": "手っ取り早く情報を聞き出す手段を選んだだけさ"
-          },
-          {
-            "stringId": 2221573257240612864,
-            "femaleVariant": "それはそうだけど"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

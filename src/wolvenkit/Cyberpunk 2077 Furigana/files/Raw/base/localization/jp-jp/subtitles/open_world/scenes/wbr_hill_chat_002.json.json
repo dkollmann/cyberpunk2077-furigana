@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.8782587Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wbr_hill_chat_002.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どうだ、こいつらを見て",
+                    "maleVariant": null,
+                    "stringId": 1806724152559263744
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "コーポたちはチョロい。いいカモだ",
+                    "maleVariant": null,
+                    "stringId": 1806724802374393856
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ああ。どいつもこいつも、秘密をぶら下げて歩いてやがる",
+                    "maleVariant": null,
+                    "stringId": 1806725024487956480
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いいネタさえ掴んじまえば、こっちのもんだ。企業の犬に、俺たちが首輪をつけるのさ",
+                    "maleVariant": null,
+                    "stringId": 1806725490693234688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "データにテープ、企業の内部情報――欲しいものは何でも手に入る",
+                    "maleVariant": null,
+                    "stringId": 1806725772651126784
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あとは、口座に金が貯まっていくのを見てりゃいいって寸法よ",
+                    "maleVariant": null,
+                    "stringId": 1806726174381563904
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1806724152559263744,
-            "femaleVariant": "どうだ、こいつらを見て"
-          },
-          {
-            "stringId": 1806724802374393856,
-            "femaleVariant": "コーポたちはチョロい。いいカモだ"
-          },
-          {
-            "stringId": 1806725024487956480,
-            "femaleVariant": "ああ。どいつもこいつも、秘密をぶら下げて歩いてやがる"
-          },
-          {
-            "stringId": 1806725490693234688,
-            "femaleVariant": "いいネタさえ掴んじまえば、こっちのもんだ。企業の犬に、俺たちが首輪をつけるのさ"
-          },
-          {
-            "stringId": 1806725772651126784,
-            "femaleVariant": "データにテープ、企業の内部情報――欲しいものは何でも手に入る"
-          },
-          {
-            "stringId": 1806726174381563904,
-            "femaleVariant": "あとは、口座に金が貯まっていくのを見てりゃいいって寸法よ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

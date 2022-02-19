@@ -1,65 +1,110 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:39.8809042Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\quest\sq028\sq028_01_phone_call.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ケリー、どしたの",
+                    "maleVariant": "よう、ケリー",
+                    "stringId": 1360321508395716608
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "よう、今すぐマリーナに来い。待たせんなよ",
+                    "maleVariant": null,
+                    "stringId": 1360378083399438336
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "わかった、すぐに向かう",
+                    "maleVariant": null,
+                    "stringId": 1378967319139184640
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "わかった、すぐに行く",
+                    "maleVariant": null,
+                    "stringId": 1378967449951137792
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "無理よ。忙しいの",
+                    "maleVariant": "無理だ。忙しくてな",
+                    "stringId": 1378968127515783168
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ごめん、ケリー。今忙しくて",
+                    "maleVariant": "すまん、ケリー。今忙しくてな",
+                    "stringId": 1378980009509253120
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いいモンを見せてやるぜ",
+                    "maleVariant": null,
+                    "stringId": 1379016217627062272
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ウソだろ、V… 俺の誘いを断るってのか",
+                    "maleVariant": null,
+                    "stringId": 1379037160843898880
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ま、俺はしばらくここにいる。気が向いたら来いよ",
+                    "maleVariant": null,
+                    "stringId": 1379037737476812800
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "マリーナのピア4で待ってる",
+                    "maleVariant": null,
+                    "stringId": 1709624620117815296
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1360321508395716608,
-            "femaleVariant": "ケリー、どしたの",
-            "maleVariant": "よう、ケリー"
-          },
-          {
-            "stringId": 1360378083399438336,
-            "femaleVariant": "よう、今すぐマリーナに来い。待たせんなよ"
-          },
-          {
-            "stringId": 1378967319139184640,
-            "femaleVariant": "わかった、すぐに向かう"
-          },
-          {
-            "stringId": 1378967449951137792,
-            "femaleVariant": "わかった、すぐに行く"
-          },
-          {
-            "stringId": 1378968127515783168,
-            "femaleVariant": "無理よ。忙しいの",
-            "maleVariant": "無理だ。忙しくてな"
-          },
-          {
-            "stringId": 1378980009509253120,
-            "femaleVariant": "ごめん、ケリー。今忙しくて",
-            "maleVariant": "すまん、ケリー。今忙しくてな"
-          },
-          {
-            "stringId": 1379016217627062272,
-            "femaleVariant": "いいモンを見せてやるぜ"
-          },
-          {
-            "stringId": 1379037160843898880,
-            "femaleVariant": "ウソだろ、V… 俺の誘いを断るってのか"
-          },
-          {
-            "stringId": 1379037737476812800,
-            "femaleVariant": "ま、俺はしばらくここにいる。気が向いたら来いよ"
-          },
-          {
-            "stringId": 1709624620117815296,
-            "femaleVariant": "マリーナのピア4で待ってる"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

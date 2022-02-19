@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:30.0181658Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wbr_jpn_chat_005.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "切断し終わったら、きちんと梱包してね。とっておきたいの",
+                    "maleVariant": null,
+                    "stringId": 1806869639308369920
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "本気ですか？ 売れば手術代と相殺できますよ",
+                    "maleVariant": null,
+                    "stringId": 1806871039786475520
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いいの。お金の問題じゃないから",
+                    "maleVariant": null,
+                    "stringId": 1806871214873501696
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "わかりました。では住所を。助手が全て手配します",
+                    "maleVariant": null,
+                    "stringId": 1806871394859474944
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いえ、その必要はないわ。私のインプットが持って行くから",
+                    "maleVariant": null,
+                    "stringId": 1806871580298043392
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そうですか。では、お望み通りに",
+                    "maleVariant": null,
+                    "stringId": 1806871779460374528
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1806869639308369920,
-            "femaleVariant": "切断し終わったら、きちんと梱包してね。とっておきたいの"
-          },
-          {
-            "stringId": 1806871039786475520,
-            "femaleVariant": "本気ですか？ 売れば手術代と相殺できますよ"
-          },
-          {
-            "stringId": 1806871214873501696,
-            "femaleVariant": "いいの。お金の問題じゃないから"
-          },
-          {
-            "stringId": 1806871394859474944,
-            "femaleVariant": "わかりました。では住所を。助手が全て手配します"
-          },
-          {
-            "stringId": 1806871580298043392,
-            "femaleVariant": "いえ、その必要はないわ。私のインプットが持って行くから"
-          },
-          {
-            "stringId": 1806871779460374528,
-            "femaleVariant": "そうですか。では、お望み通りに"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:23.5803157Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\bls_east_012.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "昨日は命からがら積荷を持って帰ったのよ",
+                    "maleVariant": null,
+                    "stringId": 2178186366543011840
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "へっ、積荷が残ってたなら、まだいいほうだ。俺なんか2回も襲撃されて、トラックを空にされたんだぞ",
+                    "maleVariant": null,
+                    "stringId": 2188329559561822208
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "命の方が重要でしょ。後で車の排気管がイカレてたのがわかってさ。死んでたかもしれない",
+                    "maleVariant": null,
+                    "stringId": 2188349236451172352
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あの整備士、またアルデカルドスのジャンク品を使ったのよ。新品を買えるくらいの金を払ったのに",
+                    "maleVariant": null,
+                    "stringId": 2188353532374769664
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ひどいよな… 口車に乗せられて部品を買わされたと思ったら、次はレッカー車に乗せられる",
+                    "maleVariant": null,
+                    "stringId": 2188354571740078080
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2178186366543011840,
-            "femaleVariant": "昨日は命からがら積荷を持って帰ったのよ"
-          },
-          {
-            "stringId": 2188329559561822208,
-            "femaleVariant": "へっ、積荷が残ってたなら、まだいいほうだ。俺なんか2回も襲撃されて、トラックを空にされたんだぞ"
-          },
-          {
-            "stringId": 2188349236451172352,
-            "femaleVariant": "命の方が重要でしょ。後で車の排気管がイカレてたのがわかってさ。死んでたかもしれない"
-          },
-          {
-            "stringId": 2188353532374769664,
-            "femaleVariant": "あの整備士、またアルデカルドスのジャンク品を使ったのよ。新品を買えるくらいの金を払ったのに"
-          },
-          {
-            "stringId": 2188354571740078080,
-            "femaleVariant": "ひどいよな… 口車に乗せられて部品を買わされたと思ったら、次はレッカー車に乗せられる"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

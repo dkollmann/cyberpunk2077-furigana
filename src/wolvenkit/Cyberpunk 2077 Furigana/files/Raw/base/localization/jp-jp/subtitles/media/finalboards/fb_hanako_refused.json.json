@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:21.3796006Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\media\finalboards\fb_hanako_refused.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "こんにちは、V",
+                    "maleVariant": null,
+                    "stringId": 1790692327141842948
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "報告が正しければ、あなたの寿命はもう残り半年もないそうね",
+                    "maleVariant": null,
+                    "stringId": 1800966060728107008
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あなたはその時間をどうやって過ごすのかしら…",
+                    "maleVariant": null,
+                    "stringId": 1800966255226372096
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "…心身を休めて、じっくりと人生の意味を考えてみるのも良いかもしれないわね…",
+                    "maleVariant": null,
+                    "stringId": 1800966538291560448
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "…それか、最後まで額に汗をかくのも悪くはないでしょう",
+                    "maleVariant": null,
+                    "stringId": 1800966693732466688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "もしあなたが後者を選ぶというなら… 父と私は喜んであなたの力を借りる。報酬は弾むわ",
+                    "maleVariant": null,
+                    "stringId": 1800967466658807808
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "半年なんて、思った以上にあっという間に過ぎるものよ。その時間を無駄にするなんてもったいないでしょ",
+                    "maleVariant": null,
+                    "stringId": 1800967908251910144
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1790692327141842948,
-            "femaleVariant": "こんにちは、V"
-          },
-          {
-            "stringId": 1800966060728107008,
-            "femaleVariant": "報告が正しければ、あなたの寿命はもう残り半年もないそうね"
-          },
-          {
-            "stringId": 1800966255226372096,
-            "femaleVariant": "あなたはその時間をどうやって過ごすのかしら…"
-          },
-          {
-            "stringId": 1800966538291560448,
-            "femaleVariant": "…心身を休めて、じっくりと人生の意味を考えてみるのも良いかもしれないわね…"
-          },
-          {
-            "stringId": 1800966693732466688,
-            "femaleVariant": "…それか、最後まで額に汗をかくのも悪くはないでしょう"
-          },
-          {
-            "stringId": 1800967466658807808,
-            "femaleVariant": "もしあなたが後者を選ぶというなら… 父と私は喜んであなたの力を借りる。報酬は弾むわ"
-          },
-          {
-            "stringId": 1800967908251910144,
-            "femaleVariant": "半年なんて、思った以上にあっという間に過ぎるものよ。その時間を無駄にするなんてもったいないでしょ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

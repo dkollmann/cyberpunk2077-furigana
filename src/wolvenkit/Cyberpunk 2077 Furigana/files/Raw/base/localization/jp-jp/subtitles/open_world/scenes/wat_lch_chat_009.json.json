@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.4892852Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wat_lch_chat_009.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "路上で暮らしてりゃ、誰にも指図されねえで済む…",
+                    "maleVariant": null,
+                    "stringId": 1827219885074800640
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "寝たいとこで寝て！ 飲みたいときに飲む！",
+                    "maleVariant": null,
+                    "stringId": 1827231713767055360
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そう！ それこそがモノホンの自由よ",
+                    "maleVariant": null,
+                    "stringId": 1827231921552875520
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "人生、人それぞれだ。苦しみだって、じっくり味わえばうまいもんさ",
+                    "maleVariant": null,
+                    "stringId": 1827232214181076992
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "よく言った！",
+                    "maleVariant": null,
+                    "stringId": 1827232543769485312
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ああ… よく言った",
+                    "maleVariant": null,
+                    "stringId": 1827232748300525568
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1827219885074800640,
-            "femaleVariant": "路上で暮らしてりゃ、誰にも指図されねえで済む…"
-          },
-          {
-            "stringId": 1827231713767055360,
-            "femaleVariant": "寝たいとこで寝て！ 飲みたいときに飲む！"
-          },
-          {
-            "stringId": 1827231921552875520,
-            "femaleVariant": "そう！ それこそがモノホンの自由よ"
-          },
-          {
-            "stringId": 1827232214181076992,
-            "femaleVariant": "人生、人それぞれだ。苦しみだって、じっくり味わえばうまいもんさ"
-          },
-          {
-            "stringId": 1827232543769485312,
-            "femaleVariant": "よく言った！"
-          },
-          {
-            "stringId": 1827232748300525568,
-            "femaleVariant": "ああ… よく言った"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

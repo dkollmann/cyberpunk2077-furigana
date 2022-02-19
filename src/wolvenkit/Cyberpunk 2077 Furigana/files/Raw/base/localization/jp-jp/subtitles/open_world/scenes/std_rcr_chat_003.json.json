@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:28.8995522Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\std_rcr_chat_003.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "また給料を減らされるって",
+                    "maleVariant": null,
+                    "stringId": 1963292230738288640
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "まあ当然でしょうね。仕事量が減ってるもの",
+                    "maleVariant": null,
+                    "stringId": 1969200411050754048
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "仕事があるだけまだマシよ。私が上の立場なら、私らの世代はとっくにクビにしてる",
+                    "maleVariant": null,
+                    "stringId": 1969200816488955904
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "若い頃に借金してでも、もっといい強化筋肉繊維を手に入れておくべきだったのかもね",
+                    "maleVariant": null,
+                    "stringId": 1969201035414847488
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そうしてれば、工場で70になるまでバリバリ働けたんだから",
+                    "maleVariant": null,
+                    "stringId": 1969201293213548544
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ホントに… それが夢よね",
+                    "maleVariant": null,
+                    "stringId": 1969201485446889472
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963292230738288640,
-            "femaleVariant": "また給料を減らされるって"
-          },
-          {
-            "stringId": 1969200411050754048,
-            "femaleVariant": "まあ当然でしょうね。仕事量が減ってるもの"
-          },
-          {
-            "stringId": 1969200816488955904,
-            "femaleVariant": "仕事があるだけまだマシよ。私が上の立場なら、私らの世代はとっくにクビにしてる"
-          },
-          {
-            "stringId": 1969201035414847488,
-            "femaleVariant": "若い頃に借金してでも、もっといい強化筋肉繊維を手に入れておくべきだったのかもね"
-          },
-          {
-            "stringId": 1969201293213548544,
-            "femaleVariant": "そうしてれば、工場で70になるまでバリバリ働けたんだから"
-          },
-          {
-            "stringId": 1969201485446889472,
-            "femaleVariant": "ホントに… それが夢よね"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,70 +1,126 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:40.1447423Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\sq032\\sq032_chicken_test.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db][Sickness off]",
+                    "maleVariant": null,
+                    "stringId": 2322788887359823876
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db][Sickness on]",
+                    "maleVariant": null,
+                    "stringId": 2322789527377059840
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db][Test Sickness Only]",
+                    "maleVariant": null,
+                    "stringId": 2322808037125824512
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db][one by one]",
+                    "maleVariant": null,
+                    "stringId": 2322808768629219332
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db][Pick Stage]",
+                    "maleVariant": null,
+                    "stringId": 2322809623747141632
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db][glitch]",
+                    "maleVariant": null,
+                    "stringId": 2322810295288766468
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db][Headache]",
+                    "maleVariant": null,
+                    "stringId": 2322810537518211072
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db][Nosebleed]",
+                    "maleVariant": null,
+                    "stringId": 2322810607848300544
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db][Heavy headache]",
+                    "maleVariant": null,
+                    "stringId": 2322810978993872896
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db][Nausea]",
+                    "maleVariant": null,
+                    "stringId": 2322811340677095424
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db]early stage",
+                    "maleVariant": null,
+                    "stringId": 2334584494794420228
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db]late stage",
+                    "maleVariant": null,
+                    "stringId": 2334584825741783040
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2322788887359823876,
-            "femaleVariant": "[en_us][db_db][Sickness off]"
-          },
-          {
-            "stringId": 2322789527377059840,
-            "femaleVariant": "[en_us][db_db][Sickness on]"
-          },
-          {
-            "stringId": 2322808037125824512,
-            "femaleVariant": "[en_us][db_db][Test Sickness Only]"
-          },
-          {
-            "stringId": 2322808768629219332,
-            "femaleVariant": "[en_us][db_db][one by one]"
-          },
-          {
-            "stringId": 2322809623747141632,
-            "femaleVariant": "[en_us][db_db][Pick Stage]"
-          },
-          {
-            "stringId": 2322810295288766468,
-            "femaleVariant": "[en_us][db_db][glitch]"
-          },
-          {
-            "stringId": 2322810537518211072,
-            "femaleVariant": "[en_us][db_db][Headache]"
-          },
-          {
-            "stringId": 2322810607848300544,
-            "femaleVariant": "[en_us][db_db][Nosebleed]"
-          },
-          {
-            "stringId": 2322810978993872896,
-            "femaleVariant": "[en_us][db_db][Heavy headache]"
-          },
-          {
-            "stringId": 2322811340677095424,
-            "femaleVariant": "[en_us][db_db][Nausea]"
-          },
-          {
-            "stringId": 2334584494794420228,
-            "femaleVariant": "[en_us][db_db]early stage"
-          },
-          {
-            "stringId": 2334584825741783040,
-            "femaleVariant": "[en_us][db_db]late stage"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

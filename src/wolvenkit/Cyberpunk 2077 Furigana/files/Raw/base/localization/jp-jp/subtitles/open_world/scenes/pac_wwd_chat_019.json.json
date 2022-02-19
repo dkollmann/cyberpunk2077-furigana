@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:27.9204490Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\pac_wwd_chat_019.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "人間は何にでも適応できる",
+                    "maleVariant": null,
+                    "stringId": 2179606047749693440
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それはどうかな。ここが閉鎖されてから、ずっと居座ってるじゃないか。適応できてるようには見えないね",
+                    "maleVariant": null,
+                    "stringId": 2211178918535979008
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "俺だって昔は偉かったんだ。プロジェクトを管理する立場でな",
+                    "maleVariant": null,
+                    "stringId": 2217168493649551360
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "はあ… そういうところだぞ",
+                    "maleVariant": null,
+                    "stringId": 2217168845887201280
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "昨日はバッドランズへ行ってきたんだ。例のダムだ。見事に魚を釣り上げた",
+                    "maleVariant": null,
+                    "stringId": 2217168988879413248
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "魚なんかもういないだろ。どんなおかしな生き物を捕まえたのか知らんが、食うんじゃないぞ。ケツから汚染物質を垂れ流したくなけりゃな",
+                    "maleVariant": null,
+                    "stringId": 2217169531941117952
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いや、食うわけないだろ。売るんだよ",
+                    "maleVariant": null,
+                    "stringId": 2217170703544442880
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2179606047749693440,
-            "femaleVariant": "人間は何にでも適応できる"
-          },
-          {
-            "stringId": 2211178918535979008,
-            "femaleVariant": "それはどうかな。ここが閉鎖されてから、ずっと居座ってるじゃないか。適応できてるようには見えないね"
-          },
-          {
-            "stringId": 2217168493649551360,
-            "femaleVariant": "俺だって昔は偉かったんだ。プロジェクトを管理する立場でな"
-          },
-          {
-            "stringId": 2217168845887201280,
-            "femaleVariant": "はあ… そういうところだぞ"
-          },
-          {
-            "stringId": 2217168988879413248,
-            "femaleVariant": "昨日はバッドランズへ行ってきたんだ。例のダムだ。見事に魚を釣り上げた"
-          },
-          {
-            "stringId": 2217169531941117952,
-            "femaleVariant": "魚なんかもういないだろ。どんなおかしな生き物を捕まえたのか知らんが、食うんじゃないぞ。ケツから汚染物質を垂れ流したくなけりゃな"
-          },
-          {
-            "stringId": 2217170703544442880,
-            "femaleVariant": "いや、食うわけないだろ。売るんだよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

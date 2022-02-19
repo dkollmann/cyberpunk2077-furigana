@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.5505639Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wat_lch_chat_022.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それと偽の証拠を仕込んでくれ。連中には、奴がお前を送り込んだと思わせる必要があるんだ",
+                    "maleVariant": null,
+                    "stringId": 2156517410442866688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "でも死体はできるだけ出すな。もみ消すのにも限界がある",
+                    "maleVariant": null,
+                    "stringId": 2172410176877608960
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "以上だ。わかったか？",
+                    "maleVariant": null,
+                    "stringId": 2172410311112114176
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ああ。だがあそこに潜入するのは簡単じゃない。鉛玉を食らう趣味もないしな",
+                    "maleVariant": null,
+                    "stringId": 2172410810133626880
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "追加の手当てをくれ。こういうヤマにはそれなりの装備が要る",
+                    "maleVariant": null,
+                    "stringId": 2172411132004515840
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いいだろう。金は明日送る",
+                    "maleVariant": null,
+                    "stringId": 2172411304591736832
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2156517410442866688,
-            "femaleVariant": "それと偽の証拠を仕込んでくれ。連中には、奴がお前を送り込んだと思わせる必要があるんだ"
-          },
-          {
-            "stringId": 2172410176877608960,
-            "femaleVariant": "でも死体はできるだけ出すな。もみ消すのにも限界がある"
-          },
-          {
-            "stringId": 2172410311112114176,
-            "femaleVariant": "以上だ。わかったか？"
-          },
-          {
-            "stringId": 2172410810133626880,
-            "femaleVariant": "ああ。だがあそこに潜入するのは簡単じゃない。鉛玉を食らう趣味もないしな"
-          },
-          {
-            "stringId": 2172411132004515840,
-            "femaleVariant": "追加の手当てをくれ。こういうヤマにはそれなりの装備が要る"
-          },
-          {
-            "stringId": 2172411304591736832,
-            "femaleVariant": "いいだろう。金は明日送る"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

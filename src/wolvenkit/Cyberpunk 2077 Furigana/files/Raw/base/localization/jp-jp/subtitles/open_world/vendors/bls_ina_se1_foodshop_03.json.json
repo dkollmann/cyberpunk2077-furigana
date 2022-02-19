@@ -1,52 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:32.6991852Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\vendors\bls_ina_se1_foodshop_03.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何かおいしいものある？",
+                    "maleVariant": "何かおいしいものあるか？",
+                    "stringId": 1935665706222137344
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "レイスはよくトラブルを？",
+                    "maleVariant": null,
+                    "stringId": 1935665706222137360
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何かおいしいものある？",
+                    "maleVariant": "何かうまいものはあるか？",
+                    "stringId": 1935665706255691776
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "任せな。あんたなら、お代はまけとくよ",
+                    "maleVariant": null,
+                    "stringId": 1935665706255691784
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "レイスはよくちょっかいを？",
+                    "maleVariant": null,
+                    "stringId": 1935665706289246212
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "この辺でよく騒ぎを起こしてる。これまではショットガンを引っ張り出せば蜘蛛の子散らすように逃げてったんだが、そうもいかないかもな…",
+                    "maleVariant": null,
+                    "stringId": 1935665706306023424
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ふう… 助かったよ。危ないところだった",
+                    "maleVariant": null,
+                    "stringId": 1975137452373102592
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1935665706222137344,
-            "femaleVariant": "何かおいしいものある？",
-            "maleVariant": "何かおいしいものあるか？"
-          },
-          {
-            "stringId": 1935665706222137360,
-            "femaleVariant": "レイスはよくトラブルを？"
-          },
-          {
-            "stringId": 1935665706255691776,
-            "femaleVariant": "何かおいしいものある？",
-            "maleVariant": "何かうまいものはあるか？"
-          },
-          {
-            "stringId": 1935665706255691784,
-            "femaleVariant": "任せな。あんたなら、お代はまけとくよ"
-          },
-          {
-            "stringId": 1935665706289246212,
-            "femaleVariant": "レイスはよくちょっかいを？"
-          },
-          {
-            "stringId": 1935665706306023424,
-            "femaleVariant": "この辺でよく騒ぎを起こしてる。これまではショットガンを引っ張り出せば蜘蛛の子散らすように逃げてったんだが、そうもいかないかもな…"
-          },
-          {
-            "stringId": 1975137452373102592,
-            "femaleVariant": "ふう… 助かったよ。危ないところだった"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

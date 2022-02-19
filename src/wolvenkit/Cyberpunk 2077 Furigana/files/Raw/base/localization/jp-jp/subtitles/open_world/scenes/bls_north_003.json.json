@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:23.7175979Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\bls_north_003.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ノーマッドになりたければ、ノーマッドらしく話すことを心掛けるのね",
+                    "maleVariant": null,
+                    "stringId": 1973561352269111296
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "彼らにとっては車こそが世界の中心であり、動いてるのは自分たちではなく、地面のほうなんだ",
+                    "maleVariant": null,
+                    "stringId": 1974792791749541888
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "気づいたことがあるんだ。生まれつきのノーマッドは時空に対する考え方が違う",
+                    "maleVariant": null,
+                    "stringId": 1974792953582567424
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あのさ… ひとり言ならひとりでいる時にやってくれる？",
+                    "maleVariant": null,
+                    "stringId": 1974793044464746496
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "悪気がないのはわかってるけど、聞く人によっては見下してるように思われるかもしれない",
+                    "maleVariant": null,
+                    "stringId": 1974793082851016704
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1973561352269111296,
-            "femaleVariant": "ノーマッドになりたければ、ノーマッドらしく話すことを心掛けるのね"
-          },
-          {
-            "stringId": 1974792791749541888,
-            "femaleVariant": "彼らにとっては車こそが世界の中心であり、動いてるのは自分たちではなく、地面のほうなんだ"
-          },
-          {
-            "stringId": 1974792953582567424,
-            "femaleVariant": "気づいたことがあるんだ。生まれつきのノーマッドは時空に対する考え方が違う"
-          },
-          {
-            "stringId": 1974793044464746496,
-            "femaleVariant": "あのさ… ひとり言ならひとりでいる時にやってくれる？"
-          },
-          {
-            "stringId": 1974793082851016704,
-            "femaleVariant": "悪気がないのはわかってるけど、聞く人によっては見下してるように思われるかもしれない"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

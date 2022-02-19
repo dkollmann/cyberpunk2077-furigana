@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:24.3080564Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\cct_dtn_chat_021.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "『自分の中にいる億万長者』それか『内に秘めたダイヤを探せ』を読んでみろ。後者は俺が書いたんだ。読めば、自力ではい上がれるようになるぞ",
+                    "maleVariant": null,
+                    "stringId": 2172194262596956160
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そんなことより、金はくれるのか？",
+                    "maleVariant": null,
+                    "stringId": 2189508480305827840
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "魚を与えるのではなく、釣り方をだな…",
+                    "maleVariant": null,
+                    "stringId": 2189508506058854400
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "魚をくれるのか？",
+                    "maleVariant": null,
+                    "stringId": 2189509129634418688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "は…？ 違う、今のはことわざだ",
+                    "maleVariant": null,
+                    "stringId": 2189509207782690816
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いいか、考え方を変えるんだ。小さな目標を立て、それに向かって努力すれば、きっとすぐに立ち直れる。わかったか？",
+                    "maleVariant": null,
+                    "stringId": 2189516522950856704
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "はいはい。で、金は？",
+                    "maleVariant": null,
+                    "stringId": 2189517041853370368
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2172194262596956160,
-            "femaleVariant": "『自分の中にいる億万長者』それか『内に秘めたダイヤを探せ』を読んでみろ。後者は俺が書いたんだ。読めば、自力ではい上がれるようになるぞ"
-          },
-          {
-            "stringId": 2189508480305827840,
-            "femaleVariant": "そんなことより、金はくれるのか？"
-          },
-          {
-            "stringId": 2189508506058854400,
-            "femaleVariant": "魚を与えるのではなく、釣り方をだな…"
-          },
-          {
-            "stringId": 2189509129634418688,
-            "femaleVariant": "魚をくれるのか？"
-          },
-          {
-            "stringId": 2189509207782690816,
-            "femaleVariant": "は…？ 違う、今のはことわざだ"
-          },
-          {
-            "stringId": 2189516522950856704,
-            "femaleVariant": "いいか、考え方を変えるんだ。小さな目標を立て、それに向かって努力すれば、きっとすぐに立ち直れる。わかったか？"
-          },
-          {
-            "stringId": 2189517041853370368,
-            "femaleVariant": "はいはい。で、金は？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

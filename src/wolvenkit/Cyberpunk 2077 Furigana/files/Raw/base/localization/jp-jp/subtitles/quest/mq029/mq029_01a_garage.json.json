@@ -1,43 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:36.1654282Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\quest\mq029\mq029_01a_garage.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "悪くない。似たようなのを持ってた。ノーマッド仕様じゃなかったけどな",
+                    "maleVariant": null,
+                    "stringId": 1821466168323067904
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "別に巨乳専門じゃない。あと、ブルネットだ",
+                    "maleVariant": null,
+                    "stringId": 1821466807367225344
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "へぇ…",
+                    "maleVariant": null,
+                    "stringId": 1831628381640077316
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どうせ横に巨乳のブロンド美女の絵でも入れてたんでしょ",
+                    "maleVariant": "どうせ横に巨乳のブロンド美女の絵でも入れてたんだろ",
+                    "stringId": 1922946147673231360
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ふむ… これは直せそうにないな。このままスクラップ送りだ",
+                    "maleVariant": null,
+                    "stringId": 1922946801732997120
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1821466168323067904,
-            "femaleVariant": "悪くない。似たようなのを持ってた。ノーマッド仕様じゃなかったけどな"
-          },
-          {
-            "stringId": 1821466807367225344,
-            "femaleVariant": "別に巨乳専門じゃない。あと、ブルネットだ"
-          },
-          {
-            "stringId": 1831628381640077316,
-            "femaleVariant": "へぇ…"
-          },
-          {
-            "stringId": 1922946147673231360,
-            "femaleVariant": "どうせ横に巨乳のブロンド美女の絵でも入れてたんでしょ",
-            "maleVariant": "どうせ横に巨乳のブロンド美女の絵でも入れてたんだろ"
-          },
-          {
-            "stringId": 1922946801732997120,
-            "femaleVariant": "ふむ… これは直せそうにないな。このままスクラップ送りだ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

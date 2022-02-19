@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:32.1079044Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\street_stories\sts_wat_kab_103.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あああ… ううう… もう… 最高…",
+                    "maleVariant": null,
+                    "stringId": 1884923588366848000
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ううう… あああ… イイ… あああ…",
+                    "maleVariant": null,
+                    "stringId": 1884925494006927360
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us]But... mmm, but... mhm... yeah...",
+                    "maleVariant": null,
+                    "stringId": 1962165173923188736
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どこだ… な、な、何が… いったい… ふう…",
+                    "maleVariant": null,
+                    "stringId": 1962165427695357952
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1884923588366848000,
-            "femaleVariant": "あああ… ううう… もう… 最高…"
-          },
-          {
-            "stringId": 1884925494006927360,
-            "femaleVariant": "ううう… あああ… イイ… あああ…"
-          },
-          {
-            "stringId": 1962165173923188736,
-            "femaleVariant": "[en_us]But... mmm, but... mhm... yeah..."
-          },
-          {
-            "stringId": 1962165427695357952,
-            "femaleVariant": "どこだ… な、な、何が… いったい… ふう…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

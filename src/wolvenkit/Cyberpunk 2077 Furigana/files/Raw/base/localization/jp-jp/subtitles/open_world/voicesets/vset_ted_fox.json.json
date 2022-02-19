@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:35.4736840Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\voicesets\vset_ted_fox.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ふん、無視すりゃいいさ",
+                    "maleVariant": null,
+                    "stringId": 1895271845206241284
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "最後まで聞いたほうがいいぞ",
+                    "maleVariant": null,
+                    "stringId": 1895271845223018500
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "好奇心には勝てなかったか？",
+                    "maleVariant": null,
+                    "stringId": 1895271845306904576
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "やっぱり戻ってきた",
+                    "maleVariant": null,
+                    "stringId": 1895271845323681796
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "時間がないぞ",
+                    "maleVariant": null,
+                    "stringId": 1895271845357236228
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "こっちは時間を無駄にできないんだ",
+                    "maleVariant": null,
+                    "stringId": 1895271845390790656
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1895271845206241284,
-            "femaleVariant": "ふん、無視すりゃいいさ"
-          },
-          {
-            "stringId": 1895271845223018500,
-            "femaleVariant": "最後まで聞いたほうがいいぞ"
-          },
-          {
-            "stringId": 1895271845306904576,
-            "femaleVariant": "好奇心には勝てなかったか？"
-          },
-          {
-            "stringId": 1895271845323681796,
-            "femaleVariant": "やっぱり戻ってきた"
-          },
-          {
-            "stringId": 1895271845357236228,
-            "femaleVariant": "時間がないぞ"
-          },
-          {
-            "stringId": 1895271845390790656,
-            "femaleVariant": "こっちは時間を無駄にできないんだ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

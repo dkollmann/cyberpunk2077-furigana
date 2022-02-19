@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.8588608Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wat_nid_chat_025.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "クソ、この臭い。最悪だ…",
+                    "maleVariant": null,
+                    "stringId": 2156430155730903040
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "今度は何だ？",
+                    "maleVariant": null,
+                    "stringId": 2172014120025178112
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "肉だよ。生肉の悪臭。せっかく自分はクロームつけてるのに、なんで肉に囲まれなきゃならないんだ",
+                    "maleVariant": null,
+                    "stringId": 2172014344705654784
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "生肉じゃない、培養肉だ。ついでに言うと、もうずっと前から生産は止まってる",
+                    "maleVariant": null,
+                    "stringId": 2172014616110678016
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "仕事に私情をはさむな。仕事は仕事だ",
+                    "maleVariant": null,
+                    "stringId": 2172014776098209792
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "大体、お前だって食うだろ",
+                    "maleVariant": null,
+                    "stringId": 2172014986534830080
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "だからこそムカつくんだよ…",
+                    "maleVariant": null,
+                    "stringId": 2172015140113465344
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2156430155730903040,
-            "femaleVariant": "クソ、この臭い。最悪だ…"
-          },
-          {
-            "stringId": 2172014120025178112,
-            "femaleVariant": "今度は何だ？"
-          },
-          {
-            "stringId": 2172014344705654784,
-            "femaleVariant": "肉だよ。生肉の悪臭。せっかく自分はクロームつけてるのに、なんで肉に囲まれなきゃならないんだ"
-          },
-          {
-            "stringId": 2172014616110678016,
-            "femaleVariant": "生肉じゃない、培養肉だ。ついでに言うと、もうずっと前から生産は止まってる"
-          },
-          {
-            "stringId": 2172014776098209792,
-            "femaleVariant": "仕事に私情をはさむな。仕事は仕事だ"
-          },
-          {
-            "stringId": 2172014986534830080,
-            "femaleVariant": "大体、お前だって食うだろ"
-          },
-          {
-            "stringId": 2172015140113465344,
-            "femaleVariant": "だからこそムカつくんだよ…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

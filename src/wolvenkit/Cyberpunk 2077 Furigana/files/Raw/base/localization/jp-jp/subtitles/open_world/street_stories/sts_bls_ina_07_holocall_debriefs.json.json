@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:30.5132639Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\street_stories\sts_bls_ina_07_holocall_debriefs.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "うん… 申し分ない働きだ。また頼むよ。ご苦労様だったね",
+                    "maleVariant": null,
+                    "stringId": 2328809700981133312
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なに考えてるんだ！？ なぜ車を壊した？",
+                    "maleVariant": null,
+                    "stringId": 2333087516606578688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "信じられない大失態だよ、まったく。あきれて言葉も出ないね…",
+                    "maleVariant": null,
+                    "stringId": 2333090849350205440
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328809700981133312,
-            "femaleVariant": "うん… 申し分ない働きだ。また頼むよ。ご苦労様だったね"
-          },
-          {
-            "stringId": 2333087516606578688,
-            "femaleVariant": "なに考えてるんだ！？ なぜ車を壊した？"
-          },
-          {
-            "stringId": 2333090849350205440,
-            "femaleVariant": "信じられない大失態だよ、まったく。あきれて言葉も出ないね…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,35 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:30.5947685Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\street_stories\sts_bls_ina_103_mosquito.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "おい、V！ そっちにドローンを送った。それと、追っ手が来てる",
+                    "maleVariant": null,
+                    "stringId": 1924375585904570368
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "準備しておけ。忙しくなるぞ",
+                    "maleVariant": null,
+                    "stringId": 1936016740710666240
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "了解",
+                    "maleVariant": "了解だ",
+                    "stringId": 1936016969266679808
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1924375585904570368,
-            "femaleVariant": "おい、V！ そっちにドローンを送った。それと、追っ手が来てる"
-          },
-          {
-            "stringId": 1936016740710666240,
-            "femaleVariant": "準備しておけ。忙しくなるぞ"
-          },
-          {
-            "stringId": 1936016969266679808,
-            "femaleVariant": "了解",
-            "maleVariant": "了解だ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

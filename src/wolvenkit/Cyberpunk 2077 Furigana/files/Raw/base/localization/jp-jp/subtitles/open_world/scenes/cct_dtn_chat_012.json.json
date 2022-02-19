@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:24.2512516Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\cct_dtn_chat_012.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "はあ… 細かいことでウダウダうるさいのよ！",
+                    "maleVariant": null,
+                    "stringId": 2182443368390692864
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "男っていつもそう。仕切ってるのは自分だと思わないと気が済まないわけ",
+                    "maleVariant": null,
+                    "stringId": 2182504727182675968
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "次の会議では、あいつらの提案をひとつずつ、じっくり聞いてあげるのよ",
+                    "maleVariant": null,
+                    "stringId": 2182513907977261056
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "興味があるように装って、さりげなく褒めつつ、「いいですね、やりましょう」とか言ってればいいわ",
+                    "maleVariant": null,
+                    "stringId": 2182521950337077248
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "でも、バカな提案ばかりなのよね",
+                    "maleVariant": null,
+                    "stringId": 2182522091517349888
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "関係ない。とりあえずそう言っておいて、実際は全部自分のやり方でやるのよ。あいつらの提案だってふりをして",
+                    "maleVariant": null,
+                    "stringId": 2182522186006630400
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何それ。気づかれないの？",
+                    "maleVariant": null,
+                    "stringId": 2182523416514760704
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あのね、誰が何をするかは関係ない。結局は気持ちの問題、エゴなのよ。ちょっとおだててあげればいいだけ",
+                    "maleVariant": null,
+                    "stringId": 2182525765878648832
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2182443368390692864,
-            "femaleVariant": "はあ… 細かいことでウダウダうるさいのよ！"
-          },
-          {
-            "stringId": 2182504727182675968,
-            "femaleVariant": "男っていつもそう。仕切ってるのは自分だと思わないと気が済まないわけ"
-          },
-          {
-            "stringId": 2182513907977261056,
-            "femaleVariant": "次の会議では、あいつらの提案をひとつずつ、じっくり聞いてあげるのよ"
-          },
-          {
-            "stringId": 2182521950337077248,
-            "femaleVariant": "興味があるように装って、さりげなく褒めつつ、「いいですね、やりましょう」とか言ってればいいわ"
-          },
-          {
-            "stringId": 2182522091517349888,
-            "femaleVariant": "でも、バカな提案ばかりなのよね"
-          },
-          {
-            "stringId": 2182522186006630400,
-            "femaleVariant": "関係ない。とりあえずそう言っておいて、実際は全部自分のやり方でやるのよ。あいつらの提案だってふりをして"
-          },
-          {
-            "stringId": 2182523416514760704,
-            "femaleVariant": "何それ。気づかれないの？"
-          },
-          {
-            "stringId": 2182525765878648832,
-            "femaleVariant": "あのね、誰が何をするかは関係ない。結局は気持ちの問題、エゴなのよ。ちょっとおだててあげればいいだけ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

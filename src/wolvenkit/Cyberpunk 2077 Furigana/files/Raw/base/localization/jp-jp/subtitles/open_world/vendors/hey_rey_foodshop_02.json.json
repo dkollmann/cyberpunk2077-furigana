@@ -1,44 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:32.9591658Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\vendors\hey_rey_foodshop_02.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "飲み物は何がある？",
+                    "maleVariant": null,
+                    "stringId": 1863266873962283008
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "面白い場所ね",
+                    "maleVariant": "面白い場所だな",
+                    "stringId": 1863266873962283024
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "飲み物は何があるの？",
+                    "maleVariant": "飲み物は何がある？",
+                    "stringId": 1863266874029391876
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "色々揃えてるよ。こんな場所だからな、客には気兼ねなく楽しんでもらいたいのさ…",
+                    "maleVariant": null,
+                    "stringId": 1863266874029391884
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "変わった店ね。仕事は楽しい？",
+                    "maleVariant": "変わった店だ。仕事は楽しいか？",
+                    "stringId": 1863266874096500740
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "だいたい満足してるよ。ただキラキラがな… どうも完全にはやめられなくて",
+                    "maleVariant": null,
+                    "stringId": 1863266874096500748
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1863266873962283008,
-            "femaleVariant": "飲み物は何がある？"
-          },
-          {
-            "stringId": 1863266873962283024,
-            "femaleVariant": "面白い場所ね",
-            "maleVariant": "面白い場所だな"
-          },
-          {
-            "stringId": 1863266874029391884,
-            "femaleVariant": "色々揃えてるよ。こんな場所だからな、客には気兼ねなく楽しんでもらいたいのさ…"
-          },
-          {
-            "stringId": 1863266874096500740,
-            "femaleVariant": "変わった店ね。仕事は楽しい？",
-            "maleVariant": "変わった店だ。仕事は楽しいか？"
-          },
-          {
-            "stringId": 1863266874096500748,
-            "femaleVariant": "だいたい満足してるよ。ただキラキラがな… どうも完全にはやめられなくて"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

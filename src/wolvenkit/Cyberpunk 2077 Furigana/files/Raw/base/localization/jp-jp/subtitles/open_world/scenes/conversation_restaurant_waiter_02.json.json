@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:24.6720879Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\conversation_restaurant_waiter_02.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ナッツは入ってるかって最初に聞いたのに",
+                    "maleVariant": null,
+                    "stringId": 1969083043355336704
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "アレルギーなんですか？",
+                    "maleVariant": null,
+                    "stringId": 1969085000048484352
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "違うわよ。ただ嫌いなだけ",
+                    "maleVariant": null,
+                    "stringId": 1969085094554542080
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1969083043355336704,
-            "femaleVariant": "ナッツは入ってるかって最初に聞いたのに"
-          },
-          {
-            "stringId": 1969085000048484352,
-            "femaleVariant": "アレルギーなんですか？"
-          },
-          {
-            "stringId": 1969085094554542080,
-            "femaleVariant": "違うわよ。ただ嫌いなだけ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

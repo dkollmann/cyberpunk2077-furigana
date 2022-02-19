@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:27.6589206Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\pac_cvi_chat_005.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="creo" o="Mwen vle achte dèk mwen te vann ou a." t="デッキを買い戻したい" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 1963268246919487488
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="creo" o="Jamè pa. Mwen te ba ou yon pri pou li." t="イヤよ。ちゃんとお金は払ったでしょ" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 1965048228213444608
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="creo" o="Laurie pa fè m sa. Mwen pa te anfòm lè sa a, m te an kakaI." t="頼むよ、ローリー。あの時は金に困ってたんだ" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 1965048683714859008
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="creo" o="Kounye a ou pa konsa ankò. Al achte yon lò dèk." t="今は困ってないんでしょ。だったら別のデッキを買えばいいじゃない" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 1965053782126252032
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963268246919487488,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Mwen vle achte dèk mwen te vann ou a.\" t=\"デッキを買い戻したい\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 1965048228213444608,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Jamè pa. Mwen te ba ou yon pri pou li.\" t=\"イヤよ。ちゃんとお金は払ったでしょ\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 1965048683714859008,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Laurie pa fè m sa. Mwen pa te anfòm lè sa a, m te an kakaI.\" t=\"頼むよ、ローリー。あの時は金に困ってたんだ\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 1965053782126252032,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Kounye a ou pa konsa ankò. Al achte yon lò dèk.\" t=\"今は困ってないんでしょ。だったら別のデッキを買えばいいじゃない\" b=\"\" a=\"\"/>"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

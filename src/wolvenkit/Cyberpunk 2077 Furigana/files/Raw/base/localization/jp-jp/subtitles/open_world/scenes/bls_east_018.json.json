@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:23.6200301Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\bls_east_018.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "街に着いたら何する？",
+                    "maleVariant": null,
+                    "stringId": 2189630218970030080
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "リズィー・ウィズィーを見にいくの！ ライブすごいらしいよ。サイコーだって",
+                    "maleVariant": null,
+                    "stringId": 2189643038306557952
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "へえ、アナキストのギャング連中とつるんでるうえ、まだライブをやるほどのエネルギーがあるとはな",
+                    "maleVariant": null,
+                    "stringId": 2189648064290709504
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "え、モックスのこと？ リズィーとは関係ないよ",
+                    "maleVariant": null,
+                    "stringId": 2189651387756535808
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "連中のクラブの名前は彼女にちなんで名付けたんだぞ",
+                    "maleVariant": null,
+                    "stringId": 2189651692900540416
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "全然違う。あの名前はギャングを倒したすごい人からきてるんだよ",
+                    "maleVariant": null,
+                    "stringId": 2189652102566600704
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "はあ、もうノーマッド丸出し。そんなんじゃ、ナイトシティ出身だなんて誰も信じないよ！",
+                    "maleVariant": null,
+                    "stringId": 2189654205036978176
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2189630218970030080,
-            "femaleVariant": "街に着いたら何する？"
-          },
-          {
-            "stringId": 2189643038306557952,
-            "femaleVariant": "リズィー・ウィズィーを見にいくの！ ライブすごいらしいよ。サイコーだって"
-          },
-          {
-            "stringId": 2189648064290709504,
-            "femaleVariant": "へえ、アナキストのギャング連中とつるんでるうえ、まだライブをやるほどのエネルギーがあるとはな"
-          },
-          {
-            "stringId": 2189651387756535808,
-            "femaleVariant": "え、モックスのこと？ リズィーとは関係ないよ"
-          },
-          {
-            "stringId": 2189651692900540416,
-            "femaleVariant": "連中のクラブの名前は彼女にちなんで名付けたんだぞ"
-          },
-          {
-            "stringId": 2189652102566600704,
-            "femaleVariant": "全然違う。あの名前はギャングを倒したすごい人からきてるんだよ"
-          },
-          {
-            "stringId": 2189654205036978176,
-            "femaleVariant": "はあ、もうノーマッド丸出し。そんなんじゃ、ナイトシティ出身だなんて誰も信じないよ！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

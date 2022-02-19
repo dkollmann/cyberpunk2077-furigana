@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:22.4187740Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\media\quests\q112_01_hanako_arrives.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "アラサカ社CEO、サブロウ・アラサカ氏が亡くなり、ナイトシティは悲しみに包まれています",
+                    "maleVariant": null,
+                    "stringId": 1743075249131671552
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "市庁舎などには追悼の半旗が掲げられ、大規模な公共イベントは軒並み延期となることが決まりました",
+                    "maleVariant": null,
+                    "stringId": 1743077386448326656
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "娘であるハナコ・アラサカ氏は先ごろナイトシティに入ったと報じられています",
+                    "maleVariant": null,
+                    "stringId": 1743077839198277632
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "通夜は明日正午、アラサカ・タワーにて行われます。その後、遺体はサブロウ氏の母国であり、永眠の地ともなる日本へ移送される予定となっています",
+                    "maleVariant": null,
+                    "stringId": 1743078341826891776
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ご冥福をお祈りいたします",
+                    "maleVariant": null,
+                    "stringId": 1743078834137518080
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1743075249131671552,
-            "femaleVariant": "アラサカ社CEO、サブロウ・アラサカ氏が亡くなり、ナイトシティは悲しみに包まれています"
-          },
-          {
-            "stringId": 1743077386448326656,
-            "femaleVariant": "市庁舎などには追悼の半旗が掲げられ、大規模な公共イベントは軒並み延期となることが決まりました"
-          },
-          {
-            "stringId": 1743077839198277632,
-            "femaleVariant": "娘であるハナコ・アラサカ氏は先ごろナイトシティに入ったと報じられています"
-          },
-          {
-            "stringId": 1743078341826891776,
-            "femaleVariant": "通夜は明日正午、アラサカ・タワーにて行われます。その後、遺体はサブロウ氏の母国であり、永眠の地ともなる日本へ移送される予定となっています"
-          },
-          {
-            "stringId": 1743078834137518080,
-            "femaleVariant": "ご冥福をお祈りいたします"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

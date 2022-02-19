@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:23.4125519Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\minor_activities\ma_wat_nid_06_holocall_brief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "NCPD業務委託者に通達。マーティン通りで組織犯罪活動の報告あり。周辺でメイルストロームの存在を確認",
+                    "maleVariant": null,
+                    "stringId": 2328567125268488192
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "一味にはカイザー・ヘルツォーク、通称“外科医”がいる。無免許のリパードク行為および第一級殺人の前科あり、死刑判決を言い渡されている",
+                    "maleVariant": null,
+                    "stringId": 2352315089095593984
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ヘルツォークとその仲間を排除した者には、ナイトシティより報酬が支払われる",
+                    "maleVariant": null,
+                    "stringId": 2352320228158181376
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328567125268488192,
-            "femaleVariant": "NCPD業務委託者に通達。マーティン通りで組織犯罪活動の報告あり。周辺でメイルストロームの存在を確認"
-          },
-          {
-            "stringId": 2352315089095593984,
-            "femaleVariant": "一味にはカイザー・ヘルツォーク、通称“外科医”がいる。無免許のリパードク行為および第一級殺人の前科あり、死刑判決を言い渡されている"
-          },
-          {
-            "stringId": 2352320228158181376,
-            "femaleVariant": "ヘルツォークとその仲間を排除した者には、ナイトシティより報酬が支払われる"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

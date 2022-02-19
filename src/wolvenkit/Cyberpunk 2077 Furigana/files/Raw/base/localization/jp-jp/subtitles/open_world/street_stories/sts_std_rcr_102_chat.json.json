@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:31.6823108Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\street_stories\sts_std_rcr_102_chat.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "「もっと丁寧に」だって？ 手早く仕事をこなすのが一番大事だろ！",
+                    "maleVariant": null,
+                    "stringId": 1924017415411228672
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "わかったよ… 本部のお達しってんならな。オーケー、いいさ、それでいこう… 脚を折るぐらいにしとけってことだろ",
+                    "maleVariant": null,
+                    "stringId": 1935990854405902336
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "はあ？ 脚もダメってのか？ でもメディアじゃ… わかった、わかったよ",
+                    "maleVariant": null,
+                    "stringId": 1935992031747035136
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1924017415411228672,
-            "femaleVariant": "「もっと丁寧に」だって？ 手早く仕事をこなすのが一番大事だろ！"
-          },
-          {
-            "stringId": 1935990854405902336,
-            "femaleVariant": "わかったよ… 本部のお達しってんならな。オーケー、いいさ、それでいこう… 脚を折るぐらいにしとけってことだろ"
-          },
-          {
-            "stringId": 1935992031747035136,
-            "femaleVariant": "はあ？ 脚もダメってのか？ でもメディアじゃ… わかった、わかったよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

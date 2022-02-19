@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:24.0729263Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\cct_cpz_chat_022.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "自分で演奏してると思うか？ チップ制御かな？",
+                    "maleVariant": null,
+                    "stringId": 2192500353517588480
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どっちでも同じでしょ？ 下手じゃなければなんでもいい",
+                    "maleVariant": null,
+                    "stringId": 2192500616466894848
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "同じだって？ 自分でちゃんと習得したのと、手術を受けて15分で弾けるようになるのとじゃ大違いだ！",
+                    "maleVariant": null,
+                    "stringId": 2192529340671299584
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "これだからゼロ世代は…",
+                    "maleVariant": null,
+                    "stringId": 2192529383956516864
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2192500353517588480,
-            "femaleVariant": "自分で演奏してると思うか？ チップ制御かな？"
-          },
-          {
-            "stringId": 2192500616466894848,
-            "femaleVariant": "どっちでも同じでしょ？ 下手じゃなければなんでもいい"
-          },
-          {
-            "stringId": 2192529340671299584,
-            "femaleVariant": "同じだって？ 自分でちゃんと習得したのと、手術を受けて15分で弾けるようになるのとじゃ大違いだ！"
-          },
-          {
-            "stringId": 2192529383956516864,
-            "femaleVariant": "これだからゼロ世代は…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

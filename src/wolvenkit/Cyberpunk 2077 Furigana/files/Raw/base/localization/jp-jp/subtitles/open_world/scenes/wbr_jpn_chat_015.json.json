@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:30.0761701Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wbr_jpn_chat_015.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "このろくでなし！！ バレないとでも思ったの？ ホントに最低ね！",
+                    "maleVariant": null,
+                    "stringId": 2159546605931372544
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "は――？ なんだ！？ ああ！ や、やあ、ハニー",
+                    "maleVariant": null,
+                    "stringId": 2182185263890223104
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "「やあ、ハニー」？ ふざけないで！？ こんな所で何してるの？",
+                    "maleVariant": null,
+                    "stringId": 2182185484812603392
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "シーッ、静かに。騒ぎを起こさないでくれ。な…？",
+                    "maleVariant": null,
+                    "stringId": 2182186019401814016
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2159546605931372544,
-            "femaleVariant": "このろくでなし！！ バレないとでも思ったの？ ホントに最低ね！"
-          },
-          {
-            "stringId": 2182185263890223104,
-            "femaleVariant": "は――？ なんだ！？ ああ！ や、やあ、ハニー"
-          },
-          {
-            "stringId": 2182185484812603392,
-            "femaleVariant": "「やあ、ハニー」？ ふざけないで！？ こんな所で何してるの？"
-          },
-          {
-            "stringId": 2182186019401814016,
-            "femaleVariant": "シーッ、静かに。騒ぎを起こさないでくれ。な…？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

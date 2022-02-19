@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:26.5700296Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\hey_gle_chat_024.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "こんなのバカげてる！ あんな地域に警官を送り込むなんて… 彼女、あと1年で退職なのよ！？",
+                    "maleVariant": null,
+                    "stringId": 2161791634458619904
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "死刑宣告も同然だな。レナは長く持たないぞ",
+                    "maleVariant": null,
+                    "stringId": 2178018288229662720
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ノースサイドに数ヶ月もいれば、身を滅ぼすことになる",
+                    "maleVariant": null,
+                    "stringId": 2178018458082197504
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "立派な警官なのに。正義感の塊みたいな。なのにどうしてこんな目に？",
+                    "maleVariant": null,
+                    "stringId": 2178018587149320192
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "金だろう。退職間近な人間を送った方が好都合なんだよ",
+                    "maleVariant": null,
+                    "stringId": 2178018743177428992
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ちょっと… レナのことを使い捨てのモノみたいに言わないでよ。信じられない",
+                    "maleVariant": null,
+                    "stringId": 2178018888417787904
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そういう仕組みなんだよ。どうしようもない",
+                    "maleVariant": null,
+                    "stringId": 2178019049495838720
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2161791634458619904,
-            "femaleVariant": "こんなのバカげてる！ あんな地域に警官を送り込むなんて… 彼女、あと1年で退職なのよ！？"
-          },
-          {
-            "stringId": 2178018288229662720,
-            "femaleVariant": "死刑宣告も同然だな。レナは長く持たないぞ"
-          },
-          {
-            "stringId": 2178018458082197504,
-            "femaleVariant": "ノースサイドに数ヶ月もいれば、身を滅ぼすことになる"
-          },
-          {
-            "stringId": 2178018587149320192,
-            "femaleVariant": "立派な警官なのに。正義感の塊みたいな。なのにどうしてこんな目に？"
-          },
-          {
-            "stringId": 2178018743177428992,
-            "femaleVariant": "金だろう。退職間近な人間を送った方が好都合なんだよ"
-          },
-          {
-            "stringId": 2178018888417787904,
-            "femaleVariant": "ちょっと… レナのことを使い捨てのモノみたいに言わないでよ。信じられない"
-          },
-          {
-            "stringId": 2178019049495838720,
-            "femaleVariant": "そういう仕組みなんだよ。どうしようもない"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

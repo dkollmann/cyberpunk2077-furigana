@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:23.1342648Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\minor_activities\ma_bls_ina_se1_22_brief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "V、ラフェンがバッドランズで誰かを追い回してるらしいの。「サイコ」がどうとか言ってた。調べてくれる？",
+                    "maleVariant": null,
+                    "stringId": 2354993169733906432
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "もし相手がサイバーサイコでも、殺さないで。できる限りね",
+                    "maleVariant": null,
+                    "stringId": 2360427035197399040
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "実験療法をやっている知り合いに引き渡したいのよ。死人は治療できないからね。詳細を確認して",
+                    "maleVariant": null,
+                    "stringId": 2360427968933355520
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2354993169733906432,
-            "femaleVariant": "V、ラフェンがバッドランズで誰かを追い回してるらしいの。「サイコ」がどうとか言ってた。調べてくれる？"
-          },
-          {
-            "stringId": 2360427035197399040,
-            "femaleVariant": "もし相手がサイバーサイコでも、殺さないで。できる限りね"
-          },
-          {
-            "stringId": 2360427968933355520,
-            "femaleVariant": "実験療法をやっている知り合いに引き渡したいのよ。死人は治療できないからね。詳細を確認して"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

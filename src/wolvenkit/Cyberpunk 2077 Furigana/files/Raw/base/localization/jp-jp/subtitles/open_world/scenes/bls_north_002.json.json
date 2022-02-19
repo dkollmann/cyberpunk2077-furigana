@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:23.7136037Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\bls_north_002.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "絶対に行くんじゃないよ！ レイスの連中だって、それくらいわかってるんだから",
+                    "maleVariant": null,
+                    "stringId": 1973560822578847744
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "違う！ ただの冗談だって！",
+                    "maleVariant": null,
+                    "stringId": 1974865321030041600
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何やってんだ！？ あんた、バカじゃないの！ あそこのガスを吸ったら大変なことになるだろ！",
+                    "maleVariant": null,
+                    "stringId": 1974865407449481216
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "へえ？ じゃあ、油田に行ってこいよ。本当に勇敢なノーマッドなら行けるだろ？",
+                    "maleVariant": null,
+                    "stringId": 1974865423169732608
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "違う！ 何も怖くなんかないもん！",
+                    "maleVariant": null,
+                    "stringId": 1974865437010935808
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "怖いんだな？ やっぱりお前は腰抜けだ",
+                    "maleVariant": null,
+                    "stringId": 1974865448654323712
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1973560822578847744,
-            "femaleVariant": "絶対に行くんじゃないよ！ レイスの連中だって、それくらいわかってるんだから"
-          },
-          {
-            "stringId": 1974865321030041600,
-            "femaleVariant": "違う！ ただの冗談だって！"
-          },
-          {
-            "stringId": 1974865407449481216,
-            "femaleVariant": "何やってんだ！？ あんた、バカじゃないの！ あそこのガスを吸ったら大変なことになるだろ！"
-          },
-          {
-            "stringId": 1974865423169732608,
-            "femaleVariant": "へえ？ じゃあ、油田に行ってこいよ。本当に勇敢なノーマッドなら行けるだろ？"
-          },
-          {
-            "stringId": 1974865437010935808,
-            "femaleVariant": "違う！ 何も怖くなんかないもん！"
-          },
-          {
-            "stringId": 1974865448654323712,
-            "femaleVariant": "怖いんだな？ やっぱりお前は腰抜けだ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

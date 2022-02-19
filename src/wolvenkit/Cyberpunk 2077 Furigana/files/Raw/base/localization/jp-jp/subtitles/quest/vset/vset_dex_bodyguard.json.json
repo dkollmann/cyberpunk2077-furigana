@@ -1,62 +1,110 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:40.2239508Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\quest\vset\vset_dex_bodyguard.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どうも",
+                    "maleVariant": null,
+                    "stringId": 1796883115934728196
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "V",
+                    "maleVariant": null,
+                    "stringId": 1796883115968282624
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "じゃあまた後で",
+                    "maleVariant": null,
+                    "stringId": 1796883116052168708
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "戻ったら話そう",
+                    "maleVariant": null,
+                    "stringId": 1796883116068945924
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "もう話せるか？",
+                    "maleVariant": null,
+                    "stringId": 1796883116152832004
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "じゃあ続きからだな",
+                    "maleVariant": null,
+                    "stringId": 1796883116169609220
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ただ突っ立ってるつもりか？",
+                    "maleVariant": null,
+                    "stringId": 1796883116203163652
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "喋り方を忘れたのか？",
+                    "maleVariant": null,
+                    "stringId": 1796883116236718084
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "気をつけろ",
+                    "maleVariant": null,
+                    "stringId": 1796883116505153540
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何のつもりだ？",
+                    "maleVariant": null,
+                    "stringId": 1796883116521930756
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1796883115934728196,
-            "femaleVariant": "どうも"
-          },
-          {
-            "stringId": 1796883115968282624,
-            "femaleVariant": "V"
-          },
-          {
-            "stringId": 1796883116052168708,
-            "femaleVariant": "じゃあまた後で"
-          },
-          {
-            "stringId": 1796883116068945924,
-            "femaleVariant": "戻ったら話そう"
-          },
-          {
-            "stringId": 1796883116152832004,
-            "femaleVariant": "もう話せるか？"
-          },
-          {
-            "stringId": 1796883116169609220,
-            "femaleVariant": "じゃあ続きからだな"
-          },
-          {
-            "stringId": 1796883116203163652,
-            "femaleVariant": "ただ突っ立ってるつもりか？"
-          },
-          {
-            "stringId": 1796883116236718084,
-            "femaleVariant": "喋り方を忘れたのか？"
-          },
-          {
-            "stringId": 1796883116505153540,
-            "femaleVariant": "気をつけろ"
-          },
-          {
-            "stringId": 1796883116521930756,
-            "femaleVariant": "何のつもりだ？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

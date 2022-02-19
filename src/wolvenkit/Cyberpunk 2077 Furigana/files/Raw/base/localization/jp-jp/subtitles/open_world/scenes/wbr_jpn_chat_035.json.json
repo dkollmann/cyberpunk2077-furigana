@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:30.2229416Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wbr_jpn_chat_035.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あいつら、あたしたちを何だと思ってるの？ ここがコーポ・プラザにでも見える？",
+                    "maleVariant": null,
+                    "stringId": 2160404826850107392
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どうやっても見えないな。むしろ真逆だろ",
+                    "maleVariant": null,
+                    "stringId": 2196701541560590336
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "じゃあなんでこんな堅苦しい生活をしなきゃいけないの！",
+                    "maleVariant": null,
+                    "stringId": 2196701810130264064
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なにが“警備”料金よ？ クロウズの奴ら、今年に入ってもう3回も値上げしやがって！",
+                    "maleVariant": null,
+                    "stringId": 2196705534001127424
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "おい、声が大きいって。誰が聞いてるかわからないだろ",
+                    "maleVariant": null,
+                    "stringId": 2196718614542131200
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あたしには小さな子供が2人と、BDアクターを目指す夫がいるの。タイガークロウズでもなんでも、かかってきなさいよ",
+                    "maleVariant": null,
+                    "stringId": 2196723275554725888
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "わかったから。でもその子供たちも、母親がいなくなったら困るだろ？",
+                    "maleVariant": null,
+                    "stringId": 2196729865494175744
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2160404826850107392,
-            "femaleVariant": "あいつら、あたしたちを何だと思ってるの？ ここがコーポ・プラザにでも見える？"
-          },
-          {
-            "stringId": 2196701541560590336,
-            "femaleVariant": "どうやっても見えないな。むしろ真逆だろ"
-          },
-          {
-            "stringId": 2196701810130264064,
-            "femaleVariant": "じゃあなんでこんな堅苦しい生活をしなきゃいけないの！"
-          },
-          {
-            "stringId": 2196705534001127424,
-            "femaleVariant": "なにが“警備”料金よ？ クロウズの奴ら、今年に入ってもう3回も値上げしやがって！"
-          },
-          {
-            "stringId": 2196718614542131200,
-            "femaleVariant": "おい、声が大きいって。誰が聞いてるかわからないだろ"
-          },
-          {
-            "stringId": 2196723275554725888,
-            "femaleVariant": "あたしには小さな子供が2人と、BDアクターを目指す夫がいるの。タイガークロウズでもなんでも、かかってきなさいよ"
-          },
-          {
-            "stringId": 2196729865494175744,
-            "femaleVariant": "わかったから。でもその子供たちも、母親がいなくなったら困るだろ？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.1688813Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wat_awf_chat_006.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ジギーQの最新エピソード見たか？",
+                    "maleVariant": null,
+                    "stringId": 1963249724537479168
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いや、別の仕事のシフト中だったから。今回は誰だったんだ？",
+                    "maleVariant": null,
+                    "stringId": 1967835503697121280
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どこかの女警官だ。すごかったぞ、ジギーが完全に論破してた！",
+                    "maleVariant": null,
+                    "stringId": 1967837636651700224
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そりゃ見なきゃな。NCPDなんかクソくらえだ。メイルストロームよりひどい",
+                    "maleVariant": null,
+                    "stringId": 1967837892370026496
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963249724537479168,
-            "femaleVariant": "ジギーQの最新エピソード見たか？"
-          },
-          {
-            "stringId": 1967835503697121280,
-            "femaleVariant": "いや、別の仕事のシフト中だったから。今回は誰だったんだ？"
-          },
-          {
-            "stringId": 1967837636651700224,
-            "femaleVariant": "どこかの女警官だ。すごかったぞ、ジギーが完全に論破してた！"
-          },
-          {
-            "stringId": 1967837892370026496,
-            "femaleVariant": "そりゃ見なきゃな。NCPDなんかクソくらえだ。メイルストロームよりひどい"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

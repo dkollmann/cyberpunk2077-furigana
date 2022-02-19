@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:27.8584788Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\pac_wwd_chat_007.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "今はその話をしたくない",
+                    "maleVariant": null,
+                    "stringId": 1963302477288742912
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "少し寝させて",
+                    "maleVariant": null,
+                    "stringId": 1964828117967851520
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "マーティーン…",
+                    "maleVariant": null,
+                    "stringId": 1964828500354158592
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "寝たら、全て解決すると思ってるのか？",
+                    "maleVariant": null,
+                    "stringId": 1964832573610545152
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "少なくとも、寝てる間は考えなくて済むでしょ",
+                    "maleVariant": null,
+                    "stringId": 1964833209148264448
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963302477288742912,
-            "femaleVariant": "今はその話をしたくない"
-          },
-          {
-            "stringId": 1964828117967851520,
-            "femaleVariant": "少し寝させて"
-          },
-          {
-            "stringId": 1964828500354158592,
-            "femaleVariant": "マーティーン…"
-          },
-          {
-            "stringId": 1964832573610545152,
-            "femaleVariant": "寝たら、全て解決すると思ってるのか？"
-          },
-          {
-            "stringId": 1964833209148264448,
-            "femaleVariant": "少なくとも、寝てる間は考えなくて済むでしょ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

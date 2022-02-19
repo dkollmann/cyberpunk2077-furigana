@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:31.2490422Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\street_stories\sts_pac_cvi_02_gangers.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "じゃあ、そっちのフィードを確認してくれる？",
+                    "maleVariant": null,
+                    "stringId": 1400882961402900480
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ああ…",
+                    "maleVariant": null,
+                    "stringId": 1400913327140450304
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それじゃ、上の階で待機してる。準備ができたら声をかけろ",
+                    "maleVariant": null,
+                    "stringId": 1419997132761411584
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "メイルストロームも大したことないな… チョロいもんだ！",
+                    "maleVariant": null,
+                    "stringId": 1617198252343504896
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "まんまと騙されやがって",
+                    "maleVariant": null,
+                    "stringId": 1617198252343504904
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "俺たちがトーテンタンツで大暴れしたら、連中は山ほどの死体を数えるハメになる。算数できればの話だがな",
+                    "maleVariant": null,
+                    "stringId": 1617198252343504912
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "退屈な金曜の夜が面白くなりそうだ",
+                    "maleVariant": null,
+                    "stringId": 1617205965265907712
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "買いかぶりすぎなんだよ。あのブリキ人間どもは、チェーンソーでドタマをこじ開けるしか能がない連中だぞ！",
+                    "maleVariant": null,
+                    "stringId": 1618186799212998656
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1400882961402900480,
-            "femaleVariant": "じゃあ、そっちのフィードを確認してくれる？"
-          },
-          {
-            "stringId": 1400913327140450304,
-            "femaleVariant": "ああ…"
-          },
-          {
-            "stringId": 1419997132761411584,
-            "femaleVariant": "それじゃ、上の階で待機してる。準備ができたら声をかけろ"
-          },
-          {
-            "stringId": 1617198252343504896,
-            "femaleVariant": "メイルストロームも大したことないな… チョロいもんだ！"
-          },
-          {
-            "stringId": 1617198252343504904,
-            "femaleVariant": "まんまと騙されやがって"
-          },
-          {
-            "stringId": 1617198252343504912,
-            "femaleVariant": "俺たちがトーテンタンツで大暴れしたら、連中は山ほどの死体を数えるハメになる。算数できればの話だがな"
-          },
-          {
-            "stringId": 1617205965265907712,
-            "femaleVariant": "退屈な金曜の夜が面白くなりそうだ"
-          },
-          {
-            "stringId": 1618186799212998656,
-            "femaleVariant": "買いかぶりすぎなんだよ。あのブリキ人間どもは、チェーンソーでドタマをこじ開けるしか能がない連中だぞ！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

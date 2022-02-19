@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:27.9155738Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\pac_wwd_chat_018.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "スタイル、よくなったわね。それ、どこでやってもらったの？",
+                    "maleVariant": null,
+                    "stringId": 2179601603733610496
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ジャパンタウンのリパー。微笑みかけたら、タダでやってくれたの",
+                    "maleVariant": null,
+                    "stringId": 2211176826685579264
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ウソでしょ。微笑みひとつで手術してもらえるなら、誰も苦労しないわ",
+                    "maleVariant": null,
+                    "stringId": 2217158932750360576
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ハハ、やだ！ ホントに微笑んだだけだと思った？",
+                    "maleVariant": null,
+                    "stringId": 2217159468463644672
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あーあ、インプットが怒るよ…",
+                    "maleVariant": null,
+                    "stringId": 2217159837461733376
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どうせいつも怒ってるし",
+                    "maleVariant": null,
+                    "stringId": 2217160068232339456
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2179601603733610496,
-            "femaleVariant": "スタイル、よくなったわね。それ、どこでやってもらったの？"
-          },
-          {
-            "stringId": 2211176826685579264,
-            "femaleVariant": "ジャパンタウンのリパー。微笑みかけたら、タダでやってくれたの"
-          },
-          {
-            "stringId": 2217158932750360576,
-            "femaleVariant": "ウソでしょ。微笑みひとつで手術してもらえるなら、誰も苦労しないわ"
-          },
-          {
-            "stringId": 2217159468463644672,
-            "femaleVariant": "ハハ、やだ！ ホントに微笑んだだけだと思った？"
-          },
-          {
-            "stringId": 2217159837461733376,
-            "femaleVariant": "あーあ、インプットが怒るよ…"
-          },
-          {
-            "stringId": 2217160068232339456,
-            "femaleVariant": "どうせいつも怒ってるし"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

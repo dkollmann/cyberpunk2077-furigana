@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:25.3423225Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\conversation_street_new_val_06.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="mex" o="El tipo se cree más santo que el mismísimo pinche Jesucristo." t="あの野郎、自分をキリスト以上の聖人だと勘違いしやがって…" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 2276541635868401680
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="mex" o="Ji, ji, ji, ji. El salvador de Heywood mis huevos." t="ああ、何がヘイウッドの救世主だ" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 2276541635868401692
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="mex" o="Je, je, je, je. El Padre es un pinche payaso. Un payaso y un hipócrita, eso merito es." t="パドレは道化さ。偽善者のな。それがあの野郎の正体だよ" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 2276541635885178880
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2276541635868401680,
-            "femaleVariant": "<kiroshi l=\"mex\" o=\"El tipo se cree más santo que el mismísimo pinche Jesucristo.\" t=\"あの野郎、自分をキリスト以上の聖人だと勘違いしやがって…\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 2276541635868401692,
-            "femaleVariant": "<kiroshi l=\"mex\" o=\"Ji, ji, ji, ji. El salvador de Heywood mis huevos.\" t=\"ああ、何がヘイウッドの救世主だ\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 2276541635885178880,
-            "femaleVariant": "<kiroshi l=\"mex\" o=\"Je, je, je, je. El Padre es un pinche payaso. Un payaso y un hipócrita, eso merito es.\" t=\"パドレは道化さ。偽善者のな。それがあの野郎の正体だよ\" b=\"\" a=\"\"/>"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

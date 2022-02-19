@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.5469877Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wat_lch_chat_021.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "仕事はがむしゃらじゃなく、賢くやらないと。楽に済むならその方がいい",
+                    "maleVariant": null,
+                    "stringId": 2156507374513582080
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "結果さえよければ、クライアントは満足する",
+                    "maleVariant": null,
+                    "stringId": 2176366912042942464
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それはわかるけど、気持ち悪いスケベ男の相手するのは私なのよ",
+                    "maleVariant": null,
+                    "stringId": 2176367127395287040
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "問題には必ず解決策がある。一線を超える前に、興味ないってハッキリ言えばいいだけ",
+                    "maleVariant": null,
+                    "stringId": 2176367432874835968
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それでダメならM-76eをこめかみに突き付けてやればいい",
+                    "maleVariant": null,
+                    "stringId": 2176367623749222400
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いや。やっぱり無理。仕事のために気を持たせるなんて",
+                    "maleVariant": null,
+                    "stringId": 2176367987194052608
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "昔ながらの銃撃戦で片付けるほうがよっぽどマシ。兵士らしくね",
+                    "maleVariant": null,
+                    "stringId": 2176369225738469376
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それはごもっとも",
+                    "maleVariant": null,
+                    "stringId": 2176369569067417600
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2156507374513582080,
-            "femaleVariant": "仕事はがむしゃらじゃなく、賢くやらないと。楽に済むならその方がいい"
-          },
-          {
-            "stringId": 2176366912042942464,
-            "femaleVariant": "結果さえよければ、クライアントは満足する"
-          },
-          {
-            "stringId": 2176367127395287040,
-            "femaleVariant": "それはわかるけど、気持ち悪いスケベ男の相手するのは私なのよ"
-          },
-          {
-            "stringId": 2176367432874835968,
-            "femaleVariant": "問題には必ず解決策がある。一線を超える前に、興味ないってハッキリ言えばいいだけ"
-          },
-          {
-            "stringId": 2176367623749222400,
-            "femaleVariant": "それでダメならM-76eをこめかみに突き付けてやればいい"
-          },
-          {
-            "stringId": 2176367987194052608,
-            "femaleVariant": "いや。やっぱり無理。仕事のために気を持たせるなんて"
-          },
-          {
-            "stringId": 2176369225738469376,
-            "femaleVariant": "昔ながらの銃撃戦で片付けるほうがよっぽどマシ。兵士らしくね"
-          },
-          {
-            "stringId": 2176369569067417600,
-            "femaleVariant": "それはごもっとも"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:21.3669925Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\media\animated_billboards\ab_sts_wat_nid_04_televangelist_ad.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "世界が変わっても、悪が消え去ることはありません！",
+                    "maleVariant": null,
+                    "stringId": 1993698883485880320
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "今なお人々を誘惑し、腐敗させようと… 狙っているのです",
+                    "maleVariant": null,
+                    "stringId": 1993699661478940672
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "しかし心配はご無用。私があなたの魂からサタンを追放し、光へと導きましょう！",
+                    "maleVariant": null,
+                    "stringId": 1993699975951077376
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ブライス・ストーンの礼拝は毎週日曜、N54をチェック",
+                    "maleVariant": null,
+                    "stringId": 1993700393988968448
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1993698883485880320,
-            "femaleVariant": "世界が変わっても、悪が消え去ることはありません！"
-          },
-          {
-            "stringId": 1993699661478940672,
-            "femaleVariant": "今なお人々を誘惑し、腐敗させようと… 狙っているのです"
-          },
-          {
-            "stringId": 1993699975951077376,
-            "femaleVariant": "しかし心配はご無用。私があなたの魂からサタンを追放し、光へと導きましょう！"
-          },
-          {
-            "stringId": 1993700393988968448,
-            "femaleVariant": "ブライス・ストーンの礼拝は毎週日曜、N54をチェック"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

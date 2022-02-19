@@ -1,47 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:33.3050837Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\vendors\wbr_hil_clothingshop_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "売り物は？",
+                    "maleVariant": null,
+                    "stringId": 1764841085785780224
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何かおすすめは？",
+                    "maleVariant": null,
+                    "stringId": 1764841085802557444
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何がある？",
+                    "maleVariant": null,
+                    "stringId": 1764914950096465920
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "とくとご覧あれ",
+                    "maleVariant": null,
+                    "stringId": 1764915472387977216
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "スタイルに迷ってて。何かお勧めはある？",
+                    "maleVariant": "スタイルに迷ってて。お勧めはあるか？",
+                    "stringId": 1764915916011122688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "秋を思わせる目をしてるから… チアキ・キョウトの作品なんていかが？",
+                    "maleVariant": null,
+                    "stringId": 1764916180420046848
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1764841085785780224,
-            "femaleVariant": "売り物は？"
-          },
-          {
-            "stringId": 1764841085802557444,
-            "femaleVariant": "何かおすすめは？"
-          },
-          {
-            "stringId": 1764914950096465920,
-            "femaleVariant": "何がある？"
-          },
-          {
-            "stringId": 1764915472387977216,
-            "femaleVariant": "とくとご覧あれ"
-          },
-          {
-            "stringId": 1764915916011122688,
-            "femaleVariant": "スタイルに迷ってて。何かお勧めはある？",
-            "maleVariant": "スタイルに迷ってて。お勧めはあるか？"
-          },
-          {
-            "stringId": 1764916180420046848,
-            "femaleVariant": "秋を思わせる目をしてるから… チアキ・キョウトの作品なんていかが？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

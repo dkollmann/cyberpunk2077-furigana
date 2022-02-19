@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:30.0479451Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wbr_jpn_chat_010.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "悪くはなかったけどさ",
+                    "maleVariant": null,
+                    "stringId": 1807004728293974016
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "主人公がなんというか、あまりにもうぶすぎて",
+                    "maleVariant": null,
+                    "stringId": 1807007364917354496
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何、夢を持ってたらうぶなわけ？",
+                    "maleVariant": null,
+                    "stringId": 1807008229128527872
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "だってそうでしょ。大企業で働きながら、夢を持つなんて矛盾してる",
+                    "maleVariant": null,
+                    "stringId": 1807008395642396672
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あんたはキロシで働いてるじゃない",
+                    "maleVariant": null,
+                    "stringId": 1807008582238593024
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "私が持ってるのは野望よ。夢じゃない",
+                    "maleVariant": null,
+                    "stringId": 1807008737947934720
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1807004728293974016,
-            "femaleVariant": "悪くはなかったけどさ"
-          },
-          {
-            "stringId": 1807007364917354496,
-            "femaleVariant": "主人公がなんというか、あまりにもうぶすぎて"
-          },
-          {
-            "stringId": 1807008229128527872,
-            "femaleVariant": "何、夢を持ってたらうぶなわけ？"
-          },
-          {
-            "stringId": 1807008395642396672,
-            "femaleVariant": "だってそうでしょ。大企業で働きながら、夢を持つなんて矛盾してる"
-          },
-          {
-            "stringId": 1807008582238593024,
-            "femaleVariant": "あんたはキロシで働いてるじゃない"
-          },
-          {
-            "stringId": 1807008737947934720,
-            "femaleVariant": "私が持ってるのは野望よ。夢じゃない"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

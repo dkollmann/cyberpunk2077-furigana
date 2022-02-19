@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:26.6812312Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\hey_rey_chat_013.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "幸せになりたいだけなんだ。どうしてわかってくれないんだよ",
+                    "maleVariant": null,
+                    "stringId": 2161782791709421568
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あのな、今ここでする話じゃないだろ",
+                    "maleVariant": null,
+                    "stringId": 2218889969057239040
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なんでだ？ 全然話してくれないし、いつも言い訳ばかりじゃないか",
+                    "maleVariant": null,
+                    "stringId": 2218934077985492992
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "「いつも」？ 「全然」？ 勘弁してくれ",
+                    "maleVariant": null,
+                    "stringId": 2218934519276605440
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "特別な存在に、パートナーになりたいんだ",
+                    "maleVariant": null,
+                    "stringId": 2218934895606337536
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1人に縛られるのは嫌だって言ってるだろ。とにかく楽しめよ。周りを見てみろ",
+                    "maleVariant": null,
+                    "stringId": 2218935243767123968
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "夜を台無しにしないでくれ。頼むから",
+                    "maleVariant": null,
+                    "stringId": 2218935718948212736
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2161782791709421568,
-            "femaleVariant": "幸せになりたいだけなんだ。どうしてわかってくれないんだよ"
-          },
-          {
-            "stringId": 2218889969057239040,
-            "femaleVariant": "あのな、今ここでする話じゃないだろ"
-          },
-          {
-            "stringId": 2218934077985492992,
-            "femaleVariant": "なんでだ？ 全然話してくれないし、いつも言い訳ばかりじゃないか"
-          },
-          {
-            "stringId": 2218934519276605440,
-            "femaleVariant": "「いつも」？ 「全然」？ 勘弁してくれ"
-          },
-          {
-            "stringId": 2218934895606337536,
-            "femaleVariant": "特別な存在に、パートナーになりたいんだ"
-          },
-          {
-            "stringId": 2218935243767123968,
-            "femaleVariant": "1人に縛られるのは嫌だって言ってるだろ。とにかく楽しめよ。周りを見てみろ"
-          },
-          {
-            "stringId": 2218935718948212736,
-            "femaleVariant": "夜を台無しにしないでくれ。頼むから"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

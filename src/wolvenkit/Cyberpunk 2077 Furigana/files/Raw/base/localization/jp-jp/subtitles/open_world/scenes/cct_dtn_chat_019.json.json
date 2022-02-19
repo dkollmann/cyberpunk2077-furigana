@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:24.2955164Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\cct_dtn_chat_019.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "楽しかったよ。彼が警官に捕まるまでは",
+                    "maleVariant": null,
+                    "stringId": 2172185211490250752
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ホントよ。テーブルで食べてたら、急にずかずか入ってきて、彼に手錠をかけて引きずってったの",
+                    "maleVariant": null,
+                    "stringId": 2188315842730889216
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "さあ。だって初デートよ？ 「ところで、警察に追われてる？」なんて聞かないし",
+                    "maleVariant": null,
+                    "stringId": 2188315875865890816
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そうね、マーサ。わざわざどうも",
+                    "maleVariant": null,
+                    "stringId": 2188315943796838400
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "はいはい、まだ笑ってくれた方が助かるわよ",
+                    "maleVariant": null,
+                    "stringId": 2188350119354929152
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "また連絡するかって？ 当たり前でしょ。払った食事代、返してもらわないと",
+                    "maleVariant": null,
+                    "stringId": 2188350317762285568
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2172185211490250752,
-            "femaleVariant": "楽しかったよ。彼が警官に捕まるまでは"
-          },
-          {
-            "stringId": 2188315842730889216,
-            "femaleVariant": "ホントよ。テーブルで食べてたら、急にずかずか入ってきて、彼に手錠をかけて引きずってったの"
-          },
-          {
-            "stringId": 2188315875865890816,
-            "femaleVariant": "さあ。だって初デートよ？ 「ところで、警察に追われてる？」なんて聞かないし"
-          },
-          {
-            "stringId": 2188315943796838400,
-            "femaleVariant": "そうね、マーサ。わざわざどうも"
-          },
-          {
-            "stringId": 2188350119354929152,
-            "femaleVariant": "はいはい、まだ笑ってくれた方が助かるわよ"
-          },
-          {
-            "stringId": 2188350317762285568,
-            "femaleVariant": "また連絡するかって？ 当たり前でしょ。払った食事代、返してもらわないと"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

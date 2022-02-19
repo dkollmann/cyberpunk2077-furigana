@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:24.5753955Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\conversation_corpo_high_corpo_gives_instructions_04.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "でも…",
+                    "maleVariant": null,
+                    "stringId": 1985087786452033536
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "俺の言ったことが聞こえなかったか？",
+                    "maleVariant": null,
+                    "stringId": 1985088076311994368
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いや、そういうわけじゃ… あー、やっぱ何でもないっす",
+                    "maleVariant": null,
+                    "stringId": 1985088172931981312
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1985087786452033536,
-            "femaleVariant": "でも…"
-          },
-          {
-            "stringId": 1985088076311994368,
-            "femaleVariant": "俺の言ったことが聞こえなかったか？"
-          },
-          {
-            "stringId": 1985088172931981312,
-            "femaleVariant": "いや、そういうわけじゃ… あー、やっぱ何でもないっす"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

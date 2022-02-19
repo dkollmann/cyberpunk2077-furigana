@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:24.1256763Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\cct_cpz_chat_029.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "上の子はあなたが",
+                    "maleVariant": null,
+                    "stringId": 2172097639878352896
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いや、お前だ。自然な子を欲しがったのはお前だろ。その結果、自然で頭の悪い息子を手に入れたんだ",
+                    "maleVariant": null,
+                    "stringId": 2207215055103430656
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あの子は普通よ。あなたが希望した、研究所で人工的に作られた“完璧な”人間じゃないだけ",
+                    "maleVariant": null,
+                    "stringId": 2207238080808980480
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "お前が“完璧”を嫌ったせいでな。おかげで企業に就職できないどころか、高等教育も受けられない。俺は絶対引き取らないぞ",
+                    "maleVariant": null,
+                    "stringId": 2207238270307635200
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "つまり私ばかりが貧乏くじを引くわけ？ 家も、下の子もあなたに譲って！？ 冗談じゃないわ！",
+                    "maleVariant": null,
+                    "stringId": 2207240677368369152
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それはこっちのセリフだ！ はあ… いいだろう。家はくれてやるが、下の子は俺が引き取る",
+                    "maleVariant": null,
+                    "stringId": 2207242121031028736
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "わかった… でも毎月の養育費は増やしてもらうから――記録に残さない形でね",
+                    "maleVariant": null,
+                    "stringId": 2207242622736896000
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2172097639878352896,
-            "femaleVariant": "上の子はあなたが"
-          },
-          {
-            "stringId": 2207215055103430656,
-            "femaleVariant": "いや、お前だ。自然な子を欲しがったのはお前だろ。その結果、自然で頭の悪い息子を手に入れたんだ"
-          },
-          {
-            "stringId": 2207238080808980480,
-            "femaleVariant": "あの子は普通よ。あなたが希望した、研究所で人工的に作られた“完璧な”人間じゃないだけ"
-          },
-          {
-            "stringId": 2207238270307635200,
-            "femaleVariant": "お前が“完璧”を嫌ったせいでな。おかげで企業に就職できないどころか、高等教育も受けられない。俺は絶対引き取らないぞ"
-          },
-          {
-            "stringId": 2207240677368369152,
-            "femaleVariant": "つまり私ばかりが貧乏くじを引くわけ？ 家も、下の子もあなたに譲って！？ 冗談じゃないわ！"
-          },
-          {
-            "stringId": 2207242121031028736,
-            "femaleVariant": "それはこっちのセリフだ！ はあ… いいだろう。家はくれてやるが、下の子は俺が引き取る"
-          },
-          {
-            "stringId": 2207242622736896000,
-            "femaleVariant": "わかった… でも毎月の養育費は増やしてもらうから――記録に残さない形でね"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

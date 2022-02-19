@@ -1,39 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:39.6372455Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\quest\sq025\sq025_01_crash.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ジョニー、今の見た？ 一体どういうこと…",
+                    "maleVariant": "ジョニー、今の見たか？ 一体どういうことだ…",
+                    "stringId": 1756182346910048256
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何がだよ？",
+                    "maleVariant": null,
+                    "stringId": 1924292467347709952
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あのデラマンが… 走り去るなんて。事故はともかく、あれだけ真面目な運転手が… 信じられない",
+                    "maleVariant": null,
+                    "stringId": 1924292847133548544
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[車を置いていく]",
+                    "maleVariant": null,
+                    "stringId": 2424313909325504516
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1756182346910048256,
-            "femaleVariant": "ジョニー、今の見た？ 一体どういうこと…",
-            "maleVariant": "ジョニー、今の見たか？ 一体どういうことだ…"
-          },
-          {
-            "stringId": 1924292467347709952,
-            "femaleVariant": "何がだよ？"
-          },
-          {
-            "stringId": 1924292847133548544,
-            "femaleVariant": "あのデラマンが… 走り去るなんて。事故はともかく、あれだけ真面目な運転手が… 信じられない"
-          },
-          {
-            "stringId": 2424313909325504516,
-            "femaleVariant": "[車を置いていく]"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

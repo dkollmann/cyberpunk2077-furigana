@@ -1,39 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:30.8141099Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\street_stories\sts_cct_dtn_05_johnny.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "見ろよ。街の人間がチューブ飯を食って、雨ざらしの暮らしをしてるってのに… こいつら金持ちどもは",
+                    "maleVariant": null,
+                    "stringId": 1918542684152213504
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "羞恥心や、道徳ってのは一体どこ行った？",
+                    "maleVariant": null,
+                    "stringId": 1924377343921803264
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "さあね。今度街で大富豪に出くわしたら、ジョニー・シルヴァーハンドがそう聞いてたって言っとくよ",
+                    "maleVariant": "さあな。今度街で大富豪に出くわしたら、ジョニー・シルヴァーハンドがそう聞いてたって言っとくよ",
+                    "stringId": 1924383785785544704
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "聞かなくていい。そいつの顔にツバでも吐いとけ",
+                    "maleVariant": null,
+                    "stringId": 1924385458138435584
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1918542684152213504,
-            "femaleVariant": "見ろよ。街の人間がチューブ飯を食って、雨ざらしの暮らしをしてるってのに… こいつら金持ちどもは"
-          },
-          {
-            "stringId": 1924377343921803264,
-            "femaleVariant": "羞恥心や、道徳ってのは一体どこ行った？"
-          },
-          {
-            "stringId": 1924383785785544704,
-            "femaleVariant": "さあね。今度街で大富豪に出くわしたら、ジョニー・シルヴァーハンドがそう聞いてたって言っとくよ",
-            "maleVariant": "さあな。今度街で大富豪に出くわしたら、ジョニー・シルヴァーハンドがそう聞いてたって言っとくよ"
-          },
-          {
-            "stringId": 1924385458138435584,
-            "femaleVariant": "聞かなくていい。そいつの顔にツバでも吐いとけ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

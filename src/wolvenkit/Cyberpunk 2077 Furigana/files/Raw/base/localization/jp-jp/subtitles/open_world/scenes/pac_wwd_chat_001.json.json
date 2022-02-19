@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:27.8254309Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\pac_wwd_chat_001.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="creo" o="Mwen pap mande li anyen ankò." t="もうあいつには何も頼まない" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 1959255275444391936
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="creo" o="Mwen te kwè se te yonn renmen lòt." t="仲がいいと思ってたが" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 1964698558920413184
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="creo" o="Se sa menm. Mwen pa vle kraze sa a." t="いいからこそよ。その関係を壊したくない" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 1964699379527602176
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="creo" o="Si mesye di non, li pral santi li wont, si mesye di wi se mwen kap santi m dròl." t="断れば彼は後ろめたさを感じるし、了承したらしたで私が気まずくなる" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 1964700019477729280
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="creo" o="Wa p ekzajere. An jeneral, Jean-ki-ri... Renmen tout moun." t="考えすぎじゃないか？ ジャンキリは… そういうのを気にしないと思うが" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 1964700768395874304
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="creo" o="Se konsa sa ye? E ben ou pral pale ak mesye." t="だったら、あんたが彼に頼みにいってよ" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 1964701993552072704
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1959255275444391936,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Mwen pap mande li anyen ankò.\" t=\"もうあいつには何も頼まない\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 1964698558920413184,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Mwen te kwè se te yonn renmen lòt.\" t=\"仲がいいと思ってたが\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 1964699379527602176,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Se sa menm. Mwen pa vle kraze sa a.\" t=\"いいからこそよ。その関係を壊したくない\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 1964700019477729280,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Si mesye di non, li pral santi li wont, si mesye di wi se mwen kap santi m dròl.\" t=\"断れば彼は後ろめたさを感じるし、了承したらしたで私が気まずくなる\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 1964700768395874304,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Wa p ekzajere. An jeneral, Jean-ki-ri... Renmen tout moun.\" t=\"考えすぎじゃないか？ ジャンキリは… そういうのを気にしないと思うが\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 1964701993552072704,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Se konsa sa ye? E ben ou pral pale ak mesye.\" t=\"だったら、あんたが彼に頼みにいってよ\" b=\"\" a=\"\"/>"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

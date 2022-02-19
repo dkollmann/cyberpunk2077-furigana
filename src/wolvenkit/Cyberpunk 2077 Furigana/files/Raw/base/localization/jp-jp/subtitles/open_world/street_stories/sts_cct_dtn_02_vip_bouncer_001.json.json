@@ -1,51 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:30.7143291Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\street_stories\sts_cct_dtn_02_vip_bouncer_001.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "VIP専用だ",
+                    "maleVariant": null,
+                    "stringId": 1712566134284513280
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "聞こえたろ？ とっとと失せろ！",
+                    "maleVariant": null,
+                    "stringId": 1712566134318067712
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ボスに話があるの",
+                    "maleVariant": "ボスに話がある",
+                    "stringId": 1712566134334844928
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ボスは中に？",
+                    "maleVariant": null,
+                    "stringId": 1712566134586503168
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そうかい、俺だってリズィー・ウィズィーの谷間に顔をうずめてえもんだ",
+                    "maleVariant": null,
+                    "stringId": 1712566134586503176
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いたら、何だ？",
+                    "maleVariant": null,
+                    "stringId": 1925706191955349504
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "話がしたい",
+                    "maleVariant": null,
+                    "stringId": 1925706438479761408
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1712566134284513280,
-            "femaleVariant": "VIP専用だ"
-          },
-          {
-            "stringId": 1712566134318067712,
-            "femaleVariant": "聞こえたろ？ とっとと失せろ！"
-          },
-          {
-            "stringId": 1712566134334844928,
-            "femaleVariant": "ボスに話があるの",
-            "maleVariant": "ボスに話がある"
-          },
-          {
-            "stringId": 1712566134586503168,
-            "femaleVariant": "ボスは中に？"
-          },
-          {
-            "stringId": 1712566134586503176,
-            "femaleVariant": "そうかい、俺だってリズィー・ウィズィーの谷間に顔をうずめてえもんだ"
-          },
-          {
-            "stringId": 1925706191955349504,
-            "femaleVariant": "いたら、何だ？"
-          },
-          {
-            "stringId": 1925706438479761408,
-            "femaleVariant": "話がしたい"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

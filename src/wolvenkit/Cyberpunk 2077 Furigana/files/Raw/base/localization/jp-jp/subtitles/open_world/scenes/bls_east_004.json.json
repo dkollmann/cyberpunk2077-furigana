@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:23.5338536Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\bls_east_004.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "もう『海辺のカフカ』は読み飽きた",
+                    "maleVariant": null,
+                    "stringId": 1973546192695500800
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そろそろ新しい本が欲しい",
+                    "maleVariant": null,
+                    "stringId": 1976289205934641152
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "わかる。持ってるのは全部呼んだから。誰かと交換しないと",
+                    "maleVariant": null,
+                    "stringId": 1976289243515604992
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1973546192695500800,
-            "femaleVariant": "もう『海辺のカフカ』は読み飽きた"
-          },
-          {
-            "stringId": 1976289205934641152,
-            "femaleVariant": "そろそろ新しい本が欲しい"
-          },
-          {
-            "stringId": 1976289243515604992,
-            "femaleVariant": "わかる。持ってるのは全部呼んだから。誰かと交換しないと"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

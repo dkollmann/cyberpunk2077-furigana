@@ -1,58 +1,102 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:39.7914750Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\quest\sq026\sq026_14_leave.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "よし、脱出して",
+                    "maleVariant": null,
+                    "stringId": 1775081088930004992
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "トムとロキシーは無事に脱出したよ",
+                    "maleVariant": null,
+                    "stringId": 1775081184342032384
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1階まで降りてきて。屋台のとこで待ってる",
+                    "maleVariant": null,
+                    "stringId": 1775081273093505024
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "出口はそこから下の階にある",
+                    "maleVariant": null,
+                    "stringId": 1886405373891141632
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "出たらエレベーターを探して",
+                    "maleVariant": null,
+                    "stringId": 1886407191501168640
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "追手もいない",
+                    "maleVariant": null,
+                    "stringId": 1886417581480042496
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何してくれたのよ？",
+                    "maleVariant": null,
+                    "stringId": 1939000486684942336
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "もういいから、早くそこを離れて。エレベーターは大丈夫よ",
+                    "maleVariant": null,
+                    "stringId": 1993717688679751680
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ジグジグ・ストリートで待ってる",
+                    "maleVariant": null,
+                    "stringId": 1993718686202683392
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1775081088930004992,
-            "femaleVariant": "よし、脱出して"
-          },
-          {
-            "stringId": 1775081184342032384,
-            "femaleVariant": "トムとロキシーは無事に脱出したよ"
-          },
-          {
-            "stringId": 1775081273093505024,
-            "femaleVariant": "1階まで降りてきて。屋台のとこで待ってる"
-          },
-          {
-            "stringId": 1886405373891141632,
-            "femaleVariant": "出口はそこから下の階にある"
-          },
-          {
-            "stringId": 1886407191501168640,
-            "femaleVariant": "出たらエレベーターを探して"
-          },
-          {
-            "stringId": 1886417581480042496,
-            "femaleVariant": "追手もいない"
-          },
-          {
-            "stringId": 1939000486684942336,
-            "femaleVariant": "何してくれたのよ？"
-          },
-          {
-            "stringId": 1993717688679751680,
-            "femaleVariant": "もういいから、早くそこを離れて。エレベーターは大丈夫よ"
-          },
-          {
-            "stringId": 1993718686202683392,
-            "femaleVariant": "ジグジグ・ストリートで待ってる"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

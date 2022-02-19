@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:32.0167915Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\street_stories\sts_wat_kab_07_securityguy.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どういうことだ？ 発作なんか起こしてないぞ",
+                    "maleVariant": null,
+                    "stringId": 1451663618253099008
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "さっきまで…",
+                    "maleVariant": null,
+                    "stringId": 1451807632147189760
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "このバカが！",
+                    "maleVariant": null,
+                    "stringId": 1451811959913943040
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "殴らないで！ 今夜ジョウタロウに会うのよ！",
+                    "maleVariant": null,
+                    "stringId": 1451812596609290240
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そうかそうか！ 商品に傷つけちゃマズいもんな！",
+                    "maleVariant": null,
+                    "stringId": 1469004489050918912
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "クソアマが",
+                    "maleVariant": null,
+                    "stringId": 1469134183054282752
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "今晩は忙しくなるぞ、お嬢ちゃん！ ヘヘヘヘ！",
+                    "maleVariant": null,
+                    "stringId": 1511321884859666432
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1451663618253099008,
-            "femaleVariant": "どういうことだ？ 発作なんか起こしてないぞ"
-          },
-          {
-            "stringId": 1451807632147189760,
-            "femaleVariant": "さっきまで…"
-          },
-          {
-            "stringId": 1451811959913943040,
-            "femaleVariant": "このバカが！"
-          },
-          {
-            "stringId": 1451812596609290240,
-            "femaleVariant": "殴らないで！ 今夜ジョウタロウに会うのよ！"
-          },
-          {
-            "stringId": 1469004489050918912,
-            "femaleVariant": "そうかそうか！ 商品に傷つけちゃマズいもんな！"
-          },
-          {
-            "stringId": 1469134183054282752,
-            "femaleVariant": "クソアマが"
-          },
-          {
-            "stringId": 1511321884859666432,
-            "femaleVariant": "今晩は忙しくなるぞ、お嬢ちゃん！ ヘヘヘヘ！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

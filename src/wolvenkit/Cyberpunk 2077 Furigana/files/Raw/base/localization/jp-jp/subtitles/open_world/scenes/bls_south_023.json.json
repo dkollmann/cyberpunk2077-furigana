@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:23.9202944Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\bls_south_023.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "セキュリティシステムがまた落ちた",
+                    "maleVariant": null,
+                    "stringId": 2178301430946324480
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どうせ、バイパスダイオードも消えたんだろ？",
+                    "maleVariant": null,
+                    "stringId": 2188083722547085312
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "よくわかったな",
+                    "maleVariant": null,
+                    "stringId": 2188084092669247488
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "堂々巡りだな。部品を盗まれて、修理して、また部品を盗まれて…",
+                    "maleVariant": null,
+                    "stringId": 2188084399725854720
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ノーマッドの奴らめ。世界は自分たちを中心に回ってると思って、好き勝手しやがって！",
+                    "maleVariant": null,
+                    "stringId": 2188084834608070656
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ここは発電所じゃない、奴らの食べ放題バイキングだ！ これだけのパネルが無駄になってるんだぞ？",
+                    "maleVariant": null,
+                    "stringId": 2188085055513673728
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "まあ、どうせ修理するのは俺たちじゃないから別にいいんだけどな",
+                    "maleVariant": null,
+                    "stringId": 2188085530644430848
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2178301430946324480,
-            "femaleVariant": "セキュリティシステムがまた落ちた"
-          },
-          {
-            "stringId": 2188083722547085312,
-            "femaleVariant": "どうせ、バイパスダイオードも消えたんだろ？"
-          },
-          {
-            "stringId": 2188084092669247488,
-            "femaleVariant": "よくわかったな"
-          },
-          {
-            "stringId": 2188084399725854720,
-            "femaleVariant": "堂々巡りだな。部品を盗まれて、修理して、また部品を盗まれて…"
-          },
-          {
-            "stringId": 2188084834608070656,
-            "femaleVariant": "ノーマッドの奴らめ。世界は自分たちを中心に回ってると思って、好き勝手しやがって！"
-          },
-          {
-            "stringId": 2188085055513673728,
-            "femaleVariant": "ここは発電所じゃない、奴らの食べ放題バイキングだ！ これだけのパネルが無駄になってるんだぞ？"
-          },
-          {
-            "stringId": 2188085530644430848,
-            "femaleVariant": "まあ、どうせ修理するのは俺たちじゃないから別にいいんだけどな"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

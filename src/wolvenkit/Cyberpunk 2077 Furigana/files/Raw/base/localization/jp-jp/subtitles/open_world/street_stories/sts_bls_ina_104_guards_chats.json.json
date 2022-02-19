@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:30.5983560Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\street_stories\sts_bls_ina_104_guards_chats.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なあ、前のチームはどうしたんだ？",
+                    "maleVariant": null,
+                    "stringId": 1924420544531705856
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あいつらは… 不幸な事故に遭ったんだ",
+                    "maleVariant": null,
+                    "stringId": 1924421332255551488
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それって… 全員が？",
+                    "maleVariant": null,
+                    "stringId": 1924423813924564992
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "俺以外のな",
+                    "maleVariant": null,
+                    "stringId": 1967575260102709248
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1924420544531705856,
-            "femaleVariant": "なあ、前のチームはどうしたんだ？"
-          },
-          {
-            "stringId": 1924421332255551488,
-            "femaleVariant": "あいつらは… 不幸な事故に遭ったんだ"
-          },
-          {
-            "stringId": 1924423813924564992,
-            "femaleVariant": "それって… 全員が？"
-          },
-          {
-            "stringId": 1967575260102709248,
-            "femaleVariant": "俺以外のな"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

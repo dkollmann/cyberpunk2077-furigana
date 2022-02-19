@@ -1,60 +1,102 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:35.9665650Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\quest\mq015\mq015_04_stash.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ええ？ 何これ？ ゴミみたい…",
+                    "maleVariant": "ええ？ 何だこれ？ ゴミかよ…",
+                    "stringId": 1816999226980081664
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ゼータテクXPRじゃねえか… ひと昔前の一流テックだぜ…",
+                    "maleVariant": null,
+                    "stringId": 1817076610177605632
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "アフターライフにニックスって名前のネットランナーがいる。ネットの骨とう品集めが趣味の奴だ",
+                    "maleVariant": null,
+                    "stringId": 1843072635970572288
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "懐かしいな。俺も持ってたよ。かつての一流テックだ…",
+                    "maleVariant": null,
+                    "stringId": 1843074024754958336
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "マジ…？ ゼータテクXPRじゃない！ 50年は前のものね…",
+                    "maleVariant": "マジか… ゼータテクXPRだ！ 50年は前のものだろ…",
+                    "stringId": 1843075924070027264
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "このお宝からデータを抜き出すには、あいつに頼むしかない",
+                    "maleVariant": null,
+                    "stringId": 1843084489425997824
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ニックスに持ってけ",
+                    "maleVariant": null,
+                    "stringId": 1892462086408425472
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[開ける]",
+                    "maleVariant": null,
+                    "stringId": 2146297219442974724
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[取る]",
+                    "maleVariant": null,
+                    "stringId": 2148997357420584960
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1816999226980081664,
-            "femaleVariant": "ええ？ 何これ？ ゴミみたい…",
-            "maleVariant": "ええ？ 何だこれ？ ゴミかよ…"
-          },
-          {
-            "stringId": 1817076610177605632,
-            "femaleVariant": "ゼータテクXPRじゃねえか… ひと昔前の一流テックだぜ…"
-          },
-          {
-            "stringId": 1843072635970572288,
-            "femaleVariant": "アフターライフにニックスって名前のネットランナーがいる。ネットの骨とう品集めが趣味の奴だ"
-          },
-          {
-            "stringId": 1843074024754958336,
-            "femaleVariant": "懐かしいな。俺も持ってたよ。かつての一流テックだ…"
-          },
-          {
-            "stringId": 1843075924070027264,
-            "femaleVariant": "マジ…？ ゼータテクXPRじゃない！ 50年は前のものね…",
-            "maleVariant": "マジか… ゼータテクXPRだ！ 50年は前のものだろ…"
-          },
-          {
-            "stringId": 1843084489425997824,
-            "femaleVariant": "このお宝からデータを抜き出すには、あいつに頼むしかない"
-          },
-          {
-            "stringId": 1892462086408425472,
-            "femaleVariant": "ニックスに持ってけ"
-          },
-          {
-            "stringId": 2146297219442974724,
-            "femaleVariant": "[開ける]"
-          },
-          {
-            "stringId": 2148997357420584960,
-            "femaleVariant": "[取る]"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

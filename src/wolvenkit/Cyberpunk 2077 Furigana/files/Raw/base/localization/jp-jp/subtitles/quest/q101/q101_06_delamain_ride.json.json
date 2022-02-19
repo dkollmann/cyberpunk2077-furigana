@@ -1,62 +1,110 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:37.1010991Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\quest\q101\q101_06_delamain_ride.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "では、接続してください",
+                    "maleVariant": null,
+                    "stringId": 1651833571497889792
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "パーソナルリンクが損傷してる",
+                    "maleVariant": null,
+                    "stringId": 1651835426001014784
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それでは代わりに、V様の外耳付近への緊急ジャックインをお試しください",
+                    "maleVariant": null,
+                    "stringId": 1651835543290531840
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "血管を傷つけたら死ぬぞ…",
+                    "maleVariant": null,
+                    "stringId": 1651976446402940928
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "しかし、何もしない場合も死亡します",
+                    "maleVariant": null,
+                    "stringId": 1651977667314503680
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あった、ソケットだ",
+                    "maleVariant": null,
+                    "stringId": 1651994664748240896
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "上にあるケーブルを繋いでください",
+                    "maleVariant": null,
+                    "stringId": 1651996370387128320
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "その後は？",
+                    "maleVariant": null,
+                    "stringId": 1652000628125782016
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "私にお任せください",
+                    "maleVariant": null,
+                    "stringId": 1652001223616286720
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "胸鎖乳突筋の下、リンパ節の間に、補助神経ソケットがあるはずです",
+                    "maleVariant": null,
+                    "stringId": 1764721937822015488
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1651833571497889792,
-            "femaleVariant": "では、接続してください"
-          },
-          {
-            "stringId": 1651835426001014784,
-            "femaleVariant": "パーソナルリンクが損傷してる"
-          },
-          {
-            "stringId": 1651835543290531840,
-            "femaleVariant": "それでは代わりに、V様の外耳付近への緊急ジャックインをお試しください"
-          },
-          {
-            "stringId": 1651976446402940928,
-            "femaleVariant": "血管を傷つけたら死ぬぞ…"
-          },
-          {
-            "stringId": 1651977667314503680,
-            "femaleVariant": "しかし、何もしない場合も死亡します"
-          },
-          {
-            "stringId": 1651994664748240896,
-            "femaleVariant": "あった、ソケットだ"
-          },
-          {
-            "stringId": 1651996370387128320,
-            "femaleVariant": "上にあるケーブルを繋いでください"
-          },
-          {
-            "stringId": 1652000628125782016,
-            "femaleVariant": "その後は？"
-          },
-          {
-            "stringId": 1652001223616286720,
-            "femaleVariant": "私にお任せください"
-          },
-          {
-            "stringId": 1764721937822015488,
-            "femaleVariant": "胸鎖乳突筋の下、リンパ節の間に、補助神経ソケットがあるはずです"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

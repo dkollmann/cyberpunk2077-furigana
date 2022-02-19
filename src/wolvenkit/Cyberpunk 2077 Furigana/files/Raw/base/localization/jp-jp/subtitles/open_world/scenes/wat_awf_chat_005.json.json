@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.1576560Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wat_awf_chat_005.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ルイス、またノルマに届いてない。全然ダメ",
+                    "maleVariant": null,
+                    "stringId": 1963248964126941184
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "これでも、精一杯やってるんすよ？ 毎日20時間も休みなく働いて…",
+                    "maleVariant": null,
+                    "stringId": 1967829186353876992
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "無駄な努力をするくらいなら、まともなインプラントを入れなさいよ。ハウスシュトックとか",
+                    "maleVariant": null,
+                    "stringId": 1967830844194476032
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "無理っすよ… ローンを組めても、返済に50年かかるし…",
+                    "maleVariant": null,
+                    "stringId": 1967831397825826816
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そんなこと会社には関係ないわ、ルイス",
+                    "maleVariant": null,
+                    "stringId": 1967831856196145152
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963248964126941184,
-            "femaleVariant": "ルイス、またノルマに届いてない。全然ダメ"
-          },
-          {
-            "stringId": 1967829186353876992,
-            "femaleVariant": "これでも、精一杯やってるんすよ？ 毎日20時間も休みなく働いて…"
-          },
-          {
-            "stringId": 1967830844194476032,
-            "femaleVariant": "無駄な努力をするくらいなら、まともなインプラントを入れなさいよ。ハウスシュトックとか"
-          },
-          {
-            "stringId": 1967831397825826816,
-            "femaleVariant": "無理っすよ… ローンを組めても、返済に50年かかるし…"
-          },
-          {
-            "stringId": 1967831856196145152,
-            "femaleVariant": "そんなこと会社には関係ないわ、ルイス"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,52 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:32.9244630Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\vendors\hey_gle_foodshop_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "おいしい物はある？",
+                    "maleVariant": "おいしい物はあるか？",
+                    "stringId": 1752047456349138944
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "塩素のにおいがする",
+                    "maleVariant": null,
+                    "stringId": 1752047456349138960
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "おすすめは？",
+                    "maleVariant": null,
+                    "stringId": 1752047456382693376
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何でもうまいよ。メニューだ",
+                    "maleVariant": null,
+                    "stringId": 1752047456399470592
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "塩素のにおいがしない…？",
+                    "maleVariant": "塩素のにおいがしないか…？",
+                    "stringId": 1752047456416247808
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "アレだ、こないだ床掃除に使ったからだよ。しぶといシミがあってな。大したことじゃない",
+                    "maleVariant": null,
+                    "stringId": 1752047456433025024
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "で… えっと… 何か用かい？",
+                    "maleVariant": null,
+                    "stringId": 1976330283104129024
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1752047456349138944,
-            "femaleVariant": "おいしい物はある？",
-            "maleVariant": "おいしい物はあるか？"
-          },
-          {
-            "stringId": 1752047456349138960,
-            "femaleVariant": "塩素のにおいがする"
-          },
-          {
-            "stringId": 1752047456382693376,
-            "femaleVariant": "おすすめは？"
-          },
-          {
-            "stringId": 1752047456399470592,
-            "femaleVariant": "何でもうまいよ。メニューだ"
-          },
-          {
-            "stringId": 1752047456416247808,
-            "femaleVariant": "塩素のにおいがしない…？",
-            "maleVariant": "塩素のにおいがしないか…？"
-          },
-          {
-            "stringId": 1752047456433025024,
-            "femaleVariant": "アレだ、こないだ床掃除に使ったからだよ。しぶといシミがあってな。大したことじゃない"
-          },
-          {
-            "stringId": 1976330283104129024,
-            "femaleVariant": "で… えっと… 何か用かい？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

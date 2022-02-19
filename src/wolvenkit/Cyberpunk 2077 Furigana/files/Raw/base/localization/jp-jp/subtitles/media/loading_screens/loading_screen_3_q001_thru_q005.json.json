@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:22.1806983Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\media\loading_screens\loading_screen_3_q001_thru_q005.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ハーイ、今日もこの番組を見てくれてありがとう。ねえ、アラサカの空母がナイトシティにやって来たって話、聞いた？ その名も… 空母“クジラ”だって",
+                    "maleVariant": null,
+                    "stringId": 1669211932228231168
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "日本の海域に置いとくのは危険だと判断したみたいよ。ほら、だって… そうでしょ？ 調査捕鯨だってモリを打ち込まれたら大変だもの",
+                    "maleVariant": null,
+                    "stringId": 1670578045695873024
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "にしても、日本の空母をここに置くなんてハナコ・アラサカの広報チームは心配でしょうね。真珠湾のことを苦々しく思ってる人もいるかもしれないし。いや、アラサカが“心配”するはずなんてないか",
+                    "maleVariant": null,
+                    "stringId": 1670579827788533760
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "大きく出たものよね。ミリテクはどんな反応するかしら。マイヤーズがサビついたB-17爆撃機をアラサカ本社に向かわせたりして",
+                    "maleVariant": null,
+                    "stringId": 1670580479935696896
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あら、ごめんなさい。不適切な発言だったわ。本当、失礼よね… ちゃんとマイヤーズ“大統領”って呼ばないと。現政府に敬意を込めて",
+                    "maleVariant": null,
+                    "stringId": 1670582785242615808
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "というわけで…",
+                    "maleVariant": null,
+                    "stringId": 1670583295102210048
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1669211932228231168,
-            "femaleVariant": "ハーイ、今日もこの番組を見てくれてありがとう。ねえ、アラサカの空母がナイトシティにやって来たって話、聞いた？ その名も… 空母“クジラ”だって"
-          },
-          {
-            "stringId": 1670578045695873024,
-            "femaleVariant": "日本の海域に置いとくのは危険だと判断したみたいよ。ほら、だって… そうでしょ？ 調査捕鯨だってモリを打ち込まれたら大変だもの"
-          },
-          {
-            "stringId": 1670579827788533760,
-            "femaleVariant": "にしても、日本の空母をここに置くなんてハナコ・アラサカの広報チームは心配でしょうね。真珠湾のことを苦々しく思ってる人もいるかもしれないし。いや、アラサカが“心配”するはずなんてないか"
-          },
-          {
-            "stringId": 1670580479935696896,
-            "femaleVariant": "大きく出たものよね。ミリテクはどんな反応するかしら。マイヤーズがサビついたB-17爆撃機をアラサカ本社に向かわせたりして"
-          },
-          {
-            "stringId": 1670582785242615808,
-            "femaleVariant": "あら、ごめんなさい。不適切な発言だったわ。本当、失礼よね… ちゃんとマイヤーズ“大統領”って呼ばないと。現政府に敬意を込めて"
-          },
-          {
-            "stringId": 1670583295102210048,
-            "femaleVariant": "というわけで…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,71 +1,118 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:35.5819316Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\quest\dex\dex_default.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "今回のヤマが上手くいったら、再び表舞台に？",
+                    "maleVariant": null,
+                    "stringId": 1741437354780827648
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "このヤマが上手くいったら、あんたは本格的にフィクサーとして活動を再開するの？",
+                    "maleVariant": "このヤマが上手くいったら、あんたは本格的にフィクサーとして活動を再開するのか？",
+                    "stringId": 1741437354814382080
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いえ、何でもない",
+                    "maleVariant": "いや、何でもない",
+                    "stringId": 1741437354847936512
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ミスV。何か？",
+                    "maleVariant": "ミスターV。何か？",
+                    "stringId": 1741437354898268160
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いえ、何でもない",
+                    "maleVariant": "いや、何でもない",
+                    "stringId": 1741440518326231040
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なら仕事に戻れ。またな",
+                    "maleVariant": null,
+                    "stringId": 1958802288800296960
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "フン、一線を何年も離れると、少し食欲が募ってな",
+                    "maleVariant": null,
+                    "stringId": 1958836477142626304
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "これで華麗に返り咲くわけね",
+                    "maleVariant": "これで華麗に返り咲くわけだ",
+                    "stringId": 1958837858243047424
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "デショーンはただの名前じゃない。ブランドだ。クライアント連中にもそれを思い出してもらう",
+                    "maleVariant": null,
+                    "stringId": 1958838290944225280
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "だが約束しよう。お前がしくじらない限り、分け前は保証する。色付きでな",
+                    "maleVariant": null,
+                    "stringId": 1958840284899569664
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "仕事に戻った方がいい。また連絡してくれ",
+                    "maleVariant": null,
+                    "stringId": 1958845310262964224
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1741437354780827648,
-            "femaleVariant": "今回のヤマが上手くいったら、再び表舞台に？"
-          },
-          {
-            "stringId": 1741437354814382080,
-            "femaleVariant": "このヤマが上手くいったら、あんたは本格的にフィクサーとして活動を再開するの？",
-            "maleVariant": "このヤマが上手くいったら、あんたは本格的にフィクサーとして活動を再開するのか？"
-          },
-          {
-            "stringId": 1741437354847936512,
-            "femaleVariant": "いえ、何でもない",
-            "maleVariant": "いや、何でもない"
-          },
-          {
-            "stringId": 1741437354898268160,
-            "femaleVariant": "ミスV。何か？",
-            "maleVariant": "ミスターV。何か？"
-          },
-          {
-            "stringId": 1741440518326231040,
-            "femaleVariant": "いえ、何でもない",
-            "maleVariant": "いや、何でもない"
-          },
-          {
-            "stringId": 1958802288800296960,
-            "femaleVariant": "なら仕事に戻れ。またな"
-          },
-          {
-            "stringId": 1958836477142626304,
-            "femaleVariant": "フン、一線を何年も離れると、少し食欲が募ってな"
-          },
-          {
-            "stringId": 1958837858243047424,
-            "femaleVariant": "これで華麗に返り咲くわけね",
-            "maleVariant": "これで華麗に返り咲くわけだ"
-          },
-          {
-            "stringId": 1958838290944225280,
-            "femaleVariant": "デショーンはただの名前じゃない。ブランドだ。クライアント連中にもそれを思い出してもらう"
-          },
-          {
-            "stringId": 1958840284899569664,
-            "femaleVariant": "だが約束しよう。お前がしくじらない限り、分け前は保証する。色付きでな"
-          },
-          {
-            "stringId": 1958845310262964224,
-            "femaleVariant": "仕事に戻った方がいい。また連絡してくれ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

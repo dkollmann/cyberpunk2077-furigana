@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:31.8421043Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\street_stories\sts_wat_kab_02_holocall_debriefs.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ルーシーは無事到着。見事ね、助かったわ",
+                    "maleVariant": null,
+                    "stringId": 2328821128142540804
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "V、どうしてルーシーを置いてきたの？ これでメイルストロームは警戒して、何が何でも彼女を隠そうとするでしょうね",
+                    "maleVariant": null,
+                    "stringId": 2372242164132712448
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "きっともう二度と見つからない。それもすべて、あなたのせいでね。理解できないわ… じゃあね",
+                    "maleVariant": null,
+                    "stringId": 2372243396939321344
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328821128142540804,
-            "femaleVariant": "ルーシーは無事到着。見事ね、助かったわ"
-          },
-          {
-            "stringId": 2372242164132712448,
-            "femaleVariant": "V、どうしてルーシーを置いてきたの？ これでメイルストロームは警戒して、何が何でも彼女を隠そうとするでしょうね"
-          },
-          {
-            "stringId": 2372243396939321344,
-            "femaleVariant": "きっともう二度と見つからない。それもすべて、あなたのせいでね。理解できないわ… じゃあね"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

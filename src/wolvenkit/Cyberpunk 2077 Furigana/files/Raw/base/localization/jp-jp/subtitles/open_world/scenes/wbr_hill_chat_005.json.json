@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.8936064Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wbr_hill_chat_005.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "プロポーズされたの！？",
+                    "maleVariant": null,
+                    "stringId": 1806787971243433984
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ええ。私のリクエストどおり、サプライズでね。しかも、オフィスの子みんなが見てる前でしてくれたの",
+                    "maleVariant": null,
+                    "stringId": 1806788361414369280
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "場所は？",
+                    "maleVariant": null,
+                    "stringId": 1806789017822945280
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ほら、ダウンタウンの新しいお店よ。すべてが完璧だった。夕焼けを彩るドローン、周りの人たちの拍手――幸せを感じたわ",
+                    "maleVariant": null,
+                    "stringId": 1806789199184650240
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "わあ、ステキ！",
+                    "maleVariant": null,
+                    "stringId": 1806789655726252032
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "でしょ？",
+                    "maleVariant": null,
+                    "stringId": 1807009699566292992
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1806787971243433984,
-            "femaleVariant": "プロポーズされたの！？"
-          },
-          {
-            "stringId": 1806788361414369280,
-            "femaleVariant": "ええ。私のリクエストどおり、サプライズでね。しかも、オフィスの子みんなが見てる前でしてくれたの"
-          },
-          {
-            "stringId": 1806789017822945280,
-            "femaleVariant": "場所は？"
-          },
-          {
-            "stringId": 1806789199184650240,
-            "femaleVariant": "ほら、ダウンタウンの新しいお店よ。すべてが完璧だった。夕焼けを彩るドローン、周りの人たちの拍手――幸せを感じたわ"
-          },
-          {
-            "stringId": 1806789655726252032,
-            "femaleVariant": "わあ、ステキ！"
-          },
-          {
-            "stringId": 1807009699566292992,
-            "femaleVariant": "でしょ？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

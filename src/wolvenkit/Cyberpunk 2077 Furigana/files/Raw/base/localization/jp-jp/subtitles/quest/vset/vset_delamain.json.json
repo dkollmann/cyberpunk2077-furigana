@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:40.2177229Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\quest\vset\vset_delamain.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "デラマン・ネットワークのご利用ありがとうございます",
+                    "maleVariant": null,
+                    "stringId": 1796554766993571840
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "お電話ありがとうございます、V様",
+                    "maleVariant": null,
+                    "stringId": 1796555181021708292
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "着信を確認",
+                    "maleVariant": null,
+                    "stringId": 1796555442729500676
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "もしもし！",
+                    "maleVariant": null,
+                    "stringId": 1796555472928489476
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "着信を確認",
+                    "maleVariant": null,
+                    "stringId": 1796555498530521092
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "通話が中断されました",
+                    "maleVariant": null,
+                    "stringId": 1966121933733765124
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "予期せぬエラーです。通話が中断されました",
+                    "maleVariant": null,
+                    "stringId": 1966121933767319556
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1796554766993571840,
-            "femaleVariant": "デラマン・ネットワークのご利用ありがとうございます"
-          },
-          {
-            "stringId": 1796555181021708292,
-            "femaleVariant": "お電話ありがとうございます、V様"
-          },
-          {
-            "stringId": 1796555442729500676,
-            "femaleVariant": "着信を確認"
-          },
-          {
-            "stringId": 1796555472928489476,
-            "femaleVariant": "もしもし！"
-          },
-          {
-            "stringId": 1796555498530521092,
-            "femaleVariant": "着信を確認"
-          },
-          {
-            "stringId": 1966121933733765124,
-            "femaleVariant": "通話が中断されました"
-          },
-          {
-            "stringId": 1966121933767319556,
-            "femaleVariant": "予期せぬエラーです。通話が中断されました"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:27.3531817Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\ma_scene_threatning_05.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ちょっとしたロールプレイをしましょ。あんたは痛めつけられて泣き喚く役。私はそれを見て笑う役ね",
+                    "maleVariant": null,
+                    "stringId": 2007218398956748800
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "まずは体を細かく切り刻んでから、臓器をスペア部品みたいに売り飛ばすの",
+                    "maleVariant": null,
+                    "stringId": 2007218456133500928
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あんたの惨めな生涯はここで終わりよ",
+                    "maleVariant": null,
+                    "stringId": 2007218523460468736
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "命乞いをしても無駄。もう逃げることはできないよ",
+                    "maleVariant": null,
+                    "stringId": 2007218580704329728
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2007218398956748800,
-            "femaleVariant": "ちょっとしたロールプレイをしましょ。あんたは痛めつけられて泣き喚く役。私はそれを見て笑う役ね"
-          },
-          {
-            "stringId": 2007218456133500928,
-            "femaleVariant": "まずは体を細かく切り刻んでから、臓器をスペア部品みたいに売り飛ばすの"
-          },
-          {
-            "stringId": 2007218523460468736,
-            "femaleVariant": "あんたの惨めな生涯はここで終わりよ"
-          },
-          {
-            "stringId": 2007218580704329728,
-            "femaleVariant": "命乞いをしても無駄。もう逃げることはできないよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

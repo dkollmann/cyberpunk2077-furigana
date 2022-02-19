@@ -1,54 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:32.7095712Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\vendors\bls_ina_se1_gunsmith_02.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何を売ってるの？",
+                    "maleVariant": "何を売ってるんだ？",
+                    "stringId": 1935671434919981056
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何か変わったものはある？",
+                    "maleVariant": "何か変わったものはあるか？",
+                    "stringId": 1935671434919981072
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "売り物は？",
+                    "maleVariant": null,
+                    "stringId": 1935671434987089924
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "銃よ。バッドランズで一番のね",
+                    "maleVariant": null,
+                    "stringId": 1935671434987089932
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "考えてみれば、ここだとNCPDに邪魔されないし、企業の検査も入らないわけよね…",
+                    "maleVariant": "考えてみれば、ここだとNCPDに邪魔されないし、企業の検査も入らないわけだよな…",
+                    "stringId": 1935671435020644356
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そういうことなら、見ていきな",
+                    "maleVariant": null,
+                    "stringId": 1935671435020644364
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何か… 変わったものはない？  ほら、街では手に入らないような",
+                    "maleVariant": "何か… 変わったものはないか？ ほら、街では手に入らないような",
+                    "stringId": 1975106424220733440
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1935671434919981056,
-            "femaleVariant": "何を売ってるの？",
-            "maleVariant": "何を売ってるんだ？"
-          },
-          {
-            "stringId": 1935671434919981072,
-            "femaleVariant": "何か変わったものはある？",
-            "maleVariant": "何か変わったものはあるか？"
-          },
-          {
-            "stringId": 1935671434987089924,
-            "femaleVariant": "売り物は？"
-          },
-          {
-            "stringId": 1935671434987089932,
-            "femaleVariant": "銃よ。バッドランズで一番のね"
-          },
-          {
-            "stringId": 1935671435020644356,
-            "femaleVariant": "考えてみれば、ここだとNCPDに邪魔されないし、企業の検査も入らないわけよね…",
-            "maleVariant": "考えてみれば、ここだとNCPDに邪魔されないし、企業の検査も入らないわけだよな…"
-          },
-          {
-            "stringId": 1935671435020644364,
-            "femaleVariant": "そういうことなら、見ていきな"
-          },
-          {
-            "stringId": 1975106424220733440,
-            "femaleVariant": "何か… 変わったものはない？  ほら、街では手に入らないような",
-            "maleVariant": "何か… 変わったものはないか？ ほら、街では手に入らないような"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

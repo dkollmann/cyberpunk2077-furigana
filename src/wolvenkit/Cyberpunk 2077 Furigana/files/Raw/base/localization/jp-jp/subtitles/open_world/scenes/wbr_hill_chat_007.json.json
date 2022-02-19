@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.9093811Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wbr_hill_chat_007.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "よう",
+                    "maleVariant": null,
+                    "stringId": 1806799252209917952
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "おう。何だ？",
+                    "maleVariant": null,
+                    "stringId": 1806799752271618048
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "領分同様、領域も見えない線を越えると痛い目を見る",
+                    "maleVariant": null,
+                    "stringId": 1806799878151069696
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何だ、そりゃ。禅問答か？",
+                    "maleVariant": null,
+                    "stringId": 1806800128299360256
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ふん。バカにはどう言えば伝わっかな…",
+                    "maleVariant": null,
+                    "stringId": 1806800496089489408
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "大企業が戦争の準備をしてる。奴らの残り物をめぐってお前らと争うつもりはねえんだよ",
+                    "maleVariant": null,
+                    "stringId": 1806800684111749120
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ここはアメリカだ、チューマ。みんなメインディッシュを狙ってる。ま、もう俺らが押さえてるがな",
+                    "maleVariant": null,
+                    "stringId": 1806801140787568640
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "アメリカ？ てっきりここはナイトシティだと思ってたが",
+                    "maleVariant": null,
+                    "stringId": 1806801291061092352
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1806799252209917952,
-            "femaleVariant": "よう"
-          },
-          {
-            "stringId": 1806799752271618048,
-            "femaleVariant": "おう。何だ？"
-          },
-          {
-            "stringId": 1806799878151069696,
-            "femaleVariant": "領分同様、領域も見えない線を越えると痛い目を見る"
-          },
-          {
-            "stringId": 1806800128299360256,
-            "femaleVariant": "何だ、そりゃ。禅問答か？"
-          },
-          {
-            "stringId": 1806800496089489408,
-            "femaleVariant": "ふん。バカにはどう言えば伝わっかな…"
-          },
-          {
-            "stringId": 1806800684111749120,
-            "femaleVariant": "大企業が戦争の準備をしてる。奴らの残り物をめぐってお前らと争うつもりはねえんだよ"
-          },
-          {
-            "stringId": 1806801140787568640,
-            "femaleVariant": "ここはアメリカだ、チューマ。みんなメインディッシュを狙ってる。ま、もう俺らが押さえてるがな"
-          },
-          {
-            "stringId": 1806801291061092352,
-            "femaleVariant": "アメリカ？ てっきりここはナイトシティだと思ってたが"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

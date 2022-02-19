@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:27.9001140Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\pac_wwd_chat_015.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "親に家を追い出された",
+                    "maleVariant": null,
+                    "stringId": 2179592311370539008
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "マジか… じゃあうちに泊まれよ",
+                    "maleVariant": null,
+                    "stringId": 2211158006390546432
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何だ、まだコーポになれって言われてるのか？",
+                    "maleVariant": null,
+                    "stringId": 2211158112875536384
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "今度は何したんだ？",
+                    "maleVariant": null,
+                    "stringId": 2217117730525110272
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "うん… ヴードゥー・ボーイズに入ろうとしたけどバレちゃって",
+                    "maleVariant": null,
+                    "stringId": 2217118067612934144
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ううん。ヴードゥーは私みたいなバカは相手にしないから、ティーノズに入れって",
+                    "maleVariant": null,
+                    "stringId": 2217119557547155456
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2179592311370539008,
-            "femaleVariant": "親に家を追い出された"
-          },
-          {
-            "stringId": 2211158006390546432,
-            "femaleVariant": "マジか… じゃあうちに泊まれよ"
-          },
-          {
-            "stringId": 2211158112875536384,
-            "femaleVariant": "何だ、まだコーポになれって言われてるのか？"
-          },
-          {
-            "stringId": 2217117730525110272,
-            "femaleVariant": "今度は何したんだ？"
-          },
-          {
-            "stringId": 2217118067612934144,
-            "femaleVariant": "うん… ヴードゥー・ボーイズに入ろうとしたけどバレちゃって"
-          },
-          {
-            "stringId": 2217119557547155456,
-            "femaleVariant": "ううん。ヴードゥーは私みたいなバカは相手にしないから、ティーノズに入れって"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

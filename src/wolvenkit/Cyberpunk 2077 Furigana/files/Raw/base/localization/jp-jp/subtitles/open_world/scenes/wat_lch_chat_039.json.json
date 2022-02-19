@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.6551729Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wat_lch_chat_039.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なんだ？ 何をためらってる？",
+                    "maleVariant": null,
+                    "stringId": 2157382750437666816
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "実の姉妹だろ？",
+                    "maleVariant": null,
+                    "stringId": 2182525368056496128
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "でも向こうは、もう１年になるんだから、そろそろノース・オークに住めるぐらい稼いでるはず、って思ってるのよ",
+                    "maleVariant": null,
+                    "stringId": 2182526142610227200
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何があったか話してないのか？",
+                    "maleVariant": null,
+                    "stringId": 2182527082956406784
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ええ… だってあくまでも一時的なことだし。この部屋も… 何もかも",
+                    "maleVariant": null,
+                    "stringId": 2182531160910413824
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "はあ… もう少し現実を見たらどうだ",
+                    "maleVariant": null,
+                    "stringId": 2182535536576118784
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2157382750437666816,
-            "femaleVariant": "なんだ？ 何をためらってる？"
-          },
-          {
-            "stringId": 2182525368056496128,
-            "femaleVariant": "実の姉妹だろ？"
-          },
-          {
-            "stringId": 2182526142610227200,
-            "femaleVariant": "でも向こうは、もう１年になるんだから、そろそろノース・オークに住めるぐらい稼いでるはず、って思ってるのよ"
-          },
-          {
-            "stringId": 2182527082956406784,
-            "femaleVariant": "何があったか話してないのか？"
-          },
-          {
-            "stringId": 2182531160910413824,
-            "femaleVariant": "ええ… だってあくまでも一時的なことだし。この部屋も… 何もかも"
-          },
-          {
-            "stringId": 2182535536576118784,
-            "femaleVariant": "はあ… もう少し現実を見たらどうだ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

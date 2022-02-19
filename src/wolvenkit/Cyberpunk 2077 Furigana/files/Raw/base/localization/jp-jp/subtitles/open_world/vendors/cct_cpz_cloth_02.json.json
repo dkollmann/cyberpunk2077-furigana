@@ -1,47 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:32.7612811Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\vendors\cct_cpz_cloth_02.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "エディーを使いにきた",
+                    "maleVariant": null,
+                    "stringId": 1976370120235712512
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ここには金持ち以外の客も来るの？",
+                    "maleVariant": "ここには金持ち以外の客も来るのか？",
+                    "stringId": 1976371012565499904
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ここには金持ち以外の客も？",
+                    "maleVariant": null,
+                    "stringId": 1976373637914591232
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "買い物に来た。エディーが余ってて",
+                    "maleVariant": null,
+                    "stringId": 1976374049140932608
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ええ。どなた様もご友人に遅れをとるまいと、外見を飾ることにご執心ですから",
+                    "maleVariant": null,
+                    "stringId": 1976374286186217472
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いらっしゃいませ。当店は“オートクチュール”でございます",
+                    "maleVariant": null,
+                    "stringId": 1979416294901661696
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1976370120235712512,
-            "femaleVariant": "エディーを使いにきた"
-          },
-          {
-            "stringId": 1976371012565499904,
-            "femaleVariant": "ここには金持ち以外の客も来るの？",
-            "maleVariant": "ここには金持ち以外の客も来るのか？"
-          },
-          {
-            "stringId": 1976373637914591232,
-            "femaleVariant": "ここには金持ち以外の客も？"
-          },
-          {
-            "stringId": 1976374049140932608,
-            "femaleVariant": "買い物に来た。エディーが余ってて"
-          },
-          {
-            "stringId": 1976374286186217472,
-            "femaleVariant": "ええ。どなた様もご友人に遅れをとるまいと、外見を飾ることにご執心ですから"
-          },
-          {
-            "stringId": 1979416294901661696,
-            "femaleVariant": "いらっしゃいませ。当店は“オートクチュール”でございます"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

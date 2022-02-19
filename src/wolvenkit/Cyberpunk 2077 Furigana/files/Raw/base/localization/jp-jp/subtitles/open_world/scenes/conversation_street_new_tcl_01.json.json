@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:25.2622935Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\conversation_street_new_tcl_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "連中は何か企んでる。こっちも手を打っておかねえと",
+                    "maleVariant": null,
+                    "stringId": 2276538543491948560
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "私に3人ほどつけてよ。こっちから仕掛けてやる",
+                    "maleVariant": null,
+                    "stringId": 2276538543508725760
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "今4人も失うリスクは負えねえよ。普段ならお前がどこで死のうが知ったこっちゃねえがな",
+                    "maleVariant": null,
+                    "stringId": 2276538543508725772
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2276538543491948560,
-            "femaleVariant": "連中は何か企んでる。こっちも手を打っておかねえと"
-          },
-          {
-            "stringId": 2276538543508725760,
-            "femaleVariant": "私に3人ほどつけてよ。こっちから仕掛けてやる"
-          },
-          {
-            "stringId": 2276538543508725772,
-            "femaleVariant": "今4人も失うリスクは負えねえよ。普段ならお前がどこで死のうが知ったこっちゃねえがな"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

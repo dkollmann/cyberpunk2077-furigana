@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:23.3143686Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\minor_activities\ma_std_rcr_18_holocall_brief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "NCPD業務委託者へ通達。セコイア通りとグレイ通りの交差点で、組織犯罪活動の報告あり",
+                    "maleVariant": null,
+                    "stringId": 2328875206646190084
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "被疑者の名はポール・クレイヴン。企業コンボイ襲撃の前科があり、市内の人身売買組織のリーダーでもある",
+                    "maleVariant": null,
+                    "stringId": 2358850675683987456
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "レイスとの繋がりもある模様。脅威を無力化した者には、ナイトシティより報酬が支払われる",
+                    "maleVariant": null,
+                    "stringId": 2358850712040214528
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328875206646190084,
-            "femaleVariant": "NCPD業務委託者へ通達。セコイア通りとグレイ通りの交差点で、組織犯罪活動の報告あり"
-          },
-          {
-            "stringId": 2358850675683987456,
-            "femaleVariant": "被疑者の名はポール・クレイヴン。企業コンボイ襲撃の前科があり、市内の人身売買組織のリーダーでもある"
-          },
-          {
-            "stringId": 2358850712040214528,
-            "femaleVariant": "レイスとの繋がりもある模様。脅威を無力化した者には、ナイトシティより報酬が支払われる"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

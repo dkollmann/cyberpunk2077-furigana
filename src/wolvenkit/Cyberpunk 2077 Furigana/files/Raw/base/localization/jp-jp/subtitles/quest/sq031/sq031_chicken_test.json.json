@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:40.1042645Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\sq031\\sq031_chicken_test.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][pl_pl]Beginning",
+                    "maleVariant": null,
+                    "stringId": 1737483738415849472
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][pl_pl]Street Kid.",
+                    "maleVariant": null,
+                    "stringId": 1737483738466181120
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][pl_pl]Corporate.",
+                    "maleVariant": null,
+                    "stringId": 1737483738466181136
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][pl_pl]Nomad.",
+                    "maleVariant": null,
+                    "stringId": 1737483738466181152
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][pl_pl]Porsche zdobyte.",
+                    "maleVariant": null,
+                    "stringId": 2073974562557411328
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][pl_pl]Porsche nie zdobyte.",
+                    "maleVariant": null,
+                    "stringId": 2073974562557411344
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1737483738415849472,
-            "femaleVariant": "[en_us][pl_pl]Beginning"
-          },
-          {
-            "stringId": 1737483738466181120,
-            "femaleVariant": "[en_us][pl_pl]Street Kid."
-          },
-          {
-            "stringId": 1737483738466181136,
-            "femaleVariant": "[en_us][pl_pl]Corporate."
-          },
-          {
-            "stringId": 1737483738466181152,
-            "femaleVariant": "[en_us][pl_pl]Nomad."
-          },
-          {
-            "stringId": 2073974562557411328,
-            "femaleVariant": "[en_us][pl_pl]Porsche zdobyte."
-          },
-          {
-            "stringId": 2073974562557411344,
-            "femaleVariant": "[en_us][pl_pl]Porsche nie zdobyte."
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

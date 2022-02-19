@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:39.3811914Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\sq017\\sq017_debug_interactions.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db][TECHIE] Grapple ladder.",
+                    "maleVariant": null,
+                    "stringId": 1341423198167633920
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db]V uses the makeshift grapple to pull the fire escape ladder down and climbs it with Kerry.",
+                    "maleVariant": null,
+                    "stringId": 1341429258853027840
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db]V performs a take-down on the security guard and hack him.",
+                    "maleVariant": null,
+                    "stringId": 1341430239330308096
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db][NETRUNNER] Hack security guard.",
+                    "maleVariant": null,
+                    "stringId": 1341430744878157844
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db]This gives her access to the security network which she uses to open the stage door.",
+                    "maleVariant": null,
+                    "stringId": 1341432511250567168
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1341423198167633920,
-            "femaleVariant": "[en_us][db_db][TECHIE] Grapple ladder."
-          },
-          {
-            "stringId": 1341429258853027840,
-            "femaleVariant": "[en_us][db_db]V uses the makeshift grapple to pull the fire escape ladder down and climbs it with Kerry."
-          },
-          {
-            "stringId": 1341430239330308096,
-            "femaleVariant": "[en_us][db_db]V performs a take-down on the security guard and hack him."
-          },
-          {
-            "stringId": 1341430744878157844,
-            "femaleVariant": "[en_us][db_db][NETRUNNER] Hack security guard."
-          },
-          {
-            "stringId": 1341432511250567168,
-            "femaleVariant": "[en_us][db_db]This gives her access to the security network which she uses to open the stage door."
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

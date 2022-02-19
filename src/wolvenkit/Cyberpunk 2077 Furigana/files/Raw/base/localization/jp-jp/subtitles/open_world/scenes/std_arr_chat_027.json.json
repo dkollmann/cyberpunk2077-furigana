@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:28.8608244Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\std_arr_chat_027.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なあ、昨日入ってきたあいつはどうだ？ ワンワン泣いてたか？",
+                    "maleVariant": null,
+                    "stringId": 2168024955226607616
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "弁護士が言ってた。最低でも10年の実刑、仮釈放はナシだとさ",
+                    "maleVariant": null,
+                    "stringId": 2211118142550925312
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "10年？ たかがケンカでか…？",
+                    "maleVariant": null,
+                    "stringId": 2212855350437830656
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ただのケンカじゃない。コーポの子供をボコボコにしたんだ。ありとあらゆる罪状で起訴された。しばらく陽の光は拝めないだろうな",
+                    "maleVariant": null,
+                    "stringId": 2212855557066022912
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なるほど… 少し気をつけた方がいいな。コーポ嫌いの英雄気取りが助けにくるかもしれない",
+                    "maleVariant": null,
+                    "stringId": 2212856433155465216
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ハッ、地面にはいつくばっていじけてやがる。メシにも手をつけてない",
+                    "maleVariant": null,
+                    "stringId": 2212857128621400064
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2168024955226607616,
-            "femaleVariant": "なあ、昨日入ってきたあいつはどうだ？ ワンワン泣いてたか？"
-          },
-          {
-            "stringId": 2211118142550925312,
-            "femaleVariant": "弁護士が言ってた。最低でも10年の実刑、仮釈放はナシだとさ"
-          },
-          {
-            "stringId": 2212855350437830656,
-            "femaleVariant": "10年？ たかがケンカでか…？"
-          },
-          {
-            "stringId": 2212855557066022912,
-            "femaleVariant": "ただのケンカじゃない。コーポの子供をボコボコにしたんだ。ありとあらゆる罪状で起訴された。しばらく陽の光は拝めないだろうな"
-          },
-          {
-            "stringId": 2212856433155465216,
-            "femaleVariant": "なるほど… 少し気をつけた方がいいな。コーポ嫌いの英雄気取りが助けにくるかもしれない"
-          },
-          {
-            "stringId": 2212857128621400064,
-            "femaleVariant": "ハッ、地面にはいつくばっていじけてやがる。メシにも手をつけてない"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

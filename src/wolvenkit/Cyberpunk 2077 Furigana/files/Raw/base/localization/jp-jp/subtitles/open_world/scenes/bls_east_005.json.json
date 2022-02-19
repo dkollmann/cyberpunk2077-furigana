@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:23.5402836Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\bls_east_005.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "最早カルトさ。口を開けばジッグラトだどうのこうのって、聞いてられない",
+                    "maleVariant": null,
+                    "stringId": 1973546679201210368
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "結局、セスってどうなったの？",
+                    "maleVariant": null,
+                    "stringId": 1976291660223238144
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "レッド・ウィローに入ったって聞いた",
+                    "maleVariant": null,
+                    "stringId": 1976291729630580736
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "マジでいかれてる連中",
+                    "maleVariant": null,
+                    "stringId": 1976291764946620416
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1973546679201210368,
-            "femaleVariant": "最早カルトさ。口を開けばジッグラトだどうのこうのって、聞いてられない"
-          },
-          {
-            "stringId": 1976291660223238144,
-            "femaleVariant": "結局、セスってどうなったの？"
-          },
-          {
-            "stringId": 1976291729630580736,
-            "femaleVariant": "レッド・ウィローに入ったって聞いた"
-          },
-          {
-            "stringId": 1976291764946620416,
-            "femaleVariant": "マジでいかれてる連中"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

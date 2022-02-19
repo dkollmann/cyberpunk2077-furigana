@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.3631631Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wat_kab_chat_17.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "今日クロウズが来る。家賃の回収よ。さっきメッセージが来た",
+                    "maleVariant": null,
+                    "stringId": 2156428633030762496
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "クソ、そいつはまずい",
+                    "maleVariant": null,
+                    "stringId": 2169128396360306688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なに、お金がないの？",
+                    "maleVariant": null,
+                    "stringId": 2169130664103038976
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "今週は色々あってな… 子供の具合が悪くなったり、例の銃撃戦で客足が遠のいたり…",
+                    "maleVariant": null,
+                    "stringId": 2169130891870523392
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "大目に見てくれないかな？ いつも期日通りに払ってるし、こういう時もあるだろ？",
+                    "maleVariant": null,
+                    "stringId": 2169131659075833856
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "よく聞いて。今すぐお金を用意するの。インプラントを引き剥がすか、腎臓を売るかしてでもね。じゃないと私たちまでひどい目に遭う！ わかった？",
+                    "maleVariant": null,
+                    "stringId": 2169133135688945664
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2156428633030762496,
-            "femaleVariant": "今日クロウズが来る。家賃の回収よ。さっきメッセージが来た"
-          },
-          {
-            "stringId": 2169128396360306688,
-            "femaleVariant": "クソ、そいつはまずい"
-          },
-          {
-            "stringId": 2169130664103038976,
-            "femaleVariant": "なに、お金がないの？"
-          },
-          {
-            "stringId": 2169130891870523392,
-            "femaleVariant": "今週は色々あってな… 子供の具合が悪くなったり、例の銃撃戦で客足が遠のいたり…"
-          },
-          {
-            "stringId": 2169131659075833856,
-            "femaleVariant": "大目に見てくれないかな？ いつも期日通りに払ってるし、こういう時もあるだろ？"
-          },
-          {
-            "stringId": 2169133135688945664,
-            "femaleVariant": "よく聞いて。今すぐお金を用意するの。インプラントを引き剥がすか、腎臓を売るかしてでもね。じゃないと私たちまでひどい目に遭う！ わかった？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

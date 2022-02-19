@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:30.0653328Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wbr_jpn_chat_014.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ねえ、チューマ… BDはやったことある？",
+                    "maleVariant": null,
+                    "stringId": 2159541901230907392
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ああ、何度かな。なぜ聞く？",
+                    "maleVariant": null,
+                    "stringId": 2167915006325477376
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ちょっと興味があってね… 稼ぎがいいって聞いたの",
+                    "maleVariant": null,
+                    "stringId": 2167915155844026368
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それはそうだが… やめといた方がいい。ここで売るのは体だけだが、BDの場合は思考や魂まで奪われる。わかるだろ？ 頭の中で他人が暴れてるようなもんだ",
+                    "maleVariant": null,
+                    "stringId": 2167915361734021120
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "最悪の気分だぞ。絶対にやめておけ",
+                    "maleVariant": null,
+                    "stringId": 2167915904124637184
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2159541901230907392,
-            "femaleVariant": "ねえ、チューマ… BDはやったことある？"
-          },
-          {
-            "stringId": 2167915006325477376,
-            "femaleVariant": "ああ、何度かな。なぜ聞く？"
-          },
-          {
-            "stringId": 2167915155844026368,
-            "femaleVariant": "ちょっと興味があってね… 稼ぎがいいって聞いたの"
-          },
-          {
-            "stringId": 2167915361734021120,
-            "femaleVariant": "それはそうだが… やめといた方がいい。ここで売るのは体だけだが、BDの場合は思考や魂まで奪われる。わかるだろ？ 頭の中で他人が暴れてるようなもんだ"
-          },
-          {
-            "stringId": 2167915904124637184,
-            "femaleVariant": "最悪の気分だぞ。絶対にやめておけ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

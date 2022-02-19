@@ -1,59 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:33.3423401Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\vendors\wbr_jpn_junk_03.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "売り物を見ていい？",
+                    "maleVariant": "売り物を見ていいか？",
+                    "stringId": 1882226030505508864
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "タイガークロウズだらけね",
+                    "maleVariant": "タイガークロウズだらけだな",
+                    "stringId": 1882226030505508880
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "売り物を見ていい？",
+                    "maleVariant": "売り物を見ていいか？",
+                    "stringId": 1882226031327592452
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どうぞどうぞ！ 何かしらピンと来ると思うよ",
+                    "maleVariant": null,
+                    "stringId": 1882226031377924100
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "賑やかなところね。クロウズの連中が目立つけど",
+                    "maleVariant": "賑やかなところだな。クロウズの連中が目立つが",
+                    "stringId": 1882226031428255748
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ここは色んな人でごった返してるから",
+                    "maleVariant": null,
+                    "stringId": 1882226031445032964
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "連中のこと、何か知ってる？",
+                    "maleVariant": "連中のこと、何か知ってるか？",
+                    "stringId": 1912580973309251584
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "知らないほうが長生きできる",
+                    "maleVariant": null,
+                    "stringId": 1912581215572250624
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1882226030505508864,
-            "femaleVariant": "売り物を見ていい？",
-            "maleVariant": "売り物を見ていいか？"
-          },
-          {
-            "stringId": 1882226030505508880,
-            "femaleVariant": "タイガークロウズだらけね",
-            "maleVariant": "タイガークロウズだらけだな"
-          },
-          {
-            "stringId": 1882226031327592452,
-            "femaleVariant": "売り物を見ていい？",
-            "maleVariant": "売り物を見ていいか？"
-          },
-          {
-            "stringId": 1882226031377924100,
-            "femaleVariant": "どうぞどうぞ！ 何かしらピンと来ると思うよ"
-          },
-          {
-            "stringId": 1882226031428255748,
-            "femaleVariant": "賑やかなところね。クロウズの連中が目立つけど",
-            "maleVariant": "賑やかなところだな。クロウズの連中が目立つが"
-          },
-          {
-            "stringId": 1882226031445032964,
-            "femaleVariant": "ここは色んな人でごった返してるから"
-          },
-          {
-            "stringId": 1912580973309251584,
-            "femaleVariant": "連中のこと、何か知ってる？",
-            "maleVariant": "連中のこと、何か知ってるか？"
-          },
-          {
-            "stringId": 1912581215572250624,
-            "femaleVariant": "知らないほうが長生きできる"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

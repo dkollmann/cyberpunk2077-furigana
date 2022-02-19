@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.8863252Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wbr_hill_chat_003.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ケイトが消されたって聞いたか？",
+                    "maleVariant": null,
+                    "stringId": 1806733830647308288
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そうなんだ。うちの部署のケイトだといいんだけど",
+                    "maleVariant": null,
+                    "stringId": 1806738170795646976
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いやいや、違う。ダウンタウンの方のケイトだ",
+                    "maleVariant": null,
+                    "stringId": 1806738812524158976
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なんだ。上が詰まってるから、とっとと消えてもらわないと困るのに",
+                    "maleVariant": null,
+                    "stringId": 1806739030007209984
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ああ。俺ももう半年以上、昇給もないまま低い給料でこき使われてる",
+                    "maleVariant": null,
+                    "stringId": 1806739150014636032
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1806733830647308288,
-            "femaleVariant": "ケイトが消されたって聞いたか？"
-          },
-          {
-            "stringId": 1806738170795646976,
-            "femaleVariant": "そうなんだ。うちの部署のケイトだといいんだけど"
-          },
-          {
-            "stringId": 1806738812524158976,
-            "femaleVariant": "いやいや、違う。ダウンタウンの方のケイトだ"
-          },
-          {
-            "stringId": 1806739030007209984,
-            "femaleVariant": "なんだ。上が詰まってるから、とっとと消えてもらわないと困るのに"
-          },
-          {
-            "stringId": 1806739150014636032,
-            "femaleVariant": "ああ。俺ももう半年以上、昇給もないまま低い給料でこき使われてる"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

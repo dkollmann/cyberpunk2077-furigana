@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.5647443Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wat_lch_chat_024.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5年間、身を粉にして働いてきた。でも5年やって何もなしだ。一方あの女は2度も昇進してる",
+                    "maleVariant": null,
+                    "stringId": 2156523842609377280
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "選択肢は2つだな。現状維持か、邪魔者を排除するか",
+                    "maleVariant": null,
+                    "stringId": 2172343915632115712
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それは… 殺すってことか？",
+                    "maleVariant": null,
+                    "stringId": 2172344289814364160
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そう悪い考えじゃないだろ？ お前は何でもする、その覚悟があると上に示せる",
+                    "maleVariant": null,
+                    "stringId": 2172344537865502720
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "お前もそうしたのか？",
+                    "maleVariant": null,
+                    "stringId": 2172344688961110016
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ハッ、俺にそんな根性はないよ。俺なら現状維持を選ぶ。そうすれば脅威と見られることもない",
+                    "maleVariant": null,
+                    "stringId": 2172344917936553984
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "クソ… 迷うな…",
+                    "maleVariant": null,
+                    "stringId": 2172345079014604800
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2156523842609377280,
-            "femaleVariant": "5年間、身を粉にして働いてきた。でも5年やって何もなしだ。一方あの女は2度も昇進してる"
-          },
-          {
-            "stringId": 2172343915632115712,
-            "femaleVariant": "選択肢は2つだな。現状維持か、邪魔者を排除するか"
-          },
-          {
-            "stringId": 2172344289814364160,
-            "femaleVariant": "それは… 殺すってことか？"
-          },
-          {
-            "stringId": 2172344537865502720,
-            "femaleVariant": "そう悪い考えじゃないだろ？ お前は何でもする、その覚悟があると上に示せる"
-          },
-          {
-            "stringId": 2172344688961110016,
-            "femaleVariant": "お前もそうしたのか？"
-          },
-          {
-            "stringId": 2172344917936553984,
-            "femaleVariant": "ハッ、俺にそんな根性はないよ。俺なら現状維持を選ぶ。そうすれば脅威と見られることもない"
-          },
-          {
-            "stringId": 2172345079014604800,
-            "femaleVariant": "クソ… 迷うな…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

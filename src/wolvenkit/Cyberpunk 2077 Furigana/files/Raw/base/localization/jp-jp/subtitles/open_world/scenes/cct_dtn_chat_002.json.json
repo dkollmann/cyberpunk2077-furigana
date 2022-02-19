@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:24.1888862Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\cct_dtn_chat_002.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ちょっと… それ、まさかジングウジのワンピース？",
+                    "maleVariant": null,
+                    "stringId": 1963293454750171136
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "気づいてくれた？",
+                    "maleVariant": null,
+                    "stringId": 1963294215445921792
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どうやって手に入れたの？ 腎臓でも売ったわけ？",
+                    "maleVariant": null,
+                    "stringId": 1963294862945796096
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どうでしょう",
+                    "maleVariant": null,
+                    "stringId": 1963295423791349760
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "すごくかわいいけど… さすがに高すぎない？ そこまでして買う価値あるのかな",
+                    "maleVariant": null,
+                    "stringId": 1963295761214717952
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "後悔はしてない… 完璧さを求めることは罪じゃないでしょ",
+                    "maleVariant": null,
+                    "stringId": 1963296350296326144
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963293454750171136,
-            "femaleVariant": "ちょっと… それ、まさかジングウジのワンピース？"
-          },
-          {
-            "stringId": 1963294215445921792,
-            "femaleVariant": "気づいてくれた？"
-          },
-          {
-            "stringId": 1963294862945796096,
-            "femaleVariant": "どうやって手に入れたの？ 腎臓でも売ったわけ？"
-          },
-          {
-            "stringId": 1963295423791349760,
-            "femaleVariant": "どうでしょう"
-          },
-          {
-            "stringId": 1963295761214717952,
-            "femaleVariant": "すごくかわいいけど… さすがに高すぎない？ そこまでして買う価値あるのかな"
-          },
-          {
-            "stringId": 1963296350296326144,
-            "femaleVariant": "後悔はしてない… 完璧さを求めることは罪じゃないでしょ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

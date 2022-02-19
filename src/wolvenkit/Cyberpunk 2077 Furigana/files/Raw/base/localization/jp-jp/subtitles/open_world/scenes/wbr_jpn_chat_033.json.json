@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:30.2068473Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wbr_jpn_chat_033.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "おい、もうその辺にしておけ",
+                    "maleVariant": null,
+                    "stringId": 2160398028084649984
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いやいや。いい酒ってのは、誰にも害を及ぼさないんだよ",
+                    "maleVariant": null,
+                    "stringId": 2196820055193657344
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "日本にはこういう言葉がある。1杯は人、酒を飲む。2杯は酒、酒を飲む。3杯は酒、人を飲むってな",
+                    "maleVariant": null,
+                    "stringId": 2196820815134433280
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そんなのただのたわ言だ。もっといいのがあるぜ…",
+                    "maleVariant": null,
+                    "stringId": 2196822989847502848
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1杯目は俺が飲む。2杯目はお前が飲む。3杯目は… 店のおごりだ！",
+                    "maleVariant": null,
+                    "stringId": 2196824330414170112
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ここはタイガークロウズのバーだぞ？ 店のおごりなんてあり得ない",
+                    "maleVariant": null,
+                    "stringId": 2196825220663582720
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "タイガークロウズ…？ ああ… もう出よう",
+                    "maleVariant": null,
+                    "stringId": 2196828154394681344
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2160398028084649984,
-            "femaleVariant": "おい、もうその辺にしておけ"
-          },
-          {
-            "stringId": 2196820055193657344,
-            "femaleVariant": "いやいや。いい酒ってのは、誰にも害を及ぼさないんだよ"
-          },
-          {
-            "stringId": 2196820815134433280,
-            "femaleVariant": "日本にはこういう言葉がある。1杯は人、酒を飲む。2杯は酒、酒を飲む。3杯は酒、人を飲むってな"
-          },
-          {
-            "stringId": 2196822989847502848,
-            "femaleVariant": "そんなのただのたわ言だ。もっといいのがあるぜ…"
-          },
-          {
-            "stringId": 2196824330414170112,
-            "femaleVariant": "1杯目は俺が飲む。2杯目はお前が飲む。3杯目は… 店のおごりだ！"
-          },
-          {
-            "stringId": 2196825220663582720,
-            "femaleVariant": "ここはタイガークロウズのバーだぞ？ 店のおごりなんてあり得ない"
-          },
-          {
-            "stringId": 2196828154394681344,
-            "femaleVariant": "タイガークロウズ…？ ああ… もう出よう"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

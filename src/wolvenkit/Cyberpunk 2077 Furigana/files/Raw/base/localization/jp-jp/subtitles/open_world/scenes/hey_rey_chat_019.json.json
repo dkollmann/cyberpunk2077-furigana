@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:26.7137629Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\hey_rey_chat_019.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "一緒に食事してて、ふと彼女のこと見たら何も感じなかったの。まるで他人みたいに、何の感情もない",
+                    "maleVariant": null,
+                    "stringId": 2161846879919566848
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それで、何て言っていいかもわからないまま、バカみたいにただ座って、作り笑いしてたのよ",
+                    "maleVariant": null,
+                    "stringId": 2221506769469149184
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "別れろって。自分にも相手にも嘘ついてるんだから。いつから付き合ってるんだっけ？",
+                    "maleVariant": null,
+                    "stringId": 2221506951183175680
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "戦争が終わった頃",
+                    "maleVariant": null,
+                    "stringId": 2244545210402312192
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ほらな。もう十分彼女の時間を奪ってきたんだ。「そんなに単純じゃない」なんて言うなよ。実際、単純な話だ",
+                    "maleVariant": null,
+                    "stringId": 2244547854575439872
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "でも… 一人になりたくないのよ",
+                    "maleVariant": null,
+                    "stringId": 2244548733399568384
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2161846879919566848,
-            "femaleVariant": "一緒に食事してて、ふと彼女のこと見たら何も感じなかったの。まるで他人みたいに、何の感情もない"
-          },
-          {
-            "stringId": 2221506769469149184,
-            "femaleVariant": "それで、何て言っていいかもわからないまま、バカみたいにただ座って、作り笑いしてたのよ"
-          },
-          {
-            "stringId": 2221506951183175680,
-            "femaleVariant": "別れろって。自分にも相手にも嘘ついてるんだから。いつから付き合ってるんだっけ？"
-          },
-          {
-            "stringId": 2244545210402312192,
-            "femaleVariant": "戦争が終わった頃"
-          },
-          {
-            "stringId": 2244547854575439872,
-            "femaleVariant": "ほらな。もう十分彼女の時間を奪ってきたんだ。「そんなに単純じゃない」なんて言うなよ。実際、単純な話だ"
-          },
-          {
-            "stringId": 2244548733399568384,
-            "femaleVariant": "でも… 一人になりたくないのよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

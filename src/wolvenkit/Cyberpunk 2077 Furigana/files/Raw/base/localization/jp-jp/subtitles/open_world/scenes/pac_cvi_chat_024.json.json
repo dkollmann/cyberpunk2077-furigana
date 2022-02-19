@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:27.7616068Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\pac_cvi_chat_024.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ねえ、もう戻らない？ 暗くなってきたし",
+                    "maleVariant": null,
+                    "stringId": 2179512439692095488
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "帰りたければ帰れば。私はここに残る",
+                    "maleVariant": null,
+                    "stringId": 2189485360813948928
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "一緒に行こうよ。この辺、スカベンジャー出るって言ってたし、何かあったらやだよ",
+                    "maleVariant": null,
+                    "stringId": 2189485552225206272
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "家に帰ってお母さんに怒鳴られるより、スカベンジャーと出くわすほうがマシよ",
+                    "maleVariant": null,
+                    "stringId": 2189485776066822144
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "もう、本気で言ってるの？",
+                    "maleVariant": null,
+                    "stringId": 2189485957260754944
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "本気よ。ここでしばらく海を見てたいの",
+                    "maleVariant": null,
+                    "stringId": 2189486046649761792
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ほら、いいでしょ。飽きたら一緒に帰ろう。ね？",
+                    "maleVariant": null,
+                    "stringId": 2189486146524528640
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "でも… うーん、わかった",
+                    "maleVariant": null,
+                    "stringId": 2189486487689216000
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2179512439692095488,
-            "femaleVariant": "ねえ、もう戻らない？ 暗くなってきたし"
-          },
-          {
-            "stringId": 2189485360813948928,
-            "femaleVariant": "帰りたければ帰れば。私はここに残る"
-          },
-          {
-            "stringId": 2189485552225206272,
-            "femaleVariant": "一緒に行こうよ。この辺、スカベンジャー出るって言ってたし、何かあったらやだよ"
-          },
-          {
-            "stringId": 2189485776066822144,
-            "femaleVariant": "家に帰ってお母さんに怒鳴られるより、スカベンジャーと出くわすほうがマシよ"
-          },
-          {
-            "stringId": 2189485957260754944,
-            "femaleVariant": "もう、本気で言ってるの？"
-          },
-          {
-            "stringId": 2189486046649761792,
-            "femaleVariant": "本気よ。ここでしばらく海を見てたいの"
-          },
-          {
-            "stringId": 2189486146524528640,
-            "femaleVariant": "ほら、いいでしょ。飽きたら一緒に帰ろう。ね？"
-          },
-          {
-            "stringId": 2189486487689216000,
-            "femaleVariant": "でも… うーん、わかった"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

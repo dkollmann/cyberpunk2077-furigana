@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:26.8797959Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\hey_spr_chat_020.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "女を惚れさせたいなら、どこかで危険な目に遭わせるのが一番だ",
+                    "maleVariant": null,
+                    "stringId": 2162120453613400064
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "へーそうかい。どこがいい？ カブキで武装強盗か、ビスタで誘拐でもしてもらうか。彼女に選んでもらうか",
+                    "maleVariant": null,
+                    "stringId": 2213035903114645504
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "まあ、聞けって。そういう所に行って危険が迫ると、緊張が高まってアドレナリンが出まくるだろ。そのドキドキをお前と結びつけて、コロッと恋に落ちるわけさ",
+                    "maleVariant": null,
+                    "stringId": 2218727353139695616
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "これはどうだ？ 最上階に連れてけよ。パシフィカの夜景を見ながら、銃声をBGMにするのさ。“安全”な距離から危険を感じるんだ… すげえロマンチックだろ",
+                    "maleVariant": null,
+                    "stringId": 2218734175393255424
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "絶対うまくいくって。人間、本能には逆らえない",
+                    "maleVariant": null,
+                    "stringId": 2218734365160345600
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ふうん。そういや、お前のアウトプットは元気にしてんのか？",
+                    "maleVariant": null,
+                    "stringId": 2218740819791548416
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "アウトプット？ いやいや、俺はもっといい相手を探すつもりさ",
+                    "maleVariant": null,
+                    "stringId": 2218740956408418304
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "バカバカしい…",
+                    "maleVariant": null,
+                    "stringId": 2218743124544819200
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2162120453613400064,
-            "femaleVariant": "女を惚れさせたいなら、どこかで危険な目に遭わせるのが一番だ"
-          },
-          {
-            "stringId": 2213035903114645504,
-            "femaleVariant": "へーそうかい。どこがいい？ カブキで武装強盗か、ビスタで誘拐でもしてもらうか。彼女に選んでもらうか"
-          },
-          {
-            "stringId": 2218727353139695616,
-            "femaleVariant": "まあ、聞けって。そういう所に行って危険が迫ると、緊張が高まってアドレナリンが出まくるだろ。そのドキドキをお前と結びつけて、コロッと恋に落ちるわけさ"
-          },
-          {
-            "stringId": 2218734175393255424,
-            "femaleVariant": "これはどうだ？ 最上階に連れてけよ。パシフィカの夜景を見ながら、銃声をBGMにするのさ。“安全”な距離から危険を感じるんだ… すげえロマンチックだろ"
-          },
-          {
-            "stringId": 2218734365160345600,
-            "femaleVariant": "絶対うまくいくって。人間、本能には逆らえない"
-          },
-          {
-            "stringId": 2218740819791548416,
-            "femaleVariant": "ふうん。そういや、お前のアウトプットは元気にしてんのか？"
-          },
-          {
-            "stringId": 2218740956408418304,
-            "femaleVariant": "アウトプット？ いやいや、俺はもっといい相手を探すつもりさ"
-          },
-          {
-            "stringId": 2218743124544819200,
-            "femaleVariant": "バカバカしい…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

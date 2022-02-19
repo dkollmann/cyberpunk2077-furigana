@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:32.5086942Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\street_stories\sts_wbr_hil_06_holocall_prebrief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "新しい仕事だよ… と言っても、依頼主はナンシーの息子さ。そう、〈Samurai〉でキーボードを弾いてたあのナンシーだよ。盗まれたモノを取り返したがってる",
+                    "maleVariant": null,
+                    "stringId": 2328748527592960000
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ああ、それともう1つ。もしできるなら、そいつの車も取り返してくれるとありがたい",
+                    "maleVariant": null,
+                    "stringId": 2342910040040902656
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "やってくれるかい？ 引き受けるなら、添付の詳細を確認しな",
+                    "maleVariant": null,
+                    "stringId": 2342945016778166272
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328748527592960000,
-            "femaleVariant": "新しい仕事だよ… と言っても、依頼主はナンシーの息子さ。そう、〈Samurai〉でキーボードを弾いてたあのナンシーだよ。盗まれたモノを取り返したがってる"
-          },
-          {
-            "stringId": 2342910040040902656,
-            "femaleVariant": "ああ、それともう1つ。もしできるなら、そいつの車も取り返してくれるとありがたい"
-          },
-          {
-            "stringId": 2342945016778166272,
-            "femaleVariant": "やってくれるかい？ 引き受けるなら、添付の詳細を確認しな"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

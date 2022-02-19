@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:23.7487488Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\bls_north_008.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ダコタに聞いたほうがいい。何か知ってるらしいぞ",
+                    "maleVariant": null,
+                    "stringId": 1973567944456708096
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "サイバーサイコになった奴がいて、この辺に捨てたのかも？",
+                    "maleVariant": null,
+                    "stringId": 1975027311442640896
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "でも、バッドランズにメイルストロームがいただなんて… どうも信じられない",
+                    "maleVariant": null,
+                    "stringId": 1975027329025163264
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "逆に聞くけど、ステロイド漬けの機械みたいなレイスなんか見たことある？",
+                    "maleVariant": null,
+                    "stringId": 1975027345517166592
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "本当に、サイバーウェアを着けただけのレイスじゃなかったの？",
+                    "maleVariant": null,
+                    "stringId": 1975027359073157120
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1973567944456708096,
-            "femaleVariant": "ダコタに聞いたほうがいい。何か知ってるらしいぞ"
-          },
-          {
-            "stringId": 1975027311442640896,
-            "femaleVariant": "サイバーサイコになった奴がいて、この辺に捨てたのかも？"
-          },
-          {
-            "stringId": 1975027329025163264,
-            "femaleVariant": "でも、バッドランズにメイルストロームがいただなんて… どうも信じられない"
-          },
-          {
-            "stringId": 1975027345517166592,
-            "femaleVariant": "逆に聞くけど、ステロイド漬けの機械みたいなレイスなんか見たことある？"
-          },
-          {
-            "stringId": 1975027359073157120,
-            "femaleVariant": "本当に、サイバーウェアを着けただけのレイスじゃなかったの？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

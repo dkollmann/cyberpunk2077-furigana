@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:23.2323177Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\minor_activities\ma_pac_cvi_08_01_briefing.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "V、桟橋で兵士が通行人に発砲したって話が入ってきた",
+                    "maleVariant": null,
+                    "stringId": 2352060765460144128
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "できたら殺さずに、そいつを止めて。その後、専門の人たちを派遣するから",
+                    "maleVariant": null,
+                    "stringId": 2352064951727857664
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "詳細はすぐに送るわ",
+                    "maleVariant": null,
+                    "stringId": 2352065370453614592
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それとV… 気をつけてね",
+                    "maleVariant": null,
+                    "stringId": 2360805887367143424
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あいつ、イカれてる！",
+                    "maleVariant": null,
+                    "stringId": 2537420031229337600
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2352060765460144128,
-            "femaleVariant": "V、桟橋で兵士が通行人に発砲したって話が入ってきた"
-          },
-          {
-            "stringId": 2352064951727857664,
-            "femaleVariant": "できたら殺さずに、そいつを止めて。その後、専門の人たちを派遣するから"
-          },
-          {
-            "stringId": 2352065370453614592,
-            "femaleVariant": "詳細はすぐに送るわ"
-          },
-          {
-            "stringId": 2360805887367143424,
-            "femaleVariant": "それとV… 気をつけてね"
-          },
-          {
-            "stringId": 2537420031229337600,
-            "femaleVariant": "あいつ、イカれてる！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.8290158Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wat_nid_chat_020.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ママ… ママってば。20世紀じゃないんだから！",
+                    "maleVariant": null,
+                    "stringId": 2156416211431710720
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "違う、見栄張りたいとかじゃなくて、表現よ。自己表現をさせてほしいって言ってるの！",
+                    "maleVariant": null,
+                    "stringId": 2170615755093819392
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ケミカル・インプラントっていうか… 肌の下の層に入れるのよ。それが吸収した光を放つの",
+                    "maleVariant": null,
+                    "stringId": 2170616557464174592
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なんで？ ケルシーのいとこはマイクロテックのエージェントだけど、入れてても何も言われてないじゃん",
+                    "maleVariant": null,
+                    "stringId": 2170616882539511808
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "大人になったら？ そこまで生きてるかわかんないのに。それにさ、気が変わったら皮膚をまた替えればいいだけだから",
+                    "maleVariant": null,
+                    "stringId": 2170617485445545984
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "もう！ 何が問題なのか全然わかんないんだけど",
+                    "maleVariant": null,
+                    "stringId": 2170618013709746176
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2156416211431710720,
-            "femaleVariant": "ママ… ママってば。20世紀じゃないんだから！"
-          },
-          {
-            "stringId": 2170615755093819392,
-            "femaleVariant": "違う、見栄張りたいとかじゃなくて、表現よ。自己表現をさせてほしいって言ってるの！"
-          },
-          {
-            "stringId": 2170616557464174592,
-            "femaleVariant": "ケミカル・インプラントっていうか… 肌の下の層に入れるのよ。それが吸収した光を放つの"
-          },
-          {
-            "stringId": 2170616882539511808,
-            "femaleVariant": "なんで？ ケルシーのいとこはマイクロテックのエージェントだけど、入れてても何も言われてないじゃん"
-          },
-          {
-            "stringId": 2170617485445545984,
-            "femaleVariant": "大人になったら？ そこまで生きてるかわかんないのに。それにさ、気が変わったら皮膚をまた替えればいいだけだから"
-          },
-          {
-            "stringId": 2170618013709746176,
-            "femaleVariant": "もう！ 何が問題なのか全然わかんないんだけど"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

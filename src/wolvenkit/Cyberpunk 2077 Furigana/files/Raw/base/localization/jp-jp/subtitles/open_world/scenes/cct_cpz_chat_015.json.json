@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:24.0261816Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\cct_cpz_chat_015.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "今日はお父さんが帰ってくる日よ",
+                    "maleVariant": null,
+                    "stringId": 2189789085601992704
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "だから？",
+                    "maleVariant": null,
+                    "stringId": 2189789192690962432
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "今日会わなかったら、来週まで一緒に食事できないの",
+                    "maleVariant": null,
+                    "stringId": 2189789616047230976
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "うん",
+                    "maleVariant": null,
+                    "stringId": 2189790346158116864
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "お父さんは頑張ってるじゃない。そのなかでお前のために時間を作ってくれてるの。つらい思いをさせちゃダメよ",
+                    "maleVariant": null,
+                    "stringId": 2189790852158951424
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "はあ… じゃあこれならどう。食事に来るなら、欲しがってたBDを買ってあげる",
+                    "maleVariant": null,
+                    "stringId": 2189792105232437248
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "うん",
+                    "maleVariant": null,
+                    "stringId": 2189804819627479040
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "わかった。でもBDを買いに行くのが先ね",
+                    "maleVariant": null,
+                    "stringId": 2189839191713878016
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2189789085601992704,
-            "femaleVariant": "今日はお父さんが帰ってくる日よ"
-          },
-          {
-            "stringId": 2189789192690962432,
-            "femaleVariant": "だから？"
-          },
-          {
-            "stringId": 2189789616047230976,
-            "femaleVariant": "今日会わなかったら、来週まで一緒に食事できないの"
-          },
-          {
-            "stringId": 2189790346158116864,
-            "femaleVariant": "うん"
-          },
-          {
-            "stringId": 2189790852158951424,
-            "femaleVariant": "お父さんは頑張ってるじゃない。そのなかでお前のために時間を作ってくれてるの。つらい思いをさせちゃダメよ"
-          },
-          {
-            "stringId": 2189792105232437248,
-            "femaleVariant": "はあ… じゃあこれならどう。食事に来るなら、欲しがってたBDを買ってあげる"
-          },
-          {
-            "stringId": 2189804819627479040,
-            "femaleVariant": "うん"
-          },
-          {
-            "stringId": 2189839191713878016,
-            "femaleVariant": "わかった。でもBDを買いに行くのが先ね"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:30.1068246Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wbr_jpn_chat_018.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "相変わらず決まってるな、ジョシュ",
+                    "maleVariant": null,
+                    "stringId": 2160307018046414848
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "へへ。そりゃまあ、見た目は大事だからな",
+                    "maleVariant": null,
+                    "stringId": 2169385941943504896
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なあ。マジな話、なんでいつもそう着飾るんだよ？",
+                    "maleVariant": null,
+                    "stringId": 2169386134394949632
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "カモフラージュさ。毎朝、嫁には仕事に行くってウソついてるからな",
+                    "maleVariant": null,
+                    "stringId": 2169386492236189696
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6ヶ月ここに入り浸ってるが、あいつは何も疑ってない",
+                    "maleVariant": null,
+                    "stringId": 2169386960521842688
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2160307018046414848,
-            "femaleVariant": "相変わらず決まってるな、ジョシュ"
-          },
-          {
-            "stringId": 2169385941943504896,
-            "femaleVariant": "へへ。そりゃまあ、見た目は大事だからな"
-          },
-          {
-            "stringId": 2169386134394949632,
-            "femaleVariant": "なあ。マジな話、なんでいつもそう着飾るんだよ？"
-          },
-          {
-            "stringId": 2169386492236189696,
-            "femaleVariant": "カモフラージュさ。毎朝、嫁には仕事に行くってウソついてるからな"
-          },
-          {
-            "stringId": 2169386960521842688,
-            "femaleVariant": "6ヶ月ここに入り浸ってるが、あいつは何も疑ってない"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

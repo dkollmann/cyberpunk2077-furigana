@@ -1,55 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:32.6952150Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\vendors\bls_ina_se1_foodshop_02.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "腹が減ってて",
+                    "maleVariant": null,
+                    "stringId": 1935651488722759680
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "店の名前は？",
+                    "maleVariant": null,
+                    "stringId": 1935651488739536908
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "小腹が空いてて",
+                    "maleVariant": null,
+                    "stringId": 1935651488756314116
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あいよ",
+                    "maleVariant": null,
+                    "stringId": 1935651488773091328
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "この店って名前はあるの？ 看板が出てなかったけど…",
+                    "maleVariant": "この店って名前はあるのか？ 看板が出てないよな…",
+                    "stringId": 1935651488806645764
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "“サルモネラ”だ",
+                    "maleVariant": null,
+                    "stringId": 1935651488806645772
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "え、サルモネラ？",
+                    "maleVariant": null,
+                    "stringId": 1986389809794699264
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いい名前だろ？ 義理の弟が考えてくれたんだ。イタリア語で“サーモン”って意味なんだと",
+                    "maleVariant": null,
+                    "stringId": 1986390591898177536
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1935651488722759680,
-            "femaleVariant": "腹が減ってて"
-          },
-          {
-            "stringId": 1935651488739536908,
-            "femaleVariant": "店の名前は？"
-          },
-          {
-            "stringId": 1935651488756314116,
-            "femaleVariant": "小腹が空いてて"
-          },
-          {
-            "stringId": 1935651488773091328,
-            "femaleVariant": "あいよ"
-          },
-          {
-            "stringId": 1935651488806645764,
-            "femaleVariant": "この店って名前はあるの？ 看板が出てなかったけど…",
-            "maleVariant": "この店って名前はあるのか？ 看板が出てないよな…"
-          },
-          {
-            "stringId": 1935651488806645772,
-            "femaleVariant": "“サルモネラ”だ"
-          },
-          {
-            "stringId": 1986389809794699264,
-            "femaleVariant": "え、サルモネラ？"
-          },
-          {
-            "stringId": 1986390591898177536,
-            "femaleVariant": "いい名前だろ？ 義理の弟が考えてくれたんだ。イタリア語で“サーモン”って意味なんだと"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

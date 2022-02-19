@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:35.7835311Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\quest\mq002\mq002_02_combat.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "誰か、スナイパーをやれ！",
+                    "maleVariant": null,
+                    "stringId": 1812415190433423360
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "交渉なんて、退屈だと思ってたんだ！",
+                    "maleVariant": null,
+                    "stringId": 1812416688823361540
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "血を流さなきゃ金が手に入らないって言うなら、仕方ないね！",
+                    "maleVariant": null,
+                    "stringId": 1812417636266303488
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1812415190433423360,
-            "femaleVariant": "誰か、スナイパーをやれ！"
-          },
-          {
-            "stringId": 1812416688823361540,
-            "femaleVariant": "交渉なんて、退屈だと思ってたんだ！"
-          },
-          {
-            "stringId": 1812417636266303488,
-            "femaleVariant": "血を流さなきゃ金が手に入らないって言うなら、仕方ないね！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

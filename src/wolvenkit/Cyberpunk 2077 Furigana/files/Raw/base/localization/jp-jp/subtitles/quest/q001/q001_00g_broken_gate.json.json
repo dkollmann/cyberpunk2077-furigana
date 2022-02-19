@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:36.7330480Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\quest\q001\q001_00g_broken_gate.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ゲートがまた壊れた。これで3回目よ",
+                    "maleVariant": null,
+                    "stringId": 1877791194262695936
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "壊れるたびに修理代を払ってるのに、これじゃ詐欺よ",
+                    "maleVariant": null,
+                    "stringId": 1877791669947101184
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "管理人に文句を言ってやらなきゃ…",
+                    "maleVariant": null,
+                    "stringId": 1968055614796918784
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1877791194262695936,
-            "femaleVariant": "ゲートがまた壊れた。これで3回目よ"
-          },
-          {
-            "stringId": 1877791669947101184,
-            "femaleVariant": "壊れるたびに修理代を払ってるのに、これじゃ詐欺よ"
-          },
-          {
-            "stringId": 1968055614796918784,
-            "femaleVariant": "管理人に文句を言ってやらなきゃ…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:27.7545137Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\pac_cvi_chat_022.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "確かにコーストビューは全部押さえてる。でも奴らはネットランナーだ、兵士じゃない",
+                    "maleVariant": null,
+                    "stringId": 2179447526193917952
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "考えてもみろ。自分たちのシマなのに、ヴードゥー・ボーイズは他の連中に好き勝手させすぎてる。スカベンジャーにも、アニマルズにも",
+                    "maleVariant": null,
+                    "stringId": 2211194910394793984
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そのうち何とかするさ。腕力より知力って言うだろ",
+                    "maleVariant": null,
+                    "stringId": 2212603361100546048
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いや、両方あってなんぼだ。でないと潰される",
+                    "maleVariant": null,
+                    "stringId": 2212603492415815680
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そうは言ってもだな… 両方兼ね備えてる奴なんてそうそういねえ",
+                    "maleVariant": null,
+                    "stringId": 2212603603296436224
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "またここがコンバット・ゾーンになる日も近いぞ。もう時間の問題だ",
+                    "maleVariant": null,
+                    "stringId": 2212603709563322368
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2179447526193917952,
-            "femaleVariant": "確かにコーストビューは全部押さえてる。でも奴らはネットランナーだ、兵士じゃない"
-          },
-          {
-            "stringId": 2211194910394793984,
-            "femaleVariant": "考えてもみろ。自分たちのシマなのに、ヴードゥー・ボーイズは他の連中に好き勝手させすぎてる。スカベンジャーにも、アニマルズにも"
-          },
-          {
-            "stringId": 2212603361100546048,
-            "femaleVariant": "そのうち何とかするさ。腕力より知力って言うだろ"
-          },
-          {
-            "stringId": 2212603492415815680,
-            "femaleVariant": "いや、両方あってなんぼだ。でないと潰される"
-          },
-          {
-            "stringId": 2212603603296436224,
-            "femaleVariant": "そうは言ってもだな… 両方兼ね備えてる奴なんてそうそういねえ"
-          },
-          {
-            "stringId": 2212603709563322368,
-            "femaleVariant": "またここがコンバット・ゾーンになる日も近いぞ。もう時間の問題だ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

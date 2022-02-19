@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:32.6451582Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\street_stories\sts_wbr_jpn_09_holocall_debriefs.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "作戦は無事成功やて聞いたで。さすがはプロやな。喜ばしい限りや",
+                    "maleVariant": null,
+                    "stringId": 2328618844492914688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "成功ゆうには程遠い結果や。がっかりしたわ。ミスはしゃあないけど、いつもこんなんやったら困るで",
+                    "maleVariant": null,
+                    "stringId": 2328620321626120196
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "信頼は大事やで、V。信頼できへん人間に仕事はよう任せられへん。覚えとき",
+                    "maleVariant": null,
+                    "stringId": 2343097402704367616
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "今後もその調子で頼むで。ほなご苦労さんやったな。報酬を送っとくわ",
+                    "maleVariant": null,
+                    "stringId": 2343104436870942720
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328618844492914688,
-            "femaleVariant": "作戦は無事成功やて聞いたで。さすがはプロやな。喜ばしい限りや"
-          },
-          {
-            "stringId": 2328620321626120196,
-            "femaleVariant": "成功ゆうには程遠い結果や。がっかりしたわ。ミスはしゃあないけど、いつもこんなんやったら困るで"
-          },
-          {
-            "stringId": 2343097402704367616,
-            "femaleVariant": "信頼は大事やで、V。信頼できへん人間に仕事はよう任せられへん。覚えとき"
-          },
-          {
-            "stringId": 2343104436870942720,
-            "femaleVariant": "今後もその調子で頼むで。ほなご苦労さんやったな。報酬を送っとくわ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

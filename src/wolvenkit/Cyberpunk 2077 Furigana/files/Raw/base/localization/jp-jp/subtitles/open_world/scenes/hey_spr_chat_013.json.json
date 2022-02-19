@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:26.8337266Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\hey_spr_chat_013.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "子供がいないと、ローン組めないって",
+                    "maleVariant": null,
+                    "stringId": 2162064838484537344
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "たかり屋どもめ、そんなことできる――",
+                    "maleVariant": null,
+                    "stringId": 2209904225093521408
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "できるのよ",
+                    "maleVariant": null,
+                    "stringId": 2217404931216084992
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "でも子供は欲しくない",
+                    "maleVariant": null,
+                    "stringId": 2217405001026080768
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "私もよ。でもしょうがないでしょ。新しいマンションを買いたかったら、ローンを相続させる人間が必要なのよ。万一のことがあった時のために",
+                    "maleVariant": null,
+                    "stringId": 2217405477499015168
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "はあ… で、どうする？",
+                    "maleVariant": null,
+                    "stringId": 2217407536164081664
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "私はジャパンタウンに住みたいの",
+                    "maleVariant": null,
+                    "stringId": 2217410879510908928
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ああ、俺もだよ",
+                    "maleVariant": null,
+                    "stringId": 2217411771807141888
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2162064838484537344,
-            "femaleVariant": "子供がいないと、ローン組めないって"
-          },
-          {
-            "stringId": 2209904225093521408,
-            "femaleVariant": "たかり屋どもめ、そんなことできる――"
-          },
-          {
-            "stringId": 2217404931216084992,
-            "femaleVariant": "できるのよ"
-          },
-          {
-            "stringId": 2217405001026080768,
-            "femaleVariant": "でも子供は欲しくない"
-          },
-          {
-            "stringId": 2217405477499015168,
-            "femaleVariant": "私もよ。でもしょうがないでしょ。新しいマンションを買いたかったら、ローンを相続させる人間が必要なのよ。万一のことがあった時のために"
-          },
-          {
-            "stringId": 2217407536164081664,
-            "femaleVariant": "はあ… で、どうする？"
-          },
-          {
-            "stringId": 2217410879510908928,
-            "femaleVariant": "私はジャパンタウンに住みたいの"
-          },
-          {
-            "stringId": 2217411771807141888,
-            "femaleVariant": "ああ、俺もだよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

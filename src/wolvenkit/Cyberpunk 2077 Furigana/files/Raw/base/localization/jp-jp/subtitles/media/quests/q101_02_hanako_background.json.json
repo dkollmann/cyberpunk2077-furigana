@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:22.3901597Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\media\quests\q101_02_hanako_background.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ハナコ様、お会いできて光栄です",
+                    "maleVariant": null,
+                    "stringId": 1793918409482420224
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "こちらこそ",
+                    "maleVariant": null,
+                    "stringId": 1793928749012205568
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "では、ハナコ様、まずお伺いしたいのは――",
+                    "maleVariant": null,
+                    "stringId": 1793930495319064576
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1793918409482420224,
-            "femaleVariant": "ハナコ様、お会いできて光栄です"
-          },
-          {
-            "stringId": 1793928749012205568,
-            "femaleVariant": "こちらこそ"
-          },
-          {
-            "stringId": 1793930495319064576,
-            "femaleVariant": "では、ハナコ様、まずお伺いしたいのは――"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

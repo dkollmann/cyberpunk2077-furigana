@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:27.9817616Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\pac_wwd_chat_030.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "最新のすげえヤツだ。もう1週間前から出回ってるって話だぞ",
+                    "maleVariant": null,
+                    "stringId": 2179649948556582912
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "うん、知ってる。バイオテクニカのブースターでしょ。わざと流出させたらしいよ",
+                    "maleVariant": null,
+                    "stringId": 2211509490577240064
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "へえ、次は何を言い出すんだ？ この世界はシミュレーションで、俺らは誰かに操作されてるってか？",
+                    "maleVariant": null,
+                    "stringId": 2212647982137012224
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "本当よ。クローム耐性を上げる薬で、サイバーサイコの発症を抑えるんだって",
+                    "maleVariant": null,
+                    "stringId": 2212648243341488128
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何のために街に流したんだ？ 副作用の確認か？",
+                    "maleVariant": null,
+                    "stringId": 2212651062702305280
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ま、せっかくだし企業様のモルモットになってやろうぜ。今夜少しやって、朝になったら報告書でも書いてやるか",
+                    "maleVariant": null,
+                    "stringId": 2212651785078894592
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ハハ、いいね",
+                    "maleVariant": null,
+                    "stringId": 2212656220706369536
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2179649948556582912,
-            "femaleVariant": "最新のすげえヤツだ。もう1週間前から出回ってるって話だぞ"
-          },
-          {
-            "stringId": 2211509490577240064,
-            "femaleVariant": "うん、知ってる。バイオテクニカのブースターでしょ。わざと流出させたらしいよ"
-          },
-          {
-            "stringId": 2212647982137012224,
-            "femaleVariant": "へえ、次は何を言い出すんだ？ この世界はシミュレーションで、俺らは誰かに操作されてるってか？"
-          },
-          {
-            "stringId": 2212648243341488128,
-            "femaleVariant": "本当よ。クローム耐性を上げる薬で、サイバーサイコの発症を抑えるんだって"
-          },
-          {
-            "stringId": 2212651062702305280,
-            "femaleVariant": "何のために街に流したんだ？ 副作用の確認か？"
-          },
-          {
-            "stringId": 2212651785078894592,
-            "femaleVariant": "ま、せっかくだし企業様のモルモットになってやろうぜ。今夜少しやって、朝になったら報告書でも書いてやるか"
-          },
-          {
-            "stringId": 2212656220706369536,
-            "femaleVariant": "ハハ、いいね"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:25.1840183Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\conversation_street_new_scv_02.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "俺はコスチャに言ったんだ。レニングラードからは何も持ち出すなって。なのにあのバカ、ケツにヤクを詰め込んでるのがバレて、国境でパクられた",
+                    "maleVariant": null,
+                    "stringId": 2276535761930199056
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "子供心をわかってないわね。もう20年も父親に会ってないのよ。あんたを感心させたかったんでしょ",
+                    "maleVariant": null,
+                    "stringId": 2276535761930199068
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "感心ならしたさ。あまりのバカさ加減にな。やれやれ、代わりに仕事ができそうな奴を探さないとな…",
+                    "maleVariant": null,
+                    "stringId": 2276535761930199080
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2276535761930199056,
-            "femaleVariant": "俺はコスチャに言ったんだ。レニングラードからは何も持ち出すなって。なのにあのバカ、ケツにヤクを詰め込んでるのがバレて、国境でパクられた"
-          },
-          {
-            "stringId": 2276535761930199068,
-            "femaleVariant": "子供心をわかってないわね。もう20年も父親に会ってないのよ。あんたを感心させたかったんでしょ"
-          },
-          {
-            "stringId": 2276535761930199080,
-            "femaleVariant": "感心ならしたさ。あまりのバカさ加減にな。やれやれ、代わりに仕事ができそうな奴を探さないとな…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

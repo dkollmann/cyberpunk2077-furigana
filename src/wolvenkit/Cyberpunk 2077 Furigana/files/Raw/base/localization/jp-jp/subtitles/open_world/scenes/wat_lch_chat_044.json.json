@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.6869487Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wat_lch_chat_044.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ちょっと、ちょっと！ 押さないで！ まだたくさんあるから！",
+                    "maleVariant": null,
+                    "stringId": 2157398231664062464
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "工場から出荷されたばかりの新品だよ！",
+                    "maleVariant": null,
+                    "stringId": 2188221077044936704
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "昨日のコンボイからいただいたヤツだ！",
+                    "maleVariant": null,
+                    "stringId": 2188228720224452608
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2157398231664062464,
-            "femaleVariant": "ちょっと、ちょっと！ 押さないで！ まだたくさんあるから！"
-          },
-          {
-            "stringId": 2188221077044936704,
-            "femaleVariant": "工場から出荷されたばかりの新品だよ！"
-          },
-          {
-            "stringId": 2188228720224452608,
-            "femaleVariant": "昨日のコンボイからいただいたヤツだ！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

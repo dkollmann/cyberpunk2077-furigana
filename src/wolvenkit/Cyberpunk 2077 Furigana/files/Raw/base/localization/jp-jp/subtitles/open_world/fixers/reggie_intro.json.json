@@ -1,39 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:22.9851600Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\fixers\reggie_intro.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ああ、登録されてるから撃たれないよ。入って",
+                    "maleVariant": null,
+                    "stringId": 1795358798019854360
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "はい？ ああ、あなた。Vだっけ？",
+                    "maleVariant": null,
+                    "stringId": 1908455793905606656
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どうして知ってるの？",
+                    "maleVariant": "どうして知ってるんだ？",
+                    "stringId": 1908456223536553984
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "この町は思ってるより狭いのよ。とにかく入って",
+                    "maleVariant": null,
+                    "stringId": 1908456389127675904
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1795358798019854360,
-            "femaleVariant": "ああ、登録されてるから撃たれないよ。入って"
-          },
-          {
-            "stringId": 1908455793905606656,
-            "femaleVariant": "はい？ ああ、あなた。Vだっけ？"
-          },
-          {
-            "stringId": 1908456223536553984,
-            "femaleVariant": "どうして知ってるの？",
-            "maleVariant": "どうして知ってるんだ？"
-          },
-          {
-            "stringId": 1908456389127675904,
-            "femaleVariant": "この町は思ってるより狭いのよ。とにかく入って"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

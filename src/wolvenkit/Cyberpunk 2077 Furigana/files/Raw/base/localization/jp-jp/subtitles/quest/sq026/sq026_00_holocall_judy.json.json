@@ -1,40 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:39.7104318Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\quest\sq026\sq026_00_holocall_judy.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どうしたの、ジュディ？",
+                    "maleVariant": "どうした、ジュディ？",
+                    "stringId": 1309643443348160528
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "V… 今すぐ来てくれない？",
+                    "maleVariant": null,
+                    "stringId": 1693969595149303808
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ええ… とにかく来て…",
+                    "maleVariant": null,
+                    "stringId": 1803789305939451904
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何かあったの？",
+                    "maleVariant": "何かあったのか？",
+                    "stringId": 1803818003166093312
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1309643443348160528,
-            "femaleVariant": "どうしたの、ジュディ？",
-            "maleVariant": "どうした、ジュディ？"
-          },
-          {
-            "stringId": 1693969595149303808,
-            "femaleVariant": "V… 今すぐ来てくれない？"
-          },
-          {
-            "stringId": 1803789305939451904,
-            "femaleVariant": "ええ… とにかく来て…"
-          },
-          {
-            "stringId": 1803818003166093312,
-            "femaleVariant": "何かあったの？",
-            "maleVariant": "何かあったのか？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

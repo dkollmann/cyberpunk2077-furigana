@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:27.9753963Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\pac_wwd_chat_028.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ここで盗みでもやるか",
+                    "maleVariant": null,
+                    "stringId": 2179639140237828096
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "もう二度とこうやって座ったり、バカ言ったりできなくなった",
+                    "maleVariant": null,
+                    "stringId": 2211506859070910464
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "やってみろよ",
+                    "maleVariant": null,
+                    "stringId": 2212614971085484032
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "俺は本気だ。さっとカバンに詰め込んで、逃げる。後は道端かカブキで売り捌きゃいい",
+                    "maleVariant": null,
+                    "stringId": 2212615102333644800
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "へっ、前に同じことを考えたバカがいたっけな",
+                    "maleVariant": null,
+                    "stringId": 2212615823099621376
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "へえ？ そいつはどうなったんだ？",
+                    "maleVariant": null,
+                    "stringId": 2212616599129747456
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "知るかよ。そんなこと言ってたら、ずっとこのままだぞ",
+                    "maleVariant": null,
+                    "stringId": 2212617759341342720
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2179639140237828096,
-            "femaleVariant": "ここで盗みでもやるか"
-          },
-          {
-            "stringId": 2211506859070910464,
-            "femaleVariant": "もう二度とこうやって座ったり、バカ言ったりできなくなった"
-          },
-          {
-            "stringId": 2212614971085484032,
-            "femaleVariant": "やってみろよ"
-          },
-          {
-            "stringId": 2212615102333644800,
-            "femaleVariant": "俺は本気だ。さっとカバンに詰め込んで、逃げる。後は道端かカブキで売り捌きゃいい"
-          },
-          {
-            "stringId": 2212615823099621376,
-            "femaleVariant": "へっ、前に同じことを考えたバカがいたっけな"
-          },
-          {
-            "stringId": 2212616599129747456,
-            "femaleVariant": "へえ？ そいつはどうなったんだ？"
-          },
-          {
-            "stringId": 2212617759341342720,
-            "femaleVariant": "知るかよ。そんなこと言ってたら、ずっとこのままだぞ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,54 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:40.4336611Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\quest\yawen\yawen_packard_default.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "唐突だけど… 生体チップについて何か知ってる？ 特にアラサカの〈Relic〉とか",
+                    "maleVariant": "唐突だが… 生体チップについて何か知ってるか？ 特にアラサカの〈Relic〉とか",
+                    "stringId": 1987755068515913728
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あれは人間の神経記憶痕跡を保存するためのものよ。つまり、そうね… 記憶や人格をコピーするって思えばいい",
+                    "maleVariant": null,
+                    "stringId": 1987759630492602368
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "アラサカの〈Relic〉について何か知ってる？",
+                    "maleVariant": "アラサカの〈Relic〉について何か知ってるか？",
+                    "stringId": 1987799977012727812
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ええ、それは知ってる。なら保存された記憶痕跡が、チップ所有者の記憶痕跡を上書きしたらどうなるの？",
+                    "maleVariant": "ああ、それは知ってる。なら保存された記憶痕跡が、チップ所有者の記憶痕跡を上書きしたらどうなる？",
+                    "stringId": 2005649229918375936
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "“上書き”？ そんなことが可能なのかもわからないけど…",
+                    "maleVariant": null,
+                    "stringId": 2005649542360469504
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なぜ知りたいの？",
+                    "maleVariant": null,
+                    "stringId": 2005649745180233728
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いえ、別にいいの。気にしないで",
+                    "maleVariant": "いや、別にいいんだ。気にしないでくれ",
+                    "stringId": 2005649966488489984
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1987755068515913728,
-            "femaleVariant": "唐突だけど… 生体チップについて何か知ってる？ 特にアラサカの〈Relic〉とか",
-            "maleVariant": "唐突だが… 生体チップについて何か知ってるか？ 特にアラサカの〈Relic〉とか"
-          },
-          {
-            "stringId": 1987759630492602368,
-            "femaleVariant": "あれは人間の神経記憶痕跡を保存するためのものよ。つまり、そうね… 記憶や人格をコピーするって思えばいい"
-          },
-          {
-            "stringId": 1987799977012727812,
-            "femaleVariant": "アラサカの〈Relic〉について何か知ってる？",
-            "maleVariant": "アラサカの〈Relic〉について何か知ってるか？"
-          },
-          {
-            "stringId": 2005649229918375936,
-            "femaleVariant": "ええ、それは知ってる。なら保存された記憶痕跡が、チップ所有者の記憶痕跡を上書きしたらどうなるの？",
-            "maleVariant": "ああ、それは知ってる。なら保存された記憶痕跡が、チップ所有者の記憶痕跡を上書きしたらどうなる？"
-          },
-          {
-            "stringId": 2005649542360469504,
-            "femaleVariant": "“上書き”？ そんなことが可能なのかもわからないけど…"
-          },
-          {
-            "stringId": 2005649745180233728,
-            "femaleVariant": "なぜ知りたいの？"
-          },
-          {
-            "stringId": 2005649966488489984,
-            "femaleVariant": "いえ、別にいいの。気にしないで",
-            "maleVariant": "いや、別にいいんだ。気にしないでくれ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

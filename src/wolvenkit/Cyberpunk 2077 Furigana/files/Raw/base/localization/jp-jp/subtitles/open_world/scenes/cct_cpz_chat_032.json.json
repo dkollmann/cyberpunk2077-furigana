@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:24.1487978Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\cct_cpz_chat_032.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "とにかく、いちいち考えるな。何てことない",
+                    "maleVariant": null,
+                    "stringId": 2172137024292249600
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "でもバレたらどうするんだ？ 処分されるのは連中じゃない、俺たちなんだぞ",
+                    "maleVariant": null,
+                    "stringId": 2208353720441606144
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "だからバレないようにするんだろ",
+                    "maleVariant": null,
+                    "stringId": 2208363762360356864
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "でもコンテナ10個だぞ。書類も全部偽造だ。おまけに中身が何か知ってるか？ 企業エージェントの戦闘用装備だぞ",
+                    "maleVariant": null,
+                    "stringId": 2208364599878979584
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "大丈夫だ。金をもらったら、すべて忘れろ。何も知りませんでしたって、アホのフリをしてればいい",
+                    "maleVariant": null,
+                    "stringId": 2208366026630205440
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それに送り先を見たか？ 本当にヤバいって。俺たちみんな、消されるぞ",
+                    "maleVariant": null,
+                    "stringId": 2208372639286005760
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2172137024292249600,
-            "femaleVariant": "とにかく、いちいち考えるな。何てことない"
-          },
-          {
-            "stringId": 2208353720441606144,
-            "femaleVariant": "でもバレたらどうするんだ？ 処分されるのは連中じゃない、俺たちなんだぞ"
-          },
-          {
-            "stringId": 2208363762360356864,
-            "femaleVariant": "だからバレないようにするんだろ"
-          },
-          {
-            "stringId": 2208364599878979584,
-            "femaleVariant": "でもコンテナ10個だぞ。書類も全部偽造だ。おまけに中身が何か知ってるか？ 企業エージェントの戦闘用装備だぞ"
-          },
-          {
-            "stringId": 2208366026630205440,
-            "femaleVariant": "大丈夫だ。金をもらったら、すべて忘れろ。何も知りませんでしたって、アホのフリをしてればいい"
-          },
-          {
-            "stringId": 2208372639286005760,
-            "femaleVariant": "それに送り先を見たか？ 本当にヤバいって。俺たちみんな、消されるぞ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

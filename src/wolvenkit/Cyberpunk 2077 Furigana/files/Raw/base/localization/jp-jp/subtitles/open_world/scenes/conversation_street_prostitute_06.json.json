@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:25.5439627Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\conversation_street_prostitute_06.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あいつは？ 背が低めで、ガリガリの奴？",
+                    "maleVariant": null,
+                    "stringId": 1967944472204451840
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ダメよ。あの人、ドールのディーラーだから",
+                    "maleVariant": null,
+                    "stringId": 1967946245791064064
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "色仕掛けは効かない。もう試したもの",
+                    "maleVariant": null,
+                    "stringId": 1967946336253812736
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1967944472204451840,
-            "femaleVariant": "あいつは？ 背が低めで、ガリガリの奴？"
-          },
-          {
-            "stringId": 1967946245791064064,
-            "femaleVariant": "ダメよ。あの人、ドールのディーラーだから"
-          },
-          {
-            "stringId": 1967946336253812736,
-            "femaleVariant": "色仕掛けは効かない。もう試したもの"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

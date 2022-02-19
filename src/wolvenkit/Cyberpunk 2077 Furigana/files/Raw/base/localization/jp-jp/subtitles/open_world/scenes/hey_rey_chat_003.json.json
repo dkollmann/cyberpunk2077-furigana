@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:26.6330212Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\hey_rey_chat_003.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "う… 腕が… 腕がない！",
+                    "maleVariant": null,
+                    "stringId": 1833093299459186688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "スカベンジャー… 盗まれたんだ、寝てる間に。奴ら相手じゃ… 取り… 戻せない…",
+                    "maleVariant": null,
+                    "stringId": 1833095428773109760
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それどころか、殺されちゃうかも… どうしよう…！",
+                    "maleVariant": null,
+                    "stringId": 1833095623690805248
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "チューマ、腕はクスリ代を稼ぐために売ったんだろ？ 2ヶ月前くらいにそう言ってたぞ",
+                    "maleVariant": null,
+                    "stringId": 1833095790926094336
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ああ… そ、そうか",
+                    "maleVariant": null,
+                    "stringId": 1833095945897238528
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そん時に、新しいのを母親に買ってもらったって",
+                    "maleVariant": null,
+                    "stringId": 1964789105170300928
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1833093299459186688,
-            "femaleVariant": "う… 腕が… 腕がない！"
-          },
-          {
-            "stringId": 1833095428773109760,
-            "femaleVariant": "スカベンジャー… 盗まれたんだ、寝てる間に。奴ら相手じゃ… 取り… 戻せない…"
-          },
-          {
-            "stringId": 1833095623690805248,
-            "femaleVariant": "それどころか、殺されちゃうかも… どうしよう…！"
-          },
-          {
-            "stringId": 1833095790926094336,
-            "femaleVariant": "チューマ、腕はクスリ代を稼ぐために売ったんだろ？ 2ヶ月前くらいにそう言ってたぞ"
-          },
-          {
-            "stringId": 1833095945897238528,
-            "femaleVariant": "ああ… そ、そうか"
-          },
-          {
-            "stringId": 1964789105170300928,
-            "femaleVariant": "そん時に、新しいのを母親に買ってもらったって"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

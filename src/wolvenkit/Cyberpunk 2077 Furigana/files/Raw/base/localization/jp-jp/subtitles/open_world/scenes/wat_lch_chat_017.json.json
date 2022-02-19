@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.5255540Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wat_lch_chat_017.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "チューマ、店を間違えてないか？",
+                    "maleVariant": null,
+                    "stringId": 2156470782566625280
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なんだ？ 何か文句があんのか？",
+                    "maleVariant": null,
+                    "stringId": 2169341362129129472
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "落ち着け。ここは一見さんが気軽に入れる店じゃない",
+                    "maleVariant": null,
+                    "stringId": 2169341579779952640
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "な、中にチューマがいるんだ",
+                    "maleVariant": null,
+                    "stringId": 2169342614883848192
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ならそいつに迎えに来てもらえ。あっちで待つんだ。バカな真似はすんな、見張ってるぞ",
+                    "maleVariant": null,
+                    "stringId": 2169343314443423744
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2156470782566625280,
-            "femaleVariant": "チューマ、店を間違えてないか？"
-          },
-          {
-            "stringId": 2169341362129129472,
-            "femaleVariant": "なんだ？ 何か文句があんのか？"
-          },
-          {
-            "stringId": 2169341579779952640,
-            "femaleVariant": "落ち着け。ここは一見さんが気軽に入れる店じゃない"
-          },
-          {
-            "stringId": 2169342614883848192,
-            "femaleVariant": "な、中にチューマがいるんだ"
-          },
-          {
-            "stringId": 2169343314443423744,
-            "femaleVariant": "ならそいつに迎えに来てもらえ。あっちで待つんだ。バカな真似はすんな、見張ってるぞ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:21.2656322Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\media\animated_billboards\ab_ad_caliente.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "よう、海賊ども！",
+                    "maleVariant": null,
+                    "stringId": 1985310976908369920
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "キャプテン・カリエンテの世界的に有名なタコスが、な、な、な、なーんと、くじらサイズで登場だ！",
+                    "maleVariant": null,
+                    "stringId": 1993580195386544128
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1エディーでおいしさの大航海へ！",
+                    "maleVariant": null,
+                    "stringId": 1993581360916516864
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1985310976908369920,
-            "femaleVariant": "よう、海賊ども！"
-          },
-          {
-            "stringId": 1993580195386544128,
-            "femaleVariant": "キャプテン・カリエンテの世界的に有名なタコスが、な、な、な、なーんと、くじらサイズで登場だ！"
-          },
-          {
-            "stringId": 1993581360916516864,
-            "femaleVariant": "1エディーでおいしさの大航海へ！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

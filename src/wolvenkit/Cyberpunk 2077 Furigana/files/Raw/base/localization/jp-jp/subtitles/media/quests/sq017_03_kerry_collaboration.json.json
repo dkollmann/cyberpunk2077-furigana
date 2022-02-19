@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:22.5847529Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\media\quests\sq017_03_kerry_collaboration.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ウソでしょ、ファニータよ！ 今日のニュースはスーパーマックスヤバい！ ケリー… ユーロダインが… ステージに上がったんだって！ 本当だよ、みんな！",
+                    "maleVariant": null,
+                    "stringId": 1792269305569517568
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "しかも！ クールでキュートな〈Us Cracks〉とコラボしたんだ。彼女たちのカルト的ヒット曲『Off The Leash』に、すっごく斬新でワイルドなアレンジを加えてね！",
+                    "maleVariant": null,
+                    "stringId": 1802311699667861504
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "私は生で見て… もう、すっかり放心状態。すっごいエネルギーよ！ ケリー・ユーロダインがうつ状態なんて、根も葉もないただの噂だったね",
+                    "maleVariant": null,
+                    "stringId": 1802311927653449728
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ケリーとコラボした〈Us Cracks〉待望のニューシングル公開予定日は明日、深夜0時よ",
+                    "maleVariant": null,
+                    "stringId": 1802312161880162304
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "これ聞かないと友達なくすかも！ フー！ CMの後は… リンダ・オズが元恋人について口を開いたわ！",
+                    "maleVariant": null,
+                    "stringId": 1802312558090895360
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1792269305569517568,
-            "femaleVariant": "ウソでしょ、ファニータよ！ 今日のニュースはスーパーマックスヤバい！ ケリー… ユーロダインが… ステージに上がったんだって！ 本当だよ、みんな！"
-          },
-          {
-            "stringId": 1802311699667861504,
-            "femaleVariant": "しかも！ クールでキュートな〈Us Cracks〉とコラボしたんだ。彼女たちのカルト的ヒット曲『Off The Leash』に、すっごく斬新でワイルドなアレンジを加えてね！"
-          },
-          {
-            "stringId": 1802311927653449728,
-            "femaleVariant": "私は生で見て… もう、すっかり放心状態。すっごいエネルギーよ！ ケリー・ユーロダインがうつ状態なんて、根も葉もないただの噂だったね"
-          },
-          {
-            "stringId": 1802312161880162304,
-            "femaleVariant": "ケリーとコラボした〈Us Cracks〉待望のニューシングル公開予定日は明日、深夜0時よ"
-          },
-          {
-            "stringId": 1802312558090895360,
-            "femaleVariant": "これ聞かないと友達なくすかも！ フー！ CMの後は… リンダ・オズが元恋人について口を開いたわ！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

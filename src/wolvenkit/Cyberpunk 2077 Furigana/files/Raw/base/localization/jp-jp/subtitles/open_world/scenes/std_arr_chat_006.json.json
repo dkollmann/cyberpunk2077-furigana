@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:28.7407300Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\std_arr_chat_006.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "お願い、お兄ちゃん！ 一緒に連れてってってば！",
+                    "maleVariant": null,
+                    "stringId": 1963262113051877376
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "バカ言うな。お前みたいなチビにはまだ早い。ライフルだって5秒も持ってられないだろ",
+                    "maleVariant": null,
+                    "stringId": 1966497025691992064
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ピストルなら持てるもん！",
+                    "maleVariant": null,
+                    "stringId": 1966497183129387008
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "持てても、撃ったら反動で頭をかち割られる",
+                    "maleVariant": null,
+                    "stringId": 1966497338536738816
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "諦めろ。万が一お前に何かあったら、俺がお袋に殺されちまう。な？",
+                    "maleVariant": null,
+                    "stringId": 1966497499698675712
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "でもメイル… ストローの連中をやっつけたいの！",
+                    "maleVariant": null,
+                    "stringId": 1966497634386165760
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "俺だって、できればリズィー・ウィズィーにしゃぶってほしい。望みがすべて叶うわけじゃねえんだ",
+                    "maleVariant": null,
+                    "stringId": 1966497858261336064
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963262113051877376,
-            "femaleVariant": "お願い、お兄ちゃん！ 一緒に連れてってってば！"
-          },
-          {
-            "stringId": 1966497025691992064,
-            "femaleVariant": "バカ言うな。お前みたいなチビにはまだ早い。ライフルだって5秒も持ってられないだろ"
-          },
-          {
-            "stringId": 1966497183129387008,
-            "femaleVariant": "ピストルなら持てるもん！"
-          },
-          {
-            "stringId": 1966497338536738816,
-            "femaleVariant": "持てても、撃ったら反動で頭をかち割られる"
-          },
-          {
-            "stringId": 1966497499698675712,
-            "femaleVariant": "諦めろ。万が一お前に何かあったら、俺がお袋に殺されちまう。な？"
-          },
-          {
-            "stringId": 1966497634386165760,
-            "femaleVariant": "でもメイル… ストローの連中をやっつけたいの！"
-          },
-          {
-            "stringId": 1966497858261336064,
-            "femaleVariant": "俺だって、できればリズィー・ウィズィーにしゃぶってほしい。望みがすべて叶うわけじゃねえんだ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

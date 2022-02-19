@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:24.5336371Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\conversation_corpo_high_corpo_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あいつボーナスで家を買うんだって",
+                    "maleVariant": null,
+                    "stringId": 1969289166737940480
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "君もたっぷりもらったんだろ",
+                    "maleVariant": null,
+                    "stringId": 1969293611525775360
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そうだけど。あいつより仕事してるんだからもっと貰えると思ったのよ",
+                    "maleVariant": null,
+                    "stringId": 1969293865214058496
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1969289166737940480,
-            "femaleVariant": "あいつボーナスで家を買うんだって"
-          },
-          {
-            "stringId": 1969293611525775360,
-            "femaleVariant": "君もたっぷりもらったんだろ"
-          },
-          {
-            "stringId": 1969293865214058496,
-            "femaleVariant": "そうだけど。あいつより仕事してるんだからもっと貰えると思ったのよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

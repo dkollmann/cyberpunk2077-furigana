@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.5606627Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wat_lch_chat_023.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "嫌な予感がする。どうしてまだ来ないの？ 何も問題ないって言ってたのに",
+                    "maleVariant": null,
+                    "stringId": 2156520533437739008
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "落ち着け。トラブルがあったなら、俺たちは今ここにいない",
+                    "maleVariant": null,
+                    "stringId": 2172367324411838464
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それにあいつは優秀だ。例の役員のクズを仕留めた女だぞ？",
+                    "maleVariant": null,
+                    "stringId": 2172367493761056768
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "誰を仕留めようが関係ない。もしブラウンがこのことを嗅ぎつけたら…",
+                    "maleVariant": null,
+                    "stringId": 2172367622089981952
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "証拠はないんだ。言わせておけばいい",
+                    "maleVariant": null,
+                    "stringId": 2172367788234752000
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "彼女が捕まったら別よ",
+                    "maleVariant": null,
+                    "stringId": 2172367899115372544
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "捕まったって何も喋らないさ。秘密を守れない傭兵はやってけない",
+                    "maleVariant": null,
+                    "stringId": 2172368028232826880
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2156520533437739008,
-            "femaleVariant": "嫌な予感がする。どうしてまだ来ないの？ 何も問題ないって言ってたのに"
-          },
-          {
-            "stringId": 2172367324411838464,
-            "femaleVariant": "落ち着け。トラブルがあったなら、俺たちは今ここにいない"
-          },
-          {
-            "stringId": 2172367493761056768,
-            "femaleVariant": "それにあいつは優秀だ。例の役員のクズを仕留めた女だぞ？"
-          },
-          {
-            "stringId": 2172367622089981952,
-            "femaleVariant": "誰を仕留めようが関係ない。もしブラウンがこのことを嗅ぎつけたら…"
-          },
-          {
-            "stringId": 2172367788234752000,
-            "femaleVariant": "証拠はないんだ。言わせておけばいい"
-          },
-          {
-            "stringId": 2172367899115372544,
-            "femaleVariant": "彼女が捕まったら別よ"
-          },
-          {
-            "stringId": 2172368028232826880,
-            "femaleVariant": "捕まったって何も喋らないさ。秘密を守れない傭兵はやってけない"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,49 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:33.1693969Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\vendors\wat_kab_clothingshop_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "似合う服を探してる",
+                    "maleVariant": null,
+                    "stringId": 1914297443719860224
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ギャングが服を売ってるの？",
+                    "maleVariant": "ギャングが服を売ってるのか？",
+                    "stringId": 1914297443719860240
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あたしが着れそうな服はある？",
+                    "maleVariant": "俺が着れそうな服はあるか？",
+                    "stringId": 1914297443753414656
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "とにかく安いほうがいいってんなら、満足できるぞ",
+                    "maleVariant": null,
+                    "stringId": 1914297443753414664
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それタイガークロウズのタトゥーでしょ？ アパレル業も始めたの？",
+                    "maleVariant": "それタイガークロウズのタトゥーだろ？ アパレル業も始めたのか？",
+                    "stringId": 1914297443770191876
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "背骨をやられたチューマに用はないと追い出されたから、個人でやってんだ",
+                    "maleVariant": null,
+                    "stringId": 1914297443770191884
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1914297443719860224,
-            "femaleVariant": "似合う服を探してる"
-          },
-          {
-            "stringId": 1914297443719860240,
-            "femaleVariant": "ギャングが服を売ってるの？",
-            "maleVariant": "ギャングが服を売ってるのか？"
-          },
-          {
-            "stringId": 1914297443753414656,
-            "femaleVariant": "あたしが着れそうな服はある？",
-            "maleVariant": "俺が着れそうな服はあるか？"
-          },
-          {
-            "stringId": 1914297443753414664,
-            "femaleVariant": "とにかく安いほうがいいってんなら、満足できるぞ"
-          },
-          {
-            "stringId": 1914297443770191876,
-            "femaleVariant": "それタイガークロウズのタトゥーでしょ？ アパレル業も始めたの？",
-            "maleVariant": "それタイガークロウズのタトゥーだろ？ アパレル業も始めたのか？"
-          },
-          {
-            "stringId": 1914297443770191884,
-            "femaleVariant": "背骨をやられたチューマに用はないと追い出されたから、個人でやってんだ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

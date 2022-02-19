@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:22.8367828Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\community\e3_q110_pauring_slops_chat.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "大丈夫、心配しすぎちゃダメ",
+                    "maleVariant": null,
+                    "stringId": 1711243633252421632
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="creo" o="Fasil pou ou di. Ou pa gen timoun?" t="子供がいないから簡単に 言えるのよ" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 1711246747707691008
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "アドバイスくらいしても いいでしょ？ ね？",
+                    "maleVariant": null,
+                    "stringId": 1711246917023354880
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="creo" o="Kisa...?" t="え…？" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 1711247050989424640
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1711243633252421632,
-            "femaleVariant": "大丈夫、心配しすぎちゃダメ"
-          },
-          {
-            "stringId": 1711246747707691008,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Fasil pou ou di. Ou pa gen timoun?\" t=\"子供がいないから簡単に 言えるのよ\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 1711246917023354880,
-            "femaleVariant": "アドバイスくらいしても いいでしょ？ ね？"
-          },
-          {
-            "stringId": 1711247050989424640,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Kisa...?\" t=\"え…？\" b=\"\" a=\"\"/>"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

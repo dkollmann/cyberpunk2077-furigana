@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:25.2103836Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\conversation_street_new_scv_06.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あの家のことが頭から離れない。あそこの廊下も。暗闇の中で響く不気味な声、空気もひんやりしてて…",
+                    "maleVariant": null,
+                    "stringId": 2276536542439841808
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="rus" o="Всё в этой стране не слава богу. Даже архитектура." t="この国は何もかもめちゃくちゃだな。建物までイカれてる" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 2276536542439841820
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あの廊下は存在するはずじゃなかったんだ！ 見取り図にもなかった！ まさか… 本当に幽霊屋敷だったわけ…？",
+                    "maleVariant": null,
+                    "stringId": 2276536542439841832
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2276536542439841808,
-            "femaleVariant": "あの家のことが頭から離れない。あそこの廊下も。暗闇の中で響く不気味な声、空気もひんやりしてて…"
-          },
-          {
-            "stringId": 2276536542439841820,
-            "femaleVariant": "<kiroshi l=\"rus\" o=\"Всё в этой стране не слава богу. Даже архитектура.\" t=\"この国は何もかもめちゃくちゃだな。建物までイカれてる\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 2276536542439841832,
-            "femaleVariant": "あの廊下は存在するはずじゃなかったんだ！ 見取り図にもなかった！ まさか… 本当に幽霊屋敷だったわけ…？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

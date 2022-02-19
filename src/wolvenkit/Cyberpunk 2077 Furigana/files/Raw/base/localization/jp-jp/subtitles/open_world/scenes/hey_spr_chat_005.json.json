@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:26.7991109Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\hey_spr_chat_005.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "『電気仕掛けの殺人者』――傑作よ！ 途中までは、ずっと何が起きてるかわかんなかったんだけど…",
+                    "maleVariant": null,
+                    "stringId": 1831685761031331840
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "…最後に、ああなるほどって！ すべてを理解した",
+                    "maleVariant": null,
+                    "stringId": 1831687367449763840
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "主役の女の子は目が古いモデルだったでしょ？ あれ、ハックされてたのよ！",
+                    "maleVariant": null,
+                    "stringId": 1831687527269523456
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ホラーとSFが絶妙なバランスで融合された感じ！",
+                    "maleVariant": null,
+                    "stringId": 1831687823622266880
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "死体なんて最初から無かったわけ！ ネットランナーが偽の映像を流しこんでたの！",
+                    "maleVariant": null,
+                    "stringId": 1831687973291810816
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ストレスを与え続けて、自殺に追い込んだのよ",
+                    "maleVariant": null,
+                    "stringId": 1965082878785863680
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "とにかく、クロームは新しくしておかないと。彼女みたいになりかねないもんね、アハハハ！",
+                    "maleVariant": null,
+                    "stringId": 1965083077059002368
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1831685761031331840,
-            "femaleVariant": "『電気仕掛けの殺人者』――傑作よ！ 途中までは、ずっと何が起きてるかわかんなかったんだけど…"
-          },
-          {
-            "stringId": 1831687367449763840,
-            "femaleVariant": "…最後に、ああなるほどって！ すべてを理解した"
-          },
-          {
-            "stringId": 1831687527269523456,
-            "femaleVariant": "主役の女の子は目が古いモデルだったでしょ？ あれ、ハックされてたのよ！"
-          },
-          {
-            "stringId": 1831687823622266880,
-            "femaleVariant": "ホラーとSFが絶妙なバランスで融合された感じ！"
-          },
-          {
-            "stringId": 1831687973291810816,
-            "femaleVariant": "死体なんて最初から無かったわけ！ ネットランナーが偽の映像を流しこんでたの！"
-          },
-          {
-            "stringId": 1965082878785863680,
-            "femaleVariant": "ストレスを与え続けて、自殺に追い込んだのよ"
-          },
-          {
-            "stringId": 1965083077059002368,
-            "femaleVariant": "とにかく、クロームは新しくしておかないと。彼女みたいになりかねないもんね、アハハハ！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

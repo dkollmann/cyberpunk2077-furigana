@@ -1,48 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:31.0311748Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\street_stories\sts_hey_rey_06_gangers.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何が悲しくて一日中死体といなきゃならねえんだ",
+                    "maleVariant": null,
+                    "stringId": 1202609158318841872
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "文句言うな。生きてるだけで儲けもんだぞ",
+                    "maleVariant": null,
+                    "stringId": 1327023799124701184
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "この扉はどうしたの？",
+                    "maleVariant": "この扉はどうしたんだ？",
+                    "stringId": 1711172327654371332
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ねえ、この扉、どうしたの？",
+                    "maleVariant": "なあ、この扉、どうしたんだ？",
+                    "stringId": 1711172422747631616
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どうもしねえよ。いいから触んじゃねえ",
+                    "maleVariant": null,
+                    "stringId": 1711175577786986496
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ここをどこだと思ってんだ…",
+                    "maleVariant": null,
+                    "stringId": 1904095919604027392
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1202609158318841872,
-            "femaleVariant": "何が悲しくて一日中死体といなきゃならねえんだ"
-          },
-          {
-            "stringId": 1327023799124701184,
-            "femaleVariant": "文句言うな。生きてるだけで儲けもんだぞ"
-          },
-          {
-            "stringId": 1711172327654371332,
-            "femaleVariant": "この扉はどうしたの？",
-            "maleVariant": "この扉はどうしたんだ？"
-          },
-          {
-            "stringId": 1711172422747631616,
-            "femaleVariant": "ねえ、この扉、どうしたの？",
-            "maleVariant": "なあ、この扉、どうしたんだ？"
-          },
-          {
-            "stringId": 1711175577786986496,
-            "femaleVariant": "どうもしねえよ。いいから触んじゃねえ"
-          },
-          {
-            "stringId": 1904095919604027392,
-            "femaleVariant": "ここをどこだと思ってんだ…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

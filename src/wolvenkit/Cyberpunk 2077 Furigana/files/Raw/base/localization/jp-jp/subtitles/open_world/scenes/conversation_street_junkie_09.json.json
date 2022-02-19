@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:24.9637550Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\conversation_street_junkie_09.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あんた、死んだんじゃ…",
+                    "maleVariant": null,
+                    "stringId": 1967717116785238016
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "は？ 誰がそんなこと言ってたんだ？",
+                    "maleVariant": null,
+                    "stringId": 1967718942465105920
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "え… まあ、いいじゃない",
+                    "maleVariant": null,
+                    "stringId": 1967719069971947520
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1967717116785238016,
-            "femaleVariant": "あんた、死んだんじゃ…"
-          },
-          {
-            "stringId": 1967718942465105920,
-            "femaleVariant": "は？ 誰がそんなこと言ってたんだ？"
-          },
-          {
-            "stringId": 1967719069971947520,
-            "femaleVariant": "え… まあ、いいじゃない"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

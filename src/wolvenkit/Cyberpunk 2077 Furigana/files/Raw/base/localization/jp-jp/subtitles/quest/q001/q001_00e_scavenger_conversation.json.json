@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:36.7152265Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\quest\q001\q001_00e_scavenger_conversation.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何人手に入った？",
+                    "maleVariant": null,
+                    "stringId": 1224324816753926144
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あとは企業のクソアマだが…",
+                    "maleVariant": null,
+                    "stringId": 1224327257369092096
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4人だ。2人はC級品しか持ってなかったが、ワトソンでなら売れる",
+                    "maleVariant": null,
+                    "stringId": 1224353996222287872
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1人はクリニックでブースターを剥いでる",
+                    "maleVariant": null,
+                    "stringId": 1224355326319972352
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "丸ごと買ってくれる奴を探せ",
+                    "maleVariant": null,
+                    "stringId": 1224356847661142016
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あの高級クロームは高く売れるぞ",
+                    "maleVariant": null,
+                    "stringId": 1224358489513054208
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1224324816753926144,
-            "femaleVariant": "何人手に入った？"
-          },
-          {
-            "stringId": 1224327257369092096,
-            "femaleVariant": "あとは企業のクソアマだが…"
-          },
-          {
-            "stringId": 1224353996222287872,
-            "femaleVariant": "4人だ。2人はC級品しか持ってなかったが、ワトソンでなら売れる"
-          },
-          {
-            "stringId": 1224355326319972352,
-            "femaleVariant": "1人はクリニックでブースターを剥いでる"
-          },
-          {
-            "stringId": 1224356847661142016,
-            "femaleVariant": "丸ごと買ってくれる奴を探せ"
-          },
-          {
-            "stringId": 1224358489513054208,
-            "femaleVariant": "あの高級クロームは高く売れるぞ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

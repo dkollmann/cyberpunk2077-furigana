@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.8901800Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wbr_hill_chat_004.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いつも言ってるだろ？ リスクを恐れてたら何も成し遂げられないって",
+                    "maleVariant": null,
+                    "stringId": 1806742988473884672
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "うん、そうね。ねえ、明日姉さんのとこに行かない？",
+                    "maleVariant": null,
+                    "stringId": 1806743579317100544
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "やっぱ俺、向いてんだな。今日はショートで、17%の利益だぞ",
+                    "maleVariant": null,
+                    "stringId": 1806743791163006976
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "やっぱいい。私1人で行くから",
+                    "maleVariant": null,
+                    "stringId": 1806744038056517632
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ん？ ああ、そうしろよ。俺は忙しいし。メシはどうだ？",
+                    "maleVariant": null,
+                    "stringId": 1806744357058502656
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "はあ…",
+                    "maleVariant": null,
+                    "stringId": 1806744877689069568
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "何だよ？",
+                    "maleVariant": null,
+                    "stringId": 1806745086649294848
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "別に",
+                    "maleVariant": null,
+                    "stringId": 1806745318090989568
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1806742988473884672,
-            "femaleVariant": "いつも言ってるだろ？ リスクを恐れてたら何も成し遂げられないって"
-          },
-          {
-            "stringId": 1806743579317100544,
-            "femaleVariant": "うん、そうね。ねえ、明日姉さんのとこに行かない？"
-          },
-          {
-            "stringId": 1806743791163006976,
-            "femaleVariant": "やっぱ俺、向いてんだな。今日はショートで、17%の利益だぞ"
-          },
-          {
-            "stringId": 1806744038056517632,
-            "femaleVariant": "やっぱいい。私1人で行くから"
-          },
-          {
-            "stringId": 1806744357058502656,
-            "femaleVariant": "ん？ ああ、そうしろよ。俺は忙しいし。メシはどうだ？"
-          },
-          {
-            "stringId": 1806744877689069568,
-            "femaleVariant": "はあ…"
-          },
-          {
-            "stringId": 1806745086649294848,
-            "femaleVariant": "何だよ？"
-          },
-          {
-            "stringId": 1806745318090989568,
-            "femaleVariant": "別に"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

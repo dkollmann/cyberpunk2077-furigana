@@ -1,44 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:31.2941703Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\street_stories\sts_pac_wwd_05_fluff.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ローガンを探してる",
+                    "maleVariant": null,
+                    "stringId": 1654945466095738884
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ローガンはどこ？ デートに行くの",
+                    "maleVariant": "ローガンはどこだ？ 待ち合わせなんだ",
+                    "stringId": 1654946518245285888
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "へえ？ ディナーをすっ飛ばしてヤりに来たのか？",
+                    "maleVariant": null,
+                    "stringId": 1654946808273018880
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あんたに関係ないでしょ。で、どこなの？",
+                    "maleVariant": "お前には関係ないだろ。で、どこなんだ？",
+                    "stringId": 1654947294258634752
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "たぶん上の階だ… だが、邪魔するなって言われてる。俺なら下で待ってるけどな",
+                    "maleVariant": null,
+                    "stringId": 1654948561039106048
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1654945466095738884,
-            "femaleVariant": "ローガンを探してる"
-          },
-          {
-            "stringId": 1654946518245285888,
-            "femaleVariant": "ローガンはどこ？ デートに行くの",
-            "maleVariant": "ローガンはどこだ？ 待ち合わせなんだ"
-          },
-          {
-            "stringId": 1654946808273018880,
-            "femaleVariant": "へえ？ ディナーをすっ飛ばしてヤりに来たのか？"
-          },
-          {
-            "stringId": 1654947294258634752,
-            "femaleVariant": "あんたに関係ないでしょ。で、どこなの？",
-            "maleVariant": "お前には関係ないだろ。で、どこなんだ？"
-          },
-          {
-            "stringId": 1654948561039106048,
-            "femaleVariant": "たぶん上の階だ… だが、邪魔するなって言われてる。俺なら下で待ってるけどな"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

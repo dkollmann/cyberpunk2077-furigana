@@ -1,501 +1,974 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:36.6812546Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\quest\q000\q000_vr_tutorial.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ターゲットの女はこの建物のどこかにいる",
+                    "maleVariant": null,
+                    "stringId": 2176775298639482880
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "誘拐した連中と出くわすかもしれねえ。中に入ったら警戒を怠るなよ",
+                    "maleVariant": null,
+                    "stringId": 2177740629902118912
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "おっと、その前に… ミリテクの訓練用チップを手に入れたんだ。ほら、プロフェッショナルだって本番前にはリハーサルをするもんだろ？",
+                    "maleVariant": null,
+                    "stringId": 2177740962896302080
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "仮想訓練ってヤツだ。やってみるか？",
+                    "maleVariant": null,
+                    "stringId": 2177742396207419392
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[チュートリアル] ウォームアップにちょうどいい",
+                    "maleVariant": null,
+                    "stringId": 2177742921837596676
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[チュートリアルスキップ] そんな時間はない",
+                    "maleVariant": null,
+                    "stringId": 2177743165795094528
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ええ、試してみる",
+                    "maleVariant": "ああ、試してみよう",
+                    "stringId": 2177747385013260288
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "今はそんな時間ないでしょ。後でね",
+                    "maleVariant": "今はそんな時間ないだろ。後でな",
+                    "stringId": 2177747944868958212
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ま、それもそうだな、じゃまた今度ってことで",
+                    "maleVariant": null,
+                    "stringId": 2177749220306472960
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[降りる] 行きましょ",
+                    "maleVariant": "[降りる] 行くぞ",
+                    "stringId": 2177781685226065924
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "この訓練プログラムは諸君が戦闘の基礎を身につけ、反射能力を磨くために設計されている",
+                    "maleVariant": null,
+                    "stringId": 2177970876203421700
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ここで学ぶスキルは、戦場で生き延び、さらには活躍するのに役立つだろう",
+                    "maleVariant": null,
+                    "stringId": 2177970876220198916
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "諸君には効果的な武器の使い方、ステルス戦術の活用法、敵ネットワークへのハッキングを学んでもらう",
+                    "maleVariant": null,
+                    "stringId": 2177970876220198924
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なぜならミリテクでは――",
+                    "maleVariant": null,
+                    "stringId": 2177970876220198932
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[訓練を開始する]",
+                    "maleVariant": null,
+                    "stringId": 2177982518987345924
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[訓練を開始する]",
+                    "maleVariant": null,
+                    "stringId": 2178031462723375104
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[訓練を開始する]",
+                    "maleVariant": null,
+                    "stringId": 2178031583066345472
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[訓練を開始する]",
+                    "maleVariant": null,
+                    "stringId": 2178031673797529600
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[訓練を終了する]",
+                    "maleVariant": null,
+                    "stringId": 2178045408817729536
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どうだ、役に立ちそうだろ？",
+                    "maleVariant": null,
+                    "stringId": 2178060801443647488
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "じゃあいよいよ本番といくか",
+                    "maleVariant": null,
+                    "stringId": 2178061842587340800
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "よし、じゃあ今回は… ステルス技術の訓練ね",
+                    "maleVariant": null,
+                    "stringId": 2178080907997499396
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "射撃訓練プログラムを始めるわ。まずは、軽いウォームアップから",
+                    "maleVariant": null,
+                    "stringId": 2178082332114702344
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "この訓練モジュールでは、戦闘におけるテックツールの使い方を、実戦に近い形式で学んでもらうわ",
+                    "maleVariant": null,
+                    "stringId": 2178092310196146184
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "じゃあ次はいよいよ近接戦闘ね",
+                    "maleVariant": null,
+                    "stringId": 2178103929609408520
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "これで全ての訓練が終了よ。本当ならハイタッチしてるところね",
+                    "maleVariant": null,
+                    "stringId": 2178136391022563328
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なかなか上出来よ",
+                    "maleVariant": null,
+                    "stringId": 2178137337509203972
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "エレベーター、こっちだ",
+                    "maleVariant": null,
+                    "stringId": 2178283216778055680
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "大丈夫。もう一度よ",
+                    "maleVariant": null,
+                    "stringId": 2179250097248817152
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あー、惜しかったわね。もう一度初めから",
+                    "maleVariant": null,
+                    "stringId": 2179250921513439236
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "集中して",
+                    "maleVariant": null,
+                    "stringId": 2179251052811931652
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あなたならできるって",
+                    "maleVariant": null,
+                    "stringId": 2179251161612177412
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "悪くないわ。でも実際の相手は撃ち返してくることを忘れずに",
+                    "maleVariant": null,
+                    "stringId": 2186400182759870464
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "今度はお友達を連れてきたみたいね。さあ、腕の見せどころよ",
+                    "maleVariant": null,
+                    "stringId": 2186401634223935492
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "今度はリアルタイムで敵をハックしてもらうわよ",
+                    "maleVariant": null,
+                    "stringId": 2186406688041488388
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "これまで学んだことを実践してみて",
+                    "maleVariant": null,
+                    "stringId": 2186417174657126404
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "次は近接武器よ。剣を取って",
+                    "maleVariant": null,
+                    "stringId": 2186417341271658500
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[訓練を終了する]",
+                    "maleVariant": null,
+                    "stringId": 2186422589923020800
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[訓練を終了する]",
+                    "maleVariant": null,
+                    "stringId": 2186422696458342400
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[訓練を終了する]",
+                    "maleVariant": null,
+                    "stringId": 2186422749273018368
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ミリテク？ それって極秘の軍用テックでしょ？ どうやって手に入れたの？",
+                    "maleVariant": "ミリテク？ それって極秘の軍用テックだろ？ どうやって手に入れたんだ？",
+                    "stringId": 2192518938878734336
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "T-バグだよ。おまけに中身も調整してあるそうだ",
+                    "maleVariant": null,
+                    "stringId": 2192523864266698752
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どこで手に入れたの？",
+                    "maleVariant": "どこで手に入れたんだ？",
+                    "stringId": 2192525505967616000
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "調整って、具体的には？",
+                    "maleVariant": null,
+                    "stringId": 2192574062334504960
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なんでも、“スタイル”が気に食わないんだと。まあ、実際にやってみりゃすぐにわかる",
+                    "maleVariant": null,
+                    "stringId": 2192574119410593792
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "V？",
+                    "maleVariant": null,
+                    "stringId": 2198446477823139840
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "まずは基本の戦闘訓練からだ。なお、このセッション内容は記録され、後の評価に使用される",
+                    "maleVariant": null,
+                    "stringId": 2201293108845498396
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "おまけに上級向けの戦闘技術よ。それが済んだら今回は終了",
+                    "maleVariant": null,
+                    "stringId": 2207017315545927680
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "お次はハッキング訓練。コース内容に少し手を加えてみたからお楽しみに",
+                    "maleVariant": null,
+                    "stringId": 2207018368903434244
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "その調子よ。そろそろ射撃訓練に移りましょうか",
+                    "maleVariant": null,
+                    "stringId": 2207019732303892488
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "これでそいつを見失うことはない。じゃあ訓練エリアに走って移動して。ほら！",
+                    "maleVariant": null,
+                    "stringId": 2207022374178541568
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "下の階の敵に、キロシでタグを付けて",
+                    "maleVariant": null,
+                    "stringId": 2207024242808082440
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "早く身を隠して！",
+                    "maleVariant": null,
+                    "stringId": 2207026081859391488
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "OK。次は出口に向かって。見つからないよう、ゆっくりと",
+                    "maleVariant": null,
+                    "stringId": 2207027410044473352
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "上出来よ。じゃあ次のエリアね",
+                    "maleVariant": null,
+                    "stringId": 2207029266711859208
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "もう一度、次はカメラにも気をつけて",
+                    "maleVariant": null,
+                    "stringId": 2207033273463361544
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "うん、さすがの腕前ね",
+                    "maleVariant": null,
+                    "stringId": 2207072823199944704
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "撃たれたら、リアニメーターを使って手当てして",
+                    "maleVariant": null,
+                    "stringId": 2207078813119041544
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ぼーっとしてないで、身を隠して！",
+                    "maleVariant": null,
+                    "stringId": 2207080084026707968
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "見て、3体のターゲットを用意したわ",
+                    "maleVariant": null,
+                    "stringId": 2207105771437576200
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ターゲットが見える？ 頑張ってね",
+                    "maleVariant": null,
+                    "stringId": 2207122486041006088
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "後ろにある画面をハックして、敵の注意を引いて",
+                    "maleVariant": null,
+                    "stringId": 2207130653424635904
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "OK！ じゃあそいつを静かに倒して",
+                    "maleVariant": null,
+                    "stringId": 2207131731461427204
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "上出来よ。あとはそいつを倒すだけ",
+                    "maleVariant": null,
+                    "stringId": 2207132875868885000
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "現場に痕跡を残さないのがプロの鉄則",
+                    "maleVariant": null,
+                    "stringId": 2207134700676337672
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "敵を運んで、どこかに隠すのよ",
+                    "maleVariant": null,
+                    "stringId": 2207136117327679488
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いいじゃない。じゃあ次は、そいつを素早く倒して",
+                    "maleVariant": null,
+                    "stringId": 2207136437839613960
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "まだよ…",
+                    "maleVariant": null,
+                    "stringId": 2207137745858482184
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "よし。グレネードを起爆して",
+                    "maleVariant": null,
+                    "stringId": 2207139201936281608
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1人をハッキングして、もう片方の注意を引いてみて",
+                    "maleVariant": null,
+                    "stringId": 2207175498486796300
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "よし、そこまで",
+                    "maleVariant": null,
+                    "stringId": 2207186615187558400
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "次はVの体格に見合った相手を用意してみようか",
+                    "maleVariant": null,
+                    "stringId": 2207187476831817728
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ミリテクのプログラムは穴だらけね",
+                    "maleVariant": null,
+                    "stringId": 2208504118803189760
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いい感じね",
+                    "maleVariant": null,
+                    "stringId": 2209917733972234240
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "プラットフォームの上に立って、終了して",
+                    "maleVariant": null,
+                    "stringId": 2209918395665633280
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "やるじゃない、V",
+                    "maleVariant": null,
+                    "stringId": 2209959311889682444
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "プラットフォームに立って。次へ行きましょ",
+                    "maleVariant": null,
+                    "stringId": 2209959311889682452
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "余計なことは考えず、命令に従えば結果が出る。ミリテク式も悪くないでしょ？",
+                    "maleVariant": null,
+                    "stringId": 2210014736832024588
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "まあ、私のおかげなのは事実だけどね。さあ、次に行きましょ",
+                    "maleVariant": null,
+                    "stringId": 2210014736832024596
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いい調子よ。ずいぶん慣れてきたみたいね",
+                    "maleVariant": null,
+                    "stringId": 2210062262138327044
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "プラットフォームに乗って",
+                    "maleVariant": null,
+                    "stringId": 2210062262138327052
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "でもこの戦闘訓練自体は役に立ちそう",
+                    "maleVariant": null,
+                    "stringId": 2211420454714425344
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "じゃあ少しハードルを上げましょうか",
+                    "maleVariant": null,
+                    "stringId": 2211450293865496576
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "準備ができたら訓練エリアに進んで",
+                    "maleVariant": null,
+                    "stringId": 2211456124686254080
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それが死体の場合は特にね",
+                    "maleVariant": null,
+                    "stringId": 2211489674823286784
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "敵を無力化して… 手強いから、気をつけるのよ",
+                    "maleVariant": null,
+                    "stringId": 2211508992982204416
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "大げさな言い方をしたけど、要はハッキングよ",
+                    "maleVariant": null,
+                    "stringId": 2211522364121366528
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "サプライズが好きだといいわね",
+                    "maleVariant": null,
+                    "stringId": 2212888581692276736
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "頑張ってね",
+                    "maleVariant": null,
+                    "stringId": 2212901869985546240
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "では… 新兵、1番ステーションへ向かえ！ どうした、さっさと進め！",
+                    "maleVariant": null,
+                    "stringId": 2212909701120212992
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "これならきっとジャッキーも文句を言わないでしょ",
+                    "maleVariant": null,
+                    "stringId": 2212910880642383872
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "よし、行きましょ",
+                    "maleVariant": "よし、行くぞ",
+                    "stringId": 2220078820234612736
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なにグズグズしてるの",
+                    "maleVariant": null,
+                    "stringId": 2221229947252625408
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どうしたの、V？",
+                    "maleVariant": null,
+                    "stringId": 2221230212164866052
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "コーポなんかより… こっちの方がイケてるでしょ？",
+                    "maleVariant": null,
+                    "stringId": 2221231508875890688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "まずまずね。ミリテク式の訓練はあなたに合ってるんじゃない？",
+                    "maleVariant": null,
+                    "stringId": 2221232700997750784
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "フィクサーからアドバイスは？",
+                    "maleVariant": null,
+                    "stringId": 2221233474528071680
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ワカコから何かアドバイスはあった？",
+                    "maleVariant": "ワカコから何かアドバイスはあったか？",
+                    "stringId": 2221233657282285568
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "「うちはあんたのおかんやない。簡単な仕事や。指示通りやったらええ」だとさ",
+                    "maleVariant": null,
+                    "stringId": 2221413786751168512
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "でも忘れないで。ストリートにはヒントもやり直しもないからね",
+                    "maleVariant": null,
+                    "stringId": 2221433502462996480
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "じゃあね、V",
+                    "maleVariant": null,
+                    "stringId": 2221434865829900288
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "スパルタ式に鍛えていくから、覚悟するのよ",
+                    "maleVariant": null,
+                    "stringId": 2231807161551646720
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なに突っ立ってるの？ ミリテクの新米兵士じゃないんだから",
+                    "maleVariant": null,
+                    "stringId": 2231811100489641984
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "時間の無駄よ。ペースを上げて",
+                    "maleVariant": null,
+                    "stringId": 2231958851626037248
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "V、早く手当をして",
+                    "maleVariant": null,
+                    "stringId": 2231960072906698752
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ステルスよ、ステルス。忍者のBDは見たことあるでしょ？ あんな感じ",
+                    "maleVariant": null,
+                    "stringId": 2232102595943821312
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ねえ、どうしたの？ 瞑想シミュレーションをロードした覚えはないんだけど",
+                    "maleVariant": null,
+                    "stringId": 2232105567339769856
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "早く隠れて！",
+                    "maleVariant": null,
+                    "stringId": 2232108289124298752
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "V、散歩は済んだ？",
+                    "maleVariant": null,
+                    "stringId": 2232109598250463232
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "早く訓練に戻って",
+                    "maleVariant": null,
+                    "stringId": 2232111319894814720
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "次は防御。攻撃よりつまらないけど、重要な要素だから",
+                    "maleVariant": null,
+                    "stringId": 2239203123920916480
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "相手は攻撃の後に毎回バランスを崩してる。その隙を狙って、カウンターを食らわせて",
+                    "maleVariant": null,
+                    "stringId": 2239207036518682632
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "やるじゃない！ V、次は相手にパンチを空振りさせるの。攻撃を食らわないようにして。一発もね",
+                    "maleVariant": null,
+                    "stringId": 2239208440788439048
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "若き弟子よ… もう私から教えることは何もない… なんてね。さあ、次が最後の試練よ。ここまで来れたならやれるはず",
+                    "maleVariant": null,
+                    "stringId": 2239213312086659072
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "難易度を“イージー”から“ノーマル”に上げるわよ。今度の相手は攻撃をブロックするわ",
+                    "maleVariant": null,
+                    "stringId": 2239243704617422856
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "訓練を続けるなら、モジュールは他にもまだあるわ。もういいなら終了して",
+                    "maleVariant": null,
+                    "stringId": 2267775604361285632
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "訓練モジュールはあと2つ残ってるわ。今すぐやってもいいし、ひとまず終了してもいいわよ",
+                    "maleVariant": null,
+                    "stringId": 2267779382607106048
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あとはステルス訓練ね。役に立つんじゃない？ それが終わればすべて完了よ",
+                    "maleVariant": null,
+                    "stringId": 2267781014812119048
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2176775298639482880,
-            "femaleVariant": "ターゲットの女はこの建物のどこかにいる"
-          },
-          {
-            "stringId": 2177740629902118912,
-            "femaleVariant": "誘拐した連中と出くわすかもしれねえ。中に入ったら警戒を怠るなよ"
-          },
-          {
-            "stringId": 2177740962896302080,
-            "femaleVariant": "おっと、その前に… ミリテクの訓練用チップを手に入れたんだ。ほら、プロフェッショナルだって本番前にはリハーサルをするもんだろ？"
-          },
-          {
-            "stringId": 2177742396207419392,
-            "femaleVariant": "仮想訓練ってヤツだ。やってみるか？"
-          },
-          {
-            "stringId": 2177742921837596676,
-            "femaleVariant": "[チュートリアル] ウォームアップにちょうどいい"
-          },
-          {
-            "stringId": 2177743165795094528,
-            "femaleVariant": "[チュートリアルスキップ] そんな時間はない"
-          },
-          {
-            "stringId": 2177747385013260288,
-            "femaleVariant": "ええ、試してみる",
-            "maleVariant": "ああ、試してみよう"
-          },
-          {
-            "stringId": 2177747944868958212,
-            "femaleVariant": "今はそんな時間ないでしょ。後でね",
-            "maleVariant": "今はそんな時間ないだろ。後でな"
-          },
-          {
-            "stringId": 2177749220306472960,
-            "femaleVariant": "ま、それもそうだな、じゃまた今度ってことで"
-          },
-          {
-            "stringId": 2177781685226065924,
-            "femaleVariant": "[降りる] 行きましょ",
-            "maleVariant": "[降りる] 行くぞ"
-          },
-          {
-            "stringId": 2177970876203421700,
-            "femaleVariant": "この訓練プログラムは諸君が戦闘の基礎を身につけ、反射能力を磨くために設計されている"
-          },
-          {
-            "stringId": 2177970876220198916,
-            "femaleVariant": "ここで学ぶスキルは、戦場で生き延び、さらには活躍するのに役立つだろう"
-          },
-          {
-            "stringId": 2177970876220198924,
-            "femaleVariant": "諸君には効果的な武器の使い方、ステルス戦術の活用法、敵ネットワークへのハッキングを学んでもらう"
-          },
-          {
-            "stringId": 2177970876220198932,
-            "femaleVariant": "なぜならミリテクでは――"
-          },
-          {
-            "stringId": 2177982518987345924,
-            "femaleVariant": "[訓練を開始する]"
-          },
-          {
-            "stringId": 2178031462723375104,
-            "femaleVariant": "[訓練を開始する]"
-          },
-          {
-            "stringId": 2178031583066345472,
-            "femaleVariant": "[訓練を開始する]"
-          },
-          {
-            "stringId": 2178031673797529600,
-            "femaleVariant": "[訓練を開始する]"
-          },
-          {
-            "stringId": 2178045408817729536,
-            "femaleVariant": "[訓練を終了する]"
-          },
-          {
-            "stringId": 2178060801443647488,
-            "femaleVariant": "どうだ、役に立ちそうだろ？"
-          },
-          {
-            "stringId": 2178061842587340800,
-            "femaleVariant": "じゃあいよいよ本番といくか"
-          },
-          {
-            "stringId": 2178080907997499396,
-            "femaleVariant": "よし、じゃあ今回は… ステルス技術の訓練ね"
-          },
-          {
-            "stringId": 2178082332114702344,
-            "femaleVariant": "射撃訓練プログラムを始めるわ。まずは、軽いウォームアップから"
-          },
-          {
-            "stringId": 2178092310196146184,
-            "femaleVariant": "この訓練モジュールでは、戦闘におけるテックツールの使い方を、実戦に近い形式で学んでもらうわ"
-          },
-          {
-            "stringId": 2178103929609408520,
-            "femaleVariant": "じゃあ次はいよいよ近接戦闘ね"
-          },
-          {
-            "stringId": 2178136391022563328,
-            "femaleVariant": "これで全ての訓練が終了よ。本当ならハイタッチしてるところね"
-          },
-          {
-            "stringId": 2178137337509203972,
-            "femaleVariant": "なかなか上出来よ"
-          },
-          {
-            "stringId": 2178283216778055680,
-            "femaleVariant": "エレベーター、こっちだ"
-          },
-          {
-            "stringId": 2179250097248817152,
-            "femaleVariant": "大丈夫。もう一度よ"
-          },
-          {
-            "stringId": 2179250921513439236,
-            "femaleVariant": "あー、惜しかったわね。もう一度初めから"
-          },
-          {
-            "stringId": 2179251052811931652,
-            "femaleVariant": "集中して"
-          },
-          {
-            "stringId": 2179251161612177412,
-            "femaleVariant": "あなたならできるって"
-          },
-          {
-            "stringId": 2186400182759870464,
-            "femaleVariant": "悪くないわ。でも実際の相手は撃ち返してくることを忘れずに"
-          },
-          {
-            "stringId": 2186401634223935492,
-            "femaleVariant": "今度はお友達を連れてきたみたいね。さあ、腕の見せどころよ"
-          },
-          {
-            "stringId": 2186406688041488388,
-            "femaleVariant": "今度はリアルタイムで敵をハックしてもらうわよ"
-          },
-          {
-            "stringId": 2186417174657126404,
-            "femaleVariant": "これまで学んだことを実践してみて"
-          },
-          {
-            "stringId": 2186417341271658500,
-            "femaleVariant": "次は近接武器よ。剣を取って"
-          },
-          {
-            "stringId": 2186422589923020800,
-            "femaleVariant": "[訓練を終了する]"
-          },
-          {
-            "stringId": 2186422696458342400,
-            "femaleVariant": "[訓練を終了する]"
-          },
-          {
-            "stringId": 2186422749273018368,
-            "femaleVariant": "[訓練を終了する]"
-          },
-          {
-            "stringId": 2192518938878734336,
-            "femaleVariant": "ミリテク？ それって極秘の軍用テックでしょ？ どうやって手に入れたの？",
-            "maleVariant": "ミリテク？ それって極秘の軍用テックだろ？ どうやって手に入れたんだ？"
-          },
-          {
-            "stringId": 2192523864266698752,
-            "femaleVariant": "T-バグだよ。おまけに中身も調整してあるそうだ"
-          },
-          {
-            "stringId": 2192525505967616000,
-            "femaleVariant": "どこで手に入れたの？",
-            "maleVariant": "どこで手に入れたんだ？"
-          },
-          {
-            "stringId": 2192574062334504960,
-            "femaleVariant": "調整って、具体的には？"
-          },
-          {
-            "stringId": 2192574119410593792,
-            "femaleVariant": "なんでも、“スタイル”が気に食わないんだと。まあ、実際にやってみりゃすぐにわかる"
-          },
-          {
-            "stringId": 2198446477823139840,
-            "femaleVariant": "V？"
-          },
-          {
-            "stringId": 2201293108845498396,
-            "femaleVariant": "まずは基本の戦闘訓練からだ。なお、このセッション内容は記録され、後の評価に使用される"
-          },
-          {
-            "stringId": 2207017315545927680,
-            "femaleVariant": "おまけに上級向けの戦闘技術よ。それが済んだら今回は終了"
-          },
-          {
-            "stringId": 2207018368903434244,
-            "femaleVariant": "お次はハッキング訓練。コース内容に少し手を加えてみたからお楽しみに"
-          },
-          {
-            "stringId": 2207019732303892488,
-            "femaleVariant": "その調子よ。そろそろ射撃訓練に移りましょうか"
-          },
-          {
-            "stringId": 2207022374178541568,
-            "femaleVariant": "これでそいつを見失うことはない。じゃあ訓練エリアに走って移動して。ほら！"
-          },
-          {
-            "stringId": 2207024242808082440,
-            "femaleVariant": "下の階の敵に、キロシでタグを付けて"
-          },
-          {
-            "stringId": 2207026081859391488,
-            "femaleVariant": "早く身を隠して！"
-          },
-          {
-            "stringId": 2207027410044473352,
-            "femaleVariant": "OK。次は出口に向かって。見つからないよう、ゆっくりと"
-          },
-          {
-            "stringId": 2207029266711859208,
-            "femaleVariant": "上出来よ。じゃあ次のエリアね"
-          },
-          {
-            "stringId": 2207033273463361544,
-            "femaleVariant": "もう一度、次はカメラにも気をつけて"
-          },
-          {
-            "stringId": 2207072823199944704,
-            "femaleVariant": "うん、さすがの腕前ね"
-          },
-          {
-            "stringId": 2207078813119041544,
-            "femaleVariant": "撃たれたら、リアニメーターを使って手当てして"
-          },
-          {
-            "stringId": 2207080084026707968,
-            "femaleVariant": "ぼーっとしてないで、身を隠して！"
-          },
-          {
-            "stringId": 2207105771437576200,
-            "femaleVariant": "見て、3体のターゲットを用意したわ"
-          },
-          {
-            "stringId": 2207122486041006088,
-            "femaleVariant": "ターゲットが見える？ 頑張ってね"
-          },
-          {
-            "stringId": 2207130653424635904,
-            "femaleVariant": "後ろにある画面をハックして、敵の注意を引いて"
-          },
-          {
-            "stringId": 2207131731461427204,
-            "femaleVariant": "OK！ じゃあそいつを静かに倒して"
-          },
-          {
-            "stringId": 2207132875868885000,
-            "femaleVariant": "上出来よ。あとはそいつを倒すだけ"
-          },
-          {
-            "stringId": 2207134700676337672,
-            "femaleVariant": "現場に痕跡を残さないのがプロの鉄則"
-          },
-          {
-            "stringId": 2207136117327679488,
-            "femaleVariant": "敵を運んで、どこかに隠すのよ"
-          },
-          {
-            "stringId": 2207136437839613960,
-            "femaleVariant": "いいじゃない。じゃあ次は、そいつを素早く倒して"
-          },
-          {
-            "stringId": 2207137745858482184,
-            "femaleVariant": "まだよ…"
-          },
-          {
-            "stringId": 2207139201936281608,
-            "femaleVariant": "よし。グレネードを起爆して"
-          },
-          {
-            "stringId": 2207175498486796300,
-            "femaleVariant": "1人をハッキングして、もう片方の注意を引いてみて"
-          },
-          {
-            "stringId": 2207186615187558400,
-            "femaleVariant": "よし、そこまで"
-          },
-          {
-            "stringId": 2207187476831817728,
-            "femaleVariant": "次はVの体格に見合った相手を用意してみようか"
-          },
-          {
-            "stringId": 2208504118803189760,
-            "femaleVariant": "ミリテクのプログラムは穴だらけね"
-          },
-          {
-            "stringId": 2209917733972234240,
-            "femaleVariant": "いい感じね"
-          },
-          {
-            "stringId": 2209918395665633280,
-            "femaleVariant": "プラットフォームの上に立って、終了して"
-          },
-          {
-            "stringId": 2209959311889682444,
-            "femaleVariant": "やるじゃない、V"
-          },
-          {
-            "stringId": 2209959311889682452,
-            "femaleVariant": "プラットフォームに立って。次へ行きましょ"
-          },
-          {
-            "stringId": 2210014736832024588,
-            "femaleVariant": "余計なことは考えず、命令に従えば結果が出る。ミリテク式も悪くないでしょ？"
-          },
-          {
-            "stringId": 2210014736832024596,
-            "femaleVariant": "まあ、私のおかげなのは事実だけどね。さあ、次に行きましょ"
-          },
-          {
-            "stringId": 2210062262138327044,
-            "femaleVariant": "いい調子よ。ずいぶん慣れてきたみたいね"
-          },
-          {
-            "stringId": 2210062262138327052,
-            "femaleVariant": "プラットフォームに乗って"
-          },
-          {
-            "stringId": 2211420454714425344,
-            "femaleVariant": "でもこの戦闘訓練自体は役に立ちそう"
-          },
-          {
-            "stringId": 2211450293865496576,
-            "femaleVariant": "じゃあ少しハードルを上げましょうか"
-          },
-          {
-            "stringId": 2211456124686254080,
-            "femaleVariant": "準備ができたら訓練エリアに進んで"
-          },
-          {
-            "stringId": 2211489674823286784,
-            "femaleVariant": "それが死体の場合は特にね"
-          },
-          {
-            "stringId": 2211508992982204416,
-            "femaleVariant": "敵を無力化して… 手強いから、気をつけるのよ"
-          },
-          {
-            "stringId": 2211522364121366528,
-            "femaleVariant": "大げさな言い方をしたけど、要はハッキングよ"
-          },
-          {
-            "stringId": 2212888581692276736,
-            "femaleVariant": "サプライズが好きだといいわね"
-          },
-          {
-            "stringId": 2212901869985546240,
-            "femaleVariant": "頑張ってね"
-          },
-          {
-            "stringId": 2212909701120212992,
-            "femaleVariant": "では… 新兵、1番ステーションへ向かえ！ どうした、さっさと進め！"
-          },
-          {
-            "stringId": 2212910880642383872,
-            "femaleVariant": "これならきっとジャッキーも文句を言わないでしょ"
-          },
-          {
-            "stringId": 2220078820234612736,
-            "femaleVariant": "よし、行きましょ",
-            "maleVariant": "よし、行くぞ"
-          },
-          {
-            "stringId": 2221229947252625408,
-            "femaleVariant": "なにグズグズしてるの"
-          },
-          {
-            "stringId": 2221230212164866052,
-            "femaleVariant": "どうしたの、V？"
-          },
-          {
-            "stringId": 2221231508875890688,
-            "femaleVariant": "コーポなんかより… こっちの方がイケてるでしょ？"
-          },
-          {
-            "stringId": 2221232700997750784,
-            "femaleVariant": "まずまずね。ミリテク式の訓練はあなたに合ってるんじゃない？"
-          },
-          {
-            "stringId": 2221233474528071680,
-            "femaleVariant": "フィクサーからアドバイスは？"
-          },
-          {
-            "stringId": 2221233657282285568,
-            "femaleVariant": "ワカコから何かアドバイスはあった？",
-            "maleVariant": "ワカコから何かアドバイスはあったか？"
-          },
-          {
-            "stringId": 2221413786751168512,
-            "femaleVariant": "「うちはあんたのおかんやない。簡単な仕事や。指示通りやったらええ」だとさ"
-          },
-          {
-            "stringId": 2221433502462996480,
-            "femaleVariant": "でも忘れないで。ストリートにはヒントもやり直しもないからね"
-          },
-          {
-            "stringId": 2221434865829900288,
-            "femaleVariant": "じゃあね、V"
-          },
-          {
-            "stringId": 2231807161551646720,
-            "femaleVariant": "スパルタ式に鍛えていくから、覚悟するのよ"
-          },
-          {
-            "stringId": 2231811100489641984,
-            "femaleVariant": "なに突っ立ってるの？ ミリテクの新米兵士じゃないんだから"
-          },
-          {
-            "stringId": 2231958851626037248,
-            "femaleVariant": "時間の無駄よ。ペースを上げて"
-          },
-          {
-            "stringId": 2231960072906698752,
-            "femaleVariant": "V、早く手当をして"
-          },
-          {
-            "stringId": 2232102595943821312,
-            "femaleVariant": "ステルスよ、ステルス。忍者のBDは見たことあるでしょ？ あんな感じ"
-          },
-          {
-            "stringId": 2232105567339769856,
-            "femaleVariant": "ねえ、どうしたの？ 瞑想シミュレーションをロードした覚えはないんだけど"
-          },
-          {
-            "stringId": 2232108289124298752,
-            "femaleVariant": "早く隠れて！"
-          },
-          {
-            "stringId": 2232109598250463232,
-            "femaleVariant": "V、散歩は済んだ？"
-          },
-          {
-            "stringId": 2232111319894814720,
-            "femaleVariant": "早く訓練に戻って"
-          },
-          {
-            "stringId": 2239203123920916480,
-            "femaleVariant": "次は防御。攻撃よりつまらないけど、重要な要素だから"
-          },
-          {
-            "stringId": 2239207036518682632,
-            "femaleVariant": "相手は攻撃の後に毎回バランスを崩してる。その隙を狙って、カウンターを食らわせて"
-          },
-          {
-            "stringId": 2239208440788439048,
-            "femaleVariant": "やるじゃない！ V、次は相手にパンチを空振りさせるの。攻撃を食らわないようにして。一発もね"
-          },
-          {
-            "stringId": 2239213312086659072,
-            "femaleVariant": "若き弟子よ… もう私から教えることは何もない… なんてね。さあ、次が最後の試練よ。ここまで来れたならやれるはず"
-          },
-          {
-            "stringId": 2239243704617422856,
-            "femaleVariant": "難易度を“イージー”から“ノーマル”に上げるわよ。今度の相手は攻撃をブロックするわ"
-          },
-          {
-            "stringId": 2267775604361285632,
-            "femaleVariant": "訓練を続けるなら、モジュールは他にもまだあるわ。もういいなら終了して"
-          },
-          {
-            "stringId": 2267779382607106048,
-            "femaleVariant": "訓練モジュールはあと2つ残ってるわ。今すぐやってもいいし、ひとまず終了してもいいわよ"
-          },
-          {
-            "stringId": 2267781014812119048,
-            "femaleVariant": "あとはステルス訓練ね。役に立つんじゃない？ それが終わればすべて完了よ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

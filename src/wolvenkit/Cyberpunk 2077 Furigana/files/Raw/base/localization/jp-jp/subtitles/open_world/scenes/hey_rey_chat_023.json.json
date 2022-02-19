@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:26.7407286Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\hey_rey_chat_023.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="mex" o="Sí, pues hoy ya no tenemos, ¿sabes? Se nos acabó, ¿bueno?" t="あー、それは今日入ってないの。だから品切れ" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 2161911343972904960
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "うーん、そうか",
+                    "maleVariant": null,
+                    "stringId": 2223061329442607104
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="mex" o="Sí, pues los Calle 6 le dispararon a la camioneta del reparto o algo así. ¿Vas a pedir algo?" t="なんか、配達トラックがシックス・ストリートに襲われたらしいよ。で、注文は？" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 2223061481091862528
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "配達ってヘクターの車か？ あいつは？",
+                    "maleVariant": null,
+                    "stringId": 2223075623899074560
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l="mex" o="¿Cómo voy a saberlo? Soy nueva, ¿sí? Solo sé que le dispararon." t="知らないよ。私、新人だし。撃たれたって聞いたけど" b="" a=""/>",
+                    "maleVariant": null,
+                    "stringId": 2227506765817548800
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2161911343972904960,
-            "femaleVariant": "<kiroshi l=\"mex\" o=\"Sí, pues hoy ya no tenemos, ¿sabes? Se nos acabó, ¿bueno?\" t=\"あー、それは今日入ってないの。だから品切れ\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 2223061329442607104,
-            "femaleVariant": "うーん、そうか"
-          },
-          {
-            "stringId": 2223061481091862528,
-            "femaleVariant": "<kiroshi l=\"mex\" o=\"Sí, pues los Calle 6 le dispararon a la camioneta del reparto o algo así. ¿Vas a pedir algo?\" t=\"なんか、配達トラックがシックス・ストリートに襲われたらしいよ。で、注文は？\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 2223075623899074560,
-            "femaleVariant": "配達ってヘクターの車か？ あいつは？"
-          },
-          {
-            "stringId": 2227506765817548800,
-            "femaleVariant": "<kiroshi l=\"mex\" o=\"¿Cómo voy a saberlo? Soy nueva, ¿sí? Solo sé que le dispararon.\" t=\"知らないよ。私、新人だし。撃たれたって聞いたけど\" b=\"\" a=\"\"/>"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

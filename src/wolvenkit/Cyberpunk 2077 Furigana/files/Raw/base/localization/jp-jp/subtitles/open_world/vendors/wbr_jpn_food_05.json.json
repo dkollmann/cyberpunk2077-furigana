@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:33.3339377Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\vendors\wbr_jpn_food_05.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "小腹が空いた…",
+                    "maleVariant": null,
+                    "stringId": 1885009672696905728
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "おすすめは？",
+                    "maleVariant": null,
+                    "stringId": 1885009672713682952
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "小腹が空いたな…",
+                    "maleVariant": null,
+                    "stringId": 1885009672780791808
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それなら、うちに任しときな",
+                    "maleVariant": null,
+                    "stringId": 1885009672780791816
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "おすすめは？",
+                    "maleVariant": null,
+                    "stringId": 1885009672847900676
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "特にないね。うちが売ってるのは食い物だ、何が食べたいのかすらわからなきゃお手上げだよ。残念だが、よそを当たってくれ",
+                    "maleVariant": null,
+                    "stringId": 1885009672847900684
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1885009672696905728,
-            "femaleVariant": "小腹が空いた…"
-          },
-          {
-            "stringId": 1885009672713682952,
-            "femaleVariant": "おすすめは？"
-          },
-          {
-            "stringId": 1885009672780791808,
-            "femaleVariant": "小腹が空いたな…"
-          },
-          {
-            "stringId": 1885009672780791816,
-            "femaleVariant": "それなら、うちに任しときな"
-          },
-          {
-            "stringId": 1885009672847900676,
-            "femaleVariant": "おすすめは？"
-          },
-          {
-            "stringId": 1885009672847900684,
-            "femaleVariant": "特にないね。うちが売ってるのは食い物だ、何が食べたいのかすらわからなきゃお手上げだよ。残念だが、よそを当たってくれ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:29.5326343Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\wat_lch_chat_019.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あの仕事は最悪だった",
+                    "maleVariant": null,
+                    "stringId": 2156492209084723200
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "でも金は入ったんだろ？",
+                    "maleVariant": null,
+                    "stringId": 2176454649366429696
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ああ。約束の額より少なかったがな。メジャーの大物が相手じゃ、交渉なんてできるはずもない",
+                    "maleVariant": null,
+                    "stringId": 2176454922633723904
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "奴らの仕事は受けるなって、他の傭兵連中に伝えればいい。そうすりゃ向こうも、すぐに態度を変える",
+                    "maleVariant": null,
+                    "stringId": 2176455185482366976
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そんなことしても無駄だ。傭兵がダメなら、ギャングでも雇うだろう",
+                    "maleVariant": null,
+                    "stringId": 2176455379527647232
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "筋金入りのシックス・ストリートに「新合衆国のために働いてくれ」と言ってみろ。喜んでタダ働きするぞ",
+                    "maleVariant": null,
+                    "stringId": 2176455548910419968
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ケッ… いつも言ってるだろ。理想主義者はビジネスの敵さ",
+                    "maleVariant": null,
+                    "stringId": 2176455862459809792
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "まったくだ。死に急いでくれるのは結構だがな",
+                    "maleVariant": null,
+                    "stringId": 2176455991040393216
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2156492209084723200,
-            "femaleVariant": "あの仕事は最悪だった"
-          },
-          {
-            "stringId": 2176454649366429696,
-            "femaleVariant": "でも金は入ったんだろ？"
-          },
-          {
-            "stringId": 2176454922633723904,
-            "femaleVariant": "ああ。約束の額より少なかったがな。メジャーの大物が相手じゃ、交渉なんてできるはずもない"
-          },
-          {
-            "stringId": 2176455185482366976,
-            "femaleVariant": "奴らの仕事は受けるなって、他の傭兵連中に伝えればいい。そうすりゃ向こうも、すぐに態度を変える"
-          },
-          {
-            "stringId": 2176455379527647232,
-            "femaleVariant": "そんなことしても無駄だ。傭兵がダメなら、ギャングでも雇うだろう"
-          },
-          {
-            "stringId": 2176455548910419968,
-            "femaleVariant": "筋金入りのシックス・ストリートに「新合衆国のために働いてくれ」と言ってみろ。喜んでタダ働きするぞ"
-          },
-          {
-            "stringId": 2176455862459809792,
-            "femaleVariant": "ケッ… いつも言ってるだろ。理想主義者はビジネスの敵さ"
-          },
-          {
-            "stringId": 2176455991040393216,
-            "femaleVariant": "まったくだ。死に急いでくれるのは結構だがな"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

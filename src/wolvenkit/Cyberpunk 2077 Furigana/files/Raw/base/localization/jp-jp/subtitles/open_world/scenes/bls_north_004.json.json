@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2022-02-19T08:26:23.7267407Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\Users\Dan\cyberpunk2077-furigana\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw\base\localization\jp-jp\subtitles\open_world\scenes\bls_north_004.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "将来は、有望なスナイパーになりそうね",
+                    "maleVariant": null,
+                    "stringId": 1973561824866508800
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そしたら、レイスの見回りに遭遇したの。案の定言い争いの後、撃ち合いになって…",
+                    "maleVariant": null,
+                    "stringId": 1974813072954212352
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "また絵を描いたの？ それともこないだみたいに車を運転したとか？",
+                    "maleVariant": null,
+                    "stringId": 1974813095100137472
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "うちの子、やっぱ天才かもしれない",
+                    "maleVariant": null,
+                    "stringId": 1974813112934318080
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それでうちの子、見事に1人の眉間に命中させたのよ！",
+                    "maleVariant": null,
+                    "stringId": 1974813160648720384
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "それがさ、偵察に連れてってもらったのよ。ずっとせがんでてね",
+                    "maleVariant": null,
+                    "stringId": 1974813185059569664
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1973561824866508800,
-            "femaleVariant": "将来は、有望なスナイパーになりそうね"
-          },
-          {
-            "stringId": 1974813072954212352,
-            "femaleVariant": "そしたら、レイスの見回りに遭遇したの。案の定言い争いの後、撃ち合いになって…"
-          },
-          {
-            "stringId": 1974813095100137472,
-            "femaleVariant": "また絵を描いたの？ それともこないだみたいに車を運転したとか？"
-          },
-          {
-            "stringId": 1974813112934318080,
-            "femaleVariant": "うちの子、やっぱ天才かもしれない"
-          },
-          {
-            "stringId": 1974813160648720384,
-            "femaleVariant": "それでうちの子、見事に1人の眉間に命中させたのよ！"
-          },
-          {
-            "stringId": 1974813185059569664,
-            "femaleVariant": "それがさ、偵察に連れてってもらったのよ。ずっとせがんでてね"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }
