@@ -2,24 +2,34 @@
 
 cd %~dp0
 
+set BUILDFOLDER=%CD%
 set CP2077FOLDER=C:\Program Files (x86)\GOG Galaxy\Games\Cyberpunk 2077
 set SUBTITLEPATH=base\localization\jp-jp\subtitles
-SET MODFILES=..\src\wolvenkit\Cyberpunk 2077 Furigana\files\Mod
-SET RAWFILES=..\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw
+SET WOLVENKITFILES=%BUILDFOLDER%\..\src\wolvenkit\Cyberpunk 2077 Furigana\files
+SET MODFILES=%WOLVENKITFILES%\Mod
+SET RAWFILES=%WOLVENKITFILES%\Raw
 set TARGET=%MODFILES%\%SUBTITLEPATH%
 set TARGETRAW=%RAWFILES%\%SUBTITLEPATH%
-set ARCHIVE=%CP2077FOLDER%\archive\pc\content\lang_ja_text.archive
+set ARCHIVEFOLDER=%CP2077FOLDER%\archive\pc\content
 
 echo Removing previous files...
-rmdir /s/q "%TARGET%"
-mkdir "%TARGET%"
+rem rmdir /s/q "%TARGET%"
+rem mkdir "%TARGET%"
 
 rmdir /s/q "%TARGETRAW%"
 mkdir "%TARGETRAW%"
 
+goto noexport
 echo Exporting subtitles...
-call WolvenKit.Console\WolvenKit.CLI.exe unbundle -p "%ARCHIVE%" -o "%MODFILES%" -w "%SUBTITLEPATH%\*"
+cd "%ARCHIVEFOLDER%"
+
+for /r %%i in (*.archive) do (
+	call "%BUILDFOLDER%\WolvenKit.Console\WolvenKit.CLI.exe" unbundle -p "%%i" -o "%MODFILES%" -w "%SUBTITLEPATH%\*"
+)
+
 color 07
+cd "%BUILDFOLDER%"
+:noexport
 
 echo Copying files...
 xcopy /s /q "%TARGET%" "%TARGETRAW%"

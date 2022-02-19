@@ -8,6 +8,8 @@ def unescape_file(file):
 	if "\\u" in content:
 		escaped = content.encode('latin1').decode('unicode-escape')
 
+		escaped = escaped.replace("\\", "\\\\")
+
 		with open(file, 'w', encoding='utf8') as f:
 			f.write(escaped)
 
