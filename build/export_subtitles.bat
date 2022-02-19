@@ -35,3 +35,6 @@ del /s /q /a:-R "%TARGETRAW%\*.json" > __killme__
 del /q __killme__
 
 attrib -R "%TARGETRAW%\*.json.json" /s
+
+echo Decode unicode characters...
+python unescapeunicode.py "%TARGETRAW%"
