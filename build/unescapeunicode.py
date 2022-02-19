@@ -1,17 +1,44 @@
-import sys, os
+import os
+import sys
 
+
+def replace_timestamp(text):
+	start = text.find('"ExportedDateTime":')
+	if start >= 0:
+		end = text.find(",", start)
+		if end > start:
+			ts = text[start:end]
+
+			return text[:start] + '"ExportedDateTime": "2077-01-01T00:00:00.00Z"' + text[end:]
+
+	return text
+
+
+def unespace_text(text):
+	pos = 0
+	while True:
+		pos = text.find("\\u", pos)
+		if pos < 0:
+			return text
+
+		escaped = text[pos:pos+6]
+
+		if escaped == "\\u0022":
+			uchar = "\\\""
+		else:
+			uchar = escaped.encode('latin1').decode('unicode-escape')
+
+		text = text[:pos] + uchar + text[pos+6:]
 
 def unescape_file(file):
 	with open(file, 'r', encoding='utf8') as f:
 		content = f.read()
 
-	if "\\u" in content:
-		escaped = content.encode('latin1').decode('unicode-escape')
+	unescaped = unespace_text(content)
+	unescaped = replace_timestamp(unescaped)
 
-		escaped = escaped.replace("\\", "\\\\")
-
-		with open(file, 'w', encoding='utf8') as f:
-			f.write(escaped)
+	with open(file, 'w', encoding='utf8') as f:
+		f.write(unescaped)
 
 
 def unescape_folder(path):

@@ -8,7 +8,7 @@ def escape_file(file):
 	with open(file, 'r', encoding='utf8') as f:
 		content = f.read()
 
-	escaped = content.encode('unicode-escape').decode('utf8').replace("\\n", "\n").replace("\\\\", "\\")
+	escaped = content.encode('unicode-escape').decode('utf8').replace("\\n", "\n")
 
 	with open(file, 'w', encoding='utf8') as f:
 		f.write(escaped)

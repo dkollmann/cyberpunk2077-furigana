@@ -19,6 +19,8 @@ def addfurigana(instance, entry, variant, stringid, filename, problems):
 		return False
 
 	v = entry[variant]
+	if v is None:
+		return False
 
 	# check if there are any kanji
 	if not has_kanji(v):
@@ -72,29 +74,26 @@ def addfurigana(instance, entry, variant, stringid, filename, problems):
 
 
 def processjson(instance, file, jsn, problems):
-	chunks = jsn["Chunks"]
+	entries = jsn["Data"]["RootChunk"]["Properties"]["root"]["Data"]["Properties"]["entries"]
 
-	for c in chunks:
-		cc = chunks[c]
+	for cc in entries:
 		t = cc["Type"]
 
-		if t == "localizationPersistenceSubtitleEntries" and "Properties" in cc:
+		if t == "localizationPersistenceSubtitleEntry" and "Properties" in cc:
 			props = cc["Properties"]
-			entries = props["entries"]
 
 			hasfurigana = False
-			for e in entries:
-				stringid = e["stringId"]
-				relstringid = stringid % 4294967296
-				hexid = hex(relstringid)[2:].upper()
-				if hexid.endswith("000"):
-					hexid = hexid[:-3] + "Z"
-				strid = hexid + "^"
+			stringid = props["stringId"]
+			relstringid = stringid % 4294967296
+			hexid = hex(relstringid)[2:].upper()
+			if hexid.endswith("000"):
+				hexid = hexid[:-3] + "Z"
+			strid = hexid + "^"
 
-				if addfurigana(instance, e, "femaleVariant", strid, file, problems):
-					hasfurigana = True
-				if addfurigana(instance, e, "maleVariant", strid, file, problems):
-					hasfurigana = True
+			if addfurigana(instance, props, "femaleVariant", strid, file, problems):
+				hasfurigana = True
+			if addfurigana(instance, props, "maleVariant", strid, file, problems):
+				hasfurigana = True
 
 			if hasfurigana:
 				file = file.replace("\\", "/")
