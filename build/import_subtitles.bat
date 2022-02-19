@@ -15,6 +15,9 @@ mkdir "%TARGET%"
 echo Copying files...
 xcopy /s /q "%SOURCE%" "%TARGET%"
 
+echo Encode unicode characters...
+python escapeunicode.py "%TARGET%"
+
 echo Converting files...
 call WolvenKit.Console\WolvenKit.CLI.exe cr2w -d -p "%TARGET%"
 color 07
