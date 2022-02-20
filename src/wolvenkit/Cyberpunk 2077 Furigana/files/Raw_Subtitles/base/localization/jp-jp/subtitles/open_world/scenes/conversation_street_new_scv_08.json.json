@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_new_scv_08.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4952A010^政{せい}治{じ}なんてどうでもいい。気{き}にしたところで何{なに}にもならないからな",
+                    "maleVariant": null,
+                    "stringId": 2276537117143375888
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4952A01C^ホーウィーもそう言{い}ってたが、今{いま}の奴{やつ}を見{み}てみろ。バシッとスーツでキメて、委{い}員{いん}会{かい}に出{で}るご身{み}分{ぶん}だ",
+                    "maleVariant": null,
+                    "stringId": 2276537117143375900
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4952A028^連邦{れんぽう}のイヌに成{な}り下{さ}がっただけだろ。俺{おれ}たちのことをチクってるに違{ちが}いない。いつか始{し}末{まつ}してやる",
+                    "maleVariant": null,
+                    "stringId": 2276537117143375912
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2276537117143375888,
-            "femaleVariant": "4952A010^政{せい}治{じ}なんてどうでもいい。気{き}にしたところで何{なに}にもならないからな"
-          },
-          {
-            "stringId": 2276537117143375900,
-            "femaleVariant": "4952A01C^ホーウィーもそう言{い}ってたが、今{いま}の奴{やつ}を見{み}てみろ。バシッとスーツでキメて、委{い}員{いん}会{かい}に出{で}るご身{み}分{ぶん}だ"
-          },
-          {
-            "stringId": 2276537117143375912,
-            "femaleVariant": "4952A028^連邦{れんぽう}のイヌに成{な}り下{さ}がっただけだろ。俺{おれ}たちのことをチクってるに違{ちが}いない。いつか始{し}末{まつ}してやる"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

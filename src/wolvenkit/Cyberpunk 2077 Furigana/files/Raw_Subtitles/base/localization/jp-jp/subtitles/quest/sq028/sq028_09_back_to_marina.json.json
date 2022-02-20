@@ -1,54 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\sq028\\sq028_09_back_to_marina.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "はあ… それじゃあな",
+                    "maleVariant": null,
+                    "stringId": 1742944464745426944
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "96627Z^元{げん}気{き}でね",
+                    "maleVariant": "96627Z^元{げん}気{き}でな",
+                    "stringId": 1742945444031524864
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "15627Z^元{げん}気{き}でね、ケリー",
+                    "maleVariant": "15627Z^元{げん}気{き}でな、ケリー",
+                    "stringId": 1742945918608633856
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "EE29FZ^また近{ちか}いうち会{あ}える？",
+                    "maleVariant": "EE29FZ^また近{ちか}いうち会{あ}えるか？",
+                    "stringId": 1837119685870088192
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E529FZ^ああ。お前{まえ}もな",
+                    "maleVariant": null,
+                    "stringId": 1837120317079285760
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3C29FZ^また近{ちか}いうちに会{あ}える？",
+                    "maleVariant": "3C29FZ^また近{ちか}いうちに会{あ}えるか？",
+                    "stringId": 1837120889769553920
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6729FZ^ああ、そうだな。縁{へり}があれば",
+                    "maleVariant": null,
+                    "stringId": 1837122539758415872
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1742944464745426944,
-            "femaleVariant": "はあ… それじゃあな"
-          },
-          {
-            "stringId": 1742945444031524864,
-            "femaleVariant": "96627Z^元{げん}気{き}でね",
-            "maleVariant": "96627Z^元{げん}気{き}でな"
-          },
-          {
-            "stringId": 1742945918608633856,
-            "femaleVariant": "15627Z^元{げん}気{き}でね、ケリー",
-            "maleVariant": "15627Z^元{げん}気{き}でな、ケリー"
-          },
-          {
-            "stringId": 1837119685870088192,
-            "femaleVariant": "EE29FZ^また近{ちか}いうち会{あ}える？",
-            "maleVariant": "EE29FZ^また近{ちか}いうち会{あ}えるか？"
-          },
-          {
-            "stringId": 1837120317079285760,
-            "femaleVariant": "E529FZ^ああ。お前{まえ}もな"
-          },
-          {
-            "stringId": 1837120889769553920,
-            "femaleVariant": "3C29FZ^また近{ちか}いうちに会{あ}える？",
-            "maleVariant": "3C29FZ^また近{ちか}いうちに会{あ}えるか？"
-          },
-          {
-            "stringId": 1837122539758415872,
-            "femaleVariant": "6729FZ^ああ、そうだな。縁{へり}があれば"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

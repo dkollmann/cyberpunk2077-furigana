@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_kab_chat_011.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "EF44DZ^なあ！ 100ユーロドル札{さつ}を崩{くず}してくれないか？",
+                    "maleVariant": null,
+                    "stringId": 2180913375343857664
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "FD44DZ^私{わたし}が銀{ぎん}行{こう}に見{み}える？",
+                    "maleVariant": null,
+                    "stringId": 2180913817960370176
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "FC44DZ^頼{たの}むよ。釣{つ}り銭{せん}が足{た}りないんだ",
+                    "maleVariant": null,
+                    "stringId": 2180913968267448320
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A344DZ^知{し}ったこっちゃないね",
+                    "maleVariant": null,
+                    "stringId": 2180914327551528960
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2180913375343857664,
-            "femaleVariant": "EF44DZ^なあ！ 100ユーロドル札{さつ}を崩{くず}してくれないか？"
-          },
-          {
-            "stringId": 2180913817960370176,
-            "femaleVariant": "FD44DZ^私{わたし}が銀{ぎん}行{こう}に見{み}える？"
-          },
-          {
-            "stringId": 2180913968267448320,
-            "femaleVariant": "FC44DZ^頼{たの}むよ。釣{つ}り銭{せん}が足{た}りないんだ"
-          },
-          {
-            "stringId": 2180914327551528960,
-            "femaleVariant": "A344DZ^知{し}ったこっちゃないね"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

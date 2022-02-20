@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_south_017.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "EF47EZ^どいつもこいつも、なんでこんな街{まち}に来{き}たがるのかね",
+                    "maleVariant": null,
+                    "stringId": 2178285980640337920
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ナイトシティにもいいところはある",
+                    "maleVariant": null,
+                    "stringId": 2182456240052592640
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いいや、そんなものはない",
+                    "maleVariant": null,
+                    "stringId": 2182457442727321600
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5B2B6Z^ったく、今{こん}日{にち}はどうしたんだ？",
+                    "maleVariant": null,
+                    "stringId": 2182457546746060800
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "412B6Z^おじが首{くび}を吊{つる}ったんだよ。自{じ}分{ぶん}がサイバーサイコかもしれないと思{おも}って、誰{だれ}かに危{き}害{がい}を加{くわ}えるのを心{しん}配{ぱい}して…",
+                    "maleVariant": null,
+                    "stringId": 2182457743878348800
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5C2B6Z^え… それは残{ざん}念{ねん}だったな。でも… 正{ただ}しい判{はん}断{だん}だったんじゃないか。周{まわ}りのためにも",
+                    "maleVariant": null,
+                    "stringId": 2182459290519560192
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "732B6Z^でも… インプラントなんて一個{いっこ}も入{い}れてなかったんだぞ",
+                    "maleVariant": null,
+                    "stringId": 2182459754761904128
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2178285980640337920,
-            "femaleVariant": "EF47EZ^どいつもこいつも、なんでこんな街{まち}に来{き}たがるのかね"
-          },
-          {
-            "stringId": 2182456240052592640,
-            "femaleVariant": "ナイトシティにもいいところはある"
-          },
-          {
-            "stringId": 2182457442727321600,
-            "femaleVariant": "いいや、そんなものはない"
-          },
-          {
-            "stringId": 2182457546746060800,
-            "femaleVariant": "5B2B6Z^ったく、今{こん}日{にち}はどうしたんだ？"
-          },
-          {
-            "stringId": 2182457743878348800,
-            "femaleVariant": "412B6Z^おじが首{くび}を吊{つる}ったんだよ。自{じ}分{ぶん}がサイバーサイコかもしれないと思{おも}って、誰{だれ}かに危{き}害{がい}を加{くわ}えるのを心{しん}配{ぱい}して…"
-          },
-          {
-            "stringId": 2182459290519560192,
-            "femaleVariant": "5C2B6Z^え… それは残{ざん}念{ねん}だったな。でも… 正{ただ}しい判{はん}断{だん}だったんじゃないか。周{まわ}りのためにも"
-          },
-          {
-            "stringId": 2182459754761904128,
-            "femaleVariant": "732B6Z^でも… インプラントなんて一個{いっこ}も入{い}れてなかったんだぞ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\ma_scene_threatning_09.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "DD720Z^どうせ小{こ}指{ゆび}を切{き}り落{お}とせば、泣{な}きながら命乞{いのちごい}いするんだろ？",
+                    "maleVariant": null,
+                    "stringId": 2007238976497385472
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2F720Z^お前{まえ}はもう棺{かん}桶{おけ}に片{かた}足{あし}どころか、体{たい}半{はん}分{ふん}を突{つ}っ込{こ}んでる",
+                    "maleVariant": null,
+                    "stringId": 2007239033707692032
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F6720Z^お前{まえ}みたいなクズは喜{よろこ}んで消{け}してやる",
+                    "maleVariant": null,
+                    "stringId": 2007239161600409600
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "34720Z^間{ま}抜{ぬ}けには間{ま}抜{ぬ}けらしい最{さい}期{ご}が待{ま}ってるもんだ",
+                    "maleVariant": null,
+                    "stringId": 2007239235655041024
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2007238976497385472,
-            "femaleVariant": "DD720Z^どうせ小{こ}指{ゆび}を切{き}り落{お}とせば、泣{な}きながら命乞{いのちごい}いするんだろ？"
-          },
-          {
-            "stringId": 2007239033707692032,
-            "femaleVariant": "2F720Z^お前{まえ}はもう棺{かん}桶{おけ}に片{かた}足{あし}どころか、体{たい}半{はん}分{ふん}を突{つ}っ込{こ}んでる"
-          },
-          {
-            "stringId": 2007239161600409600,
-            "femaleVariant": "F6720Z^お前{まえ}みたいなクズは喜{よろこ}んで消{け}してやる"
-          },
-          {
-            "stringId": 2007239235655041024,
-            "femaleVariant": "34720Z^間{ま}抜{ぬ}けには間{ま}抜{ぬ}けらしい最{さい}期{ご}が待{ま}ってるもんだ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

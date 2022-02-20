@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_dtn_chat_032.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "903BBZ^聞{き}いてるのか、チューマ！ 次{つぎ}のライブは必{かなら}ずキメるぞ！ これが最{さい}後{ご}のチャンスなんだ！",
+                    "maleVariant": null,
+                    "stringId": 2172281829514260480
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3D3BCZ^はいはい、わかってるって。最{さい}後{ご}のチャンスね",
+                    "maleVariant": null,
+                    "stringId": 2180821017675153408
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7F3BCZ^ヘマしたら、承{しょう}知{ち}しないからな",
+                    "maleVariant": null,
+                    "stringId": 2180821237825781760
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8E3BCZ^わかりましたよ、お母{かあ}さん",
+                    "maleVariant": null,
+                    "stringId": 2180821358336524288
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7D3BCZ^真面目{まじめ}に聞{き}け。俺{おれ}は本{ほん}気{き}だぞ",
+                    "maleVariant": null,
+                    "stringId": 2180821847677583360
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3E3BCZ^いい加{か}減{げん}しつこいぞ。マークだってしょっちゅうやらかしてるだろ",
+                    "maleVariant": null,
+                    "stringId": 2180821958289768448
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E3BCZ^マークはAメロの最{さい}中{ちゅう}にゲロをまき散{ち}らしたりしてないだろうが",
+                    "maleVariant": null,
+                    "stringId": 2180822253837205504
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2172281829514260480,
-            "femaleVariant": "903BBZ^聞{き}いてるのか、チューマ！ 次{つぎ}のライブは必{かなら}ずキメるぞ！ これが最{さい}後{ご}のチャンスなんだ！"
-          },
-          {
-            "stringId": 2180821017675153408,
-            "femaleVariant": "3D3BCZ^はいはい、わかってるって。最{さい}後{ご}のチャンスね"
-          },
-          {
-            "stringId": 2180821237825781760,
-            "femaleVariant": "7F3BCZ^ヘマしたら、承{しょう}知{ち}しないからな"
-          },
-          {
-            "stringId": 2180821358336524288,
-            "femaleVariant": "8E3BCZ^わかりましたよ、お母{かあ}さん"
-          },
-          {
-            "stringId": 2180821847677583360,
-            "femaleVariant": "7D3BCZ^真面目{まじめ}に聞{き}け。俺{おれ}は本{ほん}気{き}だぞ"
-          },
-          {
-            "stringId": 2180821958289768448,
-            "femaleVariant": "3E3BCZ^いい加{か}減{げん}しつこいぞ。マークだってしょっちゅうやらかしてるだろ"
-          },
-          {
-            "stringId": 2180822253837205504,
-            "femaleVariant": "E3BCZ^マークはAメロの最{さい}中{ちゅう}にゲロをまき散{ち}らしたりしてないだろうが"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

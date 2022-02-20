@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_arr_chat_029.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7676DZ^俺{おれ}なら州境{しゅうざかい}を封{ふう}鎖{さ}するね。聞{き}いたこともないようなド田舎{いなか}から、貧{びん}乏{ぼう}人{にん}が続々{ぞくぞく}と入{いっ}ってきてやがる！",
+                    "maleVariant": null,
+                    "stringId": 2168045994895659008
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "582B6Z^ナイトシティを出{で}てく人{にん}も多{おお}いのよ。あんたみたいな人{にん}間{げん}に我{が}慢{まん}できない人{にん}たちがね",
+                    "maleVariant": null,
+                    "stringId": 2211137010426142720
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "プラマイゼロってとこじゃない",
+                    "maleVariant": null,
+                    "stringId": 2212906131312566272
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "782B6Z^ふん、州境{しゅうざかい}を封{ふう}鎖{さ}したら誰{だれ}も出{で}て行{い}かない。そこまで頭{あたま}がまわらなかったか？",
+                    "maleVariant": null,
+                    "stringId": 2212906778007134208
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "482B6Z^まあね。でも、あんたが州境{しゅうざかい}警{けい}備{び}隊{たい}に入{い}れなかった理{り}由{ゆう}はわかった",
+                    "maleVariant": null,
+                    "stringId": 2212907477281497088
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2168045994895659008,
-            "femaleVariant": "7676DZ^俺{おれ}なら州境{しゅうざかい}を封{ふう}鎖{さ}するね。聞{き}いたこともないようなド田舎{いなか}から、貧{びん}乏{ぼう}人{にん}が続々{ぞくぞく}と入{いっ}ってきてやがる！"
-          },
-          {
-            "stringId": 2211137010426142720,
-            "femaleVariant": "582B6Z^ナイトシティを出{で}てく人{にん}も多{おお}いのよ。あんたみたいな人{にん}間{げん}に我{が}慢{まん}できない人{にん}たちがね"
-          },
-          {
-            "stringId": 2212906131312566272,
-            "femaleVariant": "プラマイゼロってとこじゃない"
-          },
-          {
-            "stringId": 2212906778007134208,
-            "femaleVariant": "782B6Z^ふん、州境{しゅうざかい}を封{ふう}鎖{さ}したら誰{だれ}も出{で}て行{い}かない。そこまで頭{あたま}がまわらなかったか？"
-          },
-          {
-            "stringId": 2212907477281497088,
-            "femaleVariant": "482B6Z^まあね。でも、あんたが州境{しゅうざかい}警{けい}備{び}隊{たい}に入{い}れなかった理{り}由{ゆう}はわかった"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

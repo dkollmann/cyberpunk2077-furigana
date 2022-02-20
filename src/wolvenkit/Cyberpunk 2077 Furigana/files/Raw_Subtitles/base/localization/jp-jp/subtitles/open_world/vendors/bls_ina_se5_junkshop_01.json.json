@@ -1,52 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\bls_ina_se5_junkshop_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C446BZ^ここでは何{なに}が買{か}えるの？",
+                    "maleVariant": "C446BZ^ここでは何{なに}が買{か}えるんだ？",
+                    "stringId": 1935698783862435840
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C546B004^ここには一{ひと}人{り}で？",
+                    "maleVariant": null,
+                    "stringId": 1935698783879213060
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E746B004^何{なに}を扱{あつか}ってるの？",
+                    "maleVariant": "E746B004^何{なに}を扱{あつか}ってるんだ？",
+                    "stringId": 1935698784449638404
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E746B00C^い… いろんな物{もの}だ。み、見{み}てってくれ",
+                    "maleVariant": null,
+                    "stringId": 1935698784449638412
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E946B004^ここには一{ひと}人{り}で？",
+                    "maleVariant": null,
+                    "stringId": 1935698784483192836
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E946B00C^い、今{いま}はな。み、みんな… いなくなった。もう誰{だれ}もいない",
+                    "maleVariant": null,
+                    "stringId": 1935698784483192844
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6E44DZ^な、何{なに}も買{か}わないのか？ か、買{か}わないなら構{かま}わないでくれ",
+                    "maleVariant": null,
+                    "stringId": 1976362317302255616
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1935698783862435840,
-            "femaleVariant": "C446BZ^ここでは何{なに}が買{か}えるの？",
-            "maleVariant": "C446BZ^ここでは何{なに}が買{か}えるんだ？"
-          },
-          {
-            "stringId": 1935698783879213060,
-            "femaleVariant": "C546B004^ここには一{ひと}人{り}で？"
-          },
-          {
-            "stringId": 1935698784449638404,
-            "femaleVariant": "E746B004^何{なに}を扱{あつか}ってるの？",
-            "maleVariant": "E746B004^何{なに}を扱{あつか}ってるんだ？"
-          },
-          {
-            "stringId": 1935698784449638412,
-            "femaleVariant": "E746B00C^い… いろんな物{もの}だ。み、見{み}てってくれ"
-          },
-          {
-            "stringId": 1935698784483192836,
-            "femaleVariant": "E946B004^ここには一{ひと}人{り}で？"
-          },
-          {
-            "stringId": 1935698784483192844,
-            "femaleVariant": "E946B00C^い、今{いま}はな。み、みんな… いなくなった。もう誰{だれ}もいない"
-          },
-          {
-            "stringId": 1976362317302255616,
-            "femaleVariant": "6E44DZ^な、何{なに}も買{か}わないのか？ か、買{か}わないなら構{かま}わないでくれ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

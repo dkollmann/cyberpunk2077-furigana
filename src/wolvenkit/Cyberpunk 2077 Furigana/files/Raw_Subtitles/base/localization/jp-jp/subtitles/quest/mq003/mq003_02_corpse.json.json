@@ -1,51 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\mq003\\mq003_02_corpse.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AC623Z^血{ち}まみれ。素人{しろうと}の仕{し}事{ごと}ね",
+                    "maleVariant": "AC623Z^血{ち}まみれ。素人{しろうと}の仕{し}事{ごと}だな",
+                    "stringId": 1789372348653252608
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3B623Z^応{おう}援{えん}もなしにひとりで来{き}たのね… 取{とり}引{ひき}にしくじった…？",
+                    "maleVariant": "3B623Z^応{おう}援{えん}もなしにひとりで来{き}たのか… 取{とり}引{ひき}にしくじった…？",
+                    "stringId": 1789372363937296384
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9A623004^さて、調{しら}べてみるか…",
+                    "maleVariant": "9A623004^調{しら}べてみるとするか…",
+                    "stringId": 1789378210981621764
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D7623Z^これはもう必{ひつ}要{よう}ないよね…",
+                    "maleVariant": "D7623Z^これはもう必{ひつ}要{よう}ないよな…",
+                    "stringId": 1789405210169454592
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "78623Z^まだ死{し}んで間{かん}もない…",
+                    "maleVariant": null,
+                    "stringId": 1790776711892316160
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "80623Z^死{し}後{ご}硬{こう}直{ちょく}がまだない… 長{なが}くて2、3時{じ}間{かん}ってとこね",
+                    "maleVariant": "80623Z^死{し}後{ご}硬{こう}直{ちょく}がまだない… 長{なが}くて2、3時{じ}間{かん}ってとこだな",
+                    "stringId": 1855953953139863552
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1789372348653252608,
-            "femaleVariant": "AC623Z^血{ち}まみれ。素人{しろうと}の仕{し}事{ごと}ね",
-            "maleVariant": "AC623Z^血{ち}まみれ。素人{しろうと}の仕{し}事{ごと}だな"
-          },
-          {
-            "stringId": 1789372363937296384,
-            "femaleVariant": "3B623Z^応{おう}援{えん}もなしにひとりで来{き}たのね… 取{とり}引{ひき}にしくじった…？",
-            "maleVariant": "3B623Z^応{おう}援{えん}もなしにひとりで来{き}たのか… 取{とり}引{ひき}にしくじった…？"
-          },
-          {
-            "stringId": 1789378210981621764,
-            "femaleVariant": "9A623004^さて、調{しら}べてみるか…",
-            "maleVariant": "9A623004^調{しら}べてみるとするか…"
-          },
-          {
-            "stringId": 1789405210169454592,
-            "femaleVariant": "D7623Z^これはもう必{ひつ}要{よう}ないよね…",
-            "maleVariant": "D7623Z^これはもう必{ひつ}要{よう}ないよな…"
-          },
-          {
-            "stringId": 1790776711892316160,
-            "femaleVariant": "78623Z^まだ死{し}んで間{かん}もない…"
-          },
-          {
-            "stringId": 1855953953139863552,
-            "femaleVariant": "80623Z^死{し}後{ご}硬{こう}直{ちょく}がまだない… 長{なが}くて2、3時{じ}間{かん}ってとこね",
-            "maleVariant": "80623Z^死{し}後{ご}硬{こう}直{ちょく}がまだない… 長{なが}くて2、3時{じ}間{かん}ってとこだな"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

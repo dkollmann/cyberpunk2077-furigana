@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\minor_activities\\ma_wat_nid_15_01_briefing.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9A62AZ^V、メイルストロームからサイバーサイコが出{で}た",
+                    "maleVariant": null,
+                    "stringId": 2353302675302555648
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3362AZ^お願{ねが}い、なんとしても生{い}け捕{と}りにして",
+                    "maleVariant": null,
+                    "stringId": 2353303712956588032
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2962AZ^発{はっ}症{しょう}に関{かん}係{けい}なく元{もと}から危{き}険{けん}な連{れん}中{ちゅう}よ。くれぐれも慎{しん}重{ちょう}にね",
+                    "maleVariant": null,
+                    "stringId": 2353303910357311488
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2353302675302555648,
-            "femaleVariant": "9A62AZ^V、メイルストロームからサイバーサイコが出{で}た"
-          },
-          {
-            "stringId": 2353303712956588032,
-            "femaleVariant": "3362AZ^お願{ねが}い、なんとしても生{い}け捕{と}りにして"
-          },
-          {
-            "stringId": 2353303910357311488,
-            "femaleVariant": "2962AZ^発{はっ}症{しょう}に関{かん}係{けい}なく元{もと}から危{き}険{けん}な連{れん}中{ちゅう}よ。くれぐれも慎{しん}重{ちょう}にね"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

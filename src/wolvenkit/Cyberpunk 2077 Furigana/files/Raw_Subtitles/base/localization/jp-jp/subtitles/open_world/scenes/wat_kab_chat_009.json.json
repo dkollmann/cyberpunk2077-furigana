@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_kab_chat_009.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3B69EZ^君{くん}の言葉{ことば}は100万{まん}エディーより価{か}値{ち}がある",
+                    "maleVariant": null,
+                    "stringId": 1827147855436570624
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4F69EZ^エディーを持{も}ってないからそんなことが言{い}えるんだよ",
+                    "maleVariant": null,
+                    "stringId": 1827153160056725504
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ED69EZ^君{くん}も持{も}ってないだろ",
+                    "maleVariant": null,
+                    "stringId": 1827153248606871552
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "DE69EZ^確{たし}かに。だが俺{おれ}はお前{まえ}と違{ちが}って、薄{うす}っぺらいおべんちゃらは言{い}わねえ",
+                    "maleVariant": null,
+                    "stringId": 1827153450218676224
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1827147855436570624,
-            "femaleVariant": "3B69EZ^君{くん}の言葉{ことば}は100万{まん}エディーより価{か}値{ち}がある"
-          },
-          {
-            "stringId": 1827153160056725504,
-            "femaleVariant": "4F69EZ^エディーを持{も}ってないからそんなことが言{い}えるんだよ"
-          },
-          {
-            "stringId": 1827153248606871552,
-            "femaleVariant": "ED69EZ^君{くん}も持{も}ってないだろ"
-          },
-          {
-            "stringId": 1827153450218676224,
-            "femaleVariant": "DE69EZ^確{たし}かに。だが俺{おれ}はお前{まえ}と違{ちが}って、薄{うす}っぺらいおべんちゃらは言{い}わねえ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

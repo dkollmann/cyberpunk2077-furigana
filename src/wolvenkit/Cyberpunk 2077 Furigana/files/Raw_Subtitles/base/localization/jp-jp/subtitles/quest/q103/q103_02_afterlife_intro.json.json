@@ -1,48 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q103\\q103_02_afterlife_intro.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どうも",
+                    "maleVariant": null,
+                    "stringId": 1620130073054523392
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どうも",
+                    "maleVariant": null,
+                    "stringId": 1690640330730893312
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F029FZ^調{ちょう}子{し}はどう？",
+                    "maleVariant": "F029FZ^調{ちょう}子{し}はどうだ？",
+                    "stringId": 1690640496288460800
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B129FZ^入{はい}んな",
+                    "maleVariant": null,
+                    "stringId": 1690641659167633408
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3C29FZ^入{はい}んな",
+                    "maleVariant": null,
+                    "stringId": 1690642726651555840
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9357BZ^調{ちょう}子{し}はどう？",
+                    "maleVariant": "9357BZ^調{ちょう}子{し}はどうだ？",
+                    "stringId": 1802713087885160448
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1620130073054523392,
-            "femaleVariant": "どうも"
-          },
-          {
-            "stringId": 1690640330730893312,
-            "femaleVariant": "どうも"
-          },
-          {
-            "stringId": 1690640496288460800,
-            "femaleVariant": "F029FZ^調{ちょう}子{し}はどう？",
-            "maleVariant": "F029FZ^調{ちょう}子{し}はどうだ？"
-          },
-          {
-            "stringId": 1690641659167633408,
-            "femaleVariant": "B129FZ^入{はい}んな"
-          },
-          {
-            "stringId": 1690642726651555840,
-            "femaleVariant": "3C29FZ^入{はい}んな"
-          },
-          {
-            "stringId": 1802713087885160448,
-            "femaleVariant": "9357BZ^調{ちょう}子{し}はどう？",
-            "maleVariant": "9357BZ^調{ちょう}子{し}はどうだ？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

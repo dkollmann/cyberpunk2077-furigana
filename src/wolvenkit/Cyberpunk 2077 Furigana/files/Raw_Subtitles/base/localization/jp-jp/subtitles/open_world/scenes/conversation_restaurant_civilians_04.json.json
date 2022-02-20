@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_restaurant_civilians_04.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E870AZ^他{ほか}に何{なに}か頼{たの}もうか？",
+                    "maleVariant": null,
+                    "stringId": 1969065230045585408
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D970AZ^えっと、いえ、大{だい}丈{じょう}夫{ぶ}…",
+                    "maleVariant": null,
+                    "stringId": 1969068055882407936
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8A70AZ^遠{えん}慮{りょ}するなって、会{かい}社{しゃ}持{も}ちだ",
+                    "maleVariant": null,
+                    "stringId": 1969068114686550016
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1969065230045585408,
-            "femaleVariant": "E870AZ^他{ほか}に何{なに}か頼{たの}もうか？"
-          },
-          {
-            "stringId": 1969068055882407936,
-            "femaleVariant": "D970AZ^えっと、いえ、大{だい}丈{じょう}夫{ぶ}…"
-          },
-          {
-            "stringId": 1969068114686550016,
-            "femaleVariant": "8A70AZ^遠{えん}慮{りょ}するなって、会{かい}社{しゃ}持{も}ちだ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

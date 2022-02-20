@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_023.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "DA647Z^嫌{いや}な予{よ}感{かん}がする。どうしてまだ来{こ}ないの？ 何{なに}も問{もん}題{だい}ないって言{い}ってたのに",
+                    "maleVariant": null,
+                    "stringId": 2156520533437739008
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "653BCZ^落{お}ち着{つ}け。トラブルがあったなら、俺{おれ}たちは今{いま}ここにいない",
+                    "maleVariant": null,
+                    "stringId": 2172367324411838464
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D33BCZ^それにあいつは優{ゆう}秀{しゅう}だ。例{れい}の役{やく}員{いん}のクズを仕{し}留{と}めた女{おんな}だぞ？",
+                    "maleVariant": null,
+                    "stringId": 2172367493761056768
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B43BCZ^誰{だれ}を仕{し}留{と}めようが関{かん}係{けい}ない。もしブラウンがこのことを嗅{か}ぎつけたら…",
+                    "maleVariant": null,
+                    "stringId": 2172367622089981952
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "633BCZ^証{しょう}拠{こ}はないんだ。言{い}わせておけばいい",
+                    "maleVariant": null,
+                    "stringId": 2172367788234752000
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "343BCZ^彼{かの}女{じょ}が捕{つか}まったら別{べつ}よ",
+                    "maleVariant": null,
+                    "stringId": 2172367899115372544
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "443BCZ^捕{つか}まったって何{なに}も喋{しゃべ}らないさ。秘{ひ}密{みつ}を守{まも}れない傭{よう}兵{へい}はやってけない",
+                    "maleVariant": null,
+                    "stringId": 2172368028232826880
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2156520533437739008,
-            "femaleVariant": "DA647Z^嫌{いや}な予{よ}感{かん}がする。どうしてまだ来{こ}ないの？ 何{なに}も問{もん}題{だい}ないって言{い}ってたのに"
-          },
-          {
-            "stringId": 2172367324411838464,
-            "femaleVariant": "653BCZ^落{お}ち着{つ}け。トラブルがあったなら、俺{おれ}たちは今{いま}ここにいない"
-          },
-          {
-            "stringId": 2172367493761056768,
-            "femaleVariant": "D33BCZ^それにあいつは優{ゆう}秀{しゅう}だ。例{れい}の役{やく}員{いん}のクズを仕{し}留{と}めた女{おんな}だぞ？"
-          },
-          {
-            "stringId": 2172367622089981952,
-            "femaleVariant": "B43BCZ^誰{だれ}を仕{し}留{と}めようが関{かん}係{けい}ない。もしブラウンがこのことを嗅{か}ぎつけたら…"
-          },
-          {
-            "stringId": 2172367788234752000,
-            "femaleVariant": "633BCZ^証{しょう}拠{こ}はないんだ。言{い}わせておけばいい"
-          },
-          {
-            "stringId": 2172367899115372544,
-            "femaleVariant": "343BCZ^彼{かの}女{じょ}が捕{つか}まったら別{べつ}よ"
-          },
-          {
-            "stringId": 2172368028232826880,
-            "femaleVariant": "443BCZ^捕{つか}まったって何{なに}も喋{しゃべ}らないさ。秘{ひ}密{みつ}を守{まも}れない傭{よう}兵{へい}はやってけない"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

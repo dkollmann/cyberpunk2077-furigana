@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\animated_billboards\\ab_ad_thrud.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B14EAZ^怒{いか}れ！",
+                    "maleVariant": null,
+                    "stringId": 1985322358940803072
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4144DZ^猛{たけ}れ！",
+                    "maleVariant": null,
+                    "stringId": 1993608852213649408
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B344DZ^戦{たたか}え！",
+                    "maleVariant": null,
+                    "stringId": 1993609399587098624
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3A44DZ^スルード！ 本{ほん}能{のう}に従{したが}え！",
+                    "maleVariant": null,
+                    "stringId": 1993609676729929728
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1985322358940803072,
-            "femaleVariant": "B14EAZ^怒{いか}れ！"
-          },
-          {
-            "stringId": 1993608852213649408,
-            "femaleVariant": "4144DZ^猛{たけ}れ！"
-          },
-          {
-            "stringId": 1993609399587098624,
-            "femaleVariant": "B344DZ^戦{たたか}え！"
-          },
-          {
-            "stringId": 1993609676729929728,
-            "femaleVariant": "3A44DZ^スルード！ 本{ほん}能{のう}に従{したが}え！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

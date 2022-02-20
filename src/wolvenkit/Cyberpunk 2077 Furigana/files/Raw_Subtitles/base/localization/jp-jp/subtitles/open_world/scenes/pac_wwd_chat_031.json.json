@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_wwd_chat_031.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C369EZ^昨日{きのう}はすぐそこで2体{からだ}見{み}つけたが、まだ膨{ぼう}張{ちょう}もしてなかった。頭{あたま}に弾{だん}を食{く}らってたよ",
+                    "maleVariant": null,
+                    "stringId": 2179665325831348224
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4342FZ^仕{し}方{かた}ないさ。今{こん}日{にち}はもっといい獲{え}物{もの}がいるかもな",
+                    "maleVariant": null,
+                    "stringId": 2211510122474303488
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "DD42FZ^ギャングの仕{し}業{わざ}さ。誰{だれ}かが探{さが}しにくる心{しん}配{ぱい}もない",
+                    "maleVariant": null,
+                    "stringId": 2212661038854369280
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1142FZ^持{も}ち物{もの}をいくつか頂{いただ}いて、後{のち}は砂{すな}の上{うえ}に放{ほうっ}っといた。そのうち波{なみ}が連{つ}れ去{さ}ってくれるだろう",
+                    "maleVariant": null,
+                    "stringId": 2212708700978868224
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2242FZ^俺{おれ}も昨日{きのう}、1人{ひと}見{み}つけたぞ。裸{はだか}のままクロームを取{と}られて、体{からだ}を魚{さかな}にかじられてた",
+                    "maleVariant": null,
+                    "stringId": 2212709487243096064
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9442FZ^スカベンジャーか… 容{よう}赦{しゃ}ねえな",
+                    "maleVariant": null,
+                    "stringId": 2212715433390436352
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2179665325831348224,
-            "femaleVariant": "C369EZ^昨日{きのう}はすぐそこで2体{からだ}見{み}つけたが、まだ膨{ぼう}張{ちょう}もしてなかった。頭{あたま}に弾{だん}を食{く}らってたよ"
-          },
-          {
-            "stringId": 2211510122474303488,
-            "femaleVariant": "4342FZ^仕{し}方{かた}ないさ。今{こん}日{にち}はもっといい獲{え}物{もの}がいるかもな"
-          },
-          {
-            "stringId": 2212661038854369280,
-            "femaleVariant": "DD42FZ^ギャングの仕{し}業{わざ}さ。誰{だれ}かが探{さが}しにくる心{しん}配{ぱい}もない"
-          },
-          {
-            "stringId": 2212708700978868224,
-            "femaleVariant": "1142FZ^持{も}ち物{もの}をいくつか頂{いただ}いて、後{のち}は砂{すな}の上{うえ}に放{ほうっ}っといた。そのうち波{なみ}が連{つ}れ去{さ}ってくれるだろう"
-          },
-          {
-            "stringId": 2212709487243096064,
-            "femaleVariant": "2242FZ^俺{おれ}も昨日{きのう}、1人{ひと}見{み}つけたぞ。裸{はだか}のままクロームを取{と}られて、体{からだ}を魚{さかな}にかじられてた"
-          },
-          {
-            "stringId": 2212715433390436352,
-            "femaleVariant": "9442FZ^スカベンジャーか… 容{よう}赦{しゃ}ねえな"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

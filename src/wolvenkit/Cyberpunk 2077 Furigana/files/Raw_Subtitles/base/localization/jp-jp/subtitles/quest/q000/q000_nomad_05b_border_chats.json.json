@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q000\\q000_nomad_05b_border_chats.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6C405Z^ナイトシティを楽{らく}園{えん}か何{なに}かと勘{かん}違{ちが}いしてるんじゃないのか",
+                    "maleVariant": null,
+                    "stringId": 1826840345187471360
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F7405Z^仕{し}方{かた}ないだろ、ガキが多{おお}いんだから",
+                    "maleVariant": null,
+                    "stringId": 1826845102048301056
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "27405Z^手{て}を頭{あたま}の上{うえ}に！ 地{じ}面{めん}にうつ伏{ふ}せになれ！ 二{に}度{ど}は言{い}わないぞ！",
+                    "maleVariant": null,
+                    "stringId": 1885222865276522496
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3A405Z^俺{おれ}が何{なに}をしたって…！？",
+                    "maleVariant": null,
+                    "stringId": 1885223767538421760
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ちょっと、やめてよ！",
+                    "maleVariant": null,
+                    "stringId": 1885223825117827072
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B9405Z^うつ伏{ふ}せになれ！ これは命{めい}令{れい}だ！",
+                    "maleVariant": null,
+                    "stringId": 1885224014482264064
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1826840345187471360,
-            "femaleVariant": "6C405Z^ナイトシティを楽{らく}園{えん}か何{なに}かと勘{かん}違{ちが}いしてるんじゃないのか"
-          },
-          {
-            "stringId": 1826845102048301056,
-            "femaleVariant": "F7405Z^仕{し}方{かた}ないだろ、ガキが多{おお}いんだから"
-          },
-          {
-            "stringId": 1885222865276522496,
-            "femaleVariant": "27405Z^手{て}を頭{あたま}の上{うえ}に！ 地{じ}面{めん}にうつ伏{ふ}せになれ！ 二{に}度{ど}は言{い}わないぞ！"
-          },
-          {
-            "stringId": 1885223767538421760,
-            "femaleVariant": "3A405Z^俺{おれ}が何{なに}をしたって…！？"
-          },
-          {
-            "stringId": 1885223825117827072,
-            "femaleVariant": "ちょっと、やめてよ！"
-          },
-          {
-            "stringId": 1885224014482264064,
-            "femaleVariant": "B9405Z^うつ伏{ふ}せになれ！ これは命{めい}令{れい}だ！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

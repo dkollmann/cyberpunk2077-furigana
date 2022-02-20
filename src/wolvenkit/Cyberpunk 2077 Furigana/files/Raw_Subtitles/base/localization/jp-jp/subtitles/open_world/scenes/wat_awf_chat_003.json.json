@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_awf_chat_003.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3970AZ^汚{お}染{せん}レベルはどの程{てい}度{ど}なのかね？",
+                    "maleVariant": null,
+                    "stringId": 1963247775511519232
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F344DZ^ええ、ここと同{どう}等{とう}よ。赤{あか}レベル",
+                    "maleVariant": null,
+                    "stringId": 1967813427649105920
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B044DZ^高{たか}いな。住{じゅう}民{みん}の入{い}れ替{か}わりが激{はげ}しくなるだろう。病{びょう}人{にん}や死{し}者{しゃ}の多{おお}い土{と}地{ち}には、誰{だれ}も住{す}みたがらない",
+                    "maleVariant": null,
+                    "stringId": 1967813920446271488
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2844DZ^でも労{ろう}働{どう}者{しゃ}に不{ふ}足{そく}することはないわ。毎{まい}朝{あさ}のように、希{き}望{ぼう}者{しゃ}が列{れつ}をなしてるし…",
+                    "maleVariant": null,
+                    "stringId": 1967814742798290944
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6C44DZ^ふむ… 確{たし}かにそうだな…",
+                    "maleVariant": null,
+                    "stringId": 1967815396774170624
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963247775511519232,
-            "femaleVariant": "3970AZ^汚{お}染{せん}レベルはどの程{てい}度{ど}なのかね？"
-          },
-          {
-            "stringId": 1967813427649105920,
-            "femaleVariant": "F344DZ^ええ、ここと同{どう}等{とう}よ。赤{あか}レベル"
-          },
-          {
-            "stringId": 1967813920446271488,
-            "femaleVariant": "B044DZ^高{たか}いな。住{じゅう}民{みん}の入{い}れ替{か}わりが激{はげ}しくなるだろう。病{びょう}人{にん}や死{し}者{しゃ}の多{おお}い土{と}地{ち}には、誰{だれ}も住{す}みたがらない"
-          },
-          {
-            "stringId": 1967814742798290944,
-            "femaleVariant": "2844DZ^でも労{ろう}働{どう}者{しゃ}に不{ふ}足{そく}することはないわ。毎{まい}朝{あさ}のように、希{き}望{ぼう}者{しゃ}が列{れつ}をなしてるし…"
-          },
-          {
-            "stringId": 1967815396774170624,
-            "femaleVariant": "6C44DZ^ふむ… 確{たし}かにそうだな…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

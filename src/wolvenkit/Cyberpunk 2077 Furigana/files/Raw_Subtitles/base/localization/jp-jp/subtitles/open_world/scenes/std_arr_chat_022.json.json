@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_arr_chat_022.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ED76DZ^やだ、行{い}きたくない。臭{くさ}いし、パパの友達{ともだち}キモイし",
+                    "maleVariant": null,
+                    "stringId": 2167965985946390528
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "FC559Z^頼{たの}むよ。すぐ切{き}り上{あ}げるからさ",
+                    "maleVariant": null,
+                    "stringId": 2214510439408439296
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ウソばっかり",
+                    "maleVariant": null,
+                    "stringId": 2221773874861019136
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "49559Z^行{い}かなきゃダメなんだ。じゃないと本{ほん}当{とう}に病{びょう}気{き}になっちまう",
+                    "maleVariant": null,
+                    "stringId": 2221774012081868800
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "76559Z^私{わたし}はもう子{こ}供{ども}じゃないの。酔{よ}っ払{はら}いたいなら勝手{かって}にしてよ。私{わたし}を巻{ま}き込{こ}まないで",
+                    "maleVariant": null,
+                    "stringId": 2221774519642984448
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2167965985946390528,
-            "femaleVariant": "ED76DZ^やだ、行{い}きたくない。臭{くさ}いし、パパの友達{ともだち}キモイし"
-          },
-          {
-            "stringId": 2214510439408439296,
-            "femaleVariant": "FC559Z^頼{たの}むよ。すぐ切{き}り上{あ}げるからさ"
-          },
-          {
-            "stringId": 2221773874861019136,
-            "femaleVariant": "ウソばっかり"
-          },
-          {
-            "stringId": 2221774012081868800,
-            "femaleVariant": "49559Z^行{い}かなきゃダメなんだ。じゃないと本{ほん}当{とう}に病{びょう}気{き}になっちまう"
-          },
-          {
-            "stringId": 2221774519642984448,
-            "femaleVariant": "76559Z^私{わたし}はもう子{こ}供{ども}じゃないの。酔{よ}っ払{はら}いたいなら勝手{かって}にしてよ。私{わたし}を巻{ま}き込{こ}まないで"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

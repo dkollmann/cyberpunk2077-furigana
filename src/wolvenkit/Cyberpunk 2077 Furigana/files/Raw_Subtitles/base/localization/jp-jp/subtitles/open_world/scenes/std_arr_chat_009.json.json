@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_arr_chat_009.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E070AZ^自{じ}分{ぶん}んとこの人{にん}間{げん}にやらせればいいだろ",
+                    "maleVariant": null,
+                    "stringId": 1963264060534333440
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3E3BCZ^我々{われわれ}が表{おもて}立{だ}って行{こう}動{どう}するわけにはいかない",
+                    "maleVariant": null,
+                    "stringId": 1966556545382334464
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "CF3BCZ^相{あい}手{て}は著{ちょ}名{めい}人{じん}だ。我{わ}が社{しゃ}の関{かん}与{よ}を示{しめ}すような証{しょう}拠{こ}を残{のこ}すことはできない。わかるな？",
+                    "maleVariant": null,
+                    "stringId": 1966556831282872320
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "883BCZ^なるほどね… で、何{なに}をしろって言{い}うの？ 骨{ほね}の1、2本{ほん}を折{お}ればいいわけ？",
+                    "maleVariant": null,
+                    "stringId": 1966557165099139072
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "73BCZ^いや、そこまでしなくていい。ただ、バットか何{なに}かで数{すう}発{はつ}殴{なぐ}るんだ。いかにも“シックス・ストリート”風{かぜ}にな",
+                    "maleVariant": null,
+                    "stringId": 1966557510827229184
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A63BCZ^そのとき、ディクシーがよろしく言{い}ってたって伝{つた}えろ。それで向{む}こうも理{り}解{かい}するだろう",
+                    "maleVariant": null,
+                    "stringId": 1966558290883887104
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963264060534333440,
-            "femaleVariant": "E070AZ^自{じ}分{ぶん}んとこの人{にん}間{げん}にやらせればいいだろ"
-          },
-          {
-            "stringId": 1966556545382334464,
-            "femaleVariant": "3E3BCZ^我々{われわれ}が表{おもて}立{だ}って行{こう}動{どう}するわけにはいかない"
-          },
-          {
-            "stringId": 1966556831282872320,
-            "femaleVariant": "CF3BCZ^相{あい}手{て}は著{ちょ}名{めい}人{じん}だ。我{わ}が社{しゃ}の関{かん}与{よ}を示{しめ}すような証{しょう}拠{こ}を残{のこ}すことはできない。わかるな？"
-          },
-          {
-            "stringId": 1966557165099139072,
-            "femaleVariant": "883BCZ^なるほどね… で、何{なに}をしろって言{い}うの？ 骨{ほね}の1、2本{ほん}を折{お}ればいいわけ？"
-          },
-          {
-            "stringId": 1966557510827229184,
-            "femaleVariant": "73BCZ^いや、そこまでしなくていい。ただ、バットか何{なに}かで数{すう}発{はつ}殴{なぐ}るんだ。いかにも“シックス・ストリート”風{かぜ}にな"
-          },
-          {
-            "stringId": 1966558290883887104,
-            "femaleVariant": "A63BCZ^そのとき、ディクシーがよろしく言{い}ってたって伝{つた}えろ。それで向{む}こうも理{り}解{かい}するだろう"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

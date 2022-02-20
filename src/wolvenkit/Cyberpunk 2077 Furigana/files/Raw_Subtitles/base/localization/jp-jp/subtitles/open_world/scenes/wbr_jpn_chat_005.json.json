@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_jpn_chat_005.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1E69EZ^切{せつ}断{だん}し終{お}わったら、きちんと梱包{こんぽう}してね。とっておきたいの",
+                    "maleVariant": null,
+                    "stringId": 1806869639308369920
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3169EZ^本{ほん}気{き}ですか？ 売{う}れば手{しゅ}術{じゅつ}代{だい}と相{そう}殺{さい}できますよ",
+                    "maleVariant": null,
+                    "stringId": 1806871039786475520
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F569EZ^いいの。お金{きん}の問{もん}題{だい}じゃないから",
+                    "maleVariant": null,
+                    "stringId": 1806871214873501696
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "DD69EZ^わかりました。では住{じゅう}所{しょ}を。助{じょ}手{しゅ}が全{すべ}て手{て}配{はい}します",
+                    "maleVariant": null,
+                    "stringId": 1806871394859474944
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A69EZ^いえ、その必{ひつ}要{よう}はないわ。私{わたし}のインプットが持{も}って行{い}くから",
+                    "maleVariant": null,
+                    "stringId": 1806871580298043392
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6969EZ^そうですか。では、お望{のぞ}み通{とう}りに",
+                    "maleVariant": null,
+                    "stringId": 1806871779460374528
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1806869639308369920,
-            "femaleVariant": "1E69EZ^切{せつ}断{だん}し終{お}わったら、きちんと梱包{こんぽう}してね。とっておきたいの"
-          },
-          {
-            "stringId": 1806871039786475520,
-            "femaleVariant": "3169EZ^本{ほん}気{き}ですか？ 売{う}れば手{しゅ}術{じゅつ}代{だい}と相{そう}殺{さい}できますよ"
-          },
-          {
-            "stringId": 1806871214873501696,
-            "femaleVariant": "F569EZ^いいの。お金{きん}の問{もん}題{だい}じゃないから"
-          },
-          {
-            "stringId": 1806871394859474944,
-            "femaleVariant": "DD69EZ^わかりました。では住{じゅう}所{しょ}を。助{じょ}手{しゅ}が全{すべ}て手{て}配{はい}します"
-          },
-          {
-            "stringId": 1806871580298043392,
-            "femaleVariant": "A69EZ^いえ、その必{ひつ}要{よう}はないわ。私{わたし}のインプットが持{も}って行{い}くから"
-          },
-          {
-            "stringId": 1806871779460374528,
-            "femaleVariant": "6969EZ^そうですか。では、お望{のぞ}み通{とう}りに"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

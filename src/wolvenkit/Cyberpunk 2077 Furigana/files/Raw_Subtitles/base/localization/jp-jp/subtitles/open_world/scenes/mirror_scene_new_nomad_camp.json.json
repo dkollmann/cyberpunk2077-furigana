@@ -1,62 +1,110 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\mirror_scene_new_nomad_camp.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3A4E6Z^[鏡{かがみ}を見{み}る]",
+                    "maleVariant": null,
+                    "stringId": 2413972943627247616
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[やめる]",
+                    "maleVariant": null,
+                    "stringId": 2413972943828574208
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "754E6Z^[笑顔{えがお}]",
+                    "maleVariant": null,
+                    "stringId": 2520255724287582208
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "754E600C^[しかめっ面{めん}]",
+                    "maleVariant": null,
+                    "stringId": 2520255724287582220
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "754E6018^[仏頂面{ぶっちょうづら}]",
+                    "maleVariant": null,
+                    "stringId": 2520255724287582232
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[ぽかん]",
+                    "maleVariant": null,
+                    "stringId": 2520255724304359424
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "764E600C^[凝{ぎょう}視{し}]",
+                    "maleVariant": null,
+                    "stringId": 2520255724304359436
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "144E6Z^[外{がい}見{けん}を変{か}える]",
+                    "maleVariant": null,
+                    "stringId": 2888250071064666112
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "154E600C^[表{ひょう}情{じょう}を変{か}える]",
+                    "maleVariant": null,
+                    "stringId": 2888250071081443340
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "324E6Z^[戻{もど}る]",
+                    "maleVariant": null,
+                    "stringId": 2898462936862187520
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2413972943627247616,
-            "femaleVariant": "3A4E6Z^[鏡{かがみ}を見{み}る]"
-          },
-          {
-            "stringId": 2413972943828574208,
-            "femaleVariant": "[やめる]"
-          },
-          {
-            "stringId": 2520255724287582208,
-            "femaleVariant": "754E6Z^[笑顔{えがお}]"
-          },
-          {
-            "stringId": 2520255724287582220,
-            "femaleVariant": "754E600C^[しかめっ面{めん}]"
-          },
-          {
-            "stringId": 2520255724287582232,
-            "femaleVariant": "754E6018^[仏頂面{ぶっちょうづら}]"
-          },
-          {
-            "stringId": 2520255724304359424,
-            "femaleVariant": "[ぽかん]"
-          },
-          {
-            "stringId": 2520255724304359436,
-            "femaleVariant": "764E600C^[凝{ぎょう}視{し}]"
-          },
-          {
-            "stringId": 2888250071064666112,
-            "femaleVariant": "[en_us][db_db][Enable the hairdresser]"
-          },
-          {
-            "stringId": 2888250071081443340,
-            "femaleVariant": "[en_us][db_db][Make faces]"
-          },
-          {
-            "stringId": 2898462936862187520,
-            "femaleVariant": "[en_us][db_db][Go back]"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

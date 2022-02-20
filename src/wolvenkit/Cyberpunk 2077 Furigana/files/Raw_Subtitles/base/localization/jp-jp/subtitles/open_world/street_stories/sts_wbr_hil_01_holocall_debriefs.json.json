@@ -1,35 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_wbr_hil_01_holocall_debriefs.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "52513Z^静{しず}かに、ほんでもってスムーズな仕{し}事{ごと}ぶりやな。グティエレスの離{り}婚{こん}劇{げき}とは大{おお}違{ちが}いや。見{み}事{ごと}やったで、V。ご苦{く}労{ろう}さん",
+                    "maleVariant": null,
+                    "stringId": 2328653895436414976
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7D559Z^V、何{なに}を考{かんが}えとんねんな",
+                    "maleVariant": null,
+                    "stringId": 2342903326335930368
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BA559Z^無{む}駄{だ}な騒{さわ}ぎを起{お}こしよって。嫁{よめ}に続{つづ}いて、あんたにまで裏{うら}切{ぎ}られるとは、あの依{い}頼{らい}主{しゅ}もよっぽど女{おんな}運{うん}があらへんわ。ほな、この件{けん}は終{しゅう}了{りょう}や",
+                    "maleVariant": "BA559Z^誰{だれ}が騒{さわ}ぎを起{お}こせいうたんや。“こっそり”の意{い}味{み}を辞{じ}書{しょ}で調{しら}べてみたらどうや？ まあええ、この件{けん}は終{しゅう}了{りょう}や",
+                    "stringId": 2342904435460902912
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328653895436414976,
-            "femaleVariant": "52513Z^静{しず}かに、ほんでもってスムーズな仕{し}事{ごと}ぶりやな。グティエレスの離{り}婚{こん}劇{げき}とは大{おお}違{ちが}いや。見{み}事{ごと}やったで、V。ご苦{く}労{ろう}さん"
-          },
-          {
-            "stringId": 2342903326335930368,
-            "femaleVariant": "7D559Z^V、何{なに}を考{かんが}えとんねんな"
-          },
-          {
-            "stringId": 2342904435460902912,
-            "femaleVariant": "BA559Z^無{む}駄{だ}な騒{さわ}ぎを起{お}こしよって。嫁{よめ}に続{つづ}いて、あんたにまで裏{うら}切{ぎ}られるとは、あの依{い}頼{らい}主{しゅ}もよっぽど女{おんな}運{うん}があらへんわ。ほな、この件{けん}は終{しゅう}了{りょう}や",
-            "maleVariant": "BA559Z^誰{だれ}が騒{さわ}ぎを起{お}こせいうたんや。“こっそり”の意{い}味{み}を辞{じ}書{しょ}で調{しら}べてみたらどうや？ まあええ、この件{けん}は終{しゅう}了{りょう}や"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

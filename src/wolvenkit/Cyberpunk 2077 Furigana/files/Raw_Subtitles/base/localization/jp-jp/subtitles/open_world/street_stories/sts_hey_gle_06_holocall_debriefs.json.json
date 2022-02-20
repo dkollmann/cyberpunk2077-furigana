@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_hey_gle_06_holocall_debriefs.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "55C5Z^車{くるま}は持{も}ち主{ぬし}のもとに届{とど}けられた。次{つぎ}は報{ほう}酬{しゅう}をお前{まえ}のもとに届{とど}けよう",
+                    "maleVariant": null,
+                    "stringId": 2328773298531094528
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2D5C5004^V… 私{わたし}の信{しん}頼{らい}を裏{うら}切{ぎ}ってくれたな",
+                    "maleVariant": null,
+                    "stringId": 2328773312087085060
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "553BCZ^善{ぜん}を為{な}せば、善{よ}が返{かえ}ってくる。それではまたな",
+                    "maleVariant": null,
+                    "stringId": 2334381805605208064
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A6559Z^互{たが}いにこれを教{きょう}訓{くん}としよう。神{かみ}と共{とも}にあれ",
+                    "maleVariant": null,
+                    "stringId": 2338938500978937856
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328773298531094528,
-            "femaleVariant": "55C5Z^車{くるま}は持{も}ち主{ぬし}のもとに届{とど}けられた。次{つぎ}は報{ほう}酬{しゅう}をお前{まえ}のもとに届{とど}けよう"
-          },
-          {
-            "stringId": 2328773312087085060,
-            "femaleVariant": "2D5C5004^V… 私{わたし}の信{しん}頼{らい}を裏{うら}切{ぎ}ってくれたな"
-          },
-          {
-            "stringId": 2334381805605208064,
-            "femaleVariant": "553BCZ^善{ぜん}を為{な}せば、善{よ}が返{かえ}ってくる。それではまたな"
-          },
-          {
-            "stringId": 2338938500978937856,
-            "femaleVariant": "A6559Z^互{たが}いにこれを教{きょう}訓{くん}としよう。神{かみ}と共{とも}にあれ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

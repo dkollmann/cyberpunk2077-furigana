@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_north_003.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F070AZ^ノーマッドになりたければ、ノーマッドらしく話{はな}すことを心{こころ}掛{が}けるのね",
+                    "maleVariant": null,
+                    "stringId": 1973561352269111296
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C93BCZ^彼{かれ}らにとっては車{くるま}こそが世{せ}界{かい}の中{ちゅう}心{しん}であり、動{うご}いてるのは自{じ}分{ぶん}たちではなく、地{じ}面{めん}のほうなんだ",
+                    "maleVariant": null,
+                    "stringId": 1974792791749541888
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "773BCZ^気{き}づいたことがあるんだ。生{う}まれつきのノーマッドは時{じ}空{くう}に対{たい}する考{かんが}え方{かた}が違{ちが}う",
+                    "maleVariant": null,
+                    "stringId": 1974792953582567424
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A03BCZ^あのさ… ひとり言{げん}ならひとりでいる時{とき}にやってくれる？",
+                    "maleVariant": null,
+                    "stringId": 1974793044464746496
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "903BCZ^悪気{わるぎ}がないのはわかってるけど、聞{き}く人{にん}によっては見{み}下{くだ}してるように思{おも}われるかもしれない",
+                    "maleVariant": null,
+                    "stringId": 1974793082851016704
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1973561352269111296,
-            "femaleVariant": "F070AZ^ノーマッドになりたければ、ノーマッドらしく話{はな}すことを心{こころ}掛{が}けるのね"
-          },
-          {
-            "stringId": 1974792791749541888,
-            "femaleVariant": "C93BCZ^彼{かれ}らにとっては車{くるま}こそが世{せ}界{かい}の中{ちゅう}心{しん}であり、動{うご}いてるのは自{じ}分{ぶん}たちではなく、地{じ}面{めん}のほうなんだ"
-          },
-          {
-            "stringId": 1974792953582567424,
-            "femaleVariant": "773BCZ^気{き}づいたことがあるんだ。生{う}まれつきのノーマッドは時{じ}空{くう}に対{たい}する考{かんが}え方{かた}が違{ちが}う"
-          },
-          {
-            "stringId": 1974793044464746496,
-            "femaleVariant": "A03BCZ^あのさ… ひとり言{げん}ならひとりでいる時{とき}にやってくれる？"
-          },
-          {
-            "stringId": 1974793082851016704,
-            "femaleVariant": "903BCZ^悪気{わるぎ}がないのはわかってるけど、聞{き}く人{にん}によっては見{み}下{くだ}してるように思{おも}われるかもしれない"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

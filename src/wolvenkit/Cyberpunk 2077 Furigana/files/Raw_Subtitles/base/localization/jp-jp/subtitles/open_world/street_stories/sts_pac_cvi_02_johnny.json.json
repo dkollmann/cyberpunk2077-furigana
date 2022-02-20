@@ -1,30 +1,46 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_pac_cvi_02_johnny.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5B513Z^お目{め}当{あ}てのバンじゃないな",
+                    "maleVariant": null,
+                    "stringId": 1618171179893338112
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "50513Z^このタイヤ痕{あと}を見{み}ろ。トンネルの奥{おく}まで続{つづ}いてる",
+                    "maleVariant": null,
+                    "stringId": 1618182333738856448
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1618171179893338112,
-            "femaleVariant": "5B513Z^お目{め}当{あ}てのバンじゃないな"
-          },
-          {
-            "stringId": 1618182333738856448,
-            "femaleVariant": "50513Z^このタイヤ痕{あと}を見{み}ろ。トンネルの奥{おく}まで続{つづ}いてる"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

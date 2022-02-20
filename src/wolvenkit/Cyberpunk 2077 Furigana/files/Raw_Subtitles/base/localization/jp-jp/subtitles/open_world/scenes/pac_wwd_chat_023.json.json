@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_wwd_chat_023.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5E69EZ^正{しょう}直{じき}に言{い}えよ。誰{だれ}かに恵{めぐ}んでもらったのか？",
+                    "maleVariant": null,
+                    "stringId": 2179623632889307136
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5E42FZ^恵{めぐ}んでもらった？ そんな奴{やつ}いるか。俺{おれ}たちなんて存{そん}在{ざい}しないも同{どう}然{ぜん}なのに",
+                    "maleVariant": null,
+                    "stringId": 2212475721769742336
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4E42FZ^じゃあその金{きん}はどうしたんだ？",
+                    "maleVariant": null,
+                    "stringId": 2212476262667186176
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "CD42FZ^聞{き}くべき質{しつ}問{もん}は、「誰{だれ}の弱{よわ}みを握{にぎ}ったか」だ",
+                    "maleVariant": null,
+                    "stringId": 2212476870388281344
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6E42FZ^知{し}りたくもない",
+                    "maleVariant": null,
+                    "stringId": 2212477066362941440
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1142FZ^ハッ、察{さ}しがいいな",
+                    "maleVariant": null,
+                    "stringId": 2212477210831548416
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1E42FZ^お前{まえ}そのうち殺{ころ}されるぞ。わかってるのか？",
+                    "maleVariant": null,
+                    "stringId": 2212477997028667392
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5F42FZ^どうせなら腹{はら}も財{さい}布{ふ}もいっぱいで死{し}ぬさ",
+                    "maleVariant": null,
+                    "stringId": 2212481794870276096
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2179623632889307136,
-            "femaleVariant": "5E69EZ^正{しょう}直{じき}に言{い}えよ。誰{だれ}かに恵{めぐ}んでもらったのか？"
-          },
-          {
-            "stringId": 2212475721769742336,
-            "femaleVariant": "5E42FZ^恵{めぐ}んでもらった？ そんな奴{やつ}いるか。俺{おれ}たちなんて存{そん}在{ざい}しないも同{どう}然{ぜん}なのに"
-          },
-          {
-            "stringId": 2212476262667186176,
-            "femaleVariant": "4E42FZ^じゃあその金{きん}はどうしたんだ？"
-          },
-          {
-            "stringId": 2212476870388281344,
-            "femaleVariant": "CD42FZ^聞{き}くべき質{しつ}問{もん}は、「誰{だれ}の弱{よわ}みを握{にぎ}ったか」だ"
-          },
-          {
-            "stringId": 2212477066362941440,
-            "femaleVariant": "6E42FZ^知{し}りたくもない"
-          },
-          {
-            "stringId": 2212477210831548416,
-            "femaleVariant": "1142FZ^ハッ、察{さ}しがいいな"
-          },
-          {
-            "stringId": 2212477997028667392,
-            "femaleVariant": "1E42FZ^お前{まえ}そのうち殺{ころ}されるぞ。わかってるのか？"
-          },
-          {
-            "stringId": 2212481794870276096,
-            "femaleVariant": "5F42FZ^どうせなら腹{はら}も財{さい}布{ふ}もいっぱいで死{し}ぬさ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

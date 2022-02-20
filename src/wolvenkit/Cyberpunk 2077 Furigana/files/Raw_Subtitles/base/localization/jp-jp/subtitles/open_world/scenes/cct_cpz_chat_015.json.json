@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_cpz_chat_015.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "44559Z^今{こん}日{にち}はお父{とう}さんが帰{かえ}ってくる日{にち}よ",
+                    "maleVariant": null,
+                    "stringId": 2189789085601992704
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "だから？",
+                    "maleVariant": null,
+                    "stringId": 2189789192690962432
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C5559Z^今日{きょう}会{あ}わなかったら、来{らい}週{しゅう}まで一緒{いっしょ}に食{しょく}事{じ}できないの",
+                    "maleVariant": null,
+                    "stringId": 2189789616047230976
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "うん",
+                    "maleVariant": null,
+                    "stringId": 2189790346158116864
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "93559Z^お父{とう}さんは頑{がん}張{ば}ってるじゃない。そのなかでお前{まえ}のために時{じ}間{かん}を作{つく}ってくれてるの。つらい思{おも}いをさせちゃダメよ",
+                    "maleVariant": null,
+                    "stringId": 2189790852158951424
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "54559Z^はあ… じゃあこれならどう。食{しょく}事{じ}に来{く}るなら、欲{ほっ}しがってたBDを買{か}ってあげる",
+                    "maleVariant": null,
+                    "stringId": 2189792105232437248
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "うん",
+                    "maleVariant": null,
+                    "stringId": 2189804819627479040
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "81559Z^わかった。でもBDを買{か}いに行{い}くのが先{さき}ね",
+                    "maleVariant": null,
+                    "stringId": 2189839191713878016
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2189789085601992704,
-            "femaleVariant": "44559Z^今{こん}日{にち}はお父{とう}さんが帰{かえ}ってくる日{にち}よ"
-          },
-          {
-            "stringId": 2189789192690962432,
-            "femaleVariant": "だから？"
-          },
-          {
-            "stringId": 2189789616047230976,
-            "femaleVariant": "C5559Z^今日{きょう}会{あ}わなかったら、来{らい}週{しゅう}まで一緒{いっしょ}に食{しょく}事{じ}できないの"
-          },
-          {
-            "stringId": 2189790346158116864,
-            "femaleVariant": "うん"
-          },
-          {
-            "stringId": 2189790852158951424,
-            "femaleVariant": "93559Z^お父{とう}さんは頑{がん}張{ば}ってるじゃない。そのなかでお前{まえ}のために時{じ}間{かん}を作{つく}ってくれてるの。つらい思{おも}いをさせちゃダメよ"
-          },
-          {
-            "stringId": 2189792105232437248,
-            "femaleVariant": "54559Z^はあ… じゃあこれならどう。食{しょく}事{じ}に来{く}るなら、欲{ほっ}しがってたBDを買{か}ってあげる"
-          },
-          {
-            "stringId": 2189804819627479040,
-            "femaleVariant": "うん"
-          },
-          {
-            "stringId": 2189839191713878016,
-            "femaleVariant": "81559Z^わかった。でもBDを買{か}いに行{い}くのが先{さき}ね"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

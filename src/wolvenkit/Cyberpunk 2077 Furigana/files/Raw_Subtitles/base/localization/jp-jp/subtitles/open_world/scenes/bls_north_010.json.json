@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_north_010.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "でも… なかったら？",
+                    "maleVariant": null,
+                    "stringId": 1973570501220540416
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2B3BCZ^とにかく、新{あたら}しい井戸{いど}を見{み}つけるしかない",
+                    "maleVariant": null,
+                    "stringId": 1975096026674741248
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "DB3BCZ^クソ、また熱波{ねっぱ}が来{き}たら川{かわ}も干{ひ}上{あ}がるぞ… みんなに何{なん}て言{い}えばいいんだ…",
+                    "maleVariant": null,
+                    "stringId": 1975096042512433152
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7B3BCZ^20年{ねん}代{だい}に埋{う}められたシアン化{か}水{すい}素{そ}入{い}りの容{よう}器{き}が破{は}裂{れつ}したんだ",
+                    "maleVariant": null,
+                    "stringId": 1975096058081689600
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "843BCZ^え… 何{なに}があったんだ？",
+                    "maleVariant": null,
+                    "stringId": 1975096071117586432
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1C3BCZ^また井戸{いど}が汚{お}染{せん}された",
+                    "maleVariant": null,
+                    "stringId": 1975096082257657856
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1973570501220540416,
-            "femaleVariant": "でも… なかったら？"
-          },
-          {
-            "stringId": 1975096026674741248,
-            "femaleVariant": "2B3BCZ^とにかく、新{あたら}しい井戸{いど}を見{み}つけるしかない"
-          },
-          {
-            "stringId": 1975096042512433152,
-            "femaleVariant": "DB3BCZ^クソ、また熱波{ねっぱ}が来{き}たら川{かわ}も干{ひ}上{あ}がるぞ… みんなに何{なん}て言{い}えばいいんだ…"
-          },
-          {
-            "stringId": 1975096058081689600,
-            "femaleVariant": "7B3BCZ^20年{ねん}代{だい}に埋{う}められたシアン化{か}水{すい}素{そ}入{い}りの容{よう}器{き}が破{は}裂{れつ}したんだ"
-          },
-          {
-            "stringId": 1975096071117586432,
-            "femaleVariant": "843BCZ^え… 何{なに}があったんだ？"
-          },
-          {
-            "stringId": 1975096082257657856,
-            "femaleVariant": "1C3BCZ^また井戸{いど}が汚{お}染{せん}された"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

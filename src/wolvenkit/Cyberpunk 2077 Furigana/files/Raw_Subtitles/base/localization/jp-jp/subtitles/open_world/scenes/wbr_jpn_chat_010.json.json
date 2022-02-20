@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_jpn_chat_010.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F969EZ^悪{わる}くはなかったけどさ",
+                    "maleVariant": null,
+                    "stringId": 1807004728293974016
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "DC69EZ^主{しゅ}人{じん}公{こう}がなんというか、あまりにもうぶすぎて",
+                    "maleVariant": null,
+                    "stringId": 1807007364917354496
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1369EZ^何{なに}、夢{ゆめ}を持{も}ってたらうぶなわけ？",
+                    "maleVariant": null,
+                    "stringId": 1807008229128527872
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D869EZ^だってそうでしょ。大{だい}企{き}業{ぎょう}で働{はたら}きながら、夢{ゆめ}を持{も}つなんて矛{む}盾{じゅん}してる",
+                    "maleVariant": null,
+                    "stringId": 1807008395642396672
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4A69EZ^あんたはキロシで働{はたら}いてるじゃない",
+                    "maleVariant": null,
+                    "stringId": 1807008582238593024
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8B69EZ^私{わたし}が持{も}ってるのは野{や}望{ぼう}よ。夢{ゆめ}じゃない",
+                    "maleVariant": null,
+                    "stringId": 1807008737947934720
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1807004728293974016,
-            "femaleVariant": "F969EZ^悪{わる}くはなかったけどさ"
-          },
-          {
-            "stringId": 1807007364917354496,
-            "femaleVariant": "DC69EZ^主{しゅ}人{じん}公{こう}がなんというか、あまりにもうぶすぎて"
-          },
-          {
-            "stringId": 1807008229128527872,
-            "femaleVariant": "1369EZ^何{なに}、夢{ゆめ}を持{も}ってたらうぶなわけ？"
-          },
-          {
-            "stringId": 1807008395642396672,
-            "femaleVariant": "D869EZ^だってそうでしょ。大{だい}企{き}業{ぎょう}で働{はたら}きながら、夢{ゆめ}を持{も}つなんて矛{む}盾{じゅん}してる"
-          },
-          {
-            "stringId": 1807008582238593024,
-            "femaleVariant": "4A69EZ^あんたはキロシで働{はたら}いてるじゃない"
-          },
-          {
-            "stringId": 1807008737947934720,
-            "femaleVariant": "8B69EZ^私{わたし}が持{も}ってるのは野{や}望{ぼう}よ。夢{ゆめ}じゃない"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

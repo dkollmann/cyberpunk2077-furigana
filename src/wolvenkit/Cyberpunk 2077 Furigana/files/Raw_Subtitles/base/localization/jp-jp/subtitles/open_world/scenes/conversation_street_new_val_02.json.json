@@ -1,30 +1,46 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_new_val_02.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9852A00C^チューマ、あれがキイてきたときの高{こう}揚{よう}感{かん}といったら…",
+                    "maleVariant": null,
+                    "stringId": 2276540855090323468
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9952AZ^見{み}てたから、わかるって。しかし、最{さい}高{こう}にイカしたパーティーだったな…",
+                    "maleVariant": null,
+                    "stringId": 2276540855107100672
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2276540855090323468,
-            "femaleVariant": "9852A00C^チューマ、あれがキイてきたときの高{こう}揚{よう}感{かん}といったら…"
-          },
-          {
-            "stringId": 2276540855107100672,
-            "femaleVariant": "9952AZ^見{み}てたから、わかるって。しかし、最{さい}高{こう}にイカしたパーティーだったな…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

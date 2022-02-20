@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_hey_rey_08_scene.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "86377Z^あいつら動{どう}物{ぶつ}以{い}下{か}だな。限{げん}度{ど}ってもんを知{し}らねえ…",
+                    "maleVariant": null,
+                    "stringId": 1672230499448745984
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "CA377Z^ヴィコ、最{さい}近{きん}どうだ？ 浮{う}かない顔{かお}してんな",
+                    "maleVariant": null,
+                    "stringId": 1672240572287905792
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "74377Z^わかるだろ… 女{おんな}だ…",
+                    "maleVariant": null,
+                    "stringId": 1673222670951870464
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1672230499448745984,
-            "femaleVariant": "86377Z^あいつら動{どう}物{ぶつ}以{い}下{か}だな。限{げん}度{ど}ってもんを知{し}らねえ…"
-          },
-          {
-            "stringId": 1672240572287905792,
-            "femaleVariant": "CA377Z^ヴィコ、最{さい}近{きん}どうだ？ 浮{う}かない顔{かお}してんな"
-          },
-          {
-            "stringId": 1673222670951870464,
-            "femaleVariant": "74377Z^わかるだろ… 女{おんな}だ…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

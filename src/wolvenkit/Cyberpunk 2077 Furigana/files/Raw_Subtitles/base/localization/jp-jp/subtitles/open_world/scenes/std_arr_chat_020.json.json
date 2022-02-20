@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_arr_chat_020.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E776DZ^手{て}を洗{あら}いたい",
+                    "maleVariant": null,
+                    "stringId": 2167941624791224320
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AB559Z^大{だい}丈{じょう}夫{ぶ}、落{お}ち着{つ}いて。すぐに帰{かえ}れるから",
+                    "maleVariant": null,
+                    "stringId": 2214502934741618688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "66559Z^こんな不{ふ}潔{けつ}な場{ば}所{しょ}… マーサはここのモノを食{た}べて肝{かん}炎{えん}になったんだぞ？",
+                    "maleVariant": null,
+                    "stringId": 2221694310860296192
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B7559Z^私{わたし}たちはここでは食{た}べないから",
+                    "maleVariant": null,
+                    "stringId": 2221694711651209216
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "35559Z^殺菌{さっきん}しないと！ 大{だい}腸{ちょう}菌{きん}がスキャンで見{み}えた！ ウェットティッシュをくれ、もう無{む}理{り}だ",
+                    "maleVariant": null,
+                    "stringId": 2221694881268862976
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "85559Z^あとちょっとで買{か}い物{もの}終{お}わるから、ね",
+                    "maleVariant": null,
+                    "stringId": 2221695385122213888
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2167941624791224320,
-            "femaleVariant": "E776DZ^手{て}を洗{あら}いたい"
-          },
-          {
-            "stringId": 2214502934741618688,
-            "femaleVariant": "AB559Z^大{だい}丈{じょう}夫{ぶ}、落{お}ち着{つ}いて。すぐに帰{かえ}れるから"
-          },
-          {
-            "stringId": 2221694310860296192,
-            "femaleVariant": "66559Z^こんな不{ふ}潔{けつ}な場{ば}所{しょ}… マーサはここのモノを食{た}べて肝{かん}炎{えん}になったんだぞ？"
-          },
-          {
-            "stringId": 2221694711651209216,
-            "femaleVariant": "B7559Z^私{わたし}たちはここでは食{た}べないから"
-          },
-          {
-            "stringId": 2221694881268862976,
-            "femaleVariant": "35559Z^殺菌{さっきん}しないと！ 大{だい}腸{ちょう}菌{きん}がスキャンで見{み}えた！ ウェットティッシュをくれ、もう無{む}理{り}だ"
-          },
-          {
-            "stringId": 2221695385122213888,
-            "femaleVariant": "85559Z^あとちょっとで買{か}い物{もの}終{お}わるから、ね"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

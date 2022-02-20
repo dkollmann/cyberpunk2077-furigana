@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_dtn_chat_006.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1D3BCZ^これ以{い}上{じょう}見{み}過{す}ごすわけにはない。何{なん}のことかわかってるな？",
+                    "maleVariant": null,
+                    "stringId": 1963513715118292992
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5B3BCZ^言{い}ってなよ。どうせ何{なに}もしないくせに",
+                    "maleVariant": null,
+                    "stringId": 1963524457871687680
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9F3BCZ^企{き}業{ぎょう}の仕{し}事{ごと}を請{う}け負{お}ってるからって、法{ほう}を超{こ}えたつもりか？",
+                    "maleVariant": null,
+                    "stringId": 1963524845559595008
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4E3BCZ^それもある。でも一{いち}番{ばん}の理{り}由{ゆう}は、自{じ}分{ぶん}の妹{いもうと}をしょっ引{ひ}く兄{あに}なんていないってことよ！",
+                    "maleVariant": null,
+                    "stringId": 1963525119078547456
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BD3BCZ^母{かあ}さんにどんな思{おも}いをさせてるか、わかってるのか？",
+                    "maleVariant": null,
+                    "stringId": 1963525468833169408
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C33BCZ^母{かあ}さんを持{も}ち込{こ}まないで。それに、私{わたし}の仕{し}送{おく}りがなきゃ生{い}きていけないんだから",
+                    "maleVariant": null,
+                    "stringId": 1963525743811739648
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963513715118292992,
-            "femaleVariant": "1D3BCZ^これ以{い}上{じょう}見{み}過{す}ごすわけにはない。何{なん}のことかわかってるな？"
-          },
-          {
-            "stringId": 1963524457871687680,
-            "femaleVariant": "5B3BCZ^言{い}ってなよ。どうせ何{なに}もしないくせに"
-          },
-          {
-            "stringId": 1963524845559595008,
-            "femaleVariant": "9F3BCZ^企{き}業{ぎょう}の仕{し}事{ごと}を請{う}け負{お}ってるからって、法{ほう}を超{こ}えたつもりか？"
-          },
-          {
-            "stringId": 1963525119078547456,
-            "femaleVariant": "4E3BCZ^それもある。でも一{いち}番{ばん}の理{り}由{ゆう}は、自{じ}分{ぶん}の妹{いもうと}をしょっ引{ひ}く兄{あに}なんていないってことよ！"
-          },
-          {
-            "stringId": 1963525468833169408,
-            "femaleVariant": "BD3BCZ^母{かあ}さんにどんな思{おも}いをさせてるか、わかってるのか？"
-          },
-          {
-            "stringId": 1963525743811739648,
-            "femaleVariant": "C33BCZ^母{かあ}さんを持{も}ち込{こ}まないで。それに、私{わたし}の仕{し}送{おく}りがなきゃ生{い}きていけないんだから"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

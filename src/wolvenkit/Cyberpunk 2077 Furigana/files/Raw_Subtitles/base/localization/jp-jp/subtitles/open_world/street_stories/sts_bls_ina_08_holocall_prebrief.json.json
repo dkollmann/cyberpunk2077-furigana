@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_bls_ina_08_holocall_prebrief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C16F7Z^V、今{こん}回{かい}はちょっと変{か}わった仕{し}事{ごと}だ。添付{てんぷ}の住{じゅう}所{しょ}に、トレバー・ブラスの遺{い}体{たい}を届{とど}けてほしい",
+                    "maleVariant": null,
+                    "stringId": 2328838516469886976
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4A3BCZ^レイスに撃{う}ち殺{ころ}された若{わか}者{もの}さ。両{りょう}親{しん}が彼{かれ}を埋{まい}葬{そう}できるように、送{おく}り届{とど}けてほしいそうだ。手{て}を貸{か}してやってくれ",
+                    "maleVariant": null,
+                    "stringId": 2333099392610582528
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "CB3BCZ^必{ひつ}要{よう}な情{じょう}報{ほう}は添付{てんぷ}したよ",
+                    "maleVariant": null,
+                    "stringId": 2333099777026932736
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328838516469886976,
-            "femaleVariant": "C16F7Z^V、今{こん}回{かい}はちょっと変{か}わった仕{し}事{ごと}だ。添付{てんぷ}の住{じゅう}所{しょ}に、トレバー・ブラスの遺{い}体{たい}を届{とど}けてほしい"
-          },
-          {
-            "stringId": 2333099392610582528,
-            "femaleVariant": "4A3BCZ^レイスに撃{う}ち殺{ころ}された若{わか}者{もの}さ。両{りょう}親{しん}が彼{かれ}を埋{まい}葬{そう}できるように、送{おく}り届{とど}けてほしいそうだ。手{て}を貸{か}してやってくれ"
-          },
-          {
-            "stringId": 2333099777026932736,
-            "femaleVariant": "CB3BCZ^必{ひつ}要{よう}な情{じょう}報{ほう}は添付{てんぷ}したよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

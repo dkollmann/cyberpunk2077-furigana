@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_new_scv_04.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "EB52A010^FM-2030。調{しら}べてみろ。男{おとこ}の中{なか}の男{おとこ}だ。遺{い}体{たい}は今{いま}も冷{れい}凍{とう}保{ほ}存{ぞん}されてる。バーレーンだか、どこかの金{かね}持{も}ちのコレクションとしてな",
+                    "maleVariant": null,
+                    "stringId": 2276536222213120016
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l=\"rus\" o=\"Ты про Фёдорова слышал? Это с него всё началось, он всё предсказал. Остальные уже потом присоединились.\" t=\"EC52AZ^フョードルは知{し}ってるか？ 彼{かれ}こそがすべてにの始{はじ}まりだ。あらゆることを予{よ}言{げん}してる。他{ほか}の奴{やつ}はみんな猿真似{さるまね}さ\" b=\"\" a=\"\" />",
+                    "maleVariant": null,
+                    "stringId": 2276536222229897216
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "EC52A00C^だがそいつの遺{い}体{たい}は凍{とう}結{けつ}保{ほ}存{ぞん}されてるのか？ されてないよな。ほら、知{し}ったかぶりはもういいから、さっさと仕{し}事{ごと}に戻{もど}れ",
+                    "maleVariant": null,
+                    "stringId": 2276536222229897228
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2276536222213120016,
-            "femaleVariant": "EB52A010^FM-2030。調{しら}べてみろ。男{おとこ}の中{なか}の男{おとこ}だ。遺{い}体{たい}は今{いま}も冷{れい}凍{とう}保{ほ}存{ぞん}されてる。バーレーンだか、どこかの金{かね}持{も}ちのコレクションとしてな"
-          },
-          {
-            "stringId": 2276536222229897216,
-            "femaleVariant": "<kiroshi l=\"rus\" o=\"Ты про Фёдорова слышал? Это с него всё началось, он всё предсказал. Остальные уже потом присоединились.\" t=\"EC52AZ^フョードルは知{し}ってるか？ 彼{かれ}こそがすべてにの始{はじ}まりだ。あらゆることを予{よ}言{げん}してる。他{ほか}の奴{やつ}はみんな猿真似{さるまね}さ\" b=\"\" a=\"\" />"
-          },
-          {
-            "stringId": 2276536222229897228,
-            "femaleVariant": "EC52A00C^だがそいつの遺{い}体{たい}は凍{とう}結{けつ}保{ほ}存{ぞん}されてるのか？ されてないよな。ほら、知{し}ったかぶりはもういいから、さっさと仕{し}事{ごと}に戻{もど}れ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

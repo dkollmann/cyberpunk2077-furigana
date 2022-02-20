@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_arr_chat_002.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D370AZ^何{なに}も殴{なぐ}らなくても… 道{みち}に迷{まよ}ったのか聞{き}かれただけなのに",
+                    "maleVariant": null,
+                    "stringId": 1963259988687233024
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "943BCZ^道{みち}を聞{き}くふりをしてただけだ。俺{おれ}がいなかったら、お前{まえ}は今{いま}頃{ごろ}バラバラにされてゴミ袋{ふくろ}に入{い}れられてる",
+                    "maleVariant": null,
+                    "stringId": 1966219490676686848
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C93BCZ^感{かん}謝{しゃ}ならともかく、文{もん}句{く}を言{い}われる筋{すじ}合{あい}いはない",
+                    "maleVariant": null,
+                    "stringId": 1966220363444240384
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BA3BCZ^あんたの目{め}には全{すべ}ての男{おとこ}がレイプ魔{ま}か人{ひと}殺{ごろ}しに映{うつ}ってるの？",
+                    "maleVariant": null,
+                    "stringId": 1966220689610096640
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F23BCZ^最{さい}近{きん}は夜{よる}まであたしについてくるし、正{しょう}直{じき}迷{めい}惑{わく}なのよ！",
+                    "maleVariant": null,
+                    "stringId": 1966220969722494976
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "503BCZ^なんだと？ 誰{だれ}のためにやってると思{おも}ってんだ！",
+                    "maleVariant": null,
+                    "stringId": 1966221701443993600
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963259988687233024,
-            "femaleVariant": "D370AZ^何{なに}も殴{なぐ}らなくても… 道{みち}に迷{まよ}ったのか聞{き}かれただけなのに"
-          },
-          {
-            "stringId": 1966219490676686848,
-            "femaleVariant": "943BCZ^道{みち}を聞{き}くふりをしてただけだ。俺{おれ}がいなかったら、お前{まえ}は今{いま}頃{ごろ}バラバラにされてゴミ袋{ふくろ}に入{い}れられてる"
-          },
-          {
-            "stringId": 1966220363444240384,
-            "femaleVariant": "C93BCZ^感{かん}謝{しゃ}ならともかく、文{もん}句{く}を言{い}われる筋{すじ}合{あい}いはない"
-          },
-          {
-            "stringId": 1966220689610096640,
-            "femaleVariant": "BA3BCZ^あんたの目{め}には全{すべ}ての男{おとこ}がレイプ魔{ま}か人{ひと}殺{ごろ}しに映{うつ}ってるの？"
-          },
-          {
-            "stringId": 1966220969722494976,
-            "femaleVariant": "F23BCZ^最{さい}近{きん}は夜{よる}まであたしについてくるし、正{しょう}直{じき}迷{めい}惑{わく}なのよ！"
-          },
-          {
-            "stringId": 1966221701443993600,
-            "femaleVariant": "503BCZ^なんだと？ 誰{だれ}のためにやってると思{おも}ってんだ！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

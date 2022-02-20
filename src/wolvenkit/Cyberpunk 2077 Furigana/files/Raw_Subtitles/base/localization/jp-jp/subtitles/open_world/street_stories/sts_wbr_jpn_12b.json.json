@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_wbr_jpn_12b.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "38406Z^う… ひどい匂{にお}い…",
+                    "maleVariant": null,
+                    "stringId": 1296864478322778112
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C4406Z^ただの腐{ふ}敗{はい}臭{しゅう}だろ",
+                    "maleVariant": null,
+                    "stringId": 1297753457297481728
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "70406Z^酸{さん}で溶{と}かして、トイレに流{なが}すとかできないわけ…？",
+                    "maleVariant": null,
+                    "stringId": 1895049481091571712
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6D44DZ^どうせ長{なが}居{い}しないんだ、放{ほう}置{ち}でいいだろ",
+                    "maleVariant": null,
+                    "stringId": 1925891971906588672
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1296864478322778112,
-            "femaleVariant": "38406Z^う… ひどい匂{にお}い…"
-          },
-          {
-            "stringId": 1297753457297481728,
-            "femaleVariant": "C4406Z^ただの腐{ふ}敗{はい}臭{しゅう}だろ"
-          },
-          {
-            "stringId": 1895049481091571712,
-            "femaleVariant": "70406Z^酸{さん}で溶{と}かして、トイレに流{なが}すとかできないわけ…？"
-          },
-          {
-            "stringId": 1925891971906588672,
-            "femaleVariant": "6D44DZ^どうせ長{なが}居{い}しないんだ、放{ほう}置{ち}でいいだろ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

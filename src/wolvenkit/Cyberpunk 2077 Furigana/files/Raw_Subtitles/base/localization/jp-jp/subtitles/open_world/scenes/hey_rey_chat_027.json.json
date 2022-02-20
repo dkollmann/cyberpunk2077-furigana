@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_rey_chat_027.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l=\"mex\" o=\"¡¿Cuánto?! ¡¿Y solo por el servicio?!\" t=\"9C647Z^そんなにするの！？ お葬{そう}式{しき}だけで！？\" b=\"\" a=\"\" />",
+                    "maleVariant": null,
+                    "stringId": 2161949383944597504
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "80559Z^別{べつ}のところを探{さが}そう",
+                    "maleVariant": null,
+                    "stringId": 2227641977713037312
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l=\"mex\" o=\"Pero dijiste... Nuestro... ¿Le dijiste que estamos en la misma torre?\" t=\"77559Z^でもあんた… ここの人{にん}にちゃんと同{おな}じタワーの住{じゅう}人{にん}ですって言{い}ったの？\" b=\"\" a=\"\" />",
+                    "maleVariant": null,
+                    "stringId": 2227642471483281408
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "559Z^ああ。金{きん}の問{もん}題{だい}じゃない。俺{おれ}たちと関{かか}わりたくないんだ",
+                    "maleVariant": null,
+                    "stringId": 2227643581883322368
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l=\"mex\" o=\"Mi hijo no es un soplón.\" t=\"10559Z^息子{むすこ}は悪{あく}人{にん}じゃない\" b=\"\" a=\"\" />",
+                    "maleVariant": null,
+                    "stringId": 2227644578584170496
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E0559Z^わかってる。でもそう思{おも}われてるんだ",
+                    "maleVariant": null,
+                    "stringId": 2227645677290491904
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2161949383944597504,
-            "femaleVariant": "<kiroshi l=\"mex\" o=\"¡¿Cuánto?! ¡¿Y solo por el servicio?!\" t=\"9C647Z^そんなにするの！？ お葬{そう}式{しき}だけで！？\" b=\"\" a=\"\" />"
-          },
-          {
-            "stringId": 2227641977713037312,
-            "femaleVariant": "80559Z^別{べつ}のところを探{さが}そう"
-          },
-          {
-            "stringId": 2227642471483281408,
-            "femaleVariant": "<kiroshi l=\"mex\" o=\"Pero dijiste... Nuestro... ¿Le dijiste que estamos en la misma torre?\" t=\"77559Z^でもあんた… ここの人{にん}にちゃんと同{おな}じタワーの住{じゅう}人{にん}ですって言{い}ったの？\" b=\"\" a=\"\" />"
-          },
-          {
-            "stringId": 2227643581883322368,
-            "femaleVariant": "559Z^ああ。金{きん}の問{もん}題{だい}じゃない。俺{おれ}たちと関{かか}わりたくないんだ"
-          },
-          {
-            "stringId": 2227644578584170496,
-            "femaleVariant": "<kiroshi l=\"mex\" o=\"Mi hijo no es un soplón.\" t=\"10559Z^息子{むすこ}は悪{あく}人{にん}じゃない\" b=\"\" a=\"\" />"
-          },
-          {
-            "stringId": 2227645677290491904,
-            "femaleVariant": "E0559Z^わかってる。でもそう思{おも}われてるんだ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

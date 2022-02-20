@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q108\\q108_15a_lift_parking.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7F4EAZ^アシは外{そと}に停{と}めてる。お前{まえ}は？",
+                    "maleVariant": null,
+                    "stringId": 1739968971178680320
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "64EAZ^トンプソンが車{くるま}で待{ま}ってる",
+                    "maleVariant": null,
+                    "stringId": 1739969823847129088
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "FE351Z^誰{だれ}？",
+                    "maleVariant": null,
+                    "stringId": 1764931860102975488
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "98351Z^メディアだ。俺{おれ}のツレだよ",
+                    "maleVariant": null,
+                    "stringId": 1764932150449475584
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B7494Z^下{した}にもまだいるだろうね。賭{か}けてもいい",
+                    "maleVariant": null,
+                    "stringId": 2233291488421822464
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1739968971178680320,
-            "femaleVariant": "7F4EAZ^アシは外{そと}に停{と}めてる。お前{まえ}は？"
-          },
-          {
-            "stringId": 1739969823847129088,
-            "femaleVariant": "64EAZ^トンプソンが車{くるま}で待{ま}ってる"
-          },
-          {
-            "stringId": 1764931860102975488,
-            "femaleVariant": "FE351Z^誰{だれ}？"
-          },
-          {
-            "stringId": 1764932150449475584,
-            "femaleVariant": "98351Z^メディアだ。俺{おれ}のツレだよ"
-          },
-          {
-            "stringId": 2233291488421822464,
-            "femaleVariant": "B7494Z^下{した}にもまだいるだろうね。賭{か}けてもいい"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

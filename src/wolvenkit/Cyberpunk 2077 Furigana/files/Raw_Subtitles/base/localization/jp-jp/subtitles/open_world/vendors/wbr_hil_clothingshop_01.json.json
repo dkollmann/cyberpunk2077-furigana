@@ -1,47 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\wbr_hil_clothingshop_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F346BZ^売{う}り物{もの}は？",
+                    "maleVariant": null,
+                    "stringId": 1764841085785780224
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F446B004^何{なに}かおすすめは？",
+                    "maleVariant": null,
+                    "stringId": 1764841085802557444
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D346BZ^何{なに}がある？",
+                    "maleVariant": null,
+                    "stringId": 1764914950096465920
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6E46BZ^とくとご覧{らん}あれ",
+                    "maleVariant": null,
+                    "stringId": 1764915472387977216
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B846BZ^スタイルに迷{まよ}ってて。何{なに}かお勧{すす}めはある？",
+                    "maleVariant": "B846BZ^スタイルに迷{まよ}ってて。お勧{すす}めはあるか？",
+                    "stringId": 1764915916011122688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4846BZ^秋{あき}を思{おも}わせる目{め}をしてるから… チアキ・キョウトの作{さく}品{ひん}なんていかが？",
+                    "maleVariant": null,
+                    "stringId": 1764916180420046848
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1764841085785780224,
-            "femaleVariant": "F346BZ^売{う}り物{もの}は？"
-          },
-          {
-            "stringId": 1764841085802557444,
-            "femaleVariant": "F446B004^何{なに}かおすすめは？"
-          },
-          {
-            "stringId": 1764914950096465920,
-            "femaleVariant": "D346BZ^何{なに}がある？"
-          },
-          {
-            "stringId": 1764915472387977216,
-            "femaleVariant": "6E46BZ^とくとご覧{らん}あれ"
-          },
-          {
-            "stringId": 1764915916011122688,
-            "femaleVariant": "B846BZ^スタイルに迷{まよ}ってて。何{なに}かお勧{すす}めはある？",
-            "maleVariant": "B846BZ^スタイルに迷{まよ}ってて。お勧{すす}めはあるか？"
-          },
-          {
-            "stringId": 1764916180420046848,
-            "femaleVariant": "4846BZ^秋{あき}を思{おも}わせる目{め}をしてるから… チアキ・キョウトの作{さく}品{ひん}なんていかが？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

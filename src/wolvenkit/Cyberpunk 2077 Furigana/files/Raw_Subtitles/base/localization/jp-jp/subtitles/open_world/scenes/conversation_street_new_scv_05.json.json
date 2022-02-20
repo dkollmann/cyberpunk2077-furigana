@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_new_scv_05.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9052A010^コルチゾールブロッカーを入{い}れてから、体{からだ}がおかしいんだ。カブキのヤブ医{い}者{しゃ}め",
+                    "maleVariant": null,
+                    "stringId": 2276536375305216016
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9052A01C^なら返品{へんぴん}しろよ。モグリのリパードクでも保{ほ}証{しょう}ぐらいあるだろ？",
+                    "maleVariant": null,
+                    "stringId": 2276536375305216028
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9052A028^保{ほ}証{しょう}だ？ んなもんあるわけねえだろ？ それに何{なん}て言{い}えばいい？ 元{もと}カノのことを思{おも}い出{だ}してもイラつかなくなったが、クソが出{で}なくて困{こま}ってるって？ 笑{わら}い者{もの}になるのが関{かん}の山{やま}だ",
+                    "maleVariant": null,
+                    "stringId": 2276536375305216040
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2276536375305216016,
-            "femaleVariant": "9052A010^コルチゾールブロッカーを入{い}れてから、体{からだ}がおかしいんだ。カブキのヤブ医{い}者{しゃ}め"
-          },
-          {
-            "stringId": 2276536375305216028,
-            "femaleVariant": "9052A01C^なら返品{へんぴん}しろよ。モグリのリパードクでも保{ほ}証{しょう}ぐらいあるだろ？"
-          },
-          {
-            "stringId": 2276536375305216040,
-            "femaleVariant": "9052A028^保{ほ}証{しょう}だ？ んなもんあるわけねえだろ？ それに何{なん}て言{い}えばいい？ 元{もと}カノのことを思{おも}い出{だ}してもイラつかなくなったが、クソが出{で}なくて困{こま}ってるって？ 笑{わら}い者{もの}になるのが関{かん}の山{やま}だ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

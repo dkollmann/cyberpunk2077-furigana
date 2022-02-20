@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_rcr_chat_014.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6A5C5Z^ここの怠{なま}け者{もの}どもにはうんざりだ…",
+                    "maleVariant": null,
+                    "stringId": 2167583306455732224
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ホント、プライドってものがないのよね",
+                    "maleVariant": null,
+                    "stringId": 2214544611510423552
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4559Z^うちの上{うえ}の連{れん}中{ちゅう}なんか特{とく}にだ。伝{でん}説{せつ}のロッカーボーイだか何{なん}だか知{し}らないが、夜{よ}通{どお}しクスリを吸{す}ったり大{だい}音{おん}量{りょう}で音{おん}楽{がく}を流{なが}してるだけだ。おかげで一睡{いっすい}もできやしない",
+                    "maleVariant": null,
+                    "stringId": 2228790780600094720
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "24559Z^苦{く}情{じょう}を言{い}ったら、仕{し}返{かえ}しされるしね…",
+                    "maleVariant": null,
+                    "stringId": 2228826334876241920
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3B559Z^昔{むかし}はよかった。あの頃{ごろ}に戻{もど}ればいいのにな…",
+                    "maleVariant": null,
+                    "stringId": 2228826932262572032
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "CD559Z^昔{むかし}って、クズみたいな連{れん}中{ちゅう}はメガブロックに住{す}めなかった頃{ごろ}のこと？",
+                    "maleVariant": null,
+                    "stringId": 2228827845245112320
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そうだ",
+                    "maleVariant": null,
+                    "stringId": 2228829954459930624
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2167583306455732224,
-            "femaleVariant": "6A5C5Z^ここの怠{なま}け者{もの}どもにはうんざりだ…"
-          },
-          {
-            "stringId": 2214544611510423552,
-            "femaleVariant": "ホント、プライドってものがないのよね"
-          },
-          {
-            "stringId": 2228790780600094720,
-            "femaleVariant": "4559Z^うちの上{うえ}の連{れん}中{ちゅう}なんか特{とく}にだ。伝{でん}説{せつ}のロッカーボーイだか何{なん}だか知{し}らないが、夜{よ}通{どお}しクスリを吸{す}ったり大{だい}音{おん}量{りょう}で音{おん}楽{がく}を流{なが}してるだけだ。おかげで一睡{いっすい}もできやしない"
-          },
-          {
-            "stringId": 2228826334876241920,
-            "femaleVariant": "24559Z^苦{く}情{じょう}を言{い}ったら、仕{し}返{かえ}しされるしね…"
-          },
-          {
-            "stringId": 2228826932262572032,
-            "femaleVariant": "3B559Z^昔{むかし}はよかった。あの頃{ごろ}に戻{もど}ればいいのにな…"
-          },
-          {
-            "stringId": 2228827845245112320,
-            "femaleVariant": "CD559Z^昔{むかし}って、クズみたいな連{れん}中{ちゅう}はメガブロックに住{す}めなかった頃{ごろ}のこと？"
-          },
-          {
-            "stringId": 2228829954459930624,
-            "femaleVariant": "そうだ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

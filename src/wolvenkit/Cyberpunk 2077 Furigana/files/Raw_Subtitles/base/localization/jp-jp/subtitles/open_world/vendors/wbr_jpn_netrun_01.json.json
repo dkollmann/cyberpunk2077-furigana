@@ -1,44 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\wbr_jpn_netrun_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "32464Z^何{なに}か面{おも}白{しろ}いものはある？",
+                    "maleVariant": "32464Z^何{なに}か面{おも}白{しろ}いものはあるか？",
+                    "stringId": 1885166047339102208
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "32464010^何{なに}か別{べつ}の“サービス”は？",
+                    "maleVariant": null,
+                    "stringId": 1885166047339102224
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "35464004^何{なに}か面{おも}白{しろ}いもの置{お}いてる？",
+                    "maleVariant": "35464004^何{なに}か面{おも}白{しろ}いもの置{お}いてるか？",
+                    "stringId": 1885166047389433860
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "39464004^何{なに}か… 他{ほか}の“サービス”は？",
+                    "maleVariant": null,
+                    "stringId": 1885166047456542724
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3A464Z^本{ほん}業{ぎょう}の後{のち}に少{すこ}し相{あい}手{て}をしたりしてるが、今{いま}は新{あたら}しい客{きゃく}は受{う}け付{つ}けてなくてね",
+                    "maleVariant": null,
+                    "stringId": 1885166047473319936
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1885166047339102208,
-            "femaleVariant": "32464Z^何{なに}か面{おも}白{しろ}いものはある？",
-            "maleVariant": "32464Z^何{なに}か面{おも}白{しろ}いものはあるか？"
-          },
-          {
-            "stringId": 1885166047339102224,
-            "femaleVariant": "32464010^何{なに}か別{べつ}の“サービス”は？"
-          },
-          {
-            "stringId": 1885166047389433860,
-            "femaleVariant": "35464004^何{なに}か面{おも}白{しろ}いもの置{お}いてる？",
-            "maleVariant": "35464004^何{なに}か面{おも}白{しろ}いもの置{お}いてるか？"
-          },
-          {
-            "stringId": 1885166047456542724,
-            "femaleVariant": "39464004^何{なに}か… 他{ほか}の“サービス”は？"
-          },
-          {
-            "stringId": 1885166047473319936,
-            "femaleVariant": "3A464Z^本{ほん}業{ぎょう}の後{のち}に少{すこ}し相{あい}手{て}をしたりしてるが、今{いま}は新{あたら}しい客{きゃく}は受{う}け付{つ}けてなくてね"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

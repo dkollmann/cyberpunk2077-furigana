@@ -1,30 +1,46 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\minor_activities\\ma_wat_nid_03_brief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "275FZ^V、トーテンタンツから叫{さけ}び声{こえ}が聞{き}こえるらしいの。まあ、それはいつものことなんだけど――",
+                    "maleVariant": null,
+                    "stringId": 2354922090172641280
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5275FZ^今{こん}回{かい}はバンドのリハーサルじゃないかもしれない。もっと… 不{ふ}吉{きつ}なことが起{お}きてる可{か}能{のう}性{せい}もある",
+                    "maleVariant": null,
+                    "stringId": 2354990892595933184
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2354922090172641280,
-            "femaleVariant": "275FZ^V、トーテンタンツから叫{さけ}び声{こえ}が聞{き}こえるらしいの。まあ、それはいつものことなんだけど――"
-          },
-          {
-            "stringId": 2354990892595933184,
-            "femaleVariant": "5275FZ^今{こん}回{かい}はバンドのリハーサルじゃないかもしれない。もっと… 不{ふ}吉{きつ}なことが起{お}きてる可{か}能{のう}性{せい}もある"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

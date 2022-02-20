@@ -1,278 +1,502 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\mq033\\mq033_1_first_grafitti.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "DB44E004^街{まち}で変{へん}なイメージを見{み}たの",
+                    "maleVariant": "DB44E004^街{まち}で変{へん}なイメージを見{み}たんだ",
+                    "stringId": 1870736343039270916
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "544EZ^街{まち}で変{へん}なイメージを見{み}たの。ミスティならわかるかと思{おも}って",
+                    "maleVariant": "544EZ^街{まち}で変{へん}なイメージを見{み}たんだ。ミスティならわかるかと思{おも}って",
+                    "stringId": 1870741802647347200
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B144EZ^スキャンしてある。見{み}てみて",
+                    "maleVariant": "B144EZ^スキャンしてある。見{み}てくれ",
+                    "stringId": 1870747719702994944
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9244EZ^タロットカードの大{だい}アルカナね。あなたが見{み}たのは、天{てん}からのメッセージよ！",
+                    "maleVariant": null,
+                    "stringId": 1870751133681901568
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4744EZ^完{かん}全{ぜん}にイカれちゃったか、何{なに}かの神秘{しんぴ}体{たい}験{けん}ね",
+                    "maleVariant": "4744EZ^完{かん}全{ぜん}にイカれちまったか、何{なに}かの神秘{しんぴ}体{たい}験{けん}だな",
+                    "stringId": 1889427673156214784
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7544E004^その、変{へん}な壁{へき}画{が}を見{み}たんだけど",
+                    "maleVariant": "7544E004^その、変{へん}な壁{へき}画{が}を見{み}たんだが",
+                    "stringId": 1889437195870461956
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E344EZ^ねえ、笑{わら}わないでほしいんだけど、街{まち}中{なか}で変{へん}なものを見{み}かけるのよね。壁{へき}画{が}みたいなやつ。でも実際{じっさい}には存{そん}在{ざい}しないの",
+                    "maleVariant": "E344EZ^なあ、笑{わら}わないでほしいんだが、街{まち}中{なか}で変{へん}なものを見{み}かけるんだ。壁{へき}画{が}みたいなやつ。でも実際{じっさい}には存{そん}在{ざい}しない",
+                    "stringId": 1889437837666082816
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5744EZ^そりゃ… キロシのバグだな。診{み}てやるよ",
+                    "maleVariant": null,
+                    "stringId": 1889440897628954624
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3844EZ^なら、生{せい}体{たい}チップだな。脳{のう}がデータ量{りょう}に対{たい}処{しょ}できなくなってきてるか、大{だい}脳{のう}皮{ひ}質{しつ}に達{たっ}したかのどっちかだ",
+                    "maleVariant": null,
+                    "stringId": 1889441472634478592
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6244EZ^何{なん}とかできるの？",
+                    "maleVariant": "6244EZ^何{なん}とかできるか？",
+                    "stringId": 1889443449024077824
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4386Z^ううん、バグにしては複{ふく}雑{ざつ}すぎる画{が}像{ぞう}よ。シンボルみたいっていうか…",
+                    "maleVariant": "4386Z^いや、バグにしては複{ふく}雑{ざつ}すぎる画{が}像{ぞう}なんだ。シンボルみたいっていうか…",
+                    "stringId": 1915620985352511488
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A2386Z^生{せい}体{たい}チップを取{と}り除{のぞ}く方{ほう}法{ほう}を見{み}つけるしかない",
+                    "maleVariant": null,
+                    "stringId": 1915628809138757632
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "81386Z^ミスティ？ それよりヴィクターに診{み}てもらったほうがよさそうだけど… 両{りょう}方{ほう}に聞{き}いてみるか",
+                    "maleVariant": "81386Z^ミスティか？ それよりヴィクターに診{み}てもらったほうがよさそうだがな… 両{りょう}方{ほう}に聞{き}いてみるか",
+                    "stringId": 1915674051770605568
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どんなやつ？",
+                    "maleVariant": null,
+                    "stringId": 1915678095079661568
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "71386004^分{わ}かりにくいメッセージね",
+                    "maleVariant": "71386004^分{わ}かりにくいメッセージだな",
+                    "stringId": 1915681026529058820
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F386Z^大{だい}アルカナ？ 何{なに}それ？",
+                    "maleVariant": "F386Z^大{だい}アルカナ？ 何{なん}だ、それ？",
+                    "stringId": 1915681596115542016
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E6386Z^その大{だい}アルカナってのは、何{なに}なの？",
+                    "maleVariant": "E6386Z^その大{だい}アルカナってのは、何{なに}なんだ？",
+                    "stringId": 1915681818765975552
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A1386Z^タロットカード、アーキタイプ、知{ち}識{しき}の象{しょう}徴{ちょう}、人{じん}生{せい}そのもの――お好{す}きなのをどうぞ",
+                    "maleVariant": null,
+                    "stringId": 1915683273602260992
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C3386Z^いずれにしろ、タロットカードを通{とう}して天{てん}があたしに語{かた}りかけてきてるってこと？",
+                    "maleVariant": "C3386Z^いずれにしろ、タロットカードを通{とう}して天{てん}が俺{おれ}に語{かた}りかけてきてるってことか？",
+                    "stringId": 1915685739483914240
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "56386Z^シルヴァーハンドかも。それか2人{にん}ともね。今{いま}は2人{にん}で1人{にん}でしょ",
+                    "maleVariant": null,
+                    "stringId": 1915687571606233088
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7B386Z^もっとわかりやすいメッセージを送{おく}ってくれると助{たす}かるのに",
+                    "maleVariant": "7B386Z^もっとわかりやすいメッセージを送{おく}ってくれると助{たす}かるんだが",
+                    "stringId": 1915690638833639424
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5A386Z^この世{よ}は複{ふく}雑{ざつ}な迷{めい}路{ろ}だから。隅々{すみずみ}まで光{ひかり}で照{て}らしてくださいってのは、難{むずか}しいのよ",
+                    "maleVariant": null,
+                    "stringId": 1915692407806517248
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "50386Z^なるほど。で、よく知{し}らない力{ちから}が送{おく}ってきた不{ふ}可{か}解{かい}なお告{つ}げはどう解{かい}釈{しゃく}すればいいわけ？",
+                    "maleVariant": "50386Z^なるほど。で、よく知{し}らない力{ちから}が送{おく}ってきた不{ふ}可{か}解{かい}なお告{つ}げはどう解{かい}釈{しゃく}すればいいんだ？",
+                    "stringId": 1915704506561617920
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "50386Z^そうね、もっと探{さが}すといいよ。タロットは道{みち}を示{しめ}す。だからそれをたどればいいの",
+                    "maleVariant": null,
+                    "stringId": 1915708711334600704
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "29386004^そんな話{はなし}は信{しん}じない",
+                    "maleVariant": null,
+                    "stringId": 1915742640921927684
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A6386Z^見{み}つけたらどうすれば？",
+                    "maleVariant": null,
+                    "stringId": 1915742857767444480
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F7386Z^そんな話{はなし}は信{しん}じない。悪{わる}いけど、どこからか送{おく}られてきた謎{なぞ}のメッセージなんて、どうかしてる",
+                    "maleVariant": "F7386Z^そんな話{はなし}は信{しん}じない。悪{わる}いが、どこからか送{おく}られてきた謎{なぞ}のメッセージなんて、どうかしてる",
+                    "stringId": 1915743245673455616
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "66386Z^見{み}つけられたとしても、どうしたらいいのかわからない",
+                    "maleVariant": null,
+                    "stringId": 1915743316255203328
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "19386Z^まあ、私{わたし}なら無{む}視{し}はしないけど",
+                    "maleVariant": null,
+                    "stringId": 1915744938460995584
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "46386Z^とにかくたくさん探{さが}すの。見{み}つかる場{ば}所{しょ}と何{なん}らかのつながりがあるはずよ",
+                    "maleVariant": null,
+                    "stringId": 1915796126636204032
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "38386Z^見{み}えるものについて考{かんが}えてみて。きっと真{しん}実{じつ}を見{み}出{だ}す手{て}がかりなんじゃないかしら",
+                    "maleVariant": null,
+                    "stringId": 1915870949026586624
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "36386Z^真{しん}実{じつ}なんて、今{いま}のあたしにはあまり重{じゅう}要{よう}じゃないけど",
+                    "maleVariant": "36386Z^真{しん}実{じつ}なんて、今{いま}の俺{おれ}にはあまり重{じゅう}要{よう}じゃないけどな",
+                    "stringId": 1915888953495937024
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A7386Z^運{うん}命{めい}の決{けつ}断{だん}をしなければならない時{とき}が、きっとくる。その時{とき}になればわかるよ",
+                    "maleVariant": null,
+                    "stringId": 1915889891694632960
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "EA386Z^とにかく見{み}つけたら戻{もど}ってきて。解{かい}読{どく}するのを手{て}伝{つだ}ってあげるから",
+                    "maleVariant": null,
+                    "stringId": 1915892177741307904
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どうかな…",
+                    "maleVariant": null,
+                    "stringId": 1915949320251138048
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8A44EZ^あの女{おんな}の名{な}前{まえ}何{なん}だっけ、ほら…",
+                    "maleVariant": null,
+                    "stringId": 1940023565848207360
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "おい、V！",
+                    "maleVariant": null,
+                    "stringId": 1940340396173615104
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5F386Z^これ見{み}ろよ。お前{まえ}にも見{み}えてるだろ？",
+                    "maleVariant": null,
+                    "stringId": 1943456605500104704
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "これは…",
+                    "maleVariant": null,
+                    "stringId": 2072231605887623172
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ふーん…",
+                    "maleVariant": "ほう…",
+                    "stringId": 2072305371699273728
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "これは…",
+                    "maleVariant": null,
+                    "stringId": 2072306405830090752
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "んー…",
+                    "maleVariant": null,
+                    "stringId": 2072307404493873152
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "へえ…",
+                    "maleVariant": null,
+                    "stringId": 2072308283485773824
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "これは…",
+                    "maleVariant": null,
+                    "stringId": 2072309031632166912
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ふーん…",
+                    "maleVariant": "ほう…",
+                    "stringId": 2072309603282247680
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "これは…",
+                    "maleVariant": null,
+                    "stringId": 2072310308193755136
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "んー…",
+                    "maleVariant": null,
+                    "stringId": 2072310916871151616
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "へえ…",
+                    "maleVariant": null,
+                    "stringId": 2072311448507572224
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "これは…",
+                    "maleVariant": null,
+                    "stringId": 2072312010191986688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ふーん…",
+                    "maleVariant": "ほう…",
+                    "stringId": 2072312594307538944
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "これは…",
+                    "maleVariant": null,
+                    "stringId": 2072313455867912192
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "んー…",
+                    "maleVariant": null,
+                    "stringId": 2072314161853161472
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "へえ…",
+                    "maleVariant": null,
+                    "stringId": 2072315055877447680
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "へえ…",
+                    "maleVariant": null,
+                    "stringId": 2072315538272739328
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "フッ",
+                    "maleVariant": null,
+                    "stringId": 2072316026976264192
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "これは…",
+                    "maleVariant": null,
+                    "stringId": 2072316518901014528
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "んー…",
+                    "maleVariant": null,
+                    "stringId": 2072317018560061440
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "へえ…",
+                    "maleVariant": null,
+                    "stringId": 2072317713942110208
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "へえ…",
+                    "maleVariant": null,
+                    "stringId": 2082425660936347648
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1870736343039270916,
-            "femaleVariant": "DB44E004^街{まち}で変{へん}なイメージを見{み}たの",
-            "maleVariant": "DB44E004^街{まち}で変{へん}なイメージを見{み}たんだ"
-          },
-          {
-            "stringId": 1870741802647347200,
-            "femaleVariant": "544EZ^街{まち}で変{へん}なイメージを見{み}たの。ミスティならわかるかと思{おも}って",
-            "maleVariant": "544EZ^街{まち}で変{へん}なイメージを見{み}たんだ。ミスティならわかるかと思{おも}って"
-          },
-          {
-            "stringId": 1870747719702994944,
-            "femaleVariant": "B144EZ^スキャンしてある。見{み}てみて",
-            "maleVariant": "B144EZ^スキャンしてある。見{み}てくれ"
-          },
-          {
-            "stringId": 1870751133681901568,
-            "femaleVariant": "9244EZ^タロットカードの大{だい}アルカナね。あなたが見{み}たのは、天{てん}からのメッセージよ！"
-          },
-          {
-            "stringId": 1889427673156214784,
-            "femaleVariant": "4744EZ^完{かん}全{ぜん}にイカれちゃったか、何{なに}かの神秘{しんぴ}体{たい}験{けん}ね",
-            "maleVariant": "4744EZ^完{かん}全{ぜん}にイカれちまったか、何{なに}かの神秘{しんぴ}体{たい}験{けん}だな"
-          },
-          {
-            "stringId": 1889437195870461956,
-            "femaleVariant": "7544E004^その、変{へん}な壁{へき}画{が}を見{み}たんだけど",
-            "maleVariant": "7544E004^その、変{へん}な壁{へき}画{が}を見{み}たんだが"
-          },
-          {
-            "stringId": 1889437837666082816,
-            "femaleVariant": "E344EZ^ねえ、笑{わら}わないでほしいんだけど、街{まち}中{なか}で変{へん}なものを見{み}かけるのよね。壁{へき}画{が}みたいなやつ。でも実際{じっさい}には存{そん}在{ざい}しないの",
-            "maleVariant": "E344EZ^なあ、笑{わら}わないでほしいんだが、街{まち}中{なか}で変{へん}なものを見{み}かけるんだ。壁{へき}画{が}みたいなやつ。でも実際{じっさい}には存{そん}在{ざい}しない"
-          },
-          {
-            "stringId": 1889440897628954624,
-            "femaleVariant": "5744EZ^そりゃ… キロシのバグだな。診{み}てやるよ"
-          },
-          {
-            "stringId": 1889441472634478592,
-            "femaleVariant": "3844EZ^なら、生{せい}体{たい}チップだな。脳{のう}がデータ量{りょう}に対{たい}処{しょ}できなくなってきてるか、大{だい}脳{のう}皮{ひ}質{しつ}に達{たっ}したかのどっちかだ"
-          },
-          {
-            "stringId": 1889443449024077824,
-            "femaleVariant": "6244EZ^何{なん}とかできるの？",
-            "maleVariant": "6244EZ^何{なん}とかできるか？"
-          },
-          {
-            "stringId": 1915620985352511488,
-            "femaleVariant": "4386Z^ううん、バグにしては複{ふく}雑{ざつ}すぎる画{が}像{ぞう}よ。シンボルみたいっていうか…",
-            "maleVariant": "4386Z^いや、バグにしては複{ふく}雑{ざつ}すぎる画{が}像{ぞう}なんだ。シンボルみたいっていうか…"
-          },
-          {
-            "stringId": 1915628809138757632,
-            "femaleVariant": "A2386Z^生{せい}体{たい}チップを取{と}り除{のぞ}く方{ほう}法{ほう}を見{み}つけるしかない"
-          },
-          {
-            "stringId": 1915674051770605568,
-            "femaleVariant": "81386Z^ミスティ？ それよりヴィクターに診{み}てもらったほうがよさそうだけど… 両{りょう}方{ほう}に聞{き}いてみるか",
-            "maleVariant": "81386Z^ミスティか？ それよりヴィクターに診{み}てもらったほうがよさそうだがな… 両{りょう}方{ほう}に聞{き}いてみるか"
-          },
-          {
-            "stringId": 1915678095079661568,
-            "femaleVariant": "どんなやつ？"
-          },
-          {
-            "stringId": 1915681026529058820,
-            "femaleVariant": "71386004^分{わ}かりにくいメッセージね",
-            "maleVariant": "71386004^分{わ}かりにくいメッセージだな"
-          },
-          {
-            "stringId": 1915681596115542016,
-            "femaleVariant": "F386Z^大{だい}アルカナ？ 何{なに}それ？",
-            "maleVariant": "F386Z^大{だい}アルカナ？ 何{なん}だ、それ？"
-          },
-          {
-            "stringId": 1915681818765975552,
-            "femaleVariant": "E6386Z^その大{だい}アルカナってのは、何{なに}なの？",
-            "maleVariant": "E6386Z^その大{だい}アルカナってのは、何{なに}なんだ？"
-          },
-          {
-            "stringId": 1915683273602260992,
-            "femaleVariant": "A1386Z^タロットカード、アーキタイプ、知{ち}識{しき}の象{しょう}徴{ちょう}、人{じん}生{せい}そのもの――お好{す}きなのをどうぞ"
-          },
-          {
-            "stringId": 1915685739483914240,
-            "femaleVariant": "C3386Z^いずれにしろ、タロットカードを通{とう}して天{てん}があたしに語{かた}りかけてきてるってこと？",
-            "maleVariant": "C3386Z^いずれにしろ、タロットカードを通{とう}して天{てん}が俺{おれ}に語{かた}りかけてきてるってことか？"
-          },
-          {
-            "stringId": 1915687571606233088,
-            "femaleVariant": "56386Z^シルヴァーハンドかも。それか2人{にん}ともね。今{いま}は2人{にん}で1人{にん}でしょ"
-          },
-          {
-            "stringId": 1915690638833639424,
-            "femaleVariant": "7B386Z^もっとわかりやすいメッセージを送{おく}ってくれると助{たす}かるのに",
-            "maleVariant": "7B386Z^もっとわかりやすいメッセージを送{おく}ってくれると助{たす}かるんだが"
-          },
-          {
-            "stringId": 1915692407806517248,
-            "femaleVariant": "5A386Z^この世{よ}は複{ふく}雑{ざつ}な迷{めい}路{ろ}だから。隅々{すみずみ}まで光{ひかり}で照{て}らしてくださいってのは、難{むずか}しいのよ"
-          },
-          {
-            "stringId": 1915704506561617920,
-            "femaleVariant": "50386Z^なるほど。で、よく知{し}らない力{ちから}が送{おく}ってきた不{ふ}可{か}解{かい}なお告{つ}げはどう解{かい}釈{しゃく}すればいいわけ？",
-            "maleVariant": "50386Z^なるほど。で、よく知{し}らない力{ちから}が送{おく}ってきた不{ふ}可{か}解{かい}なお告{つ}げはどう解{かい}釈{しゃく}すればいいんだ？"
-          },
-          {
-            "stringId": 1915708711334600704,
-            "femaleVariant": "50386Z^そうね、もっと探{さが}すといいよ。タロットは道{みち}を示{しめ}す。だからそれをたどればいいの"
-          },
-          {
-            "stringId": 1915742640921927684,
-            "femaleVariant": "29386004^そんな話{はなし}は信{しん}じない"
-          },
-          {
-            "stringId": 1915742857767444480,
-            "femaleVariant": "A6386Z^見{み}つけたらどうすれば？"
-          },
-          {
-            "stringId": 1915743245673455616,
-            "femaleVariant": "F7386Z^そんな話{はなし}は信{しん}じない。悪{わる}いけど、どこからか送{おく}られてきた謎{なぞ}のメッセージなんて、どうかしてる",
-            "maleVariant": "F7386Z^そんな話{はなし}は信{しん}じない。悪{わる}いが、どこからか送{おく}られてきた謎{なぞ}のメッセージなんて、どうかしてる"
-          },
-          {
-            "stringId": 1915743316255203328,
-            "femaleVariant": "66386Z^見{み}つけられたとしても、どうしたらいいのかわからない"
-          },
-          {
-            "stringId": 1915744938460995584,
-            "femaleVariant": "19386Z^まあ、私{わたし}なら無{む}視{し}はしないけど"
-          },
-          {
-            "stringId": 1915796126636204032,
-            "femaleVariant": "46386Z^とにかくたくさん探{さが}すの。見{み}つかる場{ば}所{しょ}と何{なん}らかのつながりがあるはずよ"
-          },
-          {
-            "stringId": 1915870949026586624,
-            "femaleVariant": "38386Z^見{み}えるものについて考{かんが}えてみて。きっと真{しん}実{じつ}を見{み}出{だ}す手{て}がかりなんじゃないかしら"
-          },
-          {
-            "stringId": 1915888953495937024,
-            "femaleVariant": "36386Z^真{しん}実{じつ}なんて、今{いま}のあたしにはあまり重{じゅう}要{よう}じゃないけど",
-            "maleVariant": "36386Z^真{しん}実{じつ}なんて、今{いま}の俺{おれ}にはあまり重{じゅう}要{よう}じゃないけどな"
-          },
-          {
-            "stringId": 1915889891694632960,
-            "femaleVariant": "A7386Z^運{うん}命{めい}の決{けつ}断{だん}をしなければならない時{とき}が、きっとくる。その時{とき}になればわかるよ"
-          },
-          {
-            "stringId": 1915892177741307904,
-            "femaleVariant": "EA386Z^とにかく見{み}つけたら戻{もど}ってきて。解{かい}読{どく}するのを手{て}伝{つだ}ってあげるから"
-          },
-          {
-            "stringId": 1915949320251138048,
-            "femaleVariant": "どうかな…"
-          },
-          {
-            "stringId": 1940023565848207360,
-            "femaleVariant": "8A44EZ^あの女{おんな}の名{な}前{まえ}何{なん}だっけ、ほら…"
-          },
-          {
-            "stringId": 1940340396173615104,
-            "femaleVariant": "おい、V！"
-          },
-          {
-            "stringId": 1943456605500104704,
-            "femaleVariant": "5F386Z^これ見{み}ろよ。お前{まえ}にも見{み}えてるだろ？"
-          },
-          {
-            "stringId": 2072231605887623172,
-            "femaleVariant": "これは…"
-          },
-          {
-            "stringId": 2072305371699273728,
-            "femaleVariant": "ふーん…",
-            "maleVariant": "ほう…"
-          },
-          {
-            "stringId": 2072306405830090752,
-            "femaleVariant": "これは…"
-          },
-          {
-            "stringId": 2072307404493873152,
-            "femaleVariant": "んー…"
-          },
-          {
-            "stringId": 2072308283485773824,
-            "femaleVariant": "へえ…"
-          },
-          {
-            "stringId": 2072309031632166912,
-            "femaleVariant": "これは…"
-          },
-          {
-            "stringId": 2072309603282247680,
-            "femaleVariant": "ふーん…",
-            "maleVariant": "ほう…"
-          },
-          {
-            "stringId": 2072310308193755136,
-            "femaleVariant": "これは…"
-          },
-          {
-            "stringId": 2072310916871151616,
-            "femaleVariant": "んー…"
-          },
-          {
-            "stringId": 2072311448507572224,
-            "femaleVariant": "へえ…"
-          },
-          {
-            "stringId": 2072312010191986688,
-            "femaleVariant": "これは…"
-          },
-          {
-            "stringId": 2072312594307538944,
-            "femaleVariant": "ふーん…",
-            "maleVariant": "ほう…"
-          },
-          {
-            "stringId": 2072313455867912192,
-            "femaleVariant": "これは…"
-          },
-          {
-            "stringId": 2072314161853161472,
-            "femaleVariant": "んー…"
-          },
-          {
-            "stringId": 2072315055877447680,
-            "femaleVariant": "へえ…"
-          },
-          {
-            "stringId": 2072315538272739328,
-            "femaleVariant": "へえ…"
-          },
-          {
-            "stringId": 2072316026976264192,
-            "femaleVariant": "フッ"
-          },
-          {
-            "stringId": 2072316518901014528,
-            "femaleVariant": "これは…"
-          },
-          {
-            "stringId": 2072317018560061440,
-            "femaleVariant": "んー…"
-          },
-          {
-            "stringId": 2072317713942110208,
-            "femaleVariant": "へえ…"
-          },
-          {
-            "stringId": 2082425660936347648,
-            "femaleVariant": "へえ…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

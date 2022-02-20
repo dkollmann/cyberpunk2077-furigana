@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_029.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A647Z^それと、おごられた酒{さけ}は全{ぜん}部{ぶ}飲{の}まなくていいから。フィルターインプラントがあるにしてもね",
+                    "maleVariant": null,
+                    "stringId": 2156541085661556736
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "73BCZ^でも… バーも売{うり}上{あ}が必{ひつ}要{よう}でしょ？ お客{きゃく}に酒{さけ}を飲{の}ませろって、ボスも言{い}ってたじゃない",
+                    "maleVariant": null,
+                    "stringId": 2172254098906923008
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C63BCZ^ええ、そうよ。だからグラスを持{も}ってトイレに行{い}くの。そこでお酒{さけ}を捨{す}てて、代{か}わりにジュースを入{い}れる",
+                    "maleVariant": null,
+                    "stringId": 2172254557377904640
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "シャトー・ピケットでも？",
+                    "maleVariant": null,
+                    "stringId": 2172254697216000000
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A83BCZ^いい？ これは仕{し}事{ごと}なの。勤{きん}務{む}中{ちゅう}にお酒{さけ}を飲{の}む仕{し}事{ごと}がある？",
+                    "maleVariant": null,
+                    "stringId": 2172255166759944192
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "でも… シャトー・ピケットよ！？",
+                    "maleVariant": null,
+                    "stringId": 2172255484570746880
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "963BCZ^まあ、1杯{はい}くらいならいいわ",
+                    "maleVariant": null,
+                    "stringId": 2172255827882917888
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2156541085661556736,
-            "femaleVariant": "A647Z^それと、おごられた酒{さけ}は全{ぜん}部{ぶ}飲{の}まなくていいから。フィルターインプラントがあるにしてもね"
-          },
-          {
-            "stringId": 2172254098906923008,
-            "femaleVariant": "73BCZ^でも… バーも売{うり}上{あ}が必{ひつ}要{よう}でしょ？ お客{きゃく}に酒{さけ}を飲{の}ませろって、ボスも言{い}ってたじゃない"
-          },
-          {
-            "stringId": 2172254557377904640,
-            "femaleVariant": "C63BCZ^ええ、そうよ。だからグラスを持{も}ってトイレに行{い}くの。そこでお酒{さけ}を捨{す}てて、代{か}わりにジュースを入{い}れる"
-          },
-          {
-            "stringId": 2172254697216000000,
-            "femaleVariant": "シャトー・ピケットでも？"
-          },
-          {
-            "stringId": 2172255166759944192,
-            "femaleVariant": "A83BCZ^いい？ これは仕{し}事{ごと}なの。勤{きん}務{む}中{ちゅう}にお酒{さけ}を飲{の}む仕{し}事{ごと}がある？"
-          },
-          {
-            "stringId": 2172255484570746880,
-            "femaleVariant": "でも… シャトー・ピケットよ！？"
-          },
-          {
-            "stringId": 2172255827882917888,
-            "femaleVariant": "963BCZ^まあ、1杯{はい}くらいならいいわ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\animated_billboards\\ab_ad_foreign_body.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6C4EAZ^その腕{うで}、本{ほん}当{とう}に信{しん}用{よう}できますか…",
+                    "maleVariant": null,
+                    "stringId": 1985312749941334016
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2F44DZ^『異{い}物{ぶつ}反{はん}応{のう}』。インストールは自{じ}己{こ}責{せき}任{にん}で…",
+                    "maleVariant": null,
+                    "stringId": 1993586410707537920
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AF44DZ^完{かん}全{ぜん}新{しん}作{さく}ブレインダンス、好{こう}評{ひょう}発{はつ}売{ばい}中{ちゅう}！",
+                    "maleVariant": null,
+                    "stringId": 1993587001265541120
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1985312749941334016,
-            "femaleVariant": "6C4EAZ^その腕{うで}、本{ほん}当{とう}に信{しん}用{よう}できますか…"
-          },
-          {
-            "stringId": 1993586410707537920,
-            "femaleVariant": "2F44DZ^『異{い}物{ぶつ}反{はん}応{のう}』。インストールは自{じ}己{こ}責{せき}任{にん}で…"
-          },
-          {
-            "stringId": 1993587001265541120,
-            "femaleVariant": "AF44DZ^完{かん}全{ぜん}新{しん}作{さく}ブレインダンス、好{こう}評{ひょう}発{はつ}売{ばい}中{ちゅう}！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

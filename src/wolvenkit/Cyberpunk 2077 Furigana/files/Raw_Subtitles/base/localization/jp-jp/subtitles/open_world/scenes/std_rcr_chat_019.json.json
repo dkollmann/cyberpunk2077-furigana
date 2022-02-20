@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_rcr_chat_019.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "305C5Z^先{せん}生{せい}、“ランチ”はいつものところに置{お}いといたから",
+                    "maleVariant": null,
+                    "stringId": 2167621766914789376
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AC559Z^そうか、ありがとう。急{いそ}げばまだひと吸{す}いできるかな。お母{かあ}さんに言{い}っといてくれ。おたくのスティムはこの街{まち}一{いち}番{ばん}だって",
+                    "maleVariant": null,
+                    "stringId": 2214562282616492032
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "79559Z^先{せん}生{せい}、話{わ}題{だい}変{か}えて。学校{がっこう}の話{はなし}がいい",
+                    "maleVariant": null,
+                    "stringId": 2229078090105327616
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C1559Z^え、何{なん}だって？",
+                    "maleVariant": null,
+                    "stringId": 2229078409140867072
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A9559Z^誰{だれ}かが聞{き}いてるかも…",
+                    "maleVariant": null,
+                    "stringId": 2229078468867756032
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "21559Z^ああ、そうか… じゃあ、昔{むかし}の学校{がっこう}はブレインダンスがなかったって知{し}ってるかい？ 今{いま}と違{ちが}って、本{ほん}を読{よ}まないといけなかったんだ。そうやって知{ち}識{しき}を吸{す}って… じゃなくて、吸{きゅう}収{しゅう}したんだ",
+                    "maleVariant": null,
+                    "stringId": 2229079029226770432
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ええ、バーチャがなかったの？ それってすっっっごくつまらなそう",
+                    "maleVariant": null,
+                    "stringId": 2229080389926096896
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2167621766914789376,
-            "femaleVariant": "305C5Z^先{せん}生{せい}、“ランチ”はいつものところに置{お}いといたから"
-          },
-          {
-            "stringId": 2214562282616492032,
-            "femaleVariant": "AC559Z^そうか、ありがとう。急{いそ}げばまだひと吸{す}いできるかな。お母{かあ}さんに言{い}っといてくれ。おたくのスティムはこの街{まち}一{いち}番{ばん}だって"
-          },
-          {
-            "stringId": 2229078090105327616,
-            "femaleVariant": "79559Z^先{せん}生{せい}、話{わ}題{だい}変{か}えて。学校{がっこう}の話{はなし}がいい"
-          },
-          {
-            "stringId": 2229078409140867072,
-            "femaleVariant": "C1559Z^え、何{なん}だって？"
-          },
-          {
-            "stringId": 2229078468867756032,
-            "femaleVariant": "A9559Z^誰{だれ}かが聞{き}いてるかも…"
-          },
-          {
-            "stringId": 2229079029226770432,
-            "femaleVariant": "21559Z^ああ、そうか… じゃあ、昔{むかし}の学校{がっこう}はブレインダンスがなかったって知{し}ってるかい？ 今{いま}と違{ちが}って、本{ほん}を読{よ}まないといけなかったんだ。そうやって知{ち}識{しき}を吸{す}って… じゃなくて、吸{きゅう}収{しゅう}したんだ"
-          },
-          {
-            "stringId": 2229080389926096896,
-            "femaleVariant": "ええ、バーチャがなかったの？ それってすっっっごくつまらなそう"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

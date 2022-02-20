@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_rcr_chat_024.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "FD5C5Z^今{いま}すぐ代{だい}車{しゃ}を用{よう}意{い}してくれ。車{くるま}が故{こ}障{しょう}したんだ。故{こ}障{しょう}だよ、こ・しょ・う！ わかるか？",
+                    "maleVariant": null,
+                    "stringId": 2167652664053878784
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "612B6Z^そうだ、間{ま}違{ちが}いなく壊{こわ}れてる。バッテリーが死{し}んでるんだ",
+                    "maleVariant": null,
+                    "stringId": 2217271112934055936
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "EB2B6Z^いや、燃{ねん}料{りょう}計{けい}を見{み}てどうする、このバカ！ エンジンがかからないから、そもそも動{うご}かないんだよ！",
+                    "maleVariant": null,
+                    "stringId": 2217271553335975936
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "952B6Z^バッテリーだって言{い}ってるだろ！",
+                    "maleVariant": null,
+                    "stringId": 2217272247677837312
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D62B6Z^そうだ、人{にん}間{げん}のオペレーターに代{か}われ。話{はなし}が通{つう}じないにも程{ほど}があるぞ、このボケ！",
+                    "maleVariant": null,
+                    "stringId": 2217272734099660800
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BA2B6Z^お前{まえ}じゃなきゃ何{なん}でもいい… くたばれポンコツAI！",
+                    "maleVariant": null,
+                    "stringId": 2217273352105189376
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2167652664053878784,
-            "femaleVariant": "FD5C5Z^今{いま}すぐ代{だい}車{しゃ}を用{よう}意{い}してくれ。車{くるま}が故{こ}障{しょう}したんだ。故{こ}障{しょう}だよ、こ・しょ・う！ わかるか？"
-          },
-          {
-            "stringId": 2217271112934055936,
-            "femaleVariant": "612B6Z^そうだ、間{ま}違{ちが}いなく壊{こわ}れてる。バッテリーが死{し}んでるんだ"
-          },
-          {
-            "stringId": 2217271553335975936,
-            "femaleVariant": "EB2B6Z^いや、燃{ねん}料{りょう}計{けい}を見{み}てどうする、このバカ！ エンジンがかからないから、そもそも動{うご}かないんだよ！"
-          },
-          {
-            "stringId": 2217272247677837312,
-            "femaleVariant": "952B6Z^バッテリーだって言{い}ってるだろ！"
-          },
-          {
-            "stringId": 2217272734099660800,
-            "femaleVariant": "D62B6Z^そうだ、人{にん}間{げん}のオペレーターに代{か}われ。話{はなし}が通{つう}じないにも程{ほど}があるぞ、このボケ！"
-          },
-          {
-            "stringId": 2217273352105189376,
-            "femaleVariant": "BA2B6Z^お前{まえ}じゃなきゃ何{なん}でもいい… くたばれポンコツAI！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\sq017\\sq017_02_coffee_cart.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "33401Z^乗{の}れよ。ドライブしよう",
+                    "maleVariant": null,
+                    "stringId": 1334245288012943360
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3A653010^よく来{き}てくれた、助{たす}かる",
+                    "maleVariant": null,
+                    "stringId": 1764883740299178000
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7E649Z^[ケリーを待{ま}つ]",
+                    "maleVariant": null,
+                    "stringId": 2098303916644274176
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E3653004^[乗{の}る]",
+                    "maleVariant": null,
+                    "stringId": 2140125427944206340
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1334245288012943360,
-            "femaleVariant": "33401Z^乗{の}れよ。ドライブしよう"
-          },
-          {
-            "stringId": 1764883740299178000,
-            "femaleVariant": "3A653010^よく来{き}てくれた、助{たす}かる"
-          },
-          {
-            "stringId": 2098303916644274176,
-            "femaleVariant": "7E649Z^[ケリーを待{ま}つ]"
-          },
-          {
-            "stringId": 2140125427944206340,
-            "femaleVariant": "E3653004^[乗{の}る]"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_001.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "すみません、このあたりにいいレストランはありませんか？",
+                    "maleVariant": null,
+                    "stringId": 1802364343957446656
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6169EZ^クソでも食{くっ}ってろ",
+                    "maleVariant": null,
+                    "stringId": 1802374897027637248
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "え…？",
+                    "maleVariant": null,
+                    "stringId": 1802375562059702272
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6869EZ^気{き}安{やす}く話{はな}しかけんじゃねえよ",
+                    "maleVariant": null,
+                    "stringId": 1802375889282523136
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1C69EZ^これだから観{かん}光{こう}客{きゃく}はよ。何{なに}が「いいレストラン」だ。ふざけやがって",
+                    "maleVariant": null,
+                    "stringId": 1802376218719936512
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1E69EZ^何{なに}様{さま}だよな",
+                    "maleVariant": null,
+                    "stringId": 1802376652545187840
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1802364343957446656,
-            "femaleVariant": "すみません、このあたりにいいレストランはありませんか？"
-          },
-          {
-            "stringId": 1802374897027637248,
-            "femaleVariant": "6169EZ^クソでも食{くっ}ってろ"
-          },
-          {
-            "stringId": 1802375562059702272,
-            "femaleVariant": "え…？"
-          },
-          {
-            "stringId": 1802375889282523136,
-            "femaleVariant": "6869EZ^気{き}安{やす}く話{はな}しかけんじゃねえよ"
-          },
-          {
-            "stringId": 1802376218719936512,
-            "femaleVariant": "1C69EZ^これだから観{かん}光{こう}客{きゃく}はよ。何{なに}が「いいレストラン」だ。ふざけやがって"
-          },
-          {
-            "stringId": 1802376652545187840,
-            "femaleVariant": "1E69EZ^何{なに}様{さま}だよな"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

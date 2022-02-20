@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_new_mls_05.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2F52A008^うまく外{はず}せなくてな。もう少{すこ}し上{うえ}から切{き}り落{お}とすべきだった",
+                    "maleVariant": null,
+                    "stringId": 2276534513956986888
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2F52A014^両{りょう}脚{あし}ごっそりか？",
+                    "maleVariant": null,
+                    "stringId": 2276534513956986900
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2F52A020^ああ、ミリテク製{せい}のチタン骨{ほね}を入{い}れててな。状{じょう}態{たい}もいい。何{なに}ならいるか？",
+                    "maleVariant": null,
+                    "stringId": 2276534513956986912
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2276534513956986888,
-            "femaleVariant": "2F52A008^うまく外{はず}せなくてな。もう少{すこ}し上{うえ}から切{き}り落{お}とすべきだった"
-          },
-          {
-            "stringId": 2276534513956986900,
-            "femaleVariant": "2F52A014^両{りょう}脚{あし}ごっそりか？"
-          },
-          {
-            "stringId": 2276534513956986912,
-            "femaleVariant": "2F52A020^ああ、ミリテク製{せい}のチタン骨{ほね}を入{い}れててな。状{じょう}態{たい}もいい。何{なに}ならいるか？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

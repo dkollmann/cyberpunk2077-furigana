@@ -1,30 +1,46 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_bls_ina_02_holocall_prebrief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2846BZ^V、ビッグ・ピートって名{めい}のテッキーがバッドランズに現{あらわ}れた。でもそいつがいると不{ふ}都{つ}合{ごう}でね… わかるだろう？",
+                    "maleVariant": null,
+                    "stringId": 2328540069507805184
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "963BCZ^そいつの詳{しょう}細{さい}を送{おく}っておくよ",
+                    "maleVariant": null,
+                    "stringId": 2332948052123041792
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328540069507805184,
-            "femaleVariant": "2846BZ^V、ビッグ・ピートって名{めい}のテッキーがバッドランズに現{あらわ}れた。でもそいつがいると不{ふ}都{つ}合{ごう}でね… わかるだろう？"
-          },
-          {
-            "stringId": 2332948052123041792,
-            "femaleVariant": "963BCZ^そいつの詳{しょう}細{さい}を送{おく}っておくよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

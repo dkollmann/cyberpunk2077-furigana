@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_new_6th_03.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9F52A010^「神{しん}経{けい}衰{すい}弱{じゃく}」？ 「安{あん}静{せい}にする必{ひつ}要{よう}がある」？ ざけんな、誰{だれ}があいつの精{せい}神{しん}鑑{かん}定{てい}なんか頼{たの}んだ？",
+                    "maleVariant": null,
+                    "stringId": 2276529692587761680
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9F52A01C^奴{やつ}は問{もん}題{だい}を抱{かか}えてるんだ。もう一{いち}度{ど}チャンスをやれよ。力{ちから}になってやろうぜ",
+                    "maleVariant": null,
+                    "stringId": 2276529692587761692
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A052AZ^何{なに}が問{もん}題{だい}だ。あいつが問{もん}題{だい}そのものじゃねえか！",
+                    "maleVariant": null,
+                    "stringId": 2276529692604538880
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2276529692587761680,
-            "femaleVariant": "9F52A010^「神{しん}経{けい}衰{すい}弱{じゃく}」？ 「安{あん}静{せい}にする必{ひつ}要{よう}がある」？ ざけんな、誰{だれ}があいつの精{せい}神{しん}鑑{かん}定{てい}なんか頼{たの}んだ？"
-          },
-          {
-            "stringId": 2276529692587761692,
-            "femaleVariant": "9F52A01C^奴{やつ}は問{もん}題{だい}を抱{かか}えてるんだ。もう一{いち}度{ど}チャンスをやれよ。力{ちから}になってやろうぜ"
-          },
-          {
-            "stringId": 2276529692604538880,
-            "femaleVariant": "A052AZ^何{なに}が問{もん}題{だい}だ。あいつが問{もん}題{だい}そのものじゃねえか！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

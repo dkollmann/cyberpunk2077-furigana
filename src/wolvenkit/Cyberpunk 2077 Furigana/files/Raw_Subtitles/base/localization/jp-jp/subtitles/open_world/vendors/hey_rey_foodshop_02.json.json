@@ -1,44 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\hey_rey_foodshop_02.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "90464Z^飲{の}み物{もの}は何{なに}がある？",
+                    "maleVariant": null,
+                    "stringId": 1863266873962283008
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "90464010^面{おも}白{しろ}い場{ば}所{しょ}ね",
+                    "maleVariant": "90464010^面{おも}白{しろ}い場{ば}所{しょ}だな",
+                    "stringId": 1863266873962283024
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "94464004^飲{の}み物{もの}は何{なに}があるの？",
+                    "maleVariant": "94464004^飲{の}み物{もの}は何{なに}がある？",
+                    "stringId": 1863266874029391876
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9446400C^色々{いろいろ}揃{そろ}えてるよ。こんな場{ば}所{しょ}だからな、客{きゃく}には気兼{きが}ねなく楽{たの}しんでもらいたいのさ…",
+                    "maleVariant": null,
+                    "stringId": 1863266874029391884
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "98464004^変{か}わった店{みせ}ね。仕{し}事{ごと}は楽{たの}しい？",
+                    "maleVariant": "98464004^変{か}わった店{みせ}だ。仕{し}事{ごと}は楽{たの}しいか？",
+                    "stringId": 1863266874096500740
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9846400C^だいたい満足{まんぞく}してるよ。ただキラキラがな… どうも完{かん}全{ぜん}にはやめられなくて",
+                    "maleVariant": null,
+                    "stringId": 1863266874096500748
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1863266873962283008,
-            "femaleVariant": "90464Z^飲{の}み物{もの}は何{なに}がある？"
-          },
-          {
-            "stringId": 1863266873962283024,
-            "femaleVariant": "90464010^面{おも}白{しろ}い場{ば}所{しょ}ね",
-            "maleVariant": "90464010^面{おも}白{しろ}い場{ば}所{しょ}だな"
-          },
-          {
-            "stringId": 1863266874029391884,
-            "femaleVariant": "9446400C^色々{いろいろ}揃{そろ}えてるよ。こんな場{ば}所{しょ}だからな、客{きゃく}には気兼{きが}ねなく楽{たの}しんでもらいたいのさ…"
-          },
-          {
-            "stringId": 1863266874096500740,
-            "femaleVariant": "98464004^変{か}わった店{みせ}ね。仕{し}事{ごと}は楽{たの}しい？",
-            "maleVariant": "98464004^変{か}わった店{みせ}だ。仕{し}事{ごと}は楽{たの}しいか？"
-          },
-          {
-            "stringId": 1863266874096500748,
-            "femaleVariant": "9846400C^だいたい満足{まんぞく}してるよ。ただキラキラがな… どうも完{かん}全{ぜん}にはやめられなくて"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

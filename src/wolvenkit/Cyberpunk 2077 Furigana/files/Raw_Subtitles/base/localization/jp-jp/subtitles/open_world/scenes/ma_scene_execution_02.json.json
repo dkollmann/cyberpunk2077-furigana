@@ -1,30 +1,46 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\ma_scene_execution_02.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2B720Z^惨{さん}めな人{にん}間{げん}には、惨{さん}めな死{し}がお似{に}合{あ}いだよ！",
+                    "maleVariant": null,
+                    "stringId": 2006841229474660352
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F720Z^どうしたの？ 何{なに}か言{い}うことはないわけ？ とんだ負{ま}け犬{いぬ}ね",
+                    "maleVariant": null,
+                    "stringId": 2006841293429407744
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2006841229474660352,
-            "femaleVariant": "2B720Z^惨{さん}めな人{にん}間{げん}には、惨{さん}めな死{し}がお似{に}合{あ}いだよ！"
-          },
-          {
-            "stringId": 2006841293429407744,
-            "femaleVariant": "F720Z^どうしたの？ 何{なに}か言{い}うことはないわけ？ とんだ負{ま}け犬{いぬ}ね"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

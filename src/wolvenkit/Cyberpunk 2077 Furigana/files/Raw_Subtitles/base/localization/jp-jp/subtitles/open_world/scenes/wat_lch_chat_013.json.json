@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_013.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "で？ どうするんだ？",
+                    "maleVariant": null,
+                    "stringId": 2156382363349970944
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "やるしかないだろ？ インプラントをつけなきゃ、クビになっちまう",
+                    "maleVariant": null,
+                    "stringId": 2167862567324930048
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C044DZ^そうだが… “脳{のう}波{は}トラッキング”だぞ？ 本{ほん}部{ぶ}に思{し}考{こう}を読{よ}まれることになる。それも常{つね}に",
+                    "maleVariant": null,
+                    "stringId": 2167862923152904192
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F844DZ^別{べつ}にいい。読{よ}まれて困{こま}るようなことは考{かんが}えてない",
+                    "maleVariant": null,
+                    "stringId": 2167865599857053696
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2156382363349970944,
-            "femaleVariant": "で？ どうするんだ？"
-          },
-          {
-            "stringId": 2167862567324930048,
-            "femaleVariant": "やるしかないだろ？ インプラントをつけなきゃ、クビになっちまう"
-          },
-          {
-            "stringId": 2167862923152904192,
-            "femaleVariant": "C044DZ^そうだが… “脳{のう}波{は}トラッキング”だぞ？ 本{ほん}部{ぶ}に思{し}考{こう}を読{よ}まれることになる。それも常{つね}に"
-          },
-          {
-            "stringId": 2167865599857053696,
-            "femaleVariant": "F844DZ^別{べつ}にいい。読{よ}まれて困{こま}るようなことは考{かんが}えてない"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_dtn_chat_029.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E63BBZ^あの新{しん}作{さく}スーツ、いいな。一風{いっぷう}変{か}わったテイストだが、さりげない",
+                    "maleVariant": null,
+                    "stringId": 2172242991567843328
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C13BCZ^ヘビ皮{かわ}にシルバーのやつ？ 飽{あ}きのこない、いい組{く}み合{あ}わせね。きっと似{に}合{あ}うと思{おも}う",
+                    "maleVariant": null,
+                    "stringId": 2179485031657619456
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D13BCZ^ゼインに派{は}手{で}なのは似{に}合{あ}わないと言{い}われてるんだよな",
+                    "maleVariant": null,
+                    "stringId": 2179485319688863744
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A03BCZ^気{き}にしなくていいわよ…！ 自{じ}分{ぶん}へのご褒{ほう}美{び}に買{か}ったら？ ダメなら誰{だれ}かにあげるか捨{す}てればいいんだし",
+                    "maleVariant": null,
+                    "stringId": 2179485469190635520
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AF3BCZ^そのうち人{じん}工{こう}の類{るい}似{じ}品{ひん}が出{で}たら、着{き}る機{き}会{かい}を逃{のが}したって後{こう}悔{かい}することになるわよ",
+                    "maleVariant": null,
+                    "stringId": 2179485873169219584
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A03BCZ^ふむ、確{たし}かに",
+                    "maleVariant": null,
+                    "stringId": 2179486143500500992
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "903BCZ^んー… 買{か}うべきか、買{か}わざるべきか…",
+                    "maleVariant": null,
+                    "stringId": 2179486327915659264
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2172242991567843328,
-            "femaleVariant": "E63BBZ^あの新{しん}作{さく}スーツ、いいな。一風{いっぷう}変{か}わったテイストだが、さりげない"
-          },
-          {
-            "stringId": 2179485031657619456,
-            "femaleVariant": "C13BCZ^ヘビ皮{かわ}にシルバーのやつ？ 飽{あ}きのこない、いい組{く}み合{あ}わせね。きっと似{に}合{あ}うと思{おも}う"
-          },
-          {
-            "stringId": 2179485319688863744,
-            "femaleVariant": "D13BCZ^ゼインに派{は}手{で}なのは似{に}合{あ}わないと言{い}われてるんだよな"
-          },
-          {
-            "stringId": 2179485469190635520,
-            "femaleVariant": "A03BCZ^気{き}にしなくていいわよ…！ 自{じ}分{ぶん}へのご褒{ほう}美{び}に買{か}ったら？ ダメなら誰{だれ}かにあげるか捨{す}てればいいんだし"
-          },
-          {
-            "stringId": 2179485873169219584,
-            "femaleVariant": "AF3BCZ^そのうち人{じん}工{こう}の類{るい}似{じ}品{ひん}が出{で}たら、着{き}る機{き}会{かい}を逃{のが}したって後{こう}悔{かい}することになるわよ"
-          },
-          {
-            "stringId": 2179486143500500992,
-            "femaleVariant": "A03BCZ^ふむ、確{たし}かに"
-          },
-          {
-            "stringId": 2179486327915659264,
-            "femaleVariant": "903BCZ^んー… 買{か}うべきか、買{か}わざるべきか…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

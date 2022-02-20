@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_gle_chat_002.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8A69EZ^大人{おとな}になったら何{なに}になりたいんだい？",
+                    "maleVariant": null,
+                    "stringId": 1807017843261825024
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3F69EZ^コンバットメディック！ テレビで見{み}るヤツ！",
+                    "maleVariant": null,
+                    "stringId": 1807023236482457600
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "369EZ^ほう、すごいな！ じゃあ人{にん}の命{いのち}を助{たす}けるんだね？",
+                    "maleVariant": null,
+                    "stringId": 1807023407274516480
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6369EZ^うん！ でもサイバーサイコはみんなやっつけるの！ パパがいつも見{み}てる番{ばん}組{ぐみ}みたいに！",
+                    "maleVariant": null,
+                    "stringId": 1807023619338526720
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AB69EZ^でも薬{くすり}はあげない！ 打{う}ってから助{たす}ける意{い}味{み}なんてないもん！",
+                    "maleVariant": null,
+                    "stringId": 1807023792345178112
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C069EZ^トラウマ・チームの一{いち}員{いん}になるなら、うんと勉{べん}強{きょう}しないと。とっても優{ゆう}秀{しゅう}な人{にん}たちしかなれないからね",
+                    "maleVariant": null,
+                    "stringId": 1807023990265995264
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1807017843261825024,
-            "femaleVariant": "8A69EZ^大人{おとな}になったら何{なに}になりたいんだい？"
-          },
-          {
-            "stringId": 1807023236482457600,
-            "femaleVariant": "3F69EZ^コンバットメディック！ テレビで見{み}るヤツ！"
-          },
-          {
-            "stringId": 1807023407274516480,
-            "femaleVariant": "369EZ^ほう、すごいな！ じゃあ人{にん}の命{いのち}を助{たす}けるんだね？"
-          },
-          {
-            "stringId": 1807023619338526720,
-            "femaleVariant": "6369EZ^うん！ でもサイバーサイコはみんなやっつけるの！ パパがいつも見{み}てる番{ばん}組{ぐみ}みたいに！"
-          },
-          {
-            "stringId": 1807023792345178112,
-            "femaleVariant": "AB69EZ^でも薬{くすり}はあげない！ 打{う}ってから助{たす}ける意{い}味{み}なんてないもん！"
-          },
-          {
-            "stringId": 1807023990265995264,
-            "femaleVariant": "C069EZ^トラウマ・チームの一{いち}員{いん}になるなら、うんと勉{べん}強{きょう}しないと。とっても優{ゆう}秀{しゅう}な人{にん}たちしかなれないからね"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

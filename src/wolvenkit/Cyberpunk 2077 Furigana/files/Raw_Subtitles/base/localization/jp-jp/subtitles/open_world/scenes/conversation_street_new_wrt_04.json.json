@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_new_wrt_04.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E852A010^で、インタビューには応{おう}じるが、名{な}前{まえ}は出{だ}さないことと、夕{ゆう}食{しょく}に付{つ}き合{あ}うことを条{じょう}件{けん}にしたんだ。なんなら朝{あさ}飯{めし}も一緒{いっしょ}に食{く}うかってな、へへ",
+                    "maleVariant": null,
+                    "stringId": 2276543334628630544
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ふうん、いいじゃん。で、うまくいったの？",
+                    "maleVariant": null,
+                    "stringId": 2276543334628630556
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E852A028^いいや。夕{ゆう}食{しょく}どころか、カリエンテのクーポンをもらっただけだ。信{しん}じられるか？",
+                    "maleVariant": null,
+                    "stringId": 2276543334628630568
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2276543334628630544,
-            "femaleVariant": "E852A010^で、インタビューには応{おう}じるが、名{な}前{まえ}は出{だ}さないことと、夕{ゆう}食{しょく}に付{つ}き合{あ}うことを条{じょう}件{けん}にしたんだ。なんなら朝{あさ}飯{めし}も一緒{いっしょ}に食{く}うかってな、へへ"
-          },
-          {
-            "stringId": 2276543334628630556,
-            "femaleVariant": "ふうん、いいじゃん。で、うまくいったの？"
-          },
-          {
-            "stringId": 2276543334628630568,
-            "femaleVariant": "E852A028^いいや。夕{ゆう}食{しょく}どころか、カリエンテのクーポンをもらっただけだ。信{しん}じられるか？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_civilians_03.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4F70AZ^ねえ、あんたの妹{いもうと}、許{ゆる}してくれるかな？",
+                    "maleVariant": null,
+                    "stringId": 1968947858907373568
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F470AZ^本{ほん}人{にん}に聞{き}けばいいだろ",
+                    "maleVariant": null,
+                    "stringId": 1968949549597761536
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E370AZ^使{つか}えない奴{やつ}…",
+                    "maleVariant": null,
+                    "stringId": 1968949639506862080
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1968947858907373568,
-            "femaleVariant": "4F70AZ^ねえ、あんたの妹{いもうと}、許{ゆる}してくれるかな？"
-          },
-          {
-            "stringId": 1968949549597761536,
-            "femaleVariant": "F470AZ^本{ほん}人{にん}に聞{き}けばいいだろ"
-          },
-          {
-            "stringId": 1968949639506862080,
-            "femaleVariant": "E370AZ^使{つか}えない奴{やつ}…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

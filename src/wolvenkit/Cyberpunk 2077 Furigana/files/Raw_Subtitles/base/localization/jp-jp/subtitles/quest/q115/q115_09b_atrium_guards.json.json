@@ -1,30 +1,46 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q115\\q115_09b_atrium_guards.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7F502Z^総{そう}員{いん}、集{しゅう}結{けつ}せよ！",
+                    "maleVariant": null,
+                    "stringId": 1660555386652991488
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "57502Z^このビルはいまや陸{りく}の孤{こ}島{とう}だ… 下手{へた}に動{うご}くと命{いのち}取{と}りだぞ",
+                    "maleVariant": null,
+                    "stringId": 1660556691651960832
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1660555386652991488,
-            "femaleVariant": "7F502Z^総{そう}員{いん}、集{しゅう}結{けつ}せよ！"
-          },
-          {
-            "stringId": 1660556691651960832,
-            "femaleVariant": "57502Z^このビルはいまや陸{りく}の孤{こ}島{とう}だ… 下手{へた}に動{うご}くと命{いのち}取{と}りだぞ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

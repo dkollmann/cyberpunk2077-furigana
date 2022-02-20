@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\animated_billboards\\ab_ad_watson_whore.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "FC4EAZ^欲{よく}望{ぼう}で溢{あふ}れるこの街{まち}で…",
+                    "maleVariant": null,
+                    "stringId": 1986652747793866752
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D744DZ^すべてを絡{から}めとる男{おとこ}現{あらわ}る",
+                    "maleVariant": null,
+                    "stringId": 1993623354539823104
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1844DZ^『ワトソンの娼{しょう}夫{おっと}』――毎{まい}週{しゅう}水{すい}曜{よう}夜{よる}10時{とき}、WNSで放{ほう}送{そう}中{ちゅう}",
+                    "maleVariant": null,
+                    "stringId": 1993623866731450368
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1986652747793866752,
-            "femaleVariant": "FC4EAZ^欲{よく}望{ぼう}で溢{あふ}れるこの街{まち}で…"
-          },
-          {
-            "stringId": 1993623354539823104,
-            "femaleVariant": "D744DZ^すべてを絡{から}めとる男{おとこ}現{あらわ}る"
-          },
-          {
-            "stringId": 1993623866731450368,
-            "femaleVariant": "1844DZ^『ワトソンの娼{しょう}夫{おっと}』――毎{まい}週{しゅう}水{すい}曜{よう}夜{よる}10時{とき}、WNSで放{ほう}送{そう}中{ちゅう}"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

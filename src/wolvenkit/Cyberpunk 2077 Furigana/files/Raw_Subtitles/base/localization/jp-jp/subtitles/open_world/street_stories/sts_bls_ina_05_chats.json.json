@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_bls_ina_05_chats.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "99377Z^こんなとこで腐{くさ}ってなきゃなんねえなんてごめんだ",
+                    "maleVariant": null,
+                    "stringId": 1650635782160347136
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "82377Z^戦{せん}地{ち}に配{はい}属{ぞく}される方{ほう}がマシだってのか？",
+                    "maleVariant": null,
+                    "stringId": 1650638960050270208
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "FB2D2Z^かもな。少{すく}なくとも暇{ひま}はしないだろ",
+                    "maleVariant": null,
+                    "stringId": 1934203350185484288
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "DD2D2Z^勘{かん}弁{べん}しろよ。メキシコに2週{しゅう}間{かん}配{はい}属{ぞく}されてみろ。よっぽどこっちのほうがマシだったって思{おも}うさ",
+                    "maleVariant": null,
+                    "stringId": 1934208430628478976
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3D2D2Z^いいか、こいつは休{きゅう}暇{か}だ。そう思{おも}って楽{たの}しめ",
+                    "maleVariant": null,
+                    "stringId": 1934212375019069440
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1650635782160347136,
-            "femaleVariant": "99377Z^こんなとこで腐{くさ}ってなきゃなんねえなんてごめんだ"
-          },
-          {
-            "stringId": 1650638960050270208,
-            "femaleVariant": "82377Z^戦{せん}地{ち}に配{はい}属{ぞく}される方{ほう}がマシだってのか？"
-          },
-          {
-            "stringId": 1934203350185484288,
-            "femaleVariant": "FB2D2Z^かもな。少{すく}なくとも暇{ひま}はしないだろ"
-          },
-          {
-            "stringId": 1934208430628478976,
-            "femaleVariant": "DD2D2Z^勘{かん}弁{べん}しろよ。メキシコに2週{しゅう}間{かん}配{はい}属{ぞく}されてみろ。よっぽどこっちのほうがマシだったって思{おも}うさ"
-          },
-          {
-            "stringId": 1934212375019069440,
-            "femaleVariant": "3D2D2Z^いいか、こいつは休{きゅう}暇{か}だ。そう思{おも}って楽{たの}しめ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

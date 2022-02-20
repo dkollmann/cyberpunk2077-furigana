@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_new_6th_02.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BD52A010^頼{たの}み？ チューマ、頼{たの}みならこれまでさんざん聞{き}いてやっただろ。もうウンザリなんだよ！",
+                    "maleVariant": null,
+                    "stringId": 2276529242119512080
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BE52A004^いいから言{い}う通{とう}りにしてくれ",
+                    "maleVariant": null,
+                    "stringId": 2276529242136289284
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BE52A010^クソ… これが最{さい}後{ご}だからな！",
+                    "maleVariant": null,
+                    "stringId": 2276529242136289296
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2276529242119512080,
-            "femaleVariant": "BD52A010^頼{たの}み？ チューマ、頼{たの}みならこれまでさんざん聞{き}いてやっただろ。もうウンザリなんだよ！"
-          },
-          {
-            "stringId": 2276529242136289284,
-            "femaleVariant": "BE52A004^いいから言{い}う通{とう}りにしてくれ"
-          },
-          {
-            "stringId": 2276529242136289296,
-            "femaleVariant": "BE52A010^クソ… これが最{さい}後{ご}だからな！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

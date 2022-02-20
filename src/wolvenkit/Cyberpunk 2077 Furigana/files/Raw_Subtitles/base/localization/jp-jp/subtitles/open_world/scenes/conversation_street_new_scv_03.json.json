@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_new_scv_03.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9152A010^今{いま}まで聞{き}いた中{なか}で一{いち}番{ばん}笑{わら}えないジョークね。昔{むかし}コメディクラブで働{はたら}いてたけど",
+                    "maleVariant": null,
+                    "stringId": 2276536005954805776
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9152A01C^オチを理{り}解{かい}してないだけだろ！ 妻{つま}はだな、やっと夫{おっと}にイカされたと思{おも}ったら、夫{おっと}はサイバーサイコの発作{ほっさ}を起{お}こしてただけだったんだよ！ ウケる！",
+                    "maleVariant": null,
+                    "stringId": 2276536005954805788
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9252AZ^これ以{い}上{じょう}あんたの話{はなし}を聞{き}いてると、こっちがサイバーサイコになりそう",
+                    "maleVariant": null,
+                    "stringId": 2276536005971582976
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2276536005954805776,
-            "femaleVariant": "9152A010^今{いま}まで聞{き}いた中{なか}で一{いち}番{ばん}笑{わら}えないジョークね。昔{むかし}コメディクラブで働{はたら}いてたけど"
-          },
-          {
-            "stringId": 2276536005954805788,
-            "femaleVariant": "9152A01C^オチを理{り}解{かい}してないだけだろ！ 妻{つま}はだな、やっと夫{おっと}にイカされたと思{おも}ったら、夫{おっと}はサイバーサイコの発作{ほっさ}を起{お}こしてただけだったんだよ！ ウケる！"
-          },
-          {
-            "stringId": 2276536005971582976,
-            "femaleVariant": "9252AZ^これ以{い}上{じょう}あんたの話{はなし}を聞{き}いてると、こっちがサイバーサイコになりそう"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

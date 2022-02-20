@@ -1,52 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\std_arr_foodshop_02.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どんなメニューがある？",
+                    "maleVariant": null,
+                    "stringId": 1783751526462541824
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "65C5010^浮{う}かない顔{かお}ね。チップが少{すく}ないとか？",
+                    "maleVariant": "65C5010^浮{う}かない顔{かお}だな。チップが少{すく}ないとか？",
+                    "stringId": 1783751526462541840
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どんなメニューがある？",
+                    "maleVariant": null,
+                    "stringId": 1783751526479319044
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "85C5004^目{め}はついてるだろ？",
+                    "maleVariant": null,
+                    "stringId": 1783751526496096260
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "95C5004^浮{う}かない顔{かお}ね。チップが足{た}りないとか？",
+                    "maleVariant": "95C5004^浮{う}かない顔{かお}だな。チップが足{た}りないとか？",
+                    "stringId": 1783751526512873476
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "95C500C^違{ちが}うよ。休{きゅう}暇{か}がほしいのに、ボスがOKをくれないんだ。今日{きょう}で4回{かい}目{め}さ",
+                    "maleVariant": null,
+                    "stringId": 1783751526512873484
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5044DZ^聞{き}いてくれたのはあんたが初{はじ}めてだよ… ありがとな",
+                    "maleVariant": null,
+                    "stringId": 1975166013788180480
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1783751526462541824,
-            "femaleVariant": "どんなメニューがある？"
-          },
-          {
-            "stringId": 1783751526462541840,
-            "femaleVariant": "65C5010^浮{う}かない顔{かお}ね。チップが少{すく}ないとか？",
-            "maleVariant": "65C5010^浮{う}かない顔{かお}だな。チップが少{すく}ないとか？"
-          },
-          {
-            "stringId": 1783751526479319044,
-            "femaleVariant": "どんなメニューがある？"
-          },
-          {
-            "stringId": 1783751526496096260,
-            "femaleVariant": "85C5004^目{め}はついてるだろ？"
-          },
-          {
-            "stringId": 1783751526512873476,
-            "femaleVariant": "95C5004^浮{う}かない顔{かお}ね。チップが足{た}りないとか？",
-            "maleVariant": "95C5004^浮{う}かない顔{かお}だな。チップが足{た}りないとか？"
-          },
-          {
-            "stringId": 1783751526512873484,
-            "femaleVariant": "95C500C^違{ちが}うよ。休{きゅう}暇{か}がほしいのに、ボスがOKをくれないんだ。今日{きょう}で4回{かい}目{め}さ"
-          },
-          {
-            "stringId": 1975166013788180480,
-            "femaleVariant": "5044DZ^聞{き}いてくれたのはあんたが初{はじ}めてだよ… ありがとな"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

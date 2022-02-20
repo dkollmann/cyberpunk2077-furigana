@@ -1,58 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\sq025\\sq025_08_backoffice.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "テンバツガ… テンバツが…",
+                    "maleVariant": null,
+                    "stringId": 1740162750440710144
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "デラマン？",
+                    "maleVariant": null,
+                    "stringId": 1834259589791653888
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "デラマン！ いるの？",
+                    "maleVariant": "デラマン！ いるのか？",
+                    "stringId": 1834263384177156096
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2362A004^大{だい}丈{じょう}夫{ぶ}？",
+                    "maleVariant": "2362A004^大{だい}丈{じょう}夫{ぶ}か？",
+                    "stringId": 1925993314715344900
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ハイ、コチラニ… コチラデス",
+                    "maleVariant": null,
+                    "stringId": 1925993314715344908
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "793BC004^大{だい}丈{じょう}夫{ぶ}？",
+                    "maleVariant": "793BC004^大{だい}丈{じょう}夫{ぶ}か？",
+                    "stringId": 2463482209525022724
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "デラマン？",
+                    "maleVariant": null,
+                    "stringId": 2463485662729060356
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "デラマン！ いるの？",
+                    "maleVariant": "デラマン！ いるのか？",
+                    "stringId": 2463486344521564164
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1740162750440710144,
-            "femaleVariant": "テンバツガ… テンバツが…"
-          },
-          {
-            "stringId": 1834259589791653888,
-            "femaleVariant": "デラマン？"
-          },
-          {
-            "stringId": 1834263384177156096,
-            "femaleVariant": "デラマン！ いるの？",
-            "maleVariant": "デラマン！ いるのか？"
-          },
-          {
-            "stringId": 1925993314715344900,
-            "femaleVariant": "2362A004^大{だい}丈{じょう}夫{ぶ}？",
-            "maleVariant": "2362A004^大{だい}丈{じょう}夫{ぶ}か？"
-          },
-          {
-            "stringId": 1925993314715344908,
-            "femaleVariant": "ハイ、コチラニ… コチラデス"
-          },
-          {
-            "stringId": 2463482209525022724,
-            "femaleVariant": "793BC004^大{だい}丈{じょう}夫{ぶ}？",
-            "maleVariant": "793BC004^大{だい}丈{じょう}夫{ぶ}か？"
-          },
-          {
-            "stringId": 2463485662729060356,
-            "femaleVariant": "デラマン？"
-          },
-          {
-            "stringId": 2463486344521564164,
-            "femaleVariant": "デラマン！ いるの？",
-            "maleVariant": "デラマン！ いるのか？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

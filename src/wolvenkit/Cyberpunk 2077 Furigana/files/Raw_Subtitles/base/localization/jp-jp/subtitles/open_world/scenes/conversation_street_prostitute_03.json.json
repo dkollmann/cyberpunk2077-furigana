@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_prostitute_03.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6070AZ^なあ、友達{ともだち}にかわいい子{こ}はいないか？",
+                    "maleVariant": null,
+                    "stringId": 1967728144315097088
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1970AZ^私{わたし}じゃダメなの？ 損{そこな}はさせない、約{やく}束{そく}するわ",
+                    "maleVariant": null,
+                    "stringId": 1967730247657889792
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9770AZ^そうじゃない。俺{おれ}は3Pがしたいんだよ！",
+                    "maleVariant": null,
+                    "stringId": 1967730352851034112
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1967728144315097088,
-            "femaleVariant": "6070AZ^なあ、友達{ともだち}にかわいい子{こ}はいないか？"
-          },
-          {
-            "stringId": 1967730247657889792,
-            "femaleVariant": "1970AZ^私{わたし}じゃダメなの？ 損{そこな}はさせない、約{やく}束{そく}するわ"
-          },
-          {
-            "stringId": 1967730352851034112,
-            "femaleVariant": "9770AZ^そうじゃない。俺{おれ}は3Pがしたいんだよ！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,52 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q003\\q003_08_stout.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "82B1Z^そう身構{みがま}えなくてもいい",
+                    "maleVariant": null,
+                    "stringId": 1155715969380454400
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "482EFZ^で… 今{こん}度{ど}は何{なん}の用{よう}？",
+                    "maleVariant": "482EFZ^で… 今{こん}度{ど}は何{なん}の用{よう}だ？",
+                    "stringId": 1759060469251764224
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ふん…",
+                    "maleVariant": null,
+                    "stringId": 1762060493590032384
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "76E4Z^逃{に}げるのか？ みっともない",
+                    "maleVariant": null,
+                    "stringId": 1968514203441315840
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4F6E4Z^[食{た}べ物{もの}を置{お}く]",
+                    "maleVariant": null,
+                    "stringId": 2027889305722961920
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6E6E4Z^[抱{だ}き上{あ}げる]",
+                    "maleVariant": null,
+                    "stringId": 2027899944877047808
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "956E4004^何{なん}の用{よう}？",
+                    "maleVariant": "956E4004^何{なん}の用{よう}だ？",
+                    "stringId": 2032201909329084420
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1155715969380454400,
-            "femaleVariant": "82B1Z^そう身構{みがま}えなくてもいい"
-          },
-          {
-            "stringId": 1759060469251764224,
-            "femaleVariant": "482EFZ^で… 今{こん}度{ど}は何{なん}の用{よう}？",
-            "maleVariant": "482EFZ^で… 今{こん}度{ど}は何{なん}の用{よう}だ？"
-          },
-          {
-            "stringId": 1762060493590032384,
-            "femaleVariant": "ふん…"
-          },
-          {
-            "stringId": 1968514203441315840,
-            "femaleVariant": "76E4Z^逃{に}げるのか？ みっともない"
-          },
-          {
-            "stringId": 2027889305722961920,
-            "femaleVariant": "4F6E4Z^[食{た}べ物{もの}を置{お}く]"
-          },
-          {
-            "stringId": 2027899944877047808,
-            "femaleVariant": "6E6E4Z^[抱{だ}き上{あ}げる]"
-          },
-          {
-            "stringId": 2032201909329084420,
-            "femaleVariant": "956E4004^何{なん}の用{よう}？",
-            "maleVariant": "956E4004^何{なん}の用{よう}だ？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

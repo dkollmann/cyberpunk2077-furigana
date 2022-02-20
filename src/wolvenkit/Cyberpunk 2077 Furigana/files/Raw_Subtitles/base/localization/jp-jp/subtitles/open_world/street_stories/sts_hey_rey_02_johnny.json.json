@@ -1,39 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_hey_rey_02_johnny.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C0513Z^最{さい}後{ご}にここに来{き}たのは、ケリーとだったな",
+                    "maleVariant": null,
+                    "stringId": 1918607382348378112
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1844DZ^ラテン系{けい}の色{いろ}男{おとこ}がラップダンスをしてくれてさ。ほっぺたなんか、こっちの顔{かお}が映{うつ}るくらいツルツルだった",
+                    "maleVariant": null,
+                    "stringId": 1925549498378276864
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A544DZ^女{おんな}が好{す}きだと思{おも}ってたけど",
+                    "maleVariant": "A544DZ^女{おんな}が好{す}きじゃなかったのか？",
+                    "stringId": 1925551725536923648
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B744DZ^普{ふ}段{だん}はな。だが気{き}に入{い}った相{あい}手{て}なら、俺{おれ}は大{たい}してこだわらないぜ",
+                    "maleVariant": null,
+                    "stringId": 1925553538315112448
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1918607382348378112,
-            "femaleVariant": "C0513Z^最{さい}後{ご}にここに来{き}たのは、ケリーとだったな"
-          },
-          {
-            "stringId": 1925549498378276864,
-            "femaleVariant": "1844DZ^ラテン系{けい}の色{いろ}男{おとこ}がラップダンスをしてくれてさ。ほっぺたなんか、こっちの顔{かお}が映{うつ}るくらいツルツルだった"
-          },
-          {
-            "stringId": 1925551725536923648,
-            "femaleVariant": "A544DZ^女{おんな}が好{す}きだと思{おも}ってたけど",
-            "maleVariant": "A544DZ^女{おんな}が好{す}きじゃなかったのか？"
-          },
-          {
-            "stringId": 1925553538315112448,
-            "femaleVariant": "B744DZ^普{ふ}段{だん}はな。だが気{き}に入{い}った相{あい}手{て}なら、俺{おれ}は大{たい}してこだわらないぜ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

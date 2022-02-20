@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_north_001.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D370AZ^何{なに}が「ファミリー第{だい}一{いち}」だ。吐{は}き気{け}がするぜ",
+                    "maleVariant": null,
+                    "stringId": 1973560424069636096
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "DD3BCZ^マジかよ、いい加{か}減{げん}にしてくれ。もうあいつにはうんざりなんだ",
+                    "maleVariant": null,
+                    "stringId": 1973767518967021568
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2F3BCZ^前{まえ}に一{いち}度{ど}、俺{おれ}が追{つい}放{ほう}された時{とき}あったろ。あん時{とき}も兄{あに}貴{き}が追{お}い出{だ}しの儀{ぎ}式{しき}を開{ひら}いたんだ",
+                    "maleVariant": null,
+                    "stringId": 1973767580472295424
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AD3BCZ^あんたの兄{あに}貴{き}が、さっき探{さが}してたよ？",
+                    "maleVariant": null,
+                    "stringId": 1973767750089949184
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7E3BCZ^私{わたし}なんてリンチされた後{のち}、道{みち}端{ばた}に捨{す}てられたんだから",
+                    "maleVariant": null,
+                    "stringId": 1973767912510177280
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1D3BCZ^儀{ぎ}式{しき}があった分{ふん}まだマシ",
+                    "maleVariant": null,
+                    "stringId": 1973767940947558400
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1973560424069636096,
-            "femaleVariant": "D370AZ^何{なに}が「ファミリー第{だい}一{いち}」だ。吐{は}き気{け}がするぜ"
-          },
-          {
-            "stringId": 1973767518967021568,
-            "femaleVariant": "DD3BCZ^マジかよ、いい加{か}減{げん}にしてくれ。もうあいつにはうんざりなんだ"
-          },
-          {
-            "stringId": 1973767580472295424,
-            "femaleVariant": "2F3BCZ^前{まえ}に一{いち}度{ど}、俺{おれ}が追{つい}放{ほう}された時{とき}あったろ。あん時{とき}も兄{あに}貴{き}が追{お}い出{だ}しの儀{ぎ}式{しき}を開{ひら}いたんだ"
-          },
-          {
-            "stringId": 1973767750089949184,
-            "femaleVariant": "AD3BCZ^あんたの兄{あに}貴{き}が、さっき探{さが}してたよ？"
-          },
-          {
-            "stringId": 1973767912510177280,
-            "femaleVariant": "7E3BCZ^私{わたし}なんてリンチされた後{のち}、道{みち}端{ばた}に捨{す}てられたんだから"
-          },
-          {
-            "stringId": 1973767940947558400,
-            "femaleVariant": "1D3BCZ^儀{ぎ}式{しき}があった分{ふん}まだマシ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

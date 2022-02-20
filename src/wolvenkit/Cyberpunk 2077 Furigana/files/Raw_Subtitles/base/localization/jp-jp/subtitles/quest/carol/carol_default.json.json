@@ -1,30 +1,46 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\carol\\carol_default.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BF29FZ^[話{はな}す]",
+                    "maleVariant": null,
+                    "stringId": 1958938409433690112
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C629F004^通{つう}信{しん}に障{しょう}害{がい}が発{はっ}生{せい}してる。きっとダコタと“ドリームキャッチャー”の仕{し}業{わざ}だろうね",
+                    "maleVariant": null,
+                    "stringId": 1958938409551130628
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1958938409433690112,
-            "femaleVariant": "BF29FZ^[話{はな}す]"
-          },
-          {
-            "stringId": 1958938409551130628,
-            "femaleVariant": "C629F004^通{つう}信{しん}に障{しょう}害{がい}が発{はっ}生{せい}してる。きっとダコタと“ドリームキャッチャー”の仕{し}業{わざ}だろうね"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

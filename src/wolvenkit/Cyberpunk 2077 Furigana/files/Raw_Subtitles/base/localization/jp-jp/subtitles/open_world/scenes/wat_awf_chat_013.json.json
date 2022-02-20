@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_awf_chat_013.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8470AZ^ええ、ドローンが2機{き}",
+                    "maleVariant": null,
+                    "stringId": 2156447427357351936
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F342FZ^大{たい}破{は}してます。所{しょ}有{ゆう}者{しゃ}の特{とく}定{てい}は不{ふ}可{か}能{のう}…",
+                    "maleVariant": null,
+                    "stringId": 2177859795397308416
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6142FZ^発{はっ}信{しん}機{き}とマイク、レンズを確{かく}認{にん}。侵{しん}入{にゅう}者{しゃ}の可{か}能{のう}性{せい}が高{たか}いかと",
+                    "maleVariant": null,
+                    "stringId": 2177860102185480192
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A242FZ^可{か}能{のう}ですが、我々{われわれ}の管{かん}轄{かつ}外{そと}で戦{せん}闘{とう}行{こう}為{い}を行{おこな}うわけには…",
+                    "maleVariant": null,
+                    "stringId": 2177861297276907520
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F342FZ^了{りょう}解{かい}です。目{もく}撃{げき}次{し}第{だい}、撃{う}ちます",
+                    "maleVariant": null,
+                    "stringId": 2177862969378140160
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2156447427357351936,
-            "femaleVariant": "8470AZ^ええ、ドローンが2機{き}"
-          },
-          {
-            "stringId": 2177859795397308416,
-            "femaleVariant": "F342FZ^大{たい}破{は}してます。所{しょ}有{ゆう}者{しゃ}の特{とく}定{てい}は不{ふ}可{か}能{のう}…"
-          },
-          {
-            "stringId": 2177860102185480192,
-            "femaleVariant": "6142FZ^発{はっ}信{しん}機{き}とマイク、レンズを確{かく}認{にん}。侵{しん}入{にゅう}者{しゃ}の可{か}能{のう}性{せい}が高{たか}いかと"
-          },
-          {
-            "stringId": 2177861297276907520,
-            "femaleVariant": "A242FZ^可{か}能{のう}ですが、我々{われわれ}の管{かん}轄{かつ}外{そと}で戦{せん}闘{とう}行{こう}為{い}を行{おこな}うわけには…"
-          },
-          {
-            "stringId": 2177862969378140160,
-            "femaleVariant": "F342FZ^了{りょう}解{かい}です。目{もく}撃{げき}次{し}第{だい}、撃{う}ちます"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

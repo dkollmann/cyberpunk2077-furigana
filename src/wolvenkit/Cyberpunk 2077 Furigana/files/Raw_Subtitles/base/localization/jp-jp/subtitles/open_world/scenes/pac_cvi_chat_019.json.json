@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_cvi_chat_019.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7D647Z^お花{はな}を新{あたら}しくしないと… ずいぶんしおれてきた",
+                    "maleVariant": null,
+                    "stringId": 2179420296772349952
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8344DZ^もう？ 造{ぞう}花{か}にしたほうがいいかもね…",
+                    "maleVariant": null,
+                    "stringId": 2182418132503941120
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2044DZ^造{ぞう}花{か}なんてとんでもない！ この街{まち}は全{すべ}てが偽{にせ}物{もの}じゃない。人{にん}も、食{た}べ物{もの}も。せめて花{はな}くらい本{ほん}物{もの}じゃなきゃ",
+                    "maleVariant": null,
+                    "stringId": 2182421682780950528
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2179420296772349952,
-            "femaleVariant": "7D647Z^お花{はな}を新{あたら}しくしないと… ずいぶんしおれてきた"
-          },
-          {
-            "stringId": 2182418132503941120,
-            "femaleVariant": "8344DZ^もう？ 造{ぞう}花{か}にしたほうがいいかもね…"
-          },
-          {
-            "stringId": 2182421682780950528,
-            "femaleVariant": "2044DZ^造{ぞう}花{か}なんてとんでもない！ この街{まち}は全{すべ}てが偽{にせ}物{もの}じゃない。人{にん}も、食{た}べ物{もの}も。せめて花{はな}くらい本{ほん}物{もの}じゃなきゃ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_kab_chat_23.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E447AZ^今{こん}回{かい}はいけるって、チューマ！ ビンビン感{かん}じんだよ！",
+                    "maleVariant": null,
+                    "stringId": 2156507721716178944
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3B45AZ^はあ… ここんとこ、どれだけ負{ま}けてるんだ？",
+                    "maleVariant": null,
+                    "stringId": 2211399419558207488
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "CB45AZ^大{たい}したことない… 腕時計{うでどけい}に、インプラントに… あとアパートの部屋{へや}…",
+                    "maleVariant": null,
+                    "stringId": 2211400306737389568
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なんだって！？",
+                    "maleVariant": null,
+                    "stringId": 2211400460936781824
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F245AZ^大{だい}丈{じょう}夫{ぶ}だって！ 今日{きょう}にでも取{と}り戻{もど}せる！ お前{まえ}が金{きん}を貸{か}してくれれば…",
+                    "maleVariant": null,
+                    "stringId": 2211401097665683456
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C45AZ^いいや、断{ことわ}る",
+                    "maleVariant": null,
+                    "stringId": 2211402330757505024
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2156507721716178944,
-            "femaleVariant": "E447AZ^今{こん}回{かい}はいけるって、チューマ！ ビンビン感{かん}じんだよ！"
-          },
-          {
-            "stringId": 2211399419558207488,
-            "femaleVariant": "3B45AZ^はあ… ここんとこ、どれだけ負{ま}けてるんだ？"
-          },
-          {
-            "stringId": 2211400306737389568,
-            "femaleVariant": "CB45AZ^大{たい}したことない… 腕時計{うでどけい}に、インプラントに… あとアパートの部屋{へや}…"
-          },
-          {
-            "stringId": 2211400460936781824,
-            "femaleVariant": "なんだって！？"
-          },
-          {
-            "stringId": 2211401097665683456,
-            "femaleVariant": "F245AZ^大{だい}丈{じょう}夫{ぶ}だって！ 今日{きょう}にでも取{と}り戻{もど}せる！ お前{まえ}が金{きん}を貸{か}してくれれば…"
-          },
-          {
-            "stringId": 2211402330757505024,
-            "femaleVariant": "C45AZ^いいや、断{ことわ}る"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

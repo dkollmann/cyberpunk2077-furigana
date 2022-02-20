@@ -1,39 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q001\\q001_00b_tbug_reminder_secure_the_area.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E93FCZ^まだ残{ざん}党{とう}がいる。始{し}末{まつ}して。一{ひと}人{り}残{のこ}らず",
+                    "maleVariant": null,
+                    "stringId": 1674926666830299136
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B3FCZ^いい？ 必{かなら}ず全{ぜん}員{いん}始{し}末{まつ}するのよ。万{まん}が一{いち}は許{ゆる}されない",
+                    "maleVariant": null,
+                    "stringId": 1674928608725942272
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ええ、わかってる",
+                    "maleVariant": "ああ、わかってる",
+                    "stringId": 1674931085009469440
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "582EFZ^ターゲットを危{き}険{けん}にさらすわけにはいかない。それにあなたが撃{う}たれても困{こま}るし",
+                    "maleVariant": null,
+                    "stringId": 1695496774605533184
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1674926666830299136,
-            "femaleVariant": "E93FCZ^まだ残{ざん}党{とう}がいる。始{し}末{まつ}して。一{ひと}人{り}残{のこ}らず"
-          },
-          {
-            "stringId": 1674928608725942272,
-            "femaleVariant": "B3FCZ^いい？ 必{かなら}ず全{ぜん}員{いん}始{し}末{まつ}するのよ。万{まん}が一{いち}は許{ゆる}されない"
-          },
-          {
-            "stringId": 1674931085009469440,
-            "femaleVariant": "ええ、わかってる",
-            "maleVariant": "ああ、わかってる"
-          },
-          {
-            "stringId": 1695496774605533184,
-            "femaleVariant": "582EFZ^ターゲットを危{き}険{けん}にさらすわけにはいかない。それにあなたが撃{う}たれても困{こま}るし"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

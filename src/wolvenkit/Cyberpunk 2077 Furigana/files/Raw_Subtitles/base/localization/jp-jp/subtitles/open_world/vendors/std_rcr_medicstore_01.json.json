@@ -1,48 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\std_rcr_medicstore_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AE46BZ^買{か}い物{もの}をしたい",
+                    "maleVariant": null,
+                    "stringId": 1828465360056528896
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AE46B010^何{なに}か“特{とく}別{べつ}な”ものはある？",
+                    "maleVariant": "AE46B010^何{なに}か“特{とく}別{べつ}な”ものはあるか？",
+                    "stringId": 1828465360056528912
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B046B004^商{しょう}品{ひん}を見{み}たい",
+                    "maleVariant": null,
+                    "stringId": 1828465360090083332
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B046B00C^ええ。何{なに}をお探{さが}し？",
+                    "maleVariant": null,
+                    "stringId": 1828465360090083340
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B246B004^特{とく}別{べつ}な売{う}り物{もの}はない？ 雨{あめ}の日{にち}だけのとっておきとか",
+                    "maleVariant": "B246B004^特{とく}別{べつ}な売{う}り物{もの}はないか？ 雨{あめ}の日{にち}だけのとっておきとか",
+                    "stringId": 1828465360123637764
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B446B004^そうね… ナイトシティの店{みせ}はたいていカウンターに銃{じゅう}を隠{かく}してるものだけど、うちにあるとも限{かぎ}らないし、ないとも限{かぎ}らない… わかるでしょ。厄介{やっかい}事{こと}はナシよ",
+                    "maleVariant": null,
+                    "stringId": 1828465360157192196
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1828465360056528896,
-            "femaleVariant": "AE46BZ^買{か}い物{もの}をしたい"
-          },
-          {
-            "stringId": 1828465360056528912,
-            "femaleVariant": "AE46B010^何{なに}か“特{とく}別{べつ}な”ものはある？",
-            "maleVariant": "AE46B010^何{なに}か“特{とく}別{べつ}な”ものはあるか？"
-          },
-          {
-            "stringId": 1828465360090083332,
-            "femaleVariant": "B046B004^商{しょう}品{ひん}を見{み}たい"
-          },
-          {
-            "stringId": 1828465360090083340,
-            "femaleVariant": "B046B00C^ええ。何{なに}をお探{さが}し？"
-          },
-          {
-            "stringId": 1828465360123637764,
-            "femaleVariant": "B246B004^特{とく}別{べつ}な売{う}り物{もの}はない？ 雨{あめ}の日{にち}だけのとっておきとか",
-            "maleVariant": "B246B004^特{とく}別{べつ}な売{う}り物{もの}はないか？ 雨{あめ}の日{にち}だけのとっておきとか"
-          },
-          {
-            "stringId": 1828465360157192196,
-            "femaleVariant": "B446B004^そうね… ナイトシティの店{みせ}はたいていカウンターに銃{じゅう}を隠{かく}してるものだけど、うちにあるとも限{かぎ}らないし、ないとも限{かぎ}らない… わかるでしょ。厄介{やっかい}事{こと}はナシよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

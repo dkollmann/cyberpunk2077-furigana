@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\animated_billboards\\ab_ad_caliente.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9B4EAZ^よう、海{かい}賊{ぞく}ども！",
+                    "maleVariant": null,
+                    "stringId": 1985310976908369920
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1144DZ^キャプテン・カリエンテの世{せ}界{かい}的{てき}に有{ゆう}名{めい}なタコスが、な、な、な、なーんと、くじらサイズで登{とう}場{じょう}だ！",
+                    "maleVariant": null,
+                    "stringId": 1993580195386544128
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7044DZ^1エディーでおいしさの大{だい}航{こう}海{かい}へ！",
+                    "maleVariant": null,
+                    "stringId": 1993581360916516864
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1985310976908369920,
-            "femaleVariant": "9B4EAZ^よう、海{かい}賊{ぞく}ども！"
-          },
-          {
-            "stringId": 1993580195386544128,
-            "femaleVariant": "1144DZ^キャプテン・カリエンテの世{せ}界{かい}的{てき}に有{ゆう}名{めい}なタコスが、な、な、な、なーんと、くじらサイズで登{とう}場{じょう}だ！"
-          },
-          {
-            "stringId": 1993581360916516864,
-            "femaleVariant": "7044DZ^1エディーでおいしさの大{だい}航{こう}海{かい}へ！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

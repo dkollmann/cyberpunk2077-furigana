@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\minor_activities\\ma_wat_nid_01_holocall_brief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B247EZ^NCPD業{ぎょう}務{む}委{い}託{たく}者{もの}に通{つう}達{たつ}。ロス通{とう}りおよびシップヤード通{とう}り周{しゅう}辺{へん}において組{そ}織{しき}犯{はん}罪{ざい}活{かつ}動{どう}の報{ほう}告{こく}あり",
+                    "maleVariant": null,
+                    "stringId": 2328558570247282688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AC559Z^犯{はん}行{こう}グループはイェレーナ・シドロワ率{ひき}いるスカベンジャーら。ホームレスへの暴{ぼう}行{こう}容{よう}疑{ぎ}多{た}数{すう}。武{ぶ}装{そう}している可{か}能{のう}性{せい}が高{たか}い",
+                    "maleVariant": null,
+                    "stringId": 2352102691805958144
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A7559Z^脅{きょう}威{い}を無{む}力{りょく}化{か}した者{もの}には、ナイトシティより報{ほう}酬{しゅう}が支{し}払{はら}われる",
+                    "maleVariant": null,
+                    "stringId": 2352105436206174208
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328558570247282688,
-            "femaleVariant": "B247EZ^NCPD業{ぎょう}務{む}委{い}託{たく}者{もの}に通{つう}達{たつ}。ロス通{とう}りおよびシップヤード通{とう}り周{しゅう}辺{へん}において組{そ}織{しき}犯{はん}罪{ざい}活{かつ}動{どう}の報{ほう}告{こく}あり"
-          },
-          {
-            "stringId": 2352102691805958144,
-            "femaleVariant": "AC559Z^犯{はん}行{こう}グループはイェレーナ・シドロワ率{ひき}いるスカベンジャーら。ホームレスへの暴{ぼう}行{こう}容{よう}疑{ぎ}多{た}数{すう}。武{ぶ}装{そう}している可{か}能{のう}性{せい}が高{たか}い"
-          },
-          {
-            "stringId": 2352105436206174208,
-            "femaleVariant": "A7559Z^脅{きょう}威{い}を無{む}力{りょく}化{か}した者{もの}には、ナイトシティより報{ほう}酬{しゅう}が支{し}払{はら}われる"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

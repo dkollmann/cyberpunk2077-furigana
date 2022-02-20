@@ -1,55 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\bls_ina_se1_foodshop_02.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "246BZ^腹{はら}が減{へ}ってて",
+                    "maleVariant": null,
+                    "stringId": 1935651488722759680
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "346B00C^店{みせ}の名{な}前{まえ}は？",
+                    "maleVariant": null,
+                    "stringId": 1935651488739536908
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "446B004^小腹{こばら}が空{あ}いてて",
+                    "maleVariant": null,
+                    "stringId": 1935651488756314116
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あいよ",
+                    "maleVariant": null,
+                    "stringId": 1935651488773091328
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "746B004^この店{みせ}って名{な}前{まえ}はあるの？ 看{かん}板{ばん}が出{で}てなかったけど…",
+                    "maleVariant": "746B004^この店{みせ}って名{な}前{まえ}はあるのか？ 看{かん}板{ばん}が出{で}てないよな…",
+                    "stringId": 1935651488806645764
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "“サルモネラ”だ",
+                    "maleVariant": null,
+                    "stringId": 1935651488806645772
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "え、サルモネラ？",
+                    "maleVariant": null,
+                    "stringId": 1986389809794699264
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F44DZ^いい名{な}前{まえ}だろ？ 義{ぎ}理{り}の弟{おとうと}が考{かんが}えてくれたんだ。イタリア語{ご}で“サーモン”って意{い}味{み}なんだと",
+                    "maleVariant": null,
+                    "stringId": 1986390591898177536
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1935651488722759680,
-            "femaleVariant": "246BZ^腹{はら}が減{へ}ってて"
-          },
-          {
-            "stringId": 1935651488739536908,
-            "femaleVariant": "346B00C^店{みせ}の名{な}前{まえ}は？"
-          },
-          {
-            "stringId": 1935651488756314116,
-            "femaleVariant": "446B004^小腹{こばら}が空{あ}いてて"
-          },
-          {
-            "stringId": 1935651488773091328,
-            "femaleVariant": "あいよ"
-          },
-          {
-            "stringId": 1935651488806645764,
-            "femaleVariant": "746B004^この店{みせ}って名{な}前{まえ}はあるの？ 看{かん}板{ばん}が出{で}てなかったけど…",
-            "maleVariant": "746B004^この店{みせ}って名{な}前{まえ}はあるのか？ 看{かん}板{ばん}が出{で}てないよな…"
-          },
-          {
-            "stringId": 1935651488806645772,
-            "femaleVariant": "“サルモネラ”だ"
-          },
-          {
-            "stringId": 1986389809794699264,
-            "femaleVariant": "え、サルモネラ？"
-          },
-          {
-            "stringId": 1986390591898177536,
-            "femaleVariant": "F44DZ^いい名{な}前{まえ}だろ？ 義{ぎ}理{り}の弟{おとうと}が考{かんが}えてくれたんだ。イタリア語{ご}で“サーモン”って意{い}味{み}なんだと"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

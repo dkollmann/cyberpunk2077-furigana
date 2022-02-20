@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\ma_scene_threatning_05.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C8720Z^ちょっとしたロールプレイをしましょ。あんたは痛{いた}めつけられて泣{な}き喚{わめ}く役{やく}。私{わたし}はそれを見{み}て笑{わら}う役{やく}ね",
+                    "maleVariant": null,
+                    "stringId": 2007218398956748800
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "18720Z^まずは体{からだ}を細{こま}かく切{き}り刻{きざ}んでから、臓{ぞう}器{き}をスペア部{ぶ}品{ひん}みたいに売{う}り飛{と}ばすの",
+                    "maleVariant": null,
+                    "stringId": 2007218456133500928
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C5720Z^あんたの惨{さん}めな生{しょう}涯{がい}はここで終{お}わりよ",
+                    "maleVariant": null,
+                    "stringId": 2007218523460468736
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "19720Z^命乞{いのちごい}いをしても無{む}駄{だ}。もう逃{に}げることはできないよ",
+                    "maleVariant": null,
+                    "stringId": 2007218580704329728
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2007218398956748800,
-            "femaleVariant": "C8720Z^ちょっとしたロールプレイをしましょ。あんたは痛{いた}めつけられて泣{な}き喚{わめ}く役{やく}。私{わたし}はそれを見{み}て笑{わら}う役{やく}ね"
-          },
-          {
-            "stringId": 2007218456133500928,
-            "femaleVariant": "18720Z^まずは体{からだ}を細{こま}かく切{き}り刻{きざ}んでから、臓{ぞう}器{き}をスペア部{ぶ}品{ひん}みたいに売{う}り飛{と}ばすの"
-          },
-          {
-            "stringId": 2007218523460468736,
-            "femaleVariant": "C5720Z^あんたの惨{さん}めな生{しょう}涯{がい}はここで終{お}わりよ"
-          },
-          {
-            "stringId": 2007218580704329728,
-            "femaleVariant": "19720Z^命乞{いのちごい}いをしても無{む}駄{だ}。もう逃{に}げることはできないよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

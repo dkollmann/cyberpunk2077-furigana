@@ -1,30 +1,46 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_club_mercs_02.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7D70AZ^あのヤマは片{かた}付{づ}いたか？",
+                    "maleVariant": null,
+                    "stringId": 1969031628721266688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D70AZ^いや、相{あい}手{て}が忽{こつ}然{ぜん}と姿{すがた}を消{け}してさ…",
+                    "maleVariant": null,
+                    "stringId": 1969032872382734336
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1969031628721266688,
-            "femaleVariant": "7D70AZ^あのヤマは片{かた}付{づ}いたか？"
-          },
-          {
-            "stringId": 1969032872382734336,
-            "femaleVariant": "D70AZ^いや、相{あい}手{て}が忽{こつ}然{ぜん}と姿{すがた}を消{け}してさ…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_cct_cpz_01_guards_chat.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E513Z^おい、お前{まえ}のことが書{か}いてあるぜ――“先{せん}日{じつ}ミリテク警{けい}備{び}兵{へい}がNCPD警{けい}官{かん}に重{じゅう}傷{しょう}を負{お}わせた事{じ}件{けん}で…”",
+                    "maleVariant": null,
+                    "stringId": 1441435902891077632
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BB513Z^見{み}つけてみろってんだ",
+                    "maleVariant": null,
+                    "stringId": 1441487222062788608
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D3559Z^“NCPDは容{よう}疑{ぎ}者{しゃ}特{とく}定{てい}のため、ミリテクの協{きょう}力{りょく}を求{もと}めることを表{ひょう}明{めい}…”",
+                    "maleVariant": null,
+                    "stringId": 1541974214353195008
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BD559Z^だいぶ痛{いた}めつけてやったらしいな。いったい、その警{けい}官{かん}が何{なに}したんだ？",
+                    "maleVariant": null,
+                    "stringId": 1541978775239364608
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D8559Z^何{なに}も",
+                    "maleVariant": null,
+                    "stringId": 1541978904541368320
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ははは",
+                    "maleVariant": null,
+                    "stringId": 1541979104290902016
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1441435902891077632,
-            "femaleVariant": "E513Z^おい、お前{まえ}のことが書{か}いてあるぜ――“先{せん}日{じつ}ミリテク警{けい}備{び}兵{へい}がNCPD警{けい}官{かん}に重{じゅう}傷{しょう}を負{お}わせた事{じ}件{けん}で…”"
-          },
-          {
-            "stringId": 1441487222062788608,
-            "femaleVariant": "BB513Z^見{み}つけてみろってんだ"
-          },
-          {
-            "stringId": 1541974214353195008,
-            "femaleVariant": "D3559Z^“NCPDは容{よう}疑{ぎ}者{しゃ}特{とく}定{てい}のため、ミリテクの協{きょう}力{りょく}を求{もと}めることを表{ひょう}明{めい}…”"
-          },
-          {
-            "stringId": 1541978775239364608,
-            "femaleVariant": "BD559Z^だいぶ痛{いた}めつけてやったらしいな。いったい、その警{けい}官{かん}が何{なに}したんだ？"
-          },
-          {
-            "stringId": 1541978904541368320,
-            "femaleVariant": "D8559Z^何{なに}も"
-          },
-          {
-            "stringId": 1541979104290902016,
-            "femaleVariant": "ははは"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

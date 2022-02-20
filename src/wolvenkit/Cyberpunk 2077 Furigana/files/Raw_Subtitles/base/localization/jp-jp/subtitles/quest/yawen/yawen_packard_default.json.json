@@ -1,54 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\yawen\\yawen_packard_default.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "75F9Z^唐{とう}突{とつ}だけど… 生{せい}体{たい}チップについて何{なに}か知{し}ってる？ 特{とく}にアラサカの〈Relic〉とか",
+                    "maleVariant": "75F9Z^唐{とう}突{とつ}だが… 生{せい}体{たい}チップについて何{なに}か知{し}ってるか？ 特{とく}にアラサカの〈Relic〉とか",
+                    "stringId": 1987755068515913728
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "325F9Z^あれは人{にん}間{げん}の神{しん}経{けい}記{き}憶{おく}痕{こん}跡{せき}を保{ほ}存{ぞん}するためのものよ。つまり、そうね… 記{き}憶{おく}や人{じん}格{かく}をコピーするって思{おも}えばいい",
+                    "maleVariant": null,
+                    "stringId": 1987759630492602368
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1A5F9004^アラサカの〈Relic〉について何{なに}か知{し}ってる？",
+                    "maleVariant": "1A5F9004^アラサカの〈Relic〉について何{なに}か知{し}ってるか？",
+                    "stringId": 1987799977012727812
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "25521Z^ええ、それは知{し}ってる。なら保{ほ}存{ぞん}された記{き}憶{おく}痕{こん}跡{せき}が、チップ所{しょ}有{ゆう}者{しゃ}の記{き}憶{おく}痕{こん}跡{せき}を上書{うわか}きしたらどうなるの？",
+                    "maleVariant": "25521Z^ああ、それは知{し}ってる。なら保{ほ}存{ぞん}された記{き}憶{おく}痕{こん}跡{せき}が、チップ所{しょ}有{ゆう}者{しゃ}の記{き}憶{おく}痕{こん}跡{せき}を上書{うわか}きしたらどうなる？",
+                    "stringId": 2005649229918375936
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E4521Z^“上書{うわか}き”？ そんなことが可{か}能{のう}なのかもわからないけど…",
+                    "maleVariant": null,
+                    "stringId": 2005649542360469504
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1D521Z^なぜ知{し}りたいの？",
+                    "maleVariant": null,
+                    "stringId": 2005649745180233728
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A4521Z^いえ、別{べつ}にいいの。気{き}にしないで",
+                    "maleVariant": "A4521Z^いや、別{べつ}にいいんだ。気{き}にしないでくれ",
+                    "stringId": 2005649966488489984
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1987755068515913728,
-            "femaleVariant": "75F9Z^唐{とう}突{とつ}だけど… 生{せい}体{たい}チップについて何{なに}か知{し}ってる？ 特{とく}にアラサカの〈Relic〉とか",
-            "maleVariant": "75F9Z^唐{とう}突{とつ}だが… 生{せい}体{たい}チップについて何{なに}か知{し}ってるか？ 特{とく}にアラサカの〈Relic〉とか"
-          },
-          {
-            "stringId": 1987759630492602368,
-            "femaleVariant": "325F9Z^あれは人{にん}間{げん}の神{しん}経{けい}記{き}憶{おく}痕{こん}跡{せき}を保{ほ}存{ぞん}するためのものよ。つまり、そうね… 記{き}憶{おく}や人{じん}格{かく}をコピーするって思{おも}えばいい"
-          },
-          {
-            "stringId": 1987799977012727812,
-            "femaleVariant": "1A5F9004^アラサカの〈Relic〉について何{なに}か知{し}ってる？",
-            "maleVariant": "1A5F9004^アラサカの〈Relic〉について何{なに}か知{し}ってるか？"
-          },
-          {
-            "stringId": 2005649229918375936,
-            "femaleVariant": "25521Z^ええ、それは知{し}ってる。なら保{ほ}存{ぞん}された記{き}憶{おく}痕{こん}跡{せき}が、チップ所{しょ}有{ゆう}者{しゃ}の記{き}憶{おく}痕{こん}跡{せき}を上書{うわか}きしたらどうなるの？",
-            "maleVariant": "25521Z^ああ、それは知{し}ってる。なら保{ほ}存{ぞん}された記{き}憶{おく}痕{こん}跡{せき}が、チップ所{しょ}有{ゆう}者{しゃ}の記{き}憶{おく}痕{こん}跡{せき}を上書{うわか}きしたらどうなる？"
-          },
-          {
-            "stringId": 2005649542360469504,
-            "femaleVariant": "E4521Z^“上書{うわか}き”？ そんなことが可{か}能{のう}なのかもわからないけど…"
-          },
-          {
-            "stringId": 2005649745180233728,
-            "femaleVariant": "1D521Z^なぜ知{し}りたいの？"
-          },
-          {
-            "stringId": 2005649966488489984,
-            "femaleVariant": "A4521Z^いえ、別{べつ}にいいの。気{き}にしないで",
-            "maleVariant": "A4521Z^いや、別{べつ}にいいんだ。気{き}にしないでくれ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

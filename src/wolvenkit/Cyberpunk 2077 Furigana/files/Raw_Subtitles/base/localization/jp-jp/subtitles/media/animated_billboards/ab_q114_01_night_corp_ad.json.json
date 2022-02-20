@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\animated_billboards\\ab_q114_01_night_corp_ad.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "154EAZ^素早{すばや}く、安{あん}全{ぜん}で、快{かい}適{てき}",
+                    "maleVariant": null,
+                    "stringId": 1986658559304048640
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8E44DZ^ナイトシティにリニア交{こう}通{つう}がいよいよ開{かい}通{つう}",
+                    "maleVariant": null,
+                    "stringId": 1993648517528473600
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4444DZ^今{いま}、旅{たび}のかたちが変{か}わる",
+                    "maleVariant": null,
+                    "stringId": 1993648786869899264
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1986658559304048640,
-            "femaleVariant": "154EAZ^素早{すばや}く、安{あん}全{ぜん}で、快{かい}適{てき}"
-          },
-          {
-            "stringId": 1993648517528473600,
-            "femaleVariant": "8E44DZ^ナイトシティにリニア交{こう}通{つう}がいよいよ開{かい}通{つう}"
-          },
-          {
-            "stringId": 1993648786869899264,
-            "femaleVariant": "4444DZ^今{いま}、旅{たび}のかたちが変{か}わる"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

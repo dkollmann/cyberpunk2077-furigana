@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_cct_cpz_01_workers_chat.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あとは？",
+                    "maleVariant": null,
+                    "stringId": 1537104554696454144
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "もっかい、ひねれ。もっとキツくだ",
+                    "maleVariant": null,
+                    "stringId": 1537107185045155840
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ったくよう… くっ… ああもう、やってらんねえ",
+                    "maleVariant": null,
+                    "stringId": 1537107612360847360
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "こんなもんだろ",
+                    "maleVariant": null,
+                    "stringId": 1987941981348007936
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "94559Z^おい、そりゃアンチサージか？ Bリンクがどうなってんのか調{しら}べろ",
+                    "maleVariant": null,
+                    "stringId": 1987942503253643264
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F6559Z^うるせえ機{き}械{かい}オタクが",
+                    "maleVariant": null,
+                    "stringId": 1987942814135455744
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D5559Z^どっかのバカがサブネットに侵{しん}入{にゅう}しようとしたんだな。ヒマな奴{やつ}らめ",
+                    "maleVariant": null,
+                    "stringId": 1987943805719252992
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A2559Z^だったらここで働{はたら}けってんだ…",
+                    "maleVariant": null,
+                    "stringId": 1987944908670210048
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1537104554696454144,
-            "femaleVariant": "あとは？"
-          },
-          {
-            "stringId": 1537107185045155840,
-            "femaleVariant": "もっかい、ひねれ。もっとキツくだ"
-          },
-          {
-            "stringId": 1537107612360847360,
-            "femaleVariant": "ったくよう… くっ… ああもう、やってらんねえ"
-          },
-          {
-            "stringId": 1987941981348007936,
-            "femaleVariant": "こんなもんだろ"
-          },
-          {
-            "stringId": 1987942503253643264,
-            "femaleVariant": "94559Z^おい、そりゃアンチサージか？ Bリンクがどうなってんのか調{しら}べろ"
-          },
-          {
-            "stringId": 1987942814135455744,
-            "femaleVariant": "F6559Z^うるせえ機{き}械{かい}オタクが"
-          },
-          {
-            "stringId": 1987943805719252992,
-            "femaleVariant": "D5559Z^どっかのバカがサブネットに侵{しん}入{にゅう}しようとしたんだな。ヒマな奴{やつ}らめ"
-          },
-          {
-            "stringId": 1987944908670210048,
-            "femaleVariant": "A2559Z^だったらここで働{はたら}けってんだ…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

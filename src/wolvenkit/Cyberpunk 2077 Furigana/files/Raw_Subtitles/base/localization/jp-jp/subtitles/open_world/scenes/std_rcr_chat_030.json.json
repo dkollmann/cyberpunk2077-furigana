@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_rcr_chat_030.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9A5C5Z^9番{ばん}を2つ。1つをスーパーサイズで、もう1個{こ}はレギュラーで…",
+                    "maleVariant": null,
+                    "stringId": 2167932552526712832
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D44DZ^はい… 以{い}上{じょう}ですか？",
+                    "maleVariant": null,
+                    "stringId": 2182266711452209152
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4444DZ^6番{ばん}をソース多{おお}めで。あと45番{ばん}を2つと、7番{ばん}を1つ。Lサイズのニコーラも1つくれ",
+                    "maleVariant": null,
+                    "stringId": 2182266931418288128
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6C44DZ^果{か}糖{とう}の追{つい}加{か}はいかかですか？",
+                    "maleVariant": null,
+                    "stringId": 2182267795377803264
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8444DZ^あー、じゃあ頼{たの}むよ",
+                    "maleVariant": null,
+                    "stringId": 2182267946104311808
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2167932552526712832,
-            "femaleVariant": "9A5C5Z^9番{ばん}を2つ。1つをスーパーサイズで、もう1個{こ}はレギュラーで…"
-          },
-          {
-            "stringId": 2182266711452209152,
-            "femaleVariant": "D44DZ^はい… 以{い}上{じょう}ですか？"
-          },
-          {
-            "stringId": 2182266931418288128,
-            "femaleVariant": "4444DZ^6番{ばん}をソース多{おお}めで。あと45番{ばん}を2つと、7番{ばん}を1つ。Lサイズのニコーラも1つくれ"
-          },
-          {
-            "stringId": 2182267795377803264,
-            "femaleVariant": "6C44DZ^果{か}糖{とう}の追{つい}加{か}はいかかですか？"
-          },
-          {
-            "stringId": 2182267946104311808,
-            "femaleVariant": "8444DZ^あー、じゃあ頼{たの}むよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

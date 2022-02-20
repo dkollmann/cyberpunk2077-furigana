@@ -1,60 +1,102 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_std_rcr_03_meeting_nomad.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2A46BZ^リパーの所{ところ}に行{い}こう。ここからすぐだ。持{も}ち堪{こた}えてくれよ",
+                    "maleVariant": null,
+                    "stringId": 1724016503437045760
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E46B004^後{うし}ろよ",
+                    "maleVariant": "E46B004^後{うし}ろだ",
+                    "stringId": 1724018074925314052
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5546BZ^後{うし}ろで血{ち}を流{なが}してる",
+                    "maleVariant": null,
+                    "stringId": 1724018870685446144
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "おい！ おい！ こっちだ！",
+                    "maleVariant": null,
+                    "stringId": 1724019187070185472
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9646BZ^依{い}頼{らい}主{しゅ}はどこだ？",
+                    "maleVariant": null,
+                    "stringId": 1724020370719551488
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2746BZ^クソ… もし死{し}んだら金{きん}を取{と}れないだろ",
+                    "maleVariant": null,
+                    "stringId": 1724021120476557312
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "…そのつもりだ",
+                    "maleVariant": null,
+                    "stringId": 1724022098420477952
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B846BZ^さあ降{お}りろ。急{いそ}ぐんだ！",
+                    "maleVariant": null,
+                    "stringId": 1724025692754456576
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F744DZ^これ以{い}上{じょう}、あたしには関{かん}係{けい}ない",
+                    "maleVariant": "F744DZ^これ以{い}上{じょう}、俺{おれ}には関{かん}係{けい}ない",
+                    "stringId": 1943108840254132224
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1724016503437045760,
-            "femaleVariant": "2A46BZ^リパーの所{ところ}に行{い}こう。ここからすぐだ。持{も}ち堪{こた}えてくれよ"
-          },
-          {
-            "stringId": 1724018074925314052,
-            "femaleVariant": "E46B004^後{うし}ろよ",
-            "maleVariant": "E46B004^後{うし}ろだ"
-          },
-          {
-            "stringId": 1724018870685446144,
-            "femaleVariant": "5546BZ^後{うし}ろで血{ち}を流{なが}してる"
-          },
-          {
-            "stringId": 1724019187070185472,
-            "femaleVariant": "おい！ おい！ こっちだ！"
-          },
-          {
-            "stringId": 1724020370719551488,
-            "femaleVariant": "9646BZ^依{い}頼{らい}主{しゅ}はどこだ？"
-          },
-          {
-            "stringId": 1724021120476557312,
-            "femaleVariant": "2746BZ^クソ… もし死{し}んだら金{きん}を取{と}れないだろ"
-          },
-          {
-            "stringId": 1724022098420477952,
-            "femaleVariant": "…そのつもりだ"
-          },
-          {
-            "stringId": 1724025692754456576,
-            "femaleVariant": "B846BZ^さあ降{お}りろ。急{いそ}ぐんだ！"
-          },
-          {
-            "stringId": 1943108840254132224,
-            "femaleVariant": "F744DZ^これ以{い}上{じょう}、あたしには関{かん}係{けい}ない",
-            "maleVariant": "F744DZ^これ以{い}上{じょう}、俺{おれ}には関{かん}係{けい}ない"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

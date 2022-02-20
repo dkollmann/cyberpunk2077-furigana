@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_new_ani_03.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9E52A00C^サツのクソ野{や}郎{ろう}どもめ。金{きん}の匂{にお}いがしたら、すぐに首{くび}を突{つ}っ込{こ}んできやがる",
+                    "maleVariant": null,
+                    "stringId": 2276531968903651340
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9E52A018^あとでミンチにしてやりゃいい。それで気{き}が済{す}むだろ",
+                    "maleVariant": null,
+                    "stringId": 2276531968903651352
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9E52A024^済{す}むかよ！ あのクラブは俺{おれ}らが警{けい}備{び}するはずだったんだぞ！ すでに話{はなし}はついてたのに、横{よこ}取{ど}りしやがって！",
+                    "maleVariant": null,
+                    "stringId": 2276531968903651364
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2276531968903651340,
-            "femaleVariant": "9E52A00C^サツのクソ野{や}郎{ろう}どもめ。金{きん}の匂{にお}いがしたら、すぐに首{くび}を突{つ}っ込{こ}んできやがる"
-          },
-          {
-            "stringId": 2276531968903651352,
-            "femaleVariant": "9E52A018^あとでミンチにしてやりゃいい。それで気{き}が済{す}むだろ"
-          },
-          {
-            "stringId": 2276531968903651364,
-            "femaleVariant": "9E52A024^済{す}むかよ！ あのクラブは俺{おれ}らが警{けい}備{び}するはずだったんだぞ！ すでに話{はなし}はついてたのに、横{よこ}取{ど}りしやがって！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_jpn_chat_032.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F770AZ^いいサーロインを食{くっ}ったことがないから、そう思{おも}うのさ！",
+                    "maleVariant": null,
+                    "stringId": 2160395616628285440
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4B45AZ^私{わたし}はね、口{くち}にするものをちゃんと選{えら}んでるの。死{し}体{たい}の肉{にく}なんて、絶{ぜっ}対{たい}にごめんよ",
+                    "maleVariant": null,
+                    "stringId": 2196887786190381056
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D345AZ^ハハ！ そうだった、ゴミみたいな人{じん}工{こう}肉{にく}の方{ほう}がいいんだったな",
+                    "maleVariant": null,
+                    "stringId": 2196890640330366976
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BD45AZ^ゴミ？ 死{し}体{たい}を貪{どん}ってる奴{やつ}がよく言{い}えたものね",
+                    "maleVariant": null,
+                    "stringId": 2196909340248875008
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8C45AZ^俺{おれ}は伝{でん}統{とう}を大{だい}事{じ}にしてるんだ！",
+                    "maleVariant": null,
+                    "stringId": 2196911285046976512
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5F45AZ^ふん！ 偉{えら}そうに大{おお}げさなこと言{い}っても無{む}駄{だ}よ！",
+                    "maleVariant": null,
+                    "stringId": 2197036057386917888
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2160395616628285440,
-            "femaleVariant": "F770AZ^いいサーロインを食{くっ}ったことがないから、そう思{おも}うのさ！"
-          },
-          {
-            "stringId": 2196887786190381056,
-            "femaleVariant": "4B45AZ^私{わたし}はね、口{くち}にするものをちゃんと選{えら}んでるの。死{し}体{たい}の肉{にく}なんて、絶{ぜっ}対{たい}にごめんよ"
-          },
-          {
-            "stringId": 2196890640330366976,
-            "femaleVariant": "D345AZ^ハハ！ そうだった、ゴミみたいな人{じん}工{こう}肉{にく}の方{ほう}がいいんだったな"
-          },
-          {
-            "stringId": 2196909340248875008,
-            "femaleVariant": "BD45AZ^ゴミ？ 死{し}体{たい}を貪{どん}ってる奴{やつ}がよく言{い}えたものね"
-          },
-          {
-            "stringId": 2196911285046976512,
-            "femaleVariant": "8C45AZ^俺{おれ}は伝{でん}統{とう}を大{だい}事{じ}にしてるんだ！"
-          },
-          {
-            "stringId": 2197036057386917888,
-            "femaleVariant": "5F45AZ^ふん！ 偉{えら}そうに大{おお}げさなこと言{い}っても無{む}駄{だ}よ！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_hey_gle_05_el_gallo_scene.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なぜだ、エレベーター！ エレベーター、エレベーター、ああ…",
+                    "maleVariant": null,
+                    "stringId": 1461865012359356416
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6D406Z^誰{だれ}が壊{こわ}した！ どこのどいつの仕{し}業{わざ}だ！？",
+                    "maleVariant": null,
+                    "stringId": 1461868502724927488
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5D406Z^上{うえ}、下{した}、上{うえ}、下{した}。エレベーターは動{うご}いてなんぼだろ！",
+                    "maleVariant": null,
+                    "stringId": 1610001933085466624
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1461865012359356416,
-            "femaleVariant": "なぜだ、エレベーター！ エレベーター、エレベーター、ああ…"
-          },
-          {
-            "stringId": 1461868502724927488,
-            "femaleVariant": "6D406Z^誰{だれ}が壊{こわ}した！ どこのどいつの仕{し}業{わざ}だ！？"
-          },
-          {
-            "stringId": 1610001933085466624,
-            "femaleVariant": "5D406Z^上{うえ}、下{した}、上{うえ}、下{した}。エレベーターは動{うご}いてなんぼだろ！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

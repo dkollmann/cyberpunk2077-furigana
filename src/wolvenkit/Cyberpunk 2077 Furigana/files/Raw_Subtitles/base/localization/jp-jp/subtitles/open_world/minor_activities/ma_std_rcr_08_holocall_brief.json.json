@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\minor_activities\\ma_std_rcr_08_holocall_brief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C45C5004^NCPD業{ぎょう}務{む}委{い}託{たく}者{もの}に通{つう}達{たつ}。カーニタス通{とう}りで組{そ}織{しき}犯{はん}罪{ざい}活{かつ}動{どう}の報{ほう}告{こく}あり",
+                    "maleVariant": null,
+                    "stringId": 2328872824717725700
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4F559Z^シックス・ストリートの関{かん}与{よ}を確{かく}認{にん}。リーダーのオルガ・エリザベス・ロングミードは誘{ゆう}拐{かい}および2件{けん}の第一級{だいいっきゅう}殺{さつ}人{じん}容{よう}疑{ぎ}で指{し}名{めい}手{て}配{はい}中{なか}",
+                    "maleVariant": null,
+                    "stringId": 2358434485652262912
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "37559Z^脅{きょう}威{い}を排{はい}除{じょ}した者{もの}には、ナイトシティより報{ほう}酬{しゅう}が支{し}払{はら}われる",
+                    "maleVariant": null,
+                    "stringId": 2358434515314380800
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328872824717725700,
-            "femaleVariant": "C45C5004^NCPD業{ぎょう}務{む}委{い}託{たく}者{もの}に通{つう}達{たつ}。カーニタス通{とう}りで組{そ}織{しき}犯{はん}罪{ざい}活{かつ}動{どう}の報{ほう}告{こく}あり"
-          },
-          {
-            "stringId": 2358434485652262912,
-            "femaleVariant": "4F559Z^シックス・ストリートの関{かん}与{よ}を確{かく}認{にん}。リーダーのオルガ・エリザベス・ロングミードは誘{ゆう}拐{かい}および2件{けん}の第一級{だいいっきゅう}殺{さつ}人{じん}容{よう}疑{ぎ}で指{し}名{めい}手{て}配{はい}中{なか}"
-          },
-          {
-            "stringId": 2358434515314380800,
-            "femaleVariant": "37559Z^脅{きょう}威{い}を排{はい}除{じょ}した者{もの}には、ナイトシティより報{ほう}酬{しゅう}が支{し}払{はら}われる"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

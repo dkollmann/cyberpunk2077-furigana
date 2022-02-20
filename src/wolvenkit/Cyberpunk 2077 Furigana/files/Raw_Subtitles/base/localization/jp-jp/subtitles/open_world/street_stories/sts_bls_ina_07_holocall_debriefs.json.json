@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_bls_ina_07_holocall_debriefs.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A076DZ^うん… 申{もう}し分{ぶん}ない働{はたら}きだ。また頼{たの}むよ。ご苦{く}労{ろう}様{さま}だったね",
+                    "maleVariant": null,
+                    "stringId": 2328809700981133312
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "313BCZ^なに考{かんが}えてるんだ！？ なぜ車{くるま}を壊{こわ}した？",
+                    "maleVariant": null,
+                    "stringId": 2333087516606578688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "283BCZ^信{しん}じられない大失態{だいしったい}だよ、まったく。あきれて言葉{ことば}も出{で}ないね…",
+                    "maleVariant": null,
+                    "stringId": 2333090849350205440
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328809700981133312,
-            "femaleVariant": "A076DZ^うん… 申{もう}し分{ぶん}ない働{はたら}きだ。また頼{たの}むよ。ご苦{く}労{ろう}様{さま}だったね"
-          },
-          {
-            "stringId": 2333087516606578688,
-            "femaleVariant": "313BCZ^なに考{かんが}えてるんだ！？ なぜ車{くるま}を壊{こわ}した？"
-          },
-          {
-            "stringId": 2333090849350205440,
-            "femaleVariant": "283BCZ^信{しん}じられない大失態{だいしったい}だよ、まったく。あきれて言葉{ことば}も出{で}ないね…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

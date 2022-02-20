@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\ma_scene_gang_party_03.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "EB720Z^ああ、もう最{さい}高{こう}の気{き}分{ぶん}。もう、みんな大{だい}好{す}き！",
+                    "maleVariant": null,
+                    "stringId": 2007010553191596032
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1720Z^何{なに}してんの？ もっと盛{も}り上{あ}がろうよ！",
+                    "maleVariant": null,
+                    "stringId": 2007010613690236928
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3720Z^お金{きん}！ 男{おとこ}！ 権{けん}力{りょく}！",
+                    "maleVariant": null,
+                    "stringId": 2007010691033202688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A6720Z^私{わたし}に手{て}に入{い}らないものなんてない！",
+                    "maleVariant": null,
+                    "stringId": 2007010805437038592
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2007010553191596032,
-            "femaleVariant": "EB720Z^ああ、もう最{さい}高{こう}の気{き}分{ぶん}。もう、みんな大{だい}好{す}き！"
-          },
-          {
-            "stringId": 2007010613690236928,
-            "femaleVariant": "1720Z^何{なに}してんの？ もっと盛{も}り上{あ}がろうよ！"
-          },
-          {
-            "stringId": 2007010691033202688,
-            "femaleVariant": "3720Z^お金{きん}！ 男{おとこ}！ 権{けん}力{りょく}！"
-          },
-          {
-            "stringId": 2007010805437038592,
-            "femaleVariant": "A6720Z^私{わたし}に手{て}に入{い}らないものなんてない！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

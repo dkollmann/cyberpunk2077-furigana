@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_hey_rey_09_holocall_debriefs.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6C5C5004^ようやったな、V。あんたに頼{たの}んで正{せい}解{かい}やったわ。また連{れん}絡{らく}さしてもらうで。ご苦{く}労{ろう}はん",
+                    "maleVariant": null,
+                    "stringId": 2328779755594993668
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6E5C5004^標{ひょう}的{てき}を死{し}なせてからに。ミスは起{お}きるもんや。それはしゃあない。せやけどな、一{いち}番{ばん}あかんかったのが何{なに}かわかるか？",
+                    "maleVariant": null,
+                    "stringId": 2328779755628548100
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D6559Z^うちをがっかりさせたことや。よう考{かんが}えもせんと行{こう}動{どう}して… 昔{むかし}の旦{だん}那{な}はんらを思{おも}い出{だ}したわ。みーんなその後{のち}すぐ死{し}なはったけど。ほなな、V",
+                    "maleVariant": null,
+                    "stringId": 2340929764586786816
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328779755594993668,
-            "femaleVariant": "6C5C5004^ようやったな、V。あんたに頼{たの}んで正{せい}解{かい}やったわ。また連{れん}絡{らく}さしてもらうで。ご苦{く}労{ろう}はん"
-          },
-          {
-            "stringId": 2328779755628548100,
-            "femaleVariant": "6E5C5004^標{ひょう}的{てき}を死{し}なせてからに。ミスは起{お}きるもんや。それはしゃあない。せやけどな、一{いち}番{ばん}あかんかったのが何{なに}かわかるか？"
-          },
-          {
-            "stringId": 2340929764586786816,
-            "femaleVariant": "D6559Z^うちをがっかりさせたことや。よう考{かんが}えもせんと行{こう}動{どう}して… 昔{むかし}の旦{だん}那{な}はんらを思{おも}い出{だ}したわ。みーんなその後{のち}すぐ死{し}なはったけど。ほなな、V"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

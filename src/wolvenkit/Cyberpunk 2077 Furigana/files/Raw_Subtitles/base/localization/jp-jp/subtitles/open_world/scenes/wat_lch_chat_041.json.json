@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_041.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3A647Z^クルスの奴{やつ}、倒{たお}すのが早{はや}すぎるんだよ。もう2ラウンドぐらいやってくれてもよかったのに",
+                    "maleVariant": null,
+                    "stringId": 2157389561551155200
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "EB494Z^なんでだよ？ 引{ひ}き延{の}ばしても結{けっ}果{か}は変{か}わらない",
+                    "maleVariant": null,
+                    "stringId": 2222935936596525056
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D4494Z^観{かん}客{きゃく}は処{しょ}刑{けい}じゃなくて、ショーを見{み}に来{き}てるんだ",
+                    "maleVariant": null,
+                    "stringId": 2222936335642607616
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F7494Z^確{たし}かにそうかもしれないが… クルスにそういうのを期{き}待{たい}しても無{む}駄{だ}だ",
+                    "maleVariant": null,
+                    "stringId": 2222940755751157760
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "まあな。それでどこまでやってけるかね…",
+                    "maleVariant": null,
+                    "stringId": 2222948188812820480
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "FD494Z^攻{せ}めて、攻{せ}めて、攻{せ}めまくる。それがあいつの持{も}ち味{あじ}だからな",
+                    "maleVariant": null,
+                    "stringId": 2222949985736540160
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2157389561551155200,
-            "femaleVariant": "3A647Z^クルスの奴{やつ}、倒{たお}すのが早{はや}すぎるんだよ。もう2ラウンドぐらいやってくれてもよかったのに"
-          },
-          {
-            "stringId": 2222935936596525056,
-            "femaleVariant": "EB494Z^なんでだよ？ 引{ひ}き延{の}ばしても結{けっ}果{か}は変{か}わらない"
-          },
-          {
-            "stringId": 2222936335642607616,
-            "femaleVariant": "D4494Z^観{かん}客{きゃく}は処{しょ}刑{けい}じゃなくて、ショーを見{み}に来{き}てるんだ"
-          },
-          {
-            "stringId": 2222940755751157760,
-            "femaleVariant": "F7494Z^確{たし}かにそうかもしれないが… クルスにそういうのを期{き}待{たい}しても無{む}駄{だ}だ"
-          },
-          {
-            "stringId": 2222948188812820480,
-            "femaleVariant": "まあな。それでどこまでやってけるかね…"
-          },
-          {
-            "stringId": 2222949985736540160,
-            "femaleVariant": "FD494Z^攻{せ}めて、攻{せ}めて、攻{せ}めまくる。それがあいつの持{も}ち味{あじ}だからな"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

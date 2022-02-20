@@ -1,51 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\sq025\\sq025_07_resurgence.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1B62AZ^おい、お前{まえ}のチューマがまたぶっ壊{こわ}れてるぞ。問{もん}題{だい}発{はっ}生{せい}か？",
+                    "maleVariant": null,
+                    "stringId": 1730070130741911552
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ウイルスニヨリ、コアガソンショウ",
+                    "maleVariant": null,
+                    "stringId": 1730089518459166720
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ドウカ、オネガイデス",
+                    "maleVariant": null,
+                    "stringId": 1730090022916497408
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6162AZ^本{ほん}当{とう}だ。何{なに}か起{お}きてないかデラマンに連{れん}絡{らく}してみる",
+                    "maleVariant": null,
+                    "stringId": 1730290755796377600
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "デラマン？",
+                    "maleVariant": null,
+                    "stringId": 1934387835406147584
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "タスケテ",
+                    "maleVariant": null,
+                    "stringId": 1934388112465092608
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E962A018^デラマン？ あんたんとこの車{くるま}がまたトラブってるみたいだけど？",
+                    "maleVariant": "E962A018^あー、デラマン？ お前{まえ}んとこの車{くるま}がまたトラブってるみたいだぞ？",
+                    "stringId": 2004076145601060888
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1730070130741911552,
-            "femaleVariant": "1B62AZ^おい、お前{まえ}のチューマがまたぶっ壊{こわ}れてるぞ。問{もん}題{だい}発{はっ}生{せい}か？"
-          },
-          {
-            "stringId": 1730089518459166720,
-            "femaleVariant": "ウイルスニヨリ、コアガソンショウ"
-          },
-          {
-            "stringId": 1730090022916497408,
-            "femaleVariant": "ドウカ、オネガイデス"
-          },
-          {
-            "stringId": 1730290755796377600,
-            "femaleVariant": "6162AZ^本{ほん}当{とう}だ。何{なに}か起{お}きてないかデラマンに連{れん}絡{らく}してみる"
-          },
-          {
-            "stringId": 1934387835406147584,
-            "femaleVariant": "デラマン？"
-          },
-          {
-            "stringId": 1934388112465092608,
-            "femaleVariant": "タスケテ"
-          },
-          {
-            "stringId": 2004076145601060888,
-            "femaleVariant": "E962A018^デラマン？ あんたんとこの車{くるま}がまたトラブってるみたいだけど？",
-            "maleVariant": "E962A018^あー、デラマン？ お前{まえ}んとこの車{くるま}がまたトラブってるみたいだぞ？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

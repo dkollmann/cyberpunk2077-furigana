@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_038.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AB647Z^ドンはもう、今{こん}月{げつ}2回{かい}も払{はら}わされてる",
+                    "maleVariant": null,
+                    "stringId": 2157379732266840064
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "90494Z^なんだ、クロウズの奴{やつ}ら、どうして2回{かい}も？",
+                    "maleVariant": null,
+                    "stringId": 2179492276446248960
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9A494Z^売{う}り上{あ}げがいいから、その分{ふん}を取{と}るんだって",
+                    "maleVariant": null,
+                    "stringId": 2182447304307982336
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F5494Z^なんだよそれ？ 税{ぜい}金{きん}じゃあるまいし",
+                    "maleVariant": null,
+                    "stringId": 2182477611123949568
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "FD494Z^シッ。そこの傭{よう}兵{へい}が聞{き}き耳{みみ}立{た}ててる",
+                    "maleVariant": null,
+                    "stringId": 2182482297067487232
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "92494Z^奴{やつ}らの手{て}先{さき}かもしれない",
+                    "maleVariant": null,
+                    "stringId": 2182484365446561792
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2157379732266840064,
-            "femaleVariant": "AB647Z^ドンはもう、今{こん}月{げつ}2回{かい}も払{はら}わされてる"
-          },
-          {
-            "stringId": 2179492276446248960,
-            "femaleVariant": "90494Z^なんだ、クロウズの奴{やつ}ら、どうして2回{かい}も？"
-          },
-          {
-            "stringId": 2182447304307982336,
-            "femaleVariant": "9A494Z^売{う}り上{あ}げがいいから、その分{ふん}を取{と}るんだって"
-          },
-          {
-            "stringId": 2182477611123949568,
-            "femaleVariant": "F5494Z^なんだよそれ？ 税{ぜい}金{きん}じゃあるまいし"
-          },
-          {
-            "stringId": 2182482297067487232,
-            "femaleVariant": "FD494Z^シッ。そこの傭{よう}兵{へい}が聞{き}き耳{みみ}立{た}ててる"
-          },
-          {
-            "stringId": 2182484365446561792,
-            "femaleVariant": "92494Z^奴{やつ}らの手{て}先{さき}かもしれない"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

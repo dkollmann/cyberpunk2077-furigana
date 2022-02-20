@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_wwd_chat_027.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3369EZ^本{ほん}当{とう}に？ 有{ゆう}罪{ざい}確{かく}定{てい}か？",
+                    "maleVariant": null,
+                    "stringId": 2179634193492467712
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "マジかよ",
+                    "maleVariant": null,
+                    "stringId": 2211504564769845248
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4842FZ^ええ。懲{ちょう}役{えき}160年{ねん}。それとブレインダンス矯{きょう}正{せい}だって。あいつ、もう終{お}わりよ",
+                    "maleVariant": null,
+                    "stringId": 2212585221591855104
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2A42FZ^でもサイバーサイコシスだって証{しょう}明{めい}されなかったんだろ",
+                    "maleVariant": null,
+                    "stringId": 2212586423679381504
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "DA42FZ^そんな必{ひつ}要{よう}ある？",
+                    "maleVariant": null,
+                    "stringId": 2212587088057135104
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "DA42FZ^あいつ、教{きょう}会{かい}で何{なん}人{にん}殺{ころ}したんだっけ？ 14人{にん}か？ この辺{あた}りじゃ毎{まい}朝{あさ}それ以{い}上{じょう}の死{し}人{にん}が出{で}てるだろ",
+                    "maleVariant": null,
+                    "stringId": 2212587208316219392
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BA42FZ^おまけに、あいつが使{つか}った銃{じゅう}、ここで買{か}ったんだって",
+                    "maleVariant": null,
+                    "stringId": 2212588174146990080
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2179634193492467712,
-            "femaleVariant": "3369EZ^本{ほん}当{とう}に？ 有{ゆう}罪{ざい}確{かく}定{てい}か？"
-          },
-          {
-            "stringId": 2211504564769845248,
-            "femaleVariant": "マジかよ"
-          },
-          {
-            "stringId": 2212585221591855104,
-            "femaleVariant": "4842FZ^ええ。懲{ちょう}役{えき}160年{ねん}。それとブレインダンス矯{きょう}正{せい}だって。あいつ、もう終{お}わりよ"
-          },
-          {
-            "stringId": 2212586423679381504,
-            "femaleVariant": "2A42FZ^でもサイバーサイコシスだって証{しょう}明{めい}されなかったんだろ"
-          },
-          {
-            "stringId": 2212587088057135104,
-            "femaleVariant": "DA42FZ^そんな必{ひつ}要{よう}ある？"
-          },
-          {
-            "stringId": 2212587208316219392,
-            "femaleVariant": "DA42FZ^あいつ、教{きょう}会{かい}で何{なん}人{にん}殺{ころ}したんだっけ？ 14人{にん}か？ この辺{あた}りじゃ毎{まい}朝{あさ}それ以{い}上{じょう}の死{し}人{にん}が出{で}てるだろ"
-          },
-          {
-            "stringId": 2212588174146990080,
-            "femaleVariant": "BA42FZ^おまけに、あいつが使{つか}った銃{じゅう}、ここで買{か}ったんだって"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

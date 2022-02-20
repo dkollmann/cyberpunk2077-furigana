@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_gle_chat_009.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6769EZ^あなたはスタッフにも、素{す}晴{ば}らしいブレーンにもなれる。でもそこまで。キャンペーンの主{しゅ}役{やく}には絶{ぜっ}対{たい}になれない",
+                    "maleVariant": null,
+                    "stringId": 1832762598201352192
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9669EZ^私{わたし}ならやれるわ",
+                    "maleVariant": null,
+                    "stringId": 1832764961221894144
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5569EZ^意気込{いきご}みはわかるけど、何{なに}かが… 足{た}りないのよ。人{にん}が求{もと}めるような何{なに}かが",
+                    "maleVariant": null,
+                    "stringId": 1832765131930066944
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3569EZ^トンプソンの後{うし}ろ盾{だて}があれば、議{ぎ}席{せき}を取{と}れる可{か}能{のう}性{せい}は十{じゅう}分{ぶん}ある。退{しりぞ}くつもりはないわ",
+                    "maleVariant": null,
+                    "stringId": 1832765298896920576
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8769EZ^トンプソンはアラサカと組{く}んだ",
+                    "maleVariant": null,
+                    "stringId": 1832767069799178240
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "え？",
+                    "maleVariant": null,
+                    "stringId": 1832767235692290048
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A769EZ^じゃ、頑{がん}張{ば}ってね",
+                    "maleVariant": null,
+                    "stringId": 1832767383868661760
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1832762598201352192,
-            "femaleVariant": "6769EZ^あなたはスタッフにも、素{す}晴{ば}らしいブレーンにもなれる。でもそこまで。キャンペーンの主{しゅ}役{やく}には絶{ぜっ}対{たい}になれない"
-          },
-          {
-            "stringId": 1832764961221894144,
-            "femaleVariant": "9669EZ^私{わたし}ならやれるわ"
-          },
-          {
-            "stringId": 1832765131930066944,
-            "femaleVariant": "5569EZ^意気込{いきご}みはわかるけど、何{なに}かが… 足{た}りないのよ。人{にん}が求{もと}めるような何{なに}かが"
-          },
-          {
-            "stringId": 1832765298896920576,
-            "femaleVariant": "3569EZ^トンプソンの後{うし}ろ盾{だて}があれば、議{ぎ}席{せき}を取{と}れる可{か}能{のう}性{せい}は十{じゅう}分{ぶん}ある。退{しりぞ}くつもりはないわ"
-          },
-          {
-            "stringId": 1832767069799178240,
-            "femaleVariant": "8769EZ^トンプソンはアラサカと組{く}んだ"
-          },
-          {
-            "stringId": 1832767235692290048,
-            "femaleVariant": "え？"
-          },
-          {
-            "stringId": 1832767383868661760,
-            "femaleVariant": "A769EZ^じゃ、頑{がん}張{ば}ってね"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

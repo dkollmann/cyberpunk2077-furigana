@@ -1,30 +1,46 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_wat_jpn_12_holocall_prebrief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5270AZ^V、あんたに手{て}に入{い}れてほしいもんがある。クライアントはおらん、うちからの直{すぐ}の依{い}頼{らい}や。失敗{しっぱい}は許{ゆる}されへんで",
+                    "maleVariant": null,
+                    "stringId": 2329299338828750848
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4F559Z^場{ば}所{しょ}はタイガークロウズのシマ――まあ、危{き}険{けん}なとこや。詳{しょう}細{さい}をよう読{よ}んどきや",
+                    "maleVariant": null,
+                    "stringId": 2343105957826236416
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2329299338828750848,
-            "femaleVariant": "5270AZ^V、あんたに手{て}に入{い}れてほしいもんがある。クライアントはおらん、うちからの直{すぐ}の依{い}頼{らい}や。失敗{しっぱい}は許{ゆる}されへんで"
-          },
-          {
-            "stringId": 2343105957826236416,
-            "femaleVariant": "4F559Z^場{ば}所{しょ}はタイガークロウズのシマ――まあ、危{き}険{けん}なとこや。詳{しょう}細{さい}をよう読{よ}んどきや"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

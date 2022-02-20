@@ -1,599 +1,1142 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q201\\q201_04_cabin_day_2.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "665B6Z^認{にん}知{ち}機{き}能{のう}検{けん}査{さ}よ",
+                    "maleVariant": null,
+                    "stringId": 1721925890459000832
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "665B600C^パズルを解{と}いて",
+                    "maleVariant": null,
+                    "stringId": 1721925890459000844
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6C5B6Z^[解{と}く]",
+                    "maleVariant": null,
+                    "stringId": 1721925890559664128
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7C5B6Z^準{じゅん}備{び}をして。検{けん}査{さ}を始{はじ}めるわよ",
+                    "maleVariant": null,
+                    "stringId": 1730403911457267712
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7C5B600C^これまでの検{けん}査{さ}結{けっ}果{か}はまだ出{で}ないの？",
+                    "maleVariant": "7C5B600C^これまでの検{けん}査{さ}結{けっ}果{か}はまだ出{で}ないのか？",
+                    "stringId": 1730403911457267724
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7C5B6018^ええ、まだよ。今日{きょう}もいくつか検{けん}査{さ}を行{おこな}うから",
+                    "maleVariant": null,
+                    "stringId": 1730403911457267736
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7E5B600C^患者{かんじゃ}の準{じゅん}備{び}完{かん}了{りょう}",
+                    "maleVariant": null,
+                    "stringId": 1730403911490822156
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "815B6Z^始{はじ}めて",
+                    "maleVariant": "815B6Z^始{はじ}めてくれ",
+                    "stringId": 1730403911541153792
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "825B600C^この検{けん}査{さ}はもうやったでしょ？",
+                    "maleVariant": "825B600C^この検{けん}査{さ}はもうやっただろ？",
+                    "stringId": 1730403911557931020
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "825B601C^どうしてこんなパズルが解{と}けないの？",
+                    "maleVariant": "825B601C^どうしてこんなパズルが解{と}けないんだ？",
+                    "stringId": 1730403911557931036
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "845B6Z^さっさと始{はじ}めて",
+                    "maleVariant": "845B6Z^さっさと始{はじ}めてくれ",
+                    "stringId": 1730403911591485440
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "845B6018^デバイスを調{ちょう}整{せい}",
+                    "maleVariant": null,
+                    "stringId": 1730403911591485464
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "845B6024^キーワードを聞{き}いて、最{さい}初{しょ}に思{おも}い浮{う}かんだ言葉{ことば}を答{こた}えて",
+                    "maleVariant": null,
+                    "stringId": 1730403911591485476
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "845B6030^できるだけ早{はや}く、考{かんが}えずに、でしょ",
+                    "maleVariant": "845B6030^できるだけ早{はや}く、考{かんが}えずに、だろ",
+                    "stringId": 1730403911591485488
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "845B603C^病{びょう}気{き}",
+                    "maleVariant": null,
+                    "stringId": 1730403911591485500
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "865B6010^「ゆっくりと地{じ}面{めん}に影{かげ}が落{お}ちる」",
+                    "maleVariant": null,
+                    "stringId": 1730403911625039888
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "もうやめて",
+                    "maleVariant": "もうやめろ",
+                    "stringId": 1730403911625039904
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "885B6018^よし、こんなところね。次{つぎ}は運{うん}動{どう}機{き}能{のう}検{けん}査{さ}よ",
+                    "maleVariant": null,
+                    "stringId": 1730403911658594328
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8A5B6Z^認{にん}知{ち}機{き}能{のう}検{けん}査{さ}よ",
+                    "maleVariant": null,
+                    "stringId": 1730403911692148736
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8A5B600C^パズルを解{と}いて",
+                    "maleVariant": null,
+                    "stringId": 1730403911692148748
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8D5B6Z^これまでの検{けん}査{さ}結{けっ}果{か}はまだ出{で}ないの？",
+                    "maleVariant": "8D5B6Z^これまでの検{けん}査{さ}結{けっ}果{か}はまだ出{で}ないのか？",
+                    "stringId": 1730403911742480384
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8E5B6Z^そう。それじゃさっさと済{す}ませましょ",
+                    "maleVariant": "8E5B6Z^わかった。ならさっさと済{す}ませよう",
+                    "stringId": 1730403911759257600
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どうなってるの？",
+                    "maleVariant": "どうなってるんだ？",
+                    "stringId": 1730403912111579136
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A45B6Z^[解{と}く]",
+                    "maleVariant": null,
+                    "stringId": 1730403912128356352
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "また？ もうやったでしょ？",
+                    "maleVariant": "またか… もうやっただろ？",
+                    "stringId": 1730403912212242432
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AD5B6008^正{せい}確{かく}なデータを取{と}るためよ",
+                    "maleVariant": null,
+                    "stringId": 1730403912279351304
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AF5B6Z^どうしてこんなパズルが解{と}けないの？",
+                    "maleVariant": "AF5B6Z^どうしてこんなパズルが解{と}けないんだ？",
+                    "stringId": 1730403912312905728
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AF5B600C^それを特{とく}定{てい}しようとしてるの",
+                    "maleVariant": null,
+                    "stringId": 1730403912312905740
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B15B6Z^自{じ}分{ぶん}",
+                    "maleVariant": null,
+                    "stringId": 1730403912346460160
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ジョニー",
+                    "maleVariant": null,
+                    "stringId": 1730403912346460176
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B15B6020^命{いのち}",
+                    "maleVariant": null,
+                    "stringId": 1730403912346460192
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B15B6030^街{まち}",
+                    "maleVariant": null,
+                    "stringId": 1730403912346460208
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B15B6040^死{し}",
+                    "maleVariant": null,
+                    "stringId": 1730403912346460224
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "わからない",
+                    "maleVariant": null,
+                    "stringId": 1730403912363237380
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B35B6Z^自{じ}分{ぶん}",
+                    "maleVariant": null,
+                    "stringId": 1730403912380014592
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B55B6Z^反{はん}逆{ぎゃく}",
+                    "maleVariant": null,
+                    "stringId": 1730403912413569024
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ジョニー",
+                    "maleVariant": null,
+                    "stringId": 1730403912430346240
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B85B6Z^命{いのち}",
+                    "maleVariant": null,
+                    "stringId": 1730403912463900672
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B95B6Z^街{まち}",
+                    "maleVariant": null,
+                    "stringId": 1730403912480677888
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BB5B6Z^死{し}",
+                    "maleVariant": null,
+                    "stringId": 1730403912514232320
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BD5B6Z^何{なに}も思{おも}いつかない",
+                    "maleVariant": null,
+                    "stringId": 1730403912547786752
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BF5B6Z^自{じ}分{ぶん}",
+                    "maleVariant": null,
+                    "stringId": 1730403912581341184
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ジョニー",
+                    "maleVariant": null,
+                    "stringId": 1730403912581341200
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BF5B6020^命{いのち}",
+                    "maleVariant": null,
+                    "stringId": 1730403912581341216
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BF5B6030^死{し}",
+                    "maleVariant": null,
+                    "stringId": 1730403912581341232
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C05B6008^思{おも}いつかない",
+                    "maleVariant": null,
+                    "stringId": 1730403912598118408
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "わからない",
+                    "maleVariant": null,
+                    "stringId": 1730403912598118424
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C25B6Z^自{じ}分{ぶん}",
+                    "maleVariant": null,
+                    "stringId": 1730403912631672832
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C35B6Z^自{じ}分{ぶん}自{じ}身{しん}",
+                    "maleVariant": null,
+                    "stringId": 1730403912648450048
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ジョニー",
+                    "maleVariant": null,
+                    "stringId": 1730403912732336128
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "CA5B6Z^命{いのち}",
+                    "maleVariant": null,
+                    "stringId": 1730403912765890560
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "CB5B6Z^死{し}",
+                    "maleVariant": null,
+                    "stringId": 1730403912782667776
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "CD5B6Z^思{おも}いつかない",
+                    "maleVariant": null,
+                    "stringId": 1730403912816222208
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "CF5B6Z^何{なに}も浮{う}かばない",
+                    "maleVariant": null,
+                    "stringId": 1730403912849776640
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ジョニー",
+                    "maleVariant": null,
+                    "stringId": 1730403912883331072
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D15B6010^空{くう}虚{きょ}",
+                    "maleVariant": null,
+                    "stringId": 1730403912883331088
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D15B6020^死{し}",
+                    "maleVariant": null,
+                    "stringId": 1730403912883331104
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D25B6008^変{へん}化{か}",
+                    "maleVariant": null,
+                    "stringId": 1730403912900108296
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D25B6018^孤{こ}独{どく}",
+                    "maleVariant": null,
+                    "stringId": 1730403912900108312
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "わからない",
+                    "maleVariant": null,
+                    "stringId": 1730403912900108328
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ジョニー",
+                    "maleVariant": null,
+                    "stringId": 1730403912933662720
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D75B6Z^現{げん}在{ざい}",
+                    "maleVariant": null,
+                    "stringId": 1730403912983994368
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D95B6Z^空{くう}虚{きょ}",
+                    "maleVariant": null,
+                    "stringId": 1730403913017548800
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "DB5B6Z^死{し}",
+                    "maleVariant": null,
+                    "stringId": 1730403913051103232
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "DD5B6Z^変{へん}化{か}",
+                    "maleVariant": null,
+                    "stringId": 1730403913084657664
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "DF5B6Z^孤{こ}独{どく}",
+                    "maleVariant": null,
+                    "stringId": 1730403913118212096
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "わからない",
+                    "maleVariant": null,
+                    "stringId": 1730403913151766528
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E35B6Z^地{じ}獄{ごく}",
+                    "maleVariant": null,
+                    "stringId": 1730403913185320960
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E35B6010^虚{きょ}無{む}",
+                    "maleVariant": null,
+                    "stringId": 1730403913185320976
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "アラサカ",
+                    "maleVariant": null,
+                    "stringId": 1730403913185320992
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E35B6030^孤{こ}独{どく}",
+                    "maleVariant": null,
+                    "stringId": 1730403913185321008
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E45B6008^死{し}",
+                    "maleVariant": null,
+                    "stringId": 1730403913202098184
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E45B6018^何{なに}も浮{う}かばない",
+                    "maleVariant": null,
+                    "stringId": 1730403913202098200
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E65B6Z^地{じ}獄{ごく}",
+                    "maleVariant": null,
+                    "stringId": 1730403913235652608
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E85B6Z^虚{きょ}無{む}",
+                    "maleVariant": null,
+                    "stringId": 1730403913269207040
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "アラサカ",
+                    "maleVariant": null,
+                    "stringId": 1730403913285984256
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "EB5B6Z^孤{こ}独{どく}",
+                    "maleVariant": null,
+                    "stringId": 1730403913319538688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ED5B6Z^死{し}",
+                    "maleVariant": null,
+                    "stringId": 1730403913353093120
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "EE5B6Z^何{なに}も思{おも}い浮{う}かばない",
+                    "maleVariant": null,
+                    "stringId": 1730403913369870336
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "わからない",
+                    "maleVariant": null,
+                    "stringId": 1730403913403424768
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "アラサカ",
+                    "maleVariant": null,
+                    "stringId": 1730403913403424784
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F05B6020^街{まち}",
+                    "maleVariant": null,
+                    "stringId": 1730403913403424800
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F15B6Z^思{おも}いつかない",
+                    "maleVariant": null,
+                    "stringId": 1730403913420201984
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F15B6010^反{はん}逆{ぎゃく}",
+                    "maleVariant": null,
+                    "stringId": 1730403913420202000
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F15B6020^死{し}",
+                    "maleVariant": null,
+                    "stringId": 1730403913420202016
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "わからない",
+                    "maleVariant": null,
+                    "stringId": 1730403913470533632
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F65B6Z^あなたはトウモロコシ畑{はたけ}にいる。背{せ}の高{たか}い草{くさ}葉{は}に囲{かこ}まれて――",
+                    "maleVariant": null,
+                    "stringId": 1730403913504088064
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F65B600C^目{め}も眩{くら}むほどまぶしい太{たい}陽{よう}の光{ひかり}を浴{あ}び、あなたはトウモロコシの茎{くき}を掻{か}き分{わ}け、進{すす}んでいく",
+                    "maleVariant": null,
+                    "stringId": 1730403913504088076
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F65B6018^すると、自{じ}動{どう}コンバインが通{かよ}った後{のち}の、開{ひら}けた空{くう}間{かん}にたどり着{つ}く",
+                    "maleVariant": null,
+                    "stringId": 1730403913504088088
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "アラサカ",
+                    "maleVariant": null,
+                    "stringId": 1730403913554419712
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "FB5B6Z^街{まち}",
+                    "maleVariant": null,
+                    "stringId": 1730403913587974144
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "FE5B6Z^何{なに}も思{おも}い浮{う}かばない",
+                    "maleVariant": "FE5B6Z^何{なに}も浮{う}かんでこない",
+                    "stringId": 1730403913638305792
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5B6Z^反{はん}逆{ぎゃく}",
+                    "maleVariant": null,
+                    "stringId": 1730403913671860224
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "25B6Z^死{し}",
+                    "maleVariant": null,
+                    "stringId": 1730403913705414656
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "45B6Z^未{み}来{らい}",
+                    "maleVariant": null,
+                    "stringId": 1730403913738969088
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "85B6Z^「暑{あつ}さであなたの口{くち}は渇{かわ}き、ねばついている。足{あし}元{もと}にネズミの巣{す}がある」",
+                    "maleVariant": null,
+                    "stringId": 1730403913806077952
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A5B6004^生{う}まれたばかりで目{め}も開{ひら}かない子{こ}ネズミたちが、母{はは}親{おや}を取{と}り囲{かこ}んでいる。その体{からだ}はコンバインによって2つに切{き}り裂{さ}かれている",
+                    "maleVariant": null,
+                    "stringId": 1730403913839632388
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A5B6010^完{かん}全{ぜん}な左{さ}右{ゆう}対{たい}称{しょう}に、花{はな}輪{わ}のよう横{よこ}たわる子{こ}ネズミたち。よだれが出{で}始{はじ}める",
+                    "maleVariant": null,
+                    "stringId": 1730403913839632400
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B5B6Z^「ゆっくりと地{じ}面{めん}に影{かげ}が落{お}ちる。今年初{ことしはつ}めて見{み}る雨雲{あまぐも}」",
+                    "maleVariant": null,
+                    "stringId": 1730403913856409600
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D5B6Z^もう十{じゅう}分{ぶん}でしょ",
+                    "maleVariant": "D5B6Z^もう十{じゅう}分{ぶん}だろ",
+                    "stringId": 1730403913889964032
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "265B6Z^[接{せつ}続{ぞく}する]",
+                    "maleVariant": null,
+                    "stringId": 1730403914309394432
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "295B6Z^高{こう}次{じ}表{ひょう}現{げん}形{けい}成{せい}… 検{けん}査{さ}開{かい}始{し}",
+                    "maleVariant": null,
+                    "stringId": 1730403914359726080
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4F5B6Z^次{つぎ}の検{けん}査{さ}よ。パーソナルリンクを繋{つな}いで",
+                    "maleVariant": null,
+                    "stringId": 1730403914997260288
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "885B6Z^ランニングマシンに乗{の}って",
+                    "maleVariant": null,
+                    "stringId": 1730403915953561600
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "パーソナルリンクを",
+                    "maleVariant": null,
+                    "stringId": 1730403916071002112
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "935B6Z^[接{せつ}続{ぞく}する]",
+                    "maleVariant": null,
+                    "stringId": 1730403916138110976
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "965B6Z^前{ぜん}回{かい}の出{で}来{き}じゃ不{ふ}満{まん}だったわけ？",
+                    "maleVariant": "965B6Z^前{ぜん}回{かい}の出{で}来{き}じゃ不{ふ}満{まん}だったのか？",
+                    "stringId": 1730403916188442624
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9B5B6Z^ゆっくり歩{ある}いて",
+                    "maleVariant": null,
+                    "stringId": 1730403916272328704
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9E5B6Z^嫌{いや}よ。やりたくない",
+                    "maleVariant": "9E5B6Z^嫌{いや}だ。断{ことわ}る",
+                    "stringId": 1730403916322660352
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A15B6Z^どう、悪{わる}くないでしょ？",
+                    "maleVariant": "A15B6Z^どうだ、悪{わる}くないだろ？",
+                    "stringId": 1730403916372992000
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A35B6Z^断{ことわ}る。こんなの無{む}意{い}味{み}よ",
+                    "maleVariant": "A35B6Z^断{ことわ}る。こんなの無{む}意{い}味{み}だ",
+                    "stringId": 1730403916406546432
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AF5B6Z^必{ひつ}要{よう}な検{けん}査{さ}なのよ。省{しょう}略{りゃく}はできない",
+                    "maleVariant": null,
+                    "stringId": 1730403916607873024
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B25B6Z^もう少{すこ}し速{はや}く――",
+                    "maleVariant": null,
+                    "stringId": 1730403916658204672
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B25B6008^3段{だん}階{かい}加{か}速{そく}",
+                    "maleVariant": null,
+                    "stringId": 1730403916658204680
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BE5B6Z^も… もう無{む}理{り}。止{と}めて",
+                    "maleVariant": "BE5B6Z^も… もう無{む}理{り}だ。止{と}めてくれ",
+                    "stringId": 1730403916859531264
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C55B6Z^[接{せつ}続{ぞく}を解{かい}除{じょ}して立{た}ち上{あ}がる]",
+                    "maleVariant": null,
+                    "stringId": 1730403916976971776
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F5627Z^動{どう}作{さ}停{てい}止{し}",
+                    "maleVariant": null,
+                    "stringId": 1731534439074394112
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "DC627010^通{つう}信{しん}の使{し}用{よう}を許{きょ}可{か}するわ。連{れん}絡{らく}していいわよ、地{ち}球{きゅう}に",
+                    "maleVariant": null,
+                    "stringId": 1731538952665591824
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "DC627020^今日{きょう}の検{けん}査{さ}は以{い}上{じょう}",
+                    "maleVariant": null,
+                    "stringId": 1731538952665591840
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "57653Z^[起{お}きる]",
+                    "maleVariant": null,
+                    "stringId": 1731638061099724800
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "69386Z^暑{あつ}さであなたの口{くち}は渇{かわ}き、ねばついている。足{あし}元{もと}にネズミの巣{す}がある",
+                    "maleVariant": null,
+                    "stringId": 1731879734913556480
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "84386Z^「暑{あつ}さであなたの口{くち}は乾{かわ}き…」",
+                    "maleVariant": null,
+                    "stringId": 1731880946547318784
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "50386Z^ゆっくりと地{じ}面{めん}に影{かげ}が落{お}ちる。今年初{ことしはつ}めて見{み}る雨雲{あまぐも}",
+                    "maleVariant": null,
+                    "stringId": 1731909262394286080
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ふむ",
+                    "maleVariant": null,
+                    "stringId": 1737610241595105280
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "CF653Z^運{うん}動{どう}機{き}能{のう}検{けん}査{さ}",
+                    "maleVariant": null,
+                    "stringId": 1741588737833644032
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "15653Z^[横{よこ}になる]",
+                    "maleVariant": null,
+                    "stringId": 1741754627824889856
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BA653Z^[座{すわ}る]",
+                    "maleVariant": null,
+                    "stringId": 1743185584847138816
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "EC5F9Z^自{じ}分{ぶん}の体{からだ}のことはわかってる",
+                    "maleVariant": null,
+                    "stringId": 1783739860895371264
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "DE5F9Z^自{じ}分{ぶん}の体{からだ}よ、長{なが}く走{はし}れないのはわかってる",
+                    "maleVariant": "DE5F9Z^自{じ}分{ぶん}の体{からだ}だ、長{なが}く走{はし}れないのはわかってる",
+                    "stringId": 1783740341696827392
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "もううんざりなんだけど",
+                    "maleVariant": "もううんざりなんだが",
+                    "stringId": 1857574168197554176
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D5B6Z^面倒{めんどう}かもしれないけど、患者{かんじゃ}の健{けん}康{こう}と安{あん}全{ぜん}のためには欠{か}かせない検{けん}査{さ}なの",
+                    "maleVariant": null,
+                    "stringId": 1857574519680229376
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "うんざりしてきた",
+                    "maleVariant": null,
+                    "stringId": 1862225560516190208
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "EF386Z^必{ひつ}要{よう}な検{けん}査{さ}なの。省{しょう}略{りゃく}はできない",
+                    "maleVariant": null,
+                    "stringId": 1955178222206869504
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "89653Z^[解{と}く]",
+                    "maleVariant": null,
+                    "stringId": 2048954274446389248
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D6653Z^[解{と}く]",
+                    "maleVariant": null,
+                    "stringId": 2048955946480513024
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "85653Z^[解{と}く]",
+                    "maleVariant": null,
+                    "stringId": 2048955983776264192
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "23653Z^[解{と}く]",
+                    "maleVariant": null,
+                    "stringId": 2048995014794883072
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "54653Z^[解{と}く]",
+                    "maleVariant": null,
+                    "stringId": 2048995084336443392
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F1653Z^[解{と}く]",
+                    "maleVariant": null,
+                    "stringId": 2048995134215106560
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1721925890459000832,
-            "femaleVariant": "665B6Z^認{にん}知{ち}機{き}能{のう}検{けん}査{さ}よ"
-          },
-          {
-            "stringId": 1721925890459000844,
-            "femaleVariant": "665B600C^パズルを解{と}いて"
-          },
-          {
-            "stringId": 1721925890559664128,
-            "femaleVariant": "6C5B6Z^[解{と}く]"
-          },
-          {
-            "stringId": 1730403911457267712,
-            "femaleVariant": "7C5B6Z^準{じゅん}備{び}をして。検{けん}査{さ}を始{はじ}めるわよ"
-          },
-          {
-            "stringId": 1730403911457267724,
-            "femaleVariant": "7C5B600C^これまでの検{けん}査{さ}結{けっ}果{か}はまだ出{で}ないの？",
-            "maleVariant": "7C5B600C^これまでの検{けん}査{さ}結{けっ}果{か}はまだ出{で}ないのか？"
-          },
-          {
-            "stringId": 1730403911457267736,
-            "femaleVariant": "7C5B6018^ええ、まだよ。今日{きょう}もいくつか検{けん}査{さ}を行{おこな}うから"
-          },
-          {
-            "stringId": 1730403911490822156,
-            "femaleVariant": "7E5B600C^患者{かんじゃ}の準{じゅん}備{び}完{かん}了{りょう}"
-          },
-          {
-            "stringId": 1730403911541153792,
-            "femaleVariant": "815B6Z^始{はじ}めて",
-            "maleVariant": "815B6Z^始{はじ}めてくれ"
-          },
-          {
-            "stringId": 1730403911557931020,
-            "femaleVariant": "825B600C^この検{けん}査{さ}はもうやったでしょ？",
-            "maleVariant": "825B600C^この検{けん}査{さ}はもうやっただろ？"
-          },
-          {
-            "stringId": 1730403911557931036,
-            "femaleVariant": "825B601C^どうしてこんなパズルが解{と}けないの？",
-            "maleVariant": "825B601C^どうしてこんなパズルが解{と}けないんだ？"
-          },
-          {
-            "stringId": 1730403911591485440,
-            "femaleVariant": "845B6Z^さっさと始{はじ}めて",
-            "maleVariant": "845B6Z^さっさと始{はじ}めてくれ"
-          },
-          {
-            "stringId": 1730403911591485464,
-            "femaleVariant": "845B6018^デバイスを調{ちょう}整{せい}"
-          },
-          {
-            "stringId": 1730403911591485476,
-            "femaleVariant": "845B6024^キーワードを聞{き}いて、最{さい}初{しょ}に思{おも}い浮{う}かんだ言葉{ことば}を答{こた}えて"
-          },
-          {
-            "stringId": 1730403911591485488,
-            "femaleVariant": "845B6030^できるだけ早{はや}く、考{かんが}えずに、でしょ",
-            "maleVariant": "845B6030^できるだけ早{はや}く、考{かんが}えずに、だろ"
-          },
-          {
-            "stringId": 1730403911591485500,
-            "femaleVariant": "845B603C^病{びょう}気{き}"
-          },
-          {
-            "stringId": 1730403911625039888,
-            "femaleVariant": "865B6010^「ゆっくりと地{じ}面{めん}に影{かげ}が落{お}ちる」"
-          },
-          {
-            "stringId": 1730403911625039904,
-            "femaleVariant": "もうやめて",
-            "maleVariant": "もうやめろ"
-          },
-          {
-            "stringId": 1730403911658594328,
-            "femaleVariant": "885B6018^よし、こんなところね。次{つぎ}は運{うん}動{どう}機{き}能{のう}検{けん}査{さ}よ"
-          },
-          {
-            "stringId": 1730403911692148736,
-            "femaleVariant": "8A5B6Z^認{にん}知{ち}機{き}能{のう}検{けん}査{さ}よ"
-          },
-          {
-            "stringId": 1730403911692148748,
-            "femaleVariant": "8A5B600C^パズルを解{と}いて"
-          },
-          {
-            "stringId": 1730403911742480384,
-            "femaleVariant": "8D5B6Z^これまでの検{けん}査{さ}結{けっ}果{か}はまだ出{で}ないの？",
-            "maleVariant": "8D5B6Z^これまでの検{けん}査{さ}結{けっ}果{か}はまだ出{で}ないのか？"
-          },
-          {
-            "stringId": 1730403911759257600,
-            "femaleVariant": "8E5B6Z^そう。それじゃさっさと済{す}ませましょ",
-            "maleVariant": "8E5B6Z^わかった。ならさっさと済{す}ませよう"
-          },
-          {
-            "stringId": 1730403912111579136,
-            "femaleVariant": "どうなってるの？",
-            "maleVariant": "どうなってるんだ？"
-          },
-          {
-            "stringId": 1730403912128356352,
-            "femaleVariant": "A45B6Z^[解{と}く]"
-          },
-          {
-            "stringId": 1730403912212242432,
-            "femaleVariant": "また？ もうやったでしょ？",
-            "maleVariant": "またか… もうやっただろ？"
-          },
-          {
-            "stringId": 1730403912279351304,
-            "femaleVariant": "AD5B6008^正{せい}確{かく}なデータを取{と}るためよ"
-          },
-          {
-            "stringId": 1730403912312905728,
-            "femaleVariant": "AF5B6Z^どうしてこんなパズルが解{と}けないの？",
-            "maleVariant": "AF5B6Z^どうしてこんなパズルが解{と}けないんだ？"
-          },
-          {
-            "stringId": 1730403912312905740,
-            "femaleVariant": "AF5B600C^それを特{とく}定{てい}しようとしてるの"
-          },
-          {
-            "stringId": 1730403912346460160,
-            "femaleVariant": "B15B6Z^自{じ}分{ぶん}"
-          },
-          {
-            "stringId": 1730403912346460176,
-            "femaleVariant": "ジョニー"
-          },
-          {
-            "stringId": 1730403912346460192,
-            "femaleVariant": "B15B6020^命{いのち}"
-          },
-          {
-            "stringId": 1730403912346460208,
-            "femaleVariant": "B15B6030^街{まち}"
-          },
-          {
-            "stringId": 1730403912346460224,
-            "femaleVariant": "B15B6040^死{し}"
-          },
-          {
-            "stringId": 1730403912363237380,
-            "femaleVariant": "わからない"
-          },
-          {
-            "stringId": 1730403912380014592,
-            "femaleVariant": "B35B6Z^自{じ}分{ぶん}"
-          },
-          {
-            "stringId": 1730403912413569024,
-            "femaleVariant": "B55B6Z^反{はん}逆{ぎゃく}"
-          },
-          {
-            "stringId": 1730403912430346240,
-            "femaleVariant": "ジョニー"
-          },
-          {
-            "stringId": 1730403912463900672,
-            "femaleVariant": "B85B6Z^命{いのち}"
-          },
-          {
-            "stringId": 1730403912480677888,
-            "femaleVariant": "B95B6Z^街{まち}"
-          },
-          {
-            "stringId": 1730403912514232320,
-            "femaleVariant": "BB5B6Z^死{し}"
-          },
-          {
-            "stringId": 1730403912547786752,
-            "femaleVariant": "BD5B6Z^何{なに}も思{おも}いつかない"
-          },
-          {
-            "stringId": 1730403912581341184,
-            "femaleVariant": "BF5B6Z^自{じ}分{ぶん}"
-          },
-          {
-            "stringId": 1730403912581341200,
-            "femaleVariant": "ジョニー"
-          },
-          {
-            "stringId": 1730403912581341216,
-            "femaleVariant": "BF5B6020^命{いのち}"
-          },
-          {
-            "stringId": 1730403912581341232,
-            "femaleVariant": "BF5B6030^死{し}"
-          },
-          {
-            "stringId": 1730403912598118408,
-            "femaleVariant": "C05B6008^思{おも}いつかない"
-          },
-          {
-            "stringId": 1730403912598118424,
-            "femaleVariant": "わからない"
-          },
-          {
-            "stringId": 1730403912631672832,
-            "femaleVariant": "C25B6Z^自{じ}分{ぶん}"
-          },
-          {
-            "stringId": 1730403912648450048,
-            "femaleVariant": "C35B6Z^自{じ}分{ぶん}自{じ}身{しん}"
-          },
-          {
-            "stringId": 1730403912732336128,
-            "femaleVariant": "ジョニー"
-          },
-          {
-            "stringId": 1730403912765890560,
-            "femaleVariant": "CA5B6Z^命{いのち}"
-          },
-          {
-            "stringId": 1730403912782667776,
-            "femaleVariant": "CB5B6Z^死{し}"
-          },
-          {
-            "stringId": 1730403912816222208,
-            "femaleVariant": "CD5B6Z^思{おも}いつかない"
-          },
-          {
-            "stringId": 1730403912849776640,
-            "femaleVariant": "CF5B6Z^何{なに}も浮{う}かばない"
-          },
-          {
-            "stringId": 1730403912883331072,
-            "femaleVariant": "ジョニー"
-          },
-          {
-            "stringId": 1730403912883331088,
-            "femaleVariant": "D15B6010^空{くう}虚{きょ}"
-          },
-          {
-            "stringId": 1730403912883331104,
-            "femaleVariant": "D15B6020^死{し}"
-          },
-          {
-            "stringId": 1730403912900108296,
-            "femaleVariant": "D25B6008^変{へん}化{か}"
-          },
-          {
-            "stringId": 1730403912900108312,
-            "femaleVariant": "D25B6018^孤{こ}独{どく}"
-          },
-          {
-            "stringId": 1730403912900108328,
-            "femaleVariant": "わからない"
-          },
-          {
-            "stringId": 1730403912933662720,
-            "femaleVariant": "ジョニー"
-          },
-          {
-            "stringId": 1730403912983994368,
-            "femaleVariant": "D75B6Z^現{げん}在{ざい}"
-          },
-          {
-            "stringId": 1730403913017548800,
-            "femaleVariant": "D95B6Z^空{くう}虚{きょ}"
-          },
-          {
-            "stringId": 1730403913051103232,
-            "femaleVariant": "DB5B6Z^死{し}"
-          },
-          {
-            "stringId": 1730403913084657664,
-            "femaleVariant": "DD5B6Z^変{へん}化{か}"
-          },
-          {
-            "stringId": 1730403913118212096,
-            "femaleVariant": "DF5B6Z^孤{こ}独{どく}"
-          },
-          {
-            "stringId": 1730403913151766528,
-            "femaleVariant": "わからない"
-          },
-          {
-            "stringId": 1730403913185320960,
-            "femaleVariant": "E35B6Z^地{じ}獄{ごく}"
-          },
-          {
-            "stringId": 1730403913185320976,
-            "femaleVariant": "E35B6010^虚{きょ}無{む}"
-          },
-          {
-            "stringId": 1730403913185320992,
-            "femaleVariant": "アラサカ"
-          },
-          {
-            "stringId": 1730403913185321008,
-            "femaleVariant": "E35B6030^孤{こ}独{どく}"
-          },
-          {
-            "stringId": 1730403913202098184,
-            "femaleVariant": "E45B6008^死{し}"
-          },
-          {
-            "stringId": 1730403913202098200,
-            "femaleVariant": "E45B6018^何{なに}も浮{う}かばない"
-          },
-          {
-            "stringId": 1730403913235652608,
-            "femaleVariant": "E65B6Z^地{じ}獄{ごく}"
-          },
-          {
-            "stringId": 1730403913269207040,
-            "femaleVariant": "E85B6Z^虚{きょ}無{む}"
-          },
-          {
-            "stringId": 1730403913285984256,
-            "femaleVariant": "アラサカ"
-          },
-          {
-            "stringId": 1730403913319538688,
-            "femaleVariant": "EB5B6Z^孤{こ}独{どく}"
-          },
-          {
-            "stringId": 1730403913353093120,
-            "femaleVariant": "ED5B6Z^死{し}"
-          },
-          {
-            "stringId": 1730403913369870336,
-            "femaleVariant": "EE5B6Z^何{なに}も思{おも}い浮{う}かばない"
-          },
-          {
-            "stringId": 1730403913403424768,
-            "femaleVariant": "わからない"
-          },
-          {
-            "stringId": 1730403913403424784,
-            "femaleVariant": "アラサカ"
-          },
-          {
-            "stringId": 1730403913403424800,
-            "femaleVariant": "F05B6020^街{まち}"
-          },
-          {
-            "stringId": 1730403913420201984,
-            "femaleVariant": "F15B6Z^思{おも}いつかない"
-          },
-          {
-            "stringId": 1730403913420202000,
-            "femaleVariant": "F15B6010^反{はん}逆{ぎゃく}"
-          },
-          {
-            "stringId": 1730403913420202016,
-            "femaleVariant": "F15B6020^死{し}"
-          },
-          {
-            "stringId": 1730403913470533632,
-            "femaleVariant": "わからない"
-          },
-          {
-            "stringId": 1730403913504088064,
-            "femaleVariant": "F65B6Z^あなたはトウモロコシ畑{はたけ}にいる。背{せ}の高{たか}い草{くさ}葉{は}に囲{かこ}まれて――"
-          },
-          {
-            "stringId": 1730403913504088076,
-            "femaleVariant": "F65B600C^目{め}も眩{くら}むほどまぶしい太{たい}陽{よう}の光{ひかり}を浴{あ}び、あなたはトウモロコシの茎{くき}を掻{か}き分{わ}け、進{すす}んでいく"
-          },
-          {
-            "stringId": 1730403913504088088,
-            "femaleVariant": "F65B6018^すると、自{じ}動{どう}コンバインが通{かよ}った後{のち}の、開{ひら}けた空{くう}間{かん}にたどり着{つ}く"
-          },
-          {
-            "stringId": 1730403913554419712,
-            "femaleVariant": "アラサカ"
-          },
-          {
-            "stringId": 1730403913587974144,
-            "femaleVariant": "FB5B6Z^街{まち}"
-          },
-          {
-            "stringId": 1730403913638305792,
-            "femaleVariant": "FE5B6Z^何{なに}も思{おも}い浮{う}かばない",
-            "maleVariant": "FE5B6Z^何{なに}も浮{う}かんでこない"
-          },
-          {
-            "stringId": 1730403913671860224,
-            "femaleVariant": "5B6Z^反{はん}逆{ぎゃく}"
-          },
-          {
-            "stringId": 1730403913705414656,
-            "femaleVariant": "25B6Z^死{し}"
-          },
-          {
-            "stringId": 1730403913738969088,
-            "femaleVariant": "45B6Z^未{み}来{らい}"
-          },
-          {
-            "stringId": 1730403913806077952,
-            "femaleVariant": "85B6Z^「暑{あつ}さであなたの口{くち}は渇{かわ}き、ねばついている。足{あし}元{もと}にネズミの巣{す}がある」"
-          },
-          {
-            "stringId": 1730403913839632388,
-            "femaleVariant": "A5B6004^生{う}まれたばかりで目{め}も開{ひら}かない子{こ}ネズミたちが、母{はは}親{おや}を取{と}り囲{かこ}んでいる。その体{からだ}はコンバインによって2つに切{き}り裂{さ}かれている"
-          },
-          {
-            "stringId": 1730403913839632400,
-            "femaleVariant": "A5B6010^完{かん}全{ぜん}な左{さ}右{ゆう}対{たい}称{しょう}に、花{はな}輪{わ}のよう横{よこ}たわる子{こ}ネズミたち。よだれが出{で}始{はじ}める"
-          },
-          {
-            "stringId": 1730403913856409600,
-            "femaleVariant": "B5B6Z^「ゆっくりと地{じ}面{めん}に影{かげ}が落{お}ちる。今年初{ことしはつ}めて見{み}る雨雲{あまぐも}」"
-          },
-          {
-            "stringId": 1730403913889964032,
-            "femaleVariant": "D5B6Z^もう十{じゅう}分{ぶん}でしょ",
-            "maleVariant": "D5B6Z^もう十{じゅう}分{ぶん}だろ"
-          },
-          {
-            "stringId": 1730403914309394432,
-            "femaleVariant": "265B6Z^[接{せつ}続{ぞく}する]"
-          },
-          {
-            "stringId": 1730403914359726080,
-            "femaleVariant": "295B6Z^高{こう}次{じ}表{ひょう}現{げん}形{けい}成{せい}… 検{けん}査{さ}開{かい}始{し}"
-          },
-          {
-            "stringId": 1730403914997260288,
-            "femaleVariant": "4F5B6Z^次{つぎ}の検{けん}査{さ}よ。パーソナルリンクを繋{つな}いで"
-          },
-          {
-            "stringId": 1730403915953561600,
-            "femaleVariant": "885B6Z^ランニングマシンに乗{の}って"
-          },
-          {
-            "stringId": 1730403916071002112,
-            "femaleVariant": "パーソナルリンクを"
-          },
-          {
-            "stringId": 1730403916138110976,
-            "femaleVariant": "935B6Z^[接{せつ}続{ぞく}する]"
-          },
-          {
-            "stringId": 1730403916188442624,
-            "femaleVariant": "965B6Z^前{ぜん}回{かい}の出{で}来{き}じゃ不{ふ}満{まん}だったわけ？",
-            "maleVariant": "965B6Z^前{ぜん}回{かい}の出{で}来{き}じゃ不{ふ}満{まん}だったのか？"
-          },
-          {
-            "stringId": 1730403916272328704,
-            "femaleVariant": "9B5B6Z^ゆっくり歩{ある}いて"
-          },
-          {
-            "stringId": 1730403916322660352,
-            "femaleVariant": "9E5B6Z^嫌{いや}よ。やりたくない",
-            "maleVariant": "9E5B6Z^嫌{いや}だ。断{ことわ}る"
-          },
-          {
-            "stringId": 1730403916372992000,
-            "femaleVariant": "A15B6Z^どう、悪{わる}くないでしょ？",
-            "maleVariant": "A15B6Z^どうだ、悪{わる}くないだろ？"
-          },
-          {
-            "stringId": 1730403916406546432,
-            "femaleVariant": "A35B6Z^断{ことわ}る。こんなの無{む}意{い}味{み}よ",
-            "maleVariant": "A35B6Z^断{ことわ}る。こんなの無{む}意{い}味{み}だ"
-          },
-          {
-            "stringId": 1730403916607873024,
-            "femaleVariant": "AF5B6Z^必{ひつ}要{よう}な検{けん}査{さ}なのよ。省{しょう}略{りゃく}はできない"
-          },
-          {
-            "stringId": 1730403916658204672,
-            "femaleVariant": "B25B6Z^もう少{すこ}し速{はや}く――"
-          },
-          {
-            "stringId": 1730403916658204680,
-            "femaleVariant": "B25B6008^3段{だん}階{かい}加{か}速{そく}"
-          },
-          {
-            "stringId": 1730403916859531264,
-            "femaleVariant": "BE5B6Z^も… もう無{む}理{り}。止{と}めて",
-            "maleVariant": "BE5B6Z^も… もう無{む}理{り}だ。止{と}めてくれ"
-          },
-          {
-            "stringId": 1730403916976971776,
-            "femaleVariant": "C55B6Z^[接{せつ}続{ぞく}を解{かい}除{じょ}して立{た}ち上{あ}がる]"
-          },
-          {
-            "stringId": 1731534439074394112,
-            "femaleVariant": "F5627Z^動{どう}作{さ}停{てい}止{し}"
-          },
-          {
-            "stringId": 1731538952665591824,
-            "femaleVariant": "DC627010^通{つう}信{しん}の使{し}用{よう}を許{きょ}可{か}するわ。連{れん}絡{らく}していいわよ、地{ち}球{きゅう}に"
-          },
-          {
-            "stringId": 1731538952665591840,
-            "femaleVariant": "DC627020^今日{きょう}の検{けん}査{さ}は以{い}上{じょう}"
-          },
-          {
-            "stringId": 1731638061099724800,
-            "femaleVariant": "57653Z^[起{お}きる]"
-          },
-          {
-            "stringId": 1731879734913556480,
-            "femaleVariant": "69386Z^暑{あつ}さであなたの口{くち}は渇{かわ}き、ねばついている。足{あし}元{もと}にネズミの巣{す}がある"
-          },
-          {
-            "stringId": 1731880946547318784,
-            "femaleVariant": "84386Z^「暑{あつ}さであなたの口{くち}は乾{かわ}き…」"
-          },
-          {
-            "stringId": 1731909262394286080,
-            "femaleVariant": "50386Z^ゆっくりと地{じ}面{めん}に影{かげ}が落{お}ちる。今年初{ことしはつ}めて見{み}る雨雲{あまぐも}"
-          },
-          {
-            "stringId": 1737610241595105280,
-            "femaleVariant": "ふむ"
-          },
-          {
-            "stringId": 1741588737833644032,
-            "femaleVariant": "CF653Z^運{うん}動{どう}機{き}能{のう}検{けん}査{さ}"
-          },
-          {
-            "stringId": 1741754627824889856,
-            "femaleVariant": "15653Z^[横{よこ}になる]"
-          },
-          {
-            "stringId": 1743185584847138816,
-            "femaleVariant": "BA653Z^[座{すわ}る]"
-          },
-          {
-            "stringId": 1783739860895371264,
-            "femaleVariant": "EC5F9Z^自{じ}分{ぶん}の体{からだ}のことはわかってる"
-          },
-          {
-            "stringId": 1783740341696827392,
-            "femaleVariant": "DE5F9Z^自{じ}分{ぶん}の体{からだ}よ、長{なが}く走{はし}れないのはわかってる",
-            "maleVariant": "DE5F9Z^自{じ}分{ぶん}の体{からだ}だ、長{なが}く走{はし}れないのはわかってる"
-          },
-          {
-            "stringId": 1857574168197554176,
-            "femaleVariant": "もううんざりなんだけど",
-            "maleVariant": "もううんざりなんだが"
-          },
-          {
-            "stringId": 1857574519680229376,
-            "femaleVariant": "D5B6Z^面倒{めんどう}かもしれないけど、患者{かんじゃ}の健{けん}康{こう}と安{あん}全{ぜん}のためには欠{か}かせない検{けん}査{さ}なの"
-          },
-          {
-            "stringId": 1862225560516190208,
-            "femaleVariant": "うんざりしてきた"
-          },
-          {
-            "stringId": 1955178222206869504,
-            "femaleVariant": "EF386Z^必{ひつ}要{よう}な検{けん}査{さ}なの。省{しょう}略{りゃく}はできない"
-          },
-          {
-            "stringId": 2048954274446389248,
-            "femaleVariant": "89653Z^[解{と}く]"
-          },
-          {
-            "stringId": 2048955946480513024,
-            "femaleVariant": "D6653Z^[解{と}く]"
-          },
-          {
-            "stringId": 2048955983776264192,
-            "femaleVariant": "85653Z^[解{と}く]"
-          },
-          {
-            "stringId": 2048995014794883072,
-            "femaleVariant": "23653Z^[解{と}く]"
-          },
-          {
-            "stringId": 2048995084336443392,
-            "femaleVariant": "54653Z^[解{と}く]"
-          },
-          {
-            "stringId": 2048995134215106560,
-            "femaleVariant": "F1653Z^[解{と}く]"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

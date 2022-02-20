@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_tyger_claw_05.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3670AZ^たぶんな。向{む}こうは俺{おれ}の顔{かお}も知{し}ってるし",
+                    "maleVariant": null,
+                    "stringId": 1977761243048484864
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C870AZ^次{つぎ}の配{はい}達{たつ}はいつだ？",
+                    "maleVariant": null,
+                    "stringId": 1977762757326446592
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5670AZ^2日{にち}後{ご}だ。またお前{まえ}が取{と}りに行{い}くのか？",
+                    "maleVariant": null,
+                    "stringId": 1977762798363516928
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1977761243048484864,
-            "femaleVariant": "3670AZ^たぶんな。向{む}こうは俺{おれ}の顔{かお}も知{し}ってるし"
-          },
-          {
-            "stringId": 1977762757326446592,
-            "femaleVariant": "C870AZ^次{つぎ}の配{はい}達{たつ}はいつだ？"
-          },
-          {
-            "stringId": 1977762798363516928,
-            "femaleVariant": "5670AZ^2日{にち}後{ご}だ。またお前{まえ}が取{と}りに行{い}くのか？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

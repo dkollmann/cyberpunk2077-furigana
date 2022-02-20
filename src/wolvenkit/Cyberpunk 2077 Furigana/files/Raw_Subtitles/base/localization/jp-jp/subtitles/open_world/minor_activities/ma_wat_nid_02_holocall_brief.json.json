@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\minor_activities\\ma_wat_nid_02_holocall_brief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2947E004^NCPD業{ぎょう}務{む}委{い}託{たく}者{もの}に通{つう}達{たつ}。リッチモンド通{とう}りで組{そ}織{しき}犯{はん}罪{ざい}活{かつ}動{どう}の報{ほう}告{こく}あり",
+                    "maleVariant": null,
+                    "stringId": 2328562880095969284
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2A559Z^これまでの情{じょう}報{ほう}によると、メイルストロームの一{いち}団{だん}が違{い}法{ほう}ドラッグ取{とり}引{ひき}を行{い}っているとみられる",
+                    "maleVariant": null,
+                    "stringId": 2352126548168249344
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A4559Z^リーダーはトム・エイヤー、通{つう}称{しょう}“ユミル”。連{れん}続{ぞく}殺{さつ}人{じん}犯{はん}。脅{きょう}威{い}を無{む}力{りょく}化{か}した者{もの}には、ナイトシティより報{ほう}酬{しゅう}が支{し}払{はら}われる",
+                    "maleVariant": null,
+                    "stringId": 2352137094359781376
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328562880095969284,
-            "femaleVariant": "2947E004^NCPD業{ぎょう}務{む}委{い}託{たく}者{もの}に通{つう}達{たつ}。リッチモンド通{とう}りで組{そ}織{しき}犯{はん}罪{ざい}活{かつ}動{どう}の報{ほう}告{こく}あり"
-          },
-          {
-            "stringId": 2352126548168249344,
-            "femaleVariant": "2A559Z^これまでの情{じょう}報{ほう}によると、メイルストロームの一{いち}団{だん}が違{い}法{ほう}ドラッグ取{とり}引{ひき}を行{い}っているとみられる"
-          },
-          {
-            "stringId": 2352137094359781376,
-            "femaleVariant": "A4559Z^リーダーはトム・エイヤー、通{つう}称{しょう}“ユミル”。連{れん}続{ぞく}殺{さつ}人{じん}犯{はん}。脅{きょう}威{い}を無{む}力{りょく}化{か}した者{もの}には、ナイトシティより報{ほう}酬{しゅう}が支{し}払{はら}われる"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

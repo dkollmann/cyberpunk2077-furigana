@@ -1,54 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\benedict_mcadams_default.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E12C5004^前{まえ}は何{なに}をしてたの？",
+                    "maleVariant": "E12C5004^前{まえ}は何{なに}をしてたんだ？",
+                    "stringId": 1953082758967087108
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AC2C5Z^この仕{し}事{ごと}の前{まえ}は何{なに}してたの？",
+                    "maleVariant": "AC2C5Z^この仕{し}事{ごと}の前{まえ}は何{なに}してたんだ？",
+                    "stringId": 1953152787519655936
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "862C5Z^トラウマ・チームで働{はたら}いてた",
+                    "maleVariant": null,
+                    "stringId": 1953176413497217024
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "EC2C5Z^へえ、どうして辞{や}めたの？",
+                    "maleVariant": "EC2C5Z^へえ、どうして辞{や}めたんだ？",
+                    "stringId": 1953180293563961344
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "402C5Z^まあ、状{じょう}況{きょう}を誤{あやま}って判{はん}断{だん}したというか…",
+                    "maleVariant": null,
+                    "stringId": 1953183773896757248
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BE2C5Z^ちゃんと教{おし}えてよ",
+                    "maleVariant": "BE2C5Z^ちゃんと教{おし}えろよ",
+                    "stringId": 1953186614984069120
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5F2C5Z^顧{こ}客{きゃく}を撃{う}ったんだ。間{ま}違{ちが}ってな",
+                    "maleVariant": null,
+                    "stringId": 1953187476678660096
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1953082758967087108,
-            "femaleVariant": "E12C5004^前{まえ}は何{なに}をしてたの？",
-            "maleVariant": "E12C5004^前{まえ}は何{なに}をしてたんだ？"
-          },
-          {
-            "stringId": 1953152787519655936,
-            "femaleVariant": "AC2C5Z^この仕{し}事{ごと}の前{まえ}は何{なに}してたの？",
-            "maleVariant": "AC2C5Z^この仕{し}事{ごと}の前{まえ}は何{なに}してたんだ？"
-          },
-          {
-            "stringId": 1953176413497217024,
-            "femaleVariant": "862C5Z^トラウマ・チームで働{はたら}いてた"
-          },
-          {
-            "stringId": 1953180293563961344,
-            "femaleVariant": "EC2C5Z^へえ、どうして辞{や}めたの？",
-            "maleVariant": "EC2C5Z^へえ、どうして辞{や}めたんだ？"
-          },
-          {
-            "stringId": 1953183773896757248,
-            "femaleVariant": "402C5Z^まあ、状{じょう}況{きょう}を誤{あやま}って判{はん}断{だん}したというか…"
-          },
-          {
-            "stringId": 1953186614984069120,
-            "femaleVariant": "BE2C5Z^ちゃんと教{おし}えてよ",
-            "maleVariant": "BE2C5Z^ちゃんと教{おし}えろよ"
-          },
-          {
-            "stringId": 1953187476678660096,
-            "femaleVariant": "5F2C5Z^顧{こ}客{きゃく}を撃{う}ったんだ。間{ま}違{ちが}ってな"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

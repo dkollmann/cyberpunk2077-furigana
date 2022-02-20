@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_jpn_chat_020.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2370AZ^話{はなし}は単{たん}純{じゅん}明{めい}快{かい}だ。武{ぶ}器{き}は調{ちょう}達{たつ}したし、警{けい}官{かん}も買{ばい}収{しゅう}済{す}みだ。あとは突{とつ}入{にゅう}してブツを分{ふん}捕{とら}ったら退{たい}散{さん}する。乗{の}るか？",
+                    "maleVariant": null,
+                    "stringId": 2160323573585059840
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AA44DZ^いいじゃない。ワカコの了{りょう}承{しょう}は得{え}てるの？",
+                    "maleVariant": null,
+                    "stringId": 2169430319558873088
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1944DZ^バカ言{い}うな。顔{かお}を隠{かく}してやるんだ。絶{ぜっ}対{たい}にバレやしない",
+                    "maleVariant": null,
+                    "stringId": 2169431743055319040
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8144DZ^冗{じょう}談{だん}でしょ！ ワカコに隠{かく}し通{とう}すなんて無{む}理{り}よ。あの人{にん}はなんでもお見{み}通{とお}しなんだから。彼{かの}女{じょ}の縄{なわ}張{ば}りを荒{あ}らしたら、命{いのち}はないわよ",
+                    "maleVariant": null,
+                    "stringId": 2169432328915701760
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2160323573585059840,
-            "femaleVariant": "2370AZ^話{はなし}は単{たん}純{じゅん}明{めい}快{かい}だ。武{ぶ}器{き}は調{ちょう}達{たつ}したし、警{けい}官{かん}も買{ばい}収{しゅう}済{す}みだ。あとは突{とつ}入{にゅう}してブツを分{ふん}捕{とら}ったら退{たい}散{さん}する。乗{の}るか？"
-          },
-          {
-            "stringId": 2169430319558873088,
-            "femaleVariant": "AA44DZ^いいじゃない。ワカコの了{りょう}承{しょう}は得{え}てるの？"
-          },
-          {
-            "stringId": 2169431743055319040,
-            "femaleVariant": "1944DZ^バカ言{い}うな。顔{かお}を隠{かく}してやるんだ。絶{ぜっ}対{たい}にバレやしない"
-          },
-          {
-            "stringId": 2169432328915701760,
-            "femaleVariant": "8144DZ^冗{じょう}談{だん}でしょ！ ワカコに隠{かく}し通{とう}すなんて無{む}理{り}よ。あの人{にん}はなんでもお見{み}通{とお}しなんだから。彼{かの}女{じょ}の縄{なわ}張{ば}りを荒{あ}らしたら、命{いのち}はないわよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

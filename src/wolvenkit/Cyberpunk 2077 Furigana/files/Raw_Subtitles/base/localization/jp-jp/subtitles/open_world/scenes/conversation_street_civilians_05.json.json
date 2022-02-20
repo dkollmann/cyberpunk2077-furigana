@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_civilians_05.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1070AZ^別{べつ}に何{なに}もないさ。本{ほん}当{とう}に",
+                    "maleVariant": null,
+                    "stringId": 1968952316026462208
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6170AZ^本{ほん}当{とう}のことを言{い}ったらどうなのよ！？",
+                    "maleVariant": null,
+                    "stringId": 1968954005307564032
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8170AZ^だから何{なに}もないんだって",
+                    "maleVariant": null,
+                    "stringId": 1968954096038748160
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1968952316026462208,
-            "femaleVariant": "1070AZ^別{べつ}に何{なに}もないさ。本{ほん}当{とう}に"
-          },
-          {
-            "stringId": 1968954005307564032,
-            "femaleVariant": "6170AZ^本{ほん}当{とう}のことを言{い}ったらどうなのよ！？"
-          },
-          {
-            "stringId": 1968954096038748160,
-            "femaleVariant": "8170AZ^だから何{なに}もないんだって"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

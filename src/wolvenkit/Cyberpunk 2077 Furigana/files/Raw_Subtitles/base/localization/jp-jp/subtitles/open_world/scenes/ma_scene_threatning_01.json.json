@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\ma_scene_threatning_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "あんたはおしまいだ。わかってんのかい！？",
+                    "maleVariant": null,
+                    "stringId": 2007146470602571776
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1C720Z^何{なん}の価{か}値{ち}もないゴミクズめ…！",
+                    "maleVariant": null,
+                    "stringId": 2007146541268205568
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B6720Z^腹{はら}をかっさばいて、中{なか}に詰{つ}まったクソを口{くち}に突{つ}っ込{こ}んでやる！ 殺{ころ}すのはそれからだ！",
+                    "maleVariant": null,
+                    "stringId": 2007146625456275456
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "26720Z^まずは指{ゆび}… その後{のち}に腕{うで}と足{あし}の骨{ほね}を折{お}って、生{い}きたままネズミに食{く}わせてやる",
+                    "maleVariant": null,
+                    "stringId": 2007146696054800384
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2007146470602571776,
-            "femaleVariant": "あんたはおしまいだ。わかってんのかい！？"
-          },
-          {
-            "stringId": 2007146541268205568,
-            "femaleVariant": "1C720Z^何{なん}の価{か}値{ち}もないゴミクズめ…！"
-          },
-          {
-            "stringId": 2007146625456275456,
-            "femaleVariant": "B6720Z^腹{はら}をかっさばいて、中{なか}に詰{つ}まったクソを口{くち}に突{つ}っ込{こ}んでやる！ 殺{ころ}すのはそれからだ！"
-          },
-          {
-            "stringId": 2007146696054800384,
-            "femaleVariant": "26720Z^まずは指{ゆび}… その後{のち}に腕{うで}と足{あし}の骨{ほね}を折{お}って、生{い}きたままネズミに食{く}わせてやる"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q108\\q108_09_taken.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ジョニー！",
+                    "maleVariant": null,
+                    "stringId": 1649064204033134592
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "こっぴどくやられたな",
+                    "maleVariant": null,
+                    "stringId": 1649066073535090688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ジョニー！",
+                    "maleVariant": null,
+                    "stringId": 2013998575371702272
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "42494Z^放{はな}して！",
+                    "maleVariant": null,
+                    "stringId": 2233045758494982144
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いや！！",
+                    "maleVariant": null,
+                    "stringId": 2233049367844569088
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1D494Z^やめて！ 放{はな}してよ！",
+                    "maleVariant": null,
+                    "stringId": 2233051057863868416
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1649064204033134592,
-            "femaleVariant": "ジョニー！"
-          },
-          {
-            "stringId": 1649066073535090688,
-            "femaleVariant": "こっぴどくやられたな"
-          },
-          {
-            "stringId": 2013998575371702272,
-            "femaleVariant": "ジョニー！"
-          },
-          {
-            "stringId": 2233045758494982144,
-            "femaleVariant": "42494Z^放{はな}して！"
-          },
-          {
-            "stringId": 2233049367844569088,
-            "femaleVariant": "いや！！"
-          },
-          {
-            "stringId": 2233051057863868416,
-            "femaleVariant": "1D494Z^やめて！ 放{はな}してよ！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

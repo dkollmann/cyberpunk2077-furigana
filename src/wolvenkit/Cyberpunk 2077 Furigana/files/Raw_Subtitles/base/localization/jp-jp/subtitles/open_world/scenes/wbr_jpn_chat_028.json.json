@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_jpn_chat_028.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C270AZ^なんだ？ ものすごい量{りょう}の電{でん}気{き}が消{しょう}費{ひ}されてる。飲{いん}食{しょく}店{てん}が使{つか}う量{りょう}じゃないよな？",
+                    "maleVariant": null,
+                    "stringId": 2160371417893347328
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "おい。こいつはどういうことだ？",
+                    "maleVariant": null,
+                    "stringId": 2180890586751799296
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AE559Z^ああ、気{き}にしなくていい",
+                    "maleVariant": null,
+                    "stringId": 2180890735481819136
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "EE559Z^そんなわけあるか。レストラン数{すう}軒{けん}でこの電{でん}力{りょく}量{りょう}は不{ふ}自{し}然{ぜん}だ",
+                    "maleVariant": null,
+                    "stringId": 2180890813864972288
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "FE559Z^だから気{き}にするなって。何{なに}も問{もん}題{だい}はない",
+                    "maleVariant": null,
+                    "stringId": 2180890895737786368
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D559Z^何言{なにごと}ってんだよ。誰{だれ}かが割{さ}って入{いっ}って、電{でん}力{りょく}を盗{ぬす}んでるに違{ちが}いない",
+                    "maleVariant": null,
+                    "stringId": 2180891312601272320
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1F559Z^いいか、よく聞{き}け。与{あた}えられた仕{し}事{ごと}だけをすればいい。余{よ}計{けい}な問{もん}題{だい}を増{ふ}やさないでくれ。わかったな？",
+                    "maleVariant": null,
+                    "stringId": 2180891467522084864
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ああ… わかったよ",
+                    "maleVariant": null,
+                    "stringId": 2180891856451506176
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2160371417893347328,
-            "femaleVariant": "C270AZ^なんだ？ ものすごい量{りょう}の電{でん}気{き}が消{しょう}費{ひ}されてる。飲{いん}食{しょく}店{てん}が使{つか}う量{りょう}じゃないよな？"
-          },
-          {
-            "stringId": 2180890586751799296,
-            "femaleVariant": "おい。こいつはどういうことだ？"
-          },
-          {
-            "stringId": 2180890735481819136,
-            "femaleVariant": "AE559Z^ああ、気{き}にしなくていい"
-          },
-          {
-            "stringId": 2180890813864972288,
-            "femaleVariant": "EE559Z^そんなわけあるか。レストラン数{すう}軒{けん}でこの電{でん}力{りょく}量{りょう}は不{ふ}自{し}然{ぜん}だ"
-          },
-          {
-            "stringId": 2180890895737786368,
-            "femaleVariant": "FE559Z^だから気{き}にするなって。何{なに}も問{もん}題{だい}はない"
-          },
-          {
-            "stringId": 2180891312601272320,
-            "femaleVariant": "D559Z^何言{なにごと}ってんだよ。誰{だれ}かが割{さ}って入{いっ}って、電{でん}力{りょく}を盗{ぬす}んでるに違{ちが}いない"
-          },
-          {
-            "stringId": 2180891467522084864,
-            "femaleVariant": "1F559Z^いいか、よく聞{き}け。与{あた}えられた仕{し}事{ごと}だけをすればいい。余{よ}計{けい}な問{もん}題{だい}を増{ふ}やさないでくれ。わかったな？"
-          },
-          {
-            "stringId": 2180891856451506176,
-            "femaleVariant": "ああ… わかったよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

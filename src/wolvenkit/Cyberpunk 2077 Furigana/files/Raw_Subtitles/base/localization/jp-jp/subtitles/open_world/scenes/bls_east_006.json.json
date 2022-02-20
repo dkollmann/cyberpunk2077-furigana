@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_east_006.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BF70AZ^ハッ、何{なに}なら俺{おれ}の脇{わき}のにおいを嗅{きゅう}いでみるか？",
+                    "maleVariant": null,
+                    "stringId": 1973547199529787392
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "272C5Z^あー、まただ… 水{みず}くらい自{じ}由{ゆう}に使{つか}わせろよな",
+                    "maleVariant": null,
+                    "stringId": 1976296349706768384
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "202C5Z^そんなに風{ふ}呂{ろ}に入{い}りたいのか？",
+                    "maleVariant": null,
+                    "stringId": 1976296371064164352
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1973547199529787392,
-            "femaleVariant": "BF70AZ^ハッ、何{なに}なら俺{おれ}の脇{わき}のにおいを嗅{きゅう}いでみるか？"
-          },
-          {
-            "stringId": 1976296349706768384,
-            "femaleVariant": "272C5Z^あー、まただ… 水{みず}くらい自{じ}由{ゆう}に使{つか}わせろよな"
-          },
-          {
-            "stringId": 1976296371064164352,
-            "femaleVariant": "202C5Z^そんなに風{ふ}呂{ろ}に入{い}りたいのか？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

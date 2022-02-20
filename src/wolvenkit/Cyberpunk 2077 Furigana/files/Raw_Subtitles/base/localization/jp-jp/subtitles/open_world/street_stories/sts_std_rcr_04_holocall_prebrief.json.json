@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_std_rcr_04_holocall_prebrief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5D76DZ^よう、仕{し}事{ごと}の案{あん}内{ない}だ。ネットにウェルドン・ホルト市{し}長{ちょう}をこき下{くだ}ろそうってサイトが現{あらわ}れた。いや、正{せい}確{かく}には“市{し}長{ちょう}代{だい}行{こう}”か",
+                    "maleVariant": null,
+                    "stringId": 2328627941136060416
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "99559Z^醜{みにく}い足{あし}の引{ひ}っ張{ぱ}り合{あ}いばかり――ったく、政{せい}治{じ}ってのは嫌{いや}になるぜ",
+                    "maleVariant": null,
+                    "stringId": 2342039394134102016
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "22559Z^ともかく、依{い}頼{らい}主{しゅ}は、このサイトをサイバー空{くう}間{かん}の彼方{かなた}に消{け}し去{さ}ってほしいそうだ。詳{しょう}細{さい}は添付{てんぷ}を確{かく}認{にん}してくれ",
+                    "maleVariant": null,
+                    "stringId": 2342040251131072512
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328627941136060416,
-            "femaleVariant": "5D76DZ^よう、仕{し}事{ごと}の案{あん}内{ない}だ。ネットにウェルドン・ホルト市{し}長{ちょう}をこき下{くだ}ろそうってサイトが現{あらわ}れた。いや、正{せい}確{かく}には“市{し}長{ちょう}代{だい}行{こう}”か"
-          },
-          {
-            "stringId": 2342039394134102016,
-            "femaleVariant": "99559Z^醜{みにく}い足{あし}の引{ひ}っ張{ぱ}り合{あ}いばかり――ったく、政{せい}治{じ}ってのは嫌{いや}になるぜ"
-          },
-          {
-            "stringId": 2342040251131072512,
-            "femaleVariant": "22559Z^ともかく、依{い}頼{らい}主{しゅ}は、このサイトをサイバー空{くう}間{かん}の彼方{かなた}に消{け}し去{さ}ってほしいそうだ。詳{しょう}細{さい}は添付{てんぷ}を確{かく}認{にん}してくれ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

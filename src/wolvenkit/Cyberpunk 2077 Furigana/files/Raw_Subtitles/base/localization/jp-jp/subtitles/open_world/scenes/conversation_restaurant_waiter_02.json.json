@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_restaurant_waiter_02.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6470AZ^ナッツは入{いっ}ってるかって最{さい}初{しょ}に聞{き}いたのに",
+                    "maleVariant": null,
+                    "stringId": 1969083043355336704
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "アレルギーなんですか？",
+                    "maleVariant": null,
+                    "stringId": 1969085000048484352
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F970AZ^違{ちが}うわよ。ただ嫌{きら}いなだけ",
+                    "maleVariant": null,
+                    "stringId": 1969085094554542080
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1969083043355336704,
-            "femaleVariant": "6470AZ^ナッツは入{いっ}ってるかって最{さい}初{しょ}に聞{き}いたのに"
-          },
-          {
-            "stringId": 1969085000048484352,
-            "femaleVariant": "アレルギーなんですか？"
-          },
-          {
-            "stringId": 1969085094554542080,
-            "femaleVariant": "F970AZ^違{ちが}うわよ。ただ嫌{きら}いなだけ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

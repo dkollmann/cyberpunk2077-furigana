@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_corpo_low_corpo_report_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A570AZ^報{ほう}告{こく}書{しょ}が仕{し}上{あ}がりました",
+                    "maleVariant": null,
+                    "stringId": 1985070003643260928
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "470AZ^全{ぜん}部{ぶ}書{か}き終{お}わったのか？",
+                    "maleVariant": null,
+                    "stringId": 1985073239347470336
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "もちろんです",
+                    "maleVariant": null,
+                    "stringId": 1985073429953421312
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1985070003643260928,
-            "femaleVariant": "A570AZ^報{ほう}告{こく}書{しょ}が仕{し}上{あ}がりました"
-          },
-          {
-            "stringId": 1985073239347470336,
-            "femaleVariant": "470AZ^全{ぜん}部{ぶ}書{か}き終{お}わったのか？"
-          },
-          {
-            "stringId": 1985073429953421312,
-            "femaleVariant": "もちろんです"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

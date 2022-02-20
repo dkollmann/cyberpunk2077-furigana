@@ -1,52 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\cct_dtn_food_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AC47AZ^飲{の}み物{もの}をちょうだい",
+                    "maleVariant": "AC47AZ^飲{の}み物{もの}をくれ",
+                    "stringId": 1979191361760894976
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "おすすめのビールは？",
+                    "maleVariant": null,
+                    "stringId": 1979191702573260800
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4447AZ^飲{の}み物{もの}はある？",
+                    "maleVariant": "4447AZ^飲{の}み物{もの}はあるか？",
+                    "stringId": 1979192270549131264
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E947AZ^もちろん。好{す}きなのをどうぞ",
+                    "maleVariant": null,
+                    "stringId": 1979193755081089024
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "おすすめのビールは？",
+                    "maleVariant": null,
+                    "stringId": 1979195265936498688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A247AZ^そうだな… カラベラ・フェリッツはほのかな麦{ばく}芽{が}の味{あじ}わいを楽{たの}しめる。アビドスはハーブの香{かお}りが独{どく}特{とく}だ",
+                    "maleVariant": null,
+                    "stringId": 1979196494079041536
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4A47AZ^ブローセフは却下{きゃっか}。ありゃ炭{たん}酸{さん}入{い}りの小{しょう}便{べん}さ",
+                    "maleVariant": null,
+                    "stringId": 1979196930689310720
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1979191361760894976,
-            "femaleVariant": "AC47AZ^飲{の}み物{もの}をちょうだい",
-            "maleVariant": "AC47AZ^飲{の}み物{もの}をくれ"
-          },
-          {
-            "stringId": 1979191702573260800,
-            "femaleVariant": "おすすめのビールは？"
-          },
-          {
-            "stringId": 1979192270549131264,
-            "femaleVariant": "4447AZ^飲{の}み物{もの}はある？",
-            "maleVariant": "4447AZ^飲{の}み物{もの}はあるか？"
-          },
-          {
-            "stringId": 1979193755081089024,
-            "femaleVariant": "E947AZ^もちろん。好{す}きなのをどうぞ"
-          },
-          {
-            "stringId": 1979195265936498688,
-            "femaleVariant": "おすすめのビールは？"
-          },
-          {
-            "stringId": 1979196494079041536,
-            "femaleVariant": "A247AZ^そうだな… カラベラ・フェリッツはほのかな麦{ばく}芽{が}の味{あじ}わいを楽{たの}しめる。アビドスはハーブの香{かお}りが独{どく}特{とく}だ"
-          },
-          {
-            "stringId": 1979196930689310720,
-            "femaleVariant": "4A47AZ^ブローセフは却下{きゃっか}。ありゃ炭{たん}酸{さん}入{い}りの小{しょう}便{べん}さ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

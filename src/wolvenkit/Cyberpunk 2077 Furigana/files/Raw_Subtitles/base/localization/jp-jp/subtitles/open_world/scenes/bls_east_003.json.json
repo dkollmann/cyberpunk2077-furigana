@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_east_003.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6970AZ^いつからも何{なに}も、俺{おれ}はずっとこうさ",
+                    "maleVariant": null,
+                    "stringId": 1973539759203590144
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A12C5Z^これ以{い}上{じょう}、ナイトシティの人{にん}間{げん}は受{う}け入{い}れるべきじゃない",
+                    "maleVariant": null,
+                    "stringId": 1976260875323723776
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E42C5Z^ファミリーに馴染{なじ}まないし、規{き}則{そく}も守{まも}らないだろ",
+                    "maleVariant": null,
+                    "stringId": 1976282677701791744
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "862C5Z^自{じ}分{ぶん}のことばかり考{かんが}えて、敬{けい}意{い}ってものを――",
+                    "maleVariant": null,
+                    "stringId": 1976282701894537216
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "252C5Z^おいおい、いつからそんな偏{へん}屈{くつ}ジジイになったんだ？",
+                    "maleVariant": null,
+                    "stringId": 1976282743216820224
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1973539759203590144,
-            "femaleVariant": "6970AZ^いつからも何{なに}も、俺{おれ}はずっとこうさ"
-          },
-          {
-            "stringId": 1976260875323723776,
-            "femaleVariant": "A12C5Z^これ以{い}上{じょう}、ナイトシティの人{にん}間{げん}は受{う}け入{い}れるべきじゃない"
-          },
-          {
-            "stringId": 1976282677701791744,
-            "femaleVariant": "E42C5Z^ファミリーに馴染{なじ}まないし、規{き}則{そく}も守{まも}らないだろ"
-          },
-          {
-            "stringId": 1976282701894537216,
-            "femaleVariant": "862C5Z^自{じ}分{ぶん}のことばかり考{かんが}えて、敬{けい}意{い}ってものを――"
-          },
-          {
-            "stringId": 1976282743216820224,
-            "femaleVariant": "252C5Z^おいおい、いつからそんな偏{へん}屈{くつ}ジジイになったんだ？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

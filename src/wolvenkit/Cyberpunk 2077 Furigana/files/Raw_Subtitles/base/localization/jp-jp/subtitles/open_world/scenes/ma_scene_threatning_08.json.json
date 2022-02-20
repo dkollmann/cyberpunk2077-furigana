@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\ma_scene_threatning_08.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C7720Z^なんだ、自{じ}分{ぶん}が強{つよ}いとでも思{おも}ってるのか？",
+                    "maleVariant": null,
+                    "stringId": 2007231966741659648
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C0720Z^どういう教{きょう}育{いく}をされてきたのか知{し}らねえが、ひとつ教{おし}えてやる。ここじゃ俺{おれ}が法{ほう}律{りつ}なんだよ！",
+                    "maleVariant": null,
+                    "stringId": 2007232666703888384
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A9720Z^お遊{あそ}びはここまでだ。お前{まえ}はここで死{し}ぬんだよ",
+                    "maleVariant": null,
+                    "stringId": 2007232730742521856
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "FB720Z^調{ちょう}子{し}に乗{の}りやがって… クソと小{しょう}便{べん}まみれになってから、同{おな}じことが言{い}えるのか見{み}ものだぜ！",
+                    "maleVariant": null,
+                    "stringId": 2007232787952828416
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2007231966741659648,
-            "femaleVariant": "C7720Z^なんだ、自{じ}分{ぶん}が強{つよ}いとでも思{おも}ってるのか？"
-          },
-          {
-            "stringId": 2007232666703888384,
-            "femaleVariant": "C0720Z^どういう教{きょう}育{いく}をされてきたのか知{し}らねえが、ひとつ教{おし}えてやる。ここじゃ俺{おれ}が法{ほう}律{りつ}なんだよ！"
-          },
-          {
-            "stringId": 2007232730742521856,
-            "femaleVariant": "A9720Z^お遊{あそ}びはここまでだ。お前{まえ}はここで死{し}ぬんだよ"
-          },
-          {
-            "stringId": 2007232787952828416,
-            "femaleVariant": "FB720Z^調{ちょう}子{し}に乗{の}りやがって… クソと小{しょう}便{べん}まみれになってから、同{おな}じことが言{い}えるのか見{み}ものだぜ！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

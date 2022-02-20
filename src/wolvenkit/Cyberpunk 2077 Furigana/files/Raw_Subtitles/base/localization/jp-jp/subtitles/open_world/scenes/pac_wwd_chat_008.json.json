@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_wwd_chat_008.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Yo pran mesye pandan yo tap okipe net la.\" t=\"9670AZ^ネットをマッピングしてるときに捕{つか}まったのよ\" b=\"\" a=\"\" />",
+                    "maleVariant": null,
+                    "stringId": 1963302151357767680
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Tonnè. Mesye te konn toujou fè atansyon.\" t=\"2C2C5Z^信{しん}じられない… いつも慎{しん}重{ちょう}なあいつが…\" b=\"\" a=\"\" />",
+                    "maleVariant": null,
+                    "stringId": 1964849527507406848
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Ou konnen pou kisa mesye te kon fè atansyon?\" t=\"722C5Z^慎{しん}重{ちょう}ね… なんでそうだったかわかる？\" b=\"\" a=\"\" />",
+                    "maleVariant": null,
+                    "stringId": 1964853716274925568
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Paske mesye te panse li te fèb, li te initil!\" t=\"B2C5Z^自{じ}分{ぶん}が弱{よわ}いと思{おも}ってたからよ！ 自{じ}分{ぶん}は役{やく}立{た}たずだって！\" b=\"\" a=\"\" />",
+                    "maleVariant": null,
+                    "stringId": 1964853916410335232
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Pèsonn moun pa te janm fòse mesye nan anyen.\" t=\"DA2C5Z^とはいえ、あいつは自{じ}分{ぶん}の意{い}志{し}でこの道{みち}に進{すす}んだんだろ…\" b=\"\" a=\"\" />",
+                    "maleVariant": null,
+                    "stringId": 1964857862663196672
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963302151357767680,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Yo pran mesye pandan yo tap okipe net la.\" t=\"9670AZ^ネットをマッピングしてるときに捕{つか}まったのよ\" b=\"\" a=\"\" />"
-          },
-          {
-            "stringId": 1964849527507406848,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Tonnè. Mesye te konn toujou fè atansyon.\" t=\"2C2C5Z^信{しん}じられない… いつも慎{しん}重{ちょう}なあいつが…\" b=\"\" a=\"\" />"
-          },
-          {
-            "stringId": 1964853716274925568,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Ou konnen pou kisa mesye te kon fè atansyon?\" t=\"722C5Z^慎{しん}重{ちょう}ね… なんでそうだったかわかる？\" b=\"\" a=\"\" />"
-          },
-          {
-            "stringId": 1964853916410335232,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Paske mesye te panse li te fèb, li te initil!\" t=\"B2C5Z^自{じ}分{ぶん}が弱{よわ}いと思{おも}ってたからよ！ 自{じ}分{ぶん}は役{やく}立{た}たずだって！\" b=\"\" a=\"\" />"
-          },
-          {
-            "stringId": 1964857862663196672,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Pèsonn moun pa te janm fòse mesye nan anyen.\" t=\"DA2C5Z^とはいえ、あいつは自{じ}分{ぶん}の意{い}志{し}でこの道{みち}に進{すす}んだんだろ…\" b=\"\" a=\"\" />"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

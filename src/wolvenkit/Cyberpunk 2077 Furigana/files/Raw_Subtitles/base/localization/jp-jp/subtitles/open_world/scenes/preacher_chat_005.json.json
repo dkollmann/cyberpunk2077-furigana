@@ -1,26 +1,38 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\preacher_chat_005.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "EE47EZ^奴{やつ}らは我々{われわれ}をいぶり出{だ}し、毒{どく}に冒{おか}す！ 正{しょう}気{き}の人{にん}間{げん}は皆{みな}追{お}い出{だ}される！",
+                    "maleVariant": null,
+                    "stringId": 2182468308107255808
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2182468308107255808,
-            "femaleVariant": "EE47EZ^奴{やつ}らは我々{われわれ}をいぶり出{だ}し、毒{どく}に冒{おか}す！ 正{しょう}気{き}の人{にん}間{げん}は皆{みな}追{お}い出{だ}される！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

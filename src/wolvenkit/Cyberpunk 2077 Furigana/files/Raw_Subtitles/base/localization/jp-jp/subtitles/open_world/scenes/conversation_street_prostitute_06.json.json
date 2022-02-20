@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_prostitute_06.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2370AZ^あいつは？ 背{せ}が低{ひく}めで、ガリガリの奴{やつ}？",
+                    "maleVariant": null,
+                    "stringId": 1967944472204451840
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1570AZ^ダメよ。あの人{にん}、ドールのディーラーだから",
+                    "maleVariant": null,
+                    "stringId": 1967946245791064064
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2570AZ^色仕掛{いろじかけ}けは効{き}かない。もう試{ため}したもの",
+                    "maleVariant": null,
+                    "stringId": 1967946336253812736
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1967944472204451840,
-            "femaleVariant": "2370AZ^あいつは？ 背{せ}が低{ひく}めで、ガリガリの奴{やつ}？"
-          },
-          {
-            "stringId": 1967946245791064064,
-            "femaleVariant": "1570AZ^ダメよ。あの人{にん}、ドールのディーラーだから"
-          },
-          {
-            "stringId": 1967946336253812736,
-            "femaleVariant": "2570AZ^色仕掛{いろじかけ}けは効{き}かない。もう試{ため}したもの"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

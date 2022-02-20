@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_cct_dtn_05_holocall_prebrief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C170AZ^よう、V！ とある映{えい}像{ぞう}を盗{ぬす}みだしてほしいんだ。きわどいヤツさ",
+                    "maleVariant": null,
+                    "stringId": 2329026966750011392
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C53BCZ^報{ほう}酬{しゅう}もはずむ。やってくれるよな？",
+                    "maleVariant": null,
+                    "stringId": 2334272749674676224
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "763BCZ^情{じょう}報{ほう}を送{おく}った。期{き}待{たい}してるぜ",
+                    "maleVariant": null,
+                    "stringId": 2334272902968098816
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2329026966750011392,
-            "femaleVariant": "C170AZ^よう、V！ とある映{えい}像{ぞう}を盗{ぬす}みだしてほしいんだ。きわどいヤツさ"
-          },
-          {
-            "stringId": 2334272749674676224,
-            "femaleVariant": "C53BCZ^報{ほう}酬{しゅう}もはずむ。やってくれるよな？"
-          },
-          {
-            "stringId": 2334272902968098816,
-            "femaleVariant": "763BCZ^情{じょう}報{ほう}を送{おく}った。期{き}待{たい}してるぜ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

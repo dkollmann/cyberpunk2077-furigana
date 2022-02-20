@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_gle_chat_003.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3169EZ^浮気{うわき}された",
+                    "maleVariant": null,
+                    "stringId": 1832678287087362048
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "またか",
+                    "maleVariant": null,
+                    "stringId": 1832703300574240768
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B869EZ^ああ。「気{き}持{も}ちが離{はな}れた」だとさ",
+                    "maleVariant": null,
+                    "stringId": 1832703552349921280
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5969EZ^なんでそんな女{おんな}とまだ一緒{いっしょ}にいるんだ",
+                    "maleVariant": null,
+                    "stringId": 1832703765504450560
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1869EZ^彼{かの}女{じょ}なしじゃ、俺{おれ}は生{い}きていけない",
+                    "maleVariant": null,
+                    "stringId": 1832703906147852288
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "869EZ^何言{なにごと}ってるんだ。あの程{てい}度{ど}の女{おんな}ならいくらでもいる",
+                    "maleVariant": null,
+                    "stringId": 1832704163577454592
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F969EZ^いや… 他{ほか}の女{おんな}じゃダメなんだ",
+                    "maleVariant": null,
+                    "stringId": 1832704378074161152
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C869EZ^何{なに}がダメなんだ。まったく、これ以{い}上{じょう}聞{き}いてられないな",
+                    "maleVariant": null,
+                    "stringId": 1832704583410507776
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1832678287087362048,
-            "femaleVariant": "3169EZ^浮気{うわき}された"
-          },
-          {
-            "stringId": 1832703300574240768,
-            "femaleVariant": "またか"
-          },
-          {
-            "stringId": 1832703552349921280,
-            "femaleVariant": "B869EZ^ああ。「気{き}持{も}ちが離{はな}れた」だとさ"
-          },
-          {
-            "stringId": 1832703765504450560,
-            "femaleVariant": "5969EZ^なんでそんな女{おんな}とまだ一緒{いっしょ}にいるんだ"
-          },
-          {
-            "stringId": 1832703906147852288,
-            "femaleVariant": "1869EZ^彼{かの}女{じょ}なしじゃ、俺{おれ}は生{い}きていけない"
-          },
-          {
-            "stringId": 1832704163577454592,
-            "femaleVariant": "869EZ^何言{なにごと}ってるんだ。あの程{てい}度{ど}の女{おんな}ならいくらでもいる"
-          },
-          {
-            "stringId": 1832704378074161152,
-            "femaleVariant": "F969EZ^いや… 他{ほか}の女{おんな}じゃダメなんだ"
-          },
-          {
-            "stringId": 1832704583410507776,
-            "femaleVariant": "C869EZ^何{なに}がダメなんだ。まったく、これ以{い}上{じょう}聞{き}いてられないな"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

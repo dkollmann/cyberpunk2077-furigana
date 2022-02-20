@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_awf_chat_005.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F870AZ^ルイス、またノルマに届{とど}いてない。全{ぜん}然{ぜん}ダメ",
+                    "maleVariant": null,
+                    "stringId": 1963248964126941184
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F44DZ^これでも、精一杯{せいいっぱい}やってるんすよ？ 毎{まい}日{にち}20時{じ}間{かん}も休{やす}みなく働{はたら}いて…",
+                    "maleVariant": null,
+                    "stringId": 1967829186353876992
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E44DZ^無{む}駄{だ}な努{ど}力{りょく}をするくらいなら、まともなインプラントを入{い}れなさいよ。ハウスシュトックとか",
+                    "maleVariant": null,
+                    "stringId": 1967830844194476032
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F544DZ^無{む}理{り}っすよ… ローンを組{く}めても、返{へん}済{さい}に50年{ねん}かかるし…",
+                    "maleVariant": null,
+                    "stringId": 1967831397825826816
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AE44DZ^そんなこと会{かい}社{しゃ}には関{かん}係{けい}ないわ、ルイス",
+                    "maleVariant": null,
+                    "stringId": 1967831856196145152
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963248964126941184,
-            "femaleVariant": "F870AZ^ルイス、またノルマに届{とど}いてない。全{ぜん}然{ぜん}ダメ"
-          },
-          {
-            "stringId": 1967829186353876992,
-            "femaleVariant": "F44DZ^これでも、精一杯{せいいっぱい}やってるんすよ？ 毎{まい}日{にち}20時{じ}間{かん}も休{やす}みなく働{はたら}いて…"
-          },
-          {
-            "stringId": 1967830844194476032,
-            "femaleVariant": "E44DZ^無{む}駄{だ}な努{ど}力{りょく}をするくらいなら、まともなインプラントを入{い}れなさいよ。ハウスシュトックとか"
-          },
-          {
-            "stringId": 1967831397825826816,
-            "femaleVariant": "F544DZ^無{む}理{り}っすよ… ローンを組{く}めても、返{へん}済{さい}に50年{ねん}かかるし…"
-          },
-          {
-            "stringId": 1967831856196145152,
-            "femaleVariant": "AE44DZ^そんなこと会{かい}社{しゃ}には関{かん}係{けい}ないわ、ルイス"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

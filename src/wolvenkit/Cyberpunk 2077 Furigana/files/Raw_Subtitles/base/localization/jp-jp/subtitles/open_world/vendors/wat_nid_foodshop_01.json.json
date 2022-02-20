@@ -1,50 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\wat_nid_foodshop_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "おいしいものはある？",
+                    "maleVariant": "おいしいものはあるか？",
+                    "stringId": 1979334175077408772
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6947AZ^働{はたら}くには若{も}すぎない？",
+                    "maleVariant": "6947AZ^働{はたら}くには若{も}すぎないか？",
+                    "stringId": 1979334417407516672
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5847AZ^何{なに}かおいしいものはある？",
+                    "maleVariant": "5847AZ^何{なに}かおいしいものはあるか？",
+                    "stringId": 1979335435029553152
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7147AZ^おいしいものしか出{だ}さないよ。でないとお客{きゃく}さんや自{じ}分{ぶん}を裏{うら}切{ぎ}ることになる",
+                    "maleVariant": null,
+                    "stringId": 1979336530665644032
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5647AZ^その若{わか}さでもう商{しょう}売{ばい}をしてるの？",
+                    "maleVariant": "5647AZ^その若{わか}さでもう商{しょう}売{ばい}をしてるのか？",
+                    "stringId": 1979337178752720896
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9047AZ^家{か}族{ぞく}の誰{だれ}かがスコップ代{か}を稼{かせ}がないとでしょ。僕{ぼく}は計{けい}算{さん}も料{りょう}理{り}もできるから",
+                    "maleVariant": null,
+                    "stringId": 1979337785316188160
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1979334175077408772,
-            "femaleVariant": "おいしいものはある？",
-            "maleVariant": "おいしいものはあるか？"
-          },
-          {
-            "stringId": 1979334417407516672,
-            "femaleVariant": "6947AZ^働{はたら}くには若{も}すぎない？",
-            "maleVariant": "6947AZ^働{はたら}くには若{も}すぎないか？"
-          },
-          {
-            "stringId": 1979335435029553152,
-            "femaleVariant": "5847AZ^何{なに}かおいしいものはある？",
-            "maleVariant": "5847AZ^何{なに}かおいしいものはあるか？"
-          },
-          {
-            "stringId": 1979336530665644032,
-            "femaleVariant": "7147AZ^おいしいものしか出{だ}さないよ。でないとお客{きゃく}さんや自{じ}分{ぶん}を裏{うら}切{ぎ}ることになる"
-          },
-          {
-            "stringId": 1979337178752720896,
-            "femaleVariant": "5647AZ^その若{わか}さでもう商{しょう}売{ばい}をしてるの？",
-            "maleVariant": "5647AZ^その若{わか}さでもう商{しょう}売{ばい}をしてるのか？"
-          },
-          {
-            "stringId": 1979337785316188160,
-            "femaleVariant": "9047AZ^家{か}族{ぞく}の誰{だれ}かがスコップ代{か}を稼{かせ}がないとでしょ。僕{ぼく}は計{けい}算{さん}も料{りょう}理{り}もできるから"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

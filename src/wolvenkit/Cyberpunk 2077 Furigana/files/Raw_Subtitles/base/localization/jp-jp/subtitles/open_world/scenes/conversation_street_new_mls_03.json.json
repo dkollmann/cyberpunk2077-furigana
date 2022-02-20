@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_new_mls_03.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1452A010^このオプティクス、マジで最{さい}高{こう}だ！ 次{じ}世{せ}代{だい}の解{かい}像{ぞう}度{ど}で… どんな動{うご}きも捉{とら}えることができる。ハエだって目{め}で追{お}えるくらいだ",
+                    "maleVariant": null,
+                    "stringId": 2276534109777076240
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "フレームレートは？",
+                    "maleVariant": null,
+                    "stringId": 2276534109777076252
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1552AZ^2500。ただ、一{いち}日{にち}中{じゅう}ハイレゾにしてると頭{あたま}がガンガンするのが欠点{けってん}だな。脳{のう}が膨{ぼう}大{だい}な視{し}覚{かく}データを処{しょ}理{り}しきれない",
+                    "maleVariant": null,
+                    "stringId": 2276534109793853440
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2276534109777076240,
-            "femaleVariant": "1452A010^このオプティクス、マジで最{さい}高{こう}だ！ 次{じ}世{せ}代{だい}の解{かい}像{ぞう}度{ど}で… どんな動{うご}きも捉{とら}えることができる。ハエだって目{め}で追{お}えるくらいだ"
-          },
-          {
-            "stringId": 2276534109777076252,
-            "femaleVariant": "フレームレートは？"
-          },
-          {
-            "stringId": 2276534109793853440,
-            "femaleVariant": "1552AZ^2500。ただ、一{いち}日{にち}中{じゅう}ハイレゾにしてると頭{あたま}がガンガンするのが欠点{けってん}だな。脳{のう}が膨{ぼう}大{だい}な視{し}覚{かく}データを処{しょ}理{り}しきれない"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

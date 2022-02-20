@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_cvi_chat_002.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Tét matant Miyam fin pati nèt.\" t=\"タンテ・ミリアムはどうかしてるよ\" b=\"\" a=\"\"/>",
+                    "maleVariant": null,
+                    "stringId": 1963266886304047104
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Oh, li anfòm wi la a. Fèm kofians.\" t=\"512C5Z^大{だい}丈{じょう}夫{ぶ}、彼{かの}女{じょ}なら平{へい}気{き}だ\" b=\"\" a=\"\" />",
+                    "maleVariant": null,
+                    "stringId": 1965025982564552704
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Yè li mande m ki moun Plasid ye. Ou ka kwè sa?\" t=\"CE2C5Z^昨日{きのう}なんかプラシドって誰{だれ}かって聞{き}いたのよ。信{しん}じられる？\" b=\"\" a=\"\" />",
+                    "maleVariant": null,
+                    "stringId": 1965027968936595456
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Mwen parye avè ou ki li tenten ankò. Pran prekosyon.\" t=\"392C5Z^また何{なに}か企{き}んでるんだろう。注{ちゅう}意{い}しておけよ\" b=\"\" a=\"\" />",
+                    "maleVariant": null,
+                    "stringId": 1965029796092858368
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963266886304047104,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Tét matant Miyam fin pati nèt.\" t=\"タンテ・ミリアムはどうかしてるよ\" b=\"\" a=\"\"/>"
-          },
-          {
-            "stringId": 1965025982564552704,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Oh, li anfòm wi la a. Fèm kofians.\" t=\"512C5Z^大{だい}丈{じょう}夫{ぶ}、彼{かの}女{じょ}なら平{へい}気{き}だ\" b=\"\" a=\"\" />"
-          },
-          {
-            "stringId": 1965027968936595456,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Yè li mande m ki moun Plasid ye. Ou ka kwè sa?\" t=\"CE2C5Z^昨日{きのう}なんかプラシドって誰{だれ}かって聞{き}いたのよ。信{しん}じられる？\" b=\"\" a=\"\" />"
-          },
-          {
-            "stringId": 1965029796092858368,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Mwen parye avè ou ki li tenten ankò. Pran prekosyon.\" t=\"392C5Z^また何{なに}か企{き}んでるんだろう。注{ちゅう}意{い}しておけよ\" b=\"\" a=\"\" />"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

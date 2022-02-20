@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\quests\\q112_01_hanako_arrives.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3144DZ^アラサカ社{しゃ}CEO、サブロウ・アラサカ氏{し}が亡{な}くなり、ナイトシティは悲{かな}しみに包{つつ}まれています",
+                    "maleVariant": null,
+                    "stringId": 1743075249131671552
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D344DZ^市{し}庁{ちょう}舎{しゃ}などには追{つい}悼{とう}の半{はん}旗{き}が掲{かか}げられ、大{だい}規{き}模{ぼ}な公{こう}共{きょう}イベントは軒{のき}並{なみ}み延{えん}期{き}となることが決{き}まりました",
+                    "maleVariant": null,
+                    "stringId": 1743077386448326656
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3D44DZ^娘{むすめ}であるハナコ・アラサカ氏{し}は先{さき}ごろナイトシティに入{いっ}ったと報{ほう}じられています",
+                    "maleVariant": null,
+                    "stringId": 1743077839198277632
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4444DZ^通夜{つや}は明日{あした}正{しょう}午{ご}、アラサカ・タワーにて行{おこな}われます。その後{のち}、遺{い}体{たい}はサブロウ氏{し}の母{ぼ}国{こく}であり、永{えい}眠{みん}の地{ち}ともなる日本{にっぽん}へ移{い}送{そう}される予{よ}定{てい}となっています",
+                    "maleVariant": null,
+                    "stringId": 1743078341826891776
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E444DZ^ご冥{めい}福{ふく}をお祈{いの}りいたします",
+                    "maleVariant": null,
+                    "stringId": 1743078834137518080
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1743075249131671552,
-            "femaleVariant": "3144DZ^アラサカ社{しゃ}CEO、サブロウ・アラサカ氏{し}が亡{な}くなり、ナイトシティは悲{かな}しみに包{つつ}まれています"
-          },
-          {
-            "stringId": 1743077386448326656,
-            "femaleVariant": "D344DZ^市{し}庁{ちょう}舎{しゃ}などには追{つい}悼{とう}の半{はん}旗{き}が掲{かか}げられ、大{だい}規{き}模{ぼ}な公{こう}共{きょう}イベントは軒{のき}並{なみ}み延{えん}期{き}となることが決{き}まりました"
-          },
-          {
-            "stringId": 1743077839198277632,
-            "femaleVariant": "3D44DZ^娘{むすめ}であるハナコ・アラサカ氏{し}は先{さき}ごろナイトシティに入{いっ}ったと報{ほう}じられています"
-          },
-          {
-            "stringId": 1743078341826891776,
-            "femaleVariant": "4444DZ^通夜{つや}は明日{あした}正{しょう}午{ご}、アラサカ・タワーにて行{おこな}われます。その後{のち}、遺{い}体{たい}はサブロウ氏{し}の母{ぼ}国{こく}であり、永{えい}眠{みん}の地{ち}ともなる日本{にっぽん}へ移{い}送{そう}される予{よ}定{てい}となっています"
-          },
-          {
-            "stringId": 1743078834137518080,
-            "femaleVariant": "E444DZ^ご冥{めい}福{ふく}をお祈{いの}りいたします"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_hill_chat_002.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5869EZ^どうだ、こいつらを見{み}て",
+                    "maleVariant": null,
+                    "stringId": 1806724152559263744
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "コーポたちはチョロい。いいカモだ",
+                    "maleVariant": null,
+                    "stringId": 1806724802374393856
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5B69EZ^ああ。どいつもこいつも、秘{ひ}密{みつ}をぶら下{さ}げて歩{ある}いてやがる",
+                    "maleVariant": null,
+                    "stringId": 1806725024487956480
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E769EZ^いいネタさえ掴{つか}んじまえば、こっちのもんだ。企{き}業{ぎょう}の犬{いぬ}に、俺{おれ}たちが首{くび}輪{わ}をつけるのさ",
+                    "maleVariant": null,
+                    "stringId": 1806725490693234688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8D69EZ^データにテープ、企{き}業{ぎょう}の内{ない}部{ぶ}情{じょう}報{ほう}――欲{ほ}しいものは何{なん}でも手{て}に入{い}る",
+                    "maleVariant": null,
+                    "stringId": 1806725772651126784
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1669EZ^あとは、口{こう}座{ざ}に金{きん}が貯{た}まっていくのを見{み}てりゃいいって寸法{すんぽう}よ",
+                    "maleVariant": null,
+                    "stringId": 1806726174381563904
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1806724152559263744,
-            "femaleVariant": "5869EZ^どうだ、こいつらを見{み}て"
-          },
-          {
-            "stringId": 1806724802374393856,
-            "femaleVariant": "コーポたちはチョロい。いいカモだ"
-          },
-          {
-            "stringId": 1806725024487956480,
-            "femaleVariant": "5B69EZ^ああ。どいつもこいつも、秘{ひ}密{みつ}をぶら下{さ}げて歩{ある}いてやがる"
-          },
-          {
-            "stringId": 1806725490693234688,
-            "femaleVariant": "E769EZ^いいネタさえ掴{つか}んじまえば、こっちのもんだ。企{き}業{ぎょう}の犬{いぬ}に、俺{おれ}たちが首{くび}輪{わ}をつけるのさ"
-          },
-          {
-            "stringId": 1806725772651126784,
-            "femaleVariant": "8D69EZ^データにテープ、企{き}業{ぎょう}の内{ない}部{ぶ}情{じょう}報{ほう}――欲{ほ}しいものは何{なん}でも手{て}に入{い}る"
-          },
-          {
-            "stringId": 1806726174381563904,
-            "femaleVariant": "1669EZ^あとは、口{こう}座{ざ}に金{きん}が貯{た}まっていくのを見{み}てりゃいいって寸法{すんぽう}よ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

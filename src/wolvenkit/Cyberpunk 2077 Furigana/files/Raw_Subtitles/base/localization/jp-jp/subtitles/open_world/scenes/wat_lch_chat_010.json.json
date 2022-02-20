@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_010.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C469EZ^うわ！ 見{み}ろよ！ .308だ！",
+                    "maleVariant": null,
+                    "stringId": 1827244266865942528
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5469EZ^俺{おれ}の9ミリ5個{こ}と交{こう}換{かん}してよ！",
+                    "maleVariant": null,
+                    "stringId": 1827247383133151232
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "やだよ！ アラサカのセルとだったらいいけど",
+                    "maleVariant": null,
+                    "stringId": 1827247555737149440
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ダメダメ！",
+                    "maleVariant": null,
+                    "stringId": 1827247770753949696
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "おい！ グレネードがあったぞ！",
+                    "maleVariant": null,
+                    "stringId": 1827247953826930688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F569EZ^見{み}せて！",
+                    "maleVariant": null,
+                    "stringId": 1827248352201924608
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ダメだね！",
+                    "maleVariant": null,
+                    "stringId": 1827248553276858368
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C569EZ^ホントは持{も}ってないんだろ！",
+                    "maleVariant": null,
+                    "stringId": 1827248776598380544
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1827244266865942528,
-            "femaleVariant": "C469EZ^うわ！ 見{み}ろよ！ .308だ！"
-          },
-          {
-            "stringId": 1827247383133151232,
-            "femaleVariant": "5469EZ^俺{おれ}の9ミリ5個{こ}と交{こう}換{かん}してよ！"
-          },
-          {
-            "stringId": 1827247555737149440,
-            "femaleVariant": "やだよ！ アラサカのセルとだったらいいけど"
-          },
-          {
-            "stringId": 1827247770753949696,
-            "femaleVariant": "ダメダメ！"
-          },
-          {
-            "stringId": 1827247953826930688,
-            "femaleVariant": "おい！ グレネードがあったぞ！"
-          },
-          {
-            "stringId": 1827248352201924608,
-            "femaleVariant": "F569EZ^見{み}せて！"
-          },
-          {
-            "stringId": 1827248553276858368,
-            "femaleVariant": "ダメだね！"
-          },
-          {
-            "stringId": 1827248776598380544,
-            "femaleVariant": "C569EZ^ホントは持{も}ってないんだろ！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

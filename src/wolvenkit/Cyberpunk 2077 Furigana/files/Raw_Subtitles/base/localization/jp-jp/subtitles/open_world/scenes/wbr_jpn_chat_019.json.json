@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_jpn_chat_019.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6F70AZ^ちょっと、何{なに}をされたの？ ひどい有{あり}様{さま}よ。なんとかしないと",
+                    "maleVariant": null,
+                    "stringId": 2160321036534456320
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AF44DZ^なんとかって？ どうせ誰{だれ}も気{き}にかけやしないわ",
+                    "maleVariant": null,
+                    "stringId": 2169418993813999616
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "DF44DZ^そんなことない。モックスのとこに行{い}って、何{なに}があったか話{はな}すの。きっと助{たす}けてくれる",
+                    "maleVariant": null,
+                    "stringId": 2169420308879298560
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "DF44DZ^どうして？ 同{どう}情{じょう}なら結{けっ}構{こう}よ",
+                    "maleVariant": null,
+                    "stringId": 2169420991779098624
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6844DZ^私{わたし}たちジョイトイにも威{い}厳{げん}ってものがある。それだけは守{まも}り通{とう}さないと",
+                    "maleVariant": null,
+                    "stringId": 2169421595372998656
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2160321036534456320,
-            "femaleVariant": "6F70AZ^ちょっと、何{なに}をされたの？ ひどい有様{ありさま}よ。なんとかしないと"
-          },
-          {
-            "stringId": 2169418993813999616,
-            "femaleVariant": "AF44DZ^なんとかって？ どうせ誰{だれ}も気{き}にかけやしないわ"
-          },
-          {
-            "stringId": 2169420308879298560,
-            "femaleVariant": "DF44DZ^そんなことない。モックスのとこに行{い}って、何{なに}があったか話{はな}すの。きっと助{たす}けてくれる"
-          },
-          {
-            "stringId": 2169420991779098624,
-            "femaleVariant": "DF44DZ^どうして？ 同{どう}情{じょう}なら結{けっ}構{こう}よ"
-          },
-          {
-            "stringId": 2169421595372998656,
-            "femaleVariant": "6844DZ^私{わたし}たちジョイトイにも威{い}厳{げん}ってものがある。それだけは守{まも}り通{とう}さないと"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_new_mls_04.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E952A010^神{しん}経{けい}遮{しゃ}断{だん}装{そう}置{ち}を入{い}れてたとはね。それである時{とき}、バッと目覚{めざ}めちゃったわけ。それも事{こと}の真{まこと}っ最{さい}中{ちゅう}に",
+                    "maleVariant": null,
+                    "stringId": 2276534328098988048
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E952A01C^へえ。きっと遮{しゃ}断{だん}装{そう}置{ち}が悪{わる}さしたんだね。型{かた}番{ばん}は？",
+                    "maleVariant": null,
+                    "stringId": 2276534328098988060
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ゼータテクのAER-98",
+                    "maleVariant": null,
+                    "stringId": 2276534328098988072
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2276534328098988048,
-            "femaleVariant": "E952A010^神{しん}経{けい}遮{しゃ}断{だん}装{そう}置{ち}を入{い}れてたとはね。それである時{とき}、バッと目覚{めざ}めちゃったわけ。それも事{こと}の真{まこと}っ最{さい}中{ちゅう}に"
-          },
-          {
-            "stringId": 2276534328098988060,
-            "femaleVariant": "E952A01C^へえ。きっと遮{しゃ}断{だん}装{そう}置{ち}が悪{わる}さしたんだね。型{かた}番{ばん}は？"
-          },
-          {
-            "stringId": 2276534328098988072,
-            "femaleVariant": "ゼータテクのAER-98"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

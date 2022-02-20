@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_005.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AB69EZ^俺{おれ}の兄{にい}ちゃんはでっかい企{き}業{ぎょう}の傭{よう}兵{へい}なんだぞ！",
+                    "maleVariant": null,
+                    "stringId": 1802410327454375936
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1869EZ^なに？ でっかい用{よう}足{た}し兵{へい}？",
+                    "maleVariant": null,
+                    "stringId": 1802410737304985600
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4769EZ^取{と}り消{け}せ！",
+                    "maleVariant": null,
+                    "stringId": 1802411103165734912
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "FB69EZ^お前{まえ}の兄{にい}ちゃん、キロシでトイレを磨{みが}いてんのか！",
+                    "maleVariant": null,
+                    "stringId": 1802411320933998592
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7669EZ^ちがう！ すごい… 危{き}険{けん}な任{にん}務{む}に行{い}ってるんだ！",
+                    "maleVariant": null,
+                    "stringId": 1802411546335895552
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D469EZ^そうか！ でかいウンコと戦{たたか}ってるんだ！",
+                    "maleVariant": null,
+                    "stringId": 1802411749776416768
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6769EZ^やめろ！ 取{と}り消{け}せ！",
+                    "maleVariant": null,
+                    "stringId": 1802411932631293952
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1802410327454375936,
-            "femaleVariant": "AB69EZ^俺{おれ}の兄{にい}ちゃんはでっかい企{き}業{ぎょう}の傭{よう}兵{へい}なんだぞ！"
-          },
-          {
-            "stringId": 1802410737304985600,
-            "femaleVariant": "1869EZ^なに？ でっかい用{よう}足{た}し兵{へい}？"
-          },
-          {
-            "stringId": 1802411103165734912,
-            "femaleVariant": "4769EZ^取{と}り消{け}せ！"
-          },
-          {
-            "stringId": 1802411320933998592,
-            "femaleVariant": "FB69EZ^お前{まえ}の兄{にい}ちゃん、キロシでトイレを磨{みが}いてんのか！"
-          },
-          {
-            "stringId": 1802411546335895552,
-            "femaleVariant": "7669EZ^ちがう！ すごい… 危{き}険{けん}な任{にん}務{む}に行{い}ってるんだ！"
-          },
-          {
-            "stringId": 1802411749776416768,
-            "femaleVariant": "D469EZ^そうか！ でかいウンコと戦{たたか}ってるんだ！"
-          },
-          {
-            "stringId": 1802411932631293952,
-            "femaleVariant": "6769EZ^やめろ！ 取{と}り消{け}せ！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

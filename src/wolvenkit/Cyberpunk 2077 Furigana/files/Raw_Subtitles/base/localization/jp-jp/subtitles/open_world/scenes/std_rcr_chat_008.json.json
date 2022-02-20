@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_rcr_chat_008.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "おい、ジジイ！ ラースはどこだ？ なんであんたがここにいるんだよ？",
+                    "maleVariant": null,
+                    "stringId": 1963294577585594368
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4E3BCZ^ここに住{す}んでるからだ。ラースとやらはサイバーサイコシスになってな。先{せん}週{しゅう}マックス・タックが連{つ}れてった",
+                    "maleVariant": null,
+                    "stringId": 1969389514669146112
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E73BCZ^はあ？ あいつはもう戻{もど}ってこないのか？",
+                    "maleVariant": null,
+                    "stringId": 1969389843653574656
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "DE3BCZ^隣{となり}の女{おんな}の人{ひと}を食{く}おうとしたらしいぞ。ま、戻{もど}ってこないだろうな",
+                    "maleVariant": null,
+                    "stringId": 1969390122675453952
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2F3BCZ^そんな… クロームなんかほとんど入{い}れてなかったのに！ キロシ1つだけだぞ！",
+                    "maleVariant": null,
+                    "stringId": 1969390325897871360
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "973BCZ^運{うん}が悪{わる}かったとしか言{い}いようがないな",
+                    "maleVariant": null,
+                    "stringId": 1969390486556491776
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963294577585594368,
-            "femaleVariant": "おい、ジジイ！ ラースはどこだ？ なんであんたがここにいるんだよ？"
-          },
-          {
-            "stringId": 1969389514669146112,
-            "femaleVariant": "4E3BCZ^ここに住{す}んでるからだ。ラースとやらはサイバーサイコシスになってな。先{せん}週{しゅう}マックス・タックが連{つ}れてった"
-          },
-          {
-            "stringId": 1969389843653574656,
-            "femaleVariant": "E73BCZ^はあ？ あいつはもう戻{もど}ってこないのか？"
-          },
-          {
-            "stringId": 1969390122675453952,
-            "femaleVariant": "DE3BCZ^隣{となり}の女{おんな}の人{ひと}を食{く}おうとしたらしいぞ。ま、戻{もど}ってこないだろうな"
-          },
-          {
-            "stringId": 1969390325897871360,
-            "femaleVariant": "2F3BCZ^そんな… クロームなんかほとんど入{い}れてなかったのに！ キロシ1つだけだぞ！"
-          },
-          {
-            "stringId": 1969390486556491776,
-            "femaleVariant": "973BCZ^運{うん}が悪{わる}かったとしか言{い}いようがないな"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

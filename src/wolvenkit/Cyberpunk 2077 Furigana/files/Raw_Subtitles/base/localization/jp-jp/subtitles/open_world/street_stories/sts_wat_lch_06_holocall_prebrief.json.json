@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_wat_lch_06_holocall_prebrief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "333BBZ^アラティ・カッポアの息子{むすこ}が“キラキラ”のオーバードースで死{し}んだの。聞{き}いたことあるでしょ、近{きん}ごろ出{で}回{まわ}ってるハードなヤツよ",
+                    "maleVariant": null,
+                    "stringId": 2328754903955779584
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "35559Z^その報{ほう}復{ふく}として、薬{くすり}の製{せい}造{ぞう}工{こう}場{じょう}を消{け}し去{さ}る依{い}頼{らい}が舞{ま}い込{こ}んだ",
+                    "maleVariant": null,
+                    "stringId": 2334841753117757440
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BD559Z^アラティと今{こん}回{かい}の騒{そう}動{どう}についての詳{しょう}細{さい}は添付{てんぷ}を確{かく}認{にん}して",
+                    "maleVariant": null,
+                    "stringId": 2334843361717227520
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328754903955779584,
-            "femaleVariant": "333BBZ^アラティ・カッポアの息子{むすこ}が“キラキラ”のオーバードースで死{し}んだの。聞{き}いたことあるでしょ、近{きん}ごろ出{で}回{まわ}ってるハードなヤツよ"
-          },
-          {
-            "stringId": 2334841753117757440,
-            "femaleVariant": "35559Z^その報{ほう}復{ふく}として、薬{くすり}の製{せい}造{ぞう}工{こう}場{じょう}を消{け}し去{さ}る依{い}頼{らい}が舞{ま}い込{こ}んだ"
-          },
-          {
-            "stringId": 2334843361717227520,
-            "femaleVariant": "BD559Z^アラティと今{こん}回{かい}の騒{そう}動{どう}についての詳{しょう}細{さい}は添付{てんぷ}を確{かく}認{にん}して"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

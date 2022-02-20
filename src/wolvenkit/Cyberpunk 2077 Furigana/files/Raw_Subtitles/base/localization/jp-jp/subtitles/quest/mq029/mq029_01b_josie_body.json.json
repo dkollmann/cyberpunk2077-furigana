@@ -1,39 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\mq029\\mq029_01b_josie_body.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D649DZ^失血{しっけつ}死{し}だ… 相{そう}当{とう}時{じ}間{かん}がかかったようだな、地{じ}面{めん}を引{ひ}っかいて爪{つめ}がむけてる",
+                    "maleVariant": null,
+                    "stringId": 1853043895194734592
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "FC49DZ^[読{よ}む]",
+                    "maleVariant": null,
+                    "stringId": 1853242881667092480
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9044DZ^…ひどい死{し}に方{ほう}ね",
+                    "maleVariant": "9044DZ^…ひどい死{し}に方{ほう}だな",
+                    "stringId": 1922949636428189696
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F44DZ^いい死{し}に方{ほう}なんてないぞ。俺{おれ}は知{し}ってる",
+                    "maleVariant": null,
+                    "stringId": 1922952851194433536
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1853043895194734592,
-            "femaleVariant": "D649DZ^失血{しっけつ}死{し}だ… 相{そう}当{とう}時{じ}間{かん}がかかったようだな、地{じ}面{めん}を引{ひ}っかいて爪{つめ}がむけてる"
-          },
-          {
-            "stringId": 1853242881667092480,
-            "femaleVariant": "FC49DZ^[読{よ}む]"
-          },
-          {
-            "stringId": 1922949636428189696,
-            "femaleVariant": "9044DZ^…ひどい死{し}に方{ほう}ね",
-            "maleVariant": "9044DZ^…ひどい死{し}に方{ほう}だな"
-          },
-          {
-            "stringId": 1922952851194433536,
-            "femaleVariant": "F44DZ^いい死{し}に方{ほう}なんてないぞ。俺{おれ}は知{し}ってる"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

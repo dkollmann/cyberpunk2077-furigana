@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\animated_billboards\\ab_q115_01_arasaka_propaganda.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D44DZ^ナイトシティの市{し}民{みん}が見{み}守{まも}る中{なか}、アラサカ社{しゃ}は50年{ねん}前{まえ}と同{どう}様{よう}、これまで以{い}上{じょう}に全{ぜん}社{しゃ}が一{いち}丸{がん}となり、この試{し}練{れん}を乗{の}り越{こ}えることをここに誓{ちか}います",
+                    "maleVariant": null,
+                    "stringId": 1993675234355761152
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C744DZ^私{わたし}たちは今日{きょう}、この場{ば}所{しょ}から強{つよ}くなるのです",
+                    "maleVariant": null,
+                    "stringId": 1993676216728866816
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "844DZ^私{わたし}たちの声{こえ}を、その耳{みみ}でしかと聞{き}き届{とど}けなさい",
+                    "maleVariant": null,
+                    "stringId": 1993676724625526784
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1993675234355761152,
-            "femaleVariant": "D44DZ^ナイトシティの市{し}民{みん}が見{み}守{まも}る中{なか}、アラサカ社{しゃ}は50年{ねん}前{まえ}と同{どう}様{よう}、これまで以{い}上{じょう}に全{ぜん}社{しゃ}が一{いち}丸{がん}となり、この試{し}練{れん}を乗{の}り越{こ}えることをここに誓{ちか}います"
-          },
-          {
-            "stringId": 1993676216728866816,
-            "femaleVariant": "C744DZ^私{わたし}たちは今日{きょう}、この場{ば}所{しょ}から強{つよ}くなるのです"
-          },
-          {
-            "stringId": 1993676724625526784,
-            "femaleVariant": "844DZ^私{わたし}たちの声{こえ}を、その耳{みみ}でしかと聞{き}き届{とど}けなさい"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

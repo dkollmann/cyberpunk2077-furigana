@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_awf_chat_001.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E970AZ^それで結{けっ}局{きょく}、お金{きん}は借{か}りられたの？",
+                    "maleVariant": null,
+                    "stringId": 1963244226526355456
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4144DZ^ダメだった。審{しん}査{さ}に落{お}ちちゃって",
+                    "maleVariant": null,
+                    "stringId": 1967799169666306048
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どうして？",
+                    "maleVariant": null,
+                    "stringId": 1967799292727185408
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9044DZ^私{わたし}に聞{き}かれても… “システム”がダメって言{い}ったらダメなのよ",
+                    "maleVariant": null,
+                    "stringId": 1967799454459547648
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963244226526355456,
-            "femaleVariant": "E970AZ^それで結{けっ}局{きょく}、お金{きん}は借{か}りられたの？"
-          },
-          {
-            "stringId": 1967799169666306048,
-            "femaleVariant": "4144DZ^ダメだった。審{しん}査{さ}に落{お}ちちゃって"
-          },
-          {
-            "stringId": 1967799292727185408,
-            "femaleVariant": "どうして？"
-          },
-          {
-            "stringId": 1967799454459547648,
-            "femaleVariant": "9044DZ^私{わたし}に聞{き}かれても… “システム”がダメって言{い}ったらダメなのよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,53 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_cct_dtn_02_vip_bouncer_003.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B9647Z^どこ行{い}く気{き}？ ここはVIP専{せん}用{よう}のエリアよ！",
+                    "maleVariant": null,
+                    "stringId": 1712569812403908608
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BC647Z^引{ひ}き返{かえ}しな。痛{いた}い目見{まみ}るよ",
+                    "maleVariant": null,
+                    "stringId": 1712569812454240256
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C1647Z^ボスの知{し}り合{あ}いよ",
+                    "maleVariant": "C1647Z^ボスの知{し}り合{あ}いだ",
+                    "stringId": 1712569812538126336
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D4647Z^ボスの親{しん}友{ゆう}なの",
+                    "maleVariant": "D4647Z^ボスの親{しん}友{ゆう}でな",
+                    "stringId": 1712569812856893440
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D4647008^ボスの相{あい}手{て}は山{やま}ほどいるが、「親{しん}友{ゆう}」なんて奴{やつ}は1人{にん}もいないよ",
+                    "maleVariant": null,
+                    "stringId": 1712569812856893448
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "だけど…",
+                    "maleVariant": "だが…",
+                    "stringId": 1925708864649744384
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "CA44DZ^黙{だま}りな。ボスからは「誰{だれ}も入{い}れるな」って言{い}われてるんだ。だから、諦{あきら}めるんだね",
+                    "maleVariant": null,
+                    "stringId": 1925709299917836288
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1712569812403908608,
-            "femaleVariant": "B9647Z^どこ行{い}く気{き}？ ここはVIP専{せん}用{よう}のエリアよ！"
-          },
-          {
-            "stringId": 1712569812454240256,
-            "femaleVariant": "BC647Z^引{ひ}き返{かえ}しな。痛{いた}い目見{まみ}るよ"
-          },
-          {
-            "stringId": 1712569812538126336,
-            "femaleVariant": "C1647Z^ボスの知{し}り合{あ}いよ",
-            "maleVariant": "C1647Z^ボスの知{し}り合{あ}いだ"
-          },
-          {
-            "stringId": 1712569812856893440,
-            "femaleVariant": "D4647Z^ボスの親{しん}友{ゆう}なの",
-            "maleVariant": "D4647Z^ボスの親{しん}友{ゆう}でな"
-          },
-          {
-            "stringId": 1712569812856893448,
-            "femaleVariant": "D4647008^ボスの相{あい}手{て}は山{やま}ほどいるが、「親{しん}友{ゆう}」なんて奴{やつ}は1人{にん}もいないよ"
-          },
-          {
-            "stringId": 1925708864649744384,
-            "femaleVariant": "だけど…",
-            "maleVariant": "だが…"
-          },
-          {
-            "stringId": 1925709299917836288,
-            "femaleVariant": "CA44DZ^黙{だま}りな。ボスからは「誰{だれ}も入{い}れるな」って言{い}われてるんだ。だから、諦{あきら}めるんだね"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

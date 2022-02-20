@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_rcr_chat_003.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C370AZ^また給{きゅう}料{りょう}を減{へ}らされるって",
+                    "maleVariant": null,
+                    "stringId": 1963292230738288640
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "303BCZ^まあ当{とう}然{ぜん}でしょうね。仕{し}事{ごと}量{りょう}が減{へ}ってるもの",
+                    "maleVariant": null,
+                    "stringId": 1969200411050754048
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "963BCZ^仕{し}事{ごと}があるだけまだマシよ。私{わたし}が上{うえ}の立場{たちば}なら、私{わたし}らの世{せ}代{だい}はとっくにクビにしてる",
+                    "maleVariant": null,
+                    "stringId": 1969200816488955904
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8F3BCZ^若{わか}い頃{ごろ}に借金{しゃっきん}してでも、もっといい強{きょう}化{か}筋{きん}肉{にく}繊{せん}維{い}を手{て}に入{い}れておくべきだったのかもね",
+                    "maleVariant": null,
+                    "stringId": 1969201035414847488
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "953BCZ^そうしてれば、工{こう}場{じょう}で70になるまでバリバリ働{はたら}けたんだから",
+                    "maleVariant": null,
+                    "stringId": 1969201293213548544
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "573BCZ^ホントに… それが夢{ゆめ}よね",
+                    "maleVariant": null,
+                    "stringId": 1969201485446889472
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963292230738288640,
-            "femaleVariant": "C370AZ^また給{きゅう}料{りょう}を減{へ}らされるって"
-          },
-          {
-            "stringId": 1969200411050754048,
-            "femaleVariant": "303BCZ^まあ当{とう}然{ぜん}でしょうね。仕{し}事{ごと}量{りょう}が減{へ}ってるもの"
-          },
-          {
-            "stringId": 1969200816488955904,
-            "femaleVariant": "963BCZ^仕{し}事{ごと}があるだけまだマシよ。私{わたし}が上{うえ}の立場{たちば}なら、私{わたし}らの世{せ}代{だい}はとっくにクビにしてる"
-          },
-          {
-            "stringId": 1969201035414847488,
-            "femaleVariant": "8F3BCZ^若{わか}い頃{ごろ}に借金{しゃっきん}してでも、もっといい強{きょう}化{か}筋{きん}肉{にく}繊{せん}維{い}を手{て}に入{い}れておくべきだったのかもね"
-          },
-          {
-            "stringId": 1969201293213548544,
-            "femaleVariant": "953BCZ^そうしてれば、工{こう}場{じょう}で70になるまでバリバリ働{はたら}けたんだから"
-          },
-          {
-            "stringId": 1969201485446889472,
-            "femaleVariant": "573BCZ^ホントに… それが夢{ゆめ}よね"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

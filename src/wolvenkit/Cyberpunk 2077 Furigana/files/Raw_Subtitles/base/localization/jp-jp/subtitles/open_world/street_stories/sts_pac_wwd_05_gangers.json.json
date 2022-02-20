@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_pac_wwd_05_gangers.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3647AZ^ローガンはどこ？ まだ例{れい}の件{けん}を気{き}にしてんの？",
+                    "maleVariant": null,
+                    "stringId": 1650752698100195328
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8247AZ^気{き}にしてる？ お前{まえ}、何{なに}もわかっちゃねえな",
+                    "maleVariant": null,
+                    "stringId": 1650754133894340608
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "FF47AZ^奴{やつ}の顔{かお}をメチャクチャにしたのはわざとだ。今{いま}頃{ごろ}、上{うえ}で機{き}嫌{げん}よく飲{の}んでるだろ",
+                    "maleVariant": null,
+                    "stringId": 1650754539718418432
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1650752698100195328,
-            "femaleVariant": "3647AZ^ローガンはどこ？ まだ例{れい}の件{けん}を気{き}にしてんの？"
-          },
-          {
-            "stringId": 1650754133894340608,
-            "femaleVariant": "8247AZ^気{き}にしてる？ お前{まえ}、何{なに}もわかっちゃねえな"
-          },
-          {
-            "stringId": 1650754539718418432,
-            "femaleVariant": "FF47AZ^奴{やつ}の顔{かお}をメチャクチャにしたのはわざとだ。今{いま}頃{ごろ}、上{うえ}で機{き}嫌{げん}よく飲{の}んでるだろ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

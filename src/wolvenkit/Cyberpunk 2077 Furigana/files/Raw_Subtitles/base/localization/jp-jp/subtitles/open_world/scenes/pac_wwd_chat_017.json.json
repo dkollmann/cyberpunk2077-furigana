@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_wwd_chat_017.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B669EZ^昨日{きのう}スクリームシートを買{か}ったんだ",
+                    "maleVariant": null,
+                    "stringId": 2179597821612253184
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E62B6Z^は？ 何{なん}で？",
+                    "maleVariant": null,
+                    "stringId": 2211173382591569920
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "DD2B6Z^2週{しゅう}間{かん}前{まえ}のやつだから安{やす}かったんだ",
+                    "maleVariant": null,
+                    "stringId": 2217145366961938432
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D52B6Z^そんなもん買{か}うくらいなら、その金{きん}でケツでも拭{ぬぐ}いたほうがマシだ",
+                    "maleVariant": null,
+                    "stringId": 2217145792029483008
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "62B6Z^新{あたら}しさとは無{む}縁{えん}の生{せい}活{かつ}。ひと月{つき}遅{おく}れのスクリームシート、旧{きゅう}作{さく}のBD",
+                    "maleVariant": null,
+                    "stringId": 2217146973967572992
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "962B6Z^このままじゃ、街{まち}に生{い}き埋{う}めにされちまう",
+                    "maleVariant": null,
+                    "stringId": 2217147667873226752
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2179597821612253184,
-            "femaleVariant": "B669EZ^昨日{きのう}スクリームシートを買{か}ったんだ"
-          },
-          {
-            "stringId": 2211173382591569920,
-            "femaleVariant": "E62B6Z^は？ 何{なん}で？"
-          },
-          {
-            "stringId": 2217145366961938432,
-            "femaleVariant": "DD2B6Z^2週{しゅう}間{かん}前{まえ}のやつだから安{やす}かったんだ"
-          },
-          {
-            "stringId": 2217145792029483008,
-            "femaleVariant": "D52B6Z^そんなもん買{か}うくらいなら、その金{きん}でケツでも拭{ぬぐ}いたほうがマシだ"
-          },
-          {
-            "stringId": 2217146973967572992,
-            "femaleVariant": "62B6Z^新{あたら}しさとは無{む}縁{えん}の生{せい}活{かつ}。ひと月{つき}遅{おく}れのスクリームシート、旧{きゅう}作{さく}のBD"
-          },
-          {
-            "stringId": 2217147667873226752,
-            "femaleVariant": "962B6Z^このままじゃ、街{まち}に生{い}き埋{う}めにされちまう"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

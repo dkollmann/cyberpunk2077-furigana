@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\minor_activities\\ma_wat_kab_02.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "22502Z^V、NCPDにサイバーサイコの通{つう}報{ほう}が入{いっ}ったんだけど、今{こん}回{かい}は珍{めずら}しく出{しゅつ}動{どう}したようなの",
+                    "maleVariant": null,
+                    "stringId": 2352015205301493760
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E3502Z^でも、出{しゅつ}動{どう}した警{けい}官{かん}からもう何{なん}時{じ}間{かん}も報{ほう}告{こく}がない。怖気{おじけ}づいて逃{に}げ出{だ}したか、あるいは…",
+                    "maleVariant": null,
+                    "stringId": 2352028565887787008
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C12B6Z^とにかく、様{よう}子{す}を見{み}てきてほしいの。頼{たの}んだわよ",
+                    "maleVariant": null,
+                    "stringId": 2360781545455443968
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2352015205301493760,
-            "femaleVariant": "22502Z^V、NCPDにサイバーサイコの通{つう}報{ほう}が入{いっ}ったんだけど、今{こん}回{かい}は珍{めずら}しく出{しゅつ}動{どう}したようなの"
-          },
-          {
-            "stringId": 2352028565887787008,
-            "femaleVariant": "E3502Z^でも、出{しゅつ}動{どう}した警{けい}官{かん}からもう何{なん}時{じ}間{かん}も報{ほう}告{こく}がない。怖気{おじけ}づいて逃{に}げ出{だ}したか、あるいは…"
-          },
-          {
-            "stringId": 2360781545455443968,
-            "femaleVariant": "C12B6Z^とにかく、様{よう}子{す}を見{み}てきてほしいの。頼{たの}んだわよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_004.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D869EZ^最{さい}後{ご}に靴{くつ}を変{か}えたのはいつだ？",
+                    "maleVariant": null,
+                    "stringId": 1802405955932643328
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "はあ？",
+                    "maleVariant": null,
+                    "stringId": 1802406554308829184
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1169EZ^いいか、路{ろ}上{じょう}で暮{く}らすからには足{あし}に気{き}を配{くば}れ",
+                    "maleVariant": null,
+                    "stringId": 1802406652673646592
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BC69EZ^何{なに}も問{もん}題{だい}ない。水{みず}虫{むし}くらいなら、白酒{しろざけ}をぶっかけりゃすぐ治{なお}る",
+                    "maleVariant": null,
+                    "stringId": 1802406848816078848
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "CE69EZ^真面目{まじめ}に言{い}ってんだ！ そんなの1日中{にっちゅう}履{は}いてたら、ムズムズするどころじゃ済{す}まなくなるぞ",
+                    "maleVariant": null,
+                    "stringId": 1802407055276498944
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1802405955932643328,
-            "femaleVariant": "D869EZ^最{さい}後{ご}に靴{くつ}を変{か}えたのはいつだ？"
-          },
-          {
-            "stringId": 1802406554308829184,
-            "femaleVariant": "はあ？"
-          },
-          {
-            "stringId": 1802406652673646592,
-            "femaleVariant": "1169EZ^いいか、路{ろ}上{じょう}で暮{く}らすからには足{あし}に気{き}を配{くば}れ"
-          },
-          {
-            "stringId": 1802406848816078848,
-            "femaleVariant": "BC69EZ^何{なに}も問{もん}題{だい}ない。水{みず}虫{むし}くらいなら、白酒{しろざけ}をぶっかけりゃすぐ治{なお}る"
-          },
-          {
-            "stringId": 1802407055276498944,
-            "femaleVariant": "CE69EZ^真面目{まじめ}に言{い}ってんだ！ そんなの1日中{にっちゅう}履{は}いてたら、ムズムズするどころじゃ済{す}まなくなるぞ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

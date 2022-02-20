@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q001\\q001_00g_broken_gate.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "68627Z^ゲートがまた壊{こわ}れた。これで3回{かい}目{め}よ",
+                    "maleVariant": null,
+                    "stringId": 1877791194262695936
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "29627Z^壊{こわ}れるたびに修{しゅう}理{り}代{だい}を払{はら}ってるのに、これじゃ詐{さ}欺{ぎ}よ",
+                    "maleVariant": null,
+                    "stringId": 1877791669947101184
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8A2EFZ^管{かん}理{り}人{にん}に文{もん}句{く}を言{い}ってやらなきゃ…",
+                    "maleVariant": null,
+                    "stringId": 1968055614796918784
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1877791194262695936,
-            "femaleVariant": "68627Z^ゲートがまた壊{こわ}れた。これで3回{かい}目{め}よ"
-          },
-          {
-            "stringId": 1877791669947101184,
-            "femaleVariant": "29627Z^壊{こわ}れるたびに修{しゅう}理{り}代{だい}を払{はら}ってるのに、これじゃ詐{さ}欺{ぎ}よ"
-          },
-          {
-            "stringId": 1968055614796918784,
-            "femaleVariant": "8A2EFZ^管{かん}理{り}人{にん}に文{もん}句{く}を言{い}ってやらなきゃ…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\mq002\\mq002_02_combat.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5B4E6Z^誰{だれ}か、スナイパーをやれ！",
+                    "maleVariant": null,
+                    "stringId": 1812415190433423360
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3A4E6004^交{こう}渉{しょう}なんて、退{たい}屈{くつ}だと思{おも}ってたんだ！",
+                    "maleVariant": null,
+                    "stringId": 1812416688823361540
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D24E6Z^血{ち}を流{なが}さなきゃ金{きん}が手{て}に入{い}らないって言{い}うなら、仕{し}方{かた}ないね！",
+                    "maleVariant": null,
+                    "stringId": 1812417636266303488
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1812415190433423360,
-            "femaleVariant": "5B4E6Z^誰{だれ}か、スナイパーをやれ！"
-          },
-          {
-            "stringId": 1812416688823361540,
-            "femaleVariant": "3A4E6004^交{こう}渉{しょう}なんて、退{たい}屈{くつ}だと思{おも}ってたんだ！"
-          },
-          {
-            "stringId": 1812417636266303488,
-            "femaleVariant": "D24E6Z^血{ち}を流{なが}さなきゃ金{きん}が手{て}に入{い}らないって言{い}うなら、仕{し}方{かた}ないね！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

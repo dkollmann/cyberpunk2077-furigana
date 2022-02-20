@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_new_scv_07.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "FE52A008^カン・タオのリムジンが湾{わん}岸{がん}沿{そ}いの倉{そう}庫{こ}の前{まえ}に停{と}まっててさ。で、中{なか}にいた男{おとこ}がバーチャを見{み}てたのよ",
+                    "maleVariant": null,
+                    "stringId": 2276536725043060744
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "FE52A014^え、気{き}づかれなかったわけ？ ていうか… ヤッたの？",
+                    "maleVariant": null,
+                    "stringId": 2276536725043060756
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "FE52A020^やろうと思{おも}ったけど、向{む}こうが勃{ぼつ}たなかったのよ。ムカついたから、みんなを呼{よ}んで… 車{くるま}はバラして、男{おとこ}は沈{しず}めたわ",
+                    "maleVariant": null,
+                    "stringId": 2276536725043060768
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2276536725043060744,
-            "femaleVariant": "FE52A008^カン・タオのリムジンが湾{わん}岸{がん}沿{そ}いの倉{そう}庫{こ}の前{まえ}に停{と}まっててさ。で、中{なか}にいた男{おとこ}がバーチャを見{み}てたのよ"
-          },
-          {
-            "stringId": 2276536725043060756,
-            "femaleVariant": "FE52A014^え、気{き}づかれなかったわけ？ ていうか… ヤッたの？"
-          },
-          {
-            "stringId": 2276536725043060768,
-            "femaleVariant": "FE52A020^やろうと思{おも}ったけど、向{む}こうが勃{ぼつ}たなかったのよ。ムカついたから、みんなを呼{よ}んで… 車{くるま}はバラして、男{おとこ}は沈{しず}めたわ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

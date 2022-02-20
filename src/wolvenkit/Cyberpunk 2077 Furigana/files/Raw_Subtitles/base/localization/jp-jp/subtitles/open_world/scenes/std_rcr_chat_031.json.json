@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_rcr_chat_031.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1A5C5Z^こんなもの金{きん}と時{じ}間{かん}の無{む}駄{だ}だ。イカれちまった連{れん}中{ちゅう}はさっさと楽{らく}にしてやればいいのさ。“強{きょう}制{せい}治{ち}療{りょう}”なんて受{う}けさせるだけ無{む}駄{だ}だ。茶{ちゃ}番{ばん}だよ",
+                    "maleVariant": null,
+                    "stringId": 2167934998510587904
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3844DZ^金{きん}の無{む}駄{だ}にはならないわ",
+                    "maleVariant": null,
+                    "stringId": 2182317156564520960
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なに？",
+                    "maleVariant": null,
+                    "stringId": 2182318344005537792
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1244DZ^企{き}業{ぎょう}が治{ち}療{りょう}に出{だ}した額{ひたい}は、控{こう}除{じょ}の対{たい}象{しょう}になる。ここに“患者{かんじゃ}”を送{おく}り込{こ}むほど、節{せつ}税{ぜい}できるってカラクリなの",
+                    "maleVariant": null,
+                    "stringId": 2182318397172535296
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2167934998510587904,
-            "femaleVariant": "1A5C5Z^こんなもの金{きん}と時{じ}間{かん}の無{む}駄{だ}だ。イカれちまった連{れん}中{ちゅう}はさっさと楽{らく}にしてやればいいのさ。“強{きょう}制{せい}治{ち}療{りょう}”なんて受{う}けさせるだけ無{む}駄{だ}だ。茶{ちゃ}番{ばん}だよ"
-          },
-          {
-            "stringId": 2182317156564520960,
-            "femaleVariant": "3844DZ^金{きん}の無{む}駄{だ}にはならないわ"
-          },
-          {
-            "stringId": 2182318344005537792,
-            "femaleVariant": "なに？"
-          },
-          {
-            "stringId": 2182318397172535296,
-            "femaleVariant": "1244DZ^企{き}業{ぎょう}が治{ち}療{りょう}に出{だ}した額{ひたい}は、控{こう}除{じょ}の対{たい}象{しょう}になる。ここに“患者{かんじゃ}”を送{おく}り込{こ}むほど、節{せつ}税{ぜい}できるってカラクリなの"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

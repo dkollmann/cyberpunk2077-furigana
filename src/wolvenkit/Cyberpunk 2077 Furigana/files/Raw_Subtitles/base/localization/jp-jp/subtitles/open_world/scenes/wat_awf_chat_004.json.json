@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_awf_chat_004.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B870AZ^あたしがウソついてるって言{い}いたいわけ？",
+                    "maleVariant": null,
+                    "stringId": 1963248533556469760
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7244DZ^そうじゃない。もうクジラはいないって言{い}ってるだけよ。絶{ぜつ}滅{めつ}したんだから",
+                    "maleVariant": null,
+                    "stringId": 1967820568015458304
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8044DZ^この目{め}ではっきり見{み}たのよ。沖{おき}合{あ}いに灰{はい}色{いろ}のおなかをした、クジラがいたんだって！",
+                    "maleVariant": null,
+                    "stringId": 1967821178135695360
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C144DZ^潜{せん}水{すい}艦{かん}と見{み}間{ま}違{ちが}えたんじゃないの？",
+                    "maleVariant": null,
+                    "stringId": 1967821840651177984
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A944DZ^信{しん}じたくないならいい。でも自{じ}分{ぶん}が何{なに}を見{み}たかくらいわかってる！",
+                    "maleVariant": null,
+                    "stringId": 1967822948350087168
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963248533556469760,
-            "femaleVariant": "B870AZ^あたしがウソついてるって言{い}いたいわけ？"
-          },
-          {
-            "stringId": 1967820568015458304,
-            "femaleVariant": "7244DZ^そうじゃない。もうクジラはいないって言{い}ってるだけよ。絶{ぜつ}滅{めつ}したんだから"
-          },
-          {
-            "stringId": 1967821178135695360,
-            "femaleVariant": "8044DZ^この目{め}ではっきり見{み}たのよ。沖{おき}合{あ}いに灰{はい}色{いろ}のおなかをした、クジラがいたんだって！"
-          },
-          {
-            "stringId": 1967821840651177984,
-            "femaleVariant": "C144DZ^潜{せん}水{すい}艦{かん}と見{み}間{ま}違{ちが}えたんじゃないの？"
-          },
-          {
-            "stringId": 1967822948350087168,
-            "femaleVariant": "A944DZ^信{しん}じたくないならいい。でも自{じ}分{ぶん}が何{なに}を見{み}たかくらいわかってる！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

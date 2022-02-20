@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_hey_rey_06_civilians.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "DE513Z^アルベルトほどできた人{にん}はいませんでした。苦{くる}しい時{とき}は慎{つつ}ましく生{い}き、幸{しあわ}せな時{とき}は笑顔{えがお}で周{しゅう}囲{い}を明{あか}るく照{て}らしてくれました",
+                    "maleVariant": null,
+                    "stringId": 1318502328777650176
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9A513Z^私{わたし}たちは今日{きょう}、彼{かれ}に別{わか}れを告{つ}げます。しかしほんの一{いち}時{じ}の別{わか}れです。いつの日{にち}かまた、主{おも}の御{お}許{もと}で出{で}会{あ}うのですから",
+                    "maleVariant": null,
+                    "stringId": 1318512429399879680
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AD513Z^何{なん}だこれは… どうなってる！？",
+                    "maleVariant": null,
+                    "stringId": 1319566990218702848
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AD513010^誰{だれ}か、止{や}めろ！",
+                    "maleVariant": null,
+                    "stringId": 1319566990218702864
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F4513Z^と、父{とう}さん！？",
+                    "maleVariant": null,
+                    "stringId": 1512790672339447808
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "18513Z^大{だい}好{す}きだった父{とう}さん、どうか安{やす}らかに…",
+                    "maleVariant": null,
+                    "stringId": 1512800379569516544
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1318502328777650176,
-            "femaleVariant": "DE513Z^アルベルトほどできた人{にん}はいませんでした。苦{くる}しい時{とき}は慎{つつ}ましく生{い}き、幸{しあわ}せな時{とき}は笑顔{えがお}で周{しゅう}囲{い}を明{あか}るく照{て}らしてくれました"
-          },
-          {
-            "stringId": 1318512429399879680,
-            "femaleVariant": "9A513Z^私{わたし}たちは今日{きょう}、彼{かれ}に別{わか}れを告{つ}げます。しかしほんの一{いち}時{じ}の別{わか}れです。いつの日{にち}かまた、主{おも}の御{お}許{もと}で出{で}会{あ}うのですから"
-          },
-          {
-            "stringId": 1319566990218702848,
-            "femaleVariant": "AD513Z^何{なん}だこれは… どうなってる！？"
-          },
-          {
-            "stringId": 1319566990218702864,
-            "femaleVariant": "AD513010^誰{だれ}か、止{や}めろ！"
-          },
-          {
-            "stringId": 1512790672339447808,
-            "femaleVariant": "F4513Z^と、父{とう}さん！？"
-          },
-          {
-            "stringId": 1512800379569516544,
-            "femaleVariant": "18513Z^大{だい}好{す}きだった父{とう}さん、どうか安{やす}らかに…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

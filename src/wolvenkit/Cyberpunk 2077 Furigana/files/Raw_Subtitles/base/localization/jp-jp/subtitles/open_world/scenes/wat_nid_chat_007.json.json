@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_nid_chat_007.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "269EZ^これ、100エディーで買{か}わないか？",
+                    "maleVariant": null,
+                    "stringId": 1827256216505147392
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9369EZ^店{みせ}が混{こ}んでる時{とき}に来{く}るんじゃねえって、前{まえ}に言{い}わなかったか？",
+                    "maleVariant": null,
+                    "stringId": 1827259547537498112
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6369EZ^じゃ、じゃあ裏口{うらぐち}に回{まわ}るから…",
+                    "maleVariant": null,
+                    "stringId": 1827259718530883584
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1369EZ^待{ま}て。そいつを見{み}せてみろ",
+                    "maleVariant": null,
+                    "stringId": 1827259880397463552
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8569EZ^いくらと言{い}った？",
+                    "maleVariant": null,
+                    "stringId": 1827260036928888832
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "100",
+                    "maleVariant": null,
+                    "stringId": 1827260232333123584
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "40だ",
+                    "maleVariant": null,
+                    "stringId": 1827260678204416000
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F469EZ^わかった。早{はや}く金{きん}をくれ",
+                    "maleVariant": null,
+                    "stringId": 1827261129712852992
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1827256216505147392,
-            "femaleVariant": "269EZ^これ、100エディーで買{か}わないか？"
-          },
-          {
-            "stringId": 1827259547537498112,
-            "femaleVariant": "9369EZ^店{みせ}が混{こ}んでる時{とき}に来{く}るんじゃねえって、前{まえ}に言{い}わなかったか？"
-          },
-          {
-            "stringId": 1827259718530883584,
-            "femaleVariant": "6369EZ^じゃ、じゃあ裏口{うらぐち}に回{まわ}るから…"
-          },
-          {
-            "stringId": 1827259880397463552,
-            "femaleVariant": "1369EZ^待{ま}て。そいつを見{み}せてみろ"
-          },
-          {
-            "stringId": 1827260036928888832,
-            "femaleVariant": "8569EZ^いくらと言{い}った？"
-          },
-          {
-            "stringId": 1827260232333123584,
-            "femaleVariant": "100"
-          },
-          {
-            "stringId": 1827260678204416000,
-            "femaleVariant": "40だ"
-          },
-          {
-            "stringId": 1827261129712852992,
-            "femaleVariant": "F469EZ^わかった。早{はや}く金{きん}をくれ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

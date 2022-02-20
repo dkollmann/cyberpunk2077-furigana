@@ -1,30 +1,46 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\animated_billboards\\ab_ad_mrstud.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D64EAZ^ミスタースタッド。毎{まい}晩{ばん}、全{ぜん}力{りょく}",
+                    "maleVariant": null,
+                    "stringId": 1985313726677295104
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6844DZ^衰{おとろ}える前{まえ}に、アップグレードを",
+                    "maleVariant": null,
+                    "stringId": 1993590328674013184
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1985313726677295104,
-            "femaleVariant": "D64EAZ^ミスタースタッド。毎{まい}晩{ばん}、全{ぜん}力{りょく}"
-          },
-          {
-            "stringId": 1993590328674013184,
-            "femaleVariant": "6844DZ^衰{おとろ}える前{まえ}に、アップグレードを"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

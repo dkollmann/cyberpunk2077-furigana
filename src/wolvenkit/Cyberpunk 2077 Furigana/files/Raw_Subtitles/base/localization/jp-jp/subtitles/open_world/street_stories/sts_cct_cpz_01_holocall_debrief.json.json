@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_cct_cpz_01_holocall_debrief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "147EZ^ったく！ どうなるかと思{おも}って冷{ひ}や冷{ひ}やしたぜ、V！",
+                    "maleVariant": null,
+                    "stringId": 2328497106295709696
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3E3BCZ^とにかく無{ぶ}事{じ}に済{す}んで良{よ}かった。さすがプロだ",
+                    "maleVariant": null,
+                    "stringId": 2333132128649986048
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "413BCZ^データは手{て}に入{いっ}ったし、お前{まえ}も危{き}機{き}を脱{だっ}した。ご苦{く}労{ろう}だったな",
+                    "maleVariant": null,
+                    "stringId": 2333132244664434688
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328497106295709696,
-            "femaleVariant": "147EZ^ったく！ どうなるかと思{おも}って冷{ひ}や冷{ひ}やしたぜ、V！"
-          },
-          {
-            "stringId": 2333132128649986048,
-            "femaleVariant": "3E3BCZ^とにかく無{ぶ}事{じ}に済{す}んで良{よ}かった。さすがプロだ"
-          },
-          {
-            "stringId": 2333132244664434688,
-            "femaleVariant": "413BCZ^データは手{て}に入{いっ}ったし、お前{まえ}も危{き}機{き}を脱{だっ}した。ご苦{く}労{ろう}だったな"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

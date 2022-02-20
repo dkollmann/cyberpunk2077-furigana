@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\minor_activities\\ma_wat_lch_06_brief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3F623Z^V、調{しら}べてほしいことがある。埠{ふ}頭{とう}で騒{さわ}ぎがあったようなの",
+                    "maleVariant": null,
+                    "stringId": 2357736239666442240
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E623Z^ただのジャンキーかもしれないけど、どうもサイバーサイコの臭{くさ}いがするのよね",
+                    "maleVariant": null,
+                    "stringId": 2357823199047200768
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2E623Z^それに、ドラッグが関{かん}係{けい}してるかも確{かく}認{にん}したい",
+                    "maleVariant": null,
+                    "stringId": 2357823517411651584
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "43623Z^死{し}体{たい}に話{はなし}は聞{き}けないから、生{い}きたままでね",
+                    "maleVariant": null,
+                    "stringId": 2357824192073838592
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2357736239666442240,
-            "femaleVariant": "3F623Z^V、調{しら}べてほしいことがある。埠{ふ}頭{とう}で騒{さわ}ぎがあったようなの"
-          },
-          {
-            "stringId": 2357823199047200768,
-            "femaleVariant": "E623Z^ただのジャンキーかもしれないけど、どうもサイバーサイコの臭{くさ}いがするのよね"
-          },
-          {
-            "stringId": 2357823517411651584,
-            "femaleVariant": "2E623Z^それに、ドラッグが関{かん}係{けい}してるかも確{かく}認{にん}したい"
-          },
-          {
-            "stringId": 2357824192073838592,
-            "femaleVariant": "43623Z^死{し}体{たい}に話{はなし}は聞{き}けないから、生{い}きたままでね"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

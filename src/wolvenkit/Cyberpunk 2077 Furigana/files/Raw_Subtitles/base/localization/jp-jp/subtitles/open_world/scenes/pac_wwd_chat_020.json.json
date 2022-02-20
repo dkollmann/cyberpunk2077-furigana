@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_wwd_chat_020.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6A69EZ^昨日{きのう}はどこ行{い}ってたんだ？",
+                    "maleVariant": null,
+                    "stringId": 2179608373071831040
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E12B6Z^GIMに。何{なに}か見{み}つかるかなと思{おも}って",
+                    "maleVariant": null,
+                    "stringId": 2211183046184099840
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "へえ？",
+                    "maleVariant": null,
+                    "stringId": 2217180710868574208
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "782B6Z^結{けっ}局{きょく}手{て}ぶらで帰{かえ}ってきた。パシフィカの中{なか}は、どこもすでに荒{あ}らされてる",
+                    "maleVariant": null,
+                    "stringId": 2217180794452664320
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B32B6Z^確{たし}かに… コーポの近{ちか}くに住{す}まないとな。あいつらは何{なん}でも捨{す}てる",
+                    "maleVariant": null,
+                    "stringId": 2217181315133562880
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3E2B6Z^じゃあそうしなよ。私{わたし}は行{い}かない",
+                    "maleVariant": null,
+                    "stringId": 2217181704012652544
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なぜだ？",
+                    "maleVariant": null,
+                    "stringId": 2217182019894075392
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4D2B6Z^ここが私{わたし}の故{こ}郷{きょう}だからよ",
+                    "maleVariant": null,
+                    "stringId": 2217182082221432832
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2179608373071831040,
-            "femaleVariant": "6A69EZ^昨日{きのう}はどこ行{い}ってたんだ？"
-          },
-          {
-            "stringId": 2211183046184099840,
-            "femaleVariant": "E12B6Z^GIMに。何{なに}か見{み}つかるかなと思{おも}って"
-          },
-          {
-            "stringId": 2217180710868574208,
-            "femaleVariant": "へえ？"
-          },
-          {
-            "stringId": 2217180794452664320,
-            "femaleVariant": "782B6Z^結{けっ}局{きょく}手{て}ぶらで帰{かえ}ってきた。パシフィカの中{なか}は、どこもすでに荒{あ}らされてる"
-          },
-          {
-            "stringId": 2217181315133562880,
-            "femaleVariant": "B32B6Z^確{たし}かに… コーポの近{ちか}くに住{す}まないとな。あいつらは何{なん}でも捨{す}てる"
-          },
-          {
-            "stringId": 2217181704012652544,
-            "femaleVariant": "3E2B6Z^じゃあそうしなよ。私{わたし}は行{い}かない"
-          },
-          {
-            "stringId": 2217182019894075392,
-            "femaleVariant": "なぜだ？"
-          },
-          {
-            "stringId": 2217182082221432832,
-            "femaleVariant": "4D2B6Z^ここが私{わたし}の故{こ}郷{きょう}だからよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

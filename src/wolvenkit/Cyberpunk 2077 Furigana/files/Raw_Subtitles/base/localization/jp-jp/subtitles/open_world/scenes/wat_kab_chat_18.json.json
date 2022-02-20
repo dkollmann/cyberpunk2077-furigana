@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_kab_chat_18.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ほら、やってみろよ。ビビッてんじゃねえ",
+                    "maleVariant": null,
+                    "stringId": 2156436149844287488
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B644DZ^わかったよ。でもこれ、どこで手{て}に入{い}れたんだ？",
+                    "maleVariant": null,
+                    "stringId": 2169147410264412160
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2C44DZ^あ？ チューマから買{か}ったに決{き}まってんだろ。モノは確{たし}かだぜ",
+                    "maleVariant": null,
+                    "stringId": 2169147515323338752
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B544DZ^でも、そのチューマってのは… 信{しん}用{よう}できるのか？ 片道切符{かたみちきっぷ}なんてごめんだぞ…",
+                    "maleVariant": null,
+                    "stringId": 2169147899873906688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BE44DZ^ったく、本{ほん}当{とう}にノリのわりいやつだな。もういい。お前{まえ}にはやらねえよ",
+                    "maleVariant": null,
+                    "stringId": 2169148703183785984
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2156436149844287488,
-            "femaleVariant": "ほら、やってみろよ。ビビッてんじゃねえ"
-          },
-          {
-            "stringId": 2169147410264412160,
-            "femaleVariant": "B644DZ^わかったよ。でもこれ、どこで手{て}に入{い}れたんだ？"
-          },
-          {
-            "stringId": 2169147515323338752,
-            "femaleVariant": "2C44DZ^あ？ チューマから買{か}ったに決{き}まってんだろ。モノは確{たし}かだぜ"
-          },
-          {
-            "stringId": 2169147899873906688,
-            "femaleVariant": "B544DZ^でも、そのチューマってのは… 信{しん}用{よう}できるのか？ 片道切符{かたみちきっぷ}なんてごめんだぞ…"
-          },
-          {
-            "stringId": 2169148703183785984,
-            "femaleVariant": "BE44DZ^ったく、本{ほん}当{とう}にノリのわりいやつだな。もういい。お前{まえ}にはやらねえよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

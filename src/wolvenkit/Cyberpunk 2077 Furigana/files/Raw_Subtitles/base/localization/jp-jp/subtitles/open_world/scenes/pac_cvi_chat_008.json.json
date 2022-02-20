@@ -1,54 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_cvi_chat_008.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4270AZ^アニマルズ。この街{まち}で一{いち}番{ばん}タチの悪{わる}いギャングだ",
+                    "maleVariant": null,
+                    "stringId": 1963269422297686016
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E92C5004^ヴードゥーの人{にん}たちが、何{なに}かすごいことを計{けい}画{かく}してるって聞{き}いたんだが",
+                    "maleVariant": null,
+                    "stringId": 1966389624346267652
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "CD2C5Z^どんな仕{し}事{ごと}もやる",
+                    "maleVariant": null,
+                    "stringId": 1966391225899307008
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1F2C5Z^仕{し}事{ごと}あるだけ羨{うらや}ましい",
+                    "maleVariant": null,
+                    "stringId": 1966392150693007360
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5D2C5Z^パシフィカ、何{なに}もない",
+                    "maleVariant": null,
+                    "stringId": 1966392512510447616
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "62C5Z^何{なに}？ 協{きょう}力{りょく}したいの？",
+                    "maleVariant": null,
+                    "stringId": 1966397544752500736
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1E2C5Z^じゃあ、口{くち}を閉{と}じてなさい",
+                    "maleVariant": null,
+                    "stringId": 1966397721248813056
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "もちろん！",
+                    "maleVariant": null,
+                    "stringId": 1966398250435760128
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963269422297686016,
-            "femaleVariant": "4270AZ^アニマルズ。この街{まち}で一{いち}番{ばん}タチの悪{わる}いギャングだ"
-          },
-          {
-            "stringId": 1966389624346267652,
-            "femaleVariant": "E92C5004^ヴードゥーの人{にん}たちが、何{なに}かすごいことを計{けい}画{かく}してるって聞{き}いたんだが"
-          },
-          {
-            "stringId": 1966391225899307008,
-            "femaleVariant": "CD2C5Z^どんな仕{し}事{ごと}もやる"
-          },
-          {
-            "stringId": 1966392150693007360,
-            "femaleVariant": "1F2C5Z^仕{し}事{ごと}あるだけ羨{うらや}ましい"
-          },
-          {
-            "stringId": 1966392512510447616,
-            "femaleVariant": "5D2C5Z^パシフィカ、何{なに}もない"
-          },
-          {
-            "stringId": 1966397544752500736,
-            "femaleVariant": "62C5Z^何{なに}？ 協{きょう}力{りょく}したいの？"
-          },
-          {
-            "stringId": 1966397721248813056,
-            "femaleVariant": "1E2C5Z^じゃあ、口{くち}を閉{と}じてなさい"
-          },
-          {
-            "stringId": 1966398250435760128,
-            "femaleVariant": "もちろん！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_nid_chat_008.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9070AZ^またこのにおい。臭{くさ}くてたまらん。ずっとここにいると、肺{はい}に穴{あな}が開{ひら}きそうだ",
+                    "maleVariant": null,
+                    "stringId": 1963287909145550848
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "333BCZ^メアリー曰{いわ}く、ペトロケムで漏{ろう}出{しゅつ}があったって",
+                    "maleVariant": null,
+                    "stringId": 1964955540303626240
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2B3BCZ^ああ。うちの近所{きんじょ}の子{こ}供{ども}が、現{げん}場{ば}近{ちか}くで2時{じ}間{かん}くらい遊{あそ}んでたそうだ",
+                    "maleVariant": null,
+                    "stringId": 1964955780687577088
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5B3BCZ^一{いち}番{ばん}のチビは、どうやら大{たい}量{りょう}に吸{す}い込{こ}んだらしく、口{くち}から泡{あわ}を吹{ふ}き始{はじ}めてさ。ひどかったよ",
+                    "maleVariant": null,
+                    "stringId": 1964955966176477184
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "EA3BCZ^ひどい親{おや}… 子{こ}供{ども}を作{つく}るなら、ちゃんと面倒見{めんどうみ}なきゃ！",
+                    "maleVariant": null,
+                    "stringId": 1964956436727054336
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "243BCZ^ふん。蛙{かえる}の子{こ}は蛙{かえる}だな",
+                    "maleVariant": null,
+                    "stringId": 1964956785592483840
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963287909145550848,
-            "femaleVariant": "9070AZ^またこのにおい。臭{くさ}くてたまらん。ずっとここにいると、肺{はい}に穴{あな}が開{ひら}きそうだ"
-          },
-          {
-            "stringId": 1964955540303626240,
-            "femaleVariant": "333BCZ^メアリー曰{いわ}く、ペトロケムで漏{ろう}出{しゅつ}があったって"
-          },
-          {
-            "stringId": 1964955780687577088,
-            "femaleVariant": "2B3BCZ^ああ。うちの近所{きんじょ}の子{こ}供{ども}が、現{げん}場{ば}近{ちか}くで2時{じ}間{かん}くらい遊{あそ}んでたそうだ"
-          },
-          {
-            "stringId": 1964955966176477184,
-            "femaleVariant": "5B3BCZ^一{いち}番{ばん}のチビは、どうやら大{たい}量{りょう}に吸{す}い込{こ}んだらしく、口{くち}から泡{あわ}を吹{ふ}き始{はじ}めてさ。ひどかったよ"
-          },
-          {
-            "stringId": 1964956436727054336,
-            "femaleVariant": "EA3BCZ^ひどい親{おや}… 子{こ}供{ども}を作{つく}るなら、ちゃんと面倒見{めんどうみ}なきゃ！"
-          },
-          {
-            "stringId": 1964956785592483840,
-            "femaleVariant": "243BCZ^ふん。蛙{かえる}の子{こ}は蛙{かえる}だな"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

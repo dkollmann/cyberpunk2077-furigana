@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_kab_chat_014.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A347AZ^なあ、いいだろ… こんな冷{つめ}たい機{き}械{かい}ばっかり使{つか}うんじゃなくてさ、こう、血{ち}の通{かよ}った人{にん}間{げん}同{どう}士{し}… 俺{おれ}と君{くん}で…",
+                    "maleVariant": null,
+                    "stringId": 2156373511487594496
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8A44DZ^お断{ことわ}りよ。何{なに}か買{か}う気{き}はあるの？",
+                    "maleVariant": null,
+                    "stringId": 2169023306446196736
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そうか… わかった。それじゃあ『チアリーダーとパコろう！ 7』を…",
+                    "maleVariant": null,
+                    "stringId": 2169023995402571776
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2156373511487594496,
-            "femaleVariant": "A347AZ^なあ、いいだろ… こんな冷{つめ}たい機{き}械{かい}ばっかり使{つか}うんじゃなくてさ、こう、血{ち}の通{かよ}った人{にん}間{げん}同{どう}士{し}… 俺{おれ}と君{くん}で…"
-          },
-          {
-            "stringId": 2169023306446196736,
-            "femaleVariant": "8A44DZ^お断{ことわ}りよ。何{なに}か買{か}う気{き}はあるの？"
-          },
-          {
-            "stringId": 2169023995402571776,
-            "femaleVariant": "そうか… わかった。それじゃあ『チアリーダーとパコろう！ 7』を…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

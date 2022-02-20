@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_gle_chat_006.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6069EZ^奴{やつ}のインプラントのキャッシュに入{い}れといた。本{ほん}人{にん}が市{し}役{やく}所{しょ}のサブネットにジャックインしたら、勝手{かって}に送{おく}り込{こ}まれる",
+                    "maleVariant": null,
+                    "stringId": 1832729350742073344
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8A69EZ^マジで？ すごいな！ あんた天{てん}才{さい}だよ！",
+                    "maleVariant": null,
+                    "stringId": 1832731357196443648
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F869EZ^頼{たの}んだとおり、アニマルズのヤツも入{いっ}ってるんだよな？",
+                    "maleVariant": null,
+                    "stringId": 1832731517955727360
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "もちろん",
+                    "maleVariant": null,
+                    "stringId": 1832731681734909952
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D969EZ^よし！ これで8時{とき}のニュースに間{ま}に合{あ}う！ ハッ、全{ぜん}部{ぶ}あんたのおかげだ！",
+                    "maleVariant": null,
+                    "stringId": 1832732054306545664
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "いいって",
+                    "maleVariant": null,
+                    "stringId": 1832732228537933824
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1832729350742073344,
-            "femaleVariant": "6069EZ^奴{やつ}のインプラントのキャッシュに入{い}れといた。本{ほん}人{にん}が市{し}役{やく}所{しょ}のサブネットにジャックインしたら、勝手{かって}に送{おく}り込{こ}まれる"
-          },
-          {
-            "stringId": 1832731357196443648,
-            "femaleVariant": "8A69EZ^マジで？ すごいな！ あんた天{てん}才{さい}だよ！"
-          },
-          {
-            "stringId": 1832731517955727360,
-            "femaleVariant": "F869EZ^頼{たの}んだとおり、アニマルズのヤツも入{いっ}ってるんだよな？"
-          },
-          {
-            "stringId": 1832731681734909952,
-            "femaleVariant": "もちろん"
-          },
-          {
-            "stringId": 1832732054306545664,
-            "femaleVariant": "D969EZ^よし！ これで8時{とき}のニュースに間{ま}に合{あ}う！ ハッ、全{ぜん}部{ぶ}あんたのおかげだ！"
-          },
-          {
-            "stringId": 1832732228537933824,
-            "femaleVariant": "いいって"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

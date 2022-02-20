@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q001\\q001_03_vendor_phone.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F9377Z^いやいや。14じゃダメだ。商{しょう}売{ばい}にならねえ",
+                    "maleVariant": null,
+                    "stringId": 1193926420556378112
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A428DZ^待{ま}て、1日{ひ}毎{ごと}に14ってことか？ それなら話{はなし}が別{べつ}だ",
+                    "maleVariant": null,
+                    "stringId": 1195200967854313472
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6728DZ^ああ、また連{れん}絡{らく}する。じゃあな",
+                    "maleVariant": null,
+                    "stringId": 1195202135062007808
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "DC34AZ^相{あい}棒{ぼう}と相{そう}談{だん}させてくれ",
+                    "maleVariant": null,
+                    "stringId": 1263612560799997952
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1193926420556378112,
-            "femaleVariant": "F9377Z^いやいや。14じゃダメだ。商{しょう}売{ばい}にならねえ"
-          },
-          {
-            "stringId": 1195200967854313472,
-            "femaleVariant": "A428DZ^待{ま}て、1日{ひ}毎{ごと}に14ってことか？ それなら話{はなし}が別{べつ}だ"
-          },
-          {
-            "stringId": 1195202135062007808,
-            "femaleVariant": "6728DZ^ああ、また連{れん}絡{らく}する。じゃあな"
-          },
-          {
-            "stringId": 1263612560799997952,
-            "femaleVariant": "DC34AZ^相{あい}棒{ぼう}と相{そう}談{だん}させてくれ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\community\\e3_q110_gig_teaser.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6647Z^こないだ半{はん}殺{ころ}しにした ガキいただろ",
+                    "maleVariant": null,
+                    "stringId": 1770872659004125184
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2F647Z^ああ… いつものヤツ。 そいつもコンテストのために 来{き}たと言{い}ってた",
+                    "maleVariant": null,
+                    "stringId": 1772187417900773376
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "なぜわざわざパシフィカに？",
+                    "maleVariant": null,
+                    "stringId": 1772267718367842304
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "50351Z^知{し}らない。危{き}険{けん}冒{おか}してまで 写{しゃ}真{しん}撮{と}りに来{く}る意{い}味{み}わからない",
+                    "maleVariant": null,
+                    "stringId": 1772268859621183488
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "18351Z^プラシドに言{い}ったか？",
+                    "maleVariant": null,
+                    "stringId": 1772270280315834368
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "10351Z^最{さい}初{しょ}の時{とき}だけ報{ほう}告{こく}した。 だが今{こん}週{しゅう}だけでも、3人{にん}同{おな}じ ような奴{やつ}来{き}てる",
+                    "maleVariant": null,
+                    "stringId": 1772270628073967616
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1770872659004125184,
-            "femaleVariant": "6647Z^こないだ半{はん}殺{ころ}しにした ガキいただろ"
-          },
-          {
-            "stringId": 1772187417900773376,
-            "femaleVariant": "2F647Z^ああ… いつものヤツ。 そいつもコンテストのために 来{き}たと言{い}ってた"
-          },
-          {
-            "stringId": 1772267718367842304,
-            "femaleVariant": "なぜわざわざパシフィカに？"
-          },
-          {
-            "stringId": 1772268859621183488,
-            "femaleVariant": "50351Z^知{し}らない。危{き}険{けん}冒{おか}してまで 写{しゃ}真{しん}撮{と}りに来{く}る意{い}味{み}わからない"
-          },
-          {
-            "stringId": 1772270280315834368,
-            "femaleVariant": "18351Z^プラシドに言{い}ったか？"
-          },
-          {
-            "stringId": 1772270628073967616,
-            "femaleVariant": "10351Z^最{さい}初{しょ}の時{とき}だけ報{ほう}告{こく}した。 だが今{こん}週{しゅう}だけでも、3人{にん}同{おな}じ ような奴{やつ}来{き}てる"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

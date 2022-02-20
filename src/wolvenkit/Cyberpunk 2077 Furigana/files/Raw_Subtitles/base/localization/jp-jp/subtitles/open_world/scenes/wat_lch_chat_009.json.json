@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_009.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F069EZ^路{ろ}上{じょう}で暮{く}らしてりゃ、誰{だれ}にも指図{さしず}されねえで済{す}む…",
+                    "maleVariant": null,
+                    "stringId": 1827219885074800640
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "569EZ^寝{ね}たいとこで寝{ね}て！ 飲{の}みたいときに飲{の}む！",
+                    "maleVariant": null,
+                    "stringId": 1827231713767055360
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6669EZ^そう！ それこそがモノホンの自{じ}由{ゆう}よ",
+                    "maleVariant": null,
+                    "stringId": 1827231921552875520
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8869EZ^人{じん}生{せい}、人{にん}それぞれだ。苦{くる}しみだって、じっくり味{あじ}わえばうまいもんさ",
+                    "maleVariant": null,
+                    "stringId": 1827232214181076992
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4569EZ^よく言{い}った！",
+                    "maleVariant": null,
+                    "stringId": 1827232543769485312
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E469EZ^ああ… よく言{い}った",
+                    "maleVariant": null,
+                    "stringId": 1827232748300525568
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1827219885074800640,
-            "femaleVariant": "F069EZ^路{ろ}上{じょう}で暮{く}らしてりゃ、誰{だれ}にも指図{さしず}されねえで済{す}む…"
-          },
-          {
-            "stringId": 1827231713767055360,
-            "femaleVariant": "569EZ^寝{ね}たいとこで寝{ね}て！ 飲{の}みたいときに飲{の}む！"
-          },
-          {
-            "stringId": 1827231921552875520,
-            "femaleVariant": "6669EZ^そう！ それこそがモノホンの自{じ}由{ゆう}よ"
-          },
-          {
-            "stringId": 1827232214181076992,
-            "femaleVariant": "8869EZ^人{じん}生{せい}、人{にん}それぞれだ。苦{くる}しみだって、じっくり味{あじ}わえばうまいもんさ"
-          },
-          {
-            "stringId": 1827232543769485312,
-            "femaleVariant": "4569EZ^よく言{い}った！"
-          },
-          {
-            "stringId": 1827232748300525568,
-            "femaleVariant": "E469EZ^ああ… よく言{い}った"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

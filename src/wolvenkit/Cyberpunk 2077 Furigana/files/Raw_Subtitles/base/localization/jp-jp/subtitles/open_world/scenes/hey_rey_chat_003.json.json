@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_rey_chat_003.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "CA69EZ^う… 腕{うで}が… 腕{うで}がない！",
+                    "maleVariant": null,
+                    "stringId": 1833093299459186688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8F69EZ^スカベンジャー… 盗{ぬす}まれたんだ、寝{ね}てる間{ま}に。奴{やつ}ら相{あい}手{て}じゃ… 取{と}り… 戻{もど}せない…",
+                    "maleVariant": null,
+                    "stringId": 1833095428773109760
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F169EZ^それどころか、殺{ころ}されちゃうかも… どうしよう…！",
+                    "maleVariant": null,
+                    "stringId": 1833095623690805248
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E169EZ^チューマ、腕{うで}はクスリ代{か}を稼{かせ}ぐために売{う}ったんだろ？ 2ヶ{ゖ}月{げつ}前{まえ}くらいにそう言{い}ってたぞ",
+                    "maleVariant": null,
+                    "stringId": 1833095790926094336
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ああ… そ、そうか",
+                    "maleVariant": null,
+                    "stringId": 1833095945897238528
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3BCZ^そん時{とき}に、新{あたら}しいのを母{はは}親{おや}に買{か}ってもらったって",
+                    "maleVariant": null,
+                    "stringId": 1964789105170300928
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1833093299459186688,
-            "femaleVariant": "CA69EZ^う… 腕{うで}が… 腕{うで}がない！"
-          },
-          {
-            "stringId": 1833095428773109760,
-            "femaleVariant": "8F69EZ^スカベンジャー… 盗{ぬす}まれたんだ、寝{ね}てる間{ま}に。奴{やつ}ら相{あい}手{て}じゃ… 取{と}り… 戻{もど}せない…"
-          },
-          {
-            "stringId": 1833095623690805248,
-            "femaleVariant": "F169EZ^それどころか、殺{ころ}されちゃうかも… どうしよう…！"
-          },
-          {
-            "stringId": 1833095790926094336,
-            "femaleVariant": "E169EZ^チューマ、腕{うで}はクスリ代{か}を稼{かせ}ぐために売{う}ったんだろ？ 2ヶ{ゖ}月{げつ}前{まえ}くらいにそう言{い}ってたぞ"
-          },
-          {
-            "stringId": 1833095945897238528,
-            "femaleVariant": "ああ… そ、そうか"
-          },
-          {
-            "stringId": 1964789105170300928,
-            "femaleVariant": "3BCZ^そん時{とき}に、新{あたら}しいのを母{はは}親{おや}に買{か}ってもらったって"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

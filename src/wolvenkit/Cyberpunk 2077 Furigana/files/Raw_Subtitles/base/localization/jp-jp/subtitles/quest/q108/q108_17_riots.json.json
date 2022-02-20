@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q108\\q108_17_riots.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "954EAZ^〈コーポは俺{おれ}が始{し}末{まつ}する！〉",
+                    "maleVariant": null,
+                    "stringId": 1822709923072352256
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2D5B3Z^〈火{ひ}をつけろ！〉",
+                    "maleVariant": null,
+                    "stringId": 1827025186639785984
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db]REC RIOTS",
+                    "maleVariant": null,
+                    "stringId": 2391084085232218112
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db]REC RIOTS2",
+                    "maleVariant": null,
+                    "stringId": 2391084085232218124
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "[en_us][db_db]REC TABLET",
+                    "maleVariant": null,
+                    "stringId": 2431809605183680512
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1822709923072352256,
-            "femaleVariant": "954EAZ^〈コーポは俺{おれ}が始{し}末{まつ}する！〉"
-          },
-          {
-            "stringId": 1827025186639785984,
-            "femaleVariant": "2D5B3Z^〈火{ひ}をつけろ！〉"
-          },
-          {
-            "stringId": 2391084085232218112,
-            "femaleVariant": "[en_us][db_db]REC RIOTS"
-          },
-          {
-            "stringId": 2391084085232218124,
-            "femaleVariant": "[en_us][db_db]REC RIOTS2"
-          },
-          {
-            "stringId": 2431809605183680512,
-            "femaleVariant": "[en_us][db_db]REC TABLET"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

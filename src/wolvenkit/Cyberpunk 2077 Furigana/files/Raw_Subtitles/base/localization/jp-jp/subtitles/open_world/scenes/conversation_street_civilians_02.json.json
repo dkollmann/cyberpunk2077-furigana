@@ -1,30 +1,46 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_civilians_02.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6D70AZ^これ以{い}上{じょう}あんたと言{い}い合{あ}っても無{む}駄{だ}ね",
+                    "maleVariant": null,
+                    "stringId": 1968945930970374144
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2370AZ^そっちが言{い}い出{だ}したんでしょ",
+                    "maleVariant": null,
+                    "stringId": 1968947329888198656
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1968945930970374144,
-            "femaleVariant": "6D70AZ^これ以{い}上{じょう}あんたと言{い}い合{あ}っても無{む}駄{だ}ね"
-          },
-          {
-            "stringId": 1968947329888198656,
-            "femaleVariant": "2370AZ^そっちが言{い}い出{だ}したんでしょ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

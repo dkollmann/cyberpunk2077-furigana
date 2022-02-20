@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_awf_chat_006.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "470AZ^ジギーQの最{さい}新{しん}エピソード見{み}たか？",
+                    "maleVariant": null,
+                    "stringId": 1963249724537479168
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "EE44DZ^いや、別{べつ}の仕{し}事{ごと}のシフト中{なか}だったから。今{こん}回{かい}は誰{だれ}だったんだ？",
+                    "maleVariant": null,
+                    "stringId": 1967835503697121280
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8C44DZ^どこかの女{おんな}警{けい}官{かん}だ。すごかったぞ、ジギーが完{かん}全{ぜん}に論破{ろんぱ}してた！",
+                    "maleVariant": null,
+                    "stringId": 1967837636651700224
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1644DZ^そりゃ見{み}なきゃな。NCPDなんかクソくらえだ。メイルストロームよりひどい",
+                    "maleVariant": null,
+                    "stringId": 1967837892370026496
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963249724537479168,
-            "femaleVariant": "470AZ^ジギーQの最{さい}新{しん}エピソード見{み}たか？"
-          },
-          {
-            "stringId": 1967835503697121280,
-            "femaleVariant": "EE44DZ^いや、別{べつ}の仕{し}事{ごと}のシフト中{なか}だったから。今{こん}回{かい}は誰{だれ}だったんだ？"
-          },
-          {
-            "stringId": 1967837636651700224,
-            "femaleVariant": "8C44DZ^どこかの女{おんな}警{けい}官{かん}だ。すごかったぞ、ジギーが完{かん}全{ぜん}に論破{ろんぱ}してた！"
-          },
-          {
-            "stringId": 1967837892370026496,
-            "femaleVariant": "1644DZ^そりゃ見{み}なきゃな。NCPDなんかクソくらえだ。メイルストロームよりひどい"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

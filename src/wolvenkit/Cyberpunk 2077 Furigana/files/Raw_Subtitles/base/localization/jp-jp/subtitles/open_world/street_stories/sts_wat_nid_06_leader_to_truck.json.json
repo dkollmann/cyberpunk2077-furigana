@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_wat_nid_06_leader_to_truck.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どうだ？",
+                    "maleVariant": null,
+                    "stringId": 1624570545386098688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E1559Z^のんびり、丁{てい}寧{ねい}にやってやがる",
+                    "maleVariant": null,
+                    "stringId": 1720326743053930496
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "90559Z^しっかり見張{みはっ}っとけ",
+                    "maleVariant": null,
+                    "stringId": 1720327385940070400
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "わかってるよ",
+                    "maleVariant": null,
+                    "stringId": 1720327529553039360
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1624570545386098688,
-            "femaleVariant": "どうだ？"
-          },
-          {
-            "stringId": 1720326743053930496,
-            "femaleVariant": "E1559Z^のんびり、丁{てい}寧{ねい}にやってやがる"
-          },
-          {
-            "stringId": 1720327385940070400,
-            "femaleVariant": "90559Z^しっかり見張{みはっ}っとけ"
-          },
-          {
-            "stringId": 1720327529553039360,
-            "femaleVariant": "わかってるよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

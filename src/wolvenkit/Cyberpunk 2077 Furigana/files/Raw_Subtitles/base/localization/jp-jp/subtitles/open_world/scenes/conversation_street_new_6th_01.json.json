@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_new_6th_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7152A010^本{ほん}当{とう}にいいのね？ 後{あと}で後{こう}悔{かい}しても遅{おそ}いよ",
+                    "maleVariant": null,
+                    "stringId": 2276020532033003536
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7252AZ^ああ、問{もん}題{だい}ない",
+                    "maleVariant": null,
+                    "stringId": 2276020532049780736
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7252A00C^そう来{こ}なくちゃ。意{い}志{し}あるところに道{みち}は開{ひら}ける。でしょ？",
+                    "maleVariant": null,
+                    "stringId": 2276020532049780748
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2276020532033003536,
-            "femaleVariant": "7152A010^本{ほん}当{とう}にいいのね？ 後{あと}で後{こう}悔{かい}しても遅{おそ}いよ"
-          },
-          {
-            "stringId": 2276020532049780736,
-            "femaleVariant": "7252AZ^ああ、問{もん}題{だい}ない"
-          },
-          {
-            "stringId": 2276020532049780748,
-            "femaleVariant": "7252A00C^そう来{こ}なくちゃ。意{い}志{し}あるところに道{みち}は開{ひら}ける。でしょ？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

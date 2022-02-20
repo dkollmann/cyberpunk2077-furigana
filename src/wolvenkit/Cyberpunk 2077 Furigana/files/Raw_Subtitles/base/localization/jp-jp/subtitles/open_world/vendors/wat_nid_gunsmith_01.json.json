@@ -1,48 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\wat_nid_gunsmith_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2647A004^銃{じゅう}がほしい",
+                    "maleVariant": null,
+                    "stringId": 1979351707821776900
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B47AZ^本{ほん}当{とう}に店{てん}員{いん}なの？",
+                    "maleVariant": "B47AZ^本{ほん}当{とう}に店{てん}員{いん}なのか？",
+                    "stringId": 1979352287189377024
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BC47AZ^銃{じゅう}を買{か}いたい",
+                    "maleVariant": null,
+                    "stringId": 1979352912929202176
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "FE47AZ^買{か}えばいい",
+                    "maleVariant": null,
+                    "stringId": 1979354932671127552
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6D47AZ^見{み}たところ、趣{しゅ}味{み}でこの店{みせ}をやってるようには思{おも}えないんだけど",
+                    "maleVariant": "6D47AZ^見{み}たところ、趣{しゅ}味{み}でこの店{みせ}をやってるようには思{おも}えないんだが",
+                    "stringId": 1979357082017046528
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3047AZ^買{か}い物{もの}しに来{き}たなら買{か}え。話{はなし}がしたいなら失{う}せろ",
+                    "maleVariant": null,
+                    "stringId": 1979357626454482944
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1979351707821776900,
-            "femaleVariant": "2647A004^銃{じゅう}がほしい"
-          },
-          {
-            "stringId": 1979352287189377024,
-            "femaleVariant": "B47AZ^本{ほん}当{とう}に店{てん}員{いん}なの？",
-            "maleVariant": "B47AZ^本{ほん}当{とう}に店{てん}員{いん}なのか？"
-          },
-          {
-            "stringId": 1979352912929202176,
-            "femaleVariant": "BC47AZ^銃{じゅう}を買{か}いたい"
-          },
-          {
-            "stringId": 1979354932671127552,
-            "femaleVariant": "FE47AZ^買{か}えばいい"
-          },
-          {
-            "stringId": 1979357082017046528,
-            "femaleVariant": "6D47AZ^見{み}たところ、趣{しゅ}味{み}でこの店{みせ}をやってるようには思{おも}えないんだけど",
-            "maleVariant": "6D47AZ^見{み}たところ、趣{しゅ}味{み}でこの店{みせ}をやってるようには思{おも}えないんだが"
-          },
-          {
-            "stringId": 1979357626454482944,
-            "femaleVariant": "3047AZ^買{か}い物{もの}しに来{き}たなら買{か}え。話{はなし}がしたいなら失{う}せろ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

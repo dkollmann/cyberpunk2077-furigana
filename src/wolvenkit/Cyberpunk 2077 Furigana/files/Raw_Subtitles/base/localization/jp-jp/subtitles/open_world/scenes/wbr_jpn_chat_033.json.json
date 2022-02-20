@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_jpn_chat_033.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6D70AZ^おい、もうその辺{へん}にしておけ",
+                    "maleVariant": null,
+                    "stringId": 2160398028084649984
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7145AZ^いやいや。いい酒{さけ}ってのは、誰{だれ}にも害{がい}を及{およ}ぼさないんだよ",
+                    "maleVariant": null,
+                    "stringId": 2196820055193657344
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6145AZ^日本{にっぽん}にはこういう言葉{ことば}がある。1杯{はい}は人{にん}、酒{さけ}を飲{の}む。2杯{はい}は酒{さけ}、酒{さけ}を飲{の}む。3杯{はい}は酒{さけ}、人{にん}を飲{の}むってな",
+                    "maleVariant": null,
+                    "stringId": 2196820815134433280
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B845AZ^そんなのただのたわ言{げん}だ。もっといいのがあるぜ…",
+                    "maleVariant": null,
+                    "stringId": 2196822989847502848
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D845AZ^1杯{はい}目{め}は俺{おれ}が飲{の}む。2杯{はい}目{め}はお前{まえ}が飲{の}む。3杯{はい}目{め}は… 店{みせ}のおごりだ！",
+                    "maleVariant": null,
+                    "stringId": 2196824330414170112
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1F45AZ^ここはタイガークロウズのバーだぞ？ 店{みせ}のおごりなんてあり得{え}ない",
+                    "maleVariant": null,
+                    "stringId": 2196825220663582720
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2F45AZ^タイガークロウズ…？ ああ… もう出{で}よう",
+                    "maleVariant": null,
+                    "stringId": 2196828154394681344
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2160398028084649984,
-            "femaleVariant": "6D70AZ^おい、もうその辺{へん}にしておけ"
-          },
-          {
-            "stringId": 2196820055193657344,
-            "femaleVariant": "7145AZ^いやいや。いい酒{さけ}ってのは、誰{だれ}にも害{がい}を及{およ}ぼさないんだよ"
-          },
-          {
-            "stringId": 2196820815134433280,
-            "femaleVariant": "6145AZ^日本{にっぽん}にはこういう言葉{ことば}がある。1杯{はい}は人{にん}、酒{さけ}を飲{の}む。2杯{はい}は酒{さけ}、酒{さけ}を飲{の}む。3杯{はい}は酒{さけ}、人{にん}を飲{の}むってな"
-          },
-          {
-            "stringId": 2196822989847502848,
-            "femaleVariant": "B845AZ^そんなのただのたわ言{げん}だ。もっといいのがあるぜ…"
-          },
-          {
-            "stringId": 2196824330414170112,
-            "femaleVariant": "D845AZ^1杯{はい}目{め}は俺{おれ}が飲{の}む。2杯{はい}目{め}はお前{まえ}が飲{の}む。3杯{はい}目{め}は… 店{みせ}のおごりだ！"
-          },
-          {
-            "stringId": 2196825220663582720,
-            "femaleVariant": "1F45AZ^ここはタイガークロウズのバーだぞ？ 店{みせ}のおごりなんてあり得{え}ない"
-          },
-          {
-            "stringId": 2196828154394681344,
-            "femaleVariant": "2F45AZ^タイガークロウズ…？ ああ… もう出{で}よう"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

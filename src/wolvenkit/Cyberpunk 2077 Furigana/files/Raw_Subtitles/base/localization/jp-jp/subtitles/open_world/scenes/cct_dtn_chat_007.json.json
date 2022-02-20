@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_dtn_chat_007.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "どうだった？ よかっただろ？",
+                    "maleVariant": null,
+                    "stringId": 1963566167490281472
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E93BCZ^チューマ、最{さい}高{こう}だった！ あんなかわいい子{こ}たちがいるとはな！",
+                    "maleVariant": null,
+                    "stringId": 1963576588272123904
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "793BCZ^一{ひと}晩{ばん}中{じゅう}舐{な}め回{まわ}したくなったぜ",
+                    "maleVariant": null,
+                    "stringId": 1963577269292875776
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E93BCZ^はは！ ま、おさわりは厳{げん}禁{きん}だけどな",
+                    "maleVariant": null,
+                    "stringId": 1963578916144398336
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "83BCZ^あいつらの血{ち}は、きっとチョコレートみたいに甘{あま}いんだろうな！",
+                    "maleVariant": null,
+                    "stringId": 1963579191542398976
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "423BCZ^えー… ずいぶん気{き}に入{い}ったみたいだな",
+                    "maleVariant": null,
+                    "stringId": 1963579583357501440
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963566167490281472,
-            "femaleVariant": "どうだった？ よかっただろ？"
-          },
-          {
-            "stringId": 1963576588272123904,
-            "femaleVariant": "E93BCZ^チューマ、最{さい}高{こう}だった！ あんなかわいい子{こ}たちがいるとはな！"
-          },
-          {
-            "stringId": 1963577269292875776,
-            "femaleVariant": "793BCZ^一{ひと}晩{ばん}中{じゅう}舐{な}め回{まわ}したくなったぜ"
-          },
-          {
-            "stringId": 1963578916144398336,
-            "femaleVariant": "E93BCZ^はは！ ま、おさわりは厳{げん}禁{きん}だけどな"
-          },
-          {
-            "stringId": 1963579191542398976,
-            "femaleVariant": "83BCZ^あいつらの血{ち}は、きっとチョコレートみたいに甘{あま}いんだろうな！"
-          },
-          {
-            "stringId": 1963579583357501440,
-            "femaleVariant": "423BCZ^えー… ずいぶん気{き}に入{い}ったみたいだな"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_wat_nid_01_holocall_debrief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8070AZ^ハルの安{あん}全{ぜん}は確{かく}認{にん}できたけど… お世{せ}辞{じ}にもスムーズにいったとは言{い}えないわね。プロ意{い}識{しき}が足{た}りないんじゃない？",
+                    "maleVariant": null,
+                    "stringId": 2329256372747673600
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "EE70AZ^お見{み}事{ごと}ね。ハルが延々{えんえん}とあなたの話{はなし}をしてる。もう大{だい}絶{ぜっ}賛{さん}よ",
+                    "maleVariant": null,
+                    "stringId": 2329256889989242880
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AD559Z^こんなザマはこれっきりにして。頼{たの}んだわよ",
+                    "maleVariant": null,
+                    "stringId": 2339445848403185664
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5D559Z^これであなたの評{ひょう}判{ばん}も街{まち}中{なか}に広{ひろ}まるでしょうね。それじゃあまた",
+                    "maleVariant": null,
+                    "stringId": 2339447006702178304
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A470AZ^V、ハルが死{し}んだわ。自{じ}力{りき}で逃{に}げ出{だ}そうとしたけど、サイバーサイコの女{おんな}に見{み}つかった",
+                    "maleVariant": null,
+                    "stringId": 2358917713850572800
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E7559Z^あなたが置{お}き去{ざ}りにしたせいよ。このことは絶{ぜっ}対{たい}に忘{わす}れないから",
+                    "maleVariant": null,
+                    "stringId": 2362391609075929088
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2329256372747673600,
-            "femaleVariant": "8070AZ^ハルの安{あん}全{ぜん}は確{かく}認{にん}できたけど… お世{せ}辞{じ}にもスムーズにいったとは言{い}えないわね。プロ意{い}識{しき}が足{た}りないんじゃない？"
-          },
-          {
-            "stringId": 2329256889989242880,
-            "femaleVariant": "EE70AZ^お見{み}事{ごと}ね。ハルが延々{えんえん}とあなたの話{はなし}をしてる。もう大{だい}絶{ぜっ}賛{さん}よ"
-          },
-          {
-            "stringId": 2339445848403185664,
-            "femaleVariant": "AD559Z^こんなザマはこれっきりにして。頼{たの}んだわよ"
-          },
-          {
-            "stringId": 2339447006702178304,
-            "femaleVariant": "5D559Z^これであなたの評{ひょう}判{ばん}も街{まち}中{なか}に広{ひろ}まるでしょうね。それじゃあまた"
-          },
-          {
-            "stringId": 2358917713850572800,
-            "femaleVariant": "A470AZ^V、ハルが死{し}んだわ。自{じ}力{りき}で逃{に}げ出{だ}そうとしたけど、サイバーサイコの女{おんな}に見{み}つかった"
-          },
-          {
-            "stringId": 2362391609075929088,
-            "femaleVariant": "E7559Z^あなたが置{お}き去{ざ}りにしたせいよ。このことは絶{ぜっ}対{たい}に忘{わす}れないから"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,39 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_std_rcr_04_johnny.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E2406Z^1人{にん}のアホを引{ひ}きずりおろそうが、別{べつ}のアホがのし上{あ}がる。政{せい}治{じ}ってのは腐{くさ}ってんな",
+                    "maleVariant": null,
+                    "stringId": 1918462827203420160
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8729FZ^この街{まち}はもっかい核{かく}で吹{ふ}っ飛{と}ばされたほうがいい",
+                    "maleVariant": null,
+                    "stringId": 1925428901852082176
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C29FZ^まあ、ヒュドラの首{くび}を全{ぜん}部{ぶ}切{き}り落{お}とすよりは簡{かん}単{たん}かもな",
+                    "maleVariant": null,
+                    "stringId": 1925431081631870976
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AF29FZ^悪{わる}いけど、あんたのアナーキズム論{ろん}を聞{き}いてる暇{ひま}はないの",
+                    "maleVariant": "AF29FZ^悪{わる}いが、お前{まえ}のアナーキズム論{ろん}を聞{き}いてる暇{ひま}はない",
+                    "stringId": 1925432832418246656
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1918462827203420160,
-            "femaleVariant": "E2406Z^1人{にん}のアホを引{ひ}きずりおろそうが、別{べつ}のアホがのし上{あ}がる。政{せい}治{じ}ってのは腐{くさ}ってんな"
-          },
-          {
-            "stringId": 1925428901852082176,
-            "femaleVariant": "8729FZ^この街{まち}はもっかい核{かく}で吹{ふ}っ飛{と}ばされたほうがいい"
-          },
-          {
-            "stringId": 1925431081631870976,
-            "femaleVariant": "C29FZ^まあ、ヒュドラの首{くび}を全{ぜん}部{ぶ}切{き}り落{お}とすよりは簡{かん}単{たん}かもな"
-          },
-          {
-            "stringId": 1925432832418246656,
-            "femaleVariant": "AF29FZ^悪{わる}いけど、あんたのアナーキズム論{ろん}を聞{き}いてる暇{ひま}はないの",
-            "maleVariant": "AF29FZ^悪{わる}いが、お前{まえ}のアナーキズム論{ろん}を聞{き}いてる暇{ひま}はない"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

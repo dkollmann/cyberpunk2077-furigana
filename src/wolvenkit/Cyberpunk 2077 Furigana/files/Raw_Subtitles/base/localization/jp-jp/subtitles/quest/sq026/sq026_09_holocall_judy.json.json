@@ -1,43 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\sq026\\sq026_09_holocall_judy.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F2FCZ^V。マイコから連{れん}絡{らく}よ",
+                    "maleVariant": null,
+                    "stringId": 1737156903885062144
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "672FCZ^日{にち}没{ぼつ}前{まえ}に、メガタワー前{まえ}に集{しゅう}合{ごう}",
+                    "maleVariant": null,
+                    "stringId": 1737158245391253504
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "292FCZ^来{き}てくれる？",
+                    "maleVariant": null,
+                    "stringId": 1737158446214529024
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "もちろんよ",
+                    "maleVariant": "もちろんだ",
+                    "stringId": 1883902597646737408
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E42B6Z^じゃあ後{あと}で",
+                    "maleVariant": null,
+                    "stringId": 1883902840312389632
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1737156903885062144,
-            "femaleVariant": "F2FCZ^V。マイコから連{れん}絡{らく}よ"
-          },
-          {
-            "stringId": 1737158245391253504,
-            "femaleVariant": "672FCZ^日{にち}没{ぼつ}前{まえ}に、メガタワー前{まえ}に集{しゅう}合{ごう}"
-          },
-          {
-            "stringId": 1737158446214529024,
-            "femaleVariant": "292FCZ^来{き}てくれる？"
-          },
-          {
-            "stringId": 1883902597646737408,
-            "femaleVariant": "もちろんよ",
-            "maleVariant": "もちろんだ"
-          },
-          {
-            "stringId": 1883902840312389632,
-            "femaleVariant": "E42B6Z^じゃあ後{あと}で"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

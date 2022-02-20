@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_east_017.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "862B6Z^もしかして、こういう汚{きたな}いとこでヤるのが好{す}きなの？",
+                    "maleVariant": null,
+                    "stringId": 2189664249187098624
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "932B6Z^街{まち}の小綺麗{こぎれい}なマンションでも、やることは一緒{いっしょ}だろ",
+                    "maleVariant": null,
+                    "stringId": 2189665512125587456
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B42B6Z^車{くるま}の中{なか}でもよかったじゃない",
+                    "maleVariant": null,
+                    "stringId": 2189667913565954048
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7B2B6Z^ここは、元{もと}妻{つま}とのデートを思{おも}い出{だ}させるんだ。そうやっていちいち文{もん}句{く}を言{い}われるところもな",
+                    "maleVariant": null,
+                    "stringId": 2189668509610106880
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2189664249187098624,
-            "femaleVariant": "862B6Z^もしかして、こういう汚{きたな}いとこでヤるのが好{す}きなの？"
-          },
-          {
-            "stringId": 2189665512125587456,
-            "femaleVariant": "932B6Z^街{まち}の小綺麗{こぎれい}なマンションでも、やることは一緒{いっしょ}だろ"
-          },
-          {
-            "stringId": 2189667913565954048,
-            "femaleVariant": "B42B6Z^車{くるま}の中{なか}でもよかったじゃない"
-          },
-          {
-            "stringId": 2189668509610106880,
-            "femaleVariant": "7B2B6Z^ここは、元{もと}妻{つま}とのデートを思{おも}い出{だ}させるんだ。そうやっていちいち文{もん}句{く}を言{い}われるところもな"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

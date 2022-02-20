@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q001\\q001_00e_scavenger_conversation.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "20502Z^何{なん}人{にん}手{て}に入{いっ}った？",
+                    "maleVariant": null,
+                    "stringId": 1224324816753926144
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "60502Z^あとは企{き}業{ぎょう}のクソアマだが…",
+                    "maleVariant": null,
+                    "stringId": 1224327257369092096
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "28DZ^4人{にん}だ。2人{にん}はC級{きゅう}品{ひん}しか持{も}ってなかったが、ワトソンでなら売{う}れる",
+                    "maleVariant": null,
+                    "stringId": 1224353996222287872
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B028DZ^1人{にん}はクリニックでブースターを剥{む}いでる",
+                    "maleVariant": null,
+                    "stringId": 1224355326319972352
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E728DZ^丸{まる}ごと買{か}ってくれる奴{やつ}を探{さが}せ",
+                    "maleVariant": null,
+                    "stringId": 1224356847661142016
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2D28DZ^あの高{こう}級{きゅう}クロームは高{たか}く売{う}れるぞ",
+                    "maleVariant": null,
+                    "stringId": 1224358489513054208
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1224324816753926144,
-            "femaleVariant": "20502Z^何{なん}人{にん}手{て}に入{いっ}った？"
-          },
-          {
-            "stringId": 1224327257369092096,
-            "femaleVariant": "60502Z^あとは企{き}業{ぎょう}のクソアマだが…"
-          },
-          {
-            "stringId": 1224353996222287872,
-            "femaleVariant": "28DZ^4人{にん}だ。2人{にん}はC級{きゅう}品{ひん}しか持{も}ってなかったが、ワトソンでなら売{う}れる"
-          },
-          {
-            "stringId": 1224355326319972352,
-            "femaleVariant": "B028DZ^1人{にん}はクリニックでブースターを剥{む}いでる"
-          },
-          {
-            "stringId": 1224356847661142016,
-            "femaleVariant": "E728DZ^丸{まる}ごと買{か}ってくれる奴{やつ}を探{さが}せ"
-          },
-          {
-            "stringId": 1224358489513054208,
-            "femaleVariant": "2D28DZ^あの高{こう}級{きゅう}クロームは高{たか}く売{う}れるぞ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

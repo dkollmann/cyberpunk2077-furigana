@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_awf_chat_007.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6070AZ^路{ろ}上{じょう}暮{く}らしは長{なが}いのか？",
+                    "maleVariant": null,
+                    "stringId": 1963250224297189376
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2344DZ^そうだな… もうじき7年{ねん}目{め}になる",
+                    "maleVariant": null,
+                    "stringId": 1967844386578681856
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A244DZ^俺{おれ}はまだ1年{ねん}もたってない。秋{あき}にうちの部{ぶ}署{しょ}が縮{しゅく}小{しょう}されて、家{や}賃{ちん}が払{はら}えなくなってな…",
+                    "maleVariant": null,
+                    "stringId": 1967844547623178240
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2344DZ^過{か}去{こ}の事{こと}は忘{わす}れた方{ほう}がいい。何{なん}の得{え}にもならねえ。先{さき}に進{すす}まないと",
+                    "maleVariant": null,
+                    "stringId": 1967848075955589120
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963250224297189376,
-            "femaleVariant": "6070AZ^路{ろ}上{じょう}暮{く}らしは長{なが}いのか？"
-          },
-          {
-            "stringId": 1967844386578681856,
-            "femaleVariant": "2344DZ^そうだな… もうじき7年{ねん}目{め}になる"
-          },
-          {
-            "stringId": 1967844547623178240,
-            "femaleVariant": "A244DZ^俺{おれ}はまだ1年{ねん}もたってない。秋{あき}にうちの部{ぶ}署{しょ}が縮{しゅく}小{しょう}されて、家{や}賃{ちん}が払{はら}えなくなってな…"
-          },
-          {
-            "stringId": 1967848075955589120,
-            "femaleVariant": "2344DZ^過{か}去{こ}の事{こと}は忘{わす}れた方{ほう}がいい。何{なん}の得{え}にもならねえ。先{さき}に進{すす}まないと"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

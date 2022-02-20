@@ -1,30 +1,46 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_wbr_hil_07_holocall_prebrief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "770AZ^V、仕{し}事{ごと}やで。タイガークロウズのカジノに行{い}って、あるもんを回{かい}収{しゅう}してきてほしいねん。あんたの腕{うで}前{まえ}なら朝{あさ}飯{めし}前{まえ}やろ",
+                    "maleVariant": null,
+                    "stringId": 2329281942952910848
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "55559Z^詳{しょう}細{さい}は添付{てんぷ}してある。よう読{よ}んどきや",
+                    "maleVariant": null,
+                    "stringId": 2342946507266035712
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2329281942952910848,
-            "femaleVariant": "770AZ^V、仕{し}事{ごと}やで。タイガークロウズのカジノに行{い}って、あるもんを回{かい}収{しゅう}してきてほしいねん。あんたの腕{うで}前{まえ}なら朝{あさ}飯{めし}前{まえ}やろ"
-          },
-          {
-            "stringId": 2342946507266035712,
-            "femaleVariant": "55559Z^詳{しょう}細{さい}は添付{てんぷ}してある。よう読{よ}んどきや"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,49 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\wbr_jpn_junk_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8464Z^何{なに}か面{おも}白{しろ}いものは？",
+                    "maleVariant": null,
+                    "stringId": 1885089914044170240
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9464008^一{いち}番{ばん}売{う}れてる商{しょう}品{ひん}は何{なに}？",
+                    "maleVariant": "9464008^一{いち}番{ばん}売{う}れてる商{しょう}品{ひん}は何{なん}だ？",
+                    "stringId": 1885089914060947464
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F464004^どんなものを売{う}ってるの？",
+                    "maleVariant": "F464004^どんなものを売{う}ってるんだ？",
+                    "stringId": 1885089914161610756
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "10464Z^人{にん}の欲{よく}望{ぼう}を満{み}たすものなら何{なん}でもさ",
+                    "maleVariant": null,
+                    "stringId": 1885089914178387968
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "16464Z^一{いち}番{ばん}売{う}れてる商{しょう}品{ひん}は何{なに}？",
+                    "maleVariant": "16464Z^一{いち}番{ばん}売{う}れてる商{しょう}品{ひん}は何{なん}だ？",
+                    "stringId": 1885089914279051264
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "16464008^マッサージ器{うつわ}だ。モーターの振{しん}動{どう}で肩{かた}こり以{い}外{がい}にも大{だい}活{かつ}躍{やく}。BDなんかよりよっぽど確{かく}実{じつ}だよ",
+                    "maleVariant": null,
+                    "stringId": 1885089914279051272
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1885089914044170240,
-            "femaleVariant": "8464Z^何{なに}か面{おも}白{しろ}いものは？"
-          },
-          {
-            "stringId": 1885089914060947464,
-            "femaleVariant": "9464008^一{いち}番{ばん}売{う}れてる商{しょう}品{ひん}は何{なに}？",
-            "maleVariant": "9464008^一{いち}番{ばん}売{う}れてる商{しょう}品{ひん}は何{なん}だ？"
-          },
-          {
-            "stringId": 1885089914161610756,
-            "femaleVariant": "F464004^どんなものを売{う}ってるの？",
-            "maleVariant": "F464004^どんなものを売{う}ってるんだ？"
-          },
-          {
-            "stringId": 1885089914178387968,
-            "femaleVariant": "10464Z^人{にん}の欲{よく}望{ぼう}を満{み}たすものなら何{なん}でもさ"
-          },
-          {
-            "stringId": 1885089914279051264,
-            "femaleVariant": "16464Z^一{いち}番{ばん}売{う}れてる商{しょう}品{ひん}は何{なに}？",
-            "maleVariant": "16464Z^一{いち}番{ばん}売{う}れてる商{しょう}品{ひん}は何{なん}だ？"
-          },
-          {
-            "stringId": 1885089914279051272,
-            "femaleVariant": "16464008^マッサージ器{うつわ}だ。モーターの振{しん}動{どう}で肩{かた}こり以{い}外{がい}にも大{だい}活{かつ}躍{やく}。BDなんかよりよっぽど確{かく}実{じつ}だよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,38 +1,62 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_rcr_chat_028.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "185C5Z^解{かい}せない。いくら考{かんが}えてもさっぱりわからん",
+                    "maleVariant": null,
+                    "stringId": 2167915868692697088
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F844DZ^何{なに}がだ？",
+                    "maleVariant": null,
+                    "stringId": 2182248835446001664
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D144DZ^ゴミ捨{す}て場{ば}にあった食{た}べ物{もの}のことさ。まだ食{く}えるのに！ 捨{す}てるなら、最{さい}初{しょ}からくれればいい",
+                    "maleVariant": null,
+                    "stringId": 2182248903511166976
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C144DZ^単{たん}純{じゅん}な話{はなし}だ。俺{おれ}たちのことなんか考{かんが}えたくもないんだよ",
+                    "maleVariant": null,
+                    "stringId": 2182249951214751744
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2167915868692697088,
-            "femaleVariant": "185C5Z^解{かい}せない。いくら考{かんが}えてもさっぱりわからん"
-          },
-          {
-            "stringId": 2182248835446001664,
-            "femaleVariant": "F844DZ^何{なに}がだ？"
-          },
-          {
-            "stringId": 2182248903511166976,
-            "femaleVariant": "D144DZ^ゴミ捨{す}て場{ば}にあった食{た}べ物{もの}のことさ。まだ食{く}えるのに！ 捨{す}てるなら、最{さい}初{しょ}からくれればいい"
-          },
-          {
-            "stringId": 2182249951214751744,
-            "femaleVariant": "C144DZ^単{たん}純{じゅん}な話{はなし}だ。俺{おれ}たちのことなんか考{かんが}えたくもないんだよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

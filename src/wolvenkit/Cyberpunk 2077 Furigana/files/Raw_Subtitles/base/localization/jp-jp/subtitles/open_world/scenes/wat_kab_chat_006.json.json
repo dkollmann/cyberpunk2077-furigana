@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_kab_chat_006.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B169EZ^装{そう}備{び}はちゃんと揃{そろ}えられるのか？",
+                    "maleVariant": null,
+                    "stringId": 1802486374245982208
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A169EZ^おいおい、チューマ。そいつはどういう意{い}味{み}だ？",
+                    "maleVariant": null,
+                    "stringId": 1802486889373622272
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A269EZ^念{ねん}のためだ。最{さい}近{きん}サプライズが多{おお}くてな",
+                    "maleVariant": null,
+                    "stringId": 1802487129908568064
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3369EZ^まだ根{ね}に持{も}ってるのか？ あの女{おんな}の親父{おやじ}がクロウズと関{かか}わってるなんて、わかりっこなかったんだ",
+                    "maleVariant": null,
+                    "stringId": 1802487355679563776
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AC69EZ^次{つぎ}なんかあったら承{しょう}知{ち}しないからな。頼{たの}むぜ、たまにはプロらしくやれ",
+                    "maleVariant": null,
+                    "stringId": 1802487520918364160
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1802486374245982208,
-            "femaleVariant": "B169EZ^装{そう}備{び}はちゃんと揃{そろ}えられるのか？"
-          },
-          {
-            "stringId": 1802486889373622272,
-            "femaleVariant": "A169EZ^おいおい、チューマ。そいつはどういう意{い}味{み}だ？"
-          },
-          {
-            "stringId": 1802487129908568064,
-            "femaleVariant": "A269EZ^念{ねん}のためだ。最{さい}近{きん}サプライズが多{おお}くてな"
-          },
-          {
-            "stringId": 1802487355679563776,
-            "femaleVariant": "3369EZ^まだ根{ね}に持{も}ってるのか？ あの女{おんな}の親父{おやじ}がクロウズと関{かか}わってるなんて、わかりっこなかったんだ"
-          },
-          {
-            "stringId": 1802487520918364160,
-            "femaleVariant": "AC69EZ^次{つぎ}なんかあったら承{しょう}知{ち}しないからな。頼{たの}むぜ、たまにはプロらしくやれ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

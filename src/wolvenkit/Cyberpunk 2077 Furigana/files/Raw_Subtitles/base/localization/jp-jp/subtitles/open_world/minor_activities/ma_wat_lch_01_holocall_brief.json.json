@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\minor_activities\\ma_wat_lch_01_holocall_brief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B647Z^NCPD業{ぎょう}務{む}委{い}託{たく}者{もの}に通{つう}達{たつ}。ゴールドスミス通{とう}りで組{そ}織{しき}犯{はん}罪{ざい}活{かつ}動{どう}の報{ほう}告{こく}あり",
+                    "maleVariant": null,
+                    "stringId": 2328914113430056960
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "78559Z^現{げん}場{ば}で複{ふく}数{すう}のスカベンジャーを確{かく}認{にん}。率{ひき}いているのはバリー・アルケン。第一級{だいいっきゅう}殺{さつ}人{じん}およびサイバーウェアの違{い}法{ほう}売{ばい}買{ばい}容{よう}疑{ぎ}で指{し}名{めい}手{て}配{はい}中{なか}",
+                    "maleVariant": null,
+                    "stringId": 2350702003314069504
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D0559Z^アルケン一{ひと}味{あじ}を無{む}力{りょく}化{か}した者{もの}には、ナイトシティから報{ほう}酬{しゅう}が支{し}払{はら}われる",
+                    "maleVariant": null,
+                    "stringId": 2350702150819352576
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328914113430056960,
-            "femaleVariant": "B647Z^NCPD業{ぎょう}務{む}委{い}託{たく}者{もの}に通{つう}達{たつ}。ゴールドスミス通{とう}りで組{そ}織{しき}犯{はん}罪{ざい}活{かつ}動{どう}の報{ほう}告{こく}あり"
-          },
-          {
-            "stringId": 2350702003314069504,
-            "femaleVariant": "78559Z^現{げん}場{ば}で複{ふく}数{すう}のスカベンジャーを確{かく}認{にん}。率{ひき}いているのはバリー・アルケン。第一級{だいいっきゅう}殺{さつ}人{じん}およびサイバーウェアの違{い}法{ほう}売{ばい}買{ばい}容{よう}疑{ぎ}で指{し}名{めい}手{て}配{はい}中{なか}"
-          },
-          {
-            "stringId": 2350702150819352576,
-            "femaleVariant": "D0559Z^アルケン一{ひと}味{あじ}を無{む}力{りょく}化{か}した者{もの}には、ナイトシティから報{ほう}酬{しゅう}が支{し}払{はら}われる"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

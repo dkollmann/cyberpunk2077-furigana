@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_std_arr_11_holocall_prebiref.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5C69EZ^よう、V。一{いち}流{りゅう}の傭{よう}兵{へい}を必{ひつ}要{よう}とする一{いち}流{りゅう}の依{い}頼{らい}が舞{ま}い込{こ}んだぞ",
+                    "maleVariant": null,
+                    "stringId": 2328805864433639424
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "44559Z^シックス・ストリートの縄{なわ}張{ば}りに乗{の}り込{こ}んで、連{れん}中{ちゅう}のテックにウイルスを仕{し}込{こ}んでくれ。頼{たよ}りにしてるぜ",
+                    "maleVariant": null,
+                    "stringId": 2341735102865051648
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1C559Z^ああ、それと… ルシアス・ソランってテッキーがいてな。ついでにそいつの頭{あたま}に銃{じゅう}弾{だん}をぶち込{こ}んでくれると助{たす}かる。詳{しょう}細{さい}は添付{てんぷ}してある",
+                    "maleVariant": null,
+                    "stringId": 2341852475060228096
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328805864433639424,
-            "femaleVariant": "5C69EZ^よう、V。一{いち}流{りゅう}の傭{よう}兵{へい}を必{ひつ}要{よう}とする一{いち}流{りゅう}の依{い}頼{らい}が舞{ま}い込{こ}んだぞ"
-          },
-          {
-            "stringId": 2341735102865051648,
-            "femaleVariant": "44559Z^シックス・ストリートの縄{なわ}張{ば}りに乗{の}り込{こ}んで、連{れん}中{ちゅう}のテックにウイルスを仕{し}込{こ}んでくれ。頼{たよ}りにしてるぜ"
-          },
-          {
-            "stringId": 2341852475060228096,
-            "femaleVariant": "1C559Z^ああ、それと… ルシアス・ソランってテッキーがいてな。ついでにそいつの頭{あたま}に銃{じゅう}弾{だん}をぶち込{こ}んでくれると助{たす}かる。詳{しょう}細{さい}は添付{てんぷ}してある"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

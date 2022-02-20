@@ -1,42 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_042.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "24647Z^ガラクタじゃねえ、こいつは一級品{いっきゅうひん}だ！ レンジも抜{ばつ}群{ぐん}で干{かん}渉{しょう}もない…",
+                    "maleVariant": null,
+                    "stringId": 2157391700075769856
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E494Z^レンジも“抜{ばつ}群{ぐん}”だ？ 冗{じょう}談{だん}のつもりか？",
+                    "maleVariant": null,
+                    "stringId": 2182595521280557056
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7F494Z^もう3回{かい}も通{つう}信{しん}が切{き}れてる！ 3回{かい}だぞ！？",
+                    "maleVariant": null,
+                    "stringId": 2182599191078453248
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F6494Z^使{つか}い物{もの}にならないんだよ",
+                    "maleVariant": null,
+                    "stringId": 2182601482292510720
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6E494Z^とにかく金{きん}を返{かえ}せ",
+                    "maleVariant": null,
+                    "stringId": 2182601750593748992
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2157391700075769856,
-            "femaleVariant": "24647Z^ガラクタじゃねえ、こいつは一級品{いっきゅうひん}だ！ レンジも抜{ばつ}群{ぐん}で干{かん}渉{しょう}もない…"
-          },
-          {
-            "stringId": 2182595521280557056,
-            "femaleVariant": "E494Z^レンジも“抜{ばつ}群{ぐん}”だ？ 冗{じょう}談{だん}のつもりか？"
-          },
-          {
-            "stringId": 2182599191078453248,
-            "femaleVariant": "7F494Z^もう3回{かい}も通{つう}信{しん}が切{き}れてる！ 3回{かい}だぞ！？"
-          },
-          {
-            "stringId": 2182601482292510720,
-            "femaleVariant": "F6494Z^使{つか}い物{もの}にならないんだよ"
-          },
-          {
-            "stringId": 2182601750593748992,
-            "femaleVariant": "6E494Z^とにかく金{きん}を返{かえ}せ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,43 +1,70 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\mq029\\mq029_01a_garage.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5D49DZ^悪{わる}くない。似{に}たようなのを持{も}ってた。ノーマッド仕{し}様{よう}じゃなかったけどな",
+                    "maleVariant": null,
+                    "stringId": 1821466168323067904
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2749DZ^別{べつ}に巨{きょ}乳{にゅう}専{せん}門{もん}じゃない。あと、ブルネットだ",
+                    "maleVariant": null,
+                    "stringId": 1821466807367225344
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "へぇ…",
+                    "maleVariant": null,
+                    "stringId": 1831628381640077316
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4644DZ^どうせ横{よこ}に巨{きょ}乳{にゅう}のブロンド美{び}女{じょ}の絵{え}でも入{い}れてたんでしょ",
+                    "maleVariant": "4644DZ^どうせ横{よこ}に巨{きょ}乳{にゅう}のブロンド美{び}女{じょ}の絵{え}でも入{い}れてたんだろ",
+                    "stringId": 1922946147673231360
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8F44DZ^ふむ… これは直{なお}せそうにないな。このままスクラップ送{おく}りだ",
+                    "maleVariant": null,
+                    "stringId": 1922946801732997120
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1821466168323067904,
-            "femaleVariant": "5D49DZ^悪{わる}くない。似{に}たようなのを持{も}ってた。ノーマッド仕{し}様{よう}じゃなかったけどな"
-          },
-          {
-            "stringId": 1821466807367225344,
-            "femaleVariant": "2749DZ^別{べつ}に巨{きょ}乳{にゅう}専{せん}門{もん}じゃない。あと、ブルネットだ"
-          },
-          {
-            "stringId": 1831628381640077316,
-            "femaleVariant": "へぇ…"
-          },
-          {
-            "stringId": 1922946147673231360,
-            "femaleVariant": "4644DZ^どうせ横{よこ}に巨{きょ}乳{にゅう}のブロンド美{び}女{じょ}の絵{え}でも入{い}れてたんでしょ",
-            "maleVariant": "4644DZ^どうせ横{よこ}に巨{きょ}乳{にゅう}のブロンド美{び}女{じょ}の絵{え}でも入{い}れてたんだろ"
-          },
-          {
-            "stringId": 1922946801732997120,
-            "femaleVariant": "8F44DZ^ふむ… これは直{なお}せそうにないな。このままスクラップ送{おく}りだ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

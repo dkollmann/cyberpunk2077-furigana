@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_new_tcl_03.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "EF52A010^クソ、何{なに}か新{あたら}しい趣{しゅ}味{み}が必{ひつ}要{よう}だ。気{き}が紛{まぎ}れるなら何{なん}でもいい",
+                    "maleVariant": null,
+                    "stringId": 2276539121383153680
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "EF52A01C^なんかモンスターを集{あつ}めるヤツやってただろ。あれじゃダメなのか？",
+                    "maleVariant": null,
+                    "stringId": 2276539121383153692
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "EF52A028^こないだ3匹{ひき}を見{み}つけて、捕{つか}まえにいこうと思{おも}ったらメイルストロームのシマだったんだ。趣{しゅ}味{み}のために命{いのち}を失{うしな}うつもりはねえよ",
+                    "maleVariant": null,
+                    "stringId": 2276539121383153704
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2276539121383153680,
-            "femaleVariant": "EF52A010^クソ、何{なに}か新{あたら}しい趣{しゅ}味{み}が必{ひつ}要{よう}だ。気{き}が紛{まぎ}れるなら何{なん}でもいい"
-          },
-          {
-            "stringId": 2276539121383153692,
-            "femaleVariant": "EF52A01C^なんかモンスターを集{あつ}めるヤツやってただろ。あれじゃダメなのか？"
-          },
-          {
-            "stringId": 2276539121383153704,
-            "femaleVariant": "EF52A028^こないだ3匹{ひき}を見{み}つけて、捕{つか}まえにいこうと思{おも}ったらメイルストロームのシマだったんだ。趣{しゅ}味{み}のために命{いのち}を失{うしな}うつもりはねえよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

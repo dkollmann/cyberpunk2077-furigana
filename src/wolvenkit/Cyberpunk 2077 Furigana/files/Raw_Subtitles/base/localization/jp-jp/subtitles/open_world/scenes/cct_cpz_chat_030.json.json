@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_cpz_chat_030.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4C69EZ^ダウンタウンを離{はな}れたくはないな",
+                    "maleVariant": null,
+                    "stringId": 2172128205986193408
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6F559Z^まあな。何{なに}もかもがそろってる、最{さい}高{こう}の場{ば}所{しょ}だ",
+                    "maleVariant": null,
+                    "stringId": 2208291788254711808
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4F559Z^ああ。フェンスで囲{かこ}って、ハッスルを雇{やと}って、俺{おれ}たちを追{お}い払{はら}うのさ",
+                    "maleVariant": null,
+                    "stringId": 2208291813487644672
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5F559Z^でも、どうにもできねえよな。ここに建{た}てるって決{き}まっちまったんだから",
+                    "maleVariant": null,
+                    "stringId": 2208307675070304256
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "しょうがない",
+                    "maleVariant": null,
+                    "stringId": 2208312579922956288
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ああ… しょうがない",
+                    "maleVariant": null,
+                    "stringId": 2208314518580596736
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2172128205986193408,
-            "femaleVariant": "4C69EZ^ダウンタウンを離{はな}れたくはないな"
-          },
-          {
-            "stringId": 2208291788254711808,
-            "femaleVariant": "6F559Z^まあな。何{なに}もかもがそろってる、最{さい}高{こう}の場{ば}所{しょ}だ"
-          },
-          {
-            "stringId": 2208291813487644672,
-            "femaleVariant": "4F559Z^ああ。フェンスで囲{かこ}って、ハッスルを雇{やと}って、俺{おれ}たちを追{お}い払{はら}うのさ"
-          },
-          {
-            "stringId": 2208307675070304256,
-            "femaleVariant": "5F559Z^でも、どうにもできねえよな。ここに建{た}てるって決{き}まっちまったんだから"
-          },
-          {
-            "stringId": 2208312579922956288,
-            "femaleVariant": "しょうがない"
-          },
-          {
-            "stringId": 2208314518580596736,
-            "femaleVariant": "ああ… しょうがない"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

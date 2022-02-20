@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_cvi_chat_003.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Eske tout bagay sou kontwò?\" t=\"1170AZ^全{すべ}て問{もん}題{だい}ないか？\" b=\"\" a=\"\" />",
+                    "maleVariant": null,
+                    "stringId": 1963267312646660096
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Mwen fè ekzateman sa ou te mande mwen– mwen pa fout konnen pou kisa.\" t=\"32C5Z^理{り}由{ゆう}はさっぱりわからないが、言{い}われたとおりにした\" b=\"\" a=\"\" />",
+                    "maleVariant": null,
+                    "stringId": 1965034669974769664
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Si yon zen pete, se sèl kote nap soti.\" t=\"812C5Z^万{まん}一{いち}の時{とき}に、唯{ゆい}一{いつ}の逃{に}げ道{みち}になるんだ\" b=\"\" a=\"\" />",
+                    "maleVariant": null,
+                    "stringId": 1965035170304905216
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963267312646660096,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Eske tout bagay sou kontwò?\" t=\"1170AZ^全{すべ}て問{もん}題{だい}ないか？\" b=\"\" a=\"\" />"
-          },
-          {
-            "stringId": 1965034669974769664,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Mwen fè ekzateman sa ou te mande mwen– mwen pa fout konnen pou kisa.\" t=\"32C5Z^理{り}由{ゆう}はさっぱりわからないが、言{い}われたとおりにした\" b=\"\" a=\"\" />"
-          },
-          {
-            "stringId": 1965035170304905216,
-            "femaleVariant": "<kiroshi l=\"creo\" o=\"Si yon zen pete, se sèl kote nap soti.\" t=\"812C5Z^万{まん}一{いち}の時{とき}に、唯{ゆい}一{いつ}の逃{に}げ道{みち}になるんだ\" b=\"\" a=\"\" />"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

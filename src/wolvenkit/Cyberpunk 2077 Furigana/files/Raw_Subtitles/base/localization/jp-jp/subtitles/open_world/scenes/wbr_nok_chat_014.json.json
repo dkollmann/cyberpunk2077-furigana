@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_nok_chat_014.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D047AZ^男{おとこ}も、女{おんな}も、幼子{おさなご}も、自{じ}分{ぶん}自{じ}身{しん}から逃{に}げることはできない",
+                    "maleVariant": null,
+                    "stringId": 2159345535122120704
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8C42FZ^肉{にく}ありしところに金{きん}属{ぞく}を宿{やど}すもよし。もはや肉{にく}なる身{み}でないふりをするもよし",
+                    "maleVariant": null,
+                    "stringId": 2196916705295527936
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2D42FZ^しかし、否{ひ}。いかなるクロームも魂{たましい}の代{か}わりにはならない！",
+                    "maleVariant": null,
+                    "stringId": 2196917335061884928
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7C42FZ^金{きん}属{ぞく}は錆{さ}び… 肉{にく}は朽{く}ちる。その間{かん}、魂{たましい}は切々{せつせつ}と、そして悲{ひ}壮{そう}にも呼{よ}びかける――「心{こころ}するがいい！ おののくがいい！」と",
+                    "maleVariant": null,
+                    "stringId": 2196917606970224640
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E42FZ^私{わたし}は汝{なんじ}らに告{つ}げよう。この街{まち}は錆{さび}にひたり、退{たい}廃{はい}に溺{おぼ}れている",
+                    "maleVariant": null,
+                    "stringId": 2196918519952764928
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6E42FZ^心{こころ}するがいい！ おののくがいい！",
+                    "maleVariant": null,
+                    "stringId": 2196920029096898560
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2159345535122120704,
-            "femaleVariant": "D047AZ^男{おとこ}も、女{おんな}も、幼子{おさなご}も、自{じ}分{ぶん}自{じ}身{しん}から逃{に}げることはできない"
-          },
-          {
-            "stringId": 2196916705295527936,
-            "femaleVariant": "8C42FZ^肉{にく}ありしところに金{きん}属{ぞく}を宿{やど}すもよし。もはや肉{にく}なる身{み}でないふりをするもよし"
-          },
-          {
-            "stringId": 2196917335061884928,
-            "femaleVariant": "2D42FZ^しかし、否{ひ}。いかなるクロームも魂{たましい}の代{か}わりにはならない！"
-          },
-          {
-            "stringId": 2196917606970224640,
-            "femaleVariant": "7C42FZ^金{きん}属{ぞく}は錆{さ}び… 肉{にく}は朽{く}ちる。その間{かん}、魂{たましい}は切々{せつせつ}と、そして悲{ひ}壮{そう}にも呼{よ}びかける――「心{こころ}するがいい！ おののくがいい！」と"
-          },
-          {
-            "stringId": 2196918519952764928,
-            "femaleVariant": "E42FZ^私{わたし}は汝{なんじ}らに告{つ}げよう。この街{まち}は錆{さび}にひたり、退{たい}廃{はい}に溺{おぼ}れている"
-          },
-          {
-            "stringId": 2196920029096898560,
-            "femaleVariant": "6E42FZ^心{こころ}するがいい！ おののくがいい！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\animated_billboards\\ab_ad_chromanticore.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7F4EAZ^疲{つか}れてる？ だるい？ 力{ちから}が出{で}ない？",
+                    "maleVariant": null,
+                    "stringId": 1985311448885010432
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2744DZ^私{わたし}に任{まか}せて。クロマンティコアに新{しん}フレーバーがなんと、全{ぜん}16種{しゅ}類{るい}も登{とう}場{じょう}…",
+                    "maleVariant": null,
+                    "stringId": 1993584194370195456
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9044DZ^激{はげ}しくいこ！",
+                    "maleVariant": null,
+                    "stringId": 1993584625628532736
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1985311448885010432,
-            "femaleVariant": "7F4EAZ^疲{つか}れてる？ だるい？ 力{ちから}が出{で}ない？"
-          },
-          {
-            "stringId": 1993584194370195456,
-            "femaleVariant": "2744DZ^私{わたし}に任{まか}せて。クロマンティコアに新{しん}フレーバーがなんと、全{ぜん}16種{しゅ}類{るい}も登{とう}場{じょう}…"
-          },
-          {
-            "stringId": 1993584625628532736,
-            "femaleVariant": "9044DZ^激{はげ}しくいこ！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

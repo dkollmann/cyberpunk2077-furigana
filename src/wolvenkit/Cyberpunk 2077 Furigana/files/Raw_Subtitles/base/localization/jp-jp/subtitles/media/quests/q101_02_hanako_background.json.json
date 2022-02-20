@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\quests\\q101_02_hanako_background.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F13BCZ^ハナコ様{さま}、お会{あ}いできて光{こう}栄{えい}です",
+                    "maleVariant": null,
+                    "stringId": 1793918409482420224
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "こちらこそ",
+                    "maleVariant": null,
+                    "stringId": 1793928749012205568
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E53BCZ^では、ハナコ様{さま}、まずお伺{うかが}いしたいのは――",
+                    "maleVariant": null,
+                    "stringId": 1793930495319064576
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1793918409482420224,
-            "femaleVariant": "F13BCZ^ハナコ様{さま}、お会{あ}いできて光{こう}栄{えい}です"
-          },
-          {
-            "stringId": 1793928749012205568,
-            "femaleVariant": "こちらこそ"
-          },
-          {
-            "stringId": 1793930495319064576,
-            "femaleVariant": "E53BCZ^では、ハナコ様{さま}、まずお伺{うかが}いしたいのは――"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

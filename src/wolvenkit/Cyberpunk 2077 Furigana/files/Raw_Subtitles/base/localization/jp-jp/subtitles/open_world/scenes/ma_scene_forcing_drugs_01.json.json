@@ -1,30 +1,46 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\ma_scene_forcing_drugs_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "CC720Z^いいからブツを売{う}れ。できないなら他{ほか}の方{ほう}法{ほう}で稼{かせ}いでもらう。いいな？",
+                    "maleVariant": null,
+                    "stringId": 2006899497702129664
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "73720Z^今日中{きょうじゅう}に全{ぜん}部{ぶ}捌{さば}かないと、今{こん}夜{や}は野宿{のじゅく}だぞ！ わかったか、この能{のう}無{な}しが！",
+                    "maleVariant": null,
+                    "stringId": 2006899564928434176
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2006899497702129664,
-            "femaleVariant": "CC720Z^いいからブツを売{う}れ。できないなら他{ほか}の方{ほう}法{ほう}で稼{かせ}いでもらう。いいな？"
-          },
-          {
-            "stringId": 2006899564928434176,
-            "femaleVariant": "73720Z^今日中{きょうじゅう}に全{ぜん}部{ぶ}捌{さば}かないと、今{こん}夜{や}は野宿{のじゅく}だぞ！ わかったか、この能{のう}無{な}しが！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

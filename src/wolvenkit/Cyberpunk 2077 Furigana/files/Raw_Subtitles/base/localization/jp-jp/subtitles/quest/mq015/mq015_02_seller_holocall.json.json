@@ -1,56 +1,94 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\mq015\\mq015_02_seller_holocall.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そのとおり",
+                    "maleVariant": "そのとおりだ",
+                    "stringId": 1815753681951170560
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "そんなとこ",
+                    "maleVariant": "そんなとこだ",
+                    "stringId": 1815753681967947780
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "804EA004^ねえ、本{ほん}を探{さが}してるの？",
+                    "maleVariant": null,
+                    "stringId": 1815753682018279428
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "14EAZ^まず、値引{ねび}きはなし。受{う}け渡{わた}し時{とき}に一括{いっかつ}払{はら}いね",
+                    "maleVariant": null,
+                    "stringId": 1815763652801634304
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4F44DZ^またあとで連{れん}絡{らく}する",
+                    "maleVariant": null,
+                    "stringId": 1842959193754357760
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1E44DZ^また連{れん}絡{らく}する",
+                    "maleVariant": null,
+                    "stringId": 1842959381910835200
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1644DZ^話{はなし}が早{はや}い。住{じゅう}所{しょ}を送{おく}った。そこに1人{にん}で来{こ}なさい",
+                    "maleVariant": null,
+                    "stringId": 1842960760461119488
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "わかった、それでいい",
+                    "maleVariant": null,
+                    "stringId": 1842961087566499840
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1815753681951170560,
-            "femaleVariant": "そのとおり",
-            "maleVariant": "そのとおりだ"
-          },
-          {
-            "stringId": 1815753681967947780,
-            "femaleVariant": "そんなとこ",
-            "maleVariant": "そんなとこだ"
-          },
-          {
-            "stringId": 1815753682018279428,
-            "femaleVariant": "804EA004^ねえ、本{ほん}を探{さが}してるの？"
-          },
-          {
-            "stringId": 1815763652801634304,
-            "femaleVariant": "14EAZ^まず、値引{ねび}きはなし。受{う}け渡{わた}し時{とき}に一括{いっかつ}払{はら}いね"
-          },
-          {
-            "stringId": 1842959193754357760,
-            "femaleVariant": "4F44DZ^またあとで連{れん}絡{らく}する"
-          },
-          {
-            "stringId": 1842959381910835200,
-            "femaleVariant": "1E44DZ^また連{れん}絡{らく}する"
-          },
-          {
-            "stringId": 1842960760461119488,
-            "femaleVariant": "1644DZ^話{はなし}が早{はや}い。住{じゅう}所{しょ}を送{おく}った。そこに1人{にん}で来{こ}なさい"
-          },
-          {
-            "stringId": 1842961087566499840,
-            "femaleVariant": "わかった、それでいい"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

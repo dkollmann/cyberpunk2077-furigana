@@ -1,52 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\wbr_jpn_medic_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E7464Z^医{い}者{しゃ}を探{さが}してる",
+                    "maleVariant": null,
+                    "stringId": 1885160209220255744
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E7464010^“強{つよ}い”薬{くすり}は置{お}いてない？",
+                    "maleVariant": "E7464010^“強{つよ}い”薬{くすり}は置{お}いてないか？",
+                    "stringId": 1885160209220255760
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "EA464004^医{い}者{しゃ}を探{さが}してる",
+                    "maleVariant": null,
+                    "stringId": 1885160209270587396
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "EA46400C^どんなご用{よう}かな？",
+                    "maleVariant": null,
+                    "stringId": 1885160209270587404
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "EF464004^カウンターの下{した}に“サプリメント”を隠{かく}してたりはしない？",
+                    "maleVariant": "EF464004^カウンターの下{した}に“サプリメント”を隠{かく}してたりはしないか？",
+                    "stringId": 1885160209354473476
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F0464Z^ビタミンCを探{さが}してるわけじゃないんだろう？ ふむ… いかにも、ご所{しょ}望{もう}のものなら在{ざい}庫{こ}はある",
+                    "maleVariant": null,
+                    "stringId": 1885160209371250688
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2744DZ^青{あお}い服{ふく}の連{れん}中{ちゅう}に訊{き}かれても口{くち}は割{わ}るなよ",
+                    "maleVariant": null,
+                    "stringId": 1979441176302112768
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1885160209220255744,
-            "femaleVariant": "E7464Z^医{い}者{しゃ}を探{さが}してる"
-          },
-          {
-            "stringId": 1885160209220255760,
-            "femaleVariant": "E7464010^“強{つよ}い”薬{くすり}は置{お}いてない？",
-            "maleVariant": "E7464010^“強{つよ}い”薬{くすり}は置{お}いてないか？"
-          },
-          {
-            "stringId": 1885160209270587396,
-            "femaleVariant": "EA464004^医{い}者{しゃ}を探{さが}してる"
-          },
-          {
-            "stringId": 1885160209270587404,
-            "femaleVariant": "EA46400C^どんなご用{よう}かな？"
-          },
-          {
-            "stringId": 1885160209354473476,
-            "femaleVariant": "EF464004^カウンターの下{した}に“サプリメント”を隠{かく}してたりはしない？",
-            "maleVariant": "EF464004^カウンターの下{した}に“サプリメント”を隠{かく}してたりはしないか？"
-          },
-          {
-            "stringId": 1885160209371250688,
-            "femaleVariant": "F0464Z^ビタミンCを探{さが}してるわけじゃないんだろう？ ふむ… いかにも、ご所{しょ}望{もう}のものなら在{ざい}庫{こ}はある"
-          },
-          {
-            "stringId": 1979441176302112768,
-            "femaleVariant": "2744DZ^青{あお}い服{ふく}の連{れん}中{ちゅう}に訊{き}かれても口{くち}は割{わ}るなよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

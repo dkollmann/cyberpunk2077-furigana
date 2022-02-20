@@ -1,50 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\wbr_hil_foodshop_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "メニューはある？",
+                    "maleVariant": "メニューはあるか？",
+                    "stringId": 1764923827777089536
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7046BZ^いい店{みせ}ね",
+                    "maleVariant": "7046BZ^いい店{みせ}だな",
+                    "stringId": 1764924182615207936
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1346BZ^いい店{みせ}ね。シックで趣{おもむき}がある",
+                    "maleVariant": "1346BZ^いい店{みせ}だな。シックで趣{おもむき}がある",
+                    "stringId": 1764924610551656448
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9E46BZ^マナーがあり、きちんとお支{し}払{はら}いになる、良{よ}いお客{きゃく}様{さま}をお迎{むか}えするための店{みせ}ですから。ワトソンの野{や}蛮{ばん}人{じん}向{む}けではございません",
+                    "maleVariant": null,
+                    "stringId": 1764924913531400192
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "メニューをもらえる？",
+                    "maleVariant": "メニューをもらえるか？",
+                    "stringId": 1764925173796352000
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "はい、ただいま",
+                    "maleVariant": null,
+                    "stringId": 1764925400087441408
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1764923827777089536,
-            "femaleVariant": "メニューはある？",
-            "maleVariant": "メニューはあるか？"
-          },
-          {
-            "stringId": 1764924182615207936,
-            "femaleVariant": "7046BZ^いい店{みせ}ね",
-            "maleVariant": "7046BZ^いい店{みせ}だな"
-          },
-          {
-            "stringId": 1764924610551656448,
-            "femaleVariant": "1346BZ^いい店{みせ}ね。シックで趣{おもむき}がある",
-            "maleVariant": "1346BZ^いい店{みせ}だな。シックで趣{おもむき}がある"
-          },
-          {
-            "stringId": 1764924913531400192,
-            "femaleVariant": "9E46BZ^マナーがあり、きちんとお支{し}払{はら}いになる、良{よ}いお客{きゃく}様{さま}をお迎{むか}えするための店{みせ}ですから。ワトソンの野{や}蛮{ばん}人{じん}向{む}けではございません"
-          },
-          {
-            "stringId": 1764925173796352000,
-            "femaleVariant": "メニューをもらえる？",
-            "maleVariant": "メニューをもらえるか？"
-          },
-          {
-            "stringId": 1764925400087441408,
-            "femaleVariant": "はい、ただいま"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

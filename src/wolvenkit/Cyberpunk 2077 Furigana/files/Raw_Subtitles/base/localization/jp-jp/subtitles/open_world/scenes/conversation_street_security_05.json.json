@@ -1,30 +1,46 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_security_05.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7070AZ^あいついつも一{いち}番{ばん}最{さい}初{しょ}に来{き}て、一{いち}番{ばん}最{さい}後{ご}に帰{かえ}るだろ…",
+                    "maleVariant": null,
+                    "stringId": 1967678615020675072
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3970AZ^ゴマすり野{や}郎{ろう}め",
+                    "maleVariant": null,
+                    "stringId": 1967681461661245440
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1967678615020675072,
-            "femaleVariant": "7070AZ^あいついつも一{いち}番{ばん}最{さい}初{しょ}に来{き}て、一{いち}番{ばん}最{さい}後{ご}に帰{かえ}るだろ…"
-          },
-          {
-            "stringId": 1967681461661245440,
-            "femaleVariant": "3970AZ^ゴマすり野{や}郎{ろう}め"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

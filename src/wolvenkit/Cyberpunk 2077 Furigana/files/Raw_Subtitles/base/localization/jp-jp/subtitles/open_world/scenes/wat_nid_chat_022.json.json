@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_nid_chat_022.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "47EZ^ブリックはただのサイコ野{や}郎{ろう}だと思{おも}ってたけど――",
+                    "maleVariant": null,
+                    "stringId": 2156423008251011072
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A63BCZ^実際{じっさい}そうだろ？ みんなの話{はなし}じゃ、ボスになる前{まえ}はずいぶんと荒{あ}れてたらしい",
+                    "maleVariant": null,
+                    "stringId": 2170944424312029184
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "373BCZ^シックス・ストリートのシマにいきなり乗{の}り込{こ}んで、「新{しん}合{ごう}衆{しゅう}国{くに}のケツの穴{あな}をなめるような奴{やつ}は、脳{のう}ナシのクズだ」って叫{さけ}んだんだってさ",
+                    "maleVariant": null,
+                    "stringId": 2170944770342109184
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "DD3BCZ^で、銃{じゅう}撃{げき}戦{せん}の結{けっ}果{か}、気{き}管{かん}を取{と}り替{か}える羽{は}目{め}になった。でもあいつは、スッキリしたって喜{よろこ}んでたそうだよ",
+                    "maleVariant": null,
+                    "stringId": 2170957039553724416
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4C3BCZ^いや、そういうことじゃない。確{たし}かにイカれたところもあったけど、基{き}本{ほん}的{てき}には頭{あたま}の切{き}れる奴{やつ}だった",
+                    "maleVariant": null,
+                    "stringId": 2170957432258019328
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BC3BCZ^でもミリテクに手{て}を出{だ}すような奴{やつ}は、正{しょう}真{しん}正{しょう}銘{めい}のイカレ野{や}郎{ろう}さ",
+                    "maleVariant": null,
+                    "stringId": 2170957803504254976
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ロイスね…",
+                    "maleVariant": null,
+                    "stringId": 2170958471908540416
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2156423008251011072,
-            "femaleVariant": "47EZ^ブリックはただのサイコ野{や}郎{ろう}だと思{おも}ってたけど――"
-          },
-          {
-            "stringId": 2170944424312029184,
-            "femaleVariant": "A63BCZ^実際{じっさい}そうだろ？ みんなの話{はなし}じゃ、ボスになる前{まえ}はずいぶんと荒{あ}れてたらしい"
-          },
-          {
-            "stringId": 2170944770342109184,
-            "femaleVariant": "373BCZ^シックス・ストリートのシマにいきなり乗{の}り込{こ}んで、「新{しん}合{ごう}衆{しゅう}国{くに}のケツの穴{あな}をなめるような奴{やつ}は、脳{のう}ナシのクズだ」って叫{さけ}んだんだってさ"
-          },
-          {
-            "stringId": 2170957039553724416,
-            "femaleVariant": "DD3BCZ^で、銃{じゅう}撃{げき}戦{せん}の結{けっ}果{か}、気{き}管{かん}を取{と}り替{か}える羽{は}目{め}になった。でもあいつは、スッキリしたって喜{よろこ}んでたそうだよ"
-          },
-          {
-            "stringId": 2170957432258019328,
-            "femaleVariant": "4C3BCZ^いや、そういうことじゃない。確{たし}かにイカれたところもあったけど、基{き}本{ほん}的{てき}には頭{あたま}の切{き}れる奴{やつ}だった"
-          },
-          {
-            "stringId": 2170957803504254976,
-            "femaleVariant": "BC3BCZ^でもミリテクに手{て}を出{だ}すような奴{やつ}は、正{しょう}真{しん}正{しょう}銘{めい}のイカレ野{や}郎{ろう}さ"
-          },
-          {
-            "stringId": 2170958471908540416,
-            "femaleVariant": "ロイスね…"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

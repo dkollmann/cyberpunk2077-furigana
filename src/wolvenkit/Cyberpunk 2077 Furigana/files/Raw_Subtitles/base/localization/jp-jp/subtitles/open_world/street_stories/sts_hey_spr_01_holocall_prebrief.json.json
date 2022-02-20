@@ -1,30 +1,46 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_hey_spr_01_holocall_prebrief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "50647Z^V、今{こん}回{かい}は街{まち}に本{ほん}来{らい}の均{きん}衡{こう}を取{と}り戻{もど}してほしい。警{けい}官{かん}を殺{ころ}したヴァレンティーノズの一{ひと}人{り}が、罰{ばつ}を受{う}けずにのうのうと生{い}きている",
+                    "maleVariant": null,
+                    "stringId": 2328628520737337344
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E53BCZ^このような不{ふ}義{ぎ}を許{ゆる}すわけにはいかん。それと、そいつをかくまっている人{にん}間{げん}を見{み}つけたら、報{ほう}酬{しゅう}に色{しょく}をつけよう。詳{しょう}細{さい}を確{かく}認{にん}してくれ",
+                    "maleVariant": null,
+                    "stringId": 2334559512292999168
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2328628520737337344,
-            "femaleVariant": "50647Z^V、今{こん}回{かい}は街{まち}に本{ほん}来{らい}の均{きん}衡{こう}を取{と}り戻{もど}してほしい。警{けい}官{かん}を殺{ころ}したヴァレンティーノズの一{ひと}人{り}が、罰{ばつ}を受{う}けずにのうのうと生{い}きている"
-          },
-          {
-            "stringId": 2334559512292999168,
-            "femaleVariant": "E53BCZ^このような不{ふ}義{ぎ}を許{ゆる}すわけにはいかん。それと、そいつをかくまっている人{にん}間{げん}を見{み}つけたら、報{ほう}酬{しゅう}に色{しょく}をつけよう。詳{しょう}細{さい}を確{かく}認{にん}してくれ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

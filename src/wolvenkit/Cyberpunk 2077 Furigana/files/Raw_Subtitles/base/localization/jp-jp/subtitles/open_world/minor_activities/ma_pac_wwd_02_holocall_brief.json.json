@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\minor_activities\\ma_pac_wwd_02_holocall_brief.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4147E004^NCPD業{ぎょう}務{む}委{い}託{たく}者{もの}に通{つう}達{たつ}。パシフィック通{とう}りで組{そ}織{しき}犯{はん}罪{ざい}活{かつ}動{どう}の報{ほう}告{こく}あり",
+                    "maleVariant": null,
+                    "stringId": 2348979256648261636
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C1559Z^スカベンジャーのリーダーの1人{にん}、アントン・コーレフの関{かん}与{よ}が疑{うたが}われる。コーレフは現{げん}在{ざい}、4件{けん}の第一級{だいいっきゅう}殺{さつ}人{じん}罪{ざい}で指{し}名{めい}手{て}配{はい}中{なか}",
+                    "maleVariant": null,
+                    "stringId": 2352368516274163712
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "60559Z^コーレフとその一{ひと}味{あじ}を無{む}力{りょく}化{か}した者{もの}には、ナイトシティより報{ほう}酬{しゅう}が支{し}払{はら}われる",
+                    "maleVariant": null,
+                    "stringId": 2352370305648136192
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2348979256648261636,
-            "femaleVariant": "4147E004^NCPD業{ぎょう}務{む}委{い}託{たく}者{もの}に通{つう}達{たつ}。パシフィック通{とう}りで組{そ}織{しき}犯{はん}罪{ざい}活{かつ}動{どう}の報{ほう}告{こく}あり"
-          },
-          {
-            "stringId": 2352368516274163712,
-            "femaleVariant": "C1559Z^スカベンジャーのリーダーの1人{にん}、アントン・コーレフの関{かん}与{よ}が疑{うたが}われる。コーレフは現{げん}在{ざい}、4件{けん}の第一級{だいいっきゅう}殺{さつ}人{じん}罪{ざい}で指{し}名{めい}手{て}配{はい}中{なか}"
-          },
-          {
-            "stringId": 2352370305648136192,
-            "femaleVariant": "60559Z^コーレフとその一{ひと}味{あじ}を無{む}力{りょく}化{か}した者{もの}には、ナイトシティより報{ほう}酬{しゅう}が支{し}払{はら}われる"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

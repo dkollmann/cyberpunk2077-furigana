@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_east_026.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "87652Z^いったい何{なに}があったんだ？",
+                    "maleVariant": null,
+                    "stringId": 2178291506520334336
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1B42FZ^さあ、知{し}りたくもない",
+                    "maleVariant": null,
+                    "stringId": 2211126254806167552
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7A42FZ^事{じ}故{こ}には見{み}えんな…",
+                    "maleVariant": null,
+                    "stringId": 2211126617177255936
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A642FZ^怖気{おじけ}づいたの？ なら大人{おとな}しくゴミ箱{はこ}漁{あさ}りに戻{もど}りなよ",
+                    "maleVariant": null,
+                    "stringId": 2211132055344050176
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4042FZ^何{なん}だよ、お前{まえ}は怖{こわ}くないのか？ 先{せん}週{しゅう}見{み}たことをもう忘{わす}れたのかよ。まったく…",
+                    "maleVariant": null,
+                    "stringId": 2211161491338620928
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "2C42FZ^私{わたし}、忘{わす}れっぽいの。あんたもそうなった方{ほう}が身{み}のためよ",
+                    "maleVariant": null,
+                    "stringId": 2211165304934035456
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2178291506520334336,
-            "femaleVariant": "87652Z^いったい何{なに}があったんだ？"
-          },
-          {
-            "stringId": 2211126254806167552,
-            "femaleVariant": "1B42FZ^さあ、知{し}りたくもない"
-          },
-          {
-            "stringId": 2211126617177255936,
-            "femaleVariant": "7A42FZ^事{じ}故{こ}には見{み}えんな…"
-          },
-          {
-            "stringId": 2211132055344050176,
-            "femaleVariant": "A642FZ^怖気{おじけ}づいたの？ なら大人{おとな}しくゴミ箱{はこ}漁{あさ}りに戻{もど}りなよ"
-          },
-          {
-            "stringId": 2211161491338620928,
-            "femaleVariant": "4042FZ^何{なん}だよ、お前{まえ}は怖{こわ}くないのか？ 先{せん}週{しゅう}見{み}たことをもう忘{わす}れたのかよ。まったく…"
-          },
-          {
-            "stringId": 2211165304934035456,
-            "femaleVariant": "2C42FZ^私{わたし}、忘{わす}れっぽいの。あんたもそうなった方{ほう}が身{み}のためよ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

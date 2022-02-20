@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_kab_chat_003.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "FF69EZ^ねえ、5番{ばん}で何{なに}があったか聞{き}いた？",
+                    "maleVariant": null,
+                    "stringId": 1802455374480662528
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4669EZ^何{なに}、あの男{おとこ}また手{て}をあげたの？",
+                    "maleVariant": null,
+                    "stringId": 1802455951197462528
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B869EZ^違{ちが}うんだって。彼{かの}女{じょ}の方{ほう}があいつを撃{う}ち殺{ころ}したのよ！",
+                    "maleVariant": null,
+                    "stringId": 1802456146383593472
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A769EZ^ウソでしょ？ 本{ほん}当{とう}に？",
+                    "maleVariant": null,
+                    "stringId": 1802456317897072640
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4869EZ^6番{ばん}のアイが見{み}てたらしくて、全{ぜん}部{ぶ}話{はな}してくれた",
+                    "maleVariant": null,
+                    "stringId": 1802456509576765440
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5F69EZ^アイ？ あの子{こ}の話{はなし}はウソばっかだから…",
+                    "maleVariant": null,
+                    "stringId": 1802457849992437760
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8069EZ^いやいや、だって弾{だん}丸{がん}が壁{かべ}を貫{かん}通{つう}したんだから！ アイは死{し}体{たい}も見{み}たって！",
+                    "maleVariant": null,
+                    "stringId": 1802458864158367744
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1802455374480662528,
-            "femaleVariant": "FF69EZ^ねえ、5番{ばん}で何{なに}があったか聞{き}いた？"
-          },
-          {
-            "stringId": 1802455951197462528,
-            "femaleVariant": "4669EZ^何{なに}、あの男{おとこ}また手{て}をあげたの？"
-          },
-          {
-            "stringId": 1802456146383593472,
-            "femaleVariant": "B869EZ^違{ちが}うんだって。彼{かの}女{じょ}の方{ほう}があいつを撃{う}ち殺{ころ}したのよ！"
-          },
-          {
-            "stringId": 1802456317897072640,
-            "femaleVariant": "A769EZ^ウソでしょ？ 本{ほん}当{とう}に？"
-          },
-          {
-            "stringId": 1802456509576765440,
-            "femaleVariant": "4869EZ^6番{ばん}のアイが見{み}てたらしくて、全{ぜん}部{ぶ}話{はな}してくれた"
-          },
-          {
-            "stringId": 1802457849992437760,
-            "femaleVariant": "5F69EZ^アイ？ あの子{こ}の話{はなし}はウソばっかだから…"
-          },
-          {
-            "stringId": 1802458864158367744,
-            "femaleVariant": "8069EZ^いやいや、だって弾{だん}丸{がん}が壁{かべ}を貫{かん}通{つう}したんだから！ アイは死{し}体{たい}も見{み}たって！"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,34 +1,54 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\bls_ina_se1_medicstore_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9646BZ^手{て}を借{か}りたい",
+                    "maleVariant": null,
+                    "stringId": 1935675942454603776
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9946B004^その… えーと、手{て}を借{か}りたくて",
+                    "maleVariant": null,
+                    "stringId": 1935675942504935428
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9946B00C^そう言{い}われるたびに1エディーもらってたら、今{いま}頃{ごろ}大金持{おおがねもち}ちよ… で、ご用{よう}件{けん}は？",
+                    "maleVariant": null,
+                    "stringId": 1935675942504935436
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1935675942454603776,
-            "femaleVariant": "9646BZ^手{て}を借{か}りたい"
-          },
-          {
-            "stringId": 1935675942504935428,
-            "femaleVariant": "9946B004^その… えーと、手{て}を借{か}りたくて"
-          },
-          {
-            "stringId": 1935675942504935436,
-            "femaleVariant": "9946B00C^そう言{い}われるたびに1エディーもらってたら、今{いま}頃{ごろ}大金持{おおがねもち}ちよ… で、ご用{よう}件{けん}は？"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

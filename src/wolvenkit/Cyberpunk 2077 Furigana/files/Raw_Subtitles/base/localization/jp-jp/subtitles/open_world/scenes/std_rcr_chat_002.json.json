@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_rcr_chat_002.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "DC70AZ^僕{ぼく}は将{しょう}来{らい}、世{せ}界{かい}一{いち}のノーマッドになるんだ！",
+                    "maleVariant": null,
+                    "stringId": 1963291900445237248
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "1C3BCZ^そいつはすごいな。普{ふ}通{つう}のノーマッドになるのかい？ それともスカウトかな？",
+                    "maleVariant": null,
+                    "stringId": 1969142892513181696
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ED3BCZ^スカウト！ ヤイバのバイクに乗{の}って、隊{たい}で一{いち}番{ばん}速{はや}い人{にん}になる！",
+                    "maleVariant": null,
+                    "stringId": 1969143248206938112
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6D3BCZ^でね、バイクに乗{の}りながら銃{じゅう}を撃{う}てるように訓{くん}練{れん}するんだよ。バン！ バン！",
+                    "maleVariant": null,
+                    "stringId": 1969143666966249472
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "FD3BCZ^ノーマッドになんかならないの。ペトロケムで働{はたら}くのよ。おじいちゃんや――",
+                    "maleVariant": null,
+                    "stringId": 1969143905605369856
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3D3BCZ^おい、いいだろ。せめて今{いま}だけでも、夢{ゆめ}を見{み}させてやれ",
+                    "maleVariant": null,
+                    "stringId": 1969144417780219904
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1963291900445237248,
-            "femaleVariant": "DC70AZ^僕{ぼく}は将{しょう}来{らい}、世{せ}界{かい}一{いち}のノーマッドになるんだ！"
-          },
-          {
-            "stringId": 1969142892513181696,
-            "femaleVariant": "1C3BCZ^そいつはすごいな。普{ふ}通{つう}のノーマッドになるのかい？ それともスカウトかな？"
-          },
-          {
-            "stringId": 1969143248206938112,
-            "femaleVariant": "ED3BCZ^スカウト！ ヤイバのバイクに乗{の}って、隊{たい}で一{いち}番{ばん}速{はや}い人{にん}になる！"
-          },
-          {
-            "stringId": 1969143666966249472,
-            "femaleVariant": "6D3BCZ^でね、バイクに乗{の}りながら銃{じゅう}を撃{う}てるように訓{くん}練{れん}するんだよ。バン！ バン！"
-          },
-          {
-            "stringId": 1969143905605369856,
-            "femaleVariant": "FD3BCZ^ノーマッドになんかならないの。ペトロケムで働{はたら}くのよ。おじいちゃんや――"
-          },
-          {
-            "stringId": 1969144417780219904,
-            "femaleVariant": "3D3BCZ^おい、いいだろ。せめて今{いま}だけでも、夢{ゆめ}を見{み}させてやれ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

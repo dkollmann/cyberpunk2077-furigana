@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_gle_chat_022.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "82513Z^どいつもこいつも間{ま}抜{ぬ}けばかりだ。こんなオークション、インチキだって気{き}づきそうなもんだけどな",
+                    "maleVariant": null,
+                    "stringId": 2161783980021592064
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "303BCZ^で、どうするんだ？ ガラクタの倉{そう}庫{こ}ユニットを出品{しゅっぴん}するだけでいいのか？",
+                    "maleVariant": null,
+                    "stringId": 2230234929730142208
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8F3BCZ^ああ。金{きん}になりそうなものは、先{さき}にこっちで頂{いただ}いておくのさ",
+                    "maleVariant": null,
+                    "stringId": 2230235038698160128
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6F3BCZ^でも待{ま}てよ。こないだ誰{だれ}かが競{せ}り落{お}としたのには、マホガニーの机{つくえ}が入{いっ}ってたって聞{き}いたぞ",
+                    "maleVariant": null,
+                    "stringId": 2230235171305275392
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "4F3BCZ^売{う}ったら2万{まん}エディーになったって話{はなし}だ",
+                    "maleVariant": null,
+                    "stringId": 2230235291027488768
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "FF3BCZ^ああ。そうやって時々{ときどき}いい思{おも}いをさせてやるんだよ。話{わ}題{だい}作{さく}りが必{ひつ}要{よう}だろ？",
+                    "maleVariant": null,
+                    "stringId": 2230235435714199552
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "へえ、なるほどな",
+                    "maleVariant": null,
+                    "stringId": 2230235551946752000
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2161783980021592064,
-            "femaleVariant": "82513Z^どいつもこいつも間{ま}抜{ぬ}けばかりだ。こんなオークション、インチキだって気{き}づきそうなもんだけどな"
-          },
-          {
-            "stringId": 2230234929730142208,
-            "femaleVariant": "303BCZ^で、どうするんだ？ ガラクタの倉{そう}庫{こ}ユニットを出品{しゅっぴん}するだけでいいのか？"
-          },
-          {
-            "stringId": 2230235038698160128,
-            "femaleVariant": "8F3BCZ^ああ。金{きん}になりそうなものは、先{さき}にこっちで頂{いただ}いておくのさ"
-          },
-          {
-            "stringId": 2230235171305275392,
-            "femaleVariant": "6F3BCZ^でも待{ま}てよ。こないだ誰{だれ}かが競{せ}り落{お}としたのには、マホガニーの机{つくえ}が入{いっ}ってたって聞{き}いたぞ"
-          },
-          {
-            "stringId": 2230235291027488768,
-            "femaleVariant": "4F3BCZ^売{う}ったら2万{まん}エディーになったって話{はなし}だ"
-          },
-          {
-            "stringId": 2230235435714199552,
-            "femaleVariant": "FF3BCZ^ああ。そうやって時々{ときどき}いい思{おも}いをさせてやるんだよ。話{わ}題{だい}作{さく}りが必{ひつ}要{よう}だろ？"
-          },
-          {
-            "stringId": 2230235551946752000,
-            "femaleVariant": "へえ、なるほどな"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

@@ -1,50 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\pac_wwd_melee_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7513Z^武{ぶ}器{き}を探{さが}してるんだけど",
+                    "maleVariant": "7513Z^武{ぶ}器{き}を探{さが}してるんだが",
+                    "stringId": 1886584609891758080
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8513004^専{せん}門{もん}の格{かく}闘{とう}分{ぶん}野{や}は何{なに}？",
+                    "maleVariant": "8513004^専{せん}門{もん}の格{かく}闘{とう}分{ぶん}野{や}は何{なん}だ？",
+                    "stringId": 1886584609908535300
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B513004^何{なに}があるか見{み}てもいい？",
+                    "maleVariant": "B513004^何{なに}があるか見{み}てもいいか？",
+                    "stringId": 1886584609958866948
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "D513004^どういう武{ぶ}術{じゅつ}が専{せん}門{もん}なの？",
+                    "maleVariant": "D513004^どういう武{ぶ}術{じゅつ}が専{せん}門{もん}なんだ？",
+                    "stringId": 1886584609992421380
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "フン… わかってないな",
+                    "maleVariant": null,
+                    "stringId": 1886584610009198596
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "5744DZ^相{あい}手{て}の顔{かお}を粉{ふん}砕{さい}するのに型{かた}など関{かん}係{けい}ない。とにかく強{つよ}いほうが勝{か}つんだ",
+                    "maleVariant": null,
+                    "stringId": 1983444773822058496
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1886584609891758080,
-            "femaleVariant": "7513Z^武{ぶ}器{き}を探{さが}してるんだけど",
-            "maleVariant": "7513Z^武{ぶ}器{き}を探{さが}してるんだが"
-          },
-          {
-            "stringId": 1886584609908535300,
-            "femaleVariant": "8513004^専{せん}門{もん}の格{かく}闘{とう}分{ぶん}野{や}は何{なに}？",
-            "maleVariant": "8513004^専{せん}門{もん}の格{かく}闘{とう}分{ぶん}野{や}は何{なん}だ？"
-          },
-          {
-            "stringId": 1886584609958866948,
-            "femaleVariant": "B513004^何{なに}があるか見{み}てもいい？",
-            "maleVariant": "B513004^何{なに}があるか見{み}てもいいか？"
-          },
-          {
-            "stringId": 1886584609992421380,
-            "femaleVariant": "D513004^どういう武{ぶ}術{じゅつ}が専{せん}門{もん}なの？",
-            "maleVariant": "D513004^どういう武{ぶ}術{じゅつ}が専{せん}門{もん}なんだ？"
-          },
-          {
-            "stringId": 1886584610009198596,
-            "femaleVariant": "フン… わかってないな"
-          },
-          {
-            "stringId": 1983444773822058496,
-            "femaleVariant": "5744DZ^相{あい}手{て}の顔{かお}を粉{ふん}砕{さい}するのに型{かた}など関{かん}係{けい}ない。とにかく強{つよ}いほうが勝{か}つんだ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

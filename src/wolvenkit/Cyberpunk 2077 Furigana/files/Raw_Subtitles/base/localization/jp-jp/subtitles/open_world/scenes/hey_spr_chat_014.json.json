@@ -1,50 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_spr_chat_014.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "ゲホッ、ゲホッ…",
+                    "maleVariant": null,
+                    "stringId": 2162076589666054144
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "CE559Z^うわ、ひどそうだな。スモッグフィルター使{つか}ってんのか？",
+                    "maleVariant": null,
+                    "stringId": 2209932055038758912
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C6559Z^いや、スモッグじゃない。あれを飲{の}んで… ゲホッ",
+                    "maleVariant": null,
+                    "stringId": 2217586485489930240
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "7559Z^すまん… 昨日{きのう}、水{すい}道{どう}の水{みず}を飲{の}んだら何{なに}かが喉{のど}にひっかかって… ゲホッ！ それ以{い}来{らい}ずっとなんだ",
+                    "maleVariant": null,
+                    "stringId": 2217587775070638080
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "6559Z^水{すい}道{どう}水{すい}！？",
+                    "maleVariant": null,
+                    "stringId": 2217589334126989312
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "26559Z^ラジオで、飲{の}めるって",
+                    "maleVariant": null,
+                    "stringId": 2217590374045945856
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "F6559Z^ノース・オークならともかく、ウェルスプリングスだぞ？ すぐにリパーのとこに行{い}って、喉{のど}を交{こう}換{かん}したほうがいい",
+                    "maleVariant": null,
+                    "stringId": 2217591236529065984
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2162076589666054144,
-            "femaleVariant": "ゲホッ、ゲホッ…"
-          },
-          {
-            "stringId": 2209932055038758912,
-            "femaleVariant": "CE559Z^うわ、ひどそうだな。スモッグフィルター使{つか}ってんのか？"
-          },
-          {
-            "stringId": 2217586485489930240,
-            "femaleVariant": "C6559Z^いや、スモッグじゃない。あれを飲{の}んで… ゲホッ"
-          },
-          {
-            "stringId": 2217587775070638080,
-            "femaleVariant": "7559Z^すまん… 昨日{きのう}、水{すい}道{どう}の水{みず}を飲{の}んだら何{なに}かが喉{のど}にひっかかって… ゲホッ！ それ以{い}来{らい}ずっとなんだ"
-          },
-          {
-            "stringId": 2217589334126989312,
-            "femaleVariant": "6559Z^水{すい}道{どう}水{すい}！？"
-          },
-          {
-            "stringId": 2217590374045945856,
-            "femaleVariant": "26559Z^ラジオで、飲{の}めるって"
-          },
-          {
-            "stringId": 2217591236529065984,
-            "femaleVariant": "F6559Z^ノース・オークならともかく、ウェルスプリングスだぞ？ すぐにリパーのとこに行{い}って、喉{のど}を交{こう}換{かん}したほうがいい"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

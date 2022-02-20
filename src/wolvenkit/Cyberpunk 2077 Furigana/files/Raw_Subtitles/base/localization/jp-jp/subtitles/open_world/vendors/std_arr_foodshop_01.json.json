@@ -1,52 +1,86 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\std_arr_foodshop_01.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B45C5Z^メニューを見{み}たい",
+                    "maleVariant": null,
+                    "stringId": 1783748166422384640
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B55C5004^〈Samurai〉が初{はつ}ライブをやった店{みせ}じゃない？",
+                    "maleVariant": "B55C5004^〈Samurai〉が初{はつ}ライブをやった店{みせ}だろ？",
+                    "stringId": 1783748166439161860
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B55C501C^メニューを見{み}せて",
+                    "maleVariant": "B55C501C^メニューを見{み}たい",
+                    "stringId": 1783748166439161884
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B55C5024^イーハー！ 今{いま}すぐお持{も}ちしますぜ！",
+                    "maleVariant": null,
+                    "stringId": 1783748166439161892
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B75C5004^ここ… 〈Samurai〉が初{はじ}めてライブをやった店{みせ}じゃ？",
+                    "maleVariant": null,
+                    "stringId": 1783748166472716292
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "B75C500C^その夜{よる}はすごかったらしい。大{だい}音{おん}量{りょう}で窓{まど}が割{わ}れたとか… そのライブがきっかけで、全{ぜん}裸{ら}の客{きゃく}には酒{さけ}を出{だ}さないってルールができたとか",
+                    "maleVariant": null,
+                    "stringId": 1783748166472716300
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "9544DZ^〈Samurai〉ファンだけの裏{うら}メニューがあるんだ。その名{めい}も「骨{ほね}付{つ}きシルヴァーハンド」。値{あたい}は張{は}るがうまいぜ",
+                    "maleVariant": null,
+                    "stringId": 1976545601390956544
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1783748166422384640,
-            "femaleVariant": "B45C5Z^メニューを見{み}たい"
-          },
-          {
-            "stringId": 1783748166439161860,
-            "femaleVariant": "B55C5004^〈Samurai〉が初{はつ}ライブをやった店{みせ}じゃない？",
-            "maleVariant": "B55C5004^〈Samurai〉が初{はつ}ライブをやった店{みせ}だろ？"
-          },
-          {
-            "stringId": 1783748166439161884,
-            "femaleVariant": "B55C501C^メニューを見{み}せて",
-            "maleVariant": "B55C501C^メニューを見{み}たい"
-          },
-          {
-            "stringId": 1783748166439161892,
-            "femaleVariant": "B55C5024^イーハー！ 今{いま}すぐお持{も}ちしますぜ！"
-          },
-          {
-            "stringId": 1783748166472716292,
-            "femaleVariant": "B75C5004^ここ… 〈Samurai〉が初{はじ}めてライブをやった店{みせ}じゃ？"
-          },
-          {
-            "stringId": 1783748166472716300,
-            "femaleVariant": "B75C500C^その夜{よる}はすごかったらしい。大{だい}音{おん}量{りょう}で窓{まど}が割{わ}れたとか… そのライブがきっかけで、全{ぜん}裸{ら}の客{きゃく}には酒{さけ}を出{だ}さないってルールができたとか"
-          },
-          {
-            "stringId": 1976545601390956544,
-            "femaleVariant": "9544DZ^〈Samurai〉ファンだけの裏{うら}メニューがあるんだ。その名{めい}も「骨{ほね}付{つ}きシルヴァーハンド」。値{あたい}は張{は}るがうまいぜ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

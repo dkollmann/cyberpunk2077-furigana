@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_arr_chat_027.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C876DZ^なあ、昨日{きのう}入{いっ}ってきたあいつはどうだ？ ワンワン泣{な}いてたか？",
+                    "maleVariant": null,
+                    "stringId": 2168024955226607616
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "532B6Z^弁{べん}護{ご}士{し}が言{い}ってた。最{さい}低{てい}でも10年{ねん}の実刑{じっけい}、仮{かり}釈{しゃく}放{ほう}はナシだとさ",
+                    "maleVariant": null,
+                    "stringId": 2211118142550925312
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "8E2B6Z^10年{ねん}？ たかがケンカでか…？",
+                    "maleVariant": null,
+                    "stringId": 2212855350437830656
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "AA2B6Z^ただのケンカじゃない。コーポの子{こ}供{ども}をボコボコにしたんだ。ありとあらゆる罪{ざい}状{じょう}で起{き}訴{そ}された。しばらく陽{よう}の光{ひかり}は拝{おが}めないだろうな",
+                    "maleVariant": null,
+                    "stringId": 2212855557066022912
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "A52B6Z^なるほど… 少{すこ}し気{き}をつけた方{ほう}がいいな。コーポ嫌{きら}いの英{えい}雄{ゆう}気{き}取{ど}りが助{たす}けにくるかもしれない",
+                    "maleVariant": null,
+                    "stringId": 2212856433155465216
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "922B6Z^ハッ、地{じ}面{めん}にはいつくばっていじけてやがる。メシにも手{て}をつけてない",
+                    "maleVariant": null,
+                    "stringId": 2212857128621400064
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2168024955226607616,
-            "femaleVariant": "C876DZ^なあ、昨日{きのう}入{いっ}ってきたあいつはどうだ？ ワンワン泣{な}いてたか？"
-          },
-          {
-            "stringId": 2211118142550925312,
-            "femaleVariant": "532B6Z^弁{べん}護{ご}士{し}が言{い}ってた。最{さい}低{てい}でも10年{ねん}の実刑{じっけい}、仮{かり}釈{しゃく}放{ほう}はナシだとさ"
-          },
-          {
-            "stringId": 2212855350437830656,
-            "femaleVariant": "8E2B6Z^10年{ねん}？ たかがケンカでか…？"
-          },
-          {
-            "stringId": 2212855557066022912,
-            "femaleVariant": "AA2B6Z^ただのケンカじゃない。コーポの子{こ}供{ども}をボコボコにしたんだ。ありとあらゆる罪{ざい}状{じょう}で起{き}訴{そ}された。しばらく陽{よう}の光{ひかり}は拝{おが}めないだろうな"
-          },
-          {
-            "stringId": 2212856433155465216,
-            "femaleVariant": "A52B6Z^なるほど… 少{すこ}し気{き}をつけた方{ほう}がいいな。コーポ嫌{きら}いの英{えい}雄{ゆう}気{き}取{ど}りが助{たす}けにくるかもしれない"
-          },
-          {
-            "stringId": 2212857128621400064,
-            "femaleVariant": "922B6Z^ハッ、地{じ}面{めん}にはいつくばっていじけてやがる。メシにも手{て}をつけてない"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

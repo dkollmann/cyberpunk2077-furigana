@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_039.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "64647Z^なんだ？ 何{なに}をためらってる？",
+                    "maleVariant": null,
+                    "stringId": 2157382750437666816
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "3C494Z^実{み}の姉{し}妹{まい}だろ？",
+                    "maleVariant": null,
+                    "stringId": 2182525368056496128
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "93494Z^でも向{む}こうは、もう１年{ねん}になるんだから、そろそろノース・オークに住{す}めるぐらい稼{かせ}いでるはず、って思{おも}ってるのよ",
+                    "maleVariant": null,
+                    "stringId": 2182526142610227200
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "84494Z^何{なに}があったか話{はな}してないのか？",
+                    "maleVariant": null,
+                    "stringId": 2182527082956406784
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "FD494Z^ええ… だってあくまでも一{いち}時{じ}的{てき}なことだし。この部屋{へや}も… 何{なに}もかも",
+                    "maleVariant": null,
+                    "stringId": 2182531160910413824
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "C7494Z^はあ… もう少{すこ}し現{げん}実{じつ}を見{み}たらどうだ",
+                    "maleVariant": null,
+                    "stringId": 2182535536576118784
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 2157382750437666816,
-            "femaleVariant": "64647Z^なんだ？ 何{なに}をためらってる？"
-          },
-          {
-            "stringId": 2182525368056496128,
-            "femaleVariant": "3C494Z^実{み}の姉{し}妹{まい}だろ？"
-          },
-          {
-            "stringId": 2182526142610227200,
-            "femaleVariant": "93494Z^でも向{む}こうは、もう１年{ねん}になるんだから、そろそろノース・オークに住{す}めるぐらい稼{かせ}いでるはず、って思{おも}ってるのよ"
-          },
-          {
-            "stringId": 2182527082956406784,
-            "femaleVariant": "84494Z^何{なに}があったか話{はな}してないのか？"
-          },
-          {
-            "stringId": 2182531160910413824,
-            "femaleVariant": "FD494Z^ええ… だってあくまでも一{いち}時{じ}的{てき}なことだし。この部屋{へや}も… 何{なに}もかも"
-          },
-          {
-            "stringId": 2182535536576118784,
-            "femaleVariant": "C7494Z^はあ… もう少{すこ}し現{げん}実{じつ}を見{み}たらどうだ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }

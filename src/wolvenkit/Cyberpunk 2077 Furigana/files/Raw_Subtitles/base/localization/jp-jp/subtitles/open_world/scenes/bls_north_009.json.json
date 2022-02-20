@@ -1,46 +1,78 @@
 {
-  "Chunks": {
-    "0": {
+  "Header": {
+    "WolvenKitVersion": "8.5.0",
+    "WKitJsonVersion": "0.0.1",
+    "ExportedDateTime": "2077-01-01T00:00:00.00Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_north_009.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
       "Type": "JsonResource",
-      "ParentIndex": -1,
       "Properties": {
-        "cookingPlatform": [
-          "PLATFORM_PC"
-        ],
-        "root": 2
+        "cookingPlatform": "PLATFORM_PC",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "Type": "localizationPersistenceSubtitleEntries",
+            "Properties": {
+              "entries": [
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "FE70AZ^砂{さ}漠{ばく}なんて、大{だい}嫌{きら}いだ",
+                    "maleVariant": null,
+                    "stringId": 1973569779229827072
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "443BCZ^ふん、ただの仕{し}事{ごと}か。太{たい}陽{よう}が照{て}りつける中{なか}で、歯{は}に挟{はさ}まった砂{すな}をほじる以{い}外{がい}にやることもないんだぞ",
+                    "maleVariant": null,
+                    "stringId": 1975078611001786368
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "BB3BCZ^派{は}遣{けん}されただけさ… 誰{だれ}かが州境{しゅうざかい}を警{けい}備{び}しないといけないし。ただの仕{し}事{ごと}だ",
+                    "maleVariant": null,
+                    "stringId": 1975078621588209664
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "で、あんたはなんでここに？",
+                    "maleVariant": null,
+                    "stringId": 1975078634590552064
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "E33BCZ^いい副{ふく}業{ぎょう}だったのに。ストリートで安{やす}く売{う}り払{はら}って、そこそこ儲{もう}けてたんだ",
+                    "maleVariant": null,
+                    "stringId": 1975078648029102080
+                  }
+                },
+                {
+                  "Type": "localizationPersistenceSubtitleEntry",
+                  "Properties": {
+                    "femaleVariant": "273BCZ^倉{そう}庫{こ}からクラッシャーをパクろうとしたら、バレてさ",
+                    "maleVariant": null,
+                    "stringId": 1975078657759887360
+                  }
+                }
+              ]
+            }
+          }
+        }
       }
     },
-    "1": {
-      "Type": "localizationPersistenceSubtitleEntries",
-      "ParentIndex": -1,
-      "Properties": {
-        "entries": [
-          {
-            "stringId": 1973569779229827072,
-            "femaleVariant": "FE70AZ^砂{さ}漠{ばく}なんて、大{だい}嫌{きら}いだ"
-          },
-          {
-            "stringId": 1975078611001786368,
-            "femaleVariant": "443BCZ^ふん、ただの仕{し}事{ごと}か。太{たい}陽{よう}が照{て}りつける中{なか}で、歯{は}に挟{はさ}まった砂{すな}をほじる以{い}外{がい}にやることもないんだぞ"
-          },
-          {
-            "stringId": 1975078621588209664,
-            "femaleVariant": "BB3BCZ^派{は}遣{けん}されただけさ… 誰{だれ}かが州境{しゅうざかい}を警{けい}備{び}しないといけないし。ただの仕{し}事{ごと}だ"
-          },
-          {
-            "stringId": 1975078634590552064,
-            "femaleVariant": "で、あんたはなんでここに？"
-          },
-          {
-            "stringId": 1975078648029102080,
-            "femaleVariant": "E33BCZ^いい副{ふく}業{ぎょう}だったのに。ストリートで安{やす}く売{う}り払{はら}って、そこそこ儲{もう}けてたんだ"
-          },
-          {
-            "stringId": 1975078657759887360,
-            "femaleVariant": "273BCZ^倉{そう}庫{こ}からクラッシャーをパクろうとしたら、バレてさ"
-          }
-        ]
-      }
-    }
+    "EmbeddedFiles": []
   }
 }
