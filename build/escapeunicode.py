@@ -1,5 +1,18 @@
 import sys, os
 
+def unespace_nonunicode(text):
+	pos = 0
+	while True:
+		pos = text.find("\\x", pos)
+		if pos < 0:
+			return text
+
+		escaped = text[pos:pos+4]
+
+		uchar = escaped.encode('latin1').decode('unicode-escape')
+
+		text = text[:pos] + uchar + text[pos+4:]
+
 
 def escape_file(file):
 	if not file.endswith(".json.json"):
@@ -9,6 +22,8 @@ def escape_file(file):
 		content = f.read()
 
 	escaped = content.encode('unicode-escape').decode('utf8').replace("\\n", "\n")
+
+	escaped = unespace_nonunicode(escaped)
 
 	with open(file, 'w', encoding='utf8') as f:
 		f.write(escaped)
