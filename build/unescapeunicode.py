@@ -17,18 +17,18 @@ def replace_timestamp(text):
 def unespace_text(text):
 	pos = 0
 	while True:
-		pos = text.find("\\\\\\\\u", pos)
+		pos = text.find("\\u", pos)
 		if pos < 0:
 			return text
 
-		escaped = text[pos + 3:pos + 9]
+		escaped = text[pos:pos + 6]
 
 		if escaped == "\\u0022":
 			uchar = "\\\""
 		else:
 			uchar = escaped.encode('latin1').decode('unicode-escape')
 
-		text = text[:pos] + uchar + text[pos + 9:]
+		text = text[:pos] + uchar + text[pos + 6:]
 
 
 def unescape_file(file):
