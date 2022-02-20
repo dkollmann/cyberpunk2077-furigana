@@ -677,23 +677,18 @@ RED4EXT_C_EXPORT void RED4EXT_CALL PostRegisterTypes()
     }
 }
 
-BOOL APIENTRY DllMain(HMODULE aModule, DWORD aReason, LPVOID aReserved)
+RED4EXT_C_EXPORT bool RED4EXT_CALL Main(RED4ext::PluginHandle aHandle, RED4ext::EMainReason aReason, const RED4ext::Sdk* aSdk)
 {
     switch (aReason)
     {
-    case DLL_PROCESS_ATTACH:
+    case RED4ext::EMainReason::Load:
         RED4ext::RTTIRegistrator::Add(RegisterTypes, PostRegisterTypes);
         break;
 
-    case DLL_PROCESS_DETACH:
+    case RED4ext::EMainReason::Unload:
         break;
     }
 
-    return TRUE;
-}
-
-RED4EXT_C_EXPORT bool RED4EXT_CALL Load(RED4ext::PluginHandle aHandle, RED4ext::EMainReason aReason, const RED4ext::Sdk* aSdk)
-{
     return true;
 }
 
