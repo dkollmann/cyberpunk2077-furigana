@@ -19,14 +19,23 @@ def escape_file(file):
 		return
 
 	with open(file, 'r', encoding='utf8') as f:
-		content = f.read()
+		lines = f.readlines()
 
-	escaped = content.encode('unicode-escape').decode('utf8').replace("\\n", "\n")
+	for i in range(len(lines)):
+		line = lines[i]
 
-	escaped = unespace_nonunicode(escaped)
+		escaped = line.encode('unicode-escape').decode('utf8')
+
+		if escaped.endswith("\\n"):
+			escaped = escaped[:len(escaped) - 2] + "\n"
+
+		escaped = unespace_nonunicode(escaped)
+		escaped = escaped.replace('\\\\"', '\\"')
+
+		lines[i] = escaped
 
 	with open(file, 'w', encoding='utf8') as f:
-		f.write(escaped)
+		f.writelines(lines)
 
 
 def escape_folder(path):

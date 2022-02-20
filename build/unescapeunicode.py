@@ -33,13 +33,18 @@ def unespace_text(text):
 
 def unescape_file(file):
 	with open(file, 'r', encoding='utf8') as f:
-		content = f.read()
+		lines = f.readlines()
 
-	unescaped = unespace_text(content)
-	unescaped = replace_timestamp(unescaped)
+	for i in range(len(lines)):
+		line = lines[i]
+
+		unescaped = unespace_text(line)
+		unescaped = replace_timestamp(unescaped)
+
+		lines[i] = unescaped
 
 	with open(file, 'w', encoding='utf8') as f:
-		f.write(unescaped)
+		f.writelines(lines)
 
 
 def unescape_folder(path):
