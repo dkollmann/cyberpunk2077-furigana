@@ -43,6 +43,41 @@ registerForEvent("onInit", function()
 		return
 	end
 
+	-- load and save functions
+	function LoadSettings(filename, defaultSettings)
+		print("Loading settings from ", filename, "...")
+
+    	local file = io.open(filename, "r")
+
+		local settings = {}
+
+		for k,v in pairs(defaultSettings) do
+			settings[k] = v
+		end
+	
+		if file then
+			local newsettings = json.decode( file:read("*a") )
+	
+			file:close()
+	
+			for k,v in pairs(newsettings) do
+				settings[k] = v
+			end
+		end
+	
+		return settings
+	end
+
+	function SaveSettings(filename, settings)
+		print("Saving settings to ", filename, "...")
+
+    	local file = io.open(filename, "w")
+
+		file:write( json.encode(settings) )
+
+    	file:close()
+	end
+
 	-- some local properties
 	local settingsFilename = "settings.json"
 
@@ -84,7 +119,7 @@ registerForEvent("onInit", function()
 	}
 
 	-- load settings
-	state = nativeSettings.loadSettingsFile(io.open(settingsFilename, "r"), stateDefaults)
+	state = LoadSettings(settingsFilename, stateDefaults)
 	
 	-- make settings retrievable
 	Observe('FuriganaSettings', 'Get', function(self)
@@ -154,10 +189,12 @@ registerForEvent("onInit", function()
 	-- reference https://github.com/justarandomguyintheinternet/CP77_nativeSettings
 
 	nativeSettings.addTab("/furigana", "Furigana", function() -- Add our mods tab (path, label)
-		nativeSettings.saveSettingsFile(io.open(settingsFilename, "w"), state)
+		SaveSettings(settingsFilename, state)
 
 		RemoveTextPreview()
 	end)
+
+	nativeSettings.addTab("/tester", "Test")
 
 	nativeSettings.addSubcategory("/furigana/general", "General")
 	nativeSettings.addSubcategory("/furigana/dialog", "Dialogues")
