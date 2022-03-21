@@ -5,6 +5,9 @@ Built for Cyberpunk 2077 version 1.5.
 
 Nexus page: https://www.nexusmods.com/cyberpunk2077/mods/3775
 
+I recommend using the collection to have the correct mod dependencies installed.
+https://next.nexusmods.com/cyberpunk2077/collections/sf6oeo
+
 
 ## Installation
 This mod requires you to install the Japanese version of the game, where you then switch the user interface to English.
@@ -38,5 +41,5 @@ https://www.nexusmods.com/cyberpunk2077/mods/2380
 
 
 ### Native Settings UI
-This mod requires a customized version of this mod.<br/>
-https://github.com/dkollmann/CP77_nativeSettings/archive/refs/tags/v1.4_furigana.zip
+This mod requires version 1.5 or higher.<br/>
+https://www.nexusmods.com/cyberpunk2077/mods/3518

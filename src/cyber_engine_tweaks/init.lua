@@ -194,8 +194,6 @@ registerForEvent("onInit", function()
 		RemoveTextPreview()
 	end)
 
-	nativeSettings.addTab("/tester", "Test")
-
 	nativeSettings.addSubcategory("/furigana/general", "General")
 	nativeSettings.addSubcategory("/furigana/dialog", "Dialogues")
 	nativeSettings.addSubcategory("/furigana/chatter", "Chatter")
