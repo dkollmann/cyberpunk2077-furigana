@@ -26,17 +26,17 @@ This mod requires the following mods!!!
 
 
 ### Cyber Engine Tweaks
-This mod requires version 1.19.3 or higher.<br/>
+This mod requires version 1.19.4 or higher.<br/>
 https://www.nexusmods.com/cyberpunk2077/mods/107
 
 
 ### redscript
-This mod requires version 0.5.0 or higher.<br/>
+This mod requires version 0.5.1 or higher.<br/>
 https://www.nexusmods.com/cyberpunk2077/mods/1511
 
 
 ### red4ext
-This mod requires version 1.4.0 or higher.<br/>
+This mod requires version 1.5.0 or higher.<br/>
 https://www.nexusmods.com/cyberpunk2077/mods/2380
 
 
