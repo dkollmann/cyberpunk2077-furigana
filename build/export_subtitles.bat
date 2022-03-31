@@ -8,18 +8,18 @@ set SUBTITLEPATH=base\localization\jp-jp\subtitles
 SET WOLVENKITFILES=%BUILDFOLDER%\..\src\wolvenkit\Cyberpunk 2077 Furigana\files
 SET MODFILES=%WOLVENKITFILES%\Mod_Exported
 SET RAWFILES=%WOLVENKITFILES%\Raw
-set TARGET=%MODFILES%\%SUBTITLEPATH%
+set SOURCE=%MODFILES%\%SUBTITLEPATH%
 set TARGETRAW=%RAWFILES%\%SUBTITLEPATH%
 set ARCHIVEFOLDER=%CP2077FOLDER%\archive\pc\content
-
-echo Removing previous files...
-rem rmdir /s/q "%TARGET%"
-rem mkdir "%TARGET%"
 
 rmdir /s/q "%TARGETRAW%"
 mkdir "%TARGETRAW%"
 
-goto noexport
+rem goto noexport
+echo Removing previous files...
+rmdir /s/q "%SOURCE%"
+mkdir "%SOURCE%"
+
 echo Exporting subtitles...
 cd "%ARCHIVEFOLDER%"
 
@@ -32,7 +32,7 @@ cd "%BUILDFOLDER%"
 :noexport
 
 echo Copying files...
-xcopy /s /q "%TARGET%" "%TARGETRAW%"
+xcopy /s /q "%SOURCE%" "%TARGETRAW%"
 
 echo Decoding subtitles...
 call WolvenKit.Console\WolvenKit.CLI.exe cr2w -p "%TARGETRAW%" -s
