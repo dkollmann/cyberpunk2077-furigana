@@ -3,10 +3,10 @@
 cd %~dp0
 
 rem Get the absolute path
-set CP2077=C:\Program Files (x86)\GOG Galaxy\Games\Cyberpunk 2077
+call cp2077path.bat
 
 rem Run the compiler
-echo Cyberpunk 2077 Path: %CP2077%
+echo Cyberpunk 2077 Path: %CP2077FOLDER%
 
 echo Killing Cyberpunk2077.exe...
 taskkill /F /IM Cyberpunk2077.exe
@@ -26,12 +26,12 @@ rem copy /y ..\src\CP77_nativeSettings\nativeSettings\* ..\dist\bin\x64\plugins\
 
 xcopy /y /e "..\src\wolvenkit\Cyberpunk 2077 Furigana\packed\*" ..\dist\*
 
-echo Copy to CP2077 folder...
-xcopy /y /e ..\dist\* "%CP2077%"
+echo Copy to CP2077FOLDER folder...
+xcopy /y /e ..\dist\* "%CP2077FOLDER%"
 
 echo Running redscript compiler...
-redscript-cli.exe compile -s "%CP2077%\r6\scripts" -b "%CP2077%\r6\cache\final.redscripts.bk" -o "%CP2077%\r6\cache\final_patched.redscripts"
+redscript-cli.exe compile -s "%CP2077FOLDER%\r6\scripts" -b "%CP2077FOLDER%\r6\cache\final.redscripts.bk" -o "%CP2077FOLDER%\r6\cache\final_patched.redscripts"
 
-rem type "%CP2077%\r6\cache\redscript.log"
+rem type "%CP2077FOLDER%\r6\cache\redscript.log"
 
 rem pause

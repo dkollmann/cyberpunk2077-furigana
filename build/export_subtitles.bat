@@ -3,7 +3,7 @@
 cd %~dp0
 
 set BUILDFOLDER=%CD%
-set CP2077FOLDER=C:\Program Files (x86)\GOG Galaxy\Games\Cyberpunk 2077
+call cp2077path.bat
 set SUBTITLEPATH=base\localization\jp-jp\subtitles
 SET WOLVENKITFILES=%BUILDFOLDER%\..\src\wolvenkit\Cyberpunk 2077 Furigana\files
 SET MODFILES=%WOLVENKITFILES%\Mod_Exported
