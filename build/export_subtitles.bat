@@ -20,15 +20,16 @@ echo Removing previous files...
 rmdir /s/q "%SOURCE%"
 mkdir "%SOURCE%"
 
-echo Exporting subtitles...
-cd "%ARCHIVEFOLDER%"
+echo Exporting subtitles (%ARCHIVEFOLDER%)...
+cd /d "%ARCHIVEFOLDER%"
 
 for /r %%i in (*.archive) do (
+	echo   %%i
 	call "%BUILDFOLDER%\WolvenKit.Console\WolvenKit.CLI.exe" unbundle -p "%%i" -o "%MODFILES%" -w "%SUBTITLEPATH%\*"
 )
 
 color 07
-cd "%BUILDFOLDER%"
+cd /d "%BUILDFOLDER%"
 :noexport
 
 echo Copying files...
