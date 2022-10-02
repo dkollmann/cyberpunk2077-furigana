@@ -71,7 +71,7 @@ constexpr bool iskatakana(char32_t n)
 
 constexpr bool islatin(char32_t n)
 {
-    return (n >= U'A' && n <= U'Z') || (n >= U'a' && n <= U'z') || n == '-' || n == '(' || n == ')' || n == '<' || n == '>';
+    return (n >= U'A' && n <= U'Z') || (n >= U'a' && n <= U'z') || n == U'-' || n == U'(' || n == U')' || n == U'<' || n == U'>';
 }
 
 constexpr bool isnumber(char32_t n)
@@ -84,6 +84,10 @@ void AddFragment(StrSplitFuriganaList &fragments, int start, int size, int charc
     assert(start >= 0);
     assert(size > 0);
     assert(charcount > 0 && charcount <= size);
+
+    // TODO hack as the red script does not support latin right now
+    if(type == StrSplitFuriganaListType::Latin)
+        type = StrSplitFuriganaListType::Text;
 
     fragments.PushBack((short)start);
     fragments.PushBack((short)size);
@@ -209,7 +213,13 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
     if(textsize < 1)
         return;
 
-    ParseFurigana(textstr, textsize, dokatakana, fragments);
+    int katakanamode = (int) StrSplitFuriganaKatakanaMode::Disabled;
+
+    // TODO handle mode options
+    if(dokatakana)
+        katakanamode = (int)StrSplitFuriganaKatakanaMode::Enabled | (int)StrSplitFuriganaKatakanaMode::IncludeLatin | (int)StrSplitFuriganaKatakanaMode::IncludeNumbers;
+
+    ParseFurigana(textstr, textsize, katakanamode, fragments);
 }
 
 StrSplitFuriganaListType GetBlockType(char32_t ch, int mode, bool &isfurigana)
@@ -229,10 +239,10 @@ StrSplitFuriganaListType GetBlockType(char32_t ch, int mode, bool &isfurigana)
             return StrSplitFuriganaListType::Katakana;
 
         if( (mode & (int)StrSplitFuriganaKatakanaMode::IncludeLatin) != 0 && islatin(ch) )  // treat latin as katakana, like in "T-バグ"
-            return StrSplitFuriganaListType::Katakana;
+            return StrSplitFuriganaListType::Latin;
 
         if( (mode & (int)StrSplitFuriganaKatakanaMode::IncludeNumbers) != 0 && isnumber(ch) )  // treat numbers as katakana
-            return StrSplitFuriganaListType::Katakana;
+            return StrSplitFuriganaListType::Latin;
     }
 
     return StrSplitFuriganaListType::Text;
@@ -305,7 +315,15 @@ void ParseFurigana(const char8_t *textstr, int textsize, int katakanamode, StrSp
 	            break;
 
 	        // determine the current block
-	        const auto newblock = GetBlockType(ch, katakanamode, isfurigana);
+	        auto newblock = GetBlockType(ch, katakanamode, isfurigana);
+
+            // latin with a katakana block stays a katakana block
+            if( (newblock == StrSplitFuriganaListType::Latin && block == StrSplitFuriganaListType::Katakana) ||
+                (newblock == StrSplitFuriganaListType::Katakana && block == StrSplitFuriganaListType::Latin) )
+            {
+	            newblock = StrSplitFuriganaListType::Katakana;
+                block = StrSplitFuriganaListType::Katakana;
+            }
 
 	        if(block != newblock)
 	        {

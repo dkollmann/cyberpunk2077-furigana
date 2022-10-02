@@ -3,9 +3,23 @@
 #include "furigana.h"
 #include <cassert>
 
+constexpr int StrLength(const char8_t *str)
+{
+	int count = 0;
+
+	auto ch = str;
+	while(*ch != 0)
+	{
+		count++;
+		ch++;
+	}
+
+	return count;
+}
+
 void ParseFurigana(const char8_t *textstr, int katakanamode, StrSplitFuriganaList &fragments)
 {
-	ParseFurigana(textstr, std::strlen((const char*)textstr), katakanamode, fragments);
+	ParseFurigana(textstr, StrLength(textstr), katakanamode, fragments);
 }
 
 void CheckFragment(const char8_t *text, const StrSplitFuriganaList &fragments, int index, const char8_t *expected, StrSplitFuriganaListType etype)
@@ -17,7 +31,7 @@ void CheckFragment(const char8_t *text, const StrSplitFuriganaList &fragments, i
 	int count = fragments[index + (int)StrSplitFuriganaIndex::CharCount];
 	auto tpe = (StrSplitFuriganaListType) fragments[index + (int)StrSplitFuriganaIndex::Type];
 
-	int esz = std::strlen((const char*)expected);
+	int esz = StrLength(expected);
 
 	assert(sz == esz);
 	assert(tpe == etype);
@@ -34,8 +48,6 @@ void CheckFragment(const char8_t *text, const StrSplitFuriganaList &fragments, i
 void RunUnitTests()
 {
 	constexpr int katakanamode = (int)StrSplitFuriganaKatakanaMode::Enabled | (int)StrSplitFuriganaKatakanaMode::IncludeLatin | (int)StrSplitFuriganaKatakanaMode::IncludeNumbers;
-
-	char8_t buf[1024];
 
 	{
 		auto str = u8"煙の立つところに、バーガスあり";
@@ -76,6 +88,16 @@ void RunUnitTests()
 		CheckFragment(str, f, 14, u8"何", StrSplitFuriganaListType::Kanji);
 		CheckFragment(str, f, 15, u8"なに", StrSplitFuriganaListType::Furigana);
 		CheckFragment(str, f, 16, u8"？", StrSplitFuriganaListType::Text);
+	}
+
+	{
+		auto str = u8"T-バグ";
+		StrSplitFuriganaList f;
+		ParseFurigana(str, katakanamode, f);
+
+		assert(f.size == 1 * (int) StrSplitFuriganaIndex::COUNT);
+
+		CheckFragment(str, f, 0, str, StrSplitFuriganaListType::Katakana);
 	}
 }
 

@@ -9,7 +9,8 @@ enum class StrSplitFuriganaListType : short
     Text = 0,
     Kanji = 1,
     Furigana = 2,
-    Katakana = 3
+    Katakana = 3,
+    Latin = 4
 };
 
 enum class StrSplitFuriganaIndex : int
