@@ -6,8 +6,14 @@
 #include <RED4ext/Scripting/Natives/Generated/ink/TextWidget.hpp>
 #include "utf8proc/utf8proc.h"
 #include <vector>
-#include <assert.h>
+#include <cassert>
 #include <charconv>
+#include "furigana.h"
+
+#ifdef _DEBUG
+	extern void RunUnitTests();
+#endif
+
 
 template<typename T> class vectorstring : public std::vector<T>
 {
@@ -52,35 +58,26 @@ template<typename T> bool ToWChar(const char *utf8, T &wchar)
     return sz2 != 0;
 }
 
-constexpr bool iskanji(int n)
+constexpr bool iskanji(char32_t n)
 {
     // must be the same as from the python script that generates the furigana
     return (n >= 19968 && n <= 40959) || n == 12293 || n == 12534;
 }
 
-constexpr bool iskatakana(int n)
+constexpr bool iskatakana(char32_t n)
 {
     return (n >= 12448 && n <= 12543);
 }
 
-enum class StrSplitFuriganaListType : short
+constexpr bool islatin(char32_t n)
 {
-    Text = 0,
-    Kanji = 1,
-    Furigana = 2,
-    Katakana = 3
-};
+    return (n >= U'A' && n <= U'Z') || (n >= U'a' && n <= U'z') || n == '-' || n == '(' || n == ')' || n == '<' || n == '>';
+}
 
-typedef RED4ext::DynArray<short> StrSplitFuriganaList;
-
-enum class StrSplitFuriganaIndex : int
+constexpr bool isnumber(char32_t n)
 {
-    Start = 0,
-    Size = 1,
-    CharCount = 2,
-    Type = 3,
-    COUNT = 4
-};
+    return (n >= U'0' && n <= U'9');
+}
 
 void AddFragment(StrSplitFuriganaList &fragments, int start, int size, int charcount, StrSplitFuriganaListType type)
 {
@@ -177,7 +174,7 @@ void StrAddSpaces(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, 
 }
 
 
-int FindStringIdEnd(const char *text)
+int FindStringIdEnd(const char8_t *text)
 {
     for(int i = 0; i < 17; ++i)
     {
@@ -206,22 +203,55 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
     StrSplitFuriganaList &fragments = *aOut;
 
     // check if there are actually furigana in there
-    auto textstr = text.c_str();
+    auto textstr = (const char8_t*) text.c_str();
     const int textsize = (int) text.Length();
 
     if(textsize < 1)
         return;
 
+    ParseFurigana(textstr, textsize, dokatakana, fragments);
+}
+
+StrSplitFuriganaListType GetBlockType(char32_t ch, int mode, bool &isfurigana)
+{
+    if(isfurigana || ch == U'{' /*|| ch == U'}'*/)
+    {
+        isfurigana = ch != U'}';
+        return StrSplitFuriganaListType::Furigana;
+    }
+
+    if( iskanji(ch) )
+        return StrSplitFuriganaListType::Kanji;
+
+    if(mode > 0)
+    {
+	    if(iskatakana(ch))
+            return StrSplitFuriganaListType::Katakana;
+
+        if( (mode & (int)StrSplitFuriganaKatakanaMode::IncludeLatin) != 0 && islatin(ch) )  // treat latin as katakana, like in "T-バグ"
+            return StrSplitFuriganaListType::Katakana;
+
+        if( (mode & (int)StrSplitFuriganaKatakanaMode::IncludeNumbers) != 0 && isnumber(ch) )  // treat numbers as katakana
+            return StrSplitFuriganaListType::Katakana;
+    }
+
+    return StrSplitFuriganaListType::Text;
+}
+
+void ParseFurigana(const char8_t *textstr, int textsize, int katakanamode, StrSplitFuriganaList &fragments)
+{
     const int stringidend = FindStringIdEnd(textstr);
-    bool hasfurigana = false;
-    bool haskatakana = false;
 
     {
+        bool hasfurigana = false;
+        bool haskatakana = false;
+
         int charcount = 0;
         for(int index = stringidend; index < textsize; )
         {
-            utf8proc_int32_t ch;
-            const int chsize = (int) utf8proc_iterate((const utf8proc_uint8_t*)textstr + index, -1, &ch);
+            utf8proc_int32_t ch2;
+            const int chsize = (int) utf8proc_iterate((const utf8proc_uint8_t*)textstr + index, -1, &ch2);
+            const char32_t ch = (char32_t) ch2;
 
             if(chsize <= 0)
                 break;
@@ -229,7 +259,7 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
             index += chsize;
             charcount++;
 
-            if( ch == '{' )
+            if( ch == U'{' )
             {
                 hasfurigana = true;
 
@@ -237,7 +267,7 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
                     break;
             }
 
-            else if( dokatakana && iskatakana(ch) )
+            else if( katakanamode > 0 && iskatakana(ch) )
             {
                 haskatakana = true;
 
@@ -256,134 +286,63 @@ void StrSplitFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
 
     fragments.Reserve(128);
 
-    int start = stringidend;
-    int charcount = 0;
-    int kanjiblock = -1;
-    int kanjiblock_charcount = 0;
-    int kanjisize = 0;
-    int katakanablock = -1;
-    int katakanablock_charcount = 0;
-    bool insideblock = false;
-
     auto subtitle = (const utf8proc_uint8_t*) textstr;
-    for(int index = stringidend; index < textsize; )
+
     {
-        // get the next character
-        utf8proc_int32_t ch;
-        const int chsize = (int) utf8proc_iterate(subtitle + index, -1, &ch);
+	    int start = stringidend;
+	    int charcount = 0;
+	    auto block = StrSplitFuriganaListType::NoBlock;
+        bool isfurigana = false;
 
-        if(chsize <= 0)
-            break;
+	    for(int index = stringidend; index < textsize; )
+	    {
+	        // get the next character
+	        utf8proc_int32_t ch2;
+	        const int chsize = (int) utf8proc_iterate(subtitle + index, -1, &ch2);
+	        const char32_t ch = (char32_t) ch2;
 
-        // process the character
-        if(insideblock)
-        {
-            if(ch == (int)'}')
-            {
-                // add the furigana block
-                AddFragment(fragments, start, index - start, charcount, StrSplitFuriganaListType::Furigana);
+	        if(chsize <= 0)
+	            break;
 
-                // continue outside of the block
-                start = index + chsize;
-                charcount = 0;
-                insideblock = false;
-            }
-            else
-            {
-                charcount++;
-            }
-        }
-        else
-        {
-            if(hasfurigana && ch == (int)'{')
-            {
-                // add the text block before the kanji
-                if(kanjiblock > start)
+	        // determine the current block
+	        const auto newblock = GetBlockType(ch, katakanamode, isfurigana);
+
+	        if(block != newblock)
+	        {
+                if(block == StrSplitFuriganaListType::NoBlock)
                 {
-                    AddFragment(fragments, start, kanjiblock - start, charcount, StrSplitFuriganaListType::Text);
-                    charcount = 0;
+	                block = newblock;
                 }
-
-                // add the kanji block
-                assert(kanjiblock >= 0);
-                if(kanjiblock >= 0)
+                else
                 {
-                    AddFragment(fragments, kanjiblock, index - kanjiblock, kanjiblock_charcount, StrSplitFuriganaListType::Kanji);
-                    kanjiblock_charcount = 0;
-                    kanjiblock = -1;
-                }
-
-                // continue the block
-                start = index + chsize;
-                insideblock = true;
-                kanjisize = 0;
-            }
-            else
-            {
-                if( kanjiblock < 0 && iskanji(ch) )
-                {
-                    kanjiblock = index;
-                    kanjisize = chsize;
-                    assert(kanjiblock_charcount == 0);
-                }
-
-                // handle extracting katakana
-                bool iskata = false;
-                if(haskatakana)
-                {
-                    if( iskatakana(ch) )
+                    // check if we are adding a furigana block
+                    if(block == StrSplitFuriganaListType::Furigana)
                     {
-                        iskata = true;
+						assert(textstr[start] == '{');
+                        assert(textstr[index -1] == '}');
 
-                        if(katakanablock < 0)
-                        {
-                            katakanablock = index;
-
-                            // add the text before the katakana
-                            if(katakanablock > start)
-                            {
-                                AddFragment(fragments, start, katakanablock - start, charcount, StrSplitFuriganaListType::Text);
-                                charcount = 0;
-                            }
-                        }
-
-                        katakanablock_charcount++;
+                        AddFragment(fragments, start + 1, index - start - 2, charcount - 2, block);
                     }
                     else
                     {
-                        if(katakanablock >= 0)
-                        {
-                            AddFragment(fragments, katakanablock, index - katakanablock, katakanablock_charcount, StrSplitFuriganaListType::Katakana);
-
-                            start = index;
-                            katakanablock = -1;
-                            katakanablock_charcount = 0;
-                        }
+						AddFragment(fragments, start, index - start, charcount, block);
                     }
+
+		            start = index;
+		            charcount = 0;
+		            block = newblock;
                 }
+	        }
 
-                if(!iskata)
-                {
-                    if(kanjiblock >= 0)
-                        kanjiblock_charcount++;
-                    else
-                        charcount++;
-                }
-            }
-        }
+            index += chsize;
+            charcount++;
+	    }
 
-        index += chsize;
-    }
-
-    assert(!insideblock);
-
-    if(start < textsize)
-    {
-        // add the text at the end
-        if(katakanablock >= 0)
-            AddFragment(fragments, katakanablock, textsize - katakanablock, katakanablock_charcount, StrSplitFuriganaListType::Katakana);
-        else
-            AddFragment(fragments, start, textsize - start, charcount, StrSplitFuriganaListType::Text);
+	    if(start < textsize)
+	    {
+	        // add the text at the end
+	        AddFragment(fragments, start, textsize - start, charcount, block);
+	    }
     }
 
 #ifdef _DEBUG
@@ -445,7 +404,7 @@ void StrStripFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
         return;
 
     // check if there are actually furigana in there
-    auto textstr = text.c_str();
+    auto textstr = (const char8_t*) text.c_str();
     const int textsize = (int) text.Length();
     const int stringidend = FindStringIdEnd(textstr);
     bool hasfurigana = false;
@@ -466,7 +425,7 @@ void StrStripFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
         return;
     }
 
-    vectorstring<char> stripped;
+    vectorstring<char8_t> stripped;
     stripped.reserve(textsize);
 
     int start = stringidend;
@@ -490,7 +449,7 @@ void StrStripFurigana(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
 
     stripped.addzero();
 
-    RED4ext::CString result( stripped.data() );
+    RED4ext::CString result( (const char*) stripped.data() );
 
     (*aOut) = std::move(result);
 }
@@ -609,6 +568,9 @@ void OpenBrowser(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, u
 
 RED4EXT_C_EXPORT void RED4EXT_CALL RegisterTypes()
 {
+#ifdef _DEBUG
+    RunUnitTests();
+#endif
 }
 
 RED4EXT_C_EXPORT void RED4EXT_CALL PostRegisterTypes()

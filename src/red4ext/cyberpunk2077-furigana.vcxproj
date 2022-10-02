@@ -176,9 +176,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="unittest.cpp" />
     <ClCompile Include="utf8proc\utf8proc.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="furigana.h" />
     <ClInclude Include="utf8proc\utf8proc.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

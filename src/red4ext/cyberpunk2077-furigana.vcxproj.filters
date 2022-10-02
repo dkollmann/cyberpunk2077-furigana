@@ -16,10 +16,16 @@
     <ClCompile Include="utf8proc\utf8proc.c">
       <Filter>Source Files\utf8proc</Filter>
     </ClCompile>
+    <ClCompile Include="unittest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="utf8proc\utf8proc.h">
       <Filter>Source Files\utf8proc</Filter>
+    </ClInclude>
+    <ClInclude Include="furigana.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
