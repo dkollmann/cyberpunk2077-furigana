@@ -115,6 +115,9 @@ registerForEvent("onInit", function()
 		colorKanjiHue2 = 77,
 		colorKanjiSat = 50,
 
+		colorLatinHue = 197,
+		colorLatinSat = 100,
+
 		showLineIDs = false
 	}
 
@@ -151,6 +154,9 @@ registerForEvent("onInit", function()
 		self.colorKanjiHue1 = state.colorKanjiHue1 / 360.0
 		self.colorKanjiHue2 = state.colorKanjiHue2 / 360.0
 		self.colorKanjiSat = state.colorKanjiSat / 100.0
+
+		self.colorLatinHue = state.colorLatinHue / 360.0
+		self.colorLatinSat = state.colorLatinSat / 100.0
 
 		self.showLineIDs = state.showLineIDs
 	end)
@@ -292,6 +298,20 @@ registerForEvent("onInit", function()
 		state.colorKanjiSat = value
 
 		UpdateColorSlider(ColorKanjiSatSlider, state.colorKanjiHue1, state.colorKanjiSat, 68)
+	end)
+
+	ColorLatinHueSlider = nativeSettings.addRangeInt("/furigana/colors", "Latin Text & Arabic Numbers Color*", "The color of Western text and numbers.", 0, 360, 1, state.colorLatinHue, stateDefaults.colorLatinHue, function(value) -- path, label, desc, min, max, step, currentValue, defaultValue, callback, optionalIndex
+		print("Changed Latin Color to ", value)
+		state.colorLatinHue = value
+
+		UpdateColorSlider(ColorLatinHueSlider, state.colorLatinHue, state.colorLatinSat, 68)
+	end)
+
+	ColorLatinSatSlider = nativeSettings.addRangeInt("/furigana/colors", "Latin Text & Arabic Numbers Saturation*", "The saturation of Western text and numbers.", 0, 100, 1, state.colorLatinSat, stateDefaults.colorLatinSat, function(value) -- path, label, desc, min, max, step, currentValue, defaultValue, callback, optionalIndex
+		print("Changed Latin Saturation to ", value)
+		state.colorLatinSat = value
+
+		UpdateColorSlider(ColorLatinSatSlider, state.colorLatinHue, state.colorLatinSat, 68)
 	end)
 
 	------------------------------ DIALOG ------------------------------

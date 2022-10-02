@@ -15,7 +15,8 @@ enum StrSplitFuriganaType
 	Text = 0,
 	Kanji = 1,
 	Furigana = 2,
-	Katakana = 3
+	Katakana = 3,
+	Latin = 4
 }
 
 /** Generates a list of blocks for the given string.
@@ -24,7 +25,7 @@ enum StrSplitFuriganaType
 	  n == 0 --> The first byte of the block, inside the string.
 	  n == 1 --> The size of the block in bytes, inside the string.
 	  n == 2 --> The number of characters of the block.
-	  n == 3 --> The type of the block. 0 = text, 1 = kanji, 2 = furigana, 3 = katakana */
+	  n == 3 --> The type of the block. 0 = text, 1 = kanji, 2 = furigana, 3 = katakana, 4 = latin */
 private static native func StrSplitFurigana(text: String, splitKatakana :Bool) -> array<Int16>;
 
 /** Removes all furigana from a given string. */
@@ -126,7 +127,7 @@ public static func GenerateSettingsPreview(widget :ref<inkCompoundWidget>, creat
 
 	let generator = new FuriganaGenerator().init(FuriganaGeneratorMode.SettingsPreview);
 
-	let text =	"ナイトシティで動{どう}物{ぶつ}を見{み}たのは初{はじ}めてだ。もちろん、ゴキブリを除{のぞ}いてな";
+	let text =	"ナイトシティは大{だい}都{と}会{かい}だ。T-バグは35歳{さい}で、NCPDが好{す}きじゃない。";
 	let fontsize = 40;
 
 	generator.GenerateFurigana(widget, text, "Untranslated Mothertongue Text", 0.0, Cast<Uint64>(0), fontsize, false, !create, false);
@@ -206,6 +207,9 @@ public class FuriganaSettings
 	public let colorKanjiHue2 :Float;
 	public let colorKanjiSat :Float;
 
+	public let colorLatinHue :Float;
+	public let colorLatinSat :Float;
+
 	public let showLineIDs :Bool;
 	
 	public func Get() -> Void {}
@@ -241,6 +245,13 @@ public class FuriganaSettings
 		let light = selectedDialogOption ? MaxF(0.0, 68.0 - this.dialogTextBrightness) : 68.0;
 
 		return FuriganaSettings.hslToRgb(this.colorKanjiHue2, this.colorKanjiSat, light / 100.0);
+	}
+
+	public func GetLatinColor(selectedDialogOption :Bool) -> Color
+	{
+		let light = selectedDialogOption ? MaxF(0.0, 68.0 - this.dialogTextBrightness) : 68.0;
+
+		return FuriganaSettings.hslToRgb(this.colorLatinHue, this.colorLatinSat, light / 100.0);
 	}
 }
 
@@ -426,6 +437,7 @@ public class FuriganaGenerator
 		let TypeKanji = EnumInt(StrSplitFuriganaType.Kanji);
 		let TypeFurigana = EnumInt(StrSplitFuriganaType.Furigana);
 		let TypeKatakana = EnumInt(StrSplitFuriganaType.Katakana);
+		let TypeLatin = EnumInt(StrSplitFuriganaType.Latin);
 
 		let hasmothertongue = this.settings.motherTongueShow && StrLen(motherTongueText) > 0;
 
@@ -467,6 +479,7 @@ public class FuriganaGenerator
 		let katakanacolor = this.settings.GetKatakanaColor(selectedDialogOption);
 		let furiganacolor1 = this.settings.GetKanjiColor1(selectedDialogOption);
 		let furiganacolor2 = this.settings.GetKanjiColor2(selectedDialogOption);
+		let latincolor = this.settings.GetLatinColor(selectedDialogOption);
 
 		let furiganaclridx = 0;
 
@@ -530,7 +543,7 @@ public class FuriganaGenerator
 			let str = StrMid(japaneseText, start, size);
 
 			// handle normal text and katakana
-			if type == TypeText || type == TypeKatakana
+			if type == TypeText || type == TypeKatakana || type == TypeLatin
 			{
 				// when there is no kanji with furigana, reset the color index
 				if this.settings.colorizeKanji == 2 {
@@ -539,14 +552,18 @@ public class FuriganaGenerator
 
 				// determine color
 				let clr :Color;
-				if type == 0 {
-					clr = textcolor;
-				} else {
+				if type == TypeKatakana {
 					clr = katakanacolor;
+				} else {
+					if type == TypeLatin {
+						clr = latincolor;
+					} else {
+						clr = textcolor;
+					}
 				}
 
 				// limit the length, but not for katakana
-				if type == TypeText && !singleline && currcharlen + count > maxlinelength
+				if type != TypeKatakana && !singleline && currcharlen + count > maxlinelength
 				{
 					// try to find a word
 					let remains = maxlinelength - currcharlen;

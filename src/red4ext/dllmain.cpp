@@ -85,10 +85,6 @@ void AddFragment(StrSplitFuriganaList &fragments, int start, int size, int charc
     assert(size > 0);
     assert(charcount > 0 && charcount <= size);
 
-    // TODO hack as the red script does not support latin right now
-    if(type == StrSplitFuriganaListType::Latin)
-        type = StrSplitFuriganaListType::Text;
-
     fragments.PushBack((short)start);
     fragments.PushBack((short)size);
     fragments.PushBack((short)charcount);
