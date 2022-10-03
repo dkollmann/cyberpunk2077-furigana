@@ -461,7 +461,7 @@ public class FuriganaGenerator
 		}
 
 		let size = ArraySize(blocks);
-		let count = size / IndexCOUNT;
+		//let count = size / IndexCOUNT;
 
 		// handle the fade-in
 		let fadeinduration = 0.0;

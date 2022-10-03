@@ -31,7 +31,7 @@ https://www.nexusmods.com/cyberpunk2077/mods/107
 
 
 ### redscript
-This mod requires version 0.5.5 or higher.<br/>
+This mod requires version 0.5.8 or higher.<br/>
 https://www.nexusmods.com/cyberpunk2077/mods/1511
 
 
@@ -41,5 +41,5 @@ https://www.nexusmods.com/cyberpunk2077/mods/2380
 
 
 ### Native Settings UI
-This mod requires version 1.8 or higher.<br/>
+This mod requires version 1.9 or higher.<br/>
 https://www.nexusmods.com/cyberpunk2077/mods/3518
