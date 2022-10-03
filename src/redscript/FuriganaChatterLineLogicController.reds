@@ -59,11 +59,11 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 		{
 			displayData = scnDialogLineData.GetDisplayText(lineData);
 
-			generator.GenerateFurigana(root, displayData.translation, displayData.text, lineData.duration, CRUIDToUint64(lineData.id), fontsize, false, false, false);
+			generator.GenerateFurigana(root, displayData.translation, displayData.text, lineData.duration, CRUIDToUint64(lineData.id), fontsize, false, false, GenerateFuriganaTextType.Default);
 		}
 		else
 		{
-			generator.GenerateFurigana(root, lineData.text, "", lineData.duration, CRUIDToUint64(lineData.id), fontsize, false, false, false);
+			generator.GenerateFurigana(root, lineData.text, "", lineData.duration, CRUIDToUint64(lineData.id), fontsize, false, false, GenerateFuriganaTextType.Default);
 		}
 
 		inkTextRef.SetVisible(this.m_container_normal, false);

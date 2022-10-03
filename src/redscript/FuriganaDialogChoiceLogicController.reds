@@ -37,16 +37,26 @@ private final func UpdateDialogHubData() -> Void
 		Assert(rootParent, "Failed to get root active_text_wrapper!!");
 
 		let selected = this.m_dialogHubData.m_isSelected && this.m_dialogHubData.m_selectedInd == i;
+		let dimmed = ChoiceTypeWrapper.IsType(currListChoiceData.type, gameinteractionsChoiceType.Inactive) || ChoiceTypeWrapper.IsType(currListChoiceData.type, gameinteractionsChoiceType.CheckFailed) || !ChoiceTypeWrapper.IsType(currListChoiceData.type, gameinteractionsChoiceType.QuestImportant) && ChoiceTypeWrapper.IsType(currListChoiceData.type, gameinteractionsChoiceType.AlreadyRead);
+
+		let textType = GenerateFuriganaTextType.Default;
+		if selected {
+			textType = GenerateFuriganaTextType.Selected;
+		} else {
+			if dimmed {
+				textType = GenerateFuriganaTextType.Dimmed;
+			}
+		}
 
 		// generate furigana
-		generator.GenerateFurigana(rootParent, localizedText, "", 0.0, Cast<Uint64>(0), fontsize, true, true, selected);
+		generator.GenerateFurigana(rootParent, localizedText, "", 0.0, Cast<Uint64>(0), fontsize, true, true, textType);
 
 		inkTextRef.SetVisible(currentItem.m_ActiveTextRef, false);
 
 		currentItem.SetType(currListChoiceData.type);
 		currentItem.SetDedicatedInput(currListChoiceData.inputActionName);
 		currentItem.SetIsPhoneLockActive(this.m_data.isPhoneLockActive);
-		currentItem.SetDimmed(ChoiceTypeWrapper.IsType(currListChoiceData.type, gameinteractionsChoiceType.Inactive) || ChoiceTypeWrapper.IsType(currListChoiceData.type, gameinteractionsChoiceType.CheckFailed) || !ChoiceTypeWrapper.IsType(currListChoiceData.type, gameinteractionsChoiceType.QuestImportant) && ChoiceTypeWrapper.IsType(currListChoiceData.type, gameinteractionsChoiceType.AlreadyRead));
+		currentItem.SetDimmed(dimmed);
 		currentItem.SetSelected(selected);
 		currentItem.SetData(this.m_dialogHubData.m_currentNum + i, this.m_dialogHubData.m_argTotalCountAcrossHubs, this.m_dialogHubData.m_hasAboveElements, this.m_dialogHubData.m_hasBelowElements);
 

@@ -93,7 +93,9 @@ registerForEvent("onInit", function()
 		furiganaScale = 60,
 
 		dialogMaxLineLength = 40,
-		dialogTextBrightness = 60,
+		dialogTextBrightnessDefault = 32,
+		dialogTextBrightnessSelected = 60,
+		dialogTextBrightnessDimmed = 64,
 
 		chatterMaxLineLength = 40,
 		chatterTextScale = 150,
@@ -108,15 +110,15 @@ registerForEvent("onInit", function()
 
 		colorMotherTongueLight = 100,
 
-		colorKatakanaHue = 197,
+		colorKatakanaHue = 210,
 		colorKatakanaSat = 100,
 
 		colorKanjiHue1 = 35,
 		colorKanjiHue2 = 77,
 		colorKanjiSat = 50,
 
-		colorLatinHue = 197,
-		colorLatinSat = 100,
+		colorLatinHue = colorKatakanaHue,
+		colorLatinSat = colorKatakanaSat,
 
 		showLineIDs = false
 	}
@@ -133,7 +135,9 @@ registerForEvent("onInit", function()
 		self.furiganaScale = state.furiganaScale / 100.0
 
 		self.dialogMaxLineLength = state.dialogMaxLineLength
-		self.dialogTextBrightness = 100.0 - state.dialogTextBrightness -- / 100.0
+		self.dialogTextBrightnessDefault = 100.0 - state.dialogTextBrightnessDefault
+		self.dialogTextBrightnessSelected = 100.0 - state.dialogTextBrightnessSelected
+		self.dialogTextBrightnessDimmed = 100.0 - state.dialogTextBrightnessDimmed
 
 		self.chatterMaxLineLength = state.chatterMaxLineLength
 		self.chatterTextScale = state.chatterTextScale / 100.0
@@ -320,9 +324,21 @@ registerForEvent("onInit", function()
 		state.dialogdialogMaxLineLength = value
 	end)
 
-	nativeSettings.addRangeFloat("/furigana/dialog", "Selected Text Brightness", "This makes text darker when selecting dialog options, keeping the kanji readable when being selected.", 0, 100, 1, "%.0f%%", state.dialogTextBrightness, stateDefaults.dialogTextBrightness, function(value) -- path, label, desc, min, max, step, format, currentValue, defaultValue, callback, optionalIndex
+	nativeSettings.addRangeFloat("/furigana/dialog", "Text Brightness*", "The default text brightness.", 0, 100, 1, "%.0f%%", state.dialogTextBrightnessDefault, stateDefaults.dialogTextBrightnessDefault, function(value) -- path, label, desc, min, max, step, format, currentValue, defaultValue, callback, optionalIndex
+		print("Changed Text Brightness to ", value)
+		state.dialogTextBrightnessDefault = value
+
+		UpdateTextPreview()
+	end)
+
+	nativeSettings.addRangeFloat("/furigana/dialog", "Selected Text Brightness", "This makes text darker when selecting dialog options, keeping the kanji readable when being selected.", 0, 100, 1, "%.0f%%", state.dialogTextBrightnessSelected, stateDefaults.dialogTextBrightnessSelected, function(value) -- path, label, desc, min, max, step, format, currentValue, defaultValue, callback, optionalIndex
 		print("Changed Selected Text Brightness to ", value)
-		state.dialogTextBrightness = value
+		state.dialogTextBrightnessSelected = value
+	end)
+
+	nativeSettings.addRangeFloat("/furigana/dialog", "Used Text Brightness", "This makes text darker when already used.", 0, 100, 1, "%.0f%%", state.dialogTextBrightnessDimmed, stateDefaults.dialogTextBrightnessDimmed, function(value) -- path, label, desc, min, max, step, format, currentValue, defaultValue, callback, optionalIndex
+		print("Changed Dimmed Text Brightness to ", value)
+		state.dialogTextBrightnessDimmed = value
 	end)
 
 	------------------------------ CHATTER ------------------------------
