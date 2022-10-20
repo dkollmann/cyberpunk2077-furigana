@@ -335,7 +335,7 @@ void ParseFurigana(const char8_t *textstr, int textsize, int katakanamode, StrSp
 						assert(textstr[start] == '{');
                         assert(textstr[index -1] == '}');
 
-                        AddFragment(fragments, start + 1, index - start - 2, charcount - 2, block);
+                        AddFragment(fragments, start + 1, index - start - 2, charcount - 2, StrSplitFuriganaListType::Furigana);
                     }
                     else
                     {
@@ -354,8 +354,19 @@ void ParseFurigana(const char8_t *textstr, int textsize, int katakanamode, StrSp
 
 	    if(start < textsize)
 	    {
-	        // add the text at the end
-	        AddFragment(fragments, start, textsize - start, charcount, block);
+            // add furigana at the end
+            if(block == StrSplitFuriganaListType::Furigana)
+            {
+                assert(textstr[start] == '{');
+                assert(textstr[textsize -1] == '}');
+
+                AddFragment(fragments, start + 1, textsize - start - 2, charcount - 2, StrSplitFuriganaListType::Furigana);
+            }
+            else
+            {
+		        // add the text at the end
+		        AddFragment(fragments, start, textsize - start, charcount, block);
+            }
 	    }
     }
 

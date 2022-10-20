@@ -99,6 +99,20 @@ void RunUnitTests()
 
 		CheckFragment(str, f, 0, str, StrSplitFuriganaListType::Katakana);
 	}
+
+	{
+		auto str = u8"5D29F004^そうしたいけど無{む}理{り}";
+		StrSplitFuriganaList f;
+		ParseFurigana(str, katakanamode, f);
+
+		assert(f.size == 5 * (int) StrSplitFuriganaIndex::COUNT);
+
+		CheckFragment(str, f, 0, u8"そうしたいけど", StrSplitFuriganaListType::Text);
+		CheckFragment(str, f, 1, u8"無", StrSplitFuriganaListType::Kanji);
+		CheckFragment(str, f, 2, u8"む", StrSplitFuriganaListType::Furigana);
+		CheckFragment(str, f, 3, u8"理", StrSplitFuriganaListType::Kanji);
+		CheckFragment(str, f, 4, u8"り", StrSplitFuriganaListType::Furigana);
+	}
 }
 
 #endif
