@@ -173,6 +173,10 @@ kanjireadings = {
 # provide readings for kanji words, in case that translation is incorrect
 wordreadings = [
 	WordReading(("真", "の", "戦", "士"), ("しん", "の", "せん", "し")),
+	WordReading(("五", "ヶ", "年"), ("ご", "か", "ねん")),
+	WordReading(("五", "ヶ", "月"), ("ご", "か", "げつ")),
+	WordReading(("六", "ヶ", "月"), ("ろっ", "か", "げつ")),
+	WordReading(("二", "ヶ", "所"), ("に", "か", "しょ")),
 ]
 
 maker = Instance("{", "}", kakasi, mecab, jam)
