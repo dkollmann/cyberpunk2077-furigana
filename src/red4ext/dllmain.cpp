@@ -58,6 +58,12 @@ template<typename T> bool ToWChar(const char *utf8, T &wchar)
     return sz2 != 0;
 }
 
+// http://www.rikai.com/library/kanjitables/kanji_codes.unicode.shtml
+constexpr bool isjapanese(char32_t n)
+{
+    return (n >= 0x3000 && n <= 0x4dbf);
+}
+
 constexpr bool iskanji(char32_t n)
 {
     // must be the same as from the python script that generates the furigana
@@ -249,8 +255,7 @@ void ParseFurigana(const char8_t *textstr, int textsize, int katakanamode, StrSp
     const int stringidend = FindStringIdEnd(textstr);
 
     {
-        bool hasfurigana = false;
-        bool haskatakana = false;
+        bool onlylatin = true;
 
         int charcount = 0;
         for(int index = stringidend; index < textsize; )
@@ -265,25 +270,15 @@ void ParseFurigana(const char8_t *textstr, int textsize, int katakanamode, StrSp
             index += chsize;
             charcount++;
 
-            if( ch == U'{' )
-            {
-                hasfurigana = true;
-
-                if(hasfurigana && haskatakana)
-                    break;
-            }
-
-            else if( katakanamode > 0 && iskatakana(ch) )
-            {
-                haskatakana = true;
-
-                if(hasfurigana && haskatakana)
-                    break;
-            }
+			if( isjapanese(ch) )
+			{
+				onlylatin = false;
+				break;
+			}
         }
 
         // handle the simple case that there is no furigana
-        if(!hasfurigana && !haskatakana)
+        if(onlylatin)
         {
             AddFragment(fragments, stringidend, textsize - stringidend, charcount, StrSplitFuriganaListType::Text);
             return;
