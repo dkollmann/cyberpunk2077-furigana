@@ -4,7 +4,6 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 	let characterRecordID: TweakDBID;
 	let displayData: scnDialogDisplayString;
 	let isValidName: Bool;
-	let kiroshiAnimationCtrl: ref<inkTextKiroshiAnimController>;
 	let motherTongueCtrl: ref<inkTextMotherTongueController>;
 	let playerPuppet: ref<gamePuppetBase>;
 	let speakerName: String;
