@@ -168,6 +168,8 @@ kanjireadings = {
 	"日": KanjiReading(("ニチ", "ジツ", "ニ"), ("ひ", "び", "か")),
 	"真": KanjiReading(("シン",), ("まこと", "ま")),
 	"一": KanjiReading(("イチ", "イツ", "イ"), ("ひと", "いっ")),
+	"六": KanjiReading(("ロク", "リク"), ("む", "むっ", "むい", "ろっ")),
+	"八": KanjiReading(("ハチ", "ハツ"), ("や", "やっ", "よう", "はっ")),
 }
 
 # provide readings for kanji words, in case that translation is incorrect
