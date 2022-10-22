@@ -167,7 +167,7 @@ kanjireadings = {
 	"手": KanjiReading(("シュ", "ズ"), ("て", "で", "た")),
 	"日": KanjiReading(("ニチ", "ジツ", "ニ"), ("ひ", "び", "か")),
 	"真": KanjiReading(("シン",), ("まこと", "ま")),
-	"一": KanjiReading(("イチ", "イツ", "イ"), ("ひと",)),
+	"一": KanjiReading(("イチ", "イツ", "イ"), ("ひと", "いっ")),
 }
 
 # provide readings for kanji words, in case that translation is incorrect
