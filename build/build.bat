@@ -24,7 +24,7 @@ copy /y ..\src\cyber_engine_tweaks\* ..\dist\bin\x64\plugins\cyber_engine_tweaks
 rem mkdir ..\dist\bin\x64\plugins\cyber_engine_tweaks\mods\nativeSettings
 rem copy /y ..\src\CP77_nativeSettings\nativeSettings\* ..\dist\bin\x64\plugins\cyber_engine_tweaks\mods\nativeSettings\*
 
-xcopy /y /e "..\src\wolvenkit\Cyberpunk 2077 Furigana\packed\*" ..\dist\*
+xcopy /y /e "..\src\wolvenkit\Cyberpunk 2077 Furigana\packed\archive\pc\mod\*" "..\dist\mods\Furigana (for CP2077 v1_61)\archives\*"
 
 echo Copy to CP2077FOLDER folder...
 xcopy /y /e ..\dist\* "%CP2077FOLDER%"
