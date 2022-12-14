@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q104\\q104_07a_gas_station_infiltration.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7B3C5Z^車{くるま}がある。ノーマッドのね",
-                    "maleVariant": "7B3C5Z^車{くるま}がある。ノーマッドのな",
-                    "stringId": 1641739873595183104
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D63C5Z^侵{しん}入{にゅう}した",
-                    "maleVariant": null,
-                    "stringId": 1641743311095746560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "733C5Z^OK。援{えん}護{ご}は任{まか}せて",
-                    "maleVariant": null,
-                    "stringId": 1641745439738580992
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CC3C5Z^送{そう}受{じゅ}信{しん}タワーに見{み}張{は}りが二{ふた}人{り}",
-                    "maleVariant": null,
-                    "stringId": 1641746755491745792
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "593C5Z^うん、間{ま}違{ちが}いない。クランの車{くるま}だよ",
-                    "maleVariant": null,
-                    "stringId": 1641749635485421568
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "963C5Z^ヘルマンは絶{ぜっ}対{たい}ここにいるはず",
-                    "maleVariant": null,
-                    "stringId": 1641752003035811840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "823C5Z^用心{ようじん}して",
-                    "maleVariant": null,
-                    "stringId": 1641773404522303488
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3A4E6Z^クソ野{や}郎{ろう}ども… 生{い}きて帰{かえ}れると思{おも}うなよ",
-                    "maleVariant": null,
-                    "stringId": 1767636926003568640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1B4E6Z^ヘルマンの居{い}場{ば}所{しょ}がわかった。今{いま}から向{む}かう",
-                    "maleVariant": null,
-                    "stringId": 1773383462876504064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3B29FZ^OK。援{えん}護{ご}は任{まか}せて",
-                    "maleVariant": null,
-                    "stringId": 1773417475257004032
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7B3C5Z^車{くるま}がある。ノーマッドのね",
+              "maleVariant": "7B3C5Z^車{くるま}がある。ノーマッドのな",
+              "stringId": 1641739873595183104
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D63C5Z^侵{しん}入{にゅう}した",
+              "maleVariant": "",
+              "stringId": 1641743311095746560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "733C5Z^OK。援{えん}護{ご}は任{まか}せて",
+              "maleVariant": "",
+              "stringId": 1641745439738580992
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CC3C5Z^送{そう}受{じゅ}信{しん}タワーに見{み}張{は}りが二{ふた}人{り}",
+              "maleVariant": "",
+              "stringId": 1641746755491745792
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "593C5Z^うん、間{ま}違{ちが}いない。クランの車{くるま}だよ",
+              "maleVariant": "",
+              "stringId": 1641749635485421568
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "963C5Z^ヘルマンは絶{ぜっ}対{たい}ここにいるはず",
+              "maleVariant": "",
+              "stringId": 1641752003035811840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "823C5Z^用心{ようじん}して",
+              "maleVariant": "",
+              "stringId": 1641773404522303488
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3A4E6Z^クソ野{や}郎{ろう}ども… 生{い}きて帰{かえ}れると思{おも}うなよ",
+              "maleVariant": "",
+              "stringId": 1767636926003568640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1B4E6Z^ヘルマンの居{い}場{ば}所{しょ}がわかった。今{いま}から向{む}かう",
+              "maleVariant": "",
+              "stringId": 1773383462876504064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3B29FZ^OK。援{えん}護{ご}は任{まか}せて",
+              "maleVariant": "",
+              "stringId": 1773417475257004032
             }
-          }
+          ]
         }
       }
     },

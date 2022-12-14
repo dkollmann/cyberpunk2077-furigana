@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q112\\q112_01b_market_phonecall.json"
@@ -11,106 +11,80 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1F404Z^V、偵{てい}察{さつ}が完{かん}了{りょう}した",
-                    "maleVariant": null,
-                    "stringId": 1712754532066279424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F14E1Z^準{じゅん}備{び}は万{ばん}端{たん}だ",
-                    "maleVariant": null,
-                    "stringId": 1720104092217249792
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "24E1Z^上手{うま}くいったのね。声{こえ}でわかる",
-                    "maleVariant": "24E1Z^上手{うま}くいったんだな。声{こえ}でわかる",
-                    "stringId": 1720104672323047424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "14E1Z^そちらに座{ざ}標{ひょう}を送{おく}る。とにかく、すぐに合{ごう}流{りゅう}してくれ",
-                    "maleVariant": null,
-                    "stringId": 1720105466875219968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "V？",
-                    "maleVariant": null,
-                    "stringId": 1904250206757601284
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "53404Z^会{あ}って話{はな}そう",
-                    "maleVariant": null,
-                    "stringId": 1904250206791155712
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "55404Z^ジャパンタウンの南{みなみ}にある露{ろ}店{てん}街{まち}まで来{き}てくれ",
-                    "maleVariant": null,
-                    "stringId": 1904250206824710144
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "57404Z^大{おお}通{どお}りにかかる歩{ほ}道{どう}橋{きょう}の上{うえ}だ。昇{しょう}降{こう}機{き}を使{つか}え。迷{まよ}いやすいぞ",
-                    "maleVariant": null,
-                    "stringId": 1904250206858264576
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "58404Z^俺{おれ}も今{いま}から向{む}かう。あまり待{ま}たせるなよ",
-                    "maleVariant": null,
-                    "stringId": 1904250206875041792
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "532D2Z^オカダさんから得{え}た情{じょう}報{ほう}のおかげで、準{じゅん}備{び}は着々{ちゃくちゃく}と進{すす}んでいる。それから、俺{おれ}が調{しら}べてわかったことも報{ほう}告{こく}したい",
-                    "maleVariant": null,
-                    "stringId": 1996734695352377344
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "782D2Z^待{ま}ち合{あ}わせ場{ば}所{しょ}は？ ゴミ処{しょ}理{り}場{じょう}にする？ それとも無{む}人{じん}のNCART駅{えき}？",
-                    "maleVariant": "782D2Z^待{ま}ち合{あ}わせ場{ば}所{しょ}は？ ゴミ処{しょ}理{り}場{じょう}か？ それとも無{む}人{じん}のNCART駅{えき}か？",
-                    "stringId": 2012772198345678848
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1F404Z^V、偵{てい}察{さつ}が完{かん}了{りょう}した",
+              "maleVariant": "",
+              "stringId": 1712754532066279424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F14E1Z^準{じゅん}備{び}は万{ばん}端{たん}だ",
+              "maleVariant": "",
+              "stringId": 1720104092217249792
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "24E1Z^上手{うま}くいったのね。声{こえ}でわかる",
+              "maleVariant": "24E1Z^上手{うま}くいったんだな。声{こえ}でわかる",
+              "stringId": 1720104672323047424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "14E1Z^そちらに座{ざ}標{ひょう}を送{おく}る。とにかく、すぐに合{ごう}流{りゅう}してくれ",
+              "maleVariant": "",
+              "stringId": 1720105466875219968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "V？",
+              "maleVariant": "",
+              "stringId": 1904250206757601284
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "53404Z^会{あ}って話{はな}そう",
+              "maleVariant": "",
+              "stringId": 1904250206791155712
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "55404Z^ジャパンタウンの南{みなみ}にある露{ろ}店{てん}街{まち}まで来{き}てくれ",
+              "maleVariant": "",
+              "stringId": 1904250206824710144
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "57404Z^大{おお}通{どお}りにかかる歩{ほ}道{どう}橋{きょう}の上{うえ}だ。昇{しょう}降{こう}機{き}を使{つか}え。迷{まよ}いやすいぞ",
+              "maleVariant": "",
+              "stringId": 1904250206858264576
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "58404Z^俺{おれ}も今{いま}から向{む}かう。あまり待{ま}たせるなよ",
+              "maleVariant": "",
+              "stringId": 1904250206875041792
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "532D2Z^オカダさんから得{え}た情{じょう}報{ほう}のおかげで、準{じゅん}備{び}は着々{ちゃくちゃく}と進{すす}んでいる。それから、俺{おれ}が調{しら}べてわかったことも報{ほう}告{こく}したい",
+              "maleVariant": "",
+              "stringId": 1996734695352377344
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "782D2Z^待{ま}ち合{あ}わせ場{ば}所{しょ}は？ ゴミ処{しょ}理{り}場{じょう}にする？ それとも無{む}人{じん}のNCART駅{えき}？",
+              "maleVariant": "782D2Z^待{ま}ち合{あ}わせ場{ば}所{しょ}は？ ゴミ処{しょ}理{り}場{じょう}か？ それとも無{む}人{じん}のNCART駅{えき}か？",
+              "stringId": 2012772198345678848
             }
-          }
+          ]
         }
       }
     },

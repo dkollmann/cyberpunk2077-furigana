@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\ma_scene_gang_party_07.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうした？ ぼさっとすんなよ！",
-                    "maleVariant": null,
-                    "stringId": 2007028780948914176
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "74720Z^ナイトシティ最{さい}強{きょう}は俺{おれ}たちだ！",
-                    "maleVariant": null,
-                    "stringId": 2007028864935657472
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B720Z^ハハハッ！ ひざまずけ！ 俺{おれ}がお前{まえ}のご主{しゅ}人{じん}だ！",
-                    "maleVariant": null,
-                    "stringId": 2007028949073395712
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C2720Z^ほら、突{つ}っ立{た}ってないで、さっさとハイになろうぜ？ ハハ！",
-                    "maleVariant": null,
-                    "stringId": 2007029046632906752
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうした？ ぼさっとすんなよ！",
+              "maleVariant": "",
+              "stringId": 2007028780948914176
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "74720Z^ナイトシティ最{さい}強{きょう}は俺{おれ}たちだ！",
+              "maleVariant": "",
+              "stringId": 2007028864935657472
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B720Z^ハハハッ！ ひざまずけ！ 俺{おれ}がお前{まえ}のご主{しゅ}人{じん}だ！",
+              "maleVariant": "",
+              "stringId": 2007028949073395712
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C2720Z^ほら、突{つ}っ立{た}ってないで、さっさとハイになろうぜ？ ハハ！",
+              "maleVariant": "",
+              "stringId": 2007029046632906752
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_depr_m_01_enus_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D470A004^生{い}きる理{り}由{ゆう}がない",
-                    "maleVariant": null,
-                    "stringId": 1955957015292452868
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D570A004^街{まち}を出{で}ろ。手{て}遅{おく}れになる前{まえ}に",
-                    "maleVariant": null,
-                    "stringId": 1955957015309230084
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やめろ",
-                    "maleVariant": null,
-                    "stringId": 1955957015359561732
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まったく…",
-                    "maleVariant": null,
-                    "stringId": 1955957015376338948
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DB70A004^あんたの勝{か}ちだ",
-                    "maleVariant": null,
-                    "stringId": 1955957015409893380
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DE70A004^サインするよ… あっちの書{しょ}類{るい}にもな… クソ… もうどうにでもなれ… 知{し}ったこっちゃない",
-                    "maleVariant": null,
-                    "stringId": 1955957015460225028
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DF70A004^どうぞお好{す}きに… 失{うしな}うものは何{なに}もない… ケツの毛{け}までむしられちまったからな",
-                    "maleVariant": null,
-                    "stringId": 1955957015477002244
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E170A004^何{なに}が契{けい}約{やく}書{しょ}だ、紙{かみ}切{き}れじゃないか",
-                    "maleVariant": null,
-                    "stringId": 1955957015510556676
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EA70A004^殺{さつ}人{じん}鬼{き}だ！",
-                    "maleVariant": null,
-                    "stringId": 1955957015661551620
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EC70A004^どこまでも追{お}ってくる！",
-                    "maleVariant": null,
-                    "stringId": 1955957015695106052
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうした、やれよ",
-                    "maleVariant": null,
-                    "stringId": 1955957015762214916
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F170A004^一{いっ}思{し}いに… 死{し}のう…",
-                    "maleVariant": null,
-                    "stringId": 1955957015778992132
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F670A004^誰{だれ}の差{さ}し金{きん}だ？",
-                    "maleVariant": null,
-                    "stringId": 1955957015862878212
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わかったよ、サインすればいいんだろ！",
-                    "maleVariant": null,
-                    "stringId": 1955957015879655428
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D470A004^生{い}きる理{り}由{ゆう}がない",
+              "maleVariant": "",
+              "stringId": 1955957015292452868
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D570A004^街{まち}を出{で}ろ。手{て}遅{おく}れになる前{まえ}に",
+              "maleVariant": "",
+              "stringId": 1955957015309230084
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やめろ",
+              "maleVariant": "",
+              "stringId": 1955957015359561732
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まったく…",
+              "maleVariant": "",
+              "stringId": 1955957015376338948
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DB70A004^あんたの勝{か}ちだ",
+              "maleVariant": "",
+              "stringId": 1955957015409893380
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DE70A004^サインするよ… あっちの書{しょ}類{るい}にもな… クソ… もうどうにでもなれ… 知{し}ったこっちゃない",
+              "maleVariant": "",
+              "stringId": 1955957015460225028
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DF70A004^どうぞお好{す}きに… 失{うしな}うものは何{なに}もない… ケツの毛{け}までむしられちまったからな",
+              "maleVariant": "",
+              "stringId": 1955957015477002244
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E170A004^何{なに}が契{けい}約{やく}書{しょ}だ、紙{かみ}切{き}れじゃないか",
+              "maleVariant": "",
+              "stringId": 1955957015510556676
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EA70A004^殺{さつ}人{じん}鬼{き}だ！",
+              "maleVariant": "",
+              "stringId": 1955957015661551620
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EC70A004^どこまでも追{お}ってくる！",
+              "maleVariant": "",
+              "stringId": 1955957015695106052
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうした、やれよ",
+              "maleVariant": "",
+              "stringId": 1955957015762214916
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F170A004^一{いっ}思{し}いに… 死{し}のう…",
+              "maleVariant": "",
+              "stringId": 1955957015778992132
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F670A004^誰{だれ}の差{さ}し金{きん}だ？",
+              "maleVariant": "",
+              "stringId": 1955957015862878212
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わかったよ、サインすればいいんだろ！",
+              "maleVariant": "",
+              "stringId": 1955957015879655428
             }
-          }
+          ]
         }
       }
     },

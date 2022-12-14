@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_nid_chat_010.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2770AZ^なんでだ？ こんなことをしなくても、お前{まえ}ならテッキーにだってなれるだろ",
-                    "maleVariant": null,
-                    "stringId": 1963288946766028800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "803BCZ^パパ、やめてよ… もういい加{か}減{げん}、聞{き}き飽{あ}きた…",
-                    "maleVariant": null,
-                    "stringId": 1965052560611721216
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DD3BCZ^何{なん}回{かい}言{い}っても、お前{まえ}が聞{き}き入{い}れないからだろ。かわいい息子{むすこ}がどこの馬{うま}の骨{ほね}ともわからん奴{やつ}に傷{きず}つけられたら…",
-                    "maleVariant": null,
-                    "stringId": 1965053021733502976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1E3BCZ^心{しん}配{ぱい}いらない。モックスは仲{なか}間{ま}同{どう}士{し}でしっかり守{まも}り合{あ}ってる",
-                    "maleVariant": null,
-                    "stringId": 1965053228982452224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "553BCZ^じゃ、じゃあこれはどうだ？ ボスとの面{めん}接{せつ}を取{と}り付{つ}けてやる。ずっと機{き}械{かい}を扱{あつか}う仕{し}事{ごと}をしたがってただろ",
-                    "maleVariant": null,
-                    "stringId": 1965053607862321152
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1F3BCZ^パパ、ママはずっと機{き}械{かい}の周{まわ}りにいたせいで、がんを患{わずら}ったのよ",
-                    "maleVariant": null,
-                    "stringId": 1965053864654389248
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B63BCZ^汚{きたな}いガスで窒息{ちっそく}するより、誰{だれ}かのナニで窒息{ちっそく}するほうがマシ",
-                    "maleVariant": null,
-                    "stringId": 1965054185015328768
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2770AZ^なんでだ？ こんなことをしなくても、お前{まえ}ならテッキーにだってなれるだろ",
+              "maleVariant": "",
+              "stringId": 1963288946766028800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "803BCZ^パパ、やめてよ… もういい加{か}減{げん}、聞{き}き飽{あ}きた…",
+              "maleVariant": "",
+              "stringId": 1965052560611721216
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DD3BCZ^何{なん}回{かい}言{い}っても、お前{まえ}が聞{き}き入{い}れないからだろ。かわいい息子{むすこ}がどこの馬{うま}の骨{ほね}ともわからん奴{やつ}に傷{きず}つけられたら…",
+              "maleVariant": "",
+              "stringId": 1965053021733502976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1E3BCZ^心{しん}配{ぱい}いらない。モックスは仲{なか}間{ま}同{どう}士{し}でしっかり守{まも}り合{あ}ってる",
+              "maleVariant": "",
+              "stringId": 1965053228982452224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "553BCZ^じゃ、じゃあこれはどうだ？ ボスとの面{めん}接{せつ}を取{と}り付{つ}けてやる。ずっと機{き}械{かい}を扱{あつか}う仕{し}事{ごと}をしたがってただろ",
+              "maleVariant": "",
+              "stringId": 1965053607862321152
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1F3BCZ^パパ、ママはずっと機{き}械{かい}の周{まわ}りにいたせいで、がんを患{わずら}ったのよ",
+              "maleVariant": "",
+              "stringId": 1965053864654389248
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B63BCZ^汚{きたな}いガスで窒息{ちっそく}するより、誰{だれ}かのナニで窒息{ちっそく}するほうがマシ",
+              "maleVariant": "",
+              "stringId": 1965054185015328768
             }
-          }
+          ]
         }
       }
     },

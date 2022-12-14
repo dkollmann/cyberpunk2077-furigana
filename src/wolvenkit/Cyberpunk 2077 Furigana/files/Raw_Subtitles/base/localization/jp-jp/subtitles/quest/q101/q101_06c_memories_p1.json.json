@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q101\\q101_06c_memories_p1.json"
@@ -11,114 +11,86 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ハーイ！",
-                    "maleVariant": null,
-                    "stringId": 1533249514895007744
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ステージにはあげられませんよ！",
-                    "maleVariant": null,
-                    "stringId": 1542965313640751104
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おいおい、たかぶってんな",
-                    "maleVariant": null,
-                    "stringId": 1547721930178256896
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちょっと、なにするんです",
-                    "maleVariant": null,
-                    "stringId": 1631815321337421828
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AD5B6004^[掴{つか}む]",
-                    "maleVariant": null,
-                    "stringId": 1644798745849323524
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "145B6Z^今{こん}夜{や}… 俺{おれ}は…",
-                    "maleVariant": null,
-                    "stringId": 1767778715122229248
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "よう",
-                    "maleVariant": null,
-                    "stringId": 1885032637250887684
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "よう",
-                    "maleVariant": null,
-                    "stringId": 1885038448391970816
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F65B6Z^大{だい}丈{じょう}夫{ぶ}？",
-                    "maleVariant": null,
-                    "stringId": 1885040641878745088
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A55B6Z^みんなに、別{わか}れを言{い}いに来{き}た",
-                    "maleVariant": null,
-                    "stringId": 1892463765641453568
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D4386Z^絶{ぜっ}好{こう}調{ちょう}さ",
-                    "maleVariant": null,
-                    "stringId": 1954536188567642112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "35386Z^そうは見{み}えないけど…",
-                    "maleVariant": null,
-                    "stringId": 1954538049915871232
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ハーイ！",
+              "maleVariant": "",
+              "stringId": 1533249514895007744
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ステージにはあげられませんよ！",
+              "maleVariant": "",
+              "stringId": 1542965313640751104
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おいおい、たかぶってんな",
+              "maleVariant": "",
+              "stringId": 1547721930178256896
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちょっと、なにするんです",
+              "maleVariant": "",
+              "stringId": 1631815321337421828
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AD5B6004^[掴{つか}む]",
+              "maleVariant": "",
+              "stringId": 1644798745849323524
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "145B6Z^今{こん}夜{や}… 俺{おれ}は…",
+              "maleVariant": "",
+              "stringId": 1767778715122229248
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "よう",
+              "maleVariant": "",
+              "stringId": 1885032637250887684
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "よう",
+              "maleVariant": "",
+              "stringId": 1885038448391970816
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F65B6Z^大{だい}丈{じょう}夫{ぶ}？",
+              "maleVariant": "",
+              "stringId": 1885040641878745088
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A55B6Z^みんなに、別{わか}れを言{い}いに来{き}た",
+              "maleVariant": "",
+              "stringId": 1892463765641453568
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D4386Z^絶{ぜっ}好{こう}調{ちょう}さ",
+              "maleVariant": "",
+              "stringId": 1954536188567642112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "35386Z^そうは見{み}えないけど…",
+              "maleVariant": "",
+              "stringId": 1954538049915871232
             }
-          }
+          ]
         }
       }
     },

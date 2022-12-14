@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\sq031\\sq031_02a_rogue_call.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7B4B6Z^とある埠{ふ}頭{とう}が怪{あや}しいとわかった。メイルストロームのシマだ",
-                    "maleVariant": null,
-                    "stringId": 1566661465850208256
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "V？ “エブニケ”のことがわかったよ",
-                    "maleVariant": null,
-                    "stringId": 1728851306850508800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FD4B6Z^グレイソンを見{み}つけたのね。奴{やつ}とスマッシャーとのつながりは？",
-                    "maleVariant": "FD4B6Z^グレイソンを見{み}つけたのか。奴{やつ}とスマッシャーとのつながりは？",
-                    "stringId": 1728854736096681984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8E4B6Z^アフターライフに来{こ}な。そこで話{はな}そう",
-                    "maleVariant": null,
-                    "stringId": 1728854923212972032
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わかった",
-                    "maleVariant": null,
-                    "stringId": 1796625088074027008
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9B2C5Z^“エブニケ”って名{な}前{まえ}の由{ゆ}来{らい}は？ 大{おお}昔{むかし}に死{し}んだ市{し}長{ちょう}とは関{かん}係{けい}なさそうだけど",
-                    "maleVariant": "9B2C5Z^“エブニケ”って名{な}前{まえ}の由{ゆ}来{らい}は？ 大{おお}昔{むかし}に死{し}んだ市{し}長{ちょう}とは関{かん}係{けい}なさそうだが",
-                    "stringId": 1912908436864782336
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9B2C500C^それがあるんだよ。埠{ふ}頭{とう}にある古{ふる}い貨{か}物{もつ}船{せん}が、その市{し}長{ちょう}の名{めい}を冠{かん}してる",
-                    "maleVariant": null,
-                    "stringId": 1912908436864782348
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "52494Z^いくつかツテをあたってみたところ… グレイソンの名{な}前{まえ}に聞{き}き覚{おぼ}えがある奴{やつ}がいてね。色々{いろいろ}探{さが}ってくれたのさ",
-                    "maleVariant": null,
-                    "stringId": 2238797561786351616
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C6494004^“エブニケ”って名{な}前{まえ}の由{ゆ}来{らい}は？",
-                    "maleVariant": null,
-                    "stringId": 2238804504399659012
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4F494Z^グレイソンを見{み}つけたのね。スマッシャーに関{かん}する手{て}掛{が}かりは？",
-                    "maleVariant": "4F494Z^グレイソンを見{み}つけたのか。スマッシャーに関{かん}する手{て}掛{が}かりは？",
-                    "stringId": 2238816356512907264
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7B4B6Z^とある埠{ふ}頭{とう}が怪{あや}しいとわかった。メイルストロームのシマだ",
+              "maleVariant": "",
+              "stringId": 1566661465850208256
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "V？ “エブニケ”のことがわかったよ",
+              "maleVariant": "",
+              "stringId": 1728851306850508800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FD4B6Z^グレイソンを見{み}つけたのね。奴{やつ}とスマッシャーとのつながりは？",
+              "maleVariant": "FD4B6Z^グレイソンを見{み}つけたのか。奴{やつ}とスマッシャーとのつながりは？",
+              "stringId": 1728854736096681984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8E4B6Z^アフターライフに来{こ}な。そこで話{はな}そう",
+              "maleVariant": "",
+              "stringId": 1728854923212972032
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わかった",
+              "maleVariant": "",
+              "stringId": 1796625088074027008
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9B2C5Z^“エブニケ”って名{な}前{まえ}の由{ゆ}来{らい}は？ 大{おお}昔{むかし}に死{し}んだ市{し}長{ちょう}とは関{かん}係{けい}なさそうだけど",
+              "maleVariant": "9B2C5Z^“エブニケ”って名{な}前{まえ}の由{ゆ}来{らい}は？ 大{おお}昔{むかし}に死{し}んだ市{し}長{ちょう}とは関{かん}係{けい}なさそうだが",
+              "stringId": 1912908436864782336
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9B2C500C^それがあるんだよ。埠{ふ}頭{とう}にある古{ふる}い貨{か}物{もつ}船{せん}が、その市{し}長{ちょう}の名{めい}を冠{かん}してる",
+              "maleVariant": "",
+              "stringId": 1912908436864782348
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "52494Z^いくつかツテをあたってみたところ… グレイソンの名{な}前{まえ}に聞{き}き覚{おぼ}えがある奴{やつ}がいてね。色々{いろいろ}探{さが}ってくれたのさ",
+              "maleVariant": "",
+              "stringId": 2238797561786351616
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C6494004^“エブニケ”って名{な}前{まえ}の由{ゆ}来{らい}は？",
+              "maleVariant": "",
+              "stringId": 2238804504399659012
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4F494Z^グレイソンを見{み}つけたのね。スマッシャーに関{かん}する手{て}掛{が}かりは？",
+              "maleVariant": "4F494Z^グレイソンを見{み}つけたのか。スマッシャーに関{かん}する手{て}掛{が}かりは？",
+              "stringId": 2238816356512907264
             }
-          }
+          ]
         }
       }
     },

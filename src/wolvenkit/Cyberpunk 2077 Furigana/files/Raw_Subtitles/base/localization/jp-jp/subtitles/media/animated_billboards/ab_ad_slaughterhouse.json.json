@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\animated_billboards\\ab_ad_slaughterhouse.json"
@@ -11,42 +11,32 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "がおーっ！！！",
-                    "maleVariant": null,
-                    "stringId": 1985318266759716864
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C944DZ^本{ほん}物{もの}の肉{にく}を、なんと70%も配{はい}合{ごう}！",
-                    "maleVariant": null,
-                    "stringId": 1993602540893425664
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2044DZ^スローターハウス。本{ほん}能{のう}を刺{し}激{げき}する味{あじ}",
-                    "maleVariant": null,
-                    "stringId": 1993602868770557952
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "がおーっ！！！",
+              "maleVariant": "",
+              "stringId": 1985318266759716864
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C944DZ^本{ほん}物{もの}の肉{にく}を、なんと70%も配{はい}合{ごう}！",
+              "maleVariant": "",
+              "stringId": 1993602540893425664
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2044DZ^スローターハウス。本{ほん}能{のう}を刺{し}激{げき}する味{あじ}",
+              "maleVariant": "",
+              "stringId": 1993602868770557952
             }
-          }
+          ]
         }
       }
     },

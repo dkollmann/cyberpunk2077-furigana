@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\cct_dtn_guns_01.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9847A004^どんな銃{じゅう}がある？",
-                    "maleVariant": "9847A004^どんな銃{じゅう}があるんだ？",
-                    "stringId": 1979229565159448580
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D047AZ^ビジネスは順{じゅん}調{ちょう}？",
-                    "maleVariant": "D047AZ^ビジネスは順{じゅん}調{ちょう}か？",
-                    "stringId": 1979230029955440640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7147AZ^どんな銃{じゅう}を扱{あつか}ってる？",
-                    "maleVariant": null,
-                    "stringId": 1979230741326176256
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3E47AZ^よくぞ聞{き}いてくれた",
-                    "maleVariant": null,
-                    "stringId": 1979231483499880448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CB47AZ^ビジネスのほうは、繁{はん}盛{じょう}してる？",
-                    "maleVariant": "CB47AZ^ビジネスのほうは、繁{はん}盛{じょう}してるか？",
-                    "stringId": 1979232293319319552
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B747AZ^大{だい}繁{はん}盛{じょう}だ。みんな引{ひ}き金{がね}から指{ゆび}を離{はな}せないみたいだな",
-                    "maleVariant": null,
-                    "stringId": 1979233534229323776
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8E47AZ^ストリートで身{み}を守{まも}りたきゃ、防{ぼう}弾{だん}チョッキやヘッドギア選{えら}びをしくじらないことだ",
-                    "maleVariant": null,
-                    "stringId": 1979233851369037824
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9847A004^どんな銃{じゅう}がある？",
+              "maleVariant": "9847A004^どんな銃{じゅう}があるんだ？",
+              "stringId": 1979229565159448580
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D047AZ^ビジネスは順{じゅん}調{ちょう}？",
+              "maleVariant": "D047AZ^ビジネスは順{じゅん}調{ちょう}か？",
+              "stringId": 1979230029955440640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7147AZ^どんな銃{じゅう}を扱{あつか}ってる？",
+              "maleVariant": "",
+              "stringId": 1979230741326176256
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3E47AZ^よくぞ聞{き}いてくれた",
+              "maleVariant": "",
+              "stringId": 1979231483499880448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CB47AZ^ビジネスのほうは、繁{はん}盛{じょう}してる？",
+              "maleVariant": "CB47AZ^ビジネスのほうは、繁{はん}盛{じょう}してるか？",
+              "stringId": 1979232293319319552
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B747AZ^大{だい}繁{はん}盛{じょう}だ。みんな引{ひ}き金{がね}から指{ゆび}を離{はな}せないみたいだな",
+              "maleVariant": "",
+              "stringId": 1979233534229323776
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8E47AZ^ストリートで身{み}を守{まも}りたきゃ、防{ぼう}弾{だん}チョッキやヘッドギア選{えら}びをしくじらないことだ",
+              "maleVariant": "",
+              "stringId": 1979233851369037824
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_kab_chat_012.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なあ… アレあるか？ ほら… わかるだろ？",
-                    "maleVariant": null,
-                    "stringId": 2180919585866567680
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いや、わからんな",
-                    "maleVariant": null,
-                    "stringId": 2180920561310683136
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FB44DZ^そう言{い}うなって… ほらこっそり、な？ 特{とく}別{べつ}なヤツをさ。金{きん}は払{はら}う",
-                    "maleVariant": null,
-                    "stringId": 2180920823018475520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D444DZ^とっとと失{う}せな。面倒{めんどう}ごとを起{お}こしたくはないだろ？",
-                    "maleVariant": null,
-                    "stringId": 2180921084357169152
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なあ… アレあるか？ ほら… わかるだろ？",
+              "maleVariant": "",
+              "stringId": 2180919585866567680
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いや、わからんな",
+              "maleVariant": "",
+              "stringId": 2180920561310683136
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FB44DZ^そう言{い}うなって… ほらこっそり、な？ 特{とく}別{べつ}なヤツをさ。金{きん}は払{はら}う",
+              "maleVariant": "",
+              "stringId": 2180920823018475520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D444DZ^とっとと失{う}せな。面倒{めんどう}ごとを起{お}こしたくはないだろ？",
+              "maleVariant": "",
+              "stringId": 2180921084357169152
             }
-          }
+          ]
         }
       }
     },

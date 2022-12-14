@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_mid_f_66_nat_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FF70A004^この街{まち}に現{げん}実{じつ}なんてない…",
-                    "maleVariant": null,
-                    "stringId": 1954556457243418628
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "170A004^今{いま}に戦{せん}争{そう}が始{はじ}まる",
-                    "maleVariant": null,
-                    "stringId": 1954556457276973060
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わざとあたったの？",
-                    "maleVariant": null,
-                    "stringId": 1954556457327304704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "570A004^触{ふ}らないでよ",
-                    "maleVariant": null,
-                    "stringId": 1954556457344081924
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "770A004^言{い}ったはずよ",
-                    "maleVariant": null,
-                    "stringId": 1954556457377636356
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "970A004^荷{に}物{もつ}に入{いっ}ってた制{せい}服{ふく}を見{み}たわ… それが仕{し}事{ごと}なのね… 私{わたし}も父{とう}さんも警{けい}告{こく}したでしょ",
-                    "maleVariant": null,
-                    "stringId": 1954556457411190788
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B70A004^うまくいくとは思{おも}えない… わかってるでしょ… もちろんあなたが決{き}めることだけど… 企{き}業{ぎょう}のほうがよかった",
-                    "maleVariant": null,
-                    "stringId": 1954556457444745220
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D70A004^よく考{かんが}えてみて",
-                    "maleVariant": null,
-                    "stringId": 1954556457478299652
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1670A004^銃{じゅう}をちょうだい！",
-                    "maleVariant": null,
-                    "stringId": 1954556457629294596
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1770A004^刺{し}激{げき}しちゃだめ！",
-                    "maleVariant": null,
-                    "stringId": 1954556457646071812
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1C70AZ^お兄{にい}ちゃんが警{けい}官{かん}なのよ！",
-                    "maleVariant": null,
-                    "stringId": 1954556457729957888
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1D70A004^家{か}族{ぞく}が黙{だま}っちゃいないから",
-                    "maleVariant": null,
-                    "stringId": 1954556457746735108
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2170A004^ただでさえいろいろ大{たい}変{へん}なのに",
-                    "maleVariant": null,
-                    "stringId": 1954556457813843972
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2370A004^どっか行{い}ってくれる？",
-                    "maleVariant": null,
-                    "stringId": 1954556457847398404
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FF70A004^この街{まち}に現{げん}実{じつ}なんてない…",
+              "maleVariant": "",
+              "stringId": 1954556457243418628
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "170A004^今{いま}に戦{せん}争{そう}が始{はじ}まる",
+              "maleVariant": "",
+              "stringId": 1954556457276973060
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わざとあたったの？",
+              "maleVariant": "",
+              "stringId": 1954556457327304704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "570A004^触{ふ}らないでよ",
+              "maleVariant": "",
+              "stringId": 1954556457344081924
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "770A004^言{い}ったはずよ",
+              "maleVariant": "",
+              "stringId": 1954556457377636356
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "970A004^荷{に}物{もつ}に入{いっ}ってた制{せい}服{ふく}を見{み}たわ… それが仕{し}事{ごと}なのね… 私{わたし}も父{とう}さんも警{けい}告{こく}したでしょ",
+              "maleVariant": "",
+              "stringId": 1954556457411190788
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B70A004^うまくいくとは思{おも}えない… わかってるでしょ… もちろんあなたが決{き}めることだけど… 企{き}業{ぎょう}のほうがよかった",
+              "maleVariant": "",
+              "stringId": 1954556457444745220
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D70A004^よく考{かんが}えてみて",
+              "maleVariant": "",
+              "stringId": 1954556457478299652
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1670A004^銃{じゅう}をちょうだい！",
+              "maleVariant": "",
+              "stringId": 1954556457629294596
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1770A004^刺{し}激{げき}しちゃだめ！",
+              "maleVariant": "",
+              "stringId": 1954556457646071812
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1C70AZ^お兄{にい}ちゃんが警{けい}官{かん}なのよ！",
+              "maleVariant": "",
+              "stringId": 1954556457729957888
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1D70A004^家{か}族{ぞく}が黙{だま}っちゃいないから",
+              "maleVariant": "",
+              "stringId": 1954556457746735108
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2170A004^ただでさえいろいろ大{たい}変{へん}なのに",
+              "maleVariant": "",
+              "stringId": 1954556457813843972
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2370A004^どっか行{い}ってくれる？",
+              "maleVariant": "",
+              "stringId": 1954556457847398404
             }
-          }
+          ]
         }
       }
     },

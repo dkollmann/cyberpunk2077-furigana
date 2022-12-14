@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_nok_chat_004.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CD720Z^こういうことは… 前{まえ}にもやったことがあるの？",
-                    "maleVariant": null,
-                    "stringId": 1963357883776237568
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9559Z^私{わたし}の心{しん}配{ぱい}はしなくていい。2023、2051、2070年{ねん}は市{し}場{じょう}の変{へん}動{どう}がひどかったが…",
-                    "maleVariant": null,
-                    "stringId": 1979130653959360512
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "17559Z^三{さん}回{かい}やり、すべて成{せい}功{こう}している。勝{か}つためには、振{ふ}り出{だ}しに戻{もど}らないといけないこともあるのさ",
-                    "maleVariant": null,
-                    "stringId": 1979130834582867968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6A559Z^複{ふく}雑{ざつ}に考{かんが}える必{ひつ}要{よう}はない。人{にん}は強{ごう}欲{よく}で権{けん}力{りょく}を求{もと}める生{い}き物{もの}だ",
-                    "maleVariant": null,
-                    "stringId": 1979131256882171904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でもクビにはなりたくない――なるわけにはいかないの",
-                    "maleVariant": null,
-                    "stringId": 1979133866611675136
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9C559Z^仮{かり}に問{もん}題{だい}が発{はっ}生{せい}したとしても――最{さい}悪{あく}、転{てん}属{ぞく}で済{す}むだろう。しかし、混{こん}乱{らん}から得{え}られるものは多{おお}い",
-                    "maleVariant": null,
-                    "stringId": 1979134272788074496
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "95559Z^でも、投{とう}資{し}の方{かた}は大{だい}丈{じょう}夫{ぶ}なの？",
-                    "maleVariant": null,
-                    "stringId": 1979135397952065536
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7B559Z^私{わたし}たちはただ、適{てき}切{せつ}な対{たい}応{おう}をすればいい",
-                    "maleVariant": null,
-                    "stringId": 1979147904460623872
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CD720Z^こういうことは… 前{まえ}にもやったことがあるの？",
+              "maleVariant": "",
+              "stringId": 1963357883776237568
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9559Z^私{わたし}の心{しん}配{ぱい}はしなくていい。2023、2051、2070年{ねん}は市{し}場{じょう}の変{へん}動{どう}がひどかったが…",
+              "maleVariant": "",
+              "stringId": 1979130653959360512
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "17559Z^三{さん}回{かい}やり、すべて成{せい}功{こう}している。勝{か}つためには、振{ふ}り出{だ}しに戻{もど}らないといけないこともあるのさ",
+              "maleVariant": "",
+              "stringId": 1979130834582867968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6A559Z^複{ふく}雑{ざつ}に考{かんが}える必{ひつ}要{よう}はない。人{にん}は強{ごう}欲{よく}で権{けん}力{りょく}を求{もと}める生{い}き物{もの}だ",
+              "maleVariant": "",
+              "stringId": 1979131256882171904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でもクビにはなりたくない――なるわけにはいかないの",
+              "maleVariant": "",
+              "stringId": 1979133866611675136
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9C559Z^仮{かり}に問{もん}題{だい}が発{はっ}生{せい}したとしても――最{さい}悪{あく}、転{てん}属{ぞく}で済{す}むだろう。しかし、混{こん}乱{らん}から得{え}られるものは多{おお}い",
+              "maleVariant": "",
+              "stringId": 1979134272788074496
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "95559Z^でも、投{とう}資{し}の方{かた}は大{だい}丈{じょう}夫{ぶ}なの？",
+              "maleVariant": "",
+              "stringId": 1979135397952065536
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7B559Z^私{わたし}たちはただ、適{てき}切{せつ}な対{たい}応{おう}をすればいい",
+              "maleVariant": "",
+              "stringId": 1979147904460623872
             }
-          }
+          ]
         }
       }
     },

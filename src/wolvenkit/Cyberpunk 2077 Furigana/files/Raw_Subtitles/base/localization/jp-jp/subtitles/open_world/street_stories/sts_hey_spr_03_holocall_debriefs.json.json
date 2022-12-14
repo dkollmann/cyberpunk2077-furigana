@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_hey_spr_03_holocall_debriefs.json"
@@ -11,58 +11,44 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "456F7Z^問{もん}題{だい}を片{かた}付{づ}けろと言{い}ったのに、問{もん}題{だい}を作{つく}ってどうする。よく考{かんが}えて行{こう}動{どう}しろ",
-                    "maleVariant": null,
-                    "stringId": 2328576895046610944
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "926F7004^素{す}晴{ば}らしい。お前{まえ}ならやってくれると思{おも}っていたぞ",
-                    "maleVariant": null,
-                    "stringId": 2328585353129062404
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7C6F7004^V、目{もく}的{てき}の車{くるま}を傷{きず}つけてどうする。ノーマッドが修{しゅう}理{り}するとは言{い}え、もう少{すこ}し状{じょう}態{たい}に気{き}を遣{つか}ってほしかったところだ…",
-                    "maleVariant": null,
-                    "stringId": 2328585606163034116
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D03BCZ^まあ、仕{し}方{かた}あるまい。仕{し}事{ごと}は完{かん}了{りょう}だ",
-                    "maleVariant": null,
-                    "stringId": 2334572903648706560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4F3BCZ^ノーマッドたちも感{かん}謝{しゃ}している。ご苦{く}労{ろう}だったな",
-                    "maleVariant": null,
-                    "stringId": 2334574155614896128
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "456F7Z^問{もん}題{だい}を片{かた}付{づ}けろと言{い}ったのに、問{もん}題{だい}を作{つく}ってどうする。よく考{かんが}えて行{こう}動{どう}しろ",
+              "maleVariant": "",
+              "stringId": 2328576895046610944
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "926F7004^素{す}晴{ば}らしい。お前{まえ}ならやってくれると思{おも}っていたぞ",
+              "maleVariant": "",
+              "stringId": 2328585353129062404
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7C6F7004^V、目{もく}的{てき}の車{くるま}を傷{きず}つけてどうする。ノーマッドが修{しゅう}理{り}するとは言{い}え、もう少{すこ}し状{じょう}態{たい}に気{き}を遣{つか}ってほしかったところだ…",
+              "maleVariant": "",
+              "stringId": 2328585606163034116
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D03BCZ^まあ、仕{し}方{かた}あるまい。仕{し}事{ごと}は完{かん}了{りょう}だ",
+              "maleVariant": "",
+              "stringId": 2334572903648706560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4F3BCZ^ノーマッドたちも感{かん}謝{しゃ}している。ご苦{く}労{ろう}だったな",
+              "maleVariant": "",
+              "stringId": 2334574155614896128
             }
-          }
+          ]
         }
       }
     },

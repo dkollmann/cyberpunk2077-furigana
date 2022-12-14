@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_m_16_enus_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "56582004^誰{だれ}だ？",
-                    "maleVariant": null,
-                    "stringId": 1922629282435702788
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どいつもこいつも",
-                    "maleVariant": null,
-                    "stringId": 1922629282469257220
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5B582004^何{なん}だよ？",
-                    "maleVariant": null,
-                    "stringId": 1922629282519588868
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5D582004^触{ふ}るな！",
-                    "maleVariant": null,
-                    "stringId": 1922629282553143300
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5F582004^もしもし？ 本{ほん}物{もの}なのか？",
-                    "maleVariant": null,
-                    "stringId": 1922629282586697732
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "62582004^見{み}たんだ…！ 本{ほん}当{とう}だ…！ 青{あお}い目{め}で…！ 話{はなし}どおりだ…！",
-                    "maleVariant": null,
-                    "stringId": 1922629282637029380
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "64582004^もし… でも… そこら中{なか}にいる…！ お前{まえ}だって！",
-                    "maleVariant": null,
-                    "stringId": 1922629282670583812
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "66582004^油{ゆ}断{だん}するなよ",
-                    "maleVariant": null,
-                    "stringId": 1922629282704138244
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "73582004^始{はじ}まっちまった！",
-                    "maleVariant": null,
-                    "stringId": 1922629282922242052
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "75582Z^みんな殺{ころ}されるぞ！",
-                    "maleVariant": null,
-                    "stringId": 1922629282955796480
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7B582004^まだ死{し}にたくない！",
-                    "maleVariant": null,
-                    "stringId": 1922629283056459780
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7C582004^まだ生{い}きていたいんだ！",
-                    "maleVariant": null,
-                    "stringId": 1922629283073236996
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "82582004^連{れん}中{ちゅう}の仲{なか}間{ま}か？",
-                    "maleVariant": null,
-                    "stringId": 1922629283173900292
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "84582004^俺{おれ}も拉{ら}致{ち}する気{き}か？",
-                    "maleVariant": null,
-                    "stringId": 1922629283207454724
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "56582004^誰{だれ}だ？",
+              "maleVariant": "",
+              "stringId": 1922629282435702788
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どいつもこいつも",
+              "maleVariant": "",
+              "stringId": 1922629282469257220
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5B582004^何{なん}だよ？",
+              "maleVariant": "",
+              "stringId": 1922629282519588868
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5D582004^触{ふ}るな！",
+              "maleVariant": "",
+              "stringId": 1922629282553143300
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5F582004^もしもし？ 本{ほん}物{もの}なのか？",
+              "maleVariant": "",
+              "stringId": 1922629282586697732
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "62582004^見{み}たんだ…！ 本{ほん}当{とう}だ…！ 青{あお}い目{め}で…！ 話{はなし}どおりだ…！",
+              "maleVariant": "",
+              "stringId": 1922629282637029380
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "64582004^もし… でも… そこら中{なか}にいる…！ お前{まえ}だって！",
+              "maleVariant": "",
+              "stringId": 1922629282670583812
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "66582004^油{ゆ}断{だん}するなよ",
+              "maleVariant": "",
+              "stringId": 1922629282704138244
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "73582004^始{はじ}まっちまった！",
+              "maleVariant": "",
+              "stringId": 1922629282922242052
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "75582Z^みんな殺{ころ}されるぞ！",
+              "maleVariant": "",
+              "stringId": 1922629282955796480
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7B582004^まだ死{し}にたくない！",
+              "maleVariant": "",
+              "stringId": 1922629283056459780
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7C582004^まだ生{い}きていたいんだ！",
+              "maleVariant": "",
+              "stringId": 1922629283073236996
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "82582004^連{れん}中{ちゅう}の仲{なか}間{ま}か？",
+              "maleVariant": "",
+              "stringId": 1922629283173900292
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "84582004^俺{おれ}も拉{ら}致{ち}する気{き}か？",
+              "maleVariant": "",
+              "stringId": 1922629283207454724
             }
-          }
+          ]
         }
       }
     },

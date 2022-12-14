@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_maelstroms_02.json"
@@ -11,42 +11,32 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E870AZ^いや。ただの事{じ}故{こ}だよ",
-                    "maleVariant": null,
-                    "stringId": 1977770226811445248
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D570AZ^あのクソ野{や}郎{ろう}のことはもともと嫌{きら}いだったんだ",
-                    "maleVariant": null,
-                    "stringId": 1977770638809538560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B770AZ^で？ まさかお前{まえ}が殺{ころ}ったのか？",
-                    "maleVariant": null,
-                    "stringId": 1977770655486091264
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E870AZ^いや。ただの事{じ}故{こ}だよ",
+              "maleVariant": "",
+              "stringId": 1977770226811445248
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D570AZ^あのクソ野{や}郎{ろう}のことはもともと嫌{きら}いだったんだ",
+              "maleVariant": "",
+              "stringId": 1977770638809538560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B770AZ^で？ まさかお前{まえ}が殺{ころ}ったのか？",
+              "maleVariant": "",
+              "stringId": 1977770655486091264
             }
-          }
+          ]
         }
       }
     },

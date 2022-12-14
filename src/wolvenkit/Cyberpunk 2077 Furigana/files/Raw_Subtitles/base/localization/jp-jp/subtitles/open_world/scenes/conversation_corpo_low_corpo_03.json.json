@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_corpo_low_corpo_03.json"
@@ -11,42 +11,32 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AC70AZ^あの二{ふた}人{り}デキてるらしいぞ",
-                    "maleVariant": null,
-                    "stringId": 1969229721991421952
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5E70AZ^絶{ぜっ}対{たい}嘘{うそ}よ。あの子{こ}もそこまでバカじゃない",
-                    "maleVariant": null,
-                    "stringId": 1969231975540629504
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AF70AZ^もっと上{じょう}玉{だま}を狙{ねら}うはず",
-                    "maleVariant": null,
-                    "stringId": 1969232088568733696
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AC70AZ^あの二{ふた}人{り}デキてるらしいぞ",
+              "maleVariant": "",
+              "stringId": 1969229721991421952
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5E70AZ^絶{ぜっ}対{たい}嘘{うそ}よ。あの子{こ}もそこまでバカじゃない",
+              "maleVariant": "",
+              "stringId": 1969231975540629504
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AF70AZ^もっと上{じょう}玉{だま}を狙{ねら}うはず",
+              "maleVariant": "",
+              "stringId": 1969232088568733696
             }
-          }
+          ]
         }
       }
     },

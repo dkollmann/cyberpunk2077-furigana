@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_m_82_chn_10_chd.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やあ！",
-                    "maleVariant": null,
-                    "stringId": 1922669795603914756
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C582004^誰{だれ}？",
-                    "maleVariant": null,
-                    "stringId": 1922669795620691972
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あいて！",
-                    "maleVariant": null,
-                    "stringId": 1922669795671023620
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ねえ！",
-                    "maleVariant": null,
-                    "stringId": 1922669795704578052
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもし？",
-                    "maleVariant": null,
-                    "stringId": 1922669795822018564
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1C582004^だめだよ… パパのところに行{い}かないと… ダメだって言{い}われてるから",
-                    "maleVariant": null,
-                    "stringId": 1922669795889127428
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1E582004^うん… 話{はな}しておく… うん… じゃあうちで！",
-                    "maleVariant": null,
-                    "stringId": 1922669795922681860
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "さよなら！",
-                    "maleVariant": null,
-                    "stringId": 1922669795989790724
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ママ！",
-                    "maleVariant": null,
-                    "stringId": 1922669796174340100
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2F582004^助{たす}けて！",
-                    "maleVariant": null,
-                    "stringId": 1922669796207894532
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ママはどこ？",
-                    "maleVariant": null,
-                    "stringId": 1922669796291780612
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "36582004^何{なに}してるの？",
-                    "maleVariant": null,
-                    "stringId": 1922669796325335044
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3F582004^話{はな}しちゃいけないんだ",
-                    "maleVariant": null,
-                    "stringId": 1922669796476329988
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "40582004^もう行{い}ってよ",
-                    "maleVariant": null,
-                    "stringId": 1922669796493107204
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やあ！",
+              "maleVariant": "",
+              "stringId": 1922669795603914756
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C582004^誰{だれ}？",
+              "maleVariant": "",
+              "stringId": 1922669795620691972
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あいて！",
+              "maleVariant": "",
+              "stringId": 1922669795671023620
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ねえ！",
+              "maleVariant": "",
+              "stringId": 1922669795704578052
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもし？",
+              "maleVariant": "",
+              "stringId": 1922669795822018564
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1C582004^だめだよ… パパのところに行{い}かないと… ダメだって言{い}われてるから",
+              "maleVariant": "",
+              "stringId": 1922669795889127428
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1E582004^うん… 話{はな}しておく… うん… じゃあうちで！",
+              "maleVariant": "",
+              "stringId": 1922669795922681860
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "さよなら！",
+              "maleVariant": "",
+              "stringId": 1922669795989790724
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ママ！",
+              "maleVariant": "",
+              "stringId": 1922669796174340100
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2F582004^助{たす}けて！",
+              "maleVariant": "",
+              "stringId": 1922669796207894532
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ママはどこ？",
+              "maleVariant": "",
+              "stringId": 1922669796291780612
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "36582004^何{なに}してるの？",
+              "maleVariant": "",
+              "stringId": 1922669796325335044
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3F582004^話{はな}しちゃいけないんだ",
+              "maleVariant": "",
+              "stringId": 1922669796476329988
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "40582004^もう行{い}ってよ",
+              "maleVariant": "",
+              "stringId": 1922669796493107204
             }
-          }
+          ]
         }
       }
     },

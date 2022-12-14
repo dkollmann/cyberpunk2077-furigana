@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_east_001.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "832C5004^珍{めずら}しい奴{やつ}だな",
-                    "maleVariant": null,
-                    "stringId": 1975112254536568836
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A12C5Z^アイリスはダコタの下{した}についたらしいよ",
-                    "maleVariant": null,
-                    "stringId": 1975114213544972288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "412C5Z^この目{め}で見{み}るまでは信{しん}じられないな",
-                    "maleVariant": null,
-                    "stringId": 1975114413797822464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "322C5Z^ダコタはそんな悪{わる}い奴{やつ}じゃ…",
-                    "maleVariant": null,
-                    "stringId": 1975117239634644992
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "812C5Z^フィクサーとは関{かか}わるようなタイプじゃなかった",
-                    "maleVariant": null,
-                    "stringId": 1975117322564423680
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4B2C5Z^いや。なぜ聞{き}く？ あいつと仲{なか}いいのか？",
-                    "maleVariant": null,
-                    "stringId": 1975121045395099648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "722C5Z^最{さい}近{きん}タナーを見{み}かけた？",
-                    "maleVariant": null,
-                    "stringId": 1975121119063855104
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "732C5Z^たまに話{はな}す程{てい}度{ど}だけど",
-                    "maleVariant": null,
-                    "stringId": 1975122192822456320
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C82C5Z^悪{わる}いどころか、ダコタは気{き}難{むずか}しい年{とし}増{ま}のババアだ",
-                    "maleVariant": null,
-                    "stringId": 1976315194429427712
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "832C5004^珍{めずら}しい奴{やつ}だな",
+              "maleVariant": "",
+              "stringId": 1975112254536568836
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A12C5Z^アイリスはダコタの下{した}についたらしいよ",
+              "maleVariant": "",
+              "stringId": 1975114213544972288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "412C5Z^この目{め}で見{み}るまでは信{しん}じられないな",
+              "maleVariant": "",
+              "stringId": 1975114413797822464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "322C5Z^ダコタはそんな悪{わる}い奴{やつ}じゃ…",
+              "maleVariant": "",
+              "stringId": 1975117239634644992
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "812C5Z^フィクサーとは関{かか}わるようなタイプじゃなかった",
+              "maleVariant": "",
+              "stringId": 1975117322564423680
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4B2C5Z^いや。なぜ聞{き}く？ あいつと仲{なか}いいのか？",
+              "maleVariant": "",
+              "stringId": 1975121045395099648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "722C5Z^最{さい}近{きん}タナーを見{み}かけた？",
+              "maleVariant": "",
+              "stringId": 1975121119063855104
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "732C5Z^たまに話{はな}す程{てい}度{ど}だけど",
+              "maleVariant": "",
+              "stringId": 1975122192822456320
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C82C5Z^悪{わる}いどころか、ダコタは気{き}難{むずか}しい年{とし}増{ま}のババアだ",
+              "maleVariant": "",
+              "stringId": 1976315194429427712
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_cvi_chat_001.json"
@@ -11,58 +11,44 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2470AZ^契{けい}約{やく}は契{けい}約{やく}だ。違{い}反{はん}は許{ゆる}されない",
-                    "maleVariant": null,
-                    "stringId": 1963266441087066112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AA2C5Z^でも状{じょう}況{きょう}、変{か}わったのよ",
-                    "maleVariant": null,
-                    "stringId": 1965008069749133312
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DD2C5Z^ここがパシフィカであることは変{か}わっていない",
-                    "maleVariant": null,
-                    "stringId": 1965009406339600384
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1A2C5Z^第{だい}一{いち}に、仲{なか}間{ま}の面倒{めんどう}を見{み}ること。第{だい}二{に}に、仲{なか}間{ま}を裏{うら}切{ぎ}らないこと",
-                    "maleVariant": null,
-                    "stringId": 1965010786047512576
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "532C5Z^単{たん}純{じゅん}明{めい}快{かい}だろ",
-                    "maleVariant": null,
-                    "stringId": 1965012079788969984
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2470AZ^契{けい}約{やく}は契{けい}約{やく}だ。違{い}反{はん}は許{ゆる}されない",
+              "maleVariant": "",
+              "stringId": 1963266441087066112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AA2C5Z^でも状{じょう}況{きょう}、変{か}わったのよ",
+              "maleVariant": "",
+              "stringId": 1965008069749133312
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DD2C5Z^ここがパシフィカであることは変{か}わっていない",
+              "maleVariant": "",
+              "stringId": 1965009406339600384
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1A2C5Z^第{だい}一{いち}に、仲{なか}間{ま}の面倒{めんどう}を見{み}ること。第{だい}二{に}に、仲{なか}間{ま}を裏{うら}切{ぎ}らないこと",
+              "maleVariant": "",
+              "stringId": 1965010786047512576
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "532C5Z^単{たん}純{じゅん}明{めい}快{かい}だろ",
+              "maleVariant": "",
+              "stringId": 1965012079788969984
             }
-          }
+          ]
         }
       }
     },

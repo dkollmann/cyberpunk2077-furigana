@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_nok_chat_006.json"
@@ -11,42 +11,32 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D4559Z^気{き}に入{い}った。ビジネスの基{き}本{ほん}を理{り}解{かい}してる。チャンスを与{あた}えてやろう",
-                    "maleVariant": null,
-                    "stringId": 1979173572678356992
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "72559Z^それで… 報{ほう}酬{しゅう}はいくらもらえるんです？",
-                    "maleVariant": null,
-                    "stringId": 1979175044207972352
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "65559Z^インターンだぞ。金{きん}を払{はら}うのはそっちの方{ほう}だ",
-                    "maleVariant": null,
-                    "stringId": 1979175134184181760
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D4559Z^気{き}に入{い}った。ビジネスの基{き}本{ほん}を理{り}解{かい}してる。チャンスを与{あた}えてやろう",
+              "maleVariant": "",
+              "stringId": 1979173572678356992
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "72559Z^それで… 報{ほう}酬{しゅう}はいくらもらえるんです？",
+              "maleVariant": "",
+              "stringId": 1979175044207972352
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "65559Z^インターンだぞ。金{きん}を払{はら}うのはそっちの方{ほう}だ",
+              "maleVariant": "",
+              "stringId": 1979175134184181760
             }
-          }
+          ]
         }
       }
     },

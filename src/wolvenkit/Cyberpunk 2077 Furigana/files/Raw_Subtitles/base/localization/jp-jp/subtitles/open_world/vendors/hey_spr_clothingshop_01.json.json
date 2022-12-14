@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\hey_spr_clothingshop_01.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8A47A004^ここならあたし好{この}みのいいモノが見{み}つかりそう",
-                    "maleVariant": "8A47A004^ここなら俺{おれ}好{この}みのいいモノが見{み}つかりそうだ",
-                    "stringId": 1740348629291868164
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6547AZ^少{すこ}しはダイエットしたら？",
-                    "maleVariant": "6547AZ^少{すこ}しはダイエットしたらどうだ？",
-                    "stringId": 1740348757520130048
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5047AZ^ここならあたし好{この}みのいいモノが見{み}つかりそう",
-                    "maleVariant": "5047AZ^ここなら俺{おれ}好{この}みのいいモノが見{み}つかりそうだ",
-                    "stringId": 1740370914904088576
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6B47AZ^“そう”？ きっと見{み}つかるわよ！ ファッションは心{こころ}よ。まず試{し}着{ちゃく}して、感{かん}じてみて！",
-                    "maleVariant": null,
-                    "stringId": 1740371606846808064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BE47AZ^もう少{すこ}し痩{や}せれば、そのパンツも映{は}えるのに",
-                    "maleVariant": null,
-                    "stringId": 1740371878822256640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7647AZ^全{ぜん}然{ぜん}わかってないね。私{わたし}みたいな体{たい}型{けい}でないと着{き}れない服{ふく}もたくさんあるんだよ",
-                    "maleVariant": "7647AZ^わかってないね、お兄{にい}さん。甘{あま}ーいボディになればなるほど、いっぱい服{ふく}を着{き}れるのよ",
-                    "stringId": 1740373423802523648
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8A47A004^ここならあたし好{この}みのいいモノが見{み}つかりそう",
+              "maleVariant": "8A47A004^ここなら俺{おれ}好{この}みのいいモノが見{み}つかりそうだ",
+              "stringId": 1740348629291868164
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6547AZ^少{すこ}しはダイエットしたら？",
+              "maleVariant": "6547AZ^少{すこ}しはダイエットしたらどうだ？",
+              "stringId": 1740348757520130048
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5047AZ^ここならあたし好{この}みのいいモノが見{み}つかりそう",
+              "maleVariant": "5047AZ^ここなら俺{おれ}好{この}みのいいモノが見{み}つかりそうだ",
+              "stringId": 1740370914904088576
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6B47AZ^“そう”？ きっと見{み}つかるわよ！ ファッションは心{こころ}よ。まず試{し}着{ちゃく}して、感{かん}じてみて！",
+              "maleVariant": "",
+              "stringId": 1740371606846808064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BE47AZ^もう少{すこ}し痩{や}せれば、そのパンツも映{は}えるのに",
+              "maleVariant": "",
+              "stringId": 1740371878822256640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7647AZ^全{ぜん}然{ぜん}わかってないね。私{わたし}みたいな体{たい}型{けい}でないと着{き}れない服{ふく}もたくさんあるんだよ",
+              "maleVariant": "7647AZ^わかってないね、お兄{にい}さん。甘{あま}ーいボディになればなるほど、いっぱい服{ふく}を着{き}れるのよ",
+              "stringId": 1740373423802523648
             }
-          }
+          ]
         }
       }
     },

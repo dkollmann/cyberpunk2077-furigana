@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_std_rcr_01_combat_scene.json"
@@ -11,114 +11,86 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "13406Z^なあ、あんたみたいな美{び}人{じん}が、こんなとこで何{なに}してるんだ？",
-                    "maleVariant": null,
-                    "stringId": 1447099242555400192
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DE406Z^あんたたち脳{のう}筋{すじ}と同{おな}じよ。働{はたら}いてるの",
-                    "maleVariant": null,
-                    "stringId": 1447101522293841920
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "57406Z^何{なん}だよ。ホルモンの調{ちょう}子{し}でも悪{わる}いのか？",
-                    "maleVariant": null,
-                    "stringId": 1447101721892380672
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "76406Z^あんたも出{だ}したくない血{ち}を出{だ}させてあげようか？",
-                    "maleVariant": null,
-                    "stringId": 1447102027355152384
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "38406Z^ベガからの連{れん}絡{らく}見{み}たか？ また仕{し}事{ごと}してこいってさ",
-                    "maleVariant": null,
-                    "stringId": 1447103091466854400
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D2406Z^鉄鋼{てっこう}労{ろう}働{どう}者{しゃ}組{くみ}合{あい}の連{れん}中{ちゅう}か？",
-                    "maleVariant": null,
-                    "stringId": 1447104382540734464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5346BZ^痕{こん}跡{せき}は消{け}せという指{し}示{じ}だったはず",
-                    "maleVariant": null,
-                    "stringId": 1783754276532039680
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5346B008^消{け}したさ",
-                    "maleVariant": null,
-                    "stringId": 1783754276532039688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5446BZ^消{け}すの意{い}味{み}が違{ちが}う。死{し}体{たい}が出{で}たなんて本{ほん}部{ぶ}は何{なん}て言{い}うか",
-                    "maleVariant": null,
-                    "stringId": 1783754276548816896
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5446B008^なら本{ほん}部{ぶ}は俺{おれ}に直{ちょく}接{せつ}言{い}えばいい。俺{おれ}はあんたの部{ぶ}下{か}じゃないからな",
-                    "maleVariant": null,
-                    "stringId": 1783754276548816904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ、またストライキだ",
-                    "maleVariant": null,
-                    "stringId": 1785376866505764864
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BE44DZ^痛{いた}い目{め}に遭{そう}わせりゃ大人{おとな}しくなる。余{よ}裕{ゆう}だ",
-                    "maleVariant": null,
-                    "stringId": 1912690777100963840
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "13406Z^なあ、あんたみたいな美{び}人{じん}が、こんなとこで何{なに}してるんだ？",
+              "maleVariant": "",
+              "stringId": 1447099242555400192
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DE406Z^あんたたち脳{のう}筋{すじ}と同{おな}じよ。働{はたら}いてるの",
+              "maleVariant": "",
+              "stringId": 1447101522293841920
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "57406Z^何{なん}だよ。ホルモンの調{ちょう}子{し}でも悪{わる}いのか？",
+              "maleVariant": "",
+              "stringId": 1447101721892380672
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "76406Z^あんたも出{だ}したくない血{ち}を出{だ}させてあげようか？",
+              "maleVariant": "",
+              "stringId": 1447102027355152384
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "38406Z^ベガからの連{れん}絡{らく}見{み}たか？ また仕{し}事{ごと}してこいってさ",
+              "maleVariant": "",
+              "stringId": 1447103091466854400
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D2406Z^鉄鋼{てっこう}労{ろう}働{どう}者{しゃ}組{くみ}合{あい}の連{れん}中{ちゅう}か？",
+              "maleVariant": "",
+              "stringId": 1447104382540734464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5346BZ^痕{こん}跡{せき}は消{け}せという指{し}示{じ}だったはず",
+              "maleVariant": "",
+              "stringId": 1783754276532039680
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5346B008^消{け}したさ",
+              "maleVariant": "",
+              "stringId": 1783754276532039688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5446BZ^消{け}すの意{い}味{み}が違{ちが}う。死{し}体{たい}が出{で}たなんて本{ほん}部{ぶ}は何{なん}て言{い}うか",
+              "maleVariant": "",
+              "stringId": 1783754276548816896
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5446B008^なら本{ほん}部{ぶ}は俺{おれ}に直{ちょく}接{せつ}言{い}えばいい。俺{おれ}はあんたの部{ぶ}下{か}じゃないからな",
+              "maleVariant": "",
+              "stringId": 1783754276548816904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ、またストライキだ",
+              "maleVariant": "",
+              "stringId": 1785376866505764864
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BE44DZ^痛{いた}い目{め}に遭{そう}わせりゃ大人{おとな}しくなる。余{よ}裕{ゆう}だ",
+              "maleVariant": "",
+              "stringId": 1912690777100963840
             }
-          }
+          ]
         }
       }
     },

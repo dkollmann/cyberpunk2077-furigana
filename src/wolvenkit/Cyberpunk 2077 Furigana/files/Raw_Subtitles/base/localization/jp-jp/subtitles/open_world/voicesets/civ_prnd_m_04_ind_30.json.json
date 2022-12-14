@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_prnd_m_04_ind_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "870A004^パラドックス博士{はかせ}は正{ただ}しかった",
-                    "maleVariant": null,
-                    "stringId": 1957788793946808324
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "970A004^みんな死{し}ぬんだ",
-                    "maleVariant": null,
-                    "stringId": 1957788793963585540
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F70A004^勘{かん}弁{べん}してくれ",
-                    "maleVariant": null,
-                    "stringId": 1957788794064248836
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい！",
-                    "maleVariant": null,
-                    "stringId": 1957788794081026052
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もうすぐだ",
-                    "maleVariant": null,
-                    "stringId": 1957788794148134916
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1770A004^月{がつ}に送{おく}られるんだ… それで爆{ばく}弾{だん}で粉々{こなごな}にされる… 今{いま}にわかる… コーポの連{れん}中{ちゅう}以{い}外{がい}はみんな塵{ちり}と化{か}すんだ…",
-                    "maleVariant": null,
-                    "stringId": 1957788794198466564
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1970A004^え…？ 知{し}られたくないからだろ…！ 考{かんが}えてみろ…！ どうだ？ メディアを牛{ぎゅう}耳{じ}ってるのは誰{だれ}だ…？ 企{き}業{ぎょう}だ！",
-                    "maleVariant": null,
-                    "stringId": 1957788794232020996
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1B70A004^もう時{じ}間{かん}の問{もん}題{だい}だ",
-                    "maleVariant": null,
-                    "stringId": 1957788794265575428
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "エージェントだ！",
-                    "maleVariant": null,
-                    "stringId": 1957788794416570372
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2570A004^終{しゅう}焉{えん}の時{とき}が来{き}た！",
-                    "maleVariant": null,
-                    "stringId": 1957788794433347588
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2A70A004^連{れん}中{ちゅう}の思{おも}うつぼだ！",
-                    "maleVariant": null,
-                    "stringId": 1957788794517233668
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2B70A004^利{り}用{よう}されてるのがわからないのか？",
-                    "maleVariant": null,
-                    "stringId": 1957788794534010884
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3070A004^ミリテクの使{つか}いだな？",
-                    "maleVariant": null,
-                    "stringId": 1957788794617896964
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3170A004^俺{おれ}は何{なに}も知{し}らない。放{ほうっ}っておいてくれ",
-                    "maleVariant": null,
-                    "stringId": 1957788794634674180
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "870A004^パラドックス博士{はかせ}は正{ただ}しかった",
+              "maleVariant": "",
+              "stringId": 1957788793946808324
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "970A004^みんな死{し}ぬんだ",
+              "maleVariant": "",
+              "stringId": 1957788793963585540
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F70A004^勘{かん}弁{べん}してくれ",
+              "maleVariant": "",
+              "stringId": 1957788794064248836
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい！",
+              "maleVariant": "",
+              "stringId": 1957788794081026052
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もうすぐだ",
+              "maleVariant": "",
+              "stringId": 1957788794148134916
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1770A004^月{がつ}に送{おく}られるんだ… それで爆{ばく}弾{だん}で粉々{こなごな}にされる… 今{いま}にわかる… コーポの連{れん}中{ちゅう}以{い}外{がい}はみんな塵{ちり}と化{か}すんだ…",
+              "maleVariant": "",
+              "stringId": 1957788794198466564
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1970A004^え…？ 知{し}られたくないからだろ…！ 考{かんが}えてみろ…！ どうだ？ メディアを牛{ぎゅう}耳{じ}ってるのは誰{だれ}だ…？ 企{き}業{ぎょう}だ！",
+              "maleVariant": "",
+              "stringId": 1957788794232020996
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1B70A004^もう時{じ}間{かん}の問{もん}題{だい}だ",
+              "maleVariant": "",
+              "stringId": 1957788794265575428
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "エージェントだ！",
+              "maleVariant": "",
+              "stringId": 1957788794416570372
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2570A004^終{しゅう}焉{えん}の時{とき}が来{き}た！",
+              "maleVariant": "",
+              "stringId": 1957788794433347588
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2A70A004^連{れん}中{ちゅう}の思{おも}うつぼだ！",
+              "maleVariant": "",
+              "stringId": 1957788794517233668
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2B70A004^利{り}用{よう}されてるのがわからないのか？",
+              "maleVariant": "",
+              "stringId": 1957788794534010884
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3070A004^ミリテクの使{つか}いだな？",
+              "maleVariant": "",
+              "stringId": 1957788794617896964
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3170A004^俺{おれ}は何{なに}も知{し}らない。放{ほうっ}っておいてくれ",
+              "maleVariant": "",
+              "stringId": 1957788794634674180
             }
-          }
+          ]
         }
       }
     },

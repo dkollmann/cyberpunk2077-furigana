@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q108\\q108_15b_parking.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E84EAZ^早{はや}く！",
-                    "maleVariant": null,
-                    "stringId": 1199971290389061632
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "さっさとずらかろう",
-                    "maleVariant": null,
-                    "stringId": 1682367134259126272
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "194EAZ^クソ！ あんたはどうして行{ゆ}く先{さき}々にいつも連{れん}中{ちゅう}を連{つ}れてくるんだ！",
-                    "maleVariant": null,
-                    "stringId": 1777772399728435200
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EE4EA004^あそこに停{と}めてある",
-                    "maleVariant": null,
-                    "stringId": 1777773429799165956
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BF4EAZ^乗{の}らないのか？",
-                    "maleVariant": null,
-                    "stringId": 1789444547370983424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D7351Z^喧{けん}嘩{か}を売{う}ったのは向{む}こうだ",
-                    "maleVariant": null,
-                    "stringId": 1790952841502068736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "43494Z^なかなかの運{うん}転{てん}テクじゃないか",
-                    "maleVariant": null,
-                    "stringId": 2233138843337965568
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AA494Z^グズグズしてる暇{ひま}はないよ！",
-                    "maleVariant": null,
-                    "stringId": 2233148418548121600
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "47494004^あのヘリ… 必{かなら}ず戻{もど}ってくるはずだ",
-                    "maleVariant": null,
-                    "stringId": 2233148812024168452
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E84EAZ^早{はや}く！",
+              "maleVariant": "",
+              "stringId": 1199971290389061632
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "さっさとずらかろう",
+              "maleVariant": "",
+              "stringId": 1682367134259126272
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "194EAZ^クソ！ あんたはどうして行{ゆ}く先{さき}々にいつも連{れん}中{ちゅう}を連{つ}れてくるんだ！",
+              "maleVariant": "",
+              "stringId": 1777772399728435200
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EE4EA004^あそこに停{と}めてある",
+              "maleVariant": "",
+              "stringId": 1777773429799165956
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BF4EAZ^乗{の}らないのか？",
+              "maleVariant": "",
+              "stringId": 1789444547370983424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D7351Z^喧{けん}嘩{か}を売{う}ったのは向{む}こうだ",
+              "maleVariant": "",
+              "stringId": 1790952841502068736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "43494Z^なかなかの運{うん}転{てん}テクじゃないか",
+              "maleVariant": "",
+              "stringId": 2233138843337965568
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AA494Z^グズグズしてる暇{ひま}はないよ！",
+              "maleVariant": "",
+              "stringId": 2233148418548121600
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "47494004^あのヘリ… 必{かなら}ず戻{もど}ってくるはずだ",
+              "maleVariant": "",
+              "stringId": 2233148812024168452
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q001\\q001_00b_dead_girl.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "V… こいつは？",
-                    "maleVariant": null,
-                    "stringId": 1141750414696976400
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "852B1010^ターゲットのサンドラ・ドーセットはエシュロンIIの企{き}業{ぎょう}特権{とっけん}で保{ほ}護{ご}されてる。つまり相{そう}当{とう}なお嬢{じょう}よ",
-                    "maleVariant": "852B1010^ターゲットのサンドラ・ドーセットはエシュロンIIの企{き}業{ぎょう}特権{とっけん}で保{ほ}護{ご}されてる。つまり相{そう}当{とう}なお嬢{じょう}だ",
-                    "stringId": 1141752040660865040
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FB2B1Z^V、ぼさっとすんな。ターゲットかどうか確{たし}かめろ",
-                    "maleVariant": null,
-                    "stringId": 1141794090370404352
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A22B1Z^この子{こ}じゃない。捜{そう}索{さく}を続{つづ}けましょ",
-                    "maleVariant": "A22B1Z^こいつじゃない。捜{そう}索{さく}を続{つづ}けるぞ",
-                    "stringId": 1173663261609627648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "39449Z^くっ、遅{おそ}かったか！ V、こいつがターゲットか？",
-                    "maleVariant": null,
-                    "stringId": 1193657062757011456
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AA2EFZ^でもこれは、ゼータテクのコピー品{ひん}ばっか。ヤミ改{かい}造{ぞう}によくあるやつね",
-                    "maleVariant": "AA2EFZ^だがこれは、ゼータテクのコピー品{ひん}ばっかだ。ヤミ改{かい}造{ぞう}によくあるやつだな",
-                    "stringId": 1630194113232957440
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3E627Z^上{じょう}出{で}来{き}。これで動{うご}きやすくなった",
-                    "maleVariant": null,
-                    "stringId": 1690989747161427968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1D627Z^連{れん}中{ちゅう}に見{み}つかった！ そっちに向{む}かってる！",
-                    "maleVariant": null,
-                    "stringId": 1690992765969788928
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F0649004^インプラントが安{やす}物{もの}すぎる…",
-                    "maleVariant": null,
-                    "stringId": 2177968277633142788
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "V… こいつは？",
+              "maleVariant": "",
+              "stringId": 1141750414696976400
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "852B1010^ターゲットのサンドラ・ドーセットはエシュロンIIの企{き}業{ぎょう}特権{とっけん}で保{ほ}護{ご}されてる。つまり相{そう}当{とう}なお嬢{じょう}よ",
+              "maleVariant": "852B1010^ターゲットのサンドラ・ドーセットはエシュロンIIの企{き}業{ぎょう}特権{とっけん}で保{ほ}護{ご}されてる。つまり相{そう}当{とう}なお嬢{じょう}だ",
+              "stringId": 1141752040660865040
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FB2B1Z^V、ぼさっとすんな。ターゲットかどうか確{たし}かめろ",
+              "maleVariant": "",
+              "stringId": 1141794090370404352
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A22B1Z^この子{こ}じゃない。捜{そう}索{さく}を続{つづ}けましょ",
+              "maleVariant": "A22B1Z^こいつじゃない。捜{そう}索{さく}を続{つづ}けるぞ",
+              "stringId": 1173663261609627648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "39449Z^くっ、遅{おそ}かったか！ V、こいつがターゲットか？",
+              "maleVariant": "",
+              "stringId": 1193657062757011456
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AA2EFZ^でもこれは、ゼータテクのコピー品{ひん}ばっか。ヤミ改{かい}造{ぞう}によくあるやつね",
+              "maleVariant": "AA2EFZ^だがこれは、ゼータテクのコピー品{ひん}ばっかだ。ヤミ改{かい}造{ぞう}によくあるやつだな",
+              "stringId": 1630194113232957440
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3E627Z^上{じょう}出{で}来{き}。これで動{うご}きやすくなった",
+              "maleVariant": "",
+              "stringId": 1690989747161427968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1D627Z^連{れん}中{ちゅう}に見{み}つかった！ そっちに向{む}かってる！",
+              "maleVariant": "",
+              "stringId": 1690992765969788928
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F0649004^インプラントが安{やす}物{もの}すぎる…",
+              "maleVariant": "",
+              "stringId": 2177968277633142788
             }
-          }
+          ]
         }
       }
     },

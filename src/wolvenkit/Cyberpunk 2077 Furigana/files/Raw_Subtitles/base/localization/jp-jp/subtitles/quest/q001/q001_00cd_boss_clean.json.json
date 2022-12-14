@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q001\\q001_00cd_boss_clean.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "363FCZ^逃{に}がすな！",
-                    "maleVariant": null,
-                    "stringId": 1650497555567460352
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "733FCZ^このままじゃやべえぞ…！ バグ、お前{まえ}が俺{おれ}たちの目{め}だ… どうしたらいい？",
-                    "maleVariant": null,
-                    "stringId": 1653073643615272960
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "733FC010^構{こう}造{ぞう}を確{かく}認{にん}中{なか}",
-                    "maleVariant": null,
-                    "stringId": 1653073643615272976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "743FCZ^よしV、横{よこ}から攻{こう}撃{げき}して注{ちゅう}意{い}を引{ひ}け。後{のち}は俺{おれ}がやる",
-                    "maleVariant": null,
-                    "stringId": 1653073643632050176
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FB3FCZ^左{ひだり}に窓{まど}がある。2秒{びょう}で開{ひら}けるわ",
-                    "maleVariant": null,
-                    "stringId": 1653076167042777088
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "683FCZ^センサーに反{はん}応{のう}はない。もう大{だい}丈{じょう}夫{ぶ}のはず。先{さき}に進{すす}んで",
-                    "maleVariant": null,
-                    "stringId": 1653096651570528256
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C33FCZ^クソ、ターゲットは一{いっ}体{たい}どこ？",
-                    "maleVariant": "C33FCZ^クソ、ターゲットは一{いっ}体{たい}どこだ？",
-                    "stringId": 1653098456983519232
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6D3FCZ^探{さが}して。絶{ぜっ}対{たい}にいるはず",
-                    "maleVariant": null,
-                    "stringId": 1653098618749435904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4C627Z^ハッキング完{かん}了{りょう}。気{き}をつけて",
-                    "maleVariant": null,
-                    "stringId": 1703910314692734976
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "363FCZ^逃{に}がすな！",
+              "maleVariant": "",
+              "stringId": 1650497555567460352
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "733FCZ^このままじゃやべえぞ…！ バグ、お前{まえ}が俺{おれ}たちの目{め}だ… どうしたらいい？",
+              "maleVariant": "",
+              "stringId": 1653073643615272960
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "733FC010^構{こう}造{ぞう}を確{かく}認{にん}中{なか}",
+              "maleVariant": "",
+              "stringId": 1653073643615272976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "743FCZ^よしV、横{よこ}から攻{こう}撃{げき}して注{ちゅう}意{い}を引{ひ}け。後{のち}は俺{おれ}がやる",
+              "maleVariant": "",
+              "stringId": 1653073643632050176
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FB3FCZ^左{ひだり}に窓{まど}がある。2秒{びょう}で開{ひら}けるわ",
+              "maleVariant": "",
+              "stringId": 1653076167042777088
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "683FCZ^センサーに反{はん}応{のう}はない。もう大{だい}丈{じょう}夫{ぶ}のはず。先{さき}に進{すす}んで",
+              "maleVariant": "",
+              "stringId": 1653096651570528256
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C33FCZ^クソ、ターゲットは一{いっ}体{たい}どこ？",
+              "maleVariant": "C33FCZ^クソ、ターゲットは一{いっ}体{たい}どこだ？",
+              "stringId": 1653098456983519232
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6D3FCZ^探{さが}して。絶{ぜっ}対{たい}にいるはず",
+              "maleVariant": "",
+              "stringId": 1653098618749435904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4C627Z^ハッキング完{かん}了{りょう}。気{き}をつけて",
+              "maleVariant": "",
+              "stringId": 1703910314692734976
             }
-          }
+          ]
         }
       }
     },

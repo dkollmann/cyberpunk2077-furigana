@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\mq029\\mq029_01a_garage.json"
@@ -11,58 +11,44 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5D49DZ^悪{わる}くない。似{に}たようなのを持{も}ってた。ノーマッド仕{し}様{よう}じゃなかったけどな",
-                    "maleVariant": null,
-                    "stringId": 1821466168323067904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2749DZ^別{べつ}に巨{きょ}乳{にゅう}専{せん}門{もん}じゃない。あと、ブルネットだ",
-                    "maleVariant": null,
-                    "stringId": 1821466807367225344
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "へぇ…",
-                    "maleVariant": null,
-                    "stringId": 1831628381640077316
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4644DZ^どうせ横{よこ}に巨{きょ}乳{にゅう}のブロンド美{び}女{じょ}の絵{え}でも入{い}れてたんでしょ",
-                    "maleVariant": "4644DZ^どうせ横{よこ}に巨{きょ}乳{にゅう}のブロンド美{び}女{じょ}の絵{え}でも入{い}れてたんだろ",
-                    "stringId": 1922946147673231360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8F44DZ^ふむ… これは直{なお}せそうにないな。このままスクラップ送{おく}りだ",
-                    "maleVariant": null,
-                    "stringId": 1922946801732997120
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5D49DZ^悪{わる}くない。似{に}たようなのを持{も}ってた。ノーマッド仕{し}様{よう}じゃなかったけどな",
+              "maleVariant": "",
+              "stringId": 1821466168323067904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2749DZ^別{べつ}に巨{きょ}乳{にゅう}専{せん}門{もん}じゃない。あと、ブルネットだ",
+              "maleVariant": "",
+              "stringId": 1821466807367225344
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "へぇ…",
+              "maleVariant": "",
+              "stringId": 1831628381640077316
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4644DZ^どうせ横{よこ}に巨{きょ}乳{にゅう}のブロンド美{び}女{じょ}の絵{え}でも入{い}れてたんでしょ",
+              "maleVariant": "4644DZ^どうせ横{よこ}に巨{きょ}乳{にゅう}のブロンド美{び}女{じょ}の絵{え}でも入{い}れてたんだろ",
+              "stringId": 1922946147673231360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8F44DZ^ふむ… これは直{なお}せそうにないな。このままスクラップ送{おく}りだ",
+              "maleVariant": "",
+              "stringId": 1922946801732997120
             }
-          }
+          ]
         }
       }
     },

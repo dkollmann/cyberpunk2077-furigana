@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_jpn_chat_008.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F669EZ^ディーンにケイト、そして今{こん}度{ど}はハサンか",
-                    "maleVariant": null,
-                    "stringId": 1806904049915256832
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E669EZ^サイバーサイコシスは誰{だれ}にも平等{びょうどう}なのさ",
-                    "maleVariant": null,
-                    "stringId": 1806904672417079296
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EF69EZ^ああはなりたくない… 絶{ぜっ}対{たい}に…",
-                    "maleVariant": null,
-                    "stringId": 1806905003280556032
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2669EZ^だからって何{なに}ができるってんだ？ クロームがなきゃ仕{し}事{ごと}にならねえ",
-                    "maleVariant": null,
-                    "stringId": 1806905399340294144
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1A69EZ^そうだけどよ… なあ、もし俺{おれ}が発{はっ}症{しょう}したら、お前{まえ}が俺{おれ}を消{け}してくれるか？",
-                    "maleVariant": null,
-                    "stringId": 1806905579527593984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わかった",
-                    "maleVariant": null,
-                    "stringId": 1806905920709058560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ED69EZ^ハサンは自{じ}覚{かく}があったと思{おも}うか？ 自{じ}分{ぶん}がイカれちまったってわかりながら、一般人{いっぱんじん}を殺{ころ}してたのか…",
-                    "maleVariant": null,
-                    "stringId": 1806906068398891008
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "469EZ^よせよ、チューマ。滅多{めった}なこと言{い}うもんじゃねえ",
-                    "maleVariant": null,
-                    "stringId": 1806906378022412288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6D559Z^だが、極{ごく}秘{ひ}にだぞ。このショウタロウがイカレたって世{せ}間{けん}に知{し}られたくはねえ",
-                    "maleVariant": null,
-                    "stringId": 1806994838929117184
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F669EZ^ディーンにケイト、そして今{こん}度{ど}はハサンか",
+              "maleVariant": "",
+              "stringId": 1806904049915256832
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E669EZ^サイバーサイコシスは誰{だれ}にも平等{びょうどう}なのさ",
+              "maleVariant": "",
+              "stringId": 1806904672417079296
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EF69EZ^ああはなりたくない… 絶{ぜっ}対{たい}に…",
+              "maleVariant": "",
+              "stringId": 1806905003280556032
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2669EZ^だからって何{なに}ができるってんだ？ クロームがなきゃ仕{し}事{ごと}にならねえ",
+              "maleVariant": "",
+              "stringId": 1806905399340294144
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1A69EZ^そうだけどよ… なあ、もし俺{おれ}が発{はっ}症{しょう}したら、お前{まえ}が俺{おれ}を消{け}してくれるか？",
+              "maleVariant": "",
+              "stringId": 1806905579527593984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わかった",
+              "maleVariant": "",
+              "stringId": 1806905920709058560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ED69EZ^ハサンは自{じ}覚{かく}があったと思{おも}うか？ 自{じ}分{ぶん}がイカれちまったってわかりながら、一般人{いっぱんじん}を殺{ころ}してたのか…",
+              "maleVariant": "",
+              "stringId": 1806906068398891008
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "469EZ^よせよ、チューマ。滅多{めった}なこと言{い}うもんじゃねえ",
+              "maleVariant": "",
+              "stringId": 1806906378022412288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6D559Z^だが、極{ごく}秘{ひ}にだぞ。このショウタロウがイカレたって世{せ}間{けん}に知{し}られたくはねえ",
+              "maleVariant": "",
+              "stringId": 1806994838929117184
             }
-          }
+          ]
         }
       }
     },

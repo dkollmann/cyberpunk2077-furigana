@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_wwd_chat_032.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7469EZ^カジキなんてありえない。本{ほん}物{もの}の、生{い}きたカジキ？ 絶{ぜっ}対{たい}ないって",
-                    "maleVariant": null,
-                    "stringId": 2179671749777022976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D242FZ^でもすごく速{はや}かったの。時{じ}速{そく}60マイルは超{こ}えてた。写{しゃ}真{しん}で見{み}るようなヒレもあったし",
-                    "maleVariant": null,
-                    "stringId": 2211512237997355008
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5342FZ^きっとドローンでしょ。それか、魚{ぎょ}雷{らい}",
-                    "maleVariant": null,
-                    "stringId": 2211512313176059904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E742FZ^まさか。デルコロナドで魚{ぎょ}雷{らい}なんか撃{う}つわけないでしょ？",
-                    "maleVariant": null,
-                    "stringId": 2212736922504327168
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F742FZ^この前{まえ}送{おく}ったポッドキャストを聞{き}いてないの？",
-                    "maleVariant": null,
-                    "stringId": 2212737257780211712
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9742FZ^この入{い}り江{え}にはミリテクの潜{せん}水{すい}艦{かん}がうようよいるのよ",
-                    "maleVariant": null,
-                    "stringId": 2212737754385805312
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4742FZ^ヘドロの中{なか}を泳{およ}ぐカジキの方{ほう}がロマンあるのに…",
-                    "maleVariant": null,
-                    "stringId": 2212738161065521152
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7469EZ^カジキなんてありえない。本{ほん}物{もの}の、生{い}きたカジキ？ 絶{ぜっ}対{たい}ないって",
+              "maleVariant": "",
+              "stringId": 2179671749777022976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D242FZ^でもすごく速{はや}かったの。時{じ}速{そく}60マイルは超{こ}えてた。写{しゃ}真{しん}で見{み}るようなヒレもあったし",
+              "maleVariant": "",
+              "stringId": 2211512237997355008
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5342FZ^きっとドローンでしょ。それか、魚{ぎょ}雷{らい}",
+              "maleVariant": "",
+              "stringId": 2211512313176059904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E742FZ^まさか。デルコロナドで魚{ぎょ}雷{らい}なんか撃{う}つわけないでしょ？",
+              "maleVariant": "",
+              "stringId": 2212736922504327168
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F742FZ^この前{まえ}送{おく}ったポッドキャストを聞{き}いてないの？",
+              "maleVariant": "",
+              "stringId": 2212737257780211712
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9742FZ^この入{い}り江{え}にはミリテクの潜{せん}水{すい}艦{かん}がうようよいるのよ",
+              "maleVariant": "",
+              "stringId": 2212737754385805312
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4742FZ^ヘドロの中{なか}を泳{およ}ぐカジキの方{ほう}がロマンあるのに…",
+              "maleVariant": "",
+              "stringId": 2212738161065521152
             }
-          }
+          ]
         }
       }
     },

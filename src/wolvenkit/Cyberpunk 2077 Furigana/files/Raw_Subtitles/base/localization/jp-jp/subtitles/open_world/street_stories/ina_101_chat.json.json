@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\ina_101_chat.json"
@@ -11,58 +11,44 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1C647Z^フィグズの奴{やつ}も気{き}の毒{どく}に。あいつの立場{たちば}には死{し}んでもなりたくねえな",
-                    "maleVariant": null,
-                    "stringId": 1915773186514120704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C5647Z^何{なん}でだ？ あのバカが逃{に}げた時{とき}、奴{やつ}はその場{ば}にいなかったろ？",
-                    "maleVariant": null,
-                    "stringId": 1915775212279066624
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "72647Z^だから余{よ}計{けい}にさ。変{へん}革{かく}のリーダーは変{へん}化{か}を起{お}こしてなんぼだ。ただ女{おんな}を物色{ぶっしょく}してるだけじゃなくてな",
-                    "maleVariant": null,
-                    "stringId": 1915775580253745152
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7D647Z^ったく… 俺{おれ}は今{いま}の感{かん}じが気{き}に入{い}ってるのにな…",
-                    "maleVariant": null,
-                    "stringId": 1915778470951284736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7E647Z^つまりな、ミリテクは誰{だれ}のせいにする？ ジョシュだけじゃ済{す}まないだろう。そうなったら転{ころ}がるのは誰{だれ}の首{くび}だ？",
-                    "maleVariant": null,
-                    "stringId": 1915778814565445632
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1C647Z^フィグズの奴{やつ}も気{き}の毒{どく}に。あいつの立場{たちば}には死{し}んでもなりたくねえな",
+              "maleVariant": "",
+              "stringId": 1915773186514120704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C5647Z^何{なん}でだ？ あのバカが逃{に}げた時{とき}、奴{やつ}はその場{ば}にいなかったろ？",
+              "maleVariant": "",
+              "stringId": 1915775212279066624
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "72647Z^だから余{よ}計{けい}にさ。変{へん}革{かく}のリーダーは変{へん}化{か}を起{お}こしてなんぼだ。ただ女{おんな}を物色{ぶっしょく}してるだけじゃなくてな",
+              "maleVariant": "",
+              "stringId": 1915775580253745152
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7D647Z^ったく… 俺{おれ}は今{いま}の感{かん}じが気{き}に入{い}ってるのにな…",
+              "maleVariant": "",
+              "stringId": 1915778470951284736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7E647Z^つまりな、ミリテクは誰{だれ}のせいにする？ ジョシュだけじゃ済{す}まないだろう。そうなったら転{ころ}がるのは誰{だれ}の首{くび}だ？",
+              "maleVariant": "",
+              "stringId": 1915778814565445632
             }
-          }
+          ]
         }
       }
     },

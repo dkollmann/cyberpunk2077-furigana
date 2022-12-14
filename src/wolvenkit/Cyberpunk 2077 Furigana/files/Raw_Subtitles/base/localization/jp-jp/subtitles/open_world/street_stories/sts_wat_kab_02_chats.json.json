@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_wat_kab_02_chats.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソ、ハンスのチャイテクまみれじゃねえか…",
-                    "maleVariant": null,
-                    "stringId": 983714023834091520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "47338Z^あいつ、腹{はら}に風穴{かざあな}開{ひら}いてんのに、気{き}にせず撃{う}ち返{かえ}してたな！",
-                    "maleVariant": null,
-                    "stringId": 983720057994706944
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5559Z^さすがハンスだ、あいつにゃ敵{かな}わねえよ",
-                    "maleVariant": null,
-                    "stringId": 1375048606130999296
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "60559Z^リパーに早{はや}く縫{ぬ}ってもらおうぜ！",
-                    "maleVariant": null,
-                    "stringId": 1456005601566232576
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9B559Z^まったくだ。ほら、降{ふ}ろせ",
-                    "maleVariant": null,
-                    "stringId": 1456015373606686720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9559Z^任{まか}せろ！",
-                    "maleVariant": null,
-                    "stringId": 1456015547250872320
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソ、ハンスのチャイテクまみれじゃねえか…",
+              "maleVariant": "",
+              "stringId": 983714023834091520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "47338Z^あいつ、腹{はら}に風穴{かざあな}開{ひら}いてんのに、気{き}にせず撃{う}ち返{かえ}してたな！",
+              "maleVariant": "",
+              "stringId": 983720057994706944
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5559Z^さすがハンスだ、あいつにゃ敵{かな}わねえよ",
+              "maleVariant": "",
+              "stringId": 1375048606130999296
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "60559Z^リパーに早{はや}く縫{ぬ}ってもらおうぜ！",
+              "maleVariant": "",
+              "stringId": 1456005601566232576
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9B559Z^まったくだ。ほら、降{ふ}ろせ",
+              "maleVariant": "",
+              "stringId": 1456015373606686720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9559Z^任{まか}せろ！",
+              "maleVariant": "",
+              "stringId": 1456015547250872320
             }
-          }
+          ]
         }
       }
     },

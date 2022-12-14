@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_036.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BF647Z^こんなマズいの、食{た}べられない",
-                    "maleVariant": null,
-                    "stringId": 2157369755393355776
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "82494Z^自{じ}分{ぶん}で選{えら}んだんだろ？ 俺{おれ}のは普{ふ}通{つう}だぞ",
-                    "maleVariant": null,
-                    "stringId": 2179366090072211456
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "74494Z^あんたは何{なん}でも食{た}べるじゃない",
-                    "maleVariant": null,
-                    "stringId": 2179390661345230848
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "24494Z^まあ… アスパラガス以{い}外{がい}はな。ありゃ嫌{きら}いだ",
-                    "maleVariant": null,
-                    "stringId": 2179392738767224832
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BE494Z^はあ？ アスパラガスなんて高{こう}級{きゅう}品{ひん}、いつ食{た}べたのよ？",
-                    "maleVariant": null,
-                    "stringId": 2179394347668684800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F5494Z^他{ほか}に嫌{きら}いなものは？ 白{しろ}トリュフとか？",
-                    "maleVariant": null,
-                    "stringId": 2222875721322807296
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5C494Z^さあな… とにかくアスパラガスは好{す}きじゃねえんだよ。それの何{なに}がいけねえんだ",
-                    "maleVariant": null,
-                    "stringId": 2222884428949569536
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BF647Z^こんなマズいの、食{た}べられない",
+              "maleVariant": "",
+              "stringId": 2157369755393355776
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "82494Z^自{じ}分{ぶん}で選{えら}んだんだろ？ 俺{おれ}のは普{ふ}通{つう}だぞ",
+              "maleVariant": "",
+              "stringId": 2179366090072211456
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "74494Z^あんたは何{なん}でも食{た}べるじゃない",
+              "maleVariant": "",
+              "stringId": 2179390661345230848
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "24494Z^まあ… アスパラガス以{い}外{がい}はな。ありゃ嫌{きら}いだ",
+              "maleVariant": "",
+              "stringId": 2179392738767224832
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BE494Z^はあ？ アスパラガスなんて高{こう}級{きゅう}品{ひん}、いつ食{た}べたのよ？",
+              "maleVariant": "",
+              "stringId": 2179394347668684800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F5494Z^他{ほか}に嫌{きら}いなものは？ 白{しろ}トリュフとか？",
+              "maleVariant": "",
+              "stringId": 2222875721322807296
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5C494Z^さあな… とにかくアスパラガスは好{す}きじゃねえんだよ。それの何{なに}がいけねえんだ",
+              "maleVariant": "",
+              "stringId": 2222884428949569536
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\wat_kab_foodshop_01.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3A5C5Z^軽{かる}く何{なに}かつまみたい",
-                    "maleVariant": null,
-                    "stringId": 1864894420312936448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3A5C5010^ハンバーガーに尻尾{しっぽ}がある…",
-                    "maleVariant": null,
-                    "stringId": 1864894420312936464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3B5C5004^何{なに}かつまめるものはない？",
-                    "maleVariant": "3B5C5004^何{なに}かつまめるものはないか？",
-                    "stringId": 1864894420329713668
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3C5C5Z^うちは、うまいものを早{はや}く出{だ}すのがモットーでね。まさに一{いっ}石{せき}二{に}鳥{ちょう}さ！",
-                    "maleVariant": null,
-                    "stringId": 1864894420346490880
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3D5C5004^そのハンバーガー、尻尾{しっぽ}がついてない？",
-                    "maleVariant": "3D5C5004^そのハンバーガー、尻尾{しっぽ}がついてないか？",
-                    "stringId": 1864894420363268100
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3D5C500C^キッズ用{よう}だ。子{こ}供{ども}ウケが良{よ}さそうだろ",
-                    "maleVariant": null,
-                    "stringId": 1864894420363268108
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3A5C5Z^軽{かる}く何{なに}かつまみたい",
+              "maleVariant": "",
+              "stringId": 1864894420312936448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3A5C5010^ハンバーガーに尻尾{しっぽ}がある…",
+              "maleVariant": "",
+              "stringId": 1864894420312936464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3B5C5004^何{なに}かつまめるものはない？",
+              "maleVariant": "3B5C5004^何{なに}かつまめるものはないか？",
+              "stringId": 1864894420329713668
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3C5C5Z^うちは、うまいものを早{はや}く出{だ}すのがモットーでね。まさに一{いっ}石{せき}二{に}鳥{ちょう}さ！",
+              "maleVariant": "",
+              "stringId": 1864894420346490880
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3D5C5004^そのハンバーガー、尻尾{しっぽ}がついてない？",
+              "maleVariant": "3D5C5004^そのハンバーガー、尻尾{しっぽ}がついてないか？",
+              "stringId": 1864894420363268100
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3D5C500C^キッズ用{よう}だ。子{こ}供{ども}ウケが良{よ}さそうだろ",
+              "maleVariant": "",
+              "stringId": 1864894420363268108
             }
-          }
+          ]
         }
       }
     },

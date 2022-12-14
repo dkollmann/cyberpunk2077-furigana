@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bugbear_default.json"
@@ -11,114 +11,86 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A42C5004^必{ひつ}要{よう}なものがある…",
-                    "maleVariant": null,
-                    "stringId": 1937441522138763268
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "222C5Z^起{お}きた時{とき}… どんな気{き}分{ぶん}だった？",
-                    "maleVariant": null,
-                    "stringId": 1937443779110522880
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B12C5Z^起{お}きた時{とき}、大{だい}丈{じょう}夫{ぶ}だった？",
-                    "maleVariant": "B12C5Z^起{お}きた時{とき}、大{だい}丈{じょう}夫{ぶ}だったか？",
-                    "stringId": 1937445641230503936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E22C5Z^少{すこ}し必{ひつ}要{よう}なものがあるの…",
-                    "maleVariant": "E22C5Z^少{すこ}し必{ひつ}要{よう}なものがある…",
-                    "stringId": 1937446264822845440
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E12C5Z^何{なに}？",
-                    "maleVariant": null,
-                    "stringId": 1937448094462136320
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "362C5Z^助{たす}けてくれてありがとう",
-                    "maleVariant": null,
-                    "stringId": 1937537478452596736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "72C5Z^綺{き}麗{れい}に眠{ねむ}りから覚{さ}めた感{かん}じかな",
-                    "maleVariant": null,
-                    "stringId": 1937554339705671680
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3B2C5Z^Vね。何{なに}があったのかワカコに聞{き}いた後{のち}、あなたについて調{しら}べたの",
-                    "maleVariant": null,
-                    "stringId": 1937567143875596288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B02C5Z^誰{だれ}かに窓{まど}から放{ほう}りだされたみたいに、アザだらけだけど…",
-                    "maleVariant": null,
-                    "stringId": 1949225070059343872
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "822C5Z^まあ、こうして生{い}きてる。だからやったかいはあった。ありがとう",
-                    "maleVariant": null,
-                    "stringId": 1949225073582559232
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8B2C5Z^変{へん}だよね？ こうやってまた会{あ}うなんて",
-                    "maleVariant": null,
-                    "stringId": 1949226057281064960
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "62C5Z^何{なに}かご用{よう}？",
-                    "maleVariant": null,
-                    "stringId": 1949228245483016192
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A42C5004^必{ひつ}要{よう}なものがある…",
+              "maleVariant": "",
+              "stringId": 1937441522138763268
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "222C5Z^起{お}きた時{とき}… どんな気{き}分{ぶん}だった？",
+              "maleVariant": "",
+              "stringId": 1937443779110522880
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B12C5Z^起{お}きた時{とき}、大{だい}丈{じょう}夫{ぶ}だった？",
+              "maleVariant": "B12C5Z^起{お}きた時{とき}、大{だい}丈{じょう}夫{ぶ}だったか？",
+              "stringId": 1937445641230503936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E22C5Z^少{すこ}し必{ひつ}要{よう}なものがあるの…",
+              "maleVariant": "E22C5Z^少{すこ}し必{ひつ}要{よう}なものがある…",
+              "stringId": 1937446264822845440
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E12C5Z^何{なに}？",
+              "maleVariant": "",
+              "stringId": 1937448094462136320
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "362C5Z^助{たす}けてくれてありがとう",
+              "maleVariant": "",
+              "stringId": 1937537478452596736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "72C5Z^綺{き}麗{れい}に眠{ねむ}りから覚{さ}めた感{かん}じかな",
+              "maleVariant": "",
+              "stringId": 1937554339705671680
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3B2C5Z^Vね。何{なに}があったのかワカコに聞{き}いた後{のち}、あなたについて調{しら}べたの",
+              "maleVariant": "",
+              "stringId": 1937567143875596288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B02C5Z^誰{だれ}かに窓{まど}から放{ほう}りだされたみたいに、アザだらけだけど…",
+              "maleVariant": "",
+              "stringId": 1949225070059343872
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "822C5Z^まあ、こうして生{い}きてる。だからやったかいはあった。ありがとう",
+              "maleVariant": "",
+              "stringId": 1949225073582559232
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8B2C5Z^変{へん}だよね？ こうやってまた会{あ}うなんて",
+              "maleVariant": "",
+              "stringId": 1949226057281064960
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "62C5Z^何{なに}かご用{よう}？",
+              "maleVariant": "",
+              "stringId": 1949228245483016192
             }
-          }
+          ]
         }
       }
     },

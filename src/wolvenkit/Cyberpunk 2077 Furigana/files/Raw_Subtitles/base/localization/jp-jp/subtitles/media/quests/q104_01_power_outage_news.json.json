@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\quests\\q104_01_power_outage_news.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5468EZ^時{じ}間{かん}を延{えん}長{ちょう}して、サントドミンゴ発{はつ}電{でん}所{しょ}襲{しゅう}撃{げき}事{じ}件{けん}についてお伝{つた}えします",
-                    "maleVariant": null,
-                    "stringId": 1744501745799192576
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4368EZ^発{はつ}電{でん}所{しょ}では正{しょう}体{たい}不{ふ}明{めい}の侵{しん}入{にゅう}者{しゃ}によって冷{れい}却{きゃく}システムが破{は}壊{かい}され、その結{けっ}果{か}、EMPが大{たい}量{りょう}に放{ほう}出{しゅつ}される事{じ}態{たい}となりました",
-                    "maleVariant": null,
-                    "stringId": 1744506598827024384
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A568EZ^発{はつ}電{でん}所{しょ}の襲{しゅう}撃{げき}直{ちょく}後{ご}、近{きん}隣{りん}住{じゅう}民{みん}からはインプラントに関{かん}する深{しん}刻{こく}な不{ふ}具{ぐ}合{あい}が報{ほう}告{こく}されています",
-                    "maleVariant": null,
-                    "stringId": 1744506840989360128
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4C68EZ^強{きょう}力{りょく}なEMPにより、街{まち}全{ぜん}体{たい}が何{なん}時{じ}間{かん}も暗{くら}闇{やみ}に包{つつ}まれたのです",
-                    "maleVariant": null,
-                    "stringId": 1744507208863375360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D68EZ^NCPDはノーマッドによる犯{はん}行{こう}の可{か}能{のう}性{せい}が非{ひ}常{じょう}に高{たか}いと見{み}て、対{たい}抗{こう}措{そ}置{ち}を検{けん}討{とう}中{ちゅう}とのことです",
-                    "maleVariant": null,
-                    "stringId": 1744507349540331520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3D68EZ^また続{ぞく}報{ほう}が入{い}り次{し}第{だい}、ニュースをお届{とど}けします",
-                    "maleVariant": null,
-                    "stringId": 1744507582273871872
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2544DZ^幸{さいわ}いにも、周{しゅう}辺{へん}の集{しゅう}落{らく}の多{おお}くはEMPの被{ひ}害{がい}を受{う}けずに済{す}みました。施{し}設{せつ}の損{そん}傷{しょう}規{き}模{ぼ}を考{かんが}えれば、犠{ぎ}牲{せい}者{しゃ}の少{ずく}なさは奇{き}跡{せき}といえるでしょう",
-                    "maleVariant": null,
-                    "stringId": 1902236446178463744
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5468EZ^時{じ}間{かん}を延{えん}長{ちょう}して、サントドミンゴ発{はつ}電{でん}所{しょ}襲{しゅう}撃{げき}事{じ}件{けん}についてお伝{つた}えします",
+              "maleVariant": "",
+              "stringId": 1744501745799192576
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4368EZ^発{はつ}電{でん}所{しょ}では正{しょう}体{たい}不{ふ}明{めい}の侵{しん}入{にゅう}者{しゃ}によって冷{れい}却{きゃく}システムが破{は}壊{かい}され、その結{けっ}果{か}、EMPが大{たい}量{りょう}に放{ほう}出{しゅつ}される事{じ}態{たい}となりました",
+              "maleVariant": "",
+              "stringId": 1744506598827024384
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A568EZ^発{はつ}電{でん}所{しょ}の襲{しゅう}撃{げき}直{ちょく}後{ご}、近{きん}隣{りん}住{じゅう}民{みん}からはインプラントに関{かん}する深{しん}刻{こく}な不{ふ}具{ぐ}合{あい}が報{ほう}告{こく}されています",
+              "maleVariant": "",
+              "stringId": 1744506840989360128
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4C68EZ^強{きょう}力{りょく}なEMPにより、街{まち}全{ぜん}体{たい}が何{なん}時{じ}間{かん}も暗{くら}闇{やみ}に包{つつ}まれたのです",
+              "maleVariant": "",
+              "stringId": 1744507208863375360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D68EZ^NCPDはノーマッドによる犯{はん}行{こう}の可{か}能{のう}性{せい}が非{ひ}常{じょう}に高{たか}いと見{み}て、対{たい}抗{こう}措{そ}置{ち}を検{けん}討{とう}中{ちゅう}とのことです",
+              "maleVariant": "",
+              "stringId": 1744507349540331520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3D68EZ^また続{ぞく}報{ほう}が入{い}り次{し}第{だい}、ニュースをお届{とど}けします",
+              "maleVariant": "",
+              "stringId": 1744507582273871872
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2544DZ^幸{さいわ}いにも、周{しゅう}辺{へん}の集{しゅう}落{らく}の多{おお}くはEMPの被{ひ}害{がい}を受{う}けずに済{す}みました。施{し}設{せつ}の損{そん}傷{しょう}規{き}模{ぼ}を考{かんが}えれば、犠{ぎ}牲{せい}者{しゃ}の少{ずく}なさは奇{き}跡{せき}といえるでしょう",
+              "maleVariant": "",
+              "stringId": 1902236446178463744
             }
-          }
+          ]
         }
       }
     },

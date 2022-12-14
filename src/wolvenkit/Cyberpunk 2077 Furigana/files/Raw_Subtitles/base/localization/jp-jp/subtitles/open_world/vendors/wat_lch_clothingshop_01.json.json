@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\wat_lch_clothingshop_01.json"
@@ -11,114 +11,86 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AB647Z^新{あたら}しい服{ふく}を探{さが}してる",
-                    "maleVariant": null,
-                    "stringId": 1805670482509590528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AB647010^最{さい}近{きん}のトレンドは？",
-                    "maleVariant": null,
-                    "stringId": 1805670482509590544
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AC647004^新{あたら}しい服{ふく}を探{さが}してる。やぼったくないヤツを",
-                    "maleVariant": null,
-                    "stringId": 1805670482526367748
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AE647004^今{いま}のストリートのトレンドは？",
-                    "maleVariant": null,
-                    "stringId": 1805670482559922180
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AE64700C^他{た}人{にん}のことなど忘{わす}れて、自{じ}分{ぶん}を表{ひょう}現{げん}するんです。お客{きゃく}様{さま}のスタイルを見{み}せつけてやりましょう",
-                    "maleVariant": null,
-                    "stringId": 1805670482559922188
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5A44DZ^では落{お}ち着{つ}いたのをご案{あん}内{ない}しましょう",
-                    "maleVariant": null,
-                    "stringId": 1973415758948257792
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4D44DZ^独{どく}自{じ}性{せい}、ですね",
-                    "maleVariant": null,
-                    "stringId": 1973418752322359296
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D944DZ^ここのお店{みせ}はいつからやってるの？",
-                    "maleVariant": "D944DZ^ここのお店{みせ}はいつからやってるんだ？",
-                    "stringId": 1973420549967499264
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C744DZ^この店{みせ}は長{なが}くやってるの？",
-                    "maleVariant": "C744DZ^この店{みせ}は長{なが}くやってるのか？",
-                    "stringId": 1973420648449757184
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BE44DZ^数{すう}年{ねん}になります。その前{まえ}はデザイナーをやってました",
-                    "maleVariant": null,
-                    "stringId": 1973422911746527232
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6D44DZ^何{なん}で辞{や}めたの？",
-                    "maleVariant": "6D44DZ^何{なん}で辞{や}めたんだ？",
-                    "stringId": 1973423275459792896
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2844DZ^よそで起{お}きてるのと同{おな}じことですよ… アルゴリズムに仕{し}事{ごと}を奪{うば}われたんです。プログラムは一{いっ}瞬{しゅん}で1000もの新{あたら}しいデザインを吐{は}き出{だ}しますから",
-                    "maleVariant": null,
-                    "stringId": 1973423476165627904
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AB647Z^新{あたら}しい服{ふく}を探{さが}してる",
+              "maleVariant": "",
+              "stringId": 1805670482509590528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AB647010^最{さい}近{きん}のトレンドは？",
+              "maleVariant": "",
+              "stringId": 1805670482509590544
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AC647004^新{あたら}しい服{ふく}を探{さが}してる。やぼったくないヤツを",
+              "maleVariant": "",
+              "stringId": 1805670482526367748
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AE647004^今{いま}のストリートのトレンドは？",
+              "maleVariant": "",
+              "stringId": 1805670482559922180
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AE64700C^他{た}人{にん}のことなど忘{わす}れて、自{じ}分{ぶん}を表{ひょう}現{げん}するんです。お客{きゃく}様{さま}のスタイルを見{み}せつけてやりましょう",
+              "maleVariant": "",
+              "stringId": 1805670482559922188
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5A44DZ^では落{お}ち着{つ}いたのをご案{あん}内{ない}しましょう",
+              "maleVariant": "",
+              "stringId": 1973415758948257792
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4D44DZ^独{どく}自{じ}性{せい}、ですね",
+              "maleVariant": "",
+              "stringId": 1973418752322359296
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D944DZ^ここのお店{みせ}はいつからやってるの？",
+              "maleVariant": "D944DZ^ここのお店{みせ}はいつからやってるんだ？",
+              "stringId": 1973420549967499264
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C744DZ^この店{みせ}は長{なが}くやってるの？",
+              "maleVariant": "C744DZ^この店{みせ}は長{なが}くやってるのか？",
+              "stringId": 1973420648449757184
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BE44DZ^数{すう}年{ねん}になります。その前{まえ}はデザイナーをやってました",
+              "maleVariant": "",
+              "stringId": 1973422911746527232
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6D44DZ^何{なん}で辞{や}めたの？",
+              "maleVariant": "6D44DZ^何{なん}で辞{や}めたんだ？",
+              "stringId": 1973423275459792896
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2844DZ^よそで起{お}きてるのと同{おな}じことですよ… アルゴリズムに仕{し}事{ごと}を奪{うば}われたんです。プログラムは一{いっ}瞬{しゅん}で1000もの新{あたら}しいデザインを吐{は}き出{だ}しますから",
+              "maleVariant": "",
+              "stringId": 1973423476165627904
             }
-          }
+          ]
         }
       }
     },

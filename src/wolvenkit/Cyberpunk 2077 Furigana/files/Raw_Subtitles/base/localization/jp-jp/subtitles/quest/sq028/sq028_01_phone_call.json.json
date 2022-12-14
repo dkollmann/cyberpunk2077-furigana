@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\sq028\\sq028_01_phone_call.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ケリー、どしたの",
-                    "maleVariant": "よう、ケリー",
-                    "stringId": 1360321508395716608
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C5401Z^よう、今{いま}すぐマリーナに来{こ}い。待{ま}たせんなよ",
-                    "maleVariant": null,
-                    "stringId": 1360378083399438336
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7E29FZ^わかった、すぐに向{む}かう",
-                    "maleVariant": null,
-                    "stringId": 1378967319139184640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F329FZ^わかった、すぐに行{い}く",
-                    "maleVariant": null,
-                    "stringId": 1378967449951137792
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B529FZ^無{む}理{り}よ。忙{いそが}しいの",
-                    "maleVariant": "B529FZ^無{む}理{り}だ。忙{いそが}しくてな",
-                    "stringId": 1378968127515783168
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3329FZ^ごめん、ケリー。今{いま}忙{いそが}しくて",
-                    "maleVariant": "3329FZ^すまん、ケリー。今{いま}忙{いそが}しくてな",
-                    "stringId": 1378980009509253120
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8F29FZ^いいモンを見{み}せてやるぜ",
-                    "maleVariant": null,
-                    "stringId": 1379016217627062272
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C829FZ^ウソだろ、V… 俺{おれ}の誘{さそ}いを断{ことわ}るってのか",
-                    "maleVariant": null,
-                    "stringId": 1379037160843898880
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A29FZ^ま、俺{おれ}はしばらくここにいる。気{き}が向{む}いたら来{こ}いよ",
-                    "maleVariant": null,
-                    "stringId": 1379037737476812800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B5627Z^マリーナのピア4で待{ま}ってる",
-                    "maleVariant": null,
-                    "stringId": 1709624620117815296
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ケリー、どしたの",
+              "maleVariant": "よう、ケリー",
+              "stringId": 1360321508395716608
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C5401Z^よう、今{いま}すぐマリーナに来{こ}い。待{ま}たせんなよ",
+              "maleVariant": "",
+              "stringId": 1360378083399438336
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7E29FZ^わかった、すぐに向{む}かう",
+              "maleVariant": "",
+              "stringId": 1378967319139184640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F329FZ^わかった、すぐに行{い}く",
+              "maleVariant": "",
+              "stringId": 1378967449951137792
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B529FZ^無{む}理{り}よ。忙{いそが}しいの",
+              "maleVariant": "B529FZ^無{む}理{り}だ。忙{いそが}しくてな",
+              "stringId": 1378968127515783168
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3329FZ^ごめん、ケリー。今{いま}忙{いそが}しくて",
+              "maleVariant": "3329FZ^すまん、ケリー。今{いま}忙{いそが}しくてな",
+              "stringId": 1378980009509253120
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8F29FZ^いいモンを見{み}せてやるぜ",
+              "maleVariant": "",
+              "stringId": 1379016217627062272
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C829FZ^ウソだろ、V… 俺{おれ}の誘{さそ}いを断{ことわ}るってのか",
+              "maleVariant": "",
+              "stringId": 1379037160843898880
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A29FZ^ま、俺{おれ}はしばらくここにいる。気{き}が向{む}いたら来{こ}いよ",
+              "maleVariant": "",
+              "stringId": 1379037737476812800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B5627Z^マリーナのピア4で待{ま}ってる",
+              "maleVariant": "",
+              "stringId": 1709624620117815296
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_awf_chat_020.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A770AZ^もしもし。担{たん}当{とう}のキャンディスと話{はな}してたんだが、途{と}中{ちゅう}で通{つう}話{わ}が切{き}れて…",
-                    "maleVariant": null,
-                    "stringId": 2156497193730613248
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7042FZ^よし、ナンダさん、無{む}償{しょう}の修{しゅう}理{り}を申{もう}し込{こ}むのにもう1時{じ}間{かん}もかかってる",
-                    "maleVariant": null,
-                    "stringId": 2178055527744073728
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9E42FZ^そうだよ、アドレナリンジェネレーター。入{い}れたのは先{せん}週{しゅう}だ…",
-                    "maleVariant": null,
-                    "stringId": 2178055992372293632
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A042FZ^全{ぜん}然{ぜん}機{き}能{のう}してない。1滴{しずく}も生{せい}成{せい}されないんだ",
-                    "maleVariant": null,
-                    "stringId": 2178057779112243200
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2F42FZ^リセットならもう十{じゅう}回{かい}もやった。俺{おれ}は修{しゅう}理{り}に出{だ}したいだけだ。保{ほ}証{しょう}書{しょ}もある",
-                    "maleVariant": null,
-                    "stringId": 2178058116518834176
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2F42FZ^待{ま}て待{ま}て。適{てき}用{よう}されないってどういうことだ？ 対{たい}象{しょう}外{がい}？ 欠陥{けっかん}インプラント？",
-                    "maleVariant": null,
-                    "stringId": 2178058829483405312
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4F42FZ^薬{くすり}を飲{の}んでるからって何{なん}だ？ うつ病{びょう}とジェネレーターに何{なん}の関{かん}係{けい}がある！？",
-                    "maleVariant": null,
-                    "stringId": 2178059551574781952
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B042FZ^まったく、こんなことが許{ゆる}され… もしもし！",
-                    "maleVariant": null,
-                    "stringId": 2178060214627135488
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B142FZ^クソ、またか。待{ま}つよ！ 「1」を押{お}せばオペレーターにつながるんだろ！",
-                    "maleVariant": null,
-                    "stringId": 2178060545356394496
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8F42FZ^クソ、人{にん}を何{なん}だと思{おも}ってやがる…",
-                    "maleVariant": null,
-                    "stringId": 2178061219095834624
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A770AZ^もしもし。担{たん}当{とう}のキャンディスと話{はな}してたんだが、途{と}中{ちゅう}で通{つう}話{わ}が切{き}れて…",
+              "maleVariant": "",
+              "stringId": 2156497193730613248
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7042FZ^よし、ナンダさん、無{む}償{しょう}の修{しゅう}理{り}を申{もう}し込{こ}むのにもう1時{じ}間{かん}もかかってる",
+              "maleVariant": "",
+              "stringId": 2178055527744073728
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9E42FZ^そうだよ、アドレナリンジェネレーター。入{い}れたのは先{せん}週{しゅう}だ…",
+              "maleVariant": "",
+              "stringId": 2178055992372293632
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A042FZ^全{ぜん}然{ぜん}機{き}能{のう}してない。1滴{しずく}も生{せい}成{せい}されないんだ",
+              "maleVariant": "",
+              "stringId": 2178057779112243200
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2F42FZ^リセットならもう十{じゅう}回{かい}もやった。俺{おれ}は修{しゅう}理{り}に出{だ}したいだけだ。保{ほ}証{しょう}書{しょ}もある",
+              "maleVariant": "",
+              "stringId": 2178058116518834176
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2F42FZ^待{ま}て待{ま}て。適{てき}用{よう}されないってどういうことだ？ 対{たい}象{しょう}外{がい}？ 欠陥{けっかん}インプラント？",
+              "maleVariant": "",
+              "stringId": 2178058829483405312
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4F42FZ^薬{くすり}を飲{の}んでるからって何{なん}だ？ うつ病{びょう}とジェネレーターに何{なん}の関{かん}係{けい}がある！？",
+              "maleVariant": "",
+              "stringId": 2178059551574781952
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B042FZ^まったく、こんなことが許{ゆる}され… もしもし！",
+              "maleVariant": "",
+              "stringId": 2178060214627135488
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B142FZ^クソ、またか。待{ま}つよ！ 「1」を押{お}せばオペレーターにつながるんだろ！",
+              "maleVariant": "",
+              "stringId": 2178060545356394496
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8F42FZ^クソ、人{にん}を何{なん}だと思{おも}ってやがる…",
+              "maleVariant": "",
+              "stringId": 2178061219095834624
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_hill_chat_002.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5869EZ^どうだ、こいつらを見{み}て",
-                    "maleVariant": null,
-                    "stringId": 1806724152559263744
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "コーポたちはチョロい。いいカモだ",
-                    "maleVariant": null,
-                    "stringId": 1806724802374393856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5B69EZ^ああ。どいつもこいつも、秘{ひ}密{みつ}をぶら下{さ}げて歩{ある}いてやがる",
-                    "maleVariant": null,
-                    "stringId": 1806725024487956480
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E769EZ^いいネタさえ掴{つか}んじまえば、こっちのもんだ。企{き}業{ぎょう}の犬{いぬ}に、俺{おれ}たちが首{くび}輪{わ}をつけるのさ",
-                    "maleVariant": null,
-                    "stringId": 1806725490693234688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8D69EZ^データにテープ、企{き}業{ぎょう}の内{ない}部{ぶ}情{じょう}報{ほう}――欲{ほ}しいものは何{なん}でも手{て}に入{い}る",
-                    "maleVariant": null,
-                    "stringId": 1806725772651126784
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1669EZ^あとは、口{こう}座{ざ}に金{きん}が貯{た}まっていくのを見{み}てりゃいいって寸法{すんぽう}よ",
-                    "maleVariant": null,
-                    "stringId": 1806726174381563904
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5869EZ^どうだ、こいつらを見{み}て",
+              "maleVariant": "",
+              "stringId": 1806724152559263744
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "コーポたちはチョロい。いいカモだ",
+              "maleVariant": "",
+              "stringId": 1806724802374393856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5B69EZ^ああ。どいつもこいつも、秘{ひ}密{みつ}をぶら下{さ}げて歩{ある}いてやがる",
+              "maleVariant": "",
+              "stringId": 1806725024487956480
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E769EZ^いいネタさえ掴{つか}んじまえば、こっちのもんだ。企{き}業{ぎょう}の犬{いぬ}に、俺{おれ}たちが首{くび}輪{わ}をつけるのさ",
+              "maleVariant": "",
+              "stringId": 1806725490693234688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8D69EZ^データにテープ、企{き}業{ぎょう}の内{ない}部{ぶ}情{じょう}報{ほう}――欲{ほ}しいものは何{なん}でも手{て}に入{い}る",
+              "maleVariant": "",
+              "stringId": 1806725772651126784
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1669EZ^あとは、口{こう}座{ざ}に金{きん}が貯{た}まっていくのを見{み}てりゃいいって寸法{すんぽう}よ",
+              "maleVariant": "",
+              "stringId": 1806726174381563904
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_awf_chat_010.json"
@@ -11,58 +11,44 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8670AZ^いい？ 社{しゃ}員{いん}を見{み}かけたら、目{め}を合{あ}わせちゃダメよ。床{とこ}を見{み}てればいいから",
-                    "maleVariant": null,
-                    "stringId": 1963251766827982848
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "844DZ^話{はな}しかけられるまで話{はな}さないこと。むしろ、可{か}能{のう}なら一{ひと}言{こと}も喋{しゃべ}らないほうがいい",
-                    "maleVariant": null,
-                    "stringId": 1967885639286575104
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F744DZ^どうしても何{なに}か言{い}わなきゃいけない時{とき}は、名{な}前{まえ}の後{のち}に“さん”を付{つ}ける。わかった？",
-                    "maleVariant": null,
-                    "stringId": 1967886214526980096
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うん。わ、わかった…",
-                    "maleVariant": null,
-                    "stringId": 1967888591137067008
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CD44DZ^一{ひと}つでもミスしたら、モーテル掃{そう}除{じ}に逆{ぎゃく}戻{もど}りだからね",
-                    "maleVariant": null,
-                    "stringId": 1967889366328332288
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8670AZ^いい？ 社{しゃ}員{いん}を見{み}かけたら、目{め}を合{あ}わせちゃダメよ。床{とこ}を見{み}てればいいから",
+              "maleVariant": "",
+              "stringId": 1963251766827982848
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "844DZ^話{はな}しかけられるまで話{はな}さないこと。むしろ、可{か}能{のう}なら一{ひと}言{こと}も喋{しゃべ}らないほうがいい",
+              "maleVariant": "",
+              "stringId": 1967885639286575104
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F744DZ^どうしても何{なに}か言{い}わなきゃいけない時{とき}は、名{な}前{まえ}の後{のち}に“さん”を付{つ}ける。わかった？",
+              "maleVariant": "",
+              "stringId": 1967886214526980096
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うん。わ、わかった…",
+              "maleVariant": "",
+              "stringId": 1967888591137067008
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CD44DZ^一{ひと}つでもミスしたら、モーテル掃{そう}除{じ}に逆{ぎゃく}戻{もど}りだからね",
+              "maleVariant": "",
+              "stringId": 1967889366328332288
             }
-          }
+          ]
         }
       }
     },

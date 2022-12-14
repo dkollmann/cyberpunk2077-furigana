@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\bls_ina_se5_melee_01.json"
@@ -11,106 +11,80 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7146BZ^何{なに}か面{おも}白{しろ}いもの置{お}いてる？",
-                    "maleVariant": "7146BZ^何{なに}か面{おも}白{しろ}いもの置{お}いてるか？",
-                    "stringId": 1935700405967564800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7146B010^一{ひと}人{り}で暮{く}らしてるの？",
-                    "maleVariant": "7146B010^一{ひと}人{り}で暮{く}らしてるのか？",
-                    "stringId": 1935700405967564816
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7346BZ^何{なに}か面{おも}白{しろ}いもの置{お}いてる？",
-                    "maleVariant": "7346BZ^何{なに}か面{おも}白{しろ}いもの置{お}いてるか？",
-                    "stringId": 1935700406001119232
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7546B004^ここには一{ひと}人{り}で？",
-                    "maleVariant": null,
-                    "stringId": 1935700406034673668
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7546B00C^そうよ。私{わたし}だけ",
-                    "maleVariant": null,
-                    "stringId": 1935700406034673676
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9544DZ^レイスがちょっかい出{だ}してこない？",
-                    "maleVariant": "9544DZ^レイスはちょっかい出{だ}してこないか？",
-                    "stringId": 1974831471353188352
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6344DZ^何{なん}人{にん}かいたけど、おねんねさせてやったよ",
-                    "maleVariant": null,
-                    "stringId": 1974831990205370368
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3244DZ^どこで戦{たたか}いを覚{おぼ}えたの？",
-                    "maleVariant": "3244DZ^どこで戦{たたか}いを覚{おぼ}えたんだ？",
-                    "stringId": 1974833316528181248
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C944DZ^どこで戦{たたか}い方{ほう}を？",
-                    "maleVariant": null,
-                    "stringId": 1974833679838793728
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AA44DZ^どうぞ、入{いっ}って。お客{きゃく}さんなんて久{ひさ}しぶりね",
-                    "maleVariant": null,
-                    "stringId": 1974846791853854720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3E44DZ^うちでだよ。CHOOH2好{す}きの家{か}族{ぞく}に仕{し}込{こ}まれたんだ",
-                    "maleVariant": null,
-                    "stringId": 1974848946115497984
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7146BZ^何{なに}か面{おも}白{しろ}いもの置{お}いてる？",
+              "maleVariant": "7146BZ^何{なに}か面{おも}白{しろ}いもの置{お}いてるか？",
+              "stringId": 1935700405967564800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7146B010^一{ひと}人{り}で暮{く}らしてるの？",
+              "maleVariant": "7146B010^一{ひと}人{り}で暮{く}らしてるのか？",
+              "stringId": 1935700405967564816
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7346BZ^何{なに}か面{おも}白{しろ}いもの置{お}いてる？",
+              "maleVariant": "7346BZ^何{なに}か面{おも}白{しろ}いもの置{お}いてるか？",
+              "stringId": 1935700406001119232
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7546B004^ここには一{ひと}人{り}で？",
+              "maleVariant": "",
+              "stringId": 1935700406034673668
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7546B00C^そうよ。私{わたし}だけ",
+              "maleVariant": "",
+              "stringId": 1935700406034673676
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9544DZ^レイスがちょっかい出{だ}してこない？",
+              "maleVariant": "9544DZ^レイスはちょっかい出{だ}してこないか？",
+              "stringId": 1974831471353188352
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6344DZ^何{なん}人{にん}かいたけど、おねんねさせてやったよ",
+              "maleVariant": "",
+              "stringId": 1974831990205370368
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3244DZ^どこで戦{たたか}いを覚{おぼ}えたの？",
+              "maleVariant": "3244DZ^どこで戦{たたか}いを覚{おぼ}えたんだ？",
+              "stringId": 1974833316528181248
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C944DZ^どこで戦{たたか}い方{ほう}を？",
+              "maleVariant": "",
+              "stringId": 1974833679838793728
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AA44DZ^どうぞ、入{いっ}って。お客{きゃく}さんなんて久{ひさ}しぶりね",
+              "maleVariant": "",
+              "stringId": 1974846791853854720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3E44DZ^うちでだよ。CHOOH2好{す}きの家{か}族{ぞく}に仕{し}込{こ}まれたんだ",
+              "maleVariant": "",
+              "stringId": 1974848946115497984
             }
-          }
+          ]
         }
       }
     },

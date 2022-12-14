@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_hey_gle_01.json"
@@ -11,42 +11,32 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "67464Z^一{いっ}週{しゅう}間{かん}前{まえ}に終{お}わってるはずだろ？",
-                    "maleVariant": null,
-                    "stringId": 1756142778230128640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "52464Z^そのはず…なんですが、ニス職{しょく}人{にん}が怪{け}我{が}をしてしまって… あの男{おとこ}がいなきゃお手{しゅ}上{じょう}げです",
-                    "maleVariant": null,
-                    "stringId": 1756144517339561984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C7464Z^早{はや}く何{なん}とかしろ。お前{まえ}も怪{け}我{が}することになるぞ",
-                    "maleVariant": null,
-                    "stringId": 1756145090533146624
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "67464Z^一{いっ}週{しゅう}間{かん}前{まえ}に終{お}わってるはずだろ？",
+              "maleVariant": "",
+              "stringId": 1756142778230128640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "52464Z^そのはず…なんですが、ニス職{しょく}人{にん}が怪{け}我{が}をしてしまって… あの男{おとこ}がいなきゃお手{しゅ}上{じょう}げです",
+              "maleVariant": "",
+              "stringId": 1756144517339561984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C7464Z^早{はや}く何{なん}とかしろ。お前{まえ}も怪{け}我{が}することになるぞ",
+              "maleVariant": "",
+              "stringId": 1756145090533146624
             }
-          }
+          ]
         }
       }
     },

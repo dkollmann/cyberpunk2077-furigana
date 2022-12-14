@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_new_mls_02.json"
@@ -11,42 +11,32 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EB52A010^お前{まえ}はどう思{おも}うんだ？ 言{い}ってみろよ、ほら",
-                    "maleVariant": null,
-                    "stringId": 2276533902930780176
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EC52AZ^なんだよ？ 何{なに}か知{し}ってるのかって聞{き}いただけだろ？",
-                    "maleVariant": null,
-                    "stringId": 2276533902947557376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EC52A00C^一{いち}度{ど}くらい、人{にん}に聞{き}かずに自{じ}分{ぶん}で調{しら}べてみたらどうだ？",
-                    "maleVariant": null,
-                    "stringId": 2276533902947557388
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EB52A010^お前{まえ}はどう思{おも}うんだ？ 言{い}ってみろよ、ほら",
+              "maleVariant": "",
+              "stringId": 2276533902930780176
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EC52AZ^なんだよ？ 何{なに}か知{し}ってるのかって聞{き}いただけだろ？",
+              "maleVariant": "",
+              "stringId": 2276533902947557376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EC52A00C^一{いち}度{ど}くらい、人{にん}に聞{き}かずに自{じ}分{ぶん}で調{しら}べてみたらどうだ？",
+              "maleVariant": "",
+              "stringId": 2276533902947557388
             }
-          }
+          ]
         }
       }
     },

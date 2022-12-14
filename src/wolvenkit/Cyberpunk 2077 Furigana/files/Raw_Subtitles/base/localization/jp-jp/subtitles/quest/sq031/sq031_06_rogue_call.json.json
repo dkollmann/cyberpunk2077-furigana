@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\sq031\\sq031_06_rogue_call.json"
@@ -11,114 +11,86 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "V？",
-                    "maleVariant": null,
-                    "stringId": 1760819611437850624
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4C4B6Z^ジョニーがデートに誘{さそ}いたがってるけど、どう？",
-                    "maleVariant": "4C4B6Z^ジョニーがデートに誘{さそ}いたがってるが、どうだ？",
-                    "stringId": 1760825499015929856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ジョニーが？ それともあんたが？",
-                    "maleVariant": null,
-                    "stringId": 1760825682625781760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1B4B6Z^ジョニーよ。あたしたちを見{み}分{わ}けるのは簡{かん}単{たん}だって言{い}ってたでしょ",
-                    "maleVariant": "1B4B6Z^ジョニーだよ。俺{おれ}たちを見{み}分{わ}けるのは簡{かん}単{たん}だって言{い}ってただろ",
-                    "stringId": 1760825936280510464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8E4B6Z^わかった。どこ行{い}くの？",
-                    "maleVariant": null,
-                    "stringId": 1760826638289559552
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5D4B6Z^どこに行{い}きたい？",
-                    "maleVariant": null,
-                    "stringId": 1760830146455756800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ノース・オークのシルバー・ピクセル・クラウド",
-                    "maleVariant": null,
-                    "stringId": 1760831721635012608
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ありがとな",
-                    "maleVariant": null,
-                    "stringId": 1779967069262667776
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いいのよ",
-                    "maleVariant": "いいんだ",
-                    "stringId": 1779967893040750592
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2A351Z^俺{おれ}が連{つ}れてくはずだった場{ば}所{しょ}だ。50年{ねん}前{まえ}にな",
-                    "maleVariant": null,
-                    "stringId": 1822873091378057216
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1A351Z^わかった。あとでアフターライフに迎{むか}えに行{い}く",
-                    "maleVariant": null,
-                    "stringId": 1822874151966543872
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7A351Z^とにかく今{こん}回{かい}は街{まち}中{なか}で暴{あば}れまわらないで。タトゥーもなし。無{む}駄{だ}遣{づか}いもダメよ",
-                    "maleVariant": "7A351Z^とにかく今{こん}回{かい}は街{まち}中{なか}で暴{あば}れまわるな。タトゥーもなし。無{む}駄{だ}遣{づか}いもダメだからな",
-                    "stringId": 1822891917561892864
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "V？",
+              "maleVariant": "",
+              "stringId": 1760819611437850624
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4C4B6Z^ジョニーがデートに誘{さそ}いたがってるけど、どう？",
+              "maleVariant": "4C4B6Z^ジョニーがデートに誘{さそ}いたがってるが、どうだ？",
+              "stringId": 1760825499015929856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ジョニーが？ それともあんたが？",
+              "maleVariant": "",
+              "stringId": 1760825682625781760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1B4B6Z^ジョニーよ。あたしたちを見{み}分{わ}けるのは簡{かん}単{たん}だって言{い}ってたでしょ",
+              "maleVariant": "1B4B6Z^ジョニーだよ。俺{おれ}たちを見{み}分{わ}けるのは簡{かん}単{たん}だって言{い}ってただろ",
+              "stringId": 1760825936280510464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8E4B6Z^わかった。どこ行{い}くの？",
+              "maleVariant": "",
+              "stringId": 1760826638289559552
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5D4B6Z^どこに行{い}きたい？",
+              "maleVariant": "",
+              "stringId": 1760830146455756800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ノース・オークのシルバー・ピクセル・クラウド",
+              "maleVariant": "",
+              "stringId": 1760831721635012608
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ありがとな",
+              "maleVariant": "",
+              "stringId": 1779967069262667776
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いいのよ",
+              "maleVariant": "いいんだ",
+              "stringId": 1779967893040750592
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2A351Z^俺{おれ}が連{つ}れてくはずだった場{ば}所{しょ}だ。50年{ねん}前{まえ}にな",
+              "maleVariant": "",
+              "stringId": 1822873091378057216
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1A351Z^わかった。あとでアフターライフに迎{むか}えに行{い}く",
+              "maleVariant": "",
+              "stringId": 1822874151966543872
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7A351Z^とにかく今{こん}回{かい}は街{まち}中{なか}で暴{あば}れまわらないで。タトゥーもなし。無{む}駄{だ}遣{づか}いもダメよ",
+              "maleVariant": "7A351Z^とにかく今{こん}回{かい}は街{まち}中{なか}で暴{あば}れまわるな。タトゥーもなし。無{む}駄{だ}遣{づか}いもダメだからな",
+              "stringId": 1822891917561892864
             }
-          }
+          ]
         }
       }
     },

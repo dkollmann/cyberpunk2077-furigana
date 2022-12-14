@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_nid_chat_017.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E347EZ^で、彼{かれ}は？",
-                    "maleVariant": null,
-                    "stringId": 2156407975378935808
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "903BCZ^さあね。BDの仕{し}事{ごと}に選{えら}ばれたのはあんたたちでしょ。私{わたし}じゃない",
-                    "maleVariant": null,
-                    "stringId": 2170578810556891136
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "613BCZ^ちょっと… 少{すこ}しは同{どう}情{じょう}してくれてもいいでしょ？ 彼{か}のことが心{しん}配{ぱい}なの",
-                    "maleVariant": null,
-                    "stringId": 2170579123300974592
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "903BCZ^ふーん、気{き}の毒{どく}ね。私{わたし}の一{いっ}ヶ{か}月{げつ}分{ふん}以{い}上{じょう}を、一{いっ}週{しゅう}間{かん}で稼{かせ}いどいて",
-                    "maleVariant": null,
-                    "stringId": 2170579549291266048
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でも… あんなことまでやらされるなんて",
-                    "maleVariant": null,
-                    "stringId": 2170579801620594688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "523BCZ^この前{まえ}なんて、銃{じゅう}を突{つ}き付{つ}けられたのよ？ そんなの脚{きゃく}本{ほん}になかった！",
-                    "maleVariant": null,
-                    "stringId": 2170580102301859840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B13BCZ^彼{かれ}は手{て}錠{じょう}と猿{さる}ぐつわをされて… 殺{ころ}すって脅{おど}されてた",
-                    "maleVariant": null,
-                    "stringId": 2170580310054125568
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ウソでしょ…！",
-                    "maleVariant": null,
-                    "stringId": 2170580437275754496
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E347EZ^で、彼{かれ}は？",
+              "maleVariant": "",
+              "stringId": 2156407975378935808
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "903BCZ^さあね。BDの仕{し}事{ごと}に選{えら}ばれたのはあんたたちでしょ。私{わたし}じゃない",
+              "maleVariant": "",
+              "stringId": 2170578810556891136
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "613BCZ^ちょっと… 少{すこ}しは同{どう}情{じょう}してくれてもいいでしょ？ 彼{か}のことが心{しん}配{ぱい}なの",
+              "maleVariant": "",
+              "stringId": 2170579123300974592
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "903BCZ^ふーん、気{き}の毒{どく}ね。私{わたし}の一{いっ}ヶ{か}月{げつ}分{ふん}以{い}上{じょう}を、一{いっ}週{しゅう}間{かん}で稼{かせ}いどいて",
+              "maleVariant": "",
+              "stringId": 2170579549291266048
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でも… あんなことまでやらされるなんて",
+              "maleVariant": "",
+              "stringId": 2170579801620594688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "523BCZ^この前{まえ}なんて、銃{じゅう}を突{つ}き付{つ}けられたのよ？ そんなの脚{きゃく}本{ほん}になかった！",
+              "maleVariant": "",
+              "stringId": 2170580102301859840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B13BCZ^彼{かれ}は手{て}錠{じょう}と猿{さる}ぐつわをされて… 殺{ころ}すって脅{おど}されてた",
+              "maleVariant": "",
+              "stringId": 2170580310054125568
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ウソでしょ…！",
+              "maleVariant": "",
+              "stringId": 2170580437275754496
             }
-          }
+          ]
         }
       }
     },

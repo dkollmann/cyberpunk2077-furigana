@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\quests\\sq023_03_bd_failure.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3E4EAZ^こんにちは、カリナよ。BD天国{てんごく}の時{じ}間{かん}ね。みんな、『ヨシュアの苦{く}難{なん}』はもう体{たい}験{けん}した？",
-                    "maleVariant": null,
-                    "stringId": 1792308309140611072
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "243BCZ^もし“ノー”なら、良{よ}かった。こんな酷{ひど}い駄{だ}作{さく}、何{なに}があっても絶{ぜっ}対{たい}にフィーダーのBDライブラリに並{なら}べないほうがいいからね",
-                    "maleVariant": null,
-                    "stringId": 1802363372603949056
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D33BCZ^ただ感{かん}情{じょう}を極{きょく}端{たん}に表{ひょう}現{げん}すりゃいいと思{おも}ってる作{さく}品{ひん}で、似{に}たようなのは散々{さんざん}見{み}てきた。おまけに、深{ふか}みはゼロ",
-                    "maleVariant": null,
-                    "stringId": 1802363590288326656
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "153BCZ^緊{きん}張{ちょう}感{かん}は高{たか}まっていくけど、どうも無{む}理{り}やりというか",
-                    "maleVariant": null,
-                    "stringId": 1802363776079216640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5C3BCZ^予{よ}告{こく}であんなに大々的{だいだいてき}に売{う}りにしてた死{し}のシーンも、確{たし}かに死{し}ぬほど痛{いた}いんだけど、何{なん}だか空{から}っぽな感{かん}じ",
-                    "maleVariant": null,
-                    "stringId": 1802363957659025408
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "33BCZ^星{ほし}二{ふた}つね。これでも甘{あま}いほうよ。正{しょう}直{じき}、レイチェル・ケーシックの作{さく}品{ひん}には期{き}待{たい}してたのに",
-                    "maleVariant": null,
-                    "stringId": 1802364106489708544
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FC3BCZ^CMの後{のち}も世{せ}界{かい}中{じゅう}のBDニュースをさらにお届{とど}け！",
-                    "maleVariant": null,
-                    "stringId": 1802364303940763648
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3E4EAZ^こんにちは、カリナよ。BD天国{てんごく}の時{じ}間{かん}ね。みんな、『ヨシュアの苦{く}難{なん}』はもう体{たい}験{けん}した？",
+              "maleVariant": "",
+              "stringId": 1792308309140611072
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "243BCZ^もし“ノー”なら、良{よ}かった。こんな酷{ひど}い駄{だ}作{さく}、何{なに}があっても絶{ぜっ}対{たい}にフィーダーのBDライブラリに並{なら}べないほうがいいからね",
+              "maleVariant": "",
+              "stringId": 1802363372603949056
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D33BCZ^ただ感{かん}情{じょう}を極{きょく}端{たん}に表{ひょう}現{げん}すりゃいいと思{おも}ってる作{さく}品{ひん}で、似{に}たようなのは散々{さんざん}見{み}てきた。おまけに、深{ふか}みはゼロ",
+              "maleVariant": "",
+              "stringId": 1802363590288326656
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "153BCZ^緊{きん}張{ちょう}感{かん}は高{たか}まっていくけど、どうも無{む}理{り}やりというか",
+              "maleVariant": "",
+              "stringId": 1802363776079216640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5C3BCZ^予{よ}告{こく}であんなに大々的{だいだいてき}に売{う}りにしてた死{し}のシーンも、確{たし}かに死{し}ぬほど痛{いた}いんだけど、何{なん}だか空{から}っぽな感{かん}じ",
+              "maleVariant": "",
+              "stringId": 1802363957659025408
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "33BCZ^星{ほし}二{ふた}つね。これでも甘{あま}いほうよ。正{しょう}直{じき}、レイチェル・ケーシックの作{さく}品{ひん}には期{き}待{たい}してたのに",
+              "maleVariant": "",
+              "stringId": 1802364106489708544
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FC3BCZ^CMの後{のち}も世{せ}界{かい}中{じゅう}のBDニュースをさらにお届{とど}け！",
+              "maleVariant": "",
+              "stringId": 1802364303940763648
             }
-          }
+          ]
         }
       }
     },

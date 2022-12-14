@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\minor_activities\\ma_wat_kab_08_brief.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A3404Z^サイバーサイコが暴{あば}れてるって連{れん}絡{らく}が入{いっ}った。マックス・タックにも通{つう}報{ほう}したけど、ミリテクが介{かい}入{にゅう}したせいで出{しゅつ}動{どう}はなし",
-                    "maleVariant": null,
-                    "stringId": 2354818377999990784
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A5404Z^とにかく、一{いっ}刻{こく}も早{はや}くそいつを治{ち}療{りょう}しないと",
-                    "maleVariant": null,
-                    "stringId": 2354821749582872576
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6A404Z^くれぐれも慎{しん}重{ちょう}にね。殺{ころ}さないようにして",
-                    "maleVariant": null,
-                    "stringId": 2354822019175956480
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B7404Z^サイコの正{しょう}体{たい}はミリテク社{しゃ}員{いん}なんでしょうね。恐{おそ}らく、モウワー中{ちゅう}尉{い}",
-                    "maleVariant": null,
-                    "stringId": 2354822802151849984
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A3404Z^サイバーサイコが暴{あば}れてるって連{れん}絡{らく}が入{いっ}った。マックス・タックにも通{つう}報{ほう}したけど、ミリテクが介{かい}入{にゅう}したせいで出{しゅつ}動{どう}はなし",
+              "maleVariant": "",
+              "stringId": 2354818377999990784
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A5404Z^とにかく、一{いっ}刻{こく}も早{はや}くそいつを治{ち}療{りょう}しないと",
+              "maleVariant": "",
+              "stringId": 2354821749582872576
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6A404Z^くれぐれも慎{しん}重{ちょう}にね。殺{ころ}さないようにして",
+              "maleVariant": "",
+              "stringId": 2354822019175956480
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B7404Z^サイコの正{しょう}体{たい}はミリテク社{しゃ}員{いん}なんでしょうね。恐{おそ}らく、モウワー中{ちゅう}尉{い}",
+              "maleVariant": "",
+              "stringId": 2354822802151849984
             }
-          }
+          ]
         }
       }
     },

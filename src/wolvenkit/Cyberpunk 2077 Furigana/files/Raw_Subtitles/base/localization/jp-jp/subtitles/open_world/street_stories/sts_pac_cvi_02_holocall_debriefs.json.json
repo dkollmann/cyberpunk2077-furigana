@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_pac_cvi_02_holocall_debriefs.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8E47E004^よくやってくれた、すぐに送{そう}金{きん}しよう。アニマルズは今{いま}ごろ真{ま}っ赤{か}になって怒{いか}ってるだろうな",
-                    "maleVariant": null,
-                    "stringId": 2328516045172105220
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "947E004^聞{き}こえたか？ お前{まえ}の失態{しったい}ぶりに感{かん}心{しん}した私{わたし}が、思{おも}わず拍{はく}手{しゅ}をした音{おと}だ",
-                    "maleVariant": null,
-                    "stringId": 2328517932726345732
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E93BCZ^あの車{くるま}には莫{ばく}大{だい}な価{か}値{ち}があった。それを誰{だれ}かさんが台{だい}無{な}しにしたというわけだ。その誰{だれ}かさんには当{とう}然{ぜん}、報{ほう}酬{しゅう}など支{し}払{はら}われない",
-                    "maleVariant": null,
-                    "stringId": 2334598287324856320
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B83BCZ^気{き}に入{い}ったよ、仕{し}事{ごと}で爪{そう}痕{こん}を残{のこ}せる奴{やつ}はいい。今{こん}回{かい}の依{い}頼{らい}は完{かん}了{りょう}だ。お前{まえ}の番{ばん}号{ごう}は控{ひか}えておいた",
-                    "maleVariant": null,
-                    "stringId": 2334599227100610560
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8E47E004^よくやってくれた、すぐに送{そう}金{きん}しよう。アニマルズは今{いま}ごろ真{ま}っ赤{か}になって怒{いか}ってるだろうな",
+              "maleVariant": "",
+              "stringId": 2328516045172105220
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "947E004^聞{き}こえたか？ お前{まえ}の失態{しったい}ぶりに感{かん}心{しん}した私{わたし}が、思{おも}わず拍{はく}手{しゅ}をした音{おと}だ",
+              "maleVariant": "",
+              "stringId": 2328517932726345732
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E93BCZ^あの車{くるま}には莫{ばく}大{だい}な価{か}値{ち}があった。それを誰{だれ}かさんが台{だい}無{な}しにしたというわけだ。その誰{だれ}かさんには当{とう}然{ぜん}、報{ほう}酬{しゅう}など支{し}払{はら}われない",
+              "maleVariant": "",
+              "stringId": 2334598287324856320
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B83BCZ^気{き}に入{い}ったよ、仕{し}事{ごと}で爪{そう}痕{こん}を残{のこ}せる奴{やつ}はいい。今{こん}回{かい}の依{い}頼{らい}は完{かん}了{りょう}だ。お前{まえ}の番{ばん}号{ごう}は控{ひか}えておいた",
+              "maleVariant": "",
+              "stringId": 2334599227100610560
             }
-          }
+          ]
         }
       }
     },

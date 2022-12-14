@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_new_scv_12.json"
@@ -11,42 +11,32 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"rus\" o=\"Этот хуй ещё мне угрожает! Какие-то имена называет! А если он правда знает их всех?\" t=\"7B52A004^野{や}郎{ろう}、人{にん}を脅{おど}しやがって！ あれこれ大{おお}物{もの}の名{な}前{まえ}を出{だ}してきやがった！ もし本{ほん}当{とう}につながってたら… どうなっちまうんだ？\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 2276537882486415364
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"rus\" o=\"Может, блефует просто?\" t=\"ハッタリじゃないの？\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 2276537882486415376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"rus\" o=\"«Мозет, он бьифуит?» Может, ты начнёшь уже что-то делать, чтобы его проверить?\" t=\"7B52A01C^他{た}人{にん}事{ごと}だと思{おも}って！ 役{やく}に立{た}つ気{き}があるなら、確{たし}かめてこいよ！\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 2276537882486415388
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"rus\" o=\"Этот хуй ещё мне угрожает! Какие-то имена называет! А если он правда знает их всех?\" t=\"7B52A004^野{や}郎{ろう}、人{にん}を脅{おど}しやがって！ あれこれ大{おお}物{もの}の名{な}前{まえ}を出{だ}してきやがった！ もし本{ほん}当{とう}につながってたら… どうなっちまうんだ？\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 2276537882486415364
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"rus\" o=\"Может, блефует просто?\" t=\"ハッタリじゃないの？\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 2276537882486415376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"rus\" o=\"«Мозет, он бьифуит?» Может, ты начнёшь уже что-то делать, чтобы его проверить?\" t=\"7B52A01C^他{た}人{にん}事{ごと}だと思{おも}って！ 役{やく}に立{た}つ気{き}があるなら、確{たし}かめてこいよ！\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 2276537882486415388
             }
-          }
+          ]
         }
       }
     },

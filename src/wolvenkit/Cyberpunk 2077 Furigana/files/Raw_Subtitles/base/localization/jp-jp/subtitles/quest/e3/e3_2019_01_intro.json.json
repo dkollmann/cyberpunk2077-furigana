@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\e3\\e3_2019_01_intro.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3F351Z^おい、見{み}た目{め}を気{き}にしてる場{ば}合{あい}かよ",
-                    "maleVariant": null,
-                    "stringId": 1593692176526938112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E4351Z^早{はや}くオルトを探{さが}しに行{い}くぞ",
-                    "maleVariant": null,
-                    "stringId": 1593692368273739776
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "カスタマイズ",
-                    "maleVariant": null,
-                    "stringId": 1754884666764333060
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "スキップ",
-                    "maleVariant": null,
-                    "stringId": 1754885514349285376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "カスタマイズ",
-                    "maleVariant": null,
-                    "stringId": 1755858482835525636
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "スキップ",
-                    "maleVariant": null,
-                    "stringId": 1755859402747056128
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][pl_pl]Chodź, oni mają w dupie jak wyglądasz.",
-                    "maleVariant": null,
-                    "stringId": 2013913156005154816
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][pl_pl]A my musimy znaleźć Alt.",
-                    "maleVariant": null,
-                    "stringId": 2013922330508283904
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3F351Z^おい、見{み}た目{め}を気{き}にしてる場{ば}合{あい}かよ",
+              "maleVariant": "",
+              "stringId": 1593692176526938112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E4351Z^早{はや}くオルトを探{さが}しに行{い}くぞ",
+              "maleVariant": "",
+              "stringId": 1593692368273739776
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "カスタマイズ",
+              "maleVariant": "",
+              "stringId": 1754884666764333060
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "スキップ",
+              "maleVariant": "",
+              "stringId": 1754885514349285376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "カスタマイズ",
+              "maleVariant": "",
+              "stringId": 1755858482835525636
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "スキップ",
+              "maleVariant": "",
+              "stringId": 1755859402747056128
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][pl_pl]Chodź, oni mają w dupie jak wyglądasz.",
+              "maleVariant": "",
+              "stringId": 2013913156005154816
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][pl_pl]A my musimy znaleźć Alt.",
+              "maleVariant": "",
+              "stringId": 2013922330508283904
             }
-          }
+          ]
         }
       }
     },

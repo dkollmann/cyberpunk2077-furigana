@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\wat_kab_gunsmith_01.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "935C5Z^新{あたら}しい銃{じゅう}が欲{ほ}しい",
-                    "maleVariant": null,
-                    "stringId": 1866067841231114240
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "935C5010^スカベンジャーが面倒{めんどう}を起{お}こしてない？",
-                    "maleVariant": "935C5010^スカベンジャーが面倒{めんどう}を起{お}こしてないか？",
-                    "stringId": 1866067841231114256
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "945C5004^新{あたら}しい銃{じゅう}が欲{ほ}しいの。何{なに}かいいのない？",
-                    "maleVariant": "945C5004^新{あたら}しい銃{じゅう}が欲{ほ}しいんだ。何{なに}かいいのないか？",
-                    "stringId": 1866067841247891460
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "945C500C^どうぞ好{す}きに見{み}てってくれ",
-                    "maleVariant": null,
-                    "stringId": 1866067841247891468
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "955C5004^スカベンジャーが面倒{めんどう}を起{お}こしてない？",
-                    "maleVariant": "955C5004^スカベンジャーが面倒{めんどう}を起{お}こしてないか？",
-                    "stringId": 1866067841264668676
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "955C500C^来{く}る日{にち}もあれば、来{こ}ない日{にち}もある。俺{おれ}は特{とく}に困{こま}ってないが… おかげさまでな",
-                    "maleVariant": null,
-                    "stringId": 1866067841264668684
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "935C5Z^新{あたら}しい銃{じゅう}が欲{ほ}しい",
+              "maleVariant": "",
+              "stringId": 1866067841231114240
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "935C5010^スカベンジャーが面倒{めんどう}を起{お}こしてない？",
+              "maleVariant": "935C5010^スカベンジャーが面倒{めんどう}を起{お}こしてないか？",
+              "stringId": 1866067841231114256
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "945C5004^新{あたら}しい銃{じゅう}が欲{ほ}しいの。何{なに}かいいのない？",
+              "maleVariant": "945C5004^新{あたら}しい銃{じゅう}が欲{ほ}しいんだ。何{なに}かいいのないか？",
+              "stringId": 1866067841247891460
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "945C500C^どうぞ好{す}きに見{み}てってくれ",
+              "maleVariant": "",
+              "stringId": 1866067841247891468
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "955C5004^スカベンジャーが面倒{めんどう}を起{お}こしてない？",
+              "maleVariant": "955C5004^スカベンジャーが面倒{めんどう}を起{お}こしてないか？",
+              "stringId": 1866067841264668676
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "955C500C^来{く}る日{にち}もあれば、来{こ}ない日{にち}もある。俺{おれ}は特{とく}に困{こま}ってないが… おかげさまでな",
+              "maleVariant": "",
+              "stringId": 1866067841264668684
             }
-          }
+          ]
         }
       }
     },

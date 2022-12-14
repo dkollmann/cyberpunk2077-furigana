@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_new_wrt_02.json"
@@ -11,42 +11,32 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3452A010^フェンダー、ホイールウェルにフレームレール。というか接{せつ}合{ごう}部{ぶ}全{ぜん}部{ぶ}だな",
-                    "maleVariant": null,
-                    "stringId": 2276542983716380688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3452A01C^私{わたし}もリードフェンダーがやられた。フロント部{ぶ}分{ぶん}の下{した}も",
-                    "maleVariant": null,
-                    "stringId": 2276542983716380700
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3452A028^サビには気{き}をつけてたのによ",
-                    "maleVariant": null,
-                    "stringId": 2276542983716380712
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3452A010^フェンダー、ホイールウェルにフレームレール。というか接{せつ}合{ごう}部{ぶ}全{ぜん}部{ぶ}だな",
+              "maleVariant": "",
+              "stringId": 2276542983716380688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3452A01C^私{わたし}もリードフェンダーがやられた。フロント部{ぶ}分{ぶん}の下{した}も",
+              "maleVariant": "",
+              "stringId": 2276542983716380700
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3452A028^サビには気{き}をつけてたのによ",
+              "maleVariant": "",
+              "stringId": 2276542983716380712
             }
-          }
+          ]
         }
       }
     },

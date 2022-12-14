@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\hey_gle_gunsmith_01.json"
@@ -11,106 +11,80 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "46513Z^扱{あつか}ってるものを見{み}たい",
-                    "maleVariant": null,
-                    "stringId": 1751768568234586112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "46513010^信{しん}用{よう}できるお勧{すす}めの武{ぶ}器{き}は？",
-                    "maleVariant": null,
-                    "stringId": 1751768568234586128
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "48513Z^何{なに}があるか見{み}てもいい？",
-                    "maleVariant": "48513Z^何{なに}があるか見{み}てもいいか？",
-                    "stringId": 1751768568268140544
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もちろん。ごゆっくりどうぞ",
-                    "maleVariant": null,
-                    "stringId": 1751768568268140552
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4A513Z^何{なに}か… 普{ふ}通{つう}のとは違{ちが}う、変{か}わった武{ぶ}器{き}を置{お}いてたりしない？",
-                    "maleVariant": "4A513Z^何{なに}か… 普{ふ}通{つう}のとは違{ちが}う、変{か}わった武{ぶ}器{き}を置{お}いてたりしないか？",
-                    "stringId": 1751768568301694976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4A513008^そうだな… DR-12クエーサーなんかは？ 軽{かる}くてコンパクト、音{おと}が静{しず}かで… 殺傷力{さっしょうりょく}も期{き}待{たい}できる電{でん}磁{じ}ピストルだ",
-                    "maleVariant": null,
-                    "stringId": 1751768568301694984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DC44DZ^クラシックなのにこだわるならクラッシャーもいい。反{はん}動{どう}がマジパないぜ。にしても、あんな美{うつく}しい最高傑作{さいこうけっさく}をもう生{せい}産{さん}してないなんてな",
-                    "maleVariant": null,
-                    "stringId": 1976257049499324416
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1344DZ^もっと汎{はん}用{よう}性{せい}の高{たか}いのがよけりゃ、カン・タオのディアンはどうだ？ ロックオンシステムの精{せい}度{ど}が高{たか}いから、目{め}を閉{と}じててもガンガン撃{う}てる",
-                    "maleVariant": null,
-                    "stringId": 1976262380476485632
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8944DZ^この辺{へん}で最{さい}近{きん}変{か}わったことは？",
-                    "maleVariant": null,
-                    "stringId": 1976265534962192384
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5344DZ^この辺{へん}で何{なに}かニュースは？",
-                    "maleVariant": null,
-                    "stringId": 1976267316467650560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A144DZ^あまりないね。でもひとつ言{い}えるのは、警{けい}察{さつ}署{しょ}の隣{となり}で商{しょう}売{ばい}するのはやめといたほうがいいってことだ。パトカーのサイレンは鳴{な}りっぱなしだし、しょっぴかれたろくでなしどもの悲{ひ}鳴{めい}が気{き}持{も}ち悪{わる}くてさ",
-                    "maleVariant": null,
-                    "stringId": 1976267781632741376
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "46513Z^扱{あつか}ってるものを見{み}たい",
+              "maleVariant": "",
+              "stringId": 1751768568234586112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "46513010^信{しん}用{よう}できるお勧{すす}めの武{ぶ}器{き}は？",
+              "maleVariant": "",
+              "stringId": 1751768568234586128
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "48513Z^何{なに}があるか見{み}てもいい？",
+              "maleVariant": "48513Z^何{なに}があるか見{み}てもいいか？",
+              "stringId": 1751768568268140544
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もちろん。ごゆっくりどうぞ",
+              "maleVariant": "",
+              "stringId": 1751768568268140552
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4A513Z^何{なに}か… 普{ふ}通{つう}のとは違{ちが}う、変{か}わった武{ぶ}器{き}を置{お}いてたりしない？",
+              "maleVariant": "4A513Z^何{なに}か… 普{ふ}通{つう}のとは違{ちが}う、変{か}わった武{ぶ}器{き}を置{お}いてたりしないか？",
+              "stringId": 1751768568301694976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4A513008^そうだな… DR-12クエーサーなんかは？ 軽{かる}くてコンパクト、音{おと}が静{しず}かで… 殺傷力{さっしょうりょく}も期{き}待{たい}できる電{でん}磁{じ}ピストルだ",
+              "maleVariant": "",
+              "stringId": 1751768568301694984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DC44DZ^クラシックなのにこだわるならクラッシャーもいい。反{はん}動{どう}がマジパないぜ。にしても、あんな美{うつく}しい最高傑作{さいこうけっさく}をもう生{せい}産{さん}してないなんてな",
+              "maleVariant": "",
+              "stringId": 1976257049499324416
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1344DZ^もっと汎{はん}用{よう}性{せい}の高{たか}いのがよけりゃ、カン・タオのディアンはどうだ？ ロックオンシステムの精{せい}度{ど}が高{たか}いから、目{め}を閉{と}じててもガンガン撃{う}てる",
+              "maleVariant": "",
+              "stringId": 1976262380476485632
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8944DZ^この辺{へん}で最{さい}近{きん}変{か}わったことは？",
+              "maleVariant": "",
+              "stringId": 1976265534962192384
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5344DZ^この辺{へん}で何{なに}かニュースは？",
+              "maleVariant": "",
+              "stringId": 1976267316467650560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A144DZ^あまりないね。でもひとつ言{い}えるのは、警{けい}察{さつ}署{しょ}の隣{となり}で商{しょう}売{ばい}するのはやめといたほうがいいってことだ。パトカーのサイレンは鳴{な}りっぱなしだし、しょっぴかれたろくでなしどもの悲{ひ}鳴{めい}が気{き}持{も}ち悪{わる}くてさ",
+              "maleVariant": "",
+              "stringId": 1976267781632741376
             }
-          }
+          ]
         }
       }
     },

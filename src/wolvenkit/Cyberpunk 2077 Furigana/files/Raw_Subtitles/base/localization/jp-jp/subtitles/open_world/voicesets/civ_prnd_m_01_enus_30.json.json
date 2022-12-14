@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_prnd_m_01_enus_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C770A004^何{なに}かおかしい…",
-                    "maleVariant": null,
-                    "stringId": 1957791464325947396
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C870A004^今{いま}の見{み}たか？",
-                    "maleVariant": null,
-                    "stringId": 1957791464342724612
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああっ！",
-                    "maleVariant": null,
-                    "stringId": 1957791464393056260
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CC70A004^怖{こわ}くないぞ！",
-                    "maleVariant": null,
-                    "stringId": 1957791464409833476
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CE70A004^何{なん}とかしないと",
-                    "maleVariant": null,
-                    "stringId": 1957791464443387908
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D170A004^人{にん}がただ消{き}えるなんてこと… 警{けい}官{かん}は知{し}らない… もしくは知{し}らないふりしてるか… いつもどおり買{ばい}収{しゅう}されて…",
-                    "maleVariant": null,
-                    "stringId": 1957791464493719556
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D270A004^俺{おれ}たちも消{き}える… 何{なん}とかしない限{かぎ}りは… 選{えら}べ… 俺{おれ}は… もう決{き}めた",
-                    "maleVariant": null,
-                    "stringId": 1957791464510496772
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D470A004^俺{おれ}の味{み}方{かた}か、敵{てき}か、どっちだ？",
-                    "maleVariant": null,
-                    "stringId": 1957791464544051204
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DD70A004^我々{われわれ}の敗北{はいぼく}だ！",
-                    "maleVariant": null,
-                    "stringId": 1957791464695046148
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DE70A004^侵{しん}略{りゃく}が始{はじ}まった！",
-                    "maleVariant": null,
-                    "stringId": 1957791464711823364
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E370A004^全{ぜん}員{いん}殺{ころ}すなんて、無{む}理{り}だからな！",
-                    "maleVariant": null,
-                    "stringId": 1957791464795709444
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E470A004^真{しん}実{じつ}は必{かなら}ず勝{か}つ！",
-                    "maleVariant": null,
-                    "stringId": 1957791464812486660
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E970A004^手{て}遅{おく}れになる前{まえ}に帰{かえ}れ…",
-                    "maleVariant": null,
-                    "stringId": 1957791464896372740
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EA70A004^ここはダメだ！ 監{かん}視{し}されてる！",
-                    "maleVariant": null,
-                    "stringId": 1957791464913149956
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C770A004^何{なに}かおかしい…",
+              "maleVariant": "",
+              "stringId": 1957791464325947396
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C870A004^今{いま}の見{み}たか？",
+              "maleVariant": "",
+              "stringId": 1957791464342724612
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああっ！",
+              "maleVariant": "",
+              "stringId": 1957791464393056260
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CC70A004^怖{こわ}くないぞ！",
+              "maleVariant": "",
+              "stringId": 1957791464409833476
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CE70A004^何{なん}とかしないと",
+              "maleVariant": "",
+              "stringId": 1957791464443387908
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D170A004^人{にん}がただ消{き}えるなんてこと… 警{けい}官{かん}は知{し}らない… もしくは知{し}らないふりしてるか… いつもどおり買{ばい}収{しゅう}されて…",
+              "maleVariant": "",
+              "stringId": 1957791464493719556
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D270A004^俺{おれ}たちも消{き}える… 何{なん}とかしない限{かぎ}りは… 選{えら}べ… 俺{おれ}は… もう決{き}めた",
+              "maleVariant": "",
+              "stringId": 1957791464510496772
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D470A004^俺{おれ}の味{み}方{かた}か、敵{てき}か、どっちだ？",
+              "maleVariant": "",
+              "stringId": 1957791464544051204
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DD70A004^我々{われわれ}の敗北{はいぼく}だ！",
+              "maleVariant": "",
+              "stringId": 1957791464695046148
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DE70A004^侵{しん}略{りゃく}が始{はじ}まった！",
+              "maleVariant": "",
+              "stringId": 1957791464711823364
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E370A004^全{ぜん}員{いん}殺{ころ}すなんて、無{む}理{り}だからな！",
+              "maleVariant": "",
+              "stringId": 1957791464795709444
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E470A004^真{しん}実{じつ}は必{かなら}ず勝{か}つ！",
+              "maleVariant": "",
+              "stringId": 1957791464812486660
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E970A004^手{て}遅{おく}れになる前{まえ}に帰{かえ}れ…",
+              "maleVariant": "",
+              "stringId": 1957791464896372740
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EA70A004^ここはダメだ！ 監{かん}視{し}されてる！",
+              "maleVariant": "",
+              "stringId": 1957791464913149956
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_hill_chat_014.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D86F7Z^デカル45は使{つか}ってみたか？",
-                    "maleVariant": null,
-                    "stringId": 2159203169977987072
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CA494Z^思{おも}い出{だ}させないでくれ。あれのおかげで、ものすごい悪{あく}夢{む}にうなされた",
-                    "maleVariant": null,
-                    "stringId": 2210060633406783488
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "53494Z^それに副{ふく}作{さ}用{よう}のオンパレードだ――寒{さむ}気{け}、息{いき}切{ぎ}れ、幻{げん}覚{かく}…",
-                    "maleVariant": null,
-                    "stringId": 2210061035137220608
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "74494Z^日中{にっちゅう}はどうなんだ？ 効{こう}果{か}はあった？",
-                    "maleVariant": null,
-                    "stringId": 2210070020762451968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "55494Z^一{いち}応{おう}な… 16時{じ}間{かん}ぶっ続{つづ}けで働{はたら}いても、ピンピンしてられたよ",
-                    "maleVariant": null,
-                    "stringId": 2210070419674316800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D4494Z^なら… 価{か}値{ち}はあるんじゃないか？",
-                    "maleVariant": null,
-                    "stringId": 2210070993035673600
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D86F7Z^デカル45は使{つか}ってみたか？",
+              "maleVariant": "",
+              "stringId": 2159203169977987072
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CA494Z^思{おも}い出{だ}させないでくれ。あれのおかげで、ものすごい悪{あく}夢{む}にうなされた",
+              "maleVariant": "",
+              "stringId": 2210060633406783488
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "53494Z^それに副{ふく}作{さ}用{よう}のオンパレードだ――寒{さむ}気{け}、息{いき}切{ぎ}れ、幻{げん}覚{かく}…",
+              "maleVariant": "",
+              "stringId": 2210061035137220608
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "74494Z^日中{にっちゅう}はどうなんだ？ 効{こう}果{か}はあった？",
+              "maleVariant": "",
+              "stringId": 2210070020762451968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "55494Z^一{いち}応{おう}な… 16時{じ}間{かん}ぶっ続{つづ}けで働{はたら}いても、ピンピンしてられたよ",
+              "maleVariant": "",
+              "stringId": 2210070419674316800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D4494Z^なら… 価{か}値{ち}はあるんじゃないか？",
+              "maleVariant": "",
+              "stringId": 2210070993035673600
             }
-          }
+          ]
         }
       }
     },

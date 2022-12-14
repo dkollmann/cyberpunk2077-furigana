@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\loading_screens\\loading_screen_13_after_q115_and_q116.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EB4EAZ^皆{みな}さん、こんばんは。まずは… あー…",
-                    "maleVariant": null,
-                    "stringId": 1672055979443658752
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4F44DZ^市{し}場{じょう}は混{こん}乱{らん}に陥{おち}っており… この株{かぶ}価{か}急{きゅう}落{らく}を受{う}けた損{そん}失{しつ}は5千{せん}億{おく}ユーロドルを超{こ}えると言{い}われています",
-                    "maleVariant": null,
-                    "stringId": 1680737634739343360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4444DZ^先{せん}日{じつ}発{はっ}生{せい}したアラサカ・タワーに対{たい}する襲{しゅう}撃{げき}を受{う}け、同{どう}社{しゃ}は… あー… 17パーセントという株{かぶ}価{か}の大{おお}下{した}落{らく}に見{み}舞{まい}われました。アナリストの予{よ}測{そく}では、この下{げ}落{らく}はまだ続{つづ}くとのこと",
-                    "maleVariant": null,
-                    "stringId": 1680738953109753856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D044DZ^NCPDの公式発表{こうしきはっぴょう}によりますと、襲{しゅう}撃{げき}を行{い}ったのはテロリストの一{いち}団{だん}で、動{どう}機{き}や目{もく}的{てき}はいまのところ明{あき}らかになっていません",
-                    "maleVariant": null,
-                    "stringId": 1680739350595555328
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7644DZ^この悲{ひ}惨{さん}な事{じ}件{けん}を受{う}けて、私{わたし}から言{い}えることは一{ひと}つしかありません。売{う}りましょう",
-                    "maleVariant": null,
-                    "stringId": 1680740839439257600
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "63651Z^今{いま}すぐにです。売{う}れるうちにね",
-                    "maleVariant": null,
-                    "stringId": 1740382421442170880
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C7651Z^アラサカ社{しゃ}のCEO、ヨリノブ・アラサカ氏{し}は、ナイトシティのオフィスから東{とう}京{きょう}に避{ひ}難{なん}しました",
-                    "maleVariant": null,
-                    "stringId": 1740387718814568448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5A651Z^そうですね、いつもどおり… 株{かぶ}式{しき}から",
-                    "maleVariant": null,
-                    "stringId": 1741429761951207424
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EB4EAZ^皆{みな}さん、こんばんは。まずは… あー…",
+              "maleVariant": "",
+              "stringId": 1672055979443658752
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4F44DZ^市{し}場{じょう}は混{こん}乱{らん}に陥{おち}っており… この株{かぶ}価{か}急{きゅう}落{らく}を受{う}けた損{そん}失{しつ}は5千{せん}億{おく}ユーロドルを超{こ}えると言{い}われています",
+              "maleVariant": "",
+              "stringId": 1680737634739343360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4444DZ^先{せん}日{じつ}発{はっ}生{せい}したアラサカ・タワーに対{たい}する襲{しゅう}撃{げき}を受{う}け、同{どう}社{しゃ}は… あー… 17パーセントという株{かぶ}価{か}の大{おお}下{した}落{らく}に見{み}舞{まい}われました。アナリストの予{よ}測{そく}では、この下{げ}落{らく}はまだ続{つづ}くとのこと",
+              "maleVariant": "",
+              "stringId": 1680738953109753856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D044DZ^NCPDの公式発表{こうしきはっぴょう}によりますと、襲{しゅう}撃{げき}を行{い}ったのはテロリストの一{いち}団{だん}で、動{どう}機{き}や目{もく}的{てき}はいまのところ明{あき}らかになっていません",
+              "maleVariant": "",
+              "stringId": 1680739350595555328
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7644DZ^この悲{ひ}惨{さん}な事{じ}件{けん}を受{う}けて、私{わたし}から言{い}えることは一{ひと}つしかありません。売{う}りましょう",
+              "maleVariant": "",
+              "stringId": 1680740839439257600
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "63651Z^今{いま}すぐにです。売{う}れるうちにね",
+              "maleVariant": "",
+              "stringId": 1740382421442170880
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C7651Z^アラサカ社{しゃ}のCEO、ヨリノブ・アラサカ氏{し}は、ナイトシティのオフィスから東{とう}京{きょう}に避{ひ}難{なん}しました",
+              "maleVariant": "",
+              "stringId": 1740387718814568448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5A651Z^そうですね、いつもどおり… 株{かぶ}式{しき}から",
+              "maleVariant": "",
+              "stringId": 1741429761951207424
             }
-          }
+          ]
         }
       }
     },

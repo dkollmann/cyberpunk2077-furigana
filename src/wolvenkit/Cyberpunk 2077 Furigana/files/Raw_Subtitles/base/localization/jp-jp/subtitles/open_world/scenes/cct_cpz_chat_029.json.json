@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_cpz_chat_029.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9269EZ^上{うえ}の子{こ}はあなたが",
-                    "maleVariant": null,
-                    "stringId": 2172097639878352896
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F6559Z^いや、お前{まえ}だ。自{し}然{ぜん}な子{こ}を欲{ほっ}しがったのはお前{まえ}だろ。その結{けっ}果{か}、自{し}然{ぜん}で頭{あたま}の悪{わる}い息子{むすこ}を手{て}に入{い}れたんだ",
-                    "maleVariant": null,
-                    "stringId": 2207215055103430656
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D559Z^あの子{こ}は普{ふ}通{つう}よ。あなたが希{き}望{ぼう}した、研{けん}究{きゅう}所{しょ}で人{じん}工{こう}的{てき}に作{つく}られた“完璧{かんぺき}な”人{にん}間{げん}じゃないだけ",
-                    "maleVariant": null,
-                    "stringId": 2207238080808980480
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2C559Z^お前{まえ}が“完璧{かんぺき}”を嫌{きら}ったせいでな。おかげで企{き}業{ぎょう}に就{しゅう}職{しょく}できないどころか、高{こう}等{とう}教{きょう}育{いく}も受{う}けられない。俺{おれ}は絶{ぜっ}対{たい}引{ひ}き取{と}らないぞ",
-                    "maleVariant": null,
-                    "stringId": 2207238270307635200
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9C559Z^つまり私{わたし}ばかりが貧{びん}乏{ぼう}くじを引{ひ}くわけ？ 家{いえ}も、下{した}の子{こ}もあなたに譲{ゆず}って！？ 冗{じょう}談{だん}じゃないわ！",
-                    "maleVariant": null,
-                    "stringId": 2207240677368369152
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BD559Z^それはこっちのセリフだ！ はあ… いいだろう。家{いえ}はくれてやるが、下{した}の子{こ}は俺{おれ}が引{ひ}き取{と}る",
-                    "maleVariant": null,
-                    "stringId": 2207242121031028736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8D559Z^わかった… でも毎{まい}月{つき}の養{よう}育{いく}費{ひ}は増{ふ}やしてもらうから――記{き}録{ろく}に残{のこ}さない形{かたち}でね",
-                    "maleVariant": null,
-                    "stringId": 2207242622736896000
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9269EZ^上{うえ}の子{こ}はあなたが",
+              "maleVariant": "",
+              "stringId": 2172097639878352896
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F6559Z^いや、お前{まえ}だ。自{し}然{ぜん}な子{こ}を欲{ほっ}しがったのはお前{まえ}だろ。その結{けっ}果{か}、自{し}然{ぜん}で頭{あたま}の悪{わる}い息子{むすこ}を手{て}に入{い}れたんだ",
+              "maleVariant": "",
+              "stringId": 2207215055103430656
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D559Z^あの子{こ}は普{ふ}通{つう}よ。あなたが希{き}望{ぼう}した、研{けん}究{きゅう}所{しょ}で人{じん}工{こう}的{てき}に作{つく}られた“完璧{かんぺき}な”人{にん}間{げん}じゃないだけ",
+              "maleVariant": "",
+              "stringId": 2207238080808980480
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2C559Z^お前{まえ}が“完璧{かんぺき}”を嫌{きら}ったせいでな。おかげで企{き}業{ぎょう}に就{しゅう}職{しょく}できないどころか、高{こう}等{とう}教{きょう}育{いく}も受{う}けられない。俺{おれ}は絶{ぜっ}対{たい}引{ひ}き取{と}らないぞ",
+              "maleVariant": "",
+              "stringId": 2207238270307635200
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9C559Z^つまり私{わたし}ばかりが貧{びん}乏{ぼう}くじを引{ひ}くわけ？ 家{いえ}も、下{した}の子{こ}もあなたに譲{ゆず}って！？ 冗{じょう}談{だん}じゃないわ！",
+              "maleVariant": "",
+              "stringId": 2207240677368369152
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BD559Z^それはこっちのセリフだ！ はあ… いいだろう。家{いえ}はくれてやるが、下{した}の子{こ}は俺{おれ}が引{ひ}き取{と}る",
+              "maleVariant": "",
+              "stringId": 2207242121031028736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8D559Z^わかった… でも毎{まい}月{つき}の養{よう}育{いく}費{ひ}は増{ふ}やしてもらうから――記{き}録{ろく}に残{のこ}さない形{かたち}でね",
+              "maleVariant": "",
+              "stringId": 2207242622736896000
             }
-          }
+          ]
         }
       }
     },

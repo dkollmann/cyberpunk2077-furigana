@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_awf_chat_004.json"
@@ -11,58 +11,44 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B870AZ^あたしがウソついてるって言{い}いたいわけ？",
-                    "maleVariant": null,
-                    "stringId": 1963248533556469760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7244DZ^そうじゃない。もうクジラはいないって言{い}ってるだけよ。絶{ぜつ}滅{めつ}したんだから",
-                    "maleVariant": null,
-                    "stringId": 1967820568015458304
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8044DZ^この目{め}ではっきり見{み}たのよ。沖{おき}合{あ}いに灰{はい}色{いろ}のおなかをした、クジラがいたんだって！",
-                    "maleVariant": null,
-                    "stringId": 1967821178135695360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C144DZ^潜{せん}水{すい}艦{かん}と見{み}間{ま}違{ちが}えたんじゃないの？",
-                    "maleVariant": null,
-                    "stringId": 1967821840651177984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A944DZ^信{しん}じたくないならいい。でも自{じ}分{ぶん}が何{なに}を見{み}たかくらいわかってる！",
-                    "maleVariant": null,
-                    "stringId": 1967822948350087168
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B870AZ^あたしがウソついてるって言{い}いたいわけ？",
+              "maleVariant": "",
+              "stringId": 1963248533556469760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7244DZ^そうじゃない。もうクジラはいないって言{い}ってるだけよ。絶{ぜつ}滅{めつ}したんだから",
+              "maleVariant": "",
+              "stringId": 1967820568015458304
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8044DZ^この目{め}ではっきり見{み}たのよ。沖{おき}合{あ}いに灰{はい}色{いろ}のおなかをした、クジラがいたんだって！",
+              "maleVariant": "",
+              "stringId": 1967821178135695360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C144DZ^潜{せん}水{すい}艦{かん}と見{み}間{ま}違{ちが}えたんじゃないの？",
+              "maleVariant": "",
+              "stringId": 1967821840651177984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A944DZ^信{しん}じたくないならいい。でも自{じ}分{ぶん}が何{なに}を見{み}たかくらいわかってる！",
+              "maleVariant": "",
+              "stringId": 1967822948350087168
             }
-          }
+          ]
         }
       }
     },

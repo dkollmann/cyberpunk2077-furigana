@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_wwd_chat_028.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F469EZ^ここで盗{ぬす}みでもやるか",
-                    "maleVariant": null,
-                    "stringId": 2179639140237828096
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7142FZ^もう二{に}度{ど}とこうやって座{すわ}ったり、バカ言{い}ったりできなくなった",
-                    "maleVariant": null,
-                    "stringId": 2211506859070910464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やってみろよ",
-                    "maleVariant": null,
-                    "stringId": 2212614971085484032
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6F42FZ^俺{おれ}は本{ほん}気{き}だ。さっとカバンに詰{つ}め込{こ}んで、逃{に}げる。後{のち}は道{みち}端{ばた}かカブキで売{う}り捌{さば}きゃいい",
-                    "maleVariant": null,
-                    "stringId": 2212615102333644800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4042FZ^へっ、前{まえ}に同{おな}じことを考{かんが}えたバカがいたっけな",
-                    "maleVariant": null,
-                    "stringId": 2212615823099621376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "へえ？ そいつはどうなったんだ？",
-                    "maleVariant": null,
-                    "stringId": 2212616599129747456
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1142FZ^知{し}るかよ。そんなこと言{い}ってたら、ずっとこのままだぞ",
-                    "maleVariant": null,
-                    "stringId": 2212617759341342720
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F469EZ^ここで盗{ぬす}みでもやるか",
+              "maleVariant": "",
+              "stringId": 2179639140237828096
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7142FZ^もう二{に}度{ど}とこうやって座{すわ}ったり、バカ言{い}ったりできなくなった",
+              "maleVariant": "",
+              "stringId": 2211506859070910464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やってみろよ",
+              "maleVariant": "",
+              "stringId": 2212614971085484032
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6F42FZ^俺{おれ}は本{ほん}気{き}だ。さっとカバンに詰{つ}め込{こ}んで、逃{に}げる。後{のち}は道{みち}端{ばた}かカブキで売{う}り捌{さば}きゃいい",
+              "maleVariant": "",
+              "stringId": 2212615102333644800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4042FZ^へっ、前{まえ}に同{おな}じことを考{かんが}えたバカがいたっけな",
+              "maleVariant": "",
+              "stringId": 2212615823099621376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "へえ？ そいつはどうなったんだ？",
+              "maleVariant": "",
+              "stringId": 2212616599129747456
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1142FZ^知{し}るかよ。そんなこと言{い}ってたら、ずっとこのままだぞ",
+              "maleVariant": "",
+              "stringId": 2212617759341342720
             }
-          }
+          ]
         }
       }
     },

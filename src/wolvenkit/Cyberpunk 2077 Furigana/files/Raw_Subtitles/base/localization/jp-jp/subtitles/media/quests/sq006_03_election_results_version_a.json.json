@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\quests\\sq006_03_election_results_version_a.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9868EZ^皆{みな}さん、こんにちは。ジリアン・ジョーダンが、N54ニュースによる選{せん}挙{きょ}速{そく}報{ほう}をお伝{つた}えします。ナイトシティ市{し}長{ちょう}選{せん}挙{きょ}の開{かい}票{ひょう}が先{さき}ほど終{お}わり、結{けっ}果{か}が出{で}た模{も}様{よう}です",
-                    "maleVariant": null,
-                    "stringId": 1744646259704651776
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5668FZ^移{い}譲{じょう}党{とう}のナイトシティ現{げん}職{しょく}市{し}長{ちょう}ウェルドン・ホルト氏{し}は、47.8%の得{とく}票{ひょう}を集{あつ}めました。ルシアス・ライン元{もと}市{いち}長{ちょう}殺{さつ}害{がい}への関{かん}与{よ}が疑{うたが}われる中{なか}、健{けん}闘{とう}を見{み}せたと言{い}えるのではないでしょうか",
-                    "maleVariant": null,
-                    "stringId": 1744677367045484544
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A068FZ^結{けっ}果{か}的{てき}に接戦{せっせん}を制{せい}したのは、49.3%の得{とく}票{ひょう}率{りつ}を獲{かく}得{とく}した連邦{れんぽう}党{とう}候{こう}補{ほ}のジェファーソン・ペラレス氏{し}でした",
-                    "maleVariant": null,
-                    "stringId": 1744677625985036288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7968FZ^ホルト市{し}長{ちょう}は敗北{はいぼく}演説{えんぜつ}を行{おこな}い、勝{しょう}利{り}した候{こう}補{ほ}に祝{しゅく}辞{じ}を述{の}べました",
-                    "maleVariant": null,
-                    "stringId": 1744678119251963904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A668FZ^ペラレス氏{し}が大{だい}胆{たん}な公{こう}約{やく}を実{じつ}現{げん}することができるか、今{こん}後{ご}注{ちゅう}目{もく}が集{あつ}まります",
-                    "maleVariant": null,
-                    "stringId": 1744678493669093376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F968FZ^CMの後{のち}、連敗{れんぱい}続{つづ}きのコルセアーズに秘{ひ}策{さく}はあるのでしょうか？",
-                    "maleVariant": null,
-                    "stringId": 1744678782824411136
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9868EZ^皆{みな}さん、こんにちは。ジリアン・ジョーダンが、N54ニュースによる選{せん}挙{きょ}速{そく}報{ほう}をお伝{つた}えします。ナイトシティ市{し}長{ちょう}選{せん}挙{きょ}の開{かい}票{ひょう}が先{さき}ほど終{お}わり、結{けっ}果{か}が出{で}た模{も}様{よう}です",
+              "maleVariant": "",
+              "stringId": 1744646259704651776
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5668FZ^移{い}譲{じょう}党{とう}のナイトシティ現{げん}職{しょく}市{し}長{ちょう}ウェルドン・ホルト氏{し}は、47.8%の得{とく}票{ひょう}を集{あつ}めました。ルシアス・ライン元{もと}市{いち}長{ちょう}殺{さつ}害{がい}への関{かん}与{よ}が疑{うたが}われる中{なか}、健{けん}闘{とう}を見{み}せたと言{い}えるのではないでしょうか",
+              "maleVariant": "",
+              "stringId": 1744677367045484544
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A068FZ^結{けっ}果{か}的{てき}に接戦{せっせん}を制{せい}したのは、49.3%の得{とく}票{ひょう}率{りつ}を獲{かく}得{とく}した連邦{れんぽう}党{とう}候{こう}補{ほ}のジェファーソン・ペラレス氏{し}でした",
+              "maleVariant": "",
+              "stringId": 1744677625985036288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7968FZ^ホルト市{し}長{ちょう}は敗北{はいぼく}演説{えんぜつ}を行{おこな}い、勝{しょう}利{り}した候{こう}補{ほ}に祝{しゅく}辞{じ}を述{の}べました",
+              "maleVariant": "",
+              "stringId": 1744678119251963904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A668FZ^ペラレス氏{し}が大{だい}胆{たん}な公{こう}約{やく}を実{じつ}現{げん}することができるか、今{こん}後{ご}注{ちゅう}目{もく}が集{あつ}まります",
+              "maleVariant": "",
+              "stringId": 1744678493669093376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F968FZ^CMの後{のち}、連敗{れんぱい}続{つづ}きのコルセアーズに秘{ひ}策{さく}はあるのでしょうか？",
+              "maleVariant": "",
+              "stringId": 1744678782824411136
             }
-          }
+          ]
         }
       }
     },

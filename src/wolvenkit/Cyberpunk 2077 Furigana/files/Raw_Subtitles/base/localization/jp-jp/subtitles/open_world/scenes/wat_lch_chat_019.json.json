@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_019.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "13647Z^あの仕{し}事{ごと}は最{さい}悪{あく}だった",
-                    "maleVariant": null,
-                    "stringId": 2156492209084723200
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E53BCZ^でも金{きん}は入{いっ}ったんだろ？",
-                    "maleVariant": null,
-                    "stringId": 2176454649366429696
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "853BCZ^ああ。約{やく}束{そく}の額{ひたい}より少{すく}なかったがな。メジャーの大{おお}物{もの}が相{あい}手{て}じゃ、交{こう}渉{しょう}なんてできるはずもない",
-                    "maleVariant": null,
-                    "stringId": 2176454922633723904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B83BCZ^奴{やつ}らの仕{し}事{ごと}は受{う}けるなって、他{ほか}の傭{よう}兵{へい}連{れん}中{ちゅう}に伝{つた}えればいい。そうすりゃ向{む}こうも、すぐに態{たい}度{ど}を変{か}える",
-                    "maleVariant": null,
-                    "stringId": 2176455185482366976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E63BCZ^そんなことしても無{む}駄{だ}だ。傭{よう}兵{へい}がダメなら、ギャングでも雇{やと}うだろう",
-                    "maleVariant": null,
-                    "stringId": 2176455379527647232
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "563BCZ^筋{すじ}金{がね}入{い}りのシックス・ストリートに「新{しん}合{ごう}衆{しゅう}国{くに}のために働{はたら}いてくれ」と言{い}ってみろ。喜{よろこ}んでタダ働{はたら}きするぞ",
-                    "maleVariant": null,
-                    "stringId": 2176455548910419968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "573BCZ^ケッ… いつも言{い}ってるだろ。理{り}想{そう}主{しゅ}義{ぎ}者{しゃ}はビジネスの敵{てき}さ",
-                    "maleVariant": null,
-                    "stringId": 2176455862459809792
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "473BCZ^まったくだ。死{し}に急{いそ}いでくれるのは結{けっ}構{こう}だがな",
-                    "maleVariant": null,
-                    "stringId": 2176455991040393216
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "13647Z^あの仕{し}事{ごと}は最{さい}悪{あく}だった",
+              "maleVariant": "",
+              "stringId": 2156492209084723200
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E53BCZ^でも金{きん}は入{いっ}ったんだろ？",
+              "maleVariant": "",
+              "stringId": 2176454649366429696
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "853BCZ^ああ。約{やく}束{そく}の額{ひたい}より少{すく}なかったがな。メジャーの大{おお}物{もの}が相{あい}手{て}じゃ、交{こう}渉{しょう}なんてできるはずもない",
+              "maleVariant": "",
+              "stringId": 2176454922633723904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B83BCZ^奴{やつ}らの仕{し}事{ごと}は受{う}けるなって、他{ほか}の傭{よう}兵{へい}連{れん}中{ちゅう}に伝{つた}えればいい。そうすりゃ向{む}こうも、すぐに態{たい}度{ど}を変{か}える",
+              "maleVariant": "",
+              "stringId": 2176455185482366976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E63BCZ^そんなことしても無{む}駄{だ}だ。傭{よう}兵{へい}がダメなら、ギャングでも雇{やと}うだろう",
+              "maleVariant": "",
+              "stringId": 2176455379527647232
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "563BCZ^筋{すじ}金{がね}入{い}りのシックス・ストリートに「新{しん}合{ごう}衆{しゅう}国{くに}のために働{はたら}いてくれ」と言{い}ってみろ。喜{よろこ}んでタダ働{はたら}きするぞ",
+              "maleVariant": "",
+              "stringId": 2176455548910419968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "573BCZ^ケッ… いつも言{い}ってるだろ。理{り}想{そう}主{しゅ}義{ぎ}者{しゃ}はビジネスの敵{てき}さ",
+              "maleVariant": "",
+              "stringId": 2176455862459809792
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "473BCZ^まったくだ。死{し}に急{いそ}いでくれるのは結{けっ}構{こう}だがな",
+              "maleVariant": "",
+              "stringId": 2176455991040393216
             }
-          }
+          ]
         }
       }
     },

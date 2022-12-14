@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_east_024.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ねえ、どうかした？",
-                    "maleVariant": null,
-                    "stringId": 2189692490727776256
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "392B6Z^はあ… イラついてんだ。明日{あした}また燃{ねん}料{りょう}を取{と}りにいかなきゃいけねえ。もううんざりだ",
-                    "maleVariant": null,
-                    "stringId": 2189730789823569920
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "422B6Z^でも誰{だれ}かがやらないと",
-                    "maleVariant": null,
-                    "stringId": 2189731502939136000
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "402B6Z^お前{まえ}もかよ。ま、うちの素{す}晴{ば}らしいリーダーたちに熱{ねつ}上{あ}げてんなら無{む}理{り}もねえか",
-                    "maleVariant": null,
-                    "stringId": 2189731743423750144
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BF2B6Z^あの人{にん}たちはどん底{そこ}の私{わたし}を拾{ひろ}ってくれたんだよ？ 食{た}べ物{もの}と寝{ね}る場{ば}所{しょ}をくれた。私{わたし}のファミリーなんだ",
-                    "maleVariant": null,
-                    "stringId": 2189732608842883072
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DA2B6Z^へっ、元{もと}のファミリーは、お前{まえ}がレジンをキメすぎた時{とき}に、みんなゾンビに見{み}えて殺{ころ}したんじゃなかったか？",
-                    "maleVariant": null,
-                    "stringId": 2189733451109457920
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3D2B6Z^まったく、悲{ひ}劇{げき}のヒロインぶってんじゃねえよ",
-                    "maleVariant": null,
-                    "stringId": 2189734878699544576
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ねえ、どうかした？",
+              "maleVariant": "",
+              "stringId": 2189692490727776256
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "392B6Z^はあ… イラついてんだ。明日{あした}また燃{ねん}料{りょう}を取{と}りにいかなきゃいけねえ。もううんざりだ",
+              "maleVariant": "",
+              "stringId": 2189730789823569920
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "422B6Z^でも誰{だれ}かがやらないと",
+              "maleVariant": "",
+              "stringId": 2189731502939136000
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "402B6Z^お前{まえ}もかよ。ま、うちの素{す}晴{ば}らしいリーダーたちに熱{ねつ}上{あ}げてんなら無{む}理{り}もねえか",
+              "maleVariant": "",
+              "stringId": 2189731743423750144
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BF2B6Z^あの人{にん}たちはどん底{そこ}の私{わたし}を拾{ひろ}ってくれたんだよ？ 食{た}べ物{もの}と寝{ね}る場{ば}所{しょ}をくれた。私{わたし}のファミリーなんだ",
+              "maleVariant": "",
+              "stringId": 2189732608842883072
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DA2B6Z^へっ、元{もと}のファミリーは、お前{まえ}がレジンをキメすぎた時{とき}に、みんなゾンビに見{み}えて殺{ころ}したんじゃなかったか？",
+              "maleVariant": "",
+              "stringId": 2189733451109457920
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3D2B6Z^まったく、悲{ひ}劇{げき}のヒロインぶってんじゃねえよ",
+              "maleVariant": "",
+              "stringId": 2189734878699544576
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_high_m_23_jap_40.json"
@@ -11,138 +11,104 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7F582004^ん、何{なに}か言{い}ったか？",
-                    "maleVariant": null,
-                    "stringId": 1878097713578909700
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ごきげんよう",
-                    "maleVariant": null,
-                    "stringId": 1878097713595686916
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ん？",
-                    "maleVariant": null,
-                    "stringId": 1878097713662795780
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "85582004^いったい何{なに}なんだ…？",
-                    "maleVariant": null,
-                    "stringId": 1878097713679572996
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもし？",
-                    "maleVariant": null,
-                    "stringId": 1878097713729904644
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8B582004^ああ、終{お}わってるはずだ… いや… あまり寝{ね}てなくてな…",
-                    "maleVariant": null,
-                    "stringId": 1878097713780236292
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8C582004^覚{おぼ}えてるよ… いつにする？ 心{しん}配{ぱい}しなくていい、うまくいくさ",
-                    "maleVariant": null,
-                    "stringId": 1878097713797013508
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8F582Z^また話{はな}そう。連{れん}絡{らく}する",
-                    "maleVariant": null,
-                    "stringId": 1878097713847345152
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "98582004^誰{だれ}か！ 奴{やつ}を止{と}めてくれ！",
-                    "maleVariant": null,
-                    "stringId": 1878097713998340100
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9A582004^殺{さつ}人{じん}鬼{き}がいるぞ！",
-                    "maleVariant": null,
-                    "stringId": 1878097714031894532
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9F582004^何{なに}が目{もく}的{てき}でこんなことを？",
-                    "maleVariant": null,
-                    "stringId": 1878097714115780612
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A1582Z^私{わたし}が何{なに}をしたというんだ！",
-                    "maleVariant": null,
-                    "stringId": 1878097714149335040
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A7582Z^誰{だれ}だ…？",
-                    "maleVariant": null,
-                    "stringId": 1878097714249998336
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A8582004^なぜ私{わたし}に付{つ}きまとう？",
-                    "maleVariant": null,
-                    "stringId": 1878097714266775556
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "24582Z^このところ疲{つか}れててな… 時{じ}間{かん}もないし…",
-                    "maleVariant": null,
-                    "stringId": 1878098558160740352
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7F582004^ん、何{なに}か言{い}ったか？",
+              "maleVariant": "",
+              "stringId": 1878097713578909700
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ごきげんよう",
+              "maleVariant": "",
+              "stringId": 1878097713595686916
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ん？",
+              "maleVariant": "",
+              "stringId": 1878097713662795780
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "85582004^いったい何{なに}なんだ…？",
+              "maleVariant": "",
+              "stringId": 1878097713679572996
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもし？",
+              "maleVariant": "",
+              "stringId": 1878097713729904644
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8B582004^ああ、終{お}わってるはずだ… いや… あまり寝{ね}てなくてな…",
+              "maleVariant": "",
+              "stringId": 1878097713780236292
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8C582004^覚{おぼ}えてるよ… いつにする？ 心{しん}配{ぱい}しなくていい、うまくいくさ",
+              "maleVariant": "",
+              "stringId": 1878097713797013508
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8F582Z^また話{はな}そう。連{れん}絡{らく}する",
+              "maleVariant": "",
+              "stringId": 1878097713847345152
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "98582004^誰{だれ}か！ 奴{やつ}を止{と}めてくれ！",
+              "maleVariant": "",
+              "stringId": 1878097713998340100
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9A582004^殺{さつ}人{じん}鬼{き}がいるぞ！",
+              "maleVariant": "",
+              "stringId": 1878097714031894532
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9F582004^何{なに}が目{もく}的{てき}でこんなことを？",
+              "maleVariant": "",
+              "stringId": 1878097714115780612
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A1582Z^私{わたし}が何{なに}をしたというんだ！",
+              "maleVariant": "",
+              "stringId": 1878097714149335040
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A7582Z^誰{だれ}だ…？",
+              "maleVariant": "",
+              "stringId": 1878097714249998336
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A8582004^なぜ私{わたし}に付{つ}きまとう？",
+              "maleVariant": "",
+              "stringId": 1878097714266775556
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "24582Z^このところ疲{つか}れててな… 時{じ}間{かん}もないし…",
+              "maleVariant": "",
+              "stringId": 1878098558160740352
             }
-          }
+          ]
         }
       }
     },

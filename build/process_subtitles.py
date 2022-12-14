@@ -74,25 +74,23 @@ def addfurigana(instance, entry, variant, stringid, filename, problems):
 
 
 def processjson(instance, file, jsn, problems):
-	entries = jsn["Data"]["RootChunk"]["Properties"]["root"]["Data"]["Properties"]["entries"]
+	entries = jsn["Data"]["RootChunk"]["root"]["Data"]["entries"]
 
 	for cc in entries:
-		t = cc["Type"]
+		t = cc["$type"]
 
-		if t == "localizationPersistenceSubtitleEntry" and "Properties" in cc:
-			props = cc["Properties"]
-
+		if t == "localizationPersistenceSubtitleEntry":
 			hasfurigana = False
-			stringid = props["stringId"]
+			stringid = cc["stringId"]
 			relstringid = stringid % 4294967296
 			hexid = hex(relstringid)[2:].upper()
 			if hexid.endswith("000"):
 				hexid = hexid[:-3] + "Z"
 			strid = hexid + "^"
 
-			if addfurigana(instance, props, "femaleVariant", strid, file, problems):
+			if addfurigana(instance, cc, "femaleVariant", strid, file, problems):
 				hasfurigana = True
-			if addfurigana(instance, props, "maleVariant", strid, file, problems):
+			if addfurigana(instance, cc, "maleVariant", strid, file, problems):
 				hasfurigana = True
 
 			if hasfurigana:

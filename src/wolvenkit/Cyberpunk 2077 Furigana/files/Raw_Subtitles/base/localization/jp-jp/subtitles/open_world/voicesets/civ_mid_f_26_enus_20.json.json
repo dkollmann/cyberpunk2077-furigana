@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_mid_f_26_enus_20.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C670AZ^今{いま}何{なん}時{じ}？",
-                    "maleVariant": null,
-                    "stringId": 1954487749695283200
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C770A004^前{まえ}に会{あ}った？",
-                    "maleVariant": null,
-                    "stringId": 1954487749712060420
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CA70A004^うわ、何{なに}…！",
-                    "maleVariant": null,
-                    "stringId": 1954487749762392068
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CB70A004^落{お}ち着{つ}いて！",
-                    "maleVariant": null,
-                    "stringId": 1954487749779169284
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CD70A004^あー… 私{わたし}",
-                    "maleVariant": null,
-                    "stringId": 1954487749812723716
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D070A004^うー、ごめん… でも私{わたし}のせいじゃ… 一杯{いっぱい}だけのはずが… うん… 七{しち}杯{はい}かも",
-                    "maleVariant": null,
-                    "stringId": 1954487749863055364
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D170A004^怒{ど}鳴{な}らないで… 行{い}くから… うん、残{のこ}るって… 何{なん}でもするから。とにかく怒{ど}鳴{な}らないで",
-                    "maleVariant": null,
-                    "stringId": 1954487749879832580
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D370A004^もう切{き}る。じゃ",
-                    "maleVariant": null,
-                    "stringId": 1954487749913387012
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そんな！",
-                    "maleVariant": null,
-                    "stringId": 1954487750064381956
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DD70A004^この街{まち}はこんなのばっかり！",
-                    "maleVariant": null,
-                    "stringId": 1954487750081159172
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E170A004^でも… 何{なに}もしてないでしょ？",
-                    "maleVariant": null,
-                    "stringId": 1954487750148268036
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E370AZ^離{はな}れて、離{はな}れてってば！",
-                    "maleVariant": null,
-                    "stringId": 1954487750181822464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E770A004^邪{じゃ}魔{ま}なんだけど？",
-                    "maleVariant": null,
-                    "stringId": 1954487750248931332
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E970AZ^他{ほか}の人{にん}をストーキングしなよ",
-                    "maleVariant": null,
-                    "stringId": 1954487750282485760
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C670AZ^今{いま}何{なん}時{じ}？",
+              "maleVariant": "",
+              "stringId": 1954487749695283200
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C770A004^前{まえ}に会{あ}った？",
+              "maleVariant": "",
+              "stringId": 1954487749712060420
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CA70A004^うわ、何{なに}…！",
+              "maleVariant": "",
+              "stringId": 1954487749762392068
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CB70A004^落{お}ち着{つ}いて！",
+              "maleVariant": "",
+              "stringId": 1954487749779169284
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CD70A004^あー… 私{わたし}",
+              "maleVariant": "",
+              "stringId": 1954487749812723716
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D070A004^うー、ごめん… でも私{わたし}のせいじゃ… 一杯{いっぱい}だけのはずが… うん… 七{しち}杯{はい}かも",
+              "maleVariant": "",
+              "stringId": 1954487749863055364
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D170A004^怒{ど}鳴{な}らないで… 行{い}くから… うん、残{のこ}るって… 何{なん}でもするから。とにかく怒{ど}鳴{な}らないで",
+              "maleVariant": "",
+              "stringId": 1954487749879832580
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D370A004^もう切{き}る。じゃ",
+              "maleVariant": "",
+              "stringId": 1954487749913387012
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そんな！",
+              "maleVariant": "",
+              "stringId": 1954487750064381956
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DD70A004^この街{まち}はこんなのばっかり！",
+              "maleVariant": "",
+              "stringId": 1954487750081159172
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E170A004^でも… 何{なに}もしてないでしょ？",
+              "maleVariant": "",
+              "stringId": 1954487750148268036
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E370AZ^離{はな}れて、離{はな}れてってば！",
+              "maleVariant": "",
+              "stringId": 1954487750181822464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E770A004^邪{じゃ}魔{ま}なんだけど？",
+              "maleVariant": "",
+              "stringId": 1954487750248931332
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E970AZ^他{ほか}の人{にん}をストーキングしなよ",
+              "maleVariant": "",
+              "stringId": 1954487750282485760
             }
-          }
+          ]
         }
       }
     },

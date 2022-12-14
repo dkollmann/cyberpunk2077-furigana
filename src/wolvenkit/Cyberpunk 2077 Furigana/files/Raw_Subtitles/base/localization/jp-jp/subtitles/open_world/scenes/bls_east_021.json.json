@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_east_021.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "57652Z^そろそろ出発{しゅっぱつ}したほうがいい。これ以{い}上{じょう}長{なが}居{い}してると、根{ね}が生{は}えちまう",
-                    "maleVariant": null,
-                    "stringId": 2178265220515176448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D93BCZ^なに、もう景色{けしき}に飽{あ}きたわけ？",
-                    "maleVariant": null,
-                    "stringId": 2181079985345511424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6A3BCZ^景色{けしき}もクソも、風{ふう}力{りょく}タービンしかないだろ。気{き}分{ぶん}転{てん}換{かん}に山{やま}でも見{み}たいんだよ",
-                    "maleVariant": null,
-                    "stringId": 2181080266951081984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "793BCZ^アパラチアとかどうだ？ 放{ほう}射{しゃ}能{のう}も収{おさ}まったらしいし",
-                    "maleVariant": null,
-                    "stringId": 2181080589325287424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A93BCZ^そうだね… ひとまず気{き}分{ぶん}転{てん}換{かん}に、ちょっと物資{ぶっし}を集{あつ}めにいこうか",
-                    "maleVariant": null,
-                    "stringId": 2181080800583991296
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A3BCZ^風{ふう}力{りょく}タービンから離{はな}れられるなら何{なん}でもいいさ",
-                    "maleVariant": null,
-                    "stringId": 2181080969715105792
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "57652Z^そろそろ出発{しゅっぱつ}したほうがいい。これ以{い}上{じょう}長{なが}居{い}してると、根{ね}が生{は}えちまう",
+              "maleVariant": "",
+              "stringId": 2178265220515176448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D93BCZ^なに、もう景色{けしき}に飽{あ}きたわけ？",
+              "maleVariant": "",
+              "stringId": 2181079985345511424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6A3BCZ^景色{けしき}もクソも、風{ふう}力{りょく}タービンしかないだろ。気{き}分{ぶん}転{てん}換{かん}に山{やま}でも見{み}たいんだよ",
+              "maleVariant": "",
+              "stringId": 2181080266951081984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "793BCZ^アパラチアとかどうだ？ 放{ほう}射{しゃ}能{のう}も収{おさ}まったらしいし",
+              "maleVariant": "",
+              "stringId": 2181080589325287424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A93BCZ^そうだね… ひとまず気{き}分{ぶん}転{てん}換{かん}に、ちょっと物資{ぶっし}を集{あつ}めにいこうか",
+              "maleVariant": "",
+              "stringId": 2181080800583991296
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A3BCZ^風{ふう}力{りょく}タービンから離{はな}れられるなら何{なん}でもいいさ",
+              "maleVariant": "",
+              "stringId": 2181080969715105792
             }
-          }
+          ]
         }
       }
     },

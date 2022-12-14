@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_wwd_chat_025.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E369EZ^俺{おれ}もあのアニマルズのジュースを一{いち}年{ねん}近{ちか}く飲{の}んでたが、何{なん}ともなかったぞ",
-                    "maleVariant": null,
-                    "stringId": 2179628960880123904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1242FZ^いや、新{あたら}しいアナボリックを試{ため}してるんだ。副{ふく}腎{じん}に、テストステロンも強{きょう}化{か}したしな",
-                    "maleVariant": null,
-                    "stringId": 2211501978394226688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8842FZ^何{なに}なら今{いま}すぐ手{て}に入{い}れられるが、いるか？",
-                    "maleVariant": null,
-                    "stringId": 2212538669515075584
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1842FZ^へえ？ 効{こう}果{か}はどうだ？",
-                    "maleVariant": null,
-                    "stringId": 2212541141537189888
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "942FZ^一{いっ}ヶ{か}月{げつ}でわかる。リパーのとこで、もう片{かた}方{ほう}の副{ふく}腎{じん}もやってもらわないといけない",
-                    "maleVariant": null,
-                    "stringId": 2212541240069779456
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4842FZ^先{さき}に言{い}ってくれれば、俺{おれ}のリパーを紹{しょう}介{かい}してやったのに",
-                    "maleVariant": null,
-                    "stringId": 2212541893961773056
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1642FZ^いい奴{やつ}でさ、パーツは全{ぜん}部{ぶ}カブキから仕{し}入{い}れてる。それに無{む}許{きょ}可{か}だから安{やす}いし",
-                    "maleVariant": null,
-                    "stringId": 2212547738573402112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3A42FZ^へえ、今{こん}度{ど}紹{しょう}介{かい}してくれよ。とはいえ、まずはこのクロームと薬{くすり}の様{よう}子{す}を見{み}てからだな",
-                    "maleVariant": null,
-                    "stringId": 2212550015510048768
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E369EZ^俺{おれ}もあのアニマルズのジュースを一{いち}年{ねん}近{ちか}く飲{の}んでたが、何{なん}ともなかったぞ",
+              "maleVariant": "",
+              "stringId": 2179628960880123904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1242FZ^いや、新{あたら}しいアナボリックを試{ため}してるんだ。副{ふく}腎{じん}に、テストステロンも強{きょう}化{か}したしな",
+              "maleVariant": "",
+              "stringId": 2211501978394226688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8842FZ^何{なに}なら今{いま}すぐ手{て}に入{い}れられるが、いるか？",
+              "maleVariant": "",
+              "stringId": 2212538669515075584
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1842FZ^へえ？ 効{こう}果{か}はどうだ？",
+              "maleVariant": "",
+              "stringId": 2212541141537189888
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "942FZ^一{いっ}ヶ{か}月{げつ}でわかる。リパーのとこで、もう片{かた}方{ほう}の副{ふく}腎{じん}もやってもらわないといけない",
+              "maleVariant": "",
+              "stringId": 2212541240069779456
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4842FZ^先{さき}に言{い}ってくれれば、俺{おれ}のリパーを紹{しょう}介{かい}してやったのに",
+              "maleVariant": "",
+              "stringId": 2212541893961773056
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1642FZ^いい奴{やつ}でさ、パーツは全{ぜん}部{ぶ}カブキから仕{し}入{い}れてる。それに無{む}許{きょ}可{か}だから安{やす}いし",
+              "maleVariant": "",
+              "stringId": 2212547738573402112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3A42FZ^へえ、今{こん}度{ど}紹{しょう}介{かい}してくれよ。とはいえ、まずはこのクロームと薬{くすり}の様{よう}子{す}を見{み}てからだな",
+              "maleVariant": "",
+              "stringId": 2212550015510048768
             }
-          }
+          ]
         }
       }
     },

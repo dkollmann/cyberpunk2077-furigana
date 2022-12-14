@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\std_rcr_foodshop_01.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5646BZ^どんな料{りょう}理{り}を出{だ}してるの？",
-                    "maleVariant": "5646BZ^どんな料{りょう}理{り}を出{だ}してるんだ？",
-                    "stringId": 1828462833139363840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5646B010^出{で}前{まえ}はやってる？",
-                    "maleVariant": "5646B010^出{で}前{まえ}はやってるか？",
-                    "stringId": 1828462833139363856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5946B004^腹{はら}ごしらえはできる？",
-                    "maleVariant": "5946B004^腹{はら}ごしらえはできるか？",
-                    "stringId": 1828462833189695492
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5946B00C^当{あ}たり前{まえ}でしょ。ここをどこだと思{おも}ってるの？",
-                    "maleVariant": null,
-                    "stringId": 1828462833189695500
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5B46B004^出{で}前{まえ}はやってる？",
-                    "maleVariant": "5B46B004^出{で}前{まえ}はやってるか？",
-                    "stringId": 1828462833223249924
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5C46BZ^以{い}前{ぜん}はね。だけど先{せん}週{しゅう}、三{さん}人{にん}目{め}の配{はい}達{たつ}員{いん}が撃{う}たれちゃって。最{さい}近{きん}は代{か}わりもなかなか見{み}つからないから…",
-                    "maleVariant": null,
-                    "stringId": 1828462833240027136
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9844DZ^で？ 注{ちゅう}文{もん}は？",
-                    "maleVariant": null,
-                    "stringId": 1975038965568557056
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5646BZ^どんな料{りょう}理{り}を出{だ}してるの？",
+              "maleVariant": "5646BZ^どんな料{りょう}理{り}を出{だ}してるんだ？",
+              "stringId": 1828462833139363840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5646B010^出{で}前{まえ}はやってる？",
+              "maleVariant": "5646B010^出{で}前{まえ}はやってるか？",
+              "stringId": 1828462833139363856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5946B004^腹{はら}ごしらえはできる？",
+              "maleVariant": "5946B004^腹{はら}ごしらえはできるか？",
+              "stringId": 1828462833189695492
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5946B00C^当{あ}たり前{まえ}でしょ。ここをどこだと思{おも}ってるの？",
+              "maleVariant": "",
+              "stringId": 1828462833189695500
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5B46B004^出{で}前{まえ}はやってる？",
+              "maleVariant": "5B46B004^出{で}前{まえ}はやってるか？",
+              "stringId": 1828462833223249924
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5C46BZ^以{い}前{ぜん}はね。だけど先{せん}週{しゅう}、三{さん}人{にん}目{め}の配{はい}達{たつ}員{いん}が撃{う}たれちゃって。最{さい}近{きん}は代{か}わりもなかなか見{み}つからないから…",
+              "maleVariant": "",
+              "stringId": 1828462833240027136
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9844DZ^で？ 注{ちゅう}文{もん}は？",
+              "maleVariant": "",
+              "stringId": 1975038965568557056
             }
-          }
+          ]
         }
       }
     },

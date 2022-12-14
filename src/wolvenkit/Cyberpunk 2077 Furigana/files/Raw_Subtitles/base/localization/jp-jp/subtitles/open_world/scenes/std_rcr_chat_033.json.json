@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_rcr_chat_033.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5F5C5Z^なあ、チューマ。気{き}のせいならいいんだが、このビル沈{しず}んでってないか？ 水{すい}平{へい}器{うつわ}で測{はか}ったら…",
-                    "maleVariant": null,
-                    "stringId": 2167942717724446720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B244DZ^いいから黙{だま}ってろ！ クビになりたいのか？",
-                    "maleVariant": null,
-                    "stringId": 2182349920621875200
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D844DZ^んなことはわかってるんだよ。みんな知{し}ってる、投{とう}資{し}家{か}以{い}外{がい}はな。下手{へた}に噂{うわさ}になってみろ、工{こう}事{じ}は打{う}ち切{き}り、俺{おれ}たちは失{しつ}業{ぎょう}だ",
-                    "maleVariant": null,
-                    "stringId": 2182351918419202048
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B744DZ^お前{まえ}だって路{ろ}頭{とう}に迷{まよ}いたくないだろ？ だったら黙{だま}って仕{し}事{ごと}しろ",
-                    "maleVariant": null,
-                    "stringId": 2182353305139990528
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5F5C5Z^なあ、チューマ。気{き}のせいならいいんだが、このビル沈{しず}んでってないか？ 水{すい}平{へい}器{うつわ}で測{はか}ったら…",
+              "maleVariant": "",
+              "stringId": 2167942717724446720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B244DZ^いいから黙{だま}ってろ！ クビになりたいのか？",
+              "maleVariant": "",
+              "stringId": 2182349920621875200
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D844DZ^んなことはわかってるんだよ。みんな知{し}ってる、投{とう}資{し}家{か}以{い}外{がい}はな。下手{へた}に噂{うわさ}になってみろ、工{こう}事{じ}は打{う}ち切{き}り、俺{おれ}たちは失{しつ}業{ぎょう}だ",
+              "maleVariant": "",
+              "stringId": 2182351918419202048
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B744DZ^お前{まえ}だって路{ろ}頭{とう}に迷{まよ}いたくないだろ？ だったら黙{だま}って仕{し}事{ごと}しろ",
+              "maleVariant": "",
+              "stringId": 2182353305139990528
             }
-          }
+          ]
         }
       }
     },

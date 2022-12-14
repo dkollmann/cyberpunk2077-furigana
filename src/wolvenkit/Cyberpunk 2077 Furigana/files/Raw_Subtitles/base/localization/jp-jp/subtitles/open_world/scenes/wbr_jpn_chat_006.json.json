@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_jpn_chat_006.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A969EZ^お前{まえ}にどれだけ金{きん}をかけたかわかってんのか！ あのリパーだってタダじゃねえんだぞ！",
-                    "maleVariant": null,
-                    "stringId": 1806877200782843904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2069EZ^だ、だってしょうがないじゃん… 殴{なぐ}られたのよ…",
-                    "maleVariant": null,
-                    "stringId": 1806877559261618176
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F469EZ^んなもん言{い}われなくても、見{み}りゃわかる！",
-                    "maleVariant": null,
-                    "stringId": 1806877837696294912
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C669EZ^許{ゆる}してやれよ。彼{かの}女{じょ}が悪{わる}いわけじゃねえ",
-                    "maleVariant": null,
-                    "stringId": 1806878034493038592
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1269EZ^黙{だま}ってろ！ そもそも、こいつを守{まも}るのがてめえの仕{し}事{ごと}だろうが",
-                    "maleVariant": null,
-                    "stringId": 1806879191114309632
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A69EZ^殴{なぐ}ったのはこの子{こ}のインプットだ。プライベートまで干{かん}渉{しょう}してられねえよ",
-                    "maleVariant": null,
-                    "stringId": 1806879410023424000
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C069EZ^いつの間{ま}に男{おとこ}なんか作{つく}ってやがった… 金{きん}も払{はら}わねえ相{あい}手{て}に腰{こし}振{ふ}ってるヒマがあんなら、もっと客{きゃく}をとってきたらどうだ",
-                    "maleVariant": null,
-                    "stringId": 1806879683659816960
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1D69EZ^彼{かれ}に手{て}を出{だ}したら、モックスに言{い}うからね！",
-                    "maleVariant": null,
-                    "stringId": 1806880015932579840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7169EZ^その潰{つぶ}れた顔{かお}でか？ ハッ、せいぜい頑{がん}張{ば}れよ",
-                    "maleVariant": null,
-                    "stringId": 1806880356644282368
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A969EZ^お前{まえ}にどれだけ金{きん}をかけたかわかってんのか！ あのリパーだってタダじゃねえんだぞ！",
+              "maleVariant": "",
+              "stringId": 1806877200782843904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2069EZ^だ、だってしょうがないじゃん… 殴{なぐ}られたのよ…",
+              "maleVariant": "",
+              "stringId": 1806877559261618176
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F469EZ^んなもん言{い}われなくても、見{み}りゃわかる！",
+              "maleVariant": "",
+              "stringId": 1806877837696294912
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C669EZ^許{ゆる}してやれよ。彼{かの}女{じょ}が悪{わる}いわけじゃねえ",
+              "maleVariant": "",
+              "stringId": 1806878034493038592
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1269EZ^黙{だま}ってろ！ そもそも、こいつを守{まも}るのがてめえの仕{し}事{ごと}だろうが",
+              "maleVariant": "",
+              "stringId": 1806879191114309632
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A69EZ^殴{なぐ}ったのはこの子{こ}のインプットだ。プライベートまで干{かん}渉{しょう}してられねえよ",
+              "maleVariant": "",
+              "stringId": 1806879410023424000
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C069EZ^いつの間{ま}に男{おとこ}なんか作{つく}ってやがった… 金{きん}も払{はら}わねえ相{あい}手{て}に腰{こし}振{ふ}ってるヒマがあんなら、もっと客{きゃく}をとってきたらどうだ",
+              "maleVariant": "",
+              "stringId": 1806879683659816960
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1D69EZ^彼{かれ}に手{て}を出{だ}したら、モックスに言{い}うからね！",
+              "maleVariant": "",
+              "stringId": 1806880015932579840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7169EZ^その潰{つぶ}れた顔{かお}でか？ ハッ、せいぜい頑{がん}張{ば}れよ",
+              "maleVariant": "",
+              "stringId": 1806880356644282368
             }
-          }
+          ]
         }
       }
     },

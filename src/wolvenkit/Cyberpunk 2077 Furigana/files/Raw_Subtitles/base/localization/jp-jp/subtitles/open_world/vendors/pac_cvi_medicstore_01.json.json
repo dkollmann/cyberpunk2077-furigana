@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\pac_cvi_medicstore_01.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "50647Z^薬{くすり}を探{さが}してるんだけど",
-                    "maleVariant": "50647Z^薬{くすり}を探{さが}してるんだが",
-                    "stringId": 1885214881622552576
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "50647010^増{ぞう}強{きょう}剤{ざい}を売{う}ってるの？",
-                    "maleVariant": "50647010^増{ぞう}強{きょう}剤{ざい}を売{う}ってるのか？",
-                    "stringId": 1885214881622552592
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "52647004^薬{くすり}を探{さが}してる",
-                    "maleVariant": null,
-                    "stringId": 1885214881656107012
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5264700C^強{きょう}化{か}ソマトトロピンをお勧{すす}めする。その貧{ひん}相{そう}な上{じょう}腕{わん}二{に}頭{とう}筋{すじ}をどうにかしたほうがいい",
-                    "maleVariant": null,
-                    "stringId": 1885214881656107020
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "54647004^増{ぞう}強{きょう}剤{ざい}を売{う}ってるの？",
-                    "maleVariant": "54647004^増{ぞう}強{きょう}剤{ざい}を売{う}ってるのか？",
-                    "stringId": 1885214881689661444
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5464700C^ごく一{いち}部{ぶ}の顧{こ}客{きゃく}にね。内{ない}なる獣{けもの}を解{と}き放{ほうっ}ったような人{にん}たちに… と言{い}えばわかるかな",
-                    "maleVariant": null,
-                    "stringId": 1885214881689661452
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "50647Z^薬{くすり}を探{さが}してるんだけど",
+              "maleVariant": "50647Z^薬{くすり}を探{さが}してるんだが",
+              "stringId": 1885214881622552576
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "50647010^増{ぞう}強{きょう}剤{ざい}を売{う}ってるの？",
+              "maleVariant": "50647010^増{ぞう}強{きょう}剤{ざい}を売{う}ってるのか？",
+              "stringId": 1885214881622552592
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "52647004^薬{くすり}を探{さが}してる",
+              "maleVariant": "",
+              "stringId": 1885214881656107012
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5264700C^強{きょう}化{か}ソマトトロピンをお勧{すす}めする。その貧{ひん}相{そう}な上{じょう}腕{わん}二{に}頭{とう}筋{すじ}をどうにかしたほうがいい",
+              "maleVariant": "",
+              "stringId": 1885214881656107020
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "54647004^増{ぞう}強{きょう}剤{ざい}を売{う}ってるの？",
+              "maleVariant": "54647004^増{ぞう}強{きょう}剤{ざい}を売{う}ってるのか？",
+              "stringId": 1885214881689661444
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5464700C^ごく一{いち}部{ぶ}の顧{こ}客{きゃく}にね。内{ない}なる獣{けもの}を解{と}き放{ほうっ}ったような人{にん}たちに… と言{い}えばわかるかな",
+              "maleVariant": "",
+              "stringId": 1885214881689661452
             }
-          }
+          ]
         }
       }
     },

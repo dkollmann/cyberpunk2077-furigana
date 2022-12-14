@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_dtn_chat_008.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BB3BCZ^もう… やめるって言{い}ってたじゃない！",
-                    "maleVariant": null,
-                    "stringId": 1963581427928514560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E13BCZ^大{だい}丈{じょう}夫{ぶ}だよ… 問{もん}題{だい}ない。オールオッケーさ…",
-                    "maleVariant": null,
-                    "stringId": 1963613232798875648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "963BCZ^ちょっと、大{だい}丈{じょう}夫{ぶ}？",
-                    "maleVariant": null,
-                    "stringId": 1963613605202739200
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B13BCZ^俺{おれ}は、きゅう… きゅうえい… 救{きゅう}急{きゅう}救{きゅう}命{めい}士{さむらい}だぞ… 静{じょう}脈{みゃく}くらい見{み}つけられる…",
-                    "maleVariant": null,
-                    "stringId": 1963613786044350464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9C3BCZ^あなたの部{ぶ}隊{たい}の人{にん}たちを呼{よ}ぶわ。そのままAVで来{き}てくれるはず",
-                    "maleVariant": null,
-                    "stringId": 1963614112109543424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "33BCZ^やめろ！ いくらかかると思{おも}って… 一{いっ}ヶ{か}月{げつ}のしゅうりょう… 給{きゅう}料{りょう}分{わ}かかるんだぞ！ いや、二{に}ヶ{か}月{げつ}… 五{ご}ヶ{か}月{げつ}かも？",
-                    "maleVariant": null,
-                    "stringId": 1963614311406092288
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BB3BCZ^もう… やめるって言{い}ってたじゃない！",
+              "maleVariant": "",
+              "stringId": 1963581427928514560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E13BCZ^大{だい}丈{じょう}夫{ぶ}だよ… 問{もん}題{だい}ない。オールオッケーさ…",
+              "maleVariant": "",
+              "stringId": 1963613232798875648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "963BCZ^ちょっと、大{だい}丈{じょう}夫{ぶ}？",
+              "maleVariant": "",
+              "stringId": 1963613605202739200
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B13BCZ^俺{おれ}は、きゅう… きゅうえい… 救{きゅう}急{きゅう}救{きゅう}命{めい}士{さむらい}だぞ… 静{じょう}脈{みゃく}くらい見{み}つけられる…",
+              "maleVariant": "",
+              "stringId": 1963613786044350464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9C3BCZ^あなたの部{ぶ}隊{たい}の人{にん}たちを呼{よ}ぶわ。そのままAVで来{き}てくれるはず",
+              "maleVariant": "",
+              "stringId": 1963614112109543424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "33BCZ^やめろ！ いくらかかると思{おも}って… 一{いっ}ヶ{か}月{げつ}のしゅうりょう… 給{きゅう}料{りょう}分{わ}かかるんだぞ！ いや、二{に}ヶ{か}月{げつ}… 五{ご}ヶ{か}月{げつ}かも？",
+              "maleVariant": "",
+              "stringId": 1963614311406092288
             }
-          }
+          ]
         }
       }
     },

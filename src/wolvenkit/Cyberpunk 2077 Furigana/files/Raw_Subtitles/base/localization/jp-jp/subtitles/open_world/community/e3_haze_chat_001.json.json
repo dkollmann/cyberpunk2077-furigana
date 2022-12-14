@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\community\\e3_haze_chat_001.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CF28DZ^もうどれが自{じ}分{ぶん}の感{かん}情{じょう}で、どれが他{た}人{にん}のものかわからなくなって… へへっ、そしたら銃{じゅう}声{せい}がたくさん聞{き}こえたんだ",
-                    "maleVariant": null,
-                    "stringId": 1202335763952881664
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1128DZ^メキシコでな… コーポのクズどもにいろんな薬{くすり}をぶち込{こ}まれて… 他{ほか}にもいっぱい俺{おれ}のような兵{へい}士{し}がいて、みーんなリンクされたのさ",
-                    "maleVariant": null,
-                    "stringId": 1202375424788189184
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8628DZ^わかるか？ つまり俺{おれ}は生{い}ける死{し}体{たい}になったのさ！ 死{し}を超{ちょう}越{えつ}した死{し}体{たい}だ！",
-                    "maleVariant": null,
-                    "stringId": 1202384527786823680
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7128DZ^死{し}体{たい}がどこに帰{かえ}りゃいいってんだ… でも俺{おれ}は兵{へい}士{し}だからな！ これは名{めい}誉{よ}除{じょ}隊{たい}ってやつに違{ちが}いねえ！",
-                    "maleVariant": null,
-                    "stringId": 1202387735775072256
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8A28DZ^とにかく、俺{おれ}はもう大{だい}丈{じょう}夫{ぶ}のはずだ… あの訓{くん}練{れん}は… いやいやいやいや、あんなの訓{くん}練{れん}じゃねえ… 訓{くん}練{れん}であってたまるか！",
-                    "maleVariant": null,
-                    "stringId": 1202391425571409920
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7234AZ^他{ほか}の奴{やつ}らの感{かん}情{じょう}、痛{いた}みが俺{おれ}の中{なか}に入{いっ}ってくるんだ… 十{じゅう}回{かい}も、100回{かい}も… とても耐{た}えられなかった",
-                    "maleVariant": null,
-                    "stringId": 1264722296966520832
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EA34AZ^奴{やつ}らは死{し}んだ… そして俺{おれ}も奴{やつ}らと一{いっ}緒{しょ}に死{し}んだんだ… 奴{やつ}らの頭{あたま}の中{なか}にいる俺{おれ}は死{し}んだ",
-                    "maleVariant": null,
-                    "stringId": 1264723518750498816
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3934AZ^もうわけがわからなくなった… そしたら連{れん}中{ちゅう}が急{きゅう}に、もう帰{かえ}ってもいいぞって言{い}うんだよ。「解{かい}散{さん}！」ってな",
-                    "maleVariant": null,
-                    "stringId": 1264723906622955520
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CF28DZ^もうどれが自{じ}分{ぶん}の感{かん}情{じょう}で、どれが他{た}人{にん}のものかわからなくなって… へへっ、そしたら銃{じゅう}声{せい}がたくさん聞{き}こえたんだ",
+              "maleVariant": "",
+              "stringId": 1202335763952881664
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1128DZ^メキシコでな… コーポのクズどもにいろんな薬{くすり}をぶち込{こ}まれて… 他{ほか}にもいっぱい俺{おれ}のような兵{へい}士{し}がいて、みーんなリンクされたのさ",
+              "maleVariant": "",
+              "stringId": 1202375424788189184
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8628DZ^わかるか？ つまり俺{おれ}は生{い}ける死{し}体{たい}になったのさ！ 死{し}を超{ちょう}越{えつ}した死{し}体{たい}だ！",
+              "maleVariant": "",
+              "stringId": 1202384527786823680
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7128DZ^死{し}体{たい}がどこに帰{かえ}りゃいいってんだ… でも俺{おれ}は兵{へい}士{し}だからな！ これは名{めい}誉{よ}除{じょ}隊{たい}ってやつに違{ちが}いねえ！",
+              "maleVariant": "",
+              "stringId": 1202387735775072256
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8A28DZ^とにかく、俺{おれ}はもう大{だい}丈{じょう}夫{ぶ}のはずだ… あの訓{くん}練{れん}は… いやいやいやいや、あんなの訓{くん}練{れん}じゃねえ… 訓{くん}練{れん}であってたまるか！",
+              "maleVariant": "",
+              "stringId": 1202391425571409920
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7234AZ^他{ほか}の奴{やつ}らの感{かん}情{じょう}、痛{いた}みが俺{おれ}の中{なか}に入{いっ}ってくるんだ… 十{じゅう}回{かい}も、100回{かい}も… とても耐{た}えられなかった",
+              "maleVariant": "",
+              "stringId": 1264722296966520832
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EA34AZ^奴{やつ}らは死{し}んだ… そして俺{おれ}も奴{やつ}らと一{いっ}緒{しょ}に死{し}んだんだ… 奴{やつ}らの頭{あたま}の中{なか}にいる俺{おれ}は死{し}んだ",
+              "maleVariant": "",
+              "stringId": 1264723518750498816
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3934AZ^もうわけがわからなくなった… そしたら連{れん}中{ちゅう}が急{きゅう}に、もう帰{かえ}ってもいいぞって言{い}うんだよ。「解{かい}散{さん}！」ってな",
+              "maleVariant": "",
+              "stringId": 1264723906622955520
             }
-          }
+          ]
         }
       }
     },

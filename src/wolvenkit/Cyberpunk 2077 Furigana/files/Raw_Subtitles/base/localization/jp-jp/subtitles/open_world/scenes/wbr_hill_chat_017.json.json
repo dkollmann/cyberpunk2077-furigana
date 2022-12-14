@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_hill_chat_017.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"rus\" o=\"Короче, план такой: заходишь в клуб и толкаешь там обычный порошок.\" t=\"BC6F7Z^よし、いいか――クラブに行{い}って、まずは普{ふ}通{つう}のフロコンを売{う}りつけるんだ\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 2159269659896934400
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"rus\" o=\"Только всем говоришь, что это «чёрный снег» и умножаешь цену на два.\" t=\"BB494Z^ただし、ブラック・スノーだと言{い}って2倍{ばい}の額{ひたい}を要{よう}求{きゅう}しろ\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 2209890900342554624
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FB494Z^そんなの一{いち}度{ど}しか通{つう}用{よう}しないでしょ？ きっとすぐにバレる…",
-                    "maleVariant": null,
-                    "stringId": 2209891412517404672
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"rus\" o=\"Да ни хера. Через два дня зайдёшь и скажешь, что продаёшь «неоновый сфинкс».\" t=\"E4494Z^必{かなら}ずうまくいく。二日{ふつか}経{へ}ったら、今{こん}度{ど}は同{おな}じヤツをネオン・スフィンクスだと言{い}って売{う}れ\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 2209891777203748864
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"rus\" o=\"Ни один корпорат не признается, что о таком не слышал.\" t=\"E5494Z^コーポはどいつも見{み}栄{え}を張{は}って、知{し}ったかぶる\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 2209892193832353792
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"rus\" o=\"Все молча возьмут и заплатят сколько скажешь.\" t=\"87494Z^ティアンチャみたいに口{くち}に流{なが}し込{こ}むはずだ\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 2209892651816796160
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"rus\" o=\"Короче, план такой: заходишь в клуб и толкаешь там обычный порошок.\" t=\"BC6F7Z^よし、いいか――クラブに行{い}って、まずは普{ふ}通{つう}のフロコンを売{う}りつけるんだ\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 2159269659896934400
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"rus\" o=\"Только всем говоришь, что это «чёрный снег» и умножаешь цену на два.\" t=\"BB494Z^ただし、ブラック・スノーだと言{い}って2倍{ばい}の額{ひたい}を要{よう}求{きゅう}しろ\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 2209890900342554624
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FB494Z^そんなの一{いち}度{ど}しか通{つう}用{よう}しないでしょ？ きっとすぐにバレる…",
+              "maleVariant": "",
+              "stringId": 2209891412517404672
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"rus\" o=\"Да ни хера. Через два дня зайдёшь и скажешь, что продаёшь «неоновый сфинкс».\" t=\"E4494Z^必{かなら}ずうまくいく。二日{ふつか}経{へ}ったら、今{こん}度{ど}は同{おな}じヤツをネオン・スフィンクスだと言{い}って売{う}れ\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 2209891777203748864
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"rus\" o=\"Ни один корпорат не признается, что о таком не слышал.\" t=\"E5494Z^コーポはどいつも見{み}栄{え}を張{は}って、知{し}ったかぶる\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 2209892193832353792
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"rus\" o=\"Все молча возьмут и заплатят сколько скажешь.\" t=\"87494Z^ティアンチャみたいに口{くち}に流{なが}し込{こ}むはずだ\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 2209892651816796160
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_hey_spr_01_jose.json"
@@ -11,114 +11,86 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D0559Z^お客{きゃく}さんよ",
-                    "maleVariant": null,
-                    "stringId": 1744458755255668736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BB559Z^何{なん}だてめえは？",
-                    "maleVariant": null,
-                    "stringId": 1744459953199222784
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4C559Z^ふざけるな！ そんな話{はなし}は聞{き}いてないぞ！",
-                    "maleVariant": null,
-                    "stringId": 1756283566806110208
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4E559Z^私{わたし}を失{しつ}望{ぼう}させないで、ホセ",
-                    "maleVariant": null,
-                    "stringId": 1756283734343389184
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この… クソコーポが！",
-                    "maleVariant": null,
-                    "stringId": 1756284239807352832
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AE559Z^吠{ほ}えるならどうぞ？ そうやって騒{さわ}いで、虚{きょ}勢{せい}をはるといいわ…",
-                    "maleVariant": null,
-                    "stringId": 1756284955724713984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4F559Z^そしてネズミのように尻尾{しっぽ}を巻{ま}いて逃{に}げるのがあんたにはお似{に}合{あ}いよ",
-                    "maleVariant": null,
-                    "stringId": 1756287045779951616
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E4559Z^ホセ。勘{かん}違{ちが}いしないことね。あんたは私{わたし}たちの飼{か}い犬{いぬ}だってことを忘{わす}れないで",
-                    "maleVariant": null,
-                    "stringId": 1756357932420009984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "...",
-                    "maleVariant": null,
-                    "stringId": 1756368564343115776
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "72559Z^コンボイを襲{しゅう}えばいいって話{はなし}だったろ。アラサカの施{し}設{せつ}を襲{おそ}うなんて聞{き}いてない",
-                    "maleVariant": null,
-                    "stringId": 1759013298333126656
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CA559Z^話{はなし}ができてよかった",
-                    "maleVariant": null,
-                    "stringId": 1759111061855113216
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なめやがって…",
-                    "maleVariant": null,
-                    "stringId": 1922779937624133632
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D0559Z^お客{きゃく}さんよ",
+              "maleVariant": "",
+              "stringId": 1744458755255668736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BB559Z^何{なん}だてめえは？",
+              "maleVariant": "",
+              "stringId": 1744459953199222784
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4C559Z^ふざけるな！ そんな話{はなし}は聞{き}いてないぞ！",
+              "maleVariant": "",
+              "stringId": 1756283566806110208
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4E559Z^私{わたし}を失{しつ}望{ぼう}させないで、ホセ",
+              "maleVariant": "",
+              "stringId": 1756283734343389184
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この… クソコーポが！",
+              "maleVariant": "",
+              "stringId": 1756284239807352832
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AE559Z^吠{ほ}えるならどうぞ？ そうやって騒{さわ}いで、虚{きょ}勢{せい}をはるといいわ…",
+              "maleVariant": "",
+              "stringId": 1756284955724713984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4F559Z^そしてネズミのように尻尾{しっぽ}を巻{ま}いて逃{に}げるのがあんたにはお似{に}合{あ}いよ",
+              "maleVariant": "",
+              "stringId": 1756287045779951616
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E4559Z^ホセ。勘{かん}違{ちが}いしないことね。あんたは私{わたし}たちの飼{か}い犬{いぬ}だってことを忘{わす}れないで",
+              "maleVariant": "",
+              "stringId": 1756357932420009984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "...",
+              "maleVariant": "",
+              "stringId": 1756368564343115776
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "72559Z^コンボイを襲{しゅう}えばいいって話{はなし}だったろ。アラサカの施{し}設{せつ}を襲{おそ}うなんて聞{き}いてない",
+              "maleVariant": "",
+              "stringId": 1759013298333126656
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CA559Z^話{はなし}ができてよかった",
+              "maleVariant": "",
+              "stringId": 1759111061855113216
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なめやがって…",
+              "maleVariant": "",
+              "stringId": 1922779937624133632
             }
-          }
+          ]
         }
       }
     },

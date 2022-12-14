@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_prst_f_01_enus_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AD70A004^寂{さび}しいの？",
-                    "maleVariant": null,
-                    "stringId": 1955893917273595908
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AE70A004^口{くち}だけってのはどう？",
-                    "maleVariant": null,
-                    "stringId": 1955893917290373124
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちょっと！",
-                    "maleVariant": null,
-                    "stringId": 1955893917340704772
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まったくもう…",
-                    "maleVariant": null,
-                    "stringId": 1955893917357481988
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B470A004^コール待{ま}ってたわよ",
-                    "maleVariant": null,
-                    "stringId": 1955893917391036420
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B770A004^あなたのお望{のぞ}みどおりに… 何{なん}でも言{い}って… あら、いいわね",
-                    "maleVariant": null,
-                    "stringId": 1955893917441368068
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B870A004^追{つい}加{か}料{りょう}金{きん}はいるけど… え？ 大{だい}丈{じょう}夫{ぶ}… 冗{じょう}談{だん}なんかじゃないわ。もっと変{へん}なリクエストをされたことある",
-                    "maleVariant": null,
-                    "stringId": 1955893917458145284
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BA70A004^待{ま}ってるわ",
-                    "maleVariant": null,
-                    "stringId": 1955893917491699716
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うそでしょ！",
-                    "maleVariant": null,
-                    "stringId": 1955893917642694660
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C470A004^殺{ころ}される！",
-                    "maleVariant": null,
-                    "stringId": 1955893917659471876
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なにすんのよ！",
-                    "maleVariant": null,
-                    "stringId": 1955893917726580740
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CA70AZ^人{ひと}殺{ごろ}し！",
-                    "maleVariant": null,
-                    "stringId": 1955893917760135168
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CE70A004^お金{きん}が先{さき}よ",
-                    "maleVariant": null,
-                    "stringId": 1955893917827244036
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CF70A004^私{わたし}に払{はら}うだけのお金{きん}、ほんとにある？",
-                    "maleVariant": null,
-                    "stringId": 1955893917844021252
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AD70A004^寂{さび}しいの？",
+              "maleVariant": "",
+              "stringId": 1955893917273595908
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AE70A004^口{くち}だけってのはどう？",
+              "maleVariant": "",
+              "stringId": 1955893917290373124
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちょっと！",
+              "maleVariant": "",
+              "stringId": 1955893917340704772
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まったくもう…",
+              "maleVariant": "",
+              "stringId": 1955893917357481988
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B470A004^コール待{ま}ってたわよ",
+              "maleVariant": "",
+              "stringId": 1955893917391036420
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B770A004^あなたのお望{のぞ}みどおりに… 何{なん}でも言{い}って… あら、いいわね",
+              "maleVariant": "",
+              "stringId": 1955893917441368068
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B870A004^追{つい}加{か}料{りょう}金{きん}はいるけど… え？ 大{だい}丈{じょう}夫{ぶ}… 冗{じょう}談{だん}なんかじゃないわ。もっと変{へん}なリクエストをされたことある",
+              "maleVariant": "",
+              "stringId": 1955893917458145284
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BA70A004^待{ま}ってるわ",
+              "maleVariant": "",
+              "stringId": 1955893917491699716
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うそでしょ！",
+              "maleVariant": "",
+              "stringId": 1955893917642694660
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C470A004^殺{ころ}される！",
+              "maleVariant": "",
+              "stringId": 1955893917659471876
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なにすんのよ！",
+              "maleVariant": "",
+              "stringId": 1955893917726580740
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CA70AZ^人{ひと}殺{ごろ}し！",
+              "maleVariant": "",
+              "stringId": 1955893917760135168
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CE70A004^お金{きん}が先{さき}よ",
+              "maleVariant": "",
+              "stringId": 1955893917827244036
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CF70A004^私{わたし}に払{はら}うだけのお金{きん}、ほんとにある？",
+              "maleVariant": "",
+              "stringId": 1955893917844021252
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\std_arr_melee_01.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6B5C5Z^どんな武{ぶ}器{き}を売{う}ってるの？",
-                    "maleVariant": "6B5C5Z^どんな武{ぶ}器{き}を売{う}ってるんだ？",
-                    "stringId": 1783753881799118848
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6B5C5010^いい設{せつ}備{び}ね",
-                    "maleVariant": "6B5C5010^いい設{せつ}備{び}だな",
-                    "stringId": 1783753881799118864
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6D5C5004^何{なに}を売{う}ってるの？",
-                    "maleVariant": "6D5C5004^何{なに}を売{う}ってるんだ？",
-                    "stringId": 1783753881832673284
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6F5C5004^かなり設{せつ}備{び}が整{ととの}ってるね",
-                    "maleVariant": "6F5C5004^ずいぶんと設{せつ}備{び}が整{ととの}ってるな",
-                    "stringId": 1783753881866227716
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6F5C500C^気{き}に入{い}ったか",
-                    "maleVariant": null,
-                    "stringId": 1783753881866227724
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AC44DZ^で、用{よう}があるなら言{い}ってくれ。でなきゃ今{いま}すぐ消{き}えるんだな",
-                    "maleVariant": null,
-                    "stringId": 1974782685205549056
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6B5C5Z^どんな武{ぶ}器{き}を売{う}ってるの？",
+              "maleVariant": "6B5C5Z^どんな武{ぶ}器{き}を売{う}ってるんだ？",
+              "stringId": 1783753881799118848
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6B5C5010^いい設{せつ}備{び}ね",
+              "maleVariant": "6B5C5010^いい設{せつ}備{び}だな",
+              "stringId": 1783753881799118864
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6D5C5004^何{なに}を売{う}ってるの？",
+              "maleVariant": "6D5C5004^何{なに}を売{う}ってるんだ？",
+              "stringId": 1783753881832673284
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6F5C5004^かなり設{せつ}備{び}が整{ととの}ってるね",
+              "maleVariant": "6F5C5004^ずいぶんと設{せつ}備{び}が整{ととの}ってるな",
+              "stringId": 1783753881866227716
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6F5C500C^気{き}に入{い}ったか",
+              "maleVariant": "",
+              "stringId": 1783753881866227724
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AC44DZ^で、用{よう}があるなら言{い}ってくれ。でなきゃ今{いま}すぐ消{き}えるんだな",
+              "maleVariant": "",
+              "stringId": 1974782685205549056
             }
-          }
+          ]
         }
       }
     },

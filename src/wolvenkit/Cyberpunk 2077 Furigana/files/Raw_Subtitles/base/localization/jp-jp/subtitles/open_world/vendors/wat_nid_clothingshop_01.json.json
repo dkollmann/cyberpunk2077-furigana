@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\wat_nid_clothingshop_01.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1247A004^新{あたら}しい服{ふく}を探{さが}してる",
-                    "maleVariant": null,
-                    "stringId": 1979313499457167364
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8747AZ^ワトソンの人{にん}間{げん}には見{み}えない",
-                    "maleVariant": null,
-                    "stringId": 1979314081240686592
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2247AZ^ジャケットを新{しん}調{ちょう}しようかと思{おも}って。おすすめは？",
-                    "maleVariant": null,
-                    "stringId": 1979316089590882304
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6747AZ^どうでもいいわ。好{す}きに選{えら}んで",
-                    "maleVariant": null,
-                    "stringId": 1979317868864970752
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3C47AZ^ふむ… その格好{かっこう}、ワトソンに住{す}んでるようには見{み}えない",
-                    "maleVariant": null,
-                    "stringId": 1979330263419166720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7147AZ^今{いま}はそうなの",
-                    "maleVariant": null,
-                    "stringId": 1979330947208159232
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1247A004^新{あたら}しい服{ふく}を探{さが}してる",
+              "maleVariant": "",
+              "stringId": 1979313499457167364
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8747AZ^ワトソンの人{にん}間{げん}には見{み}えない",
+              "maleVariant": "",
+              "stringId": 1979314081240686592
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2247AZ^ジャケットを新{しん}調{ちょう}しようかと思{おも}って。おすすめは？",
+              "maleVariant": "",
+              "stringId": 1979316089590882304
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6747AZ^どうでもいいわ。好{す}きに選{えら}んで",
+              "maleVariant": "",
+              "stringId": 1979317868864970752
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3C47AZ^ふむ… その格好{かっこう}、ワトソンに住{す}んでるようには見{み}えない",
+              "maleVariant": "",
+              "stringId": 1979330263419166720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7147AZ^今{いま}はそうなの",
+              "maleVariant": "",
+              "stringId": 1979330947208159232
             }
-          }
+          ]
         }
       }
     },

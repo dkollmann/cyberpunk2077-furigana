@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\wat_kab_gunsmith_02.json"
@@ -11,114 +11,86 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "25C5Z^売{う}り物{もの}を見{み}せて",
-                    "maleVariant": "25C5Z^売{う}り物{もの}を見{み}せてくれ",
-                    "stringId": 1812703321117184000
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "メイルストロームのサイバーウェアって…",
-                    "maleVariant": null,
-                    "stringId": 1812703321117184016
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "45C5004^何{なに}を売{う}ってるか見{み}せてくれる？",
-                    "maleVariant": "45C5004^何{なに}を売{う}ってるか見{み}せてくれるか？",
-                    "stringId": 1812703321150738436
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "65C5004^あんたたちって、どうしてみんな顔{かお}を改{かい}造{ぞう}しちゃうわけ？",
-                    "maleVariant": "65C5004^あんたらは、どうしてみんな顔{かお}を改{かい}造{ぞう}しちまうんだ？",
-                    "stringId": 1812703321184292868
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "65C500C^俺{おれ}たちのナリに文{もん}句{く}でもあるのか？",
-                    "maleVariant": null,
-                    "stringId": 1812703321184292876
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3944DZ^値{ね}切{ぎ}りには応{おう}じない。全{ぜん}額{がく}現金払{げんきんばらい}い。わかったか？",
-                    "maleVariant": null,
-                    "stringId": 1975085306671845376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わかった",
-                    "maleVariant": null,
-                    "stringId": 1975087958361165824
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7C44DZ^ならいい。面倒{めんどう}をかけんじゃねえぞ",
-                    "maleVariant": null,
-                    "stringId": 1975088108114595840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C244DZ^いいえ。ただの好{こう}奇{き}心{しん}",
-                    "maleVariant": "C244DZ^いや。ただの好{こう}奇{き}心{しん}だ",
-                    "stringId": 1975090325492125696
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9344DZ^こんな面{めん}して、よそで仕{し}事{ごと}に就{つ}けると思{おも}うか？",
-                    "maleVariant": null,
-                    "stringId": 1975090754200326144
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8B44DZ^無{む}理{り}でしょうね",
-                    "maleVariant": "8B44DZ^無{む}理{り}だろうな",
-                    "stringId": 1975091106253426688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7B44DZ^そういうことだ。それまでの顔{かお}や人{じん}生{せい}とは別{わか}れを告{つ}げるためってことさ",
-                    "maleVariant": null,
-                    "stringId": 1975091273488715776
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "25C5Z^売{う}り物{もの}を見{み}せて",
+              "maleVariant": "25C5Z^売{う}り物{もの}を見{み}せてくれ",
+              "stringId": 1812703321117184000
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "メイルストロームのサイバーウェアって…",
+              "maleVariant": "",
+              "stringId": 1812703321117184016
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "45C5004^何{なに}を売{う}ってるか見{み}せてくれる？",
+              "maleVariant": "45C5004^何{なに}を売{う}ってるか見{み}せてくれるか？",
+              "stringId": 1812703321150738436
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "65C5004^あんたたちって、どうしてみんな顔{かお}を改{かい}造{ぞう}しちゃうわけ？",
+              "maleVariant": "65C5004^あんたらは、どうしてみんな顔{かお}を改{かい}造{ぞう}しちまうんだ？",
+              "stringId": 1812703321184292868
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "65C500C^俺{おれ}たちのナリに文{もん}句{く}でもあるのか？",
+              "maleVariant": "",
+              "stringId": 1812703321184292876
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3944DZ^値{ね}切{ぎ}りには応{おう}じない。全{ぜん}額{がく}現金払{げんきんばらい}い。わかったか？",
+              "maleVariant": "",
+              "stringId": 1975085306671845376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わかった",
+              "maleVariant": "",
+              "stringId": 1975087958361165824
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7C44DZ^ならいい。面倒{めんどう}をかけんじゃねえぞ",
+              "maleVariant": "",
+              "stringId": 1975088108114595840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C244DZ^いいえ。ただの好{こう}奇{き}心{しん}",
+              "maleVariant": "C244DZ^いや。ただの好{こう}奇{き}心{しん}だ",
+              "stringId": 1975090325492125696
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9344DZ^こんな面{めん}して、よそで仕{し}事{ごと}に就{つ}けると思{おも}うか？",
+              "maleVariant": "",
+              "stringId": 1975090754200326144
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8B44DZ^無{む}理{り}でしょうね",
+              "maleVariant": "8B44DZ^無{む}理{り}だろうな",
+              "stringId": 1975091106253426688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7B44DZ^そういうことだ。それまでの顔{かお}や人{じん}生{せい}とは別{わか}れを告{つ}げるためってことさ",
+              "maleVariant": "",
+              "stringId": 1975091273488715776
             }
-          }
+          ]
         }
       }
     },

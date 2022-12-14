@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_dtn_chat_031.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E43BBZ^ああ… 近{ちか}頃{ごろ}の奴{やつ}らはみんな企{き}業{ぎょう}の犬{いぬ}だ。才{さい}能{のう}あるアーティストですら",
-                    "maleVariant": null,
-                    "stringId": 2172275087824891904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8E3BCZ^あのユーロダインもな… 50年{ねん}前{まえ}にうちの母{かあ}さんが聞{き}いたら絶{ぜっ}対{たい}に信{しん}じねえだろうさ…",
-                    "maleVariant": null,
-                    "stringId": 2180792491861327872
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5F3BCZ^ホンモノの反{はん}逆{ぎゃく}者{しゃ}なら、自{みずか}らの信{しん}念{ねん}のために死{し}ぬ…",
-                    "maleVariant": null,
-                    "stringId": 2180792735885934592
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3E3BCZ^そして長{なが}生{い}きする奴{やつ}らは体{たい}制{せい}の側{がわ}につき、消{き}えていくんだ。それしかない",
-                    "maleVariant": null,
-                    "stringId": 2180792877066207232
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AF3BCZ^まったくだ。これから十{じゅう}年{ねん}、20年{ねん}もたてば、あいつなんか皆{みな}に忘{わす}れられてる",
-                    "maleVariant": null,
-                    "stringId": 2180793042170789888
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2E3BCZ^次{つぎ}に大{おお}きな夢{ゆめ}を持{も}ったガキが出{で}てきても、大{たい}金{きん}を約{やく}束{そく}して… 企{き}業{ぎょう}が作{つく}った契{けい}約{やく}書{しょ}で丸{まる}め込{こ}むんだ",
-                    "maleVariant": null,
-                    "stringId": 2180793194625351680
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5E3BCZ^クソ… 信{しん}じてたのによ、ケリー",
-                    "maleVariant": null,
-                    "stringId": 2180793324279676928
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E43BBZ^ああ… 近{ちか}頃{ごろ}の奴{やつ}らはみんな企{き}業{ぎょう}の犬{いぬ}だ。才{さい}能{のう}あるアーティストですら",
+              "maleVariant": "",
+              "stringId": 2172275087824891904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8E3BCZ^あのユーロダインもな… 50年{ねん}前{まえ}にうちの母{かあ}さんが聞{き}いたら絶{ぜっ}対{たい}に信{しん}じねえだろうさ…",
+              "maleVariant": "",
+              "stringId": 2180792491861327872
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5F3BCZ^ホンモノの反{はん}逆{ぎゃく}者{しゃ}なら、自{みずか}らの信{しん}念{ねん}のために死{し}ぬ…",
+              "maleVariant": "",
+              "stringId": 2180792735885934592
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3E3BCZ^そして長{なが}生{い}きする奴{やつ}らは体{たい}制{せい}の側{がわ}につき、消{き}えていくんだ。それしかない",
+              "maleVariant": "",
+              "stringId": 2180792877066207232
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AF3BCZ^まったくだ。これから十{じゅう}年{ねん}、20年{ねん}もたてば、あいつなんか皆{みな}に忘{わす}れられてる",
+              "maleVariant": "",
+              "stringId": 2180793042170789888
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2E3BCZ^次{つぎ}に大{おお}きな夢{ゆめ}を持{も}ったガキが出{で}てきても、大{たい}金{きん}を約{やく}束{そく}して… 企{き}業{ぎょう}が作{つく}った契{けい}約{やく}書{しょ}で丸{まる}め込{こ}むんだ",
+              "maleVariant": "",
+              "stringId": 2180793194625351680
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5E3BCZ^クソ… 信{しん}じてたのによ、ケリー",
+              "maleVariant": "",
+              "stringId": 2180793324279676928
             }
-          }
+          ]
         }
       }
     },

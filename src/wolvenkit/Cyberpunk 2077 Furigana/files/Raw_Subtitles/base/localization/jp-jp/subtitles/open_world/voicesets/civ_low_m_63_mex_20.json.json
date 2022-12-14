@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_m_63_mex_20.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DF582004^ディスクルパ。話{はなし}をする気{き}分{ぶん}じゃない",
-                    "maleVariant": null,
-                    "stringId": 1922903187683549188
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E0582004^後{のち}にしてくれ",
-                    "maleVariant": null,
-                    "stringId": 1922903187700326404
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E4582004^気{き}をつけろよな",
-                    "maleVariant": null,
-                    "stringId": 1922903187767435268
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうかしてるぞ？",
-                    "maleVariant": null,
-                    "stringId": 1922903187784212484
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E9582004^オラ。俺{おれ}だ",
-                    "maleVariant": null,
-                    "stringId": 1922903187851321348
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EC582004^あのな… いや… 今{こん}日{にち}は無{む}理{り}なんだ… 葬{そう}式{しき}が… え？ ああ、そうしたいけど… 家{か}族{ぞく}のだ",
-                    "maleVariant": null,
-                    "stringId": 1922903187901652996
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EE582004^クソ… とにかく無{む}理{り}だよ… グラシアス… いや… その必{ひつ}要{よう}はない",
-                    "maleVariant": null,
-                    "stringId": 1922903187935207428
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "またな",
-                    "maleVariant": null,
-                    "stringId": 1922903187968761860
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "またかよ！",
-                    "maleVariant": null,
-                    "stringId": 1922903188153311236
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソ",
-                    "maleVariant": null,
-                    "stringId": 1922903188170088452
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3582004^まだ死{し}ねない！",
-                    "maleVariant": null,
-                    "stringId": 1922903188287528964
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4582004^妹{いもうと}には… 俺{おれ}しかいないんだ！",
-                    "maleVariant": null,
-                    "stringId": 1922903188304306180
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C582004^一{ひと}人{り}にしてくれよ",
-                    "maleVariant": null,
-                    "stringId": 1922903188438523908
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D582004^放{ほうっ}っておいてくれ",
-                    "maleVariant": null,
-                    "stringId": 1922903188455301124
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DF582004^ディスクルパ。話{はなし}をする気{き}分{ぶん}じゃない",
+              "maleVariant": "",
+              "stringId": 1922903187683549188
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E0582004^後{のち}にしてくれ",
+              "maleVariant": "",
+              "stringId": 1922903187700326404
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E4582004^気{き}をつけろよな",
+              "maleVariant": "",
+              "stringId": 1922903187767435268
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうかしてるぞ？",
+              "maleVariant": "",
+              "stringId": 1922903187784212484
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E9582004^オラ。俺{おれ}だ",
+              "maleVariant": "",
+              "stringId": 1922903187851321348
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EC582004^あのな… いや… 今{こん}日{にち}は無{む}理{り}なんだ… 葬{そう}式{しき}が… え？ ああ、そうしたいけど… 家{か}族{ぞく}のだ",
+              "maleVariant": "",
+              "stringId": 1922903187901652996
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EE582004^クソ… とにかく無{む}理{り}だよ… グラシアス… いや… その必{ひつ}要{よう}はない",
+              "maleVariant": "",
+              "stringId": 1922903187935207428
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "またな",
+              "maleVariant": "",
+              "stringId": 1922903187968761860
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "またかよ！",
+              "maleVariant": "",
+              "stringId": 1922903188153311236
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソ",
+              "maleVariant": "",
+              "stringId": 1922903188170088452
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3582004^まだ死{し}ねない！",
+              "maleVariant": "",
+              "stringId": 1922903188287528964
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4582004^妹{いもうと}には… 俺{おれ}しかいないんだ！",
+              "maleVariant": "",
+              "stringId": 1922903188304306180
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C582004^一{ひと}人{り}にしてくれよ",
+              "maleVariant": "",
+              "stringId": 1922903188438523908
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D582004^放{ほうっ}っておいてくれ",
+              "maleVariant": "",
+              "stringId": 1922903188455301124
             }
-          }
+          ]
         }
       }
     },

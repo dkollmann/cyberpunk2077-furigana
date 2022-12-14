@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\std_arr_clothingshop_01.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4E5C5Z^何{なに}を売{う}ってるの？",
-                    "maleVariant": "4E5C5Z^何{なに}を売{う}ってるんだ？",
-                    "stringId": 1783754628636889088
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4F5C5004^物{もの}売{うり}り？ それとも物乞{ものごい}い？",
-                    "maleVariant": null,
-                    "stringId": 1783754628653666308
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "505C5004^何{なに}を売{う}ってるの？",
-                    "maleVariant": "505C5004^何{なに}を売{う}ってるんだ？",
-                    "stringId": 1783754628670443524
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "505C500C^あるもの全{ぜん}部{ぶ}よ",
-                    "maleVariant": null,
-                    "stringId": 1783754628670443532
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "525C5004^服{ふく}を売{う}ってるのか集{あつ}めてるのか… 判{はん}別{べつ}つかないね",
-                    "maleVariant": "525C5004^服{ふく}を売{う}ってるのか集{あつ}めてるのか… 判{はん}別{べつ}つかないな",
-                    "stringId": 1783754628703997956
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "525C500C^物乞{ものごい}いしてると「仕{し}事{ごと}を探{さが}せ」と言{い}われる。仕{し}事{ごと}を見{み}つけたら、からかわれる。いったい何{なに}なの！",
-                    "maleVariant": null,
-                    "stringId": 1783754628703997964
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4E5C5Z^何{なに}を売{う}ってるの？",
+              "maleVariant": "4E5C5Z^何{なに}を売{う}ってるんだ？",
+              "stringId": 1783754628636889088
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4F5C5004^物{もの}売{うり}り？ それとも物乞{ものごい}い？",
+              "maleVariant": "",
+              "stringId": 1783754628653666308
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "505C5004^何{なに}を売{う}ってるの？",
+              "maleVariant": "505C5004^何{なに}を売{う}ってるんだ？",
+              "stringId": 1783754628670443524
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "505C500C^あるもの全{ぜん}部{ぶ}よ",
+              "maleVariant": "",
+              "stringId": 1783754628670443532
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "525C5004^服{ふく}を売{う}ってるのか集{あつ}めてるのか… 判{はん}別{べつ}つかないね",
+              "maleVariant": "525C5004^服{ふく}を売{う}ってるのか集{あつ}めてるのか… 判{はん}別{べつ}つかないな",
+              "stringId": 1783754628703997956
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "525C500C^物乞{ものごい}いしてると「仕{し}事{ごと}を探{さが}せ」と言{い}われる。仕{し}事{ごと}を見{み}つけたら、からかわれる。いったい何{なに}なの！",
+              "maleVariant": "",
+              "stringId": 1783754628703997964
             }
-          }
+          ]
         }
       }
     },

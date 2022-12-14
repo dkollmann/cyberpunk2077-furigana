@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\bls_ina_se1_gunsmith_01.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3B46BZ^売{う}り物{もの}を見{み}たい",
-                    "maleVariant": null,
-                    "stringId": 1922543696168267776
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3C46B00C^今{こん}日{にち}は閑古鳥{かんこどり}？",
-                    "maleVariant": "3C46B00C^今{こん}日{にち}は閑古鳥{かんこどり}か？",
-                    "stringId": 1922543696185045004
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3E46B004^売{う}ってるものを見{み}せてよ",
-                    "maleVariant": "3E46B004^売{う}ってるものを見{み}せてくれ",
-                    "stringId": 1922543696218599428
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうぞごゆっくり",
-                    "maleVariant": null,
-                    "stringId": 1922543696218599436
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3F46B004^見{み}たところ、客{きゃく}の入{い}りはぼちぼちって感{かん}じ？",
-                    "maleVariant": "3F46B004^見{み}たところ、客{きゃく}の入{い}りはぼちぼちって感{かん}じか？",
-                    "stringId": 1922543696235376644
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4046B004^だな。まあ常{じょう}連{れん}のおかげでやってけてる",
-                    "maleVariant": null,
-                    "stringId": 1922543696252153860
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9144DZ^常{じょう}連{れん}って、毎{まい}週{しゅう}新{あたら}しい銃{じゅう}を買{か}ってくの？",
-                    "maleVariant": "9144DZ^常{じょう}連{れん}って、毎{まい}週{しゅう}新{あたら}しい銃{じゅう}を買{か}ってくのか？",
-                    "stringId": 1976448844300603392
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B244DZ^修{しゅう}理{り}に持{も}ってくるのさ。パーツの隙{すき}間{ま}やヒビに砂{すな}が入{い}り込{こ}んじまうからな",
-                    "maleVariant": null,
-                    "stringId": 1976449377430196224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6F44DZ^あんたもちょくちょく分{ぶん}解{かい}して、エアブラシをかけた方{ほう}がいい。それを怠{おこた}ると、絶{ぜっ}対{たい}に後{こう}悔{かい}することになるぜ",
-                    "maleVariant": null,
-                    "stringId": 1976453336265969664
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "44DZ^バッドランズいちの銃{じゅう}がそろってるぞ。それが目{め}当{あ}てで戻{もど}ってきたんだろ？",
-                    "maleVariant": null,
-                    "stringId": 1976461842733912064
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3B46BZ^売{う}り物{もの}を見{み}たい",
+              "maleVariant": "",
+              "stringId": 1922543696168267776
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3C46B00C^今{こん}日{にち}は閑古鳥{かんこどり}？",
+              "maleVariant": "3C46B00C^今{こん}日{にち}は閑古鳥{かんこどり}か？",
+              "stringId": 1922543696185045004
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3E46B004^売{う}ってるものを見{み}せてよ",
+              "maleVariant": "3E46B004^売{う}ってるものを見{み}せてくれ",
+              "stringId": 1922543696218599428
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうぞごゆっくり",
+              "maleVariant": "",
+              "stringId": 1922543696218599436
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3F46B004^見{み}たところ、客{きゃく}の入{い}りはぼちぼちって感{かん}じ？",
+              "maleVariant": "3F46B004^見{み}たところ、客{きゃく}の入{い}りはぼちぼちって感{かん}じか？",
+              "stringId": 1922543696235376644
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4046B004^だな。まあ常{じょう}連{れん}のおかげでやってけてる",
+              "maleVariant": "",
+              "stringId": 1922543696252153860
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9144DZ^常{じょう}連{れん}って、毎{まい}週{しゅう}新{あたら}しい銃{じゅう}を買{か}ってくの？",
+              "maleVariant": "9144DZ^常{じょう}連{れん}って、毎{まい}週{しゅう}新{あたら}しい銃{じゅう}を買{か}ってくのか？",
+              "stringId": 1976448844300603392
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B244DZ^修{しゅう}理{り}に持{も}ってくるのさ。パーツの隙{すき}間{ま}やヒビに砂{すな}が入{い}り込{こ}んじまうからな",
+              "maleVariant": "",
+              "stringId": 1976449377430196224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6F44DZ^あんたもちょくちょく分{ぶん}解{かい}して、エアブラシをかけた方{ほう}がいい。それを怠{おこた}ると、絶{ぜっ}対{たい}に後{こう}悔{かい}することになるぜ",
+              "maleVariant": "",
+              "stringId": 1976453336265969664
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "44DZ^バッドランズいちの銃{じゅう}がそろってるぞ。それが目{め}当{あ}てで戻{もど}ってきたんだろ？",
+              "maleVariant": "",
+              "stringId": 1976461842733912064
             }
-          }
+          ]
         }
       }
     },

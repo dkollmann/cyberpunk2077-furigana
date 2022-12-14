@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\fluff\\chip_in_2.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "104EAZ^ハーイ、みんな元{げん}気{き}？ 今{こん}日{にち}はカメラ好{す}きのメディアのためのスペシャル企{き}画{かく}！ 覗{のぞ}き魔{ま}も注{ちゅう}目{もく}の、ダイナラーTX-43オプティズームだよ！",
-                    "maleVariant": null,
-                    "stringId": 1772005254931324928
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5244DZ^ダイナラーは前{まえ}のモデルが期{き}待{たい}を上回{うわまわ}る出{で}来{き}だったから、私{わたし}はずいぶん前{ぜん}からこの最{さい}新{しん}オプティクスに目{め}を付{つ}けてたの。今{こん}回{かい}も、期{き}待{たい}を超{こ}えてくれるのかしら？",
-                    "maleVariant": null,
-                    "stringId": 1790993169014640640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C244DZ^ポイントは、たとえ15倍{ばい}の拡{かく}大{だい}率{りつ}でもTX-43は解{かい}像{ぞう}度{ど}の劣化{れっか}なく映{えい}像{ぞう}を出{しゅつ}力{りょく}してくれること",
-                    "maleVariant": null,
-                    "stringId": 1790993673404862464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2244DZ^でもこのTX-43の一{いち}番{ばん}大{だい}事{じ}なところは、神{しん}経{けい}系{けい}の副{ふく}作{さ}用{よう}が一{いっ}切{さい}ないことね。めまいや片{へん}頭{ず}痛{つう}の危{き}険{けん}があるのは、ユーザー自{じ}身{しん}が動{うご}いている時{とき}だけ",
-                    "maleVariant": null,
-                    "stringId": 1790993894058807296
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3144DZ^それから、TX-43には虹{こう}彩{さい}パターンが20種{しゅ}類{るい}実装{じっそう}されてることもポイントね。たとえばゾンビにジャガー、カメレオン、あとこれが一{いち}番{ばん}好{す}きなんだけどスノードーム",
-                    "maleVariant": null,
-                    "stringId": 1790994216433012736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "844DZ^欠点{けってん}？ オプティズームで撮{と}った全{すべ}ての写{しゃ}真{しん}は、ダイナラーによるマーケティングや調{ちょう}査{さ}目{もく}的{てき}のアクセスを許{きょ}可{か}しなきゃならないこと。ま、よくある話{はなし}よね",
-                    "maleVariant": null,
-                    "stringId": 1790994516392857600
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "944DZ^さて、判{はん}定{てい}は―― TX-43は低{てい}価{か}格{かく}かつ高{こう}性{せい}能{のう}の逸品{いっぴん}。もちろん文{もん}句{く}なしの五{ご}点{てん}満{まん}点{てん}よ！ それではまた。明日{あした}も楽{たの}しい改{かい}造{ぞう}を！",
-                    "maleVariant": null,
-                    "stringId": 1790994718273097728
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1344DZ^ブレインダンスインプラントを内{ない}蔵{ぞう}するプレミアム版{はん}を買{か}おうとしてる人{にん}には、特{とく}にありがたい性{せい}能{のう}ね",
-                    "maleVariant": null,
-                    "stringId": 1793520567232811008
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "104EAZ^ハーイ、みんな元{げん}気{き}？ 今{こん}日{にち}はカメラ好{す}きのメディアのためのスペシャル企{き}画{かく}！ 覗{のぞ}き魔{ま}も注{ちゅう}目{もく}の、ダイナラーTX-43オプティズームだよ！",
+              "maleVariant": "",
+              "stringId": 1772005254931324928
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5244DZ^ダイナラーは前{まえ}のモデルが期{き}待{たい}を上回{うわまわ}る出{で}来{き}だったから、私{わたし}はずいぶん前{ぜん}からこの最{さい}新{しん}オプティクスに目{め}を付{つ}けてたの。今{こん}回{かい}も、期{き}待{たい}を超{こ}えてくれるのかしら？",
+              "maleVariant": "",
+              "stringId": 1790993169014640640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C244DZ^ポイントは、たとえ15倍{ばい}の拡{かく}大{だい}率{りつ}でもTX-43は解{かい}像{ぞう}度{ど}の劣化{れっか}なく映{えい}像{ぞう}を出{しゅつ}力{りょく}してくれること",
+              "maleVariant": "",
+              "stringId": 1790993673404862464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2244DZ^でもこのTX-43の一{いち}番{ばん}大{だい}事{じ}なところは、神{しん}経{けい}系{けい}の副{ふく}作{さ}用{よう}が一{いっ}切{さい}ないことね。めまいや片{へん}頭{ず}痛{つう}の危{き}険{けん}があるのは、ユーザー自{じ}身{しん}が動{うご}いている時{とき}だけ",
+              "maleVariant": "",
+              "stringId": 1790993894058807296
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3144DZ^それから、TX-43には虹{こう}彩{さい}パターンが20種{しゅ}類{るい}実装{じっそう}されてることもポイントね。たとえばゾンビにジャガー、カメレオン、あとこれが一{いち}番{ばん}好{す}きなんだけどスノードーム",
+              "maleVariant": "",
+              "stringId": 1790994216433012736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "844DZ^欠点{けってん}？ オプティズームで撮{と}った全{すべ}ての写{しゃ}真{しん}は、ダイナラーによるマーケティングや調{ちょう}査{さ}目{もく}的{てき}のアクセスを許{きょ}可{か}しなきゃならないこと。ま、よくある話{はなし}よね",
+              "maleVariant": "",
+              "stringId": 1790994516392857600
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "944DZ^さて、判{はん}定{てい}は―― TX-43は低{てい}価{か}格{かく}かつ高{こう}性{せい}能{のう}の逸品{いっぴん}。もちろん文{もん}句{く}なしの五{ご}点{てん}満{まん}点{てん}よ！ それではまた。明日{あした}も楽{たの}しい改{かい}造{ぞう}を！",
+              "maleVariant": "",
+              "stringId": 1790994718273097728
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1344DZ^ブレインダンスインプラントを内{ない}蔵{ぞう}するプレミアム版{はん}を買{か}おうとしてる人{にん}には、特{とく}にありがたい性{せい}能{のう}ね",
+              "maleVariant": "",
+              "stringId": 1793520567232811008
             }
-          }
+          ]
         }
       }
     },

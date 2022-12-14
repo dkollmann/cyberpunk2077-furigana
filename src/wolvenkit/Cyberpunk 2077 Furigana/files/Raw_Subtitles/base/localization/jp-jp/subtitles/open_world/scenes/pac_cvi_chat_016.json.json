@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_cvi_chat_016.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5F647Z^独{どく}特{とく}な匂{にお}いよね。濡{ぬ}れた金{きん}属{ぞく}みたいな",
-                    "maleVariant": null,
-                    "stringId": 2179400359030845440
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "573BCZ^うう、私{わたし}この匂{にお}いホントにダメ。オールフーズの肉{にく}とは全{ぜん}然{ぜん}違{ちが}う",
-                    "maleVariant": null,
-                    "stringId": 2189717020662808576
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "73BCZ^ねえ、本{ほん}当{とう}にEEZYビーフじゃダメなの？ それか5フレーバーのスコップとか。うえ、気{き}持{も}ち悪{わる}くなりそう…",
-                    "maleVariant": null,
-                    "stringId": 2189717470292197376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "273BCZ^おばあちゃんが、本{ほん}物{もの}の鶏{とり}肉{にく}は培{ばい}養{よう}ものとは全{ぜん}然{ぜん}味{あじ}が違{ちが}うって言{い}ってたし…",
-                    "maleVariant": null,
-                    "stringId": 2189717702757302272
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C73BCZ^一{いっ}回{かい}くらい平{へい}気{き}よ… 味{あじ}見{み}だけ",
-                    "maleVariant": null,
-                    "stringId": 2189717903010152448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B73BCZ^冗{じょう}談{だん}でしょ？ 味{あじ}見{み}で死{し}んだらどうすんのよ？",
-                    "maleVariant": null,
-                    "stringId": 2189718083130343424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "773BCZ^でも… 興{きょう}味{み}あるじゃない。ひいおばあちゃんの世{せ}代{だい}が食{た}べてたものを食{た}べてみたくない？",
-                    "maleVariant": null,
-                    "stringId": 2189718206610653184
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C33BCZ^全{ぜん}然{ぜん}。私{わたし}は完{かん}全{ぜん}消{しょう}毒{どく}されて真{しん}空{くう}パックに入{いっ}ったものしか口{くち}に入{い}れたくない",
-                    "maleVariant": null,
-                    "stringId": 2218614984076410880
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5F647Z^独{どく}特{とく}な匂{にお}いよね。濡{ぬ}れた金{きん}属{ぞく}みたいな",
+              "maleVariant": "",
+              "stringId": 2179400359030845440
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "573BCZ^うう、私{わたし}この匂{にお}いホントにダメ。オールフーズの肉{にく}とは全{ぜん}然{ぜん}違{ちが}う",
+              "maleVariant": "",
+              "stringId": 2189717020662808576
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "73BCZ^ねえ、本{ほん}当{とう}にEEZYビーフじゃダメなの？ それか5フレーバーのスコップとか。うえ、気{き}持{も}ち悪{わる}くなりそう…",
+              "maleVariant": "",
+              "stringId": 2189717470292197376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "273BCZ^おばあちゃんが、本{ほん}物{もの}の鶏{とり}肉{にく}は培{ばい}養{よう}ものとは全{ぜん}然{ぜん}味{あじ}が違{ちが}うって言{い}ってたし…",
+              "maleVariant": "",
+              "stringId": 2189717702757302272
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C73BCZ^一{いっ}回{かい}くらい平{へい}気{き}よ… 味{あじ}見{み}だけ",
+              "maleVariant": "",
+              "stringId": 2189717903010152448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B73BCZ^冗{じょう}談{だん}でしょ？ 味{あじ}見{み}で死{し}んだらどうすんのよ？",
+              "maleVariant": "",
+              "stringId": 2189718083130343424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "773BCZ^でも… 興{きょう}味{み}あるじゃない。ひいおばあちゃんの世{せ}代{だい}が食{た}べてたものを食{た}べてみたくない？",
+              "maleVariant": "",
+              "stringId": 2189718206610653184
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C33BCZ^全{ぜん}然{ぜん}。私{わたし}は完{かん}全{ぜん}消{しょう}毒{どく}されて真{しん}空{くう}パックに入{いっ}ったものしか口{くち}に入{い}れたくない",
+              "maleVariant": "",
+              "stringId": 2218614984076410880
             }
-          }
+          ]
         }
       }
     },

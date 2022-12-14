@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_awf_chat_008.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BB70AZ^今{こん}日{にち}は何{なん}だ？",
-                    "maleVariant": null,
-                    "stringId": 1963250706860253184
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9344DZ^“キャプテン・カリエンテ”のチーズ大{おお}盛{も}りよ。食{た}べる？",
-                    "maleVariant": null,
-                    "stringId": 1967862319946190848
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B944DZ^やめとく。前{まえ}に食{た}べた事{こと}があるが、レンジで温{あたた}めたゲロみたいな味{あじ}だった",
-                    "maleVariant": null,
-                    "stringId": 1967862939059015680
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7344DZ^やめてよ。こっちはこれから食{た}べるところなんだから",
-                    "maleVariant": null,
-                    "stringId": 1967863693798854656
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BB70AZ^今{こん}日{にち}は何{なん}だ？",
+              "maleVariant": "",
+              "stringId": 1963250706860253184
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9344DZ^“キャプテン・カリエンテ”のチーズ大{おお}盛{も}りよ。食{た}べる？",
+              "maleVariant": "",
+              "stringId": 1967862319946190848
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B944DZ^やめとく。前{まえ}に食{た}べた事{こと}があるが、レンジで温{あたた}めたゲロみたいな味{あじ}だった",
+              "maleVariant": "",
+              "stringId": 1967862939059015680
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7344DZ^やめてよ。こっちはこれから食{た}べるところなんだから",
+              "maleVariant": "",
+              "stringId": 1967863693798854656
             }
-          }
+          ]
         }
       }
     },

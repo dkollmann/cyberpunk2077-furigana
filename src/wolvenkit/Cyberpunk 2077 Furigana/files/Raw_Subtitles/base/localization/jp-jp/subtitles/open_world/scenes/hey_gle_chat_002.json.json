@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_gle_chat_002.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8A69EZ^大人{おとな}になったら何{なに}になりたいんだい？",
-                    "maleVariant": null,
-                    "stringId": 1807017843261825024
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3F69EZ^コンバットメディック！ テレビで見{み}るヤツ！",
-                    "maleVariant": null,
-                    "stringId": 1807023236482457600
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "369EZ^ほう、すごいな！ じゃあ人{にん}の命{いのち}を助{たす}けるんだね？",
-                    "maleVariant": null,
-                    "stringId": 1807023407274516480
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6369EZ^うん！ でもサイバーサイコはみんなやっつけるの！ パパがいつも見{み}てる番{ばん}組{ぐみ}みたいに！",
-                    "maleVariant": null,
-                    "stringId": 1807023619338526720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AB69EZ^でも薬{くすり}はあげない！ 打{う}ってから助{たす}ける意{い}味{み}なんてないもん！",
-                    "maleVariant": null,
-                    "stringId": 1807023792345178112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C069EZ^トラウマ・チームの一{いち}員{いん}になるなら、うんと勉{べん}強{きょう}しないと。とっても優{ゆう}秀{しゅう}な人{にん}たちしかなれないからね",
-                    "maleVariant": null,
-                    "stringId": 1807023990265995264
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8A69EZ^大人{おとな}になったら何{なに}になりたいんだい？",
+              "maleVariant": "",
+              "stringId": 1807017843261825024
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3F69EZ^コンバットメディック！ テレビで見{み}るヤツ！",
+              "maleVariant": "",
+              "stringId": 1807023236482457600
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "369EZ^ほう、すごいな！ じゃあ人{にん}の命{いのち}を助{たす}けるんだね？",
+              "maleVariant": "",
+              "stringId": 1807023407274516480
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6369EZ^うん！ でもサイバーサイコはみんなやっつけるの！ パパがいつも見{み}てる番{ばん}組{ぐみ}みたいに！",
+              "maleVariant": "",
+              "stringId": 1807023619338526720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AB69EZ^でも薬{くすり}はあげない！ 打{う}ってから助{たす}ける意{い}味{み}なんてないもん！",
+              "maleVariant": "",
+              "stringId": 1807023792345178112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C069EZ^トラウマ・チームの一{いち}員{いん}になるなら、うんと勉{べん}強{きょう}しないと。とっても優{ゆう}秀{しゅう}な人{にん}たちしかなれないからね",
+              "maleVariant": "",
+              "stringId": 1807023990265995264
             }
-          }
+          ]
         }
       }
     },

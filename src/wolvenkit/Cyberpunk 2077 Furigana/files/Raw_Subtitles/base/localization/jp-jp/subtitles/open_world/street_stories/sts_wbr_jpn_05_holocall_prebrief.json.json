@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_wbr_jpn_05_holocall_prebrief.json"
@@ -11,34 +11,26 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "37513Z^V、うちが使{つか}うとるネットランナーの一{ひと}人{り}が音{おん}信{しん}不{ふ}通{つう}になったんや。常{つね}に連{れん}絡{らく}つくようにしとけ言{い}うたのに",
-                    "maleVariant": null,
-                    "stringId": 2328672062695092224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D7559Z^指{し}示{じ}に逆{さか}らうような奴{やつ}やない。きっと何{なに}かあったんや。詳{しょう}細{さい}に目{め}を通{とう}したら、すぐに取{と}り掛{か}かってくれるか。そいつが必{ひつ}要{よう}なんや",
-                    "maleVariant": null,
-                    "stringId": 2343083226846040064
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "37513Z^V、うちが使{つか}うとるネットランナーの一{ひと}人{り}が音{おん}信{しん}不{ふ}通{つう}になったんや。常{つね}に連{れん}絡{らく}つくようにしとけ言{い}うたのに",
+              "maleVariant": "",
+              "stringId": 2328672062695092224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D7559Z^指{し}示{じ}に逆{さか}らうような奴{やつ}やない。きっと何{なに}かあったんや。詳{しょう}細{さい}に目{め}を通{とう}したら、すぐに取{と}り掛{か}かってくれるか。そいつが必{ひつ}要{よう}なんや",
+              "maleVariant": "",
+              "stringId": 2343083226846040064
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_nid_chat_005.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4269EZ^な、何{なん}だここは？ 俺{おれ}は、誰{だれ}だ？",
-                    "maleVariant": null,
-                    "stringId": 1802526152370806784
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8169EZ^まあ落{お}ち着{つ}けって。俺{おれ}たちゃ仲{なか}間{ま}だ。何{なに}も心{しん}配{ぱい}いらねえよ",
-                    "maleVariant": null,
-                    "stringId": 1802526595809402880
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6169EZ^な、何{なに}も思{おも}い出{だ}せない…",
-                    "maleVariant": null,
-                    "stringId": 1802526840085667840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6869EZ^儀{ぎ}式{しき}の後{のち}はみんなそうなる",
-                    "maleVariant": null,
-                    "stringId": 1802527248225001472
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "…ギシキ？",
-                    "maleVariant": null,
-                    "stringId": 1802527489565253632
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AD69EZ^おい、こいつ大{だい}丈{じょう}夫{ぶ}か？",
-                    "maleVariant": null,
-                    "stringId": 1802527678879358976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2F69EZ^知{し}らねえよ。ただ、体{からだ}もだいぶふらついてはいるな",
-                    "maleVariant": null,
-                    "stringId": 1802527960233271296
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4969EZ^まあ最{さい}悪{あく}、スカベンジャーにやりゃいい",
-                    "maleVariant": null,
-                    "stringId": 1802528252727255040
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ",
-                    "maleVariant": null,
-                    "stringId": 1802528441957474304
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4269EZ^な、何{なん}だここは？ 俺{おれ}は、誰{だれ}だ？",
+              "maleVariant": "",
+              "stringId": 1802526152370806784
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8169EZ^まあ落{お}ち着{つ}けって。俺{おれ}たちゃ仲{なか}間{ま}だ。何{なに}も心{しん}配{ぱい}いらねえよ",
+              "maleVariant": "",
+              "stringId": 1802526595809402880
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6169EZ^な、何{なに}も思{おも}い出{だ}せない…",
+              "maleVariant": "",
+              "stringId": 1802526840085667840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6869EZ^儀{ぎ}式{しき}の後{のち}はみんなそうなる",
+              "maleVariant": "",
+              "stringId": 1802527248225001472
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "…ギシキ？",
+              "maleVariant": "",
+              "stringId": 1802527489565253632
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AD69EZ^おい、こいつ大{だい}丈{じょう}夫{ぶ}か？",
+              "maleVariant": "",
+              "stringId": 1802527678879358976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2F69EZ^知{し}らねえよ。ただ、体{からだ}もだいぶふらついてはいるな",
+              "maleVariant": "",
+              "stringId": 1802527960233271296
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4969EZ^まあ最{さい}悪{あく}、スカベンジャーにやりゃいい",
+              "maleVariant": "",
+              "stringId": 1802528252727255040
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ",
+              "maleVariant": "",
+              "stringId": 1802528441957474304
             }
-          }
+          ]
         }
       }
     },

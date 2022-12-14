@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_south_023.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3D47EZ^セキュリティシステムがまた落{お}ちた",
-                    "maleVariant": null,
-                    "stringId": 2178301430946324480
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7D3BCZ^どうせ、バイパスダイオードも消{き}えたんだろ？",
-                    "maleVariant": null,
-                    "stringId": 2188083722547085312
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "よくわかったな",
-                    "maleVariant": null,
-                    "stringId": 2188084092669247488
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "283BCZ^堂々巡{どうどうめぐ}りだな。部{ぶ}品{ひん}を盗{ぬす}まれて、修{しゅう}理{り}して、また部{ぶ}品{ひん}を盗{ぬす}まれて…",
-                    "maleVariant": null,
-                    "stringId": 2188084399725854720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "693BCZ^ノーマッドの奴{やつ}らめ。世{せ}界{かい}は自{じ}分{ぶん}たちを中{ちゅう}心{しん}に回{まわ}ってると思{おも}って、好{す}き勝手{かって}しやがって！",
-                    "maleVariant": null,
-                    "stringId": 2188084834608070656
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D83BCZ^ここは発{はつ}電{でん}所{しょ}じゃない、奴{やつ}らの食{た}べ放{ほう}題{だい}バイキングだ！ これだけのパネルが無{む}駄{だ}になってるんだぞ？",
-                    "maleVariant": null,
-                    "stringId": 2188085055513673728
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "783BCZ^まあ、どうせ修{しゅう}理{り}するのは俺{おれ}たちじゃないから別{べつ}にいいんだけどな",
-                    "maleVariant": null,
-                    "stringId": 2188085530644430848
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3D47EZ^セキュリティシステムがまた落{お}ちた",
+              "maleVariant": "",
+              "stringId": 2178301430946324480
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7D3BCZ^どうせ、バイパスダイオードも消{き}えたんだろ？",
+              "maleVariant": "",
+              "stringId": 2188083722547085312
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "よくわかったな",
+              "maleVariant": "",
+              "stringId": 2188084092669247488
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "283BCZ^堂々巡{どうどうめぐ}りだな。部{ぶ}品{ひん}を盗{ぬす}まれて、修{しゅう}理{り}して、また部{ぶ}品{ひん}を盗{ぬす}まれて…",
+              "maleVariant": "",
+              "stringId": 2188084399725854720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "693BCZ^ノーマッドの奴{やつ}らめ。世{せ}界{かい}は自{じ}分{ぶん}たちを中{ちゅう}心{しん}に回{まわ}ってると思{おも}って、好{す}き勝手{かって}しやがって！",
+              "maleVariant": "",
+              "stringId": 2188084834608070656
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D83BCZ^ここは発{はつ}電{でん}所{しょ}じゃない、奴{やつ}らの食{た}べ放{ほう}題{だい}バイキングだ！ これだけのパネルが無{む}駄{だ}になってるんだぞ？",
+              "maleVariant": "",
+              "stringId": 2188085055513673728
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "783BCZ^まあ、どうせ修{しゅう}理{り}するのは俺{おれ}たちじゃないから別{べつ}にいいんだけどな",
+              "maleVariant": "",
+              "stringId": 2188085530644430848
             }
-          }
+          ]
         }
       }
     },

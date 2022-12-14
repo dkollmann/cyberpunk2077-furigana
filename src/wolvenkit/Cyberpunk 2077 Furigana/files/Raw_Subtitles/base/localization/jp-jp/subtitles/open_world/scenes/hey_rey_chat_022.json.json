@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_rey_chat_022.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "38647Z^人{にん}をこき使{つか}って、楽{たの}して金{きん}を稼{かせ}げると思{おも}ったら、大{おお}間{ま}違{ちが}いよ",
-                    "maleVariant": null,
-                    "stringId": 2161904328059940864
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4B559Z^へっ… いったい何{なん}の話{はなし}だ？",
-                    "maleVariant": null,
-                    "stringId": 2227410684245020672
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7C559Z^俺{おれ}に聞{き}くな。俺{おれ}はただのお守{まも}り役{やく}だ",
-                    "maleVariant": null,
-                    "stringId": 2227411668614615040
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "74559Z^自{じ}分{ぶん}の手{て}は汚{よご}さないから、私{わたし}たちより上{うえ}だと思{おも}ってるんでしょ。でもね、あんたをクソの沼{ぬま}に引{ひ}きずり込{こ}んで、溺{おぼ}れさせてやってもいいんだよ",
-                    "maleVariant": null,
-                    "stringId": 2227411956243206144
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それくらいにしておけ",
-                    "maleVariant": null,
-                    "stringId": 2227412958027550720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "84559Z^黙{だま}って。これからはルールを変{か}える。私{わたし}たちもデータにアクセスできるようにして、仕{し}事{ごと}は一{いっ}緒{しょ}に来{き}てもらう。でないと… わかるでしょ？",
-                    "maleVariant": null,
-                    "stringId": 2227413064613203968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "27559Z^わかったかって聞{き}いてるんだ、フィクサーさん",
-                    "maleVariant": null,
-                    "stringId": 2227492232185090048
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ。わかったよ",
-                    "maleVariant": null,
-                    "stringId": 2227492476343914496
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "38647Z^人{にん}をこき使{つか}って、楽{たの}して金{きん}を稼{かせ}げると思{おも}ったら、大{おお}間{ま}違{ちが}いよ",
+              "maleVariant": "",
+              "stringId": 2161904328059940864
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4B559Z^へっ… いったい何{なん}の話{はなし}だ？",
+              "maleVariant": "",
+              "stringId": 2227410684245020672
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7C559Z^俺{おれ}に聞{き}くな。俺{おれ}はただのお守{まも}り役{やく}だ",
+              "maleVariant": "",
+              "stringId": 2227411668614615040
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "74559Z^自{じ}分{ぶん}の手{て}は汚{よご}さないから、私{わたし}たちより上{うえ}だと思{おも}ってるんでしょ。でもね、あんたをクソの沼{ぬま}に引{ひ}きずり込{こ}んで、溺{おぼ}れさせてやってもいいんだよ",
+              "maleVariant": "",
+              "stringId": 2227411956243206144
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それくらいにしておけ",
+              "maleVariant": "",
+              "stringId": 2227412958027550720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "84559Z^黙{だま}って。これからはルールを変{か}える。私{わたし}たちもデータにアクセスできるようにして、仕{し}事{ごと}は一{いっ}緒{しょ}に来{き}てもらう。でないと… わかるでしょ？",
+              "maleVariant": "",
+              "stringId": 2227413064613203968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "27559Z^わかったかって聞{き}いてるんだ、フィクサーさん",
+              "maleVariant": "",
+              "stringId": 2227492232185090048
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ。わかったよ",
+              "maleVariant": "",
+              "stringId": 2227492476343914496
             }
-          }
+          ]
         }
       }
     },

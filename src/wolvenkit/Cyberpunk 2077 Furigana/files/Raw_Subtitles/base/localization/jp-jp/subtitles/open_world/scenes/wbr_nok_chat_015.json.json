@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_nok_chat_015.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D847AZ^どうして？ 何{なん}でママと話{はな}せないの？",
-                    "maleVariant": null,
-                    "stringId": 2159358707921035264
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5042FZ^ママは重{おも}い病{びょう}気{き}になって、行{い}かなきゃいけなかったからだよ。でもな、ママは天国{てんごく}から見{み}守{まも}ってる… 今{いま}もお前{まえ}を大{だい}事{じ}に思{おも}ってるんだよ",
-                    "maleVariant": null,
-                    "stringId": 2199701479479242752
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7042FZ^プレストンのパパは死{し}んじゃったけど、いつでも会{あ}ったりお話{はな}ししたりできるって言{い}ってた",
-                    "maleVariant": null,
-                    "stringId": 2199702592412643328
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4142FZ^プレストンのお父{とう}さんは… ママみたいに天国{てんごく}に行{い}かなかったんだ",
-                    "maleVariant": null,
-                    "stringId": 2199706122087231488
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E342FZ^プレストンのパパは、天国{てんごく}よりいいところにいるって。アラサカってとこだって",
-                    "maleVariant": null,
-                    "stringId": 2199707602273890304
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それはね…",
-                    "maleVariant": null,
-                    "stringId": 2199707949344157696
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1142FZ^プレストンが言{い}ってたよ。お金{きん}があれば、うちのママも天国{てんごく}じゃなくてアラサカに行{い}けたのにって",
-                    "maleVariant": null,
-                    "stringId": 2199708169981325312
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3142FZ^そしたら、毎{まい}日{にち}一{いっ}緒{しょ}にママに会{あ}えるのにって",
-                    "maleVariant": null,
-                    "stringId": 2199709154065707008
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうか… ごめんな…",
-                    "maleVariant": null,
-                    "stringId": 2199709491489075200
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D847AZ^どうして？ 何{なん}でママと話{はな}せないの？",
+              "maleVariant": "",
+              "stringId": 2159358707921035264
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5042FZ^ママは重{おも}い病{びょう}気{き}になって、行{い}かなきゃいけなかったからだよ。でもな、ママは天国{てんごく}から見{み}守{まも}ってる… 今{いま}もお前{まえ}を大{だい}事{じ}に思{おも}ってるんだよ",
+              "maleVariant": "",
+              "stringId": 2199701479479242752
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7042FZ^プレストンのパパは死{し}んじゃったけど、いつでも会{あ}ったりお話{はな}ししたりできるって言{い}ってた",
+              "maleVariant": "",
+              "stringId": 2199702592412643328
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4142FZ^プレストンのお父{とう}さんは… ママみたいに天国{てんごく}に行{い}かなかったんだ",
+              "maleVariant": "",
+              "stringId": 2199706122087231488
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E342FZ^プレストンのパパは、天国{てんごく}よりいいところにいるって。アラサカってとこだって",
+              "maleVariant": "",
+              "stringId": 2199707602273890304
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それはね…",
+              "maleVariant": "",
+              "stringId": 2199707949344157696
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1142FZ^プレストンが言{い}ってたよ。お金{きん}があれば、うちのママも天国{てんごく}じゃなくてアラサカに行{い}けたのにって",
+              "maleVariant": "",
+              "stringId": 2199708169981325312
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3142FZ^そしたら、毎{まい}日{にち}一{いっ}緒{しょ}にママに会{あ}えるのにって",
+              "maleVariant": "",
+              "stringId": 2199709154065707008
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうか… ごめんな…",
+              "maleVariant": "",
+              "stringId": 2199709491489075200
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q101\\q101_03_car_ride.json"
@@ -11,106 +11,80 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "95341Z^聞{き}こえるか？ 手{て}を貸{か}せ！",
-                    "maleVariant": null,
-                    "stringId": 1147233660445134848
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソどもめ！",
-                    "maleVariant": null,
-                    "stringId": 1151343142498471936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "552CZ^[エアハイポを使{つか}う]",
-                    "maleVariant": null,
-                    "stringId": 1293648083834552320
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "92325Z^飛{と}ばすぞ！",
-                    "maleVariant": null,
-                    "stringId": 1621561898580463616
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F2325Z^ブースターはそう長{なが}く持{も}たない…",
-                    "maleVariant": null,
-                    "stringId": 1629984232274284544
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A3325Z^撃{う}て！",
-                    "maleVariant": null,
-                    "stringId": 1629995457993396224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "61325Z^掴{つか}まってろ！",
-                    "maleVariant": null,
-                    "stringId": 1629999004529086464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うあ！",
-                    "maleVariant": null,
-                    "stringId": 1630001363858640896
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CD325Z^しつこい奴{やつ}め！",
-                    "maleVariant": null,
-                    "stringId": 1630006453814317056
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "30325Z^裏{うら}切{ぎ}り者{もの}が…！",
-                    "maleVariant": null,
-                    "stringId": 1630008452635054080
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "27325Z^地{じ}獄{ごく}に堕{お}ちろ！",
-                    "maleVariant": null,
-                    "stringId": 1630008972175101952
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "95341Z^聞{き}こえるか？ 手{て}を貸{か}せ！",
+              "maleVariant": "",
+              "stringId": 1147233660445134848
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソどもめ！",
+              "maleVariant": "",
+              "stringId": 1151343142498471936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "552CZ^[エアハイポを使{つか}う]",
+              "maleVariant": "",
+              "stringId": 1293648083834552320
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "92325Z^飛{と}ばすぞ！",
+              "maleVariant": "",
+              "stringId": 1621561898580463616
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F2325Z^ブースターはそう長{なが}く持{も}たない…",
+              "maleVariant": "",
+              "stringId": 1629984232274284544
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A3325Z^撃{う}て！",
+              "maleVariant": "",
+              "stringId": 1629995457993396224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "61325Z^掴{つか}まってろ！",
+              "maleVariant": "",
+              "stringId": 1629999004529086464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うあ！",
+              "maleVariant": "",
+              "stringId": 1630001363858640896
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CD325Z^しつこい奴{やつ}め！",
+              "maleVariant": "",
+              "stringId": 1630006453814317056
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "30325Z^裏{うら}切{ぎ}り者{もの}が…！",
+              "maleVariant": "",
+              "stringId": 1630008452635054080
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "27325Z^地{じ}獄{ごく}に堕{お}ちろ！",
+              "maleVariant": "",
+              "stringId": 1630008972175101952
             }
-          }
+          ]
         }
       }
     },

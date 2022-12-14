@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_std_arr_03_entrance_booth.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AC377Z^あいつがヴァレンティーノズってのは確{たし}かか？",
-                    "maleVariant": null,
-                    "stringId": 1492482923293011968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "88647Z^金{きん}色{いろ}の腕{うで}に、べっとりとジェルをつけた髪{かみ}。おまけに額{ひたい}に十{じゅう}字{じ}のタトゥー",
-                    "maleVariant": null,
-                    "stringId": 1863447679068303360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ED647Z^わかったよ、十{じゅう}分{ぶん}だ。クソ… まさか、マテウスが連{れん}中{ちゅう}の仲{なか}間{ま}だったとは…",
-                    "maleVariant": null,
-                    "stringId": 1863448290648158208
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B4647Z^意{い}外{がい}だよな。あんな真面目{まじめ}そうな奴{やつ}が…",
-                    "maleVariant": null,
-                    "stringId": 1863453697055682560
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AC377Z^あいつがヴァレンティーノズってのは確{たし}かか？",
+              "maleVariant": "",
+              "stringId": 1492482923293011968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "88647Z^金{きん}色{いろ}の腕{うで}に、べっとりとジェルをつけた髪{かみ}。おまけに額{ひたい}に十{じゅう}字{じ}のタトゥー",
+              "maleVariant": "",
+              "stringId": 1863447679068303360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ED647Z^わかったよ、十{じゅう}分{ぶん}だ。クソ… まさか、マテウスが連{れん}中{ちゅう}の仲{なか}間{ま}だったとは…",
+              "maleVariant": "",
+              "stringId": 1863448290648158208
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B4647Z^意{い}外{がい}だよな。あんな真面目{まじめ}そうな奴{やつ}が…",
+              "maleVariant": "",
+              "stringId": 1863453697055682560
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_cct_dtn_04_misc_interactions.json"
@@ -11,42 +11,32 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C1547Z^言{い}っただろ。ブリーフケースを調{しら}べたけど出{で}てこなかったんだ。俺{おれ}がどうなってもいいのか？",
-                    "maleVariant": null,
-                    "stringId": 1416857405787238400
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C547Z^ああ、その方{ほう}がいい。明日{あした}の朝一番{あさいちばん}にミーティングがあるんだ",
-                    "maleVariant": null,
-                    "stringId": 1430104245827563520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "17547Z^わかった。経{けい}費{ひ}として請{せい}求{きゅう}してくれ。じゃあ、もう切{き}るぞ",
-                    "maleVariant": null,
-                    "stringId": 1430106745683079168
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C1547Z^言{い}っただろ。ブリーフケースを調{しら}べたけど出{で}てこなかったんだ。俺{おれ}がどうなってもいいのか？",
+              "maleVariant": "",
+              "stringId": 1416857405787238400
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C547Z^ああ、その方{ほう}がいい。明日{あした}の朝一番{あさいちばん}にミーティングがあるんだ",
+              "maleVariant": "",
+              "stringId": 1430104245827563520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "17547Z^わかった。経{けい}費{ひ}として請{せい}求{きゅう}してくれ。じゃあ、もう切{き}るぞ",
+              "maleVariant": "",
+              "stringId": 1430106745683079168
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_wwd_chat_033.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F869EZ^ああ、気{き}に入{い}ってるよ。何{なに}も問{もん}題{だい}ない",
-                    "maleVariant": null,
-                    "stringId": 2179674277432385536
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7942FZ^広々{ひろびろ}としてて、潮{しお}風{かぜ}が気{き}持{も}ちいい…",
-                    "maleVariant": null,
-                    "stringId": 2212748366746677248
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1842FZ^そりゃ銃{じゅう}撃{げき}戦{せん}はある。でも大{たい}抵{てい}は夜{よる}だけだ。そのうち慣{な}れる",
-                    "maleVariant": null,
-                    "stringId": 2212748807500918784
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2942FZ^食{た}べ物{もの}も悪{わる}くない。いい店{みせ}を見{み}つけたんだ。ハイチ料{りょう}理{り}でさ。安{やす}い店{みせ}がたくさんある",
-                    "maleVariant": null,
-                    "stringId": 2212749202923122688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CA42FZ^いやいや、遊{あそ}びには来{こ}なくていい。時{じ}間{かん}と金{きん}の無{む}駄{だ}だ。俺{おれ}がそっちに行{い}く",
-                    "maleVariant": null,
-                    "stringId": 2212749665185755136
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FA42FZ^ああ、すぐだよ。生{せい}活{かつ}を立{た}て直{なお}したら",
-                    "maleVariant": null,
-                    "stringId": 2212750366070730752
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FA42FZ^約{やく}束{そく}だ… 俺{おれ}も会{あ}いたいよ… で、お前{まえ}は元{げん}気{き}なのか？",
-                    "maleVariant": null,
-                    "stringId": 2212750842812100608
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F869EZ^ああ、気{き}に入{い}ってるよ。何{なに}も問{もん}題{だい}ない",
+              "maleVariant": "",
+              "stringId": 2179674277432385536
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7942FZ^広々{ひろびろ}としてて、潮{しお}風{かぜ}が気{き}持{も}ちいい…",
+              "maleVariant": "",
+              "stringId": 2212748366746677248
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1842FZ^そりゃ銃{じゅう}撃{げき}戦{せん}はある。でも大{たい}抵{てい}は夜{よる}だけだ。そのうち慣{な}れる",
+              "maleVariant": "",
+              "stringId": 2212748807500918784
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2942FZ^食{た}べ物{もの}も悪{わる}くない。いい店{みせ}を見{み}つけたんだ。ハイチ料{りょう}理{り}でさ。安{やす}い店{みせ}がたくさんある",
+              "maleVariant": "",
+              "stringId": 2212749202923122688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CA42FZ^いやいや、遊{あそ}びには来{こ}なくていい。時{じ}間{かん}と金{きん}の無{む}駄{だ}だ。俺{おれ}がそっちに行{い}く",
+              "maleVariant": "",
+              "stringId": 2212749665185755136
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FA42FZ^ああ、すぐだよ。生{せい}活{かつ}を立{た}て直{なお}したら",
+              "maleVariant": "",
+              "stringId": 2212750366070730752
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FA42FZ^約{やく}束{そく}だ… 俺{おれ}も会{あ}いたいよ… で、お前{まえ}は元{げん}気{き}なのか？",
+              "maleVariant": "",
+              "stringId": 2212750842812100608
             }
-          }
+          ]
         }
       }
     },

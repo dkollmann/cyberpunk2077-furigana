@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_awf_chat_014.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D370AZ^2、三{みっ}日{か}経{へ}つまで効{こう}果{か}は感{かん}じられなかったがな",
-                    "maleVariant": null,
-                    "stringId": 2156471016643141632
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4442FZ^バレたりしなかった？ 普{ふ}通{つう}に残{ざん}業{ぎょう}しただけ？",
-                    "maleVariant": null,
-                    "stringId": 2177867570647068672
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B542FZ^残{ざん}業{ぎょう}どころか、もう1シフトどうだって言{い}われたよ。体{たい}内{ない}に「通{つう}常{じょう}より高{たか}いエネルギー活{かつ}動{どう}」が見{み}られるからって",
-                    "maleVariant": null,
-                    "stringId": 2177868057874198528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C542FZ^まさに奇{き}跡{せき}のブースターだ。あのリパーのところに行{い}ってみな。俺{おれ}の紹{しょう}介{かい}だと言{い}えば安{やす}くしてくれる",
-                    "maleVariant": null,
-                    "stringId": 2177868857006551040
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2642FZ^副{ふく}作{さ}用{よう}とか大{だい}丈{じょう}夫{ぶ}なの？",
-                    "maleVariant": null,
-                    "stringId": 2177869408389754880
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1542FZ^さあな。細{こま}かい説{せつ}明{めい}書{しょ}きなんか読{よ}んでられるか。時{じ}間{かん}の無{む}駄{だ}だ",
-                    "maleVariant": null,
-                    "stringId": 2177869515478724608
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D370AZ^2、三{みっ}日{か}経{へ}つまで効{こう}果{か}は感{かん}じられなかったがな",
+              "maleVariant": "",
+              "stringId": 2156471016643141632
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4442FZ^バレたりしなかった？ 普{ふ}通{つう}に残{ざん}業{ぎょう}しただけ？",
+              "maleVariant": "",
+              "stringId": 2177867570647068672
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B542FZ^残{ざん}業{ぎょう}どころか、もう1シフトどうだって言{い}われたよ。体{たい}内{ない}に「通{つう}常{じょう}より高{たか}いエネルギー活{かつ}動{どう}」が見{み}られるからって",
+              "maleVariant": "",
+              "stringId": 2177868057874198528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C542FZ^まさに奇{き}跡{せき}のブースターだ。あのリパーのところに行{い}ってみな。俺{おれ}の紹{しょう}介{かい}だと言{い}えば安{やす}くしてくれる",
+              "maleVariant": "",
+              "stringId": 2177868857006551040
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2642FZ^副{ふく}作{さ}用{よう}とか大{だい}丈{じょう}夫{ぶ}なの？",
+              "maleVariant": "",
+              "stringId": 2177869408389754880
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1542FZ^さあな。細{こま}かい説{せつ}明{めい}書{しょ}きなんか読{よ}んでられるか。時{じ}間{かん}の無{む}駄{だ}だ",
+              "maleVariant": "",
+              "stringId": 2177869515478724608
             }
-          }
+          ]
         }
       }
     },

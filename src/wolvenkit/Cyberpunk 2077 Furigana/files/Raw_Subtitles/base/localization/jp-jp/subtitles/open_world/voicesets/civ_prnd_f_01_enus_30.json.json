@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_prnd_f_01_enus_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D170A004^大{だい}丈{じょう}夫{ぶ}、恐{おそ}れることは何{なに}もない…",
-                    "maleVariant": null,
-                    "stringId": 1957761794859638788
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D270A004^普{ふ}段{だん}通{とう}りに振{ふ}る舞{まい}えばいい…",
-                    "maleVariant": null,
-                    "stringId": 1957761794876416004
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あっ！",
-                    "maleVariant": null,
-                    "stringId": 1957761794926747652
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やだっ…！",
-                    "maleVariant": null,
-                    "stringId": 1957761794943524868
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D970A004^やっぱり監{かん}視{し}されてるのよ！",
-                    "maleVariant": null,
-                    "stringId": 1957761794993856516
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DC70AZ^彼{かれ}は正{ただ}しかった…！ 青{あお}い目{め}の連{れん}中{ちゅう}、そこら中{なか}にいる… 私{わたし}は見{み}たの…！ 監{かん}視{し}されてる… きっと盗{とう}聴{ちょう}器{き}を仕{し}掛{か}けられたのよ",
-                    "maleVariant": null,
-                    "stringId": 1957761795044188160
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DD70A004^隣{となり}の家{いえ}の人{にん}が変{へん}な目{め}で見{み}てくるし… うちに来{き}たの… たぶん… とりあえず逃{に}げてきた",
-                    "maleVariant": null,
-                    "stringId": 1957761795060965380
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DF70A004^家{いえ}まで一{いっ}緒{しょ}に来{き}てくれる…？",
-                    "maleVariant": null,
-                    "stringId": 1957761795094519812
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E870AZ^連{れん}中{ちゅう}よ！",
-                    "maleVariant": null,
-                    "stringId": 1957761795245514752
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E970A004^始{はじ}まった！",
-                    "maleVariant": null,
-                    "stringId": 1957761795262291972
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ED70A004^私{わたし}は何{なに}も知{し}らない！",
-                    "maleVariant": null,
-                    "stringId": 1957761795329400836
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EE70A004^誰{だれ}にも言{い}わないから！",
-                    "maleVariant": null,
-                    "stringId": 1957761795346178052
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F370A004^まさか… 宇{う}宙{ちゅう}船{せん}に連{つ}れ去{さ}るつもり？",
-                    "maleVariant": null,
-                    "stringId": 1957761795430064132
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やっぱり！ いつからつけてたの！？",
-                    "maleVariant": null,
-                    "stringId": 1957761795446841348
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D170A004^大{だい}丈{じょう}夫{ぶ}、恐{おそ}れることは何{なに}もない…",
+              "maleVariant": "",
+              "stringId": 1957761794859638788
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D270A004^普{ふ}段{だん}通{とう}りに振{ふ}る舞{まい}えばいい…",
+              "maleVariant": "",
+              "stringId": 1957761794876416004
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あっ！",
+              "maleVariant": "",
+              "stringId": 1957761794926747652
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やだっ…！",
+              "maleVariant": "",
+              "stringId": 1957761794943524868
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D970A004^やっぱり監{かん}視{し}されてるのよ！",
+              "maleVariant": "",
+              "stringId": 1957761794993856516
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DC70AZ^彼{かれ}は正{ただ}しかった…！ 青{あお}い目{め}の連{れん}中{ちゅう}、そこら中{なか}にいる… 私{わたし}は見{み}たの…！ 監{かん}視{し}されてる… きっと盗{とう}聴{ちょう}器{き}を仕{し}掛{か}けられたのよ",
+              "maleVariant": "",
+              "stringId": 1957761795044188160
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DD70A004^隣{となり}の家{いえ}の人{にん}が変{へん}な目{め}で見{み}てくるし… うちに来{き}たの… たぶん… とりあえず逃{に}げてきた",
+              "maleVariant": "",
+              "stringId": 1957761795060965380
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DF70A004^家{いえ}まで一{いっ}緒{しょ}に来{き}てくれる…？",
+              "maleVariant": "",
+              "stringId": 1957761795094519812
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E870AZ^連{れん}中{ちゅう}よ！",
+              "maleVariant": "",
+              "stringId": 1957761795245514752
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E970A004^始{はじ}まった！",
+              "maleVariant": "",
+              "stringId": 1957761795262291972
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ED70A004^私{わたし}は何{なに}も知{し}らない！",
+              "maleVariant": "",
+              "stringId": 1957761795329400836
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EE70A004^誰{だれ}にも言{い}わないから！",
+              "maleVariant": "",
+              "stringId": 1957761795346178052
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F370A004^まさか… 宇{う}宙{ちゅう}船{せん}に連{つ}れ去{さ}るつもり？",
+              "maleVariant": "",
+              "stringId": 1957761795430064132
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やっぱり！ いつからつけてたの！？",
+              "maleVariant": "",
+              "stringId": 1957761795446841348
             }
-          }
+          ]
         }
       }
     },

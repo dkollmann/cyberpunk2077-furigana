@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\cct_cpz_medic_01.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F2588004^薬{くすり}を探{さが}してる",
-                    "maleVariant": null,
-                    "stringId": 1977670673930682372
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いいオフィスね",
-                    "maleVariant": "いいオフィスだな",
-                    "stringId": 1977671024037625856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C588Z^ちょっと薬{くすり}を探{さが}してるんだけど",
-                    "maleVariant": "C588Z^ちょっと薬{くすり}を探{さが}してるんだが",
-                    "stringId": 1977671305727082496
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4C588Z^いいオフィスね。心{こころ}が落{お}ち着{つ}く気{き}がする",
-                    "maleVariant": "4C588Z^いいオフィスだな。心{こころ}が落{お}ち着{つ}く気{き}がする",
-                    "stringId": 1977671774952259584
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "75588Z^緑{みどり}は心{こころ}と体{からだ}を落{お}ち着{つ}かせる。インプラントの定{てい}着{ちゃく}も早{はや}くなるのよ。それに気{き}づいてる人{にん}は多{おお}くはないけどね",
-                    "maleVariant": null,
-                    "stringId": 1977675585276116992
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3E3BCZ^相{そう}談{だん}に乗{の}るわ",
-                    "maleVariant": null,
-                    "stringId": 1979534063945105408
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F2588004^薬{くすり}を探{さが}してる",
+              "maleVariant": "",
+              "stringId": 1977670673930682372
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いいオフィスね",
+              "maleVariant": "いいオフィスだな",
+              "stringId": 1977671024037625856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C588Z^ちょっと薬{くすり}を探{さが}してるんだけど",
+              "maleVariant": "C588Z^ちょっと薬{くすり}を探{さが}してるんだが",
+              "stringId": 1977671305727082496
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4C588Z^いいオフィスね。心{こころ}が落{お}ち着{つ}く気{き}がする",
+              "maleVariant": "4C588Z^いいオフィスだな。心{こころ}が落{お}ち着{つ}く気{き}がする",
+              "stringId": 1977671774952259584
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "75588Z^緑{みどり}は心{こころ}と体{からだ}を落{お}ち着{つ}かせる。インプラントの定{てい}着{ちゃく}も早{はや}くなるのよ。それに気{き}づいてる人{にん}は多{おお}くはないけどね",
+              "maleVariant": "",
+              "stringId": 1977675585276116992
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3E3BCZ^相{そう}談{だん}に乗{の}るわ",
+              "maleVariant": "",
+              "stringId": 1979534063945105408
             }
-          }
+          ]
         }
       }
     },

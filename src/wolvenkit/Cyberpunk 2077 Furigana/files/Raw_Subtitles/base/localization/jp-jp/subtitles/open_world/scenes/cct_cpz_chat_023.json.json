@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_cpz_chat_023.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FC69EZ^戻{もど}ってきてほしいの",
-                    "maleVariant": null,
-                    "stringId": 2172048047669370880
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A7559Z^俺{おれ}はクビになった身{み}だ",
-                    "maleVariant": null,
-                    "stringId": 2192538871354724352
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FE559Z^でも、今{いま}は戻{もど}ってほしいの。お金{きん}は出{だ}すって",
-                    "maleVariant": null,
-                    "stringId": 2192550061204148224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5E559Z^眠{ねむ}れてるか？",
-                    "maleVariant": null,
-                    "stringId": 2192550702764888064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "え？",
-                    "maleVariant": null,
-                    "stringId": 2192551152142618624
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E559Z^夜{よる}だよ。ちゃんと寝{ね}付{つ}けてるか？",
-                    "maleVariant": null,
-                    "stringId": 2192551251178524672
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EF559Z^その日{にち}によるわ。最{さい}近{きん}はストレスたまってて… わかるでしょ。でもあなたはアドレナリンが恋{こい}しいはず。戻{もど}ってきてよ",
-                    "maleVariant": null,
-                    "stringId": 2192551529831305216
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "81559Z^あのな… 俺{おれ}は最{さい}近{きん}、赤{あか}ん坊{ぼう}みたいにぐっすり眠{ねむ}れるんだ。趣{しゅ}味{み}もいくつかできたしな",
-                    "maleVariant": null,
-                    "stringId": 2192552829360902144
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FC69EZ^戻{もど}ってきてほしいの",
+              "maleVariant": "",
+              "stringId": 2172048047669370880
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A7559Z^俺{おれ}はクビになった身{み}だ",
+              "maleVariant": "",
+              "stringId": 2192538871354724352
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FE559Z^でも、今{いま}は戻{もど}ってほしいの。お金{きん}は出{だ}すって",
+              "maleVariant": "",
+              "stringId": 2192550061204148224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5E559Z^眠{ねむ}れてるか？",
+              "maleVariant": "",
+              "stringId": 2192550702764888064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "え？",
+              "maleVariant": "",
+              "stringId": 2192551152142618624
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E559Z^夜{よる}だよ。ちゃんと寝{ね}付{つ}けてるか？",
+              "maleVariant": "",
+              "stringId": 2192551251178524672
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EF559Z^その日{にち}によるわ。最{さい}近{きん}はストレスたまってて… わかるでしょ。でもあなたはアドレナリンが恋{こい}しいはず。戻{もど}ってきてよ",
+              "maleVariant": "",
+              "stringId": 2192551529831305216
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "81559Z^あのな… 俺{おれ}は最{さい}近{きん}、赤{あか}ん坊{ぼう}みたいにぐっすり眠{ねむ}れるんだ。趣{しゅ}味{み}もいくつかできたしな",
+              "maleVariant": "",
+              "stringId": 2192552829360902144
             }
-          }
+          ]
         }
       }
     },

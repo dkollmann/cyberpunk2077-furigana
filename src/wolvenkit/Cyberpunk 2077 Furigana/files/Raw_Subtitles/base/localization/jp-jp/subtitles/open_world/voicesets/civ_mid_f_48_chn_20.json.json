@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_mid_f_48_chn_20.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9C70A004^服{ふく}を買{か}い換{か}えたほうがいいんじゃない？ ジョバンニ・ブリッツィがおすすめ",
-                    "maleVariant": null,
-                    "stringId": 1954532098822938628
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9E70A004^前{まえ}に会{あ}ったことあるっけ？",
-                    "maleVariant": null,
-                    "stringId": 1954532098856493060
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A170A004^痛{いた}いな！",
-                    "maleVariant": null,
-                    "stringId": 1954532098906824708
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どいて！",
-                    "maleVariant": null,
-                    "stringId": 1954532098923601924
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうも",
-                    "maleVariant": null,
-                    "stringId": 1954532098957156356
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A770A004^まあ、いつもどおりよ… あはは… どうにかする… うん、場{ば}所{しょ}は知{し}ってる… うん、うん",
-                    "maleVariant": null,
-                    "stringId": 1954532099007488004
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A870A004^あー、時{じ}間{かん}がなくて… 忙{いそが}しすぎて… 手{て}は貸{か}せない… ごめん… うん… じゃあねー",
-                    "maleVariant": null,
-                    "stringId": 1954532099024265220
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "じゃ",
-                    "maleVariant": null,
-                    "stringId": 1954532099057819652
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あーっ！！",
-                    "maleVariant": null,
-                    "stringId": 1954532099208814596
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B470A004^助{たす}けて！ 助{たす}けて！",
-                    "maleVariant": null,
-                    "stringId": 1954532099225591812
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B970AZ^放{ほうっ}っておいて！ 向{む}こう行{い}って！",
-                    "maleVariant": null,
-                    "stringId": 1954532099309477888
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やだやだやだやだーっ！",
-                    "maleVariant": null,
-                    "stringId": 1954532099326255108
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "つけられてるの…？",
-                    "maleVariant": null,
-                    "stringId": 1954532099393363972
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BF70A004^私{わたし}を狙{ねら}ってないよね…",
-                    "maleVariant": null,
-                    "stringId": 1954532099410141188
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9C70A004^服{ふく}を買{か}い換{か}えたほうがいいんじゃない？ ジョバンニ・ブリッツィがおすすめ",
+              "maleVariant": "",
+              "stringId": 1954532098822938628
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9E70A004^前{まえ}に会{あ}ったことあるっけ？",
+              "maleVariant": "",
+              "stringId": 1954532098856493060
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A170A004^痛{いた}いな！",
+              "maleVariant": "",
+              "stringId": 1954532098906824708
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どいて！",
+              "maleVariant": "",
+              "stringId": 1954532098923601924
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうも",
+              "maleVariant": "",
+              "stringId": 1954532098957156356
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A770A004^まあ、いつもどおりよ… あはは… どうにかする… うん、場{ば}所{しょ}は知{し}ってる… うん、うん",
+              "maleVariant": "",
+              "stringId": 1954532099007488004
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A870A004^あー、時{じ}間{かん}がなくて… 忙{いそが}しすぎて… 手{て}は貸{か}せない… ごめん… うん… じゃあねー",
+              "maleVariant": "",
+              "stringId": 1954532099024265220
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "じゃ",
+              "maleVariant": "",
+              "stringId": 1954532099057819652
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あーっ！！",
+              "maleVariant": "",
+              "stringId": 1954532099208814596
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B470A004^助{たす}けて！ 助{たす}けて！",
+              "maleVariant": "",
+              "stringId": 1954532099225591812
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B970AZ^放{ほうっ}っておいて！ 向{む}こう行{い}って！",
+              "maleVariant": "",
+              "stringId": 1954532099309477888
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やだやだやだやだーっ！",
+              "maleVariant": "",
+              "stringId": 1954532099326255108
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "つけられてるの…？",
+              "maleVariant": "",
+              "stringId": 1954532099393363972
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BF70A004^私{わたし}を狙{ねら}ってないよね…",
+              "maleVariant": "",
+              "stringId": 1954532099410141188
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_hey_rey_08_holocall_debriefs.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2A69EZ^感{かん}謝{しゃ}するぞ。お前{まえ}のおかげで、カルーボをこの手{て}で地{じ}獄{ごく}へ送{おく}ることができる…",
-                    "maleVariant": null,
-                    "stringId": 2328880621795532800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AD69EZ^「我{わ}が汝{なんじ}に復{ふく}讐{しゅう}を果{は}たす時{とき}、汝{なんじ}は我{わ}が主{しゅ}であることを知{し}るだろう」、そしてカルーボ・バイレイは知{し}ったわけだ。主{おも}の従{じゅう}順{じゅん}な使{つか}いたるVを介{かい}し、復{ふく}讐{しゅう}が為{な}されたことを",
-                    "maleVariant": null,
-                    "stringId": 2328880709892694016
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E23BCZ^見{み}事{ごと}だったぞ、V。仕{し}事{ごと}は完{かん}了{りょう}だ",
-                    "maleVariant": null,
-                    "stringId": 2334534867720323072
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "963BCZ^思{おも}いがけない喜{よろこ}びだ。ご苦{く}労{ろう}だった。Vに誉{ほま}れあれ！",
-                    "maleVariant": null,
-                    "stringId": 2334543254516383744
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "103BCZ^地{じ}獄{ごく}の業{ごう}火{か}に焼{や}かれ、苦{くる}しみながら泣{な}き叫{さけ}ぶカルーボの姿{すがた}が目{め}に浮{う}かぶ…",
-                    "maleVariant": null,
-                    "stringId": 2334546400479264768
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E53BCZ^私{わたし}の心{こころ}は喜{よろこ}びに満{み}ちている。よくやってくれた。神{かみ}と共{とも}にあれ",
-                    "maleVariant": null,
-                    "stringId": 2334546597326340096
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2A69EZ^感{かん}謝{しゃ}するぞ。お前{まえ}のおかげで、カルーボをこの手{て}で地{じ}獄{ごく}へ送{おく}ることができる…",
+              "maleVariant": "",
+              "stringId": 2328880621795532800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AD69EZ^「我{わ}が汝{なんじ}に復{ふく}讐{しゅう}を果{は}たす時{とき}、汝{なんじ}は我{わ}が主{しゅ}であることを知{し}るだろう」、そしてカルーボ・バイレイは知{し}ったわけだ。主{おも}の従{じゅう}順{じゅん}な使{つか}いたるVを介{かい}し、復{ふく}讐{しゅう}が為{な}されたことを",
+              "maleVariant": "",
+              "stringId": 2328880709892694016
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E23BCZ^見{み}事{ごと}だったぞ、V。仕{し}事{ごと}は完{かん}了{りょう}だ",
+              "maleVariant": "",
+              "stringId": 2334534867720323072
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "963BCZ^思{おも}いがけない喜{よろこ}びだ。ご苦{く}労{ろう}だった。Vに誉{ほま}れあれ！",
+              "maleVariant": "",
+              "stringId": 2334543254516383744
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "103BCZ^地{じ}獄{ごく}の業{ごう}火{か}に焼{や}かれ、苦{くる}しみながら泣{な}き叫{さけ}ぶカルーボの姿{すがた}が目{め}に浮{う}かぶ…",
+              "maleVariant": "",
+              "stringId": 2334546400479264768
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E53BCZ^私{わたし}の心{こころ}は喜{よろこ}びに満{み}ちている。よくやってくれた。神{かみ}と共{とも}にあれ",
+              "maleVariant": "",
+              "stringId": 2334546597326340096
             }
-          }
+          ]
         }
       }
     },

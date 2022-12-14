@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\fluff\\ybimb_6.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8B68EZ^ではさっそく、本{ほん}日{じつ}の一{いち}大{だい}ニュースから。アラサカ社{しゃ}は北{きた}九{きゅう}州{しゅう}および福{ふく}岡{おか}の不{ふ}採{さい}算{さん}施{し}設{せつ}を売{ばい}却{きゃく}すると発表{はっぴょう}しました",
-                    "maleVariant": null,
-                    "stringId": 1752986579169239040
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CE68EZ^先{せん}週{しゅう}の株{かぶ}主{ぬし}総{そう}会{かい}で新{しん}CEOのヨリノブ・アラサカ氏{し}が宣{せん}言{げん}した大{だい}胆{たん}な再{さい}建{けん}計{けい}画{かく}ですが、この売{ばい}却{きゃく}がその第{だい}一{いち}弾{だん}のようです",
-                    "maleVariant": null,
-                    "stringId": 1752986687667494912
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2A68EZ^一{いち}部{ぶ}アナリストは、これにより200億{おく}ユーロドル以{い}上{じょう}の費{ひ}用{よう}削{さく}減{げん}が実{じつ}現{げん}できると推{すい}測{そく}しています",
-                    "maleVariant": null,
-                    "stringId": 1752986873894592512
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9568EZ^また関{かん}係{けい}筋{すじ}の話{はなし}によると、売{ばい}却{きゃく}によって得{え}られた資{し}金{きん}は研{けん}究{きゅう}開{かい}発{はつ}施{し}設{せつ}に投{とう}じられるとのこと",
-                    "maleVariant": null,
-                    "stringId": 1752987013128708096
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2568EZ^アラサカ家{いえ}の異{い}端{たん}児{じ}と呼{よ}ばれていたヨリノブ氏{し}ですが、投{とう}資{し}家{か}たちの疑{ぎ}念{ねん}は払拭{ふっしょく}されたようですね。新{しん}生{せい}アラサカ社{しゃ}は3%の上{じょう}昇{しょう}をマークしました",
-                    "maleVariant": null,
-                    "stringId": 1752987174458417152
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2168EZ^巨{きょ}大{だい}日{に}本{ほん}企{き}業{ぎょう}アラサカの今{こん}後{ご}は？ 次{じ}回{かい}の“株{かぶ}価{か}上{じょう}昇{しょう}・気{き}分{ぶん}上々{じょうじょう}”も、どうぞお見{み}逃{のが}しなく！",
-                    "maleVariant": null,
-                    "stringId": 1752987273175556096
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5A68FZ^皆{みな}さん、こんにちは！ 今日{きょう}も“株{かぶ}価{か}上{じょう}昇{しょう}・気{き}分{ぶん}上々{じょうじょう}”の時{じ}間{かん}です",
-                    "maleVariant": null,
-                    "stringId": 1753252642981212160
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8B68EZ^ではさっそく、本{ほん}日{じつ}の一{いち}大{だい}ニュースから。アラサカ社{しゃ}は北{きた}九{きゅう}州{しゅう}および福{ふく}岡{おか}の不{ふ}採{さい}算{さん}施{し}設{せつ}を売{ばい}却{きゃく}すると発表{はっぴょう}しました",
+              "maleVariant": "",
+              "stringId": 1752986579169239040
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CE68EZ^先{せん}週{しゅう}の株{かぶ}主{ぬし}総{そう}会{かい}で新{しん}CEOのヨリノブ・アラサカ氏{し}が宣{せん}言{げん}した大{だい}胆{たん}な再{さい}建{けん}計{けい}画{かく}ですが、この売{ばい}却{きゃく}がその第{だい}一{いち}弾{だん}のようです",
+              "maleVariant": "",
+              "stringId": 1752986687667494912
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2A68EZ^一{いち}部{ぶ}アナリストは、これにより200億{おく}ユーロドル以{い}上{じょう}の費{ひ}用{よう}削{さく}減{げん}が実{じつ}現{げん}できると推{すい}測{そく}しています",
+              "maleVariant": "",
+              "stringId": 1752986873894592512
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9568EZ^また関{かん}係{けい}筋{すじ}の話{はなし}によると、売{ばい}却{きゃく}によって得{え}られた資{し}金{きん}は研{けん}究{きゅう}開{かい}発{はつ}施{し}設{せつ}に投{とう}じられるとのこと",
+              "maleVariant": "",
+              "stringId": 1752987013128708096
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2568EZ^アラサカ家{いえ}の異{い}端{たん}児{じ}と呼{よ}ばれていたヨリノブ氏{し}ですが、投{とう}資{し}家{か}たちの疑{ぎ}念{ねん}は払拭{ふっしょく}されたようですね。新{しん}生{せい}アラサカ社{しゃ}は3%の上{じょう}昇{しょう}をマークしました",
+              "maleVariant": "",
+              "stringId": 1752987174458417152
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2168EZ^巨{きょ}大{だい}日{に}本{ほん}企{き}業{ぎょう}アラサカの今{こん}後{ご}は？ 次{じ}回{かい}の“株{かぶ}価{か}上{じょう}昇{しょう}・気{き}分{ぶん}上々{じょうじょう}”も、どうぞお見{み}逃{のが}しなく！",
+              "maleVariant": "",
+              "stringId": 1752987273175556096
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5A68FZ^皆{みな}さん、こんにちは！ 今日{きょう}も“株{かぶ}価{か}上{じょう}昇{しょう}・気{き}分{ぶん}上々{じょうじょう}”の時{じ}間{かん}です",
+              "maleVariant": "",
+              "stringId": 1753252642981212160
             }
-          }
+          ]
         }
       }
     },

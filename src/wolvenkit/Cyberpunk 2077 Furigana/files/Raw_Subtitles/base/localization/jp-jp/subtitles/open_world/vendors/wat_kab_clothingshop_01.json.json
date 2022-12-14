@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\wat_kab_clothingshop_01.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F75C5Z^似{に}合{あ}う服{ふく}を探{さが}してる",
-                    "maleVariant": null,
-                    "stringId": 1914297443719860224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F75C5010^ギャングが服{ふく}を売{う}ってるの？",
-                    "maleVariant": "F75C5010^ギャングが服{ふく}を売{う}ってるのか？",
-                    "stringId": 1914297443719860240
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F95C5Z^あたしが着{き}れそうな服{ふく}はある？",
-                    "maleVariant": "F95C5Z^俺{おれ}が着{き}れそうな服{ふく}はあるか？",
-                    "stringId": 1914297443753414656
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F95C5008^とにかく安{やす}いほうがいいってんなら、満足{まんぞく}できるぞ",
-                    "maleVariant": null,
-                    "stringId": 1914297443753414664
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FA5C5004^それタイガークロウズのタトゥーでしょ？ アパレル業{ぎょう}も始{はじ}めたの？",
-                    "maleVariant": "FA5C5004^それタイガークロウズのタトゥーだろ？ アパレル業{ぎょう}も始{はじ}めたのか？",
-                    "stringId": 1914297443770191876
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FA5C500C^背骨{せぼね}をやられたチューマに用{よう}はないと追{お}い出{だ}されたから、個{こ}人{じん}でやってんだ",
-                    "maleVariant": null,
-                    "stringId": 1914297443770191884
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F75C5Z^似{に}合{あ}う服{ふく}を探{さが}してる",
+              "maleVariant": "",
+              "stringId": 1914297443719860224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F75C5010^ギャングが服{ふく}を売{う}ってるの？",
+              "maleVariant": "F75C5010^ギャングが服{ふく}を売{う}ってるのか？",
+              "stringId": 1914297443719860240
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F95C5Z^あたしが着{き}れそうな服{ふく}はある？",
+              "maleVariant": "F95C5Z^俺{おれ}が着{き}れそうな服{ふく}はあるか？",
+              "stringId": 1914297443753414656
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F95C5008^とにかく安{やす}いほうがいいってんなら、満足{まんぞく}できるぞ",
+              "maleVariant": "",
+              "stringId": 1914297443753414664
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FA5C5004^それタイガークロウズのタトゥーでしょ？ アパレル業{ぎょう}も始{はじ}めたの？",
+              "maleVariant": "FA5C5004^それタイガークロウズのタトゥーだろ？ アパレル業{ぎょう}も始{はじ}めたのか？",
+              "stringId": 1914297443770191876
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FA5C500C^背骨{せぼね}をやられたチューマに用{よう}はないと追{お}い出{だ}されたから、個{こ}人{じん}でやってんだ",
+              "maleVariant": "",
+              "stringId": 1914297443770191884
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_spr_chat_020.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DF3BBZ^女{おんな}を惚{ほ}れさせたいなら、どこかで危{き}険{けん}な目{め}に遭{そう}わせるのが一{いち}番{ばん}だ",
-                    "maleVariant": null,
-                    "stringId": 2162120453613400064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C0559Z^へーそうかい。どこがいい？ カブキで武{ぶ}装{そう}強{ごう}盗{とう}か、ビスタで誘{ゆう}拐{かい}でもしてもらうか。彼{かの}女{じょ}に選{えら}んでもらうか",
-                    "maleVariant": null,
-                    "stringId": 2213035903114645504
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B9559Z^まあ、聞{き}けって。そういう所{ところ}に行{い}って危{き}険{けん}が迫{せま}ると、緊{きん}張{ちょう}が高{たか}まってアドレナリンが出{で}まくるだろ。そのドキドキをお前{まえ}と結{むす}びつけて、コロッと恋{こい}に落{お}ちるわけさ",
-                    "maleVariant": null,
-                    "stringId": 2218727353139695616
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "27559Z^これはどうだ？ 最{さい}上{じょう}階{かい}に連{つ}れてけよ。パシフィカの夜{や}景{けい}を見{み}ながら、銃{じゅう}声{せい}をBGMにするのさ。“安{あん}全{ぜん}”な距{きょ}離{り}から危{き}険{けん}を感{かん}じるんだ… すげえロマンチックだろ",
-                    "maleVariant": null,
-                    "stringId": 2218734175393255424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "56559Z^絶{ぜっ}対{たい}うまくいくって。人{にん}間{げん}、本{ほん}能{のう}には逆{さか}らえない",
-                    "maleVariant": null,
-                    "stringId": 2218734365160345600
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2C559Z^ふうん。そういや、お前{まえ}のアウトプットは元{げん}気{き}にしてんのか？",
-                    "maleVariant": null,
-                    "stringId": 2218740819791548416
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FB559Z^アウトプット？ いやいや、俺{おれ}はもっといい相{あい}手{て}を探{さが}すつもりさ",
-                    "maleVariant": null,
-                    "stringId": 2218740956408418304
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "バカバカしい…",
-                    "maleVariant": null,
-                    "stringId": 2218743124544819200
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DF3BBZ^女{おんな}を惚{ほ}れさせたいなら、どこかで危{き}険{けん}な目{め}に遭{そう}わせるのが一{いち}番{ばん}だ",
+              "maleVariant": "",
+              "stringId": 2162120453613400064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C0559Z^へーそうかい。どこがいい？ カブキで武{ぶ}装{そう}強{ごう}盗{とう}か、ビスタで誘{ゆう}拐{かい}でもしてもらうか。彼{かの}女{じょ}に選{えら}んでもらうか",
+              "maleVariant": "",
+              "stringId": 2213035903114645504
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B9559Z^まあ、聞{き}けって。そういう所{ところ}に行{い}って危{き}険{けん}が迫{せま}ると、緊{きん}張{ちょう}が高{たか}まってアドレナリンが出{で}まくるだろ。そのドキドキをお前{まえ}と結{むす}びつけて、コロッと恋{こい}に落{お}ちるわけさ",
+              "maleVariant": "",
+              "stringId": 2218727353139695616
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "27559Z^これはどうだ？ 最{さい}上{じょう}階{かい}に連{つ}れてけよ。パシフィカの夜{や}景{けい}を見{み}ながら、銃{じゅう}声{せい}をBGMにするのさ。“安{あん}全{ぜん}”な距{きょ}離{り}から危{き}険{けん}を感{かん}じるんだ… すげえロマンチックだろ",
+              "maleVariant": "",
+              "stringId": 2218734175393255424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "56559Z^絶{ぜっ}対{たい}うまくいくって。人{にん}間{げん}、本{ほん}能{のう}には逆{さか}らえない",
+              "maleVariant": "",
+              "stringId": 2218734365160345600
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2C559Z^ふうん。そういや、お前{まえ}のアウトプットは元{げん}気{き}にしてんのか？",
+              "maleVariant": "",
+              "stringId": 2218740819791548416
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FB559Z^アウトプット？ いやいや、俺{おれ}はもっといい相{あい}手{て}を探{さが}すつもりさ",
+              "maleVariant": "",
+              "stringId": 2218740956408418304
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "バカバカしい…",
+              "maleVariant": "",
+              "stringId": 2218743124544819200
             }
-          }
+          ]
         }
       }
     },

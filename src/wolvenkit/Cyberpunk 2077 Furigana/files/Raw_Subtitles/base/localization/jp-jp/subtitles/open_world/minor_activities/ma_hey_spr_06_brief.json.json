@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\minor_activities\\ma_hey_spr_06_brief.json"
@@ -11,42 +11,32 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9C623Z^V、ゼータテクのコーポ数{すう}名{めい}がオートショップに入{いっ}った後{のち}… 行方不明{ゆくえふめい}になってるの",
-                    "maleVariant": null,
-                    "stringId": 2357655775014432768
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2C623Z^家{か}族{ぞく}経{けい}営{えい}の店{みせ}なんだけど、経{けい}営{えい}は火{ひ}の車{くるま}だったみたい",
-                    "maleVariant": null,
-                    "stringId": 2357678334598590464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CF623Z^オーナーが精{せい}神{しん}的{てき}に耐{た}えきれなくなった可{か}能{のう}性{せい}がある。私{わたし}の直感{ちょっかん}がそう言{い}ってるわ",
-                    "maleVariant": null,
-                    "stringId": 2357679071772684288
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9C623Z^V、ゼータテクのコーポ数{すう}名{めい}がオートショップに入{いっ}った後{のち}… 行方不明{ゆくえふめい}になってるの",
+              "maleVariant": "",
+              "stringId": 2357655775014432768
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2C623Z^家{か}族{ぞく}経{けい}営{えい}の店{みせ}なんだけど、経{けい}営{えい}は火{ひ}の車{くるま}だったみたい",
+              "maleVariant": "",
+              "stringId": 2357678334598590464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CF623Z^オーナーが精{せい}神{しん}的{てき}に耐{た}えきれなくなった可{か}能{のう}性{せい}がある。私{わたし}の直感{ちょっかん}がそう言{い}ってるわ",
+              "maleVariant": "",
+              "stringId": 2357679071772684288
             }
-          }
+          ]
         }
       }
     },

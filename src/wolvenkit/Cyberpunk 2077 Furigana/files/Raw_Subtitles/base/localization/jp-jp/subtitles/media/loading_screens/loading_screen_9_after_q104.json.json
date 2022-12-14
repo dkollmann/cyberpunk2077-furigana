@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\loading_screens\\loading_screen_9_after_q104.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EC4EAZ^ハーイ皆{みな}さん、“インフォフラッシュ”へようこそ！ 昨日{きのう}の停{てい}電{でん}、大{だい}丈{じょう}夫{ぶ}でした？",
-                    "maleVariant": null,
-                    "stringId": 1672047694468521984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C744DZ^私{わたし}なんて料{りょう}理{り}をしてたところで… 正{せい}確{かく}にはソファにはさまってた食{た}べかけのブリトーをチンしてたんだけど",
-                    "maleVariant": null,
-                    "stringId": 1680691461559209984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1844DZ^わかってる。ずぼらはよくないよね… レンジにかけると栄{えい}養{よう}が飛{と}んじゃうって言{い}うし。でも、ゴキブリが入{いっ}ってても殺{ころ}せるから… 損{そん}ばかりじゃない",
-                    "maleVariant": null,
-                    "stringId": 1680692055623651328
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E444DZ^で、何{なん}の話{はなし}だっけ… そう、停{てい}電{でん}よ。サントにある発{はつ}電{でん}所{しょ}がショートしたらしいわ。その時{とき}のEMPでAVが墜{つい}落{らく}したとか",
-                    "maleVariant": null,
-                    "stringId": 1680693622414299136
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7E44DZ^NCPDの話{はなし}だと、停{てい}電{でん}による損{そん}害{がい}額{ひたい}は1億{おく}2千{せん}万{まん}エディーだって。でも一{いち}番{ばん}の悲{ひ}劇{げき}は、冷{つめ}たいブリトーが不{ふ}味{み}すぎたってことよ…",
-                    "maleVariant": null,
-                    "stringId": 1680695570618175488
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3444DZ^1億{おく}2千{せん}万{まん}エディーだって！？ ハッ！ 男{おとこ}一{ひと}人{り}捕{つか}まえるのに、ずいぶん派{は}手{で}にやらかしたもんだな",
-                    "maleVariant": null,
-                    "stringId": 1680696063297900544
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6644DZ^大{たい}した根性{こんじょう}だ、V",
-                    "maleVariant": null,
-                    "stringId": 1680696815756038144
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D044DZ^おい、ルース、それで済{す}んだのは奇{き}跡{せき}だ。まあ、せいぜい喜{よろこ}んどけ…",
-                    "maleVariant": null,
-                    "stringId": 1902232742490591232
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4744DZ^あれはお手{て}柄{がら}だったな、V",
-                    "maleVariant": null,
-                    "stringId": 1902233813933936640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7C44DZ^NCPDは、事{じ}件{けん}の規{き}模{ぼ}のわりには被{ひ}害{がい}が少{すく}なかったと言{い}ってるけど… それだったら、冷{ひ}え切{き}ったブリトーを食{た}べるハメになった私{わたし}は、一{いっ}体{たい}何{なに}なのよ！",
-                    "maleVariant": null,
-                    "stringId": 1902234390348746752
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EC4EAZ^ハーイ皆{みな}さん、“インフォフラッシュ”へようこそ！ 昨日{きのう}の停{てい}電{でん}、大{だい}丈{じょう}夫{ぶ}でした？",
+              "maleVariant": "",
+              "stringId": 1672047694468521984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C744DZ^私{わたし}なんて料{りょう}理{り}をしてたところで… 正{せい}確{かく}にはソファにはさまってた食{た}べかけのブリトーをチンしてたんだけど",
+              "maleVariant": "",
+              "stringId": 1680691461559209984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1844DZ^わかってる。ずぼらはよくないよね… レンジにかけると栄{えい}養{よう}が飛{と}んじゃうって言{い}うし。でも、ゴキブリが入{いっ}ってても殺{ころ}せるから… 損{そん}ばかりじゃない",
+              "maleVariant": "",
+              "stringId": 1680692055623651328
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E444DZ^で、何{なん}の話{はなし}だっけ… そう、停{てい}電{でん}よ。サントにある発{はつ}電{でん}所{しょ}がショートしたらしいわ。その時{とき}のEMPでAVが墜{つい}落{らく}したとか",
+              "maleVariant": "",
+              "stringId": 1680693622414299136
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7E44DZ^NCPDの話{はなし}だと、停{てい}電{でん}による損{そん}害{がい}額{ひたい}は1億{おく}2千{せん}万{まん}エディーだって。でも一{いち}番{ばん}の悲{ひ}劇{げき}は、冷{つめ}たいブリトーが不{ふ}味{み}すぎたってことよ…",
+              "maleVariant": "",
+              "stringId": 1680695570618175488
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3444DZ^1億{おく}2千{せん}万{まん}エディーだって！？ ハッ！ 男{おとこ}一{ひと}人{り}捕{つか}まえるのに、ずいぶん派{は}手{で}にやらかしたもんだな",
+              "maleVariant": "",
+              "stringId": 1680696063297900544
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6644DZ^大{たい}した根性{こんじょう}だ、V",
+              "maleVariant": "",
+              "stringId": 1680696815756038144
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D044DZ^おい、ルース、それで済{す}んだのは奇{き}跡{せき}だ。まあ、せいぜい喜{よろこ}んどけ…",
+              "maleVariant": "",
+              "stringId": 1902232742490591232
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4744DZ^あれはお手{て}柄{がら}だったな、V",
+              "maleVariant": "",
+              "stringId": 1902233813933936640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7C44DZ^NCPDは、事{じ}件{けん}の規{き}模{ぼ}のわりには被{ひ}害{がい}が少{すく}なかったと言{い}ってるけど… それだったら、冷{ひ}え切{き}ったブリトーを食{た}べるハメになった私{わたし}は、一{いっ}体{たい}何{なに}なのよ！",
+              "maleVariant": "",
+              "stringId": 1902234390348746752
             }
-          }
+          ]
         }
       }
     },

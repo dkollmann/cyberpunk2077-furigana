@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_cpz_chat_002.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A970AZ^ミゲルと話{はな}した。ヴァレンティーノズはうちの条{じょう}件{けん}をのんだぞ",
-                    "maleVariant": null,
-                    "stringId": 1963273134877483008
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "843BCZ^スティーブンソンは？ 独{どく}房{ぼう}のコードを教{おし}えてくれるのか？ 前{ぜん}回{かい}失敗{しっぱい}しかけた",
-                    "maleVariant": null,
-                    "stringId": 1966137044216037376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "13BCZ^「しかけた」だろ。誰{だれ}にでも起{お}こりうることさ",
-                    "maleVariant": null,
-                    "stringId": 1966137389910573056
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5A3BCZ^スティーブンソンだって前{まえ}のことは気{き}にしてない。それにあいつだって、取{と}り分{ぶん}は欲{ほ}しいはずだ",
-                    "maleVariant": null,
-                    "stringId": 1966137709231325184
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "173BCZ^でもだな、もしバレたら、困{こま}るのは俺{おれ}たちだけだぞ。あいつは無{む}関{かん}係{けい}を装{よそお}うだろう",
-                    "maleVariant": null,
-                    "stringId": 1966138107539210240
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "983BCZ^ああ、あいつも会{あ}うたびに同{おな}じ事{こと}を俺{おれ}に言{い}ってくるよ",
-                    "maleVariant": null,
-                    "stringId": 1966138517725364224
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A970AZ^ミゲルと話{はな}した。ヴァレンティーノズはうちの条{じょう}件{けん}をのんだぞ",
+              "maleVariant": "",
+              "stringId": 1963273134877483008
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "843BCZ^スティーブンソンは？ 独{どく}房{ぼう}のコードを教{おし}えてくれるのか？ 前{ぜん}回{かい}失敗{しっぱい}しかけた",
+              "maleVariant": "",
+              "stringId": 1966137044216037376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "13BCZ^「しかけた」だろ。誰{だれ}にでも起{お}こりうることさ",
+              "maleVariant": "",
+              "stringId": 1966137389910573056
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5A3BCZ^スティーブンソンだって前{まえ}のことは気{き}にしてない。それにあいつだって、取{と}り分{ぶん}は欲{ほ}しいはずだ",
+              "maleVariant": "",
+              "stringId": 1966137709231325184
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "173BCZ^でもだな、もしバレたら、困{こま}るのは俺{おれ}たちだけだぞ。あいつは無{む}関{かん}係{けい}を装{よそお}うだろう",
+              "maleVariant": "",
+              "stringId": 1966138107539210240
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "983BCZ^ああ、あいつも会{あ}うたびに同{おな}じ事{こと}を俺{おれ}に言{い}ってくるよ",
+              "maleVariant": "",
+              "stringId": 1966138517725364224
             }
-          }
+          ]
         }
       }
     },

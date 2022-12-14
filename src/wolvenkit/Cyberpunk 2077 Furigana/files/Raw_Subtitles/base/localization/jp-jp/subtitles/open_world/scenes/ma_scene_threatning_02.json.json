@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\ma_scene_threatning_02.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2C720Z^死{し}ぬ前{まえ}に、何{なに}か言{い}い残{のこ}すことはあるかい？",
-                    "maleVariant": null,
-                    "stringId": 2007151579533279232
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "65720Z^どうした？ さっきまでの笑顔{えがお}はどこに行{い}ったのさ？",
-                    "maleVariant": null,
-                    "stringId": 2007151653504024576
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "33720Z^ふん。仲{なか}間{ま}が助{たす}けに来{く}るとでも思{おも}ってるわけ？ 残{ざん}念{ねん}。あんたは一{ひと}人{り}っきりで死{し}ぬんだよ",
-                    "maleVariant": null,
-                    "stringId": 2007151734269542400
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "71720Z^しょうもない野{や}郎{ろう}め！ 息{いき}をしてるだけで迷{めい}惑{わく}なんだよ",
-                    "maleVariant": null,
-                    "stringId": 2007151808324173824
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2C720Z^死{し}ぬ前{まえ}に、何{なに}か言{い}い残{のこ}すことはあるかい？",
+              "maleVariant": "",
+              "stringId": 2007151579533279232
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "65720Z^どうした？ さっきまでの笑顔{えがお}はどこに行{い}ったのさ？",
+              "maleVariant": "",
+              "stringId": 2007151653504024576
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "33720Z^ふん。仲{なか}間{ま}が助{たす}けに来{く}るとでも思{おも}ってるわけ？ 残{ざん}念{ねん}。あんたは一{ひと}人{り}っきりで死{し}ぬんだよ",
+              "maleVariant": "",
+              "stringId": 2007151734269542400
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "71720Z^しょうもない野{や}郎{ろう}め！ 息{いき}をしてるだけで迷{めい}惑{わく}なんだよ",
+              "maleVariant": "",
+              "stringId": 2007151808324173824
             }
-          }
+          ]
         }
       }
     },

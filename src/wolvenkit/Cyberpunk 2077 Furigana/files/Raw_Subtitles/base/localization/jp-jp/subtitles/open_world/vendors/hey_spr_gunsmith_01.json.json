@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\hey_spr_gunsmith_01.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "747AZ^新{あたら}しい装{そう}備{び}を探{さが}してる",
-                    "maleVariant": null,
-                    "stringId": 1740390339816431616
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "747A010^おすすめの武{ぶ}器{き}はある？",
-                    "maleVariant": "747A010^おすすめの武{ぶ}器{き}はあるか？",
-                    "stringId": 1740390339816431632
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "847AZ^装{そう}備{び}を探{さが}してるの",
-                    "maleVariant": "847AZ^装{そう}備{び}を探{さが}してるんだ",
-                    "stringId": 1740390339833208832
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "847A008^うちは幅{はば}広{ひろ}く扱{あつか}ってるけど、迷{まよ}ったときはミリテクにしとけば間{ま}違{ちが}いないよ",
-                    "maleVariant": null,
-                    "stringId": 1740390339833208840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "76559Z^何{なに}かおすすめの武{ぶ}器{き}はある？",
-                    "maleVariant": "76559Z^何{なに}かおすすめの武{ぶ}器{き}はあるか？",
-                    "stringId": 2253658183595036672
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "91559Z^ハンドガン。厳{げん}密{みつ}に言{い}うとピストルね。小{しょう}ぶりかつ、シンプルでエレガント。これ見{み}よがしにでかい武{ぶ}器{き}を持{も}つのは下{げ}品{ひん}でしょ",
-                    "maleVariant": null,
-                    "stringId": 2253721328657207296
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "747AZ^新{あたら}しい装{そう}備{び}を探{さが}してる",
+              "maleVariant": "",
+              "stringId": 1740390339816431616
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "747A010^おすすめの武{ぶ}器{き}はある？",
+              "maleVariant": "747A010^おすすめの武{ぶ}器{き}はあるか？",
+              "stringId": 1740390339816431632
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "847AZ^装{そう}備{び}を探{さが}してるの",
+              "maleVariant": "847AZ^装{そう}備{び}を探{さが}してるんだ",
+              "stringId": 1740390339833208832
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "847A008^うちは幅{はば}広{ひろ}く扱{あつか}ってるけど、迷{まよ}ったときはミリテクにしとけば間{ま}違{ちが}いないよ",
+              "maleVariant": "",
+              "stringId": 1740390339833208840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "76559Z^何{なに}かおすすめの武{ぶ}器{き}はある？",
+              "maleVariant": "76559Z^何{なに}かおすすめの武{ぶ}器{き}はあるか？",
+              "stringId": 2253658183595036672
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "91559Z^ハンドガン。厳{げん}密{みつ}に言{い}うとピストルね。小{しょう}ぶりかつ、シンプルでエレガント。これ見{み}よがしにでかい武{ぶ}器{き}を持{も}つのは下{げ}品{ひん}でしょ",
+              "maleVariant": "",
+              "stringId": 2253721328657207296
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\minor_activities\\ma_pac_cvi_15_brief.json"
@@ -11,34 +11,26 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "70623Z^V、GIMの近{ちか}くの歩{ほ}道{どう}で、人{にん}が忽{こつ}然{ぜん}と消{き}える事{じ}件{けん}が起{お}きてるらしいの",
-                    "maleVariant": null,
-                    "stringId": 2357883179909656576
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "93623Z^何{なに}が起{お}きてるか調{しら}べて。あなたまで消{き}えないようにね",
-                    "maleVariant": null,
-                    "stringId": 2357884615015936000
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "70623Z^V、GIMの近{ちか}くの歩{ほ}道{どう}で、人{にん}が忽{こつ}然{ぜん}と消{き}える事{じ}件{けん}が起{お}きてるらしいの",
+              "maleVariant": "",
+              "stringId": 2357883179909656576
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "93623Z^何{なに}が起{お}きてるか調{しら}べて。あなたまで消{き}えないようにね",
+              "maleVariant": "",
+              "stringId": 2357884615015936000
             }
-          }
+          ]
         }
       }
     },

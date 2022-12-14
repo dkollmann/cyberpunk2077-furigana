@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_wat_kab_07_garage.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "83464Z^見{み}てよ。1600ccの直{ちょく}列{れつ}6気{き}筒{とう}。これがまたいい音{おと}を奏{かな}でるの",
-                    "maleVariant": null,
-                    "stringId": 1376182346466082816
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "45464Z^下{げ}痢{り}してるときみたいな音{おと}だろ？",
-                    "maleVariant": null,
-                    "stringId": 1376182564469227520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "93464Z^今{いま}に見{み}てな。そっちのちゃっちい電{でん}池{ち}式{しき}のガラクタなんか、置{お}いてけぼりにしてやるから",
-                    "maleVariant": null,
-                    "stringId": 1376183055404122112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "12559Z^ふん、まずは走{はし}れるようにしてから言{い}えよ",
-                    "maleVariant": null,
-                    "stringId": 1643284118736572416
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "83464Z^見{み}てよ。1600ccの直{ちょく}列{れつ}6気{き}筒{とう}。これがまたいい音{おと}を奏{かな}でるの",
+              "maleVariant": "",
+              "stringId": 1376182346466082816
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "45464Z^下{げ}痢{り}してるときみたいな音{おと}だろ？",
+              "maleVariant": "",
+              "stringId": 1376182564469227520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "93464Z^今{いま}に見{み}てな。そっちのちゃっちい電{でん}池{ち}式{しき}のガラクタなんか、置{お}いてけぼりにしてやるから",
+              "maleVariant": "",
+              "stringId": 1376183055404122112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "12559Z^ふん、まずは走{はし}れるようにしてから言{い}えよ",
+              "maleVariant": "",
+              "stringId": 1643284118736572416
             }
-          }
+          ]
         }
       }
     },

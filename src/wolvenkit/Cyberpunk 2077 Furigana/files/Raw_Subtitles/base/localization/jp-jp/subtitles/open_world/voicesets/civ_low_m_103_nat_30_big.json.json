@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_m_103_nat_30_big.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "よう",
-                    "maleVariant": null,
-                    "stringId": 1922693704898322436
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DE582004^タバコ持{も}ってるか？",
-                    "maleVariant": null,
-                    "stringId": 1922693704931876868
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E1582004^触{しょく}んな！",
-                    "maleVariant": null,
-                    "stringId": 1922693704982208516
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソ！",
-                    "maleVariant": null,
-                    "stringId": 1922693705015762948
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもし？",
-                    "maleVariant": null,
-                    "stringId": 1922693705049317380
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E8582004^なんつうか… アレだ… 喫{きつ}煙{えん}が体{からだ}に悪{わる}いって証{しょう}拠{こ}はないわけで… だな",
-                    "maleVariant": null,
-                    "stringId": 1922693705099649028
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EA582004^関{かん}連{れん}性{せい}はひとつも… ゴホッゴホッ！ …咳{せき}？ 別{べつ}に咳{せき}なんてしてないだろ？ 自{じ}分{ぶん}のことは自{じ}分{ぶん}が一{いち}番{ばん}よくわかってる… ああ",
-                    "maleVariant": null,
-                    "stringId": 1922693705133203460
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EC582004^わかった。あいつに言{い}っとく",
-                    "maleVariant": null,
-                    "stringId": 1922693705166757892
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F6582004^クソ！ 逃{に}げろ！",
-                    "maleVariant": null,
-                    "stringId": 1922693705334530052
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F8582004^警{けい}察{さつ}を呼{よ}べ！",
-                    "maleVariant": null,
-                    "stringId": 1922693705368084484
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FD582004^仲{なか}間{ま}がどこまでも追{お}うからな",
-                    "maleVariant": null,
-                    "stringId": 1922693705451970564
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FF582004^後{こう}悔{かい}しても後{のち}の祭{まつ}りだぞ",
-                    "maleVariant": null,
-                    "stringId": 1922693705485524996
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4582004^お前{まえ}、俺{おれ}に用{よう}か",
-                    "maleVariant": null,
-                    "stringId": 1922693705569411076
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5582004^どういう了{りょう}見{けん}か言{い}ってみろ",
-                    "maleVariant": null,
-                    "stringId": 1922693705586188292
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "よう",
+              "maleVariant": "",
+              "stringId": 1922693704898322436
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DE582004^タバコ持{も}ってるか？",
+              "maleVariant": "",
+              "stringId": 1922693704931876868
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E1582004^触{しょく}んな！",
+              "maleVariant": "",
+              "stringId": 1922693704982208516
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソ！",
+              "maleVariant": "",
+              "stringId": 1922693705015762948
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもし？",
+              "maleVariant": "",
+              "stringId": 1922693705049317380
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E8582004^なんつうか… アレだ… 喫{きつ}煙{えん}が体{からだ}に悪{わる}いって証{しょう}拠{こ}はないわけで… だな",
+              "maleVariant": "",
+              "stringId": 1922693705099649028
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EA582004^関{かん}連{れん}性{せい}はひとつも… ゴホッゴホッ！ …咳{せき}？ 別{べつ}に咳{せき}なんてしてないだろ？ 自{じ}分{ぶん}のことは自{じ}分{ぶん}が一{いち}番{ばん}よくわかってる… ああ",
+              "maleVariant": "",
+              "stringId": 1922693705133203460
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EC582004^わかった。あいつに言{い}っとく",
+              "maleVariant": "",
+              "stringId": 1922693705166757892
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F6582004^クソ！ 逃{に}げろ！",
+              "maleVariant": "",
+              "stringId": 1922693705334530052
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F8582004^警{けい}察{さつ}を呼{よ}べ！",
+              "maleVariant": "",
+              "stringId": 1922693705368084484
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FD582004^仲{なか}間{ま}がどこまでも追{お}うからな",
+              "maleVariant": "",
+              "stringId": 1922693705451970564
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FF582004^後{こう}悔{かい}しても後{のち}の祭{まつ}りだぞ",
+              "maleVariant": "",
+              "stringId": 1922693705485524996
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4582004^お前{まえ}、俺{おれ}に用{よう}か",
+              "maleVariant": "",
+              "stringId": 1922693705569411076
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5582004^どういう了{りょう}見{けん}か言{い}ってみろ",
+              "maleVariant": "",
+              "stringId": 1922693705586188292
             }
-          }
+          ]
         }
       }
     },

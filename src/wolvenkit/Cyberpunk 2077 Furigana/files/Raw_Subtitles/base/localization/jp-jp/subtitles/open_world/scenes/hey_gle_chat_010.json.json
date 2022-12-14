@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_gle_chat_010.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6669EZ^あなた、変{か}わったね",
-                    "maleVariant": null,
-                    "stringId": 1832774546783592448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B03BCZ^成{せい}長{ちょう}したって言{い}ってくれない？",
-                    "maleVariant": null,
-                    "stringId": 1966181128498561024
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "683BCZ^成{せい}長{ちょう}？ ゾンビみたいな見{み}た目{め}をしながら、銃{じゅう}のことばっか話{はな}すようになったのが？",
-                    "maleVariant": null,
-                    "stringId": 1966181286204391424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EF3BCZ^前{まえ}はどんなことでも話{はな}せたのに… 今{いま}じゃミリテクがどうのこうのっていう話{はなし}ばっか",
-                    "maleVariant": null,
-                    "stringId": 1966181447383105536
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3BCZ^もっと気{き}楽{らく}な会{かい}話{わ}がしたい… 以{い}前{ぜん}のあなたに戻{もど}ってほしい",
-                    "maleVariant": null,
-                    "stringId": 1966181829920407552
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "633BCZ^あの頃{ごろ}の私{わたし}はもういない。ミリテクの前{まえ}の私{わたし}は… 何{なに}者{もの}でもなかった。あなたみたいにね",
-                    "maleVariant": null,
-                    "stringId": 1966181956135403520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "823BCZ^あなたも仕{し}事{ごと}を見{み}つけたらどう？ いつまでもフラフラしてるわけにもいかないでしょ",
-                    "maleVariant": null,
-                    "stringId": 1966182158518960128
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6669EZ^あなた、変{か}わったね",
+              "maleVariant": "",
+              "stringId": 1832774546783592448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B03BCZ^成{せい}長{ちょう}したって言{い}ってくれない？",
+              "maleVariant": "",
+              "stringId": 1966181128498561024
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "683BCZ^成{せい}長{ちょう}？ ゾンビみたいな見{み}た目{め}をしながら、銃{じゅう}のことばっか話{はな}すようになったのが？",
+              "maleVariant": "",
+              "stringId": 1966181286204391424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EF3BCZ^前{まえ}はどんなことでも話{はな}せたのに… 今{いま}じゃミリテクがどうのこうのっていう話{はなし}ばっか",
+              "maleVariant": "",
+              "stringId": 1966181447383105536
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3BCZ^もっと気{き}楽{らく}な会{かい}話{わ}がしたい… 以{い}前{ぜん}のあなたに戻{もど}ってほしい",
+              "maleVariant": "",
+              "stringId": 1966181829920407552
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "633BCZ^あの頃{ごろ}の私{わたし}はもういない。ミリテクの前{まえ}の私{わたし}は… 何{なに}者{もの}でもなかった。あなたみたいにね",
+              "maleVariant": "",
+              "stringId": 1966181956135403520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "823BCZ^あなたも仕{し}事{ごと}を見{み}つけたらどう？ いつまでもフラフラしてるわけにもいかないでしょ",
+              "maleVariant": "",
+              "stringId": 1966182158518960128
             }
-          }
+          ]
         }
       }
     },

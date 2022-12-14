@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_wwd_chat_001.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Mwen pap mande li anyen ankò.\" t=\"DD2C5Z^もうあいつには何{なに}も頼{たの}まない\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 1959255275444391936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Mwen te kwè se te yonn renmen lòt.\" t=\"F2C5Z^仲{なか}がいいと思{おも}ってたが\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 1964698558920413184
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Se sa menm. Mwen pa vle kraze sa a.\" t=\"1F2C5Z^いいからこそよ。その関{かん}係{けい}を壊{こわ}したくない\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 1964699379527602176
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Si mesye di non, li pral santi li wont, si mesye di wi se mwen kap santi m dròl.\" t=\"1F2C5Z^断{ことわ}れば彼{かれ}は後{うし}ろめたさを感{かん}じるし、了{りょう}承{しょう}したらしたで私{わたし}が気{き}まずくなる\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 1964700019477729280
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Wa p ekzajere. An jeneral, Jean-ki-ri... Renmen tout moun.\" t=\"7E2C5Z^考{かんが}えすぎじゃないか？ ジャンキリは… そういうのを気{き}にしないと思{おも}うが\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 1964700768395874304
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Se konsa sa ye? E ben ou pral pale ak mesye.\" t=\"BF2C5Z^だったら、あんたが彼{かれ}に頼{たの}みにいってよ\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 1964701993552072704
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"creo\" o=\"Mwen pap mande li anyen ankò.\" t=\"DD2C5Z^もうあいつには何{なに}も頼{たの}まない\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 1959255275444391936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"creo\" o=\"Mwen te kwè se te yonn renmen lòt.\" t=\"F2C5Z^仲{なか}がいいと思{おも}ってたが\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 1964698558920413184
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"creo\" o=\"Se sa menm. Mwen pa vle kraze sa a.\" t=\"1F2C5Z^いいからこそよ。その関{かん}係{けい}を壊{こわ}したくない\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 1964699379527602176
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"creo\" o=\"Si mesye di non, li pral santi li wont, si mesye di wi se mwen kap santi m dròl.\" t=\"1F2C5Z^断{ことわ}れば彼{かれ}は後{うし}ろめたさを感{かん}じるし、了{りょう}承{しょう}したらしたで私{わたし}が気{き}まずくなる\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 1964700019477729280
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"creo\" o=\"Wa p ekzajere. An jeneral, Jean-ki-ri... Renmen tout moun.\" t=\"7E2C5Z^考{かんが}えすぎじゃないか？ ジャンキリは… そういうのを気{き}にしないと思{おも}うが\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 1964700768395874304
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"creo\" o=\"Se konsa sa ye? E ben ou pral pale ak mesye.\" t=\"BF2C5Z^だったら、あんたが彼{かれ}に頼{たの}みにいってよ\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 1964701993552072704
             }
-          }
+          ]
         }
       }
     },

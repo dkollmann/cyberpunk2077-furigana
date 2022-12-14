@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_m_20_enus_20.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DD582004^何{なに}見{み}てやがる？",
-                    "maleVariant": null,
-                    "stringId": 1922843839791898628
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DE582004^何{なに}か問{もん}題{だい}でも？",
-                    "maleVariant": null,
-                    "stringId": 1922843839808675844
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E4582004^クズの分際{ぶんざい}で！",
-                    "maleVariant": null,
-                    "stringId": 1922843839909339140
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E6582004^畜{ちく}生{しょう}め！",
-                    "maleVariant": null,
-                    "stringId": 1922843839942893572
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EA582Z^もしもし、何{なん}だ？",
-                    "maleVariant": null,
-                    "stringId": 1922843840010002432
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EE582004^あー… そういうことか… なんでだよ…？ ん…？ リパーは必{ひつ}要{よう}ないって言{い}ってたぞ",
-                    "maleVariant": null,
-                    "stringId": 1922843840077111300
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F0582004^小{ちー}さすぎる…？ インプラントに重{おも}さなんて関{かん}係{けい}あるか…？ おいおい… もう聞{き}きたくない",
-                    "maleVariant": null,
-                    "stringId": 1922843840110665732
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "じゃあ",
-                    "maleVariant": null,
-                    "stringId": 1922843840144220164
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FD582004^逃{に}げないと！",
-                    "maleVariant": null,
-                    "stringId": 1922843840328769540
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FF582004^やばい、殺{ころ}される！",
-                    "maleVariant": null,
-                    "stringId": 1922843840362323972
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5582004^殺{ころ}さないでくれ！",
-                    "maleVariant": null,
-                    "stringId": 1922843840462987268
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6582004^俺{おれ}が何{なに}したってんだ？",
-                    "maleVariant": null,
-                    "stringId": 1922843840479764484
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C582004^ああん？ タレコミ屋{や}か？",
-                    "maleVariant": null,
-                    "stringId": 1922843840580427780
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E582004^他{ほか}にやることないのか？",
-                    "maleVariant": null,
-                    "stringId": 1922843840613982212
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DD582004^何{なに}見{み}てやがる？",
+              "maleVariant": "",
+              "stringId": 1922843839791898628
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DE582004^何{なに}か問{もん}題{だい}でも？",
+              "maleVariant": "",
+              "stringId": 1922843839808675844
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E4582004^クズの分際{ぶんざい}で！",
+              "maleVariant": "",
+              "stringId": 1922843839909339140
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E6582004^畜{ちく}生{しょう}め！",
+              "maleVariant": "",
+              "stringId": 1922843839942893572
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EA582Z^もしもし、何{なん}だ？",
+              "maleVariant": "",
+              "stringId": 1922843840010002432
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EE582004^あー… そういうことか… なんでだよ…？ ん…？ リパーは必{ひつ}要{よう}ないって言{い}ってたぞ",
+              "maleVariant": "",
+              "stringId": 1922843840077111300
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F0582004^小{ちー}さすぎる…？ インプラントに重{おも}さなんて関{かん}係{けい}あるか…？ おいおい… もう聞{き}きたくない",
+              "maleVariant": "",
+              "stringId": 1922843840110665732
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "じゃあ",
+              "maleVariant": "",
+              "stringId": 1922843840144220164
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FD582004^逃{に}げないと！",
+              "maleVariant": "",
+              "stringId": 1922843840328769540
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FF582004^やばい、殺{ころ}される！",
+              "maleVariant": "",
+              "stringId": 1922843840362323972
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5582004^殺{ころ}さないでくれ！",
+              "maleVariant": "",
+              "stringId": 1922843840462987268
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6582004^俺{おれ}が何{なに}したってんだ？",
+              "maleVariant": "",
+              "stringId": 1922843840479764484
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C582004^ああん？ タレコミ屋{や}か？",
+              "maleVariant": "",
+              "stringId": 1922843840580427780
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E582004^他{ほか}にやることないのか？",
+              "maleVariant": "",
+              "stringId": 1922843840613982212
             }
-          }
+          ]
         }
       }
     },

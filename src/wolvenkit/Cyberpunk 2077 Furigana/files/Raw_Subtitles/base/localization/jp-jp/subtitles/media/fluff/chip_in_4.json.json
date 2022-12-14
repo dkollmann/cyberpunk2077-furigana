@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\fluff\\chip_in_4.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "414EAZ^ハーイ、みんな元{げん}気{き}？ ワトソンで起{お}きたオールフーズストアの強{ごう}盗{とう}未{み}遂{すい}事{じ}件{けん}は見{み}た？ まだの人{にん}はとにかく見{み}て、そりゃもうスゴかったんだから！",
-                    "maleVariant": null,
-                    "stringId": 1772013622349701120
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E244DZ^ほら見{み}てこの動{うご}き！ スパッ、スパッて… 刺{さし}身{み}みたいに相{あい}手{て}をスライス！",
-                    "maleVariant": null,
-                    "stringId": 1791001787134955520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D944DZ^彼{かの}女{じょ}がどんなブレードをつけてたのか、たくさんの問{と}い合{あ}わせをもらったわ",
-                    "maleVariant": null,
-                    "stringId": 1791002087631671296
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D344DZ^だからめちゃくちゃ拡{かく}大{だい}して確{かく}認{にん}してみたところ、私{わたし}のサイバーアイが故{こ}障{しょう}してない限{かぎ}り、これはアラサカ社{しゃ}製{せい}のダイコンNtマンティスブレードね",
-                    "maleVariant": null,
-                    "stringId": 1791002302279372800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F144DZ^身{み}の安{あん}全{ぜん}を第{だい}一{いち}に考{かんが}える人{にん}には最{さい}適{てき}よ… しかも周{まわ}りに気{き}付{づ}かれないし",
-                    "maleVariant": null,
-                    "stringId": 1791002865423405056
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A44DZ^アラサカ社{しゃ}が中{ちゅう}級{きゅう}以{い}上{じょう}の社{しゃ}員{いん}全{ぜん}員{いん}を、ブレードをはじめとしたインプラントで強{きょう}化{か}してるのは有{ゆう}名{めい}よね。それどころか、生{せい}命{めい}維{い}持{じ}のためとして高{こう}感{かん}度{ど}の自{じ}動{どう}防{ぼう}衛{えい}反{はん}応{のう}システムまで装{そう}備{び}させてる",
-                    "maleVariant": null,
-                    "stringId": 1791003072001265664
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A144DZ^でも、一{いち}流{りゅう}企{き}業{ぎょう}エージェントじゃないあなたでも心{しん}配{ぱい}無{む}用{よう}よ。ダイコンNtマンティスブレードはナイトシティ市{し}民{みん}の誰{だれ}もが手{て}にできるサイバーウェアなの。もちろん、値{あたい}は張{は}るけど",
-                    "maleVariant": null,
-                    "stringId": 1791003263513186304
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5844DZ^最{さい}後{ご}まで番{ばん}組{ぐみ}を見{み}てくれてありがとう！ じゃ、明日{あした}も楽{たの}しい改{かい}造{ぞう}を！",
-                    "maleVariant": null,
-                    "stringId": 1791003910828511232
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "414EAZ^ハーイ、みんな元{げん}気{き}？ ワトソンで起{お}きたオールフーズストアの強{ごう}盗{とう}未{み}遂{すい}事{じ}件{けん}は見{み}た？ まだの人{にん}はとにかく見{み}て、そりゃもうスゴかったんだから！",
+              "maleVariant": "",
+              "stringId": 1772013622349701120
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E244DZ^ほら見{み}てこの動{うご}き！ スパッ、スパッて… 刺{さし}身{み}みたいに相{あい}手{て}をスライス！",
+              "maleVariant": "",
+              "stringId": 1791001787134955520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D944DZ^彼{かの}女{じょ}がどんなブレードをつけてたのか、たくさんの問{と}い合{あ}わせをもらったわ",
+              "maleVariant": "",
+              "stringId": 1791002087631671296
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D344DZ^だからめちゃくちゃ拡{かく}大{だい}して確{かく}認{にん}してみたところ、私{わたし}のサイバーアイが故{こ}障{しょう}してない限{かぎ}り、これはアラサカ社{しゃ}製{せい}のダイコンNtマンティスブレードね",
+              "maleVariant": "",
+              "stringId": 1791002302279372800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F144DZ^身{み}の安{あん}全{ぜん}を第{だい}一{いち}に考{かんが}える人{にん}には最{さい}適{てき}よ… しかも周{まわ}りに気{き}付{づ}かれないし",
+              "maleVariant": "",
+              "stringId": 1791002865423405056
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A44DZ^アラサカ社{しゃ}が中{ちゅう}級{きゅう}以{い}上{じょう}の社{しゃ}員{いん}全{ぜん}員{いん}を、ブレードをはじめとしたインプラントで強{きょう}化{か}してるのは有{ゆう}名{めい}よね。それどころか、生{せい}命{めい}維{い}持{じ}のためとして高{こう}感{かん}度{ど}の自{じ}動{どう}防{ぼう}衛{えい}反{はん}応{のう}システムまで装{そう}備{び}させてる",
+              "maleVariant": "",
+              "stringId": 1791003072001265664
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A144DZ^でも、一{いち}流{りゅう}企{き}業{ぎょう}エージェントじゃないあなたでも心{しん}配{ぱい}無{む}用{よう}よ。ダイコンNtマンティスブレードはナイトシティ市{し}民{みん}の誰{だれ}もが手{て}にできるサイバーウェアなの。もちろん、値{あたい}は張{は}るけど",
+              "maleVariant": "",
+              "stringId": 1791003263513186304
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5844DZ^最{さい}後{ご}まで番{ばん}組{ぐみ}を見{み}てくれてありがとう！ じゃ、明日{あした}も楽{たの}しい改{かい}造{ぞう}を！",
+              "maleVariant": "",
+              "stringId": 1791003910828511232
             }
-          }
+          ]
         }
       }
     },

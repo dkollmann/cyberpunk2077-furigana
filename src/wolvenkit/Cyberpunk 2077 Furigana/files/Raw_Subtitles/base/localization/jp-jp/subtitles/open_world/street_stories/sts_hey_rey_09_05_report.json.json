@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_hey_rey_09_05_report.json"
@@ -11,122 +11,92 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D53ABZ^無{ぶ}事{じ}、女{おんな}を確{かく}保{ほ}した",
-                    "maleVariant": null,
-                    "stringId": 1297852941909798912
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C63ABZ^女{おんな}を確{かく}保{ほ}した",
-                    "maleVariant": null,
-                    "stringId": 1297852988902780928
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "90547Z^ご苦{く}労{ろう}はん。迎{むか}えをやるわ",
-                    "maleVariant": null,
-                    "stringId": 1476513499979214848
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "21547Z^状{じょう}態{たい}は？ 無{ぶ}事{じ}なん？",
-                    "maleVariant": null,
-                    "stringId": 1476513923318706176
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6D2C5Z^焼{や}かれてはいないよ。スモークされた程{てい}度{ど}ね",
-                    "maleVariant": "6D2C5Z^焼{や}かれてはいない。スモークされた程{てい}度{ど}だ",
-                    "stringId": 1937408359773523968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FE2C5Z^先{さき}に冷{ひ}やさへんからや",
-                    "maleVariant": null,
-                    "stringId": 1937410969251368960
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "412C5004^大{だい}丈{じょう}夫{ぶ}よ",
-                    "maleVariant": "412C5004^大{だい}丈{じょう}夫{ぶ}だって",
-                    "stringId": 1937416815825932292
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "592C5Z^時{じ}間{かん}がなかった",
-                    "maleVariant": null,
-                    "stringId": 1937417125466230784
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "132C5Z^きっと大{だい}丈{じょう}夫{ぶ}よ",
-                    "maleVariant": "132C5Z^きっと大{だい}丈{じょう}夫{ぶ}だって",
-                    "stringId": 1937417729882214400
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6F2C5Z^それは起{お}きたらわかる",
-                    "maleVariant": null,
-                    "stringId": 1937418302656368640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D32C5Z^迎{むか}えをやるから、待{ま}ってなはれ",
-                    "maleVariant": null,
-                    "stringId": 1937418944284217344
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E22C5Z^時{じ}間{かん}がなかったの。五{ご}体{たい}満足{まんぞく}で連{つ}れ出{だ}すので精一杯{せいいっぱい}だった",
-                    "maleVariant": "E22C5Z^時{じ}間{かん}がなかったんだ。五{ご}体{たい}満足{まんぞく}で連{つ}れ出{だ}すので精一杯{せいいっぱい}だった",
-                    "stringId": 1937420297450573824
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C92C5Z^虫{むし}熊{くま}は何{なん}て言{い}うやろな。まあ、目{め}を覚{さ}ませたらの話{はなし}やけど",
-                    "maleVariant": null,
-                    "stringId": 1937429063059394560
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D53ABZ^無{ぶ}事{じ}、女{おんな}を確{かく}保{ほ}した",
+              "maleVariant": "",
+              "stringId": 1297852941909798912
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C63ABZ^女{おんな}を確{かく}保{ほ}した",
+              "maleVariant": "",
+              "stringId": 1297852988902780928
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "90547Z^ご苦{く}労{ろう}はん。迎{むか}えをやるわ",
+              "maleVariant": "",
+              "stringId": 1476513499979214848
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "21547Z^状{じょう}態{たい}は？ 無{ぶ}事{じ}なん？",
+              "maleVariant": "",
+              "stringId": 1476513923318706176
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6D2C5Z^焼{や}かれてはいないよ。スモークされた程{てい}度{ど}ね",
+              "maleVariant": "6D2C5Z^焼{や}かれてはいない。スモークされた程{てい}度{ど}だ",
+              "stringId": 1937408359773523968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FE2C5Z^先{さき}に冷{ひ}やさへんからや",
+              "maleVariant": "",
+              "stringId": 1937410969251368960
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "412C5004^大{だい}丈{じょう}夫{ぶ}よ",
+              "maleVariant": "412C5004^大{だい}丈{じょう}夫{ぶ}だって",
+              "stringId": 1937416815825932292
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "592C5Z^時{じ}間{かん}がなかった",
+              "maleVariant": "",
+              "stringId": 1937417125466230784
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "132C5Z^きっと大{だい}丈{じょう}夫{ぶ}よ",
+              "maleVariant": "132C5Z^きっと大{だい}丈{じょう}夫{ぶ}だって",
+              "stringId": 1937417729882214400
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6F2C5Z^それは起{お}きたらわかる",
+              "maleVariant": "",
+              "stringId": 1937418302656368640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D32C5Z^迎{むか}えをやるから、待{ま}ってなはれ",
+              "maleVariant": "",
+              "stringId": 1937418944284217344
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E22C5Z^時{じ}間{かん}がなかったの。五{ご}体{たい}満足{まんぞく}で連{つ}れ出{だ}すので精一杯{せいいっぱい}だった",
+              "maleVariant": "E22C5Z^時{じ}間{かん}がなかったんだ。五{ご}体{たい}満足{まんぞく}で連{つ}れ出{だ}すので精一杯{せいいっぱい}だった",
+              "stringId": 1937420297450573824
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C92C5Z^虫{むし}熊{くま}は何{なん}て言{い}うやろな。まあ、目{め}を覚{さ}ませたらの話{はなし}やけど",
+              "maleVariant": "",
+              "stringId": 1937429063059394560
             }
-          }
+          ]
         }
       }
     },

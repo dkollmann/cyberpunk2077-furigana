@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\quests\\sq021_04_quest_consequence_a.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2A4EAZ^注{ちゅう}目{もく}の事{じ}件{けん}が悲{かな}しい結{けつ}末{まつ}を迎{むか}えました。“ピーター・パン”という二{ふた}つ名{めい}でも知{し}られるアンソニー・ハリス容{よう}疑{ぎ}者{しゃ}に複{ふく}数{すう}の少{しょう}年{ねん}が誘{ゆう}拐{かい}された一{いっ}件{けん}ですが――",
-                    "maleVariant": null,
-                    "stringId": 1792302175591768064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "313BCZ^NCPDによる懸{けん}命{めい}な捜{そう}索{さく}もむなしく、少{しょう}年{ねん}たちは無{む}残{ざん}な姿{すがた}で発{はっ}見{けん}されました",
-                    "maleVariant": null,
-                    "stringId": 1802331654488571904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "163BCZ^遺{い}体{たい}は廃{はい}墟{きょ}となった農{のう}場{じょう}で発{はっ}見{けん}され、死{し}因{いん}は脱水{だっすい}と疲{ひ}労{ろう}とのこと",
-                    "maleVariant": null,
-                    "stringId": 1802331898848722944
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B73BCZ^今{こん}回{かい}の“ピーター・パン”事{じ}件{けん}もまた、ナイトシティにおけるモラルの崩{ほう}壊{かい}を表{あらわ}しているといえるでしょう",
-                    "maleVariant": null,
-                    "stringId": 1802332202197565440
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A73BCZ^ナイトシティの犯{はん}罪{ざい}発{はっ}生{せい}率{りつ}は今{いま}や新{しん}合{ごう}衆{しゅう}国{くに}のおよそ2倍{ばい}です。現{げん}時{じ}点{てん}では、新{しん}合{ごう}衆{しゅう}国{くに}との結{むす}びつきを強{つよ}めることこそが、シティの治{ち}安{あん}改{かい}善{ぜん}への近{ちか}道{みち}であると言{い}えるのではないでしょうか",
-                    "maleVariant": null,
-                    "stringId": 1802332446742265856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DE3BCZ^CMの後{のち}、さらに詳{くわ}しくお伝{つた}えします",
-                    "maleVariant": null,
-                    "stringId": 1802332636643573760
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2A4EAZ^注{ちゅう}目{もく}の事{じ}件{けん}が悲{かな}しい結{けつ}末{まつ}を迎{むか}えました。“ピーター・パン”という二{ふた}つ名{めい}でも知{し}られるアンソニー・ハリス容{よう}疑{ぎ}者{しゃ}に複{ふく}数{すう}の少{しょう}年{ねん}が誘{ゆう}拐{かい}された一{いっ}件{けん}ですが――",
+              "maleVariant": "",
+              "stringId": 1792302175591768064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "313BCZ^NCPDによる懸{けん}命{めい}な捜{そう}索{さく}もむなしく、少{しょう}年{ねん}たちは無{む}残{ざん}な姿{すがた}で発{はっ}見{けん}されました",
+              "maleVariant": "",
+              "stringId": 1802331654488571904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "163BCZ^遺{い}体{たい}は廃{はい}墟{きょ}となった農{のう}場{じょう}で発{はっ}見{けん}され、死{し}因{いん}は脱水{だっすい}と疲{ひ}労{ろう}とのこと",
+              "maleVariant": "",
+              "stringId": 1802331898848722944
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B73BCZ^今{こん}回{かい}の“ピーター・パン”事{じ}件{けん}もまた、ナイトシティにおけるモラルの崩{ほう}壊{かい}を表{あらわ}しているといえるでしょう",
+              "maleVariant": "",
+              "stringId": 1802332202197565440
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A73BCZ^ナイトシティの犯{はん}罪{ざい}発{はっ}生{せい}率{りつ}は今{いま}や新{しん}合{ごう}衆{しゅう}国{くに}のおよそ2倍{ばい}です。現{げん}時{じ}点{てん}では、新{しん}合{ごう}衆{しゅう}国{くに}との結{むす}びつきを強{つよ}めることこそが、シティの治{ち}安{あん}改{かい}善{ぜん}への近{ちか}道{みち}であると言{い}えるのではないでしょうか",
+              "maleVariant": "",
+              "stringId": 1802332446742265856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DE3BCZ^CMの後{のち}、さらに詳{くわ}しくお伝{つた}えします",
+              "maleVariant": "",
+              "stringId": 1802332636643573760
             }
-          }
+          ]
         }
       }
     },

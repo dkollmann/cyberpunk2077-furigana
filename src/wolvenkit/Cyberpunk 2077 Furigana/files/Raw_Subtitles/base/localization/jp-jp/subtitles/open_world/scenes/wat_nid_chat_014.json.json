@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_nid_chat_014.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1447EZ^まったく… なんで仕{し}事{ごと}に使{つか}う物{もの}が全{ぜん}部{ぶ}自腹{じばら}なんだ？ 給{きゅう}料{りょう}も自{じ}分{ぶん}で払{はら}えってわけじゃないよな？",
-                    "maleVariant": null,
-                    "stringId": 2156376068888977408
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "113BCZ^そういうもんなんだよ。仕{し}事{ごと}が欲{ほっ}しけりゃ、それなりの投{とう}資{し}が必{ひつ}要{よう}だ",
-                    "maleVariant": null,
-                    "stringId": 2170848571027079168
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E13BCZ^それなり？ 今{こん}年{ねん}でもう二{に}回{かい}目{め}だぞ？ 仕{し}事{ごと}着{ぎ}を買{か}えって言{い}うなら、その分{ふん}給{きゅう}料{りょう}を上{あ}げろってんだ！",
-                    "maleVariant": null,
-                    "stringId": 2170848969653731328
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "513BCZ^仕{し}事{ごと}があるだけ恵{めぐ}まれてる",
-                    "maleVariant": null,
-                    "stringId": 2170849181986177024
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "123BCZ^稼{かせ}ぐためだ。月{がつ}に何{なん}日{にち}か食{しょく}事{じ}を我{が}慢{まん}すれば、十{じゅう}分{ぶん}金{きん}は作{つく}れる",
-                    "maleVariant": null,
-                    "stringId": 2170849399972544512
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "113BCZ^健{けん}康{こう}にもいいらしいぞ。デトックスとか言{い}ってな",
-                    "maleVariant": null,
-                    "stringId": 2170849571754459136
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "423BCZ^ケッ… 飯{めし}を抜{ぬ}いたら勤{きん}務{む}中{ちゅう}にぶっ倒{たお}れて、クビになるに決{き}まってる",
-                    "maleVariant": null,
-                    "stringId": 2170849765850071040
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1447EZ^まったく… なんで仕{し}事{ごと}に使{つか}う物{もの}が全{ぜん}部{ぶ}自腹{じばら}なんだ？ 給{きゅう}料{りょう}も自{じ}分{ぶん}で払{はら}えってわけじゃないよな？",
+              "maleVariant": "",
+              "stringId": 2156376068888977408
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "113BCZ^そういうもんなんだよ。仕{し}事{ごと}が欲{ほっ}しけりゃ、それなりの投{とう}資{し}が必{ひつ}要{よう}だ",
+              "maleVariant": "",
+              "stringId": 2170848571027079168
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E13BCZ^それなり？ 今{こん}年{ねん}でもう二{に}回{かい}目{め}だぞ？ 仕{し}事{ごと}着{ぎ}を買{か}えって言{い}うなら、その分{ふん}給{きゅう}料{りょう}を上{あ}げろってんだ！",
+              "maleVariant": "",
+              "stringId": 2170848969653731328
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "513BCZ^仕{し}事{ごと}があるだけ恵{めぐ}まれてる",
+              "maleVariant": "",
+              "stringId": 2170849181986177024
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "123BCZ^稼{かせ}ぐためだ。月{がつ}に何{なん}日{にち}か食{しょく}事{じ}を我{が}慢{まん}すれば、十{じゅう}分{ぶん}金{きん}は作{つく}れる",
+              "maleVariant": "",
+              "stringId": 2170849399972544512
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "113BCZ^健{けん}康{こう}にもいいらしいぞ。デトックスとか言{い}ってな",
+              "maleVariant": "",
+              "stringId": 2170849571754459136
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "423BCZ^ケッ… 飯{めし}を抜{ぬ}いたら勤{きん}務{む}中{ちゅう}にぶっ倒{たお}れて、クビになるに決{き}まってる",
+              "maleVariant": "",
+              "stringId": 2170849765850071040
             }
-          }
+          ]
         }
       }
     },

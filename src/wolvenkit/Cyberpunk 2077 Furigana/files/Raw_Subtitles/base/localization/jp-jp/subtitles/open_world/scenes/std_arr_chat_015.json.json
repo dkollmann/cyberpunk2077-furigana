@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_arr_chat_015.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7076DZ^ここよ、ここ！ あの人{にん}たちがライブをした店{みせ}に自{じ}分{ぶん}がいるなんて！",
-                    "maleVariant": null,
-                    "stringId": 2167890254985875456
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "28559Z^はいはい、よかったね。もう行{い}かない？",
-                    "maleVariant": null,
-                    "stringId": 2214431610316886016
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "38559Z^もう、冷{つめ}たいな",
-                    "maleVariant": null,
-                    "stringId": 2221584187127074816
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CA559Z^音{おん}楽{がく}は好{す}きよ。ライブにもよく行{い}くし。脳細胞{のうさいぼう}がイカレてたら、私{わたし}もファンになってたかもね",
-                    "maleVariant": null,
-                    "stringId": 2221584597598441472
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "59559Z^でも生憎{あいにく}そうじゃない",
-                    "maleVariant": null,
-                    "stringId": 2221594023155830784
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8559Z^ジョニーが演{えん}ったのよ。〈Samurai〉と",
-                    "maleVariant": null,
-                    "stringId": 2221594210775437312
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ふうん。だから？",
-                    "maleVariant": null,
-                    "stringId": 2221594701509005312
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7076DZ^ここよ、ここ！ あの人{にん}たちがライブをした店{みせ}に自{じ}分{ぶん}がいるなんて！",
+              "maleVariant": "",
+              "stringId": 2167890254985875456
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "28559Z^はいはい、よかったね。もう行{い}かない？",
+              "maleVariant": "",
+              "stringId": 2214431610316886016
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "38559Z^もう、冷{つめ}たいな",
+              "maleVariant": "",
+              "stringId": 2221584187127074816
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CA559Z^音{おん}楽{がく}は好{す}きよ。ライブにもよく行{い}くし。脳細胞{のうさいぼう}がイカレてたら、私{わたし}もファンになってたかもね",
+              "maleVariant": "",
+              "stringId": 2221584597598441472
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "59559Z^でも生憎{あいにく}そうじゃない",
+              "maleVariant": "",
+              "stringId": 2221594023155830784
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8559Z^ジョニーが演{えん}ったのよ。〈Samurai〉と",
+              "maleVariant": "",
+              "stringId": 2221594210775437312
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ふうん。だから？",
+              "maleVariant": "",
+              "stringId": 2221594701509005312
             }
-          }
+          ]
         }
       }
     },

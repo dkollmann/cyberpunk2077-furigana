@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_nok_chat_021.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6D47AZ^アフターライフに行{い}ってみるか。デカい仕{し}事{ごと}にありつけるかもしれん",
-                    "maleVariant": null,
-                    "stringId": 2159445825242505216
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6742FZ^やめとけ、チューマ。アフターライフのバウンサーをやってた時{とき}に、お前{まえ}みたいな奴{やつ}をたくさん見{み}た",
-                    "maleVariant": null,
-                    "stringId": 2199481560359694336
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B442FZ^「この街{まち}は俺{おれ}のものだ」とでも言{い}わんばかりに、目{め}をギラつかせた奴{やつ}らをな",
-                    "maleVariant": null,
-                    "stringId": 2199483687660351488
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BF42FZ^入{い}る時{とき}は威{い}勢{せい}のよかった連{れん}中{ちゅう}が、帰{かえ}る時{とき}はどうなってたと思{おも}う？",
-                    "maleVariant": null,
-                    "stringId": 2199485195378421760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "さあ？",
-                    "maleVariant": null,
-                    "stringId": 2199487287312707584
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BC42FZ^希{き}望{ぼう}を失{うしな}い、うつろな目{め}をしてりゃ、まだマシな方{ほう}さ。ひどけりゃ死{し}体{たい}袋{ふくろ}の中{なか}だ",
-                    "maleVariant": null,
-                    "stringId": 2199487342811738112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C42FZ^フィクサーとコネができれば、ビッグになれると思{おも}ったか？ 経{けい}験{けん}上{じょう}言{い}わせてもらう――そいつは大{おお}きな間{ま}違{ちが}いだ",
-                    "maleVariant": null,
-                    "stringId": 2199487833780187136
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FB42FZ^あそこには近{ちか}寄{よ}るな。生{い}きて『ブシドー』シリーズの新{しん}作{さく}を見{み}たいだろ？",
-                    "maleVariant": null,
-                    "stringId": 2199489087625424896
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6D47AZ^アフターライフに行{い}ってみるか。デカい仕{し}事{ごと}にありつけるかもしれん",
+              "maleVariant": "",
+              "stringId": 2159445825242505216
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6742FZ^やめとけ、チューマ。アフターライフのバウンサーをやってた時{とき}に、お前{まえ}みたいな奴{やつ}をたくさん見{み}た",
+              "maleVariant": "",
+              "stringId": 2199481560359694336
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B442FZ^「この街{まち}は俺{おれ}のものだ」とでも言{い}わんばかりに、目{め}をギラつかせた奴{やつ}らをな",
+              "maleVariant": "",
+              "stringId": 2199483687660351488
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BF42FZ^入{い}る時{とき}は威{い}勢{せい}のよかった連{れん}中{ちゅう}が、帰{かえ}る時{とき}はどうなってたと思{おも}う？",
+              "maleVariant": "",
+              "stringId": 2199485195378421760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "さあ？",
+              "maleVariant": "",
+              "stringId": 2199487287312707584
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BC42FZ^希{き}望{ぼう}を失{うしな}い、うつろな目{め}をしてりゃ、まだマシな方{ほう}さ。ひどけりゃ死{し}体{たい}袋{ふくろ}の中{なか}だ",
+              "maleVariant": "",
+              "stringId": 2199487342811738112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C42FZ^フィクサーとコネができれば、ビッグになれると思{おも}ったか？ 経{けい}験{けん}上{じょう}言{い}わせてもらう――そいつは大{おお}きな間{ま}違{ちが}いだ",
+              "maleVariant": "",
+              "stringId": 2199487833780187136
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FB42FZ^あそこには近{ちか}寄{よ}るな。生{い}きて『ブシドー』シリーズの新{しん}作{さく}を見{み}たいだろ？",
+              "maleVariant": "",
+              "stringId": 2199489087625424896
             }
-          }
+          ]
         }
       }
     },

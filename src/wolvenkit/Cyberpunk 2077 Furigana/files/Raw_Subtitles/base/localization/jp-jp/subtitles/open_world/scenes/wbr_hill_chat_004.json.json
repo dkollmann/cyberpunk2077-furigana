@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_hill_chat_004.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EC69EZ^いつも言{い}ってるだろ？ リスクを恐{おそ}れてたら何{なに}も成{な}し遂{と}げられないって",
-                    "maleVariant": null,
-                    "stringId": 1806742988473884672
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7D69EZ^うん、そうね。ねえ、明日{あした}姉{ねえ}さんのとこに行{い}かない？",
-                    "maleVariant": null,
-                    "stringId": 1806743579317100544
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D069EZ^やっぱ俺{おれ}、向{む}いてんだな。今{こん}日{にち}はショートで、17%の利{り}益{えき}だぞ",
-                    "maleVariant": null,
-                    "stringId": 1806743791163006976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4C69EZ^やっぱいい。私{わたし}一{ひと}人{り}で行{い}くから",
-                    "maleVariant": null,
-                    "stringId": 1806744038056517632
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9269EZ^ん？ ああ、そうしろよ。俺{おれ}は忙{いそが}しいし。メシはどうだ？",
-                    "maleVariant": null,
-                    "stringId": 1806744357058502656
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "はあ…",
-                    "maleVariant": null,
-                    "stringId": 1806744877689069568
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7169EZ^何{なん}だよ？",
-                    "maleVariant": null,
-                    "stringId": 1806745086649294848
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5469EZ^別{べつ}に",
-                    "maleVariant": null,
-                    "stringId": 1806745318090989568
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EC69EZ^いつも言{い}ってるだろ？ リスクを恐{おそ}れてたら何{なに}も成{な}し遂{と}げられないって",
+              "maleVariant": "",
+              "stringId": 1806742988473884672
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7D69EZ^うん、そうね。ねえ、明日{あした}姉{ねえ}さんのとこに行{い}かない？",
+              "maleVariant": "",
+              "stringId": 1806743579317100544
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D069EZ^やっぱ俺{おれ}、向{む}いてんだな。今{こん}日{にち}はショートで、17%の利{り}益{えき}だぞ",
+              "maleVariant": "",
+              "stringId": 1806743791163006976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4C69EZ^やっぱいい。私{わたし}一{ひと}人{り}で行{い}くから",
+              "maleVariant": "",
+              "stringId": 1806744038056517632
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9269EZ^ん？ ああ、そうしろよ。俺{おれ}は忙{いそが}しいし。メシはどうだ？",
+              "maleVariant": "",
+              "stringId": 1806744357058502656
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "はあ…",
+              "maleVariant": "",
+              "stringId": 1806744877689069568
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7169EZ^何{なん}だよ？",
+              "maleVariant": "",
+              "stringId": 1806745086649294848
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5469EZ^別{べつ}に",
+              "maleVariant": "",
+              "stringId": 1806745318090989568
             }
-          }
+          ]
         }
       }
     },

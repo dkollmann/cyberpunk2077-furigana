@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_east_013.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"mex\" o=\"La carcelera de mi mujer me pidió que gorroneara un filtro de aire, como si tuviera edis de sobra tirados por ahí.\" t=\"BA652Z^うちの人{にん}に空{くう}気{き}フィルターを買{か}ってこいって言{い}われてさ。そんな金{かね}持{も}ってるわけないのに\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 2178197413232451584
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"mex\" o=\"Además, ¿para qué chingados necesito un filtro? Se va a tapar a la primera tormenta que azote.\" t=\"232B6Z^大{だい}体{たい}… フィルターなんて要{い}る？ 大{おお}きい嵐{あらし}が来{き}たら一発{いっぱつ}でダメになるのに\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 2188375757337354240
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "592B6Z^一{ひと}つやろうか。タダでいい。昨日{きのう}トレーラーが取{と}り壊{こわ}されてな… ま、フィルターが無{ぶ}事{じ}だったらの話{はなし}だが",
-                    "maleVariant": null,
-                    "stringId": 2188376222099791872
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"mex\" o=\"Ah, chingao. ¿Qué pasó?\" t=\"D82B6Z^えっ、何{なに}があったの？\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 2189428516987822080
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "472B6Z^借金{しゃっきん}で首{くび}が回{まわ}らなくて、家{いえ}を手放{てばな}すはめになったんだ。でも相{あい}手{て}は土{と}地{ち}のほうが価{か}値{ち}がありそうだって…",
-                    "maleVariant": null,
-                    "stringId": 2189432968436211712
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"mex\" o=\"Güey, eso... es una pinche mierda.\" t=\"642B6Z^うわ、そんな… 大{たい}変{へん}だね\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 2189434094204182528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BD2B6Z^まあな。だが、おかげで久{ひさ}しぶりに立{た}ち退{しりぞ}き命{めい}令{れい}の心{しん}配{ぱい}をしなくてよくなった",
-                    "maleVariant": null,
-                    "stringId": 2189434306150752256
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "342B6Z^久{ひさ}しぶりに… 自{じ}由{ゆう}になった気{き}分{ぶん}だ",
-                    "maleVariant": null,
-                    "stringId": 2189437641041862656
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"mex\" o=\"La carcelera de mi mujer me pidió que gorroneara un filtro de aire, como si tuviera edis de sobra tirados por ahí.\" t=\"BA652Z^うちの人{にん}に空{くう}気{き}フィルターを買{か}ってこいって言{い}われてさ。そんな金{かね}持{も}ってるわけないのに\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 2178197413232451584
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"mex\" o=\"Además, ¿para qué chingados necesito un filtro? Se va a tapar a la primera tormenta que azote.\" t=\"232B6Z^大{だい}体{たい}… フィルターなんて要{い}る？ 大{おお}きい嵐{あらし}が来{き}たら一発{いっぱつ}でダメになるのに\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 2188375757337354240
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "592B6Z^一{ひと}つやろうか。タダでいい。昨日{きのう}トレーラーが取{と}り壊{こわ}されてな… ま、フィルターが無{ぶ}事{じ}だったらの話{はなし}だが",
+              "maleVariant": "",
+              "stringId": 2188376222099791872
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"mex\" o=\"Ah, chingao. ¿Qué pasó?\" t=\"D82B6Z^えっ、何{なに}があったの？\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 2189428516987822080
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "472B6Z^借金{しゃっきん}で首{くび}が回{まわ}らなくて、家{いえ}を手放{てばな}すはめになったんだ。でも相{あい}手{て}は土{と}地{ち}のほうが価{か}値{ち}がありそうだって…",
+              "maleVariant": "",
+              "stringId": 2189432968436211712
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"mex\" o=\"Güey, eso... es una pinche mierda.\" t=\"642B6Z^うわ、そんな… 大{たい}変{へん}だね\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 2189434094204182528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BD2B6Z^まあな。だが、おかげで久{ひさ}しぶりに立{た}ち退{しりぞ}き命{めい}令{れい}の心{しん}配{ぱい}をしなくてよくなった",
+              "maleVariant": "",
+              "stringId": 2189434306150752256
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "342B6Z^久{ひさ}しぶりに… 自{じ}由{ゆう}になった気{き}分{ぶん}だ",
+              "maleVariant": "",
+              "stringId": 2189437641041862656
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_prst_f_03_mex_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "コモ・エスタス？",
-                    "maleVariant": null,
-                    "stringId": 1955902911169994756
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BC70A004^望{のぞ}みどおりの人{にん}になってあげる",
-                    "maleVariant": null,
-                    "stringId": 1955902911186771972
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BF70A004^触{ふ}らないで！",
-                    "maleVariant": null,
-                    "stringId": 1955902911237103620
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C070A004^手{て}どけて！",
-                    "maleVariant": null,
-                    "stringId": 1955902911253880836
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "アドバイスしてあげる",
-                    "maleVariant": null,
-                    "stringId": 1955902911287435268
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C570A004^あなたはまだ新{しん}人{じん}なんだから… 紫{し}外{がい}線{せん}はポールで踊{おど}る時{とき}だけね… それでお客{きゃく}が集{あつ}まってくる",
-                    "maleVariant": null,
-                    "stringId": 1955902911337766916
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C670A004^キラキラはもった？ …絶{ぜっ}対{たい}に必{ひつ}要{よう}よ。 ローションも。それさえあれば、たいていなんとかなる",
-                    "maleVariant": null,
-                    "stringId": 1955902911354544132
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CA70A004^頑{がん}張{ば}って",
-                    "maleVariant": null,
-                    "stringId": 1955902911421652996
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D870A004^ああ、神{かみ}様{さま}！",
-                    "maleVariant": null,
-                    "stringId": 1955902911656534020
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D970A004^どこに隠{かく}れよう！？",
-                    "maleVariant": null,
-                    "stringId": 1955902911673311236
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DE70A004^お願{ねが}い！ 殺{ころ}さないで！",
-                    "maleVariant": null,
-                    "stringId": 1955902911757197316
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DF70A004^死{し}にたくないのよ、ねえ",
-                    "maleVariant": null,
-                    "stringId": 1955902911773974532
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ルールその1、ストーキングはNG",
-                    "maleVariant": null,
-                    "stringId": 1955902911857860612
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E570A004^シャイなのね？ 話{はなし}なら聞{き}くけど？",
-                    "maleVariant": null,
-                    "stringId": 1955902911874637828
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "コモ・エスタス？",
+              "maleVariant": "",
+              "stringId": 1955902911169994756
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BC70A004^望{のぞ}みどおりの人{にん}になってあげる",
+              "maleVariant": "",
+              "stringId": 1955902911186771972
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BF70A004^触{ふ}らないで！",
+              "maleVariant": "",
+              "stringId": 1955902911237103620
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C070A004^手{て}どけて！",
+              "maleVariant": "",
+              "stringId": 1955902911253880836
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "アドバイスしてあげる",
+              "maleVariant": "",
+              "stringId": 1955902911287435268
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C570A004^あなたはまだ新{しん}人{じん}なんだから… 紫{し}外{がい}線{せん}はポールで踊{おど}る時{とき}だけね… それでお客{きゃく}が集{あつ}まってくる",
+              "maleVariant": "",
+              "stringId": 1955902911337766916
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C670A004^キラキラはもった？ …絶{ぜっ}対{たい}に必{ひつ}要{よう}よ。 ローションも。それさえあれば、たいていなんとかなる",
+              "maleVariant": "",
+              "stringId": 1955902911354544132
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CA70A004^頑{がん}張{ば}って",
+              "maleVariant": "",
+              "stringId": 1955902911421652996
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D870A004^ああ、神{かみ}様{さま}！",
+              "maleVariant": "",
+              "stringId": 1955902911656534020
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D970A004^どこに隠{かく}れよう！？",
+              "maleVariant": "",
+              "stringId": 1955902911673311236
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DE70A004^お願{ねが}い！ 殺{ころ}さないで！",
+              "maleVariant": "",
+              "stringId": 1955902911757197316
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DF70A004^死{し}にたくないのよ、ねえ",
+              "maleVariant": "",
+              "stringId": 1955902911773974532
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ルールその1、ストーキングはNG",
+              "maleVariant": "",
+              "stringId": 1955902911857860612
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E570A004^シャイなのね？ 話{はなし}なら聞{き}くけど？",
+              "maleVariant": "",
+              "stringId": 1955902911874637828
             }
-          }
+          ]
         }
       }
     },

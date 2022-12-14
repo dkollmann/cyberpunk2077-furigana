@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_bls_ina_04_guards_chats.json"
@@ -11,106 +11,80 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あなた！ あとどれぐらいでできそう？",
-                    "maleVariant": null,
-                    "stringId": 1354469372152164352
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C846BZ^ええ、こちらは順{じゅん}調{ちょう}です。はい",
-                    "maleVariant": null,
-                    "stringId": 1650446486561271808
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AD46BZ^妨{ぼう}害{がい}電波{でんぱ}の影{えい}響{きょう}はありません。古{ふる}いテックですね",
-                    "maleVariant": null,
-                    "stringId": 1650457661613191168
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C946BZ^報{ほう}告{こく}書{しょ}にまとめて提{てい}出{しゅつ}します… もちろん… 今{こん}週{しゅう}中{ちゅう}に",
-                    "maleVariant": null,
-                    "stringId": 1650460531121106944
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DF46BZ^少{すこ}し手{て}こずってまして。その、新{あたら}しいジェネレータが…",
-                    "maleVariant": null,
-                    "stringId": 1659177644358807552
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8A46BZ^いいから、さっさと結{けっ}果{か}を出{だ}して",
-                    "maleVariant": null,
-                    "stringId": 1659177849091174400
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6646BZ^待{ま}つのは明日{あした}までよ。失敗{しっぱい}は許{ゆる}されない",
-                    "maleVariant": null,
-                    "stringId": 1659178466962485248
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2F46BZ^新{あたら}しいレーダーは、常{じょう}識{しき}破{やぶ}りの代{しろ}物{もの}さ。ああ、上{うえ}にもそう説{せつ}明{めい}したよ",
-                    "maleVariant": null,
-                    "stringId": 1670601700362596352
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F644DZ^有{ゆう}用{よう}性{せい}は… 70から80パーセントといったところです",
-                    "maleVariant": null,
-                    "stringId": 1924411937064800256
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2E44DZ^何{なに}もかも手{て}に取{と}るように見{み}えたらすごいだろ！？ 今{いま}までは、目{め}隠{かく}ししてパトロールしてたようなもんだ",
-                    "maleVariant": null,
-                    "stringId": 1924413101940461568
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "744DZ^あとは不{ふ}具{ぐ}合{あい}の修{しゅう}正{せい}とか、細{こま}かい作{さ}業{ぎょう}さ… ああ、そうか。引{ひ}き留{と}めちゃ悪{わる}いな。またな、チューマ",
-                    "maleVariant": null,
-                    "stringId": 1924414364006535168
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あなた！ あとどれぐらいでできそう？",
+              "maleVariant": "",
+              "stringId": 1354469372152164352
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C846BZ^ええ、こちらは順{じゅん}調{ちょう}です。はい",
+              "maleVariant": "",
+              "stringId": 1650446486561271808
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AD46BZ^妨{ぼう}害{がい}電波{でんぱ}の影{えい}響{きょう}はありません。古{ふる}いテックですね",
+              "maleVariant": "",
+              "stringId": 1650457661613191168
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C946BZ^報{ほう}告{こく}書{しょ}にまとめて提{てい}出{しゅつ}します… もちろん… 今{こん}週{しゅう}中{ちゅう}に",
+              "maleVariant": "",
+              "stringId": 1650460531121106944
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DF46BZ^少{すこ}し手{て}こずってまして。その、新{あたら}しいジェネレータが…",
+              "maleVariant": "",
+              "stringId": 1659177644358807552
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8A46BZ^いいから、さっさと結{けっ}果{か}を出{だ}して",
+              "maleVariant": "",
+              "stringId": 1659177849091174400
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6646BZ^待{ま}つのは明日{あした}までよ。失敗{しっぱい}は許{ゆる}されない",
+              "maleVariant": "",
+              "stringId": 1659178466962485248
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2F46BZ^新{あたら}しいレーダーは、常{じょう}識{しき}破{やぶ}りの代{しろ}物{もの}さ。ああ、上{うえ}にもそう説{せつ}明{めい}したよ",
+              "maleVariant": "",
+              "stringId": 1670601700362596352
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F644DZ^有{ゆう}用{よう}性{せい}は… 70から80パーセントといったところです",
+              "maleVariant": "",
+              "stringId": 1924411937064800256
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2E44DZ^何{なに}もかも手{て}に取{と}るように見{み}えたらすごいだろ！？ 今{いま}までは、目{め}隠{かく}ししてパトロールしてたようなもんだ",
+              "maleVariant": "",
+              "stringId": 1924413101940461568
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "744DZ^あとは不{ふ}具{ぐ}合{あい}の修{しゅう}正{せい}とか、細{こま}かい作{さ}業{ぎょう}さ… ああ、そうか。引{ひ}き留{と}めちゃ悪{わる}いな。またな、チューマ",
+              "maleVariant": "",
+              "stringId": 1924414364006535168
             }
-          }
+          ]
         }
       }
     },

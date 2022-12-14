@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\std_rcr_gunsmith_01.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FD46BZ^新{あたら}しい武{ぶ}器{き}を探{さが}してる",
-                    "maleVariant": null,
-                    "stringId": 1828465168108400640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FD46B010^お店{みせ}は順{じゅん}調{ちょう}？",
-                    "maleVariant": "FD46B010^お店{みせ}は順{じゅん}調{ちょう}か？",
-                    "stringId": 1828465168108400656
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FE46B004^新{あたら}しい銃{じゅう}を探{さが}してる",
-                    "maleVariant": null,
-                    "stringId": 1828465168125177860
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FF46BZ^なら探{さが}すのは終{お}わりね",
-                    "maleVariant": null,
-                    "stringId": 1828465168141955072
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "46B004^商{しょう}売{ばい}の調{ちょう}子{し}は？",
-                    "maleVariant": null,
-                    "stringId": 1828465168158732292
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "46B00C^まずまずね。旧{きゅう}式{しき}の銃{じゅう}を持{も}つくらいなら飢{う}え死{し}にしたほうがマシって人{にん}が多{おお}いから",
-                    "maleVariant": null,
-                    "stringId": 1828465168158732300
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FD46BZ^新{あたら}しい武{ぶ}器{き}を探{さが}してる",
+              "maleVariant": "",
+              "stringId": 1828465168108400640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FD46B010^お店{みせ}は順{じゅん}調{ちょう}？",
+              "maleVariant": "FD46B010^お店{みせ}は順{じゅん}調{ちょう}か？",
+              "stringId": 1828465168108400656
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FE46B004^新{あたら}しい銃{じゅう}を探{さが}してる",
+              "maleVariant": "",
+              "stringId": 1828465168125177860
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FF46BZ^なら探{さが}すのは終{お}わりね",
+              "maleVariant": "",
+              "stringId": 1828465168141955072
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "46B004^商{しょう}売{ばい}の調{ちょう}子{し}は？",
+              "maleVariant": "",
+              "stringId": 1828465168158732292
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "46B00C^まずまずね。旧{きゅう}式{しき}の銃{じゅう}を持{も}つくらいなら飢{う}え死{し}にしたほうがマシって人{にん}が多{おお}いから",
+              "maleVariant": "",
+              "stringId": 1828465168158732300
             }
-          }
+          ]
         }
       }
     },

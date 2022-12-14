@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_kab_chat_002.json"
@@ -11,58 +11,44 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5869EZ^この街{まち}の何{なに}が最{さい}悪{あく}かってよ…",
-                    "maleVariant": null,
-                    "stringId": 1802447636442767360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "969EZ^人混{ひとご}みか？",
-                    "maleVariant": null,
-                    "stringId": 1802449567852650496
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DF69EZ^いや。この臭{くさ}いだ",
-                    "maleVariant": null,
-                    "stringId": 1802449756126568448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まったくだ。ひでえよな",
-                    "maleVariant": null,
-                    "stringId": 1802449944601812992
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3A69EZ^小{しょう}便{べん}でクソを煮{に}込{こみ}んだ臭{くさ}いの方{ほう}が、このゴミ溜{た}めよりは幾{いく}分{ぶん}かマシだぜ",
-                    "maleVariant": null,
-                    "stringId": 1802450208624861184
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5869EZ^この街{まち}の何{なに}が最{さい}悪{あく}かってよ…",
+              "maleVariant": "",
+              "stringId": 1802447636442767360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "969EZ^人混{ひとご}みか？",
+              "maleVariant": "",
+              "stringId": 1802449567852650496
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DF69EZ^いや。この臭{くさ}いだ",
+              "maleVariant": "",
+              "stringId": 1802449756126568448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まったくだ。ひでえよな",
+              "maleVariant": "",
+              "stringId": 1802449944601812992
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3A69EZ^小{しょう}便{べん}でクソを煮{に}込{こみ}んだ臭{くさ}いの方{ほう}が、このゴミ溜{た}めよりは幾{いく}分{ぶん}かマシだぜ",
+              "maleVariant": "",
+              "stringId": 1802450208624861184
             }
-          }
+          ]
         }
       }
     },

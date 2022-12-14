@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\wbr_jpn_food_01.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5A464Z^何{なに}か食{た}べたい",
-                    "maleVariant": null,
-                    "stringId": 1883814451866910720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5A464010^ナイトシティに来{き}て長{なが}いの？",
-                    "maleVariant": "5A464010^ナイトシティに来{き}て長{なが}いのか？",
-                    "stringId": 1883814451866910736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5E464004^腹{はら}ごしらえをしたい",
-                    "maleVariant": null,
-                    "stringId": 1883814451934019588
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5E46400C^いらっしゃい。何{なに}がいい？",
-                    "maleVariant": null,
-                    "stringId": 1883814451934019596
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "62464004^ナイトシティは長{なが}いの？",
-                    "maleVariant": "62464004^ナイトシティは長{なが}いのか？",
-                    "stringId": 1883814452001128452
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6246400C^そういう他{た}愛{あい}もない話{はなし}で油{ゆ}断{だん}させようって魂{こん}胆{たん}でしょ？ 食{くっ}って金{かね}払{ばら}ったら、さっさと行{い}って",
-                    "maleVariant": null,
-                    "stringId": 1883814452001128460
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5A464Z^何{なに}か食{た}べたい",
+              "maleVariant": "",
+              "stringId": 1883814451866910720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5A464010^ナイトシティに来{き}て長{なが}いの？",
+              "maleVariant": "5A464010^ナイトシティに来{き}て長{なが}いのか？",
+              "stringId": 1883814451866910736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5E464004^腹{はら}ごしらえをしたい",
+              "maleVariant": "",
+              "stringId": 1883814451934019588
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5E46400C^いらっしゃい。何{なに}がいい？",
+              "maleVariant": "",
+              "stringId": 1883814451934019596
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "62464004^ナイトシティは長{なが}いの？",
+              "maleVariant": "62464004^ナイトシティは長{なが}いのか？",
+              "stringId": 1883814452001128452
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6246400C^そういう他{た}愛{あい}もない話{はなし}で油{ゆ}断{だん}させようって魂{こん}胆{たん}でしょ？ 食{くっ}って金{かね}払{ばら}ったら、さっさと行{い}って",
+              "maleVariant": "",
+              "stringId": 1883814452001128460
             }
-          }
+          ]
         }
       }
     },

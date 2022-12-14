@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_020.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9C647Z^チューマ、本{ほん}当{とう}なんだって。ひと吸{す}いで、一{いっ}気{き}に動{どう}作{さ}が加{か}速{そく}する",
-                    "maleVariant": null,
-                    "stringId": 2156504434860126208
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5E3BCZ^おまけに、効{き}き目{め}の持{も}ちがいいんだ。仕{し}事{ごと}前{まえ}にキメれば、夜{よる}寝{ね}るまで持{も}つ",
-                    "maleVariant": null,
-                    "stringId": 2176426751288918016
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AC3BCZ^いや、遠{えん}慮{りょ}する",
-                    "maleVariant": null,
-                    "stringId": 2176426967345905664
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AE3BCZ^その手{て}の新{あたら}しい品{ひん}が出{で}回{まわ}ると、決{き}まって傭{よう}兵{へい}がバタバタ死{し}にはじめる",
-                    "maleVariant": null,
-                    "stringId": 2176427323861745664
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4E3BCZ^いきなり心{しん}臓{ぞう}が止{と}まったり、コプロセッサがオーバーヒートしたりな…",
-                    "maleVariant": null,
-                    "stringId": 2176427468280020992
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8D3BCZ^ただの噂{うわさ}だろ。一{いち}部{ぶ}の間{ま}抜{ぬ}けがオーバードースしたからって、やめることはない。何{なに}事{ごと}もほどほどにってな",
-                    "maleVariant": null,
-                    "stringId": 2176427684085350400
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BC3BCZ^クロームと一{いっ}緒{しょ}で薬{くすり}も仕{し}事{ごと}のうちさ。使{つか}わなきゃ結{けっ}果{か}も出{だ}せない。それだけのことだろ",
-                    "maleVariant": null,
-                    "stringId": 2176428217449824256
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9C647Z^チューマ、本{ほん}当{とう}なんだって。ひと吸{す}いで、一{いっ}気{き}に動{どう}作{さ}が加{か}速{そく}する",
+              "maleVariant": "",
+              "stringId": 2156504434860126208
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5E3BCZ^おまけに、効{き}き目{め}の持{も}ちがいいんだ。仕{し}事{ごと}前{まえ}にキメれば、夜{よる}寝{ね}るまで持{も}つ",
+              "maleVariant": "",
+              "stringId": 2176426751288918016
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AC3BCZ^いや、遠{えん}慮{りょ}する",
+              "maleVariant": "",
+              "stringId": 2176426967345905664
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AE3BCZ^その手{て}の新{あたら}しい品{ひん}が出{で}回{まわ}ると、決{き}まって傭{よう}兵{へい}がバタバタ死{し}にはじめる",
+              "maleVariant": "",
+              "stringId": 2176427323861745664
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4E3BCZ^いきなり心{しん}臓{ぞう}が止{と}まったり、コプロセッサがオーバーヒートしたりな…",
+              "maleVariant": "",
+              "stringId": 2176427468280020992
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8D3BCZ^ただの噂{うわさ}だろ。一{いち}部{ぶ}の間{ま}抜{ぬ}けがオーバードースしたからって、やめることはない。何{なに}事{ごと}もほどほどにってな",
+              "maleVariant": "",
+              "stringId": 2176427684085350400
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BC3BCZ^クロームと一{いっ}緒{しょ}で薬{くすり}も仕{し}事{ごと}のうちさ。使{つか}わなきゃ結{けっ}果{か}も出{だ}せない。それだけのことだろ",
+              "maleVariant": "",
+              "stringId": 2176428217449824256
             }
-          }
+          ]
         }
       }
     },

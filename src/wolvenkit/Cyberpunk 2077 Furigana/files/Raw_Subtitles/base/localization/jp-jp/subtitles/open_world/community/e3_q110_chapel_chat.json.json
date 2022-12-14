@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\community\\e3_q110_chapel_chat.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Ou dwe fè li. Ou pral santi pi bon, plis konfòtab nan pwòp po ou?\" t=\"78513Z^絶{ぜっ}対{たい}やるべきよ。 気{き}分{ぶん}がよくなる。自{じ}分{ぶん}の体{からだ}が もっと居心地{いごこち}よくなるの\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 1709764742401306624
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Men, si mwen pa fè sa?\" t=\"でも、よくならなかったら？\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 1711102105154539520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Kisa ou vle di? E si ou pa fè sa?\" t=\"E628DZ^どういう意{い}味{み}？\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 1711102514887708672
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Mwe pa konnen, e - si mwen pa renmen li, kisa?\" t=\"4E28DZ^もし気{き}に入{い}らなかったら、 どうするの？\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 1711102628301688832
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Kisa ou ap pale laa? Tout moun renmen li?\" t=\"F528DZ^何言{なにごと}ってるの？ みんな気{き}に入{い}ってるわ\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 1711102807197143040
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Men mwen pa tout moun?\" t=\"3F28DZ^私{わたし}は“みんな”と違{ちが}う\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 1711103615892508672
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Vrèman?\" t=\"そのとおりね\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 1711103991685369856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Kisa sa sipoze vle di?\" t=\"AE28DZ^何{なに}が言{い}いたいのよ\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 1711104236230070272
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Egzakteman sa. Ou enposib. Chak ti bagay, li toujou, $€men kisa de sa, e sa?$€ Jezi?\" t=\"8C28DZ^だってそうじゃない。 人{にん}と違{ちが}わないと気{き}が済{す}まないん でしょ？ 付{つ}き合{あ}いきれない\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 1711104437523107840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Um byen, eskiiiiiz'm?\" t=\"528DZ^悪{わる}かったわね\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 1711104731610927104
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"creo\" o=\"Ou dwe fè li. Ou pral santi pi bon, plis konfòtab nan pwòp po ou?\" t=\"78513Z^絶{ぜっ}対{たい}やるべきよ。 気{き}分{ぶん}がよくなる。自{じ}分{ぶん}の体{からだ}が もっと居心地{いごこち}よくなるの\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 1709764742401306624
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"creo\" o=\"Men, si mwen pa fè sa?\" t=\"でも、よくならなかったら？\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 1711102105154539520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"creo\" o=\"Kisa ou vle di? E si ou pa fè sa?\" t=\"E628DZ^どういう意{い}味{み}？\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 1711102514887708672
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"creo\" o=\"Mwe pa konnen, e - si mwen pa renmen li, kisa?\" t=\"4E28DZ^もし気{き}に入{い}らなかったら、 どうするの？\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 1711102628301688832
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"creo\" o=\"Kisa ou ap pale laa? Tout moun renmen li?\" t=\"F528DZ^何言{なにごと}ってるの？ みんな気{き}に入{い}ってるわ\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 1711102807197143040
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"creo\" o=\"Men mwen pa tout moun?\" t=\"3F28DZ^私{わたし}は“みんな”と違{ちが}う\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 1711103615892508672
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"creo\" o=\"Vrèman?\" t=\"そのとおりね\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 1711103991685369856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"creo\" o=\"Kisa sa sipoze vle di?\" t=\"AE28DZ^何{なに}が言{い}いたいのよ\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 1711104236230070272
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"creo\" o=\"Egzakteman sa. Ou enposib. Chak ti bagay, li toujou, $€men kisa de sa, e sa?$€ Jezi?\" t=\"8C28DZ^だってそうじゃない。 人{にん}と違{ちが}わないと気{き}が済{す}まないん でしょ？ 付{つ}き合{あ}いきれない\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 1711104437523107840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"creo\" o=\"Um byen, eskiiiiiz'm?\" t=\"528DZ^悪{わる}かったわね\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 1711104731610927104
             }
-          }
+          ]
         }
       }
     },

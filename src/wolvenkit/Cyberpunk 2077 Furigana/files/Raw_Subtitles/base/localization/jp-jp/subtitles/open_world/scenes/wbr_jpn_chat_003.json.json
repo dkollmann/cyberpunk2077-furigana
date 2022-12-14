@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_jpn_chat_003.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7869EZ^す、すみません。少{すこ}しお時{じ}間{かん}をいただいても？",
-                    "maleVariant": null,
-                    "stringId": 1806839159435419648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7369EZ^助{たす}かります！",
-                    "maleVariant": null,
-                    "stringId": 1806846761443647488
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あざーす！",
-                    "maleVariant": null,
-                    "stringId": 1806846888933711872
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1769EZ^ん？ 今{こん}度{ど}はどうしたんだ？",
-                    "maleVariant": null,
-                    "stringId": 1806850354787770368
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C769EZ^うちのビルの配{はい}水{すい}管{かん}が破{は}裂{れつ}しまして…",
-                    "maleVariant": null,
-                    "stringId": 1806850473704677376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C869EZ^市{し}の奴{やつ}ら、誰{だれ}も修{しゅう}理{り}によこさねえんだ",
-                    "maleVariant": null,
-                    "stringId": 1806850593980538880
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9469EZ^言葉{ことば}に気{き}をつけろ！ 誰{だれ}に話{はな}してると思{おも}ってる！",
-                    "maleVariant": null,
-                    "stringId": 1806851069849493504
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E169EZ^いい。で、何{なに}が必{ひつ}要{よう}なんだ？",
-                    "maleVariant": null,
-                    "stringId": 1806851225760161792
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3669EZ^あの、まずは配{はい}水{すい}管{かん}の修{しゅう}理{り}と、できましたら他{ほか}の修{しゅう}理{り}もお願{ねが}いできると… もう建物{たてもの}中{なか}、水浸{みずびた}しで…",
-                    "maleVariant": null,
-                    "stringId": 1806851433344655360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1F69EZ^わかった。手{て}配{はい}しよう",
-                    "maleVariant": null,
-                    "stringId": 1806851570397732864
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7869EZ^す、すみません。少{すこ}しお時{じ}間{かん}をいただいても？",
+              "maleVariant": "",
+              "stringId": 1806839159435419648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7369EZ^助{たす}かります！",
+              "maleVariant": "",
+              "stringId": 1806846761443647488
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あざーす！",
+              "maleVariant": "",
+              "stringId": 1806846888933711872
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1769EZ^ん？ 今{こん}度{ど}はどうしたんだ？",
+              "maleVariant": "",
+              "stringId": 1806850354787770368
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C769EZ^うちのビルの配{はい}水{すい}管{かん}が破{は}裂{れつ}しまして…",
+              "maleVariant": "",
+              "stringId": 1806850473704677376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C869EZ^市{し}の奴{やつ}ら、誰{だれ}も修{しゅう}理{り}によこさねえんだ",
+              "maleVariant": "",
+              "stringId": 1806850593980538880
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9469EZ^言葉{ことば}に気{き}をつけろ！ 誰{だれ}に話{はな}してると思{おも}ってる！",
+              "maleVariant": "",
+              "stringId": 1806851069849493504
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E169EZ^いい。で、何{なに}が必{ひつ}要{よう}なんだ？",
+              "maleVariant": "",
+              "stringId": 1806851225760161792
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3669EZ^あの、まずは配{はい}水{すい}管{かん}の修{しゅう}理{り}と、できましたら他{ほか}の修{しゅう}理{り}もお願{ねが}いできると… もう建物{たてもの}中{なか}、水浸{みずびた}しで…",
+              "maleVariant": "",
+              "stringId": 1806851433344655360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1F69EZ^わかった。手{て}配{はい}しよう",
+              "maleVariant": "",
+              "stringId": 1806851570397732864
             }
-          }
+          ]
         }
       }
     },

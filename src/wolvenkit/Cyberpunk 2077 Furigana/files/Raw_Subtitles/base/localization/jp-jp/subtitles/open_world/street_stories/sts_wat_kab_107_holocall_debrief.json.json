@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_wat_kab_107_holocall_debrief.json"
@@ -11,34 +11,26 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8E3BBZ^よくやってくれたわ！ この街{まち}から害{がい}獣{じゅう}が一匹{いっぴき}駆{く}除{じょ}された。大{たい}した腕{うで}前{まえ}ね。仕{し}事{ごと}は完{かん}了{りょう}よ、ご苦{く}労{ろう}様{さま}",
-                    "maleVariant": null,
-                    "stringId": 2328690489563000832
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "173BBZ^あら、ずいぶん大{おお}きなネズミを捕{つか}まえたのね！ とどめを刺{さ}さなかったのは少{すこ}し意{い}外{がい}だけど、害{がい}獣{じゅう}がいなくなれば文{もん}句{く}はないわ。仕{し}事{ごと}完{かん}了{りょう}よ、ご苦{く}労{ろう}様{さま}",
-                    "maleVariant": null,
-                    "stringId": 2328690698019909632
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8E3BBZ^よくやってくれたわ！ この街{まち}から害{がい}獣{じゅう}が一匹{いっぴき}駆{く}除{じょ}された。大{たい}した腕{うで}前{まえ}ね。仕{し}事{ごと}は完{かん}了{りょう}よ、ご苦{く}労{ろう}様{さま}",
+              "maleVariant": "",
+              "stringId": 2328690489563000832
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "173BBZ^あら、ずいぶん大{おお}きなネズミを捕{つか}まえたのね！ とどめを刺{さ}さなかったのは少{すこ}し意{い}外{がい}だけど、害{がい}獣{じゅう}がいなくなれば文{もん}句{く}はないわ。仕{し}事{ごと}完{かん}了{りょう}よ、ご苦{く}労{ろう}様{さま}",
+              "maleVariant": "",
+              "stringId": 2328690698019909632
             }
-          }
+          ]
         }
       }
     },

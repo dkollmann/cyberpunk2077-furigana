@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_valentinos_05.json"
@@ -11,34 +11,26 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2570AZ^なんだ？ 助{じょ}手{しゅ}席{せき}にでも乗{の}せるべきだったか？",
-                    "maleVariant": null,
-                    "stringId": 1977793639701585920
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A670AZ^おいおい、この死{し}体{たい}、一{いち}日{にち}中{じゅう}トランクに入{い}れてたのか！？",
-                    "maleVariant": null,
-                    "stringId": 1977794526629109760
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2570AZ^なんだ？ 助{じょ}手{しゅ}席{せき}にでも乗{の}せるべきだったか？",
+              "maleVariant": "",
+              "stringId": 1977793639701585920
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A670AZ^おいおい、この死{し}体{たい}、一{いち}日{にち}中{じゅう}トランクに入{い}れてたのか！？",
+              "maleVariant": "",
+              "stringId": 1977794526629109760
             }
-          }
+          ]
         }
       }
     },

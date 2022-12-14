@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_015.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "81647Z^なあ、お前{まえ}のトラウマ契{けい}約{やく}ってなんだっけ？ ゴールド？",
-                    "maleVariant": null,
-                    "stringId": 2156387886174597120
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ええ、そうよ",
-                    "maleVariant": null,
-                    "stringId": 2169308549417848832
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D644DZ^プラチナにした方{ほう}がいいぞ。そうすればもう二{ふた}人{り}、一{いっ}緒{しょ}にグレードアップできる",
-                    "maleVariant": null,
-                    "stringId": 2169308652463509504
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BF44DZ^75年{ねん}に俺{おれ}の車{くるま}が襲{おそ}われたことあったろ？ あの時{とき}、妻{つま}と娘{むすめ}が助{たす}かったのはそのおかげだ。ベビーシッターは失血{しっけつ}死{し}したがな。気{き}の毒{どく}に",
-                    "maleVariant": null,
-                    "stringId": 2169309017149853696
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "81647Z^なあ、お前{まえ}のトラウマ契{けい}約{やく}ってなんだっけ？ ゴールド？",
+              "maleVariant": "",
+              "stringId": 2156387886174597120
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ええ、そうよ",
+              "maleVariant": "",
+              "stringId": 2169308549417848832
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D644DZ^プラチナにした方{ほう}がいいぞ。そうすればもう二{ふた}人{り}、一{いっ}緒{しょ}にグレードアップできる",
+              "maleVariant": "",
+              "stringId": 2169308652463509504
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BF44DZ^75年{ねん}に俺{おれ}の車{くるま}が襲{おそ}われたことあったろ？ あの時{とき}、妻{つま}と娘{むすめ}が助{たす}かったのはそのおかげだ。ベビーシッターは失血{しっけつ}死{し}したがな。気{き}の毒{どく}に",
+              "maleVariant": "",
+              "stringId": 2169309017149853696
             }
-          }
+          ]
         }
       }
     },

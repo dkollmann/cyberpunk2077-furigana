@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_rey_chat_010.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E03BCZ^あんた、死{し}にたいの！？",
-                    "maleVariant": null,
-                    "stringId": 1964882322603622400
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ご、ごめん！ ごめんなさい！ みんなにそそのかされて…",
-                    "maleVariant": null,
-                    "stringId": 1964883012868620288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "303BCZ^人{にん}に言{い}われたら何{なん}でもするわけ？ チッ、ホントならその指{ゆび}を全{ぜん}部{ぶ}ちょん切{き}ってやるとこだよ！",
-                    "maleVariant": null,
-                    "stringId": 1964883273133572096
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FE3BCZ^ヴァレンティーノズのケツをつかんだら、仲{なか}間{ま}に入{い}れてくれるって言{い}われたんだ！",
-                    "maleVariant": null,
-                    "stringId": 1964883452683337728
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5F3BCZ^まったく、なんて顔{かお}してんだい。ヴィスタじゃね、ナメられたら終{お}わりなんだよ",
-                    "maleVariant": null,
-                    "stringId": 1964883608929550336
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B03BCZ^今{こん}回{かい}は見{み}逃{のが}してやるけど、今{こん}度{ど}またヴァレンティーノズにふざけたことしたら、その場{ば}で殺{ころ}すからね",
-                    "maleVariant": null,
-                    "stringId": 1964884112799678464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あ、ありがとう… ごめんなさい！",
-                    "maleVariant": null,
-                    "stringId": 1964884698089635840
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E03BCZ^あんた、死{し}にたいの！？",
+              "maleVariant": "",
+              "stringId": 1964882322603622400
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ご、ごめん！ ごめんなさい！ みんなにそそのかされて…",
+              "maleVariant": "",
+              "stringId": 1964883012868620288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "303BCZ^人{にん}に言{い}われたら何{なん}でもするわけ？ チッ、ホントならその指{ゆび}を全{ぜん}部{ぶ}ちょん切{き}ってやるとこだよ！",
+              "maleVariant": "",
+              "stringId": 1964883273133572096
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FE3BCZ^ヴァレンティーノズのケツをつかんだら、仲{なか}間{ま}に入{い}れてくれるって言{い}われたんだ！",
+              "maleVariant": "",
+              "stringId": 1964883452683337728
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5F3BCZ^まったく、なんて顔{かお}してんだい。ヴィスタじゃね、ナメられたら終{お}わりなんだよ",
+              "maleVariant": "",
+              "stringId": 1964883608929550336
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B03BCZ^今{こん}回{かい}は見{み}逃{のが}してやるけど、今{こん}度{ど}またヴァレンティーノズにふざけたことしたら、その場{ば}で殺{ころ}すからね",
+              "maleVariant": "",
+              "stringId": 1964884112799678464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あ、ありがとう… ごめんなさい！",
+              "maleVariant": "",
+              "stringId": 1964884698089635840
             }
-          }
+          ]
         }
       }
     },

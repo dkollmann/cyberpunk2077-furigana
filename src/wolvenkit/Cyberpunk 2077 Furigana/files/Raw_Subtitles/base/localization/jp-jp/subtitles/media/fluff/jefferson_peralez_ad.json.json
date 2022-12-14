@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\fluff\\jefferson_peralez_ad.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "574EAZ^昨{さく}年{ねん}、ナイトシティ議{ぎ}会{かい}は全{ぜん}部{ぶ}で32の企{き}業{ぎょう}に対{たい}し、法{ほう}人{じん}税{ぜい}の支{し}払{はら}い義{ぎ}務{む}を免{めん}除{じょ}しました",
-                    "maleVariant": null,
-                    "stringId": 1793610736917716992
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "803BCZ^例{れい}を挙{あ}げると、カン・タオ、アラサカ、ムーア・テクノロジー、ダイナラーです",
-                    "maleVariant": null,
-                    "stringId": 1803789058476589056
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "813BCZ^合{ごう}計{けい}すると、これらの企{き}業{ぎょう}の純{じゅん}利{り}益{えき}は、数{すう}十{じゅう}兆{ちょう}ユーロドルという途{と}方{ほう}もない額{ひたい}になります",
-                    "maleVariant": null,
-                    "stringId": 1803789243176960000
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "393BCZ^この世{よ}にも恐{おそ}ろしい企{き}業{ぎょう}誘{ゆう}致{ち}法{ほう}案{あん}は、なんと99対{つい}1で可{か}決{けつ}されてしまいました",
-                    "maleVariant": null,
-                    "stringId": 1803789581271416832
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "893BCZ^反{はん}対{たい}の1票{ひょう}は私{わたし}が投{とう}じたものです",
-                    "maleVariant": null,
-                    "stringId": 1803789797361958912
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "493BCZ^皆{みな}さんが私{わたし}を市{し}長{ちょう}に選{えら}んでさえくれれば、誘{ゆう}致{ち}法{ほう}案{あん}は… 絶{ぜっ}対{たい}に何{なん}とかしてみせます",
-                    "maleVariant": null,
-                    "stringId": 1803790006741614592
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A03BCZ^ジェファーソン・ペラレスに一票{いっぴょう}を。それでは、ご清{せい}聴{ちょう}ありがとうございました",
-                    "maleVariant": null,
-                    "stringId": 1803790278784172032
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "574EAZ^昨{さく}年{ねん}、ナイトシティ議{ぎ}会{かい}は全{ぜん}部{ぶ}で32の企{き}業{ぎょう}に対{たい}し、法{ほう}人{じん}税{ぜい}の支{し}払{はら}い義{ぎ}務{む}を免{めん}除{じょ}しました",
+              "maleVariant": "",
+              "stringId": 1793610736917716992
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "803BCZ^例{れい}を挙{あ}げると、カン・タオ、アラサカ、ムーア・テクノロジー、ダイナラーです",
+              "maleVariant": "",
+              "stringId": 1803789058476589056
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "813BCZ^合{ごう}計{けい}すると、これらの企{き}業{ぎょう}の純{じゅん}利{り}益{えき}は、数{すう}十{じゅう}兆{ちょう}ユーロドルという途{と}方{ほう}もない額{ひたい}になります",
+              "maleVariant": "",
+              "stringId": 1803789243176960000
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "393BCZ^この世{よ}にも恐{おそ}ろしい企{き}業{ぎょう}誘{ゆう}致{ち}法{ほう}案{あん}は、なんと99対{つい}1で可{か}決{けつ}されてしまいました",
+              "maleVariant": "",
+              "stringId": 1803789581271416832
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "893BCZ^反{はん}対{たい}の1票{ひょう}は私{わたし}が投{とう}じたものです",
+              "maleVariant": "",
+              "stringId": 1803789797361958912
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "493BCZ^皆{みな}さんが私{わたし}を市{し}長{ちょう}に選{えら}んでさえくれれば、誘{ゆう}致{ち}法{ほう}案{あん}は… 絶{ぜっ}対{たい}に何{なん}とかしてみせます",
+              "maleVariant": "",
+              "stringId": 1803790006741614592
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A03BCZ^ジェファーソン・ペラレスに一票{いっぴょう}を。それでは、ご清{せい}聴{ちょう}ありがとうございました",
+              "maleVariant": "",
+              "stringId": 1803790278784172032
             }
-          }
+          ]
         }
       }
     },

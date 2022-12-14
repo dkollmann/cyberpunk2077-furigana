@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\sq031\\sq031_04_grayson.json"
@@ -11,1274 +11,956 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "グレイソン",
-                    "maleVariant": null,
-                    "stringId": 1566889953731502080
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F34B6004^[武{ぶ}器{き}を構{かま}える] あんたからは何{なに}もいらない",
-                    "maleVariant": "F34B6004^[武{ぶ}器{き}を構{かま}える] お前{ぜん}からは何{なに}もいらない",
-                    "stringId": 1567873954311004164
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1B4B6Z^[武{ぶ}器{き}を下{くだ}ろす] 今{こん}日{にち}は運{うん}がいいね",
-                    "maleVariant": "1B4B6Z^[武{ぶ}器{き}を下{くだ}ろす] 今{こん}日{にち}は運{うん}がいいな",
-                    "stringId": 1567878610726641664
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "344B6Z^今{こん}日{にち}は運{うん}がいいね",
-                    "maleVariant": "344B6Z^今{こん}日{にち}は運{うん}がいいな",
-                    "stringId": 1567879379945218048
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ED4B6Z^あんたからもらう物{もの}なんてない",
-                    "maleVariant": "ED4B6Z^お前{ぜん}からもらう物{もの}なんてない",
-                    "stringId": 1567879692286648320
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5E4B6Z^クソ、今{いま}の聞{き}いたか？",
-                    "maleVariant": null,
-                    "stringId": 1729067252705878016
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B74B6Z^そうじゃない！ あいつ俺{おれ}の銃{じゅう}で俺{おれ}を撃{う}ってきやがった！",
-                    "maleVariant": null,
-                    "stringId": 1729069070970216448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "スマッシャーはどこ？",
-                    "maleVariant": null,
-                    "stringId": 1756735917089579016
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "774B6004^話{はな}したほうが身{み}のためよ",
-                    "maleVariant": "774B6004^話{はな}したほうが身{み}のためだ",
-                    "stringId": 1756739551319777284
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あったぞ",
-                    "maleVariant": null,
-                    "stringId": 1757798755769999360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "グレイソンのカードはあるな？",
-                    "maleVariant": null,
-                    "stringId": 1757799148038086656
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "424B6004^[カードを使{つか}う] よし",
-                    "maleVariant": null,
-                    "stringId": 1757809800446173188
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "よし",
-                    "maleVariant": null,
-                    "stringId": 1757810854206332936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3B4B6Z^マジかよ、何{なん}のことかわかったぜ",
-                    "maleVariant": null,
-                    "stringId": 1757835900844990464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "674B6004^[布{ぬの}を取{と}る] 見{み}てみよう",
-                    "maleVariant": null,
-                    "stringId": 1757839878722904068
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "314B6Z^じゃあ見{み}てみますか…",
-                    "maleVariant": null,
-                    "stringId": 1757844125539590144
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "954B6018^いい音{おと}してんだろ",
-                    "maleVariant": null,
-                    "stringId": 1757852175986024472
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "954B6020^よし、じゃあこの俺{おれ}が埋{う}められた場{ば}所{しょ}を見{み}にいくとするか",
-                    "maleVariant": null,
-                    "stringId": 1757852175986024480
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "114B6Z^よし。この辺{へん}にあるはずだ",
-                    "maleVariant": null,
-                    "stringId": 1757857679919505408
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8E4B6Z^ローグとそこまで深{ふか}い仲{なか}だったなんて知{し}らなかった",
-                    "maleVariant": null,
-                    "stringId": 1757867324218236928
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8E4B6008^ヤバいほどにな。俺{おれ}たちが会{あ}う時{とき}は、必{かなら}ず誰{だれ}か死{し}んでたくらいだ",
-                    "maleVariant": null,
-                    "stringId": 1757867324218236936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2B4B6Z^この辺{あた}りね",
-                    "maleVariant": "2B4B6Z^この辺{あた}りだな",
-                    "stringId": 1757868928875061248
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2B4B600C^うっ。ひでえ場{ば}所{しょ}だな",
-                    "maleVariant": null,
-                    "stringId": 1757868928875061260
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AD4B6Z^生{い}きて帰{かえ}れると思{おも}うな！",
-                    "maleVariant": null,
-                    "stringId": 1758141524040441856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "かかってこい！",
-                    "maleVariant": null,
-                    "stringId": 1758142472691343360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FC4B6Z^銃{じゅう}を取{と}れ",
-                    "maleVariant": null,
-                    "stringId": 1779431313179893760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E94B6Z^…そいつにも教{おし}えてやろうか",
-                    "maleVariant": null,
-                    "stringId": 1779438021600043008
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "864B6Z^この野{や}郎{ろう}、助{たす}かるためにウソついてやがるな",
-                    "maleVariant": null,
-                    "stringId": 1779459709523943424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D54B6Z^よし。クズが一{ひと}人{り}減{へ}った",
-                    "maleVariant": null,
-                    "stringId": 1779464435313369088
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6C4B6Z^V、甘{あま}いんじゃねえか",
-                    "maleVariant": null,
-                    "stringId": 1779465666207375360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "904B6Z^どうにかしてあのコンテナを下{くだ}ろすんだ",
-                    "maleVariant": null,
-                    "stringId": 1779527896592506880
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F64B6Z^じゃあ制{せい}御{ぎょ}盤{ばん}を探{さが}そう",
-                    "maleVariant": "F64B6Z^じゃあ制{せい}御{ぎょ}盤{ばん}を探{さが}すか",
-                    "stringId": 1779528478124367872
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "で？",
-                    "maleVariant": null,
-                    "stringId": 1779552411728961540
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "934B6Z^布{ぬの}を取{と}ってみろ",
-                    "maleVariant": null,
-                    "stringId": 1779557811090055168
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "374B6004^俺{おれ}の車{くるま}だ",
-                    "maleVariant": null,
-                    "stringId": 1779558827453800452
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "グレイソンでしょ",
-                    "maleVariant": "グレイソンだろ",
-                    "stringId": 1821201369176281088
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C9351Z^マロリアン3516。あの響{ひび}きはどこで聞{き}いてもすぐにわかる",
-                    "maleVariant": null,
-                    "stringId": 1821205177855971328
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5D351Z^生{う}まれる前{まえ}の話{はなし}だろうがな…",
-                    "maleVariant": null,
-                    "stringId": 1821432908094967808
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "スマッシャーはどこ？",
-                    "maleVariant": "スマッシャーはどこだ？",
-                    "stringId": 1821520315913932800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "92351Z^なぜシルヴァーハンドの銃{じゅう}を持{も}ってたの？",
-                    "maleVariant": "92351Z^なぜシルヴァーハンドの銃{じゅう}を持{も}ってたんだ？",
-                    "stringId": 1821523945110966272
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4C351Z^お前{まえ}も… ファンか？",
-                    "maleVariant": null,
-                    "stringId": 1821525790772498432
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "47351Z^フン…アラサカの連{れん}中{ちゅう}と一{いっ}緒{しょ}だ。わかりきったことだろ",
-                    "maleVariant": null,
-                    "stringId": 1821538782964682752
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C8351Z^こない。忠{ちゅう}臣{しん}アダムはあそこの警{けい}備{び}責{せき}任{にん}者{しゃ}に任{にん}命{めい}されたんだ",
-                    "maleVariant": null,
-                    "stringId": 1821543299139571712
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソ",
-                    "maleVariant": null,
-                    "stringId": 1821551479760424960
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "26351Z^ざまあねえな。お前{まえ}らなんかじゃスマッシャーには手{て}が届{とど}かない",
-                    "maleVariant": null,
-                    "stringId": 1821551740327366656
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5C351Z^だが安{あん}心{しん}しな。向{む}こうが見{み}つけてくれる。面倒{めんどう}は自{じ}分{ぶん}で片{かた}付{づ}けるのが好{す}きなんだ",
-                    "maleVariant": null,
-                    "stringId": 1821552952414113792
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2B351Z^スマッシャーはシルヴァーハンドの死{し}体{たい}をどうしたか言{い}ってた？",
-                    "maleVariant": "2B351Z^スマッシャーはシルヴァーハンドの死{し}体{たい}をどうしたか言{い}ってたか？",
-                    "stringId": 1821560781317410816
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "29351Z^なんだ、墓{はか}でも掘{ほ}り返{かえ}す気{き}か？",
-                    "maleVariant": null,
-                    "stringId": 1821561481363525632
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2A351Z^死{し}体{たい}はどうなったの？",
-                    "maleVariant": "2A351Z^死{し}体{たい}はどうなった？",
-                    "stringId": 1821567700492947456
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "95351Z^ソウルキラーにニューロンを焼{や}かれ、自{じ}分{ぶん}の小{しょう}便{べん}にまみれて死{し}んだとよ",
-                    "maleVariant": null,
-                    "stringId": 1821589134174916608
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EE351Z^バッドランズの油{ゆ}田{でん}近{ちか}くに埋{う}められてる。101号{ごう}線{せん}を北{きた}に行{い}き、埋立地{うめたてち}のほうを目指{めざ}せ",
-                    "maleVariant": null,
-                    "stringId": 1821590583072067584
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "57351Z^一{ひと}人{り}にしてやれ",
-                    "maleVariant": null,
-                    "stringId": 1822677160019955712
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "65351Z^油{ゆ}田{でん}に行{い}ってみよう。俺{おれ}の墓{はか}がどんなところにあるか見{み}てみたい",
-                    "maleVariant": null,
-                    "stringId": 1822681979208142848
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E5351Z^いずれは落{お}ち着{つ}くだろうが、こういう時{とき}は一{ひと}人{り}になりたいはずだ",
-                    "maleVariant": null,
-                    "stringId": 1822683952745615360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ええ、わかった",
-                    "maleVariant": "ああ、わかった",
-                    "stringId": 1822684581018800128
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EF351Z^乗{の}れよ。特{とく}別{べつ}に運{うん}転{てん}させてやる",
-                    "maleVariant": null,
-                    "stringId": 1822702700445634560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ええ",
-                    "maleVariant": "ああ",
-                    "stringId": 1822707828636585984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それはまた、ロマンチックね。あんたらしい",
-                    "maleVariant": "CE351Z^それはまた、ロマンチックだな。お前{まえ}らしいよ",
-                    "stringId": 1822721335755083776
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B6351Z^毎{まい}日{にち}目{め}まぐるしく過{す}ぎてった",
-                    "maleVariant": null,
-                    "stringId": 1822724578052739072
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EE351Z^向{む}こうは傭{よう}兵{へい}で、俺{おれ}はロックで忙{いそが}しかったからな",
-                    "maleVariant": null,
-                    "stringId": 1822729440895242240
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B6351Z^平{へい}凡{ぼん}に過{す}ごしたことはなかった…",
-                    "maleVariant": null,
-                    "stringId": 1822734860204445696
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B4351Z^でも一{いち}度{ど}… ローグを映{えい}画{が}に誘{さそ}ったな",
-                    "maleVariant": null,
-                    "stringId": 1822737913892638720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それで？",
-                    "maleVariant": null,
-                    "stringId": 1822738390785003520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D0351Z^結{けっ}局{きょく}行{い}かず仕{し}舞{ま}いだ。よくあったことさ",
-                    "maleVariant": null,
-                    "stringId": 1822738661686710272
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "386E4Z^約{やく}束{そく}したものはコンテナの中{なか}にある。あっちのクレーンだ",
-                    "maleVariant": null,
-                    "stringId": 1879795933868081152
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "386E400C^中{なか}身{み}は何{なに}？",
-                    "maleVariant": "386E400C^中{なか}身{み}は何{なん}だ？",
-                    "stringId": 1879795933868081164
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3A6E4Z^開{ひら}けりゃわかる。ほら、アクセスカードだ",
-                    "maleVariant": null,
-                    "stringId": 1879795933901635584
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "976E4Z^スマッシャーはジョニーからある物{もの}を奪{うば}った",
-                    "maleVariant": null,
-                    "stringId": 1879802279128612864
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E16E4Z^頭{あたま}をかち割{さ}ってやってもいいのよ",
-                    "maleVariant": "E16E4Z^頭{あたま}をかち割{さ}ってやってもいいんだぞ",
-                    "stringId": 1879908082594496512
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8E6E4Z^卵{たまご}みたいに頭{あたま}をかち割{さ}ってやってもいいのよ？",
-                    "maleVariant": "8E6E4Z^卵{たまご}みたいに頭{あたま}をかち割{さ}ってやってもいいんだぞ？",
-                    "stringId": 1879910099836616704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2F6E4Z^その後{のち}も、少{すこ}しくらいは話{はなし}ができるでしょ",
-                    "maleVariant": "2F6E4Z^その後{のち}も、少{すこ}しくらいは話{はなし}ができるだろ",
-                    "stringId": 1879910974416109568
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ルビー… そんな、あのルビー？",
-                    "maleVariant": "ルビー… そんな、あのルビーかよ？",
-                    "stringId": 1880014622949261312
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "46E4Z^グレイソンを逃{に}がしたせいだ",
-                    "maleVariant": null,
-                    "stringId": 1880017183940952064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "216E4Z^ルビーが情{じょう}報{ほう}を漏{も}らしたと勘{かん}づいたんだな",
-                    "maleVariant": null,
-                    "stringId": 1880017437830561792
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F42C5Z^ローグのことはみんな知{し}ってる。生{い}ける伝{でん}説{せつ}だ…",
-                    "maleVariant": null,
-                    "stringId": 1895233492588711936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C2C5Z^動{どう}揺{よう}させようとしてるのさ",
-                    "maleVariant": null,
-                    "stringId": 1895234682697306112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E52C5Z^まだ逃{に}げられると思{おも}ってるようだね",
-                    "maleVariant": null,
-                    "stringId": 1895235231798808576
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1F2C5Z^こんな所{ところ}に戻{もど}ってくるか。俺{おれ}は後{あと}片{かた}付{づけ}けのために残{のこ}っただけだ",
-                    "maleVariant": null,
-                    "stringId": 1895296732408598528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "82C5Z^十{じゅう}分{ぶん}深{ふか}く掘{ほ}りゃ、小{しょう}便{べん}くせえ銀{ぎん}の腕{うで}が見{み}つかるかもな",
-                    "maleVariant": null,
-                    "stringId": 1895299798629371904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "182C5Z^俺{おれ}を見{み}逃{のが}せばお前{まえ}のものだ",
-                    "maleVariant": null,
-                    "stringId": 1895303634303602688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "322C5Z^私{わたし}の用{よう}は済{す}んだ。帰{かえ}る",
-                    "maleVariant": null,
-                    "stringId": 1896649930893447168
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9E2C5Z^興{きょう}味{み}はないの？",
-                    "maleVariant": "9E2C5Z^興{きょう}味{み}ないのかよ？",
-                    "stringId": 1896649932705386496
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AD2C5Z^行{い}こう",
-                    "maleVariant": null,
-                    "stringId": 1896655804177338368
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9F2C5Z^俺{おれ}のものが入{いっ}ってるなら取{と}り返{かえ}したい",
-                    "maleVariant": null,
-                    "stringId": 1896752698404655104
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "スマッシャーがなぜジョニーのものを？",
-                    "maleVariant": null,
-                    "stringId": 1896759206085414912
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "スマッシャーがなぜジョニーのものを？",
-                    "maleVariant": null,
-                    "stringId": 1896760691892441088
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "602C5Z^サブロウ・アラサカから死{し}体{たい}と所{しょ}持{じ}品{ひん}の処{しょ}分{ぶん}を命{めい}じられて…",
-                    "maleVariant": null,
-                    "stringId": 1896805435251118080
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "312C5Z^ほとんど売{う}り払{はら}ったが、マロリアンと… そいつは残{のこ}した",
-                    "maleVariant": null,
-                    "stringId": 1896806628463497216
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "102C5Z^V。終{お}わりにしろ",
-                    "maleVariant": null,
-                    "stringId": 1896809406753689600
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "スマッシャーにもらったのか？",
-                    "maleVariant": null,
-                    "stringId": 1898180493408227328
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "942C5Z^特{とく}別{べつ}な仕{し}事{ごと}を… 成{せい}功{こう}させた褒{ほう}美{び}にな",
-                    "maleVariant": null,
-                    "stringId": 1898180847860469760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "322C5Z^よし、いいぞ、開{ひら}けろ",
-                    "maleVariant": null,
-                    "stringId": 1908700260506292224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "312C5Z^話{はな}したほうが身{み}のためよ",
-                    "maleVariant": "312C5Z^話{はな}したほうが身{み}のためだぞ",
-                    "stringId": 1924057208114139136
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E62C5Z^そんなひどい状{じょう}態{たい}で、おまけに誰{だれ}も助{たす}けに来{こ}ないんだから",
-                    "maleVariant": "E62C5Z^そんなひどい状{じょう}態{たい}で、おまけに誰{だれ}も助{たす}けに来{こ}ないんだからな",
-                    "stringId": 1924122554783256576
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3F6E4004^[銃{じゅう}を取{と}る] これはあんたの銃{じゅう}じゃない",
-                    "maleVariant": "3F6E4004^[銃{じゅう}を取{と}る] これはお前{まえ}の銃{じゅう}じゃない",
-                    "stringId": 1924850239704809476
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "215BFZ^[銃{じゅう}を取{と}る] 余{よ}計{けい}な真似{まね}はしないで",
-                    "maleVariant": "215BFZ^[銃{じゅう}を取{と}る] 余{よ}計{けい}な真似{まね}はするなよ",
-                    "stringId": 1927159119129341952
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6A2C5004^もう始{し}末{まつ}する？",
-                    "maleVariant": "6A2C5004^もう始{し}末{まつ}するか？",
-                    "stringId": 1928658304455430148
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E12C5004^グレイソンは駒{こま}よ",
-                    "maleVariant": "E12C5004^グレイソンは駒{こま}だ",
-                    "stringId": 1928658924927209476
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "72C5Z^ローグ、もう始{し}末{まつ}していいのよね？",
-                    "maleVariant": "72C5Z^ローグ、もう始{し}末{まつ}してもいいんだよな？",
-                    "stringId": 1928660149630423040
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "652C5004^もういい。始{し}末{まつ}しろ",
-                    "maleVariant": null,
-                    "stringId": 1928662930051321860
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9A2C5Z^行{い}こう。これ以{い}上{じょう}何{なに}も知{し}らない",
-                    "maleVariant": null,
-                    "stringId": 1928662930940514304
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FC2C5Z^ま、待{ま}て！ シルヴァーハンドを追{お}ってるんだろ？ いいもんがあるんだ。あんたにやってもいい",
-                    "maleVariant": null,
-                    "stringId": 1928662932584681472
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "502C5Z^グレイソンはただの駒{こま}よ。目{もく}的{てき}はスマッシャーでしょ",
-                    "maleVariant": "502C5Z^グレイソンはただの駒{こま}。目{もく}的{てき}はスマッシャーだろ",
-                    "stringId": 1928664862434283520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B2C5Z^両{りょう}方{ほう}の脳{のう}みそをぶちまけなきゃ気{き}が済{す}まねえ",
-                    "maleVariant": null,
-                    "stringId": 1928671862073348096
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やりたいようにしな",
-                    "maleVariant": null,
-                    "stringId": 1928679300738600960
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DD2C5Z^いつ戻{もど}ってくるの？",
-                    "maleVariant": "DD2C5Z^いつ戻{もど}ってくる？",
-                    "stringId": 1928707475170414592
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "562C5Z^これは… あんたの銃{じゅう}じゃない",
-                    "maleVariant": "562C5Z^これは… お前{まえ}の銃{じゅう}じゃない",
-                    "stringId": 1928781208904028160
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AB2C5004^もう一発{いっぱつ}お見{み}舞{ま}いされたくないなら、大人{おとな}しくして",
-                    "maleVariant": "AB2C5004^もう一発{いっぱつ}お見{み}舞{ま}いされたくないなら、大人{おとな}しくしてろ",
-                    "stringId": 1928782245417209860
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "532C5Z^クソ！ 無駄骨{むだぼね}だったね。結{けっ}局{きょく}、なんの手{て}掛{が}かりもつかめなかった",
-                    "maleVariant": null,
-                    "stringId": 1954566135209545728
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CB2C5Z^おい、V。言{い}ってやれ――",
-                    "maleVariant": null,
-                    "stringId": 1954566845892415488
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4E2C5Z^ジョニーが諦{あきら}めるのは早{はや}いと言{い}ってる",
-                    "maleVariant": null,
-                    "stringId": 1954568106515648512
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4E2C5010^ジョニーはただ報{ほう}復{ふく}を求{もと}めてるわけじゃない",
-                    "maleVariant": null,
-                    "stringId": 1954568106515648528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "782C5004^ジョニーが諦{あきら}めるなって",
-                    "maleVariant": null,
-                    "stringId": 1954568107220291588
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A02C5Z^ならこう言{い}ってやって――",
-                    "maleVariant": null,
-                    "stringId": 1954568107891380224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C42C5Z^クソ！ 直{ちょく}接{せつ}話{はな}すらできないなんて",
-                    "maleVariant": null,
-                    "stringId": 1954568108495360000
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "142C5004^ジョニーはただ恨{うら}みを晴{は}らしたいわけじゃない",
-                    "maleVariant": null,
-                    "stringId": 1954568109837537284
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3D2C5Z^フン、なら他{ほか}に何{なに}がある？",
-                    "maleVariant": null,
-                    "stringId": 1954568110525403136
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "642C5Z^あんたよ。あんたとやることに意{い}味{み}があるの",
-                    "maleVariant": "642C5Z^あんただよ。あんたとやることに意{い}味{み}があるんだ",
-                    "stringId": 1954568111179714560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8B2C5Z^だから元{げん}気{き}出{だ}せって？ くだらない",
-                    "maleVariant": null,
-                    "stringId": 1954568111834025984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "スマッシャーは――",
-                    "maleVariant": null,
-                    "stringId": 1954571213018517504
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4D2C5Z^スマッシャー？ V、あんたはまだ現{げん}実{じつ}がわからないのかい！？",
-                    "maleVariant": null,
-                    "stringId": 1954571692796563456
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "982C5Z^あいつは氷山{ひょうざん}の一{いっ}角{かく}でしかない！",
-                    "maleVariant": null,
-                    "stringId": 1954578982614355968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "82C5Z^あいつを始{し}末{まつ}したところで、いったい何{なに}になる？",
-                    "maleVariant": null,
-                    "stringId": 1954580118364770304
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わかったこともあるでしょ",
-                    "maleVariant": "わかったこともあるだろ",
-                    "stringId": 1954595623834243076
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5E2C5Z^ジョニーの死{し}体{たい}がゴミみたいに捨{す}てられたってことがね",
-                    "maleVariant": null,
-                    "stringId": 1954595624639549440
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わかったこともあるでしょ",
-                    "maleVariant": "わかったこともあるだろ",
-                    "stringId": 1954595716176039936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もういい",
-                    "maleVariant": null,
-                    "stringId": 1961083473878728704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FA5BF004^[カードを取{と}る]",
-                    "maleVariant": null,
-                    "stringId": 2078289521448579076
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "39494Z^何{なん}だよ、ローグ… 俺{おれ}たちは仲{なか}間{ま}じゃなかったのか？",
-                    "maleVariant": null,
-                    "stringId": 2231633345463795712
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "52494Z^まあ、別{べつ}に驚{おどろ}きやしない。裏{うら}切{ぎ}りはお前{まえ}の十{じゅう}八{はち}番{ばん}だからな",
-                    "maleVariant": null,
-                    "stringId": 2231637082504773632
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "79494Z^知{し}り合{あ}いなの？",
-                    "maleVariant": "79494Z^知{し}り合{あ}いなのか？",
-                    "stringId": 2231649882161627136
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "71494Z^知{し}り合{あ}いなの？",
-                    "maleVariant": "71494Z^知{し}り合{あ}いなのか？",
-                    "stringId": 2231653167677390848
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "11494Z^別{べつ}に黙{だま}ってるつもりもない",
-                    "maleVariant": null,
-                    "stringId": 2231658234128187392
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B5494Z^なあ、不{ふ}思{し}議{ぎ}に思{おも}ったことはないか？ アラサカ・タワー襲{しゅう}撃{げき}後{のち}、なぜローグだけが“生{い}ける伝{でん}説{せつ}”になれたのか――",
-                    "maleVariant": null,
-                    "stringId": 2231659452355395584
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F0494Z^アトランティスの他{ほか}の連{れん}中{ちゅう}と何{なに}が違{ちが}ったのかをな",
-                    "maleVariant": null,
-                    "stringId": 2231660978058641408
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5B494Z^輝{かがや}かしい肩{かた}書{がき}と快{かい}適{てき}な暮{く}らしはタダじゃ手{て}にはいらない…",
-                    "maleVariant": null,
-                    "stringId": 2231667229031219200
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D1494Z^誰{だれ}のナニをしゃぶったら、ここまで成{な}り上{あ}がれ…",
-                    "maleVariant": null,
-                    "stringId": 2231674240397557760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "83494Z^いったい何{なん}の話{はなし}？",
-                    "maleVariant": "83494Z^いったい何{なん}の話{はなし}だ？",
-                    "stringId": 2231677047997546496
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "73494Z^いったい何{なん}の話{はなし}？",
-                    "maleVariant": "73494Z^いったい何{なん}の話{はなし}だ？",
-                    "stringId": 2231678791485833216
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F2494004^使{つか}えない奴{やつ}ね",
-                    "maleVariant": "F2494004^使{つか}えない奴{やつ}だ",
-                    "stringId": 2231703725901692932
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "72494Z^スマッシャーのところまで案{あん}内{ない}してもらう",
-                    "maleVariant": null,
-                    "stringId": 2232141758878793728
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "26494Z^あんたはもう用{よう}済{す}みよ",
-                    "maleVariant": "26494Z^お前{まえ}はもう用{よう}済{す}みだ",
-                    "stringId": 2232144643821748224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "58494Z^スマッシャーのところまで案{あん}内{ない}してもらう",
-                    "maleVariant": null,
-                    "stringId": 2232146564510990336
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A0494Z^V、私{わたし}にやらせな",
-                    "maleVariant": null,
-                    "stringId": 2232149623735664640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "37494Z^無{む}理{り}な話{はなし}だ。あいつは俺{おれ}を信{しん}用{よう}しちゃいない",
-                    "maleVariant": null,
-                    "stringId": 2232151176752218112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "25494Z^なあ… なぜお前{まえ}らはスマッシャーを探{さが}してるんだ？",
-                    "maleVariant": null,
-                    "stringId": 2232152804242833408
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "スマッシャーはどこ？",
-                    "maleVariant": "スマッシャーはどこだ？",
-                    "stringId": 2232156201444524036
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "68494Z^スマッシャーはどうでもいい。シルヴァーハンドに何{なに}があったのかを知{し}りたいだけ",
-                    "maleVariant": "68494Z^スマッシャーはどうでもいい。シルヴァーハンドに何{なに}があったのかを知{し}りたいだけだ",
-                    "stringId": 2232156395959566336
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4C494Z^ジョニー・シルヴァーハンド…？ な、なにが知{し}りたいんだ？",
-                    "maleVariant": null,
-                    "stringId": 2232156739087187968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3C494004^スマッシャーはシルヴァーハンドの死{し}体{たい}をどうしたの？",
-                    "maleVariant": "3C494004^スマッシャーはシルヴァーハンドの死{し}体{たい}をどうしたんだ？",
-                    "stringId": 2232158379496259588
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EF494Z^あんたはシルヴァーハンドの銃{じゅう}を持{も}ってた",
-                    "maleVariant": null,
-                    "stringId": 2232158859240751104
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "44494Z^当{とう}然{ぜん}だ",
-                    "maleVariant": null,
-                    "stringId": 2238932689812537344
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D5494Z^痛{いた}い目{め}を見{み}ないとわからないようだね",
-                    "maleVariant": null,
-                    "stringId": 2239061167601958912
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DA494004^誤{ご}魔{ま}化{か}そうとしても無{む}駄{だ}だよ、このクズ",
-                    "maleVariant": null,
-                    "stringId": 2239061541347999748
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1D494Z^さっさと終{お}わらせな。顔{かお}を見{み}てるだけで吐{は}き気{け}がする",
-                    "maleVariant": null,
-                    "stringId": 2239069672845164544
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソ…！",
-                    "maleVariant": null,
-                    "stringId": 2239093225304965120
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いや…",
-                    "maleVariant": null,
-                    "stringId": 2247682955382702080
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "グレイソン",
+              "maleVariant": "",
+              "stringId": 1566889953731502080
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F34B6004^[武{ぶ}器{き}を構{かま}える] あんたからは何{なに}もいらない",
+              "maleVariant": "F34B6004^[武{ぶ}器{き}を構{かま}える] お前{ぜん}からは何{なに}もいらない",
+              "stringId": 1567873954311004164
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1B4B6Z^[武{ぶ}器{き}を下{くだ}ろす] 今{こん}日{にち}は運{うん}がいいね",
+              "maleVariant": "1B4B6Z^[武{ぶ}器{き}を下{くだ}ろす] 今{こん}日{にち}は運{うん}がいいな",
+              "stringId": 1567878610726641664
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "344B6Z^今{こん}日{にち}は運{うん}がいいね",
+              "maleVariant": "344B6Z^今{こん}日{にち}は運{うん}がいいな",
+              "stringId": 1567879379945218048
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ED4B6Z^あんたからもらう物{もの}なんてない",
+              "maleVariant": "ED4B6Z^お前{ぜん}からもらう物{もの}なんてない",
+              "stringId": 1567879692286648320
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5E4B6Z^クソ、今{いま}の聞{き}いたか？",
+              "maleVariant": "",
+              "stringId": 1729067252705878016
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B74B6Z^そうじゃない！ あいつ俺{おれ}の銃{じゅう}で俺{おれ}を撃{う}ってきやがった！",
+              "maleVariant": "",
+              "stringId": 1729069070970216448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "スマッシャーはどこ？",
+              "maleVariant": "",
+              "stringId": 1756735917089579016
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "774B6004^話{はな}したほうが身{み}のためよ",
+              "maleVariant": "774B6004^話{はな}したほうが身{み}のためだ",
+              "stringId": 1756739551319777284
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あったぞ",
+              "maleVariant": "",
+              "stringId": 1757798755769999360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "グレイソンのカードはあるな？",
+              "maleVariant": "",
+              "stringId": 1757799148038086656
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "424B6004^[カードを使{つか}う] よし",
+              "maleVariant": "",
+              "stringId": 1757809800446173188
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "よし",
+              "maleVariant": "",
+              "stringId": 1757810854206332936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3B4B6Z^マジかよ、何{なん}のことかわかったぜ",
+              "maleVariant": "",
+              "stringId": 1757835900844990464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "674B6004^[布{ぬの}を取{と}る] 見{み}てみよう",
+              "maleVariant": "",
+              "stringId": 1757839878722904068
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "314B6Z^じゃあ見{み}てみますか…",
+              "maleVariant": "",
+              "stringId": 1757844125539590144
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "954B6018^いい音{おと}してんだろ",
+              "maleVariant": "",
+              "stringId": 1757852175986024472
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "954B6020^よし、じゃあこの俺{おれ}が埋{う}められた場{ば}所{しょ}を見{み}にいくとするか",
+              "maleVariant": "",
+              "stringId": 1757852175986024480
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "114B6Z^よし。この辺{へん}にあるはずだ",
+              "maleVariant": "",
+              "stringId": 1757857679919505408
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8E4B6Z^ローグとそこまで深{ふか}い仲{なか}だったなんて知{し}らなかった",
+              "maleVariant": "",
+              "stringId": 1757867324218236928
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8E4B6008^ヤバいほどにな。俺{おれ}たちが会{あ}う時{とき}は、必{かなら}ず誰{だれ}か死{し}んでたくらいだ",
+              "maleVariant": "",
+              "stringId": 1757867324218236936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2B4B6Z^この辺{あた}りね",
+              "maleVariant": "2B4B6Z^この辺{あた}りだな",
+              "stringId": 1757868928875061248
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2B4B600C^うっ。ひでえ場{ば}所{しょ}だな",
+              "maleVariant": "",
+              "stringId": 1757868928875061260
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AD4B6Z^生{い}きて帰{かえ}れると思{おも}うな！",
+              "maleVariant": "",
+              "stringId": 1758141524040441856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "かかってこい！",
+              "maleVariant": "",
+              "stringId": 1758142472691343360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FC4B6Z^銃{じゅう}を取{と}れ",
+              "maleVariant": "",
+              "stringId": 1779431313179893760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E94B6Z^…そいつにも教{おし}えてやろうか",
+              "maleVariant": "",
+              "stringId": 1779438021600043008
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "864B6Z^この野{や}郎{ろう}、助{たす}かるためにウソついてやがるな",
+              "maleVariant": "",
+              "stringId": 1779459709523943424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D54B6Z^よし。クズが一{ひと}人{り}減{へ}った",
+              "maleVariant": "",
+              "stringId": 1779464435313369088
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6C4B6Z^V、甘{あま}いんじゃねえか",
+              "maleVariant": "",
+              "stringId": 1779465666207375360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "904B6Z^どうにかしてあのコンテナを下{くだ}ろすんだ",
+              "maleVariant": "",
+              "stringId": 1779527896592506880
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F64B6Z^じゃあ制{せい}御{ぎょ}盤{ばん}を探{さが}そう",
+              "maleVariant": "F64B6Z^じゃあ制{せい}御{ぎょ}盤{ばん}を探{さが}すか",
+              "stringId": 1779528478124367872
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "で？",
+              "maleVariant": "",
+              "stringId": 1779552411728961540
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "934B6Z^布{ぬの}を取{と}ってみろ",
+              "maleVariant": "",
+              "stringId": 1779557811090055168
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "374B6004^俺{おれ}の車{くるま}だ",
+              "maleVariant": "",
+              "stringId": 1779558827453800452
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "グレイソンでしょ",
+              "maleVariant": "グレイソンだろ",
+              "stringId": 1821201369176281088
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C9351Z^マロリアン3516。あの響{ひび}きはどこで聞{き}いてもすぐにわかる",
+              "maleVariant": "",
+              "stringId": 1821205177855971328
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5D351Z^生{う}まれる前{まえ}の話{はなし}だろうがな…",
+              "maleVariant": "",
+              "stringId": 1821432908094967808
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "スマッシャーはどこ？",
+              "maleVariant": "スマッシャーはどこだ？",
+              "stringId": 1821520315913932800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "92351Z^なぜシルヴァーハンドの銃{じゅう}を持{も}ってたの？",
+              "maleVariant": "92351Z^なぜシルヴァーハンドの銃{じゅう}を持{も}ってたんだ？",
+              "stringId": 1821523945110966272
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4C351Z^お前{まえ}も… ファンか？",
+              "maleVariant": "",
+              "stringId": 1821525790772498432
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "47351Z^フン…アラサカの連{れん}中{ちゅう}と一{いっ}緒{しょ}だ。わかりきったことだろ",
+              "maleVariant": "",
+              "stringId": 1821538782964682752
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C8351Z^こない。忠{ちゅう}臣{しん}アダムはあそこの警{けい}備{び}責{せき}任{にん}者{しゃ}に任{にん}命{めい}されたんだ",
+              "maleVariant": "",
+              "stringId": 1821543299139571712
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソ",
+              "maleVariant": "",
+              "stringId": 1821551479760424960
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "26351Z^ざまあねえな。お前{まえ}らなんかじゃスマッシャーには手{て}が届{とど}かない",
+              "maleVariant": "",
+              "stringId": 1821551740327366656
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5C351Z^だが安{あん}心{しん}しな。向{む}こうが見{み}つけてくれる。面倒{めんどう}は自{じ}分{ぶん}で片{かた}付{づ}けるのが好{す}きなんだ",
+              "maleVariant": "",
+              "stringId": 1821552952414113792
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2B351Z^スマッシャーはシルヴァーハンドの死{し}体{たい}をどうしたか言{い}ってた？",
+              "maleVariant": "2B351Z^スマッシャーはシルヴァーハンドの死{し}体{たい}をどうしたか言{い}ってたか？",
+              "stringId": 1821560781317410816
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "29351Z^なんだ、墓{はか}でも掘{ほ}り返{かえ}す気{き}か？",
+              "maleVariant": "",
+              "stringId": 1821561481363525632
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2A351Z^死{し}体{たい}はどうなったの？",
+              "maleVariant": "2A351Z^死{し}体{たい}はどうなった？",
+              "stringId": 1821567700492947456
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "95351Z^ソウルキラーにニューロンを焼{や}かれ、自{じ}分{ぶん}の小{しょう}便{べん}にまみれて死{し}んだとよ",
+              "maleVariant": "",
+              "stringId": 1821589134174916608
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EE351Z^バッドランズの油{ゆ}田{でん}近{ちか}くに埋{う}められてる。101号{ごう}線{せん}を北{きた}に行{い}き、埋立地{うめたてち}のほうを目指{めざ}せ",
+              "maleVariant": "",
+              "stringId": 1821590583072067584
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "57351Z^一{ひと}人{り}にしてやれ",
+              "maleVariant": "",
+              "stringId": 1822677160019955712
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "65351Z^油{ゆ}田{でん}に行{い}ってみよう。俺{おれ}の墓{はか}がどんなところにあるか見{み}てみたい",
+              "maleVariant": "",
+              "stringId": 1822681979208142848
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E5351Z^いずれは落{お}ち着{つ}くだろうが、こういう時{とき}は一{ひと}人{り}になりたいはずだ",
+              "maleVariant": "",
+              "stringId": 1822683952745615360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ええ、わかった",
+              "maleVariant": "ああ、わかった",
+              "stringId": 1822684581018800128
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EF351Z^乗{の}れよ。特{とく}別{べつ}に運{うん}転{てん}させてやる",
+              "maleVariant": "",
+              "stringId": 1822702700445634560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ええ",
+              "maleVariant": "ああ",
+              "stringId": 1822707828636585984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それはまた、ロマンチックね。あんたらしい",
+              "maleVariant": "CE351Z^それはまた、ロマンチックだな。お前{まえ}らしいよ",
+              "stringId": 1822721335755083776
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B6351Z^毎{まい}日{にち}目{め}まぐるしく過{す}ぎてった",
+              "maleVariant": "",
+              "stringId": 1822724578052739072
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EE351Z^向{む}こうは傭{よう}兵{へい}で、俺{おれ}はロックで忙{いそが}しかったからな",
+              "maleVariant": "",
+              "stringId": 1822729440895242240
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B6351Z^平{へい}凡{ぼん}に過{す}ごしたことはなかった…",
+              "maleVariant": "",
+              "stringId": 1822734860204445696
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B4351Z^でも一{いち}度{ど}… ローグを映{えい}画{が}に誘{さそ}ったな",
+              "maleVariant": "",
+              "stringId": 1822737913892638720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それで？",
+              "maleVariant": "",
+              "stringId": 1822738390785003520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D0351Z^結{けっ}局{きょく}行{い}かず仕{し}舞{ま}いだ。よくあったことさ",
+              "maleVariant": "",
+              "stringId": 1822738661686710272
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "386E4Z^約{やく}束{そく}したものはコンテナの中{なか}にある。あっちのクレーンだ",
+              "maleVariant": "",
+              "stringId": 1879795933868081152
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "386E400C^中{なか}身{み}は何{なに}？",
+              "maleVariant": "386E400C^中{なか}身{み}は何{なん}だ？",
+              "stringId": 1879795933868081164
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3A6E4Z^開{ひら}けりゃわかる。ほら、アクセスカードだ",
+              "maleVariant": "",
+              "stringId": 1879795933901635584
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "976E4Z^スマッシャーはジョニーからある物{もの}を奪{うば}った",
+              "maleVariant": "",
+              "stringId": 1879802279128612864
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E16E4Z^頭{あたま}をかち割{さ}ってやってもいいのよ",
+              "maleVariant": "E16E4Z^頭{あたま}をかち割{さ}ってやってもいいんだぞ",
+              "stringId": 1879908082594496512
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8E6E4Z^卵{たまご}みたいに頭{あたま}をかち割{さ}ってやってもいいのよ？",
+              "maleVariant": "8E6E4Z^卵{たまご}みたいに頭{あたま}をかち割{さ}ってやってもいいんだぞ？",
+              "stringId": 1879910099836616704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2F6E4Z^その後{のち}も、少{すこ}しくらいは話{はなし}ができるでしょ",
+              "maleVariant": "2F6E4Z^その後{のち}も、少{すこ}しくらいは話{はなし}ができるだろ",
+              "stringId": 1879910974416109568
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ルビー… そんな、あのルビー？",
+              "maleVariant": "ルビー… そんな、あのルビーかよ？",
+              "stringId": 1880014622949261312
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "46E4Z^グレイソンを逃{に}がしたせいだ",
+              "maleVariant": "",
+              "stringId": 1880017183940952064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "216E4Z^ルビーが情{じょう}報{ほう}を漏{も}らしたと勘{かん}づいたんだな",
+              "maleVariant": "",
+              "stringId": 1880017437830561792
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F42C5Z^ローグのことはみんな知{し}ってる。生{い}ける伝{でん}説{せつ}だ…",
+              "maleVariant": "",
+              "stringId": 1895233492588711936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C2C5Z^動{どう}揺{よう}させようとしてるのさ",
+              "maleVariant": "",
+              "stringId": 1895234682697306112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E52C5Z^まだ逃{に}げられると思{おも}ってるようだね",
+              "maleVariant": "",
+              "stringId": 1895235231798808576
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1F2C5Z^こんな所{ところ}に戻{もど}ってくるか。俺{おれ}は後{あと}片{かた}付{づけ}けのために残{のこ}っただけだ",
+              "maleVariant": "",
+              "stringId": 1895296732408598528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "82C5Z^十{じゅう}分{ぶん}深{ふか}く掘{ほ}りゃ、小{しょう}便{べん}くせえ銀{ぎん}の腕{うで}が見{み}つかるかもな",
+              "maleVariant": "",
+              "stringId": 1895299798629371904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "182C5Z^俺{おれ}を見{み}逃{のが}せばお前{まえ}のものだ",
+              "maleVariant": "",
+              "stringId": 1895303634303602688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "322C5Z^私{わたし}の用{よう}は済{す}んだ。帰{かえ}る",
+              "maleVariant": "",
+              "stringId": 1896649930893447168
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9E2C5Z^興{きょう}味{み}はないの？",
+              "maleVariant": "9E2C5Z^興{きょう}味{み}ないのかよ？",
+              "stringId": 1896649932705386496
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AD2C5Z^行{い}こう",
+              "maleVariant": "",
+              "stringId": 1896655804177338368
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9F2C5Z^俺{おれ}のものが入{いっ}ってるなら取{と}り返{かえ}したい",
+              "maleVariant": "",
+              "stringId": 1896752698404655104
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "スマッシャーがなぜジョニーのものを？",
+              "maleVariant": "",
+              "stringId": 1896759206085414912
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "スマッシャーがなぜジョニーのものを？",
+              "maleVariant": "",
+              "stringId": 1896760691892441088
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "602C5Z^サブロウ・アラサカから死{し}体{たい}と所{しょ}持{じ}品{ひん}の処{しょ}分{ぶん}を命{めい}じられて…",
+              "maleVariant": "",
+              "stringId": 1896805435251118080
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "312C5Z^ほとんど売{う}り払{はら}ったが、マロリアンと… そいつは残{のこ}した",
+              "maleVariant": "",
+              "stringId": 1896806628463497216
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "102C5Z^V。終{お}わりにしろ",
+              "maleVariant": "",
+              "stringId": 1896809406753689600
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "スマッシャーにもらったのか？",
+              "maleVariant": "",
+              "stringId": 1898180493408227328
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "942C5Z^特{とく}別{べつ}な仕{し}事{ごと}を… 成{せい}功{こう}させた褒{ほう}美{び}にな",
+              "maleVariant": "",
+              "stringId": 1898180847860469760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "322C5Z^よし、いいぞ、開{ひら}けろ",
+              "maleVariant": "",
+              "stringId": 1908700260506292224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "312C5Z^話{はな}したほうが身{み}のためよ",
+              "maleVariant": "312C5Z^話{はな}したほうが身{み}のためだぞ",
+              "stringId": 1924057208114139136
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E62C5Z^そんなひどい状{じょう}態{たい}で、おまけに誰{だれ}も助{たす}けに来{こ}ないんだから",
+              "maleVariant": "E62C5Z^そんなひどい状{じょう}態{たい}で、おまけに誰{だれ}も助{たす}けに来{こ}ないんだからな",
+              "stringId": 1924122554783256576
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3F6E4004^[銃{じゅう}を取{と}る] これはあんたの銃{じゅう}じゃない",
+              "maleVariant": "3F6E4004^[銃{じゅう}を取{と}る] これはお前{まえ}の銃{じゅう}じゃない",
+              "stringId": 1924850239704809476
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "215BFZ^[銃{じゅう}を取{と}る] 余{よ}計{けい}な真似{まね}はしないで",
+              "maleVariant": "215BFZ^[銃{じゅう}を取{と}る] 余{よ}計{けい}な真似{まね}はするなよ",
+              "stringId": 1927159119129341952
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6A2C5004^もう始{し}末{まつ}する？",
+              "maleVariant": "6A2C5004^もう始{し}末{まつ}するか？",
+              "stringId": 1928658304455430148
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E12C5004^グレイソンは駒{こま}よ",
+              "maleVariant": "E12C5004^グレイソンは駒{こま}だ",
+              "stringId": 1928658924927209476
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "72C5Z^ローグ、もう始{し}末{まつ}していいのよね？",
+              "maleVariant": "72C5Z^ローグ、もう始{し}末{まつ}してもいいんだよな？",
+              "stringId": 1928660149630423040
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "652C5004^もういい。始{し}末{まつ}しろ",
+              "maleVariant": "",
+              "stringId": 1928662930051321860
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9A2C5Z^行{い}こう。これ以{い}上{じょう}何{なに}も知{し}らない",
+              "maleVariant": "",
+              "stringId": 1928662930940514304
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FC2C5Z^ま、待{ま}て！ シルヴァーハンドを追{お}ってるんだろ？ いいもんがあるんだ。あんたにやってもいい",
+              "maleVariant": "",
+              "stringId": 1928662932584681472
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "502C5Z^グレイソンはただの駒{こま}よ。目{もく}的{てき}はスマッシャーでしょ",
+              "maleVariant": "502C5Z^グレイソンはただの駒{こま}。目{もく}的{てき}はスマッシャーだろ",
+              "stringId": 1928664862434283520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B2C5Z^両{りょう}方{ほう}の脳{のう}みそをぶちまけなきゃ気{き}が済{す}まねえ",
+              "maleVariant": "",
+              "stringId": 1928671862073348096
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やりたいようにしな",
+              "maleVariant": "",
+              "stringId": 1928679300738600960
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DD2C5Z^いつ戻{もど}ってくるの？",
+              "maleVariant": "DD2C5Z^いつ戻{もど}ってくる？",
+              "stringId": 1928707475170414592
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "562C5Z^これは… あんたの銃{じゅう}じゃない",
+              "maleVariant": "562C5Z^これは… お前{まえ}の銃{じゅう}じゃない",
+              "stringId": 1928781208904028160
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AB2C5004^もう一発{いっぱつ}お見{み}舞{ま}いされたくないなら、大人{おとな}しくして",
+              "maleVariant": "AB2C5004^もう一発{いっぱつ}お見{み}舞{ま}いされたくないなら、大人{おとな}しくしてろ",
+              "stringId": 1928782245417209860
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "532C5Z^クソ！ 無駄骨{むだぼね}だったね。結{けっ}局{きょく}、なんの手{て}掛{が}かりもつかめなかった",
+              "maleVariant": "",
+              "stringId": 1954566135209545728
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CB2C5Z^おい、V。言{い}ってやれ――",
+              "maleVariant": "",
+              "stringId": 1954566845892415488
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4E2C5Z^ジョニーが諦{あきら}めるのは早{はや}いと言{い}ってる",
+              "maleVariant": "",
+              "stringId": 1954568106515648512
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4E2C5010^ジョニーはただ報{ほう}復{ふく}を求{もと}めてるわけじゃない",
+              "maleVariant": "",
+              "stringId": 1954568106515648528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "782C5004^ジョニーが諦{あきら}めるなって",
+              "maleVariant": "",
+              "stringId": 1954568107220291588
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A02C5Z^ならこう言{い}ってやって――",
+              "maleVariant": "",
+              "stringId": 1954568107891380224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C42C5Z^クソ！ 直{ちょく}接{せつ}話{はな}すらできないなんて",
+              "maleVariant": "",
+              "stringId": 1954568108495360000
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "142C5004^ジョニーはただ恨{うら}みを晴{は}らしたいわけじゃない",
+              "maleVariant": "",
+              "stringId": 1954568109837537284
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3D2C5Z^フン、なら他{ほか}に何{なに}がある？",
+              "maleVariant": "",
+              "stringId": 1954568110525403136
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "642C5Z^あんたよ。あんたとやることに意{い}味{み}があるの",
+              "maleVariant": "642C5Z^あんただよ。あんたとやることに意{い}味{み}があるんだ",
+              "stringId": 1954568111179714560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8B2C5Z^だから元{げん}気{き}出{だ}せって？ くだらない",
+              "maleVariant": "",
+              "stringId": 1954568111834025984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "スマッシャーは――",
+              "maleVariant": "",
+              "stringId": 1954571213018517504
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4D2C5Z^スマッシャー？ V、あんたはまだ現{げん}実{じつ}がわからないのかい！？",
+              "maleVariant": "",
+              "stringId": 1954571692796563456
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "982C5Z^あいつは氷山{ひょうざん}の一{いっ}角{かく}でしかない！",
+              "maleVariant": "",
+              "stringId": 1954578982614355968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "82C5Z^あいつを始{し}末{まつ}したところで、いったい何{なに}になる？",
+              "maleVariant": "",
+              "stringId": 1954580118364770304
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わかったこともあるでしょ",
+              "maleVariant": "わかったこともあるだろ",
+              "stringId": 1954595623834243076
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5E2C5Z^ジョニーの死{し}体{たい}がゴミみたいに捨{す}てられたってことがね",
+              "maleVariant": "",
+              "stringId": 1954595624639549440
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わかったこともあるでしょ",
+              "maleVariant": "わかったこともあるだろ",
+              "stringId": 1954595716176039936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もういい",
+              "maleVariant": "",
+              "stringId": 1961083473878728704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FA5BF004^[カードを取{と}る]",
+              "maleVariant": "",
+              "stringId": 2078289521448579076
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "39494Z^何{なん}だよ、ローグ… 俺{おれ}たちは仲{なか}間{ま}じゃなかったのか？",
+              "maleVariant": "",
+              "stringId": 2231633345463795712
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "52494Z^まあ、別{べつ}に驚{おどろ}きやしない。裏{うら}切{ぎ}りはお前{まえ}の十{じゅう}八{はち}番{ばん}だからな",
+              "maleVariant": "",
+              "stringId": 2231637082504773632
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "79494Z^知{し}り合{あ}いなの？",
+              "maleVariant": "79494Z^知{し}り合{あ}いなのか？",
+              "stringId": 2231649882161627136
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "71494Z^知{し}り合{あ}いなの？",
+              "maleVariant": "71494Z^知{し}り合{あ}いなのか？",
+              "stringId": 2231653167677390848
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "11494Z^別{べつ}に黙{だま}ってるつもりもない",
+              "maleVariant": "",
+              "stringId": 2231658234128187392
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B5494Z^なあ、不{ふ}思{し}議{ぎ}に思{おも}ったことはないか？ アラサカ・タワー襲{しゅう}撃{げき}後{のち}、なぜローグだけが“生{い}ける伝{でん}説{せつ}”になれたのか――",
+              "maleVariant": "",
+              "stringId": 2231659452355395584
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F0494Z^アトランティスの他{ほか}の連{れん}中{ちゅう}と何{なに}が違{ちが}ったのかをな",
+              "maleVariant": "",
+              "stringId": 2231660978058641408
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5B494Z^輝{かがや}かしい肩{かた}書{がき}と快{かい}適{てき}な暮{く}らしはタダじゃ手{て}にはいらない…",
+              "maleVariant": "",
+              "stringId": 2231667229031219200
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D1494Z^誰{だれ}のナニをしゃぶったら、ここまで成{な}り上{あ}がれ…",
+              "maleVariant": "",
+              "stringId": 2231674240397557760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "83494Z^いったい何{なん}の話{はなし}？",
+              "maleVariant": "83494Z^いったい何{なん}の話{はなし}だ？",
+              "stringId": 2231677047997546496
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "73494Z^いったい何{なん}の話{はなし}？",
+              "maleVariant": "73494Z^いったい何{なん}の話{はなし}だ？",
+              "stringId": 2231678791485833216
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F2494004^使{つか}えない奴{やつ}ね",
+              "maleVariant": "F2494004^使{つか}えない奴{やつ}だ",
+              "stringId": 2231703725901692932
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "72494Z^スマッシャーのところまで案{あん}内{ない}してもらう",
+              "maleVariant": "",
+              "stringId": 2232141758878793728
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "26494Z^あんたはもう用{よう}済{す}みよ",
+              "maleVariant": "26494Z^お前{まえ}はもう用{よう}済{す}みだ",
+              "stringId": 2232144643821748224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "58494Z^スマッシャーのところまで案{あん}内{ない}してもらう",
+              "maleVariant": "",
+              "stringId": 2232146564510990336
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A0494Z^V、私{わたし}にやらせな",
+              "maleVariant": "",
+              "stringId": 2232149623735664640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "37494Z^無{む}理{り}な話{はなし}だ。あいつは俺{おれ}を信{しん}用{よう}しちゃいない",
+              "maleVariant": "",
+              "stringId": 2232151176752218112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "25494Z^なあ… なぜお前{まえ}らはスマッシャーを探{さが}してるんだ？",
+              "maleVariant": "",
+              "stringId": 2232152804242833408
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "スマッシャーはどこ？",
+              "maleVariant": "スマッシャーはどこだ？",
+              "stringId": 2232156201444524036
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "68494Z^スマッシャーはどうでもいい。シルヴァーハンドに何{なに}があったのかを知{し}りたいだけ",
+              "maleVariant": "68494Z^スマッシャーはどうでもいい。シルヴァーハンドに何{なに}があったのかを知{し}りたいだけだ",
+              "stringId": 2232156395959566336
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4C494Z^ジョニー・シルヴァーハンド…？ な、なにが知{し}りたいんだ？",
+              "maleVariant": "",
+              "stringId": 2232156739087187968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3C494004^スマッシャーはシルヴァーハンドの死{し}体{たい}をどうしたの？",
+              "maleVariant": "3C494004^スマッシャーはシルヴァーハンドの死{し}体{たい}をどうしたんだ？",
+              "stringId": 2232158379496259588
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EF494Z^あんたはシルヴァーハンドの銃{じゅう}を持{も}ってた",
+              "maleVariant": "",
+              "stringId": 2232158859240751104
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "44494Z^当{とう}然{ぜん}だ",
+              "maleVariant": "",
+              "stringId": 2238932689812537344
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D5494Z^痛{いた}い目{め}を見{み}ないとわからないようだね",
+              "maleVariant": "",
+              "stringId": 2239061167601958912
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DA494004^誤{ご}魔{ま}化{か}そうとしても無{む}駄{だ}だよ、このクズ",
+              "maleVariant": "",
+              "stringId": 2239061541347999748
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1D494Z^さっさと終{お}わらせな。顔{かお}を見{み}てるだけで吐{は}き気{け}がする",
+              "maleVariant": "",
+              "stringId": 2239069672845164544
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソ…！",
+              "maleVariant": "",
+              "stringId": 2239093225304965120
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いや…",
+              "maleVariant": "",
+              "stringId": 2247682955382702080
             }
-          }
+          ]
         }
       }
     },

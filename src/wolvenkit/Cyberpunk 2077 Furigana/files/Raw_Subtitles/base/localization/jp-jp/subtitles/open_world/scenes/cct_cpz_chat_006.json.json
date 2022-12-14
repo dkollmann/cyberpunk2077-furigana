@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_cpz_chat_006.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B070AZ^こないだのブルシット・ニュース見{み}た？",
-                    "maleVariant": null,
-                    "stringId": 1963275213759094784
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6A3BCZ^バス事{じ}故{こ}のやつか？",
-                    "maleVariant": null,
-                    "stringId": 2008574623494160384
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DD3BCZ^昔{むかし}は面{おも}白{しろ}かったんだけどさ、最{さい}近{きん}あの番{ばん}組{ぐみ}を見{み}ると… 何{なん}て言{い}うか",
-                    "maleVariant": null,
-                    "stringId": 2008574715617853440
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4B3BCZ^笑{わら}えなくなったよな",
-                    "maleVariant": null,
-                    "stringId": 2008574889262039040
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3B3BCZ^ワトソンで誰{だれ}かがフラットラインするなんて毎{まい}日{にち}のことだし、別{べつ}に何{なん}とも思{おも}わないけど…",
-                    "maleVariant": null,
-                    "stringId": 2008575142396674048
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DC3BCZ^でも、子{こ}供{ども}がたくさん死{し}んだ話{はなし}をいきなり突{つ}き付{つ}けられるのは… そういうのテレビに求{もと}めてないし",
-                    "maleVariant": null,
-                    "stringId": 2008575510170025984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4B3BCZ^WNSに苦{く}情{じょう}を送{おく}ったらどうだ。内{ない}容{よう}を変{か}えるかもしれない",
-                    "maleVariant": null,
-                    "stringId": 2008575722485694464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうだろうね",
-                    "maleVariant": null,
-                    "stringId": 2008575861015166976
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B070AZ^こないだのブルシット・ニュース見{み}た？",
+              "maleVariant": "",
+              "stringId": 1963275213759094784
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6A3BCZ^バス事{じ}故{こ}のやつか？",
+              "maleVariant": "",
+              "stringId": 2008574623494160384
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DD3BCZ^昔{むかし}は面{おも}白{しろ}かったんだけどさ、最{さい}近{きん}あの番{ばん}組{ぐみ}を見{み}ると… 何{なん}て言{い}うか",
+              "maleVariant": "",
+              "stringId": 2008574715617853440
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4B3BCZ^笑{わら}えなくなったよな",
+              "maleVariant": "",
+              "stringId": 2008574889262039040
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3B3BCZ^ワトソンで誰{だれ}かがフラットラインするなんて毎{まい}日{にち}のことだし、別{べつ}に何{なん}とも思{おも}わないけど…",
+              "maleVariant": "",
+              "stringId": 2008575142396674048
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DC3BCZ^でも、子{こ}供{ども}がたくさん死{し}んだ話{はなし}をいきなり突{つ}き付{つ}けられるのは… そういうのテレビに求{もと}めてないし",
+              "maleVariant": "",
+              "stringId": 2008575510170025984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4B3BCZ^WNSに苦{く}情{じょう}を送{おく}ったらどうだ。内{ない}容{よう}を変{か}えるかもしれない",
+              "maleVariant": "",
+              "stringId": 2008575722485694464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうだろうね",
+              "maleVariant": "",
+              "stringId": 2008575861015166976
             }
-          }
+          ]
         }
       }
     },

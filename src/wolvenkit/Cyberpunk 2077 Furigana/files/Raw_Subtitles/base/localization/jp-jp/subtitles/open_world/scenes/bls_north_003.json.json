@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_north_003.json"
@@ -11,58 +11,44 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F070AZ^ノーマッドになりたければ、ノーマッドらしく話{はな}すことを心{こころ}掛{が}けるのね",
-                    "maleVariant": null,
-                    "stringId": 1973561352269111296
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C93BCZ^彼{かれ}らにとっては車{くるま}こそが世{せ}界{かい}の中{ちゅう}心{しん}であり、動{うご}いてるのは自{じ}分{ぶん}たちではなく、地{じ}面{めん}のほうなんだ",
-                    "maleVariant": null,
-                    "stringId": 1974792791749541888
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "773BCZ^気{き}づいたことがあるんだ。生{う}まれつきのノーマッドは時{じ}空{くう}に対{たい}する考{かんが}え方{かた}が違{ちが}う",
-                    "maleVariant": null,
-                    "stringId": 1974792953582567424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A03BCZ^あのさ… ひとり言{げん}ならひとりでいる時{とき}にやってくれる？",
-                    "maleVariant": null,
-                    "stringId": 1974793044464746496
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "903BCZ^悪気{わるぎ}がないのはわかってるけど、聞{き}く人{にん}によっては見{み}下{くだ}してるように思{おも}われるかもしれない",
-                    "maleVariant": null,
-                    "stringId": 1974793082851016704
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F070AZ^ノーマッドになりたければ、ノーマッドらしく話{はな}すことを心{こころ}掛{が}けるのね",
+              "maleVariant": "",
+              "stringId": 1973561352269111296
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C93BCZ^彼{かれ}らにとっては車{くるま}こそが世{せ}界{かい}の中{ちゅう}心{しん}であり、動{うご}いてるのは自{じ}分{ぶん}たちではなく、地{じ}面{めん}のほうなんだ",
+              "maleVariant": "",
+              "stringId": 1974792791749541888
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "773BCZ^気{き}づいたことがあるんだ。生{う}まれつきのノーマッドは時{じ}空{くう}に対{たい}する考{かんが}え方{かた}が違{ちが}う",
+              "maleVariant": "",
+              "stringId": 1974792953582567424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A03BCZ^あのさ… ひとり言{げん}ならひとりでいる時{とき}にやってくれる？",
+              "maleVariant": "",
+              "stringId": 1974793044464746496
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "903BCZ^悪気{わるぎ}がないのはわかってるけど、聞{き}く人{にん}によっては見{み}下{くだ}してるように思{おも}われるかもしれない",
+              "maleVariant": "",
+              "stringId": 1974793082851016704
             }
-          }
+          ]
         }
       }
     },

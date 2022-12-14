@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_cpz_chat_037.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4369EZ^ええ、わかる。気{き}持{も}ちはすっごくよくわかるわ",
-                    "maleVariant": null,
-                    "stringId": 2172381338322722816
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "892B6Z^でもジェンキンスが決{き}めたことだから",
-                    "maleVariant": null,
-                    "stringId": 2217238725256765440
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうしようもないでしょ",
-                    "maleVariant": null,
-                    "stringId": 2217241571729563648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DE2B6Z^ええ、ひどいわよね。ホント、できることがあれば助{たす}けてあげたいんだけど…",
-                    "maleVariant": null,
-                    "stringId": 2217241711685099520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C12B6Z^そろそろ仕{し}事{ごと}に戻{もど}らないと。じゃあね！",
-                    "maleVariant": null,
-                    "stringId": 2217241865817382912
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うん… うん",
-                    "maleVariant": null,
-                    "stringId": 2217259835104911360
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4369EZ^ええ、わかる。気{き}持{も}ちはすっごくよくわかるわ",
+              "maleVariant": "",
+              "stringId": 2172381338322722816
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "892B6Z^でもジェンキンスが決{き}めたことだから",
+              "maleVariant": "",
+              "stringId": 2217238725256765440
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうしようもないでしょ",
+              "maleVariant": "",
+              "stringId": 2217241571729563648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DE2B6Z^ええ、ひどいわよね。ホント、できることがあれば助{たす}けてあげたいんだけど…",
+              "maleVariant": "",
+              "stringId": 2217241711685099520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C12B6Z^そろそろ仕{し}事{ごと}に戻{もど}らないと。じゃあね！",
+              "maleVariant": "",
+              "stringId": 2217241865817382912
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うん… うん",
+              "maleVariant": "",
+              "stringId": 2217259835104911360
             }
-          }
+          ]
         }
       }
     },

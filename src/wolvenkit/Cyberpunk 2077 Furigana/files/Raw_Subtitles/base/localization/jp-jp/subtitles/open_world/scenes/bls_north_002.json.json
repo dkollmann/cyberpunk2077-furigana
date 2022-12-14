@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_north_002.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9C70AZ^絶{ぜっ}対{たい}に行{い}くんじゃないよ！ レイスの連{れん}中{ちゅう}だって、それくらいわかってるんだから",
-                    "maleVariant": null,
-                    "stringId": 1973560822578847744
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D33BCZ^違{ちが}う！ ただの冗{じょう}談{だん}だって！",
-                    "maleVariant": null,
-                    "stringId": 1974865321030041600
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F23BCZ^何{なに}やってんだ！？ あんた、バカじゃないの！ あそこのガスを吸{す}ったら大{たい}変{へん}なことになるだろ！",
-                    "maleVariant": null,
-                    "stringId": 1974865407449481216
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9B3BCZ^へえ？ じゃあ、油{ゆ}田{でん}に行{い}ってこいよ。本{ほん}当{とう}に勇{ゆう}敢{かん}なノーマッドなら行{い}けるだろ？",
-                    "maleVariant": null,
-                    "stringId": 1974865423169732608
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D43BCZ^違{ちが}う！ 何{なに}も怖{こわ}くなんかないもん！",
-                    "maleVariant": null,
-                    "stringId": 1974865437010935808
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8A3BCZ^怖{こわ}いんだな？ やっぱりお前{まえ}は腰{こし}抜{ぬ}けだ",
-                    "maleVariant": null,
-                    "stringId": 1974865448654323712
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9C70AZ^絶{ぜっ}対{たい}に行{い}くんじゃないよ！ レイスの連{れん}中{ちゅう}だって、それくらいわかってるんだから",
+              "maleVariant": "",
+              "stringId": 1973560822578847744
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D33BCZ^違{ちが}う！ ただの冗{じょう}談{だん}だって！",
+              "maleVariant": "",
+              "stringId": 1974865321030041600
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F23BCZ^何{なに}やってんだ！？ あんた、バカじゃないの！ あそこのガスを吸{す}ったら大{たい}変{へん}なことになるだろ！",
+              "maleVariant": "",
+              "stringId": 1974865407449481216
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9B3BCZ^へえ？ じゃあ、油{ゆ}田{でん}に行{い}ってこいよ。本{ほん}当{とう}に勇{ゆう}敢{かん}なノーマッドなら行{い}けるだろ？",
+              "maleVariant": "",
+              "stringId": 1974865423169732608
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D43BCZ^違{ちが}う！ 何{なに}も怖{こわ}くなんかないもん！",
+              "maleVariant": "",
+              "stringId": 1974865437010935808
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8A3BCZ^怖{こわ}いんだな？ やっぱりお前{まえ}は腰{こし}抜{ぬ}けだ",
+              "maleVariant": "",
+              "stringId": 1974865448654323712
             }
-          }
+          ]
         }
       }
     },

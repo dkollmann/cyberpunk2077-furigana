@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q108\\q108_14a_escape.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2F310Z^大{たい}した人{にん}気{き}者{もの}だね",
-                    "maleVariant": null,
-                    "stringId": 1163459302148603904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D94EAZ^クソ。エレベーターに向{む}かって！",
-                    "maleVariant": null,
-                    "stringId": 1199509636987658240
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まだかかるのか？",
-                    "maleVariant": null,
-                    "stringId": 1534264044386426880
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3F4EA004^この感{かん}じ、懐{なつ}かしいね",
-                    "maleVariant": null,
-                    "stringId": 1777775737555558404
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "444EA004^クソ野{や}郎{ろう}どもめ",
-                    "maleVariant": null,
-                    "stringId": 1777775737639444484
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "624EA004^移{い}動{どう}するよ",
-                    "maleVariant": null,
-                    "stringId": 1780822330244505604
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E24EAZ^ちょっと立{た}て込{こ}んでてな",
-                    "maleVariant": null,
-                    "stringId": 1780874361625812992
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5C4EA004^塞{ふさ}がってる。階{かい}段{だん}だ",
-                    "maleVariant": null,
-                    "stringId": 1789377746083684356
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B84EA004^おい、行{い}くぞ",
-                    "maleVariant": null,
-                    "stringId": 1789382334652260356
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "454EA004^急{いそ}げ！",
-                    "maleVariant": null,
-                    "stringId": 1789384557515939844
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "94EA004^行{い}くよ！",
-                    "maleVariant": null,
-                    "stringId": 1789387683245498372
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "574EA004^突{つ}っ立{た}ってないで、早{はや}く",
-                    "maleVariant": null,
-                    "stringId": 1789387684554121220
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "99494Z^ヘリ？ ジョニー、あんた今{こん}度{ど}は一{いっ}体{たい}誰{だれ}にケンカを売{う}ったのさ！？",
-                    "maleVariant": null,
-                    "stringId": 2233303118689943552
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8C494Z^頭{あたま}を下{さ}げろ！",
-                    "maleVariant": null,
-                    "stringId": 2237511074025390080
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2F310Z^大{たい}した人{にん}気{き}者{もの}だね",
+              "maleVariant": "",
+              "stringId": 1163459302148603904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D94EAZ^クソ。エレベーターに向{む}かって！",
+              "maleVariant": "",
+              "stringId": 1199509636987658240
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まだかかるのか？",
+              "maleVariant": "",
+              "stringId": 1534264044386426880
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3F4EA004^この感{かん}じ、懐{なつ}かしいね",
+              "maleVariant": "",
+              "stringId": 1777775737555558404
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "444EA004^クソ野{や}郎{ろう}どもめ",
+              "maleVariant": "",
+              "stringId": 1777775737639444484
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "624EA004^移{い}動{どう}するよ",
+              "maleVariant": "",
+              "stringId": 1780822330244505604
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E24EAZ^ちょっと立{た}て込{こ}んでてな",
+              "maleVariant": "",
+              "stringId": 1780874361625812992
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5C4EA004^塞{ふさ}がってる。階{かい}段{だん}だ",
+              "maleVariant": "",
+              "stringId": 1789377746083684356
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B84EA004^おい、行{い}くぞ",
+              "maleVariant": "",
+              "stringId": 1789382334652260356
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "454EA004^急{いそ}げ！",
+              "maleVariant": "",
+              "stringId": 1789384557515939844
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "94EA004^行{い}くよ！",
+              "maleVariant": "",
+              "stringId": 1789387683245498372
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "574EA004^突{つ}っ立{た}ってないで、早{はや}く",
+              "maleVariant": "",
+              "stringId": 1789387684554121220
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "99494Z^ヘリ？ ジョニー、あんた今{こん}度{ど}は一{いっ}体{たい}誰{だれ}にケンカを売{う}ったのさ！？",
+              "maleVariant": "",
+              "stringId": 2233303118689943552
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8C494Z^頭{あたま}を下{さ}げろ！",
+              "maleVariant": "",
+              "stringId": 2237511074025390080
             }
-          }
+          ]
         }
       }
     },

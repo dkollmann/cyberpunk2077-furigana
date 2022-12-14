@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_new_wrt_05.json"
@@ -11,42 +11,32 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3152A008^それか、一{いっ}週{しゅう}間{かん}ぶっ続{つづ}けでバーチャに逃{とう}避{ひ}するのよ。生{う}まれ変{か}わった気{き}分{ぶん}になれる",
-                    "maleVariant": null,
-                    "stringId": 2276543511947026440
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3152A014^ムショでも同{おな}じようなことをやらされたぞ。「再{さい}教{きょう}育{いく}」とか言{い}って、強{きょう}制{せい}的{てき}にブレインダンスを見{み}せられてな。今{いま}でもうなされる",
-                    "maleVariant": null,
-                    "stringId": 2276543511947026452
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3152A020^今{いま}のあんたは再{さい}教{きょう}育{いく}された結{けっ}果{か}なの？ 効{こう}果{か}なしだね",
-                    "maleVariant": null,
-                    "stringId": 2276543511947026464
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3152A008^それか、一{いっ}週{しゅう}間{かん}ぶっ続{つづ}けでバーチャに逃{とう}避{ひ}するのよ。生{う}まれ変{か}わった気{き}分{ぶん}になれる",
+              "maleVariant": "",
+              "stringId": 2276543511947026440
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3152A014^ムショでも同{おな}じようなことをやらされたぞ。「再{さい}教{きょう}育{いく}」とか言{い}って、強{きょう}制{せい}的{てき}にブレインダンスを見{み}せられてな。今{いま}でもうなされる",
+              "maleVariant": "",
+              "stringId": 2276543511947026452
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3152A020^今{いま}のあんたは再{さい}教{きょう}育{いく}された結{けっ}果{か}なの？ 効{こう}果{か}なしだね",
+              "maleVariant": "",
+              "stringId": 2276543511947026464
             }
-          }
+          ]
         }
       }
     },

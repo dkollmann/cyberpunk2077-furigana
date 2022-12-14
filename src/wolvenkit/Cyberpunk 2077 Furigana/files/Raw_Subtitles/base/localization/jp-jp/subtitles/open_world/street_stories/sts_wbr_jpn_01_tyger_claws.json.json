@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_wbr_jpn_01_tyger_claws.json"
@@ -11,106 +11,80 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A134AZ^後{うし}ろに停{と}めろ",
-                    "maleVariant": null,
-                    "stringId": 1656617804154314752
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CD34AZ^ウチに何{なに}か用{よう}か？",
-                    "maleVariant": null,
-                    "stringId": 1656626781374160896
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8F34A004^セルゲイから聞{き}いてない？",
-                    "maleVariant": "8F34A004^セルゲイから聞{き}いてないか？",
-                    "stringId": 1656629202695528452
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "セルゲイがよろしくって",
-                    "maleVariant": "5334AZ^セルゲイがよろしく言{い}ってた",
-                    "stringId": 1656629970488041472
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6534AZ^セルゲイから何{なに}も聞{き}いてない？",
-                    "maleVariant": "6534AZ^セルゲイから何{なに}も聞{き}いてないか？",
-                    "stringId": 1656630829783490560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "セルゲイがよろしくって",
-                    "maleVariant": "D734AZ^セルゲイがよろしく言{い}ってた",
-                    "stringId": 1656630909005504512
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6C34AZ^部{ぶ}外{がい}者{しゃ}には関{かん}係{けい}ない。もう行{い}っていいぞ",
-                    "maleVariant": null,
-                    "stringId": 1656633501370589184
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D234AZ^ふざけた野{や}郎{ろう}だ",
-                    "maleVariant": null,
-                    "stringId": 1656636522443874304
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DA34AZ^シュウんとこに行{い}って、荷{に}物{もつ}が来{き}たと伝{つた}えてこい",
-                    "maleVariant": null,
-                    "stringId": 1656638485378146304
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "322C5Z^その件{けん}か。さっき連{れん}絡{らく}が来{き}てたな",
-                    "maleVariant": null,
-                    "stringId": 1925848600335372288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E82C5Z^じゃあこれで… セルゲイは無{む}罪{ざい}放{ほう}免{めん}ってこと？",
-                    "maleVariant": "E82C5Z^じゃあこれで… セルゲイは無{む}罪{ざい}放{ほう}免{めん}ってことか？",
-                    "stringId": 1925852722262462464
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A134AZ^後{うし}ろに停{と}めろ",
+              "maleVariant": "",
+              "stringId": 1656617804154314752
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CD34AZ^ウチに何{なに}か用{よう}か？",
+              "maleVariant": "",
+              "stringId": 1656626781374160896
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8F34A004^セルゲイから聞{き}いてない？",
+              "maleVariant": "8F34A004^セルゲイから聞{き}いてないか？",
+              "stringId": 1656629202695528452
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "セルゲイがよろしくって",
+              "maleVariant": "5334AZ^セルゲイがよろしく言{い}ってた",
+              "stringId": 1656629970488041472
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6534AZ^セルゲイから何{なに}も聞{き}いてない？",
+              "maleVariant": "6534AZ^セルゲイから何{なに}も聞{き}いてないか？",
+              "stringId": 1656630829783490560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "セルゲイがよろしくって",
+              "maleVariant": "D734AZ^セルゲイがよろしく言{い}ってた",
+              "stringId": 1656630909005504512
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6C34AZ^部{ぶ}外{がい}者{しゃ}には関{かん}係{けい}ない。もう行{い}っていいぞ",
+              "maleVariant": "",
+              "stringId": 1656633501370589184
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D234AZ^ふざけた野{や}郎{ろう}だ",
+              "maleVariant": "",
+              "stringId": 1656636522443874304
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DA34AZ^シュウんとこに行{い}って、荷{に}物{もつ}が来{き}たと伝{つた}えてこい",
+              "maleVariant": "",
+              "stringId": 1656638485378146304
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "322C5Z^その件{けん}か。さっき連{れん}絡{らく}が来{き}てたな",
+              "maleVariant": "",
+              "stringId": 1925848600335372288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E82C5Z^じゃあこれで… セルゲイは無{む}罪{ざい}放{ほう}免{めん}ってこと？",
+              "maleVariant": "E82C5Z^じゃあこれで… セルゲイは無{む}罪{ざい}放{ほう}免{めん}ってことか？",
+              "stringId": 1925852722262462464
             }
-          }
+          ]
         }
       }
     },

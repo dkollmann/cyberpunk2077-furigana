@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_arr_chat_006.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7170AZ^お願{ねが}い、お兄{にい}ちゃん！ 一{いっ}緒{しょ}に連{つ}れてってってば！",
-                    "maleVariant": null,
-                    "stringId": 1963262113051877376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3C3BCZ^バカ言{い}うな。お前{まえ}みたいなチビにはまだ早{はや}い。ライフルだって5秒{びょう}も持{も}ってられないだろ",
-                    "maleVariant": null,
-                    "stringId": 1966497025691992064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E43BCZ^ピストルなら持{も}てるもん！",
-                    "maleVariant": null,
-                    "stringId": 1966497183129387008
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "133BCZ^持{も}てても、撃{う}ったら反{はん}動{どう}で頭{あたま}をかち割{わ}られる",
-                    "maleVariant": null,
-                    "stringId": 1966497338536738816
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "993BCZ^諦{あきら}めろ。万{まん}が一{いち}お前{まえ}に何{なに}かあったら、俺{おれ}がお袋{ふくろ}に殺{ころ}されちまう。な？",
-                    "maleVariant": null,
-                    "stringId": 1966497499698675712
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F53BCZ^でもメイル… ストローの連{れん}中{ちゅう}をやっつけたいの！",
-                    "maleVariant": null,
-                    "stringId": 1966497634386165760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "153BCZ^俺{おれ}だって、できればリズィー・ウィズィーにしゃぶってほしい。望{のぞ}みがすべて叶{かな}うわけじゃねえんだ",
-                    "maleVariant": null,
-                    "stringId": 1966497858261336064
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7170AZ^お願{ねが}い、お兄{にい}ちゃん！ 一{いっ}緒{しょ}に連{つ}れてってってば！",
+              "maleVariant": "",
+              "stringId": 1963262113051877376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3C3BCZ^バカ言{い}うな。お前{まえ}みたいなチビにはまだ早{はや}い。ライフルだって5秒{びょう}も持{も}ってられないだろ",
+              "maleVariant": "",
+              "stringId": 1966497025691992064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E43BCZ^ピストルなら持{も}てるもん！",
+              "maleVariant": "",
+              "stringId": 1966497183129387008
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "133BCZ^持{も}てても、撃{う}ったら反{はん}動{どう}で頭{あたま}をかち割{わ}られる",
+              "maleVariant": "",
+              "stringId": 1966497338536738816
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "993BCZ^諦{あきら}めろ。万{まん}が一{いち}お前{まえ}に何{なに}かあったら、俺{おれ}がお袋{ふくろ}に殺{ころ}されちまう。な？",
+              "maleVariant": "",
+              "stringId": 1966497499698675712
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F53BCZ^でもメイル… ストローの連{れん}中{ちゅう}をやっつけたいの！",
+              "maleVariant": "",
+              "stringId": 1966497634386165760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "153BCZ^俺{おれ}だって、できればリズィー・ウィズィーにしゃぶってほしい。望{のぞ}みがすべて叶{かな}うわけじゃねえんだ",
+              "maleVariant": "",
+              "stringId": 1966497858261336064
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_dtn_chat_003.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4B3BCZ^自{じ}分{ぶん}でもよくわからないんだが… 最{さい}近{きん}はどうも、マンネリしてて",
-                    "maleVariant": null,
-                    "stringId": 1963336118992355328
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "703BCZ^前{まえ}はブレインダンスなしじゃ生{い}きていけなかったが、今{いま}じゃ…",
-                    "maleVariant": null,
-                    "stringId": 1963336656484024320
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B03BCZ^薬{くすり}と一{いっ}緒{しょ}だ。効{き}かなくなったら、もっと強{つよ}いやつに切{き}り替{か}えればいい",
-                    "maleVariant": null,
-                    "stringId": 1963337465011617792
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "53BCZ^とは言{い}ってもだな、もうあらかたのジャンルは試{ため}した。今{いま}さら何{なに}にも驚{おどろ}かない",
-                    "maleVariant": null,
-                    "stringId": 1963338303956303872
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "663BCZ^生{い}きたまま焼{や}かれるやつは？",
-                    "maleVariant": null,
-                    "stringId": 1963338610526371840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あー…",
-                    "maleVariant": null,
-                    "stringId": 1963340557958496256
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "403BCZ^詳{くわ}しく話{はな}してくれ",
-                    "maleVariant": null,
-                    "stringId": 1963340761667452928
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C3BCZ^ここじゃダメだ。明日{あした}うちに来{こ}いよ",
-                    "maleVariant": null,
-                    "stringId": 1966387211162861568
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4B3BCZ^自{じ}分{ぶん}でもよくわからないんだが… 最{さい}近{きん}はどうも、マンネリしてて",
+              "maleVariant": "",
+              "stringId": 1963336118992355328
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "703BCZ^前{まえ}はブレインダンスなしじゃ生{い}きていけなかったが、今{いま}じゃ…",
+              "maleVariant": "",
+              "stringId": 1963336656484024320
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B03BCZ^薬{くすり}と一{いっ}緒{しょ}だ。効{き}かなくなったら、もっと強{つよ}いやつに切{き}り替{か}えればいい",
+              "maleVariant": "",
+              "stringId": 1963337465011617792
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "53BCZ^とは言{い}ってもだな、もうあらかたのジャンルは試{ため}した。今{いま}さら何{なに}にも驚{おどろ}かない",
+              "maleVariant": "",
+              "stringId": 1963338303956303872
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "663BCZ^生{い}きたまま焼{や}かれるやつは？",
+              "maleVariant": "",
+              "stringId": 1963338610526371840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あー…",
+              "maleVariant": "",
+              "stringId": 1963340557958496256
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "403BCZ^詳{くわ}しく話{はな}してくれ",
+              "maleVariant": "",
+              "stringId": 1963340761667452928
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C3BCZ^ここじゃダメだ。明日{あした}うちに来{こ}いよ",
+              "maleVariant": "",
+              "stringId": 1966387211162861568
             }
-          }
+          ]
         }
       }
     },

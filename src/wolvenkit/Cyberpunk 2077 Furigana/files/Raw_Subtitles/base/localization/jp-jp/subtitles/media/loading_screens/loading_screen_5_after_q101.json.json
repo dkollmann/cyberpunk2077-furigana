@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\loading_screens\\loading_screen_5_after_q101.json"
@@ -11,106 +11,80 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C4EAZ^やあやあ、皆{みな}さん。ご機{き}嫌{げん}いかがかな。今{こん}夜{や}のゲストはNCPDの広{こう}報{ほう}担{たん}当{とう}サラ・クラコスキー警{けい}部{ぶ}補{ほ}です。ようこそ番{ばん}組{ぐみ}に",
-                    "maleVariant": null,
-                    "stringId": 1669213519101206528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4444DZ^ハーイ、ジギー。呼{よ}んでくれてありがとう",
-                    "maleVariant": null,
-                    "stringId": 1670609732303638528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9844DZ^スタジオまでは何{なに}事{ごと}もなく来{こ}れましたか？ カージャックに遭{あ}ったり、襲{おそ}われたりしませんでした？",
-                    "maleVariant": null,
-                    "stringId": 1670610060130439168
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E044DZ^ええ、大{だい}丈{じょう}夫{ぶ}… ナイトシティの治{ち}安{あん}は… ほら、日{にち}に日{にち}に良{よ}くなってますから。殺{さつ}人{じん}事{じ}件{けん}を見{み}てみても、去{きょ}年{ねん}は7103件{けん}あったのが今{こん}年{ねん}は大{おお}きく減{げん}少{しょう}して…",
-                    "maleVariant": null,
-                    "stringId": 1670610396345847808
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9544DZ^ちょっと待{ま}ってください。ナイトシティと一{ひと}口{くち}に言{い}っても、ハイウェイの治{ち}安{あん}はどうです？",
-                    "maleVariant": null,
-                    "stringId": 1670610987793043456
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "え、ハイウェイ？",
-                    "maleVariant": null,
-                    "stringId": 1670614086091853824
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4644DZ^1号{ごう}線{せん}出口{でぐち}で銃{じゅう}撃{げき}戦{せん}があったのはご存知{ぞんじ}ですよね？ 対{たい}応{おう}チームが到{とう}着{ちゃく}したのは事{じ}件{けん}発{はっ}生{せい}から30分{ふん}後{ご}。それまでに発{はっ}射{しゃ}された弾{だん}丸{がん}はなんと700発{はつ}！ 何{なに}があったんです？ 犯{はん}人{にん}たちはどこへ？",
-                    "maleVariant": null,
-                    "stringId": 1670614770333831168
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8B44DZ^私{わたし}たちNCPDの務{つと}めはあくまで管{かん}轄{かつ}であるナイトシティ市{し}内{ない}にいる皆{みな}さんの安{あん}全{ぜん}を守{まも}ることです。し、しかし1号{ごう}線{せん}は――",
-                    "maleVariant": null,
-                    "stringId": 1670615510225833984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E844DZ^いやいや、サラさん。そんな台{だい}本{ほん}どおりの説{せつ}明{めい}が聞{き}きたいんじゃないんです。真{しん}実{じつ}が知{し}りたい。街{まち}はいつになったら安{あん}全{ぜん}になるんです？ 市{し}民{みん}は近所{きんじょ}のモールに買{か}い物{もの}に行{い}くのにも、武{ぶ}器{き}を隠{かく}し持{も}って行{い}くんですよ？ 子{こ}供{ども}を公{こう}園{えん}に連{つ}れてくことすらできない！",
-                    "maleVariant": null,
-                    "stringId": 1670616078721798144
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6D44DZ^その… NCPDは、最{さい}善{ぜん}を尽{つ}くして――",
-                    "maleVariant": null,
-                    "stringId": 1670617498292375552
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8844DZ^ふん。あの取{と}り乱{みだ}しよう",
-                    "maleVariant": null,
-                    "stringId": 1670618039911239680
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C4EAZ^やあやあ、皆{みな}さん。ご機{き}嫌{げん}いかがかな。今{こん}夜{や}のゲストはNCPDの広{こう}報{ほう}担{たん}当{とう}サラ・クラコスキー警{けい}部{ぶ}補{ほ}です。ようこそ番{ばん}組{ぐみ}に",
+              "maleVariant": "",
+              "stringId": 1669213519101206528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4444DZ^ハーイ、ジギー。呼{よ}んでくれてありがとう",
+              "maleVariant": "",
+              "stringId": 1670609732303638528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9844DZ^スタジオまでは何{なに}事{ごと}もなく来{こ}れましたか？ カージャックに遭{あ}ったり、襲{おそ}われたりしませんでした？",
+              "maleVariant": "",
+              "stringId": 1670610060130439168
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E044DZ^ええ、大{だい}丈{じょう}夫{ぶ}… ナイトシティの治{ち}安{あん}は… ほら、日{にち}に日{にち}に良{よ}くなってますから。殺{さつ}人{じん}事{じ}件{けん}を見{み}てみても、去{きょ}年{ねん}は7103件{けん}あったのが今{こん}年{ねん}は大{おお}きく減{げん}少{しょう}して…",
+              "maleVariant": "",
+              "stringId": 1670610396345847808
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9544DZ^ちょっと待{ま}ってください。ナイトシティと一{ひと}口{くち}に言{い}っても、ハイウェイの治{ち}安{あん}はどうです？",
+              "maleVariant": "",
+              "stringId": 1670610987793043456
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "え、ハイウェイ？",
+              "maleVariant": "",
+              "stringId": 1670614086091853824
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4644DZ^1号{ごう}線{せん}出口{でぐち}で銃{じゅう}撃{げき}戦{せん}があったのはご存知{ぞんじ}ですよね？ 対{たい}応{おう}チームが到{とう}着{ちゃく}したのは事{じ}件{けん}発{はっ}生{せい}から30分{ふん}後{ご}。それまでに発{はっ}射{しゃ}された弾{だん}丸{がん}はなんと700発{はつ}！ 何{なに}があったんです？ 犯{はん}人{にん}たちはどこへ？",
+              "maleVariant": "",
+              "stringId": 1670614770333831168
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8B44DZ^私{わたし}たちNCPDの務{つと}めはあくまで管{かん}轄{かつ}であるナイトシティ市{し}内{ない}にいる皆{みな}さんの安{あん}全{ぜん}を守{まも}ることです。し、しかし1号{ごう}線{せん}は――",
+              "maleVariant": "",
+              "stringId": 1670615510225833984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E844DZ^いやいや、サラさん。そんな台{だい}本{ほん}どおりの説{せつ}明{めい}が聞{き}きたいんじゃないんです。真{しん}実{じつ}が知{し}りたい。街{まち}はいつになったら安{あん}全{ぜん}になるんです？ 市{し}民{みん}は近所{きんじょ}のモールに買{か}い物{もの}に行{い}くのにも、武{ぶ}器{き}を隠{かく}し持{も}って行{い}くんですよ？ 子{こ}供{ども}を公{こう}園{えん}に連{つ}れてくことすらできない！",
+              "maleVariant": "",
+              "stringId": 1670616078721798144
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6D44DZ^その… NCPDは、最{さい}善{ぜん}を尽{つ}くして――",
+              "maleVariant": "",
+              "stringId": 1670617498292375552
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8844DZ^ふん。あの取{と}り乱{みだ}しよう",
+              "maleVariant": "",
+              "stringId": 1670618039911239680
             }
-          }
+          ]
         }
       }
     },

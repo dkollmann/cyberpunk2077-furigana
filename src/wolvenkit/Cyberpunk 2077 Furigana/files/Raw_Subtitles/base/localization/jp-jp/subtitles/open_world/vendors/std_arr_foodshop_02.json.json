@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\std_arr_foodshop_02.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どんなメニューがある？",
-                    "maleVariant": null,
-                    "stringId": 1783751526462541824
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "65C5010^浮{う}かない顔{かお}ね。チップが少{すく}ないとか？",
-                    "maleVariant": "65C5010^浮{う}かない顔{かお}だな。チップが少{すく}ないとか？",
-                    "stringId": 1783751526462541840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どんなメニューがある？",
-                    "maleVariant": null,
-                    "stringId": 1783751526479319044
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "85C5004^目{め}はついてるだろ？",
-                    "maleVariant": null,
-                    "stringId": 1783751526496096260
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "95C5004^浮{う}かない顔{かお}ね。チップが足{た}りないとか？",
-                    "maleVariant": "95C5004^浮{う}かない顔{かお}だな。チップが足{た}りないとか？",
-                    "stringId": 1783751526512873476
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "95C500C^違{ちが}うよ。休{きゅう}暇{か}がほしいのに、ボスがOKをくれないんだ。今日{きょう}で四{よん}回{かい}目{め}さ",
-                    "maleVariant": null,
-                    "stringId": 1783751526512873484
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5044DZ^聞{き}いてくれたのはあんたが初{はじ}めてだよ… ありがとな",
-                    "maleVariant": null,
-                    "stringId": 1975166013788180480
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どんなメニューがある？",
+              "maleVariant": "",
+              "stringId": 1783751526462541824
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "65C5010^浮{う}かない顔{かお}ね。チップが少{すく}ないとか？",
+              "maleVariant": "65C5010^浮{う}かない顔{かお}だな。チップが少{すく}ないとか？",
+              "stringId": 1783751526462541840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どんなメニューがある？",
+              "maleVariant": "",
+              "stringId": 1783751526479319044
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "85C5004^目{め}はついてるだろ？",
+              "maleVariant": "",
+              "stringId": 1783751526496096260
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "95C5004^浮{う}かない顔{かお}ね。チップが足{た}りないとか？",
+              "maleVariant": "95C5004^浮{う}かない顔{かお}だな。チップが足{た}りないとか？",
+              "stringId": 1783751526512873476
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "95C500C^違{ちが}うよ。休{きゅう}暇{か}がほしいのに、ボスがOKをくれないんだ。今日{きょう}で四{よん}回{かい}目{め}さ",
+              "maleVariant": "",
+              "stringId": 1783751526512873484
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5044DZ^聞{き}いてくれたのはあんたが初{はじ}めてだよ… ありがとな",
+              "maleVariant": "",
+              "stringId": 1975166013788180480
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_std_rcr_02_chats.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EF588Z^2号{ごう}室{しつ}の患者{かんじゃ}の様{よう}子{す}は？ ゆうべ何{なに}か叫{さけ}んでるみたいだったが",
-                    "maleVariant": null,
-                    "stringId": 1534550694564495360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F3588Z^今{こん}日{にち}はごきげんいかがかな？ 治{ち}療{りょう}の効{こう}果{か}はどうだ？ そのおかしな頭{あたま}の中{なか}は少{すこ}しぐらいまともになったかい？",
-                    "maleVariant": null,
-                    "stringId": 1534550694631604224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F3588008^やめて… ほっといて… お願{ねが}いだから…",
-                    "maleVariant": null,
-                    "stringId": 1534550694631604232
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F7588Z^おいふざけんな、どんだけ吸{す}えば気{き}がすむんだ。一日{ついたち}一{ひと}箱{はこ}か？",
-                    "maleVariant": null,
-                    "stringId": 1534550694698713088
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F7588008^別{べつ}に迷{めい}惑{わく}かけちゃいないだろ？",
-                    "maleVariant": null,
-                    "stringId": 1534550694698713096
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F7588010^副{ふく}流{りゅう}煙{えん}って知{し}ってるか？ 吸{す}うなら外{そと}で吸{す}え！",
-                    "maleVariant": null,
-                    "stringId": 1534550694698713104
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F7588018^わかったよ、外{そと}で吸{す}えばいいんだろ。そうカッカすんなって",
-                    "maleVariant": null,
-                    "stringId": 1534550694698713112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E1588Z^…今{こん}日{にち}は気{き}分{ぶん}が優{まさ}れないようだ。なら薬{くすり}の量{りょう}を倍{ばい}にしないといけないねぇ。それとも、今{いま}すぐロボトミー手{しゅ}術{じゅつ}でも？",
-                    "maleVariant": null,
-                    "stringId": 1635959850055270400
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1B44DZ^例{れい}の錠{じょう}剤{ざい}を吐{は}き出{だ}したんで、“反{はん}対{たい}側{がわ}”から入{い}れてやったんだ",
-                    "maleVariant": null,
-                    "stringId": 1925778248386793472
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8844DZ^我々{われわれ}が部屋{へや}に入{いっ}った時{とき}、すでに舌{した}をだらんと出{だ}していたよ",
-                    "maleVariant": null,
-                    "stringId": 1925778911640473600
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EF588Z^2号{ごう}室{しつ}の患者{かんじゃ}の様{よう}子{す}は？ ゆうべ何{なに}か叫{さけ}んでるみたいだったが",
+              "maleVariant": "",
+              "stringId": 1534550694564495360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F3588Z^今{こん}日{にち}はごきげんいかがかな？ 治{ち}療{りょう}の効{こう}果{か}はどうだ？ そのおかしな頭{あたま}の中{なか}は少{すこ}しぐらいまともになったかい？",
+              "maleVariant": "",
+              "stringId": 1534550694631604224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F3588008^やめて… ほっといて… お願{ねが}いだから…",
+              "maleVariant": "",
+              "stringId": 1534550694631604232
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F7588Z^おいふざけんな、どんだけ吸{す}えば気{き}がすむんだ。一日{ついたち}一{ひと}箱{はこ}か？",
+              "maleVariant": "",
+              "stringId": 1534550694698713088
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F7588008^別{べつ}に迷{めい}惑{わく}かけちゃいないだろ？",
+              "maleVariant": "",
+              "stringId": 1534550694698713096
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F7588010^副{ふく}流{りゅう}煙{えん}って知{し}ってるか？ 吸{す}うなら外{そと}で吸{す}え！",
+              "maleVariant": "",
+              "stringId": 1534550694698713104
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F7588018^わかったよ、外{そと}で吸{す}えばいいんだろ。そうカッカすんなって",
+              "maleVariant": "",
+              "stringId": 1534550694698713112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E1588Z^…今{こん}日{にち}は気{き}分{ぶん}が優{まさ}れないようだ。なら薬{くすり}の量{りょう}を倍{ばい}にしないといけないねぇ。それとも、今{いま}すぐロボトミー手{しゅ}術{じゅつ}でも？",
+              "maleVariant": "",
+              "stringId": 1635959850055270400
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1B44DZ^例{れい}の錠{じょう}剤{ざい}を吐{は}き出{だ}したんで、“反{はん}対{たい}側{がわ}”から入{い}れてやったんだ",
+              "maleVariant": "",
+              "stringId": 1925778248386793472
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8844DZ^我々{われわれ}が部屋{へや}に入{いっ}った時{とき}、すでに舌{した}をだらんと出{だ}していたよ",
+              "maleVariant": "",
+              "stringId": 1925778911640473600
             }
-          }
+          ]
         }
       }
     },

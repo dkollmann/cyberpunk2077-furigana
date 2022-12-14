@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\hey_rey_junkshop_01.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F7464Z^買{か}い物{もの}がしたい",
-                    "maleVariant": null,
-                    "stringId": 1863331944444870656
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F846400C^お店{みせ}は順{じゅん}調{ちょう}？",
-                    "maleVariant": "F846400C^お店{みせ}は順{じゅん}調{ちょう}か？",
-                    "stringId": 1863331944461647884
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FD464004^欲{ほ}しいものがあって…",
-                    "maleVariant": null,
-                    "stringId": 1863331944545533956
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FD46400C^なら、恥{は}ずかしがらないで言{い}ってくれ！",
-                    "maleVariant": null,
-                    "stringId": 1863331944545533964
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1464004^景{けい}気{き}はどう？",
-                    "maleVariant": "1464004^景{けい}気{き}はどうだ？",
-                    "stringId": 1863331944612642820
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "146400C^お客{きゃく}さんが絶{た}えることはないけど… 色々{いろいろ}と逆{ぎゃく}風{ふう}がきつくてね。宗{しゅう}教{きょう}団{だん}体{たい}とか政{せい}府{ふ}の人{にん}間{げん}が、“公{こう}序{じょ}良{りょう}俗{ぞく}に反{はん}する”ってスローガンを掲{かか}げてしょっちゅう来{く}るんだよ",
-                    "maleVariant": null,
-                    "stringId": 1863331944612642828
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3244DZ^おかしいと思{おも}わないか？ 銃{じゅう}ならどこででも売{う}ってるし、誰{だれ}も何{なん}とも思{おも}わねえのに。うちの売{う}り物{もの}で人{にん}が死{し}ぬことなんてないだろ？",
-                    "maleVariant": null,
-                    "stringId": 1975117007708016640
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F7464Z^買{か}い物{もの}がしたい",
+              "maleVariant": "",
+              "stringId": 1863331944444870656
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F846400C^お店{みせ}は順{じゅん}調{ちょう}？",
+              "maleVariant": "F846400C^お店{みせ}は順{じゅん}調{ちょう}か？",
+              "stringId": 1863331944461647884
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FD464004^欲{ほ}しいものがあって…",
+              "maleVariant": "",
+              "stringId": 1863331944545533956
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FD46400C^なら、恥{は}ずかしがらないで言{い}ってくれ！",
+              "maleVariant": "",
+              "stringId": 1863331944545533964
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1464004^景{けい}気{き}はどう？",
+              "maleVariant": "1464004^景{けい}気{き}はどうだ？",
+              "stringId": 1863331944612642820
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "146400C^お客{きゃく}さんが絶{た}えることはないけど… 色々{いろいろ}と逆{ぎゃく}風{ふう}がきつくてね。宗{しゅう}教{きょう}団{だん}体{たい}とか政{せい}府{ふ}の人{にん}間{げん}が、“公{こう}序{じょ}良{りょう}俗{ぞく}に反{はん}する”ってスローガンを掲{かか}げてしょっちゅう来{く}るんだよ",
+              "maleVariant": "",
+              "stringId": 1863331944612642828
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3244DZ^おかしいと思{おも}わないか？ 銃{じゅう}ならどこででも売{う}ってるし、誰{だれ}も何{なん}とも思{おも}わねえのに。うちの売{う}り物{もの}で人{にん}が死{し}ぬことなんてないだろ？",
+              "maleVariant": "",
+              "stringId": 1975117007708016640
             }
-          }
+          ]
         }
       }
     },

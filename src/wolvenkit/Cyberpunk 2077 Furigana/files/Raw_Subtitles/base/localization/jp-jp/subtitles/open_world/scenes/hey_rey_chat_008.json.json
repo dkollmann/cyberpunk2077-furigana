@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_rey_chat_008.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FD69EZ^あいつら、私{わたし}らがみんな牢{ろう}屋{や}にブチこまれりゃいいと思{おも}ってんの。ふざけんなっつうの！",
-                    "maleVariant": null,
-                    "stringId": 1833115977742147584
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F469EZ^そのとおりだ！ 俺{おれ}らだってな、ちゃんと仕{し}事{ごと}をして、社{しゃ}会{かい}に貢{こう}献{けん}してんだよ！",
-                    "maleVariant": null,
-                    "stringId": 1833119357730414592
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8469EZ^でも… どうやって仕{し}事{ごと}を探{さが}すんです？ まさか履{り}歴{れき}書{しょ}を書{か}いて？",
-                    "maleVariant": null,
-                    "stringId": 1833119583484633088
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D969EZ^履{り}歴{れき}書{しょ}ならここにある！ 今{いま}までの仕{し}事{ごと}の証{しょう}だ。このタトゥーが見{み}えねえか、クソメディア野{や}郎{ろう}！",
-                    "maleVariant": null,
-                    "stringId": 1833119773889257472
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "はあ",
-                    "maleVariant": null,
-                    "stringId": 1833120001472192512
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8469EZ^ムショあがりっつうだけで、誰{だれ}も雇{こ}おうとしないけどね――",
-                    "maleVariant": null,
-                    "stringId": 1833120244909596672
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BF69EZ^そもそもあたしが強{ごう}盗{とう}をやったのも、仕{し}事{ごと}にありつけないからだよ！ 悪{あく}循{じゅん}環{かん}さ！",
-                    "maleVariant": null,
-                    "stringId": 1833120452057882624
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FD69EZ^あいつら、私{わたし}らがみんな牢{ろう}屋{や}にブチこまれりゃいいと思{おも}ってんの。ふざけんなっつうの！",
+              "maleVariant": "",
+              "stringId": 1833115977742147584
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F469EZ^そのとおりだ！ 俺{おれ}らだってな、ちゃんと仕{し}事{ごと}をして、社{しゃ}会{かい}に貢{こう}献{けん}してんだよ！",
+              "maleVariant": "",
+              "stringId": 1833119357730414592
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8469EZ^でも… どうやって仕{し}事{ごと}を探{さが}すんです？ まさか履{り}歴{れき}書{しょ}を書{か}いて？",
+              "maleVariant": "",
+              "stringId": 1833119583484633088
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D969EZ^履{り}歴{れき}書{しょ}ならここにある！ 今{いま}までの仕{し}事{ごと}の証{しょう}だ。このタトゥーが見{み}えねえか、クソメディア野{や}郎{ろう}！",
+              "maleVariant": "",
+              "stringId": 1833119773889257472
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "はあ",
+              "maleVariant": "",
+              "stringId": 1833120001472192512
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8469EZ^ムショあがりっつうだけで、誰{だれ}も雇{こ}おうとしないけどね――",
+              "maleVariant": "",
+              "stringId": 1833120244909596672
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BF69EZ^そもそもあたしが強{ごう}盗{とう}をやったのも、仕{し}事{ごと}にありつけないからだよ！ 悪{あく}循{じゅん}環{かん}さ！",
+              "maleVariant": "",
+              "stringId": 1833120452057882624
             }
-          }
+          ]
         }
       }
     },

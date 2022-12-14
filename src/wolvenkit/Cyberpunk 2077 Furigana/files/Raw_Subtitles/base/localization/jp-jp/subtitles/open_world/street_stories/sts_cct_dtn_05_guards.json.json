@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_cct_dtn_05_guards.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "22513Z^なあ、そろそろ切{き}るぞ。仕{し}事{ごと}なんだ。ああ、またな",
-                    "maleVariant": null,
-                    "stringId": 1384880022980997120
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "15513Z^こんなデカい船{ふね}、何{なに}に使{つか}うんだ？ 港{みなと}から出{で}もしないくせに",
-                    "maleVariant": null,
-                    "stringId": 1384894183270068224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A7513Z^わかんだろ。乱{らん}痴{ち}気{き}騒{さわ}ぎしてんのさ",
-                    "maleVariant": null,
-                    "stringId": 1672020428858667008
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7444DZ^退{たい}屈{くつ}したらやることはひとつってか？ だとしても、船{ふね}に乗{の}ってまでやらなくていいだろうに。陸{りく}の上{うえ}でやりゃ十{じゅう}分{ぶん}だろ",
-                    "maleVariant": null,
-                    "stringId": 1924372661702807552
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C144DZ^そんなエディーがあったら、孤{こ}児{じ}院{いん}にでも寄{き}付{ふ}しろってか？",
-                    "maleVariant": null,
-                    "stringId": 1924373341599485952
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8F44DZ^ああ、俺{おれ}ならそうするさ。なんせ、子{こ}供{ども}は天{てん}使{し}だからな",
-                    "maleVariant": null,
-                    "stringId": 1924374985733099520
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "22513Z^なあ、そろそろ切{き}るぞ。仕{し}事{ごと}なんだ。ああ、またな",
+              "maleVariant": "",
+              "stringId": 1384880022980997120
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "15513Z^こんなデカい船{ふね}、何{なに}に使{つか}うんだ？ 港{みなと}から出{で}もしないくせに",
+              "maleVariant": "",
+              "stringId": 1384894183270068224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A7513Z^わかんだろ。乱{らん}痴{ち}気{き}騒{さわ}ぎしてんのさ",
+              "maleVariant": "",
+              "stringId": 1672020428858667008
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7444DZ^退{たい}屈{くつ}したらやることはひとつってか？ だとしても、船{ふね}に乗{の}ってまでやらなくていいだろうに。陸{りく}の上{うえ}でやりゃ十{じゅう}分{ぶん}だろ",
+              "maleVariant": "",
+              "stringId": 1924372661702807552
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C144DZ^そんなエディーがあったら、孤{こ}児{じ}院{いん}にでも寄{き}付{ふ}しろってか？",
+              "maleVariant": "",
+              "stringId": 1924373341599485952
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8F44DZ^ああ、俺{おれ}ならそうするさ。なんせ、子{こ}供{ども}は天{てん}使{し}だからな",
+              "maleVariant": "",
+              "stringId": 1924374985733099520
             }
-          }
+          ]
         }
       }
     },

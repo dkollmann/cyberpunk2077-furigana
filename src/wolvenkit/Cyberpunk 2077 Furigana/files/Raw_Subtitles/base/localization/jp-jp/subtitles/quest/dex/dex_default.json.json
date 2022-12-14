@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\dex\\dex_default.json"
@@ -11,106 +11,80 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "324EAZ^今{こん}回{かい}のヤマが上手{うま}くいったら、再{ふたた}び表{おもて}舞{ぶ}台{たい}に？",
-                    "maleVariant": null,
-                    "stringId": 1741437354780827648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "344EAZ^このヤマが上手{うま}くいったら、あんたは本{ほん}格{かく}的{てき}にフィクサーとして活{かつ}動{どう}を再{さい}開{かい}するの？",
-                    "maleVariant": "344EAZ^このヤマが上手{うま}くいったら、あんたは本{ほん}格{かく}的{てき}にフィクサーとして活{かつ}動{どう}を再{さい}開{かい}するのか？",
-                    "stringId": 1741437354814382080
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "364EAZ^いえ、何{なん}でもない",
-                    "maleVariant": "364EAZ^いや、何{なん}でもない",
-                    "stringId": 1741437354847936512
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "394EAZ^ミスV。何{なに}か？",
-                    "maleVariant": "394EAZ^ミスターV。何{なに}か？",
-                    "stringId": 1741437354898268160
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C44EAZ^いえ、何{なん}でもない",
-                    "maleVariant": "C44EAZ^いや、何{なん}でもない",
-                    "stringId": 1741440518326231040
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B129FZ^なら仕{し}事{ごと}に戻{もど}れ。またな",
-                    "maleVariant": null,
-                    "stringId": 1958802288800296960
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C929FZ^フン、一{いっ}線{せん}を何{なん}年{ねん}も離{はな}れると、少{すこ}し食{しょく}欲{よく}が募{つの}ってな",
-                    "maleVariant": null,
-                    "stringId": 1958836477142626304
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5929FZ^これで華{か}麗{れい}に返{かえ}り咲{さ}くわけね",
-                    "maleVariant": "5929FZ^これで華{か}麗{れい}に返{かえ}り咲{さ}くわけだ",
-                    "stringId": 1958837858243047424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1829FZ^デショーンはただの名{な}前{まえ}じゃない。ブランドだ。クライアント連{れん}中{ちゅう}にもそれを思{おも}い出{だ}してもらう",
-                    "maleVariant": null,
-                    "stringId": 1958838290944225280
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5929FZ^だが約{やく}束{そく}しよう。お前{まえ}がしくじらない限{かぎ}り、分{わ}け前{まえ}は保{ほ}証{しょう}する。色{いろ}付{づけ}きでな",
-                    "maleVariant": null,
-                    "stringId": 1958840284899569664
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6829FZ^仕{し}事{ごと}に戻{もど}った方{ほう}がいい。また連{れん}絡{らく}してくれ",
-                    "maleVariant": null,
-                    "stringId": 1958845310262964224
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "324EAZ^今{こん}回{かい}のヤマが上手{うま}くいったら、再{ふたた}び表{おもて}舞{ぶ}台{たい}に？",
+              "maleVariant": "",
+              "stringId": 1741437354780827648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "344EAZ^このヤマが上手{うま}くいったら、あんたは本{ほん}格{かく}的{てき}にフィクサーとして活{かつ}動{どう}を再{さい}開{かい}するの？",
+              "maleVariant": "344EAZ^このヤマが上手{うま}くいったら、あんたは本{ほん}格{かく}的{てき}にフィクサーとして活{かつ}動{どう}を再{さい}開{かい}するのか？",
+              "stringId": 1741437354814382080
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "364EAZ^いえ、何{なん}でもない",
+              "maleVariant": "364EAZ^いや、何{なん}でもない",
+              "stringId": 1741437354847936512
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "394EAZ^ミスV。何{なに}か？",
+              "maleVariant": "394EAZ^ミスターV。何{なに}か？",
+              "stringId": 1741437354898268160
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C44EAZ^いえ、何{なん}でもない",
+              "maleVariant": "C44EAZ^いや、何{なん}でもない",
+              "stringId": 1741440518326231040
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B129FZ^なら仕{し}事{ごと}に戻{もど}れ。またな",
+              "maleVariant": "",
+              "stringId": 1958802288800296960
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C929FZ^フン、一{いっ}線{せん}を何{なん}年{ねん}も離{はな}れると、少{すこ}し食{しょく}欲{よく}が募{つの}ってな",
+              "maleVariant": "",
+              "stringId": 1958836477142626304
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5929FZ^これで華{か}麗{れい}に返{かえ}り咲{さ}くわけね",
+              "maleVariant": "5929FZ^これで華{か}麗{れい}に返{かえ}り咲{さ}くわけだ",
+              "stringId": 1958837858243047424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1829FZ^デショーンはただの名{な}前{まえ}じゃない。ブランドだ。クライアント連{れん}中{ちゅう}にもそれを思{おも}い出{だ}してもらう",
+              "maleVariant": "",
+              "stringId": 1958838290944225280
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5929FZ^だが約{やく}束{そく}しよう。お前{まえ}がしくじらない限{かぎ}り、分{わ}け前{まえ}は保{ほ}証{しょう}する。色{いろ}付{づけ}きでな",
+              "maleVariant": "",
+              "stringId": 1958840284899569664
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6829FZ^仕{し}事{ごと}に戻{もど}った方{ほう}がいい。また連{れん}絡{らく}してくれ",
+              "maleVariant": "",
+              "stringId": 1958845310262964224
             }
-          }
+          ]
         }
       }
     },

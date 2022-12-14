@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_cpz_chat_013.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8A69EZ^ハッ！ 俺{おれ}たちみたいに金{きん}があれば、リトルチャイナで何{なん}でも、誰{だれ}でも買{か}えるんだぞ",
-                    "maleVariant": null,
-                    "stringId": 2171967497940099072
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7F559Z^財{さい}布{ふ}を出{だ}しただけで、奴{やつ}らの目{め}ん玉{たま}が飛{と}び出{だ}すから見{み}てな。ほら、行{い}って楽{たの}しもうぜ",
-                    "maleVariant": null,
-                    "stringId": 2189597702849138688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9E559Z^でも… 危{あぶ}ないエリアですよ",
-                    "maleVariant": null,
-                    "stringId": 2189597999721975808
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "20559Z^おいおい。金{きん}はあるんだ。誰{だれ}も手{て}出{だ}しできない。弾{はず}も当{あ}たらない。何{なん}でも俺{おれ}たちの思{おも}いどおりだ",
-                    "maleVariant": null,
-                    "stringId": 2189647853588418560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それなら、ここもそうでしょ？",
-                    "maleVariant": null,
-                    "stringId": 2189648037500260352
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F1559Z^情{なさ}けないな、チューマ。誰{だれ}のおかげでここまで来{こ}れたと思{おも}ってるんだ？ スーツや車{くるま}を手{て}に入{い}れて、立派{りっぱ}な暮{く}らしができてるのは？",
-                    "maleVariant": null,
-                    "stringId": 2189648243641913344
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "13559Z^先輩{せんぱい}です…",
-                    "maleVariant": null,
-                    "stringId": 2189648351586521088
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "70559Z^そのとおり。だから俺{おれ}がリトルチャイナに行{い}くと言{い}えば、行{い}くんだ。本{ほん}当{とう}の金{かね}持{も}ちのやり方{ほう}ってやつを教{おし}えてやる",
-                    "maleVariant": null,
-                    "stringId": 2189648426161246208
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8A69EZ^ハッ！ 俺{おれ}たちみたいに金{きん}があれば、リトルチャイナで何{なん}でも、誰{だれ}でも買{か}えるんだぞ",
+              "maleVariant": "",
+              "stringId": 2171967497940099072
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7F559Z^財{さい}布{ふ}を出{だ}しただけで、奴{やつ}らの目{め}ん玉{たま}が飛{と}び出{だ}すから見{み}てな。ほら、行{い}って楽{たの}しもうぜ",
+              "maleVariant": "",
+              "stringId": 2189597702849138688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9E559Z^でも… 危{あぶ}ないエリアですよ",
+              "maleVariant": "",
+              "stringId": 2189597999721975808
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "20559Z^おいおい。金{きん}はあるんだ。誰{だれ}も手{て}出{だ}しできない。弾{はず}も当{あ}たらない。何{なん}でも俺{おれ}たちの思{おも}いどおりだ",
+              "maleVariant": "",
+              "stringId": 2189647853588418560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それなら、ここもそうでしょ？",
+              "maleVariant": "",
+              "stringId": 2189648037500260352
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F1559Z^情{なさ}けないな、チューマ。誰{だれ}のおかげでここまで来{こ}れたと思{おも}ってるんだ？ スーツや車{くるま}を手{て}に入{い}れて、立派{りっぱ}な暮{く}らしができてるのは？",
+              "maleVariant": "",
+              "stringId": 2189648243641913344
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "13559Z^先輩{せんぱい}です…",
+              "maleVariant": "",
+              "stringId": 2189648351586521088
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "70559Z^そのとおり。だから俺{おれ}がリトルチャイナに行{い}くと言{い}えば、行{い}くんだ。本{ほん}当{とう}の金{かね}持{も}ちのやり方{ほう}ってやつを教{おし}えてやる",
+              "maleVariant": "",
+              "stringId": 2189648426161246208
             }
-          }
+          ]
         }
       }
     },

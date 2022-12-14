@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_nok_chat_018.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5E47AZ^チューマ、俺{おれ}はお前{まえ}を助{たす}けたいだけなんだ",
-                    "maleVariant": null,
-                    "stringId": 2159441886505836544
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3C42FZ^はいはい。聞{き}き飽{あ}きたよ",
-                    "maleVariant": null,
-                    "stringId": 2199655982555131904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CD42FZ^言{い}いたくもなるさ。仕{し}事{ごと}もせずに、バカな賭{か}け事{こと}にエディーをつぎ込{こ}みやがって。ノーマッドの賭{か}けは胴{どう}元{もと}が勝{か}つようにできてんだよ",
-                    "maleVariant": null,
-                    "stringId": 2199656182556323840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7C42FZ^お前{まえ}のアドバイスなんか求{もと}めてない。大{だい}丈{じょう}夫{ぶ}、大{たい}勝{しょう}ちする方{ほう}法{ほう}があるんだ。そもそも、この辺{あた}りじゃ他{ほか}にやることなんてないだろ？",
-                    "maleVariant": null,
-                    "stringId": 2199657070255599616
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6D42FZ^チューマ、わかってんのか。バレたら、お前{まえ}は追{お}い出{だ}されるんだぞ",
-                    "maleVariant": null,
-                    "stringId": 2199657293342240768
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A242FZ^そんなことになれば、こっちまで巻{ま}き添{ぞ}えを食{く}うことに――",
-                    "maleVariant": null,
-                    "stringId": 2199658410922930176
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AC42FZ^大{だい}丈{じょう}夫{ぶ}だって。まったく、落{お}ち着{つ}けよ。もうログアウトするとこだ",
-                    "maleVariant": null,
-                    "stringId": 2199658728918282240
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5E47AZ^チューマ、俺{おれ}はお前{まえ}を助{たす}けたいだけなんだ",
+              "maleVariant": "",
+              "stringId": 2159441886505836544
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3C42FZ^はいはい。聞{き}き飽{あ}きたよ",
+              "maleVariant": "",
+              "stringId": 2199655982555131904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CD42FZ^言{い}いたくもなるさ。仕{し}事{ごと}もせずに、バカな賭{か}け事{こと}にエディーをつぎ込{こ}みやがって。ノーマッドの賭{か}けは胴{どう}元{もと}が勝{か}つようにできてんだよ",
+              "maleVariant": "",
+              "stringId": 2199656182556323840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7C42FZ^お前{まえ}のアドバイスなんか求{もと}めてない。大{だい}丈{じょう}夫{ぶ}、大{たい}勝{しょう}ちする方{ほう}法{ほう}があるんだ。そもそも、この辺{あた}りじゃ他{ほか}にやることなんてないだろ？",
+              "maleVariant": "",
+              "stringId": 2199657070255599616
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6D42FZ^チューマ、わかってんのか。バレたら、お前{まえ}は追{お}い出{だ}されるんだぞ",
+              "maleVariant": "",
+              "stringId": 2199657293342240768
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A242FZ^そんなことになれば、こっちまで巻{ま}き添{ぞ}えを食{く}うことに――",
+              "maleVariant": "",
+              "stringId": 2199658410922930176
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AC42FZ^大{だい}丈{じょう}夫{ぶ}だって。まったく、落{お}ち着{つ}けよ。もうログアウトするとこだ",
+              "maleVariant": "",
+              "stringId": 2199658728918282240
             }
-          }
+          ]
         }
       }
     },

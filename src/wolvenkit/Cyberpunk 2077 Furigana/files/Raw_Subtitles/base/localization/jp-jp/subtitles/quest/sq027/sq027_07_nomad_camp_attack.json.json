@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\sq027\\sq027_07_nomad_camp_attack.json"
@@ -11,114 +11,86 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2C405Z^もうすぐ着{つ}く",
-                    "maleVariant": null,
-                    "stringId": 1359321531762626560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "よし！",
-                    "maleVariant": null,
-                    "stringId": 1359339065765285888
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソッ！",
-                    "maleVariant": null,
-                    "stringId": 1359339517928034304
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "73405Z^ほら、いい加{か}減{げん}死{し}にな！",
-                    "maleVariant": null,
-                    "stringId": 1359339563226517504
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3B3C5Z^よし、パナムが見{み}える。連{れん}中{ちゅう}め、きっと驚{おどろ}くぞ",
-                    "maleVariant": null,
-                    "stringId": 1760400043564355584
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3E3C5Z^よし、V。目{め}にもの見{み}せてやろう",
-                    "maleVariant": null,
-                    "stringId": 1760400043614687232
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "492C5Z^いったい何{なん}のつもり？",
-                    "maleVariant": null,
-                    "stringId": 1885320108200185856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6C2C5Z^戻{もど}らないなら、私{わたし}が操{そう}縦{じゅう}するよ！",
-                    "maleVariant": null,
-                    "stringId": 1885322806026850304
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ、まずい！",
-                    "maleVariant": null,
-                    "stringId": 1886612928521326592
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "かすりもしねえよ！",
-                    "maleVariant": null,
-                    "stringId": 1886617677295538176
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7B2C5Z^乗{の}れ！",
-                    "maleVariant": null,
-                    "stringId": 1886617846292434944
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CF494Z^V！ 連{れん}中{ちゅう}を何{なん}とかしないと！",
-                    "maleVariant": null,
-                    "stringId": 2227452102828441600
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2C405Z^もうすぐ着{つ}く",
+              "maleVariant": "",
+              "stringId": 1359321531762626560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "よし！",
+              "maleVariant": "",
+              "stringId": 1359339065765285888
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソッ！",
+              "maleVariant": "",
+              "stringId": 1359339517928034304
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "73405Z^ほら、いい加{か}減{げん}死{し}にな！",
+              "maleVariant": "",
+              "stringId": 1359339563226517504
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3B3C5Z^よし、パナムが見{み}える。連{れん}中{ちゅう}め、きっと驚{おどろ}くぞ",
+              "maleVariant": "",
+              "stringId": 1760400043564355584
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3E3C5Z^よし、V。目{め}にもの見{み}せてやろう",
+              "maleVariant": "",
+              "stringId": 1760400043614687232
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "492C5Z^いったい何{なん}のつもり？",
+              "maleVariant": "",
+              "stringId": 1885320108200185856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6C2C5Z^戻{もど}らないなら、私{わたし}が操{そう}縦{じゅう}するよ！",
+              "maleVariant": "",
+              "stringId": 1885322806026850304
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ、まずい！",
+              "maleVariant": "",
+              "stringId": 1886612928521326592
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "かすりもしねえよ！",
+              "maleVariant": "",
+              "stringId": 1886617677295538176
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7B2C5Z^乗{の}れ！",
+              "maleVariant": "",
+              "stringId": 1886617846292434944
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CF494Z^V！ 連{れん}中{ちゅう}を何{なん}とかしないと！",
+              "maleVariant": "",
+              "stringId": 2227452102828441600
             }
-          }
+          ]
         }
       }
     },

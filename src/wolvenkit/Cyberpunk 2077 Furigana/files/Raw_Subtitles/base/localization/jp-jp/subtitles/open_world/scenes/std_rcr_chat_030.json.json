@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_rcr_chat_030.json"
@@ -11,58 +11,44 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9A5C5Z^九{きゅう}番{ばん}を二{ふた}つ。一{ひと}つをスーパーサイズで、もう一{いっ}個{こ}はレギュラーで…",
-                    "maleVariant": null,
-                    "stringId": 2167932552526712832
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D44DZ^はい… 以{い}上{じょう}ですか？",
-                    "maleVariant": null,
-                    "stringId": 2182266711452209152
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4444DZ^六{ろく}番{ばん}をソース多{おお}めで。あと45番{ばん}を二{ふた}つと、七{しち}番{ばん}を一{ひと}つ。Lサイズのニコーラも一{ひと}つくれ",
-                    "maleVariant": null,
-                    "stringId": 2182266931418288128
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6C44DZ^果{か}糖{とう}の追{つい}加{か}はいかかですか？",
-                    "maleVariant": null,
-                    "stringId": 2182267795377803264
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8444DZ^あー、じゃあ頼{たの}むよ",
-                    "maleVariant": null,
-                    "stringId": 2182267946104311808
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9A5C5Z^九{きゅう}番{ばん}を二{ふた}つ。一{ひと}つをスーパーサイズで、もう一{いっ}個{こ}はレギュラーで…",
+              "maleVariant": "",
+              "stringId": 2167932552526712832
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D44DZ^はい… 以{い}上{じょう}ですか？",
+              "maleVariant": "",
+              "stringId": 2182266711452209152
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4444DZ^六{ろく}番{ばん}をソース多{おお}めで。あと45番{ばん}を二{ふた}つと、七{しち}番{ばん}を一{ひと}つ。Lサイズのニコーラも一{ひと}つくれ",
+              "maleVariant": "",
+              "stringId": 2182266931418288128
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6C44DZ^果{か}糖{とう}の追{つい}加{か}はいかかですか？",
+              "maleVariant": "",
+              "stringId": 2182267795377803264
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8444DZ^あー、じゃあ頼{たの}むよ",
+              "maleVariant": "",
+              "stringId": 2182267946104311808
             }
-          }
+          ]
         }
       }
     },

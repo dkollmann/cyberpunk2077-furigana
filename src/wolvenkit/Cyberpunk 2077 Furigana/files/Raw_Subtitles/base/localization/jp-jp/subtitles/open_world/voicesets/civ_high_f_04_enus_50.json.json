@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_high_f_04_enus_50.json"
@@ -11,138 +11,104 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A6582Z^ごめんなさい… 今{いま}はちょっと",
-                    "maleVariant": null,
-                    "stringId": 1882010970605756416
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A7582004^何{なに}か用{よう}です？",
-                    "maleVariant": null,
-                    "stringId": 1882010970622533636
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AA582004^ちょっと本{ほん}気{き}？",
-                    "maleVariant": null,
-                    "stringId": 1882010970672865284
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AB582004^マナーも知{し}らないの！",
-                    "maleVariant": null,
-                    "stringId": 1882010970689642500
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D1582Z^もしもし？ 今{いま}どこ？",
-                    "maleVariant": null,
-                    "stringId": 1882010971327176704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D5582004^無{む}理{り}ってどういうこと？ 待{ま}って、でも… いつ？",
-                    "maleVariant": null,
-                    "stringId": 1882010971394285572
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D7582004^できない…？ 何{なに}が…？ ダメ…！ 今切{いまぎれ}ったら絶{ぜっ}対{たい}に…",
-                    "maleVariant": null,
-                    "stringId": 1882010971427840004
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもし？ もしもし！？",
-                    "maleVariant": null,
-                    "stringId": 1882010971478171652
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まともじゃない！",
-                    "maleVariant": null,
-                    "stringId": 1882010971629166596
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E6582Z^お願{ねが}い、許{ゆる}して… 命{いのち}だけは…",
-                    "maleVariant": null,
-                    "stringId": 1882010971679498240
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EE582004^お願{ねが}い…！ 私{わたし}が死{し}ぬと困{こま}る人{にん}がいるの！",
-                    "maleVariant": null,
-                    "stringId": 1882010971813715972
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F0582004^やめて！ まだ死{し}にたくないの！",
-                    "maleVariant": null,
-                    "stringId": 1882010971847270404
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F5582004^誰{だれ}の差{さ}し金{きん}？",
-                    "maleVariant": null,
-                    "stringId": 1882010971931156484
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F7582004^関{かか}わらないでちょうだい",
-                    "maleVariant": null,
-                    "stringId": 1882010971964710916
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4B582Z^電{でん}話{わ}くれなかったし… 生{い}きてるかどうかもわからないじゃない！",
-                    "maleVariant": null,
-                    "stringId": 1882013541764440064
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A6582Z^ごめんなさい… 今{いま}はちょっと",
+              "maleVariant": "",
+              "stringId": 1882010970605756416
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A7582004^何{なに}か用{よう}です？",
+              "maleVariant": "",
+              "stringId": 1882010970622533636
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AA582004^ちょっと本{ほん}気{き}？",
+              "maleVariant": "",
+              "stringId": 1882010970672865284
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AB582004^マナーも知{し}らないの！",
+              "maleVariant": "",
+              "stringId": 1882010970689642500
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D1582Z^もしもし？ 今{いま}どこ？",
+              "maleVariant": "",
+              "stringId": 1882010971327176704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D5582004^無{む}理{り}ってどういうこと？ 待{ま}って、でも… いつ？",
+              "maleVariant": "",
+              "stringId": 1882010971394285572
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D7582004^できない…？ 何{なに}が…？ ダメ…！ 今切{いまぎれ}ったら絶{ぜっ}対{たい}に…",
+              "maleVariant": "",
+              "stringId": 1882010971427840004
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもし？ もしもし！？",
+              "maleVariant": "",
+              "stringId": 1882010971478171652
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まともじゃない！",
+              "maleVariant": "",
+              "stringId": 1882010971629166596
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E6582Z^お願{ねが}い、許{ゆる}して… 命{いのち}だけは…",
+              "maleVariant": "",
+              "stringId": 1882010971679498240
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EE582004^お願{ねが}い…！ 私{わたし}が死{し}ぬと困{こま}る人{にん}がいるの！",
+              "maleVariant": "",
+              "stringId": 1882010971813715972
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F0582004^やめて！ まだ死{し}にたくないの！",
+              "maleVariant": "",
+              "stringId": 1882010971847270404
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F5582004^誰{だれ}の差{さ}し金{きん}？",
+              "maleVariant": "",
+              "stringId": 1882010971931156484
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F7582004^関{かか}わらないでちょうだい",
+              "maleVariant": "",
+              "stringId": 1882010971964710916
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4B582Z^電{でん}話{わ}くれなかったし… 生{い}きてるかどうかもわからないじゃない！",
+              "maleVariant": "",
+              "stringId": 1882013541764440064
             }
-          }
+          ]
         }
       }
     },

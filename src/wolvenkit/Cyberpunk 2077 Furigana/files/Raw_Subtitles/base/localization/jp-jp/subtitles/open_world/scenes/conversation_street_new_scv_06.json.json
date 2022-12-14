@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_new_scv_06.json"
@@ -11,42 +11,32 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7A52A010^あの家{いえ}のことが頭{あたま}から離{はな}れない。あそこの廊{ろう}下{か}も。暗{くら}闇{やみ}の中{なか}で響{ひび}く不{ぶ}気{き}味{み}な声{こえ}、空{くう}気{き}もひんやりしてて…",
-                    "maleVariant": null,
-                    "stringId": 2276536542439841808
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"rus\" o=\"Всё в этой стране не слава богу. Даже архитектура.\" t=\"7A52A01C^この国{くに}は何{なに}もかもめちゃくちゃだな。建物{たてもの}までイカれてる\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 2276536542439841820
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7A52A028^あの廊{ろう}下{か}は存{そん}在{ざい}するはずじゃなかったんだ！ 見{み}取{とり}り図{ず}にもなかった！ まさか… 本{ほん}当{とう}に幽{ゆう}霊{れい}屋{や}敷{しき}だったわけ…？",
-                    "maleVariant": null,
-                    "stringId": 2276536542439841832
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7A52A010^あの家{いえ}のことが頭{あたま}から離{はな}れない。あそこの廊{ろう}下{か}も。暗{くら}闇{やみ}の中{なか}で響{ひび}く不{ぶ}気{き}味{み}な声{こえ}、空{くう}気{き}もひんやりしてて…",
+              "maleVariant": "",
+              "stringId": 2276536542439841808
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"rus\" o=\"Всё в этой стране не слава богу. Даже архитектура.\" t=\"7A52A01C^この国{くに}は何{なに}もかもめちゃくちゃだな。建物{たてもの}までイカれてる\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 2276536542439841820
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7A52A028^あの廊{ろう}下{か}は存{そん}在{ざい}するはずじゃなかったんだ！ 見{み}取{とり}り図{ず}にもなかった！ まさか… 本{ほん}当{とう}に幽{ゆう}霊{れい}屋{や}敷{しき}だったわけ…？",
+              "maleVariant": "",
+              "stringId": 2276536542439841832
             }
-          }
+          ]
         }
       }
     },

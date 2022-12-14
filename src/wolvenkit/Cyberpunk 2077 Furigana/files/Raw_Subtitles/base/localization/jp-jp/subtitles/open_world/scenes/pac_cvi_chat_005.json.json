@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_cvi_chat_005.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Mwen vle achte dèk mwen te vann ou a.\" t=\"9870AZ^デッキを買{か}い戻{もど}したい\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 1963268246919487488
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Jamè pa. Mwen te ba ou yon pri pou li.\" t=\"C92C5Z^イヤよ。ちゃんとお金{きん}は払{はら}ったでしょ\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 1965048228213444608
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Laurie pa fè m sa. Mwen pa te anfòm lè sa a, m te an kakaI.\" t=\"D72C5Z^頼{たの}むよ、ローリー。あの時{とき}は金{きん}に困{こま}ってたんだ\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 1965048683714859008
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Kounye a ou pa konsa ankò. Al achte yon lò dèk.\" t=\"E82C5Z^今{いま}は困{こま}ってないんでしょ。だったら別{べつ}のデッキを買{か}えばいいじゃない\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 1965053782126252032
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"creo\" o=\"Mwen vle achte dèk mwen te vann ou a.\" t=\"9870AZ^デッキを買{か}い戻{もど}したい\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 1963268246919487488
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"creo\" o=\"Jamè pa. Mwen te ba ou yon pri pou li.\" t=\"C92C5Z^イヤよ。ちゃんとお金{きん}は払{はら}ったでしょ\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 1965048228213444608
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"creo\" o=\"Laurie pa fè m sa. Mwen pa te anfòm lè sa a, m te an kakaI.\" t=\"D72C5Z^頼{たの}むよ、ローリー。あの時{とき}は金{きん}に困{こま}ってたんだ\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 1965048683714859008
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"creo\" o=\"Kounye a ou pa konsa ankò. Al achte yon lò dèk.\" t=\"E82C5Z^今{いま}は困{こま}ってないんでしょ。だったら別{べつ}のデッキを買{か}えばいいじゃない\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 1965053782126252032
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_mid_f_67_nat_40.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E470AZ^今{こん}日{にち}はとてもいい日{にち}ね",
-                    "maleVariant": null,
-                    "stringId": 1954563637975752704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E570A004^サイバーウェアを新{しん}調{ちょう}しようかしら",
-                    "maleVariant": null,
-                    "stringId": 1954563637992529924
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E870A004^失{しつ}礼{れい}ね！",
-                    "maleVariant": null,
-                    "stringId": 1954563638042861572
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E970A004^ちゃんと前{まえ}を見{み}て歩{ある}きなさい！",
-                    "maleVariant": null,
-                    "stringId": 1954563638059638788
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EB70A004^言{い}ったでしょ？",
-                    "maleVariant": null,
-                    "stringId": 1954563638093193220
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EE70A004^そうじゃなくて… 当{あ}たったの…！ こんな大{たい}金{きん}見{み}たことない… うん…！ あの時{とき}買{か}っておいてよかった！",
-                    "maleVariant": null,
-                    "stringId": 1954563638143524868
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EF70A004^十{じゅう}年{ねん}間{かん}買{か}い続{つづ}けて、ついに報{むく}われた…！ 運{うん}命{めい}よ！ 当{あ}たったのは初{はじ}めて…！ 私{わたし}も信{しん}じられなかった",
-                    "maleVariant": null,
-                    "stringId": 1954563638160302084
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F170A004^おごるから来{こ}なよ！",
-                    "maleVariant": null,
-                    "stringId": 1954563638193856516
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FA70A004^助{たす}けて！",
-                    "maleVariant": null,
-                    "stringId": 1954563638344851460
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FC70A004^まだ追{お}いかけてきてる！？",
-                    "maleVariant": null,
-                    "stringId": 1954563638378405892
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "70A004^お金{きん}なら出{だ}すから！",
-                    "maleVariant": null,
-                    "stringId": 1954563638445514756
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "170A004^こんなとこで死{し}ぬなんて嫌{いや}よ！",
-                    "maleVariant": null,
-                    "stringId": 1954563638462291972
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "670A004^一{ひと}人{り}にしてちょうだい",
-                    "maleVariant": null,
-                    "stringId": 1954563638546178052
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "770A004^いいから向{む}こう行{い}って",
-                    "maleVariant": null,
-                    "stringId": 1954563638562955268
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E470AZ^今{こん}日{にち}はとてもいい日{にち}ね",
+              "maleVariant": "",
+              "stringId": 1954563637975752704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E570A004^サイバーウェアを新{しん}調{ちょう}しようかしら",
+              "maleVariant": "",
+              "stringId": 1954563637992529924
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E870A004^失{しつ}礼{れい}ね！",
+              "maleVariant": "",
+              "stringId": 1954563638042861572
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E970A004^ちゃんと前{まえ}を見{み}て歩{ある}きなさい！",
+              "maleVariant": "",
+              "stringId": 1954563638059638788
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EB70A004^言{い}ったでしょ？",
+              "maleVariant": "",
+              "stringId": 1954563638093193220
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EE70A004^そうじゃなくて… 当{あ}たったの…！ こんな大{たい}金{きん}見{み}たことない… うん…！ あの時{とき}買{か}っておいてよかった！",
+              "maleVariant": "",
+              "stringId": 1954563638143524868
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EF70A004^十{じゅう}年{ねん}間{かん}買{か}い続{つづ}けて、ついに報{むく}われた…！ 運{うん}命{めい}よ！ 当{あ}たったのは初{はじ}めて…！ 私{わたし}も信{しん}じられなかった",
+              "maleVariant": "",
+              "stringId": 1954563638160302084
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F170A004^おごるから来{こ}なよ！",
+              "maleVariant": "",
+              "stringId": 1954563638193856516
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FA70A004^助{たす}けて！",
+              "maleVariant": "",
+              "stringId": 1954563638344851460
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FC70A004^まだ追{お}いかけてきてる！？",
+              "maleVariant": "",
+              "stringId": 1954563638378405892
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "70A004^お金{きん}なら出{だ}すから！",
+              "maleVariant": "",
+              "stringId": 1954563638445514756
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "170A004^こんなとこで死{し}ぬなんて嫌{いや}よ！",
+              "maleVariant": "",
+              "stringId": 1954563638462291972
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "670A004^一{ひと}人{り}にしてちょうだい",
+              "maleVariant": "",
+              "stringId": 1954563638546178052
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "770A004^いいから向{む}こう行{い}って",
+              "maleVariant": "",
+              "stringId": 1954563638562955268
             }
-          }
+          ]
         }
       }
     },

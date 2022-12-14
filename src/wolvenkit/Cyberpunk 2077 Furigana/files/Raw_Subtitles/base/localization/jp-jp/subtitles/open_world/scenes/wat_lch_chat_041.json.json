@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_041.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3A647Z^クルスの奴{やつ}、倒{たお}すのが早{はや}すぎるんだよ。もう2ラウンドぐらいやってくれてもよかったのに",
-                    "maleVariant": null,
-                    "stringId": 2157389561551155200
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EB494Z^なんでだよ？ 引{ひ}き延{の}ばしても結{けっ}果{か}は変{か}わらない",
-                    "maleVariant": null,
-                    "stringId": 2222935936596525056
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D4494Z^観{かん}客{きゃく}は処{しょ}刑{けい}じゃなくて、ショーを見{み}に来{き}てるんだ",
-                    "maleVariant": null,
-                    "stringId": 2222936335642607616
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F7494Z^確{たし}かにそうかもしれないが… クルスにそういうのを期{き}待{たい}しても無{む}駄{だ}だ",
-                    "maleVariant": null,
-                    "stringId": 2222940755751157760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まあな。それでどこまでやってけるかね…",
-                    "maleVariant": null,
-                    "stringId": 2222948188812820480
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FD494Z^攻{せ}めて、攻{せ}めて、攻{せ}めまくる。それがあいつの持{も}ち味{あじ}だからな",
-                    "maleVariant": null,
-                    "stringId": 2222949985736540160
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3A647Z^クルスの奴{やつ}、倒{たお}すのが早{はや}すぎるんだよ。もう2ラウンドぐらいやってくれてもよかったのに",
+              "maleVariant": "",
+              "stringId": 2157389561551155200
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EB494Z^なんでだよ？ 引{ひ}き延{の}ばしても結{けっ}果{か}は変{か}わらない",
+              "maleVariant": "",
+              "stringId": 2222935936596525056
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D4494Z^観{かん}客{きゃく}は処{しょ}刑{けい}じゃなくて、ショーを見{み}に来{き}てるんだ",
+              "maleVariant": "",
+              "stringId": 2222936335642607616
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F7494Z^確{たし}かにそうかもしれないが… クルスにそういうのを期{き}待{たい}しても無{む}駄{だ}だ",
+              "maleVariant": "",
+              "stringId": 2222940755751157760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まあな。それでどこまでやってけるかね…",
+              "maleVariant": "",
+              "stringId": 2222948188812820480
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FD494Z^攻{せ}めて、攻{せ}めて、攻{せ}めまくる。それがあいつの持{も}ち味{あじ}だからな",
+              "maleVariant": "",
+              "stringId": 2222949985736540160
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_rey_chat_018.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F8647Z^おい、ここもかよ？ またべらぼうに値{ね}上{あ}げしたな",
-                    "maleVariant": null,
-                    "stringId": 2161828864410808320
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "18559Z^仕{し}方{かた}ないだろ？ こっちもカツカツなんだ",
-                    "maleVariant": null,
-                    "stringId": 2221476507465125888
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D8559Z^恨{うら}むなら企{き}業{ぎょう}を恨{うら}め。遊{あそ}び感{かん}覚{かく}でインフレを起{お}こしやがって。痛{いた}い思{おも}いをするのは俺{おれ}たち一般庶民{いっぱんしょみん}なのに",
-                    "maleVariant": null,
-                    "stringId": 2221477520003665920
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "78559Z^確{たし}かにな。燃{ねん}料{りょう}の価{か}格{かく}も高{こう}騰{とう}してる。生{せい}産{さん}量{りょう}が減{へ}ったとか抜{ぬ}かしてな",
-                    "maleVariant": null,
-                    "stringId": 2221477767501156352
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "79559Z^連{れん}中{ちゅう}の言葉{ことば}なんかまったく信{しん}じられん。結{けっ}局{きょく}、自{じ}分{ぶん}の懐{ふところ}を増{ふ}やすことしか考{かんが}えてないんだ",
-                    "maleVariant": null,
-                    "stringId": 2221480675210792960
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "88559Z^ここの場{ば}所{しょ}代{だい}も上{あ}がったしな",
-                    "maleVariant": null,
-                    "stringId": 2221484901710270464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ヴァレンティーノズか？",
-                    "maleVariant": null,
-                    "stringId": 2221485742986989568
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "47559Z^ああ… どいつもこいつも下{した}から搾{さく}取{しゅ}しやがって。もう破{は}産{さん}するしかないかもな",
-                    "maleVariant": null,
-                    "stringId": 2221485819742752768
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F8647Z^おい、ここもかよ？ またべらぼうに値{ね}上{あ}げしたな",
+              "maleVariant": "",
+              "stringId": 2161828864410808320
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "18559Z^仕{し}方{かた}ないだろ？ こっちもカツカツなんだ",
+              "maleVariant": "",
+              "stringId": 2221476507465125888
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D8559Z^恨{うら}むなら企{き}業{ぎょう}を恨{うら}め。遊{あそ}び感{かん}覚{かく}でインフレを起{お}こしやがって。痛{いた}い思{おも}いをするのは俺{おれ}たち一般庶民{いっぱんしょみん}なのに",
+              "maleVariant": "",
+              "stringId": 2221477520003665920
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "78559Z^確{たし}かにな。燃{ねん}料{りょう}の価{か}格{かく}も高{こう}騰{とう}してる。生{せい}産{さん}量{りょう}が減{へ}ったとか抜{ぬ}かしてな",
+              "maleVariant": "",
+              "stringId": 2221477767501156352
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "79559Z^連{れん}中{ちゅう}の言葉{ことば}なんかまったく信{しん}じられん。結{けっ}局{きょく}、自{じ}分{ぶん}の懐{ふところ}を増{ふ}やすことしか考{かんが}えてないんだ",
+              "maleVariant": "",
+              "stringId": 2221480675210792960
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "88559Z^ここの場{ば}所{しょ}代{だい}も上{あ}がったしな",
+              "maleVariant": "",
+              "stringId": 2221484901710270464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ヴァレンティーノズか？",
+              "maleVariant": "",
+              "stringId": 2221485742986989568
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "47559Z^ああ… どいつもこいつも下{した}から搾{さく}取{しゅ}しやがって。もう破{は}産{さん}するしかないかもな",
+              "maleVariant": "",
+              "stringId": 2221485819742752768
             }
-          }
+          ]
         }
       }
     },

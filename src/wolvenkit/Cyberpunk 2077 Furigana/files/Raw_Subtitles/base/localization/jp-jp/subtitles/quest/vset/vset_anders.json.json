@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\vset\\vset_anders.json"
@@ -11,106 +11,80 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3B2FCZ^何{なん}だ？",
-                    "maleVariant": null,
-                    "stringId": 1796854789669109760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3C2FC004^話{はなし}を聞{き}こう",
-                    "maleVariant": null,
-                    "stringId": 1796854789685886980
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "412FC004^後{のち}にするか？",
-                    "maleVariant": null,
-                    "stringId": 1796854789769773060
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "432FC004^また後{のち}にしよう",
-                    "maleVariant": null,
-                    "stringId": 1796854789803327492
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "462FC004^では続{つづ}きを",
-                    "maleVariant": null,
-                    "stringId": 1796854789853659140
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それで？",
-                    "maleVariant": null,
-                    "stringId": 1796854789870436356
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "492FC004^急{せ}かすつもりはないが…",
-                    "maleVariant": null,
-                    "stringId": 1796854789903990788
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4A2FC004^私{わたし}を待{ま}たせるのか？",
-                    "maleVariant": null,
-                    "stringId": 1796854789920768004
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "562FC004^気{き}をつけろ",
-                    "maleVariant": null,
-                    "stringId": 1796854790122094596
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "582FCZ^注{ちゅう}意{い}してくれ",
-                    "maleVariant": null,
-                    "stringId": 1796854790155649024
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6845AZ^また気{き}を失{う}ったのか？ 早{はや}くしたまえ",
-                    "maleVariant": null,
-                    "stringId": 2238867316719067136
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3B2FCZ^何{なん}だ？",
+              "maleVariant": "",
+              "stringId": 1796854789669109760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3C2FC004^話{はなし}を聞{き}こう",
+              "maleVariant": "",
+              "stringId": 1796854789685886980
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "412FC004^後{のち}にするか？",
+              "maleVariant": "",
+              "stringId": 1796854789769773060
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "432FC004^また後{のち}にしよう",
+              "maleVariant": "",
+              "stringId": 1796854789803327492
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "462FC004^では続{つづ}きを",
+              "maleVariant": "",
+              "stringId": 1796854789853659140
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それで？",
+              "maleVariant": "",
+              "stringId": 1796854789870436356
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "492FC004^急{せ}かすつもりはないが…",
+              "maleVariant": "",
+              "stringId": 1796854789903990788
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4A2FC004^私{わたし}を待{ま}たせるのか？",
+              "maleVariant": "",
+              "stringId": 1796854789920768004
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "562FC004^気{き}をつけろ",
+              "maleVariant": "",
+              "stringId": 1796854790122094596
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "582FCZ^注{ちゅう}意{い}してくれ",
+              "maleVariant": "",
+              "stringId": 1796854790155649024
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6845AZ^また気{き}を失{う}ったのか？ 早{はや}くしたまえ",
+              "maleVariant": "",
+              "stringId": 2238867316719067136
             }
-          }
+          ]
         }
       }
     },

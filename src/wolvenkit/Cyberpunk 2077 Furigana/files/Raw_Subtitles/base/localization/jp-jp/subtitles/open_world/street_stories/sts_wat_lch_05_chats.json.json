@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_wat_lch_05_chats.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ルーレットは？ やったことあるか？",
-                    "maleVariant": null,
-                    "stringId": 1809617884877979648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EA588Z^いや。当{あ}たる確{かく}率{りつ}なんかほぼないだろ",
-                    "maleVariant": null,
-                    "stringId": 1814210437623349248
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CC588Z^ああ？ なんでだよ。確{かく}率{りつ}はいつだって同{おな}じだろ？ 勝{か}つか、負{ま}けるか。半々{はんはん}だ",
-                    "maleVariant": null,
-                    "stringId": 1814211854459240448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "マイク？",
-                    "maleVariant": null,
-                    "stringId": 1814212196412456960
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ん？",
-                    "maleVariant": null,
-                    "stringId": 1895107212465197056
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9444DZ^お前{まえ}、マジでシンナーやめた方{ほう}がいいぞ",
-                    "maleVariant": null,
-                    "stringId": 1895107322020417536
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FD406Z^いいか、4リッター6気{き}筒{とう}エンジンで――",
-                    "maleVariant": null,
-                    "stringId": 1896781046767181824
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2C44DZ^静{しず}かにしろ、考{かんが}え中{なか}だ",
-                    "maleVariant": null,
-                    "stringId": 1902617345470550016
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5B44DZ^四{よん}輪{りん}駆{く}動{どう}。3.2秒{びょう}で100まで加{か}速{そく}。信{しん}じられるか？ たった3.2…",
-                    "maleVariant": null,
-                    "stringId": 1902617565302411264
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D144DZ^3.2秒{びょう}でてめえをぶっ飛{と}ばしてやろうか！ うるさくて集{しゅう}中{ちゅう}できねえだろ！",
-                    "maleVariant": null,
-                    "stringId": 1902618499290025984
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ルーレットは？ やったことあるか？",
+              "maleVariant": "",
+              "stringId": 1809617884877979648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EA588Z^いや。当{あ}たる確{かく}率{りつ}なんかほぼないだろ",
+              "maleVariant": "",
+              "stringId": 1814210437623349248
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CC588Z^ああ？ なんでだよ。確{かく}率{りつ}はいつだって同{おな}じだろ？ 勝{か}つか、負{ま}けるか。半々{はんはん}だ",
+              "maleVariant": "",
+              "stringId": 1814211854459240448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "マイク？",
+              "maleVariant": "",
+              "stringId": 1814212196412456960
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ん？",
+              "maleVariant": "",
+              "stringId": 1895107212465197056
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9444DZ^お前{まえ}、マジでシンナーやめた方{ほう}がいいぞ",
+              "maleVariant": "",
+              "stringId": 1895107322020417536
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FD406Z^いいか、4リッター6気{き}筒{とう}エンジンで――",
+              "maleVariant": "",
+              "stringId": 1896781046767181824
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2C44DZ^静{しず}かにしろ、考{かんが}え中{なか}だ",
+              "maleVariant": "",
+              "stringId": 1902617345470550016
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5B44DZ^四{よん}輪{りん}駆{く}動{どう}。3.2秒{びょう}で100まで加{か}速{そく}。信{しん}じられるか？ たった3.2…",
+              "maleVariant": "",
+              "stringId": 1902617565302411264
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D144DZ^3.2秒{びょう}でてめえをぶっ飛{と}ばしてやろうか！ うるさくて集{しゅう}中{ちゅう}できねえだろ！",
+              "maleVariant": "",
+              "stringId": 1902618499290025984
             }
-          }
+          ]
         }
       }
     },

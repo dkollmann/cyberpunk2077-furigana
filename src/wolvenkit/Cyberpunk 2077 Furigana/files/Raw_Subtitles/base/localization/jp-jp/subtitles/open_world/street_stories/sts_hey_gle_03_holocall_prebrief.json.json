@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_hey_gle_03_holocall_prebrief.json"
@@ -11,34 +11,26 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DE76DZ^ある男{おとこ}を俗{ぞく}世{せい}の所{しょ}有{ゆう}物{ぶつ}から解{かい}放{ほう}させたいという依{い}頼{らい}を受{う}けた。具{ぐ}体{たい}的{てき}には、そいつからケリー・ユーロダインのギターを盗{ぬす}んでほしいそうだ",
-                    "maleVariant": null,
-                    "stringId": 2328693918292955136
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "363BCZ^単{たん}純{じゅん}明{めい}快{かい}なうえ、報{ほう}酬{しゅう}もいい。詳{しょう}細{さい}を送{おく}る。報{ほう}告{こく}を待{ま}っているぞ",
-                    "maleVariant": null,
-                    "stringId": 2334303250133270528
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DE76DZ^ある男{おとこ}を俗{ぞく}世{せい}の所{しょ}有{ゆう}物{ぶつ}から解{かい}放{ほう}させたいという依{い}頼{らい}を受{う}けた。具{ぐ}体{たい}的{てき}には、そいつからケリー・ユーロダインのギターを盗{ぬす}んでほしいそうだ",
+              "maleVariant": "",
+              "stringId": 2328693918292955136
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "363BCZ^単{たん}純{じゅん}明{めい}快{かい}なうえ、報{ほう}酬{しゅう}もいい。詳{しょう}細{さい}を送{おく}る。報{ほう}告{こく}を待{ま}っているぞ",
+              "maleVariant": "",
+              "stringId": 2334303250133270528
             }
-          }
+          ]
         }
       }
     },

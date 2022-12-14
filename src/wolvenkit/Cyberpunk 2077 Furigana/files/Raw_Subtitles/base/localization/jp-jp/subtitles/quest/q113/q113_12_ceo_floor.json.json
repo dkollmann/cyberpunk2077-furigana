@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q113\\q113_12_ceo_floor.json"
@@ -11,122 +11,92 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6F502Z^その先{さき}の大{おお}きな部屋{へや}に、兄{あに}が用{よう}意{い}した精{せい}鋭{えい}部{ぶ}隊{たい}が配{はい}置{ち}されてるはずよ",
-                    "maleVariant": null,
-                    "stringId": 1730235312297222144
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DD502Z^油{ゆ}断{だん}しないで",
-                    "maleVariant": null,
-                    "stringId": 1730235962682777600
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "22404Z^危{あぶ}ない！",
-                    "maleVariant": null,
-                    "stringId": 1764621454831271936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "すぐにネットランナーがサポートにつくわ",
-                    "maleVariant": null,
-                    "stringId": 1764624300163219456
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1F404Z^備{そな}えろ",
-                    "maleVariant": null,
-                    "stringId": 1764640730594164736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "73FAZ^総{そう}員{いん}、整{せい}列{れつ}！ 配{はい}置{ち}につけ！",
-                    "maleVariant": null,
-                    "stringId": 1793699813196275712
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7A2A0Z^ヨリノブは、獰{どう}猛{もう}な飼{か}い犬{いぬ}たちを取{と}り揃{そろ}えてる。油{ゆ}断{だん}するなよ",
-                    "maleVariant": null,
-                    "stringId": 1815402671417982976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3A2A0Z^じゃあ、躾{しつけ}けてあげないとね",
-                    "maleVariant": "3A2A0Z^じゃあ、躾{しつけ}けてやらないとな",
-                    "stringId": 1815403117020839936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6E2A0Z^その先{さき}の大{おお}きな部屋{へや}に、兄{あに}が用{よう}意{い}した精{せい}鋭{えい}部{ぶ}隊{たい}が配{はい}置{ち}されてるはずよ",
-                    "maleVariant": null,
-                    "stringId": 1815422445246087168
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E32A0Z^油{ゆ}断{だん}しないで",
-                    "maleVariant": null,
-                    "stringId": 1815425745743904768
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AE404Z^警{けい}備{び}を片{かた}づけた",
-                    "maleVariant": null,
-                    "stringId": 1824464297372172288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "すぐにネットランナーがサポートにつくわ",
-                    "maleVariant": null,
-                    "stringId": 1999891649088266248
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2E2D200C^ドアはネットランナーに対{たい}処{しょ}させた。先{さき}に進{すす}んで",
-                    "maleVariant": null,
-                    "stringId": 2000854045109854220
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6F502Z^その先{さき}の大{おお}きな部屋{へや}に、兄{あに}が用{よう}意{い}した精{せい}鋭{えい}部{ぶ}隊{たい}が配{はい}置{ち}されてるはずよ",
+              "maleVariant": "",
+              "stringId": 1730235312297222144
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DD502Z^油{ゆ}断{だん}しないで",
+              "maleVariant": "",
+              "stringId": 1730235962682777600
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "22404Z^危{あぶ}ない！",
+              "maleVariant": "",
+              "stringId": 1764621454831271936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "すぐにネットランナーがサポートにつくわ",
+              "maleVariant": "",
+              "stringId": 1764624300163219456
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1F404Z^備{そな}えろ",
+              "maleVariant": "",
+              "stringId": 1764640730594164736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "73FAZ^総{そう}員{いん}、整{せい}列{れつ}！ 配{はい}置{ち}につけ！",
+              "maleVariant": "",
+              "stringId": 1793699813196275712
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7A2A0Z^ヨリノブは、獰{どう}猛{もう}な飼{か}い犬{いぬ}たちを取{と}り揃{そろ}えてる。油{ゆ}断{だん}するなよ",
+              "maleVariant": "",
+              "stringId": 1815402671417982976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3A2A0Z^じゃあ、躾{しつけ}けてあげないとね",
+              "maleVariant": "3A2A0Z^じゃあ、躾{しつけ}けてやらないとな",
+              "stringId": 1815403117020839936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6E2A0Z^その先{さき}の大{おお}きな部屋{へや}に、兄{あに}が用{よう}意{い}した精{せい}鋭{えい}部{ぶ}隊{たい}が配{はい}置{ち}されてるはずよ",
+              "maleVariant": "",
+              "stringId": 1815422445246087168
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E32A0Z^油{ゆ}断{だん}しないで",
+              "maleVariant": "",
+              "stringId": 1815425745743904768
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AE404Z^警{けい}備{び}を片{かた}づけた",
+              "maleVariant": "",
+              "stringId": 1824464297372172288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "すぐにネットランナーがサポートにつくわ",
+              "maleVariant": "",
+              "stringId": 1999891649088266248
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2E2D200C^ドアはネットランナーに対{たい}処{しょ}させた。先{さき}に進{すす}んで",
+              "maleVariant": "",
+              "stringId": 2000854045109854220
             }
-          }
+          ]
         }
       }
     },

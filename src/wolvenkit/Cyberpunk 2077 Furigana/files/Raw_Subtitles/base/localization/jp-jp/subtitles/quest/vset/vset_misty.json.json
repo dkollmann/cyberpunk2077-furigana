@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\vset\\vset_misty.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "582FC004^偶{ぐう}然{ぜん}ね、あなたのこと考{かんが}えてたところなの",
-                    "maleVariant": null,
-                    "stringId": 1796861129527377924
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "592FC004^あら。なんとなく来{く}る予{よ}感{かん}がしてたのよ",
-                    "maleVariant": null,
-                    "stringId": 1796861129544155140
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5E2FC004^話{はな}したくないなら、後{あと}でいいわ",
-                    "maleVariant": null,
-                    "stringId": 1796861129628041220
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5F2FC004^まあ、好{す}きにして…",
-                    "maleVariant": null,
-                    "stringId": 1796861129644818436
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "622FC004^さて、戻{もど}ったことだし…",
-                    "maleVariant": null,
-                    "stringId": 1796861129695150084
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "642FC004^何{なん}の話{はなし}だっけ？ ああ、そうそう…",
-                    "maleVariant": null,
-                    "stringId": 1796861129728704516
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "662FC004^ちょっと？ 起{お}きてる？",
-                    "maleVariant": null,
-                    "stringId": 1796861129762258948
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "672FC004^ねえ、V。私{わたし}よりぼけっとしてるんじゃない？",
-                    "maleVariant": null,
-                    "stringId": 1796861129779036164
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ねえ、ちょっとひどいじゃない",
-                    "maleVariant": null,
-                    "stringId": 1796861129980362756
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "752FC004^前{まえ}をちゃんと見{み}てくれる？",
-                    "maleVariant": null,
-                    "stringId": 1796861130013917188
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "582FC004^偶{ぐう}然{ぜん}ね、あなたのこと考{かんが}えてたところなの",
+              "maleVariant": "",
+              "stringId": 1796861129527377924
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "592FC004^あら。なんとなく来{く}る予{よ}感{かん}がしてたのよ",
+              "maleVariant": "",
+              "stringId": 1796861129544155140
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5E2FC004^話{はな}したくないなら、後{あと}でいいわ",
+              "maleVariant": "",
+              "stringId": 1796861129628041220
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5F2FC004^まあ、好{す}きにして…",
+              "maleVariant": "",
+              "stringId": 1796861129644818436
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "622FC004^さて、戻{もど}ったことだし…",
+              "maleVariant": "",
+              "stringId": 1796861129695150084
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "642FC004^何{なん}の話{はなし}だっけ？ ああ、そうそう…",
+              "maleVariant": "",
+              "stringId": 1796861129728704516
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "662FC004^ちょっと？ 起{お}きてる？",
+              "maleVariant": "",
+              "stringId": 1796861129762258948
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "672FC004^ねえ、V。私{わたし}よりぼけっとしてるんじゃない？",
+              "maleVariant": "",
+              "stringId": 1796861129779036164
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ねえ、ちょっとひどいじゃない",
+              "maleVariant": "",
+              "stringId": 1796861129980362756
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "752FC004^前{まえ}をちゃんと見{み}てくれる？",
+              "maleVariant": "",
+              "stringId": 1796861130013917188
             }
-          }
+          ]
         }
       }
     },

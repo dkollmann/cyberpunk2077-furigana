@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_gle_chat_008.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2669E010^君{くん}には天{てん}性{せい}のカリスマがある。そして我々{われわれ}にはそれを活{い}かす… 資{し}金{きん}力{りょく}がある",
-                    "maleVariant": null,
-                    "stringId": 1832753109528076304
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1369EZ^聞{き}こえのいい言葉{ことば}を並{なら}べれば、簡{かん}単{たん}になびくとでも？",
-                    "maleVariant": null,
-                    "stringId": 1832755699074588672
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2469EZ^まさか。そんなことをせずとも、君{くん}なら正{ただ}しい判{はん}断{だん}をしてくれる",
-                    "maleVariant": null,
-                    "stringId": 1832755849683656704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2369EZ^断{ことわ}る",
-                    "maleVariant": null,
-                    "stringId": 1832756025760538624
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8469EZ^理{り}由{ゆう}は？",
-                    "maleVariant": null,
-                    "stringId": 1832756224956424192
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5369EZ^忠{ちゅう}誠{せい}心{しん}だ。この業{ぎょう}界{かい}じゃ、それがすべてさ",
-                    "maleVariant": null,
-                    "stringId": 1832756370163228672
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A469EZ^それこそ、ただの聞{き}こえのいい言葉{ことば}だな。では聞{き}くが… なぜ、君{くん}はまだここにいるのかね？",
-                    "maleVariant": null,
-                    "stringId": 1832756758069239808
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なぜだろうな",
-                    "maleVariant": null,
-                    "stringId": 1832756954849206272
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2669E010^君{くん}には天{てん}性{せい}のカリスマがある。そして我々{われわれ}にはそれを活{い}かす… 資{し}金{きん}力{りょく}がある",
+              "maleVariant": "",
+              "stringId": 1832753109528076304
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1369EZ^聞{き}こえのいい言葉{ことば}を並{なら}べれば、簡{かん}単{たん}になびくとでも？",
+              "maleVariant": "",
+              "stringId": 1832755699074588672
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2469EZ^まさか。そんなことをせずとも、君{くん}なら正{ただ}しい判{はん}断{だん}をしてくれる",
+              "maleVariant": "",
+              "stringId": 1832755849683656704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2369EZ^断{ことわ}る",
+              "maleVariant": "",
+              "stringId": 1832756025760538624
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8469EZ^理{り}由{ゆう}は？",
+              "maleVariant": "",
+              "stringId": 1832756224956424192
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5369EZ^忠{ちゅう}誠{せい}心{しん}だ。この業{ぎょう}界{かい}じゃ、それがすべてさ",
+              "maleVariant": "",
+              "stringId": 1832756370163228672
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A469EZ^それこそ、ただの聞{き}こえのいい言葉{ことば}だな。では聞{き}くが… なぜ、君{くん}はまだここにいるのかね？",
+              "maleVariant": "",
+              "stringId": 1832756758069239808
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なぜだろうな",
+              "maleVariant": "",
+              "stringId": 1832756954849206272
             }
-          }
+          ]
         }
       }
     },

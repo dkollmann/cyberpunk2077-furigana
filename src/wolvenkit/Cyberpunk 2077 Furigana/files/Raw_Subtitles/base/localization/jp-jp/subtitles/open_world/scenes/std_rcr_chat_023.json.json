@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_rcr_chat_023.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "845C5Z^なあ、あの話{はなし}はマジなのか？ お前{まえ}が脱走{だっそう}兵{へい}だって。本{ほん}当{とう}のことを知{し}っておきたい",
-                    "maleVariant": null,
-                    "stringId": 2167645459363680256
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "92B6Z^なんてったって、俺{おれ}は生粋{きっすい}の愛{あい}国{こく}者{もの}だからな",
-                    "maleVariant": null,
-                    "stringId": 2198149165436592128
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E92B6Z^隊{たい}を抜{ぬ}けたのは事{じ}実{じつ}だ。だがそれは愛{あい}国{こく}心{しん}ゆえの行{こう}動{どう}だ。連{れん}中{ちゅう}は認{みと}めんだろうが",
-                    "maleVariant": null,
-                    "stringId": 2198154151356751872
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "602B6Z^愛{あい}国{こく}心{しん}の意{い}味{み}をはき違{ちが}えてないか？",
-                    "maleVariant": null,
-                    "stringId": 2198157997348970496
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "622B6Z^はあ… 昔{むかし}、友{ゆう}人{じん}が反{はん}企{き}業{ぎょう}デモに参{さん}加{か}した。その時{とき}、俺{おれ}は命{めい}令{れい}されたんだ。そいつの眉{み}間{けん}に鉛{なまり}弾{だん}をブチ込{こ}めって…",
-                    "maleVariant": null,
-                    "stringId": 2198160720391790592
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E82B6Z^そして家{か}族{ぞく}に訃{ふ}報{ほう}も伝{つた}えろと言{い}われた。「息子{むすこ}さんは勇{ゆう}敢{かん}に戦{たたか}い、英{えい}雄{ゆう}として死{し}にました」ってな",
-                    "maleVariant": null,
-                    "stringId": 2198169935344787456
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3C2B6Z^英{えい}雄{ゆう}扱{あつか}いされたならいいじゃないか",
-                    "maleVariant": null,
-                    "stringId": 2198171092100276224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "102B6Z^俺{おれ}は上{じょう}層{そう}部{ぶ}に書{しょ}面{めん}で思{おも}いの丈{たけ}を訴{うった}えた。その結{けっ}果{か}、降{こう}格{かく}され。インプラントも全{ぜん}部{ぶ}取{と}られたんだ",
-                    "maleVariant": null,
-                    "stringId": 2198193094479536128
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "502B6Z^それで腹{はら}をくくって… 軍{ぐん}を抜{ぬ}けたんだよ",
-                    "maleVariant": null,
-                    "stringId": 2198195865807183872
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "845C5Z^なあ、あの話{はなし}はマジなのか？ お前{まえ}が脱走{だっそう}兵{へい}だって。本{ほん}当{とう}のことを知{し}っておきたい",
+              "maleVariant": "",
+              "stringId": 2167645459363680256
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "92B6Z^なんてったって、俺{おれ}は生粋{きっすい}の愛{あい}国{こく}者{もの}だからな",
+              "maleVariant": "",
+              "stringId": 2198149165436592128
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E92B6Z^隊{たい}を抜{ぬ}けたのは事{じ}実{じつ}だ。だがそれは愛{あい}国{こく}心{しん}ゆえの行{こう}動{どう}だ。連{れん}中{ちゅう}は認{みと}めんだろうが",
+              "maleVariant": "",
+              "stringId": 2198154151356751872
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "602B6Z^愛{あい}国{こく}心{しん}の意{い}味{み}をはき違{ちが}えてないか？",
+              "maleVariant": "",
+              "stringId": 2198157997348970496
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "622B6Z^はあ… 昔{むかし}、友{ゆう}人{じん}が反{はん}企{き}業{ぎょう}デモに参{さん}加{か}した。その時{とき}、俺{おれ}は命{めい}令{れい}されたんだ。そいつの眉{み}間{けん}に鉛{なまり}弾{だん}をブチ込{こ}めって…",
+              "maleVariant": "",
+              "stringId": 2198160720391790592
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E82B6Z^そして家{か}族{ぞく}に訃{ふ}報{ほう}も伝{つた}えろと言{い}われた。「息子{むすこ}さんは勇{ゆう}敢{かん}に戦{たたか}い、英{えい}雄{ゆう}として死{し}にました」ってな",
+              "maleVariant": "",
+              "stringId": 2198169935344787456
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3C2B6Z^英{えい}雄{ゆう}扱{あつか}いされたならいいじゃないか",
+              "maleVariant": "",
+              "stringId": 2198171092100276224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "102B6Z^俺{おれ}は上{じょう}層{そう}部{ぶ}に書{しょ}面{めん}で思{おも}いの丈{たけ}を訴{うった}えた。その結{けっ}果{か}、降{こう}格{かく}され。インプラントも全{ぜん}部{ぶ}取{と}られたんだ",
+              "maleVariant": "",
+              "stringId": 2198193094479536128
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "502B6Z^それで腹{はら}をくくって… 軍{ぐん}を抜{ぬ}けたんだよ",
+              "maleVariant": "",
+              "stringId": 2198195865807183872
             }
-          }
+          ]
         }
       }
     },

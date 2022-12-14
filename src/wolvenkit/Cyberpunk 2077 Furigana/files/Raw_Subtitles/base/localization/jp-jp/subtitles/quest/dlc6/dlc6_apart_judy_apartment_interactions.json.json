@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\dlc6\\dlc6_apart_judy_apartment_interactions.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "754EA004^[座{すわ}る]",
-                    "maleVariant": null,
-                    "stringId": 2028697799592157188
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "764EAZ^[寝{ね}る]",
-                    "maleVariant": null,
-                    "stringId": 2028698177566056448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "684EAZ^[立{た}ち上{あ}がる]",
-                    "maleVariant": null,
-                    "stringId": 2028699165173653504
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C84EAZ^[シャワーを終{お}える]",
-                    "maleVariant": null,
-                    "stringId": 2078186557357858816
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5B4EAZ^[座{すわ}る]",
-                    "maleVariant": null,
-                    "stringId": 3053389206850019328
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6D4EAZ^[立{た}ち上{あ}がる]",
-                    "maleVariant": null,
-                    "stringId": 3053389207152009216
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5B766004^[シャワーを浴{あ}びる]",
-                    "maleVariant": null,
-                    "stringId": 3075409560013791236
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FE766Z^[立{た}ち上{あ}がる]",
-                    "maleVariant": null,
-                    "stringId": 3095832823730692096
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B67DFZ^[ワードローブを開{ひら}く]",
-                    "maleVariant": null,
-                    "stringId": 3404128392528654336
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "754EA004^[座{すわ}る]",
+              "maleVariant": "",
+              "stringId": 2028697799592157188
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "764EAZ^[寝{ね}る]",
+              "maleVariant": "",
+              "stringId": 2028698177566056448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "684EAZ^[立{た}ち上{あ}がる]",
+              "maleVariant": "",
+              "stringId": 2028699165173653504
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C84EAZ^[シャワーを終{お}える]",
+              "maleVariant": "",
+              "stringId": 2078186557357858816
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5B4EAZ^[座{すわ}る]",
+              "maleVariant": "",
+              "stringId": 3053389206850019328
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6D4EAZ^[立{た}ち上{あ}がる]",
+              "maleVariant": "",
+              "stringId": 3053389207152009216
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5B766004^[シャワーを浴{あ}びる]",
+              "maleVariant": "",
+              "stringId": 3075409560013791236
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FE766Z^[立{た}ち上{あ}がる]",
+              "maleVariant": "",
+              "stringId": 3095832823730692096
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B67DFZ^[ワードローブを開{ひら}く]",
+              "maleVariant": "",
+              "stringId": 3404128392528654336
             }
-          }
+          ]
         }
       }
     },

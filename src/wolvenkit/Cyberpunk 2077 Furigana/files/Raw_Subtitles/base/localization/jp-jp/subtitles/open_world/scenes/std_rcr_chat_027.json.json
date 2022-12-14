@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_rcr_chat_027.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BB5C5Z^昨日{きのう}ゴミを漁{あさ}ったら、吸{きゅう}入{にゅう}器{き}がごっそり出{で}てきたのよ",
-                    "maleVariant": null,
-                    "stringId": 2167912886425112576
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D2B6Z^よーく振{ふ}れば、ひと吸{す}い分{わ}くらいは残{のこ}ってるっぽいの。ね、あんたも一{いっ}緒{しょ}にキメてみない？",
-                    "maleVariant": null,
-                    "stringId": 2198412047566987264
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "182B6Z^やだ、気{き}持{も}ち悪{わる}い。そんなゴミ捨{す}てて、新{あたら}しいクスリ買{か}おうよ",
-                    "maleVariant": null,
-                    "stringId": 2198440347291049984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F62B6Z^買{か}うって、そんなお金{かね}持{も}ってんの？",
-                    "maleVariant": null,
-                    "stringId": 2198440827756961792
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1D2B6Z^退{たい}役{えき}軍{ぐん}人{じん}センターでリラクゼーションの講{こう}師{し}を始{はじ}めたの。コーポにしては報{ほう}酬{しゅう}も悪{わる}くないよ",
-                    "maleVariant": null,
-                    "stringId": 2198440952965324800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "882B6Z^講{こう}師{し}？ 資{し}格{かく}とか持{も}ってるの？",
-                    "maleVariant": null,
-                    "stringId": 2198441573235777536
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5E2B6Z^なわけないじゃん。はい皆{みな}さん、風{かぜ}に舞{ま}う砂{すな}や、川{かわ}に降{ふ}る雨{あめ}の音{おと}をイメージしましょう… とか適{てき}当{とう}に言{い}うだけ",
-                    "maleVariant": null,
-                    "stringId": 2198442255430934528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "912B6Z^何{なに}それ。あたしもやりたい。まだインチキだってバレてないの？",
-                    "maleVariant": null,
-                    "stringId": 2198443703690551296
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5F2B6Z^そもそも、そんなの誰{だれ}も気{き}にしてないから",
-                    "maleVariant": null,
-                    "stringId": 2198448508920094720
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BB5C5Z^昨日{きのう}ゴミを漁{あさ}ったら、吸{きゅう}入{にゅう}器{き}がごっそり出{で}てきたのよ",
+              "maleVariant": "",
+              "stringId": 2167912886425112576
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D2B6Z^よーく振{ふ}れば、ひと吸{す}い分{わ}くらいは残{のこ}ってるっぽいの。ね、あんたも一{いっ}緒{しょ}にキメてみない？",
+              "maleVariant": "",
+              "stringId": 2198412047566987264
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "182B6Z^やだ、気{き}持{も}ち悪{わる}い。そんなゴミ捨{す}てて、新{あたら}しいクスリ買{か}おうよ",
+              "maleVariant": "",
+              "stringId": 2198440347291049984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F62B6Z^買{か}うって、そんなお金{かね}持{も}ってんの？",
+              "maleVariant": "",
+              "stringId": 2198440827756961792
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1D2B6Z^退{たい}役{えき}軍{ぐん}人{じん}センターでリラクゼーションの講{こう}師{し}を始{はじ}めたの。コーポにしては報{ほう}酬{しゅう}も悪{わる}くないよ",
+              "maleVariant": "",
+              "stringId": 2198440952965324800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "882B6Z^講{こう}師{し}？ 資{し}格{かく}とか持{も}ってるの？",
+              "maleVariant": "",
+              "stringId": 2198441573235777536
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5E2B6Z^なわけないじゃん。はい皆{みな}さん、風{かぜ}に舞{ま}う砂{すな}や、川{かわ}に降{ふ}る雨{あめ}の音{おと}をイメージしましょう… とか適{てき}当{とう}に言{い}うだけ",
+              "maleVariant": "",
+              "stringId": 2198442255430934528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "912B6Z^何{なに}それ。あたしもやりたい。まだインチキだってバレてないの？",
+              "maleVariant": "",
+              "stringId": 2198443703690551296
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5F2B6Z^そもそも、そんなの誰{だれ}も気{き}にしてないから",
+              "maleVariant": "",
+              "stringId": 2198448508920094720
             }
-          }
+          ]
         }
       }
     },

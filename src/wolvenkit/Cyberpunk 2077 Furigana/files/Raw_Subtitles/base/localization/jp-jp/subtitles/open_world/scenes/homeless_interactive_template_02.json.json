@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\homeless_interactive_template_02.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "277E1004^[金{きん}を渡{わた}す] 今{こん}回{かい}だけよ",
-                    "maleVariant": "277E1004^[金{きん}を渡{わた}す] 今{こん}回{かい}だけだぞ",
-                    "stringId": 2444842312082001924
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4D7E1014^何{なに}か恵{めぐ}んでくれないか？",
-                    "maleVariant": null,
-                    "stringId": 2444848248364339220
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ほら、これでいい？",
-                    "maleVariant": "ほら、これでいいか？",
-                    "stringId": 2444849036121739292
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B87E1Z^ありがとう。神{かみ}のご加{か}護{ご}を",
-                    "maleVariant": null,
-                    "stringId": 2444849036138516480
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A17E1Z^[金{きん}を渡{わた}す] もちろん",
-                    "maleVariant": "A17E1Z^[金{きん}を渡{わた}す] もちろんだ",
-                    "stringId": 2444925756753448960
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3D7E1Z^[金{きん}を渡{わた}す] これで足{た}りる？",
-                    "maleVariant": "3D7E1Z^[金{きん}を渡{わた}す] これで足{た}りるか？",
-                    "stringId": 2444926906126962688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7D7E1Z^[金{きん}を渡{わた}す] これでいい？",
-                    "maleVariant": "7D7E1Z^[金{きん}を渡{わた}す] これでいいか？",
-                    "stringId": 2444927452661551104
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "207E1Z^[金{きん}を渡{わた}す] どうぞ",
-                    "maleVariant": null,
-                    "stringId": 2444932501982810112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "987E1Z^[金{きん}を渡{わた}す] お礼{れい}はいいから",
-                    "maleVariant": "987E1Z^[金{きん}を渡{わた}す] 礼{れい}はいいから",
-                    "stringId": 2444946329495801856
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "277E1004^[金{きん}を渡{わた}す] 今{こん}回{かい}だけよ",
+              "maleVariant": "277E1004^[金{きん}を渡{わた}す] 今{こん}回{かい}だけだぞ",
+              "stringId": 2444842312082001924
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4D7E1014^何{なに}か恵{めぐ}んでくれないか？",
+              "maleVariant": "",
+              "stringId": 2444848248364339220
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ほら、これでいい？",
+              "maleVariant": "ほら、これでいいか？",
+              "stringId": 2444849036121739292
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B87E1Z^ありがとう。神{かみ}のご加{か}護{ご}を",
+              "maleVariant": "",
+              "stringId": 2444849036138516480
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A17E1Z^[金{きん}を渡{わた}す] もちろん",
+              "maleVariant": "A17E1Z^[金{きん}を渡{わた}す] もちろんだ",
+              "stringId": 2444925756753448960
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3D7E1Z^[金{きん}を渡{わた}す] これで足{た}りる？",
+              "maleVariant": "3D7E1Z^[金{きん}を渡{わた}す] これで足{た}りるか？",
+              "stringId": 2444926906126962688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7D7E1Z^[金{きん}を渡{わた}す] これでいい？",
+              "maleVariant": "7D7E1Z^[金{きん}を渡{わた}す] これでいいか？",
+              "stringId": 2444927452661551104
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "207E1Z^[金{きん}を渡{わた}す] どうぞ",
+              "maleVariant": "",
+              "stringId": 2444932501982810112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "987E1Z^[金{きん}を渡{わた}す] お礼{れい}はいいから",
+              "maleVariant": "987E1Z^[金{きん}を渡{わた}す] 礼{れい}はいいから",
+              "stringId": 2444946329495801856
             }
-          }
+          ]
         }
       }
     },

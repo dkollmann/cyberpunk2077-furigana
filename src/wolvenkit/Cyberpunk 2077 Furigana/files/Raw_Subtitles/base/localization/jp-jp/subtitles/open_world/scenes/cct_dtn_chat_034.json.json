@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_dtn_chat_034.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "233BBZ^いいや、今{こん}回{かい}、委{い}員{いん}会{かい}はやりすぎた。越{こ}えてはならない一{いっ}線{せん}がある！",
-                    "maleVariant": null,
-                    "stringId": 2172287136265121792
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7E3BCZ^しかし、一般大衆{いっぱんたいしゅう}のいるところに出{で}かけて、有{ゆう}権{けん}者{しゃ}に身近{みじか}に感{かん}じてもらうことが…",
-                    "maleVariant": null,
-                    "stringId": 2180928470257483776
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8C3BCZ^うっ… この臭{くさ}い、わかるだろう！？ こんな連{れん}中{ちゅう}の支{し}持{じ}を得{え}て何{なに}になる？",
-                    "maleVariant": null,
-                    "stringId": 2180928826974650368
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AE3BCZ^そもそも馬{ば}鹿{か}げたアイデアだったんだ。ホームレスにこびたりなどしないぞ！",
-                    "maleVariant": null,
-                    "stringId": 2180928982163898368
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2D3BCZ^とにかく試{ため}してみるだけでも… NCARTは多{おお}くの市{し}民{みん}が利{り}用{よう}しています",
-                    "maleVariant": null,
-                    "stringId": 2180929100258721792
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ED3BCZ^お断{ことわ}りだ。あんな汚{お}物{ぶつ}まみれの列車{れっしゃ}になど二{に}度{ど}と乗{の}らないぞ。文{ぶん}明{めい}人{じん}が使{つか}うような乗{の}り物{もの}じゃない",
-                    "maleVariant": null,
-                    "stringId": 2180929331113213952
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FD3BCZ^しかし、委{い}員{いん}会{かい}がなんと言{い}うか…",
-                    "maleVariant": null,
-                    "stringId": 2180929468820602880
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1B3BCZ^知{し}ったことか。それほど重{じゅう}要{よう}なことなら、連{れん}中{ちゅう}が乗{の}って大{たい}衆{しゅう}と交{こう}流{りゅう}すればいいんだ",
-                    "maleVariant": null,
-                    "stringId": 2180929675482349568
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "233BBZ^いいや、今{こん}回{かい}、委{い}員{いん}会{かい}はやりすぎた。越{こ}えてはならない一{いっ}線{せん}がある！",
+              "maleVariant": "",
+              "stringId": 2172287136265121792
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7E3BCZ^しかし、一般大衆{いっぱんたいしゅう}のいるところに出{で}かけて、有{ゆう}権{けん}者{しゃ}に身近{みじか}に感{かん}じてもらうことが…",
+              "maleVariant": "",
+              "stringId": 2180928470257483776
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8C3BCZ^うっ… この臭{くさ}い、わかるだろう！？ こんな連{れん}中{ちゅう}の支{し}持{じ}を得{え}て何{なに}になる？",
+              "maleVariant": "",
+              "stringId": 2180928826974650368
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AE3BCZ^そもそも馬{ば}鹿{か}げたアイデアだったんだ。ホームレスにこびたりなどしないぞ！",
+              "maleVariant": "",
+              "stringId": 2180928982163898368
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2D3BCZ^とにかく試{ため}してみるだけでも… NCARTは多{おお}くの市{し}民{みん}が利{り}用{よう}しています",
+              "maleVariant": "",
+              "stringId": 2180929100258721792
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ED3BCZ^お断{ことわ}りだ。あんな汚{お}物{ぶつ}まみれの列車{れっしゃ}になど二{に}度{ど}と乗{の}らないぞ。文{ぶん}明{めい}人{じん}が使{つか}うような乗{の}り物{もの}じゃない",
+              "maleVariant": "",
+              "stringId": 2180929331113213952
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FD3BCZ^しかし、委{い}員{いん}会{かい}がなんと言{い}うか…",
+              "maleVariant": "",
+              "stringId": 2180929468820602880
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1B3BCZ^知{し}ったことか。それほど重{じゅう}要{よう}なことなら、連{れん}中{ちゅう}が乗{の}って大{たい}衆{しゅう}と交{こう}流{りゅう}すればいいんだ",
+              "maleVariant": "",
+              "stringId": 2180929675482349568
             }
-          }
+          ]
         }
       }
     },

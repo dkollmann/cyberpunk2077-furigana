@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_6th_street_004.json"
@@ -11,42 +11,32 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4870AZ^その時{とき}まで我{が}慢{まん}できてりゃあ、お前{まえ}の復帰{ふっき}を検{けん}討{とう}してやってもいい",
-                    "maleVariant": null,
-                    "stringId": 1977804377707028480
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4570AZ^チューマ、本{ほん}当{とう}だって… もう一{いっ}週{しゅう}間{かん}もヤクはやってない",
-                    "maleVariant": null,
-                    "stringId": 1977805554477735936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2670AZ^なら一{いっ}ヶ{か}月{げつ}後{のち}にまた来{こ}い",
-                    "maleVariant": null,
-                    "stringId": 1977805566842544128
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4870AZ^その時{とき}まで我{が}慢{まん}できてりゃあ、お前{まえ}の復帰{ふっき}を検{けん}討{とう}してやってもいい",
+              "maleVariant": "",
+              "stringId": 1977804377707028480
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4570AZ^チューマ、本{ほん}当{とう}だって… もう一{いっ}週{しゅう}間{かん}もヤクはやってない",
+              "maleVariant": "",
+              "stringId": 1977805554477735936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2670AZ^なら一{いっ}ヶ{か}月{げつ}後{のち}にまた来{こ}い",
+              "maleVariant": "",
+              "stringId": 1977805566842544128
             }
-          }
+          ]
         }
       }
     },

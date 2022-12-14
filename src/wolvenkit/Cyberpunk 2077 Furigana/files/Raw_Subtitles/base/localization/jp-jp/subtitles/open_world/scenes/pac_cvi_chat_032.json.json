@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_cvi_chat_032.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "72647Z^例{れい}の… 配{はい}達{たつ}は来{き}たの？ 医{い}療{りょう}品{ひん}の？",
-                    "maleVariant": null,
-                    "stringId": 2179556275252391936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "43BCZ^ああ、でも前{まえ}と同{おな}じヤツだ。あんなの誰{だれ}も使{つか}わねえ",
-                    "maleVariant": null,
-                    "stringId": 2189407635596099584
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "723BCZ^たぶん… 街{まち}で売{う}れなかった品{ひん}を、こっちに押{お}しつけてるんだろうね",
-                    "maleVariant": null,
-                    "stringId": 2189408135657799680
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F23BCZ^笑{わら}えるのは、あんなとこでビタミン剤{ざい}が売{う}れると思{おも}ったお偉{い}方{ほう}がいたってことだ",
-                    "maleVariant": null,
-                    "stringId": 2189408653201358848
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B23BCZ^ハハ！ それで、どうしてみんなマーケットに行{い}くんだって、首{くび}をひねってるのよね",
-                    "maleVariant": null,
-                    "stringId": 2189408819631341568
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "933BCZ^必{ひつ}要{よう}なのはホンモノの薬{くすり}で、ナイアシン入{い}りのリールービーンズなんかじゃねえってのに",
-                    "maleVariant": null,
-                    "stringId": 2189408969435103232
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "323BCZ^とはいえ、薬{くすり}には金{きん}が必{ひつ}要{よう}でしょ。そして私{わたし}たちにはそれがない",
-                    "maleVariant": null,
-                    "stringId": 2189409139606405120
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "72647Z^例{れい}の… 配{はい}達{たつ}は来{き}たの？ 医{い}療{りょう}品{ひん}の？",
+              "maleVariant": "",
+              "stringId": 2179556275252391936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "43BCZ^ああ、でも前{まえ}と同{おな}じヤツだ。あんなの誰{だれ}も使{つか}わねえ",
+              "maleVariant": "",
+              "stringId": 2189407635596099584
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "723BCZ^たぶん… 街{まち}で売{う}れなかった品{ひん}を、こっちに押{お}しつけてるんだろうね",
+              "maleVariant": "",
+              "stringId": 2189408135657799680
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F23BCZ^笑{わら}えるのは、あんなとこでビタミン剤{ざい}が売{う}れると思{おも}ったお偉{い}方{ほう}がいたってことだ",
+              "maleVariant": "",
+              "stringId": 2189408653201358848
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B23BCZ^ハハ！ それで、どうしてみんなマーケットに行{い}くんだって、首{くび}をひねってるのよね",
+              "maleVariant": "",
+              "stringId": 2189408819631341568
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "933BCZ^必{ひつ}要{よう}なのはホンモノの薬{くすり}で、ナイアシン入{い}りのリールービーンズなんかじゃねえってのに",
+              "maleVariant": "",
+              "stringId": 2189408969435103232
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "323BCZ^とはいえ、薬{くすり}には金{きん}が必{ひつ}要{よう}でしょ。そして私{わたし}たちにはそれがない",
+              "maleVariant": "",
+              "stringId": 2189409139606405120
             }
-          }
+          ]
         }
       }
     },

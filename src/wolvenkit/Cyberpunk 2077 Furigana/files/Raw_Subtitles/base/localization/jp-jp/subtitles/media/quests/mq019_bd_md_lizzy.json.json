@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\quests\\mq019_bd_md_lizzy.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CE4EAZ^ハーイ、みんな元{げん}気{き}だった？ 今日{きょう}のスーパーホットなニュースはね… なんと、リズィー・ウィズィーが初{はつ}のブレインダンスをリリースしたの！ そう、あのリズィー・ウィズィー！",
-                    "maleVariant": null,
-                    "stringId": 1796438639871172608
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "873BCZ^タイトルは… 『くじけ欠{か}けた心{こころ}』。彼{かの}女{じょ}とリアム・ノーソムとの破{は}局{きょく}を題{だい}材{ざい}としたノンフィクション作{さく}品{ひん}よ",
-                    "maleVariant": null,
-                    "stringId": 1810993286412484608
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D53BCZ^当{とう}初{しょ}、リズィーとノーソムはお似{に}合{あ}いのカップルと思{おも}われてた… でも二{ふた}人{り}の関{かん}係{けい}は徐々{じょじょ}に悪化{あっか}していったの",
-                    "maleVariant": null,
-                    "stringId": 1810993532534243328
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BE3BCZ^この作{さく}品{ひん}では、スーパースターしか抱{かか}えることのない悲{かな}しみや、絶{ぜつ}望{ぼう}、悩{なや}みが描{えが}かれてる。最{さい}後{ご}には… 復{ふく}讐{しゅう}の果{は}てにあるエクスタシーが訪{おとず}れるの",
-                    "maleVariant": null,
-                    "stringId": 1810994026069606400
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "753BCZ^ノーソムの体{からだ}が腕{うで}の中{なか}で力{ちから}を失{うしな}い、彼{か}の熱{あつ}い血{ち}がクロームスキンを滴{したた}り落{お}ちるその感{かん}触{しょく}は… 言葉{ことば}にできない、真{まこと}の快{かい}感{かん}と言{い}えると思{おも}う",
-                    "maleVariant": null,
-                    "stringId": 1810994179463692288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C53BCZ^リズィー・ウィズィーの才{さい}能{のう}が音{おん}楽{がく}だけに留{と}まらないことを証{しょう}明{めい}した、彼{かの}女{じょ}の処{しょ}女{じょ}作{さく}『くじけ欠{か}けた心{こころ}』は、ブレインダンスの傑作{けっさく}間{ま}違{ちが}いなし！",
-                    "maleVariant": null,
-                    "stringId": 1810994584532795392
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "353BCZ^これ以{い}上{じょう}おススメの作{さく}品{ひん}はないわ！ あのリズィー・ウィズィー自{みずか}らがプロデュースした『くじけ欠{か}けた心{こころ}』はフィーダーで発{はつ}売{ばい}中{ちゅう}！ チェックして！",
-                    "maleVariant": null,
-                    "stringId": 1810994766800470016
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CE4EAZ^ハーイ、みんな元{げん}気{き}だった？ 今日{きょう}のスーパーホットなニュースはね… なんと、リズィー・ウィズィーが初{はつ}のブレインダンスをリリースしたの！ そう、あのリズィー・ウィズィー！",
+              "maleVariant": "",
+              "stringId": 1796438639871172608
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "873BCZ^タイトルは… 『くじけ欠{か}けた心{こころ}』。彼{かの}女{じょ}とリアム・ノーソムとの破{は}局{きょく}を題{だい}材{ざい}としたノンフィクション作{さく}品{ひん}よ",
+              "maleVariant": "",
+              "stringId": 1810993286412484608
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D53BCZ^当{とう}初{しょ}、リズィーとノーソムはお似{に}合{あ}いのカップルと思{おも}われてた… でも二{ふた}人{り}の関{かん}係{けい}は徐々{じょじょ}に悪化{あっか}していったの",
+              "maleVariant": "",
+              "stringId": 1810993532534243328
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BE3BCZ^この作{さく}品{ひん}では、スーパースターしか抱{かか}えることのない悲{かな}しみや、絶{ぜつ}望{ぼう}、悩{なや}みが描{えが}かれてる。最{さい}後{ご}には… 復{ふく}讐{しゅう}の果{は}てにあるエクスタシーが訪{おとず}れるの",
+              "maleVariant": "",
+              "stringId": 1810994026069606400
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "753BCZ^ノーソムの体{からだ}が腕{うで}の中{なか}で力{ちから}を失{うしな}い、彼{か}の熱{あつ}い血{ち}がクロームスキンを滴{したた}り落{お}ちるその感{かん}触{しょく}は… 言葉{ことば}にできない、真{まこと}の快{かい}感{かん}と言{い}えると思{おも}う",
+              "maleVariant": "",
+              "stringId": 1810994179463692288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C53BCZ^リズィー・ウィズィーの才{さい}能{のう}が音{おん}楽{がく}だけに留{と}まらないことを証{しょう}明{めい}した、彼{かの}女{じょ}の処{しょ}女{じょ}作{さく}『くじけ欠{か}けた心{こころ}』は、ブレインダンスの傑作{けっさく}間{ま}違{ちが}いなし！",
+              "maleVariant": "",
+              "stringId": 1810994584532795392
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "353BCZ^これ以{い}上{じょう}おススメの作{さく}品{ひん}はないわ！ あのリズィー・ウィズィー自{みずか}らがプロデュースした『くじけ欠{か}けた心{こころ}』はフィーダーで発{はつ}売{ばい}中{ちゅう}！ チェックして！",
+              "maleVariant": "",
+              "stringId": 1810994766800470016
             }
-          }
+          ]
         }
       }
     },

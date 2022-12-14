@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_bls_ina_03_holocall_debriefs.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A46F7Z^アンテナの件{けん}、よくやってくれた。世{よ}の中{なか}には才{さい}能{のう}を無{む}駄{だ}遣{づか}いする奴{やつ}が多{おお}いが、お前{まえ}は心{しん}配{ぱい}なさそうだ",
-                    "maleVariant": null,
-                    "stringId": 2328813252985712640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6A3BCZ^モスキートのルートはこれで確{かく}保{ほ}できた。仕{し}事{ごと}は完{かん}了{りょう}だ。ご苦{く}労{ろう}だったね",
-                    "maleVariant": null,
-                    "stringId": 2332959587667001344
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9B3BCZ^驚{おどろ}いた… まったく見{み}事{ごと}なもんだよ。仕{し}事{ごと}はスマートにこなすに限{かぎ}るね",
-                    "maleVariant": null,
-                    "stringId": 2332960825439666176
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BB3BCZ^モスキートのドローン用{よう}ルートはこれで確{かく}保{ほ}できた。いい仕{し}事{ごと}ぶりだったよ",
-                    "maleVariant": null,
-                    "stringId": 2332964669972267008
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A46F7Z^アンテナの件{けん}、よくやってくれた。世{よ}の中{なか}には才{さい}能{のう}を無{む}駄{だ}遣{づか}いする奴{やつ}が多{おお}いが、お前{まえ}は心{しん}配{ぱい}なさそうだ",
+              "maleVariant": "",
+              "stringId": 2328813252985712640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6A3BCZ^モスキートのルートはこれで確{かく}保{ほ}できた。仕{し}事{ごと}は完{かん}了{りょう}だ。ご苦{く}労{ろう}だったね",
+              "maleVariant": "",
+              "stringId": 2332959587667001344
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9B3BCZ^驚{おどろ}いた… まったく見{み}事{ごと}なもんだよ。仕{し}事{ごと}はスマートにこなすに限{かぎ}るね",
+              "maleVariant": "",
+              "stringId": 2332960825439666176
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BB3BCZ^モスキートのドローン用{よう}ルートはこれで確{かく}保{ほ}できた。いい仕{し}事{ごと}ぶりだったよ",
+              "maleVariant": "",
+              "stringId": 2332964669972267008
             }
-          }
+          ]
         }
       }
     },

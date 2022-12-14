@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_hey_rey_06_gangers.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6539E010^何{なに}が悲{かな}しくて一{いち}日{にち}中{じゅう}死{し}体{たい}といなきゃならねえんだ",
-                    "maleVariant": null,
-                    "stringId": 1202609158318841872
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4B513Z^文{もん}句{く}言{い}うな。生{い}きてるだけで儲{もう}けもんだぞ",
-                    "maleVariant": null,
-                    "stringId": 1327023799124701184
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "73513004^この扉{とびら}はどうしたの？",
-                    "maleVariant": "73513004^この扉{とびら}はどうしたんだ？",
-                    "stringId": 1711172327654371332
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "97513Z^ねえ、この扉{とびら}、どうしたの？",
-                    "maleVariant": "97513Z^なあ、この扉{とびら}、どうしたんだ？",
-                    "stringId": 1711172422747631616
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2E513Z^どうもしねえよ。いいから触{しょく}んじゃねえ",
-                    "maleVariant": null,
-                    "stringId": 1711175577786986496
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8A44DZ^ここをどこだと思{おも}ってんだ…",
-                    "maleVariant": null,
-                    "stringId": 1904095919604027392
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6539E010^何{なに}が悲{かな}しくて一{いち}日{にち}中{じゅう}死{し}体{たい}といなきゃならねえんだ",
+              "maleVariant": "",
+              "stringId": 1202609158318841872
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4B513Z^文{もん}句{く}言{い}うな。生{い}きてるだけで儲{もう}けもんだぞ",
+              "maleVariant": "",
+              "stringId": 1327023799124701184
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "73513004^この扉{とびら}はどうしたの？",
+              "maleVariant": "73513004^この扉{とびら}はどうしたんだ？",
+              "stringId": 1711172327654371332
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "97513Z^ねえ、この扉{とびら}、どうしたの？",
+              "maleVariant": "97513Z^なあ、この扉{とびら}、どうしたんだ？",
+              "stringId": 1711172422747631616
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2E513Z^どうもしねえよ。いいから触{しょく}んじゃねえ",
+              "maleVariant": "",
+              "stringId": 1711175577786986496
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8A44DZ^ここをどこだと思{おも}ってんだ…",
+              "maleVariant": "",
+              "stringId": 1904095919604027392
             }
-          }
+          ]
         }
       }
     },

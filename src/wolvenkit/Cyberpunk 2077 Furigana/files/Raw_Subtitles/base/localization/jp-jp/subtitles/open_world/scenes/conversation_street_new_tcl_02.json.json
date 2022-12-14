@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_new_tcl_02.json"
@@ -11,42 +11,32 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "952A010^死{し}体{たい}はどうしやす？",
-                    "maleVariant": null,
-                    "stringId": 2276538937135767568
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "952A01C^溶{と}かしてから海{うみ}にでも流{なが}せ。一{いち}度{ど}に全{ぜん}部{ぶ}やるなよ",
-                    "maleVariant": null,
-                    "stringId": 2276538937135767580
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "952A028^了{りょう}解{かい}っす",
-                    "maleVariant": null,
-                    "stringId": 2276538937135767592
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "952A010^死{し}体{たい}はどうしやす？",
+              "maleVariant": "",
+              "stringId": 2276538937135767568
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "952A01C^溶{と}かしてから海{うみ}にでも流{なが}せ。一{いち}度{ど}に全{ぜん}部{ぶ}やるなよ",
+              "maleVariant": "",
+              "stringId": 2276538937135767580
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "952A028^了{りょう}解{かい}っす",
+              "maleVariant": "",
+              "stringId": 2276538937135767592
             }
-          }
+          ]
         }
       }
     },

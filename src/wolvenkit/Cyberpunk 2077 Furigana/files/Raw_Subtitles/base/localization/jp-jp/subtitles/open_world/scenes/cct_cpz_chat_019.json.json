@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_cpz_chat_019.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "40559Z^立入禁止{たちいりきんし}だと！？ さっさと通{とう}せ！ 自{じ}分{ぶん}の立場{たちば}をわかってるのか？",
-                    "maleVariant": null,
-                    "stringId": 2189968258685571072
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EA559Z^あなたは解{かい}雇{こ}されました",
-                    "maleVariant": null,
-                    "stringId": 2191299022794625024
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "99559Z^はあ！？ ありえない、何{なに}かの間{ま}違{ちが}いだ。俺{おれ}は何{なに}も知{し}らされてないぞ",
-                    "maleVariant": null,
-                    "stringId": 2191301224753893376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8559Z^いま知{し}らせているんです",
-                    "maleVariant": null,
-                    "stringId": 2191301561623613440
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DB559Z^とにかく通{とう}せ！",
-                    "maleVariant": null,
-                    "stringId": 2191301698307592192
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "49559Z^下{さ}がってください",
-                    "maleVariant": null,
-                    "stringId": 2191309998029901824
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "89559Z^ど、怒{ど}鳴{な}ったのは謝{あやま}る。だが… 入{い}らなきゃいけないんだ。頼{たの}む。まだ中{なか}に荷{に}物{もつ}がある",
-                    "maleVariant": null,
-                    "stringId": 2191310089297956864
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1D559Z^中{なか}にあるものは全{すべ}てアラサカ社{しゃ}に帰{き}属{ぞく}します。良{よ}い一日{ついたち}を",
-                    "maleVariant": null,
-                    "stringId": 2191321237221117952
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "40559Z^立入禁止{たちいりきんし}だと！？ さっさと通{とう}せ！ 自{じ}分{ぶん}の立場{たちば}をわかってるのか？",
+              "maleVariant": "",
+              "stringId": 2189968258685571072
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EA559Z^あなたは解{かい}雇{こ}されました",
+              "maleVariant": "",
+              "stringId": 2191299022794625024
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "99559Z^はあ！？ ありえない、何{なに}かの間{ま}違{ちが}いだ。俺{おれ}は何{なに}も知{し}らされてないぞ",
+              "maleVariant": "",
+              "stringId": 2191301224753893376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8559Z^いま知{し}らせているんです",
+              "maleVariant": "",
+              "stringId": 2191301561623613440
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DB559Z^とにかく通{とう}せ！",
+              "maleVariant": "",
+              "stringId": 2191301698307592192
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "49559Z^下{さ}がってください",
+              "maleVariant": "",
+              "stringId": 2191309998029901824
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "89559Z^ど、怒{ど}鳴{な}ったのは謝{あやま}る。だが… 入{い}らなきゃいけないんだ。頼{たの}む。まだ中{なか}に荷{に}物{もつ}がある",
+              "maleVariant": "",
+              "stringId": 2191310089297956864
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1D559Z^中{なか}にあるものは全{すべ}てアラサカ社{しゃ}に帰{き}属{ぞく}します。良{よ}い一日{ついたち}を",
+              "maleVariant": "",
+              "stringId": 2191321237221117952
             }
-          }
+          ]
         }
       }
     },

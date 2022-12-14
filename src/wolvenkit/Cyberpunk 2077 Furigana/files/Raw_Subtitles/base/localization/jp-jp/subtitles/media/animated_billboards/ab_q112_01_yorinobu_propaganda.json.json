@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\animated_billboards\\ab_q112_01_yorinobu_propaganda.json"
@@ -11,34 +11,26 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F14EAZ^偉{い}大{だい}なリーダーを求{もと}める世{せ}界{かい}に、アラサカ社{しゃ}は全{ぜん}力{りょく}で応{こた}えます",
-                    "maleVariant": null,
-                    "stringId": 1986657828555628544
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2A44DZ^明{あか}るい未{み}来{らい}のための戦{たたか}いに、あなたの力{ちから}を",
-                    "maleVariant": null,
-                    "stringId": 1993641978910527488
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F14EAZ^偉{い}大{だい}なリーダーを求{もと}める世{せ}界{かい}に、アラサカ社{しゃ}は全{ぜん}力{りょく}で応{こた}えます",
+              "maleVariant": "",
+              "stringId": 1986657828555628544
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2A44DZ^明{あか}るい未{み}来{らい}のための戦{たたか}いに、あなたの力{ちから}を",
+              "maleVariant": "",
+              "stringId": 1993641978910527488
             }
-          }
+          ]
         }
       }
     },

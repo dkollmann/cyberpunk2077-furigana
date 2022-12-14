@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_dtn_chat_014.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BC3BBZ^本{ほん}当{とう}に最{さい}高{こう}だったぞ。美{び}形{けい}ぞろいで、ドラッグも一{いっ}級{きゅう}品{ひん}ばかり。見{み}渡{わた}すかぎりセックスの海{うみ}",
-                    "maleVariant": null,
-                    "stringId": 2172141492196061184
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D2559Z^まだアソコが痛{いた}いくらいだ",
-                    "maleVariant": null,
-                    "stringId": 2181036906707783680
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "51559Z^もう途{と}中{ちゅう}から、どこまでが自{じ}分{ぶん}の体{からだ}で、どこからが相{あい}手{て}のかわからなくなってな",
-                    "maleVariant": null,
-                    "stringId": 2181037123586854912
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2559Z^みんな… 何{なん}て言{い}うか… 本{ほん}能{のう}の奴{ど}隷{れい}だった。汗{あせ}だくの体{からだ}で何{なん}百{びゃく}人{にん}も絡{から}み合{あ}って… あのリズムと匂{にお}いと欲{よく}望{ぼう}…",
-                    "maleVariant": null,
-                    "stringId": 2181037272585310208
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E1559Z^まるで… 何{なん}時{じ}間{かん}も続{つづ}くエクスタシーみたいだった",
-                    "maleVariant": null,
-                    "stringId": 2181037607039111168
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "60559Z^羨{うらや}ましすぎる。どうやったら参{さん}加{か}できるんだ？ いくらでも払{はら}うぞ",
-                    "maleVariant": null,
-                    "stringId": 2181045129657552896
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D0559Z^いや、金{きん}の問{もん}題{だい}じゃない",
-                    "maleVariant": null,
-                    "stringId": 2181046235343196160
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "60559Z^誰{だれ}を招{しょう}待{たい}するかを決{き}めるのはモーデリーニだ。全{すべ}てはあいつ次{し}第{だい}。他{ほか}に入{い}る方{ほう}法{ほう}はない",
-                    "maleVariant": null,
-                    "stringId": 2181047238486495232
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BC3BBZ^本{ほん}当{とう}に最{さい}高{こう}だったぞ。美{び}形{けい}ぞろいで、ドラッグも一{いっ}級{きゅう}品{ひん}ばかり。見{み}渡{わた}すかぎりセックスの海{うみ}",
+              "maleVariant": "",
+              "stringId": 2172141492196061184
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D2559Z^まだアソコが痛{いた}いくらいだ",
+              "maleVariant": "",
+              "stringId": 2181036906707783680
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "51559Z^もう途{と}中{ちゅう}から、どこまでが自{じ}分{ぶん}の体{からだ}で、どこからが相{あい}手{て}のかわからなくなってな",
+              "maleVariant": "",
+              "stringId": 2181037123586854912
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2559Z^みんな… 何{なん}て言{い}うか… 本{ほん}能{のう}の奴{ど}隷{れい}だった。汗{あせ}だくの体{からだ}で何{なん}百{びゃく}人{にん}も絡{から}み合{あ}って… あのリズムと匂{にお}いと欲{よく}望{ぼう}…",
+              "maleVariant": "",
+              "stringId": 2181037272585310208
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E1559Z^まるで… 何{なん}時{じ}間{かん}も続{つづ}くエクスタシーみたいだった",
+              "maleVariant": "",
+              "stringId": 2181037607039111168
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "60559Z^羨{うらや}ましすぎる。どうやったら参{さん}加{か}できるんだ？ いくらでも払{はら}うぞ",
+              "maleVariant": "",
+              "stringId": 2181045129657552896
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D0559Z^いや、金{きん}の問{もん}題{だい}じゃない",
+              "maleVariant": "",
+              "stringId": 2181046235343196160
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "60559Z^誰{だれ}を招{しょう}待{たい}するかを決{き}めるのはモーデリーニだ。全{すべ}てはあいつ次{し}第{だい}。他{ほか}に入{い}る方{ほう}法{ほう}はない",
+              "maleVariant": "",
+              "stringId": 2181047238486495232
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\wbr_nok_medic_01.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "40588004^ここのサービスに興{きょう}味{み}がある",
-                    "maleVariant": null,
-                    "stringId": 1977789967955951620
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "94588Z^いい建物{たてもの}ね",
-                    "maleVariant": "94588Z^いい建物{たてもの}だな",
-                    "stringId": 1977790450401574912
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A4588Z^サービスを利{り}用{よう}したい",
-                    "maleVariant": null,
-                    "stringId": 1977790923116412928
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いいところね",
-                    "maleVariant": "いいところだな",
-                    "stringId": 1977791132546400256
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B1588Z^うちの顧{こ}客{きゃく}は、サービスはもちろん、クリニックの内{ない}装{そう}も高{こう}水{すい}準{じゅん}を要{よう}求{きゅう}してくるんでね",
-                    "maleVariant": null,
-                    "stringId": 1977791481680265216
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4644DZ^支{し}払{はら}いができるなら… 構{かま}わない",
-                    "maleVariant": null,
-                    "stringId": 1979301513075675136
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CD44DZ^何{なに}も壊{こわ}さないでくれよ",
-                    "maleVariant": null,
-                    "stringId": 1979303057233858560
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "40588004^ここのサービスに興{きょう}味{み}がある",
+              "maleVariant": "",
+              "stringId": 1977789967955951620
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "94588Z^いい建物{たてもの}ね",
+              "maleVariant": "94588Z^いい建物{たてもの}だな",
+              "stringId": 1977790450401574912
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A4588Z^サービスを利{り}用{よう}したい",
+              "maleVariant": "",
+              "stringId": 1977790923116412928
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いいところね",
+              "maleVariant": "いいところだな",
+              "stringId": 1977791132546400256
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B1588Z^うちの顧{こ}客{きゃく}は、サービスはもちろん、クリニックの内{ない}装{そう}も高{こう}水{すい}準{じゅん}を要{よう}求{きゅう}してくるんでね",
+              "maleVariant": "",
+              "stringId": 1977791481680265216
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4644DZ^支{し}払{はら}いができるなら… 構{かま}わない",
+              "maleVariant": "",
+              "stringId": 1979301513075675136
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CD44DZ^何{なに}も壊{こわ}さないでくれよ",
+              "maleVariant": "",
+              "stringId": 1979303057233858560
             }
-          }
+          ]
         }
       }
     },

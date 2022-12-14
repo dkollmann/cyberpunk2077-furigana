@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_nid_chat_018.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8D47EZ^全{ぜん}部{ぶ}クラブ行{い}きか？",
-                    "maleVariant": null,
-                    "stringId": 2156409163642036224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "163BCZ^それとオールフーズ。ひとつ残{のこ}らずね",
-                    "maleVariant": null,
-                    "stringId": 2230325338355515392
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C63BCZ^少{すこ}しはこっちに回{まわ}せよな…  ひと吸{す}いだけでオーバークロック、ネガティブ・レイテンシ状{じょう}態{たい}でクロームとシナプスのピュアなシンクロ…",
-                    "maleVariant": null,
-                    "stringId": 2230325534581833728
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "463BCZ^CHOOH2みたいなもんだ。タンクに燃{ねん}料{りょう}を入{い}れてアクセルを踏{ふ}み込{こ}んだら、ブレーキなしで突{つ}っ走{ぱし}れる",
-                    "maleVariant": null,
-                    "stringId": 2230325648398467072
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "263BCZ^どうかな。疲{つか}れを感{かん}じないのはいいけど、あれは頭{あたま}がヤラれちまう",
-                    "maleVariant": null,
-                    "stringId": 2230325781005582336
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F83BCZ^少{すこ}しでもやり過{す}ぎたら感{かん}覚{かく}の抑{よく}制{せい}が効{き}かなくなる。そしたらガタガタ震{ふる}える肉{にく}の塊{かい}になるんだ",
-                    "maleVariant": null,
-                    "stringId": 2230325879018078208
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "263BCZ^フッ、それにはちゃんと対{たい}策{さく}があるんだよ。偏{へん}桃{もも}体{からだ}を取{と}り替{か}えれば問{もん}題{だい}ない",
-                    "maleVariant": null,
-                    "stringId": 2230326000048914432
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "273BCZ^へえ、それ初{はじ}めて聞{き}いた。やってみようかな",
-                    "maleVariant": null,
-                    "stringId": 2230326116029808640
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8D47EZ^全{ぜん}部{ぶ}クラブ行{い}きか？",
+              "maleVariant": "",
+              "stringId": 2156409163642036224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "163BCZ^それとオールフーズ。ひとつ残{のこ}らずね",
+              "maleVariant": "",
+              "stringId": 2230325338355515392
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C63BCZ^少{すこ}しはこっちに回{まわ}せよな…  ひと吸{す}いだけでオーバークロック、ネガティブ・レイテンシ状{じょう}態{たい}でクロームとシナプスのピュアなシンクロ…",
+              "maleVariant": "",
+              "stringId": 2230325534581833728
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "463BCZ^CHOOH2みたいなもんだ。タンクに燃{ねん}料{りょう}を入{い}れてアクセルを踏{ふ}み込{こ}んだら、ブレーキなしで突{つ}っ走{ぱし}れる",
+              "maleVariant": "",
+              "stringId": 2230325648398467072
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "263BCZ^どうかな。疲{つか}れを感{かん}じないのはいいけど、あれは頭{あたま}がヤラれちまう",
+              "maleVariant": "",
+              "stringId": 2230325781005582336
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F83BCZ^少{すこ}しでもやり過{す}ぎたら感{かん}覚{かく}の抑{よく}制{せい}が効{き}かなくなる。そしたらガタガタ震{ふる}える肉{にく}の塊{かい}になるんだ",
+              "maleVariant": "",
+              "stringId": 2230325879018078208
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "263BCZ^フッ、それにはちゃんと対{たい}策{さく}があるんだよ。偏{へん}桃{もも}体{からだ}を取{と}り替{か}えれば問{もん}題{だい}ない",
+              "maleVariant": "",
+              "stringId": 2230326000048914432
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "273BCZ^へえ、それ初{はじ}めて聞{き}いた。やってみようかな",
+              "maleVariant": "",
+              "stringId": 2230326116029808640
             }
-          }
+          ]
         }
       }
     },

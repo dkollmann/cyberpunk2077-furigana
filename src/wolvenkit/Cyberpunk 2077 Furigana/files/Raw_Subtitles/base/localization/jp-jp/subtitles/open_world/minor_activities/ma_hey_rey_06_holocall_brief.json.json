@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\minor_activities\\ma_hey_rey_06_holocall_brief.json"
@@ -11,42 +11,32 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B8647Z^NCPD業{ぎょう}務{む}委{い}託{たく}者{もの}に通{つう}達{たつ}。マーティン・ルーサー・キング通{とう}りで組{そ}織{しき}犯{はん}罪{ざい}活{かつ}動{どう}の報{ほう}告{こく}あり",
-                    "maleVariant": null,
-                    "stringId": 2330203770457452544
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2B559Z^複{ふく}数{すう}のヴァレンティ―ノズが密{みつ}輸{ゆ}および違{い}法{ほう}取{とり}引{ひき}を行{い}っている模{も}様{よう}",
-                    "maleVariant": null,
-                    "stringId": 2358955056559394816
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1A559Z^グループのリーダーはミゲル・ロドリゲス、別{べつ}名{めい}“ギズモ”。第{だい}二{に}級{きゅう}殺{さつ}人{じん}罪{ざい}、麻{ま}薬{やく}取{とり}引{ひき}などの前{ぜん}科{か}あり。脅{きょう}威{い}を無{む}力{りょく}化{か}した者{もの}には市{し}より報{ほう}酬{しゅう}が支{し}払{はら}われる",
-                    "maleVariant": null,
-                    "stringId": 2358955107813789696
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B8647Z^NCPD業{ぎょう}務{む}委{い}託{たく}者{もの}に通{つう}達{たつ}。マーティン・ルーサー・キング通{とう}りで組{そ}織{しき}犯{はん}罪{ざい}活{かつ}動{どう}の報{ほう}告{こく}あり",
+              "maleVariant": "",
+              "stringId": 2330203770457452544
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2B559Z^複{ふく}数{すう}のヴァレンティ―ノズが密{みつ}輸{ゆ}および違{い}法{ほう}取{とり}引{ひき}を行{い}っている模{も}様{よう}",
+              "maleVariant": "",
+              "stringId": 2358955056559394816
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1A559Z^グループのリーダーはミゲル・ロドリゲス、別{べつ}名{めい}“ギズモ”。第{だい}二{に}級{きゅう}殺{さつ}人{じん}罪{ざい}、麻{ま}薬{やく}取{とり}引{ひき}などの前{ぜん}科{か}あり。脅{きょう}威{い}を無{む}力{りょく}化{か}した者{もの}には市{し}より報{ほう}酬{しゅう}が支{し}払{はら}われる",
+              "maleVariant": "",
+              "stringId": 2358955107813789696
             }
-          }
+          ]
         }
       }
     },

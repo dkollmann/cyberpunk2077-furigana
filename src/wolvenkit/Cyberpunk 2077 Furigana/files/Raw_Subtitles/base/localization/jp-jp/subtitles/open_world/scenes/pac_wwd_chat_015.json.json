@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_wwd_chat_015.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C269EZ^親{おや}に家{いえ}を追{お}い出{だ}された",
-                    "maleVariant": null,
-                    "stringId": 2179592311370539008
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D92B6Z^マジか… じゃあうちに泊{と}まれよ",
-                    "maleVariant": null,
-                    "stringId": 2211158006390546432
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A42B6Z^何{なん}だ、まだコーポになれって言{い}われてるのか？",
-                    "maleVariant": null,
-                    "stringId": 2211158112875536384
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "412B6Z^今{こん}度{ど}は何{なに}したんだ？",
-                    "maleVariant": null,
-                    "stringId": 2217117730525110272
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BD2B6Z^うん… ヴードゥー・ボーイズに入{い}ろうとしたけどバレちゃって",
-                    "maleVariant": null,
-                    "stringId": 2217118067612934144
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A42B6Z^ううん。ヴードゥーは私{わたし}みたいなバカは相{あい}手{て}にしないから、ティーノズに入{い}れって",
-                    "maleVariant": null,
-                    "stringId": 2217119557547155456
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C269EZ^親{おや}に家{いえ}を追{お}い出{だ}された",
+              "maleVariant": "",
+              "stringId": 2179592311370539008
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D92B6Z^マジか… じゃあうちに泊{と}まれよ",
+              "maleVariant": "",
+              "stringId": 2211158006390546432
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A42B6Z^何{なん}だ、まだコーポになれって言{い}われてるのか？",
+              "maleVariant": "",
+              "stringId": 2211158112875536384
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "412B6Z^今{こん}度{ど}は何{なに}したんだ？",
+              "maleVariant": "",
+              "stringId": 2217117730525110272
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BD2B6Z^うん… ヴードゥー・ボーイズに入{い}ろうとしたけどバレちゃって",
+              "maleVariant": "",
+              "stringId": 2217118067612934144
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A42B6Z^ううん。ヴードゥーは私{わたし}みたいなバカは相{あい}手{て}にしないから、ティーノズに入{い}れって",
+              "maleVariant": "",
+              "stringId": 2217119557547155456
             }
-          }
+          ]
         }
       }
     },

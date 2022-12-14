@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q110\\q110_10_voodoo_queen_phonecall.json"
@@ -11,122 +11,92 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "92405Z^何{なん}だ？",
-                    "maleVariant": null,
-                    "stringId": 1709812103440781312
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "V？",
-                    "maleVariant": null,
-                    "stringId": 1709812493695602688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やはりかけてきたか…",
-                    "maleVariant": null,
-                    "stringId": 1709812581323001856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7A405004^チップを見{み}せてもいい",
-                    "maleVariant": null,
-                    "stringId": 1709820319310565380
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AE405Z^チップを… 見{み}せてもいい。力{ちから}を貸{か}してくれるなら",
-                    "maleVariant": "AE405Z^チップを… 見{み}せてもいい。力{ちから}を貸{か}してくれるならな",
-                    "stringId": 1709897449205682176
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F3405Z^やっぱり何{なん}でもない",
-                    "maleVariant": null,
-                    "stringId": 1709898803278008320
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CD405Z^やっぱ、何{なん}でもない",
-                    "maleVariant": null,
-                    "stringId": 1709899043158642688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "94405Z^考{かんが}えを変{か}えてくれたようだな",
-                    "maleVariant": null,
-                    "stringId": 1709900708649652224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1A405Z^他{ほか}に選{せん}択{たく}肢{し}がなかっただけよ",
-                    "maleVariant": "1A405Z^他{ほか}に選{せん}択{たく}肢{し}がなかっただけだ",
-                    "stringId": 1709902214136352768
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8F405Z^どこに行{い}けばいい？",
-                    "maleVariant": null,
-                    "stringId": 1709904552561496064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "32405Z^ホテルは捨{す}てたんでしょ。ネットウォッチにやられたのを見{み}た",
-                    "maleVariant": "32405Z^ホテルは捨{す}てたんだろ。ネットウォッチにやられたのを見{み}た",
-                    "stringId": 1709911830970781696
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E2405Z^パシフィカの教{きょう}会{かい}、祭{さい}壇{だん}のそばで待{ま}っていろ",
-                    "maleVariant": null,
-                    "stringId": 1709921935686651904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ええ、わかった",
-                    "maleVariant": "ああ、わかった",
-                    "stringId": 1712963947725131776
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "92405Z^何{なん}だ？",
+              "maleVariant": "",
+              "stringId": 1709812103440781312
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "V？",
+              "maleVariant": "",
+              "stringId": 1709812493695602688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やはりかけてきたか…",
+              "maleVariant": "",
+              "stringId": 1709812581323001856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7A405004^チップを見{み}せてもいい",
+              "maleVariant": "",
+              "stringId": 1709820319310565380
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AE405Z^チップを… 見{み}せてもいい。力{ちから}を貸{か}してくれるなら",
+              "maleVariant": "AE405Z^チップを… 見{み}せてもいい。力{ちから}を貸{か}してくれるならな",
+              "stringId": 1709897449205682176
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F3405Z^やっぱり何{なん}でもない",
+              "maleVariant": "",
+              "stringId": 1709898803278008320
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CD405Z^やっぱ、何{なん}でもない",
+              "maleVariant": "",
+              "stringId": 1709899043158642688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "94405Z^考{かんが}えを変{か}えてくれたようだな",
+              "maleVariant": "",
+              "stringId": 1709900708649652224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1A405Z^他{ほか}に選{せん}択{たく}肢{し}がなかっただけよ",
+              "maleVariant": "1A405Z^他{ほか}に選{せん}択{たく}肢{し}がなかっただけだ",
+              "stringId": 1709902214136352768
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8F405Z^どこに行{い}けばいい？",
+              "maleVariant": "",
+              "stringId": 1709904552561496064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "32405Z^ホテルは捨{す}てたんでしょ。ネットウォッチにやられたのを見{み}た",
+              "maleVariant": "32405Z^ホテルは捨{す}てたんだろ。ネットウォッチにやられたのを見{み}た",
+              "stringId": 1709911830970781696
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E2405Z^パシフィカの教{きょう}会{かい}、祭{さい}壇{だん}のそばで待{ま}っていろ",
+              "maleVariant": "",
+              "stringId": 1709921935686651904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ええ、わかった",
+              "maleVariant": "ああ、わかった",
+              "stringId": 1712963947725131776
             }
-          }
+          ]
         }
       }
     },

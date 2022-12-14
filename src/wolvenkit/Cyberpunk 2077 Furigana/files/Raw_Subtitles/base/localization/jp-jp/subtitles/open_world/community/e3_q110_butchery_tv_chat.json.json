@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\community\\e3_q110_butchery_tv_chat.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4F513Z^いやいや、 『リトルビッグ・コーポラッツ』は 元々{もともと}攻{せ}めた作{さく}品{ひん}だったんだ",
-                    "maleVariant": null,
-                    "stringId": 1709780551488057344
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6128DZ^繊{せん}細{さい}な人{にん}には… 歓{かん}迎{げい}されないというか",
-                    "maleVariant": null,
-                    "stringId": 1711091977101561856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9428DZ^ちょっと待{ま}って、 「繊{せん}細{さい}」ってどういうことかしら",
-                    "maleVariant": null,
-                    "stringId": 1711092948619808768
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3828DZ^だってターゲット層{そう}は明{あき}らかに 男{だん}性{せい}じゃないか",
-                    "maleVariant": null,
-                    "stringId": 1711093556961660928
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C628DZ^女{じょ}性{せい}を軽{けい}視{し}してる",
-                    "maleVariant": null,
-                    "stringId": 1711093928711213056
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EF28DZ^「軽{けい}視{し}」ね。はいはい、 きっとそうに違{ちが}いない",
-                    "maleVariant": null,
-                    "stringId": 1711094320241102848
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7528DZ^ちょっと誤{ご}魔{ま}化{か}さないで。 差{さ}別{べつ}発{はつ}言{げん}をしたのはそっちでしょ",
-                    "maleVariant": null,
-                    "stringId": 1711094670381600768
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A628DZ^シンディ、いいかい？ あの番{ばん}組{ぐみ}は皆{みな}をバカにしてる。 誰{だれ}もが平等{びょうどう}に蔑{さげす}まれてるんだ",
-                    "maleVariant": null,
-                    "stringId": 1711094993326231552
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4E28DZ^それこそが 『リトルビッグ・コーポラッツ』の、 “小{ちー}さくとも大{おお}きい”テーマと いうわけだ",
-                    "maleVariant": null,
-                    "stringId": 1711095309677416448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "79513Z^それでも誇{ほこ}り高{たか}く… 背{せ}筋{すじ}を 伸{の}ばして生{い}きることはできる",
-                    "maleVariant": null,
-                    "stringId": 1796514410258313216
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4F513Z^いやいや、 『リトルビッグ・コーポラッツ』は 元々{もともと}攻{せ}めた作{さく}品{ひん}だったんだ",
+              "maleVariant": "",
+              "stringId": 1709780551488057344
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6128DZ^繊{せん}細{さい}な人{にん}には… 歓{かん}迎{げい}されないというか",
+              "maleVariant": "",
+              "stringId": 1711091977101561856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9428DZ^ちょっと待{ま}って、 「繊{せん}細{さい}」ってどういうことかしら",
+              "maleVariant": "",
+              "stringId": 1711092948619808768
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3828DZ^だってターゲット層{そう}は明{あき}らかに 男{だん}性{せい}じゃないか",
+              "maleVariant": "",
+              "stringId": 1711093556961660928
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C628DZ^女{じょ}性{せい}を軽{けい}視{し}してる",
+              "maleVariant": "",
+              "stringId": 1711093928711213056
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EF28DZ^「軽{けい}視{し}」ね。はいはい、 きっとそうに違{ちが}いない",
+              "maleVariant": "",
+              "stringId": 1711094320241102848
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7528DZ^ちょっと誤{ご}魔{ま}化{か}さないで。 差{さ}別{べつ}発{はつ}言{げん}をしたのはそっちでしょ",
+              "maleVariant": "",
+              "stringId": 1711094670381600768
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A628DZ^シンディ、いいかい？ あの番{ばん}組{ぐみ}は皆{みな}をバカにしてる。 誰{だれ}もが平等{びょうどう}に蔑{さげす}まれてるんだ",
+              "maleVariant": "",
+              "stringId": 1711094993326231552
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4E28DZ^それこそが 『リトルビッグ・コーポラッツ』の、 “小{ちー}さくとも大{おお}きい”テーマと いうわけだ",
+              "maleVariant": "",
+              "stringId": 1711095309677416448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "79513Z^それでも誇{ほこ}り高{たか}く… 背{せ}筋{すじ}を 伸{の}ばして生{い}きることはできる",
+              "maleVariant": "",
+              "stringId": 1796514410258313216
             }
-          }
+          ]
         }
       }
     },

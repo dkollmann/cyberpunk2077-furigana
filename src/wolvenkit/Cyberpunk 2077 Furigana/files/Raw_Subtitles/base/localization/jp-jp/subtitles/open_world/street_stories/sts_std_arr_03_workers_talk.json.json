@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_std_arr_03_workers_talk.json"
@@ -11,58 +11,44 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CB377Z^なあ、ストーヴがヴァレンティーノズとつながってるって聞{き}いたか？",
-                    "maleVariant": null,
-                    "stringId": 1496418432411201536
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9E377Z^何{なに}よそれ？ 誰{だれ}から聞{き}いたの？",
-                    "maleVariant": null,
-                    "stringId": 1496428408865255424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "フリッグだ",
-                    "maleVariant": null,
-                    "stringId": 1496430140190060544
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E1377Z^あいつの話{はなし}なら眉{まゆ}唾{つば}よ。なんたって、筋{すじ}金{がね}入{い}りのバカだもの",
-                    "maleVariant": null,
-                    "stringId": 1496431111523758080
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5B377Z^おい！ 給{きゅう}料{りょう}を払{はら}ってんだ！ くっちゃべってんじゃねえ",
-                    "maleVariant": null,
-                    "stringId": 1496431564542144512
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CB377Z^なあ、ストーヴがヴァレンティーノズとつながってるって聞{き}いたか？",
+              "maleVariant": "",
+              "stringId": 1496418432411201536
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9E377Z^何{なに}よそれ？ 誰{だれ}から聞{き}いたの？",
+              "maleVariant": "",
+              "stringId": 1496428408865255424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "フリッグだ",
+              "maleVariant": "",
+              "stringId": 1496430140190060544
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E1377Z^あいつの話{はなし}なら眉{まゆ}唾{つば}よ。なんたって、筋{すじ}金{がね}入{い}りのバカだもの",
+              "maleVariant": "",
+              "stringId": 1496431111523758080
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5B377Z^おい！ 給{きゅう}料{りょう}を払{はら}ってんだ！ くっちゃべってんじゃねえ",
+              "maleVariant": "",
+              "stringId": 1496431564542144512
             }
-          }
+          ]
         }
       }
     },

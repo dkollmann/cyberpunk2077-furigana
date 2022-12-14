@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\vset\\vset_victor.json"
@@ -11,114 +11,86 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "よう、V",
-                    "maleVariant": null,
-                    "stringId": 1796881613132382212
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8F2FC004^調{ちょう}子{し}はどうだ？",
-                    "maleVariant": null,
-                    "stringId": 1796881613149159428
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "952FC004^わかった、後{あと}で話{はな}そう",
-                    "maleVariant": null,
-                    "stringId": 1796881613249822724
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "V？",
-                    "maleVariant": null,
-                    "stringId": 1796881613266599940
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9A2FC004^何{なん}だっけか… ああ、そうそう",
-                    "maleVariant": null,
-                    "stringId": 1796881613333708804
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9B2FC004^じゃあ、話{はなし}の続{つづ}きだが…",
-                    "maleVariant": null,
-                    "stringId": 1796881613350486020
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9D2FC004^いつまで待{ま}たせるつもりだ？",
-                    "maleVariant": null,
-                    "stringId": 1796881613384040452
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい、V？",
-                    "maleVariant": null,
-                    "stringId": 1796881613400817668
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "え？",
-                    "maleVariant": null,
-                    "stringId": 1796881613635698692
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AD2FC004^落{お}ち着{つ}けよ",
-                    "maleVariant": null,
-                    "stringId": 1796881613652475908
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい、V？ いるか？",
-                    "maleVariant": null,
-                    "stringId": 1966204412054347780
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D14E2004^あー… V？ 切{き}れたみたいだ…",
-                    "maleVariant": null,
-                    "stringId": 1966204412071124996
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "よう、V",
+              "maleVariant": "",
+              "stringId": 1796881613132382212
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8F2FC004^調{ちょう}子{し}はどうだ？",
+              "maleVariant": "",
+              "stringId": 1796881613149159428
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "952FC004^わかった、後{あと}で話{はな}そう",
+              "maleVariant": "",
+              "stringId": 1796881613249822724
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "V？",
+              "maleVariant": "",
+              "stringId": 1796881613266599940
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9A2FC004^何{なん}だっけか… ああ、そうそう",
+              "maleVariant": "",
+              "stringId": 1796881613333708804
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9B2FC004^じゃあ、話{はなし}の続{つづ}きだが…",
+              "maleVariant": "",
+              "stringId": 1796881613350486020
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9D2FC004^いつまで待{ま}たせるつもりだ？",
+              "maleVariant": "",
+              "stringId": 1796881613384040452
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい、V？",
+              "maleVariant": "",
+              "stringId": 1796881613400817668
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "え？",
+              "maleVariant": "",
+              "stringId": 1796881613635698692
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AD2FC004^落{お}ち着{つ}けよ",
+              "maleVariant": "",
+              "stringId": 1796881613652475908
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい、V？ いるか？",
+              "maleVariant": "",
+              "stringId": 1966204412054347780
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D14E2004^あー… V？ 切{き}れたみたいだ…",
+              "maleVariant": "",
+              "stringId": 1966204412071124996
             }
-          }
+          ]
         }
       }
     },

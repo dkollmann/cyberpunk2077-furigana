@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_045.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E8647Z^で… 昨日{きのう}のことについて話{はなし}を聞{き}こうか",
-                    "maleVariant": null,
-                    "stringId": 2157402539566592000
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "31494Z^報{ほう}告{こく}書{しょ}に全{ぜん}部{ぶ}書{か}いてある",
-                    "maleVariant": null,
-                    "stringId": 2182614415428894720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D494Z^それは読{よ}んだ。だが、俺{おれ}の命{めい}令{れい}に背{せ}いて突{とつ}撃{げき}したことは書{か}かれてなかったな",
-                    "maleVariant": null,
-                    "stringId": 2209863748935041024
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B5494Z^相{あい}手{て}はクロームの脚{あし}をつけたサイバーサイコだったんだぞ",
-                    "maleVariant": null,
-                    "stringId": 2209864292919492608
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1F494Z^一{いっ}体{たい}何{なに}を考{かんが}えてた？ ああいうのはマックス・タックの仕{し}事{ごと}だ…",
-                    "maleVariant": null,
-                    "stringId": 2209866742829236224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8D494Z^市{し}民{みん}が危{き}険{けん}にさらされてた。彼{かれ}らが殺{ころ}されるのを、黙{だま}って見{み}てればよかったの？",
-                    "maleVariant": null,
-                    "stringId": 2209867449049366528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "35494Z^いいか。俺{おれ}も、お前{まえ}も、ナイトシティの警{けい}官{かん}はみんな、マックス・タックの前{まえ}じゃ一般市民{いっぱんしみん}と同{おな}じだ",
-                    "maleVariant": null,
-                    "stringId": 2209868517019828224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FE494Z^連{れん}中{ちゅう}と同{おな}じ装{そう}備{び}を使{つか}える日{にち}が来{き}たら、その時{とき}はいくらでも市{し}民{みん}を救{すく}うヒーローになればいい",
-                    "maleVariant": null,
-                    "stringId": 2209868928413941760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "57494Z^だがそうでない限{かぎ}り、黙{だま}って俺{おれ}に従{したが}え。わかったな？",
-                    "maleVariant": null,
-                    "stringId": 2209872198377226240
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E8647Z^で… 昨日{きのう}のことについて話{はなし}を聞{き}こうか",
+              "maleVariant": "",
+              "stringId": 2157402539566592000
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "31494Z^報{ほう}告{こく}書{しょ}に全{ぜん}部{ぶ}書{か}いてある",
+              "maleVariant": "",
+              "stringId": 2182614415428894720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D494Z^それは読{よ}んだ。だが、俺{おれ}の命{めい}令{れい}に背{せ}いて突{とつ}撃{げき}したことは書{か}かれてなかったな",
+              "maleVariant": "",
+              "stringId": 2209863748935041024
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B5494Z^相{あい}手{て}はクロームの脚{あし}をつけたサイバーサイコだったんだぞ",
+              "maleVariant": "",
+              "stringId": 2209864292919492608
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1F494Z^一{いっ}体{たい}何{なに}を考{かんが}えてた？ ああいうのはマックス・タックの仕{し}事{ごと}だ…",
+              "maleVariant": "",
+              "stringId": 2209866742829236224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8D494Z^市{し}民{みん}が危{き}険{けん}にさらされてた。彼{かれ}らが殺{ころ}されるのを、黙{だま}って見{み}てればよかったの？",
+              "maleVariant": "",
+              "stringId": 2209867449049366528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "35494Z^いいか。俺{おれ}も、お前{まえ}も、ナイトシティの警{けい}官{かん}はみんな、マックス・タックの前{まえ}じゃ一般市民{いっぱんしみん}と同{おな}じだ",
+              "maleVariant": "",
+              "stringId": 2209868517019828224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FE494Z^連{れん}中{ちゅう}と同{おな}じ装{そう}備{び}を使{つか}える日{にち}が来{き}たら、その時{とき}はいくらでも市{し}民{みん}を救{すく}うヒーローになればいい",
+              "maleVariant": "",
+              "stringId": 2209868928413941760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "57494Z^だがそうでない限{かぎ}り、黙{だま}って俺{おれ}に従{したが}え。わかったな？",
+              "maleVariant": "",
+              "stringId": 2209872198377226240
             }
-          }
+          ]
         }
       }
     },

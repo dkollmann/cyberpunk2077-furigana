@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_hill_chat_001.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8969EZ^ここで何{なに}してる？",
-                    "maleVariant": null,
-                    "stringId": 1806712999351279616
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9069EZ^いつもと同{おな}じ。あんたのケツを拭{ふ}きにきたのよ",
-                    "maleVariant": null,
-                    "stringId": 1806714468347535360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F469EZ^余{よ}計{けい}なお世{せ}話{わ}だ",
-                    "maleVariant": null,
-                    "stringId": 1806714710543425536
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5E69EZ^文{もん}句{く}があるなら母{かあ}さんに言{い}いな",
-                    "maleVariant": null,
-                    "stringId": 1806714939955077120
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "...",
-                    "maleVariant": null,
-                    "stringId": 1806715108163444736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D869EZ^そんな顔{かお}しないで。まだ赤{あか}ちゃん虎{とら}なんだから、しょうがないでしょ",
-                    "maleVariant": null,
-                    "stringId": 1806715246944575488
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8969EZ^ここで何{なに}してる？",
+              "maleVariant": "",
+              "stringId": 1806712999351279616
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9069EZ^いつもと同{おな}じ。あんたのケツを拭{ふ}きにきたのよ",
+              "maleVariant": "",
+              "stringId": 1806714468347535360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F469EZ^余{よ}計{けい}なお世{せ}話{わ}だ",
+              "maleVariant": "",
+              "stringId": 1806714710543425536
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5E69EZ^文{もん}句{く}があるなら母{かあ}さんに言{い}いな",
+              "maleVariant": "",
+              "stringId": 1806714939955077120
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "...",
+              "maleVariant": "",
+              "stringId": 1806715108163444736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D869EZ^そんな顔{かお}しないで。まだ赤{あか}ちゃん虎{とら}なんだから、しょうがないでしょ",
+              "maleVariant": "",
+              "stringId": 1806715246944575488
             }
-          }
+          ]
         }
       }
     },

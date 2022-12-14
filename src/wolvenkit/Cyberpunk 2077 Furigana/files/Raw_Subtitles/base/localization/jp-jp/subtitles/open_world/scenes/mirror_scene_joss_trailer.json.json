@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\mirror_scene_joss_trailer.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3A4E6Z^[鏡{かがみ}を見{み}る]",
-                    "maleVariant": null,
-                    "stringId": 2413972943627247616
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[やめる]",
-                    "maleVariant": null,
-                    "stringId": 2413972943828574208
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6D4E6Z^[笑顔{えがお}]",
-                    "maleVariant": null,
-                    "stringId": 2520253623914356736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6D4E600C^[しかめっ面{めん}]",
-                    "maleVariant": null,
-                    "stringId": 2520253623914356748
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6D4E6018^[仏頂面{ぶっちょうづら}]",
-                    "maleVariant": null,
-                    "stringId": 2520253623914356760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[ぽかん]",
-                    "maleVariant": null,
-                    "stringId": 2520253623914356772
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6E4E6008^[凝{ぎょう}視{し}]",
-                    "maleVariant": null,
-                    "stringId": 2520253623931133960
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C4766Z^[外{がい}見{けん}を変{か}える]",
-                    "maleVariant": null,
-                    "stringId": 3151840484787642368
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C4766014^[表{ひょう}情{じょう}を変{か}える]",
-                    "maleVariant": null,
-                    "stringId": 3151840484787642388
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2D766Z^[戻{もど}る]",
-                    "maleVariant": null,
-                    "stringId": 3151963043441041408
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3A4E6Z^[鏡{かがみ}を見{み}る]",
+              "maleVariant": "",
+              "stringId": 2413972943627247616
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[やめる]",
+              "maleVariant": "",
+              "stringId": 2413972943828574208
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6D4E6Z^[笑顔{えがお}]",
+              "maleVariant": "",
+              "stringId": 2520253623914356736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6D4E600C^[しかめっ面{めん}]",
+              "maleVariant": "",
+              "stringId": 2520253623914356748
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6D4E6018^[仏頂面{ぶっちょうづら}]",
+              "maleVariant": "",
+              "stringId": 2520253623914356760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[ぽかん]",
+              "maleVariant": "",
+              "stringId": 2520253623914356772
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6E4E6008^[凝{ぎょう}視{し}]",
+              "maleVariant": "",
+              "stringId": 2520253623931133960
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C4766Z^[外{がい}見{けん}を変{か}える]",
+              "maleVariant": "",
+              "stringId": 3151840484787642368
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C4766014^[表{ひょう}情{じょう}を変{か}える]",
+              "maleVariant": "",
+              "stringId": 3151840484787642388
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2D766Z^[戻{もど}る]",
+              "maleVariant": "",
+              "stringId": 3151963043441041408
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_arr_chat_028.json"
@@ -11,58 +11,44 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A676DZ^今日{きょう}も飛{と}んできた",
-                    "maleVariant": null,
-                    "stringId": 2168036817355853824
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F2B6Z^え？ 何{なに}が？",
-                    "maleVariant": null,
-                    "stringId": 2211130605405167616
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "32B6Z^AVだよ！ 8の字{じ}を描{えが}きながら毒{どく}をまき散{ち}らしてるんだ！ もう半{はん}世{せい}紀{き}は続{つづ}いてるんだぞ！",
-                    "maleVariant": null,
-                    "stringId": 2212880550973890560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "842B6Z^AVね… でも車{くるま}もガスは出{だ}すでしょ？",
-                    "maleVariant": null,
-                    "stringId": 2212884117961007104
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FA2B6Z^CHOOH2に毒{どく}はない！ わからないのか？ AVは農{のう}薬{やく}散布{さんぷ}機{き}みたいなもんだ。化学物質{かがくぶっしつ}を降{ふ}らせて、市{し}民{みん}を共{きょう}産{さん}主{しゅ}義{ぎ}者{しゃ}に洗{せん}脳{のう}する気{き}なんだよ！",
-                    "maleVariant": null,
-                    "stringId": 2212884347573985280
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A676DZ^今日{きょう}も飛{と}んできた",
+              "maleVariant": "",
+              "stringId": 2168036817355853824
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F2B6Z^え？ 何{なに}が？",
+              "maleVariant": "",
+              "stringId": 2211130605405167616
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "32B6Z^AVだよ！ 8の字{じ}を描{えが}きながら毒{どく}をまき散{ち}らしてるんだ！ もう半{はん}世{せい}紀{き}は続{つづ}いてるんだぞ！",
+              "maleVariant": "",
+              "stringId": 2212880550973890560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "842B6Z^AVね… でも車{くるま}もガスは出{だ}すでしょ？",
+              "maleVariant": "",
+              "stringId": 2212884117961007104
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FA2B6Z^CHOOH2に毒{どく}はない！ わからないのか？ AVは農{のう}薬{やく}散布{さんぷ}機{き}みたいなもんだ。化学物質{かがくぶっしつ}を降{ふ}らせて、市{し}民{みん}を共{きょう}産{さん}主{しゅ}義{ぎ}者{しゃ}に洗{せん}脳{のう}する気{き}なんだよ！",
+              "maleVariant": "",
+              "stringId": 2212884347573985280
             }
-          }
+          ]
         }
       }
     },

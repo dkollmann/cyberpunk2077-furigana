@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_arr_chat_014.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CB76DZ^それでどこかの部屋{へや}に閉{と}じ込{こ}めて、何{なん}時{じ}間{かん}も暴{ぼう}行{こう}したらしいよ",
-                    "maleVariant": null,
-                    "stringId": 2167875610674122752
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E7559Z^で？ それが警{けい}察{さつ}の仕{し}事{ごと}だろ",
-                    "maleVariant": null,
-                    "stringId": 2214413480169410560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C9559Z^いくら警{けい}察{さつ}でもやっていいことと悪{わる}いことがある。シックス・ストリートに同{どう}情{じょう}するわけじゃないけど… ああ、もういい",
-                    "maleVariant": null,
-                    "stringId": 2221567679705485312
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6559Z^考{かんが}えてもみろ。NCPDの装{そう}備{び}はギャングにも劣{おと}る。数{かず}で勝{か}てるわけでもない",
-                    "maleVariant": null,
-                    "stringId": 2221567779513143296
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F6559Z^それに署{しょ}に連{れん}行{こう}したって、すぐ釈{しゃく}放{ほう}しなきゃならないだろ？ 理{り}由{ゆう}もなくずっと置{お}いとけない",
-                    "maleVariant": null,
-                    "stringId": 2221568006877974528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "88559Z^手{て}っ取{と}り早{ばや}く情{じょう}報{ほう}を聞{き}き出{だ}す手{しゅ}段{だん}を選{えら}んだだけさ",
-                    "maleVariant": null,
-                    "stringId": 2221568120996597760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それはそうだけど",
-                    "maleVariant": null,
-                    "stringId": 2221573257240612864
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CB76DZ^それでどこかの部屋{へや}に閉{と}じ込{こ}めて、何{なん}時{じ}間{かん}も暴{ぼう}行{こう}したらしいよ",
+              "maleVariant": "",
+              "stringId": 2167875610674122752
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E7559Z^で？ それが警{けい}察{さつ}の仕{し}事{ごと}だろ",
+              "maleVariant": "",
+              "stringId": 2214413480169410560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C9559Z^いくら警{けい}察{さつ}でもやっていいことと悪{わる}いことがある。シックス・ストリートに同{どう}情{じょう}するわけじゃないけど… ああ、もういい",
+              "maleVariant": "",
+              "stringId": 2221567679705485312
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6559Z^考{かんが}えてもみろ。NCPDの装{そう}備{び}はギャングにも劣{おと}る。数{かず}で勝{か}てるわけでもない",
+              "maleVariant": "",
+              "stringId": 2221567779513143296
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F6559Z^それに署{しょ}に連{れん}行{こう}したって、すぐ釈{しゃく}放{ほう}しなきゃならないだろ？ 理{り}由{ゆう}もなくずっと置{お}いとけない",
+              "maleVariant": "",
+              "stringId": 2221568006877974528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "88559Z^手{て}っ取{と}り早{ばや}く情{じょう}報{ほう}を聞{き}き出{だ}す手{しゅ}段{だん}を選{えら}んだだけさ",
+              "maleVariant": "",
+              "stringId": 2221568120996597760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それはそうだけど",
+              "maleVariant": "",
+              "stringId": 2221573257240612864
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q003\\q003_08_stout.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "82B1Z^そう身構{みがま}えなくてもいい",
-                    "maleVariant": null,
-                    "stringId": 1155715969380454400
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "482EFZ^で… 今{こん}度{ど}は何{なん}の用{よう}？",
-                    "maleVariant": "482EFZ^で… 今{こん}度{ど}は何{なん}の用{よう}だ？",
-                    "stringId": 1759060469251764224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ふん…",
-                    "maleVariant": null,
-                    "stringId": 1762060493590032384
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "76E4Z^逃{に}げるのか？ みっともない",
-                    "maleVariant": null,
-                    "stringId": 1968514203441315840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4F6E4Z^[食{た}べ物{もの}を置{お}く]",
-                    "maleVariant": null,
-                    "stringId": 2027889305722961920
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6E6E4Z^[抱{だ}き上{あ}げる]",
-                    "maleVariant": null,
-                    "stringId": 2027899944877047808
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "956E4004^何{なん}の用{よう}？",
-                    "maleVariant": "956E4004^何{なん}の用{よう}だ？",
-                    "stringId": 2032201909329084420
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "82B1Z^そう身構{みがま}えなくてもいい",
+              "maleVariant": "",
+              "stringId": 1155715969380454400
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "482EFZ^で… 今{こん}度{ど}は何{なん}の用{よう}？",
+              "maleVariant": "482EFZ^で… 今{こん}度{ど}は何{なん}の用{よう}だ？",
+              "stringId": 1759060469251764224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ふん…",
+              "maleVariant": "",
+              "stringId": 1762060493590032384
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "76E4Z^逃{に}げるのか？ みっともない",
+              "maleVariant": "",
+              "stringId": 1968514203441315840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4F6E4Z^[食{た}べ物{もの}を置{お}く]",
+              "maleVariant": "",
+              "stringId": 2027889305722961920
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6E6E4Z^[抱{だ}き上{あ}げる]",
+              "maleVariant": "",
+              "stringId": 2027899944877047808
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "956E4004^何{なん}の用{よう}？",
+              "maleVariant": "956E4004^何{なん}の用{よう}だ？",
+              "stringId": 2032201909329084420
             }
-          }
+          ]
         }
       }
     },

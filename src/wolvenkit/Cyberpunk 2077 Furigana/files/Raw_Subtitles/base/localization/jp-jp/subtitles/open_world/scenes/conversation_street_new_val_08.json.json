@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_new_val_08.json"
@@ -11,42 +11,32 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"mex\" o=\"Es un policía. Un pinche culero.\" t=\"F352A010^奴{やつ}はサツだ。それもとびきり頭{あたま}の悪{わる}いな\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 2276542007668285456
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"mex\" o=\"No, pues ahora si que… ¿Hay alguno que no lo sea?\" t=\"F352A01C^頭{あたま}のいいサツなんている？\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 2276542007668285468
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"mex\" o=\"Tienes razón. Ahora ve y haz lo que hay que hacer.\" t=\"F452A004^言{い}うじゃないか。さて、あとは任{まか}せたぞ\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 2276542007685062660
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"mex\" o=\"Es un policía. Un pinche culero.\" t=\"F352A010^奴{やつ}はサツだ。それもとびきり頭{あたま}の悪{わる}いな\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 2276542007668285456
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"mex\" o=\"No, pues ahora si que… ¿Hay alguno que no lo sea?\" t=\"F352A01C^頭{あたま}のいいサツなんている？\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 2276542007668285468
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"mex\" o=\"Tienes razón. Ahora ve y haz lo que hay que hacer.\" t=\"F452A004^言{い}うじゃないか。さて、あとは任{まか}せたぞ\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 2276542007685062660
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_m_81_chn_20.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F4582004^んー…？ 通{とう}りすがりか？",
-                    "maleVariant": null,
-                    "stringId": 1922666878935244804
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうかしたか？",
-                    "maleVariant": null,
-                    "stringId": 1922666878952022020
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おいおい！",
-                    "maleVariant": null,
-                    "stringId": 1922666879035908096
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FB582004^何{なに}なんだ？",
-                    "maleVariant": null,
-                    "stringId": 1922666879052685316
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やあ…",
-                    "maleVariant": null,
-                    "stringId": 1922666879103016964
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2582004^その… どこか… 行{い}かないか…？ いや、二{ふた}人{り}だけで",
-                    "maleVariant": null,
-                    "stringId": 1922666879170125828
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3582004^わかってる… ただ… いや…！ そういう意{い}味{み}じゃ…！ つまり… もっと頻繁{ひんぱん}に",
-                    "maleVariant": null,
-                    "stringId": 1922666879186903044
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もちろん。わかった",
-                    "maleVariant": null,
-                    "stringId": 1922666879237234692
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "12582004^みんな死{し}ぬんだ！",
-                    "maleVariant": null,
-                    "stringId": 1922666879438561284
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "14582004^あいつを何{なん}とかしろ！",
-                    "maleVariant": null,
-                    "stringId": 1922666879472115716
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そんな… やめてくれ！",
-                    "maleVariant": null,
-                    "stringId": 1922666879589556228
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1C582004^何{なん}でだよ？ おい！",
-                    "maleVariant": null,
-                    "stringId": 1922666879606333444
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "23582004^何{なん}のつもりだ？",
-                    "maleVariant": null,
-                    "stringId": 1922666879723773956
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "24582004^コソコソされるのは嫌{きら}いだ",
-                    "maleVariant": null,
-                    "stringId": 1922666879740551172
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F4582004^んー…？ 通{とう}りすがりか？",
+              "maleVariant": "",
+              "stringId": 1922666878935244804
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうかしたか？",
+              "maleVariant": "",
+              "stringId": 1922666878952022020
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おいおい！",
+              "maleVariant": "",
+              "stringId": 1922666879035908096
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FB582004^何{なに}なんだ？",
+              "maleVariant": "",
+              "stringId": 1922666879052685316
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やあ…",
+              "maleVariant": "",
+              "stringId": 1922666879103016964
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2582004^その… どこか… 行{い}かないか…？ いや、二{ふた}人{り}だけで",
+              "maleVariant": "",
+              "stringId": 1922666879170125828
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3582004^わかってる… ただ… いや…！ そういう意{い}味{み}じゃ…！ つまり… もっと頻繁{ひんぱん}に",
+              "maleVariant": "",
+              "stringId": 1922666879186903044
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もちろん。わかった",
+              "maleVariant": "",
+              "stringId": 1922666879237234692
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "12582004^みんな死{し}ぬんだ！",
+              "maleVariant": "",
+              "stringId": 1922666879438561284
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "14582004^あいつを何{なん}とかしろ！",
+              "maleVariant": "",
+              "stringId": 1922666879472115716
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そんな… やめてくれ！",
+              "maleVariant": "",
+              "stringId": 1922666879589556228
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1C582004^何{なん}でだよ？ おい！",
+              "maleVariant": "",
+              "stringId": 1922666879606333444
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "23582004^何{なん}のつもりだ？",
+              "maleVariant": "",
+              "stringId": 1922666879723773956
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "24582004^コソコソされるのは嫌{きら}いだ",
+              "maleVariant": "",
+              "stringId": 1922666879740551172
             }
-          }
+          ]
         }
       }
     },

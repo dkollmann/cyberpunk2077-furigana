@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_rey_chat_007.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F969EZ^最{さい}近{きん}トラヴを見{み}てないな",
-                    "maleVariant": null,
-                    "stringId": 1833110024850366464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4E69EZ^知{し}らないのか？ 数{すう}日{じつ}前{まえ}にフラットラインした…",
-                    "maleVariant": null,
-                    "stringId": 1833112568897069056
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4369EZ^怪{あや}しいスコップ缶{かん}を拾{ひろ}い食{く}いして、そのままぽっくり",
-                    "maleVariant": null,
-                    "stringId": 1833112701856505856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "169EZ^最{さい}近{きん}ヤバい肉{にく}が市{し}内{ない}に出{で}回{まわ}ってるらしいから気{き}をつけた方{ほう}がいいって言{い}ったのに",
-                    "maleVariant": null,
-                    "stringId": 1833113186080514048
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8169EZ^あいつ、聞{き}かずに食{た}べるんだもん",
-                    "maleVariant": null,
-                    "stringId": 1833113591954923520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8F69EZ^トラヴは天邪鬼{あまのじゃく}だからな。ダメと言{い}われたらやるんだよ",
-                    "maleVariant": null,
-                    "stringId": 1833113824118038528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ウサギとか、オーガニックだったらシャレにならないしさ",
-                    "maleVariant": null,
-                    "stringId": 1964791856902160384
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F969EZ^最{さい}近{きん}トラヴを見{み}てないな",
+              "maleVariant": "",
+              "stringId": 1833110024850366464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4E69EZ^知{し}らないのか？ 数{すう}日{じつ}前{まえ}にフラットラインした…",
+              "maleVariant": "",
+              "stringId": 1833112568897069056
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4369EZ^怪{あや}しいスコップ缶{かん}を拾{ひろ}い食{く}いして、そのままぽっくり",
+              "maleVariant": "",
+              "stringId": 1833112701856505856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "169EZ^最{さい}近{きん}ヤバい肉{にく}が市{し}内{ない}に出{で}回{まわ}ってるらしいから気{き}をつけた方{ほう}がいいって言{い}ったのに",
+              "maleVariant": "",
+              "stringId": 1833113186080514048
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8169EZ^あいつ、聞{き}かずに食{た}べるんだもん",
+              "maleVariant": "",
+              "stringId": 1833113591954923520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8F69EZ^トラヴは天邪鬼{あまのじゃく}だからな。ダメと言{い}われたらやるんだよ",
+              "maleVariant": "",
+              "stringId": 1833113824118038528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ウサギとか、オーガニックだったらシャレにならないしさ",
+              "maleVariant": "",
+              "stringId": 1964791856902160384
             }
-          }
+          ]
         }
       }
     },

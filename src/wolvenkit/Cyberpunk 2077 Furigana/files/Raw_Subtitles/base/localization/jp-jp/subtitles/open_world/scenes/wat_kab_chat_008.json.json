@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_kab_chat_008.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7B69EZ^じゃあなんだ、お前{まえ}は本{ほん}物{もの}のワルってわけか？",
-                    "maleVariant": null,
-                    "stringId": 1827141779131588608
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D169EZ^当{あ}たり前{まえ}でしょ！ 仲{なか}間{ま}を売{う}らず、きっちり務{つと}めあげてシャバに戻{もど}ってきた",
-                    "maleVariant": null,
-                    "stringId": 1827143275223048192
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BF69EZ^へえ？ ケンジはお前{まえ}がそっこう口{くち}を割{さ}って刑{けい}を逃{のが}れたって言{い}ってたがな",
-                    "maleVariant": null,
-                    "stringId": 1827143536914063360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7069EZ^え？ ち、ちがう！ 私{わたし}は二{に}年{ねん}もムショにいたんだ！ ケンジの奴{やつ}、デタラメばっか言{い}って…！",
-                    "maleVariant": null,
-                    "stringId": 1827143788991733760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AF69EZ^そうか。じゃあ、直{ちょく}接{せつ}言{い}ってやりな。明日{あした}、街{まち}に来{く}るからよ",
-                    "maleVariant": null,
-                    "stringId": 1827143983322226688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1F69EZ^え？ そ、それは無{む}理{り}よ。用{よう}事{じ}があって…",
-                    "maleVariant": null,
-                    "stringId": 1827144148410032128
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "69EZ^どこにも行{い}かせねえよ",
-                    "maleVariant": null,
-                    "stringId": 1827144388408107008
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7B69EZ^じゃあなんだ、お前{まえ}は本{ほん}物{もの}のワルってわけか？",
+              "maleVariant": "",
+              "stringId": 1827141779131588608
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D169EZ^当{あ}たり前{まえ}でしょ！ 仲{なか}間{ま}を売{う}らず、きっちり務{つと}めあげてシャバに戻{もど}ってきた",
+              "maleVariant": "",
+              "stringId": 1827143275223048192
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BF69EZ^へえ？ ケンジはお前{まえ}がそっこう口{くち}を割{さ}って刑{けい}を逃{のが}れたって言{い}ってたがな",
+              "maleVariant": "",
+              "stringId": 1827143536914063360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7069EZ^え？ ち、ちがう！ 私{わたし}は二{に}年{ねん}もムショにいたんだ！ ケンジの奴{やつ}、デタラメばっか言{い}って…！",
+              "maleVariant": "",
+              "stringId": 1827143788991733760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AF69EZ^そうか。じゃあ、直{ちょく}接{せつ}言{い}ってやりな。明日{あした}、街{まち}に来{く}るからよ",
+              "maleVariant": "",
+              "stringId": 1827143983322226688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1F69EZ^え？ そ、それは無{む}理{り}よ。用{よう}事{じ}があって…",
+              "maleVariant": "",
+              "stringId": 1827144148410032128
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "69EZ^どこにも行{い}かせねえよ",
+              "maleVariant": "",
+              "stringId": 1827144388408107008
             }
-          }
+          ]
         }
       }
     },

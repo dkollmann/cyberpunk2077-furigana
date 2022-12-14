@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_wbr_hil_06_holocall_debriefs.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CF647Z^よくやったね、V。依{い}頼{らい}主{しゅ}は大満足{だいまんぞく}さ。音{おん}源{げん}だけじゃなく、車{くるま}まで手{て}に入{い}れてくれた",
-                    "maleVariant": null,
-                    "stringId": 2328765244561977344
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1C647Z^よし、仕{し}事{ごと}は済{す}んだね。でもやろうと思{おも}えば車{くるま}も回{かい}収{しゅう}できたはずだ。その点{てん}は残{ざん}念{ねん}だったよ",
-                    "maleVariant": null,
-                    "stringId": 2328765555091468288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FC559Z^仕{し}事{ごと}に満足{まんぞく}すれば依{い}頼{らい}人{にん}は気{き}前{まえ}よく払{はら}うもんさ。もちろん、フィクサーだって気{き}前{まえ}がよくなる。よく覚{おぼ}えておくんだね",
-                    "maleVariant": null,
-                    "stringId": 2342942352539488256
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4559Z^依{い}頼{らい}主{しゅ}、フィクサー、傭{よう}兵{へい}、全{ぜん}員{いん}が満足{まんぞく}するなんて最{さい}高{こう}じゃないか。仕{し}事{ごと}は終{しゅう}了{りょう}、報{ほう}酬{しゅう}は送{おく}っといたよ",
-                    "maleVariant": null,
-                    "stringId": 2342942863774814208
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CF647Z^よくやったね、V。依{い}頼{らい}主{しゅ}は大満足{だいまんぞく}さ。音{おん}源{げん}だけじゃなく、車{くるま}まで手{て}に入{い}れてくれた",
+              "maleVariant": "",
+              "stringId": 2328765244561977344
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1C647Z^よし、仕{し}事{ごと}は済{す}んだね。でもやろうと思{おも}えば車{くるま}も回{かい}収{しゅう}できたはずだ。その点{てん}は残{ざん}念{ねん}だったよ",
+              "maleVariant": "",
+              "stringId": 2328765555091468288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FC559Z^仕{し}事{ごと}に満足{まんぞく}すれば依{い}頼{らい}人{にん}は気{き}前{まえ}よく払{はら}うもんさ。もちろん、フィクサーだって気{き}前{まえ}がよくなる。よく覚{おぼ}えておくんだね",
+              "maleVariant": "",
+              "stringId": 2342942352539488256
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4559Z^依{い}頼{らい}主{しゅ}、フィクサー、傭{よう}兵{へい}、全{ぜん}員{いん}が満足{まんぞく}するなんて最{さい}高{こう}じゃないか。仕{し}事{ごと}は終{しゅう}了{りょう}、報{ほう}酬{しゅう}は送{おく}っといたよ",
+              "maleVariant": "",
+              "stringId": 2342942863774814208
             }
-          }
+          ]
         }
       }
     },

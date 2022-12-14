@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\vset\\vset_delamain.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C22FCZ^デラマン・ネットワークのご利{り}用{よう}ありがとうございます",
-                    "maleVariant": null,
-                    "stringId": 1796554766993571840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "282FC004^お電{でん}話{わ}ありがとうございます、V様{さま}",
-                    "maleVariant": null,
-                    "stringId": 1796555181021708292
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "172FC004^着{ちゃく}信{しん}を確{かく}認{にん}",
-                    "maleVariant": null,
-                    "stringId": 1796555442729500676
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもし！",
-                    "maleVariant": null,
-                    "stringId": 1796555472928489476
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "152FC004^着{ちゃく}信{しん}を確{かく}認{にん}",
-                    "maleVariant": null,
-                    "stringId": 1796555498530521092
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "554E2004^通{つう}話{わ}が中{ちゅう}断{だん}されました",
-                    "maleVariant": null,
-                    "stringId": 1966121933733765124
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "574E2004^予{よ}期{き}せぬエラーです。通{つう}話{わ}が中{ちゅう}断{だん}されました",
-                    "maleVariant": null,
-                    "stringId": 1966121933767319556
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C22FCZ^デラマン・ネットワークのご利{り}用{よう}ありがとうございます",
+              "maleVariant": "",
+              "stringId": 1796554766993571840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "282FC004^お電{でん}話{わ}ありがとうございます、V様{さま}",
+              "maleVariant": "",
+              "stringId": 1796555181021708292
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "172FC004^着{ちゃく}信{しん}を確{かく}認{にん}",
+              "maleVariant": "",
+              "stringId": 1796555442729500676
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもし！",
+              "maleVariant": "",
+              "stringId": 1796555472928489476
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "152FC004^着{ちゃく}信{しん}を確{かく}認{にん}",
+              "maleVariant": "",
+              "stringId": 1796555498530521092
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "554E2004^通{つう}話{わ}が中{ちゅう}断{だん}されました",
+              "maleVariant": "",
+              "stringId": 1966121933733765124
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "574E2004^予{よ}期{き}せぬエラーです。通{つう}話{わ}が中{ちゅう}断{だん}されました",
+              "maleVariant": "",
+              "stringId": 1966121933767319556
             }
-          }
+          ]
         }
       }
     },

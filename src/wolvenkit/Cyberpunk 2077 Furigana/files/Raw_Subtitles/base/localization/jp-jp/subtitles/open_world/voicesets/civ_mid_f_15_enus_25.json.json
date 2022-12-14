@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_mid_f_15_enus_25.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EC70AZ^押{お}し売{う}りはごめんよ！",
-                    "maleVariant": null,
-                    "stringId": 1954474500358709248
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ED70A004^今{こん}日{にち}はろくな日{にち}じゃないわね",
-                    "maleVariant": null,
-                    "stringId": 1954474500375486468
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まったくもう！",
-                    "maleVariant": null,
-                    "stringId": 1954474500425818112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F170A004^注{ちゅう}意{い}して！",
-                    "maleVariant": null,
-                    "stringId": 1954474500442595332
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもし？",
-                    "maleVariant": null,
-                    "stringId": 1954474500476149764
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F570A004^また…？ 買{か}わないって言{い}ったでしょ…！ 本{ほん}当{とう}よ…！ 気{き}は変{か}わらない！",
-                    "maleVariant": null,
-                    "stringId": 1954474500509704196
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もう5つあるから…！ 6つめなんか… ちょっと… ちょっと！",
-                    "maleVariant": null,
-                    "stringId": 1954474500543258624
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "さよなら！",
-                    "maleVariant": null,
-                    "stringId": 1954474500576813060
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "170A004^だからこの街{まち}は嫌{いや}なのよ！",
-                    "maleVariant": null,
-                    "stringId": 1954474500711030788
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "370A004^助{たす}けて！",
-                    "maleVariant": null,
-                    "stringId": 1954474500744585220
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "770A004^放{ほうっ}っておいて！",
-                    "maleVariant": null,
-                    "stringId": 1954474500811694084
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "870A004^とにかく消{き}えてよ！",
-                    "maleVariant": null,
-                    "stringId": 1954474500828471300
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D70A004^ただでさえ嫌{いや}な一日{ついたち}なのに、これ以{い}上{じょう}ひどくしないで",
-                    "maleVariant": null,
-                    "stringId": 1954474500912357380
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まだついてきてるの？",
-                    "maleVariant": null,
-                    "stringId": 1954474500929134596
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EC70AZ^押{お}し売{う}りはごめんよ！",
+              "maleVariant": "",
+              "stringId": 1954474500358709248
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ED70A004^今{こん}日{にち}はろくな日{にち}じゃないわね",
+              "maleVariant": "",
+              "stringId": 1954474500375486468
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まったくもう！",
+              "maleVariant": "",
+              "stringId": 1954474500425818112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F170A004^注{ちゅう}意{い}して！",
+              "maleVariant": "",
+              "stringId": 1954474500442595332
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもし？",
+              "maleVariant": "",
+              "stringId": 1954474500476149764
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F570A004^また…？ 買{か}わないって言{い}ったでしょ…！ 本{ほん}当{とう}よ…！ 気{き}は変{か}わらない！",
+              "maleVariant": "",
+              "stringId": 1954474500509704196
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もう5つあるから…！ 6つめなんか… ちょっと… ちょっと！",
+              "maleVariant": "",
+              "stringId": 1954474500543258624
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "さよなら！",
+              "maleVariant": "",
+              "stringId": 1954474500576813060
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "170A004^だからこの街{まち}は嫌{いや}なのよ！",
+              "maleVariant": "",
+              "stringId": 1954474500711030788
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "370A004^助{たす}けて！",
+              "maleVariant": "",
+              "stringId": 1954474500744585220
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "770A004^放{ほうっ}っておいて！",
+              "maleVariant": "",
+              "stringId": 1954474500811694084
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "870A004^とにかく消{き}えてよ！",
+              "maleVariant": "",
+              "stringId": 1954474500828471300
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D70A004^ただでさえ嫌{いや}な一日{ついたち}なのに、これ以{い}上{じょう}ひどくしないで",
+              "maleVariant": "",
+              "stringId": 1954474500912357380
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まだついてきてるの？",
+              "maleVariant": "",
+              "stringId": 1954474500929134596
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_spr_chat_007.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4D69EZ^そしたらよ、「警{けい}察{さつ}だ！ 開{ひら}けろ、クソども！」――",
-                    "maleVariant": null,
-                    "stringId": 1831693541750464512
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "569EZ^警{けい}察{さつ}なんかクソくらえだ！ 俺{おれ}は一{いっ}生{しょう}、奴{やつ}らに中{なか}指{ゆび}立{た}ててやるぜ。なあ、チューマ",
-                    "maleVariant": null,
-                    "stringId": 1831695597831839744
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4469EZ^あのな、今{いま}は俺{おれ}が話{はな}してんだ、腰{こし}を折{お}るんじゃねえ",
-                    "maleVariant": null,
-                    "stringId": 1831695749212659712
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わりぃ、わりぃ、ついカッとなっちまってな。へっへ",
-                    "maleVariant": null,
-                    "stringId": 1831695888245448704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7869EZ^ったく… とにかく、「警{けい}察{さつ}だ！」つって、いまにも突{とつ}入{にゅう}してきそうだったんだ…",
-                    "maleVariant": null,
-                    "stringId": 1831696055027752960
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F869EZ^部屋{へや}のあっちにはブースター、こっちには盗{とう}品{ひん}。言{い}い逃{のが}れできる状{じょう}況{きょう}じゃねえ",
-                    "maleVariant": null,
-                    "stringId": 1831696211794059264
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7869EZ^それで俺{おれ}はマロリアンを手{て}にドアを開{ひら}けたんだ。 そしたらどうだ！ そこにいたのはストリッパーだったんだよ！",
-                    "maleVariant": null,
-                    "stringId": 1831696415805005824
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C369EZ^ハイになりすぎて、頼{たの}んだのを忘{わす}れてたんだ",
-                    "maleVariant": null,
-                    "stringId": 1831696709121073152
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5969EZ^ハッ、お前{まえ}が発{はっ}射{しゃ}する前{まえ}に弾{だん}を発{はっ}射{しゃ}するところだったってか。ハッハ",
-                    "maleVariant": null,
-                    "stringId": 1831696887731314688
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4D69EZ^そしたらよ、「警{けい}察{さつ}だ！ 開{ひら}けろ、クソども！」――",
+              "maleVariant": "",
+              "stringId": 1831693541750464512
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "569EZ^警{けい}察{さつ}なんかクソくらえだ！ 俺{おれ}は一{いっ}生{しょう}、奴{やつ}らに中{なか}指{ゆび}立{た}ててやるぜ。なあ、チューマ",
+              "maleVariant": "",
+              "stringId": 1831695597831839744
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4469EZ^あのな、今{いま}は俺{おれ}が話{はな}してんだ、腰{こし}を折{お}るんじゃねえ",
+              "maleVariant": "",
+              "stringId": 1831695749212659712
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わりぃ、わりぃ、ついカッとなっちまってな。へっへ",
+              "maleVariant": "",
+              "stringId": 1831695888245448704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7869EZ^ったく… とにかく、「警{けい}察{さつ}だ！」つって、いまにも突{とつ}入{にゅう}してきそうだったんだ…",
+              "maleVariant": "",
+              "stringId": 1831696055027752960
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F869EZ^部屋{へや}のあっちにはブースター、こっちには盗{とう}品{ひん}。言{い}い逃{のが}れできる状{じょう}況{きょう}じゃねえ",
+              "maleVariant": "",
+              "stringId": 1831696211794059264
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7869EZ^それで俺{おれ}はマロリアンを手{て}にドアを開{ひら}けたんだ。 そしたらどうだ！ そこにいたのはストリッパーだったんだよ！",
+              "maleVariant": "",
+              "stringId": 1831696415805005824
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C369EZ^ハイになりすぎて、頼{たの}んだのを忘{わす}れてたんだ",
+              "maleVariant": "",
+              "stringId": 1831696709121073152
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5969EZ^ハッ、お前{まえ}が発{はっ}射{しゃ}する前{まえ}に弾{だん}を発{はっ}射{しゃ}するところだったってか。ハッハ",
+              "maleVariant": "",
+              "stringId": 1831696887731314688
             }
-          }
+          ]
         }
       }
     },

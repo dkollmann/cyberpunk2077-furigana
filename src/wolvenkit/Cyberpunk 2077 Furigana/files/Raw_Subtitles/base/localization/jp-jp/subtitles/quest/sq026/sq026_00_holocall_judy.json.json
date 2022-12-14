@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\sq026\\sq026_00_holocall_judy.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうしたの、ジュディ？",
-                    "maleVariant": "どうした、ジュディ？",
-                    "stringId": 1309643443348160528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2B2FCZ^V… 今{いま}すぐ来{き}てくれない？",
-                    "maleVariant": null,
-                    "stringId": 1693969595149303808
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1E2B6Z^ええ… とにかく来{き}て…",
-                    "maleVariant": null,
-                    "stringId": 1803789305939451904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B62B6Z^何{なに}かあったの？",
-                    "maleVariant": "B62B6Z^何{なに}かあったのか？",
-                    "stringId": 1803818003166093312
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうしたの、ジュディ？",
+              "maleVariant": "どうした、ジュディ？",
+              "stringId": 1309643443348160528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2B2FCZ^V… 今{いま}すぐ来{き}てくれない？",
+              "maleVariant": "",
+              "stringId": 1693969595149303808
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1E2B6Z^ええ… とにかく来{き}て…",
+              "maleVariant": "",
+              "stringId": 1803789305939451904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B62B6Z^何{なに}かあったの？",
+              "maleVariant": "B62B6Z^何{なに}かあったのか？",
+              "stringId": 1803818003166093312
             }
-          }
+          ]
         }
       }
     },

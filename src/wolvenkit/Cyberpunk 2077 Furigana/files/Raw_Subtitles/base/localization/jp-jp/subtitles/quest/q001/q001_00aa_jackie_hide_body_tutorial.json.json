@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q001\\q001_00aa_jackie_hide_body_tutorial.json"
@@ -11,122 +11,92 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D63FCZ^見{み}つからないよう死{し}体{たい}は隠{かく}せよ。腹{はら}に収{おさ}めるわけにもいかねえしな",
-                    "maleVariant": null,
-                    "stringId": 1641760379296006144
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7A3FCZ^連{れん}中{ちゅう}はしつこい。見{み}つかったらきっと、クソにたかるハエみてえに追{お}ってくるぜ",
-                    "maleVariant": null,
-                    "stringId": 1641792319424282624
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CD3FCZ^ナイス。見{み}事{ごと}な腕{うで}前{まえ}だ",
-                    "maleVariant": null,
-                    "stringId": 1641795696661086208
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "943FCZ^気{き}を抜{ぬ}かないで。まだ近{ちか}くにいるから",
-                    "maleVariant": null,
-                    "stringId": 1641800385809072128
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "173FCZ^まるでゴキブリの巣{す}だな",
-                    "maleVariant": null,
-                    "stringId": 1641801968554852352
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F63FCZ^死{し}体{たい}はこっちに隠{かく}せ。まだ騒{さわ}ぎを起{お}こしたくねえ。サプライズはとっておかねえとな",
-                    "maleVariant": null,
-                    "stringId": 1641802083965321216
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5A3FCZ^V、前方{ぜんぽう}に注{ちゅう}意{い}しろ。いるぞ",
-                    "maleVariant": null,
-                    "stringId": 1648758626992504832
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C63FCZ^V、来{く}るぞ",
-                    "maleVariant": null,
-                    "stringId": 1648766252371394560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3A3FCZ^いいか？ チャンスを待{ま}って、始{し}末{まつ}しろ",
-                    "maleVariant": null,
-                    "stringId": 1648769660226617344
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5C3FCZ^やれ！ 音{おと}は立{た}てるなよ",
-                    "maleVariant": null,
-                    "stringId": 1650195529809772544
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D43FCZ^その一{いち}番{ばん}近{ちか}い奴{やつ}だ",
-                    "maleVariant": null,
-                    "stringId": 1650196747298783232
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "18627Z^静{しず}かに片{かた}づけるんだ",
-                    "maleVariant": null,
-                    "stringId": 1945890678242439168
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9C649004^[開{ひら}ける]",
-                    "maleVariant": null,
-                    "stringId": 2308278107970506756
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D63FCZ^見{み}つからないよう死{し}体{たい}は隠{かく}せよ。腹{はら}に収{おさ}めるわけにもいかねえしな",
+              "maleVariant": "",
+              "stringId": 1641760379296006144
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7A3FCZ^連{れん}中{ちゅう}はしつこい。見{み}つかったらきっと、クソにたかるハエみてえに追{お}ってくるぜ",
+              "maleVariant": "",
+              "stringId": 1641792319424282624
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CD3FCZ^ナイス。見{み}事{ごと}な腕{うで}前{まえ}だ",
+              "maleVariant": "",
+              "stringId": 1641795696661086208
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "943FCZ^気{き}を抜{ぬ}かないで。まだ近{ちか}くにいるから",
+              "maleVariant": "",
+              "stringId": 1641800385809072128
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "173FCZ^まるでゴキブリの巣{す}だな",
+              "maleVariant": "",
+              "stringId": 1641801968554852352
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F63FCZ^死{し}体{たい}はこっちに隠{かく}せ。まだ騒{さわ}ぎを起{お}こしたくねえ。サプライズはとっておかねえとな",
+              "maleVariant": "",
+              "stringId": 1641802083965321216
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5A3FCZ^V、前方{ぜんぽう}に注{ちゅう}意{い}しろ。いるぞ",
+              "maleVariant": "",
+              "stringId": 1648758626992504832
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C63FCZ^V、来{く}るぞ",
+              "maleVariant": "",
+              "stringId": 1648766252371394560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3A3FCZ^いいか？ チャンスを待{ま}って、始{し}末{まつ}しろ",
+              "maleVariant": "",
+              "stringId": 1648769660226617344
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5C3FCZ^やれ！ 音{おと}は立{た}てるなよ",
+              "maleVariant": "",
+              "stringId": 1650195529809772544
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D43FCZ^その一{いち}番{ばん}近{ちか}い奴{やつ}だ",
+              "maleVariant": "",
+              "stringId": 1650196747298783232
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "18627Z^静{しず}かに片{かた}づけるんだ",
+              "maleVariant": "",
+              "stringId": 1945890678242439168
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9C649004^[開{ひら}ける]",
+              "maleVariant": "",
+              "stringId": 2308278107970506756
             }
-          }
+          ]
         }
       }
     },

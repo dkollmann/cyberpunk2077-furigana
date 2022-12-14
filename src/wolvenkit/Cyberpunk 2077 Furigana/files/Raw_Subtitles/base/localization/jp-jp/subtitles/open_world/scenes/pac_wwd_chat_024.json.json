@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_wwd_chat_024.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CB69EZ^本{ほん}当{とう}だって。俺{おれ}も、お前{まえ}も、実験{じっけん}の道{どう}具{ぐ}にされてるんだ。パシフィカは連{れん}中{ちゅう}のサンドボックスなのさ",
-                    "maleVariant": null,
-                    "stringId": 2179626301892714496
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3142FZ^バカなこと言{い}うのもほどほどにな",
-                    "maleVariant": null,
-                    "stringId": 2211501515057852416
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DB42FZ^俺{おれ}は真{しん}剣{けん}だ！ パシフィカといえば海{うみ}と砂{すな}… サンドボックス！ 実験場{じっけんじょう}だ！",
-                    "maleVariant": null,
-                    "stringId": 2212502627542036480
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F742FZ^なぜコーポの連{れん}中{ちゅう}がここをさっさと解{かい}体{たい}しないと思{おも}う？ 昔{むかし}のノース・オークみたいにさ",
-                    "maleVariant": null,
-                    "stringId": 2212503036033691648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1842FZ^何{なん}の得{え}もないからだ",
-                    "maleVariant": null,
-                    "stringId": 2212516406820532224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3942FZ^違{ちが}う！ 隠{かく}れて何{なに}かやってるからだ！ 放{ほう}射{しゃ}線{せん}とかいろいろ！ おかしな言葉{ことば}で話{はな}すハイチ人{にん}は、みんな連{れん}中{ちゅう}のスパイだ！",
-                    "maleVariant": null,
-                    "stringId": 2212516566287970304
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4B42FZ^はいはい。じゃあその話{はなし}をヴードゥー・ボーイズにしてこいよ。そうすりゃ俺{おれ}はお前{まえ}のくだらん話{はなし}を聞{き}かずに済{す}む",
-                    "maleVariant": null,
-                    "stringId": 2212517614561980416
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1D42FZ^ちゃんと聞{き}けって。パシフィカは奴{やつ}らが用{よう}意{い}した檻{らん}で、俺{おれ}たちはネズミなんだ！",
-                    "maleVariant": null,
-                    "stringId": 2212518150661140480
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうか、わかった。そしてどうでもいい",
-                    "maleVariant": null,
-                    "stringId": 2212520598641504256
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CB69EZ^本{ほん}当{とう}だって。俺{おれ}も、お前{まえ}も、実験{じっけん}の道{どう}具{ぐ}にされてるんだ。パシフィカは連{れん}中{ちゅう}のサンドボックスなのさ",
+              "maleVariant": "",
+              "stringId": 2179626301892714496
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3142FZ^バカなこと言{い}うのもほどほどにな",
+              "maleVariant": "",
+              "stringId": 2211501515057852416
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DB42FZ^俺{おれ}は真{しん}剣{けん}だ！ パシフィカといえば海{うみ}と砂{すな}… サンドボックス！ 実験場{じっけんじょう}だ！",
+              "maleVariant": "",
+              "stringId": 2212502627542036480
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F742FZ^なぜコーポの連{れん}中{ちゅう}がここをさっさと解{かい}体{たい}しないと思{おも}う？ 昔{むかし}のノース・オークみたいにさ",
+              "maleVariant": "",
+              "stringId": 2212503036033691648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1842FZ^何{なん}の得{え}もないからだ",
+              "maleVariant": "",
+              "stringId": 2212516406820532224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3942FZ^違{ちが}う！ 隠{かく}れて何{なに}かやってるからだ！ 放{ほう}射{しゃ}線{せん}とかいろいろ！ おかしな言葉{ことば}で話{はな}すハイチ人{にん}は、みんな連{れん}中{ちゅう}のスパイだ！",
+              "maleVariant": "",
+              "stringId": 2212516566287970304
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4B42FZ^はいはい。じゃあその話{はなし}をヴードゥー・ボーイズにしてこいよ。そうすりゃ俺{おれ}はお前{まえ}のくだらん話{はなし}を聞{き}かずに済{す}む",
+              "maleVariant": "",
+              "stringId": 2212517614561980416
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1D42FZ^ちゃんと聞{き}けって。パシフィカは奴{やつ}らが用{よう}意{い}した檻{らん}で、俺{おれ}たちはネズミなんだ！",
+              "maleVariant": "",
+              "stringId": 2212518150661140480
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうか、わかった。そしてどうでもいい",
+              "maleVariant": "",
+              "stringId": 2212520598641504256
             }
-          }
+          ]
         }
       }
     },

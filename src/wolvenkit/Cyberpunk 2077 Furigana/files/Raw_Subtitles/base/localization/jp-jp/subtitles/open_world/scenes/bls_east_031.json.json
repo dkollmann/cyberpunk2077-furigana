@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_east_031.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3C652Z^街{まち}に行{い}くってのはどうだ？",
-                    "maleVariant": null,
-                    "stringId": 2178316214208897024
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9A42FZ^例{れい}のブレインダンスの奴{やつ}のとこ？",
-                    "maleVariant": null,
-                    "stringId": 2211347860069478400
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いや、あいつはこないだパクられた",
-                    "maleVariant": null,
-                    "stringId": 2211348495707860992
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8A42FZ^いいけど、まだ塗{と}装{そう}代{か}を払{はら}ってないじゃん…",
-                    "maleVariant": null,
-                    "stringId": 2211351166925860864
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ、クソ… そうだった",
-                    "maleVariant": null,
-                    "stringId": 2211352054893572096
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "で… どうする？",
-                    "maleVariant": null,
-                    "stringId": 2211410190715252736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DC42FZ^うーん… どうするっつったって。また後{あと}で考{かんが}えればいい",
-                    "maleVariant": null,
-                    "stringId": 2211466342144602112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "えー、マジで",
-                    "maleVariant": null,
-                    "stringId": 2211469859202723840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7C42FZ^じゃあ… ワトソンの連{れん}中{ちゅう}が新{あたら}しいターボ圧縮{あっしゅく}機{き}を持{も}ってないか、見{み}に行{い}くか？",
-                    "maleVariant": null,
-                    "stringId": 2211470115810242560
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3C652Z^街{まち}に行{い}くってのはどうだ？",
+              "maleVariant": "",
+              "stringId": 2178316214208897024
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9A42FZ^例{れい}のブレインダンスの奴{やつ}のとこ？",
+              "maleVariant": "",
+              "stringId": 2211347860069478400
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いや、あいつはこないだパクられた",
+              "maleVariant": "",
+              "stringId": 2211348495707860992
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8A42FZ^いいけど、まだ塗{と}装{そう}代{か}を払{はら}ってないじゃん…",
+              "maleVariant": "",
+              "stringId": 2211351166925860864
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ、クソ… そうだった",
+              "maleVariant": "",
+              "stringId": 2211352054893572096
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "で… どうする？",
+              "maleVariant": "",
+              "stringId": 2211410190715252736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DC42FZ^うーん… どうするっつったって。また後{あと}で考{かんが}えればいい",
+              "maleVariant": "",
+              "stringId": 2211466342144602112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "えー、マジで",
+              "maleVariant": "",
+              "stringId": 2211469859202723840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7C42FZ^じゃあ… ワトソンの連{れん}中{ちゅう}が新{あたら}しいターボ圧縮{あっしゅく}機{き}を持{も}ってないか、見{み}に行{い}くか？",
+              "maleVariant": "",
+              "stringId": 2211470115810242560
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_mid_f_07_enus_15.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EA70A004^私{わたし}に何{なに}か用{よう}？",
-                    "maleVariant": null,
-                    "stringId": 1954453545179717636
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EB70A004^へー、その服{ふく}どこで買{か}ったの？",
-                    "maleVariant": null,
-                    "stringId": 1954453545196494852
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いったーい",
-                    "maleVariant": null,
-                    "stringId": 1954453545246826500
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "バカなの？",
-                    "maleVariant": null,
-                    "stringId": 1954453545263603716
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもし、どうした？",
-                    "maleVariant": null,
-                    "stringId": 1954453545297158148
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F470A004^新{しん}シーズンが始{はじ}まるよ！ うん… 彼{かれ}が出{で}るの！ テレビで言{い}ってたもん！",
-                    "maleVariant": null,
-                    "stringId": 1954453545347489796
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F570A004^だよね！ すごくない？ 初{しょ}回{かい}一{いっ}緒{しょ}に見{み}ようよ",
-                    "maleVariant": null,
-                    "stringId": 1954453545364267012
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F770A004^やった、楽{たの}しみ！",
-                    "maleVariant": null,
-                    "stringId": 1954453545397821444
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あーっ！",
-                    "maleVariant": null,
-                    "stringId": 1954453545548816388
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "170A004^撃{う}たれる！ 助{たす}けて！",
-                    "maleVariant": null,
-                    "stringId": 1954453545565593604
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "670A004^お金{きん}ならパパが！",
-                    "maleVariant": null,
-                    "stringId": 1954453545649479684
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "770A004^どっか行{い}って！",
-                    "maleVariant": null,
-                    "stringId": 1954453545666256900
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あなた、ストーカー？",
-                    "maleVariant": null,
-                    "stringId": 1954453545750142976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D70A004^いい加{か}減{げん}にしてよ",
-                    "maleVariant": null,
-                    "stringId": 1954453545766920196
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EA70A004^私{わたし}に何{なに}か用{よう}？",
+              "maleVariant": "",
+              "stringId": 1954453545179717636
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EB70A004^へー、その服{ふく}どこで買{か}ったの？",
+              "maleVariant": "",
+              "stringId": 1954453545196494852
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いったーい",
+              "maleVariant": "",
+              "stringId": 1954453545246826500
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "バカなの？",
+              "maleVariant": "",
+              "stringId": 1954453545263603716
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもし、どうした？",
+              "maleVariant": "",
+              "stringId": 1954453545297158148
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F470A004^新{しん}シーズンが始{はじ}まるよ！ うん… 彼{かれ}が出{で}るの！ テレビで言{い}ってたもん！",
+              "maleVariant": "",
+              "stringId": 1954453545347489796
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F570A004^だよね！ すごくない？ 初{しょ}回{かい}一{いっ}緒{しょ}に見{み}ようよ",
+              "maleVariant": "",
+              "stringId": 1954453545364267012
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F770A004^やった、楽{たの}しみ！",
+              "maleVariant": "",
+              "stringId": 1954453545397821444
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あーっ！",
+              "maleVariant": "",
+              "stringId": 1954453545548816388
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "170A004^撃{う}たれる！ 助{たす}けて！",
+              "maleVariant": "",
+              "stringId": 1954453545565593604
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "670A004^お金{きん}ならパパが！",
+              "maleVariant": "",
+              "stringId": 1954453545649479684
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "770A004^どっか行{い}って！",
+              "maleVariant": "",
+              "stringId": 1954453545666256900
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あなた、ストーカー？",
+              "maleVariant": "",
+              "stringId": 1954453545750142976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D70A004^いい加{か}減{げん}にしてよ",
+              "maleVariant": "",
+              "stringId": 1954453545766920196
             }
-          }
+          ]
         }
       }
     },

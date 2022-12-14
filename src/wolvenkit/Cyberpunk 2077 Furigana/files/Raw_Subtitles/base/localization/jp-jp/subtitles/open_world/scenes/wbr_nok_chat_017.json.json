@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_nok_chat_017.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C247AZ^撮{と}れた？ オッケー？",
-                    "maleVariant": null,
-                    "stringId": 2159361653899501568
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1F42FZ^ああ、もう送{そう}信{しん}した。すでに編{へん}集{しゅう}チームが作{さ}業{ぎょう}してる",
-                    "maleVariant": null,
-                    "stringId": 2199674145485287424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CF42FZ^ギャラリーのおばあさんにリンクを貼{は}るよう、マーケチームに伝{つた}えて。大{たい}枚{まい}はたいてくれたんだから、そのぶんスポットライトを当{あ}ててあげないと",
-                    "maleVariant": null,
-                    "stringId": 2199680968846143488
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2042FZ^すでに伝{つた}えてあるよ。デラマンにもリンクを貼{は}ってくれてる。撮{さつ}影{えい}中{ちゅう}に一{いち}台{だい}通{かよ}ったからな",
-                    "maleVariant": null,
-                    "stringId": 2199683396861620224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5142FZ^そう。とりあえずお疲{つか}れ様{さま}",
-                    "maleVariant": null,
-                    "stringId": 2199694371325145088
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A042FZ^インタビューの感{かん}想{そう}は？ よかった？",
-                    "maleVariant": null,
-                    "stringId": 2199694651823419392
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9042FZ^本{ほん}気{き}で聞{き}いてるのか？",
-                    "maleVariant": null,
-                    "stringId": 2199694844828512256
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4142FZ^ハハ、冗{じょう}談{だん}よ",
-                    "maleVariant": null,
-                    "stringId": 2199695023891738624
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C247AZ^撮{と}れた？ オッケー？",
+              "maleVariant": "",
+              "stringId": 2159361653899501568
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1F42FZ^ああ、もう送{そう}信{しん}した。すでに編{へん}集{しゅう}チームが作{さ}業{ぎょう}してる",
+              "maleVariant": "",
+              "stringId": 2199674145485287424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CF42FZ^ギャラリーのおばあさんにリンクを貼{は}るよう、マーケチームに伝{つた}えて。大{たい}枚{まい}はたいてくれたんだから、そのぶんスポットライトを当{あ}ててあげないと",
+              "maleVariant": "",
+              "stringId": 2199680968846143488
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2042FZ^すでに伝{つた}えてあるよ。デラマンにもリンクを貼{は}ってくれてる。撮{さつ}影{えい}中{ちゅう}に一{いち}台{だい}通{かよ}ったからな",
+              "maleVariant": "",
+              "stringId": 2199683396861620224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5142FZ^そう。とりあえずお疲{つか}れ様{さま}",
+              "maleVariant": "",
+              "stringId": 2199694371325145088
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A042FZ^インタビューの感{かん}想{そう}は？ よかった？",
+              "maleVariant": "",
+              "stringId": 2199694651823419392
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9042FZ^本{ほん}気{き}で聞{き}いてるのか？",
+              "maleVariant": "",
+              "stringId": 2199694844828512256
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4142FZ^ハハ、冗{じょう}談{だん}よ",
+              "maleVariant": "",
+              "stringId": 2199695023891738624
             }
-          }
+          ]
         }
       }
     },

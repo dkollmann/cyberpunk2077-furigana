@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_nid_chat_001.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3769EZ^問{もん}題{だい}はそこじゃない。見{み}方{かた}を変{か}えるんだ、チューマ",
-                    "maleVariant": null,
-                    "stringId": 1802497586358771712
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E569EZ^奴{やつ}は足{あし}を失{う}ったんだぞ、ロブ。コンテナの下敷{したじ}きになって",
-                    "maleVariant": null,
-                    "stringId": 1802498130443886592
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "269EZ^だからインプラントを盗{ぬす}むんだよ",
-                    "maleVariant": null,
-                    "stringId": 1802498298434150400
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E569EZ^それじゃなんの解{かい}決{けつ}にもならない。今{こん}年{ねん}に入{いっ}ってから、もう三{さん}回{かい}も似{に}たような事{じ}故{こ}が起{お}きてる",
-                    "maleVariant": null,
-                    "stringId": 1802498461156368384
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3469EZ^ついでに工{こう}場{じょう}のデータもいただく。きっと欲{ほっ}しがるフィクサーがいるはずだ",
-                    "maleVariant": null,
-                    "stringId": 1802498634280460288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いやいや…",
-                    "maleVariant": null,
-                    "stringId": 1802498832939474944
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B069EZ^なくなったのがお前{まえ}の足{あし}だったらどうする？ お互{たが}いに助{たす}け合{あ}わなきゃ、誰{だれ}も助{たす}けてくれないんだ",
-                    "maleVariant": null,
-                    "stringId": 1802499095922335744
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3769EZ^問{もん}題{だい}はそこじゃない。見{み}方{かた}を変{か}えるんだ、チューマ",
+              "maleVariant": "",
+              "stringId": 1802497586358771712
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E569EZ^奴{やつ}は足{あし}を失{う}ったんだぞ、ロブ。コンテナの下敷{したじ}きになって",
+              "maleVariant": "",
+              "stringId": 1802498130443886592
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "269EZ^だからインプラントを盗{ぬす}むんだよ",
+              "maleVariant": "",
+              "stringId": 1802498298434150400
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E569EZ^それじゃなんの解{かい}決{けつ}にもならない。今{こん}年{ねん}に入{いっ}ってから、もう三{さん}回{かい}も似{に}たような事{じ}故{こ}が起{お}きてる",
+              "maleVariant": "",
+              "stringId": 1802498461156368384
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3469EZ^ついでに工{こう}場{じょう}のデータもいただく。きっと欲{ほっ}しがるフィクサーがいるはずだ",
+              "maleVariant": "",
+              "stringId": 1802498634280460288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いやいや…",
+              "maleVariant": "",
+              "stringId": 1802498832939474944
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B069EZ^なくなったのがお前{まえ}の足{あし}だったらどうする？ お互{たが}いに助{たす}け合{あ}わなきゃ、誰{だれ}も助{たす}けてくれないんだ",
+              "maleVariant": "",
+              "stringId": 1802499095922335744
             }
-          }
+          ]
         }
       }
     },

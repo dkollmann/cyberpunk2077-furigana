@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_new_scv_13.json"
@@ -11,42 +11,32 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"rus\" o=\"Вот ты говорил, типа, город — сила. А тут все слабые.\" t=\"DF52A004^街{まち}は力{ちから}を与{あた}えるんだろ。でも、ここの人{にん}間{げん}はみんな弱{よわ}いぞ\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 2276538068847730692
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"rus\" o=\"Город — это тёмная сила. Сильные приезжают и становятся слабыми.\" t=\"DF52A010^街{まち}は邪{じゃ}悪{あく}な存{そん}在{ざい}なのさ。どんなに強{つよ}い奴{やつ}も、この街{まち}に来{く}ると力{ちから}を奪{うば}われちまうんだ\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 2276538068847730704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"rus\" o=\"Я не стану.\" t=\"DF52A01C^俺{おれ}はそうはならねえ\" b=\"\" a=\"\" />",
-                    "maleVariant": null,
-                    "stringId": 2276538068847730716
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"rus\" o=\"Вот ты говорил, типа, город — сила. А тут все слабые.\" t=\"DF52A004^街{まち}は力{ちから}を与{あた}えるんだろ。でも、ここの人{にん}間{げん}はみんな弱{よわ}いぞ\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 2276538068847730692
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"rus\" o=\"Город — это тёмная сила. Сильные приезжают и становятся слабыми.\" t=\"DF52A010^街{まち}は邪{じゃ}悪{あく}な存{そん}在{ざい}なのさ。どんなに強{つよ}い奴{やつ}も、この街{まち}に来{く}ると力{ちから}を奪{うば}われちまうんだ\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 2276538068847730704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"rus\" o=\"Я не стану.\" t=\"DF52A01C^俺{おれ}はそうはならねえ\" b=\"\" a=\"\" />",
+              "maleVariant": "",
+              "stringId": 2276538068847730716
             }
-          }
+          ]
         }
       }
     },

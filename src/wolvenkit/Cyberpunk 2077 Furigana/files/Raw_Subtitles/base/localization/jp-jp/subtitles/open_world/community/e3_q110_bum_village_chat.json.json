@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\community\\e3_q110_bum_village_chat.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F128DZ^セシル！ 中{なか}にいるのはわかってるんだぞ！ 見{み}てたからな！",
-                    "maleVariant": null,
-                    "stringId": 1720061825441648640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CB28DZ^う、失{う}せろ",
-                    "maleVariant": null,
-                    "stringId": 1720064002352533504
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3328DZ^うるせえ。今日{きょう}こそ、その ドラ猫{ねこ}をしばいてやる！",
-                    "maleVariant": null,
-                    "stringId": 1720064253205467136
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9128DZ^ふざけんな、こいつは俺{おれ}の猫{ねこ}だ。 指一本{ゆびいっぽん}触{ふ}れさせねえ！",
-                    "maleVariant": null,
-                    "stringId": 1720064387926511616
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3028DZ^今{いま}すぐ開{ひら}けろ！ さもねえと、ここには 住{す}めなくしてやるぞ！",
-                    "maleVariant": null,
-                    "stringId": 1720064652587094016
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F528DZ^やってみろよ、クソが！ それにな、廃{はい}墟{きょ}のホテルは いくらでもあんだよ",
-                    "maleVariant": null,
-                    "stringId": 1720064913590243328
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6C28DZ^そうだ、最{さい}上{じょう}階{かい}のスイートに だって住{す}めるぞ",
-                    "maleVariant": null,
-                    "stringId": 1720065151809933312
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9A28DZ^何{なに}が最{さい}上{じょう}階{かい}だ！ そのポンコツの脚{あし}じゃ階{かい}段{だん}も ろくに登{のぼ}れねえくせに",
-                    "maleVariant": null,
-                    "stringId": 1720065354445148160
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9428DZ^放{ほうっ}っとけよ！ 脚{あし}のことは言{い}うな、ボケが…",
-                    "maleVariant": null,
-                    "stringId": 1720065599157620736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "33513Z^そしたらよ、お前{まえ}の戯言{たわごと}も 聞{き}かずに済{す}むしな。クソが…",
-                    "maleVariant": null,
-                    "stringId": 1796495820465451008
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F128DZ^セシル！ 中{なか}にいるのはわかってるんだぞ！ 見{み}てたからな！",
+              "maleVariant": "",
+              "stringId": 1720061825441648640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CB28DZ^う、失{う}せろ",
+              "maleVariant": "",
+              "stringId": 1720064002352533504
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3328DZ^うるせえ。今日{きょう}こそ、その ドラ猫{ねこ}をしばいてやる！",
+              "maleVariant": "",
+              "stringId": 1720064253205467136
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9128DZ^ふざけんな、こいつは俺{おれ}の猫{ねこ}だ。 指一本{ゆびいっぽん}触{ふ}れさせねえ！",
+              "maleVariant": "",
+              "stringId": 1720064387926511616
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3028DZ^今{いま}すぐ開{ひら}けろ！ さもねえと、ここには 住{す}めなくしてやるぞ！",
+              "maleVariant": "",
+              "stringId": 1720064652587094016
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F528DZ^やってみろよ、クソが！ それにな、廃{はい}墟{きょ}のホテルは いくらでもあんだよ",
+              "maleVariant": "",
+              "stringId": 1720064913590243328
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6C28DZ^そうだ、最{さい}上{じょう}階{かい}のスイートに だって住{す}めるぞ",
+              "maleVariant": "",
+              "stringId": 1720065151809933312
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9A28DZ^何{なに}が最{さい}上{じょう}階{かい}だ！ そのポンコツの脚{あし}じゃ階{かい}段{だん}も ろくに登{のぼ}れねえくせに",
+              "maleVariant": "",
+              "stringId": 1720065354445148160
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9428DZ^放{ほうっ}っとけよ！ 脚{あし}のことは言{い}うな、ボケが…",
+              "maleVariant": "",
+              "stringId": 1720065599157620736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "33513Z^そしたらよ、お前{まえ}の戯言{たわごと}も 聞{き}かずに済{す}むしな。クソが…",
+              "maleVariant": "",
+              "stringId": 1796495820465451008
             }
-          }
+          ]
         }
       }
     },

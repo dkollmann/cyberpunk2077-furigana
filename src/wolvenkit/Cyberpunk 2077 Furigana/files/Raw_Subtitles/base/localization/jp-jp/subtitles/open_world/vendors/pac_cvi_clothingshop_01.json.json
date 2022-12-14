@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\pac_cvi_clothingshop_01.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4E647Z^ストリートウェアを買{か}いたい",
-                    "maleVariant": null,
-                    "stringId": 1885053884739907584
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4E647010^ヴードゥー・ボーイズの仲{なか}間{ま}？",
-                    "maleVariant": "4E647010^ヴードゥー・ボーイズの仲{なか}間{ま}か？",
-                    "stringId": 1885053884739907600
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "51647004^ストリートウェアを買{か}いたいんだけど",
-                    "maleVariant": "51647004^ストリートウェアを買{か}いたいんだが",
-                    "stringId": 1885053884790239236
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "だったらここ、ぴったりのところよ",
-                    "maleVariant": null,
-                    "stringId": 1885053884790239244
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "54647004^ヴードゥー・ボーイズの仲{なか}間{ま}？",
-                    "maleVariant": "54647004^ヴードゥー・ボーイズの仲{なか}間{ま}か？",
-                    "stringId": 1885053884840570884
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "5464700C^そういう質{しつ}問{もん}はだめ。危{あぶ}ないよ",
-                    "maleVariant": null,
-                    "stringId": 1885053884840570892
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4E647Z^ストリートウェアを買{か}いたい",
+              "maleVariant": "",
+              "stringId": 1885053884739907584
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4E647010^ヴードゥー・ボーイズの仲{なか}間{ま}？",
+              "maleVariant": "4E647010^ヴードゥー・ボーイズの仲{なか}間{ま}か？",
+              "stringId": 1885053884739907600
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "51647004^ストリートウェアを買{か}いたいんだけど",
+              "maleVariant": "51647004^ストリートウェアを買{か}いたいんだが",
+              "stringId": 1885053884790239236
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "だったらここ、ぴったりのところよ",
+              "maleVariant": "",
+              "stringId": 1885053884790239244
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "54647004^ヴードゥー・ボーイズの仲{なか}間{ま}？",
+              "maleVariant": "54647004^ヴードゥー・ボーイズの仲{なか}間{ま}か？",
+              "stringId": 1885053884840570884
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "5464700C^そういう質{しつ}問{もん}はだめ。危{あぶ}ないよ",
+              "maleVariant": "",
+              "stringId": 1885053884840570892
             }
-          }
+          ]
         }
       }
     },

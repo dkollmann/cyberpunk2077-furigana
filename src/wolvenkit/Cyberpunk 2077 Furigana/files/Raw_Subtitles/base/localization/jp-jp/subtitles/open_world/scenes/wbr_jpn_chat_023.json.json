@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_jpn_chat_023.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7670AZ^連{れん}中{ちゅう}はただのコスプレだろ。人{にん}に生{い}き方{かた}を指図{さしず}しやがって、何{なに}様{さま}のつもりだ？ たかり屋{や}のくせに、偉{えら}そうなんだよ！",
-                    "maleVariant": null,
-                    "stringId": 2160350057745915904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7F559Z^あいつらに人{じん}生{せい}の何{なに}がわかるってんだ。実績{じっせき}もなけりゃ、子{こ}供{ども}もいねえ… 何{なに}もねえだろ！",
-                    "maleVariant": null,
-                    "stringId": 2178155609324883968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D7559Z^坊主{ぼうず}なんて、人{じん}生{せい}に失敗{しっぱい}した連{れん}中{ちゅう}の行{い}きつく先{さき}だ！",
-                    "maleVariant": null,
-                    "stringId": 2178162255115685888
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "47559Z^おい、その辺{へん}にしとけよ。中{なか}には人助{ひとだす}けとかしてる奴{やつ}もいるだろ？",
-                    "maleVariant": null,
-                    "stringId": 2178163107398258688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "38559Z^知{し}るかよ！ あいつらはみんな、性{しょう}根{ね}の腐{くさ}った偽{ぎ}善{ぜん}者{しゃ}どもさ！ 口{くち}じゃあインプラントやテクノロジーを批{ひ}判{はん}してるがな、周{まわ}りをよく見{み}てみろ。何{なに}が見{み}える？",
-                    "maleVariant": null,
-                    "stringId": 2178163759981629440
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "98559Z^さあな。何{なに}が見{み}えるんだ？",
-                    "maleVariant": null,
-                    "stringId": 2178164611995766784
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "98559Z^機{き}械{かい}さ！ 寺{てら}じゃ奴{やつ}らも電{でん}気{き}や電{でん}子{し}機{き}器{き}に頼{たよ}ってる。これが偽{ぎ}善{ぜん}じゃなきゃなんだってんだ？",
-                    "maleVariant": null,
-                    "stringId": 2178164882578706432
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "EA559Z^大{たい}した情{じょう}熱{ねつ}だな、チューマ！ いっそお前{まえ}も誓{ちか}いを立{た}てて、連{れん}中{ちゅう}の仲{なか}間{ま}入{い}りでもしたらどうだ？",
-                    "maleVariant": null,
-                    "stringId": 2178167585488867328
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ざけんな！",
-                    "maleVariant": null,
-                    "stringId": 2178172889555374080
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7670AZ^連{れん}中{ちゅう}はただのコスプレだろ。人{にん}に生{い}き方{かた}を指図{さしず}しやがって、何{なに}様{さま}のつもりだ？ たかり屋{や}のくせに、偉{えら}そうなんだよ！",
+              "maleVariant": "",
+              "stringId": 2160350057745915904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7F559Z^あいつらに人{じん}生{せい}の何{なに}がわかるってんだ。実績{じっせき}もなけりゃ、子{こ}供{ども}もいねえ… 何{なに}もねえだろ！",
+              "maleVariant": "",
+              "stringId": 2178155609324883968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D7559Z^坊主{ぼうず}なんて、人{じん}生{せい}に失敗{しっぱい}した連{れん}中{ちゅう}の行{い}きつく先{さき}だ！",
+              "maleVariant": "",
+              "stringId": 2178162255115685888
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "47559Z^おい、その辺{へん}にしとけよ。中{なか}には人助{ひとだす}けとかしてる奴{やつ}もいるだろ？",
+              "maleVariant": "",
+              "stringId": 2178163107398258688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "38559Z^知{し}るかよ！ あいつらはみんな、性{しょう}根{ね}の腐{くさ}った偽{ぎ}善{ぜん}者{しゃ}どもさ！ 口{くち}じゃあインプラントやテクノロジーを批{ひ}判{はん}してるがな、周{まわ}りをよく見{み}てみろ。何{なに}が見{み}える？",
+              "maleVariant": "",
+              "stringId": 2178163759981629440
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "98559Z^さあな。何{なに}が見{み}えるんだ？",
+              "maleVariant": "",
+              "stringId": 2178164611995766784
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "98559Z^機{き}械{かい}さ！ 寺{てら}じゃ奴{やつ}らも電{でん}気{き}や電{でん}子{し}機{き}器{き}に頼{たよ}ってる。これが偽{ぎ}善{ぜん}じゃなきゃなんだってんだ？",
+              "maleVariant": "",
+              "stringId": 2178164882578706432
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "EA559Z^大{たい}した情{じょう}熱{ねつ}だな、チューマ！ いっそお前{まえ}も誓{ちか}いを立{た}てて、連{れん}中{ちゅう}の仲{なか}間{ま}入{い}りでもしたらどうだ？",
+              "maleVariant": "",
+              "stringId": 2178167585488867328
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ざけんな！",
+              "maleVariant": "",
+              "stringId": 2178172889555374080
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_f_93_chn_10_chd.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6F69E004^大{おお}きくなったらロッカーガールになるの！",
-                    "maleVariant": null,
-                    "stringId": 1949193054286635012
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7069E004^お姉{ねえ}ちゃん、好{す}き！",
-                    "maleVariant": "7069E004^お兄{にい}ちゃん、好{す}き！",
-                    "stringId": 1949193054303412228
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "きゃっ！",
-                    "maleVariant": null,
-                    "stringId": 1949193054353743876
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7469E004^痛{いた}いよ！",
-                    "maleVariant": null,
-                    "stringId": 1949193054370521092
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7769EZ^絶{ぜっ}対{たい}に帰{かえ}らないから！",
-                    "maleVariant": null,
-                    "stringId": 1949193054420852736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7A69EZ^家{いえ}出{で}してやる… あの人{にん}たちに見{み}つからないところ… おばあちゃんち… 謝{あやま}らせてやる！",
-                    "maleVariant": null,
-                    "stringId": 1949193054471184384
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7B69E004^あたしのこと愛{いと}してない… 新{あたら}しい家{か}族{ぞく}がほしい…！ そんなことない…！ もう帰{かえ}らない！",
-                    "maleVariant": null,
-                    "stringId": 1949193054487961604
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "バイバイ！",
-                    "maleVariant": null,
-                    "stringId": 1949193054521516036
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8869E004^怖{こわ}いよ！",
-                    "maleVariant": null,
-                    "stringId": 1949193054706065412
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8A69E004^この人{にん}こわいー！",
-                    "maleVariant": null,
-                    "stringId": 1949193054739619844
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わかんないよ！",
-                    "maleVariant": null,
-                    "stringId": 1949193054806728708
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8F69E004^学校{がっこう}に行{い}く途{と}中{ちゅう}だったのに…！",
-                    "maleVariant": null,
-                    "stringId": 1949193054823505924
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9469E004^ママに言{い}われてきたの？",
-                    "maleVariant": null,
-                    "stringId": 1949193054907392004
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9669E004^パパの友{とも}だちの人{にん}？",
-                    "maleVariant": null,
-                    "stringId": 1949193054940946436
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6F69E004^大{おお}きくなったらロッカーガールになるの！",
+              "maleVariant": "",
+              "stringId": 1949193054286635012
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7069E004^お姉{ねえ}ちゃん、好{す}き！",
+              "maleVariant": "7069E004^お兄{にい}ちゃん、好{す}き！",
+              "stringId": 1949193054303412228
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "きゃっ！",
+              "maleVariant": "",
+              "stringId": 1949193054353743876
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7469E004^痛{いた}いよ！",
+              "maleVariant": "",
+              "stringId": 1949193054370521092
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7769EZ^絶{ぜっ}対{たい}に帰{かえ}らないから！",
+              "maleVariant": "",
+              "stringId": 1949193054420852736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7A69EZ^家{いえ}出{で}してやる… あの人{にん}たちに見{み}つからないところ… おばあちゃんち… 謝{あやま}らせてやる！",
+              "maleVariant": "",
+              "stringId": 1949193054471184384
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7B69E004^あたしのこと愛{いと}してない… 新{あたら}しい家{か}族{ぞく}がほしい…！ そんなことない…！ もう帰{かえ}らない！",
+              "maleVariant": "",
+              "stringId": 1949193054487961604
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "バイバイ！",
+              "maleVariant": "",
+              "stringId": 1949193054521516036
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8869E004^怖{こわ}いよ！",
+              "maleVariant": "",
+              "stringId": 1949193054706065412
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8A69E004^この人{にん}こわいー！",
+              "maleVariant": "",
+              "stringId": 1949193054739619844
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わかんないよ！",
+              "maleVariant": "",
+              "stringId": 1949193054806728708
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8F69E004^学校{がっこう}に行{い}く途{と}中{ちゅう}だったのに…！",
+              "maleVariant": "",
+              "stringId": 1949193054823505924
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9469E004^ママに言{い}われてきたの？",
+              "maleVariant": "",
+              "stringId": 1949193054907392004
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9669E004^パパの友{とも}だちの人{にん}？",
+              "maleVariant": "",
+              "stringId": 1949193054940946436
             }
-          }
+          ]
         }
       }
     },

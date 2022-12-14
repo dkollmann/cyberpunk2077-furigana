@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_prostitute_04.json"
@@ -11,42 +11,32 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CF70AZ^そんなの無{む}理{り}よこの変{へん}態{たい}！",
-                    "maleVariant": null,
-                    "stringId": 1967730847711797248
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9770AZ^いや、そういうつもりで言{い}ったんじゃなくて…",
-                    "maleVariant": null,
-                    "stringId": 1967734609163624448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F870AZ^じゃあ何{なん}のつもりでそんなバカなこと言{い}ったわけ？",
-                    "maleVariant": null,
-                    "stringId": 1967734713870229504
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CF70AZ^そんなの無{む}理{り}よこの変{へん}態{たい}！",
+              "maleVariant": "",
+              "stringId": 1967730847711797248
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9770AZ^いや、そういうつもりで言{い}ったんじゃなくて…",
+              "maleVariant": "",
+              "stringId": 1967734609163624448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F870AZ^じゃあ何{なん}のつもりでそんなバカなこと言{い}ったわけ？",
+              "maleVariant": "",
+              "stringId": 1967734713870229504
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_jpn_chat_034.json"
@@ -11,106 +11,80 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あいつはどこだ？",
-                    "maleVariant": null,
-                    "stringId": 2160400088075116544
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6845AZ^誰{だれ}のことだ？",
-                    "maleVariant": null,
-                    "stringId": 2196764503935655936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "4845AZ^昨日{きのう}ここにいた奴{やつ}だよ！",
-                    "maleVariant": null,
-                    "stringId": 2196767999502163968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2345AZ^さあ。今日{きょう}の店{みせ}番{ばん}は俺{おれ}だ。そしてもうわかると思{おも}うが、昨日{きのう}は俺{おれ}じゃない",
-                    "maleVariant": null,
-                    "stringId": 2196781351934730240
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2B45AZ^何{なに}が起{お}きたか当{あ}ててみようか？ 昨日{きのう}ここでチップを買{か}ったんだろう？ 特{とく}別{べつ}なヤツを、格{かく}安{やす}でな",
-                    "maleVariant": null,
-                    "stringId": 2196786849627086848
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "845AZ^ああ、とんだガラクタを掴{つか}まされた。言葉{ことば}が見{み}つからないほどのゴミさ",
-                    "maleVariant": null,
-                    "stringId": 2196795013772713984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FF45AZ^だまされた奴{やつ}は他{ほか}にもいる。あの手{て}のガキどもはどこからともなくやって来{き}て、商{しょう}品{ひん}を売{う}りつけては消{き}えるんだ",
-                    "maleVariant": null,
-                    "stringId": 2196795662161780736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6145AZ^いい教{きょう}訓{くん}になっただろう？ 取{とり}引{ひき}はきちんとした相{あい}手{て}とすること――例{たと}えば、俺{おれ}とかな",
-                    "maleVariant": null,
-                    "stringId": 2196803519301132288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AA45AZ^だがその値{ね}段{だん}じゃ…",
-                    "maleVariant": null,
-                    "stringId": 2197049012266573824
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D545AZ^この価{か}格{かく}はお客{きゃく}さんの満足{まんぞく}を保{ほ}証{しょう}するものだ。見{み}ていかないかい？",
-                    "maleVariant": null,
-                    "stringId": 2197053033077383168
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9245AZ^どうも全{ぜん}員{いん}グルなんじゃないかって気{き}がしてきた…",
-                    "maleVariant": null,
-                    "stringId": 2197054195889446912
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あいつはどこだ？",
+              "maleVariant": "",
+              "stringId": 2160400088075116544
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6845AZ^誰{だれ}のことだ？",
+              "maleVariant": "",
+              "stringId": 2196764503935655936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "4845AZ^昨日{きのう}ここにいた奴{やつ}だよ！",
+              "maleVariant": "",
+              "stringId": 2196767999502163968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2345AZ^さあ。今日{きょう}の店{みせ}番{ばん}は俺{おれ}だ。そしてもうわかると思{おも}うが、昨日{きのう}は俺{おれ}じゃない",
+              "maleVariant": "",
+              "stringId": 2196781351934730240
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2B45AZ^何{なに}が起{お}きたか当{あ}ててみようか？ 昨日{きのう}ここでチップを買{か}ったんだろう？ 特{とく}別{べつ}なヤツを、格{かく}安{やす}でな",
+              "maleVariant": "",
+              "stringId": 2196786849627086848
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "845AZ^ああ、とんだガラクタを掴{つか}まされた。言葉{ことば}が見{み}つからないほどのゴミさ",
+              "maleVariant": "",
+              "stringId": 2196795013772713984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FF45AZ^だまされた奴{やつ}は他{ほか}にもいる。あの手{て}のガキどもはどこからともなくやって来{き}て、商{しょう}品{ひん}を売{う}りつけては消{き}えるんだ",
+              "maleVariant": "",
+              "stringId": 2196795662161780736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6145AZ^いい教{きょう}訓{くん}になっただろう？ 取{とり}引{ひき}はきちんとした相{あい}手{て}とすること――例{たと}えば、俺{おれ}とかな",
+              "maleVariant": "",
+              "stringId": 2196803519301132288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AA45AZ^だがその値{ね}段{だん}じゃ…",
+              "maleVariant": "",
+              "stringId": 2197049012266573824
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D545AZ^この価{か}格{かく}はお客{きゃく}さんの満足{まんぞく}を保{ほ}証{しょう}するものだ。見{み}ていかないかい？",
+              "maleVariant": "",
+              "stringId": 2197053033077383168
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9245AZ^どうも全{ぜん}員{いん}グルなんじゃないかって気{き}がしてきた…",
+              "maleVariant": "",
+              "stringId": 2197054195889446912
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_032.json"
@@ -11,58 +11,44 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7D647Z^うちの子{こ}が、フィーダーから離{はな}れないんだ",
-                    "maleVariant": null,
-                    "stringId": 2156550085547421696
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D9494Z^新{あたら}しいゲームか何{なに}か？",
-                    "maleVariant": null,
-                    "stringId": 2222769755419918336
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D9494Z^ゲームねえ… 虹{にじ}色{いろ}のネズミやウサギが出{で}てくる、おかしなヤツさ…",
-                    "maleVariant": null,
-                    "stringId": 2222770172031746048
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3494Z^別{べつ}にいいじゃない？ 自{じ}分{ぶん}で試{ため}してみた？",
-                    "maleVariant": null,
-                    "stringId": 2222771126219128832
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D3494Z^いや… 俺{おれ}までハマったらまずいしな…",
-                    "maleVariant": null,
-                    "stringId": 2222771769658916864
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7D647Z^うちの子{こ}が、フィーダーから離{はな}れないんだ",
+              "maleVariant": "",
+              "stringId": 2156550085547421696
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D9494Z^新{あたら}しいゲームか何{なに}か？",
+              "maleVariant": "",
+              "stringId": 2222769755419918336
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D9494Z^ゲームねえ… 虹{にじ}色{いろ}のネズミやウサギが出{で}てくる、おかしなヤツさ…",
+              "maleVariant": "",
+              "stringId": 2222770172031746048
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3494Z^別{べつ}にいいじゃない？ 自{じ}分{ぶん}で試{ため}してみた？",
+              "maleVariant": "",
+              "stringId": 2222771126219128832
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D3494Z^いや… 俺{おれ}までハマったらまずいしな…",
+              "maleVariant": "",
+              "stringId": 2222771769658916864
             }
-          }
+          ]
         }
       }
     },

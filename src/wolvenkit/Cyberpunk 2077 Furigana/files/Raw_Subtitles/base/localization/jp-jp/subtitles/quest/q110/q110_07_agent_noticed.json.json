@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q110\\q110_07_agent_noticed.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E3405Z^急{いそ}げ。バンを調{しら}べろ",
-                    "maleVariant": null,
-                    "stringId": 1533040390586781696
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "90351Z^密{ひそ}かに動{うご}け、そう言{い}ったはずだ。なぜ手{て}を出{だ}した",
-                    "maleVariant": null,
-                    "stringId": 1682206415859814400
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "73351Z^もう遅{おそ}い。なるようになる",
-                    "maleVariant": null,
-                    "stringId": 1682207867072221184
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "33405Z^今{いま}のは何{なに}？",
-                    "maleVariant": "33405Z^今{いま}のは何{なん}だ？",
-                    "stringId": 1695430519820406784
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B2405Z^相{あい}手{て}のネットランナーだ。お前{まえ}に侵{しん}入{にゅう}しようとした",
-                    "maleVariant": null,
-                    "stringId": 1695430908498169856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "え、まさか…？",
-                    "maleVariant": "おい、まさか…？",
-                    "stringId": 1695637209064214528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "93351Z^ICEを追{つい}加{か}している。ひとまず安{あん}心{しん}だ",
-                    "maleVariant": null,
-                    "stringId": 1695637620458328064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1A351Z^もうあたしに気{き}づいたのね…",
-                    "maleVariant": "1A351Z^クソ、もう俺{おれ}に気{き}づいたのか",
-                    "stringId": 1695638000680374272
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "80351Z^問{もん}題{だい}ない。ただしリンクやインターフェースの使{し}用{よう}、危{き}険{けん}だ",
-                    "maleVariant": null,
-                    "stringId": 1695638492017922048
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E3405Z^急{いそ}げ。バンを調{しら}べろ",
+              "maleVariant": "",
+              "stringId": 1533040390586781696
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "90351Z^密{ひそ}かに動{うご}け、そう言{い}ったはずだ。なぜ手{て}を出{だ}した",
+              "maleVariant": "",
+              "stringId": 1682206415859814400
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "73351Z^もう遅{おそ}い。なるようになる",
+              "maleVariant": "",
+              "stringId": 1682207867072221184
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "33405Z^今{いま}のは何{なに}？",
+              "maleVariant": "33405Z^今{いま}のは何{なん}だ？",
+              "stringId": 1695430519820406784
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B2405Z^相{あい}手{て}のネットランナーだ。お前{まえ}に侵{しん}入{にゅう}しようとした",
+              "maleVariant": "",
+              "stringId": 1695430908498169856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "え、まさか…？",
+              "maleVariant": "おい、まさか…？",
+              "stringId": 1695637209064214528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "93351Z^ICEを追{つい}加{か}している。ひとまず安{あん}心{しん}だ",
+              "maleVariant": "",
+              "stringId": 1695637620458328064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1A351Z^もうあたしに気{き}づいたのね…",
+              "maleVariant": "1A351Z^クソ、もう俺{おれ}に気{き}づいたのか",
+              "stringId": 1695638000680374272
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "80351Z^問{もん}題{だい}ない。ただしリンクやインターフェースの使{し}用{よう}、危{き}険{けん}だ",
+              "maleVariant": "",
+              "stringId": 1695638492017922048
             }
-          }
+          ]
         }
       }
     },

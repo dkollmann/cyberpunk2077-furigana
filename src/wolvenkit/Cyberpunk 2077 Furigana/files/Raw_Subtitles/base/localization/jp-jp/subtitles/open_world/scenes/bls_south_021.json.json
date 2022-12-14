@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_south_021.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3447EZ^何{なに}考{かんが}えてたんだろ、こんな街{まち}に来{く}るなんて",
-                    "maleVariant": null,
-                    "stringId": 2178297681288880128
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7D3BCZ^みんな一{いっ}緒{しょ}よ。夢{ゆめ}を叶{かな}えるんだ、とか、くだらないこと言{い}っちゃってさ",
-                    "maleVariant": null,
-                    "stringId": 2182451169291124736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "8E3BCZ^あの時{とき}いくつだったっけ？ 19か、20かな。若{わか}くて、頭{あたま}もからっぽだった",
-                    "maleVariant": null,
-                    "stringId": 2182451371439800320
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2C3BCZ^ええ。私{わたし}なんかBDのスターになってノース・オークに住{す}もうと思{おも}ってたのよ",
-                    "maleVariant": null,
-                    "stringId": 2182451868011839488
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9E3BCZ^それが今{いま}じゃこうして、モーテルでトイレ掃{そう}除{じ}して、腐{くさ}ってくだけ",
-                    "maleVariant": null,
-                    "stringId": 2182452170572152832
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2E3BCZ^夢{ゆめ}なんて始{はじ}まる前{ぜん}から終{お}わってたのよ",
-                    "maleVariant": null,
-                    "stringId": 2182452340491796480
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3447EZ^何{なに}考{かんが}えてたんだろ、こんな街{まち}に来{く}るなんて",
+              "maleVariant": "",
+              "stringId": 2178297681288880128
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7D3BCZ^みんな一{いっ}緒{しょ}よ。夢{ゆめ}を叶{かな}えるんだ、とか、くだらないこと言{い}っちゃってさ",
+              "maleVariant": "",
+              "stringId": 2182451169291124736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "8E3BCZ^あの時{とき}いくつだったっけ？ 19か、20かな。若{わか}くて、頭{あたま}もからっぽだった",
+              "maleVariant": "",
+              "stringId": 2182451371439800320
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2C3BCZ^ええ。私{わたし}なんかBDのスターになってノース・オークに住{す}もうと思{おも}ってたのよ",
+              "maleVariant": "",
+              "stringId": 2182451868011839488
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9E3BCZ^それが今{いま}じゃこうして、モーテルでトイレ掃{そう}除{じ}して、腐{くさ}ってくだけ",
+              "maleVariant": "",
+              "stringId": 2182452170572152832
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2E3BCZ^夢{ゆめ}なんて始{はじ}まる前{ぜん}から終{お}わってたのよ",
+              "maleVariant": "",
+              "stringId": 2182452340491796480
             }
-          }
+          ]
         }
       }
     },

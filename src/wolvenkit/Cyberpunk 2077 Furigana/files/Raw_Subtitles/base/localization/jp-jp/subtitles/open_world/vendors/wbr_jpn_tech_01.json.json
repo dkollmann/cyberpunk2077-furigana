@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\wbr_jpn_tech_01.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CC464Z^見{み}てもいい？",
-                    "maleVariant": "CC464Z^見{み}てもいいか？",
-                    "stringId": 1885295659150884864
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CC464010^どこから仕{し}入{い}れてるの？",
-                    "maleVariant": "CC464010^どこから仕{し}入{い}れてるんだ？",
-                    "stringId": 1885295659150884880
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D8464004^見{み}てもいい？",
-                    "maleVariant": "D8464004^見{み}てもいいか？",
-                    "stringId": 1885295659352211460
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D846400C^冷{ひ}やかしだったらお断{ことわ}りよ",
-                    "maleVariant": null,
-                    "stringId": 1885295659352211468
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DB464004^どこから仕{し}入{い}れてきてるの？",
-                    "maleVariant": "DB464004^どこから仕{し}入{い}れてきてるんだ？",
-                    "stringId": 1885295659402543108
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DC464004^企{き}業{ぎょう}秘{ひ}密{みつ}よ。それより何{なに}か買{か}ってくの？ 客{きゃく}じゃないなら邪{じゃ}魔{ま}なんだけど",
-                    "maleVariant": null,
-                    "stringId": 1885295659419320324
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CC464Z^見{み}てもいい？",
+              "maleVariant": "CC464Z^見{み}てもいいか？",
+              "stringId": 1885295659150884864
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CC464010^どこから仕{し}入{い}れてるの？",
+              "maleVariant": "CC464010^どこから仕{し}入{い}れてるんだ？",
+              "stringId": 1885295659150884880
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D8464004^見{み}てもいい？",
+              "maleVariant": "D8464004^見{み}てもいいか？",
+              "stringId": 1885295659352211460
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D846400C^冷{ひ}やかしだったらお断{ことわ}りよ",
+              "maleVariant": "",
+              "stringId": 1885295659352211468
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DB464004^どこから仕{し}入{い}れてきてるの？",
+              "maleVariant": "DB464004^どこから仕{し}入{い}れてきてるんだ？",
+              "stringId": 1885295659402543108
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DC464004^企{き}業{ぎょう}秘{ひ}密{みつ}よ。それより何{なに}か買{か}ってくの？ 客{きゃく}じゃないなら邪{じゃ}魔{ま}なんだけど",
+              "maleVariant": "",
+              "stringId": 1885295659419320324
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\ma_scene_threatning_07.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "FC720Z^ナメるんじゃねえぞ！ 俺{おれ}を誰{だれ}だと思{おも}ってる！",
-                    "maleVariant": null,
-                    "stringId": 2007229274686357504
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D7720Z^お前{まえ}のすべてを奪{うば}ってやる。まずはそのちんけな命{いのち}をもらおうか！",
-                    "maleVariant": null,
-                    "stringId": 2007229385734750208
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "25720Z^もう我{が}慢{まん}できない… ズタズタにしてやる！",
-                    "maleVariant": null,
-                    "stringId": 2007229442877947904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "62720Z^俺{おれ}と出{で}会{あ}ったことを後{こう}悔{かい}するんだな！",
-                    "maleVariant": null,
-                    "stringId": 2007229516915802112
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "FC720Z^ナメるんじゃねえぞ！ 俺{おれ}を誰{だれ}だと思{おも}ってる！",
+              "maleVariant": "",
+              "stringId": 2007229274686357504
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D7720Z^お前{まえ}のすべてを奪{うば}ってやる。まずはそのちんけな命{いのち}をもらおうか！",
+              "maleVariant": "",
+              "stringId": 2007229385734750208
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "25720Z^もう我{が}慢{まん}できない… ズタズタにしてやる！",
+              "maleVariant": "",
+              "stringId": 2007229442877947904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "62720Z^俺{おれ}と出{で}会{あ}ったことを後{こう}悔{かい}するんだな！",
+              "maleVariant": "",
+              "stringId": 2007229516915802112
             }
-          }
+          ]
         }
       }
     },

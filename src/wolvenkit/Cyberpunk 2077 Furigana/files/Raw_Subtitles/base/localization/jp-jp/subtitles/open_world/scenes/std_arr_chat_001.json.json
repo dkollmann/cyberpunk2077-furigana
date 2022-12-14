@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_arr_chat_001.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1F70AZ^あんたのために言{い}ってるんだ。警{けい}備{び}員{いん}を呼{よ}びたくはない",
-                    "maleVariant": null,
-                    "stringId": 1963259367192043520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C93BCZ^いらないから捨{す}ててあるんだろ？ 少{すこ}しくらいもらったっていいじゃねえかよ",
-                    "maleVariant": null,
-                    "stringId": 1966208582348947456
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D23BCZ^ペトロケムは泥{どろ}棒{ぼう}に厳{いかめ}しいんだ",
-                    "maleVariant": null,
-                    "stringId": 1966209531687714816
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3C3BCZ^泥{どろ}棒{ぼう}って、これはゴミなんだろ！ 無{な}くなったって誰{だれ}が困{こま}るんだ？",
-                    "maleVariant": null,
-                    "stringId": 1966209868473548800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ルールはルールだ",
-                    "maleVariant": null,
-                    "stringId": 1966210127094333440
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "723BCZ^誰{だれ}にも迷{めい}惑{わく}かからねえのに",
-                    "maleVariant": null,
-                    "stringId": 1966210277401411584
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1F70AZ^あんたのために言{い}ってるんだ。警{けい}備{び}員{いん}を呼{よ}びたくはない",
+              "maleVariant": "",
+              "stringId": 1963259367192043520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C93BCZ^いらないから捨{す}ててあるんだろ？ 少{すこ}しくらいもらったっていいじゃねえかよ",
+              "maleVariant": "",
+              "stringId": 1966208582348947456
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D23BCZ^ペトロケムは泥{どろ}棒{ぼう}に厳{いかめ}しいんだ",
+              "maleVariant": "",
+              "stringId": 1966209531687714816
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3C3BCZ^泥{どろ}棒{ぼう}って、これはゴミなんだろ！ 無{な}くなったって誰{だれ}が困{こま}るんだ？",
+              "maleVariant": "",
+              "stringId": 1966209868473548800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ルールはルールだ",
+              "maleVariant": "",
+              "stringId": 1966210127094333440
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "723BCZ^誰{だれ}にも迷{めい}惑{わく}かからねえのに",
+              "maleVariant": "",
+              "stringId": 1966210277401411584
             }
-          }
+          ]
         }
       }
     },

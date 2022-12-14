@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_hey_rey_08_holocall_prebrief.json"
@@ -11,34 +11,26 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AA69EZ^V、正{せい}義{ぎ}の裁{さば}きを受{う}けるべき男{おとこ}がいる",
-                    "maleVariant": null,
-                    "stringId": 2328869379718635520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F73BCZ^これは私{わたし}個{こ}人{じん}からの依{い}頼{らい}だ。報{ほう}酬{しゅう}ははずむ。詳{しょう}細{さい}を見{み}てくれ。頼{たよ}りにしてるぞ、V",
-                    "maleVariant": null,
-                    "stringId": 2334462695442202624
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AA69EZ^V、正{せい}義{ぎ}の裁{さば}きを受{う}けるべき男{おとこ}がいる",
+              "maleVariant": "",
+              "stringId": 2328869379718635520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F73BCZ^これは私{わたし}個{こ}人{じん}からの依{い}頼{らい}だ。報{ほう}酬{しゅう}ははずむ。詳{しょう}細{さい}を見{み}てくれ。頼{たよ}りにしてるぞ、V",
+              "maleVariant": "",
+              "stringId": 2334462695442202624
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\pac_cvi_foodshop_01.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9D647Z^腹{はら}がペコペコなの",
-                    "maleVariant": "9D647Z^腹{はら}がペコペコなんだ",
-                    "stringId": 1885143479083102208
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9E647Z^二{ふた}つのギャングに支{し}配{はい}されるのはどんな感{かん}じ？",
-                    "maleVariant": "9E647Z^二{ふた}つのギャングに支{し}配{はい}されるのはどんな感{かん}じだ？",
-                    "stringId": 1885143479099879424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A0647004^お腹{はら}空{あ}いた",
-                    "maleVariant": "A0647004^腹{はら}が減{へ}った",
-                    "stringId": 1885143479133433860
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A064700C^何{なに}にする？",
-                    "maleVariant": null,
-                    "stringId": 1885143479133433868
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A3647004^二{ふた}つのギャングに支{し}配{はい}されるってどんな感{かん}じ？",
-                    "maleVariant": "A3647004^二{ふた}つのギャングに支{し}配{はい}されるのはどんな感{かん}じだ？",
-                    "stringId": 1885143479183765508
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "A364700C^二{ふた}人{り}争{あらそ}ってる。三{さん}人{にん}目{め}、目{め}を閉{と}じ、どっち勝{か}つか待{ま}ってる。それ俺{おれ}だ",
-                    "maleVariant": null,
-                    "stringId": 1885143479183765516
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9D647Z^腹{はら}がペコペコなの",
+              "maleVariant": "9D647Z^腹{はら}がペコペコなんだ",
+              "stringId": 1885143479083102208
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9E647Z^二{ふた}つのギャングに支{し}配{はい}されるのはどんな感{かん}じ？",
+              "maleVariant": "9E647Z^二{ふた}つのギャングに支{し}配{はい}されるのはどんな感{かん}じだ？",
+              "stringId": 1885143479099879424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A0647004^お腹{はら}空{あ}いた",
+              "maleVariant": "A0647004^腹{はら}が減{へ}った",
+              "stringId": 1885143479133433860
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A064700C^何{なに}にする？",
+              "maleVariant": "",
+              "stringId": 1885143479133433868
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A3647004^二{ふた}つのギャングに支{し}配{はい}されるってどんな感{かん}じ？",
+              "maleVariant": "A3647004^二{ふた}つのギャングに支{し}配{はい}されるのはどんな感{かん}じだ？",
+              "stringId": 1885143479183765508
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "A364700C^二{ふた}人{り}争{あらそ}ってる。三{さん}人{にん}目{め}、目{め}を閉{と}じ、どっち勝{か}つか待{ま}ってる。それ俺{おれ}だ",
+              "maleVariant": "",
+              "stringId": 1885143479183765516
             }
-          }
+          ]
         }
       }
     },

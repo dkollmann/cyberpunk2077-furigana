@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_pac_wwd_05_fluff.json"
@@ -11,58 +11,44 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1547A004^ローガンを探{さが}してる",
-                    "maleVariant": null,
-                    "stringId": 1654945466095738884
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E47AZ^ローガンはどこ？ デートに行{い}くの",
-                    "maleVariant": "E47AZ^ローガンはどこだ？ 待{ま}ち合{あ}わせなんだ",
-                    "stringId": 1654946518245285888
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "9547AZ^へえ？ ディナーをすっ飛{と}ばしてヤりに来{き}たのか？",
-                    "maleVariant": null,
-                    "stringId": 1654946808273018880
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BC47AZ^あんたに関{かん}係{けい}ないでしょ。で、どこなの？",
-                    "maleVariant": "BC47AZ^お前{まえ}には関{かん}係{けい}ないだろ。で、どこなんだ？",
-                    "stringId": 1654947294258634752
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AE47AZ^たぶん上{うえ}の階{かい}だ… だが、邪{じゃ}魔{ま}するなって言{い}われてる。俺{おれ}なら下{した}で待{ま}ってるけどな",
-                    "maleVariant": null,
-                    "stringId": 1654948561039106048
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1547A004^ローガンを探{さが}してる",
+              "maleVariant": "",
+              "stringId": 1654945466095738884
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E47AZ^ローガンはどこ？ デートに行{い}くの",
+              "maleVariant": "E47AZ^ローガンはどこだ？ 待{ま}ち合{あ}わせなんだ",
+              "stringId": 1654946518245285888
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "9547AZ^へえ？ ディナーをすっ飛{と}ばしてヤりに来{き}たのか？",
+              "maleVariant": "",
+              "stringId": 1654946808273018880
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BC47AZ^あんたに関{かん}係{けい}ないでしょ。で、どこなの？",
+              "maleVariant": "BC47AZ^お前{まえ}には関{かん}係{けい}ないだろ。で、どこなんだ？",
+              "stringId": 1654947294258634752
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AE47AZ^たぶん上{うえ}の階{かい}だ… だが、邪{じゃ}魔{ま}するなって言{い}われてる。俺{おれ}なら下{した}で待{ま}ってるけどな",
+              "maleVariant": "",
+              "stringId": 1654948561039106048
             }
-          }
+          ]
         }
       }
     },

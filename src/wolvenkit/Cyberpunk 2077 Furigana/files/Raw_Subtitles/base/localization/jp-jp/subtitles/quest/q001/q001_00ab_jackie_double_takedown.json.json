@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q001\\q001_00ab_jackie_double_takedown.json"
@@ -11,106 +11,80 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CE3FCZ^そいつを始{し}末{まつ}しろ… 任{まか}せたぞ",
-                    "maleVariant": null,
-                    "stringId": 1648899482391134208
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "373FCZ^よし、上{じょう}出{で}来{き}だ。だがまだ終{お}わっちゃいねえ",
-                    "maleVariant": null,
-                    "stringId": 1648900897196982272
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E3FCZ^急{いそ}ごう。俺{おれ}は後{うし}ろから援{えん}護{ご}する",
-                    "maleVariant": null,
-                    "stringId": 1650248884879867904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D33FCZ^気{き}を付{つ}けて。前方{ぜんぽう}にゴリアテ級{きゅう}のスカベンジャーよ",
-                    "maleVariant": null,
-                    "stringId": 1653293938393464832
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "233FCZ^大{たい}層{そう}なネーミングね… 迂{う}回{かい}できそう？",
-                    "maleVariant": "233FCZ^大{たい}層{そう}なネーミングだな… 迂{う}回{かい}できそうか？",
-                    "stringId": 1653300901877628928
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "323FCZ^映{えい}像{ぞう}をスキャン中{なか}",
-                    "maleVariant": null,
-                    "stringId": 1653305167031812096
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D03FCZ^やったぜ。正{しょう}直{じき}ダメかと思{おも}ったが、うまくいったな",
-                    "maleVariant": null,
-                    "stringId": 1658891655119355904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2C3FCZ^こそこそすんのは主{しゅ}義{ぎ}に反{はん}するが、結{けっ}果{か}オーライだ",
-                    "maleVariant": null,
-                    "stringId": 1658893941585461248
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "123FCZ^このバカ野{や}郎{ろう}！ 気{き}をつけろ！ ったく、使{つか}えねえな",
-                    "maleVariant": null,
-                    "stringId": 1658907130993819648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F3FCZ^クソ、うじゃうじゃいやがる。ここで少{すこ}し待{ま}った方{ほう}がよさそうだな",
-                    "maleVariant": null,
-                    "stringId": 1658930078953750528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1B2EFZ^隣{となり}の部屋{へや}の壁{かべ}に穴{あな}がある。あなたなら通{とう}れるはず",
-                    "maleVariant": null,
-                    "stringId": 1666472728920518656
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CE3FCZ^そいつを始{し}末{まつ}しろ… 任{まか}せたぞ",
+              "maleVariant": "",
+              "stringId": 1648899482391134208
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "373FCZ^よし、上{じょう}出{で}来{き}だ。だがまだ終{お}わっちゃいねえ",
+              "maleVariant": "",
+              "stringId": 1648900897196982272
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E3FCZ^急{いそ}ごう。俺{おれ}は後{うし}ろから援{えん}護{ご}する",
+              "maleVariant": "",
+              "stringId": 1650248884879867904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D33FCZ^気{き}を付{つ}けて。前方{ぜんぽう}にゴリアテ級{きゅう}のスカベンジャーよ",
+              "maleVariant": "",
+              "stringId": 1653293938393464832
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "233FCZ^大{たい}層{そう}なネーミングね… 迂{う}回{かい}できそう？",
+              "maleVariant": "233FCZ^大{たい}層{そう}なネーミングだな… 迂{う}回{かい}できそうか？",
+              "stringId": 1653300901877628928
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "323FCZ^映{えい}像{ぞう}をスキャン中{なか}",
+              "maleVariant": "",
+              "stringId": 1653305167031812096
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D03FCZ^やったぜ。正{しょう}直{じき}ダメかと思{おも}ったが、うまくいったな",
+              "maleVariant": "",
+              "stringId": 1658891655119355904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2C3FCZ^こそこそすんのは主{しゅ}義{ぎ}に反{はん}するが、結{けっ}果{か}オーライだ",
+              "maleVariant": "",
+              "stringId": 1658893941585461248
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "123FCZ^このバカ野{や}郎{ろう}！ 気{き}をつけろ！ ったく、使{つか}えねえな",
+              "maleVariant": "",
+              "stringId": 1658907130993819648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F3FCZ^クソ、うじゃうじゃいやがる。ここで少{すこ}し待{ま}った方{ほう}がよさそうだな",
+              "maleVariant": "",
+              "stringId": 1658930078953750528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1B2EFZ^隣{となり}の部屋{へや}の壁{かべ}に穴{あな}がある。あなたなら通{とう}れるはず",
+              "maleVariant": "",
+              "stringId": 1666472728920518656
             }
-          }
+          ]
         }
       }
     },

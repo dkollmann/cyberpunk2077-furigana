@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\quests\\sq006_01_elections_hook.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "F04EAZ^ナイトシティ。我{われ}らが故{こ}郷{きょう}。我{われ}らが誇{ほこ}り",
-                    "maleVariant": null,
-                    "stringId": 1792227944698912768
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7A3BCZ^私{わたし}をこの街{まち}の市{し}長{ちょう}になってから、失{しつ}業{ぎょう}率{りつ}は3パーセント、殺{さつ}人{じん}発{はっ}生{せい}率{りつ}は5パーセント減{げん}少{しょう}しました",
-                    "maleVariant": null,
-                    "stringId": 1800892884618821632
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "DB3BCZ^ですが、この街{まち}の可{か}能{のう}性{せい}について、異{こと}なる見{み}方{かた}をするひねくれ者{もの}もいます…",
-                    "maleVariant": null,
-                    "stringId": 1800893453181894656
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "C53BCZ^私{わたし}がこの街{まち}を… 愛{いと}しているかって？ そんなのバカげた質{しつ}問{もん}だ…",
-                    "maleVariant": null,
-                    "stringId": 1800894075583053824
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "B33BCZ^私{わたし}なら信{しん}頼{らい}を裏{うら}切{ぎ}りません。どうか私{わたし}に、一票{いっぴょう}を",
-                    "maleVariant": null,
-                    "stringId": 1800894500482826240
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "933BCZ^ウェルドン・ホルトから、メッセージをお届{とど}けしました",
-                    "maleVariant": null,
-                    "stringId": 1800894993867194368
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "F04EAZ^ナイトシティ。我{われ}らが故{こ}郷{きょう}。我{われ}らが誇{ほこ}り",
+              "maleVariant": "",
+              "stringId": 1792227944698912768
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7A3BCZ^私{わたし}をこの街{まち}の市{し}長{ちょう}になってから、失{しつ}業{ぎょう}率{りつ}は3パーセント、殺{さつ}人{じん}発{はっ}生{せい}率{りつ}は5パーセント減{げん}少{しょう}しました",
+              "maleVariant": "",
+              "stringId": 1800892884618821632
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "DB3BCZ^ですが、この街{まち}の可{か}能{のう}性{せい}について、異{こと}なる見{み}方{かた}をするひねくれ者{もの}もいます…",
+              "maleVariant": "",
+              "stringId": 1800893453181894656
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "C53BCZ^私{わたし}がこの街{まち}を… 愛{いと}しているかって？ そんなのバカげた質{しつ}問{もん}だ…",
+              "maleVariant": "",
+              "stringId": 1800894075583053824
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "B33BCZ^私{わたし}なら信{しん}頼{らい}を裏{うら}切{ぎ}りません。どうか私{わたし}に、一票{いっぴょう}を",
+              "maleVariant": "",
+              "stringId": 1800894500482826240
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "933BCZ^ウェルドン・ホルトから、メッセージをお届{とど}けしました",
+              "maleVariant": "",
+              "stringId": 1800894993867194368
             }
-          }
+          ]
         }
       }
     },

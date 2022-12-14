@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_wat_kab_06_halocall_debrief.json"
@@ -11,34 +11,26 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "453BBZ^厄介{やっかい}な問{もん}題{だい}をよく片{かた}づけてくれたわね。私{わたし}はもちろん、クライアントも大満足{だいまんぞく}よ。それじゃ、ご苦{く}労{ろう}様{さま}",
-                    "maleVariant": null,
-                    "stringId": 2328534460766334976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "593BBZ^標{ひょう}的{てき}を確{かく}保{ほ}。仕{し}事{ごと}は完{かん}了{りょう}よ",
-                    "maleVariant": null,
-                    "stringId": 2328536441081802752
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "453BBZ^厄介{やっかい}な問{もん}題{だい}をよく片{かた}づけてくれたわね。私{わたし}はもちろん、クライアントも大満足{だいまんぞく}よ。それじゃ、ご苦{く}労{ろう}様{さま}",
+              "maleVariant": "",
+              "stringId": 2328534460766334976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "593BBZ^標{ひょう}的{てき}を確{かく}保{ほ}。仕{し}事{ごと}は完{かん}了{りょう}よ",
+              "maleVariant": "",
+              "stringId": 2328536441081802752
             }
-          }
+          ]
         }
       }
     },

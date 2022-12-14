@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_044.json"
@@ -11,42 +11,32 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "E5647Z^ちょっと、ちょっと！ 押{お}さないで！ まだたくさんあるから！",
-                    "maleVariant": null,
-                    "stringId": 2157398231664062464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "D3494Z^工{こう}場{じょう}から出荷{しゅっか}されたばかりの新品{しんぴん}だよ！",
-                    "maleVariant": null,
-                    "stringId": 2188221077044936704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "64494Z^昨日{きのう}のコンボイからいただいたヤツだ！",
-                    "maleVariant": null,
-                    "stringId": 2188228720224452608
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "E5647Z^ちょっと、ちょっと！ 押{お}さないで！ まだたくさんあるから！",
+              "maleVariant": "",
+              "stringId": 2157398231664062464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "D3494Z^工{こう}場{じょう}から出荷{しゅっか}されたばかりの新品{しんぴん}だよ！",
+              "maleVariant": "",
+              "stringId": 2188221077044936704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "64494Z^昨日{きのう}のコンボイからいただいたヤツだ！",
+              "maleVariant": "",
+              "stringId": 2188228720224452608
             }
-          }
+          ]
         }
       }
     },
