@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_nid_chat_021.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "目なんてどれも同じだろ。見ろよ、あの中古品だって十分よさそうだ",
-                    "maleVariant": null,
-                    "stringId": 2156418799921258496
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あんなのダメ…！ あれがよさそうに見えるのは、あんたの目がイカレてるからよ",
-                    "maleVariant": null,
-                    "stringId": 2170674148630315008
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あんな骨董品… 20年代のエントロピズムの方がまだおしゃれじゃない",
-                    "maleVariant": null,
-                    "stringId": 2170674562289352704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "第4世代のオプティクスなんて手が出ないっつうの！",
-                    "maleVariant": null,
-                    "stringId": 2170675087063891968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でもあんなガラクタにしなくたって、他に選択肢はいくらでもあるでしょ！",
-                    "maleVariant": null,
-                    "stringId": 2170675257268748288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それにこのクリニックはどうも怪しい。ここでインプラントをつけたら、明日にはマックス・タックの世話になってるわよ",
-                    "maleVariant": null,
-                    "stringId": 2170676182532210688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "じゃあどうすりゃいいんだ？ 目は諦めろって？",
-                    "maleVariant": null,
-                    "stringId": 2170676759416782848
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうじゃない。リパーは他にもいるでしょ",
-                    "maleVariant": null,
-                    "stringId": 2170677036173737984
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "目なんてどれも同じだろ。見ろよ、あの中古品だって十分よさそうだ",
+              "maleVariant": "",
+              "stringId": 2156418799921258496
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あんなのダメ…！ あれがよさそうに見えるのは、あんたの目がイカレてるからよ",
+              "maleVariant": "",
+              "stringId": 2170674148630315008
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あんな骨董品… 20年代のエントロピズムの方がまだおしゃれじゃない",
+              "maleVariant": "",
+              "stringId": 2170674562289352704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "第4世代のオプティクスなんて手が出ないっつうの！",
+              "maleVariant": "",
+              "stringId": 2170675087063891968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でもあんなガラクタにしなくたって、他に選択肢はいくらでもあるでしょ！",
+              "maleVariant": "",
+              "stringId": 2170675257268748288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それにこのクリニックはどうも怪しい。ここでインプラントをつけたら、明日にはマックス・タックの世話になってるわよ",
+              "maleVariant": "",
+              "stringId": 2170676182532210688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "じゃあどうすりゃいいんだ？ 目は諦めろって？",
+              "maleVariant": "",
+              "stringId": 2170676759416782848
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうじゃない。リパーは他にもいるでしょ",
+              "maleVariant": "",
+              "stringId": 2170677036173737984
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_gle_chat_003.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "浮気された",
-                    "maleVariant": null,
-                    "stringId": 1832678287087362048
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "またか",
-                    "maleVariant": null,
-                    "stringId": 1832703300574240768
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ。「気持ちが離れた」だとさ",
-                    "maleVariant": null,
-                    "stringId": 1832703552349921280
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なんでそんな女とまだ一緒にいるんだ",
-                    "maleVariant": null,
-                    "stringId": 1832703765504450560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "彼女なしじゃ、俺は生きていけない",
-                    "maleVariant": null,
-                    "stringId": 1832703906147852288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何言ってるんだ。あの程度の女ならいくらでもいる",
-                    "maleVariant": null,
-                    "stringId": 1832704163577454592
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いや… 他の女じゃダメなんだ",
-                    "maleVariant": null,
-                    "stringId": 1832704378074161152
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何がダメなんだ。まったく、これ以上聞いてられないな",
-                    "maleVariant": null,
-                    "stringId": 1832704583410507776
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "浮気された",
+              "maleVariant": "",
+              "stringId": 1832678287087362048
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "またか",
+              "maleVariant": "",
+              "stringId": 1832703300574240768
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ。「気持ちが離れた」だとさ",
+              "maleVariant": "",
+              "stringId": 1832703552349921280
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なんでそんな女とまだ一緒にいるんだ",
+              "maleVariant": "",
+              "stringId": 1832703765504450560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "彼女なしじゃ、俺は生きていけない",
+              "maleVariant": "",
+              "stringId": 1832703906147852288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何言ってるんだ。あの程度の女ならいくらでもいる",
+              "maleVariant": "",
+              "stringId": 1832704163577454592
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いや… 他の女じゃダメなんだ",
+              "maleVariant": "",
+              "stringId": 1832704378074161152
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何がダメなんだ。まったく、これ以上聞いてられないな",
+              "maleVariant": "",
+              "stringId": 1832704583410507776
             }
-          }
+          ]
         }
       }
     },

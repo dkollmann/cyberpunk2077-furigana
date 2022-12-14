@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_mid_f_11_enus_40.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "フン",
-                    "maleVariant": null,
-                    "stringId": 1954457708529754112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "くんくん… おえーっ",
-                    "maleVariant": null,
-                    "stringId": 1954457708546531332
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "触らないで！",
-                    "maleVariant": null,
-                    "stringId": 1954457708596862980
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちゃんと歩きなよ！",
-                    "maleVariant": null,
-                    "stringId": 1954457708613640196
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもし！",
-                    "maleVariant": null,
-                    "stringId": 1954457708647194628
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うん… うん… もちろん見たに決まってるでしょ？ 友達なんだから… そうじゃない、いつもずっと仲がよかった…",
-                    "maleVariant": null,
-                    "stringId": 1954457708697526276
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あいつらがオスカーに何したか聞いた…？ うん、家まで這って帰ったらしいよ… 私も同じ帰り道だから… うん、きっと運がよかったのね",
-                    "maleVariant": null,
-                    "stringId": 1954457708714303492
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "じゃあね",
-                    "maleVariant": null,
-                    "stringId": 1954457708747857924
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "助けて！",
-                    "maleVariant": null,
-                    "stringId": 1954457708898852868
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "人殺しよ！",
-                    "maleVariant": null,
-                    "stringId": 1954457708915630084
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やだ、やだ、やめて…",
-                    "maleVariant": null,
-                    "stringId": 1954457709049847812
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こんなところで死にたくない…",
-                    "maleVariant": null,
-                    "stringId": 1954457709066625028
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "冗談でしょ",
-                    "maleVariant": null,
-                    "stringId": 1954457709167288324
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何か匂うんだけど",
-                    "maleVariant": null,
-                    "stringId": 1954457709184065540
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "フン",
+              "maleVariant": "",
+              "stringId": 1954457708529754112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "くんくん… おえーっ",
+              "maleVariant": "",
+              "stringId": 1954457708546531332
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "触らないで！",
+              "maleVariant": "",
+              "stringId": 1954457708596862980
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちゃんと歩きなよ！",
+              "maleVariant": "",
+              "stringId": 1954457708613640196
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもし！",
+              "maleVariant": "",
+              "stringId": 1954457708647194628
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うん… うん… もちろん見たに決まってるでしょ？ 友達なんだから… そうじゃない、いつもずっと仲がよかった…",
+              "maleVariant": "",
+              "stringId": 1954457708697526276
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あいつらがオスカーに何したか聞いた…？ うん、家まで這って帰ったらしいよ… 私も同じ帰り道だから… うん、きっと運がよかったのね",
+              "maleVariant": "",
+              "stringId": 1954457708714303492
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "じゃあね",
+              "maleVariant": "",
+              "stringId": 1954457708747857924
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "助けて！",
+              "maleVariant": "",
+              "stringId": 1954457708898852868
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "人殺しよ！",
+              "maleVariant": "",
+              "stringId": 1954457708915630084
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やだ、やだ、やめて…",
+              "maleVariant": "",
+              "stringId": 1954457709049847812
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こんなところで死にたくない…",
+              "maleVariant": "",
+              "stringId": 1954457709066625028
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "冗談でしょ",
+              "maleVariant": "",
+              "stringId": 1954457709167288324
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何か匂うんだけど",
+              "maleVariant": "",
+              "stringId": 1954457709184065540
             }
-          }
+          ]
         }
       }
     },

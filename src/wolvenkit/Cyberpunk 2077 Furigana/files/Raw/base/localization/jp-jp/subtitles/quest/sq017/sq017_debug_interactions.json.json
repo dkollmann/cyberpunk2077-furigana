@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\sq017\\sq017_debug_interactions.json"
@@ -11,58 +11,44 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db][TECHIE] Grapple ladder.",
-                    "maleVariant": null,
-                    "stringId": 1341423198167633920
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]V uses the makeshift grapple to pull the fire escape ladder down and climbs it with Kerry.",
-                    "maleVariant": null,
-                    "stringId": 1341429258853027840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]V performs a take-down on the security guard and hack him.",
-                    "maleVariant": null,
-                    "stringId": 1341430239330308096
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db][NETRUNNER] Hack security guard.",
-                    "maleVariant": null,
-                    "stringId": 1341430744878157844
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]This gives her access to the security network which she uses to open the stage door.",
-                    "maleVariant": null,
-                    "stringId": 1341432511250567168
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db][TECHIE] Grapple ladder.",
+              "maleVariant": "",
+              "stringId": 1341423198167633920
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]V uses the makeshift grapple to pull the fire escape ladder down and climbs it with Kerry.",
+              "maleVariant": "",
+              "stringId": 1341429258853027840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]V performs a take-down on the security guard and hack him.",
+              "maleVariant": "",
+              "stringId": 1341430239330308096
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db][NETRUNNER] Hack security guard.",
+              "maleVariant": "",
+              "stringId": 1341430744878157844
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]This gives her access to the security network which she uses to open the stage door.",
+              "maleVariant": "",
+              "stringId": 1341432511250567168
             }
-          }
+          ]
         }
       }
     },

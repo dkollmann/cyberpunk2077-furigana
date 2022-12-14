@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_east_002.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "毎日見てるさ。何度見ても飽きない、いい顔だ",
-                    "maleVariant": null,
-                    "stringId": 1973539329958518784
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "で、今夜は一緒に飲むか？",
-                    "maleVariant": null,
-                    "stringId": 1976242292912836608
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あ？ この辺りに飲み屋なんてないだろ？",
-                    "maleVariant": null,
-                    "stringId": 1976242322826612736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ビールをしこたま持って、外で飲めばいい…",
-                    "maleVariant": null,
-                    "stringId": 1976242349418500096
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ついでに眺めを楽しもう",
-                    "maleVariant": null,
-                    "stringId": 1976242599852003328
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "デートの誘いか？ 悪いが、俺にその気はない",
-                    "maleVariant": null,
-                    "stringId": 1976242627903508480
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "はっ… 鏡で自分の顔を見てから言えよ",
-                    "maleVariant": null,
-                    "stringId": 1976242647482519552
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "毎日見てるさ。何度見ても飽きない、いい顔だ",
+              "maleVariant": "",
+              "stringId": 1973539329958518784
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "で、今夜は一緒に飲むか？",
+              "maleVariant": "",
+              "stringId": 1976242292912836608
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あ？ この辺りに飲み屋なんてないだろ？",
+              "maleVariant": "",
+              "stringId": 1976242322826612736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ビールをしこたま持って、外で飲めばいい…",
+              "maleVariant": "",
+              "stringId": 1976242349418500096
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ついでに眺めを楽しもう",
+              "maleVariant": "",
+              "stringId": 1976242599852003328
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "デートの誘いか？ 悪いが、俺にその気はない",
+              "maleVariant": "",
+              "stringId": 1976242627903508480
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "はっ… 鏡で自分の顔を見てから言えよ",
+              "maleVariant": "",
+              "stringId": 1976242647482519552
             }
-          }
+          ]
         }
       }
     },

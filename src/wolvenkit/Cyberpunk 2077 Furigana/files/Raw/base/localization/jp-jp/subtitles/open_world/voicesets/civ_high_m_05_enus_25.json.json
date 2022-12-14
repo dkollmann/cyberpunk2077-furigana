@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_high_m_05_enus_25.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうかしました？",
-                    "maleVariant": null,
-                    "stringId": 1878024878382653444
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうも…",
-                    "maleVariant": null,
-                    "stringId": 1878024878399430660
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何です？",
-                    "maleVariant": null,
-                    "stringId": 1878024878449762308
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "前を見てくださいよ",
-                    "maleVariant": null,
-                    "stringId": 1878024878483316740
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもし？ どちら様？",
-                    "maleVariant": null,
-                    "stringId": 1878024878533648388
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ、僕だ… よく聞こえなかった… 相手が誰だかわかって話をしてるのか？",
-                    "maleVariant": null,
-                    "stringId": 1878024878600757252
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "殺すって？ 脅迫のつもりか？ いい度胸だ…！ 親父の耳に入れるから覚悟しとけよ！",
-                    "maleVariant": null,
-                    "stringId": 1878024878634311684
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうだ。切るぞ",
-                    "maleVariant": null,
-                    "stringId": 1878024878667866116
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "警備員！ こっちだ！",
-                    "maleVariant": null,
-                    "stringId": 1878024878835638276
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "僕が何をしたっていうんだ！",
-                    "maleVariant": null,
-                    "stringId": 1878024878852415492
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "言っておくが…！ 僕にはすごいコネがあるんだ…！",
-                    "maleVariant": null,
-                    "stringId": 1878024878953078788
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "僕が誰だか知ってるのか？",
-                    "maleVariant": null,
-                    "stringId": 1878024878969856004
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何がしたいんです？",
-                    "maleVariant": null,
-                    "stringId": 1878024879104073732
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "僕を尾行してどうするんですか",
-                    "maleVariant": null,
-                    "stringId": 1878024879187959812
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうかしました？",
+              "maleVariant": "",
+              "stringId": 1878024878382653444
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうも…",
+              "maleVariant": "",
+              "stringId": 1878024878399430660
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何です？",
+              "maleVariant": "",
+              "stringId": 1878024878449762308
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "前を見てくださいよ",
+              "maleVariant": "",
+              "stringId": 1878024878483316740
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもし？ どちら様？",
+              "maleVariant": "",
+              "stringId": 1878024878533648388
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ、僕だ… よく聞こえなかった… 相手が誰だかわかって話をしてるのか？",
+              "maleVariant": "",
+              "stringId": 1878024878600757252
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "殺すって？ 脅迫のつもりか？ いい度胸だ…！ 親父の耳に入れるから覚悟しとけよ！",
+              "maleVariant": "",
+              "stringId": 1878024878634311684
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうだ。切るぞ",
+              "maleVariant": "",
+              "stringId": 1878024878667866116
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "警備員！ こっちだ！",
+              "maleVariant": "",
+              "stringId": 1878024878835638276
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "僕が何をしたっていうんだ！",
+              "maleVariant": "",
+              "stringId": 1878024878852415492
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "言っておくが…！ 僕にはすごいコネがあるんだ…！",
+              "maleVariant": "",
+              "stringId": 1878024878953078788
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "僕が誰だか知ってるのか？",
+              "maleVariant": "",
+              "stringId": 1878024878969856004
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何がしたいんです？",
+              "maleVariant": "",
+              "stringId": 1878024879104073732
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "僕を尾行してどうするんですか",
+              "maleVariant": "",
+              "stringId": 1878024879187959812
             }
-          }
+          ]
         }
       }
     },

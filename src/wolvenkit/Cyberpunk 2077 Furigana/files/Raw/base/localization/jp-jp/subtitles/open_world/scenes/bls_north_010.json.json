@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_north_010.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でも… なかったら？",
-                    "maleVariant": null,
-                    "stringId": 1973570501220540416
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "とにかく、新しい井戸を見つけるしかない",
-                    "maleVariant": null,
-                    "stringId": 1975096026674741248
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソ、また熱波が来たら川も干上がるぞ… みんなに何て言えばいいんだ…",
-                    "maleVariant": null,
-                    "stringId": 1975096042512433152
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "20年代に埋められたシアン化水素入りの容器が破裂したんだ",
-                    "maleVariant": null,
-                    "stringId": 1975096058081689600
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "え… 何があったんだ？",
-                    "maleVariant": null,
-                    "stringId": 1975096071117586432
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "また井戸が汚染された",
-                    "maleVariant": null,
-                    "stringId": 1975096082257657856
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でも… なかったら？",
+              "maleVariant": "",
+              "stringId": 1973570501220540416
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "とにかく、新しい井戸を見つけるしかない",
+              "maleVariant": "",
+              "stringId": 1975096026674741248
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソ、また熱波が来たら川も干上がるぞ… みんなに何て言えばいいんだ…",
+              "maleVariant": "",
+              "stringId": 1975096042512433152
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "20年代に埋められたシアン化水素入りの容器が破裂したんだ",
+              "maleVariant": "",
+              "stringId": 1975096058081689600
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "え… 何があったんだ？",
+              "maleVariant": "",
+              "stringId": 1975096071117586432
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "また井戸が汚染された",
+              "maleVariant": "",
+              "stringId": 1975096082257657856
             }
-          }
+          ]
         }
       }
     },

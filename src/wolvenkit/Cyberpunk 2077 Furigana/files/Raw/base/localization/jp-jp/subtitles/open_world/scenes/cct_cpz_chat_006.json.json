@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_cpz_chat_006.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こないだのブルシット・ニュース見た？",
-                    "maleVariant": null,
-                    "stringId": 1963275213759094784
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "バス事故のやつか？",
-                    "maleVariant": null,
-                    "stringId": 2008574623494160384
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "昔は面白かったんだけどさ、最近あの番組を見ると… 何て言うか",
-                    "maleVariant": null,
-                    "stringId": 2008574715617853440
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "笑えなくなったよな",
-                    "maleVariant": null,
-                    "stringId": 2008574889262039040
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ワトソンで誰かがフラットラインするなんて毎日のことだし、別に何とも思わないけど…",
-                    "maleVariant": null,
-                    "stringId": 2008575142396674048
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でも、子供がたくさん死んだ話をいきなり突き付けられるのは… そういうのテレビに求めてないし",
-                    "maleVariant": null,
-                    "stringId": 2008575510170025984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "WNSに苦情を送ったらどうだ。内容を変えるかもしれない",
-                    "maleVariant": null,
-                    "stringId": 2008575722485694464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうだろうね",
-                    "maleVariant": null,
-                    "stringId": 2008575861015166976
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こないだのブルシット・ニュース見た？",
+              "maleVariant": "",
+              "stringId": 1963275213759094784
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "バス事故のやつか？",
+              "maleVariant": "",
+              "stringId": 2008574623494160384
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "昔は面白かったんだけどさ、最近あの番組を見ると… 何て言うか",
+              "maleVariant": "",
+              "stringId": 2008574715617853440
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "笑えなくなったよな",
+              "maleVariant": "",
+              "stringId": 2008574889262039040
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ワトソンで誰かがフラットラインするなんて毎日のことだし、別に何とも思わないけど…",
+              "maleVariant": "",
+              "stringId": 2008575142396674048
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でも、子供がたくさん死んだ話をいきなり突き付けられるのは… そういうのテレビに求めてないし",
+              "maleVariant": "",
+              "stringId": 2008575510170025984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "WNSに苦情を送ったらどうだ。内容を変えるかもしれない",
+              "maleVariant": "",
+              "stringId": 2008575722485694464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうだろうね",
+              "maleVariant": "",
+              "stringId": 2008575861015166976
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_nok_chat_018.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "チューマ、俺はお前を助けたいだけなんだ",
-                    "maleVariant": null,
-                    "stringId": 2159441886505836544
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "はいはい。聞き飽きたよ",
-                    "maleVariant": null,
-                    "stringId": 2199655982555131904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "言いたくもなるさ。仕事もせずに、バカな賭け事にエディーをつぎ込みやがって。ノーマッドの賭けは胴元が勝つようにできてんだよ",
-                    "maleVariant": null,
-                    "stringId": 2199656182556323840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お前のアドバイスなんか求めてない。大丈夫、大勝ちする方法があるんだ。そもそも、この辺りじゃ他にやることなんてないだろ？",
-                    "maleVariant": null,
-                    "stringId": 2199657070255599616
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "チューマ、わかってんのか。バレたら、お前は追い出されるんだぞ",
-                    "maleVariant": null,
-                    "stringId": 2199657293342240768
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そんなことになれば、こっちまで巻き添えを食うことに――",
-                    "maleVariant": null,
-                    "stringId": 2199658410922930176
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "大丈夫だって。まったく、落ち着けよ。もうログアウトするとこだ",
-                    "maleVariant": null,
-                    "stringId": 2199658728918282240
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "チューマ、俺はお前を助けたいだけなんだ",
+              "maleVariant": "",
+              "stringId": 2159441886505836544
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "はいはい。聞き飽きたよ",
+              "maleVariant": "",
+              "stringId": 2199655982555131904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "言いたくもなるさ。仕事もせずに、バカな賭け事にエディーをつぎ込みやがって。ノーマッドの賭けは胴元が勝つようにできてんだよ",
+              "maleVariant": "",
+              "stringId": 2199656182556323840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お前のアドバイスなんか求めてない。大丈夫、大勝ちする方法があるんだ。そもそも、この辺りじゃ他にやることなんてないだろ？",
+              "maleVariant": "",
+              "stringId": 2199657070255599616
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "チューマ、わかってんのか。バレたら、お前は追い出されるんだぞ",
+              "maleVariant": "",
+              "stringId": 2199657293342240768
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そんなことになれば、こっちまで巻き添えを食うことに――",
+              "maleVariant": "",
+              "stringId": 2199658410922930176
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "大丈夫だって。まったく、落ち着けよ。もうログアウトするとこだ",
+              "maleVariant": "",
+              "stringId": 2199658728918282240
             }
-          }
+          ]
         }
       }
     },

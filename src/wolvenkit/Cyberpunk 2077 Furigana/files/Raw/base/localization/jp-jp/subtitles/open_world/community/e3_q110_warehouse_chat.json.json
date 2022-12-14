@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\community\\e3_q110_warehouse_chat.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "アニマルズ葬式を襲うことない。 絶対だ",
-                    "maleVariant": null,
-                    "stringId": 1709730618819031040
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソ暑い…",
-                    "maleVariant": null,
-                    "stringId": 1709731734604558336
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ウィ？ 敬意を払ってか？ そんなバカな",
-                    "maleVariant": null,
-                    "stringId": 1711137771569598464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "違う、冷房きいた室内から出たく ないんだ。こっちタマの裏まで 汗かいてるのに",
-                    "maleVariant": null,
-                    "stringId": 1711137995545432064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ノン、それおかしい。 あそこの冷房壊れてるはずだろ",
-                    "maleVariant": null,
-                    "stringId": 1711138142077636608
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "昨晩、ジェフ近付いたら、 発電機の音したって言ってた。 連中、修理したんだろ",
-                    "maleVariant": null,
-                    "stringId": 1711138276580577280
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"creo\" o=\"Pakèt salopri?\" t=\"マジかよ\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 1711138429404237824
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "太陽悪くない。 お前睡眠不足なだけだ",
-                    "maleVariant": null,
-                    "stringId": 1711140649885552640
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "アニマルズ葬式を襲うことない。 絶対だ",
+              "maleVariant": "",
+              "stringId": 1709730618819031040
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソ暑い…",
+              "maleVariant": "",
+              "stringId": 1709731734604558336
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ウィ？ 敬意を払ってか？ そんなバカな",
+              "maleVariant": "",
+              "stringId": 1711137771569598464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "違う、冷房きいた室内から出たく ないんだ。こっちタマの裏まで 汗かいてるのに",
+              "maleVariant": "",
+              "stringId": 1711137995545432064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ノン、それおかしい。 あそこの冷房壊れてるはずだろ",
+              "maleVariant": "",
+              "stringId": 1711138142077636608
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "昨晩、ジェフ近付いたら、 発電機の音したって言ってた。 連中、修理したんだろ",
+              "maleVariant": "",
+              "stringId": 1711138276580577280
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"creo\" o=\"Pakèt salopri?\" t=\"マジかよ\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 1711138429404237824
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "太陽悪くない。 お前睡眠不足なだけだ",
+              "maleVariant": "",
+              "stringId": 1711140649885552640
             }
-          }
+          ]
         }
       }
     },

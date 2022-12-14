@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\ma_scene_threatning_06.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "血が出るほど突っ込んでやる！",
-                    "maleVariant": null,
-                    "stringId": 2007225418460037120
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうした！ 少しは根性見せてみろよ！",
-                    "maleVariant": null,
-                    "stringId": 2007225479092895744
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "殺してやる！ 仲間もまとめて皆殺しだ！",
-                    "maleVariant": null,
-                    "stringId": 2007225987174105088
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お遊びはおしまいだ！ 覚悟はいいか！？",
-                    "maleVariant": null,
-                    "stringId": 2007226067872514048
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "血が出るほど突っ込んでやる！",
+              "maleVariant": "",
+              "stringId": 2007225418460037120
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうした！ 少しは根性見せてみろよ！",
+              "maleVariant": "",
+              "stringId": 2007225479092895744
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "殺してやる！ 仲間もまとめて皆殺しだ！",
+              "maleVariant": "",
+              "stringId": 2007225987174105088
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お遊びはおしまいだ！ 覚悟はいいか！？",
+              "maleVariant": "",
+              "stringId": 2007226067872514048
             }
-          }
+          ]
         }
       }
     },

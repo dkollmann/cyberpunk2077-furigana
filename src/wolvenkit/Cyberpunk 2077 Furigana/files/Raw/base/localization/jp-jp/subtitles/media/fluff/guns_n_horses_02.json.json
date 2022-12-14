@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\fluff\\guns_n_horses_02.json"
@@ -11,114 +11,86 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "“勝てば官軍”って聞いたことありますか？",
-                    "maleVariant": null,
-                    "stringId": 1796396226884575232
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もし自分が銃を作る会社を経営しており、新合衆国と自由州が全面戦争の瀬戸際にあるとしたら… どうします？ ミッドナイト・アームズのように、戦局をひっくり返せる武器を開発すればいいんです！",
-                    "maleVariant": null,
-                    "stringId": 1804131863858233344
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ご覧いただいているこちらは、セミオートアサルトライフル“ソル22”です",
-                    "maleVariant": null,
-                    "stringId": 1804132689129488384
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "これを見てライフルというより戦車砲じゃないかと思ったあなた。ソルれも、無理はありません",
-                    "maleVariant": null,
-                    "stringId": 1804132867907502080
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "実際のところ、最近の弾道テストによれば、ソル22の威力はアラサカ社の“キツネ”にも匹敵することが明らかになっています",
-                    "maleVariant": null,
-                    "stringId": 1804133033280520192
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "つまりは、反動もそれほど強烈ということです。チタン製の内骨格インプラントとカーボンファイバーの強化筋肉繊維をお持ちでない限り、この怪物を撃つのは自殺行為でしょう",
-                    "maleVariant": null,
-                    "stringId": 1804133198619983872
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この銃の設計者が持っていたコンセプトは2つだけ。生産性と、破壊力です。となると、信頼性はどうでしょう。逆に取り回しや携行性などは度外視ですね",
-                    "maleVariant": null,
-                    "stringId": 1804133419559141376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ありとあらゆる気象条件でソル22を試射しました。滝のような雨、砂嵐に熱波、そりゃもう思いつく限り。それでもただの一度も弾詰まりを起こさなかったのです",
-                    "maleVariant": null,
-                    "stringId": 1804133648937238528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "設計者はこのソル22によほど入れ込んでいたことが見て取れます。説明書なんて、洗濯機のそれと同じくらいのページ数ですからね。メーカーの本気がうかがえます",
-                    "maleVariant": null,
-                    "stringId": 1804133803287625728
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "このバケモノの欠点は考えるまでもありませんが… 大きさです。早くも“エレファント”なんて名前で呼ばれてるとか。それ以上ふさわしい名前は思いつきませんね",
-                    "maleVariant": null,
-                    "stringId": 1804134063938453504
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "戦車の大砲を自らの手でぶっ放してみたいというあなたには、この銃がオススメです！",
-                    "maleVariant": null,
-                    "stringId": 1804134261506949120
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ソル22はどの銃砲店でも取り扱っています。それでは、また次回！",
-                    "maleVariant": null,
-                    "stringId": 1804134403089874944
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "“勝てば官軍”って聞いたことありますか？",
+              "maleVariant": "",
+              "stringId": 1796396226884575232
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もし自分が銃を作る会社を経営しており、新合衆国と自由州が全面戦争の瀬戸際にあるとしたら… どうします？ ミッドナイト・アームズのように、戦局をひっくり返せる武器を開発すればいいんです！",
+              "maleVariant": "",
+              "stringId": 1804131863858233344
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ご覧いただいているこちらは、セミオートアサルトライフル“ソル22”です",
+              "maleVariant": "",
+              "stringId": 1804132689129488384
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "これを見てライフルというより戦車砲じゃないかと思ったあなた。ソルれも、無理はありません",
+              "maleVariant": "",
+              "stringId": 1804132867907502080
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "実際のところ、最近の弾道テストによれば、ソル22の威力はアラサカ社の“キツネ”にも匹敵することが明らかになっています",
+              "maleVariant": "",
+              "stringId": 1804133033280520192
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "つまりは、反動もそれほど強烈ということです。チタン製の内骨格インプラントとカーボンファイバーの強化筋肉繊維をお持ちでない限り、この怪物を撃つのは自殺行為でしょう",
+              "maleVariant": "",
+              "stringId": 1804133198619983872
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この銃の設計者が持っていたコンセプトは2つだけ。生産性と、破壊力です。となると、信頼性はどうでしょう。逆に取り回しや携行性などは度外視ですね",
+              "maleVariant": "",
+              "stringId": 1804133419559141376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ありとあらゆる気象条件でソル22を試射しました。滝のような雨、砂嵐に熱波、そりゃもう思いつく限り。それでもただの一度も弾詰まりを起こさなかったのです",
+              "maleVariant": "",
+              "stringId": 1804133648937238528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "設計者はこのソル22によほど入れ込んでいたことが見て取れます。説明書なんて、洗濯機のそれと同じくらいのページ数ですからね。メーカーの本気がうかがえます",
+              "maleVariant": "",
+              "stringId": 1804133803287625728
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "このバケモノの欠点は考えるまでもありませんが… 大きさです。早くも“エレファント”なんて名前で呼ばれてるとか。それ以上ふさわしい名前は思いつきませんね",
+              "maleVariant": "",
+              "stringId": 1804134063938453504
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "戦車の大砲を自らの手でぶっ放してみたいというあなたには、この銃がオススメです！",
+              "maleVariant": "",
+              "stringId": 1804134261506949120
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ソル22はどの銃砲店でも取り扱っています。それでは、また次回！",
+              "maleVariant": "",
+              "stringId": 1804134403089874944
             }
-          }
+          ]
         }
       }
     },

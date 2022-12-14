@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_east_013.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"mex\" o=\"La carcelera de mi mujer me pidió que gorroneara un filtro de aire, como si tuviera edis de sobra tirados por ahí.\" t=\"うちの人に空気フィルターを買ってこいって言われてさ。そんな金持ってるわけないのに\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 2178197413232451584
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"mex\" o=\"Además, ¿para qué chingados necesito un filtro? Se va a tapar a la primera tormenta que azote.\" t=\"大体… フィルターなんて要る？ 大きい嵐が来たら一発でダメになるのに\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 2188375757337354240
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1つやろうか。タダでいい。昨日トレーラーが取り壊されてな… ま、フィルターが無事だったらの話だが",
-                    "maleVariant": null,
-                    "stringId": 2188376222099791872
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"mex\" o=\"Ah, chingao. ¿Qué pasó?\" t=\"えっ、何があったの？\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 2189428516987822080
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "借金で首が回らなくて、家を手放すはめになったんだ。でも相手は土地のほうが価値がありそうだって…",
-                    "maleVariant": null,
-                    "stringId": 2189432968436211712
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"mex\" o=\"Güey, eso... es una pinche mierda.\" t=\"うわ、そんな… 大変だね\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 2189434094204182528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まあな。だが、おかげで久しぶりに立ち退き命令の心配をしなくてよくなった",
-                    "maleVariant": null,
-                    "stringId": 2189434306150752256
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "久しぶりに… 自由になった気分だ",
-                    "maleVariant": null,
-                    "stringId": 2189437641041862656
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"mex\" o=\"La carcelera de mi mujer me pidió que gorroneara un filtro de aire, como si tuviera edis de sobra tirados por ahí.\" t=\"うちの人に空気フィルターを買ってこいって言われてさ。そんな金持ってるわけないのに\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 2178197413232451584
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"mex\" o=\"Además, ¿para qué chingados necesito un filtro? Se va a tapar a la primera tormenta que azote.\" t=\"大体… フィルターなんて要る？ 大きい嵐が来たら一発でダメになるのに\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 2188375757337354240
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1つやろうか。タダでいい。昨日トレーラーが取り壊されてな… ま、フィルターが無事だったらの話だが",
+              "maleVariant": "",
+              "stringId": 2188376222099791872
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"mex\" o=\"Ah, chingao. ¿Qué pasó?\" t=\"えっ、何があったの？\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 2189428516987822080
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "借金で首が回らなくて、家を手放すはめになったんだ。でも相手は土地のほうが価値がありそうだって…",
+              "maleVariant": "",
+              "stringId": 2189432968436211712
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"mex\" o=\"Güey, eso... es una pinche mierda.\" t=\"うわ、そんな… 大変だね\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 2189434094204182528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まあな。だが、おかげで久しぶりに立ち退き命令の心配をしなくてよくなった",
+              "maleVariant": "",
+              "stringId": 2189434306150752256
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "久しぶりに… 自由になった気分だ",
+              "maleVariant": "",
+              "stringId": 2189437641041862656
             }
-          }
+          ]
         }
       }
     },

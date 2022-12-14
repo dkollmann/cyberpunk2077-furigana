@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_cvi_chat_033.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何人か姿を消してる。スカベンジャーの仕業ってうわさよ",
-                    "maleVariant": null,
-                    "stringId": 2179569491437187072
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ヴードゥー・ボーイズは何してんだ？ 奴らのシマだろ？ ナメられたままでいいのかよ",
-                    "maleVariant": null,
-                    "stringId": 2182551396966711296
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "シマだろうと、関係ないんでしょ。自分たちの問題で手一杯なんじゃない？",
-                    "maleVariant": null,
-                    "stringId": 2182551648457179136
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "関係ないわけねえだろ！ パシフィカがスカベンジャーに荒らされてんだぞ？",
-                    "maleVariant": null,
-                    "stringId": 2182551809518452736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今はまだ数人だが、このままじゃあっという間に一帯を支配されるぞ！",
-                    "maleVariant": null,
-                    "stringId": 2182551977290612736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ええ… これじゃ外も歩けない。ただでさえいろいろ大変だっていうのに",
-                    "maleVariant": null,
-                    "stringId": 2182552115803308032
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何人か姿を消してる。スカベンジャーの仕業ってうわさよ",
+              "maleVariant": "",
+              "stringId": 2179569491437187072
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ヴードゥー・ボーイズは何してんだ？ 奴らのシマだろ？ ナメられたままでいいのかよ",
+              "maleVariant": "",
+              "stringId": 2182551396966711296
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "シマだろうと、関係ないんでしょ。自分たちの問題で手一杯なんじゃない？",
+              "maleVariant": "",
+              "stringId": 2182551648457179136
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "関係ないわけねえだろ！ パシフィカがスカベンジャーに荒らされてんだぞ？",
+              "maleVariant": "",
+              "stringId": 2182551809518452736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今はまだ数人だが、このままじゃあっという間に一帯を支配されるぞ！",
+              "maleVariant": "",
+              "stringId": 2182551977290612736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ええ… これじゃ外も歩けない。ただでさえいろいろ大変だっていうのに",
+              "maleVariant": "",
+              "stringId": 2182552115803308032
             }
-          }
+          ]
         }
       }
     },

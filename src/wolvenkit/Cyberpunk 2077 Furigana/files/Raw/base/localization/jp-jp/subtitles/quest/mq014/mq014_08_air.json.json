@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\mq014\\mq014_08_air.json"
@@ -11,114 +11,86 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今からそなたに教えるのは空気の瞑想だ",
-                    "maleVariant": null,
-                    "stringId": 1815551910009081860
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "我々は山にいて、山頂へ向かっている。大岩の間を通り抜けなければならない",
-                    "maleVariant": null,
-                    "stringId": 1816923004649574400
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "空気の精霊、風の源よ、ご挨拶申し上げる… そなたと我々は一心同体",
-                    "maleVariant": null,
-                    "stringId": 1822800929655590912
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "偉大なる空気の精霊よ、我が身体、魂を浄化したまえ。害のある人々、社会、次元から苦痛、病、害のある気を取り去りたまえ",
-                    "maleVariant": null,
-                    "stringId": 1822803656137740288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "命の気を与えたまえ。健康、知恵、知識、強さ、喜び、幸せ、そして内なる安らぎを与えたまえ",
-                    "maleVariant": null,
-                    "stringId": 1822805065189003264
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "我はワシ。風は翼を守り、羽をなで、我が肉体の全細胞を駆け抜け、あらゆる原子と分子の隙間を満たすもの",
-                    "maleVariant": null,
-                    "stringId": 1822808334732857344
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "我々は旋回し、空高く舞い上がる",
-                    "maleVariant": null,
-                    "stringId": 1822809097089552384
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "空気の精霊よ、精神と身体と魂をもって感謝申し上げる",
-                    "maleVariant": null,
-                    "stringId": 1822819343270907904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "最初の大岩にはワシが止まっている。空気の精霊がそのワシの全細胞を駆け抜ける",
-                    "maleVariant": null,
-                    "stringId": 1925622134648836096
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そなたは我の中に、我はそなたの中に宿る。そなたなしでは、命は数分も持たず、そなたの存在は欠かせないもの",
-                    "maleVariant": null,
-                    "stringId": 1925622914168623104
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "風は肉体を、魂を、そして神秘体を清めるもの",
-                    "maleVariant": null,
-                    "stringId": 1925623428809723904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "我々は安心、純潔、喜びを感じ、我々の身体は幸福、安らぎ、調和で満たされる",
-                    "maleVariant": null,
-                    "stringId": 1925623593645871104
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今からそなたに教えるのは空気の瞑想だ",
+              "maleVariant": "",
+              "stringId": 1815551910009081860
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "我々は山にいて、山頂へ向かっている。大岩の間を通り抜けなければならない",
+              "maleVariant": "",
+              "stringId": 1816923004649574400
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "空気の精霊、風の源よ、ご挨拶申し上げる… そなたと我々は一心同体",
+              "maleVariant": "",
+              "stringId": 1822800929655590912
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "偉大なる空気の精霊よ、我が身体、魂を浄化したまえ。害のある人々、社会、次元から苦痛、病、害のある気を取り去りたまえ",
+              "maleVariant": "",
+              "stringId": 1822803656137740288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "命の気を与えたまえ。健康、知恵、知識、強さ、喜び、幸せ、そして内なる安らぎを与えたまえ",
+              "maleVariant": "",
+              "stringId": 1822805065189003264
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "我はワシ。風は翼を守り、羽をなで、我が肉体の全細胞を駆け抜け、あらゆる原子と分子の隙間を満たすもの",
+              "maleVariant": "",
+              "stringId": 1822808334732857344
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "我々は旋回し、空高く舞い上がる",
+              "maleVariant": "",
+              "stringId": 1822809097089552384
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "空気の精霊よ、精神と身体と魂をもって感謝申し上げる",
+              "maleVariant": "",
+              "stringId": 1822819343270907904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "最初の大岩にはワシが止まっている。空気の精霊がそのワシの全細胞を駆け抜ける",
+              "maleVariant": "",
+              "stringId": 1925622134648836096
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そなたは我の中に、我はそなたの中に宿る。そなたなしでは、命は数分も持たず、そなたの存在は欠かせないもの",
+              "maleVariant": "",
+              "stringId": 1925622914168623104
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "風は肉体を、魂を、そして神秘体を清めるもの",
+              "maleVariant": "",
+              "stringId": 1925623428809723904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "我々は安心、純潔、喜びを感じ、我々の身体は幸福、安らぎ、調和で満たされる",
+              "maleVariant": "",
+              "stringId": 1925623593645871104
             }
-          }
+          ]
         }
       }
     },

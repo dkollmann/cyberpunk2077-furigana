@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_jpn_chat_036.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "専門家に相談はしてみました？",
-                    "maleVariant": null,
-                    "stringId": 2196683183746293760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "専門家って… 祈祷師とか？",
-                    "maleVariant": null,
-                    "stringId": 2196683934845476864
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうじゃなくて… 電気技師ですよ。電圧が乱れてるだけかもしれません",
-                    "maleVariant": null,
-                    "stringId": 2196684091225907200
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "電圧の乱れが、寝てる人間を殺そうとする！？",
-                    "maleVariant": null,
-                    "stringId": 2196686495887499264
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "本当よ。うちの電化製品は憑りつかれてるの！",
-                    "maleVariant": null,
-                    "stringId": 2212815768977252352
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ライトがついたり消えたりして、テレビも勝手にチャンネルが変わるし… サーモスタットもメチャクチャなんだから！",
-                    "maleVariant": null,
-                    "stringId": 2212817761456201728
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "えーと… そうですね… ではお香を試しましょう。毎日3回、全ての電化製品を煙でいぶすとか",
-                    "maleVariant": null,
-                    "stringId": 2212843992364982272
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わかった。サーモスタットも？",
-                    "maleVariant": null,
-                    "stringId": 2212847225972039680
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "サーモスタットは5回です。最低でもね",
-                    "maleVariant": null,
-                    "stringId": 2212847303013015552
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "専門家に相談はしてみました？",
+              "maleVariant": "",
+              "stringId": 2196683183746293760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "専門家って… 祈祷師とか？",
+              "maleVariant": "",
+              "stringId": 2196683934845476864
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうじゃなくて… 電気技師ですよ。電圧が乱れてるだけかもしれません",
+              "maleVariant": "",
+              "stringId": 2196684091225907200
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "電圧の乱れが、寝てる人間を殺そうとする！？",
+              "maleVariant": "",
+              "stringId": 2196686495887499264
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "本当よ。うちの電化製品は憑りつかれてるの！",
+              "maleVariant": "",
+              "stringId": 2212815768977252352
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ライトがついたり消えたりして、テレビも勝手にチャンネルが変わるし… サーモスタットもメチャクチャなんだから！",
+              "maleVariant": "",
+              "stringId": 2212817761456201728
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "えーと… そうですね… ではお香を試しましょう。毎日3回、全ての電化製品を煙でいぶすとか",
+              "maleVariant": "",
+              "stringId": 2212843992364982272
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わかった。サーモスタットも？",
+              "maleVariant": "",
+              "stringId": 2212847225972039680
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "サーモスタットは5回です。最低でもね",
+              "maleVariant": "",
+              "stringId": 2212847303013015552
             }
-          }
+          ]
         }
       }
     },

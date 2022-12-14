@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\hey_spr_clothingshop_01.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ここならあたし好みのいいモノが見つかりそう",
-                    "maleVariant": "ここなら俺好みのいいモノが見つかりそうだ",
-                    "stringId": 1740348629291868164
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "少しはダイエットしたら？",
-                    "maleVariant": "少しはダイエットしたらどうだ？",
-                    "stringId": 1740348757520130048
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ここならあたし好みのいいモノが見つかりそう",
-                    "maleVariant": "ここなら俺好みのいいモノが見つかりそうだ",
-                    "stringId": 1740370914904088576
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "“そう”？ きっと見つかるわよ！ ファッションは心よ。まず試着して、感じてみて！",
-                    "maleVariant": null,
-                    "stringId": 1740371606846808064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もう少し痩せれば、そのパンツも映えるのに",
-                    "maleVariant": null,
-                    "stringId": 1740371878822256640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "全然わかってないね。私みたいな体型でないと着れない服もたくさんあるんだよ",
-                    "maleVariant": "わかってないね、お兄さん。甘ーいボディになればなるほど、いっぱい服を着れるのよ",
-                    "stringId": 1740373423802523648
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ここならあたし好みのいいモノが見つかりそう",
+              "maleVariant": "ここなら俺好みのいいモノが見つかりそうだ",
+              "stringId": 1740348629291868164
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "少しはダイエットしたら？",
+              "maleVariant": "少しはダイエットしたらどうだ？",
+              "stringId": 1740348757520130048
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ここならあたし好みのいいモノが見つかりそう",
+              "maleVariant": "ここなら俺好みのいいモノが見つかりそうだ",
+              "stringId": 1740370914904088576
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "“そう”？ きっと見つかるわよ！ ファッションは心よ。まず試着して、感じてみて！",
+              "maleVariant": "",
+              "stringId": 1740371606846808064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もう少し痩せれば、そのパンツも映えるのに",
+              "maleVariant": "",
+              "stringId": 1740371878822256640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "全然わかってないね。私みたいな体型でないと着れない服もたくさんあるんだよ",
+              "maleVariant": "わかってないね、お兄さん。甘ーいボディになればなるほど、いっぱい服を着れるのよ",
+              "stringId": 1740373423802523648
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_jpn_chat_007.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まず入れなきゃいけないのは、記憶をブロックする神経遮断装置。これが無いと、この仕事はコンマ2秒と耐えれない",
-                    "maleVariant": null,
-                    "stringId": 1806884847720456192
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でも、装置をつけたらそのまま昏睡状態になることもあるって…",
-                    "maleVariant": null,
-                    "stringId": 1806886123308965888
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そんなのウソよ。トラブった話なんか聞いたことない",
-                    "maleVariant": null,
-                    "stringId": 1806886452612161536
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どっかで読んだんだ。日本の女の子が使ったインプラントは記憶どころか――",
-                    "maleVariant": null,
-                    "stringId": 1806886643167780864
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "起きた瞬間に、それまで見てた夢を忘れちゃうときってあるでしょ？ それと同じ",
-                    "maleVariant": null,
-                    "stringId": 1806886818875564032
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でも、どうやって目覚めるんだ？",
-                    "maleVariant": null,
-                    "stringId": 1806887058856861696
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "しばらく意識をなくしたあと… パッと現実に戻ったら、ポケットの中のお金が増えてるのよ",
-                    "maleVariant": null,
-                    "stringId": 1824543639562719232
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうね… アラームをセットしたような感じ。一瞬で意識をなくして、次の瞬間には戻ってる。私なんか時々休みたい時にも使っちゃうの",
-                    "maleVariant": null,
-                    "stringId": 1824544161149587456
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まず入れなきゃいけないのは、記憶をブロックする神経遮断装置。これが無いと、この仕事はコンマ2秒と耐えれない",
+              "maleVariant": "",
+              "stringId": 1806884847720456192
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でも、装置をつけたらそのまま昏睡状態になることもあるって…",
+              "maleVariant": "",
+              "stringId": 1806886123308965888
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そんなのウソよ。トラブった話なんか聞いたことない",
+              "maleVariant": "",
+              "stringId": 1806886452612161536
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どっかで読んだんだ。日本の女の子が使ったインプラントは記憶どころか――",
+              "maleVariant": "",
+              "stringId": 1806886643167780864
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "起きた瞬間に、それまで見てた夢を忘れちゃうときってあるでしょ？ それと同じ",
+              "maleVariant": "",
+              "stringId": 1806886818875564032
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でも、どうやって目覚めるんだ？",
+              "maleVariant": "",
+              "stringId": 1806887058856861696
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "しばらく意識をなくしたあと… パッと現実に戻ったら、ポケットの中のお金が増えてるのよ",
+              "maleVariant": "",
+              "stringId": 1824543639562719232
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうね… アラームをセットしたような感じ。一瞬で意識をなくして、次の瞬間には戻ってる。私なんか時々休みたい時にも使っちゃうの",
+              "maleVariant": "",
+              "stringId": 1824544161149587456
             }
-          }
+          ]
         }
       }
     },

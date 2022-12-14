@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_frk_f_01_enus_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "シーッ！ まばたきしちゃダメ！ マスクが落ちちゃう！",
-                    "maleVariant": null,
-                    "stringId": 1958864449296179204
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "アンドロイドなのは内緒なの。みんなアンドロイドが好きじゃないから",
-                    "maleVariant": null,
-                    "stringId": 1958864449312956420
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まあ。でもあたし、踊り方なんてわからないわよ！",
-                    "maleVariant": null,
-                    "stringId": 1958864449363288068
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ワンツー、ワンツー…",
-                    "maleVariant": null,
-                    "stringId": 1958864449380065284
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こんにちは。誘拐の通報です",
-                    "maleVariant": null,
-                    "stringId": 1958864449413619716
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "決まってるでしょ、私たちよ… 2回もよ… 先週の金曜と明日の3時… 犯人は私たちをさらって、アンドロイドにすり替えたの。だから誰も気づいてない",
-                    "maleVariant": null,
-                    "stringId": 1958864449463951364
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "誘拐したのは妖精よ… あなたたちには手出しはできない… あたしたちが死んだら、骨を拾ってね。いえ、アルミかしら。あたしたちってアルミでできてるんでしょ？",
-                    "maleVariant": null,
-                    "stringId": 1958864449497505796
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "見つけられっこないわ！ 絶対にね！",
-                    "maleVariant": null,
-                    "stringId": 1958864449531060228
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ハハハッ、お悔やみを！",
-                    "maleVariant": null,
-                    "stringId": 1958864449665277956
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "みんなで白く染まりましょう！",
-                    "maleVariant": null,
-                    "stringId": 1958864449698832384
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "勘違いよ！ あたしたちは追手じゃない！",
-                    "maleVariant": null,
-                    "stringId": 1958864449765941252
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でも本当に踊れないの！ 脚がないもの！",
-                    "maleVariant": null,
-                    "stringId": 1958864449799495684
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ついてこないで。追手に見つかったら大変よ… 連れ戻されたらどうするの",
-                    "maleVariant": null,
-                    "stringId": 1958864449866604548
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あなたは暗闇に生きてる。逃げて。でも逃げ切れない",
-                    "maleVariant": null,
-                    "stringId": 1958864449883381764
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "シーッ！ まばたきしちゃダメ！ マスクが落ちちゃう！",
+              "maleVariant": "",
+              "stringId": 1958864449296179204
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "アンドロイドなのは内緒なの。みんなアンドロイドが好きじゃないから",
+              "maleVariant": "",
+              "stringId": 1958864449312956420
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まあ。でもあたし、踊り方なんてわからないわよ！",
+              "maleVariant": "",
+              "stringId": 1958864449363288068
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ワンツー、ワンツー…",
+              "maleVariant": "",
+              "stringId": 1958864449380065284
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こんにちは。誘拐の通報です",
+              "maleVariant": "",
+              "stringId": 1958864449413619716
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "決まってるでしょ、私たちよ… 2回もよ… 先週の金曜と明日の3時… 犯人は私たちをさらって、アンドロイドにすり替えたの。だから誰も気づいてない",
+              "maleVariant": "",
+              "stringId": 1958864449463951364
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "誘拐したのは妖精よ… あなたたちには手出しはできない… あたしたちが死んだら、骨を拾ってね。いえ、アルミかしら。あたしたちってアルミでできてるんでしょ？",
+              "maleVariant": "",
+              "stringId": 1958864449497505796
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "見つけられっこないわ！ 絶対にね！",
+              "maleVariant": "",
+              "stringId": 1958864449531060228
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ハハハッ、お悔やみを！",
+              "maleVariant": "",
+              "stringId": 1958864449665277956
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "みんなで白く染まりましょう！",
+              "maleVariant": "",
+              "stringId": 1958864449698832384
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "勘違いよ！ あたしたちは追手じゃない！",
+              "maleVariant": "",
+              "stringId": 1958864449765941252
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でも本当に踊れないの！ 脚がないもの！",
+              "maleVariant": "",
+              "stringId": 1958864449799495684
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ついてこないで。追手に見つかったら大変よ… 連れ戻されたらどうするの",
+              "maleVariant": "",
+              "stringId": 1958864449866604548
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あなたは暗闇に生きてる。逃げて。でも逃げ切れない",
+              "maleVariant": "",
+              "stringId": 1958864449883381764
             }
-          }
+          ]
         }
       }
     },

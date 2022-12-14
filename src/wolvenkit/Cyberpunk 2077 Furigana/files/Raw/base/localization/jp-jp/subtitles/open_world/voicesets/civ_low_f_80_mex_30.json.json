@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_f_80_mex_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あなた誰？",
-                    "maleVariant": null,
-                    "stringId": 1949096904615387140
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あ… よかった、人違いだった",
-                    "maleVariant": null,
-                    "stringId": 1949096904632164356
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ねえ！",
-                    "maleVariant": null,
-                    "stringId": 1949096904682496004
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何なの…？",
-                    "maleVariant": null,
-                    "stringId": 1949096904699273220
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもし？",
-                    "maleVariant": null,
-                    "stringId": 1949096904732827652
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ねえ… また不法侵入だって… ええ… きっとあの女よ… 被害妄想の塊だもの！",
-                    "maleVariant": null,
-                    "stringId": 1949096904783159300
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうして…？ 賄賂を渡さないと指一本動かさない連中よ… だけど… 私、怖いの… ええ… そうかも",
-                    "maleVariant": null,
-                    "stringId": 1949096904816713728
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "またかけるわ",
-                    "maleVariant": null,
-                    "stringId": 1949096904850268164
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "銃を持ってるわ！ 見たの！",
-                    "maleVariant": null,
-                    "stringId": 1949096904984485892
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "また銃撃事件よ！",
-                    "maleVariant": null,
-                    "stringId": 1949096905018040324
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ほっといて！",
-                    "maleVariant": null,
-                    "stringId": 1949096905085149188
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私、ただの善良な市民よ？",
-                    "maleVariant": null,
-                    "stringId": 1949096905101926404
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あの女の命令？ もう帰って！",
-                    "maleVariant": null,
-                    "stringId": 1949096905219366916
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ストーカーなの？ あの女と一緒で？",
-                    "maleVariant": null,
-                    "stringId": 1949096905236144132
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あなた誰？",
+              "maleVariant": "",
+              "stringId": 1949096904615387140
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あ… よかった、人違いだった",
+              "maleVariant": "",
+              "stringId": 1949096904632164356
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ねえ！",
+              "maleVariant": "",
+              "stringId": 1949096904682496004
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何なの…？",
+              "maleVariant": "",
+              "stringId": 1949096904699273220
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもし？",
+              "maleVariant": "",
+              "stringId": 1949096904732827652
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ねえ… また不法侵入だって… ええ… きっとあの女よ… 被害妄想の塊だもの！",
+              "maleVariant": "",
+              "stringId": 1949096904783159300
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうして…？ 賄賂を渡さないと指一本動かさない連中よ… だけど… 私、怖いの… ええ… そうかも",
+              "maleVariant": "",
+              "stringId": 1949096904816713728
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "またかけるわ",
+              "maleVariant": "",
+              "stringId": 1949096904850268164
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "銃を持ってるわ！ 見たの！",
+              "maleVariant": "",
+              "stringId": 1949096904984485892
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "また銃撃事件よ！",
+              "maleVariant": "",
+              "stringId": 1949096905018040324
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ほっといて！",
+              "maleVariant": "",
+              "stringId": 1949096905085149188
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私、ただの善良な市民よ？",
+              "maleVariant": "",
+              "stringId": 1949096905101926404
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あの女の命令？ もう帰って！",
+              "maleVariant": "",
+              "stringId": 1949096905219366916
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ストーカーなの？ あの女と一緒で？",
+              "maleVariant": "",
+              "stringId": 1949096905236144132
             }
-          }
+          ]
         }
       }
     },

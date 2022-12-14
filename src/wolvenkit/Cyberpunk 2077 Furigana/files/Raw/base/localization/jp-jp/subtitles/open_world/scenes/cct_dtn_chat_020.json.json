@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_dtn_chat_020.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "本当だって。二日酔いにはこれが一番効くぞ",
-                    "maleVariant": null,
-                    "stringId": 2172190711699189760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ウマミ？",
-                    "maleVariant": null,
-                    "stringId": 2188357755538345984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そう、ウマミだ！ ったく、記憶が消えたのかな。リパーに見てもらわないと",
-                    "maleVariant": null,
-                    "stringId": 2188387646128361472
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうだな。この前なんか、空港から電話がかかってきて、俺のヘレラ・アウトローが1ヶ月も駐車されたままだって言われたんだ",
-                    "maleVariant": null,
-                    "stringId": 2188387801787371520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "外付けのを買えよ。俺はそうしたぞ",
-                    "maleVariant": null,
-                    "stringId": 2188387947363274752
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "アウトローを持ってるのか？ 待てよ… 誰かがお前のデータを盗んで、買ったとか…",
-                    "maleVariant": null,
-                    "stringId": 2188388555285696512
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ハッ！ 違う、出張の時に自分で買ったのを忘れてたんだよ！",
-                    "maleVariant": null,
-                    "stringId": 2188392561433219072
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ほら、あれが入ってるんだ。甘味じゃなくて… 酸味でもなくて…",
-                    "maleVariant": null,
-                    "stringId": 2188406524623556608
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "本当だって。二日酔いにはこれが一番効くぞ",
+              "maleVariant": "",
+              "stringId": 2172190711699189760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ウマミ？",
+              "maleVariant": "",
+              "stringId": 2188357755538345984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そう、ウマミだ！ ったく、記憶が消えたのかな。リパーに見てもらわないと",
+              "maleVariant": "",
+              "stringId": 2188387646128361472
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうだな。この前なんか、空港から電話がかかってきて、俺のヘレラ・アウトローが1ヶ月も駐車されたままだって言われたんだ",
+              "maleVariant": "",
+              "stringId": 2188387801787371520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "外付けのを買えよ。俺はそうしたぞ",
+              "maleVariant": "",
+              "stringId": 2188387947363274752
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "アウトローを持ってるのか？ 待てよ… 誰かがお前のデータを盗んで、買ったとか…",
+              "maleVariant": "",
+              "stringId": 2188388555285696512
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ハッ！ 違う、出張の時に自分で買ったのを忘れてたんだよ！",
+              "maleVariant": "",
+              "stringId": 2188392561433219072
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ほら、あれが入ってるんだ。甘味じゃなくて… 酸味でもなくて…",
+              "maleVariant": "",
+              "stringId": 2188406524623556608
             }
-          }
+          ]
         }
       }
     },

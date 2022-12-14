@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_rcr_chat_015.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "運命の出会いってのは、クソを流したあとに訪れるものなのさ",
-                    "maleVariant": null,
-                    "stringId": 2167588077006770176
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いや、なに言ってんだ？ 実刑食らって、しばらくムショにいたって話をしてたんだろ…",
-                    "maleVariant": null,
-                    "stringId": 2214545649533554688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうさ、あのデカい高層ビルで服役した",
-                    "maleVariant": null,
-                    "stringId": 2228855633280864256
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "真下にモールがあるやつだよな？",
-                    "maleVariant": null,
-                    "stringId": 2228856599799500800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ。あそこはいくつかのフロアに分かれててな。1階と2階が女子、3階と4階が男子刑務所になってる。で、フロアとフロアの間に下水管が通ってるんだ",
-                    "maleVariant": null,
-                    "stringId": 2228857840390737920
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "てことは… その下水管を通して女囚人と話を？",
-                    "maleVariant": null,
-                    "stringId": 2228859566296502272
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "え？ 汚えな？ 便器に顔を入れんだろ…？",
-                    "maleVariant": null,
-                    "stringId": 2228859806428794880
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まあ、急かすなって。便器の向こう側と話すには、まず水をかき出さなきゃいけねえ。で、全部抜いたら顔を突っ込んで、大声で相手を呼ぶんだ。そして返事を待つのさ",
-                    "maleVariant": null,
-                    "stringId": 2228861464537829376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "細かいことは気にすんな。大事なのは、1つ下の階にいたエヴァと、そうやって出会ったってことだ。夜遅くまで語り合ったよ。うっとりするような声で… 俺はメロメロだった",
-                    "maleVariant": null,
-                    "stringId": 2228866408095518720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "んで、“お勤め”を終えて実際に会ってみたら、メチャメチャいい女じゃねえか！ な、ツイてるだろ？",
-                    "maleVariant": null,
-                    "stringId": 2228870601174781952
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "運命の出会いってのは、クソを流したあとに訪れるものなのさ",
+              "maleVariant": "",
+              "stringId": 2167588077006770176
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いや、なに言ってんだ？ 実刑食らって、しばらくムショにいたって話をしてたんだろ…",
+              "maleVariant": "",
+              "stringId": 2214545649533554688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうさ、あのデカい高層ビルで服役した",
+              "maleVariant": "",
+              "stringId": 2228855633280864256
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "真下にモールがあるやつだよな？",
+              "maleVariant": "",
+              "stringId": 2228856599799500800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ。あそこはいくつかのフロアに分かれててな。1階と2階が女子、3階と4階が男子刑務所になってる。で、フロアとフロアの間に下水管が通ってるんだ",
+              "maleVariant": "",
+              "stringId": 2228857840390737920
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "てことは… その下水管を通して女囚人と話を？",
+              "maleVariant": "",
+              "stringId": 2228859566296502272
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "え？ 汚えな？ 便器に顔を入れんだろ…？",
+              "maleVariant": "",
+              "stringId": 2228859806428794880
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まあ、急かすなって。便器の向こう側と話すには、まず水をかき出さなきゃいけねえ。で、全部抜いたら顔を突っ込んで、大声で相手を呼ぶんだ。そして返事を待つのさ",
+              "maleVariant": "",
+              "stringId": 2228861464537829376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "細かいことは気にすんな。大事なのは、1つ下の階にいたエヴァと、そうやって出会ったってことだ。夜遅くまで語り合ったよ。うっとりするような声で… 俺はメロメロだった",
+              "maleVariant": "",
+              "stringId": 2228866408095518720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "んで、“お勤め”を終えて実際に会ってみたら、メチャメチャいい女じゃねえか！ な、ツイてるだろ？",
+              "maleVariant": "",
+              "stringId": 2228870601174781952
             }
-          }
+          ]
         }
       }
     },

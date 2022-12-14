@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_std_arr_05_holocall_debriefs.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "上出来だ。これでテッドはケンダチに一泡吹かせてやれる。向こうは為す術なしさ",
-                    "maleVariant": null,
-                    "stringId": 2328641020468621312
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "任務完了だな。テッドはケンダチのスキャンダルを手に入れた。とはいえ… 評価はCマイナスってとこだな",
-                    "maleVariant": null,
-                    "stringId": 2328645256279453700
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なあ、教えてくれ… 粉々に吹き飛ばしたトラックに、どうやって追跡機を仕掛ける気だ？",
-                    "maleVariant": null,
-                    "stringId": 2328647440840749060
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まあ、今回はギリギリ合格ってことにしといてやるよ",
-                    "maleVariant": null,
-                    "stringId": 2334643841073397760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それはそうと、完璧な仕事ぶりだったな。大したもんだ。金を送っておくぜ",
-                    "maleVariant": null,
-                    "stringId": 2334644712213561344
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何考えてんだ？ 頭は大丈夫か！？ こいつはきっと夢だ！ 誰か俺の頬をつねってくれ！ こんなヘマ、ありえねえだろ！？",
-                    "maleVariant": null,
-                    "stringId": 2341708162330365952
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "悪い… ちと頭を冷やしてくる。あばよ",
-                    "maleVariant": null,
-                    "stringId": 2341712488318734336
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "上出来だ。これでテッドはケンダチに一泡吹かせてやれる。向こうは為す術なしさ",
+              "maleVariant": "",
+              "stringId": 2328641020468621312
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "任務完了だな。テッドはケンダチのスキャンダルを手に入れた。とはいえ… 評価はCマイナスってとこだな",
+              "maleVariant": "",
+              "stringId": 2328645256279453700
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なあ、教えてくれ… 粉々に吹き飛ばしたトラックに、どうやって追跡機を仕掛ける気だ？",
+              "maleVariant": "",
+              "stringId": 2328647440840749060
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まあ、今回はギリギリ合格ってことにしといてやるよ",
+              "maleVariant": "",
+              "stringId": 2334643841073397760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それはそうと、完璧な仕事ぶりだったな。大したもんだ。金を送っておくぜ",
+              "maleVariant": "",
+              "stringId": 2334644712213561344
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何考えてんだ？ 頭は大丈夫か！？ こいつはきっと夢だ！ 誰か俺の頬をつねってくれ！ こんなヘマ、ありえねえだろ！？",
+              "maleVariant": "",
+              "stringId": 2341708162330365952
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "悪い… ちと頭を冷やしてくる。あばよ",
+              "maleVariant": "",
+              "stringId": 2341712488318734336
             }
-          }
+          ]
         }
       }
     },

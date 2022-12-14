@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_nid_chat_018.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "全部クラブ行きか？",
-                    "maleVariant": null,
-                    "stringId": 2156409163642036224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それとオールフーズ。ひとつ残らずね",
-                    "maleVariant": null,
-                    "stringId": 2230325338355515392
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "少しはこっちに回せよな…  ひと吸いだけでオーバークロック、ネガティブ・レイテンシ状態でクロームとシナプスのピュアなシンクロ…",
-                    "maleVariant": null,
-                    "stringId": 2230325534581833728
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CHOOH2みたいなもんだ。タンクに燃料を入れてアクセルを踏み込んだら、ブレーキなしで突っ走れる",
-                    "maleVariant": null,
-                    "stringId": 2230325648398467072
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうかな。疲れを感じないのはいいけど、あれは頭がヤラれちまう",
-                    "maleVariant": null,
-                    "stringId": 2230325781005582336
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "少しでもやり過ぎたら感覚の抑制が効かなくなる。そしたらガタガタ震える肉の塊になるんだ",
-                    "maleVariant": null,
-                    "stringId": 2230325879018078208
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "フッ、それにはちゃんと対策があるんだよ。偏桃体を取り替えれば問題ない",
-                    "maleVariant": null,
-                    "stringId": 2230326000048914432
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "へえ、それ初めて聞いた。やってみようかな",
-                    "maleVariant": null,
-                    "stringId": 2230326116029808640
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "全部クラブ行きか？",
+              "maleVariant": "",
+              "stringId": 2156409163642036224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それとオールフーズ。ひとつ残らずね",
+              "maleVariant": "",
+              "stringId": 2230325338355515392
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "少しはこっちに回せよな…  ひと吸いだけでオーバークロック、ネガティブ・レイテンシ状態でクロームとシナプスのピュアなシンクロ…",
+              "maleVariant": "",
+              "stringId": 2230325534581833728
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CHOOH2みたいなもんだ。タンクに燃料を入れてアクセルを踏み込んだら、ブレーキなしで突っ走れる",
+              "maleVariant": "",
+              "stringId": 2230325648398467072
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうかな。疲れを感じないのはいいけど、あれは頭がヤラれちまう",
+              "maleVariant": "",
+              "stringId": 2230325781005582336
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "少しでもやり過ぎたら感覚の抑制が効かなくなる。そしたらガタガタ震える肉の塊になるんだ",
+              "maleVariant": "",
+              "stringId": 2230325879018078208
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "フッ、それにはちゃんと対策があるんだよ。偏桃体を取り替えれば問題ない",
+              "maleVariant": "",
+              "stringId": 2230326000048914432
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "へえ、それ初めて聞いた。やってみようかな",
+              "maleVariant": "",
+              "stringId": 2230326116029808640
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_cpz_chat_035.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あの子の母親は何してるんだっけ？",
-                    "maleVariant": null,
-                    "stringId": 2172160189013811200
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "前はN54で働いてたんだけど、今はキロシの有力プロジェクトマネージャーなの。重役入りするかもしれないんだって",
-                    "maleVariant": null,
-                    "stringId": 2208535656682328064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "子供にはプレッシャーでしょうね",
-                    "maleVariant": null,
-                    "stringId": 2208539025798959104
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "プレッシャーなんて関係ないでしょ。もう自分で働いてて、それなりの家も車も持ってるんだから",
-                    "maleVariant": null,
-                    "stringId": 2208539240295665664
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それも母親をがっかりさせないためにでしょ",
-                    "maleVariant": null,
-                    "stringId": 2208540377136599040
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "別にいいじゃない。私もそんな親が欲しかった",
-                    "maleVariant": null,
-                    "stringId": 2208673911998353408
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あの子の母親は何してるんだっけ？",
+              "maleVariant": "",
+              "stringId": 2172160189013811200
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "前はN54で働いてたんだけど、今はキロシの有力プロジェクトマネージャーなの。重役入りするかもしれないんだって",
+              "maleVariant": "",
+              "stringId": 2208535656682328064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "子供にはプレッシャーでしょうね",
+              "maleVariant": "",
+              "stringId": 2208539025798959104
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "プレッシャーなんて関係ないでしょ。もう自分で働いてて、それなりの家も車も持ってるんだから",
+              "maleVariant": "",
+              "stringId": 2208539240295665664
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それも母親をがっかりさせないためにでしょ",
+              "maleVariant": "",
+              "stringId": 2208540377136599040
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "別にいいじゃない。私もそんな親が欲しかった",
+              "maleVariant": "",
+              "stringId": 2208673911998353408
             }
-          }
+          ]
         }
       }
     },

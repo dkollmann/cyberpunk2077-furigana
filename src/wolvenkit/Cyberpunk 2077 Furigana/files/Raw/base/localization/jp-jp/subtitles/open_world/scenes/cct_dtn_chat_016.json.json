@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_dtn_chat_016.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"mex\" o=\"Es lo mismo con Emilio. Siempre me ayuda con las compras.\" t=\"エミリオもそう。いつも買い物袋を持ってくれるの\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 2172172634114732032
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "特にああいう子たちはね",
-                    "maleVariant": null,
-                    "stringId": 2181106406106959872
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "みんないい子たちよ。そりゃ時には悪さもするけど、男の子っていうのはそういうものだから",
-                    "maleVariant": null,
-                    "stringId": 2181123114301493248
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"mex\" o=\"Si no lo haces mientras eres joven, entonces ¿cuándo?\" t=\"若いうちにいろいろ経験しないと\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 2181123232127881216
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"mex\" o=\"Y te diré una cosa, esos agentes prefieren acosar a nuestros muchachos en lugar de ocuparse de los criminales de verdad.\" t=\"なのに警察は、本当に悪い犯罪者を追わないで、あの子たちに嫌がらせしたりして\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 2181123659493904384
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"mex\" o=\"El otro día, un policía me dijo que Emilio estaba con los Valentinos. ¿Lo puedes creer?\" t=\"この前の警官なんか、エミリオはヴァレンティーノズの一員だって言ったの。信じられる？\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 2181124645708992512
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ただのうわさ話よ。あの子たちは遊んでるだけ",
-                    "maleVariant": null,
-                    "stringId": 2181124829067186176
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"mex\" o=\"Recuerdo cuando Emilio tenía cinco años, era un angelito. No mataba ni a una mosca.\" t=\"エミリオが5つの頃なんて、本当に天使みたいだった。あの子はハエも殺せやしないよ\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 2181128622076956672
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"mex\" o=\"Es lo mismo con Emilio. Siempre me ayuda con las compras.\" t=\"エミリオもそう。いつも買い物袋を持ってくれるの\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 2172172634114732032
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "特にああいう子たちはね",
+              "maleVariant": "",
+              "stringId": 2181106406106959872
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "みんないい子たちよ。そりゃ時には悪さもするけど、男の子っていうのはそういうものだから",
+              "maleVariant": "",
+              "stringId": 2181123114301493248
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"mex\" o=\"Si no lo haces mientras eres joven, entonces ¿cuándo?\" t=\"若いうちにいろいろ経験しないと\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 2181123232127881216
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"mex\" o=\"Y te diré una cosa, esos agentes prefieren acosar a nuestros muchachos en lugar de ocuparse de los criminales de verdad.\" t=\"なのに警察は、本当に悪い犯罪者を追わないで、あの子たちに嫌がらせしたりして\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 2181123659493904384
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"mex\" o=\"El otro día, un policía me dijo que Emilio estaba con los Valentinos. ¿Lo puedes creer?\" t=\"この前の警官なんか、エミリオはヴァレンティーノズの一員だって言ったの。信じられる？\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 2181124645708992512
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ただのうわさ話よ。あの子たちは遊んでるだけ",
+              "maleVariant": "",
+              "stringId": 2181124829067186176
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"mex\" o=\"Recuerdo cuando Emilio tenía cinco años, era un angelito. No mataba ni a una mosca.\" t=\"エミリオが5つの頃なんて、本当に天使みたいだった。あの子はハエも殺せやしないよ\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 2181128622076956672
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_east_007.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソ、夜通し走ったんだぞ",
-                    "maleVariant": null,
-                    "stringId": 1976299695402405888
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "筋肉痛はひどいし、頭も痛いしだな…",
-                    "maleVariant": null,
-                    "stringId": 1976299717934206976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "トケイソウのオイルでマッサージしてもいい",
-                    "maleVariant": null,
-                    "stringId": 1976299741288091648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "効きそうだな… でも、そんなのキャンプにあるのか？",
-                    "maleVariant": null,
-                    "stringId": 1976299768416849920
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いや… ない。クサでも吸って、寝るしかないな",
-                    "maleVariant": null,
-                    "stringId": 1976299792055947264
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "元々そのつもりだったんだよ",
-                    "maleVariant": null,
-                    "stringId": 1976299819973234688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何の役にも立たない話をしやがって…",
-                    "maleVariant": null,
-                    "stringId": 1976299843041906688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "エプソムソルトを入れた風呂に浸かってみろ",
-                    "maleVariant": null,
-                    "stringId": 1976300559714242560
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソ、夜通し走ったんだぞ",
+              "maleVariant": "",
+              "stringId": 1976299695402405888
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "筋肉痛はひどいし、頭も痛いしだな…",
+              "maleVariant": "",
+              "stringId": 1976299717934206976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "トケイソウのオイルでマッサージしてもいい",
+              "maleVariant": "",
+              "stringId": 1976299741288091648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "効きそうだな… でも、そんなのキャンプにあるのか？",
+              "maleVariant": "",
+              "stringId": 1976299768416849920
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いや… ない。クサでも吸って、寝るしかないな",
+              "maleVariant": "",
+              "stringId": 1976299792055947264
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "元々そのつもりだったんだよ",
+              "maleVariant": "",
+              "stringId": 1976299819973234688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何の役にも立たない話をしやがって…",
+              "maleVariant": "",
+              "stringId": 1976299843041906688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "エプソムソルトを入れた風呂に浸かってみろ",
+              "maleVariant": "",
+              "stringId": 1976300559714242560
             }
-          }
+          ]
         }
       }
     },

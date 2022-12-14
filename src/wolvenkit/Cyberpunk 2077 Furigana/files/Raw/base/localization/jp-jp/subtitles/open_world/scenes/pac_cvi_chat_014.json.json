@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_cvi_chat_014.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あのスーツを来たバカを見ろよ。哀れだな",
-                    "maleVariant": null,
-                    "stringId": 2179385098424840192
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "へっ、あの様子じゃ、どうやってここに来たかすら思い出せないんじゃないか？",
-                    "maleVariant": null,
-                    "stringId": 2192295237202460672
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ホテルのそばを歩いてたら、あいつがいたんだ。同僚と賭けをしたとか、あと何日泊まるとかぶつぶつ言ってた",
-                    "maleVariant": null,
-                    "stringId": 2192295368484175872
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "コーポだろ？ はるばるチャーター・ヒルから来たんだな",
-                    "maleVariant": null,
-                    "stringId": 2192295527381188608
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お決まりの、仕事帰りに何杯か飲んで、ってやつか",
-                    "maleVariant": null,
-                    "stringId": 2192295795262996480
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "起きて銃も金もなくなってたら、どんな顔をするんだろうな",
-                    "maleVariant": null,
-                    "stringId": 2192295941845532672
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "え、襲ったのか？",
-                    "maleVariant": null,
-                    "stringId": 2192296046787018752
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "襲わないほうが罪だ。とにかく、いい銃持ってたぜ",
-                    "maleVariant": null,
-                    "stringId": 2192296340455407616
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あのスーツを来たバカを見ろよ。哀れだな",
+              "maleVariant": "",
+              "stringId": 2179385098424840192
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "へっ、あの様子じゃ、どうやってここに来たかすら思い出せないんじゃないか？",
+              "maleVariant": "",
+              "stringId": 2192295237202460672
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ホテルのそばを歩いてたら、あいつがいたんだ。同僚と賭けをしたとか、あと何日泊まるとかぶつぶつ言ってた",
+              "maleVariant": "",
+              "stringId": 2192295368484175872
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "コーポだろ？ はるばるチャーター・ヒルから来たんだな",
+              "maleVariant": "",
+              "stringId": 2192295527381188608
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お決まりの、仕事帰りに何杯か飲んで、ってやつか",
+              "maleVariant": "",
+              "stringId": 2192295795262996480
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "起きて銃も金もなくなってたら、どんな顔をするんだろうな",
+              "maleVariant": "",
+              "stringId": 2192295941845532672
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "え、襲ったのか？",
+              "maleVariant": "",
+              "stringId": 2192296046787018752
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "襲わないほうが罪だ。とにかく、いい銃持ってたぜ",
+              "maleVariant": "",
+              "stringId": 2192296340455407616
             }
-          }
+          ]
         }
       }
     },

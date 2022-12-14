@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_gle_chat_002.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "大人になったら何になりたいんだい？",
-                    "maleVariant": null,
-                    "stringId": 1807017843261825024
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "コンバットメディック！ テレビで見るヤツ！",
-                    "maleVariant": null,
-                    "stringId": 1807023236482457600
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ほう、すごいな！ じゃあ人の命を助けるんだね？",
-                    "maleVariant": null,
-                    "stringId": 1807023407274516480
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うん！ でもサイバーサイコはみんなやっつけるの！ パパがいつも見てる番組みたいに！",
-                    "maleVariant": null,
-                    "stringId": 1807023619338526720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でも薬はあげない！ 打ってから助ける意味なんてないもん！",
-                    "maleVariant": null,
-                    "stringId": 1807023792345178112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "トラウマ・チームの一員になるなら、うんと勉強しないと。とっても優秀な人たちしかなれないからね",
-                    "maleVariant": null,
-                    "stringId": 1807023990265995264
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "大人になったら何になりたいんだい？",
+              "maleVariant": "",
+              "stringId": 1807017843261825024
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "コンバットメディック！ テレビで見るヤツ！",
+              "maleVariant": "",
+              "stringId": 1807023236482457600
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ほう、すごいな！ じゃあ人の命を助けるんだね？",
+              "maleVariant": "",
+              "stringId": 1807023407274516480
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うん！ でもサイバーサイコはみんなやっつけるの！ パパがいつも見てる番組みたいに！",
+              "maleVariant": "",
+              "stringId": 1807023619338526720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でも薬はあげない！ 打ってから助ける意味なんてないもん！",
+              "maleVariant": "",
+              "stringId": 1807023792345178112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "トラウマ・チームの一員になるなら、うんと勉強しないと。とっても優秀な人たちしかなれないからね",
+              "maleVariant": "",
+              "stringId": 1807023990265995264
             }
-          }
+          ]
         }
       }
     },

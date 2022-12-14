@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_north_006.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "その時、ブラック・レイスは地平線上に緑色に輝く光を見た",
-                    "maleVariant": null,
-                    "stringId": 1973565475202834432
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "面白かったからいいじゃん！",
-                    "maleVariant": null,
-                    "stringId": 1974912584829878272
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "バカバカしい。子供だましにも程がある",
-                    "maleVariant": null,
-                    "stringId": 1974912689049944064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やったーっ！",
-                    "maleVariant": null,
-                    "stringId": 1974912720037462016
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "彼の裏切りは許された。やり直す機会を与えられたのだ",
-                    "maleVariant": null,
-                    "stringId": 1974912741545852928
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そして、その影が彼に手を伸ばした時… バン！ ブラック・レイスは家族のいるキャンプで目を覚ました",
-                    "maleVariant": null,
-                    "stringId": 1974912762349600768
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AVが墜落したのかと思ったが、いざ近づいてみると、怪しい影がユラユラと揺れていた",
-                    "maleVariant": null,
-                    "stringId": 1974912782482259968
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "その時、ブラック・レイスは地平線上に緑色に輝く光を見た",
+              "maleVariant": "",
+              "stringId": 1973565475202834432
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "面白かったからいいじゃん！",
+              "maleVariant": "",
+              "stringId": 1974912584829878272
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "バカバカしい。子供だましにも程がある",
+              "maleVariant": "",
+              "stringId": 1974912689049944064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やったーっ！",
+              "maleVariant": "",
+              "stringId": 1974912720037462016
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "彼の裏切りは許された。やり直す機会を与えられたのだ",
+              "maleVariant": "",
+              "stringId": 1974912741545852928
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そして、その影が彼に手を伸ばした時… バン！ ブラック・レイスは家族のいるキャンプで目を覚ました",
+              "maleVariant": "",
+              "stringId": 1974912762349600768
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AVが墜落したのかと思ったが、いざ近づいてみると、怪しい影がユラユラと揺れていた",
+              "maleVariant": "",
+              "stringId": 1974912782482259968
             }
-          }
+          ]
         }
       }
     },

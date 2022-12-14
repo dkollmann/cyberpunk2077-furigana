@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_nok_chat_019.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あと何ミリか在庫はある",
-                    "maleVariant": null,
-                    "stringId": 2159443550084243456
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あんたのためなら構わないぜ。エディーを送ってくれ。いつもの3倍だ",
-                    "maleVariant": null,
-                    "stringId": 2199624549182664704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おいおい。クリスタル・パレスの連中が吸ってるシロモノだぞ。いいモノは安くない。当たり前だろ",
-                    "maleVariant": null,
-                    "stringId": 2199624911352426496
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ… ああ、それでいい",
-                    "maleVariant": null,
-                    "stringId": 2199627239979675648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "よし、確認した。気前がいいな",
-                    "maleVariant": null,
-                    "stringId": 2199627724539228160
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いや、街の反対側にいる。なるべく早く寄らせてもらうよ",
-                    "maleVariant": null,
-                    "stringId": 2199628191835025408
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あと何ミリか在庫はある",
+              "maleVariant": "",
+              "stringId": 2159443550084243456
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あんたのためなら構わないぜ。エディーを送ってくれ。いつもの3倍だ",
+              "maleVariant": "",
+              "stringId": 2199624549182664704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おいおい。クリスタル・パレスの連中が吸ってるシロモノだぞ。いいモノは安くない。当たり前だろ",
+              "maleVariant": "",
+              "stringId": 2199624911352426496
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ… ああ、それでいい",
+              "maleVariant": "",
+              "stringId": 2199627239979675648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "よし、確認した。気前がいいな",
+              "maleVariant": "",
+              "stringId": 2199627724539228160
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いや、街の反対側にいる。なるべく早く寄らせてもらうよ",
+              "maleVariant": "",
+              "stringId": 2199628191835025408
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\sq021\\sq021_13_wrong_farm.json"
@@ -11,154 +11,116 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "リバー、覚悟はいい？",
-                    "maleVariant": "リバー、覚悟はいいか？",
-                    "stringId": 1721334711715860480
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それは… 何の覚悟を言ってるんだ？",
-                    "maleVariant": null,
-                    "stringId": 1721334711715860488
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソ… タレットがない…",
-                    "maleVariant": null,
-                    "stringId": 1721372899830370304
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "リバー？",
-                    "maleVariant": null,
-                    "stringId": 1721377475329495040
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソ！ ここじゃない！ 別の農場だ！",
-                    "maleVariant": null,
-                    "stringId": 1721380205217419264
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "じゃあこっちは…",
-                    "maleVariant": null,
-                    "stringId": 1721380434746511360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "その… 待ってる結果についてよ",
-                    "maleVariant": "その… 待ってる結果についてだ",
-                    "stringId": 1775208601830428672
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "縁起でもないことを言わないでくれ。ランディは絶対に大丈夫だ",
-                    "maleVariant": null,
-                    "stringId": 1775208819783241728
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "え？",
-                    "maleVariant": null,
-                    "stringId": 1775209841045934080
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "タレット、それに地雷があるはずだろ？",
-                    "maleVariant": null,
-                    "stringId": 1775209956489957376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ってことは… クソッ",
-                    "maleVariant": null,
-                    "stringId": 1775210219707699200
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソ… 早く車に戻るぞ！",
-                    "maleVariant": null,
-                    "stringId": 1779562686331359232
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "V！ どこに行く気だ！？ 戻ってこい！",
-                    "maleVariant": null,
-                    "stringId": 1957808864025874432
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わかったな？ きっと… きっと大丈夫だ",
-                    "maleVariant": null,
-                    "stringId": 2005536111569539072
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちくしょう、こんな時にレイスのお出ましか… クソ！",
-                    "maleVariant": null,
-                    "stringId": 2008765550511853568
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[乗る]",
-                    "maleVariant": null,
-                    "stringId": 2390864409785241604
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[降りる]",
-                    "maleVariant": null,
-                    "stringId": 2390869187735031812
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "リバー、覚悟はいい？",
+              "maleVariant": "リバー、覚悟はいいか？",
+              "stringId": 1721334711715860480
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それは… 何の覚悟を言ってるんだ？",
+              "maleVariant": "",
+              "stringId": 1721334711715860488
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソ… タレットがない…",
+              "maleVariant": "",
+              "stringId": 1721372899830370304
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "リバー？",
+              "maleVariant": "",
+              "stringId": 1721377475329495040
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソ！ ここじゃない！ 別の農場だ！",
+              "maleVariant": "",
+              "stringId": 1721380205217419264
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "じゃあこっちは…",
+              "maleVariant": "",
+              "stringId": 1721380434746511360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "その… 待ってる結果についてよ",
+              "maleVariant": "その… 待ってる結果についてだ",
+              "stringId": 1775208601830428672
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "縁起でもないことを言わないでくれ。ランディは絶対に大丈夫だ",
+              "maleVariant": "",
+              "stringId": 1775208819783241728
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "え？",
+              "maleVariant": "",
+              "stringId": 1775209841045934080
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "タレット、それに地雷があるはずだろ？",
+              "maleVariant": "",
+              "stringId": 1775209956489957376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ってことは… クソッ",
+              "maleVariant": "",
+              "stringId": 1775210219707699200
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソ… 早く車に戻るぞ！",
+              "maleVariant": "",
+              "stringId": 1779562686331359232
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "V！ どこに行く気だ！？ 戻ってこい！",
+              "maleVariant": "",
+              "stringId": 1957808864025874432
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わかったな？ きっと… きっと大丈夫だ",
+              "maleVariant": "",
+              "stringId": 2005536111569539072
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちくしょう、こんな時にレイスのお出ましか… クソ！",
+              "maleVariant": "",
+              "stringId": 2008765550511853568
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[乗る]",
+              "maleVariant": "",
+              "stringId": 2390864409785241604
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[降りる]",
+              "maleVariant": "",
+              "stringId": 2390869187735031812
             }
-          }
+          ]
         }
       }
     },

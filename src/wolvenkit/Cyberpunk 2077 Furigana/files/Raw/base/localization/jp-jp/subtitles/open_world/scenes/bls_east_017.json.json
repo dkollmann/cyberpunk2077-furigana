@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_east_017.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしかして、こういう汚いとこでヤるのが好きなの？",
-                    "maleVariant": null,
-                    "stringId": 2189664249187098624
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "街の小綺麗なマンションでも、やることは一緒だろ",
-                    "maleVariant": null,
-                    "stringId": 2189665512125587456
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "車の中でもよかったじゃない",
-                    "maleVariant": null,
-                    "stringId": 2189667913565954048
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ここは、元妻とのデートを思い出させるんだ。そうやっていちいち文句を言われるところもな",
-                    "maleVariant": null,
-                    "stringId": 2189668509610106880
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしかして、こういう汚いとこでヤるのが好きなの？",
+              "maleVariant": "",
+              "stringId": 2189664249187098624
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "街の小綺麗なマンションでも、やることは一緒だろ",
+              "maleVariant": "",
+              "stringId": 2189665512125587456
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "車の中でもよかったじゃない",
+              "maleVariant": "",
+              "stringId": 2189667913565954048
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ここは、元妻とのデートを思い出させるんだ。そうやっていちいち文句を言われるところもな",
+              "maleVariant": "",
+              "stringId": 2189668509610106880
             }
-          }
+          ]
         }
       }
     },

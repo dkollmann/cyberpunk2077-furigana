@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_m_98_jap_25.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やあ、元気かい？",
-                    "maleVariant": null,
-                    "stringId": 1922921197622272000
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "イカした格好してるな",
-                    "maleVariant": null,
-                    "stringId": 1922921197639049220
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい！",
-                    "maleVariant": null,
-                    "stringId": 1922921197689380868
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おっと…！ 気にしないで",
-                    "maleVariant": null,
-                    "stringId": 1922921197722935300
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもし？",
-                    "maleVariant": null,
-                    "stringId": 1922921197773266948
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今日は無理だ… ダンジョン・アーケードに行くんだよ… ああ、ゲームはいいぞ！",
-                    "maleVariant": null,
-                    "stringId": 1922921197857153028
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今日はローグで全クリを目指してやる… ああ… 君は何するの？ 相変わらずだな",
-                    "maleVariant": null,
-                    "stringId": 1922921197890707456
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いいんだ、また今度！",
-                    "maleVariant": null,
-                    "stringId": 1922921197924261892
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うそだろ、今日もかよ！？",
-                    "maleVariant": null,
-                    "stringId": 1922921198092034052
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうかしてるぞ！",
-                    "maleVariant": null,
-                    "stringId": 1922921198108811268
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "死にたくない！",
-                    "maleVariant": null,
-                    "stringId": 1922921198209474564
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いや…！ 嫌だ…！",
-                    "maleVariant": null,
-                    "stringId": 1922921198243028996
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちょっと！ 何のつもりだよ？",
-                    "maleVariant": null,
-                    "stringId": 1922921198326915076
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あの… 何か？",
-                    "maleVariant": null,
-                    "stringId": 1922921198360469508
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やあ、元気かい？",
+              "maleVariant": "",
+              "stringId": 1922921197622272000
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "イカした格好してるな",
+              "maleVariant": "",
+              "stringId": 1922921197639049220
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい！",
+              "maleVariant": "",
+              "stringId": 1922921197689380868
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おっと…！ 気にしないで",
+              "maleVariant": "",
+              "stringId": 1922921197722935300
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもし？",
+              "maleVariant": "",
+              "stringId": 1922921197773266948
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今日は無理だ… ダンジョン・アーケードに行くんだよ… ああ、ゲームはいいぞ！",
+              "maleVariant": "",
+              "stringId": 1922921197857153028
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今日はローグで全クリを目指してやる… ああ… 君は何するの？ 相変わらずだな",
+              "maleVariant": "",
+              "stringId": 1922921197890707456
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いいんだ、また今度！",
+              "maleVariant": "",
+              "stringId": 1922921197924261892
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うそだろ、今日もかよ！？",
+              "maleVariant": "",
+              "stringId": 1922921198092034052
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうかしてるぞ！",
+              "maleVariant": "",
+              "stringId": 1922921198108811268
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "死にたくない！",
+              "maleVariant": "",
+              "stringId": 1922921198209474564
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いや…！ 嫌だ…！",
+              "maleVariant": "",
+              "stringId": 1922921198243028996
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちょっと！ 何のつもりだよ？",
+              "maleVariant": "",
+              "stringId": 1922921198326915076
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あの… 何か？",
+              "maleVariant": "",
+              "stringId": 1922921198360469508
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q101\\q101_02_vision_and_sobchuk.json"
@@ -11,122 +11,92 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "思ったより、重たい奴だ",
-                    "maleVariant": null,
-                    "stringId": 1619975957529120768
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "アラサカ様、お父上の殺害犯を見つけました",
-                    "maleVariant": null,
-                    "stringId": 1619982210464632832
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "よし、いいか。俺は言われたとおりにした。ここはひとつ話を――",
-                    "maleVariant": null,
-                    "stringId": 1633093448555352064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ほう…",
-                    "maleVariant": null,
-                    "stringId": 1634660074048245760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソ、ひどい臭いだ",
-                    "maleVariant": null,
-                    "stringId": 1650327697092038656
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1時間後には着くかと",
-                    "maleVariant": null,
-                    "stringId": 1651625050885378048
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "助けて…",
-                    "maleVariant": "助けてくれ…",
-                    "stringId": 1660499927754301444
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソ…",
-                    "maleVariant": null,
-                    "stringId": 1660501001882001408
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "助けて…",
-                    "maleVariant": "助けてくれ…",
-                    "stringId": 1660501871797428260
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ…！ クソッ…",
-                    "maleVariant": "くっ！ クソ…",
-                    "stringId": 1660503785993887760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "黙れ",
-                    "maleVariant": null,
-                    "stringId": 1660512436829773828
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この女で間違いありません",
-                    "maleVariant": "この男で間違いありません",
-                    "stringId": 1661813504306892800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "はい",
-                    "maleVariant": null,
-                    "stringId": 1661813748482494464
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "思ったより、重たい奴だ",
+              "maleVariant": "",
+              "stringId": 1619975957529120768
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "アラサカ様、お父上の殺害犯を見つけました",
+              "maleVariant": "",
+              "stringId": 1619982210464632832
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "よし、いいか。俺は言われたとおりにした。ここはひとつ話を――",
+              "maleVariant": "",
+              "stringId": 1633093448555352064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ほう…",
+              "maleVariant": "",
+              "stringId": 1634660074048245760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソ、ひどい臭いだ",
+              "maleVariant": "",
+              "stringId": 1650327697092038656
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1時間後には着くかと",
+              "maleVariant": "",
+              "stringId": 1651625050885378048
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "助けて…",
+              "maleVariant": "助けてくれ…",
+              "stringId": 1660499927754301444
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソ…",
+              "maleVariant": "",
+              "stringId": 1660501001882001408
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "助けて…",
+              "maleVariant": "助けてくれ…",
+              "stringId": 1660501871797428260
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ…！ クソッ…",
+              "maleVariant": "くっ！ クソ…",
+              "stringId": 1660503785993887760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "黙れ",
+              "maleVariant": "",
+              "stringId": 1660512436829773828
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この女で間違いありません",
+              "maleVariant": "この男で間違いありません",
+              "stringId": 1661813504306892800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "はい",
+              "maleVariant": "",
+              "stringId": 1661813748482494464
             }
-          }
+          ]
         }
       }
     },

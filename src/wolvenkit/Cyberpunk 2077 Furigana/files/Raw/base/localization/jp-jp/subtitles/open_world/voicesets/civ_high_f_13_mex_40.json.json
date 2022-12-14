@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_high_f_13_mex_40.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何の用？",
-                    "maleVariant": null,
-                    "stringId": 1946157007185240068
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "余計な騒ぎを起こさないでね",
-                    "maleVariant": null,
-                    "stringId": 1946157007218794500
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私が誰か知ってるの？",
-                    "maleVariant": null,
-                    "stringId": 1946157007285903364
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どういうつもり？",
-                    "maleVariant": null,
-                    "stringId": 1946157007302680580
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あらあ！ 最近どう？",
-                    "maleVariant": null,
-                    "stringId": 1946157007336235012
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うそ… もう…？ その若さで…？ おめでとう… 正直びっくりした",
-                    "maleVariant": null,
-                    "stringId": 1946157007403343876
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うちの子…？ まだ学校よ… でも、うちの人がもうインターンシップ先を決めてきてね… どことかは言わないけど！",
-                    "maleVariant": null,
-                    "stringId": 1946157007420121092
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "じゃあまたね",
-                    "maleVariant": null,
-                    "stringId": 1946157007453675524
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うそでしょ！",
-                    "maleVariant": null,
-                    "stringId": 1946157007604670464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "誰かお願い、助けて！",
-                    "maleVariant": null,
-                    "stringId": 1946157007621447684
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こんなこと許されないわよ！",
-                    "maleVariant": null,
-                    "stringId": 1946157007722110980
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あっち行ってよ！",
-                    "maleVariant": null,
-                    "stringId": 1946157007738888196
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "プライバシーの侵害よ",
-                    "maleVariant": null,
-                    "stringId": 1946157007822774276
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ほっといてちょうだい！",
-                    "maleVariant": null,
-                    "stringId": 1946157007856328708
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何の用？",
+              "maleVariant": "",
+              "stringId": 1946157007185240068
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "余計な騒ぎを起こさないでね",
+              "maleVariant": "",
+              "stringId": 1946157007218794500
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私が誰か知ってるの？",
+              "maleVariant": "",
+              "stringId": 1946157007285903364
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どういうつもり？",
+              "maleVariant": "",
+              "stringId": 1946157007302680580
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あらあ！ 最近どう？",
+              "maleVariant": "",
+              "stringId": 1946157007336235012
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うそ… もう…？ その若さで…？ おめでとう… 正直びっくりした",
+              "maleVariant": "",
+              "stringId": 1946157007403343876
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うちの子…？ まだ学校よ… でも、うちの人がもうインターンシップ先を決めてきてね… どことかは言わないけど！",
+              "maleVariant": "",
+              "stringId": 1946157007420121092
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "じゃあまたね",
+              "maleVariant": "",
+              "stringId": 1946157007453675524
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うそでしょ！",
+              "maleVariant": "",
+              "stringId": 1946157007604670464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "誰かお願い、助けて！",
+              "maleVariant": "",
+              "stringId": 1946157007621447684
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こんなこと許されないわよ！",
+              "maleVariant": "",
+              "stringId": 1946157007722110980
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あっち行ってよ！",
+              "maleVariant": "",
+              "stringId": 1946157007738888196
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "プライバシーの侵害よ",
+              "maleVariant": "",
+              "stringId": 1946157007822774276
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ほっといてちょうだい！",
+              "maleVariant": "",
+              "stringId": 1946157007856328708
             }
-          }
+          ]
         }
       }
     },

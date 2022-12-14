@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_wat_lch_05_holocall_debrief.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ジェイコブは目を取り返せたし、目標は達成した。でもV… 今回の仕事ぶりは褒められるものじゃないわ",
-                    "maleVariant": null,
-                    "stringId": 2329228966729129984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "任務完了ね。ジェイコブが感謝してたわよ",
-                    "maleVariant": null,
-                    "stringId": 2329229293381525504
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "“目を見張るような”働きだったって。それじゃ、ご苦労様",
-                    "maleVariant": null,
-                    "stringId": 2334832993867501568
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "次はもう少し努力してちょうだい。いいわね？ じゃ、お疲れ様",
-                    "maleVariant": null,
-                    "stringId": 2334834634175909888
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ジェイコブは目を取り返せたし、目標は達成した。でもV… 今回の仕事ぶりは褒められるものじゃないわ",
+              "maleVariant": "",
+              "stringId": 2329228966729129984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "任務完了ね。ジェイコブが感謝してたわよ",
+              "maleVariant": "",
+              "stringId": 2329229293381525504
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "“目を見張るような”働きだったって。それじゃ、ご苦労様",
+              "maleVariant": "",
+              "stringId": 2334832993867501568
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "次はもう少し努力してちょうだい。いいわね？ じゃ、お疲れ様",
+              "maleVariant": "",
+              "stringId": 2334834634175909888
             }
-          }
+          ]
         }
       }
     },

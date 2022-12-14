@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\bls_ina_se1_clothingshop_01.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちゃんとした服を探してる",
-                    "maleVariant": null,
-                    "stringId": 1935645915449044992
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "売ってるのは新品、それとも古着？",
-                    "maleVariant": "売ってるのは新品、それとも古着か？",
-                    "stringId": 1935645915449045008
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちゃんとしたアウターを探してて",
-                    "maleVariant": null,
-                    "stringId": 1935645915751034884
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ツイてるわね。うちの服はモノも値段もちゃんとしてるわよ",
-                    "maleVariant": null,
-                    "stringId": 1935645915751034892
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "扱ってるのは新品？ 古着？",
-                    "maleVariant": null,
-                    "stringId": 1935645915784589316
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "古着よ。こんなところに新品を出荷する業者なんていない",
-                    "maleVariant": null,
-                    "stringId": 1935645915784589324
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でも、ここにはここのやり方がある。ハイウェイを歩いて、瓦礫の下を覗くの… 値打ちものが転がってたらラッキーでしょ",
-                    "maleVariant": null,
-                    "stringId": 1975127889678749696
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちゃんとした服を探してる",
+              "maleVariant": "",
+              "stringId": 1935645915449044992
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "売ってるのは新品、それとも古着？",
+              "maleVariant": "売ってるのは新品、それとも古着か？",
+              "stringId": 1935645915449045008
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちゃんとしたアウターを探してて",
+              "maleVariant": "",
+              "stringId": 1935645915751034884
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ツイてるわね。うちの服はモノも値段もちゃんとしてるわよ",
+              "maleVariant": "",
+              "stringId": 1935645915751034892
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "扱ってるのは新品？ 古着？",
+              "maleVariant": "",
+              "stringId": 1935645915784589316
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "古着よ。こんなところに新品を出荷する業者なんていない",
+              "maleVariant": "",
+              "stringId": 1935645915784589324
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でも、ここにはここのやり方がある。ハイウェイを歩いて、瓦礫の下を覗くの… 値打ちものが転がってたらラッキーでしょ",
+              "maleVariant": "",
+              "stringId": 1975127889678749696
             }
-          }
+          ]
         }
       }
     },

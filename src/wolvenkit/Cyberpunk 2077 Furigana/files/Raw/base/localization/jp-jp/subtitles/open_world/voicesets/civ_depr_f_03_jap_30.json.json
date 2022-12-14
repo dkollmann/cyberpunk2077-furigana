@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_depr_f_03_jap_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうすればいいの…？",
-                    "maleVariant": null,
-                    "stringId": 1955954079799746564
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やってけっこない！",
-                    "maleVariant": null,
-                    "stringId": 1955954079833300992
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ごめんなさい…",
-                    "maleVariant": null,
-                    "stringId": 1955954079883632644
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "平気です",
-                    "maleVariant": null,
-                    "stringId": 1955954079900409860
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもし？",
-                    "maleVariant": null,
-                    "stringId": 1955954079933964292
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ううん… 娘さんがね… 亡くなったから… そうなの… 夜道で襲われたらしくって… お友達の家から帰る途中だったみたい",
-                    "maleVariant": null,
-                    "stringId": 1955954079984295940
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ありがとう… 私もよ… どうかしら… 彼女に会えなくなったら私… そうかもね… もちろん… その通りね",
-                    "maleVariant": null,
-                    "stringId": 1955954080001073156
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うん… さよなら",
-                    "maleVariant": null,
-                    "stringId": 1955954080034627588
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そんな… イヤ！",
-                    "maleVariant": null,
-                    "stringId": 1955954080185622532
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "悪夢だわ！",
-                    "maleVariant": null,
-                    "stringId": 1955954080202399748
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ううっ… うう…",
-                    "maleVariant": null,
-                    "stringId": 1955954080286285828
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こんな人生、送りたくなかった！",
-                    "maleVariant": null,
-                    "stringId": 1955954080303063044
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "すいません… あっち行ってください",
-                    "maleVariant": null,
-                    "stringId": 1955954080386949124
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ほっといて",
-                    "maleVariant": null,
-                    "stringId": 1955954080403726340
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうすればいいの…？",
+              "maleVariant": "",
+              "stringId": 1955954079799746564
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やってけっこない！",
+              "maleVariant": "",
+              "stringId": 1955954079833300992
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ごめんなさい…",
+              "maleVariant": "",
+              "stringId": 1955954079883632644
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "平気です",
+              "maleVariant": "",
+              "stringId": 1955954079900409860
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもし？",
+              "maleVariant": "",
+              "stringId": 1955954079933964292
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ううん… 娘さんがね… 亡くなったから… そうなの… 夜道で襲われたらしくって… お友達の家から帰る途中だったみたい",
+              "maleVariant": "",
+              "stringId": 1955954079984295940
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ありがとう… 私もよ… どうかしら… 彼女に会えなくなったら私… そうかもね… もちろん… その通りね",
+              "maleVariant": "",
+              "stringId": 1955954080001073156
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うん… さよなら",
+              "maleVariant": "",
+              "stringId": 1955954080034627588
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そんな… イヤ！",
+              "maleVariant": "",
+              "stringId": 1955954080185622532
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "悪夢だわ！",
+              "maleVariant": "",
+              "stringId": 1955954080202399748
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ううっ… うう…",
+              "maleVariant": "",
+              "stringId": 1955954080286285828
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こんな人生、送りたくなかった！",
+              "maleVariant": "",
+              "stringId": 1955954080303063044
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "すいません… あっち行ってください",
+              "maleVariant": "",
+              "stringId": 1955954080386949124
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ほっといて",
+              "maleVariant": "",
+              "stringId": 1955954080403726340
             }
-          }
+          ]
         }
       }
     },

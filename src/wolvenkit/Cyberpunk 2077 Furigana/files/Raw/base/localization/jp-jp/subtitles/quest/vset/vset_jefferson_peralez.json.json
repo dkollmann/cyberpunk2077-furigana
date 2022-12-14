@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\vset\\vset_jefferson_peralez.json"
@@ -11,114 +11,86 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうも",
-                    "maleVariant": null,
-                    "stringId": 1796889441146486784
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "また会ったな、V",
-                    "maleVariant": null,
-                    "stringId": 1796889441163264004
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わかった、また後でな",
-                    "maleVariant": null,
-                    "stringId": 1796889441263927300
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうか、また後で会おう",
-                    "maleVariant": null,
-                    "stringId": 1796889441297481732
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "さて、どこまで話したかな…",
-                    "maleVariant": null,
-                    "stringId": 1796889441381367812
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "V…",
-                    "maleVariant": null,
-                    "stringId": 1796889441414922244
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "V？",
-                    "maleVariant": null,
-                    "stringId": 1796889441431699460
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうかしたか？",
-                    "maleVariant": null,
-                    "stringId": 1796889441465253888
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おっと失礼",
-                    "maleVariant": null,
-                    "stringId": 1796889441716912132
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "気をつけてくれ",
-                    "maleVariant": null,
-                    "stringId": 1796889441750466564
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "V？ もしもし？",
-                    "maleVariant": null,
-                    "stringId": 1966184162390843396
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まだそこにいるのか？",
-                    "maleVariant": null,
-                    "stringId": 1966184162441175044
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうも",
+              "maleVariant": "",
+              "stringId": 1796889441146486784
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "また会ったな、V",
+              "maleVariant": "",
+              "stringId": 1796889441163264004
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わかった、また後でな",
+              "maleVariant": "",
+              "stringId": 1796889441263927300
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうか、また後で会おう",
+              "maleVariant": "",
+              "stringId": 1796889441297481732
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "さて、どこまで話したかな…",
+              "maleVariant": "",
+              "stringId": 1796889441381367812
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "V…",
+              "maleVariant": "",
+              "stringId": 1796889441414922244
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "V？",
+              "maleVariant": "",
+              "stringId": 1796889441431699460
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうかしたか？",
+              "maleVariant": "",
+              "stringId": 1796889441465253888
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おっと失礼",
+              "maleVariant": "",
+              "stringId": 1796889441716912132
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "気をつけてくれ",
+              "maleVariant": "",
+              "stringId": 1796889441750466564
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "V？ もしもし？",
+              "maleVariant": "",
+              "stringId": 1966184162390843396
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まだそこにいるのか？",
+              "maleVariant": "",
+              "stringId": 1966184162441175044
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_mid_f_66_nat_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この街に現実なんてない…",
-                    "maleVariant": null,
-                    "stringId": 1954556457243418628
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今に戦争が始まる",
-                    "maleVariant": null,
-                    "stringId": 1954556457276973060
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わざとあたったの？",
-                    "maleVariant": null,
-                    "stringId": 1954556457327304704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "触らないでよ",
-                    "maleVariant": null,
-                    "stringId": 1954556457344081924
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "言ったはずよ",
-                    "maleVariant": null,
-                    "stringId": 1954556457377636356
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "荷物に入ってた制服を見たわ… それが仕事なのね… 私も父さんも警告したでしょ",
-                    "maleVariant": null,
-                    "stringId": 1954556457411190788
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うまくいくとは思えない… わかってるでしょ… もちろんあなたが決めることだけど… 企業のほうがよかった",
-                    "maleVariant": null,
-                    "stringId": 1954556457444745220
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "よく考えてみて",
-                    "maleVariant": null,
-                    "stringId": 1954556457478299652
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "銃をちょうだい！",
-                    "maleVariant": null,
-                    "stringId": 1954556457629294596
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "刺激しちゃだめ！",
-                    "maleVariant": null,
-                    "stringId": 1954556457646071812
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お兄ちゃんが警官なのよ！",
-                    "maleVariant": null,
-                    "stringId": 1954556457729957888
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "家族が黙っちゃいないから",
-                    "maleVariant": null,
-                    "stringId": 1954556457746735108
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ただでさえいろいろ大変なのに",
-                    "maleVariant": null,
-                    "stringId": 1954556457813843972
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どっか行ってくれる？",
-                    "maleVariant": null,
-                    "stringId": 1954556457847398404
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この街に現実なんてない…",
+              "maleVariant": "",
+              "stringId": 1954556457243418628
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今に戦争が始まる",
+              "maleVariant": "",
+              "stringId": 1954556457276973060
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わざとあたったの？",
+              "maleVariant": "",
+              "stringId": 1954556457327304704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "触らないでよ",
+              "maleVariant": "",
+              "stringId": 1954556457344081924
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "言ったはずよ",
+              "maleVariant": "",
+              "stringId": 1954556457377636356
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "荷物に入ってた制服を見たわ… それが仕事なのね… 私も父さんも警告したでしょ",
+              "maleVariant": "",
+              "stringId": 1954556457411190788
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うまくいくとは思えない… わかってるでしょ… もちろんあなたが決めることだけど… 企業のほうがよかった",
+              "maleVariant": "",
+              "stringId": 1954556457444745220
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "よく考えてみて",
+              "maleVariant": "",
+              "stringId": 1954556457478299652
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "銃をちょうだい！",
+              "maleVariant": "",
+              "stringId": 1954556457629294596
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "刺激しちゃだめ！",
+              "maleVariant": "",
+              "stringId": 1954556457646071812
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お兄ちゃんが警官なのよ！",
+              "maleVariant": "",
+              "stringId": 1954556457729957888
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "家族が黙っちゃいないから",
+              "maleVariant": "",
+              "stringId": 1954556457746735108
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ただでさえいろいろ大変なのに",
+              "maleVariant": "",
+              "stringId": 1954556457813843972
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どっか行ってくれる？",
+              "maleVariant": "",
+              "stringId": 1954556457847398404
             }
-          }
+          ]
         }
       }
     },

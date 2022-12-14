@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\sq027\\sq027_05b_holocall_basilisk_ready.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "V、バシリスクの準備ができた",
-                    "maleVariant": null,
-                    "stringId": 1787031423702290432
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もちろん",
-                    "maleVariant": null,
-                    "stringId": 1787031612479524868
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今は無理",
-                    "maleVariant": "今は無理だ",
-                    "stringId": 1787032303818264576
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もちろん！ すぐに行く",
-                    "maleVariant": "もちろんだ！ すぐに行く",
-                    "stringId": 1787032929474203652
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今は無理なの。時間ができたら行くよ",
-                    "maleVariant": "今は無理なんだ。時間ができたら行くよ",
-                    "stringId": 1787033082180423684
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ホント、最高だから",
-                    "maleVariant": null,
-                    "stringId": 1787034871353069568
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わかった。待ってるよ",
-                    "maleVariant": null,
-                    "stringId": 1787036031011016704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "乗ってみたい？",
-                    "maleVariant": null,
-                    "stringId": 1806985522639605760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "待ちきれない",
-                    "maleVariant": null,
-                    "stringId": 1806987150063112192
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "V、バシリスクの準備ができた",
+              "maleVariant": "",
+              "stringId": 1787031423702290432
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もちろん",
+              "maleVariant": "",
+              "stringId": 1787031612479524868
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今は無理",
+              "maleVariant": "今は無理だ",
+              "stringId": 1787032303818264576
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もちろん！ すぐに行く",
+              "maleVariant": "もちろんだ！ すぐに行く",
+              "stringId": 1787032929474203652
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今は無理なの。時間ができたら行くよ",
+              "maleVariant": "今は無理なんだ。時間ができたら行くよ",
+              "stringId": 1787033082180423684
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ホント、最高だから",
+              "maleVariant": "",
+              "stringId": 1787034871353069568
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わかった。待ってるよ",
+              "maleVariant": "",
+              "stringId": 1787036031011016704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "乗ってみたい？",
+              "maleVariant": "",
+              "stringId": 1806985522639605760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "待ちきれない",
+              "maleVariant": "",
+              "stringId": 1806987150063112192
             }
-          }
+          ]
         }
       }
     },

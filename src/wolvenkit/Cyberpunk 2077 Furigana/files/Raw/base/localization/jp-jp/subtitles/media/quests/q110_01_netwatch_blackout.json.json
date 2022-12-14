@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\quests\\q110_01_netwatch_blackout.json"
@@ -11,58 +11,44 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こんにちは、ローカルニュースの時間です。オーガニックミート密売組織や、グレンでのマラリア流行についてお伝えします",
-                    "maleVariant": null,
-                    "stringId": 1744334830032183296
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "同地区で数時間に渡り通信障害が発生。住民はネットや地域サブネット、通信システムに接続できなくなりました",
-                    "maleVariant": null,
-                    "stringId": 1744341886478901248
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "NCPDの発表によると、この障害は定期的なメンテナンスによるものとのこと",
-                    "maleVariant": null,
-                    "stringId": 1744350285975314432
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CMの後も、引き続きニュースをお届けします",
-                    "maleVariant": null,
-                    "stringId": 1744350608886390784
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ですがまずはパシフィカにおける不可解な通信障害についてです",
-                    "maleVariant": null,
-                    "stringId": 1744352399770312704
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こんにちは、ローカルニュースの時間です。オーガニックミート密売組織や、グレンでのマラリア流行についてお伝えします",
+              "maleVariant": "",
+              "stringId": 1744334830032183296
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "同地区で数時間に渡り通信障害が発生。住民はネットや地域サブネット、通信システムに接続できなくなりました",
+              "maleVariant": "",
+              "stringId": 1744341886478901248
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "NCPDの発表によると、この障害は定期的なメンテナンスによるものとのこと",
+              "maleVariant": "",
+              "stringId": 1744350285975314432
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CMの後も、引き続きニュースをお届けします",
+              "maleVariant": "",
+              "stringId": 1744350608886390784
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ですがまずはパシフィカにおける不可解な通信障害についてです",
+              "maleVariant": "",
+              "stringId": 1744352399770312704
             }
-          }
+          ]
         }
       }
     },

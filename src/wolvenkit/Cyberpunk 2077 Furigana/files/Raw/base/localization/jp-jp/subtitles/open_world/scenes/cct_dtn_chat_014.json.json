@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_dtn_chat_014.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "本当に最高だったぞ。美形ぞろいで、ドラッグも一級品ばかり。見渡すかぎりセックスの海",
-                    "maleVariant": null,
-                    "stringId": 2172141492196061184
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まだアソコが痛いくらいだ",
-                    "maleVariant": null,
-                    "stringId": 2181036906707783680
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もう途中から、どこまでが自分の体で、どこからが相手のかわからなくなってな",
-                    "maleVariant": null,
-                    "stringId": 2181037123586854912
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "みんな… 何て言うか… 本能の奴隷だった。汗だくの体で何百人も絡み合って… あのリズムと匂いと欲望…",
-                    "maleVariant": null,
-                    "stringId": 2181037272585310208
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まるで… 何時間も続くエクスタシーみたいだった",
-                    "maleVariant": null,
-                    "stringId": 2181037607039111168
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "羨ましすぎる。どうやったら参加できるんだ？ いくらでも払うぞ",
-                    "maleVariant": null,
-                    "stringId": 2181045129657552896
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いや、金の問題じゃない",
-                    "maleVariant": null,
-                    "stringId": 2181046235343196160
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "誰を招待するかを決めるのはモーデリーニだ。全てはあいつ次第。他に入る方法はない",
-                    "maleVariant": null,
-                    "stringId": 2181047238486495232
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "本当に最高だったぞ。美形ぞろいで、ドラッグも一級品ばかり。見渡すかぎりセックスの海",
+              "maleVariant": "",
+              "stringId": 2172141492196061184
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まだアソコが痛いくらいだ",
+              "maleVariant": "",
+              "stringId": 2181036906707783680
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もう途中から、どこまでが自分の体で、どこからが相手のかわからなくなってな",
+              "maleVariant": "",
+              "stringId": 2181037123586854912
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "みんな… 何て言うか… 本能の奴隷だった。汗だくの体で何百人も絡み合って… あのリズムと匂いと欲望…",
+              "maleVariant": "",
+              "stringId": 2181037272585310208
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まるで… 何時間も続くエクスタシーみたいだった",
+              "maleVariant": "",
+              "stringId": 2181037607039111168
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "羨ましすぎる。どうやったら参加できるんだ？ いくらでも払うぞ",
+              "maleVariant": "",
+              "stringId": 2181045129657552896
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いや、金の問題じゃない",
+              "maleVariant": "",
+              "stringId": 2181046235343196160
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "誰を招待するかを決めるのはモーデリーニだ。全てはあいつ次第。他に入る方法はない",
+              "maleVariant": "",
+              "stringId": 2181047238486495232
             }
-          }
+          ]
         }
       }
     },

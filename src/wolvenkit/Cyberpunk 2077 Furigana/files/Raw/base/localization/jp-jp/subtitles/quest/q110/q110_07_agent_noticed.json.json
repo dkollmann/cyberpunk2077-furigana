@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q110\\q110_07_agent_noticed.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "急げ。バンを調べろ",
-                    "maleVariant": null,
-                    "stringId": 1533040390586781696
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "密かに動け、そう言ったはずだ。なぜ手を出した",
-                    "maleVariant": null,
-                    "stringId": 1682206415859814400
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もう遅い。なるようになる",
-                    "maleVariant": null,
-                    "stringId": 1682207867072221184
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今のは何？",
-                    "maleVariant": "今のは何だ？",
-                    "stringId": 1695430519820406784
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "相手のネットランナーだ。お前に侵入しようとした",
-                    "maleVariant": null,
-                    "stringId": 1695430908498169856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "え、まさか…？",
-                    "maleVariant": "おい、まさか…？",
-                    "stringId": 1695637209064214528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ICEを追加している。ひとまず安心だ",
-                    "maleVariant": null,
-                    "stringId": 1695637620458328064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もうあたしに気づいたのね…",
-                    "maleVariant": "クソ、もう俺に気づいたのか",
-                    "stringId": 1695638000680374272
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "問題ない。ただしリンクやインターフェースの使用、危険だ",
-                    "maleVariant": null,
-                    "stringId": 1695638492017922048
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "急げ。バンを調べろ",
+              "maleVariant": "",
+              "stringId": 1533040390586781696
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "密かに動け、そう言ったはずだ。なぜ手を出した",
+              "maleVariant": "",
+              "stringId": 1682206415859814400
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もう遅い。なるようになる",
+              "maleVariant": "",
+              "stringId": 1682207867072221184
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今のは何？",
+              "maleVariant": "今のは何だ？",
+              "stringId": 1695430519820406784
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "相手のネットランナーだ。お前に侵入しようとした",
+              "maleVariant": "",
+              "stringId": 1695430908498169856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "え、まさか…？",
+              "maleVariant": "おい、まさか…？",
+              "stringId": 1695637209064214528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ICEを追加している。ひとまず安心だ",
+              "maleVariant": "",
+              "stringId": 1695637620458328064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もうあたしに気づいたのね…",
+              "maleVariant": "クソ、もう俺に気づいたのか",
+              "stringId": 1695638000680374272
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "問題ない。ただしリンクやインターフェースの使用、危険だ",
+              "maleVariant": "",
+              "stringId": 1695638492017922048
             }
-          }
+          ]
         }
       }
     },

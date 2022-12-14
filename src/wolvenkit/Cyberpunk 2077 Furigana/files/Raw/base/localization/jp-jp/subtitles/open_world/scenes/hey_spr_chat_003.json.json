@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_spr_chat_003.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "草の上になんか行かないぞ",
-                    "maleVariant": null,
-                    "stringId": 1831674694678994944
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "大丈夫よ。ほら",
-                    "maleVariant": null,
-                    "stringId": 1831677700266909696
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "針があるかもしれないだろ。それか地雷とか",
-                    "maleVariant": null,
-                    "stringId": 1831677869616128000
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何もないわよ。本当に",
-                    "maleVariant": null,
-                    "stringId": 1831678011685593088
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いや、いい… ここは人が多くてうるさすぎる、もう家に帰ろう",
-                    "maleVariant": null,
-                    "stringId": 1831678199858847744
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ほら、私を見て。大丈夫だから。戦争はもう終わったの",
-                    "maleVariant": null,
-                    "stringId": 1831678354611888128
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "帰らせてくれ",
-                    "maleVariant": null,
-                    "stringId": 1831678519330594816
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "草の上になんか行かないぞ",
+              "maleVariant": "",
+              "stringId": 1831674694678994944
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "大丈夫よ。ほら",
+              "maleVariant": "",
+              "stringId": 1831677700266909696
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "針があるかもしれないだろ。それか地雷とか",
+              "maleVariant": "",
+              "stringId": 1831677869616128000
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何もないわよ。本当に",
+              "maleVariant": "",
+              "stringId": 1831678011685593088
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いや、いい… ここは人が多くてうるさすぎる、もう家に帰ろう",
+              "maleVariant": "",
+              "stringId": 1831678199858847744
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ほら、私を見て。大丈夫だから。戦争はもう終わったの",
+              "maleVariant": "",
+              "stringId": 1831678354611888128
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "帰らせてくれ",
+              "maleVariant": "",
+              "stringId": 1831678519330594816
             }
-          }
+          ]
         }
       }
     },

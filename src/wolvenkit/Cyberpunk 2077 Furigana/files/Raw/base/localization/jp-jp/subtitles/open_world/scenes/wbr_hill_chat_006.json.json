@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_hill_chat_006.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ね、ねえ。す、吸うタイプのヤツが欲しいんだけど",
-                    "maleVariant": null,
-                    "stringId": 1806791716371030016
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "企業のデータと引き換えなら、考えてやってもいい",
-                    "maleVariant": null,
-                    "stringId": 1806794787138428928
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "え？ 何言って…？ そんなの無理よ… お願い。お金なら、ほら、いつもどおりちゃんとあるから",
-                    "maleVariant": null,
-                    "stringId": 1806795000108408832
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ダメだね",
-                    "maleVariant": null,
-                    "stringId": 1806795640058535936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お願いよ、チューマ。もう限界なの… 見てよ、ほら！",
-                    "maleVariant": null,
-                    "stringId": 1806795790684381184
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "震えはどんどん酷くなるぜ。お前以外にもアラサカの客はいるからな。データはそいつらからもらうか",
-                    "maleVariant": null,
-                    "stringId": 1806795988689084416
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わ、わかった。渡す、渡すから！ 早くちょうだい",
-                    "maleVariant": null,
-                    "stringId": 1806796203621998592
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ほらよ。それともう1つ…",
-                    "maleVariant": null,
-                    "stringId": 1806796365689905152
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あんたの家もガキが行ってる学校も、ジュリアとよろしくヤッてんのも、こっちは全部知ってるからな。わかったらとっとと失せろ",
-                    "maleVariant": null,
-                    "stringId": 1824457203882758144
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ね、ねえ。す、吸うタイプのヤツが欲しいんだけど",
+              "maleVariant": "",
+              "stringId": 1806791716371030016
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "企業のデータと引き換えなら、考えてやってもいい",
+              "maleVariant": "",
+              "stringId": 1806794787138428928
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "え？ 何言って…？ そんなの無理よ… お願い。お金なら、ほら、いつもどおりちゃんとあるから",
+              "maleVariant": "",
+              "stringId": 1806795000108408832
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ダメだね",
+              "maleVariant": "",
+              "stringId": 1806795640058535936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お願いよ、チューマ。もう限界なの… 見てよ、ほら！",
+              "maleVariant": "",
+              "stringId": 1806795790684381184
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "震えはどんどん酷くなるぜ。お前以外にもアラサカの客はいるからな。データはそいつらからもらうか",
+              "maleVariant": "",
+              "stringId": 1806795988689084416
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わ、わかった。渡す、渡すから！ 早くちょうだい",
+              "maleVariant": "",
+              "stringId": 1806796203621998592
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ほらよ。それともう1つ…",
+              "maleVariant": "",
+              "stringId": 1806796365689905152
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あんたの家もガキが行ってる学校も、ジュリアとよろしくヤッてんのも、こっちは全部知ってるからな。わかったらとっとと失せろ",
+              "maleVariant": "",
+              "stringId": 1824457203882758144
             }
-          }
+          ]
         }
       }
     },

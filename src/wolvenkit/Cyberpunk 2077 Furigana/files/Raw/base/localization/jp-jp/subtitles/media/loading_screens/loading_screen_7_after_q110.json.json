@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\loading_screens\\loading_screen_7_after_q110.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい、君！ そう、君だよ！ いつもネットを使ってるんだろ？ 悪いことはいわない、やめておいた方がいいぞ！",
-                    "maleVariant": null,
-                    "stringId": 1672015204399882240
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "企業はみんなこう言ってる。“新しい”ネットは安全だ、過去の失敗は二度と繰り返さない、と",
-                    "maleVariant": null,
-                    "stringId": 1680676070711676928
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "豪華なタワーの上にいる連中は、さぞ理想的でキレイな世界を目にしてるんだろう… だがそれはまやかしだ。ネットはボディを塗り直しただけのオンボロ車、クソの塊だ！ 香水を吹きかけて臭いだけを誤魔化してるんだ！",
-                    "maleVariant": null,
-                    "stringId": 1680676361376944128
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "我々がネットに解き放った悪魔は、今もそこに潜んでいるのだ。危険なウイルスや、破壊のためだけに存在する邪悪な人工知能がな。ネットに絡めとられ、身を滅ぼしたネットランナーたちの精神は虚無へと落ちていく",
-                    "maleVariant": null,
-                    "stringId": 1680676833420693504
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "“魂の牢獄”について聞いたことはあるか？ オルト・カニンガムとソウルキラーはどうだ？ 知らない？ ならば心して聞くがいい。私の元には――",
-                    "maleVariant": null,
-                    "stringId": 1680677405389541376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ふん。ネットウォッチもよく働くねぇ",
-                    "maleVariant": null,
-                    "stringId": 1680677987978366976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "“神輿”… そこにたどり着く方法を探すんだ。今すぐにな",
-                    "maleVariant": null,
-                    "stringId": 1680678577848504320
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい、君！ そう、君だよ！ いつもネットを使ってるんだろ？ 悪いことはいわない、やめておいた方がいいぞ！",
+              "maleVariant": "",
+              "stringId": 1672015204399882240
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "企業はみんなこう言ってる。“新しい”ネットは安全だ、過去の失敗は二度と繰り返さない、と",
+              "maleVariant": "",
+              "stringId": 1680676070711676928
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "豪華なタワーの上にいる連中は、さぞ理想的でキレイな世界を目にしてるんだろう… だがそれはまやかしだ。ネットはボディを塗り直しただけのオンボロ車、クソの塊だ！ 香水を吹きかけて臭いだけを誤魔化してるんだ！",
+              "maleVariant": "",
+              "stringId": 1680676361376944128
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "我々がネットに解き放った悪魔は、今もそこに潜んでいるのだ。危険なウイルスや、破壊のためだけに存在する邪悪な人工知能がな。ネットに絡めとられ、身を滅ぼしたネットランナーたちの精神は虚無へと落ちていく",
+              "maleVariant": "",
+              "stringId": 1680676833420693504
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "“魂の牢獄”について聞いたことはあるか？ オルト・カニンガムとソウルキラーはどうだ？ 知らない？ ならば心して聞くがいい。私の元には――",
+              "maleVariant": "",
+              "stringId": 1680677405389541376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ふん。ネットウォッチもよく働くねぇ",
+              "maleVariant": "",
+              "stringId": 1680677987978366976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "“神輿”… そこにたどり着く方法を探すんだ。今すぐにな",
+              "maleVariant": "",
+              "stringId": 1680678577848504320
             }
-          }
+          ]
         }
       }
     },

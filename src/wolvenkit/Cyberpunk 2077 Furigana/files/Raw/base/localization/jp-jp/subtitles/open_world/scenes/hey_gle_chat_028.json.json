@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_gle_chat_028.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あー、それはそのままでいいから",
-                    "maleVariant": null,
-                    "stringId": 2161808654977806336
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "は？ どうして？",
-                    "maleVariant": null,
-                    "stringId": 2211241868346630144
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そのシンボルが見えないの？",
-                    "maleVariant": null,
-                    "stringId": 2211242260077846528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "これが何なんだ？",
-                    "maleVariant": null,
-                    "stringId": 2211243079326081024
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ギャングのタグよ",
-                    "maleVariant": null,
-                    "stringId": 2211243122409971712
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "だから？ それを落とすのが仕事だろ？",
-                    "maleVariant": null,
-                    "stringId": 2211243199316729856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "命をかけてまでやることじゃない。いいから、放っとくの",
-                    "maleVariant": null,
-                    "stringId": 2211243240521572352
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あー、それはそのままでいいから",
+              "maleVariant": "",
+              "stringId": 2161808654977806336
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "は？ どうして？",
+              "maleVariant": "",
+              "stringId": 2211241868346630144
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そのシンボルが見えないの？",
+              "maleVariant": "",
+              "stringId": 2211242260077846528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "これが何なんだ？",
+              "maleVariant": "",
+              "stringId": 2211243079326081024
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ギャングのタグよ",
+              "maleVariant": "",
+              "stringId": 2211243122409971712
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "だから？ それを落とすのが仕事だろ？",
+              "maleVariant": "",
+              "stringId": 2211243199316729856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "命をかけてまでやることじゃない。いいから、放っとくの",
+              "maleVariant": "",
+              "stringId": 2211243240521572352
             }
-          }
+          ]
         }
       }
     },

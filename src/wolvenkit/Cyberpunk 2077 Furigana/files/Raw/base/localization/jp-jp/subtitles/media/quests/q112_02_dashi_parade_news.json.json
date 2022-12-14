@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\quests\\q112_02_dashi_parade_news.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こんにちは、ローカルニュースの時間です。荒魂祭りの開催が近付いてまいりました",
-                    "maleVariant": null,
-                    "stringId": 1743081712336031744
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "イベントに際し、ナイトシティは美しい数階建ての山車のパレードで彩られることになります",
-                    "maleVariant": null,
-                    "stringId": 1743083012352167936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "祭りの当日は、琵琶の名人による演奏や、日本の伝統芸能である能も、特設シアターにて披露される予定となっています",
-                    "maleVariant": null,
-                    "stringId": 1743083347997151232
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この荒魂祭りの主催者はアラサカ社ですが、何とハナコ・アラサカ氏もこのパレードに参加することが公式発表され、大きな盛り上がりを見せています",
-                    "maleVariant": null,
-                    "stringId": 1743084074937143296
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "WNSニュース一同、祭りの成功を心より願っています",
-                    "maleVariant": null,
-                    "stringId": 1743085065044545536
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "みなさんも楽しんでくださいね！",
-                    "maleVariant": null,
-                    "stringId": 1743085467999719424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CMの後は… サイバーサイコシスは、果たして現実なのか？ お楽しみに！",
-                    "maleVariant": null,
-                    "stringId": 1743087757468946432
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こんにちは、ローカルニュースの時間です。荒魂祭りの開催が近付いてまいりました",
+              "maleVariant": "",
+              "stringId": 1743081712336031744
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "イベントに際し、ナイトシティは美しい数階建ての山車のパレードで彩られることになります",
+              "maleVariant": "",
+              "stringId": 1743083012352167936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "祭りの当日は、琵琶の名人による演奏や、日本の伝統芸能である能も、特設シアターにて披露される予定となっています",
+              "maleVariant": "",
+              "stringId": 1743083347997151232
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この荒魂祭りの主催者はアラサカ社ですが、何とハナコ・アラサカ氏もこのパレードに参加することが公式発表され、大きな盛り上がりを見せています",
+              "maleVariant": "",
+              "stringId": 1743084074937143296
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "WNSニュース一同、祭りの成功を心より願っています",
+              "maleVariant": "",
+              "stringId": 1743085065044545536
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "みなさんも楽しんでくださいね！",
+              "maleVariant": "",
+              "stringId": 1743085467999719424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CMの後は… サイバーサイコシスは、果たして現実なのか？ お楽しみに！",
+              "maleVariant": "",
+              "stringId": 1743087757468946432
             }
-          }
+          ]
         }
       }
     },

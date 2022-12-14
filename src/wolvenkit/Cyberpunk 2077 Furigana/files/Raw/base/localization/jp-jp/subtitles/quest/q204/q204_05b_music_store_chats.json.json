@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q204\\q204_05b_music_store_chats.json"
@@ -11,146 +11,110 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "マジかよ。本気でアコギなんかやんのか？",
-                    "maleVariant": null,
-                    "stringId": 1318634017909657600
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そう。本物の楽器を弾いてみたくて",
-                    "maleVariant": null,
-                    "stringId": 1318635226926174208
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "電気なしで弾くってことだろ？",
-                    "maleVariant": null,
-                    "stringId": 1318635264138039296
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まったく、最近の音楽はつまんねえよな",
-                    "maleVariant": null,
-                    "stringId": 1318635673552441344
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それか、ロボットと大して変わらねえクズがひねり出したクソか",
-                    "maleVariant": null,
-                    "stringId": 1318635673552441360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まったくだ。音楽は死んだ",
-                    "maleVariant": null,
-                    "stringId": 1318635673552441376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まだ曲は作ったりしてるの？",
-                    "maleVariant": null,
-                    "stringId": 1318636912247853056
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "サンプルばっかだ。今は“生音”ブームだし",
-                    "maleVariant": null,
-                    "stringId": 1318638088599130112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それでも、好きなことやって食ってるわけだ",
-                    "maleVariant": null,
-                    "stringId": 1318638317272584192
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もちろん",
-                    "maleVariant": null,
-                    "stringId": 1324011889049165824
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今じゃどのレーベルにも企業の息がかかってる",
-                    "maleVariant": null,
-                    "stringId": 1324090766828199936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ、だよな",
-                    "maleVariant": null,
-                    "stringId": 1324094266471571456
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "へえ、頑張れよ",
-                    "maleVariant": null,
-                    "stringId": 1489607475503783936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おかげで新しいアーティストが全然出てこない",
-                    "maleVariant": null,
-                    "stringId": 1719985736270962688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "個人で売れる時代じゃなくなっちゃったからね",
-                    "maleVariant": null,
-                    "stringId": 1719986200865628160
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ロボットのゲロみたいな加工品ばっかだ",
-                    "maleVariant": null,
-                    "stringId": 1719987571144744960
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "マジかよ。本気でアコギなんかやんのか？",
+              "maleVariant": "",
+              "stringId": 1318634017909657600
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そう。本物の楽器を弾いてみたくて",
+              "maleVariant": "",
+              "stringId": 1318635226926174208
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "電気なしで弾くってことだろ？",
+              "maleVariant": "",
+              "stringId": 1318635264138039296
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まったく、最近の音楽はつまんねえよな",
+              "maleVariant": "",
+              "stringId": 1318635673552441344
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それか、ロボットと大して変わらねえクズがひねり出したクソか",
+              "maleVariant": "",
+              "stringId": 1318635673552441360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まったくだ。音楽は死んだ",
+              "maleVariant": "",
+              "stringId": 1318635673552441376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まだ曲は作ったりしてるの？",
+              "maleVariant": "",
+              "stringId": 1318636912247853056
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "サンプルばっかだ。今は“生音”ブームだし",
+              "maleVariant": "",
+              "stringId": 1318638088599130112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それでも、好きなことやって食ってるわけだ",
+              "maleVariant": "",
+              "stringId": 1318638317272584192
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もちろん",
+              "maleVariant": "",
+              "stringId": 1324011889049165824
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今じゃどのレーベルにも企業の息がかかってる",
+              "maleVariant": "",
+              "stringId": 1324090766828199936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ、だよな",
+              "maleVariant": "",
+              "stringId": 1324094266471571456
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "へえ、頑張れよ",
+              "maleVariant": "",
+              "stringId": 1489607475503783936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おかげで新しいアーティストが全然出てこない",
+              "maleVariant": "",
+              "stringId": 1719985736270962688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "個人で売れる時代じゃなくなっちゃったからね",
+              "maleVariant": "",
+              "stringId": 1719986200865628160
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ロボットのゲロみたいな加工品ばっかだ",
+              "maleVariant": "",
+              "stringId": 1719987571144744960
             }
-          }
+          ]
         }
       }
     },

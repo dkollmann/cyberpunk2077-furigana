@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_spr_chat_017.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なんでわざわざNCARTでって思わない？ 自分で頭を撃った方がよほど楽なのに",
-                    "maleVariant": null,
-                    "stringId": 2162102246139736064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ。先週だけで3回も仕事に遅刻したんだ。ホント、迷惑だよ",
-                    "maleVariant": null,
-                    "stringId": 2213002326738046976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "怖くないのかな？ 絶対痛いし、確実に死ねるかわからないでしょ？ 弾なら、一発で終わりよ",
-                    "maleVariant": null,
-                    "stringId": 2218479991645376512
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まったくだ。それなら全路線の運転を止めることなく、誰にも迷惑かけないで済むのに",
-                    "maleVariant": null,
-                    "stringId": 2218490505473658880
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "はー、理解できない",
-                    "maleVariant": null,
-                    "stringId": 2218491848154255360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "きっと自分のことしか考えてないんだろ",
-                    "maleVariant": null,
-                    "stringId": 2218492120062595072
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なんでわざわざNCARTでって思わない？ 自分で頭を撃った方がよほど楽なのに",
+              "maleVariant": "",
+              "stringId": 2162102246139736064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ。先週だけで3回も仕事に遅刻したんだ。ホント、迷惑だよ",
+              "maleVariant": "",
+              "stringId": 2213002326738046976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "怖くないのかな？ 絶対痛いし、確実に死ねるかわからないでしょ？ 弾なら、一発で終わりよ",
+              "maleVariant": "",
+              "stringId": 2218479991645376512
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まったくだ。それなら全路線の運転を止めることなく、誰にも迷惑かけないで済むのに",
+              "maleVariant": "",
+              "stringId": 2218490505473658880
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "はー、理解できない",
+              "maleVariant": "",
+              "stringId": 2218491848154255360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "きっと自分のことしか考えてないんだろ",
+              "maleVariant": "",
+              "stringId": 2218492120062595072
             }
-          }
+          ]
         }
       }
     },

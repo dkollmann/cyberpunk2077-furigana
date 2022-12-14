@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\wbr_jpn_ripdoc_02.json"
@@ -11,146 +11,110 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クロームの調整を頼みたい",
-                    "maleVariant": null,
-                    "stringId": 1885223101349117952
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "凝ったインテリアね",
-                    "maleVariant": "凝ったインテリアだな",
-                    "stringId": 1885223101349117968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クロームの調整をお願い",
-                    "maleVariant": "クロームの調整を頼めるか？",
-                    "stringId": 1885223101416226820
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なんなりと",
-                    "maleVariant": null,
-                    "stringId": 1885223101433004032
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この店のスタイルって… なんというか… ユニークね",
-                    "maleVariant": "この店のスタイルって… なんというか… ユニークだな",
-                    "stringId": 1885223101516890112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "フィンガーズ",
-                    "maleVariant": null,
-                    "stringId": 1918625359957237764
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "フィンガーズ、元気？",
-                    "maleVariant": "フィンガーズ、元気か？",
-                    "stringId": 1918625477917843456
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あれ以来、顎がずっと痛むんだ",
-                    "maleVariant": null,
-                    "stringId": 1918628658206908416
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "患者はこれを気に入ってるの？",
-                    "maleVariant": "患者はこれを気に入ってるのか？",
-                    "stringId": 1983632073586073600
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "さあね。こいつは美的欲求を満たすための趣味だからな",
-                    "maleVariant": null,
-                    "stringId": 1983632523014135808
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "全部自分で選んでる",
-                    "maleVariant": null,
-                    "stringId": 1983636359778885632
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "俺はあんたを信用してないし、患者にも困ってない",
-                    "maleVariant": null,
-                    "stringId": 1983640414429339648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今すぐ帰ってもらえるか",
-                    "maleVariant": null,
-                    "stringId": 1983640955779768320
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "外見を変えたい",
-                    "maleVariant": null,
-                    "stringId": 3378271308889214976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "リパーの仕事を頼みたい",
-                    "maleVariant": null,
-                    "stringId": 3378271738755043328
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なんなりと",
-                    "maleVariant": null,
-                    "stringId": 3378272190699687936
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クロームの調整を頼みたい",
+              "maleVariant": "",
+              "stringId": 1885223101349117952
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "凝ったインテリアね",
+              "maleVariant": "凝ったインテリアだな",
+              "stringId": 1885223101349117968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クロームの調整をお願い",
+              "maleVariant": "クロームの調整を頼めるか？",
+              "stringId": 1885223101416226820
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なんなりと",
+              "maleVariant": "",
+              "stringId": 1885223101433004032
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この店のスタイルって… なんというか… ユニークね",
+              "maleVariant": "この店のスタイルって… なんというか… ユニークだな",
+              "stringId": 1885223101516890112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "フィンガーズ",
+              "maleVariant": "",
+              "stringId": 1918625359957237764
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "フィンガーズ、元気？",
+              "maleVariant": "フィンガーズ、元気か？",
+              "stringId": 1918625477917843456
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あれ以来、顎がずっと痛むんだ",
+              "maleVariant": "",
+              "stringId": 1918628658206908416
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "患者はこれを気に入ってるの？",
+              "maleVariant": "患者はこれを気に入ってるのか？",
+              "stringId": 1983632073586073600
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "さあね。こいつは美的欲求を満たすための趣味だからな",
+              "maleVariant": "",
+              "stringId": 1983632523014135808
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "全部自分で選んでる",
+              "maleVariant": "",
+              "stringId": 1983636359778885632
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "俺はあんたを信用してないし、患者にも困ってない",
+              "maleVariant": "",
+              "stringId": 1983640414429339648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今すぐ帰ってもらえるか",
+              "maleVariant": "",
+              "stringId": 1983640955779768320
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "外見を変えたい",
+              "maleVariant": "",
+              "stringId": 3378271308889214976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "リパーの仕事を頼みたい",
+              "maleVariant": "",
+              "stringId": 3378271738755043328
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なんなりと",
+              "maleVariant": "",
+              "stringId": 3378272190699687936
             }
-          }
+          ]
         }
       }
     },

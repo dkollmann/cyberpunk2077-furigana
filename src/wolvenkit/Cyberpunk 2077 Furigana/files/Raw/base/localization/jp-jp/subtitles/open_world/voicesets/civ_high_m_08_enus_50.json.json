@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_high_m_08_enus_50.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "誰かな？ え？ 私？",
-                    "maleVariant": null,
-                    "stringId": 1878033668100333572
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "…はい？ 何か？",
-                    "maleVariant": null,
-                    "stringId": 1878033668117110788
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "急いでどうした？",
-                    "maleVariant": null,
-                    "stringId": 1878033668184219652
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい、気をつけろ！",
-                    "maleVariant": null,
-                    "stringId": 1878033668217774084
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもし？ その後どうだい？",
-                    "maleVariant": null,
-                    "stringId": 1878033668268105732
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ、私はすこぶる… 実に素晴らしかった。レビュー通りさ。強いて言えば、ほろ苦さより甘さが勝っていたかな",
-                    "maleVariant": null,
-                    "stringId": 1878033668335214596
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ、君の言ってた通りだ… そうだな… 次は… 必ず",
-                    "maleVariant": null,
-                    "stringId": 1878033668368769028
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ではその時まで。ごきげんよう！",
-                    "maleVariant": null,
-                    "stringId": 1878033668435877888
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何がどうなってるんだ…？",
-                    "maleVariant": null,
-                    "stringId": 1878033668637204484
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そんな… 神よ！",
-                    "maleVariant": null,
-                    "stringId": 1878033668653981700
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうしてこんなことを…",
-                    "maleVariant": null,
-                    "stringId": 1878033668771422212
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "赤の他人なのに！",
-                    "maleVariant": null,
-                    "stringId": 1878033668804976644
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "違う人と勘違いしてるんじゃないか",
-                    "maleVariant": null,
-                    "stringId": 1878033668905639940
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そんなにくっついて歩かなきゃいけないのか？",
-                    "maleVariant": null,
-                    "stringId": 1878033668939194368
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "誰かな？ え？ 私？",
+              "maleVariant": "",
+              "stringId": 1878033668100333572
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "…はい？ 何か？",
+              "maleVariant": "",
+              "stringId": 1878033668117110788
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "急いでどうした？",
+              "maleVariant": "",
+              "stringId": 1878033668184219652
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい、気をつけろ！",
+              "maleVariant": "",
+              "stringId": 1878033668217774084
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもし？ その後どうだい？",
+              "maleVariant": "",
+              "stringId": 1878033668268105732
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ、私はすこぶる… 実に素晴らしかった。レビュー通りさ。強いて言えば、ほろ苦さより甘さが勝っていたかな",
+              "maleVariant": "",
+              "stringId": 1878033668335214596
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ、君の言ってた通りだ… そうだな… 次は… 必ず",
+              "maleVariant": "",
+              "stringId": 1878033668368769028
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ではその時まで。ごきげんよう！",
+              "maleVariant": "",
+              "stringId": 1878033668435877888
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何がどうなってるんだ…？",
+              "maleVariant": "",
+              "stringId": 1878033668637204484
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そんな… 神よ！",
+              "maleVariant": "",
+              "stringId": 1878033668653981700
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうしてこんなことを…",
+              "maleVariant": "",
+              "stringId": 1878033668771422212
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "赤の他人なのに！",
+              "maleVariant": "",
+              "stringId": 1878033668804976644
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "違う人と勘違いしてるんじゃないか",
+              "maleVariant": "",
+              "stringId": 1878033668905639940
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そんなにくっついて歩かなきゃいけないのか？",
+              "maleVariant": "",
+              "stringId": 1878033668939194368
             }
-          }
+          ]
         }
       }
     },

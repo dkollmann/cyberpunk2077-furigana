@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_depr_f_02_chn_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うう、何なのよ…",
-                    "maleVariant": null,
-                    "stringId": 1955948485269299204
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どん底もどん底よ",
-                    "maleVariant": null,
-                    "stringId": 1955948485286076420
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うう…",
-                    "maleVariant": null,
-                    "stringId": 1955948485336408068
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私ってそんなに存在感ない？",
-                    "maleVariant": null,
-                    "stringId": 1955948485353185284
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "終わりよ。クビになったの",
-                    "maleVariant": null,
-                    "stringId": 1955948485386739716
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ジャックがね… とうとうボスにしゃべっちゃって… 私は追い出されたってわけ… ほんと最高",
-                    "maleVariant": null,
-                    "stringId": 1955948485437071364
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "人生おしまいよ… 私は負け犬… え、どうやって？ ハハ… できっこない！",
-                    "maleVariant": null,
-                    "stringId": 1955948485470625796
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やっちゃったわ、スタン。もうおしまいよ",
-                    "maleVariant": null,
-                    "stringId": 1955948485504180224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "願ったり叶ったりね！",
-                    "maleVariant": null,
-                    "stringId": 1955948485638397956
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もう最悪！",
-                    "maleVariant": null,
-                    "stringId": 1955948485655175172
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やればいいじゃない！",
-                    "maleVariant": null,
-                    "stringId": 1955948485739061252
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何グズグズしてるの？",
-                    "maleVariant": null,
-                    "stringId": 1955948485772615680
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "つきまとわないでくれる？",
-                    "maleVariant": null,
-                    "stringId": 1955948485839724548
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "一人になりたいんだけど",
-                    "maleVariant": null,
-                    "stringId": 1955948485856501764
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うう、何なのよ…",
+              "maleVariant": "",
+              "stringId": 1955948485269299204
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どん底もどん底よ",
+              "maleVariant": "",
+              "stringId": 1955948485286076420
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うう…",
+              "maleVariant": "",
+              "stringId": 1955948485336408068
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私ってそんなに存在感ない？",
+              "maleVariant": "",
+              "stringId": 1955948485353185284
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "終わりよ。クビになったの",
+              "maleVariant": "",
+              "stringId": 1955948485386739716
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ジャックがね… とうとうボスにしゃべっちゃって… 私は追い出されたってわけ… ほんと最高",
+              "maleVariant": "",
+              "stringId": 1955948485437071364
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "人生おしまいよ… 私は負け犬… え、どうやって？ ハハ… できっこない！",
+              "maleVariant": "",
+              "stringId": 1955948485470625796
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やっちゃったわ、スタン。もうおしまいよ",
+              "maleVariant": "",
+              "stringId": 1955948485504180224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "願ったり叶ったりね！",
+              "maleVariant": "",
+              "stringId": 1955948485638397956
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もう最悪！",
+              "maleVariant": "",
+              "stringId": 1955948485655175172
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やればいいじゃない！",
+              "maleVariant": "",
+              "stringId": 1955948485739061252
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何グズグズしてるの？",
+              "maleVariant": "",
+              "stringId": 1955948485772615680
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "つきまとわないでくれる？",
+              "maleVariant": "",
+              "stringId": 1955948485839724548
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "一人になりたいんだけど",
+              "maleVariant": "",
+              "stringId": 1955948485856501764
             }
-          }
+          ]
         }
       }
     },

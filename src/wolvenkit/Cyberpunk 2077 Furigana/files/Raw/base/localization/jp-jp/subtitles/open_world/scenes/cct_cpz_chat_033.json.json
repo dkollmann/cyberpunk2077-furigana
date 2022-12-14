@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_cpz_chat_033.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうやったって、侵入される時はされるからな…",
-                    "maleVariant": null,
-                    "stringId": 2172145595973230592
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いや、そんなことはしない。撃つだけさ…",
-                    "maleVariant": null,
-                    "stringId": 2208476380999815168
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "すでに2人も仕留めた。盗人のクズどもめ…",
-                    "maleVariant": null,
-                    "stringId": 2208477235983519744
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ… そうだな。ドローンが配備できたら、少しはマシになるだろう… さあな。随分と前から手配中らしいが",
-                    "maleVariant": null,
-                    "stringId": 2208478968180740096
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうやったって、侵入される時はされるからな…",
+              "maleVariant": "",
+              "stringId": 2172145595973230592
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いや、そんなことはしない。撃つだけさ…",
+              "maleVariant": "",
+              "stringId": 2208476380999815168
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "すでに2人も仕留めた。盗人のクズどもめ…",
+              "maleVariant": "",
+              "stringId": 2208477235983519744
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ… そうだな。ドローンが配備できたら、少しはマシになるだろう… さあな。随分と前から手配中らしいが",
+              "maleVariant": "",
+              "stringId": 2208478968180740096
             }
-          }
+          ]
         }
       }
     },

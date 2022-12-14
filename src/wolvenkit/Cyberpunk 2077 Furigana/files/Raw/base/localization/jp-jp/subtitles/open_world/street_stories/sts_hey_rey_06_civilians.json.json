@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_hey_rey_06_civilians.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "アルベルトほどできた人はいませんでした。苦しい時は慎ましく生き、幸せな時は笑顔で周囲を明るく照らしてくれました",
-                    "maleVariant": null,
-                    "stringId": 1318502328777650176
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私たちは今日、彼に別れを告げます。しかしほんの一時の別れです。いつの日かまた、主の御許で出会うのですから",
-                    "maleVariant": null,
-                    "stringId": 1318512429399879680
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何だこれは… どうなってる！？",
-                    "maleVariant": null,
-                    "stringId": 1319566990218702848
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "誰か、止めろ！",
-                    "maleVariant": null,
-                    "stringId": 1319566990218702864
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "と、父さん！？",
-                    "maleVariant": null,
-                    "stringId": 1512790672339447808
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "大好きだった父さん、どうか安らかに…",
-                    "maleVariant": null,
-                    "stringId": 1512800379569516544
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "アルベルトほどできた人はいませんでした。苦しい時は慎ましく生き、幸せな時は笑顔で周囲を明るく照らしてくれました",
+              "maleVariant": "",
+              "stringId": 1318502328777650176
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私たちは今日、彼に別れを告げます。しかしほんの一時の別れです。いつの日かまた、主の御許で出会うのですから",
+              "maleVariant": "",
+              "stringId": 1318512429399879680
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何だこれは… どうなってる！？",
+              "maleVariant": "",
+              "stringId": 1319566990218702848
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "誰か、止めろ！",
+              "maleVariant": "",
+              "stringId": 1319566990218702864
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "と、父さん！？",
+              "maleVariant": "",
+              "stringId": 1512790672339447808
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "大好きだった父さん、どうか安らかに…",
+              "maleVariant": "",
+              "stringId": 1512800379569516544
             }
-          }
+          ]
         }
       }
     },

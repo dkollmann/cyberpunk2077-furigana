@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\std_arr_clothingshop_01.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何を売ってるの？",
-                    "maleVariant": "何を売ってるんだ？",
-                    "stringId": 1783754628636889088
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "物売り？ それとも物乞い？",
-                    "maleVariant": null,
-                    "stringId": 1783754628653666308
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何を売ってるの？",
-                    "maleVariant": "何を売ってるんだ？",
-                    "stringId": 1783754628670443524
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あるもの全部よ",
-                    "maleVariant": null,
-                    "stringId": 1783754628670443532
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "服を売ってるのか集めてるのか… 判別つかないね",
-                    "maleVariant": "服を売ってるのか集めてるのか… 判別つかないな",
-                    "stringId": 1783754628703997956
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "物乞いしてると「仕事を探せ」と言われる。仕事を見つけたら、からかわれる。いったい何なの！",
-                    "maleVariant": null,
-                    "stringId": 1783754628703997964
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何を売ってるの？",
+              "maleVariant": "何を売ってるんだ？",
+              "stringId": 1783754628636889088
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "物売り？ それとも物乞い？",
+              "maleVariant": "",
+              "stringId": 1783754628653666308
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何を売ってるの？",
+              "maleVariant": "何を売ってるんだ？",
+              "stringId": 1783754628670443524
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あるもの全部よ",
+              "maleVariant": "",
+              "stringId": 1783754628670443532
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "服を売ってるのか集めてるのか… 判別つかないね",
+              "maleVariant": "服を売ってるのか集めてるのか… 判別つかないな",
+              "stringId": 1783754628703997956
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "物乞いしてると「仕事を探せ」と言われる。仕事を見つけたら、からかわれる。いったい何なの！",
+              "maleVariant": "",
+              "stringId": 1783754628703997964
             }
-          }
+          ]
         }
       }
     },

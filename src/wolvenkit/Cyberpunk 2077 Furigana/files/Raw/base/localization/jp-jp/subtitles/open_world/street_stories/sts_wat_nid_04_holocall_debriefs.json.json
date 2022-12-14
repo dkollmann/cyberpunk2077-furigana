@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_wat_nid_04_holocall_debriefs.json"
@@ -11,58 +11,44 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "よくやったわ、V",
-                    "maleVariant": null,
-                    "stringId": 2328676396803006464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "これで記録をしたクズの正体がわかるといいけど。この仕事はここまでよ、じゃあね",
-                    "maleVariant": null,
-                    "stringId": 2339578434832142336
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "V、何か忘れてない？ 目的のBDは？ もうオリジナルは決して手に入らない",
-                    "maleVariant": null,
-                    "stringId": 2362401648142553088
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "印象は最悪よ。私はプロと仕事がしたいの",
-                    "maleVariant": null,
-                    "stringId": 2362404366370312192
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あなたのせいで、唯一の手掛かりが消えた。失敗の許されない、大事な仕事だったのに",
-                    "maleVariant": null,
-                    "stringId": 2362408027460833280
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "よくやったわ、V",
+              "maleVariant": "",
+              "stringId": 2328676396803006464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "これで記録をしたクズの正体がわかるといいけど。この仕事はここまでよ、じゃあね",
+              "maleVariant": "",
+              "stringId": 2339578434832142336
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "V、何か忘れてない？ 目的のBDは？ もうオリジナルは決して手に入らない",
+              "maleVariant": "",
+              "stringId": 2362401648142553088
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "印象は最悪よ。私はプロと仕事がしたいの",
+              "maleVariant": "",
+              "stringId": 2362404366370312192
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あなたのせいで、唯一の手掛かりが消えた。失敗の許されない、大事な仕事だったのに",
+              "maleVariant": "",
+              "stringId": 2362408027460833280
             }
-          }
+          ]
         }
       }
     },

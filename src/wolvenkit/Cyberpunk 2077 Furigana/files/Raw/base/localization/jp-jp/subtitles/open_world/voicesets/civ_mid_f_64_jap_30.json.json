@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_mid_f_64_jap_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうも",
-                    "maleVariant": null,
-                    "stringId": 1954552915657007108
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どこから来たの？",
-                    "maleVariant": null,
-                    "stringId": 1954552915673784324
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ねえ、その辺にして",
-                    "maleVariant": null,
-                    "stringId": 1954552915724115972
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちょっと、ひどいんじゃない？",
-                    "maleVariant": null,
-                    "stringId": 1954552915740893188
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "準備はいい？",
-                    "maleVariant": null,
-                    "stringId": 1954552915774447620
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なら今日はどう…？ いいよ… いい映画だから気に入ると思う… うん、じゃあ、それで",
-                    "maleVariant": null,
-                    "stringId": 1954552915824779268
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ライオンの話よ… 動物… まあ、大きな猫みたいなものね… 本で見たことあるでしょ",
-                    "maleVariant": null,
-                    "stringId": 1954552915841556484
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "楽しみね",
-                    "maleVariant": null,
-                    "stringId": 1954552915891888132
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "隠れて！",
-                    "maleVariant": null,
-                    "stringId": 1954552916026105860
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ばらばらに逃げるのよ！",
-                    "maleVariant": null,
-                    "stringId": 1954552916059660292
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "命乞いしてほしいの？",
-                    "maleVariant": null,
-                    "stringId": 1954552916126769156
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "えらくなった気分？",
-                    "maleVariant": null,
-                    "stringId": 1954552916143546372
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私が挑発にのると思う？",
-                    "maleVariant": null,
-                    "stringId": 1954552916227432452
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あら、怖がってほしいの？",
-                    "maleVariant": null,
-                    "stringId": 1954552916244209668
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうも",
+              "maleVariant": "",
+              "stringId": 1954552915657007108
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どこから来たの？",
+              "maleVariant": "",
+              "stringId": 1954552915673784324
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ねえ、その辺にして",
+              "maleVariant": "",
+              "stringId": 1954552915724115972
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちょっと、ひどいんじゃない？",
+              "maleVariant": "",
+              "stringId": 1954552915740893188
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "準備はいい？",
+              "maleVariant": "",
+              "stringId": 1954552915774447620
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なら今日はどう…？ いいよ… いい映画だから気に入ると思う… うん、じゃあ、それで",
+              "maleVariant": "",
+              "stringId": 1954552915824779268
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ライオンの話よ… 動物… まあ、大きな猫みたいなものね… 本で見たことあるでしょ",
+              "maleVariant": "",
+              "stringId": 1954552915841556484
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "楽しみね",
+              "maleVariant": "",
+              "stringId": 1954552915891888132
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "隠れて！",
+              "maleVariant": "",
+              "stringId": 1954552916026105860
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ばらばらに逃げるのよ！",
+              "maleVariant": "",
+              "stringId": 1954552916059660292
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "命乞いしてほしいの？",
+              "maleVariant": "",
+              "stringId": 1954552916126769156
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "えらくなった気分？",
+              "maleVariant": "",
+              "stringId": 1954552916143546372
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私が挑発にのると思う？",
+              "maleVariant": "",
+              "stringId": 1954552916227432452
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あら、怖がってほしいの？",
+              "maleVariant": "",
+              "stringId": 1954552916244209668
             }
-          }
+          ]
         }
       }
     },

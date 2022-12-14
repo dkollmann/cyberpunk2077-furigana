@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\cct_dtn_food_01.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "飲み物をちょうだい",
-                    "maleVariant": "飲み物をくれ",
-                    "stringId": 1979191361760894976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おすすめのビールは？",
-                    "maleVariant": null,
-                    "stringId": 1979191702573260800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "飲み物はある？",
-                    "maleVariant": "飲み物はあるか？",
-                    "stringId": 1979192270549131264
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もちろん。好きなのをどうぞ",
-                    "maleVariant": null,
-                    "stringId": 1979193755081089024
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おすすめのビールは？",
-                    "maleVariant": null,
-                    "stringId": 1979195265936498688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうだな… カラベラ・フェリッツはほのかな麦芽の味わいを楽しめる。アビドスはハーブの香りが独特だ",
-                    "maleVariant": null,
-                    "stringId": 1979196494079041536
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ブローセフは却下。ありゃ炭酸入りの小便さ",
-                    "maleVariant": null,
-                    "stringId": 1979196930689310720
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "飲み物をちょうだい",
+              "maleVariant": "飲み物をくれ",
+              "stringId": 1979191361760894976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おすすめのビールは？",
+              "maleVariant": "",
+              "stringId": 1979191702573260800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "飲み物はある？",
+              "maleVariant": "飲み物はあるか？",
+              "stringId": 1979192270549131264
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もちろん。好きなのをどうぞ",
+              "maleVariant": "",
+              "stringId": 1979193755081089024
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おすすめのビールは？",
+              "maleVariant": "",
+              "stringId": 1979195265936498688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうだな… カラベラ・フェリッツはほのかな麦芽の味わいを楽しめる。アビドスはハーブの香りが独特だ",
+              "maleVariant": "",
+              "stringId": 1979196494079041536
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ブローセフは却下。ありゃ炭酸入りの小便さ",
+              "maleVariant": "",
+              "stringId": 1979196930689310720
             }
-          }
+          ]
         }
       }
     },

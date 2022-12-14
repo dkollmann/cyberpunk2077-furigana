@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_nok_chat_014.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "男も、女も、幼子も、自分自身から逃げることはできない",
-                    "maleVariant": null,
-                    "stringId": 2159345535122120704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "肉ありしところに金属を宿すもよし。もはや肉なる身でないふりをするもよし",
-                    "maleVariant": null,
-                    "stringId": 2196916705295527936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "しかし、否。いかなるクロームも魂の代わりにはならない！",
-                    "maleVariant": null,
-                    "stringId": 2196917335061884928
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "金属は錆び… 肉は朽ちる。その間、魂は切々と、そして悲壮にも呼びかける――「心するがいい！ おののくがいい！」と",
-                    "maleVariant": null,
-                    "stringId": 2196917606970224640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私は汝らに告げよう。この街は錆にひたり、退廃に溺れている",
-                    "maleVariant": null,
-                    "stringId": 2196918519952764928
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "心するがいい！ おののくがいい！",
-                    "maleVariant": null,
-                    "stringId": 2196920029096898560
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "男も、女も、幼子も、自分自身から逃げることはできない",
+              "maleVariant": "",
+              "stringId": 2159345535122120704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "肉ありしところに金属を宿すもよし。もはや肉なる身でないふりをするもよし",
+              "maleVariant": "",
+              "stringId": 2196916705295527936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "しかし、否。いかなるクロームも魂の代わりにはならない！",
+              "maleVariant": "",
+              "stringId": 2196917335061884928
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "金属は錆び… 肉は朽ちる。その間、魂は切々と、そして悲壮にも呼びかける――「心するがいい！ おののくがいい！」と",
+              "maleVariant": "",
+              "stringId": 2196917606970224640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私は汝らに告げよう。この街は錆にひたり、退廃に溺れている",
+              "maleVariant": "",
+              "stringId": 2196918519952764928
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "心するがいい！ おののくがいい！",
+              "maleVariant": "",
+              "stringId": 2196920029096898560
             }
-          }
+          ]
         }
       }
     },

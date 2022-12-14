@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_dtn_chat_008.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もう… やめるって言ってたじゃない！",
-                    "maleVariant": null,
-                    "stringId": 1963581427928514560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "大丈夫だよ… 問題ない。オールオッケーさ…",
-                    "maleVariant": null,
-                    "stringId": 1963613232798875648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちょっと、大丈夫？",
-                    "maleVariant": null,
-                    "stringId": 1963613605202739200
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "俺は、きゅう… きゅうえい… 救急救命士だぞ… 静脈くらい見つけられる…",
-                    "maleVariant": null,
-                    "stringId": 1963613786044350464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あなたの部隊の人たちを呼ぶわ。そのままAVで来てくれるはず",
-                    "maleVariant": null,
-                    "stringId": 1963614112109543424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やめろ！ いくらかかると思って… 1ヶ月のしゅうりょう… 給料分かかるんだぞ！ いや、2ヶ月… 5ヶ月かも？",
-                    "maleVariant": null,
-                    "stringId": 1963614311406092288
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もう… やめるって言ってたじゃない！",
+              "maleVariant": "",
+              "stringId": 1963581427928514560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "大丈夫だよ… 問題ない。オールオッケーさ…",
+              "maleVariant": "",
+              "stringId": 1963613232798875648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちょっと、大丈夫？",
+              "maleVariant": "",
+              "stringId": 1963613605202739200
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "俺は、きゅう… きゅうえい… 救急救命士だぞ… 静脈くらい見つけられる…",
+              "maleVariant": "",
+              "stringId": 1963613786044350464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あなたの部隊の人たちを呼ぶわ。そのままAVで来てくれるはず",
+              "maleVariant": "",
+              "stringId": 1963614112109543424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やめろ！ いくらかかると思って… 1ヶ月のしゅうりょう… 給料分かかるんだぞ！ いや、2ヶ月… 5ヶ月かも？",
+              "maleVariant": "",
+              "stringId": 1963614311406092288
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_high_m_04_enus_50.json"
@@ -11,146 +11,110 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なんだね？",
-                    "maleVariant": null,
-                    "stringId": 1948769628023545860
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "チンピラが…",
-                    "maleVariant": null,
-                    "stringId": 1948769628040323076
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソ！",
-                    "maleVariant": null,
-                    "stringId": 1948769628090654724
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おろしたての服なんだぞ！",
-                    "maleVariant": null,
-                    "stringId": 1948769628107431940
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもし？",
-                    "maleVariant": null,
-                    "stringId": 1948769628140986372
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "買い時だぞ… つべこべ言わずに、とにかく買え… 明日になれば私に感謝してるから…",
-                    "maleVariant": null,
-                    "stringId": 1948769628191318020
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ、手元にある… 一晩空いてるんだったらどうだ…？",
-                    "maleVariant": null,
-                    "stringId": 1948769628208095236
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もう切るぞ",
-                    "maleVariant": null,
-                    "stringId": 1948769628241649668
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "嘘だろ、やめてくれー！",
-                    "maleVariant": null,
-                    "stringId": 1948769628375867396
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうして私を狙うんだ！",
-                    "maleVariant": null,
-                    "stringId": 1948769628409421828
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "頼む、やめてくれ！ 何でもするから！",
-                    "maleVariant": null,
-                    "stringId": 1948769628510085124
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なあ、私はただの雇われだ。言われたことやっただけだよ！",
-                    "maleVariant": null,
-                    "stringId": 1948769628526862340
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こっちに来ないでくれ！",
-                    "maleVariant": null,
-                    "stringId": 1948769628610748420
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "金目のものは持ってないんだ！",
-                    "maleVariant": null,
-                    "stringId": 1948769628627525636
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "アルマアタから最新のが届いた… ああ、100パーセント本当だ",
-                    "maleVariant": null,
-                    "stringId": 1948771334266413056
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ… うん、私が持ってるのを分けてやろう… 若いのを行かせる… じゃあな",
-                    "maleVariant": null,
-                    "stringId": 1948771747925450752
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なんだね？",
+              "maleVariant": "",
+              "stringId": 1948769628023545860
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "チンピラが…",
+              "maleVariant": "",
+              "stringId": 1948769628040323076
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソ！",
+              "maleVariant": "",
+              "stringId": 1948769628090654724
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おろしたての服なんだぞ！",
+              "maleVariant": "",
+              "stringId": 1948769628107431940
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもし？",
+              "maleVariant": "",
+              "stringId": 1948769628140986372
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "買い時だぞ… つべこべ言わずに、とにかく買え… 明日になれば私に感謝してるから…",
+              "maleVariant": "",
+              "stringId": 1948769628191318020
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ、手元にある… 一晩空いてるんだったらどうだ…？",
+              "maleVariant": "",
+              "stringId": 1948769628208095236
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もう切るぞ",
+              "maleVariant": "",
+              "stringId": 1948769628241649668
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "嘘だろ、やめてくれー！",
+              "maleVariant": "",
+              "stringId": 1948769628375867396
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうして私を狙うんだ！",
+              "maleVariant": "",
+              "stringId": 1948769628409421828
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "頼む、やめてくれ！ 何でもするから！",
+              "maleVariant": "",
+              "stringId": 1948769628510085124
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なあ、私はただの雇われだ。言われたことやっただけだよ！",
+              "maleVariant": "",
+              "stringId": 1948769628526862340
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こっちに来ないでくれ！",
+              "maleVariant": "",
+              "stringId": 1948769628610748420
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "金目のものは持ってないんだ！",
+              "maleVariant": "",
+              "stringId": 1948769628627525636
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "アルマアタから最新のが届いた… ああ、100パーセント本当だ",
+              "maleVariant": "",
+              "stringId": 1948771334266413056
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ… うん、私が持ってるのを分けてやろう… 若いのを行かせる… じゃあな",
+              "maleVariant": "",
+              "stringId": 1948771747925450752
             }
-          }
+          ]
         }
       }
     },

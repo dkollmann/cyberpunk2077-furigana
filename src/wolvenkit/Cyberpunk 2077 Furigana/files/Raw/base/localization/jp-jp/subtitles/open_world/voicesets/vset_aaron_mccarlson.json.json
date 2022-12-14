@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\vset_aaron_mccarlson.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "警官を襲うのかよ",
-                    "maleVariant": null,
-                    "stringId": 1895369593175121924
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ブタ箱にブチ込んでやる！",
-                    "maleVariant": null,
-                    "stringId": 1895369593191899140
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "受け取りやがれ！",
-                    "maleVariant": null,
-                    "stringId": 1895369593242230788
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "たいしたことないな！",
-                    "maleVariant": null,
-                    "stringId": 1895369593326116868
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "させるかよ！",
-                    "maleVariant": null,
-                    "stringId": 1895369593359671300
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "くたばりやがれ！",
-                    "maleVariant": null,
-                    "stringId": 1895369593410002948
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソ！",
-                    "maleVariant": null,
-                    "stringId": 1895369593426780164
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "気をつけな",
-                    "maleVariant": null,
-                    "stringId": 1895369593493889028
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい",
-                    "maleVariant": null,
-                    "stringId": 1895369593510666244
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お前はもう終わりだ！",
-                    "maleVariant": null,
-                    "stringId": 1895369593946873860
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "警官を襲うのかよ",
+              "maleVariant": "",
+              "stringId": 1895369593175121924
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ブタ箱にブチ込んでやる！",
+              "maleVariant": "",
+              "stringId": 1895369593191899140
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "受け取りやがれ！",
+              "maleVariant": "",
+              "stringId": 1895369593242230788
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "たいしたことないな！",
+              "maleVariant": "",
+              "stringId": 1895369593326116868
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "させるかよ！",
+              "maleVariant": "",
+              "stringId": 1895369593359671300
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "くたばりやがれ！",
+              "maleVariant": "",
+              "stringId": 1895369593410002948
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソ！",
+              "maleVariant": "",
+              "stringId": 1895369593426780164
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "気をつけな",
+              "maleVariant": "",
+              "stringId": 1895369593493889028
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい",
+              "maleVariant": "",
+              "stringId": 1895369593510666244
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お前はもう終わりだ！",
+              "maleVariant": "",
+              "stringId": 1895369593946873860
             }
-          }
+          ]
         }
       }
     },

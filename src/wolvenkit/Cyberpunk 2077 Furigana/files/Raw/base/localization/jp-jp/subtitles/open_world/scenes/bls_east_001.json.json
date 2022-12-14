@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_east_001.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "珍しい奴だな",
-                    "maleVariant": null,
-                    "stringId": 1975112254536568836
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "アイリスはダコタの下についたらしいよ",
-                    "maleVariant": null,
-                    "stringId": 1975114213544972288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この目で見るまでは信じられないな",
-                    "maleVariant": null,
-                    "stringId": 1975114413797822464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ダコタはそんな悪い奴じゃ…",
-                    "maleVariant": null,
-                    "stringId": 1975117239634644992
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "フィクサーとは関わるようなタイプじゃなかった",
-                    "maleVariant": null,
-                    "stringId": 1975117322564423680
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いや。なぜ聞く？ あいつと仲いいのか？",
-                    "maleVariant": null,
-                    "stringId": 1975121045395099648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "最近タナーを見かけた？",
-                    "maleVariant": null,
-                    "stringId": 1975121119063855104
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "たまに話す程度だけど",
-                    "maleVariant": null,
-                    "stringId": 1975122192822456320
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "悪いどころか、ダコタは気難しい年増のババアだ",
-                    "maleVariant": null,
-                    "stringId": 1976315194429427712
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "珍しい奴だな",
+              "maleVariant": "",
+              "stringId": 1975112254536568836
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "アイリスはダコタの下についたらしいよ",
+              "maleVariant": "",
+              "stringId": 1975114213544972288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この目で見るまでは信じられないな",
+              "maleVariant": "",
+              "stringId": 1975114413797822464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ダコタはそんな悪い奴じゃ…",
+              "maleVariant": "",
+              "stringId": 1975117239634644992
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "フィクサーとは関わるようなタイプじゃなかった",
+              "maleVariant": "",
+              "stringId": 1975117322564423680
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いや。なぜ聞く？ あいつと仲いいのか？",
+              "maleVariant": "",
+              "stringId": 1975121045395099648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "最近タナーを見かけた？",
+              "maleVariant": "",
+              "stringId": 1975121119063855104
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "たまに話す程度だけど",
+              "maleVariant": "",
+              "stringId": 1975122192822456320
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "悪いどころか、ダコタは気難しい年増のババアだ",
+              "maleVariant": "",
+              "stringId": 1976315194429427712
             }
-          }
+          ]
         }
       }
     },

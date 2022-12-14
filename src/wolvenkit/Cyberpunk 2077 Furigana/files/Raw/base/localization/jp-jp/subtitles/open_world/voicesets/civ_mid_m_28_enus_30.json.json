@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_mid_m_28_enus_30.json"
@@ -11,146 +11,110 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何か面白い話でもあるか？",
-                    "maleVariant": null,
-                    "stringId": 1948815088893419524
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "迷惑はかけないでくれよ",
-                    "maleVariant": null,
-                    "stringId": 1948815088926973952
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何も渡さんからな！",
-                    "maleVariant": null,
-                    "stringId": 1948815088977305604
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "触るんじゃない",
-                    "maleVariant": null,
-                    "stringId": 1948815089010860036
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもし",
-                    "maleVariant": null,
-                    "stringId": 1948815089044414468
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あー… そんなのニュースじゃない… あいつが殺されただけだろ？",
-                    "maleVariant": null,
-                    "stringId": 1948815089094746116
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ… 写真は…？ ブレインダンス？ それなら話ができる",
-                    "maleVariant": null,
-                    "stringId": 1948815089128300544
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "後でな",
-                    "maleVariant": null,
-                    "stringId": 1948815089161854980
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "武器だ！ 武器を持ってるぞ！",
-                    "maleVariant": null,
-                    "stringId": 1948815089346404356
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "早くここから逃げるんだ！",
-                    "maleVariant": null,
-                    "stringId": 1948815089363181572
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "子供がいるんだ！",
-                    "maleVariant": null,
-                    "stringId": 1948815089447067652
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こんなことしないでくれ！",
-                    "maleVariant": null,
-                    "stringId": 1948815089480622080
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おいおい…",
-                    "maleVariant": null,
-                    "stringId": 1948815089547730948
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい、金目のものはないぞ",
-                    "maleVariant": null,
-                    "stringId": 1948815089581285380
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "逃げようとしてたんだから、当然だろ？ 花…？ まあ、そうだな… ああ",
-                    "maleVariant": null,
-                    "stringId": 1948817083989614592
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いくら欲しいんだ…？ そうか、俺への謝礼は今日中に振り込め… よし",
-                    "maleVariant": null,
-                    "stringId": 1948817397153128448
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何か面白い話でもあるか？",
+              "maleVariant": "",
+              "stringId": 1948815088893419524
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "迷惑はかけないでくれよ",
+              "maleVariant": "",
+              "stringId": 1948815088926973952
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何も渡さんからな！",
+              "maleVariant": "",
+              "stringId": 1948815088977305604
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "触るんじゃない",
+              "maleVariant": "",
+              "stringId": 1948815089010860036
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもし",
+              "maleVariant": "",
+              "stringId": 1948815089044414468
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あー… そんなのニュースじゃない… あいつが殺されただけだろ？",
+              "maleVariant": "",
+              "stringId": 1948815089094746116
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ… 写真は…？ ブレインダンス？ それなら話ができる",
+              "maleVariant": "",
+              "stringId": 1948815089128300544
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "後でな",
+              "maleVariant": "",
+              "stringId": 1948815089161854980
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "武器だ！ 武器を持ってるぞ！",
+              "maleVariant": "",
+              "stringId": 1948815089346404356
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "早くここから逃げるんだ！",
+              "maleVariant": "",
+              "stringId": 1948815089363181572
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "子供がいるんだ！",
+              "maleVariant": "",
+              "stringId": 1948815089447067652
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こんなことしないでくれ！",
+              "maleVariant": "",
+              "stringId": 1948815089480622080
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おいおい…",
+              "maleVariant": "",
+              "stringId": 1948815089547730948
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい、金目のものはないぞ",
+              "maleVariant": "",
+              "stringId": 1948815089581285380
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "逃げようとしてたんだから、当然だろ？ 花…？ まあ、そうだな… ああ",
+              "maleVariant": "",
+              "stringId": 1948817083989614592
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いくら欲しいんだ…？ そうか、俺への謝礼は今日中に振り込め… よし",
+              "maleVariant": "",
+              "stringId": 1948817397153128448
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\fluff\\ybimb_1.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "皆さん、こんにちは！ 今日も“株価上昇・気分上々”の時間です",
-                    "maleVariant": null,
-                    "stringId": 1751919096035336192
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "本日はペトロケム・ベターライフ社に注目したいと思います。CHOOH-2最大手の最近の動向は…？",
-                    "maleVariant": null,
-                    "stringId": 1751924347001954304
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ひと言で言うと、シビア。2076年は深刻な干ばつ被害により、合成燃料の主原料である大豆とトウモロコシの生産量が史上最低になりました",
-                    "maleVariant": null,
-                    "stringId": 1751924477310590976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それに追い打ちをかけたのは… 同社が最大の農場を置くブラジルおよびコロンビアの政府方針。社会不安への緩和策として農作物の徴収を決定しました",
-                    "maleVariant": null,
-                    "stringId": 1751924640603234304
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ペトロケムのロビー活動専門チームにより、徴収は阻止されているものの、同社の株価は昨年11%もの急落を見せました",
-                    "maleVariant": null,
-                    "stringId": 1751924763647336448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "しかし早合点は禁物です… ペトロケムのCEO、ムハンマド氏は、次に示す各国で100万エーカーの耕作地を獲得すると発表。USSR、特にカザフスタン、ダゲスタン、トルクメニスタンの地域です",
-                    "maleVariant": null,
-                    "stringId": 1751924918819807232
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "大胆な計画ですが、これによりCHOOH-2の生産にブレーキをかけている原料不足の問題は解消されるものと思われます",
-                    "maleVariant": null,
-                    "stringId": 1751925260789800960
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ムハンマド氏の取組みが実を結べば、投資家たちの信用は瞬く間に回復し、同社の株価も急上昇が見込めるでしょう",
-                    "maleVariant": null,
-                    "stringId": 1751925396416815104
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "となれば… もちろん、今が買い時です！",
-                    "maleVariant": null,
-                    "stringId": 1751925719663435776
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "以上が今日の耳より情報です。それではまた次回、お会いしましょう！",
-                    "maleVariant": null,
-                    "stringId": 1751925869534306304
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "皆さん、こんにちは！ 今日も“株価上昇・気分上々”の時間です",
+              "maleVariant": "",
+              "stringId": 1751919096035336192
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "本日はペトロケム・ベターライフ社に注目したいと思います。CHOOH-2最大手の最近の動向は…？",
+              "maleVariant": "",
+              "stringId": 1751924347001954304
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ひと言で言うと、シビア。2076年は深刻な干ばつ被害により、合成燃料の主原料である大豆とトウモロコシの生産量が史上最低になりました",
+              "maleVariant": "",
+              "stringId": 1751924477310590976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それに追い打ちをかけたのは… 同社が最大の農場を置くブラジルおよびコロンビアの政府方針。社会不安への緩和策として農作物の徴収を決定しました",
+              "maleVariant": "",
+              "stringId": 1751924640603234304
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ペトロケムのロビー活動専門チームにより、徴収は阻止されているものの、同社の株価は昨年11%もの急落を見せました",
+              "maleVariant": "",
+              "stringId": 1751924763647336448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "しかし早合点は禁物です… ペトロケムのCEO、ムハンマド氏は、次に示す各国で100万エーカーの耕作地を獲得すると発表。USSR、特にカザフスタン、ダゲスタン、トルクメニスタンの地域です",
+              "maleVariant": "",
+              "stringId": 1751924918819807232
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "大胆な計画ですが、これによりCHOOH-2の生産にブレーキをかけている原料不足の問題は解消されるものと思われます",
+              "maleVariant": "",
+              "stringId": 1751925260789800960
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ムハンマド氏の取組みが実を結べば、投資家たちの信用は瞬く間に回復し、同社の株価も急上昇が見込めるでしょう",
+              "maleVariant": "",
+              "stringId": 1751925396416815104
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "となれば… もちろん、今が買い時です！",
+              "maleVariant": "",
+              "stringId": 1751925719663435776
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "以上が今日の耳より情報です。それではまた次回、お会いしましょう！",
+              "maleVariant": "",
+              "stringId": 1751925869534306304
             }
-          }
+          ]
         }
       }
     },

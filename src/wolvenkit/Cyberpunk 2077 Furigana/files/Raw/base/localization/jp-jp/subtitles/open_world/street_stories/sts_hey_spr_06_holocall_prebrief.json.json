@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_hey_spr_06_holocall_prebrief.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ナイトシティを生かしてるのは均衡だ。均衡を失えば、企業やギャング、傭兵――あちこちで潰し合いが始まる",
-                    "maleVariant": null,
-                    "stringId": 2334576991216058368
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そこでフィクサーの出番ってわけさ。どこかが力をつけ過ぎたら、フィクサーがその偏りを調整する… 人知れずね",
-                    "maleVariant": null,
-                    "stringId": 2334577127312834560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それがビジネスを途切れさせない秘訣だよ。なんでこんな講釈を垂れるかって？",
-                    "maleVariant": null,
-                    "stringId": 2334577258309337088
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちょうど今、その“調整”が必要だからさ。添付の情報を確認しな",
-                    "maleVariant": null,
-                    "stringId": 2334577449989029888
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ナイトシティを生かしてるのは均衡だ。均衡を失えば、企業やギャング、傭兵――あちこちで潰し合いが始まる",
+              "maleVariant": "",
+              "stringId": 2334576991216058368
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そこでフィクサーの出番ってわけさ。どこかが力をつけ過ぎたら、フィクサーがその偏りを調整する… 人知れずね",
+              "maleVariant": "",
+              "stringId": 2334577127312834560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それがビジネスを途切れさせない秘訣だよ。なんでこんな講釈を垂れるかって？",
+              "maleVariant": "",
+              "stringId": 2334577258309337088
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちょうど今、その“調整”が必要だからさ。添付の情報を確認しな",
+              "maleVariant": "",
+              "stringId": 2334577449989029888
             }
-          }
+          ]
         }
       }
     },

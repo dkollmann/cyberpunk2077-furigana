@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\quests\\q203_01_crystal_palace_info.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ねえキミ！ そう、そこのキミだ！",
-                    "maleVariant": null,
-                    "stringId": 1810970136219992064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "理想の暮らしを楽しんでるかい？ きっと現実は… シケたソイチップスに臭い水道水、寝室の窓の外では今日も殺人事件ってとこだろう？",
-                    "maleVariant": null,
-                    "stringId": 1810978641765187584
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "だけどもし… その暮らしを全部変えられるとしたら？",
-                    "maleVariant": null,
-                    "stringId": 1810978963216646144
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今の暮らしを地球に残して、この世に残された最後のフロンティアへと旅立ってみたくはないかい？",
-                    "maleVariant": null,
-                    "stringId": 1810979509482799104
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "7299番にキーワード“SPACE”を送信すると、抽選でクリスタル・パレスの1週間ペア宿泊券をプレゼント！",
-                    "maleVariant": null,
-                    "stringId": 1810980661054128128
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "カジノ！ プール！ 最高級のブレインダンス設備！ そして超一流のシェフが勢ぞろい！",
-                    "maleVariant": null,
-                    "stringId": 1810980938901602304
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "最後のパラダイスを体験したいなら、1マイクロ秒も待たないで！ 今すぐキーワード“SPACE”を7299番へ！",
-                    "maleVariant": null,
-                    "stringId": 1810981088688586752
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クリスタル・パレス――宇宙のど真ん中で命を感じよう！",
-                    "maleVariant": null,
-                    "stringId": 1810981261829455872
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ねえキミ！ そう、そこのキミだ！",
+              "maleVariant": "",
+              "stringId": 1810970136219992064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "理想の暮らしを楽しんでるかい？ きっと現実は… シケたソイチップスに臭い水道水、寝室の窓の外では今日も殺人事件ってとこだろう？",
+              "maleVariant": "",
+              "stringId": 1810978641765187584
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "だけどもし… その暮らしを全部変えられるとしたら？",
+              "maleVariant": "",
+              "stringId": 1810978963216646144
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今の暮らしを地球に残して、この世に残された最後のフロンティアへと旅立ってみたくはないかい？",
+              "maleVariant": "",
+              "stringId": 1810979509482799104
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "7299番にキーワード“SPACE”を送信すると、抽選でクリスタル・パレスの1週間ペア宿泊券をプレゼント！",
+              "maleVariant": "",
+              "stringId": 1810980661054128128
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "カジノ！ プール！ 最高級のブレインダンス設備！ そして超一流のシェフが勢ぞろい！",
+              "maleVariant": "",
+              "stringId": 1810980938901602304
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "最後のパラダイスを体験したいなら、1マイクロ秒も待たないで！ 今すぐキーワード“SPACE”を7299番へ！",
+              "maleVariant": "",
+              "stringId": 1810981088688586752
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クリスタル・パレス――宇宙のど真ん中で命を感じよう！",
+              "maleVariant": "",
+              "stringId": 1810981261829455872
             }
-          }
+          ]
         }
       }
     },

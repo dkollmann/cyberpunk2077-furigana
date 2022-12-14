@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\combat_voiceset_scene_block.json"
@@ -11,338 +11,254 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Greeting A",
-                    "maleVariant": null,
-                    "stringId": 1625548647180898304
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Greeting B",
-                    "maleVariant": null,
-                    "stringId": 1625549251731099648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Reprimand Ask To Leave A",
-                    "maleVariant": null,
-                    "stringId": 1625570508379885568
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Reprimand Ask To Leave B",
-                    "maleVariant": null,
-                    "stringId": 1625570508396662784
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Reprimand Ask To Holster A",
-                    "maleVariant": null,
-                    "stringId": 1625572863682908160
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Reprimand Ask To Holster B",
-                    "maleVariant": null,
-                    "stringId": 1625572863699685376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Reprimand Final Warning A",
-                    "maleVariant": null,
-                    "stringId": 1625590316869718016
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Reprimand Final Warning B",
-                    "maleVariant": null,
-                    "stringId": 1625590316903272448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Reprimand Complies A",
-                    "maleVariant": null,
-                    "stringId": 1625590387619237888
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Reprimand Complies B",
-                    "maleVariant": null,
-                    "stringId": 1625590387636015104
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Stealth Curious A",
-                    "maleVariant": null,
-                    "stringId": 1625590494422994944
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Stealth Curious B",
-                    "maleVariant": null,
-                    "stringId": 1625590494439772160
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Stealth Patrol Back A",
-                    "maleVariant": null,
-                    "stringId": 1625598629309157376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Stealth Patrol Back B",
-                    "maleVariant": null,
-                    "stringId": 1625598629325934592
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Stealth Search A",
-                    "maleVariant": null,
-                    "stringId": 1625598774717288448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Stealth Search B",
-                    "maleVariant": null,
-                    "stringId": 1625598774734065664
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Stealth Body",
-                    "maleVariant": null,
-                    "stringId": 1625598844057522176
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Stealth Call",
-                    "maleVariant": null,
-                    "stringId": 1625602419097702400
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Danger A",
-                    "maleVariant": null,
-                    "stringId": 1625602499326349312
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Danger B",
-                    "maleVariant": null,
-                    "stringId": 1625602499359903744
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Enemy Throwing grenade at V",
-                    "maleVariant": null,
-                    "stringId": 1625612200382402560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Battlecry Morale A",
-                    "maleVariant": null,
-                    "stringId": 1625612314752684032
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Battlecry Morale B",
-                    "maleVariant": null,
-                    "stringId": 1625612314769461248
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Battlecry Morale C",
-                    "maleVariant": null,
-                    "stringId": 1625612366191628288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Battlecry Curse B",
-                    "maleVariant": null,
-                    "stringId": 1625612366208405504
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Bump A",
-                    "maleVariant": null,
-                    "stringId": 1625614313506312192
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Bump B",
-                    "maleVariant": null,
-                    "stringId": 1625614313523089408
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Phone Start",
-                    "maleVariant": null,
-                    "stringId": 1625615051737370624
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Phone A",
-                    "maleVariant": null,
-                    "stringId": 1625615119383105536
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Phone B",
-                    "maleVariant": null,
-                    "stringId": 1625615119399882752
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Flank Order",
-                    "maleVariant": null,
-                    "stringId": 1625652938700853248
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Flank Reaction",
-                    "maleVariant": null,
-                    "stringId": 1625653692299841536
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Run from Grenade",
-                    "maleVariant": null,
-                    "stringId": 1625655252631261184
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Phone End",
-                    "maleVariant": null,
-                    "stringId": 1695564949177794560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Stealth Curious C",
-                    "maleVariant": null,
-                    "stringId": 1763356787634118656
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Stealth Curious Together A",
-                    "maleVariant": null,
-                    "stringId": 1763362543091621888
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Stealth Curious Together B",
-                    "maleVariant": null,
-                    "stringId": 1763362712054964224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Stealth Order",
-                    "maleVariant": null,
-                    "stringId": 1763365391024037888
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Battlecry Morale C",
-                    "maleVariant": null,
-                    "stringId": 1763371321417572352
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Grapple",
-                    "maleVariant": null,
-                    "stringId": 1763619903571795968
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Greeting A",
+              "maleVariant": "",
+              "stringId": 1625548647180898304
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Greeting B",
+              "maleVariant": "",
+              "stringId": 1625549251731099648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Reprimand Ask To Leave A",
+              "maleVariant": "",
+              "stringId": 1625570508379885568
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Reprimand Ask To Leave B",
+              "maleVariant": "",
+              "stringId": 1625570508396662784
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Reprimand Ask To Holster A",
+              "maleVariant": "",
+              "stringId": 1625572863682908160
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Reprimand Ask To Holster B",
+              "maleVariant": "",
+              "stringId": 1625572863699685376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Reprimand Final Warning A",
+              "maleVariant": "",
+              "stringId": 1625590316869718016
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Reprimand Final Warning B",
+              "maleVariant": "",
+              "stringId": 1625590316903272448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Reprimand Complies A",
+              "maleVariant": "",
+              "stringId": 1625590387619237888
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Reprimand Complies B",
+              "maleVariant": "",
+              "stringId": 1625590387636015104
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Stealth Curious A",
+              "maleVariant": "",
+              "stringId": 1625590494422994944
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Stealth Curious B",
+              "maleVariant": "",
+              "stringId": 1625590494439772160
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Stealth Patrol Back A",
+              "maleVariant": "",
+              "stringId": 1625598629309157376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Stealth Patrol Back B",
+              "maleVariant": "",
+              "stringId": 1625598629325934592
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Stealth Search A",
+              "maleVariant": "",
+              "stringId": 1625598774717288448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Stealth Search B",
+              "maleVariant": "",
+              "stringId": 1625598774734065664
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Stealth Body",
+              "maleVariant": "",
+              "stringId": 1625598844057522176
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Stealth Call",
+              "maleVariant": "",
+              "stringId": 1625602419097702400
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Danger A",
+              "maleVariant": "",
+              "stringId": 1625602499326349312
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Danger B",
+              "maleVariant": "",
+              "stringId": 1625602499359903744
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Enemy Throwing grenade at V",
+              "maleVariant": "",
+              "stringId": 1625612200382402560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Battlecry Morale A",
+              "maleVariant": "",
+              "stringId": 1625612314752684032
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Battlecry Morale B",
+              "maleVariant": "",
+              "stringId": 1625612314769461248
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Battlecry Morale C",
+              "maleVariant": "",
+              "stringId": 1625612366191628288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Battlecry Curse B",
+              "maleVariant": "",
+              "stringId": 1625612366208405504
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Bump A",
+              "maleVariant": "",
+              "stringId": 1625614313506312192
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Bump B",
+              "maleVariant": "",
+              "stringId": 1625614313523089408
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Phone Start",
+              "maleVariant": "",
+              "stringId": 1625615051737370624
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Phone A",
+              "maleVariant": "",
+              "stringId": 1625615119383105536
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Phone B",
+              "maleVariant": "",
+              "stringId": 1625615119399882752
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Flank Order",
+              "maleVariant": "",
+              "stringId": 1625652938700853248
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Flank Reaction",
+              "maleVariant": "",
+              "stringId": 1625653692299841536
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Run from Grenade",
+              "maleVariant": "",
+              "stringId": 1625655252631261184
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Phone End",
+              "maleVariant": "",
+              "stringId": 1695564949177794560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Stealth Curious C",
+              "maleVariant": "",
+              "stringId": 1763356787634118656
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Stealth Curious Together A",
+              "maleVariant": "",
+              "stringId": 1763362543091621888
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Stealth Curious Together B",
+              "maleVariant": "",
+              "stringId": 1763362712054964224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Stealth Order",
+              "maleVariant": "",
+              "stringId": 1763365391024037888
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Battlecry Morale C",
+              "maleVariant": "",
+              "stringId": 1763371321417572352
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Grapple",
+              "maleVariant": "",
+              "stringId": 1763619903571795968
             }
-          }
+          ]
         }
       }
     },

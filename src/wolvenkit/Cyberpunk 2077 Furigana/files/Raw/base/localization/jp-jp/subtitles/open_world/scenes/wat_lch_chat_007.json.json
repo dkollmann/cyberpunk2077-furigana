@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_007.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あのアニメ変だよ。人間が一人もいないもん",
-                    "maleVariant": null,
-                    "stringId": 1806994476324478976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ドブズ警部はね、“イヌ”なんだよ",
-                    "maleVariant": null,
-                    "stringId": 1806994915048677376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "リズィー・ウィズィーが飼ってるから知ってる。テレビで見た",
-                    "maleVariant": null,
-                    "stringId": 1806995049870385152
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でもミスター・パギンズはキモい。顔は潰れてるし、目玉は飛び出そうだし。げえーって",
-                    "maleVariant": null,
-                    "stringId": 1806995541610586112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あれは… イヌじゃないよね？",
-                    "maleVariant": null,
-                    "stringId": 1806995721093242880
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ネコなんじゃない？",
-                    "maleVariant": null,
-                    "stringId": 1806996017815085056
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ううん、ネコも見たことあるけど全然違った",
-                    "maleVariant": null,
-                    "stringId": 1806996154750722048
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "絶滅したドブツかも",
-                    "maleVariant": null,
-                    "stringId": 1806996314738253824
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "たぶん恐竜だよ",
-                    "maleVariant": null,
-                    "stringId": 1806996562638397440
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "絶滅した動物は全部恐竜だもん",
-                    "maleVariant": null,
-                    "stringId": 1806996843807760384
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あのアニメ変だよ。人間が一人もいないもん",
+              "maleVariant": "",
+              "stringId": 1806994476324478976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ドブズ警部はね、“イヌ”なんだよ",
+              "maleVariant": "",
+              "stringId": 1806994915048677376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "リズィー・ウィズィーが飼ってるから知ってる。テレビで見た",
+              "maleVariant": "",
+              "stringId": 1806995049870385152
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でもミスター・パギンズはキモい。顔は潰れてるし、目玉は飛び出そうだし。げえーって",
+              "maleVariant": "",
+              "stringId": 1806995541610586112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あれは… イヌじゃないよね？",
+              "maleVariant": "",
+              "stringId": 1806995721093242880
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ネコなんじゃない？",
+              "maleVariant": "",
+              "stringId": 1806996017815085056
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ううん、ネコも見たことあるけど全然違った",
+              "maleVariant": "",
+              "stringId": 1806996154750722048
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "絶滅したドブツかも",
+              "maleVariant": "",
+              "stringId": 1806996314738253824
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "たぶん恐竜だよ",
+              "maleVariant": "",
+              "stringId": 1806996562638397440
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "絶滅した動物は全部恐竜だもん",
+              "maleVariant": "",
+              "stringId": 1806996843807760384
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_jnk_f_04_bra_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうしたの？",
-                    "maleVariant": null,
-                    "stringId": 1948754566043443200
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "誰か何か言った？",
-                    "maleVariant": null,
-                    "stringId": 1948754566060220420
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちょっと、何のつもり？",
-                    "maleVariant": null,
-                    "stringId": 1948754566110552068
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そう興奮しないでよ",
-                    "maleVariant": null,
-                    "stringId": 1948754566127329284
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "へえ？ 何が？ 知らない… 知らないってば。覚えてないの",
-                    "maleVariant": null,
-                    "stringId": 1948754566160883716
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "昨日だけど、子供たち… そっちで面倒みれないの？ どうしてあたしがやんないといけないのさ？",
-                    "maleVariant": null,
-                    "stringId": 1948754566211215364
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うん、約束した。で？ 私に約束しなかった？ いろいろ約束したよね？",
-                    "maleVariant": null,
-                    "stringId": 1948754566227992580
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もう知らない。あっそう。あんたのママもね。何よ、その三角関係",
-                    "maleVariant": null,
-                    "stringId": 1948754566261547012
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あわ、殺される…",
-                    "maleVariant": null,
-                    "stringId": 1948754566412541956
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "逃げて！ あの女イカれてる！",
-                    "maleVariant": "逃げて！ あの男イカれてる！",
-                    "stringId": 1948754566429319172
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何もしないで。お願い！",
-                    "maleVariant": null,
-                    "stringId": 1948754566513205252
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やめて！ やだ！ 放っておいて！",
-                    "maleVariant": null,
-                    "stringId": 1948754566529982468
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あんたなんかに用はないの",
-                    "maleVariant": null,
-                    "stringId": 1948754566613868548
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こっち来ないでくれる？",
-                    "maleVariant": null,
-                    "stringId": 1948754566630645764
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうしたの？",
+              "maleVariant": "",
+              "stringId": 1948754566043443200
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "誰か何か言った？",
+              "maleVariant": "",
+              "stringId": 1948754566060220420
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちょっと、何のつもり？",
+              "maleVariant": "",
+              "stringId": 1948754566110552068
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そう興奮しないでよ",
+              "maleVariant": "",
+              "stringId": 1948754566127329284
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "へえ？ 何が？ 知らない… 知らないってば。覚えてないの",
+              "maleVariant": "",
+              "stringId": 1948754566160883716
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "昨日だけど、子供たち… そっちで面倒みれないの？ どうしてあたしがやんないといけないのさ？",
+              "maleVariant": "",
+              "stringId": 1948754566211215364
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うん、約束した。で？ 私に約束しなかった？ いろいろ約束したよね？",
+              "maleVariant": "",
+              "stringId": 1948754566227992580
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もう知らない。あっそう。あんたのママもね。何よ、その三角関係",
+              "maleVariant": "",
+              "stringId": 1948754566261547012
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あわ、殺される…",
+              "maleVariant": "",
+              "stringId": 1948754566412541956
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "逃げて！ あの女イカれてる！",
+              "maleVariant": "逃げて！ あの男イカれてる！",
+              "stringId": 1948754566429319172
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何もしないで。お願い！",
+              "maleVariant": "",
+              "stringId": 1948754566513205252
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やめて！ やだ！ 放っておいて！",
+              "maleVariant": "",
+              "stringId": 1948754566529982468
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あんたなんかに用はないの",
+              "maleVariant": "",
+              "stringId": 1948754566613868548
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こっち来ないでくれる？",
+              "maleVariant": "",
+              "stringId": 1948754566630645764
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_wbr_hil_01_holocall_prebrief.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ナイトシティに本物の愛なんてもうあらへん。みんな隠れて浮気しよる。ほんで離婚したら、後から互いの悪口を言いふらすんや",
-                    "maleVariant": null,
-                    "stringId": 2328644303566483456
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "信じられへんやろ？ うちは正直、ショックやった",
-                    "maleVariant": null,
-                    "stringId": 2342082010125012992
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "せやけど、そういう連中のおかげで生まれる仕事もあるんや。今回伴侶に裏切られた男の名はミスター・グティエレス",
-                    "maleVariant": null,
-                    "stringId": 2342084356284452864
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "夫婦関係はうちらにどうしようもあらへんけど、嫁はんに取られた証券の回収くらいはできるやろ？ 詳細を添付で確認したって",
-                    "maleVariant": null,
-                    "stringId": 2342084499461214208
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ナイトシティに本物の愛なんてもうあらへん。みんな隠れて浮気しよる。ほんで離婚したら、後から互いの悪口を言いふらすんや",
+              "maleVariant": "",
+              "stringId": 2328644303566483456
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "信じられへんやろ？ うちは正直、ショックやった",
+              "maleVariant": "",
+              "stringId": 2342082010125012992
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "せやけど、そういう連中のおかげで生まれる仕事もあるんや。今回伴侶に裏切られた男の名はミスター・グティエレス",
+              "maleVariant": "",
+              "stringId": 2342084356284452864
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "夫婦関係はうちらにどうしようもあらへんけど、嫁はんに取られた証券の回収くらいはできるやろ？ 詳細を添付で確認したって",
+              "maleVariant": "",
+              "stringId": 2342084499461214208
             }
-          }
+          ]
         }
       }
     },

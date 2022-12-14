@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\cct_dtn_ripdoc_01.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "秘密は守ってくれるのよね？ 普通とは違うサイバーウェアを入れてるから… 自分のじゃないヤツを",
-                    "maleVariant": "秘密は守ってくれるんだよな？ 普通とは違うサイバーウェアを入れてるから… 自分のじゃないヤツを",
-                    "stringId": 1976310269076623360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そういうことなら、口は堅いから安心してくれていい",
-                    "maleVariant": null,
-                    "stringId": 1976310819453194240
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "新しいサイバーウェアを探してる",
-                    "maleVariant": null,
-                    "stringId": 1979282212818231300
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "秘密は守れる？",
-                    "maleVariant": "秘密は守れるか？",
-                    "stringId": 1979282475415216128
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この仕事は長いの？",
-                    "maleVariant": "この仕事は長いのか？",
-                    "stringId": 1979282609498726400
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "新しいクロームを入れたい",
-                    "maleVariant": null,
-                    "stringId": 1979283761841807360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なるほど。何をお探しかな？",
-                    "maleVariant": null,
-                    "stringId": 1979284403889086464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この仕事は長いの？",
-                    "maleVariant": "この仕事は長いのか？",
-                    "stringId": 1979285706153369600
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうだな… もう10年になる。パシフィカで始めたんだが、今やナイトシティの都心にクリニックを構えてる！",
-                    "maleVariant": null,
-                    "stringId": 1979286446448025600
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "すごいじゃない",
-                    "maleVariant": "すごいじゃないか",
-                    "stringId": 1979287327688073216
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ありがとう。とにかく大船に乗ったつもりでいてくれ。痛みひとつ感じさせずに、頭蓋骨をチタニウムで裏打ちすることもできるぞ",
-                    "maleVariant": null,
-                    "stringId": 1979287557317828608
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "外見を変えたい",
-                    "maleVariant": null,
-                    "stringId": 3378387615412408320
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "リパーの仕事を頼みたい",
-                    "maleVariant": null,
-                    "stringId": 3378388150001618944
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なるほど。何をお探しかな？",
-                    "maleVariant": null,
-                    "stringId": 3378388588272832512
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "秘密は守ってくれるのよね？ 普通とは違うサイバーウェアを入れてるから… 自分のじゃないヤツを",
+              "maleVariant": "秘密は守ってくれるんだよな？ 普通とは違うサイバーウェアを入れてるから… 自分のじゃないヤツを",
+              "stringId": 1976310269076623360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そういうことなら、口は堅いから安心してくれていい",
+              "maleVariant": "",
+              "stringId": 1976310819453194240
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "新しいサイバーウェアを探してる",
+              "maleVariant": "",
+              "stringId": 1979282212818231300
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "秘密は守れる？",
+              "maleVariant": "秘密は守れるか？",
+              "stringId": 1979282475415216128
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この仕事は長いの？",
+              "maleVariant": "この仕事は長いのか？",
+              "stringId": 1979282609498726400
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "新しいクロームを入れたい",
+              "maleVariant": "",
+              "stringId": 1979283761841807360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なるほど。何をお探しかな？",
+              "maleVariant": "",
+              "stringId": 1979284403889086464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この仕事は長いの？",
+              "maleVariant": "この仕事は長いのか？",
+              "stringId": 1979285706153369600
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうだな… もう10年になる。パシフィカで始めたんだが、今やナイトシティの都心にクリニックを構えてる！",
+              "maleVariant": "",
+              "stringId": 1979286446448025600
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "すごいじゃない",
+              "maleVariant": "すごいじゃないか",
+              "stringId": 1979287327688073216
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ありがとう。とにかく大船に乗ったつもりでいてくれ。痛みひとつ感じさせずに、頭蓋骨をチタニウムで裏打ちすることもできるぞ",
+              "maleVariant": "",
+              "stringId": 1979287557317828608
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "外見を変えたい",
+              "maleVariant": "",
+              "stringId": 3378387615412408320
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "リパーの仕事を頼みたい",
+              "maleVariant": "",
+              "stringId": 3378388150001618944
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なるほど。何をお探しかな？",
+              "maleVariant": "",
+              "stringId": 3378388588272832512
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q108\\q108_15c_car_chase.json"
@@ -11,106 +11,80 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "アラサカだ！",
-                    "maleVariant": null,
-                    "stringId": 1199909368889253888
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "車がやられたらおしまいだぞ！",
-                    "maleVariant": null,
-                    "stringId": 1257647078372610048
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "手を貸してくれ！",
-                    "maleVariant": null,
-                    "stringId": 1257647445491650560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "来てるよ、後ろだ",
-                    "maleVariant": null,
-                    "stringId": 1682367370448773120
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まいたみたいだ",
-                    "maleVariant": null,
-                    "stringId": 1744408467395747840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "車を停める。話はそれからだ",
-                    "maleVariant": null,
-                    "stringId": 1744409186584666112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ついて行く",
-                    "maleVariant": null,
-                    "stringId": 1789415548859097088
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ローグはお前のどこに惚れたんだ",
-                    "maleVariant": null,
-                    "stringId": 1789451849167708164
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お見事",
-                    "maleVariant": null,
-                    "stringId": 1789451934379188228
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やった。落ちるよ！",
-                    "maleVariant": null,
-                    "stringId": 1789459075987054596
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "このままじゃまずい！ 次の角を右に！",
-                    "maleVariant": null,
-                    "stringId": 2233126225495801856
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "アラサカだ！",
+              "maleVariant": "",
+              "stringId": 1199909368889253888
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "車がやられたらおしまいだぞ！",
+              "maleVariant": "",
+              "stringId": 1257647078372610048
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "手を貸してくれ！",
+              "maleVariant": "",
+              "stringId": 1257647445491650560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "来てるよ、後ろだ",
+              "maleVariant": "",
+              "stringId": 1682367370448773120
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まいたみたいだ",
+              "maleVariant": "",
+              "stringId": 1744408467395747840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "車を停める。話はそれからだ",
+              "maleVariant": "",
+              "stringId": 1744409186584666112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ついて行く",
+              "maleVariant": "",
+              "stringId": 1789415548859097088
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ローグはお前のどこに惚れたんだ",
+              "maleVariant": "",
+              "stringId": 1789451849167708164
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お見事",
+              "maleVariant": "",
+              "stringId": 1789451934379188228
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やった。落ちるよ！",
+              "maleVariant": "",
+              "stringId": 1789459075987054596
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "このままじゃまずい！ 次の角を右に！",
+              "maleVariant": "",
+              "stringId": 2233126225495801856
             }
-          }
+          ]
         }
       }
     },

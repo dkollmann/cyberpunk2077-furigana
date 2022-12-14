@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_kab_chat_003.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ねえ、5番で何があったか聞いた？",
-                    "maleVariant": null,
-                    "stringId": 1802455374480662528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何、あの男また手をあげたの？",
-                    "maleVariant": null,
-                    "stringId": 1802455951197462528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "違うんだって。彼女の方があいつを撃ち殺したのよ！",
-                    "maleVariant": null,
-                    "stringId": 1802456146383593472
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ウソでしょ？ 本当に？",
-                    "maleVariant": null,
-                    "stringId": 1802456317897072640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "6番のアイが見てたらしくて、全部話してくれた",
-                    "maleVariant": null,
-                    "stringId": 1802456509576765440
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "アイ？ あの子の話はウソばっかだから…",
-                    "maleVariant": null,
-                    "stringId": 1802457849992437760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いやいや、だって弾丸が壁を貫通したんだから！ アイは死体も見たって！",
-                    "maleVariant": null,
-                    "stringId": 1802458864158367744
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ねえ、5番で何があったか聞いた？",
+              "maleVariant": "",
+              "stringId": 1802455374480662528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何、あの男また手をあげたの？",
+              "maleVariant": "",
+              "stringId": 1802455951197462528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "違うんだって。彼女の方があいつを撃ち殺したのよ！",
+              "maleVariant": "",
+              "stringId": 1802456146383593472
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ウソでしょ？ 本当に？",
+              "maleVariant": "",
+              "stringId": 1802456317897072640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "6番のアイが見てたらしくて、全部話してくれた",
+              "maleVariant": "",
+              "stringId": 1802456509576765440
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "アイ？ あの子の話はウソばっかだから…",
+              "maleVariant": "",
+              "stringId": 1802457849992437760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いやいや、だって弾丸が壁を貫通したんだから！ アイは死体も見たって！",
+              "maleVariant": "",
+              "stringId": 1802458864158367744
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_wwd_chat_014.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "で、コーポ野郎が「もっと働け」って言うから――",
-                    "maleVariant": null,
-                    "stringId": 2179589377085792256
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "「もう仕事を2つかけもちしてる」って言ったんだ",
-                    "maleVariant": null,
-                    "stringId": 2211156121856204800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ",
-                    "maleVariant": null,
-                    "stringId": 2217041906585264128
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そしたら「もっとマシな仕事を見つけなかったお前が悪い」ってほざきやがって…",
-                    "maleVariant": null,
-                    "stringId": 2217041988407746560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "結局、家柄で全部決まるんだよ",
-                    "maleVariant": null,
-                    "stringId": 2217042716723470336
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "俺たちみたいなクズは、きれいなガラス張りのタワーで働かせてもらえないんだ",
-                    "maleVariant": null,
-                    "stringId": 2217044897946099712
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "で、コーポ野郎が「もっと働け」って言うから――",
+              "maleVariant": "",
+              "stringId": 2179589377085792256
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "「もう仕事を2つかけもちしてる」って言ったんだ",
+              "maleVariant": "",
+              "stringId": 2211156121856204800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ",
+              "maleVariant": "",
+              "stringId": 2217041906585264128
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そしたら「もっとマシな仕事を見つけなかったお前が悪い」ってほざきやがって…",
+              "maleVariant": "",
+              "stringId": 2217041988407746560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "結局、家柄で全部決まるんだよ",
+              "maleVariant": "",
+              "stringId": 2217042716723470336
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "俺たちみたいなクズは、きれいなガラス張りのタワーで働かせてもらえないんだ",
+              "maleVariant": "",
+              "stringId": 2217044897946099712
             }
-          }
+          ]
         }
       }
     },

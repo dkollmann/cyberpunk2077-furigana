@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_f_81_chn_10_chd.json"
@@ -11,154 +11,116 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お姉ちゃん誰？",
-                    "maleVariant": "お兄ちゃん誰？",
-                    "stringId": 1949190341058486276
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あやしい人…",
-                    "maleVariant": null,
-                    "stringId": 1949190341092040704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もう！",
-                    "maleVariant": null,
-                    "stringId": 1949190341125595140
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何するのよ！",
-                    "maleVariant": null,
-                    "stringId": 1949190341142372356
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おーねーがーい！",
-                    "maleVariant": null,
-                    "stringId": 1949190341175926788
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あの子も持ってて、いつもからかってくるんだよ… わたしも同じのほしい…！ お願いったら！",
-                    "maleVariant": null,
-                    "stringId": 1949190341226258436
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でもママ… どうして…？ 前は買ってくれたでしょ…！ 本当に欲しいの！ でも…",
-                    "maleVariant": null,
-                    "stringId": 1949190341243035652
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ママなんかキライ！",
-                    "maleVariant": null,
-                    "stringId": 1949190341293367300
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "キャーーーッ！",
-                    "maleVariant": null,
-                    "stringId": 1949190341494693892
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ママーーーーッ！",
-                    "maleVariant": null,
-                    "stringId": 1949190341511471108
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うう… ううう…！ やだ！",
-                    "maleVariant": null,
-                    "stringId": 1949190341645688836
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "パパが助けに来るもん！",
-                    "maleVariant": null,
-                    "stringId": 1949190341662466052
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あの人、ついてきてる気がする…",
-                    "maleVariant": null,
-                    "stringId": 1949190341746352132
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わたしと同じところに行くの？",
-                    "maleVariant": null,
-                    "stringId": 1949190341763129348
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "最後まで話を聞いてくれないの？",
-                    "maleVariant": null,
-                    "stringId": 1958911151428378628
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今度は聞いてくれる？ 約束よ？",
-                    "maleVariant": null,
-                    "stringId": 1958911151495487488
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "早くしてよね！",
-                    "maleVariant": null,
-                    "stringId": 1958911151512264708
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お姉ちゃん誰？",
+              "maleVariant": "お兄ちゃん誰？",
+              "stringId": 1949190341058486276
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あやしい人…",
+              "maleVariant": "",
+              "stringId": 1949190341092040704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もう！",
+              "maleVariant": "",
+              "stringId": 1949190341125595140
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何するのよ！",
+              "maleVariant": "",
+              "stringId": 1949190341142372356
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おーねーがーい！",
+              "maleVariant": "",
+              "stringId": 1949190341175926788
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あの子も持ってて、いつもからかってくるんだよ… わたしも同じのほしい…！ お願いったら！",
+              "maleVariant": "",
+              "stringId": 1949190341226258436
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でもママ… どうして…？ 前は買ってくれたでしょ…！ 本当に欲しいの！ でも…",
+              "maleVariant": "",
+              "stringId": 1949190341243035652
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ママなんかキライ！",
+              "maleVariant": "",
+              "stringId": 1949190341293367300
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "キャーーーッ！",
+              "maleVariant": "",
+              "stringId": 1949190341494693892
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ママーーーーッ！",
+              "maleVariant": "",
+              "stringId": 1949190341511471108
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うう… ううう…！ やだ！",
+              "maleVariant": "",
+              "stringId": 1949190341645688836
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "パパが助けに来るもん！",
+              "maleVariant": "",
+              "stringId": 1949190341662466052
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あの人、ついてきてる気がする…",
+              "maleVariant": "",
+              "stringId": 1949190341746352132
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わたしと同じところに行くの？",
+              "maleVariant": "",
+              "stringId": 1949190341763129348
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "最後まで話を聞いてくれないの？",
+              "maleVariant": "",
+              "stringId": 1958911151428378628
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今度は聞いてくれる？ 約束よ？",
+              "maleVariant": "",
+              "stringId": 1958911151495487488
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "早くしてよね！",
+              "maleVariant": "",
+              "stringId": 1958911151512264708
             }
-          }
+          ]
         }
       }
     },

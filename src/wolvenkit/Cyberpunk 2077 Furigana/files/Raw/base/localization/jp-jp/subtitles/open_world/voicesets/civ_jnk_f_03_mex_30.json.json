@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_jnk_f_03_mex_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何なの？",
-                    "maleVariant": null,
-                    "stringId": 1948747884919824388
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何か用でもあるの？",
-                    "maleVariant": null,
-                    "stringId": 1948747884936601604
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "放っておいてよ",
-                    "maleVariant": null,
-                    "stringId": 1948747884986933252
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いったい何なのよ！？",
-                    "maleVariant": null,
-                    "stringId": 1948747885003710468
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもし…？ 取り分の件だけど",
-                    "maleVariant": null,
-                    "stringId": 1948747885037264900
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何？ うん… それでいいよ。どんだけほしいって？ あるだけよ",
-                    "maleVariant": null,
-                    "stringId": 1948747885087596548
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どこで手に入れたっていいでしょ？ モノはあるんだから。気にしないで",
-                    "maleVariant": null,
-                    "stringId": 1948747885104373764
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "明日？ わかった。いつもと同じでしょ？ わかった。じゃあね",
-                    "maleVariant": null,
-                    "stringId": 1948747885137928196
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "助けて！ 助けて！",
-                    "maleVariant": null,
-                    "stringId": 1948747885288923140
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うわうわうわ！！",
-                    "maleVariant": null,
-                    "stringId": 1948747885305700356
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私が何したっていうのよ！？",
-                    "maleVariant": null,
-                    "stringId": 1948747885372809220
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もう！ どっか行って！",
-                    "maleVariant": null,
-                    "stringId": 1948747885406363648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "暇なわけ？",
-                    "maleVariant": null,
-                    "stringId": 1948747885473472516
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いい加減にしてってば",
-                    "maleVariant": null,
-                    "stringId": 1948747885490249732
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何なの？",
+              "maleVariant": "",
+              "stringId": 1948747884919824388
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何か用でもあるの？",
+              "maleVariant": "",
+              "stringId": 1948747884936601604
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "放っておいてよ",
+              "maleVariant": "",
+              "stringId": 1948747884986933252
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いったい何なのよ！？",
+              "maleVariant": "",
+              "stringId": 1948747885003710468
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもし…？ 取り分の件だけど",
+              "maleVariant": "",
+              "stringId": 1948747885037264900
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何？ うん… それでいいよ。どんだけほしいって？ あるだけよ",
+              "maleVariant": "",
+              "stringId": 1948747885087596548
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どこで手に入れたっていいでしょ？ モノはあるんだから。気にしないで",
+              "maleVariant": "",
+              "stringId": 1948747885104373764
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "明日？ わかった。いつもと同じでしょ？ わかった。じゃあね",
+              "maleVariant": "",
+              "stringId": 1948747885137928196
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "助けて！ 助けて！",
+              "maleVariant": "",
+              "stringId": 1948747885288923140
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うわうわうわ！！",
+              "maleVariant": "",
+              "stringId": 1948747885305700356
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私が何したっていうのよ！？",
+              "maleVariant": "",
+              "stringId": 1948747885372809220
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もう！ どっか行って！",
+              "maleVariant": "",
+              "stringId": 1948747885406363648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "暇なわけ？",
+              "maleVariant": "",
+              "stringId": 1948747885473472516
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いい加減にしてってば",
+              "maleVariant": "",
+              "stringId": 1948747885490249732
             }
-          }
+          ]
         }
       }
     },

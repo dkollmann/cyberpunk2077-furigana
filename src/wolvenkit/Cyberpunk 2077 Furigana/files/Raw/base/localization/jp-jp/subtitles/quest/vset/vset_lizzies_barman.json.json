@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\vset\\vset_lizzies_barman.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "好きな酒は？",
-                    "maleVariant": null,
-                    "stringId": 1796864074633428996
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何にする？ コールドブリュー？ もっと強いのか？",
-                    "maleVariant": null,
-                    "stringId": 1796864074650206212
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい、話の途中じゃないか",
-                    "maleVariant": null,
-                    "stringId": 1796864074734092292
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まだ話し終わってないぞ",
-                    "maleVariant": null,
-                    "stringId": 1796864074750869508
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ、お帰り",
-                    "maleVariant": null,
-                    "stringId": 1796864074834755588
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ほらな？ どこへ行ってもこのカウンターに戻ってくる",
-                    "maleVariant": null,
-                    "stringId": 1796864074868310020
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "で？",
-                    "maleVariant": null,
-                    "stringId": 1796864074901864452
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何か言えよ？",
-                    "maleVariant": null,
-                    "stringId": 1796864074918641668
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "前を見てろ",
-                    "maleVariant": null,
-                    "stringId": 1796864075136745472
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "急いでんのか？",
-                    "maleVariant": null,
-                    "stringId": 1796864075153522692
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "好きな酒は？",
+              "maleVariant": "",
+              "stringId": 1796864074633428996
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何にする？ コールドブリュー？ もっと強いのか？",
+              "maleVariant": "",
+              "stringId": 1796864074650206212
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい、話の途中じゃないか",
+              "maleVariant": "",
+              "stringId": 1796864074734092292
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まだ話し終わってないぞ",
+              "maleVariant": "",
+              "stringId": 1796864074750869508
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ、お帰り",
+              "maleVariant": "",
+              "stringId": 1796864074834755588
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ほらな？ どこへ行ってもこのカウンターに戻ってくる",
+              "maleVariant": "",
+              "stringId": 1796864074868310020
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "で？",
+              "maleVariant": "",
+              "stringId": 1796864074901864452
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何か言えよ？",
+              "maleVariant": "",
+              "stringId": 1796864074918641668
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "前を見てろ",
+              "maleVariant": "",
+              "stringId": 1796864075136745472
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "急いでんのか？",
+              "maleVariant": "",
+              "stringId": 1796864075153522692
             }
-          }
+          ]
         }
       }
     },

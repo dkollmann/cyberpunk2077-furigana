@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_kab_chat_013.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "最近いいBDはあったか？",
-                    "maleVariant": null,
-                    "stringId": 2156355141694365696
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ、『帰還』ってタイトルのやつさ。あれは最高だった",
-                    "maleVariant": null,
-                    "stringId": 2169009110404878336
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "へえ。内容は？ アクション？ コメディか？",
-                    "maleVariant": null,
-                    "stringId": 2169010367890771968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どっちでもない。戦争から戻ったばかりの帰還兵になるんだ。5年間ぶりの帰郷で、空港には嫁と子供と犬が迎えに来てる",
-                    "maleVariant": null,
-                    "stringId": 2169010470164680704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なるほど、感動系か",
-                    "maleVariant": null,
-                    "stringId": 2169012349900738560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ。今うちのチームで人員削減が進んでるし、ちょっと現実逃避したかったんだ",
-                    "maleVariant": null,
-                    "stringId": 2169012581057220608
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ… その気持ちはよくわかるよ",
-                    "maleVariant": null,
-                    "stringId": 2169013057093947392
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "最近いいBDはあったか？",
+              "maleVariant": "",
+              "stringId": 2156355141694365696
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ、『帰還』ってタイトルのやつさ。あれは最高だった",
+              "maleVariant": "",
+              "stringId": 2169009110404878336
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "へえ。内容は？ アクション？ コメディか？",
+              "maleVariant": "",
+              "stringId": 2169010367890771968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どっちでもない。戦争から戻ったばかりの帰還兵になるんだ。5年間ぶりの帰郷で、空港には嫁と子供と犬が迎えに来てる",
+              "maleVariant": "",
+              "stringId": 2169010470164680704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なるほど、感動系か",
+              "maleVariant": "",
+              "stringId": 2169012349900738560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ。今うちのチームで人員削減が進んでるし、ちょっと現実逃避したかったんだ",
+              "maleVariant": "",
+              "stringId": 2169012581057220608
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ… その気持ちはよくわかるよ",
+              "maleVariant": "",
+              "stringId": 2169013057093947392
             }
-          }
+          ]
         }
       }
     },

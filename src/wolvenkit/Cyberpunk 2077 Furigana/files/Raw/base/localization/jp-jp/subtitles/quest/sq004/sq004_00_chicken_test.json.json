@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\sq004\\sq004_00_chicken_test.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][pl_pl]Panam likes us",
-                    "maleVariant": null,
-                    "stringId": 1899583721235951616
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][pl_pl]Panam doesnt like us",
-                    "maleVariant": null,
-                    "stringId": 1899583721252728832
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][pl_pl]Yes",
-                    "maleVariant": null,
-                    "stringId": 1899771767319310340
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][pl_pl]No",
-                    "maleVariant": null,
-                    "stringId": 1899772173445378048
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][pl_pl]Yes",
-                    "maleVariant": null,
-                    "stringId": 1979577315979571204
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][pl_pl]No",
-                    "maleVariant": null,
-                    "stringId": 1979577793761128448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][pl_pl]Yes",
-                    "maleVariant": null,
-                    "stringId": 2146312599118163968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Combat chase",
-                    "maleVariant": null,
-                    "stringId": 2331508216483164164
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Stealth",
-                    "maleVariant": null,
-                    "stringId": 2331508690120749056
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][pl_pl]Panam likes us",
+              "maleVariant": "",
+              "stringId": 1899583721235951616
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][pl_pl]Panam doesnt like us",
+              "maleVariant": "",
+              "stringId": 1899583721252728832
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][pl_pl]Yes",
+              "maleVariant": "",
+              "stringId": 1899771767319310340
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][pl_pl]No",
+              "maleVariant": "",
+              "stringId": 1899772173445378048
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][pl_pl]Yes",
+              "maleVariant": "",
+              "stringId": 1979577315979571204
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][pl_pl]No",
+              "maleVariant": "",
+              "stringId": 1979577793761128448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][pl_pl]Yes",
+              "maleVariant": "",
+              "stringId": 2146312599118163968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Combat chase",
+              "maleVariant": "",
+              "stringId": 2331508216483164164
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Stealth",
+              "maleVariant": "",
+              "stringId": 2331508690120749056
             }
-          }
+          ]
         }
       }
     },

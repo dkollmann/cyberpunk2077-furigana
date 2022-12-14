@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\quests\\sq006_01_elections_hook.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ナイトシティ。我らが故郷。我らが誇り",
-                    "maleVariant": null,
-                    "stringId": 1792227944698912768
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私をこの街の市長になってから、失業率は3パーセント、殺人発生率は5パーセント減少しました",
-                    "maleVariant": null,
-                    "stringId": 1800892884618821632
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ですが、この街の可能性について、異なる見方をするひねくれ者もいます…",
-                    "maleVariant": null,
-                    "stringId": 1800893453181894656
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私がこの街を… 愛しているかって？ そんなのバカげた質問だ…",
-                    "maleVariant": null,
-                    "stringId": 1800894075583053824
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私なら信頼を裏切りません。どうか私に、一票を",
-                    "maleVariant": null,
-                    "stringId": 1800894500482826240
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ウェルドン・ホルトから、メッセージをお届けしました",
-                    "maleVariant": null,
-                    "stringId": 1800894993867194368
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ナイトシティ。我らが故郷。我らが誇り",
+              "maleVariant": "",
+              "stringId": 1792227944698912768
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私をこの街の市長になってから、失業率は3パーセント、殺人発生率は5パーセント減少しました",
+              "maleVariant": "",
+              "stringId": 1800892884618821632
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ですが、この街の可能性について、異なる見方をするひねくれ者もいます…",
+              "maleVariant": "",
+              "stringId": 1800893453181894656
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私がこの街を… 愛しているかって？ そんなのバカげた質問だ…",
+              "maleVariant": "",
+              "stringId": 1800894075583053824
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私なら信頼を裏切りません。どうか私に、一票を",
+              "maleVariant": "",
+              "stringId": 1800894500482826240
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ウェルドン・ホルトから、メッセージをお届けしました",
+              "maleVariant": "",
+              "stringId": 1800894993867194368
             }
-          }
+          ]
         }
       }
     },

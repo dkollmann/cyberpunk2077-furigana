@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_high_f_01_enus_25.json"
@@ -11,154 +11,116 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうかした？",
-                    "maleVariant": null,
-                    "stringId": 1881977408892444676
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なに？",
-                    "maleVariant": null,
-                    "stringId": 1881977408909221892
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もう！",
-                    "maleVariant": null,
-                    "stringId": 1881977408959553540
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ふざけてるの？",
-                    "maleVariant": null,
-                    "stringId": 1881977408993107972
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもし？",
-                    "maleVariant": null,
-                    "stringId": 1881977409026662404
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "異論はないわ。もちろんよ… 私も同じ気持ち。うん… どうかしら… うん…",
-                    "maleVariant": null,
-                    "stringId": 1881977409076994052
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ん… ん… そうかな？ よく知ってるわね。考えてみてもいいかも。ん…",
-                    "maleVariant": null,
-                    "stringId": 1881977409110548484
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "OK、じゃあね！",
-                    "maleVariant": null,
-                    "stringId": 1881977409160880132
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そんな！ あああ！",
-                    "maleVariant": null,
-                    "stringId": 1881977409345429508
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "逃げて！ みんな、逃げて！",
-                    "maleVariant": null,
-                    "stringId": 1881977409362206724
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あたしを殺してどうするの！？",
-                    "maleVariant": null,
-                    "stringId": 1881977409462870016
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お願い、殺さないで！",
-                    "maleVariant": null,
-                    "stringId": 1881977409479647236
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちょっと？ 何のつもり？",
-                    "maleVariant": null,
-                    "stringId": 1881977409580310532
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "警察を呼ぶわよ！",
-                    "maleVariant": null,
-                    "stringId": 1881977409580310548
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あたしを待たせるっていうのね…",
-                    "maleVariant": null,
-                    "stringId": 1958934586749657092
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今度は私の言うことを聞いて。いい？",
-                    "maleVariant": null,
-                    "stringId": 1958934586799988740
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "暇つぶしをしろっていうの？",
-                    "maleVariant": null,
-                    "stringId": 1958934586816765956
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうかした？",
+              "maleVariant": "",
+              "stringId": 1881977408892444676
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なに？",
+              "maleVariant": "",
+              "stringId": 1881977408909221892
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もう！",
+              "maleVariant": "",
+              "stringId": 1881977408959553540
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ふざけてるの？",
+              "maleVariant": "",
+              "stringId": 1881977408993107972
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもし？",
+              "maleVariant": "",
+              "stringId": 1881977409026662404
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "異論はないわ。もちろんよ… 私も同じ気持ち。うん… どうかしら… うん…",
+              "maleVariant": "",
+              "stringId": 1881977409076994052
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ん… ん… そうかな？ よく知ってるわね。考えてみてもいいかも。ん…",
+              "maleVariant": "",
+              "stringId": 1881977409110548484
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "OK、じゃあね！",
+              "maleVariant": "",
+              "stringId": 1881977409160880132
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そんな！ あああ！",
+              "maleVariant": "",
+              "stringId": 1881977409345429508
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "逃げて！ みんな、逃げて！",
+              "maleVariant": "",
+              "stringId": 1881977409362206724
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あたしを殺してどうするの！？",
+              "maleVariant": "",
+              "stringId": 1881977409462870016
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お願い、殺さないで！",
+              "maleVariant": "",
+              "stringId": 1881977409479647236
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちょっと？ 何のつもり？",
+              "maleVariant": "",
+              "stringId": 1881977409580310532
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "警察を呼ぶわよ！",
+              "maleVariant": "",
+              "stringId": 1881977409580310548
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あたしを待たせるっていうのね…",
+              "maleVariant": "",
+              "stringId": 1958934586749657092
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今度は私の言うことを聞いて。いい？",
+              "maleVariant": "",
+              "stringId": 1958934586799988740
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "暇つぶしをしろっていうの？",
+              "maleVariant": "",
+              "stringId": 1958934586816765956
             }
-          }
+          ]
         }
       }
     },

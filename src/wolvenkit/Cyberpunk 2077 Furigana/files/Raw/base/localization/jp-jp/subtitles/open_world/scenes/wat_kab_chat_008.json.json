@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_kab_chat_008.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "じゃあなんだ、お前は本物のワルってわけか？",
-                    "maleVariant": null,
-                    "stringId": 1827141779131588608
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "当たり前でしょ！ 仲間を売らず、きっちり務めあげてシャバに戻ってきた",
-                    "maleVariant": null,
-                    "stringId": 1827143275223048192
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "へえ？ ケンジはお前がそっこう口を割って刑を逃れたって言ってたがな",
-                    "maleVariant": null,
-                    "stringId": 1827143536914063360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "え？ ち、ちがう！ 私は2年もムショにいたんだ！ ケンジの奴、デタラメばっか言って…！",
-                    "maleVariant": null,
-                    "stringId": 1827143788991733760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうか。じゃあ、直接言ってやりな。明日、街に来るからよ",
-                    "maleVariant": null,
-                    "stringId": 1827143983322226688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "え？ そ、それは無理よ。用事があって…",
-                    "maleVariant": null,
-                    "stringId": 1827144148410032128
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どこにも行かせねえよ",
-                    "maleVariant": null,
-                    "stringId": 1827144388408107008
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "じゃあなんだ、お前は本物のワルってわけか？",
+              "maleVariant": "",
+              "stringId": 1827141779131588608
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "当たり前でしょ！ 仲間を売らず、きっちり務めあげてシャバに戻ってきた",
+              "maleVariant": "",
+              "stringId": 1827143275223048192
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "へえ？ ケンジはお前がそっこう口を割って刑を逃れたって言ってたがな",
+              "maleVariant": "",
+              "stringId": 1827143536914063360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "え？ ち、ちがう！ 私は2年もムショにいたんだ！ ケンジの奴、デタラメばっか言って…！",
+              "maleVariant": "",
+              "stringId": 1827143788991733760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうか。じゃあ、直接言ってやりな。明日、街に来るからよ",
+              "maleVariant": "",
+              "stringId": 1827143983322226688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "え？ そ、それは無理よ。用事があって…",
+              "maleVariant": "",
+              "stringId": 1827144148410032128
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どこにも行かせねえよ",
+              "maleVariant": "",
+              "stringId": 1827144388408107008
             }
-          }
+          ]
         }
       }
     },

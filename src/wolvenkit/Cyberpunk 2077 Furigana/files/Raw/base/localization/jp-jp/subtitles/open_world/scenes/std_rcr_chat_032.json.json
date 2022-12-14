@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_rcr_chat_032.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ええ… ええ… お気持ちはわかります。当然です。ご心配には及びません",
-                    "maleVariant": null,
-                    "stringId": 2167937955276804096
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "はい、娘さんはどんどん回復なさっています。ええ、もう日ごとに…",
-                    "maleVariant": null,
-                    "stringId": 2182343982779256832
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "面会ですか？ 申し訳ありませんが、ご遠慮ください… 強いストレスを受けると回復の妨げになるおそれがあるので…",
-                    "maleVariant": null,
-                    "stringId": 2182344381540126720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ご不満でしたら苦情を承ります。発信音の後にメッセージをどうぞ",
-                    "maleVariant": null,
-                    "stringId": 2182344926061449216
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ええ… ええ… お気持ちはわかります。当然です。ご心配には及びません",
+              "maleVariant": "",
+              "stringId": 2167937955276804096
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "はい、娘さんはどんどん回復なさっています。ええ、もう日ごとに…",
+              "maleVariant": "",
+              "stringId": 2182343982779256832
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "面会ですか？ 申し訳ありませんが、ご遠慮ください… 強いストレスを受けると回復の妨げになるおそれがあるので…",
+              "maleVariant": "",
+              "stringId": 2182344381540126720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ご不満でしたら苦情を承ります。発信音の後にメッセージをどうぞ",
+              "maleVariant": "",
+              "stringId": 2182344926061449216
             }
-          }
+          ]
         }
       }
     },

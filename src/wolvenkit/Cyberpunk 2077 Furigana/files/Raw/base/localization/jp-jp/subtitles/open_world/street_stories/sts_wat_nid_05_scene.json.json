@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_wat_nid_05_scene.json"
@@ -11,146 +11,110 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "俺はロイスは好かねえ。ゲス野郎だ",
-                    "maleVariant": null,
-                    "stringId": 1177695039032541184
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ロイスの野郎、いい気味だ。天罰だよ",
-                    "maleVariant": null,
-                    "stringId": 1177796984107843584
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ、だが実力はある",
-                    "maleVariant": null,
-                    "stringId": 1177798222283161600
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "実力だと…？ 奴がどうやってトップを取ったか知ってるか？ 裏切りだぞ",
-                    "maleVariant": null,
-                    "stringId": 1177798600055734272
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "仲間だろうが",
-                    "maleVariant": null,
-                    "stringId": 1177799091376504832
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "てめえがロイスを嫌いでも、掟は掟だ",
-                    "maleVariant": null,
-                    "stringId": 1177799819608342528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やべえ！ 毒だ！",
-                    "maleVariant": null,
-                    "stringId": 1287915477989212160
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "だからどうした… ロイスは死んで当然だった",
-                    "maleVariant": null,
-                    "stringId": 1405083065403195392
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ホントだ。とんでもねえゲス野郎なんだよ",
-                    "maleVariant": null,
-                    "stringId": 1654642271014809600
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "弾がここに命中したんだ。顔のど真ん中さ",
-                    "maleVariant": null,
-                    "stringId": 1935751469186039808
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ひでえな…",
-                    "maleVariant": null,
-                    "stringId": 1935822779853455360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "眼をやっただけかと思いきや… 神経系がズタズタになってた",
-                    "maleVariant": null,
-                    "stringId": 2009716542655098880
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "結局、足の先まで全身マヒさ。指ひとつ動かせねえ",
-                    "maleVariant": null,
-                    "stringId": 2009716996931776512
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "リパーも治せないのか？",
-                    "maleVariant": null,
-                    "stringId": 2009717717899079680
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "嘘だろ…",
-                    "maleVariant": null,
-                    "stringId": 2009718176655273984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "リパーに診せたら悪化しちまったんだよ。最初は下半身だけだったのが、全身に…",
-                    "maleVariant": null,
-                    "stringId": 2009720385426092032
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "俺はロイスは好かねえ。ゲス野郎だ",
+              "maleVariant": "",
+              "stringId": 1177695039032541184
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ロイスの野郎、いい気味だ。天罰だよ",
+              "maleVariant": "",
+              "stringId": 1177796984107843584
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ、だが実力はある",
+              "maleVariant": "",
+              "stringId": 1177798222283161600
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "実力だと…？ 奴がどうやってトップを取ったか知ってるか？ 裏切りだぞ",
+              "maleVariant": "",
+              "stringId": 1177798600055734272
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "仲間だろうが",
+              "maleVariant": "",
+              "stringId": 1177799091376504832
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "てめえがロイスを嫌いでも、掟は掟だ",
+              "maleVariant": "",
+              "stringId": 1177799819608342528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やべえ！ 毒だ！",
+              "maleVariant": "",
+              "stringId": 1287915477989212160
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "だからどうした… ロイスは死んで当然だった",
+              "maleVariant": "",
+              "stringId": 1405083065403195392
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ホントだ。とんでもねえゲス野郎なんだよ",
+              "maleVariant": "",
+              "stringId": 1654642271014809600
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "弾がここに命中したんだ。顔のど真ん中さ",
+              "maleVariant": "",
+              "stringId": 1935751469186039808
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ひでえな…",
+              "maleVariant": "",
+              "stringId": 1935822779853455360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "眼をやっただけかと思いきや… 神経系がズタズタになってた",
+              "maleVariant": "",
+              "stringId": 2009716542655098880
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "結局、足の先まで全身マヒさ。指ひとつ動かせねえ",
+              "maleVariant": "",
+              "stringId": 2009716996931776512
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "リパーも治せないのか？",
+              "maleVariant": "",
+              "stringId": 2009717717899079680
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "嘘だろ…",
+              "maleVariant": "",
+              "stringId": 2009718176655273984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "リパーに診せたら悪化しちまったんだよ。最初は下半身だけだったのが、全身に…",
+              "maleVariant": "",
+              "stringId": 2009720385426092032
             }
-          }
+          ]
         }
       }
     },

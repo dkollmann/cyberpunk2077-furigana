@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\benedict_mcadams_default.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "前は何をしてたの？",
-                    "maleVariant": "前は何をしてたんだ？",
-                    "stringId": 1953082758967087108
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この仕事の前は何してたの？",
-                    "maleVariant": "この仕事の前は何してたんだ？",
-                    "stringId": 1953152787519655936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "トラウマ・チームで働いてた",
-                    "maleVariant": null,
-                    "stringId": 1953176413497217024
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "へえ、どうして辞めたの？",
-                    "maleVariant": "へえ、どうして辞めたんだ？",
-                    "stringId": 1953180293563961344
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まあ、状況を誤って判断したというか…",
-                    "maleVariant": null,
-                    "stringId": 1953183773896757248
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちゃんと教えてよ",
-                    "maleVariant": "ちゃんと教えろよ",
-                    "stringId": 1953186614984069120
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "顧客を撃ったんだ。間違ってな",
-                    "maleVariant": null,
-                    "stringId": 1953187476678660096
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "前は何をしてたの？",
+              "maleVariant": "前は何をしてたんだ？",
+              "stringId": 1953082758967087108
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この仕事の前は何してたの？",
+              "maleVariant": "この仕事の前は何してたんだ？",
+              "stringId": 1953152787519655936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "トラウマ・チームで働いてた",
+              "maleVariant": "",
+              "stringId": 1953176413497217024
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "へえ、どうして辞めたの？",
+              "maleVariant": "へえ、どうして辞めたんだ？",
+              "stringId": 1953180293563961344
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まあ、状況を誤って判断したというか…",
+              "maleVariant": "",
+              "stringId": 1953183773896757248
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちゃんと教えてよ",
+              "maleVariant": "ちゃんと教えろよ",
+              "stringId": 1953186614984069120
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "顧客を撃ったんだ。間違ってな",
+              "maleVariant": "",
+              "stringId": 1953187476678660096
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_gle_chat_006.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "奴のインプラントのキャッシュに入れといた。本人が市役所のサブネットにジャックインしたら、勝手に送り込まれる",
-                    "maleVariant": null,
-                    "stringId": 1832729350742073344
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "マジで？ すごいな！ あんた天才だよ！",
-                    "maleVariant": null,
-                    "stringId": 1832731357196443648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "頼んだとおり、アニマルズのヤツも入ってるんだよな？",
-                    "maleVariant": null,
-                    "stringId": 1832731517955727360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もちろん",
-                    "maleVariant": null,
-                    "stringId": 1832731681734909952
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "よし！ これで8時のニュースに間に合う！ ハッ、全部あんたのおかげだ！",
-                    "maleVariant": null,
-                    "stringId": 1832732054306545664
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いいって",
-                    "maleVariant": null,
-                    "stringId": 1832732228537933824
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "奴のインプラントのキャッシュに入れといた。本人が市役所のサブネットにジャックインしたら、勝手に送り込まれる",
+              "maleVariant": "",
+              "stringId": 1832729350742073344
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "マジで？ すごいな！ あんた天才だよ！",
+              "maleVariant": "",
+              "stringId": 1832731357196443648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "頼んだとおり、アニマルズのヤツも入ってるんだよな？",
+              "maleVariant": "",
+              "stringId": 1832731517955727360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もちろん",
+              "maleVariant": "",
+              "stringId": 1832731681734909952
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "よし！ これで8時のニュースに間に合う！ ハッ、全部あんたのおかげだ！",
+              "maleVariant": "",
+              "stringId": 1832732054306545664
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いいって",
+              "maleVariant": "",
+              "stringId": 1832732228537933824
             }
-          }
+          ]
         }
       }
     },

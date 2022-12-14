@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_dtn_chat_015.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "人工肉",
-                    "maleVariant": null,
-                    "stringId": 2172161397591093248
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何ですって？",
-                    "maleVariant": null,
-                    "stringId": 2181066060627021824
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あいつは人工肉で財を築いたんだ",
-                    "maleVariant": null,
-                    "stringId": 2181066143288365056
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そんな人を入れたの？",
-                    "maleVariant": null,
-                    "stringId": 2181066224355872768
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ",
-                    "maleVariant": null,
-                    "stringId": 2181066477557616640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "信じられない。エリート向けのクラブだったのに",
-                    "maleVariant": null,
-                    "stringId": 2181066539784310784
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ゴミ収集してる人よりほんの少し稼いでれば入れちゃうなんて",
-                    "maleVariant": null,
-                    "stringId": 2181066649607966720
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "人工肉",
+              "maleVariant": "",
+              "stringId": 2172161397591093248
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何ですって？",
+              "maleVariant": "",
+              "stringId": 2181066060627021824
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あいつは人工肉で財を築いたんだ",
+              "maleVariant": "",
+              "stringId": 2181066143288365056
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そんな人を入れたの？",
+              "maleVariant": "",
+              "stringId": 2181066224355872768
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ",
+              "maleVariant": "",
+              "stringId": 2181066477557616640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "信じられない。エリート向けのクラブだったのに",
+              "maleVariant": "",
+              "stringId": 2181066539784310784
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ゴミ収集してる人よりほんの少し稼いでれば入れちゃうなんて",
+              "maleVariant": "",
+              "stringId": 2181066649607966720
             }
-          }
+          ]
         }
       }
     },

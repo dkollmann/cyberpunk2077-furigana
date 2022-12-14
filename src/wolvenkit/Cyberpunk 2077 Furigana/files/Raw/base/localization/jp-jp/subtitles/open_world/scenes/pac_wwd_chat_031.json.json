@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_wwd_chat_031.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "昨日はすぐそこで2体見つけたが、まだ膨張もしてなかった。頭に弾を食らってたよ",
-                    "maleVariant": null,
-                    "stringId": 2179665325831348224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "仕方ないさ。今日はもっといい獲物がいるかもな",
-                    "maleVariant": null,
-                    "stringId": 2211510122474303488
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ギャングの仕業さ。誰かが探しにくる心配もない",
-                    "maleVariant": null,
-                    "stringId": 2212661038854369280
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "持ち物をいくつか頂いて、後は砂の上に放っといた。そのうち波が連れ去ってくれるだろう",
-                    "maleVariant": null,
-                    "stringId": 2212708700978868224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "俺も昨日、1人見つけたぞ。裸のままクロームを取られて、体を魚にかじられてた",
-                    "maleVariant": null,
-                    "stringId": 2212709487243096064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "スカベンジャーか… 容赦ねえな",
-                    "maleVariant": null,
-                    "stringId": 2212715433390436352
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "昨日はすぐそこで2体見つけたが、まだ膨張もしてなかった。頭に弾を食らってたよ",
+              "maleVariant": "",
+              "stringId": 2179665325831348224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "仕方ないさ。今日はもっといい獲物がいるかもな",
+              "maleVariant": "",
+              "stringId": 2211510122474303488
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ギャングの仕業さ。誰かが探しにくる心配もない",
+              "maleVariant": "",
+              "stringId": 2212661038854369280
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "持ち物をいくつか頂いて、後は砂の上に放っといた。そのうち波が連れ去ってくれるだろう",
+              "maleVariant": "",
+              "stringId": 2212708700978868224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "俺も昨日、1人見つけたぞ。裸のままクロームを取られて、体を魚にかじられてた",
+              "maleVariant": "",
+              "stringId": 2212709487243096064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "スカベンジャーか… 容赦ねえな",
+              "maleVariant": "",
+              "stringId": 2212715433390436352
             }
-          }
+          ]
         }
       }
     },

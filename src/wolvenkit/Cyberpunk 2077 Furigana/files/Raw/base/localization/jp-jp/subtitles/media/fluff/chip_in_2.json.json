@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\fluff\\chip_in_2.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ハーイ、みんな元気？ 今日はカメラ好きのメディアのためのスペシャル企画！ 覗き魔も注目の、ダイナラーTX-43オプティズームだよ！",
-                    "maleVariant": null,
-                    "stringId": 1772005254931324928
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ダイナラーは前のモデルが期待を上回る出来だったから、私はずいぶん前からこの最新オプティクスに目を付けてたの。今回も、期待を超えてくれるのかしら？",
-                    "maleVariant": null,
-                    "stringId": 1790993169014640640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ポイントは、たとえ15倍の拡大率でもTX-43は解像度の劣化なく映像を出力してくれること",
-                    "maleVariant": null,
-                    "stringId": 1790993673404862464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でもこのTX-43の一番大事なところは、神経系の副作用が一切ないことね。めまいや片頭痛の危険があるのは、ユーザー自身が動いている時だけ",
-                    "maleVariant": null,
-                    "stringId": 1790993894058807296
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それから、TX-43には虹彩パターンが20種類実装されてることもポイントね。たとえばゾンビにジャガー、カメレオン、あとこれが一番好きなんだけどスノードーム",
-                    "maleVariant": null,
-                    "stringId": 1790994216433012736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "欠点？ オプティズームで撮った全ての写真は、ダイナラーによるマーケティングや調査目的のアクセスを許可しなきゃならないこと。ま、よくある話よね",
-                    "maleVariant": null,
-                    "stringId": 1790994516392857600
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "さて、判定は―― TX-43は低価格かつ高性能の逸品。もちろん文句なしの5点満点よ！ それではまた。明日も楽しい改造を！",
-                    "maleVariant": null,
-                    "stringId": 1790994718273097728
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ブレインダンスインプラントを内蔵するプレミアム版を買おうとしてる人には、特にありがたい性能ね",
-                    "maleVariant": null,
-                    "stringId": 1793520567232811008
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ハーイ、みんな元気？ 今日はカメラ好きのメディアのためのスペシャル企画！ 覗き魔も注目の、ダイナラーTX-43オプティズームだよ！",
+              "maleVariant": "",
+              "stringId": 1772005254931324928
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ダイナラーは前のモデルが期待を上回る出来だったから、私はずいぶん前からこの最新オプティクスに目を付けてたの。今回も、期待を超えてくれるのかしら？",
+              "maleVariant": "",
+              "stringId": 1790993169014640640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ポイントは、たとえ15倍の拡大率でもTX-43は解像度の劣化なく映像を出力してくれること",
+              "maleVariant": "",
+              "stringId": 1790993673404862464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でもこのTX-43の一番大事なところは、神経系の副作用が一切ないことね。めまいや片頭痛の危険があるのは、ユーザー自身が動いている時だけ",
+              "maleVariant": "",
+              "stringId": 1790993894058807296
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それから、TX-43には虹彩パターンが20種類実装されてることもポイントね。たとえばゾンビにジャガー、カメレオン、あとこれが一番好きなんだけどスノードーム",
+              "maleVariant": "",
+              "stringId": 1790994216433012736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "欠点？ オプティズームで撮った全ての写真は、ダイナラーによるマーケティングや調査目的のアクセスを許可しなきゃならないこと。ま、よくある話よね",
+              "maleVariant": "",
+              "stringId": 1790994516392857600
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "さて、判定は―― TX-43は低価格かつ高性能の逸品。もちろん文句なしの5点満点よ！ それではまた。明日も楽しい改造を！",
+              "maleVariant": "",
+              "stringId": 1790994718273097728
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ブレインダンスインプラントを内蔵するプレミアム版を買おうとしてる人には、特にありがたい性能ね",
+              "maleVariant": "",
+              "stringId": 1793520567232811008
             }
-          }
+          ]
         }
       }
     },

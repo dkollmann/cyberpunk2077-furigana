@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_frk_m_04_nat_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "コヨーテ？ 僕が？ ハハハ… 頭に来る！",
-                    "maleVariant": null,
-                    "stringId": 1958872786800779268
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ハッハッハ！ 違う、僕じゃない！ 笑ってるのは僕役の俳優だ！",
-                    "maleVariant": null,
-                    "stringId": 1958872786834333700
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "サンボード閣下、万歳！",
-                    "maleVariant": null,
-                    "stringId": 1958872786884665348
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "買って！ 売って！ ゲロ吐こう！",
-                    "maleVariant": null,
-                    "stringId": 1958872786901442564
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それが仕事さ… ハハ！ とびきりの魂が要るんだ",
-                    "maleVariant": null,
-                    "stringId": 1958872786934996996
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わっと飛びかかる… ハハ！ 人間のジャンプじゃないよ… 脚を見つけたら、また飛びかかる… ハハ！ 太陽を盗んでやった時のようにね",
-                    "maleVariant": null,
-                    "stringId": 1958872786985328644
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今度はサイバー空間をかっさらう… ハハ！ 貧しい連中に分けてやるんだ… みんなに1サイバーエーカーずつ… で、サイバー家賃を集めるのさ",
-                    "maleVariant": null,
-                    "stringId": 1958872787002105860
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "月の大統領の意見を聞いてみたいな！",
-                    "maleVariant": null,
-                    "stringId": 1958872787069214724
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ハハ！ あっという間に大きくなる！",
-                    "maleVariant": null,
-                    "stringId": 1958872787304095748
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ハハ！ 市場だ！ 市場が見えるぞ！",
-                    "maleVariant": null,
-                    "stringId": 1958872787320872964
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "僕がプレイヤーだったらどうする？",
-                    "maleVariant": null,
-                    "stringId": 1958872787404759044
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ハハ… 隠れろ！ 監査だぞ！",
-                    "maleVariant": null,
-                    "stringId": 1958872787421536260
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "必要ないよ、ハニー。僕は虚無への行き方を知ってる。シャータサカで教えてもらったのさ！",
-                    "maleVariant": null,
-                    "stringId": 1958872787505422340
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "金魚のフンは注文してないよ？ もういっぱい食べてるもの！",
-                    "maleVariant": null,
-                    "stringId": 1958872787522199556
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "コヨーテ？ 僕が？ ハハハ… 頭に来る！",
+              "maleVariant": "",
+              "stringId": 1958872786800779268
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ハッハッハ！ 違う、僕じゃない！ 笑ってるのは僕役の俳優だ！",
+              "maleVariant": "",
+              "stringId": 1958872786834333700
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "サンボード閣下、万歳！",
+              "maleVariant": "",
+              "stringId": 1958872786884665348
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "買って！ 売って！ ゲロ吐こう！",
+              "maleVariant": "",
+              "stringId": 1958872786901442564
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それが仕事さ… ハハ！ とびきりの魂が要るんだ",
+              "maleVariant": "",
+              "stringId": 1958872786934996996
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わっと飛びかかる… ハハ！ 人間のジャンプじゃないよ… 脚を見つけたら、また飛びかかる… ハハ！ 太陽を盗んでやった時のようにね",
+              "maleVariant": "",
+              "stringId": 1958872786985328644
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今度はサイバー空間をかっさらう… ハハ！ 貧しい連中に分けてやるんだ… みんなに1サイバーエーカーずつ… で、サイバー家賃を集めるのさ",
+              "maleVariant": "",
+              "stringId": 1958872787002105860
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "月の大統領の意見を聞いてみたいな！",
+              "maleVariant": "",
+              "stringId": 1958872787069214724
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ハハ！ あっという間に大きくなる！",
+              "maleVariant": "",
+              "stringId": 1958872787304095748
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ハハ！ 市場だ！ 市場が見えるぞ！",
+              "maleVariant": "",
+              "stringId": 1958872787320872964
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "僕がプレイヤーだったらどうする？",
+              "maleVariant": "",
+              "stringId": 1958872787404759044
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ハハ… 隠れろ！ 監査だぞ！",
+              "maleVariant": "",
+              "stringId": 1958872787421536260
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "必要ないよ、ハニー。僕は虚無への行き方を知ってる。シャータサカで教えてもらったのさ！",
+              "maleVariant": "",
+              "stringId": 1958872787505422340
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "金魚のフンは注文してないよ？ もういっぱい食べてるもの！",
+              "maleVariant": "",
+              "stringId": 1958872787522199556
             }
-          }
+          ]
         }
       }
     },

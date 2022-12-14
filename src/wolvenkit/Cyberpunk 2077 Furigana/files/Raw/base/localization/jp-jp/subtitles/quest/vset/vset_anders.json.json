@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\vset\\vset_anders.json"
@@ -11,106 +11,80 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何だ？",
-                    "maleVariant": null,
-                    "stringId": 1796854789669109760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "話を聞こう",
-                    "maleVariant": null,
-                    "stringId": 1796854789685886980
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "後にするか？",
-                    "maleVariant": null,
-                    "stringId": 1796854789769773060
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "また後にしよう",
-                    "maleVariant": null,
-                    "stringId": 1796854789803327492
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "では続きを",
-                    "maleVariant": null,
-                    "stringId": 1796854789853659140
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それで？",
-                    "maleVariant": null,
-                    "stringId": 1796854789870436356
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "急かすつもりはないが…",
-                    "maleVariant": null,
-                    "stringId": 1796854789903990788
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私を待たせるのか？",
-                    "maleVariant": null,
-                    "stringId": 1796854789920768004
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "気をつけろ",
-                    "maleVariant": null,
-                    "stringId": 1796854790122094596
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "注意してくれ",
-                    "maleVariant": null,
-                    "stringId": 1796854790155649024
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "また気を失ったのか？ 早くしたまえ",
-                    "maleVariant": null,
-                    "stringId": 2238867316719067136
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何だ？",
+              "maleVariant": "",
+              "stringId": 1796854789669109760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "話を聞こう",
+              "maleVariant": "",
+              "stringId": 1796854789685886980
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "後にするか？",
+              "maleVariant": "",
+              "stringId": 1796854789769773060
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "また後にしよう",
+              "maleVariant": "",
+              "stringId": 1796854789803327492
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "では続きを",
+              "maleVariant": "",
+              "stringId": 1796854789853659140
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それで？",
+              "maleVariant": "",
+              "stringId": 1796854789870436356
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "急かすつもりはないが…",
+              "maleVariant": "",
+              "stringId": 1796854789903990788
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私を待たせるのか？",
+              "maleVariant": "",
+              "stringId": 1796854789920768004
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "気をつけろ",
+              "maleVariant": "",
+              "stringId": 1796854790122094596
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "注意してくれ",
+              "maleVariant": "",
+              "stringId": 1796854790155649024
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "また気を失ったのか？ 早くしたまえ",
+              "maleVariant": "",
+              "stringId": 2238867316719067136
             }
-          }
+          ]
         }
       }
     },

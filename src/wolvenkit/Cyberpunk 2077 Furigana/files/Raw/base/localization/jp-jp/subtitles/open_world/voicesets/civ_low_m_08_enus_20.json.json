@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_m_08_enus_20.json"
@@ -11,154 +11,116 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "俺に構うな",
-                    "maleVariant": null,
-                    "stringId": 1922833316115390468
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "その恰好、イケてんな",
-                    "maleVariant": null,
-                    "stringId": 1922833316148944896
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なにすんだ！",
-                    "maleVariant": null,
-                    "stringId": 1922833316216053764
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ふざけんなよ！",
-                    "maleVariant": null,
-                    "stringId": 1922833316232830980
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもし？",
-                    "maleVariant": null,
-                    "stringId": 1922833316266385412
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "きっと信じないぜ…！ それどころじゃなかったんだよ！ あれはまるでソロ… それかロッカーボーイだ！",
-                    "maleVariant": null,
-                    "stringId": 1922833316333494276
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "だな…！ かなり本格的に体を弄ってるに違いない。…いやいやマジで… ああ… だろ？",
-                    "maleVariant": null,
-                    "stringId": 1922833316350271492
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "またな！",
-                    "maleVariant": null,
-                    "stringId": 1922833316400603140
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うわああ！ やめろ！",
-                    "maleVariant": null,
-                    "stringId": 1922833316568375300
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "見たんだ！ 銃を持ってやがる！",
-                    "maleVariant": null,
-                    "stringId": 1922833316601929732
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "た、ただで済むと思うなよ！",
-                    "maleVariant": null,
-                    "stringId": 1922833316719370244
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ウソだろ…？ やめろ！",
-                    "maleVariant": null,
-                    "stringId": 1922833316736147460
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい… 俺をつけてるのか？",
-                    "maleVariant": null,
-                    "stringId": 1922833316836810756
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あんた、何か用か？",
-                    "maleVariant": null,
-                    "stringId": 1922833316853587972
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "急用でもあんのかよ？",
-                    "maleVariant": null,
-                    "stringId": 1958898194535456772
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "えーと、何の話だっけ。ああ、そうだ",
-                    "maleVariant": null,
-                    "stringId": 1958898194585788420
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こっちは急いでんだ",
-                    "maleVariant": null,
-                    "stringId": 1958898194602565636
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "俺に構うな",
+              "maleVariant": "",
+              "stringId": 1922833316115390468
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "その恰好、イケてんな",
+              "maleVariant": "",
+              "stringId": 1922833316148944896
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なにすんだ！",
+              "maleVariant": "",
+              "stringId": 1922833316216053764
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ふざけんなよ！",
+              "maleVariant": "",
+              "stringId": 1922833316232830980
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもし？",
+              "maleVariant": "",
+              "stringId": 1922833316266385412
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "きっと信じないぜ…！ それどころじゃなかったんだよ！ あれはまるでソロ… それかロッカーボーイだ！",
+              "maleVariant": "",
+              "stringId": 1922833316333494276
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "だな…！ かなり本格的に体を弄ってるに違いない。…いやいやマジで… ああ… だろ？",
+              "maleVariant": "",
+              "stringId": 1922833316350271492
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "またな！",
+              "maleVariant": "",
+              "stringId": 1922833316400603140
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うわああ！ やめろ！",
+              "maleVariant": "",
+              "stringId": 1922833316568375300
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "見たんだ！ 銃を持ってやがる！",
+              "maleVariant": "",
+              "stringId": 1922833316601929732
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "た、ただで済むと思うなよ！",
+              "maleVariant": "",
+              "stringId": 1922833316719370244
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ウソだろ…？ やめろ！",
+              "maleVariant": "",
+              "stringId": 1922833316736147460
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい… 俺をつけてるのか？",
+              "maleVariant": "",
+              "stringId": 1922833316836810756
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あんた、何か用か？",
+              "maleVariant": "",
+              "stringId": 1922833316853587972
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "急用でもあんのかよ？",
+              "maleVariant": "",
+              "stringId": 1958898194535456772
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "えーと、何の話だっけ。ああ、そうだ",
+              "maleVariant": "",
+              "stringId": 1958898194585788420
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こっちは急いでんだ",
+              "maleVariant": "",
+              "stringId": 1958898194602565636
             }
-          }
+          ]
         }
       }
     },

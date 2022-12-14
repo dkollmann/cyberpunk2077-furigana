@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_f_123_arb_40.json"
@@ -11,154 +11,116 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "知らない人ね",
-                    "maleVariant": null,
-                    "stringId": 1949191960949465092
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "別に怖がってなんていないわ",
-                    "maleVariant": null,
-                    "stringId": 1949191960966242308
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それが人との接し方？",
-                    "maleVariant": null,
-                    "stringId": 1949191961016573956
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "敬意を払ったらどうなの",
-                    "maleVariant": null,
-                    "stringId": 1949191961033351172
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもし",
-                    "maleVariant": null,
-                    "stringId": 1949191961066905604
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "バザールに行くの… どうしてって、安いからに決まってるじゃない… いいものは手が出ないから",
-                    "maleVariant": null,
-                    "stringId": 1949191961117237252
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "味だっていいじゃない… 気にするならだけど… 家庭の味？ まあそうね",
-                    "maleVariant": null,
-                    "stringId": 1949191961134014468
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "待ってるわね",
-                    "maleVariant": null,
-                    "stringId": 1949191961167568900
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そんな！ やめて！",
-                    "maleVariant": null,
-                    "stringId": 1949191961318563844
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いや、いやよ",
-                    "maleVariant": null,
-                    "stringId": 1949191961335341060
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "許して！ お願い！",
-                    "maleVariant": null,
-                    "stringId": 1949191961419227140
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "母が待ってるの！",
-                    "maleVariant": null,
-                    "stringId": 1949191961436004356
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "話すことなんてないわ",
-                    "maleVariant": null,
-                    "stringId": 1949191961519890436
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お願い、冗談はよして",
-                    "maleVariant": null,
-                    "stringId": 1949191961536667652
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今忙しそうね。また後にしましょう",
-                    "maleVariant": null,
-                    "stringId": 1958913213885095940
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今度は最後まで話すわよ、いい？",
-                    "maleVariant": null,
-                    "stringId": 1958913213935427588
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "早くしてくれない？",
-                    "maleVariant": null,
-                    "stringId": 1958913213952204804
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "知らない人ね",
+              "maleVariant": "",
+              "stringId": 1949191960949465092
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "別に怖がってなんていないわ",
+              "maleVariant": "",
+              "stringId": 1949191960966242308
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それが人との接し方？",
+              "maleVariant": "",
+              "stringId": 1949191961016573956
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "敬意を払ったらどうなの",
+              "maleVariant": "",
+              "stringId": 1949191961033351172
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもし",
+              "maleVariant": "",
+              "stringId": 1949191961066905604
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "バザールに行くの… どうしてって、安いからに決まってるじゃない… いいものは手が出ないから",
+              "maleVariant": "",
+              "stringId": 1949191961117237252
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "味だっていいじゃない… 気にするならだけど… 家庭の味？ まあそうね",
+              "maleVariant": "",
+              "stringId": 1949191961134014468
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "待ってるわね",
+              "maleVariant": "",
+              "stringId": 1949191961167568900
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そんな！ やめて！",
+              "maleVariant": "",
+              "stringId": 1949191961318563844
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いや、いやよ",
+              "maleVariant": "",
+              "stringId": 1949191961335341060
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "許して！ お願い！",
+              "maleVariant": "",
+              "stringId": 1949191961419227140
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "母が待ってるの！",
+              "maleVariant": "",
+              "stringId": 1949191961436004356
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "話すことなんてないわ",
+              "maleVariant": "",
+              "stringId": 1949191961519890436
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お願い、冗談はよして",
+              "maleVariant": "",
+              "stringId": 1949191961536667652
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今忙しそうね。また後にしましょう",
+              "maleVariant": "",
+              "stringId": 1958913213885095940
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今度は最後まで話すわよ、いい？",
+              "maleVariant": "",
+              "stringId": 1958913213935427588
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "早くしてくれない？",
+              "maleVariant": "",
+              "stringId": 1958913213952204804
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\vset_hal_cantos.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "落ち着けよ。話し合おう",
-                    "maleVariant": null,
-                    "stringId": 1895157721348997124
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "調子はどうだ？",
-                    "maleVariant": null,
-                    "stringId": 1895157721365774340
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうかよ。まあいい",
-                    "maleVariant": null,
-                    "stringId": 1895157721483214852
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "時間がないのか？",
-                    "maleVariant": null,
-                    "stringId": 1895157721499992068
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "話の続きをしよう",
-                    "maleVariant": null,
-                    "stringId": 1895157721567100928
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今度はいいか？",
-                    "maleVariant": null,
-                    "stringId": 1895157721583878148
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "急かしたくはないけどさ",
-                    "maleVariant": null,
-                    "stringId": 1895157721617432580
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "時間がないんだぞ",
-                    "maleVariant": null,
-                    "stringId": 1895157721634209796
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今回は許してやる",
-                    "maleVariant": null,
-                    "stringId": 1895157721852313604
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ここにいるだろ！",
-                    "maleVariant": null,
-                    "stringId": 1895157721869090820
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "落ち着けよ。話し合おう",
+              "maleVariant": "",
+              "stringId": 1895157721348997124
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "調子はどうだ？",
+              "maleVariant": "",
+              "stringId": 1895157721365774340
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうかよ。まあいい",
+              "maleVariant": "",
+              "stringId": 1895157721483214852
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "時間がないのか？",
+              "maleVariant": "",
+              "stringId": 1895157721499992068
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "話の続きをしよう",
+              "maleVariant": "",
+              "stringId": 1895157721567100928
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今度はいいか？",
+              "maleVariant": "",
+              "stringId": 1895157721583878148
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "急かしたくはないけどさ",
+              "maleVariant": "",
+              "stringId": 1895157721617432580
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "時間がないんだぞ",
+              "maleVariant": "",
+              "stringId": 1895157721634209796
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今回は許してやる",
+              "maleVariant": "",
+              "stringId": 1895157721852313604
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ここにいるだろ！",
+              "maleVariant": "",
+              "stringId": 1895157721869090820
             }
-          }
+          ]
         }
       }
     },

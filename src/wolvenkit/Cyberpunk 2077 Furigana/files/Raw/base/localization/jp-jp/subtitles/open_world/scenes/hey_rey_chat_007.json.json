@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_rey_chat_007.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "最近トラヴを見てないな",
-                    "maleVariant": null,
-                    "stringId": 1833110024850366464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "知らないのか？ 数日前にフラットラインした…",
-                    "maleVariant": null,
-                    "stringId": 1833112568897069056
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "怪しいスコップ缶を拾い食いして、そのままぽっくり",
-                    "maleVariant": null,
-                    "stringId": 1833112701856505856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "最近ヤバい肉が市内に出回ってるらしいから気をつけた方がいいって言ったのに",
-                    "maleVariant": null,
-                    "stringId": 1833113186080514048
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あいつ、聞かずに食べるんだもん",
-                    "maleVariant": null,
-                    "stringId": 1833113591954923520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "トラヴは天邪鬼だからな。ダメと言われたらやるんだよ",
-                    "maleVariant": null,
-                    "stringId": 1833113824118038528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ウサギとか、オーガニックだったらシャレにならないしさ",
-                    "maleVariant": null,
-                    "stringId": 1964791856902160384
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "最近トラヴを見てないな",
+              "maleVariant": "",
+              "stringId": 1833110024850366464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "知らないのか？ 数日前にフラットラインした…",
+              "maleVariant": "",
+              "stringId": 1833112568897069056
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "怪しいスコップ缶を拾い食いして、そのままぽっくり",
+              "maleVariant": "",
+              "stringId": 1833112701856505856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "最近ヤバい肉が市内に出回ってるらしいから気をつけた方がいいって言ったのに",
+              "maleVariant": "",
+              "stringId": 1833113186080514048
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あいつ、聞かずに食べるんだもん",
+              "maleVariant": "",
+              "stringId": 1833113591954923520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "トラヴは天邪鬼だからな。ダメと言われたらやるんだよ",
+              "maleVariant": "",
+              "stringId": 1833113824118038528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ウサギとか、オーガニックだったらシャレにならないしさ",
+              "maleVariant": "",
+              "stringId": 1964791856902160384
             }
-          }
+          ]
         }
       }
     },

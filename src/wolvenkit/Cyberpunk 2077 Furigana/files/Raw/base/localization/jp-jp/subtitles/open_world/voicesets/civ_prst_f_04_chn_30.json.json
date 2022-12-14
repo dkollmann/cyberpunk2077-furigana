@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_prst_f_04_chn_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "楽しいことしない？",
-                    "maleVariant": null,
-                    "stringId": 1955906768570720260
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そそられるんでしょ！",
-                    "maleVariant": null,
-                    "stringId": 1955906768587497476
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちょっと！",
-                    "maleVariant": null,
-                    "stringId": 1955906768637829124
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "気をつけて！",
-                    "maleVariant": null,
-                    "stringId": 1955906768654606340
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "本当だってば！",
-                    "maleVariant": null,
-                    "stringId": 1955906768688160772
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "連絡してきて、お金を払ったら… 「ターボ・ドラキュラ」しようって… 本当よ！",
-                    "maleVariant": null,
-                    "stringId": 1955906768738492420
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あたしに触れもしなかった… 誰かと一緒にいたいだけだって言って… 寂しいのか、どうかしてるのか",
-                    "maleVariant": null,
-                    "stringId": 1955906768772046848
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "頭がおかしい客ばっかり",
-                    "maleVariant": null,
-                    "stringId": 1955906768788824068
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あいつを撃ち殺して！",
-                    "maleVariant": null,
-                    "stringId": 1955906768939819012
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こんなところで働くのは無理！",
-                    "maleVariant": null,
-                    "stringId": 1955906768973373440
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "失せな、変人！",
-                    "maleVariant": null,
-                    "stringId": 1955906769040482308
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あんた、もうおしまいだよ！",
-                    "maleVariant": null,
-                    "stringId": 1955906769057259524
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ストーカーね！？",
-                    "maleVariant": null,
-                    "stringId": 1955906769141145604
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やりたいの？ 違う？ じゃあ失せな！",
-                    "maleVariant": null,
-                    "stringId": 1955906769191477252
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "楽しいことしない？",
+              "maleVariant": "",
+              "stringId": 1955906768570720260
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そそられるんでしょ！",
+              "maleVariant": "",
+              "stringId": 1955906768587497476
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちょっと！",
+              "maleVariant": "",
+              "stringId": 1955906768637829124
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "気をつけて！",
+              "maleVariant": "",
+              "stringId": 1955906768654606340
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "本当だってば！",
+              "maleVariant": "",
+              "stringId": 1955906768688160772
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "連絡してきて、お金を払ったら… 「ターボ・ドラキュラ」しようって… 本当よ！",
+              "maleVariant": "",
+              "stringId": 1955906768738492420
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あたしに触れもしなかった… 誰かと一緒にいたいだけだって言って… 寂しいのか、どうかしてるのか",
+              "maleVariant": "",
+              "stringId": 1955906768772046848
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "頭がおかしい客ばっかり",
+              "maleVariant": "",
+              "stringId": 1955906768788824068
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あいつを撃ち殺して！",
+              "maleVariant": "",
+              "stringId": 1955906768939819012
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こんなところで働くのは無理！",
+              "maleVariant": "",
+              "stringId": 1955906768973373440
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "失せな、変人！",
+              "maleVariant": "",
+              "stringId": 1955906769040482308
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あんた、もうおしまいだよ！",
+              "maleVariant": "",
+              "stringId": 1955906769057259524
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ストーカーね！？",
+              "maleVariant": "",
+              "stringId": 1955906769141145604
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やりたいの？ 違う？ じゃあ失せな！",
+              "maleVariant": "",
+              "stringId": 1955906769191477252
             }
-          }
+          ]
         }
       }
     },

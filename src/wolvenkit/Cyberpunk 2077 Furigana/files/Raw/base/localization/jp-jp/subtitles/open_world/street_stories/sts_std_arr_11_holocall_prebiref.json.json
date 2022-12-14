@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_std_arr_11_holocall_prebiref.json"
@@ -11,42 +11,32 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "よう、V。一流の傭兵を必要とする一流の依頼が舞い込んだぞ",
-                    "maleVariant": null,
-                    "stringId": 2328805864433639424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "シックス・ストリートの縄張りに乗り込んで、連中のテックにウイルスを仕込んでくれ。頼りにしてるぜ",
-                    "maleVariant": null,
-                    "stringId": 2341735102865051648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ、それと… ルシアス・ソランってテッキーがいてな。ついでにそいつの頭に銃弾をぶち込んでくれると助かる。詳細は添付してある",
-                    "maleVariant": null,
-                    "stringId": 2341852475060228096
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "よう、V。一流の傭兵を必要とする一流の依頼が舞い込んだぞ",
+              "maleVariant": "",
+              "stringId": 2328805864433639424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "シックス・ストリートの縄張りに乗り込んで、連中のテックにウイルスを仕込んでくれ。頼りにしてるぜ",
+              "maleVariant": "",
+              "stringId": 2341735102865051648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ、それと… ルシアス・ソランってテッキーがいてな。ついでにそいつの頭に銃弾をぶち込んでくれると助かる。詳細は添付してある",
+              "maleVariant": "",
+              "stringId": 2341852475060228096
             }
-          }
+          ]
         }
       }
     },

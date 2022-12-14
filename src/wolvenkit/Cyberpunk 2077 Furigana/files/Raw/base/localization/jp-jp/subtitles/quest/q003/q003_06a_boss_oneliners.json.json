@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q003\\q003_06a_boss_oneliners.json"
@@ -11,154 +11,116 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それで仕留めたつもりか？",
-                    "maleVariant": null,
-                    "stringId": 1203673597329059840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "とどめを… 刺せ…",
-                    "maleVariant": null,
-                    "stringId": 1203673612931870720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "話にならねえな！",
-                    "maleVariant": null,
-                    "stringId": 1208252463420329984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "覚悟はできてる…",
-                    "maleVariant": null,
-                    "stringId": 1208253617659236352
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "その程度じゃ話にならねえな！",
-                    "maleVariant": null,
-                    "stringId": 1208254911501357056
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "丸焦げにしてやる！",
-                    "maleVariant": null,
-                    "stringId": 1208267914598731776
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "灰になりな！",
-                    "maleVariant": null,
-                    "stringId": 1208268381877751808
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まだまだこっからだぜ！",
-                    "maleVariant": null,
-                    "stringId": 1208268889019437056
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うらあ！",
-                    "maleVariant": null,
-                    "stringId": 1208269771484221440
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ふん、なかなかやるな…",
-                    "maleVariant": null,
-                    "stringId": 1208270771741839360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "邪魔くせえ！",
-                    "maleVariant": null,
-                    "stringId": 1208271617883951104
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソ、何だ！？",
-                    "maleVariant": null,
-                    "stringId": 1208272222752919552
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ハハハハ…！",
-                    "maleVariant": null,
-                    "stringId": 1208273046061240320
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうした？ 今さら後悔してもおせえぞ！",
-                    "maleVariant": null,
-                    "stringId": 1208274000181514240
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "楽勝だ！",
-                    "maleVariant": null,
-                    "stringId": 1208274913382158336
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "腰抜けどもが…",
-                    "maleVariant": null,
-                    "stringId": 1208275462399774720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やれよ…",
-                    "maleVariant": null,
-                    "stringId": 1208278952144588800
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それで仕留めたつもりか？",
+              "maleVariant": "",
+              "stringId": 1203673597329059840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "とどめを… 刺せ…",
+              "maleVariant": "",
+              "stringId": 1203673612931870720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "話にならねえな！",
+              "maleVariant": "",
+              "stringId": 1208252463420329984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "覚悟はできてる…",
+              "maleVariant": "",
+              "stringId": 1208253617659236352
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "その程度じゃ話にならねえな！",
+              "maleVariant": "",
+              "stringId": 1208254911501357056
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "丸焦げにしてやる！",
+              "maleVariant": "",
+              "stringId": 1208267914598731776
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "灰になりな！",
+              "maleVariant": "",
+              "stringId": 1208268381877751808
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まだまだこっからだぜ！",
+              "maleVariant": "",
+              "stringId": 1208268889019437056
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うらあ！",
+              "maleVariant": "",
+              "stringId": 1208269771484221440
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ふん、なかなかやるな…",
+              "maleVariant": "",
+              "stringId": 1208270771741839360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "邪魔くせえ！",
+              "maleVariant": "",
+              "stringId": 1208271617883951104
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソ、何だ！？",
+              "maleVariant": "",
+              "stringId": 1208272222752919552
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ハハハハ…！",
+              "maleVariant": "",
+              "stringId": 1208273046061240320
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうした？ 今さら後悔してもおせえぞ！",
+              "maleVariant": "",
+              "stringId": 1208274000181514240
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "楽勝だ！",
+              "maleVariant": "",
+              "stringId": 1208274913382158336
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "腰抜けどもが…",
+              "maleVariant": "",
+              "stringId": 1208275462399774720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やれよ…",
+              "maleVariant": "",
+              "stringId": 1208278952144588800
             }
-          }
+          ]
         }
       }
     },

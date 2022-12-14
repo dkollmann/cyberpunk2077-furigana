@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\loading_screens\\loading_screen_3_q001_thru_q005.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ハーイ、今日もこの番組を見てくれてありがとう。ねえ、アラサカの空母がナイトシティにやって来たって話、聞いた？ その名も… 空母“クジラ”だって",
-                    "maleVariant": null,
-                    "stringId": 1669211932228231168
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "日本の海域に置いとくのは危険だと判断したみたいよ。ほら、だって… そうでしょ？ 調査捕鯨だってモリを打ち込まれたら大変だもの",
-                    "maleVariant": null,
-                    "stringId": 1670578045695873024
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "にしても、日本の空母をここに置くなんてハナコ・アラサカの広報チームは心配でしょうね。真珠湾のことを苦々しく思ってる人もいるかもしれないし。いや、アラサカが“心配”するはずなんてないか",
-                    "maleVariant": null,
-                    "stringId": 1670579827788533760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "大きく出たものよね。ミリテクはどんな反応するかしら。マイヤーズがサビついたB-17爆撃機をアラサカ本社に向かわせたりして",
-                    "maleVariant": null,
-                    "stringId": 1670580479935696896
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あら、ごめんなさい。不適切な発言だったわ。本当、失礼よね… ちゃんとマイヤーズ“大統領”って呼ばないと。現政府に敬意を込めて",
-                    "maleVariant": null,
-                    "stringId": 1670582785242615808
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "というわけで…",
-                    "maleVariant": null,
-                    "stringId": 1670583295102210048
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ハーイ、今日もこの番組を見てくれてありがとう。ねえ、アラサカの空母がナイトシティにやって来たって話、聞いた？ その名も… 空母“クジラ”だって",
+              "maleVariant": "",
+              "stringId": 1669211932228231168
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "日本の海域に置いとくのは危険だと判断したみたいよ。ほら、だって… そうでしょ？ 調査捕鯨だってモリを打ち込まれたら大変だもの",
+              "maleVariant": "",
+              "stringId": 1670578045695873024
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "にしても、日本の空母をここに置くなんてハナコ・アラサカの広報チームは心配でしょうね。真珠湾のことを苦々しく思ってる人もいるかもしれないし。いや、アラサカが“心配”するはずなんてないか",
+              "maleVariant": "",
+              "stringId": 1670579827788533760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "大きく出たものよね。ミリテクはどんな反応するかしら。マイヤーズがサビついたB-17爆撃機をアラサカ本社に向かわせたりして",
+              "maleVariant": "",
+              "stringId": 1670580479935696896
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あら、ごめんなさい。不適切な発言だったわ。本当、失礼よね… ちゃんとマイヤーズ“大統領”って呼ばないと。現政府に敬意を込めて",
+              "maleVariant": "",
+              "stringId": 1670582785242615808
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "というわけで…",
+              "maleVariant": "",
+              "stringId": 1670583295102210048
             }
-          }
+          ]
         }
       }
     },

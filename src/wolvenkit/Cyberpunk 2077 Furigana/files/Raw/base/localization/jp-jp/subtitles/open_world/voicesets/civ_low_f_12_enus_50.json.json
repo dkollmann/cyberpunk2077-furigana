@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_f_12_enus_50.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今日は暑いわね",
-                    "maleVariant": null,
-                    "stringId": 1949175410862972932
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何を急いでるの？",
-                    "maleVariant": null,
-                    "stringId": 1949175410879750148
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あらやだ！",
-                    "maleVariant": null,
-                    "stringId": 1949175410930081796
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どこ見て歩いてるの！",
-                    "maleVariant": null,
-                    "stringId": 1949175410946859012
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもし",
-                    "maleVariant": null,
-                    "stringId": 1949175410997190656
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まだ街にいるわ… うん… いいわよ…！ いいじゃない… 彼も誘いなさいよ",
-                    "maleVariant": null,
-                    "stringId": 1949175411047522308
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "しばらく会ってないし… 今はネットランナーやってるって… ええ、似合わないわよね",
-                    "maleVariant": null,
-                    "stringId": 1949175411064299524
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いずれわかるわ",
-                    "maleVariant": null,
-                    "stringId": 1949175411114631172
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "助けて！ お巡りさん！",
-                    "maleVariant": null,
-                    "stringId": 1949175411248848900
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "逃げないと！",
-                    "maleVariant": null,
-                    "stringId": 1949175411282403332
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうして…？ お願い…！",
-                    "maleVariant": null,
-                    "stringId": 1949175411366289412
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もう帰らせて！",
-                    "maleVariant": null,
-                    "stringId": 1949175411383066628
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2歩下がって、いいわね？",
-                    "maleVariant": null,
-                    "stringId": 1949175411466952708
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "一人にして",
-                    "maleVariant": null,
-                    "stringId": 1949175411483729924
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今日は暑いわね",
+              "maleVariant": "",
+              "stringId": 1949175410862972932
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何を急いでるの？",
+              "maleVariant": "",
+              "stringId": 1949175410879750148
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あらやだ！",
+              "maleVariant": "",
+              "stringId": 1949175410930081796
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どこ見て歩いてるの！",
+              "maleVariant": "",
+              "stringId": 1949175410946859012
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもし",
+              "maleVariant": "",
+              "stringId": 1949175410997190656
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まだ街にいるわ… うん… いいわよ…！ いいじゃない… 彼も誘いなさいよ",
+              "maleVariant": "",
+              "stringId": 1949175411047522308
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "しばらく会ってないし… 今はネットランナーやってるって… ええ、似合わないわよね",
+              "maleVariant": "",
+              "stringId": 1949175411064299524
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いずれわかるわ",
+              "maleVariant": "",
+              "stringId": 1949175411114631172
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "助けて！ お巡りさん！",
+              "maleVariant": "",
+              "stringId": 1949175411248848900
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "逃げないと！",
+              "maleVariant": "",
+              "stringId": 1949175411282403332
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうして…？ お願い…！",
+              "maleVariant": "",
+              "stringId": 1949175411366289412
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もう帰らせて！",
+              "maleVariant": "",
+              "stringId": 1949175411383066628
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2歩下がって、いいわね？",
+              "maleVariant": "",
+              "stringId": 1949175411466952708
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "一人にして",
+              "maleVariant": "",
+              "stringId": 1949175411483729924
             }
-          }
+          ]
         }
       }
     },

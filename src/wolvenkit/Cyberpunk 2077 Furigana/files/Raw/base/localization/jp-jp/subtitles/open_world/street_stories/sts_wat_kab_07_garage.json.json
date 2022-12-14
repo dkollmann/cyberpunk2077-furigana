@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_wat_kab_07_garage.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "見てよ。1600ccの直列6気筒。これがまたいい音を奏でるの",
-                    "maleVariant": null,
-                    "stringId": 1376182346466082816
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "下痢してるときみたいな音だろ？",
-                    "maleVariant": null,
-                    "stringId": 1376182564469227520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今に見てな。そっちのちゃっちい電池式のガラクタなんか、置いてけぼりにしてやるから",
-                    "maleVariant": null,
-                    "stringId": 1376183055404122112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ふん、まずは走れるようにしてから言えよ",
-                    "maleVariant": null,
-                    "stringId": 1643284118736572416
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "見てよ。1600ccの直列6気筒。これがまたいい音を奏でるの",
+              "maleVariant": "",
+              "stringId": 1376182346466082816
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "下痢してるときみたいな音だろ？",
+              "maleVariant": "",
+              "stringId": 1376182564469227520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今に見てな。そっちのちゃっちい電池式のガラクタなんか、置いてけぼりにしてやるから",
+              "maleVariant": "",
+              "stringId": 1376183055404122112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ふん、まずは走れるようにしてから言えよ",
+              "maleVariant": "",
+              "stringId": 1643284118736572416
             }
-          }
+          ]
         }
       }
     },

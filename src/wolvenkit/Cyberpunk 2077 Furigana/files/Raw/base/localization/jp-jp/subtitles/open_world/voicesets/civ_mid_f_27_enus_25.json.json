@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_mid_f_27_enus_25.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "情報を売りたいの？ いくらか言ってみて",
-                    "maleVariant": null,
-                    "stringId": 1954491233349967876
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "世の中はお金よ。それはどうしようもないの",
-                    "maleVariant": null,
-                    "stringId": 1954491233366745092
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "触らないで！",
-                    "maleVariant": null,
-                    "stringId": 1954491233450631172
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何なの！？",
-                    "maleVariant": null,
-                    "stringId": 1954491233484185604
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何？",
-                    "maleVariant": null,
-                    "stringId": 1954491233551294468
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうしてあんなバカ連れてくるの…？ 車を止めてなんとかしてよ… うん… お金は渡すから… うん",
-                    "maleVariant": null,
-                    "stringId": 1954491233635180548
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "え…？ 何それ… 当たり前でしょ、怒ってるわよ… それならお金なんて払わないから… さっさと気づけばよかった",
-                    "maleVariant": null,
-                    "stringId": 1954491233668734980
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "じゃあ",
-                    "maleVariant": null,
-                    "stringId": 1954491233702289412
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうかしてる！",
-                    "maleVariant": null,
-                    "stringId": 1954491233853284356
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あの女を撃って！",
-                    "maleVariant": "あの男を撃って！",
-                    "stringId": 1954491233870061572
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "冷静に！",
-                    "maleVariant": null,
-                    "stringId": 1954491233953947652
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "殺さないで！ 殺して何になるのよ！",
-                    "maleVariant": null,
-                    "stringId": 1954491233970724868
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうせ体が目当てなんでしょ",
-                    "maleVariant": null,
-                    "stringId": 1954491234054610948
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おあいにく様だけど、興味ないの",
-                    "maleVariant": null,
-                    "stringId": 1954491234071388164
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "情報を売りたいの？ いくらか言ってみて",
+              "maleVariant": "",
+              "stringId": 1954491233349967876
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "世の中はお金よ。それはどうしようもないの",
+              "maleVariant": "",
+              "stringId": 1954491233366745092
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "触らないで！",
+              "maleVariant": "",
+              "stringId": 1954491233450631172
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何なの！？",
+              "maleVariant": "",
+              "stringId": 1954491233484185604
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何？",
+              "maleVariant": "",
+              "stringId": 1954491233551294468
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうしてあんなバカ連れてくるの…？ 車を止めてなんとかしてよ… うん… お金は渡すから… うん",
+              "maleVariant": "",
+              "stringId": 1954491233635180548
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "え…？ 何それ… 当たり前でしょ、怒ってるわよ… それならお金なんて払わないから… さっさと気づけばよかった",
+              "maleVariant": "",
+              "stringId": 1954491233668734980
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "じゃあ",
+              "maleVariant": "",
+              "stringId": 1954491233702289412
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうかしてる！",
+              "maleVariant": "",
+              "stringId": 1954491233853284356
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あの女を撃って！",
+              "maleVariant": "あの男を撃って！",
+              "stringId": 1954491233870061572
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "冷静に！",
+              "maleVariant": "",
+              "stringId": 1954491233953947652
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "殺さないで！ 殺して何になるのよ！",
+              "maleVariant": "",
+              "stringId": 1954491233970724868
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうせ体が目当てなんでしょ",
+              "maleVariant": "",
+              "stringId": 1954491234054610948
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おあいにく様だけど、興味ないの",
+              "maleVariant": "",
+              "stringId": 1954491234071388164
             }
-          }
+          ]
         }
       }
     },

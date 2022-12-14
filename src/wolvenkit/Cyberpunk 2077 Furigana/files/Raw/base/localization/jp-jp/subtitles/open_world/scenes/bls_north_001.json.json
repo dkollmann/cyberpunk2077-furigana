@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_north_001.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何が「ファミリー第一」だ。吐き気がするぜ",
-                    "maleVariant": null,
-                    "stringId": 1973560424069636096
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "マジかよ、いい加減にしてくれ。もうあいつにはうんざりなんだ",
-                    "maleVariant": null,
-                    "stringId": 1973767518967021568
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "前に一度、俺が追放された時あったろ。あん時も兄貴が追い出しの儀式を開いたんだ",
-                    "maleVariant": null,
-                    "stringId": 1973767580472295424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あんたの兄貴が、さっき探してたよ？",
-                    "maleVariant": null,
-                    "stringId": 1973767750089949184
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私なんてリンチされた後、道端に捨てられたんだから",
-                    "maleVariant": null,
-                    "stringId": 1973767912510177280
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "儀式があった分まだマシ",
-                    "maleVariant": null,
-                    "stringId": 1973767940947558400
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何が「ファミリー第一」だ。吐き気がするぜ",
+              "maleVariant": "",
+              "stringId": 1973560424069636096
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "マジかよ、いい加減にしてくれ。もうあいつにはうんざりなんだ",
+              "maleVariant": "",
+              "stringId": 1973767518967021568
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "前に一度、俺が追放された時あったろ。あん時も兄貴が追い出しの儀式を開いたんだ",
+              "maleVariant": "",
+              "stringId": 1973767580472295424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あんたの兄貴が、さっき探してたよ？",
+              "maleVariant": "",
+              "stringId": 1973767750089949184
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私なんてリンチされた後、道端に捨てられたんだから",
+              "maleVariant": "",
+              "stringId": 1973767912510177280
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "儀式があった分まだマシ",
+              "maleVariant": "",
+              "stringId": 1973767940947558400
             }
-          }
+          ]
         }
       }
     },

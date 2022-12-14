@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_cpz_chat_020.json"
@@ -11,58 +11,44 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "大事な公演初日なのはわかってるが、本当に無理なんだ。今日は残業しないと",
-                    "maleVariant": null,
-                    "stringId": 2172038560925474816
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ウソなんかつくわけないだろ？",
-                    "maleVariant": null,
-                    "stringId": 2189968923314982912
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "自分勝手？ じゃあどうしろって言うんだ。仕事を辞めろってのか！？",
-                    "maleVariant": null,
-                    "stringId": 2192352748829511680
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "「そういう意味じゃない」？ そうとしか聞こえかったぞ。お前が気に入ってるジャパンタウンの部屋――あれを芝居の仕事なんかで払えると思ってるのか？",
-                    "maleVariant": null,
-                    "stringId": 2192353163595845632
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ… いや、すまない… もしもし？ もしもし？",
-                    "maleVariant": null,
-                    "stringId": 2192378931487019008
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "大事な公演初日なのはわかってるが、本当に無理なんだ。今日は残業しないと",
+              "maleVariant": "",
+              "stringId": 2172038560925474816
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ウソなんかつくわけないだろ？",
+              "maleVariant": "",
+              "stringId": 2189968923314982912
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "自分勝手？ じゃあどうしろって言うんだ。仕事を辞めろってのか！？",
+              "maleVariant": "",
+              "stringId": 2192352748829511680
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "「そういう意味じゃない」？ そうとしか聞こえかったぞ。お前が気に入ってるジャパンタウンの部屋――あれを芝居の仕事なんかで払えると思ってるのか？",
+              "maleVariant": "",
+              "stringId": 2192353163595845632
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ… いや、すまない… もしもし？ もしもし？",
+              "maleVariant": "",
+              "stringId": 2192378931487019008
             }
-          }
+          ]
         }
       }
     },

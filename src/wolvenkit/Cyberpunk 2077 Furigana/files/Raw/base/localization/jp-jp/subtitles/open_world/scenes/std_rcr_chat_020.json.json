@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_rcr_chat_020.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もちろん、私たちは子供が大好きです。ですが、ひとまず感情は脇に置いて、論理的に、現実的に、利益の可能性について考えてみましょう",
-                    "maleVariant": null,
-                    "stringId": 2167629246113796096
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "子供は未来――そうですね？ その未来には投資しなければなりません。これは疑いようのない事実です",
-                    "maleVariant": null,
-                    "stringId": 2214568800497799168
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何が言いたいんだ？",
-                    "maleVariant": null,
-                    "stringId": 2214568827878215680
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今回は特別に皆様にだけ、“学童に力を”プログラムをご紹介します。生徒さんにミリテクの最新インプラントを使ってもらおうという施策です。腕や眼球、高速の神経経路。他にも多数取りそろえています",
-                    "maleVariant": null,
-                    "stringId": 2229048097526616064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "教員にはどんなメリットが？",
-                    "maleVariant": null,
-                    "stringId": 2229049106726490112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "よくぞ聞いてくれました。まず、誇りを持てます。生徒の才能を伸ばすのは、先生方の夢ですよね？ その夢がみるみる叶います",
-                    "maleVariant": null,
-                    "stringId": 2229053210316083200
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "他には？",
-                    "maleVariant": null,
-                    "stringId": 2229053518748422144
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "さすが先生方、知識欲が旺盛ですね。その熱心さに敬意をこめて、単刀直入に申しましょう。“学童に力を”プログラムへの参加を承諾するよう、親御さんを説得してください。その分の報酬をお支払いします",
-                    "maleVariant": null,
-                    "stringId": 2229053618337976320
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それが聞きたかったの",
-                    "maleVariant": null,
-                    "stringId": 2229054117376266240
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もちろん、私たちは子供が大好きです。ですが、ひとまず感情は脇に置いて、論理的に、現実的に、利益の可能性について考えてみましょう",
+              "maleVariant": "",
+              "stringId": 2167629246113796096
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "子供は未来――そうですね？ その未来には投資しなければなりません。これは疑いようのない事実です",
+              "maleVariant": "",
+              "stringId": 2214568800497799168
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何が言いたいんだ？",
+              "maleVariant": "",
+              "stringId": 2214568827878215680
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今回は特別に皆様にだけ、“学童に力を”プログラムをご紹介します。生徒さんにミリテクの最新インプラントを使ってもらおうという施策です。腕や眼球、高速の神経経路。他にも多数取りそろえています",
+              "maleVariant": "",
+              "stringId": 2229048097526616064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "教員にはどんなメリットが？",
+              "maleVariant": "",
+              "stringId": 2229049106726490112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "よくぞ聞いてくれました。まず、誇りを持てます。生徒の才能を伸ばすのは、先生方の夢ですよね？ その夢がみるみる叶います",
+              "maleVariant": "",
+              "stringId": 2229053210316083200
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "他には？",
+              "maleVariant": "",
+              "stringId": 2229053518748422144
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "さすが先生方、知識欲が旺盛ですね。その熱心さに敬意をこめて、単刀直入に申しましょう。“学童に力を”プログラムへの参加を承諾するよう、親御さんを説得してください。その分の報酬をお支払いします",
+              "maleVariant": "",
+              "stringId": 2229053618337976320
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それが聞きたかったの",
+              "maleVariant": "",
+              "stringId": 2229054117376266240
             }
-          }
+          ]
         }
       }
     },

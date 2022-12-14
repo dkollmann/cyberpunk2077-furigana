@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_rey_chat_026.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "必ず見つけ出してやる",
-                    "maleVariant": null,
-                    "stringId": 2161937866620694528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やめて… 知りたくもない",
-                    "maleVariant": null,
-                    "stringId": 2228019486094888960
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ヴァレンティーノズの一人がやられた。これは名誉の問題だ",
-                    "maleVariant": null,
-                    "stringId": 2228019756291952640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やめてと言ったでしょ。いい加減にして",
-                    "maleVariant": null,
-                    "stringId": 2228020464290467840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "報復せずに黙ってられるか！",
-                    "maleVariant": null,
-                    "stringId": 2228021702717444096
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もうそれ以上、何も言わないで",
-                    "maleVariant": null,
-                    "stringId": 2228025974884503552
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "必ず見つけ出してやる",
+              "maleVariant": "",
+              "stringId": 2161937866620694528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やめて… 知りたくもない",
+              "maleVariant": "",
+              "stringId": 2228019486094888960
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ヴァレンティーノズの一人がやられた。これは名誉の問題だ",
+              "maleVariant": "",
+              "stringId": 2228019756291952640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やめてと言ったでしょ。いい加減にして",
+              "maleVariant": "",
+              "stringId": 2228020464290467840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "報復せずに黙ってられるか！",
+              "maleVariant": "",
+              "stringId": 2228021702717444096
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もうそれ以上、何も言わないで",
+              "maleVariant": "",
+              "stringId": 2228025974884503552
             }
-          }
+          ]
         }
       }
     },

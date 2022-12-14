@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_east_008.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それまでは自家発電で我慢するんだな",
-                    "maleVariant": null,
-                    "stringId": 1973548165494775808
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "キャンディーはいるか？",
-                    "maleVariant": null,
-                    "stringId": 1976304540075184128
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いや、入れ違ったな。昨日出てったところだ",
-                    "maleVariant": null,
-                    "stringId": 1976304558177800192
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソ。なんで俺に一言もなく。付き合ってるんじゃなかったのか？",
-                    "maleVariant": null,
-                    "stringId": 1976304580457943040
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "一応言っとくが、彼女は誰ともヤッてないぞ",
-                    "maleVariant": null,
-                    "stringId": 1976304604130594816
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どういうことだ？ そもそもなぜそんなことを知ってる？",
-                    "maleVariant": null,
-                    "stringId": 1976304630386937856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "へっ、そりゃお前、ヤろうとしたからさ。だってお前、2ヶ月もいなかっただろ",
-                    "maleVariant": null,
-                    "stringId": 1976304652264427520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でも断られたんだな…？ そうか。今出れば、追いつけると思うか？",
-                    "maleVariant": null,
-                    "stringId": 1976304717762678784
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "落ち着けよ。明日か明後日には帰ってくる",
-                    "maleVariant": null,
-                    "stringId": 1976307209833566208
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それまでは自家発電で我慢するんだな",
+              "maleVariant": "",
+              "stringId": 1973548165494775808
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "キャンディーはいるか？",
+              "maleVariant": "",
+              "stringId": 1976304540075184128
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いや、入れ違ったな。昨日出てったところだ",
+              "maleVariant": "",
+              "stringId": 1976304558177800192
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソ。なんで俺に一言もなく。付き合ってるんじゃなかったのか？",
+              "maleVariant": "",
+              "stringId": 1976304580457943040
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "一応言っとくが、彼女は誰ともヤッてないぞ",
+              "maleVariant": "",
+              "stringId": 1976304604130594816
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どういうことだ？ そもそもなぜそんなことを知ってる？",
+              "maleVariant": "",
+              "stringId": 1976304630386937856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "へっ、そりゃお前、ヤろうとしたからさ。だってお前、2ヶ月もいなかっただろ",
+              "maleVariant": "",
+              "stringId": 1976304652264427520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でも断られたんだな…？ そうか。今出れば、追いつけると思うか？",
+              "maleVariant": "",
+              "stringId": 1976304717762678784
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "落ち着けよ。明日か明後日には帰ってくる",
+              "maleVariant": "",
+              "stringId": 1976307209833566208
             }
-          }
+          ]
         }
       }
     },

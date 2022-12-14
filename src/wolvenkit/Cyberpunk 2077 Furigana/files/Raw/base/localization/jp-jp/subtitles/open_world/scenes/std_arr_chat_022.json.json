@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_arr_chat_022.json"
@@ -11,58 +11,44 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やだ、行きたくない。臭いし、パパの友達キモイし",
-                    "maleVariant": null,
-                    "stringId": 2167965985946390528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "頼むよ。すぐ切り上げるからさ",
-                    "maleVariant": null,
-                    "stringId": 2214510439408439296
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ウソばっかり",
-                    "maleVariant": null,
-                    "stringId": 2221773874861019136
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "行かなきゃダメなんだ。じゃないと本当に病気になっちまう",
-                    "maleVariant": null,
-                    "stringId": 2221774012081868800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私はもう子供じゃないの。酔っ払いたいなら勝手にしてよ。私を巻き込まないで",
-                    "maleVariant": null,
-                    "stringId": 2221774519642984448
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やだ、行きたくない。臭いし、パパの友達キモイし",
+              "maleVariant": "",
+              "stringId": 2167965985946390528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "頼むよ。すぐ切り上げるからさ",
+              "maleVariant": "",
+              "stringId": 2214510439408439296
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ウソばっかり",
+              "maleVariant": "",
+              "stringId": 2221773874861019136
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "行かなきゃダメなんだ。じゃないと本当に病気になっちまう",
+              "maleVariant": "",
+              "stringId": 2221774012081868800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私はもう子供じゃないの。酔っ払いたいなら勝手にしてよ。私を巻き込まないで",
+              "maleVariant": "",
+              "stringId": 2221774519642984448
             }
-          }
+          ]
         }
       }
     },

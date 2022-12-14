@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\mq014\\mq014_04_water.json"
@@ -11,106 +11,80 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今からそなたに教えるのは水の瞑想だ",
-                    "maleVariant": null,
-                    "stringId": 1815549813645611008
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ここは森の中、目の前には滝がある",
-                    "maleVariant": null,
-                    "stringId": 1816922335658086400
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "若さ、知恵、知識、健康、強さ、喜び、幸せ、そして内なる安らぎを与えたまえ",
-                    "maleVariant": null,
-                    "stringId": 1822695898210078720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "水の精霊よ、我々に宿りたまえ。我々の血と肉になりたまえ",
-                    "maleVariant": null,
-                    "stringId": 1822699929053663232
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "我々の身体と魂から病を、苦痛を、穢れを取り除き、害ある人々、社会、次元から害ある気を取り除きたまえ",
-                    "maleVariant": null,
-                    "stringId": 1822701562483412992
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "水の精霊よ、心と身体と魂からお礼を申し上げる。そなたなしで命は存在しえない",
-                    "maleVariant": null,
-                    "stringId": 1822702594315751424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "水の精霊よ、我々の血と肉の8割は、そなたが司る水より創られている",
-                    "maleVariant": null,
-                    "stringId": 1925545639536463872
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "液体の時もあれば、氷の時もあり、雪の時もあれば、蒸気や霧の時もある。癒しを与える時もあれば、溺れさせる時もある",
-                    "maleVariant": null,
-                    "stringId": 1925547349285769216
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "水の精霊よ、そなたは、何よりも謎めいた存在だ！",
-                    "maleVariant": null,
-                    "stringId": 1925547988665470976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "我々は水。滝から流れ落ちるのは我々自身だ",
-                    "maleVariant": null,
-                    "stringId": 1925549289570799616
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そなたら四大元素が形作る美に、敬意を表さん…",
-                    "maleVariant": null,
-                    "stringId": 1925614429947269120
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今からそなたに教えるのは水の瞑想だ",
+              "maleVariant": "",
+              "stringId": 1815549813645611008
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ここは森の中、目の前には滝がある",
+              "maleVariant": "",
+              "stringId": 1816922335658086400
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "若さ、知恵、知識、健康、強さ、喜び、幸せ、そして内なる安らぎを与えたまえ",
+              "maleVariant": "",
+              "stringId": 1822695898210078720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "水の精霊よ、我々に宿りたまえ。我々の血と肉になりたまえ",
+              "maleVariant": "",
+              "stringId": 1822699929053663232
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "我々の身体と魂から病を、苦痛を、穢れを取り除き、害ある人々、社会、次元から害ある気を取り除きたまえ",
+              "maleVariant": "",
+              "stringId": 1822701562483412992
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "水の精霊よ、心と身体と魂からお礼を申し上げる。そなたなしで命は存在しえない",
+              "maleVariant": "",
+              "stringId": 1822702594315751424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "水の精霊よ、我々の血と肉の8割は、そなたが司る水より創られている",
+              "maleVariant": "",
+              "stringId": 1925545639536463872
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "液体の時もあれば、氷の時もあり、雪の時もあれば、蒸気や霧の時もある。癒しを与える時もあれば、溺れさせる時もある",
+              "maleVariant": "",
+              "stringId": 1925547349285769216
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "水の精霊よ、そなたは、何よりも謎めいた存在だ！",
+              "maleVariant": "",
+              "stringId": 1925547988665470976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "我々は水。滝から流れ落ちるのは我々自身だ",
+              "maleVariant": "",
+              "stringId": 1925549289570799616
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そなたら四大元素が形作る美に、敬意を表さん…",
+              "maleVariant": "",
+              "stringId": 1925614429947269120
             }
-          }
+          ]
         }
       }
     },

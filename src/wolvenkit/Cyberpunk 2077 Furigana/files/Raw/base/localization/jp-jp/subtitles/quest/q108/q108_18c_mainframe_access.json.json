@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q108\\q108_18c_mainframe_access.json"
@@ -11,146 +11,110 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この辺りにあるはずよ",
-                    "maleVariant": null,
-                    "stringId": 1425455033420259328
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "タレットだ、気をつけて！",
-                    "maleVariant": null,
-                    "stringId": 1732809444324081664
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ダメね",
-                    "maleVariant": null,
-                    "stringId": 1732859068694986752
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちくしょう！",
-                    "maleVariant": null,
-                    "stringId": 1732873537550614528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "これを使え",
-                    "maleVariant": null,
-                    "stringId": 1732991402140303360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ハッ、ようやくこいつが役に立つな",
-                    "maleVariant": null,
-                    "stringId": 1732991610999865344
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "俺がやる",
-                    "maleVariant": null,
-                    "stringId": 1733007782709362688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[開ける]",
-                    "maleVariant": null,
-                    "stringId": 1744736471330234368
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3、2、1…",
-                    "maleVariant": null,
-                    "stringId": 1789548227948617728
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "完璧だ",
-                    "maleVariant": null,
-                    "stringId": 1789548711820304388
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ここか",
-                    "maleVariant": null,
-                    "stringId": 2233089103959244800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "下がったほうがいい",
-                    "maleVariant": null,
-                    "stringId": 2233089267067338756
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "覚悟はいい？ 大変なのはここからだよ",
-                    "maleVariant": null,
-                    "stringId": 2233089406301454340
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "早くしな。オルトを助けたいんじゃなかったの？",
-                    "maleVariant": null,
-                    "stringId": 2233090908919250944
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "大砲でもないと突破できそうにない扉だ。どうする？",
-                    "maleVariant": null,
-                    "stringId": 2250793311843991552
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[爆弾を仕掛ける]",
-                    "maleVariant": null,
-                    "stringId": 2436361243432230916
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この辺りにあるはずよ",
+              "maleVariant": "",
+              "stringId": 1425455033420259328
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "タレットだ、気をつけて！",
+              "maleVariant": "",
+              "stringId": 1732809444324081664
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ダメね",
+              "maleVariant": "",
+              "stringId": 1732859068694986752
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちくしょう！",
+              "maleVariant": "",
+              "stringId": 1732873537550614528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "これを使え",
+              "maleVariant": "",
+              "stringId": 1732991402140303360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ハッ、ようやくこいつが役に立つな",
+              "maleVariant": "",
+              "stringId": 1732991610999865344
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "俺がやる",
+              "maleVariant": "",
+              "stringId": 1733007782709362688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[開ける]",
+              "maleVariant": "",
+              "stringId": 1744736471330234368
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3、2、1…",
+              "maleVariant": "",
+              "stringId": 1789548227948617728
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "完璧だ",
+              "maleVariant": "",
+              "stringId": 1789548711820304388
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ここか",
+              "maleVariant": "",
+              "stringId": 2233089103959244800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "下がったほうがいい",
+              "maleVariant": "",
+              "stringId": 2233089267067338756
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "覚悟はいい？ 大変なのはここからだよ",
+              "maleVariant": "",
+              "stringId": 2233089406301454340
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "早くしな。オルトを助けたいんじゃなかったの？",
+              "maleVariant": "",
+              "stringId": 2233090908919250944
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "大砲でもないと突破できそうにない扉だ。どうする？",
+              "maleVariant": "",
+              "stringId": 2250793311843991552
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[爆弾を仕掛ける]",
+              "maleVariant": "",
+              "stringId": 2436361243432230916
             }
-          }
+          ]
         }
       }
     },

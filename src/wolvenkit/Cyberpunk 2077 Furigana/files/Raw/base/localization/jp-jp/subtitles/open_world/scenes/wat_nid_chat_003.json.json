@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_nid_chat_003.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ふう！ やっぱクズを殺ると気分がスカッとする",
-                    "maleVariant": null,
-                    "stringId": 1802510207875145728
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あのあきらめた瞬間… 死を悟った時の顔がまた、たまんねえんだ",
-                    "maleVariant": null,
-                    "stringId": 1802510776069120000
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "抵抗しねえ奴を殺っても、つまんねえだろ",
-                    "maleVariant": null,
-                    "stringId": 1802512292377124864
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いいや",
-                    "maleVariant": null,
-                    "stringId": 1802512551601889280
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あんな小物を叩いて何が楽しい？ チョロすぎる",
-                    "maleVariant": null,
-                    "stringId": 1802512644564443136
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "小物だろうがプロだろうが関係ねえ。目から光が消える瞬間を見たいだけだ",
-                    "maleVariant": null,
-                    "stringId": 1802512836395130880
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ふう！ やっぱクズを殺ると気分がスカッとする",
+              "maleVariant": "",
+              "stringId": 1802510207875145728
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あのあきらめた瞬間… 死を悟った時の顔がまた、たまんねえんだ",
+              "maleVariant": "",
+              "stringId": 1802510776069120000
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "抵抗しねえ奴を殺っても、つまんねえだろ",
+              "maleVariant": "",
+              "stringId": 1802512292377124864
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いいや",
+              "maleVariant": "",
+              "stringId": 1802512551601889280
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あんな小物を叩いて何が楽しい？ チョロすぎる",
+              "maleVariant": "",
+              "stringId": 1802512644564443136
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "小物だろうがプロだろうが関係ねえ。目から光が消える瞬間を見たいだけだ",
+              "maleVariant": "",
+              "stringId": 1802512836395130880
             }
-          }
+          ]
         }
       }
     },

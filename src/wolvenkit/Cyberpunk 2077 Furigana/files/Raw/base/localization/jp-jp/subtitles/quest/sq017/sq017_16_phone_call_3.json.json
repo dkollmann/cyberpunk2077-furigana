@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\sq017\\sq017_16_phone_call_3.json"
@@ -11,138 +11,104 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ケリー、どうしたの",
-                    "maleVariant": "ケリー、どうしたんだ",
-                    "stringId": 1339911430966611980
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今夜の予定は？ あるならキャンセルしろ",
-                    "maleVariant": null,
-                    "stringId": 1339913926342610944
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ウッドランドのダークマターってクラブに来てくれ。一見さんはお断りの場所だ",
-                    "maleVariant": null,
-                    "stringId": 1339914051819409408
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうかしたの？",
-                    "maleVariant": "どうかしたのか？",
-                    "stringId": 1339916105770078208
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "〈Us Cracks〉だよ！ 勝利の祝杯をあげてなかったろ！",
-                    "maleVariant": null,
-                    "stringId": 1340018677658947584
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "裏口に回って、俺の連れだって伝えれば入れる",
-                    "maleVariant": null,
-                    "stringId": 1340019136532582400
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "遅れるなよ！",
-                    "maleVariant": null,
-                    "stringId": 1340019681037127680
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ケリー、どうしたの",
-                    "maleVariant": "ケリー、どうしたんだ",
-                    "stringId": 1851711575214911488
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今夜の予定は？ あるならキャンセルしろ",
-                    "maleVariant": null,
-                    "stringId": 1851712016891899904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ウッドランドのダークマターってクラブで待ってる。一見さんはお断りの場所だ",
-                    "maleVariant": null,
-                    "stringId": 1851712470296162304
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうかしたの？",
-                    "maleVariant": "どうかしたのか？",
-                    "stringId": 1851713246124961792
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "〈Us Cracks〉のクソ女どもにしてやられたんだよ。連中は結局、カバーをやる気だ。おまけに弁護士から接近禁止令まで送られてきた",
-                    "maleVariant": null,
-                    "stringId": 1851713412672385024
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "誰が好き好んで近寄るかっつうんだ",
-                    "maleVariant": null,
-                    "stringId": 1851715369130651648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そんな… あれだけやったのに",
-                    "maleVariant": null,
-                    "stringId": 1851716195257544704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いいんだ、協力には感謝してる。とにかく、クラブの裏口に来てくれ。遅れるなよ",
-                    "maleVariant": null,
-                    "stringId": 1851716492113604608
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ケリー、どうしたの",
+              "maleVariant": "ケリー、どうしたんだ",
+              "stringId": 1339911430966611980
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今夜の予定は？ あるならキャンセルしろ",
+              "maleVariant": "",
+              "stringId": 1339913926342610944
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ウッドランドのダークマターってクラブに来てくれ。一見さんはお断りの場所だ",
+              "maleVariant": "",
+              "stringId": 1339914051819409408
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうかしたの？",
+              "maleVariant": "どうかしたのか？",
+              "stringId": 1339916105770078208
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "〈Us Cracks〉だよ！ 勝利の祝杯をあげてなかったろ！",
+              "maleVariant": "",
+              "stringId": 1340018677658947584
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "裏口に回って、俺の連れだって伝えれば入れる",
+              "maleVariant": "",
+              "stringId": 1340019136532582400
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "遅れるなよ！",
+              "maleVariant": "",
+              "stringId": 1340019681037127680
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ケリー、どうしたの",
+              "maleVariant": "ケリー、どうしたんだ",
+              "stringId": 1851711575214911488
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今夜の予定は？ あるならキャンセルしろ",
+              "maleVariant": "",
+              "stringId": 1851712016891899904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ウッドランドのダークマターってクラブで待ってる。一見さんはお断りの場所だ",
+              "maleVariant": "",
+              "stringId": 1851712470296162304
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうかしたの？",
+              "maleVariant": "どうかしたのか？",
+              "stringId": 1851713246124961792
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "〈Us Cracks〉のクソ女どもにしてやられたんだよ。連中は結局、カバーをやる気だ。おまけに弁護士から接近禁止令まで送られてきた",
+              "maleVariant": "",
+              "stringId": 1851713412672385024
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "誰が好き好んで近寄るかっつうんだ",
+              "maleVariant": "",
+              "stringId": 1851715369130651648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そんな… あれだけやったのに",
+              "maleVariant": "",
+              "stringId": 1851716195257544704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いいんだ、協力には感謝してる。とにかく、クラブの裏口に来てくれ。遅れるなよ",
+              "maleVariant": "",
+              "stringId": 1851716492113604608
             }
-          }
+          ]
         }
       }
     },

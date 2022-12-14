@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\fluff\\n54_news_4.json"
@@ -11,106 +11,80 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こんにちは、ジリアン・ジョーダンです。N54ニュースのワールドレポートをお届けします",
-                    "maleVariant": null,
-                    "stringId": 1771917816745598976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "WCS、西部企業州連合がビザプログラムを刷新しました",
-                    "maleVariant": null,
-                    "stringId": 1791021670769938432
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今後、連合地域に転入する場合、先にWCS加入企業からの紹介を受ける必要が出てきます",
-                    "maleVariant": null,
-                    "stringId": 1791021843659149312
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "またビザ保有者は、WCS地域で20年間の就労実績を積むことで、永住権、結婚許可証、子ども1人の扶養許可を取得できます",
-                    "maleVariant": null,
-                    "stringId": 1791022022403608576
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ヨーロッパ北部では難民受け入れ問題が急激に拡大。洪水の発生したベルギーとオランダからの難民が、次々とスカンジナビア地域に流入しています",
-                    "maleVariant": null,
-                    "stringId": 1791022178767261696
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "スウェーデンは武力をもってこれにあたり、ここ数週間で10隻以上の難民船が沈みました。人道的解決が望まれる中、すでに60人近くが死亡しています",
-                    "maleVariant": null,
-                    "stringId": 1791022343066537984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "地上の楽園なのでしょうか？ 各地から南極に移民した人々が、今日で移住10周年を祝っています",
-                    "maleVariant": null,
-                    "stringId": 1791022506526953472
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "南極では氷の下に天然資源が眠っていることが判明して以来、経済開発が進められてきました",
-                    "maleVariant": null,
-                    "stringId": 1791022717265563648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "開発に伴ってある程度の環境破壊は見られたものの、移住者は概ね今も快適な暮らしを満喫しています。先日は、南極初となるドールハウスもオープンしました",
-                    "maleVariant": null,
-                    "stringId": 1791022873092345856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "しかし、移住者にとっての一番の魅力は、この地域の圧倒的な治安の良さかもしれません。南極における殺人発生率は、10万人あたりわずか70人です",
-                    "maleVariant": null,
-                    "stringId": 1791023145000685568
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "以上、N54ニュースでした。それではまた次回",
-                    "maleVariant": null,
-                    "stringId": 1791023342904725504
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こんにちは、ジリアン・ジョーダンです。N54ニュースのワールドレポートをお届けします",
+              "maleVariant": "",
+              "stringId": 1771917816745598976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "WCS、西部企業州連合がビザプログラムを刷新しました",
+              "maleVariant": "",
+              "stringId": 1791021670769938432
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今後、連合地域に転入する場合、先にWCS加入企業からの紹介を受ける必要が出てきます",
+              "maleVariant": "",
+              "stringId": 1791021843659149312
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "またビザ保有者は、WCS地域で20年間の就労実績を積むことで、永住権、結婚許可証、子ども1人の扶養許可を取得できます",
+              "maleVariant": "",
+              "stringId": 1791022022403608576
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ヨーロッパ北部では難民受け入れ問題が急激に拡大。洪水の発生したベルギーとオランダからの難民が、次々とスカンジナビア地域に流入しています",
+              "maleVariant": "",
+              "stringId": 1791022178767261696
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "スウェーデンは武力をもってこれにあたり、ここ数週間で10隻以上の難民船が沈みました。人道的解決が望まれる中、すでに60人近くが死亡しています",
+              "maleVariant": "",
+              "stringId": 1791022343066537984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "地上の楽園なのでしょうか？ 各地から南極に移民した人々が、今日で移住10周年を祝っています",
+              "maleVariant": "",
+              "stringId": 1791022506526953472
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "南極では氷の下に天然資源が眠っていることが判明して以来、経済開発が進められてきました",
+              "maleVariant": "",
+              "stringId": 1791022717265563648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "開発に伴ってある程度の環境破壊は見られたものの、移住者は概ね今も快適な暮らしを満喫しています。先日は、南極初となるドールハウスもオープンしました",
+              "maleVariant": "",
+              "stringId": 1791022873092345856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "しかし、移住者にとっての一番の魅力は、この地域の圧倒的な治安の良さかもしれません。南極における殺人発生率は、10万人あたりわずか70人です",
+              "maleVariant": "",
+              "stringId": 1791023145000685568
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "以上、N54ニュースでした。それではまた次回",
+              "maleVariant": "",
+              "stringId": 1791023342904725504
             }
-          }
+          ]
         }
       }
     },

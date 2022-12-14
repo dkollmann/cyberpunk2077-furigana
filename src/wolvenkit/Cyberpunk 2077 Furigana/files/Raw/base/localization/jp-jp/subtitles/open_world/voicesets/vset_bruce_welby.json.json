@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\vset_bruce_welby.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "よう",
-                    "maleVariant": null,
-                    "stringId": 1895210266365554692
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "元気か？",
-                    "maleVariant": null,
-                    "stringId": 1895210266382331908
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい、置いてくなよ！",
-                    "maleVariant": null,
-                    "stringId": 1895210266449440772
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ま、待てよ、どこ行くんだ？",
-                    "maleVariant": null,
-                    "stringId": 1895210266466217988
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "怖がらせるなよ！",
-                    "maleVariant": null,
-                    "stringId": 1895210266516549632
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "撃たれるところだったぞ！",
-                    "maleVariant": null,
-                    "stringId": 1895210266533326852
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やられたらお前のせいだぞ！",
-                    "maleVariant": null,
-                    "stringId": 1895210266550104068
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "助けるつもりなら早くしろよ！",
-                    "maleVariant": null,
-                    "stringId": 1895210266566881284
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい！",
-                    "maleVariant": null,
-                    "stringId": 1895210266784985092
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "気をつけろ！",
-                    "maleVariant": null,
-                    "stringId": 1895210266801762308
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "よう",
+              "maleVariant": "",
+              "stringId": 1895210266365554692
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "元気か？",
+              "maleVariant": "",
+              "stringId": 1895210266382331908
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい、置いてくなよ！",
+              "maleVariant": "",
+              "stringId": 1895210266449440772
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ま、待てよ、どこ行くんだ？",
+              "maleVariant": "",
+              "stringId": 1895210266466217988
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "怖がらせるなよ！",
+              "maleVariant": "",
+              "stringId": 1895210266516549632
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "撃たれるところだったぞ！",
+              "maleVariant": "",
+              "stringId": 1895210266533326852
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やられたらお前のせいだぞ！",
+              "maleVariant": "",
+              "stringId": 1895210266550104068
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "助けるつもりなら早くしろよ！",
+              "maleVariant": "",
+              "stringId": 1895210266566881284
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい！",
+              "maleVariant": "",
+              "stringId": 1895210266784985092
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "気をつけろ！",
+              "maleVariant": "",
+              "stringId": 1895210266801762308
             }
-          }
+          ]
         }
       }
     },

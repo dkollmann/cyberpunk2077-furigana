@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\ma_scene_threatning_08.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なんだ、自分が強いとでも思ってるのか？",
-                    "maleVariant": null,
-                    "stringId": 2007231966741659648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どういう教育をされてきたのか知らねえが、ひとつ教えてやる。ここじゃ俺が法律なんだよ！",
-                    "maleVariant": null,
-                    "stringId": 2007232666703888384
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お遊びはここまでだ。お前はここで死ぬんだよ",
-                    "maleVariant": null,
-                    "stringId": 2007232730742521856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "調子に乗りやがって… クソと小便まみれになってから、同じことが言えるのか見ものだぜ！",
-                    "maleVariant": null,
-                    "stringId": 2007232787952828416
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なんだ、自分が強いとでも思ってるのか？",
+              "maleVariant": "",
+              "stringId": 2007231966741659648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どういう教育をされてきたのか知らねえが、ひとつ教えてやる。ここじゃ俺が法律なんだよ！",
+              "maleVariant": "",
+              "stringId": 2007232666703888384
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お遊びはここまでだ。お前はここで死ぬんだよ",
+              "maleVariant": "",
+              "stringId": 2007232730742521856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "調子に乗りやがって… クソと小便まみれになってから、同じことが言えるのか見ものだぜ！",
+              "maleVariant": "",
+              "stringId": 2007232787952828416
             }
-          }
+          ]
         }
       }
     },

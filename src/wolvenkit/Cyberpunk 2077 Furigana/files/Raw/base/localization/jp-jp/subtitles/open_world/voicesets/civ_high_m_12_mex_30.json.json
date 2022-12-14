@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_high_m_12_mex_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "誰か探してるのか？",
-                    "maleVariant": null,
-                    "stringId": 1878045380341932036
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "知らない者同士、関わらないようにしようぜ",
-                    "maleVariant": null,
-                    "stringId": 1878045380358709252
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "俺が何かしたか？",
-                    "maleVariant": null,
-                    "stringId": 1878045380425818116
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クイダード！",
-                    "maleVariant": null,
-                    "stringId": 1878045380459372548
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "はい？ もしもし",
-                    "maleVariant": null,
-                    "stringId": 1878045380492926980
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ、でも今すぐは無理だ… 今は人前に… もちろんさ。お忍びで… うん",
-                    "maleVariant": null,
-                    "stringId": 1878045380543258628
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ま、ひとまずは… あー、正式に苦情を言われたりはしないだろう… うん、問題ないさ",
-                    "maleVariant": null,
-                    "stringId": 1878045380576813060
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "また連絡してくれ",
-                    "maleVariant": null,
-                    "stringId": 1878045380610367492
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ、神よ！",
-                    "maleVariant": null,
-                    "stringId": 1878045380811694084
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "誰かあいつを撃ち殺せ！",
-                    "maleVariant": null,
-                    "stringId": 1878045380828471300
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もし俺を殺したら、どうなるかわかってんのか！",
-                    "maleVariant": null,
-                    "stringId": 1878045380912357380
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "絶対に捕まるぞ！",
-                    "maleVariant": null,
-                    "stringId": 1878045380945911812
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ビビらせようとしてんのか？",
-                    "maleVariant": null,
-                    "stringId": 1878045381046575108
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "カネが目的ならがっかりするぞ",
-                    "maleVariant": null,
-                    "stringId": 1878045381063352324
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "誰か探してるのか？",
+              "maleVariant": "",
+              "stringId": 1878045380341932036
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "知らない者同士、関わらないようにしようぜ",
+              "maleVariant": "",
+              "stringId": 1878045380358709252
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "俺が何かしたか？",
+              "maleVariant": "",
+              "stringId": 1878045380425818116
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クイダード！",
+              "maleVariant": "",
+              "stringId": 1878045380459372548
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "はい？ もしもし",
+              "maleVariant": "",
+              "stringId": 1878045380492926980
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ、でも今すぐは無理だ… 今は人前に… もちろんさ。お忍びで… うん",
+              "maleVariant": "",
+              "stringId": 1878045380543258628
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ま、ひとまずは… あー、正式に苦情を言われたりはしないだろう… うん、問題ないさ",
+              "maleVariant": "",
+              "stringId": 1878045380576813060
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "また連絡してくれ",
+              "maleVariant": "",
+              "stringId": 1878045380610367492
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ、神よ！",
+              "maleVariant": "",
+              "stringId": 1878045380811694084
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "誰かあいつを撃ち殺せ！",
+              "maleVariant": "",
+              "stringId": 1878045380828471300
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もし俺を殺したら、どうなるかわかってんのか！",
+              "maleVariant": "",
+              "stringId": 1878045380912357380
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "絶対に捕まるぞ！",
+              "maleVariant": "",
+              "stringId": 1878045380945911812
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ビビらせようとしてんのか？",
+              "maleVariant": "",
+              "stringId": 1878045381046575108
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "カネが目的ならがっかりするぞ",
+              "maleVariant": "",
+              "stringId": 1878045381063352324
             }
-          }
+          ]
         }
       }
     },

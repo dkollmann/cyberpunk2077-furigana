@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_arr_chat_001.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あんたのために言ってるんだ。警備員を呼びたくはない",
-                    "maleVariant": null,
-                    "stringId": 1963259367192043520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いらないから捨ててあるんだろ？ 少しくらいもらったっていいじゃねえかよ",
-                    "maleVariant": null,
-                    "stringId": 1966208582348947456
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ペトロケムは泥棒に厳しいんだ",
-                    "maleVariant": null,
-                    "stringId": 1966209531687714816
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "泥棒って、これはゴミなんだろ！ 無くなったって誰が困るんだ？",
-                    "maleVariant": null,
-                    "stringId": 1966209868473548800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ルールはルールだ",
-                    "maleVariant": null,
-                    "stringId": 1966210127094333440
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "誰にも迷惑かからねえのに",
-                    "maleVariant": null,
-                    "stringId": 1966210277401411584
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あんたのために言ってるんだ。警備員を呼びたくはない",
+              "maleVariant": "",
+              "stringId": 1963259367192043520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いらないから捨ててあるんだろ？ 少しくらいもらったっていいじゃねえかよ",
+              "maleVariant": "",
+              "stringId": 1966208582348947456
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ペトロケムは泥棒に厳しいんだ",
+              "maleVariant": "",
+              "stringId": 1966209531687714816
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "泥棒って、これはゴミなんだろ！ 無くなったって誰が困るんだ？",
+              "maleVariant": "",
+              "stringId": 1966209868473548800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ルールはルールだ",
+              "maleVariant": "",
+              "stringId": 1966210127094333440
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "誰にも迷惑かからねえのに",
+              "maleVariant": "",
+              "stringId": 1966210277401411584
             }
-          }
+          ]
         }
       }
     },

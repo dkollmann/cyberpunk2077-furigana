@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_prst_f_02_afam_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "寒くない？ 暖めてあげようか？",
-                    "maleVariant": null,
-                    "stringId": 1955898891382595588
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どういうプレイがお好き？",
-                    "maleVariant": null,
-                    "stringId": 1955898891399372804
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何かに集中して下を向いてたのかしら？",
-                    "maleVariant": null,
-                    "stringId": 1955898891449704452
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "気をつけて！",
-                    "maleVariant": null,
-                    "stringId": 1955898891466481668
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何も問題ない？",
-                    "maleVariant": null,
-                    "stringId": 1955898891500036100
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "食べ物は冷蔵庫に… 誰…？ 関係ない。誰も入れないで… ゲームでもしててよ",
-                    "maleVariant": null,
-                    "stringId": 1955898891550367748
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "夕方には帰るから… お客があと何人かいるの… うん… でもダメよ… そういうものなの",
-                    "maleVariant": null,
-                    "stringId": 1955898891583922176
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "愛してる！",
-                    "maleVariant": null,
-                    "stringId": 1955898891617476608
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "みんな隠れて！",
-                    "maleVariant": null,
-                    "stringId": 1955898891751694340
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "武器を持ってる！",
-                    "maleVariant": null,
-                    "stringId": 1955898891785248772
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やめて… いや… 死にたくない",
-                    "maleVariant": null,
-                    "stringId": 1955898891869134848
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あーっ！ ああーっ！",
-                    "maleVariant": null,
-                    "stringId": 1955898891885912068
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ルールを知らないの？ 遊びたいならお金をちょうだい",
-                    "maleVariant": null,
-                    "stringId": 1955898891953020932
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お金を用意してから戻ってきて",
-                    "maleVariant": null,
-                    "stringId": 1955898891986575360
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "寒くない？ 暖めてあげようか？",
+              "maleVariant": "",
+              "stringId": 1955898891382595588
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どういうプレイがお好き？",
+              "maleVariant": "",
+              "stringId": 1955898891399372804
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何かに集中して下を向いてたのかしら？",
+              "maleVariant": "",
+              "stringId": 1955898891449704452
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "気をつけて！",
+              "maleVariant": "",
+              "stringId": 1955898891466481668
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何も問題ない？",
+              "maleVariant": "",
+              "stringId": 1955898891500036100
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "食べ物は冷蔵庫に… 誰…？ 関係ない。誰も入れないで… ゲームでもしててよ",
+              "maleVariant": "",
+              "stringId": 1955898891550367748
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "夕方には帰るから… お客があと何人かいるの… うん… でもダメよ… そういうものなの",
+              "maleVariant": "",
+              "stringId": 1955898891583922176
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "愛してる！",
+              "maleVariant": "",
+              "stringId": 1955898891617476608
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "みんな隠れて！",
+              "maleVariant": "",
+              "stringId": 1955898891751694340
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "武器を持ってる！",
+              "maleVariant": "",
+              "stringId": 1955898891785248772
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やめて… いや… 死にたくない",
+              "maleVariant": "",
+              "stringId": 1955898891869134848
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あーっ！ ああーっ！",
+              "maleVariant": "",
+              "stringId": 1955898891885912068
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ルールを知らないの？ 遊びたいならお金をちょうだい",
+              "maleVariant": "",
+              "stringId": 1955898891953020932
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お金を用意してから戻ってきて",
+              "maleVariant": "",
+              "stringId": 1955898891986575360
             }
-          }
+          ]
         }
       }
     },

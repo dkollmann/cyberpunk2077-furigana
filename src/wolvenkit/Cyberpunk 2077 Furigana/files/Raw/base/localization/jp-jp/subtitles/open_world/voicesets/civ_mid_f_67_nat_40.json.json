@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_mid_f_67_nat_40.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今日はとてもいい日ね",
-                    "maleVariant": null,
-                    "stringId": 1954563637975752704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "サイバーウェアを新調しようかしら",
-                    "maleVariant": null,
-                    "stringId": 1954563637992529924
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "失礼ね！",
-                    "maleVariant": null,
-                    "stringId": 1954563638042861572
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちゃんと前を見て歩きなさい！",
-                    "maleVariant": null,
-                    "stringId": 1954563638059638788
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "言ったでしょ？",
-                    "maleVariant": null,
-                    "stringId": 1954563638093193220
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうじゃなくて… 当たったの…！ こんな大金見たことない… うん…！ あの時買っておいてよかった！",
-                    "maleVariant": null,
-                    "stringId": 1954563638143524868
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "10年間買い続けて、ついに報われた…！ 運命よ！ 当たったのは初めて…！ 私も信じられなかった",
-                    "maleVariant": null,
-                    "stringId": 1954563638160302084
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おごるから来なよ！",
-                    "maleVariant": null,
-                    "stringId": 1954563638193856516
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "助けて！",
-                    "maleVariant": null,
-                    "stringId": 1954563638344851460
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まだ追いかけてきてる！？",
-                    "maleVariant": null,
-                    "stringId": 1954563638378405892
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お金なら出すから！",
-                    "maleVariant": null,
-                    "stringId": 1954563638445514756
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こんなとこで死ぬなんて嫌よ！",
-                    "maleVariant": null,
-                    "stringId": 1954563638462291972
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "一人にしてちょうだい",
-                    "maleVariant": null,
-                    "stringId": 1954563638546178052
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いいから向こう行って",
-                    "maleVariant": null,
-                    "stringId": 1954563638562955268
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今日はとてもいい日ね",
+              "maleVariant": "",
+              "stringId": 1954563637975752704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "サイバーウェアを新調しようかしら",
+              "maleVariant": "",
+              "stringId": 1954563637992529924
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "失礼ね！",
+              "maleVariant": "",
+              "stringId": 1954563638042861572
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちゃんと前を見て歩きなさい！",
+              "maleVariant": "",
+              "stringId": 1954563638059638788
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "言ったでしょ？",
+              "maleVariant": "",
+              "stringId": 1954563638093193220
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうじゃなくて… 当たったの…！ こんな大金見たことない… うん…！ あの時買っておいてよかった！",
+              "maleVariant": "",
+              "stringId": 1954563638143524868
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "10年間買い続けて、ついに報われた…！ 運命よ！ 当たったのは初めて…！ 私も信じられなかった",
+              "maleVariant": "",
+              "stringId": 1954563638160302084
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おごるから来なよ！",
+              "maleVariant": "",
+              "stringId": 1954563638193856516
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "助けて！",
+              "maleVariant": "",
+              "stringId": 1954563638344851460
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まだ追いかけてきてる！？",
+              "maleVariant": "",
+              "stringId": 1954563638378405892
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お金なら出すから！",
+              "maleVariant": "",
+              "stringId": 1954563638445514756
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こんなとこで死ぬなんて嫌よ！",
+              "maleVariant": "",
+              "stringId": 1954563638462291972
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "一人にしてちょうだい",
+              "maleVariant": "",
+              "stringId": 1954563638546178052
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いいから向こう行って",
+              "maleVariant": "",
+              "stringId": 1954563638562955268
             }
-          }
+          ]
         }
       }
     },

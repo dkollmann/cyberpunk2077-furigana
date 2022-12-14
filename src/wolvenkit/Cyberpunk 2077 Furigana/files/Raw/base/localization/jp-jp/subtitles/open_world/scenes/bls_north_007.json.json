@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_north_007.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どう思う？ 受けるべきか？",
-                    "maleVariant": null,
-                    "stringId": 1973566015613739008
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "前向きに検討すべきよ。相手が誰だろうと、金の価値は変わらないでしょ",
-                    "maleVariant": null,
-                    "stringId": 1974940029184360448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "連中はしばらくここら辺にいるらしい。新型の水耕栽培を始めるとかで",
-                    "maleVariant": null,
-                    "stringId": 1974940111912812544
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "だったらなおさらでしょ。今後の為にも、引き受けるべきよ",
-                    "maleVariant": null,
-                    "stringId": 1974940146742312960
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "口出ししないでくれる？ 現場にいなかったくせに",
-                    "maleVariant": null,
-                    "stringId": 1974940175582347264
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いくらもらえるんだ？ はした金なら降りればいい。バイオテクニカは好かないしな",
-                    "maleVariant": null,
-                    "stringId": 1974940203432525824
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どう思う？ 受けるべきか？",
+              "maleVariant": "",
+              "stringId": 1973566015613739008
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "前向きに検討すべきよ。相手が誰だろうと、金の価値は変わらないでしょ",
+              "maleVariant": "",
+              "stringId": 1974940029184360448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "連中はしばらくここら辺にいるらしい。新型の水耕栽培を始めるとかで",
+              "maleVariant": "",
+              "stringId": 1974940111912812544
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "だったらなおさらでしょ。今後の為にも、引き受けるべきよ",
+              "maleVariant": "",
+              "stringId": 1974940146742312960
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "口出ししないでくれる？ 現場にいなかったくせに",
+              "maleVariant": "",
+              "stringId": 1974940175582347264
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いくらもらえるんだ？ はした金なら降りればいい。バイオテクニカは好かないしな",
+              "maleVariant": "",
+              "stringId": 1974940203432525824
             }
-          }
+          ]
         }
       }
     },

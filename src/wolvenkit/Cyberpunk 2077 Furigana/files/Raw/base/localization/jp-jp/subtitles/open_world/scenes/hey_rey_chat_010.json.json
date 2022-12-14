@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_rey_chat_010.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あんた、死にたいの！？",
-                    "maleVariant": null,
-                    "stringId": 1964882322603622400
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ご、ごめん！ ごめんなさい！ みんなにそそのかされて…",
-                    "maleVariant": null,
-                    "stringId": 1964883012868620288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "人に言われたら何でもするわけ？ チッ、ホントならその指を全部ちょん切ってやるとこだよ！",
-                    "maleVariant": null,
-                    "stringId": 1964883273133572096
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ヴァレンティーノズのケツをつかんだら、仲間に入れてくれるって言われたんだ！",
-                    "maleVariant": null,
-                    "stringId": 1964883452683337728
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まったく、なんて顔してんだい。ヴィスタじゃね、ナメられたら終わりなんだよ",
-                    "maleVariant": null,
-                    "stringId": 1964883608929550336
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今回は見逃してやるけど、今度またヴァレンティーノズにふざけたことしたら、その場で殺すからね",
-                    "maleVariant": null,
-                    "stringId": 1964884112799678464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あ、ありがとう… ごめんなさい！",
-                    "maleVariant": null,
-                    "stringId": 1964884698089635840
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あんた、死にたいの！？",
+              "maleVariant": "",
+              "stringId": 1964882322603622400
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ご、ごめん！ ごめんなさい！ みんなにそそのかされて…",
+              "maleVariant": "",
+              "stringId": 1964883012868620288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "人に言われたら何でもするわけ？ チッ、ホントならその指を全部ちょん切ってやるとこだよ！",
+              "maleVariant": "",
+              "stringId": 1964883273133572096
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ヴァレンティーノズのケツをつかんだら、仲間に入れてくれるって言われたんだ！",
+              "maleVariant": "",
+              "stringId": 1964883452683337728
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まったく、なんて顔してんだい。ヴィスタじゃね、ナメられたら終わりなんだよ",
+              "maleVariant": "",
+              "stringId": 1964883608929550336
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今回は見逃してやるけど、今度またヴァレンティーノズにふざけたことしたら、その場で殺すからね",
+              "maleVariant": "",
+              "stringId": 1964884112799678464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あ、ありがとう… ごめんなさい！",
+              "maleVariant": "",
+              "stringId": 1964884698089635840
             }
-          }
+          ]
         }
       }
     },

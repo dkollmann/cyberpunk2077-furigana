@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_015.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なあ、お前のトラウマ契約ってなんだっけ？ ゴールド？",
-                    "maleVariant": null,
-                    "stringId": 2156387886174597120
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ええ、そうよ",
-                    "maleVariant": null,
-                    "stringId": 2169308549417848832
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "プラチナにした方がいいぞ。そうすればもう2人、一緒にグレードアップできる",
-                    "maleVariant": null,
-                    "stringId": 2169308652463509504
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "75年に俺の車が襲われたことあったろ？ あの時、妻と娘が助かったのはそのおかげだ。ベビーシッターは失血死したがな。気の毒に",
-                    "maleVariant": null,
-                    "stringId": 2169309017149853696
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なあ、お前のトラウマ契約ってなんだっけ？ ゴールド？",
+              "maleVariant": "",
+              "stringId": 2156387886174597120
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ええ、そうよ",
+              "maleVariant": "",
+              "stringId": 2169308549417848832
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "プラチナにした方がいいぞ。そうすればもう2人、一緒にグレードアップできる",
+              "maleVariant": "",
+              "stringId": 2169308652463509504
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "75年に俺の車が襲われたことあったろ？ あの時、妻と娘が助かったのはそのおかげだ。ベビーシッターは失血死したがな。気の毒に",
+              "maleVariant": "",
+              "stringId": 2169309017149853696
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\finalboards\\fb_peralez.json"
@@ -11,114 +11,86 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やあ、V。ナイトシティ市長のジェファーソン・ペラレスだ",
-                    "maleVariant": null,
-                    "stringId": 1790713264939638784
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "V、ペラレスだ",
-                    "maleVariant": null,
-                    "stringId": 1790713335756267524
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "色々と政策に取り組んでるんだが、君に相談がある",
-                    "maleVariant": null,
-                    "stringId": 1801097216932954112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "V、警護部隊の責任者になってくれないかね？",
-                    "maleVariant": null,
-                    "stringId": 1801097369924386816
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "知っての通り、私が信頼を置ける人間は少ないからな… しかも来週からは増税が始まるから、特に警戒しないといけないんだ…",
-                    "maleVariant": null,
-                    "stringId": 1801097781452718080
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "事務所まで来てくれないか。安全のためなら金は惜しまない",
-                    "maleVariant": null,
-                    "stringId": 1801098777348259840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "では… 連絡を待ってるぞ、V",
-                    "maleVariant": null,
-                    "stringId": 1801099272192245760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "実は… とても重要な話がある。まず誰にも聞かれない場所へ移動してくれ",
-                    "maleVariant": null,
-                    "stringId": 1801100374941876224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "妻のエリザベス… どうやらあいつも元からグルだったみたいなんだ",
-                    "maleVariant": null,
-                    "stringId": 1801100576922779648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "“ビタミン剤”だとか言って、私によくわからない薬を飲ませようとしてくる",
-                    "maleVariant": null,
-                    "stringId": 1801100731424161792
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "研究所で解析してもらった結果、問題ないとは言われたが、どうも信用できない",
-                    "maleVariant": null,
-                    "stringId": 1801100898642673664
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "時間がある時に連絡をくれ。それとこのメッセージは削除しろ、いいな",
-                    "maleVariant": null,
-                    "stringId": 1801101104415227904
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やあ、V。ナイトシティ市長のジェファーソン・ペラレスだ",
+              "maleVariant": "",
+              "stringId": 1790713264939638784
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "V、ペラレスだ",
+              "maleVariant": "",
+              "stringId": 1790713335756267524
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "色々と政策に取り組んでるんだが、君に相談がある",
+              "maleVariant": "",
+              "stringId": 1801097216932954112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "V、警護部隊の責任者になってくれないかね？",
+              "maleVariant": "",
+              "stringId": 1801097369924386816
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "知っての通り、私が信頼を置ける人間は少ないからな… しかも来週からは増税が始まるから、特に警戒しないといけないんだ…",
+              "maleVariant": "",
+              "stringId": 1801097781452718080
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "事務所まで来てくれないか。安全のためなら金は惜しまない",
+              "maleVariant": "",
+              "stringId": 1801098777348259840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "では… 連絡を待ってるぞ、V",
+              "maleVariant": "",
+              "stringId": 1801099272192245760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "実は… とても重要な話がある。まず誰にも聞かれない場所へ移動してくれ",
+              "maleVariant": "",
+              "stringId": 1801100374941876224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "妻のエリザベス… どうやらあいつも元からグルだったみたいなんだ",
+              "maleVariant": "",
+              "stringId": 1801100576922779648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "“ビタミン剤”だとか言って、私によくわからない薬を飲ませようとしてくる",
+              "maleVariant": "",
+              "stringId": 1801100731424161792
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "研究所で解析してもらった結果、問題ないとは言われたが、どうも信用できない",
+              "maleVariant": "",
+              "stringId": 1801100898642673664
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "時間がある時に連絡をくれ。それとこのメッセージは削除しろ、いいな",
+              "maleVariant": "",
+              "stringId": 1801101104415227904
             }
-          }
+          ]
         }
       }
     },

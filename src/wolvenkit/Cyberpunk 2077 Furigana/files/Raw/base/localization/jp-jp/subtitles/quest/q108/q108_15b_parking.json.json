@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q108\\q108_15b_parking.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "早く！",
-                    "maleVariant": null,
-                    "stringId": 1199971290389061632
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "さっさとずらかろう",
-                    "maleVariant": null,
-                    "stringId": 1682367134259126272
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソ！ あんたはどうして行く先々にいつも連中を連れてくるんだ！",
-                    "maleVariant": null,
-                    "stringId": 1777772399728435200
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あそこに停めてある",
-                    "maleVariant": null,
-                    "stringId": 1777773429799165956
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "乗らないのか？",
-                    "maleVariant": null,
-                    "stringId": 1789444547370983424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "喧嘩を売ったのは向こうだ",
-                    "maleVariant": null,
-                    "stringId": 1790952841502068736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なかなかの運転テクじゃないか",
-                    "maleVariant": null,
-                    "stringId": 2233138843337965568
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "グズグズしてる暇はないよ！",
-                    "maleVariant": null,
-                    "stringId": 2233148418548121600
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あのヘリ… 必ず戻ってくるはずだ",
-                    "maleVariant": null,
-                    "stringId": 2233148812024168452
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "早く！",
+              "maleVariant": "",
+              "stringId": 1199971290389061632
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "さっさとずらかろう",
+              "maleVariant": "",
+              "stringId": 1682367134259126272
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソ！ あんたはどうして行く先々にいつも連中を連れてくるんだ！",
+              "maleVariant": "",
+              "stringId": 1777772399728435200
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あそこに停めてある",
+              "maleVariant": "",
+              "stringId": 1777773429799165956
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "乗らないのか？",
+              "maleVariant": "",
+              "stringId": 1789444547370983424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "喧嘩を売ったのは向こうだ",
+              "maleVariant": "",
+              "stringId": 1790952841502068736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なかなかの運転テクじゃないか",
+              "maleVariant": "",
+              "stringId": 2233138843337965568
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "グズグズしてる暇はないよ！",
+              "maleVariant": "",
+              "stringId": 2233148418548121600
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あのヘリ… 必ず戻ってくるはずだ",
+              "maleVariant": "",
+              "stringId": 2233148812024168452
             }
-          }
+          ]
         }
       }
     },

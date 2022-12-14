@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_mid_m_60_jap_25.json"
@@ -11,146 +11,110 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何だい？",
-                    "maleVariant": null,
-                    "stringId": 1948996487709581316
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この世に解決できない問題なんてない",
-                    "maleVariant": null,
-                    "stringId": 1948996487743135744
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "悪気はなかったんだ",
-                    "maleVariant": null,
-                    "stringId": 1948996487793467392
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "すまない",
-                    "maleVariant": null,
-                    "stringId": 1948996487810244612
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうした？",
-                    "maleVariant": null,
-                    "stringId": 1948996487843799044
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うん… できる限りのことはする… そんなこと言うな",
-                    "maleVariant": null,
-                    "stringId": 1948996487877353476
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もちろん… 俺のせいなのはわかってる… 責任はしっかり取るから",
-                    "maleVariant": null,
-                    "stringId": 1948996487910907908
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それじゃ",
-                    "maleVariant": null,
-                    "stringId": 1948996487944462340
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やめろって！",
-                    "maleVariant": null,
-                    "stringId": 1948996488129011716
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "落ち着いてくれ！",
-                    "maleVariant": null,
-                    "stringId": 1948996488162566148
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あの時1回だけで、金は払ったぞ！ 本当だ！",
-                    "maleVariant": null,
-                    "stringId": 1948996488263229444
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お、落ち着いてくれ",
-                    "maleVariant": null,
-                    "stringId": 1948996488280006660
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "俺のことを心配してくれてるのかい？",
-                    "maleVariant": null,
-                    "stringId": 1948996488363892740
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "先に行かせてもらうよ",
-                    "maleVariant": null,
-                    "stringId": 1948996488380669956
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "努力はしてるんだ… ああ… わかってる",
-                    "maleVariant": null,
-                    "stringId": 1948998290270445568
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わかった… 何とかする… 約束するよ",
-                    "maleVariant": null,
-                    "stringId": 1948998557095288832
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何だい？",
+              "maleVariant": "",
+              "stringId": 1948996487709581316
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この世に解決できない問題なんてない",
+              "maleVariant": "",
+              "stringId": 1948996487743135744
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "悪気はなかったんだ",
+              "maleVariant": "",
+              "stringId": 1948996487793467392
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "すまない",
+              "maleVariant": "",
+              "stringId": 1948996487810244612
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうした？",
+              "maleVariant": "",
+              "stringId": 1948996487843799044
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うん… できる限りのことはする… そんなこと言うな",
+              "maleVariant": "",
+              "stringId": 1948996487877353476
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もちろん… 俺のせいなのはわかってる… 責任はしっかり取るから",
+              "maleVariant": "",
+              "stringId": 1948996487910907908
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それじゃ",
+              "maleVariant": "",
+              "stringId": 1948996487944462340
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やめろって！",
+              "maleVariant": "",
+              "stringId": 1948996488129011716
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "落ち着いてくれ！",
+              "maleVariant": "",
+              "stringId": 1948996488162566148
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あの時1回だけで、金は払ったぞ！ 本当だ！",
+              "maleVariant": "",
+              "stringId": 1948996488263229444
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お、落ち着いてくれ",
+              "maleVariant": "",
+              "stringId": 1948996488280006660
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "俺のことを心配してくれてるのかい？",
+              "maleVariant": "",
+              "stringId": 1948996488363892740
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "先に行かせてもらうよ",
+              "maleVariant": "",
+              "stringId": 1948996488380669956
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "努力はしてるんだ… ああ… わかってる",
+              "maleVariant": "",
+              "stringId": 1948998290270445568
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わかった… 何とかする… 約束するよ",
+              "maleVariant": "",
+              "stringId": 1948998557095288832
             }
-          }
+          ]
         }
       }
     },

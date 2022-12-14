@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\std_arr_gunsmith_01.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何を扱ってるの？",
-                    "maleVariant": "何を扱ってるんだ？",
-                    "stringId": 1783753455506837504
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "買っちゃいけない銃ってある？",
-                    "maleVariant": "買っちゃいけない銃ってあるか？",
-                    "stringId": 1783753455506837520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何を扱ってるの？",
-                    "maleVariant": "何を扱ってるんだ？",
-                    "stringId": 1783753455523614724
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "プロから見て避けたほうがいい銃はある？",
-                    "maleVariant": "プロから見て避けたほうがいい銃はあるか？",
-                    "stringId": 1783753455557169156
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あらゆる口径の銃さ… まあ見てってくれ",
-                    "maleVariant": null,
-                    "stringId": 1975008556579344384
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうだな… バジェット・アームズは当然ナシ… チープなプラスチック製パーツのせいで反動が大きく、射程も短い",
-                    "maleVariant": null,
-                    "stringId": 1975017098413658112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ロストヴィッチの製品も要注意だ。火力はピカイチだが、どういうわけかピンチの時ほど弾詰まりしやすい",
-                    "maleVariant": null,
-                    "stringId": 1975020237816647680
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でも… サタラなら信頼性は高いんじゃない？",
-                    "maleVariant": "だが、サタラなら信頼性は高いんじゃないか？",
-                    "stringId": 1975022239304962048
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "詳しいんだな！ セルビア人が作った唯一まともに動く銃だ",
-                    "maleVariant": null,
-                    "stringId": 1975023739641057280
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何を扱ってるの？",
+              "maleVariant": "何を扱ってるんだ？",
+              "stringId": 1783753455506837504
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "買っちゃいけない銃ってある？",
+              "maleVariant": "買っちゃいけない銃ってあるか？",
+              "stringId": 1783753455506837520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何を扱ってるの？",
+              "maleVariant": "何を扱ってるんだ？",
+              "stringId": 1783753455523614724
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "プロから見て避けたほうがいい銃はある？",
+              "maleVariant": "プロから見て避けたほうがいい銃はあるか？",
+              "stringId": 1783753455557169156
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あらゆる口径の銃さ… まあ見てってくれ",
+              "maleVariant": "",
+              "stringId": 1975008556579344384
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうだな… バジェット・アームズは当然ナシ… チープなプラスチック製パーツのせいで反動が大きく、射程も短い",
+              "maleVariant": "",
+              "stringId": 1975017098413658112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ロストヴィッチの製品も要注意だ。火力はピカイチだが、どういうわけかピンチの時ほど弾詰まりしやすい",
+              "maleVariant": "",
+              "stringId": 1975020237816647680
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でも… サタラなら信頼性は高いんじゃない？",
+              "maleVariant": "だが、サタラなら信頼性は高いんじゃないか？",
+              "stringId": 1975022239304962048
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "詳しいんだな！ セルビア人が作った唯一まともに動く銃だ",
+              "maleVariant": "",
+              "stringId": 1975023739641057280
             }
-          }
+          ]
         }
       }
     },

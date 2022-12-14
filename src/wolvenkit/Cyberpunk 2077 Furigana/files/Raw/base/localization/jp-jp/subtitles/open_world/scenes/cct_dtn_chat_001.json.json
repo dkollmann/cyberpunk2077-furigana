@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_dtn_chat_001.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "バーチャはオワコンって言う奴もいるけど、これは別格なんだって",
-                    "maleVariant": null,
-                    "stringId": 1963242833007329280
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おいおい、あんなもんフェイクに決まってるだろ！",
-                    "maleVariant": null,
-                    "stringId": 1963245719477010432
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まだ見てないのによくそんなことが言えるな。見ればわかるって。絶対に本物だから",
-                    "maleVariant": null,
-                    "stringId": 1963245999186755584
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "高層ビルの壁をバイクで下りて、生きてるわけがない！",
-                    "maleVariant": null,
-                    "stringId": 1963246445058048000
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でもN54が記録したんだぞ！ わざわざニュース番組が偽物を作る意味なんて…",
-                    "maleVariant": null,
-                    "stringId": 1963247034408091648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うわ… あの人、出演者の…！",
-                    "maleVariant": null,
-                    "stringId": 1963247994333282304
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "サインもらおうかな…？",
-                    "maleVariant": null,
-                    "stringId": 1964622555163377664
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "バーチャはオワコンって言う奴もいるけど、これは別格なんだって",
+              "maleVariant": "",
+              "stringId": 1963242833007329280
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おいおい、あんなもんフェイクに決まってるだろ！",
+              "maleVariant": "",
+              "stringId": 1963245719477010432
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まだ見てないのによくそんなことが言えるな。見ればわかるって。絶対に本物だから",
+              "maleVariant": "",
+              "stringId": 1963245999186755584
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "高層ビルの壁をバイクで下りて、生きてるわけがない！",
+              "maleVariant": "",
+              "stringId": 1963246445058048000
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でもN54が記録したんだぞ！ わざわざニュース番組が偽物を作る意味なんて…",
+              "maleVariant": "",
+              "stringId": 1963247034408091648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うわ… あの人、出演者の…！",
+              "maleVariant": "",
+              "stringId": 1963247994333282304
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "サインもらおうかな…？",
+              "maleVariant": "",
+              "stringId": 1964622555163377664
             }
-          }
+          ]
         }
       }
     },

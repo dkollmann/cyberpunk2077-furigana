@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_jpn_chat_003.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "す、すみません。少しお時間をいただいても？",
-                    "maleVariant": null,
-                    "stringId": 1806839159435419648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "助かります！",
-                    "maleVariant": null,
-                    "stringId": 1806846761443647488
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あざーす！",
-                    "maleVariant": null,
-                    "stringId": 1806846888933711872
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ん？ 今度はどうしたんだ？",
-                    "maleVariant": null,
-                    "stringId": 1806850354787770368
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うちのビルの配水管が破裂しまして…",
-                    "maleVariant": null,
-                    "stringId": 1806850473704677376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "市の奴ら、誰も修理によこさねえんだ",
-                    "maleVariant": null,
-                    "stringId": 1806850593980538880
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "言葉に気をつけろ！ 誰に話してると思ってる！",
-                    "maleVariant": null,
-                    "stringId": 1806851069849493504
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いい。で、何が必要なんだ？",
-                    "maleVariant": null,
-                    "stringId": 1806851225760161792
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あの、まずは配水管の修理と、できましたら他の修理もお願いできると… もう建物中、水浸しで…",
-                    "maleVariant": null,
-                    "stringId": 1806851433344655360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わかった。手配しよう",
-                    "maleVariant": null,
-                    "stringId": 1806851570397732864
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "す、すみません。少しお時間をいただいても？",
+              "maleVariant": "",
+              "stringId": 1806839159435419648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "助かります！",
+              "maleVariant": "",
+              "stringId": 1806846761443647488
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あざーす！",
+              "maleVariant": "",
+              "stringId": 1806846888933711872
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ん？ 今度はどうしたんだ？",
+              "maleVariant": "",
+              "stringId": 1806850354787770368
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うちのビルの配水管が破裂しまして…",
+              "maleVariant": "",
+              "stringId": 1806850473704677376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "市の奴ら、誰も修理によこさねえんだ",
+              "maleVariant": "",
+              "stringId": 1806850593980538880
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "言葉に気をつけろ！ 誰に話してると思ってる！",
+              "maleVariant": "",
+              "stringId": 1806851069849493504
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いい。で、何が必要なんだ？",
+              "maleVariant": "",
+              "stringId": 1806851225760161792
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あの、まずは配水管の修理と、できましたら他の修理もお願いできると… もう建物中、水浸しで…",
+              "maleVariant": "",
+              "stringId": 1806851433344655360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わかった。手配しよう",
+              "maleVariant": "",
+              "stringId": 1806851570397732864
             }
-          }
+          ]
         }
       }
     },

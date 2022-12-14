@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_south_018.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "きっと来る。心配すんな",
-                    "maleVariant": null,
-                    "stringId": 2178290715321688064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ええ",
-                    "maleVariant": null,
-                    "stringId": 2182489272495071232
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そんな目で見んな。こっちは言われた額を払った。向こうは書類を用意して、問題なく通してやるって約束した",
-                    "maleVariant": null,
-                    "stringId": 2182505865883115520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "約束は絶対だ",
-                    "maleVariant": null,
-                    "stringId": 2182506787237486592
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ええ",
-                    "maleVariant": null,
-                    "stringId": 2182507031295647744
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何だよ！？ 俺がノーマッドにだまされたって言いてえのか！？ あ？ どうなんだ？",
-                    "maleVariant": null,
-                    "stringId": 2182508058665246720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何も言ってないでしょ",
-                    "maleVariant": null,
-                    "stringId": 2182509385474596864
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でもそう思ってんだろ",
-                    "maleVariant": null,
-                    "stringId": 2182509593512075264
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "少し待ちましょ。いま向かってるところかも…",
-                    "maleVariant": null,
-                    "stringId": 2182534816915480576
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それ以外にできることはねえ",
-                    "maleVariant": null,
-                    "stringId": 2182535115382153216
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "きっと来る。心配すんな",
+              "maleVariant": "",
+              "stringId": 2178290715321688064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ええ",
+              "maleVariant": "",
+              "stringId": 2182489272495071232
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そんな目で見んな。こっちは言われた額を払った。向こうは書類を用意して、問題なく通してやるって約束した",
+              "maleVariant": "",
+              "stringId": 2182505865883115520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "約束は絶対だ",
+              "maleVariant": "",
+              "stringId": 2182506787237486592
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ええ",
+              "maleVariant": "",
+              "stringId": 2182507031295647744
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何だよ！？ 俺がノーマッドにだまされたって言いてえのか！？ あ？ どうなんだ？",
+              "maleVariant": "",
+              "stringId": 2182508058665246720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何も言ってないでしょ",
+              "maleVariant": "",
+              "stringId": 2182509385474596864
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でもそう思ってんだろ",
+              "maleVariant": "",
+              "stringId": 2182509593512075264
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "少し待ちましょ。いま向かってるところかも…",
+              "maleVariant": "",
+              "stringId": 2182534816915480576
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それ以外にできることはねえ",
+              "maleVariant": "",
+              "stringId": 2182535115382153216
             }
-          }
+          ]
         }
       }
     },

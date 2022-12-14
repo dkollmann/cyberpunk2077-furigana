@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_south_024.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "発電量が少なくて当然だ。パネルが埃まみれになってやがる",
-                    "maleVariant": null,
-                    "stringId": 2178303088333938688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "研究所の人たちには、嵐を止める方法も考えてほしいものね",
-                    "maleVariant": null,
-                    "stringId": 2188194950707658752
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "俺たちにできることはない。報告して清掃員を送ってもらおう",
-                    "maleVariant": null,
-                    "stringId": 2188195143947632640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "清掃員が来たってどうせ手抜きをされて、私たちが文句を言われるんでしょ。目に見えてる",
-                    "maleVariant": null,
-                    "stringId": 2188195292644098048
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "とにかく他に損害がないか確かめよう",
-                    "maleVariant": null,
-                    "stringId": 2188195402450976768
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "はいはい。急かさないでよ",
-                    "maleVariant": null,
-                    "stringId": 2188195579601600512
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "発電量が少なくて当然だ。パネルが埃まみれになってやがる",
+              "maleVariant": "",
+              "stringId": 2178303088333938688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "研究所の人たちには、嵐を止める方法も考えてほしいものね",
+              "maleVariant": "",
+              "stringId": 2188194950707658752
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "俺たちにできることはない。報告して清掃員を送ってもらおう",
+              "maleVariant": "",
+              "stringId": 2188195143947632640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "清掃員が来たってどうせ手抜きをされて、私たちが文句を言われるんでしょ。目に見えてる",
+              "maleVariant": "",
+              "stringId": 2188195292644098048
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "とにかく他に損害がないか確かめよう",
+              "maleVariant": "",
+              "stringId": 2188195402450976768
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "はいはい。急かさないでよ",
+              "maleVariant": "",
+              "stringId": 2188195579601600512
             }
-          }
+          ]
         }
       }
     },

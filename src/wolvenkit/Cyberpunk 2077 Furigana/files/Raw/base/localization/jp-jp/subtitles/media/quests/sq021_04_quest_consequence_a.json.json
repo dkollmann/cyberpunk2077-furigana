@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\quests\\sq021_04_quest_consequence_a.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "注目の事件が悲しい結末を迎えました。“ピーター・パン”という二つ名でも知られるアンソニー・ハリス容疑者に複数の少年が誘拐された一件ですが――",
-                    "maleVariant": null,
-                    "stringId": 1792302175591768064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "NCPDによる懸命な捜索もむなしく、少年たちは無残な姿で発見されました",
-                    "maleVariant": null,
-                    "stringId": 1802331654488571904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "遺体は廃墟となった農場で発見され、死因は脱水と疲労とのこと",
-                    "maleVariant": null,
-                    "stringId": 1802331898848722944
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今回の“ピーター・パン”事件もまた、ナイトシティにおけるモラルの崩壊を表しているといえるでしょう",
-                    "maleVariant": null,
-                    "stringId": 1802332202197565440
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ナイトシティの犯罪発生率は今や新合衆国のおよそ2倍です。現時点では、新合衆国との結びつきを強めることこそが、シティの治安改善への近道であると言えるのではないでしょうか",
-                    "maleVariant": null,
-                    "stringId": 1802332446742265856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CMの後、さらに詳しくお伝えします",
-                    "maleVariant": null,
-                    "stringId": 1802332636643573760
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "注目の事件が悲しい結末を迎えました。“ピーター・パン”という二つ名でも知られるアンソニー・ハリス容疑者に複数の少年が誘拐された一件ですが――",
+              "maleVariant": "",
+              "stringId": 1792302175591768064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "NCPDによる懸命な捜索もむなしく、少年たちは無残な姿で発見されました",
+              "maleVariant": "",
+              "stringId": 1802331654488571904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "遺体は廃墟となった農場で発見され、死因は脱水と疲労とのこと",
+              "maleVariant": "",
+              "stringId": 1802331898848722944
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今回の“ピーター・パン”事件もまた、ナイトシティにおけるモラルの崩壊を表しているといえるでしょう",
+              "maleVariant": "",
+              "stringId": 1802332202197565440
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ナイトシティの犯罪発生率は今や新合衆国のおよそ2倍です。現時点では、新合衆国との結びつきを強めることこそが、シティの治安改善への近道であると言えるのではないでしょうか",
+              "maleVariant": "",
+              "stringId": 1802332446742265856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CMの後、さらに詳しくお伝えします",
+              "maleVariant": "",
+              "stringId": 1802332636643573760
             }
-          }
+          ]
         }
       }
     },

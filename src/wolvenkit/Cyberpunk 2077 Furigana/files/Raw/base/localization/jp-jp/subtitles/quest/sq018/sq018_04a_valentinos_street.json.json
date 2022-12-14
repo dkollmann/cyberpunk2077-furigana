@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\sq018\\sq018_04a_valentinos_street.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "引き金になった仕事はデクスの依頼だったらしい",
-                    "maleVariant": null,
-                    "stringId": 1722669748443848704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なかなかいい手紙だった。グスタボのことがあったのに、よく送ってくれたね",
-                    "maleVariant": null,
-                    "stringId": 1722670386380709888
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ええ、今コヨーテよ…",
-                    "maleVariant": null,
-                    "stringId": 1861876256143626240
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "デクスター・デショーン、あのクズ野郎",
-                    "maleVariant": null,
-                    "stringId": 1862000246900183040
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ええ。あいつの噂はあんたも知ってるでしょ",
-                    "maleVariant": null,
-                    "stringId": 1862000367176044544
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ウェルズもわかってたはずなんだ。なのに聞こうとしなかった",
-                    "maleVariant": null,
-                    "stringId": 1862000547967324160
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ウェルズはオルタの連中と揉めてたの？",
-                    "maleVariant": null,
-                    "stringId": 1862015399393808384
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ええ… グスタボがある女の子に酷い暴力を振るってね",
-                    "maleVariant": null,
-                    "stringId": 1862015788071571456
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ウェルズはグスタボに説明を求めに来た",
-                    "maleVariant": null,
-                    "stringId": 1862016261088399360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うそ。彼、相手が何者かちゃんとわかってたの？",
-                    "maleVariant": null,
-                    "stringId": 1862016507814137856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わかってたさ。そしてグスタボに謝らせた",
-                    "maleVariant": null,
-                    "stringId": 1862016706137608192
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "他の奴なら、心臓にナイフを食らってたところだ",
-                    "maleVariant": null,
-                    "stringId": 1862016743181701120
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もう何年か経つけど… でも… わかるでしょ",
-                    "maleVariant": null,
-                    "stringId": 1936013778037436416
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お別れを言いに来たの",
-                    "maleVariant": null,
-                    "stringId": 1936019317974822912
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "引き金になった仕事はデクスの依頼だったらしい",
+              "maleVariant": "",
+              "stringId": 1722669748443848704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なかなかいい手紙だった。グスタボのことがあったのに、よく送ってくれたね",
+              "maleVariant": "",
+              "stringId": 1722670386380709888
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ええ、今コヨーテよ…",
+              "maleVariant": "",
+              "stringId": 1861876256143626240
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "デクスター・デショーン、あのクズ野郎",
+              "maleVariant": "",
+              "stringId": 1862000246900183040
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ええ。あいつの噂はあんたも知ってるでしょ",
+              "maleVariant": "",
+              "stringId": 1862000367176044544
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ウェルズもわかってたはずなんだ。なのに聞こうとしなかった",
+              "maleVariant": "",
+              "stringId": 1862000547967324160
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ウェルズはオルタの連中と揉めてたの？",
+              "maleVariant": "",
+              "stringId": 1862015399393808384
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ええ… グスタボがある女の子に酷い暴力を振るってね",
+              "maleVariant": "",
+              "stringId": 1862015788071571456
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ウェルズはグスタボに説明を求めに来た",
+              "maleVariant": "",
+              "stringId": 1862016261088399360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うそ。彼、相手が何者かちゃんとわかってたの？",
+              "maleVariant": "",
+              "stringId": 1862016507814137856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わかってたさ。そしてグスタボに謝らせた",
+              "maleVariant": "",
+              "stringId": 1862016706137608192
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "他の奴なら、心臓にナイフを食らってたところだ",
+              "maleVariant": "",
+              "stringId": 1862016743181701120
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もう何年か経つけど… でも… わかるでしょ",
+              "maleVariant": "",
+              "stringId": 1936013778037436416
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お別れを言いに来たの",
+              "maleVariant": "",
+              "stringId": 1936019317974822912
             }
-          }
+          ]
         }
       }
     },

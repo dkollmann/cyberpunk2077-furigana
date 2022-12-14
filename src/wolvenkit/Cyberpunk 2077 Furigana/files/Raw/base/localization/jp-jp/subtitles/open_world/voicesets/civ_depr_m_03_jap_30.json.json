@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_depr_m_03_jap_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私が何をした？",
-                    "maleVariant": null,
-                    "stringId": 1955981657382100996
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この国は最悪だ！",
-                    "maleVariant": null,
-                    "stringId": 1955981657398878212
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何するんだ！？",
-                    "maleVariant": null,
-                    "stringId": 1955981657449209860
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やめろよ！",
-                    "maleVariant": null,
-                    "stringId": 1955981657465987076
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ウソだ、そんなはずはない！",
-                    "maleVariant": null,
-                    "stringId": 1955981657499541508
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "話が違う…！ こっちは契約者だぞ…！ な… 違うってどういう意味だ…？ そんな… 何かの間違いだ…！",
-                    "maleVariant": null,
-                    "stringId": 1955981657549873156
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でも… じゃないと死んでしまう…！ 私も入れてくれ…！ 聞いてるのか…！？",
-                    "maleVariant": null,
-                    "stringId": 1955981657566650372
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもし？ もしもし！",
-                    "maleVariant": null,
-                    "stringId": 1955981657600204804
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うわあああ！",
-                    "maleVariant": null,
-                    "stringId": 1955981657767976964
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "誰か！ マックス・タックを呼んでくれ！",
-                    "maleVariant": null,
-                    "stringId": 1955981657784754180
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "殺さないでくれ！",
-                    "maleVariant": null,
-                    "stringId": 1955981657935749124
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こんな目に遭う覚えはない！",
-                    "maleVariant": null,
-                    "stringId": 1955981657969303556
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "構わないでくれるか？",
-                    "maleVariant": null,
-                    "stringId": 1955981658137075712
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "つきまとわないでくれ！",
-                    "maleVariant": null,
-                    "stringId": 1955981658153852932
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私が何をした？",
+              "maleVariant": "",
+              "stringId": 1955981657382100996
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この国は最悪だ！",
+              "maleVariant": "",
+              "stringId": 1955981657398878212
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何するんだ！？",
+              "maleVariant": "",
+              "stringId": 1955981657449209860
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やめろよ！",
+              "maleVariant": "",
+              "stringId": 1955981657465987076
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ウソだ、そんなはずはない！",
+              "maleVariant": "",
+              "stringId": 1955981657499541508
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "話が違う…！ こっちは契約者だぞ…！ な… 違うってどういう意味だ…？ そんな… 何かの間違いだ…！",
+              "maleVariant": "",
+              "stringId": 1955981657549873156
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でも… じゃないと死んでしまう…！ 私も入れてくれ…！ 聞いてるのか…！？",
+              "maleVariant": "",
+              "stringId": 1955981657566650372
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもし？ もしもし！",
+              "maleVariant": "",
+              "stringId": 1955981657600204804
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うわあああ！",
+              "maleVariant": "",
+              "stringId": 1955981657767976964
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "誰か！ マックス・タックを呼んでくれ！",
+              "maleVariant": "",
+              "stringId": 1955981657784754180
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "殺さないでくれ！",
+              "maleVariant": "",
+              "stringId": 1955981657935749124
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こんな目に遭う覚えはない！",
+              "maleVariant": "",
+              "stringId": 1955981657969303556
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "構わないでくれるか？",
+              "maleVariant": "",
+              "stringId": 1955981658137075712
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "つきまとわないでくれ！",
+              "maleVariant": "",
+              "stringId": 1955981658153852932
             }
-          }
+          ]
         }
       }
     },

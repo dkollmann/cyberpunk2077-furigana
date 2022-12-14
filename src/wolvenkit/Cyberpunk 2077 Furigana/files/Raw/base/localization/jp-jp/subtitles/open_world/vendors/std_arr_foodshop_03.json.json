@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\std_arr_foodshop_03.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "強壮剤を探してる",
-                    "maleVariant": null,
-                    "stringId": 1783744180071976960
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "これはなんの匂い？",
-                    "maleVariant": "これはなんの匂いだ？",
-                    "stringId": 1783744180088754176
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "強壮剤を探してる。クロマンティコアはある？",
-                    "maleVariant": "強壮剤を探してる。クロマンティコアはあるか？",
-                    "stringId": 1783744180105531396
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何でも揃ってるよ！ 個人的には絶対口にしないけど、お客さんが欲しいってんならご自由に！",
-                    "maleVariant": null,
-                    "stringId": 1783744180105531404
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なんの匂い？ フルーツみたいな… ん… 洗剤？",
-                    "maleVariant": "何の匂いだ？ フルーツみたいな… ん…？ 洗剤？",
-                    "stringId": 1783744180122308612
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うちのオリジナル商品さ！ アプリコットを発酵させてる。この辺じゃ評判いいんだぜ",
-                    "maleVariant": null,
-                    "stringId": 1783744180122308620
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "強壮剤を探してる",
+              "maleVariant": "",
+              "stringId": 1783744180071976960
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "これはなんの匂い？",
+              "maleVariant": "これはなんの匂いだ？",
+              "stringId": 1783744180088754176
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "強壮剤を探してる。クロマンティコアはある？",
+              "maleVariant": "強壮剤を探してる。クロマンティコアはあるか？",
+              "stringId": 1783744180105531396
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何でも揃ってるよ！ 個人的には絶対口にしないけど、お客さんが欲しいってんならご自由に！",
+              "maleVariant": "",
+              "stringId": 1783744180105531404
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なんの匂い？ フルーツみたいな… ん… 洗剤？",
+              "maleVariant": "何の匂いだ？ フルーツみたいな… ん…？ 洗剤？",
+              "stringId": 1783744180122308612
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うちのオリジナル商品さ！ アプリコットを発酵させてる。この辺じゃ評判いいんだぜ",
+              "maleVariant": "",
+              "stringId": 1783744180122308620
             }
-          }
+          ]
         }
       }
     },

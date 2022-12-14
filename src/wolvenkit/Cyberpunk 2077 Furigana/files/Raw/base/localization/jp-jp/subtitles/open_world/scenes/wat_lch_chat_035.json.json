@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_035.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なあ、仕事の話はやめにしないか？",
-                    "maleVariant": null,
-                    "stringId": 2157366995591655424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そういうのを忘れるために飲んでるんだろ？",
-                    "maleVariant": null,
-                    "stringId": 2222857333426962432
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"rus\" o=\"А о чём ещё говорить? О красивых бабах?\" t=\"そうは言っても… 他に何がある？ いい女の話でもするか？\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 2222858026695081984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "仕事以外なら何でも大歓迎だ",
-                    "maleVariant": null,
-                    "stringId": 2222858362944045056
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"rus\" o=\"Помнишь новенькую из контроля качества?\" t=\"QA部に新しい子が入ったろ？\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 2222858944375242752
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "キロシをつけてるブロンドか？ 窓のそばの席の？",
-                    "maleVariant": null,
-                    "stringId": 2222859432072134656
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"rus\" o=\"Ага. Мало того что красивая, ещё и умная. Это она открыла ИБ-209-с.\" t=\"そうだ。顔だけじゃなく、頭もいい。YB-209-cを見つけたのは彼女さ\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 2222859949649248256
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "へえ、彼女が。あの件はすぐに対処できたんだよな？",
-                    "maleVariant": null,
-                    "stringId": 2222860512189300736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"rus\" o=\"Да, жесть, конечно. Хорошо, что мы знали, что делать.\" t=\"ああ、しかしあれはひどかった。対処法がわかってて良かったよ\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 2222860989215883264
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なあ、仕事の話はやめにしないか？",
+              "maleVariant": "",
+              "stringId": 2157366995591655424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そういうのを忘れるために飲んでるんだろ？",
+              "maleVariant": "",
+              "stringId": 2222857333426962432
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"rus\" o=\"А о чём ещё говорить? О красивых бабах?\" t=\"そうは言っても… 他に何がある？ いい女の話でもするか？\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 2222858026695081984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "仕事以外なら何でも大歓迎だ",
+              "maleVariant": "",
+              "stringId": 2222858362944045056
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"rus\" o=\"Помнишь новенькую из контроля качества?\" t=\"QA部に新しい子が入ったろ？\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 2222858944375242752
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "キロシをつけてるブロンドか？ 窓のそばの席の？",
+              "maleVariant": "",
+              "stringId": 2222859432072134656
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"rus\" o=\"Ага. Мало того что красивая, ещё и умная. Это она открыла ИБ-209-с.\" t=\"そうだ。顔だけじゃなく、頭もいい。YB-209-cを見つけたのは彼女さ\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 2222859949649248256
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "へえ、彼女が。あの件はすぐに対処できたんだよな？",
+              "maleVariant": "",
+              "stringId": 2222860512189300736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"rus\" o=\"Да, жесть, конечно. Хорошо, что мы знали, что делать.\" t=\"ああ、しかしあれはひどかった。対処法がわかってて良かったよ\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 2222860989215883264
             }
-          }
+          ]
         }
       }
     },

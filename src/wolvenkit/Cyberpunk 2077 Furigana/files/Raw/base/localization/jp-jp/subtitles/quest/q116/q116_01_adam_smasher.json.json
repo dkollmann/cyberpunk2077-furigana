@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q116\\q116_01_adam_smasher.json"
@@ -11,154 +11,116 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もういい加減着く頃だよね？",
-                    "maleVariant": null,
-                    "stringId": 1792240020486103040
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そろそろだね。データのにおいが鼻につくよ",
-                    "maleVariant": null,
-                    "stringId": 1792485103750373376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あと一部屋だ。コアはその先にある",
-                    "maleVariant": null,
-                    "stringId": 1795074894656462848
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "久しぶりだな、女",
-                    "maleVariant": null,
-                    "stringId": 1901132270082727936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ローグ…！",
-                    "maleVariant": null,
-                    "stringId": 1901187439826837504
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "脆い体だ",
-                    "maleVariant": null,
-                    "stringId": 1901188780359950340
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソ！",
-                    "maleVariant": null,
-                    "stringId": 1901189439033450496
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ソウル！",
-                    "maleVariant": null,
-                    "stringId": 1901190505040977924
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こいつを食らいな、このクソ野郎！",
-                    "maleVariant": null,
-                    "stringId": 1901190654156873728
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "アルデカルドス！",
-                    "maleVariant": null,
-                    "stringId": 1901195188065280000
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "野郎、スマッシャー！",
-                    "maleVariant": null,
-                    "stringId": 1993742844354387968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もうひと踏ん張りだ",
-                    "maleVariant": null,
-                    "stringId": 1995043718292856832
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やめろー！",
-                    "maleVariant": null,
-                    "stringId": 1995654461098844160
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この先に部屋がある。そこを抜ければコアに到着だ",
-                    "maleVariant": null,
-                    "stringId": 2019849143550763008
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああーっ！",
-                    "maleVariant": null,
-                    "stringId": 2095479226440900608
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ぐあーっ！",
-                    "maleVariant": null,
-                    "stringId": 2095479975879139328
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "時間を巻き戻すことはできないよ、ジョニー。でも、やり直すことならできる",
-                    "maleVariant": null,
-                    "stringId": 2262295597341306880
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もういい加減着く頃だよね？",
+              "maleVariant": "",
+              "stringId": 1792240020486103040
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そろそろだね。データのにおいが鼻につくよ",
+              "maleVariant": "",
+              "stringId": 1792485103750373376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あと一部屋だ。コアはその先にある",
+              "maleVariant": "",
+              "stringId": 1795074894656462848
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "久しぶりだな、女",
+              "maleVariant": "",
+              "stringId": 1901132270082727936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ローグ…！",
+              "maleVariant": "",
+              "stringId": 1901187439826837504
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "脆い体だ",
+              "maleVariant": "",
+              "stringId": 1901188780359950340
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソ！",
+              "maleVariant": "",
+              "stringId": 1901189439033450496
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ソウル！",
+              "maleVariant": "",
+              "stringId": 1901190505040977924
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こいつを食らいな、このクソ野郎！",
+              "maleVariant": "",
+              "stringId": 1901190654156873728
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "アルデカルドス！",
+              "maleVariant": "",
+              "stringId": 1901195188065280000
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "野郎、スマッシャー！",
+              "maleVariant": "",
+              "stringId": 1993742844354387968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もうひと踏ん張りだ",
+              "maleVariant": "",
+              "stringId": 1995043718292856832
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やめろー！",
+              "maleVariant": "",
+              "stringId": 1995654461098844160
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この先に部屋がある。そこを抜ければコアに到着だ",
+              "maleVariant": "",
+              "stringId": 2019849143550763008
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああーっ！",
+              "maleVariant": "",
+              "stringId": 2095479226440900608
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ぐあーっ！",
+              "maleVariant": "",
+              "stringId": 2095479975879139328
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "時間を巻き戻すことはできないよ、ジョニー。でも、やり直すことならできる",
+              "maleVariant": "",
+              "stringId": 2262295597341306880
             }
-          }
+          ]
         }
       }
     },

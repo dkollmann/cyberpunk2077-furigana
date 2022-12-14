@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\hey_spr_foodshop_01.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "食事がしたいんだけど",
-                    "maleVariant": "食事がしたいんだが",
-                    "stringId": 1740377075363586048
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "食材は新鮮なの？",
-                    "maleVariant": "食材は新鮮なのか？",
-                    "stringId": 1740377075363586064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何かおいしいものを食べさせてもらえる？",
-                    "maleVariant": "何かおいしいものを食べさせてもらえるか？",
-                    "stringId": 1740377075380363264
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もちろん！ この店を選んで大正解よ",
-                    "maleVariant": null,
-                    "stringId": 1740377075397140484
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "新鮮な食材を使ってるのよね？",
-                    "maleVariant": "新鮮な食材を使ってるんだよな？",
-                    "stringId": 1740377075430694912
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そりゃあもう。なんてったって、それがこの店の売りだからね",
-                    "maleVariant": null,
-                    "stringId": 1740377075430694920
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "食事がしたいんだけど",
+              "maleVariant": "食事がしたいんだが",
+              "stringId": 1740377075363586048
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "食材は新鮮なの？",
+              "maleVariant": "食材は新鮮なのか？",
+              "stringId": 1740377075363586064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何かおいしいものを食べさせてもらえる？",
+              "maleVariant": "何かおいしいものを食べさせてもらえるか？",
+              "stringId": 1740377075380363264
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もちろん！ この店を選んで大正解よ",
+              "maleVariant": "",
+              "stringId": 1740377075397140484
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "新鮮な食材を使ってるのよね？",
+              "maleVariant": "新鮮な食材を使ってるんだよな？",
+              "stringId": 1740377075430694912
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そりゃあもう。なんてったって、それがこの店の売りだからね",
+              "maleVariant": "",
+              "stringId": 1740377075430694920
             }
-          }
+          ]
         }
       }
     },

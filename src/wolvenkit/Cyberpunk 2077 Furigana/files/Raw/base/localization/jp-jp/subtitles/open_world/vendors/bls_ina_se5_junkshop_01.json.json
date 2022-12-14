@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\bls_ina_se5_junkshop_01.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ここでは何が買えるの？",
-                    "maleVariant": "ここでは何が買えるんだ？",
-                    "stringId": 1935698783862435840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ここには一人で？",
-                    "maleVariant": null,
-                    "stringId": 1935698783879213060
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何を扱ってるの？",
-                    "maleVariant": "何を扱ってるんだ？",
-                    "stringId": 1935698784449638404
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "い… いろんな物だ。み、見てってくれ",
-                    "maleVariant": null,
-                    "stringId": 1935698784449638412
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ここには一人で？",
-                    "maleVariant": null,
-                    "stringId": 1935698784483192836
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "い、今はな。み、みんな… いなくなった。もう誰もいない",
-                    "maleVariant": null,
-                    "stringId": 1935698784483192844
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "な、何も買わないのか？ か、買わないなら構わないでくれ",
-                    "maleVariant": null,
-                    "stringId": 1976362317302255616
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ここでは何が買えるの？",
+              "maleVariant": "ここでは何が買えるんだ？",
+              "stringId": 1935698783862435840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ここには一人で？",
+              "maleVariant": "",
+              "stringId": 1935698783879213060
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何を扱ってるの？",
+              "maleVariant": "何を扱ってるんだ？",
+              "stringId": 1935698784449638404
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "い… いろんな物だ。み、見てってくれ",
+              "maleVariant": "",
+              "stringId": 1935698784449638412
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ここには一人で？",
+              "maleVariant": "",
+              "stringId": 1935698784483192836
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "い、今はな。み、みんな… いなくなった。もう誰もいない",
+              "maleVariant": "",
+              "stringId": 1935698784483192844
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "な、何も買わないのか？ か、買わないなら構わないでくれ",
+              "maleVariant": "",
+              "stringId": 1976362317302255616
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_hill_chat_016.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "新しいインプラントをつけて以来、彼女の様子がおかしいのよ…",
-                    "maleVariant": null,
-                    "stringId": 2159268469301800960
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "夜通しどすどす歩き回ったり、叫び声や笑い声をあげたりして…",
-                    "maleVariant": null,
-                    "stringId": 2212779954738380800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "つけたのは、ただのBD記録用テックじゃなかったのか？",
-                    "maleVariant": null,
-                    "stringId": 2212780455638941696
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうよ。でもほら、彼女はいつも安物を選ぶでしょ…",
-                    "maleVariant": null,
-                    "stringId": 2212780951170793472
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どこの誰が使ったかもわからない、中古のガラクタを買ったのかも。きっと変なのを掴まされたのよ…",
-                    "maleVariant": null,
-                    "stringId": 2212781425244585984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それで？ マックス・タックに通報でもする気か？",
-                    "maleVariant": null,
-                    "stringId": 2212781965621936128
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "その時になったら、躊躇せずに呼ぶわよ",
-                    "maleVariant": null,
-                    "stringId": 2212782464643448832
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でもあの人、最初からおかしいと思ってたの…",
-                    "maleVariant": null,
-                    "stringId": 2212783027451936768
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あのアパートだって、わざわざギリギリまで待ってから、私たちに競り勝ったでしょ？",
-                    "maleVariant": null,
-                    "stringId": 2212784015797731328
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "これだからサイコ女は…",
-                    "maleVariant": null,
-                    "stringId": 2212784452173119488
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "新しいインプラントをつけて以来、彼女の様子がおかしいのよ…",
+              "maleVariant": "",
+              "stringId": 2159268469301800960
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "夜通しどすどす歩き回ったり、叫び声や笑い声をあげたりして…",
+              "maleVariant": "",
+              "stringId": 2212779954738380800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "つけたのは、ただのBD記録用テックじゃなかったのか？",
+              "maleVariant": "",
+              "stringId": 2212780455638941696
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうよ。でもほら、彼女はいつも安物を選ぶでしょ…",
+              "maleVariant": "",
+              "stringId": 2212780951170793472
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どこの誰が使ったかもわからない、中古のガラクタを買ったのかも。きっと変なのを掴まされたのよ…",
+              "maleVariant": "",
+              "stringId": 2212781425244585984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それで？ マックス・タックに通報でもする気か？",
+              "maleVariant": "",
+              "stringId": 2212781965621936128
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "その時になったら、躊躇せずに呼ぶわよ",
+              "maleVariant": "",
+              "stringId": 2212782464643448832
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でもあの人、最初からおかしいと思ってたの…",
+              "maleVariant": "",
+              "stringId": 2212783027451936768
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あのアパートだって、わざわざギリギリまで待ってから、私たちに競り勝ったでしょ？",
+              "maleVariant": "",
+              "stringId": 2212784015797731328
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "これだからサイコ女は…",
+              "maleVariant": "",
+              "stringId": 2212784452173119488
             }
-          }
+          ]
         }
       }
     },

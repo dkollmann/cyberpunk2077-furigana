@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q001\\q001_00b_dead_girl.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "V… こいつは？",
-                    "maleVariant": null,
-                    "stringId": 1141750414696976400
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ターゲットのサンドラ・ドーセットはエシュロンIIの企業特権で保護されてる。つまり相当なお嬢よ",
-                    "maleVariant": "ターゲットのサンドラ・ドーセットはエシュロンIIの企業特権で保護されてる。つまり相当なお嬢だ",
-                    "stringId": 1141752040660865040
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "V、ぼさっとすんな。ターゲットかどうか確かめろ",
-                    "maleVariant": null,
-                    "stringId": 1141794090370404352
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この子じゃない。捜索を続けましょ",
-                    "maleVariant": "こいつじゃない。捜索を続けるぞ",
-                    "stringId": 1173663261609627648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "くっ、遅かったか！ V、こいつがターゲットか？",
-                    "maleVariant": null,
-                    "stringId": 1193657062757011456
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でもこれは、ゼータテクのコピー品ばっか。ヤミ改造によくあるやつね",
-                    "maleVariant": "だがこれは、ゼータテクのコピー品ばっかだ。ヤミ改造によくあるやつだな",
-                    "stringId": 1630194113232957440
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "上出来。これで動きやすくなった",
-                    "maleVariant": null,
-                    "stringId": 1690989747161427968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "連中に見つかった！ そっちに向かってる！",
-                    "maleVariant": null,
-                    "stringId": 1690992765969788928
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "インプラントが安物すぎる…",
-                    "maleVariant": null,
-                    "stringId": 2177968277633142788
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "V… こいつは？",
+              "maleVariant": "",
+              "stringId": 1141750414696976400
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ターゲットのサンドラ・ドーセットはエシュロンIIの企業特権で保護されてる。つまり相当なお嬢よ",
+              "maleVariant": "ターゲットのサンドラ・ドーセットはエシュロンIIの企業特権で保護されてる。つまり相当なお嬢だ",
+              "stringId": 1141752040660865040
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "V、ぼさっとすんな。ターゲットかどうか確かめろ",
+              "maleVariant": "",
+              "stringId": 1141794090370404352
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この子じゃない。捜索を続けましょ",
+              "maleVariant": "こいつじゃない。捜索を続けるぞ",
+              "stringId": 1173663261609627648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "くっ、遅かったか！ V、こいつがターゲットか？",
+              "maleVariant": "",
+              "stringId": 1193657062757011456
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でもこれは、ゼータテクのコピー品ばっか。ヤミ改造によくあるやつね",
+              "maleVariant": "だがこれは、ゼータテクのコピー品ばっかだ。ヤミ改造によくあるやつだな",
+              "stringId": 1630194113232957440
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "上出来。これで動きやすくなった",
+              "maleVariant": "",
+              "stringId": 1690989747161427968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "連中に見つかった！ そっちに向かってる！",
+              "maleVariant": "",
+              "stringId": 1690992765969788928
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "インプラントが安物すぎる…",
+              "maleVariant": "",
+              "stringId": 2177968277633142788
             }
-          }
+          ]
         }
       }
     },

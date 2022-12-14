@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_m_93_chn_30.json"
@@ -11,154 +11,116 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "消えな",
-                    "maleVariant": null,
-                    "stringId": 1922918890721517572
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お前なんて知らん",
-                    "maleVariant": null,
-                    "stringId": 1922918890738294788
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソっ…！",
-                    "maleVariant": null,
-                    "stringId": 1922918890805403652
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何だ？ あん！？",
-                    "maleVariant": null,
-                    "stringId": 1922918890822180868
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "よう、俺だ",
-                    "maleVariant": null,
-                    "stringId": 1922918890872512516
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "誰だって…？ いや… 何でもないって…！ 当ててみろよ… すっぽかされたんだ！",
-                    "maleVariant": null,
-                    "stringId": 1922918890939621380
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わからない… 兆候はあった… ああ… そうか… それは考えなかった",
-                    "maleVariant": null,
-                    "stringId": 1922918890973175812
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "後で話そう",
-                    "maleVariant": null,
-                    "stringId": 1922918891006730244
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "マックス・タックを呼べ！",
-                    "maleVariant": null,
-                    "stringId": 1922918891208056836
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "警察はどこだ？",
-                    "maleVariant": null,
-                    "stringId": 1922918891224834052
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お、落ち着け！ ほら！",
-                    "maleVariant": null,
-                    "stringId": 1922918891325497348
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やめてくれ！",
-                    "maleVariant": null,
-                    "stringId": 1922918891342274564
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "失せろ。興味ない",
-                    "maleVariant": null,
-                    "stringId": 1922918891442937860
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "邪魔しないでくれ",
-                    "maleVariant": null,
-                    "stringId": 1922918891476492292
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうか、ならまた後でな",
-                    "maleVariant": null,
-                    "stringId": 1958903196427526148
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ、戻ったのか。よし",
-                    "maleVariant": null,
-                    "stringId": 1958903196477857796
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どう思う？",
-                    "maleVariant": null,
-                    "stringId": 1958903196494635012
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "消えな",
+              "maleVariant": "",
+              "stringId": 1922918890721517572
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お前なんて知らん",
+              "maleVariant": "",
+              "stringId": 1922918890738294788
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソっ…！",
+              "maleVariant": "",
+              "stringId": 1922918890805403652
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何だ？ あん！？",
+              "maleVariant": "",
+              "stringId": 1922918890822180868
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "よう、俺だ",
+              "maleVariant": "",
+              "stringId": 1922918890872512516
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "誰だって…？ いや… 何でもないって…！ 当ててみろよ… すっぽかされたんだ！",
+              "maleVariant": "",
+              "stringId": 1922918890939621380
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わからない… 兆候はあった… ああ… そうか… それは考えなかった",
+              "maleVariant": "",
+              "stringId": 1922918890973175812
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "後で話そう",
+              "maleVariant": "",
+              "stringId": 1922918891006730244
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "マックス・タックを呼べ！",
+              "maleVariant": "",
+              "stringId": 1922918891208056836
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "警察はどこだ？",
+              "maleVariant": "",
+              "stringId": 1922918891224834052
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お、落ち着け！ ほら！",
+              "maleVariant": "",
+              "stringId": 1922918891325497348
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やめてくれ！",
+              "maleVariant": "",
+              "stringId": 1922918891342274564
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "失せろ。興味ない",
+              "maleVariant": "",
+              "stringId": 1922918891442937860
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "邪魔しないでくれ",
+              "maleVariant": "",
+              "stringId": 1922918891476492292
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうか、ならまた後でな",
+              "maleVariant": "",
+              "stringId": 1958903196427526148
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ、戻ったのか。よし",
+              "maleVariant": "",
+              "stringId": 1958903196477857796
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どう思う？",
+              "maleVariant": "",
+              "stringId": 1958903196494635012
             }
-          }
+          ]
         }
       }
     },

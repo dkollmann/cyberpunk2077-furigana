@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\minor_activities\\ma_pac_cvi_12_holocall_brief.json"
@@ -11,42 +11,32 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "NCPD業務委託者に通達。エデンビーチ・メガライド付近で組織犯罪活動の報告あり",
-                    "maleVariant": null,
-                    "stringId": 2328577190692728832
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "現場にはスカベンジャーのリーダーの1人、スタニスラウス・ズビスコがいる模様。複数の密輸の前科あり",
-                    "maleVariant": null,
-                    "stringId": 2352351736222814208
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ズビスコとその一味を無力化した者には、市より報酬が支払われる",
-                    "maleVariant": null,
-                    "stringId": 2352351751792070656
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "NCPD業務委託者に通達。エデンビーチ・メガライド付近で組織犯罪活動の報告あり",
+              "maleVariant": "",
+              "stringId": 2328577190692728832
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "現場にはスカベンジャーのリーダーの1人、スタニスラウス・ズビスコがいる模様。複数の密輸の前科あり",
+              "maleVariant": "",
+              "stringId": 2352351736222814208
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ズビスコとその一味を無力化した者には、市より報酬が支払われる",
+              "maleVariant": "",
+              "stringId": 2352351751792070656
             }
-          }
+          ]
         }
       }
     },

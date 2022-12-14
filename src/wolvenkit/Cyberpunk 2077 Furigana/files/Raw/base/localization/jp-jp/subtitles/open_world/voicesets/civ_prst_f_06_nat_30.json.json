@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_prst_f_06_nat_30.json"
@@ -11,154 +11,116 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やりたいの？",
-                    "maleVariant": null,
-                    "stringId": 1955912966460186628
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "値引きしてあげてもいいよ",
-                    "maleVariant": null,
-                    "stringId": 1955912966493741060
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あっ…",
-                    "maleVariant": null,
-                    "stringId": 1955912966577627140
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何なのよ！？",
-                    "maleVariant": null,
-                    "stringId": 1955912966611181572
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "はあ、なんなの",
-                    "maleVariant": null,
-                    "stringId": 1955912966678290436
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ケモスキンは大当たりだった… すごく気に入ってた… うん… 想像以上よ",
-                    "maleVariant": null,
-                    "stringId": 1955912966762176516
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "見ただけで興奮してた人もいて… レトロが再流行してるよね…？ そうそう",
-                    "maleVariant": null,
-                    "stringId": 1955912966795730948
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "試してみなよ",
-                    "maleVariant": null,
-                    "stringId": 1955912966829285380
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "助けて！",
-                    "maleVariant": null,
-                    "stringId": 1955912966980280324
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こんな街大っ嫌い！",
-                    "maleVariant": null,
-                    "stringId": 1955912966997057540
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こういうので、興奮するんでしょ！",
-                    "maleVariant": null,
-                    "stringId": 1955912967080943620
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "地獄へ落ちろ！",
-                    "maleVariant": null,
-                    "stringId": 1955912967097720836
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "用でもあるの？ ないなら消えて",
-                    "maleVariant": null,
-                    "stringId": 1955912967181606916
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いっそストーカーから料金をせしめようかしら…",
-                    "maleVariant": null,
-                    "stringId": 1955912967198384132
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ウソでしょ！？",
-                    "maleVariant": null,
-                    "stringId": 1958941550569365508
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "戻ってきたの",
-                    "maleVariant": null,
-                    "stringId": 1958941550619697156
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうしたのよ？",
-                    "maleVariant": null,
-                    "stringId": 1958941550636474372
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やりたいの？",
+              "maleVariant": "",
+              "stringId": 1955912966460186628
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "値引きしてあげてもいいよ",
+              "maleVariant": "",
+              "stringId": 1955912966493741060
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あっ…",
+              "maleVariant": "",
+              "stringId": 1955912966577627140
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何なのよ！？",
+              "maleVariant": "",
+              "stringId": 1955912966611181572
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "はあ、なんなの",
+              "maleVariant": "",
+              "stringId": 1955912966678290436
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ケモスキンは大当たりだった… すごく気に入ってた… うん… 想像以上よ",
+              "maleVariant": "",
+              "stringId": 1955912966762176516
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "見ただけで興奮してた人もいて… レトロが再流行してるよね…？ そうそう",
+              "maleVariant": "",
+              "stringId": 1955912966795730948
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "試してみなよ",
+              "maleVariant": "",
+              "stringId": 1955912966829285380
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "助けて！",
+              "maleVariant": "",
+              "stringId": 1955912966980280324
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こんな街大っ嫌い！",
+              "maleVariant": "",
+              "stringId": 1955912966997057540
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こういうので、興奮するんでしょ！",
+              "maleVariant": "",
+              "stringId": 1955912967080943620
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "地獄へ落ちろ！",
+              "maleVariant": "",
+              "stringId": 1955912967097720836
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "用でもあるの？ ないなら消えて",
+              "maleVariant": "",
+              "stringId": 1955912967181606916
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いっそストーカーから料金をせしめようかしら…",
+              "maleVariant": "",
+              "stringId": 1955912967198384132
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ウソでしょ！？",
+              "maleVariant": "",
+              "stringId": 1958941550569365508
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "戻ってきたの",
+              "maleVariant": "",
+              "stringId": 1958941550619697156
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうしたのよ？",
+              "maleVariant": "",
+              "stringId": 1958941550636474372
             }
-          }
+          ]
         }
       }
     },

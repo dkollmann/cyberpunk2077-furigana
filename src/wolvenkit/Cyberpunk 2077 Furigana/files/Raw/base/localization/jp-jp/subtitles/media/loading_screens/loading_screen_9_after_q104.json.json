@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\loading_screens\\loading_screen_9_after_q104.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ハーイ皆さん、“インフォフラッシュ”へようこそ！ 昨日の停電、大丈夫でした？",
-                    "maleVariant": null,
-                    "stringId": 1672047694468521984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私なんて料理をしてたところで… 正確にはソファにはさまってた食べかけのブリトーをチンしてたんだけど",
-                    "maleVariant": null,
-                    "stringId": 1680691461559209984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わかってる。ずぼらはよくないよね… レンジにかけると栄養が飛んじゃうって言うし。でも、ゴキブリが入ってても殺せるから… 損ばかりじゃない",
-                    "maleVariant": null,
-                    "stringId": 1680692055623651328
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "で、何の話だっけ… そう、停電よ。サントにある発電所がショートしたらしいわ。その時のEMPでAVが墜落したとか",
-                    "maleVariant": null,
-                    "stringId": 1680693622414299136
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "NCPDの話だと、停電による損害額は1億2千万エディーだって。でも一番の悲劇は、冷たいブリトーが不味すぎたってことよ…",
-                    "maleVariant": null,
-                    "stringId": 1680695570618175488
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1億2千万エディーだって！？ ハッ！ 男1人捕まえるのに、ずいぶん派手にやらかしたもんだな",
-                    "maleVariant": null,
-                    "stringId": 1680696063297900544
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "大した根性だ、V",
-                    "maleVariant": null,
-                    "stringId": 1680696815756038144
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい、ルース、それで済んだのは奇跡だ。まあ、せいぜい喜んどけ…",
-                    "maleVariant": null,
-                    "stringId": 1902232742490591232
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あれはお手柄だったな、V",
-                    "maleVariant": null,
-                    "stringId": 1902233813933936640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "NCPDは、事件の規模のわりには被害が少なかったと言ってるけど… それだったら、冷え切ったブリトーを食べるハメになった私は、一体何なのよ！",
-                    "maleVariant": null,
-                    "stringId": 1902234390348746752
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ハーイ皆さん、“インフォフラッシュ”へようこそ！ 昨日の停電、大丈夫でした？",
+              "maleVariant": "",
+              "stringId": 1672047694468521984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私なんて料理をしてたところで… 正確にはソファにはさまってた食べかけのブリトーをチンしてたんだけど",
+              "maleVariant": "",
+              "stringId": 1680691461559209984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わかってる。ずぼらはよくないよね… レンジにかけると栄養が飛んじゃうって言うし。でも、ゴキブリが入ってても殺せるから… 損ばかりじゃない",
+              "maleVariant": "",
+              "stringId": 1680692055623651328
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "で、何の話だっけ… そう、停電よ。サントにある発電所がショートしたらしいわ。その時のEMPでAVが墜落したとか",
+              "maleVariant": "",
+              "stringId": 1680693622414299136
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "NCPDの話だと、停電による損害額は1億2千万エディーだって。でも一番の悲劇は、冷たいブリトーが不味すぎたってことよ…",
+              "maleVariant": "",
+              "stringId": 1680695570618175488
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1億2千万エディーだって！？ ハッ！ 男1人捕まえるのに、ずいぶん派手にやらかしたもんだな",
+              "maleVariant": "",
+              "stringId": 1680696063297900544
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "大した根性だ、V",
+              "maleVariant": "",
+              "stringId": 1680696815756038144
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい、ルース、それで済んだのは奇跡だ。まあ、せいぜい喜んどけ…",
+              "maleVariant": "",
+              "stringId": 1902232742490591232
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あれはお手柄だったな、V",
+              "maleVariant": "",
+              "stringId": 1902233813933936640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "NCPDは、事件の規模のわりには被害が少なかったと言ってるけど… それだったら、冷え切ったブリトーを食べるハメになった私は、一体何なのよ！",
+              "maleVariant": "",
+              "stringId": 1902234390348746752
             }
-          }
+          ]
         }
       }
     },

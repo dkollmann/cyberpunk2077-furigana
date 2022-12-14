@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_mid_m_23_enus_40_fat.json"
@@ -11,146 +11,110 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いかにもって外見をしてるな… で、持ってるんだろ？ いくらだ？",
-                    "maleVariant": null,
-                    "stringId": 1948782325725257732
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あのな、脳天にズギューンって来るのが欲しいんだが、あるか？",
-                    "maleVariant": null,
-                    "stringId": 1948782325742034948
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まさか、俺が見えないってこたないよな？",
-                    "maleVariant": null,
-                    "stringId": 1948782325792366596
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "前見て歩けよな",
-                    "maleVariant": null,
-                    "stringId": 1948782325809143812
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "よう",
-                    "maleVariant": null,
-                    "stringId": 1948782325842698244
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "パーティーか、いいな…",
-                    "maleVariant": null,
-                    "stringId": 1948782325893029892
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "さあな… 最近足腰が弱くてよ…",
-                    "maleVariant": null,
-                    "stringId": 1948782325909807108
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "またな",
-                    "maleVariant": null,
-                    "stringId": 1948782325943361540
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何なんだよ！",
-                    "maleVariant": null,
-                    "stringId": 1948782326111133700
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうかしてるぞ！",
-                    "maleVariant": null,
-                    "stringId": 1948782326127910916
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ごめんなさい、ごめんなさい",
-                    "maleVariant": null,
-                    "stringId": 1948782326228574212
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あーっ！！",
-                    "maleVariant": null,
-                    "stringId": 1948782326245351428
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ついてきてるの知ってるぞ",
-                    "maleVariant": null,
-                    "stringId": 1948782326329237508
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "放っておいてくれ",
-                    "maleVariant": null,
-                    "stringId": 1948782326362791936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "で？ アトランティスかリックス、どっちでやる…？ わかった。で、当然アレは持ってくるんだよな？ はは、そうこなきゃ",
-                    "maleVariant": null,
-                    "stringId": 1948793950775664640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "実は検査待ちでさ、肝臓を買い替えようかなと思ってる。値は張るけどな… ああ",
-                    "maleVariant": null,
-                    "stringId": 1948794239327002624
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いかにもって外見をしてるな… で、持ってるんだろ？ いくらだ？",
+              "maleVariant": "",
+              "stringId": 1948782325725257732
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あのな、脳天にズギューンって来るのが欲しいんだが、あるか？",
+              "maleVariant": "",
+              "stringId": 1948782325742034948
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まさか、俺が見えないってこたないよな？",
+              "maleVariant": "",
+              "stringId": 1948782325792366596
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "前見て歩けよな",
+              "maleVariant": "",
+              "stringId": 1948782325809143812
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "よう",
+              "maleVariant": "",
+              "stringId": 1948782325842698244
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "パーティーか、いいな…",
+              "maleVariant": "",
+              "stringId": 1948782325893029892
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "さあな… 最近足腰が弱くてよ…",
+              "maleVariant": "",
+              "stringId": 1948782325909807108
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "またな",
+              "maleVariant": "",
+              "stringId": 1948782325943361540
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何なんだよ！",
+              "maleVariant": "",
+              "stringId": 1948782326111133700
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうかしてるぞ！",
+              "maleVariant": "",
+              "stringId": 1948782326127910916
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ごめんなさい、ごめんなさい",
+              "maleVariant": "",
+              "stringId": 1948782326228574212
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あーっ！！",
+              "maleVariant": "",
+              "stringId": 1948782326245351428
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ついてきてるの知ってるぞ",
+              "maleVariant": "",
+              "stringId": 1948782326329237508
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "放っておいてくれ",
+              "maleVariant": "",
+              "stringId": 1948782326362791936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "で？ アトランティスかリックス、どっちでやる…？ わかった。で、当然アレは持ってくるんだよな？ はは、そうこなきゃ",
+              "maleVariant": "",
+              "stringId": 1948793950775664640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "実は検査待ちでさ、肝臓を買い替えようかなと思ってる。値は張るけどな… ああ",
+              "maleVariant": "",
+              "stringId": 1948794239327002624
             }
-          }
+          ]
         }
       }
     },

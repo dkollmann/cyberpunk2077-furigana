@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_045.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "で… 昨日のことについて話を聞こうか",
-                    "maleVariant": null,
-                    "stringId": 2157402539566592000
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "報告書に全部書いてある",
-                    "maleVariant": null,
-                    "stringId": 2182614415428894720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それは読んだ。だが、俺の命令に背いて突撃したことは書かれてなかったな",
-                    "maleVariant": null,
-                    "stringId": 2209863748935041024
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "相手はクロームの脚をつけたサイバーサイコだったんだぞ",
-                    "maleVariant": null,
-                    "stringId": 2209864292919492608
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "一体何を考えてた？ ああいうのはマックス・タックの仕事だ…",
-                    "maleVariant": null,
-                    "stringId": 2209866742829236224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "市民が危険にさらされてた。彼らが殺されるのを、黙って見てればよかったの？",
-                    "maleVariant": null,
-                    "stringId": 2209867449049366528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いいか。俺も、お前も、ナイトシティの警官はみんな、マックス・タックの前じゃ一般市民と同じだ",
-                    "maleVariant": null,
-                    "stringId": 2209868517019828224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "連中と同じ装備を使える日が来たら、その時はいくらでも市民を救うヒーローになればいい",
-                    "maleVariant": null,
-                    "stringId": 2209868928413941760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "だがそうでない限り、黙って俺に従え。わかったな？",
-                    "maleVariant": null,
-                    "stringId": 2209872198377226240
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "で… 昨日のことについて話を聞こうか",
+              "maleVariant": "",
+              "stringId": 2157402539566592000
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "報告書に全部書いてある",
+              "maleVariant": "",
+              "stringId": 2182614415428894720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それは読んだ。だが、俺の命令に背いて突撃したことは書かれてなかったな",
+              "maleVariant": "",
+              "stringId": 2209863748935041024
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "相手はクロームの脚をつけたサイバーサイコだったんだぞ",
+              "maleVariant": "",
+              "stringId": 2209864292919492608
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "一体何を考えてた？ ああいうのはマックス・タックの仕事だ…",
+              "maleVariant": "",
+              "stringId": 2209866742829236224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "市民が危険にさらされてた。彼らが殺されるのを、黙って見てればよかったの？",
+              "maleVariant": "",
+              "stringId": 2209867449049366528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いいか。俺も、お前も、ナイトシティの警官はみんな、マックス・タックの前じゃ一般市民と同じだ",
+              "maleVariant": "",
+              "stringId": 2209868517019828224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "連中と同じ装備を使える日が来たら、その時はいくらでも市民を救うヒーローになればいい",
+              "maleVariant": "",
+              "stringId": 2209868928413941760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "だがそうでない限り、黙って俺に従え。わかったな？",
+              "maleVariant": "",
+              "stringId": 2209872198377226240
             }
-          }
+          ]
         }
       }
     },

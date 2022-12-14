@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_cpz_chat_036.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それでわざわざ電話してきて、調子はどうだ、新しいチームはどうだって聞いてくるんだ",
-                    "maleVariant": null,
-                    "stringId": 2172163827136323584
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソ野郎だな",
-                    "maleVariant": null,
-                    "stringId": 2208696430578995200
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "急に馴れ馴れしくしやがってさ。俺が脚をやられて、誰も働きたがらないような部署に送られたからって",
-                    "maleVariant": null,
-                    "stringId": 2208696499264917504
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "無視しとけ。ああいう手合いは、人の不幸がうれしいのさ",
-                    "maleVariant": null,
-                    "stringId": 2208696962852950016
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "最初からクズしかいない職場だとはわかってたが…",
-                    "maleVariant": null,
-                    "stringId": 2208697941283409920
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "回りくどいことしやがって。まるでダチみたいに… やってられるかよ！ せめて面と向かって言ってくれりゃ、殴ってやるのに",
-                    "maleVariant": null,
-                    "stringId": 2208704577309872128
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "傭兵を送り込むって手もあるぞ",
-                    "maleVariant": null,
-                    "stringId": 2208706762408038400
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ハッ！ それも悪くないな",
-                    "maleVariant": null,
-                    "stringId": 2208709559505489920
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それでわざわざ電話してきて、調子はどうだ、新しいチームはどうだって聞いてくるんだ",
+              "maleVariant": "",
+              "stringId": 2172163827136323584
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソ野郎だな",
+              "maleVariant": "",
+              "stringId": 2208696430578995200
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "急に馴れ馴れしくしやがってさ。俺が脚をやられて、誰も働きたがらないような部署に送られたからって",
+              "maleVariant": "",
+              "stringId": 2208696499264917504
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "無視しとけ。ああいう手合いは、人の不幸がうれしいのさ",
+              "maleVariant": "",
+              "stringId": 2208696962852950016
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "最初からクズしかいない職場だとはわかってたが…",
+              "maleVariant": "",
+              "stringId": 2208697941283409920
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "回りくどいことしやがって。まるでダチみたいに… やってられるかよ！ せめて面と向かって言ってくれりゃ、殴ってやるのに",
+              "maleVariant": "",
+              "stringId": 2208704577309872128
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "傭兵を送り込むって手もあるぞ",
+              "maleVariant": "",
+              "stringId": 2208706762408038400
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ハッ！ それも悪くないな",
+              "maleVariant": "",
+              "stringId": 2208709559505489920
             }
-          }
+          ]
         }
       }
     },

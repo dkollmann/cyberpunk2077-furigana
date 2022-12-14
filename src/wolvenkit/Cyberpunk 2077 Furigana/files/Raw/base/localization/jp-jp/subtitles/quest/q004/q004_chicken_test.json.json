@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q004\\q004_chicken_test.json"
@@ -11,114 +11,86 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us]Lizzie's Entrance",
-                    "maleVariant": null,
-                    "stringId": 1155940882272104448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us]Arasaka Hotel 3rd Floor (BD)",
-                    "maleVariant": null,
-                    "stringId": 1155943120503713792
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us]Braindance Tutorial",
-                    "maleVariant": null,
-                    "stringId": 1250384715486998528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us]Bartender/Evelyn Scene",
-                    "maleVariant": null,
-                    "stringId": 1487822562727440384
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us]Judy Scene",
-                    "maleVariant": null,
-                    "stringId": 1487823089515245568
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us]Final Scene",
-                    "maleVariant": null,
-                    "stringId": 1490969555880521728
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][pl_pl]Start with FPP braindance.",
-                    "maleVariant": null,
-                    "stringId": 1653454461872254980
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][pl_pl]Skip FPP braindance.",
-                    "maleVariant": null,
-                    "stringId": 1653458584755646464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][pl_pl]Walk from VIP to Judy",
-                    "maleVariant": null,
-                    "stringId": 1719889458522632192
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][pl_pl]Tutorial done",
-                    "maleVariant": null,
-                    "stringId": 1719890269600362496
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][pl_pl]Club Opened [18:00-6:00]",
-                    "maleVariant": null,
-                    "stringId": 2079563354070753284
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Club Closed [06:00-18:00]",
-                    "maleVariant": null,
-                    "stringId": 2079565289758826496
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us]Lizzie's Entrance",
+              "maleVariant": "",
+              "stringId": 1155940882272104448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us]Arasaka Hotel 3rd Floor (BD)",
+              "maleVariant": "",
+              "stringId": 1155943120503713792
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us]Braindance Tutorial",
+              "maleVariant": "",
+              "stringId": 1250384715486998528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us]Bartender/Evelyn Scene",
+              "maleVariant": "",
+              "stringId": 1487822562727440384
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us]Judy Scene",
+              "maleVariant": "",
+              "stringId": 1487823089515245568
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us]Final Scene",
+              "maleVariant": "",
+              "stringId": 1490969555880521728
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][pl_pl]Start with FPP braindance.",
+              "maleVariant": "",
+              "stringId": 1653454461872254980
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][pl_pl]Skip FPP braindance.",
+              "maleVariant": "",
+              "stringId": 1653458584755646464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][pl_pl]Walk from VIP to Judy",
+              "maleVariant": "",
+              "stringId": 1719889458522632192
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][pl_pl]Tutorial done",
+              "maleVariant": "",
+              "stringId": 1719890269600362496
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][pl_pl]Club Opened [18:00-6:00]",
+              "maleVariant": "",
+              "stringId": 2079563354070753284
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Club Closed [06:00-18:00]",
+              "maleVariant": "",
+              "stringId": 2079565289758826496
             }
-          }
+          ]
         }
       }
     },

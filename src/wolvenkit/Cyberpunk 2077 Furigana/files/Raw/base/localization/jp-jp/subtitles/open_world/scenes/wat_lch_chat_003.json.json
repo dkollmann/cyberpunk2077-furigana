@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_003.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何も持ってねえよ！",
-                    "maleVariant": null,
-                    "stringId": 1802392231784079360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まだ何も質問してない",
-                    "maleVariant": null,
-                    "stringId": 1802393070913314816
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なんなんだよ。クロウズの連中がうろついてる時は、どこにもいねえくせに！",
-                    "maleVariant": null,
-                    "stringId": 1802393401810345984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "黙れ、このクソガキ",
-                    "maleVariant": null,
-                    "stringId": 1802393882561470464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なに偉そうな口きいてんだ！ 通行人を捕まえるだけなら、サルでもできんだよ",
-                    "maleVariant": null,
-                    "stringId": 1802394242214649856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ヤオ、やめときなって！",
-                    "maleVariant": null,
-                    "stringId": 1802394788816347136
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "友達の言うことを聞くんだな",
-                    "maleVariant": null,
-                    "stringId": 1802395107801554944
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "「友達の言うことを聞くんだな」。ヘッ、笑わせるぜ。善良な市民を目の敵にしてよく言う",
-                    "maleVariant": null,
-                    "stringId": 1802395509129338880
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "目の敵？ お前のことなんかどうでもいい",
-                    "maleVariant": null,
-                    "stringId": 1802395780567916544
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何も持ってねえよ！",
+              "maleVariant": "",
+              "stringId": 1802392231784079360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まだ何も質問してない",
+              "maleVariant": "",
+              "stringId": 1802393070913314816
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なんなんだよ。クロウズの連中がうろついてる時は、どこにもいねえくせに！",
+              "maleVariant": "",
+              "stringId": 1802393401810345984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "黙れ、このクソガキ",
+              "maleVariant": "",
+              "stringId": 1802393882561470464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なに偉そうな口きいてんだ！ 通行人を捕まえるだけなら、サルでもできんだよ",
+              "maleVariant": "",
+              "stringId": 1802394242214649856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ヤオ、やめときなって！",
+              "maleVariant": "",
+              "stringId": 1802394788816347136
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "友達の言うことを聞くんだな",
+              "maleVariant": "",
+              "stringId": 1802395107801554944
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "「友達の言うことを聞くんだな」。ヘッ、笑わせるぜ。善良な市民を目の敵にしてよく言う",
+              "maleVariant": "",
+              "stringId": 1802395509129338880
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "目の敵？ お前のことなんかどうでもいい",
+              "maleVariant": "",
+              "stringId": 1802395780567916544
             }
-          }
+          ]
         }
       }
     },

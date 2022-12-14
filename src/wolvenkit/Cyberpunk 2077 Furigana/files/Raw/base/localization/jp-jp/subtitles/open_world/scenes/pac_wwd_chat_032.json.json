@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_wwd_chat_032.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "カジキなんてありえない。本物の、生きたカジキ？ 絶対ないって",
-                    "maleVariant": null,
-                    "stringId": 2179671749777022976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でもすごく速かったの。時速60マイルは超えてた。写真で見るようなヒレもあったし",
-                    "maleVariant": null,
-                    "stringId": 2211512237997355008
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "きっとドローンでしょ。それか、魚雷",
-                    "maleVariant": null,
-                    "stringId": 2211512313176059904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まさか。デルコロナドで魚雷なんか撃つわけないでしょ？",
-                    "maleVariant": null,
-                    "stringId": 2212736922504327168
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この前送ったポッドキャストを聞いてないの？",
-                    "maleVariant": null,
-                    "stringId": 2212737257780211712
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この入り江にはミリテクの潜水艦がうようよいるのよ",
-                    "maleVariant": null,
-                    "stringId": 2212737754385805312
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ヘドロの中を泳ぐカジキの方がロマンあるのに…",
-                    "maleVariant": null,
-                    "stringId": 2212738161065521152
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "カジキなんてありえない。本物の、生きたカジキ？ 絶対ないって",
+              "maleVariant": "",
+              "stringId": 2179671749777022976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でもすごく速かったの。時速60マイルは超えてた。写真で見るようなヒレもあったし",
+              "maleVariant": "",
+              "stringId": 2211512237997355008
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "きっとドローンでしょ。それか、魚雷",
+              "maleVariant": "",
+              "stringId": 2211512313176059904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まさか。デルコロナドで魚雷なんか撃つわけないでしょ？",
+              "maleVariant": "",
+              "stringId": 2212736922504327168
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この前送ったポッドキャストを聞いてないの？",
+              "maleVariant": "",
+              "stringId": 2212737257780211712
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この入り江にはミリテクの潜水艦がうようよいるのよ",
+              "maleVariant": "",
+              "stringId": 2212737754385805312
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ヘドロの中を泳ぐカジキの方がロマンあるのに…",
+              "maleVariant": "",
+              "stringId": 2212738161065521152
             }
-          }
+          ]
         }
       }
     },

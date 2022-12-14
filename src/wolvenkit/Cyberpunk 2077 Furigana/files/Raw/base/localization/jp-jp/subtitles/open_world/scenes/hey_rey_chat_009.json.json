@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_rey_chat_009.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "では皆さんお待ちかね、悪名高きスラム街、ビスタ・デル・レイです。危険ですので、グループから離れないでください",
-                    "maleVariant": null,
-                    "stringId": 1833121940549263360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "撮影は？ プレミアムパックの代金を払ってるんだが",
-                    "maleVariant": null,
-                    "stringId": 1833124183361052672
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もちろんどうぞ！ ただここの子供たちにはご注意ください。盗みを働きますからね！",
-                    "maleVariant": null,
-                    "stringId": 1833124353767235584
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わあ！ ここに来たなんて、キャスは絶対信じないわ！",
-                    "maleVariant": null,
-                    "stringId": 1833124593043890176
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "では皆さんお待ちかね、悪名高きスラム街、ビスタ・デル・レイです。危険ですので、グループから離れないでください",
+              "maleVariant": "",
+              "stringId": 1833121940549263360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "撮影は？ プレミアムパックの代金を払ってるんだが",
+              "maleVariant": "",
+              "stringId": 1833124183361052672
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もちろんどうぞ！ ただここの子供たちにはご注意ください。盗みを働きますからね！",
+              "maleVariant": "",
+              "stringId": 1833124353767235584
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わあ！ ここに来たなんて、キャスは絶対信じないわ！",
+              "maleVariant": "",
+              "stringId": 1833124593043890176
             }
-          }
+          ]
         }
       }
     },

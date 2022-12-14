@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_m_86_chn_20.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ようこそ、ようこそ",
-                    "maleVariant": null,
-                    "stringId": 1922913471143878660
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どこ行くんだ？",
-                    "maleVariant": null,
-                    "stringId": 1922913471177433092
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なっ…？",
-                    "maleVariant": null,
-                    "stringId": 1922913471244541956
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何がしたいんだよ！",
-                    "maleVariant": null,
-                    "stringId": 1922913471261319172
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今度は何だ？",
-                    "maleVariant": null,
-                    "stringId": 1922913471294873604
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "すぐ戻る… しらふだって… まあ1杯くらい… またアビドスを飲んでる",
-                    "maleVariant": null,
-                    "stringId": 1922913471361982468
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ… 約束する… 今日だけだって… 久々の休みなんだ！",
-                    "maleVariant": null,
-                    "stringId": 1922913471395536900
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "すぐ行く。じゃあな",
-                    "maleVariant": null,
-                    "stringId": 1922913471429091332
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こんなことに巻き込まれるなんて！",
-                    "maleVariant": null,
-                    "stringId": 1922913471630417924
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "誰かあいつを止めろ！",
-                    "maleVariant": null,
-                    "stringId": 1922913471647195140
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "妻が… 待ってるんだ！",
-                    "maleVariant": null,
-                    "stringId": 1922913471747858436
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうして俺がこんな目に！",
-                    "maleVariant": null,
-                    "stringId": 1922913471781412868
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なにコソコソしてるんだ？",
-                    "maleVariant": null,
-                    "stringId": 1922913471898853380
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい、バレバレだぞ",
-                    "maleVariant": null,
-                    "stringId": 1922913471949185024
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ようこそ、ようこそ",
+              "maleVariant": "",
+              "stringId": 1922913471143878660
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どこ行くんだ？",
+              "maleVariant": "",
+              "stringId": 1922913471177433092
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なっ…？",
+              "maleVariant": "",
+              "stringId": 1922913471244541956
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何がしたいんだよ！",
+              "maleVariant": "",
+              "stringId": 1922913471261319172
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今度は何だ？",
+              "maleVariant": "",
+              "stringId": 1922913471294873604
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "すぐ戻る… しらふだって… まあ1杯くらい… またアビドスを飲んでる",
+              "maleVariant": "",
+              "stringId": 1922913471361982468
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ… 約束する… 今日だけだって… 久々の休みなんだ！",
+              "maleVariant": "",
+              "stringId": 1922913471395536900
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "すぐ行く。じゃあな",
+              "maleVariant": "",
+              "stringId": 1922913471429091332
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こんなことに巻き込まれるなんて！",
+              "maleVariant": "",
+              "stringId": 1922913471630417924
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "誰かあいつを止めろ！",
+              "maleVariant": "",
+              "stringId": 1922913471647195140
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "妻が… 待ってるんだ！",
+              "maleVariant": "",
+              "stringId": 1922913471747858436
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうして俺がこんな目に！",
+              "maleVariant": "",
+              "stringId": 1922913471781412868
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なにコソコソしてるんだ？",
+              "maleVariant": "",
+              "stringId": 1922913471898853380
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい、バレバレだぞ",
+              "maleVariant": "",
+              "stringId": 1922913471949185024
             }
-          }
+          ]
         }
       }
     },

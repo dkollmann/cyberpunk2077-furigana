@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_cvi_chat_016.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "独特な匂いよね。濡れた金属みたいな",
-                    "maleVariant": null,
-                    "stringId": 2179400359030845440
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うう、私この匂いホントにダメ。オールフーズの肉とは全然違う",
-                    "maleVariant": null,
-                    "stringId": 2189717020662808576
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ねえ、本当にEEZYビーフじゃダメなの？ それか5フレーバーのスコップとか。うえ、気持ち悪くなりそう…",
-                    "maleVariant": null,
-                    "stringId": 2189717470292197376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おばあちゃんが、本物の鶏肉は培養ものとは全然味が違うって言ってたし…",
-                    "maleVariant": null,
-                    "stringId": 2189717702757302272
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "1回くらい平気よ… 味見だけ",
-                    "maleVariant": null,
-                    "stringId": 2189717903010152448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "冗談でしょ？ 味見で死んだらどうすんのよ？",
-                    "maleVariant": null,
-                    "stringId": 2189718083130343424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でも… 興味あるじゃない。ひいおばあちゃんの世代が食べてたものを食べてみたくない？",
-                    "maleVariant": null,
-                    "stringId": 2189718206610653184
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "全然。私は完全消毒されて真空パックに入ったものしか口に入れたくない",
-                    "maleVariant": null,
-                    "stringId": 2218614984076410880
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "独特な匂いよね。濡れた金属みたいな",
+              "maleVariant": "",
+              "stringId": 2179400359030845440
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うう、私この匂いホントにダメ。オールフーズの肉とは全然違う",
+              "maleVariant": "",
+              "stringId": 2189717020662808576
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ねえ、本当にEEZYビーフじゃダメなの？ それか5フレーバーのスコップとか。うえ、気持ち悪くなりそう…",
+              "maleVariant": "",
+              "stringId": 2189717470292197376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おばあちゃんが、本物の鶏肉は培養ものとは全然味が違うって言ってたし…",
+              "maleVariant": "",
+              "stringId": 2189717702757302272
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "1回くらい平気よ… 味見だけ",
+              "maleVariant": "",
+              "stringId": 2189717903010152448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "冗談でしょ？ 味見で死んだらどうすんのよ？",
+              "maleVariant": "",
+              "stringId": 2189718083130343424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でも… 興味あるじゃない。ひいおばあちゃんの世代が食べてたものを食べてみたくない？",
+              "maleVariant": "",
+              "stringId": 2189718206610653184
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "全然。私は完全消毒されて真空パックに入ったものしか口に入れたくない",
+              "maleVariant": "",
+              "stringId": 2218614984076410880
             }
-          }
+          ]
         }
       }
     },

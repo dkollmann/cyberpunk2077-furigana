@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_m_91_chn_20.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やってられねえ…",
-                    "maleVariant": null,
-                    "stringId": 1922679886612799492
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい、どこ行く気だ？",
-                    "maleVariant": null,
-                    "stringId": 1922679886629576708
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わざとじゃないよな？",
-                    "maleVariant": null,
-                    "stringId": 1922679886696685572
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソッタレ！",
-                    "maleVariant": null,
-                    "stringId": 1922679886713462788
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああん？",
-                    "maleVariant": null,
-                    "stringId": 1922679886763794436
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "怒らせるな… そうだ！ あの女に決まってるだろ？ ふざけやがって！",
-                    "maleVariant": null,
-                    "stringId": 1922679886830903300
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あの金がいる。クソ！ あいつがどう思うか？ そんなの知らねえよ…",
-                    "maleVariant": null,
-                    "stringId": 1922679886864457728
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "じゃあな",
-                    "maleVariant": null,
-                    "stringId": 1922679886898012164
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "人殺しだー！",
-                    "maleVariant": null,
-                    "stringId": 1922679887099338756
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この街はこれだから！",
-                    "maleVariant": null,
-                    "stringId": 1922679887116115972
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "俺が何したってんだ！",
-                    "maleVariant": null,
-                    "stringId": 1922679887216779268
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やめろ、やめろ、やめてくれ！",
-                    "maleVariant": null,
-                    "stringId": 1922679887250333700
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お前ほど怪しい奴は見たことないよ",
-                    "maleVariant": null,
-                    "stringId": 1922679887334219780
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いつもそうやって人をつけ回すのか？",
-                    "maleVariant": null,
-                    "stringId": 1922679887367774212
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やってられねえ…",
+              "maleVariant": "",
+              "stringId": 1922679886612799492
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい、どこ行く気だ？",
+              "maleVariant": "",
+              "stringId": 1922679886629576708
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わざとじゃないよな？",
+              "maleVariant": "",
+              "stringId": 1922679886696685572
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソッタレ！",
+              "maleVariant": "",
+              "stringId": 1922679886713462788
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああん？",
+              "maleVariant": "",
+              "stringId": 1922679886763794436
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "怒らせるな… そうだ！ あの女に決まってるだろ？ ふざけやがって！",
+              "maleVariant": "",
+              "stringId": 1922679886830903300
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あの金がいる。クソ！ あいつがどう思うか？ そんなの知らねえよ…",
+              "maleVariant": "",
+              "stringId": 1922679886864457728
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "じゃあな",
+              "maleVariant": "",
+              "stringId": 1922679886898012164
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "人殺しだー！",
+              "maleVariant": "",
+              "stringId": 1922679887099338756
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この街はこれだから！",
+              "maleVariant": "",
+              "stringId": 1922679887116115972
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "俺が何したってんだ！",
+              "maleVariant": "",
+              "stringId": 1922679887216779268
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やめろ、やめろ、やめてくれ！",
+              "maleVariant": "",
+              "stringId": 1922679887250333700
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お前ほど怪しい奴は見たことないよ",
+              "maleVariant": "",
+              "stringId": 1922679887334219780
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いつもそうやって人をつけ回すのか？",
+              "maleVariant": "",
+              "stringId": 1922679887367774212
             }
-          }
+          ]
         }
       }
     },

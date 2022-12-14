@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_rcr_chat_016.json"
@@ -11,58 +11,44 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やあ。残念だけど今日は無理そうなんだ… ハハ、うん。そんなことないさ、こないだはすごく楽しかったよ",
-                    "maleVariant": null,
-                    "stringId": 2167591200337186816
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いや、そのー、会社の仕事が… そう、山積みで。重役との打ち合わせとか… いろいろとね。今どこかって？　決まってるだろ…コーポ・プラザさ… いや、今は都合が悪くて… また今度会おう…",
-                    "maleVariant": null,
-                    "stringId": 2228882546149920768
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どんな服って…？ えっと… ほら、すごく高いスーツに、わに革の靴。君こそどんな服着てるんだ？ ふんふん… 他には…？ おっと、それはけしからんな…",
-                    "maleVariant": null,
-                    "stringId": 2228923230043082752
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "アラサカの仕事を紹介？ ああ、もちろん… 何がいい…？ 秘書！？ おいおい、君ならもっと上を狙えるって！ 社長なんかどうだい？ へへ",
-                    "maleVariant": null,
-                    "stringId": 2228925246664445952
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "当たり前だよ。俺についてくれば、いろんなところに連れて行ってやる。ナイトシティで俺ほど人脈のある人間はいないからね…",
-                    "maleVariant": null,
-                    "stringId": 2228928024669425664
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やあ。残念だけど今日は無理そうなんだ… ハハ、うん。そんなことないさ、こないだはすごく楽しかったよ",
+              "maleVariant": "",
+              "stringId": 2167591200337186816
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いや、そのー、会社の仕事が… そう、山積みで。重役との打ち合わせとか… いろいろとね。今どこかって？　決まってるだろ…コーポ・プラザさ… いや、今は都合が悪くて… また今度会おう…",
+              "maleVariant": "",
+              "stringId": 2228882546149920768
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どんな服って…？ えっと… ほら、すごく高いスーツに、わに革の靴。君こそどんな服着てるんだ？ ふんふん… 他には…？ おっと、それはけしからんな…",
+              "maleVariant": "",
+              "stringId": 2228923230043082752
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "アラサカの仕事を紹介？ ああ、もちろん… 何がいい…？ 秘書！？ おいおい、君ならもっと上を狙えるって！ 社長なんかどうだい？ へへ",
+              "maleVariant": "",
+              "stringId": 2228925246664445952
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "当たり前だよ。俺についてくれば、いろんなところに連れて行ってやる。ナイトシティで俺ほど人脈のある人間はいないからね…",
+              "maleVariant": "",
+              "stringId": 2228928024669425664
             }
-          }
+          ]
         }
       }
     },

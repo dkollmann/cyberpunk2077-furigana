@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_arr_chat_020.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "手を洗いたい",
-                    "maleVariant": null,
-                    "stringId": 2167941624791224320
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "大丈夫、落ち着いて。すぐに帰れるから",
-                    "maleVariant": null,
-                    "stringId": 2214502934741618688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こんな不潔な場所… マーサはここのモノを食べて肝炎になったんだぞ？",
-                    "maleVariant": null,
-                    "stringId": 2221694310860296192
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私たちはここでは食べないから",
-                    "maleVariant": null,
-                    "stringId": 2221694711651209216
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "殺菌しないと！ 大腸菌がスキャンで見えた！ ウェットティッシュをくれ、もう無理だ",
-                    "maleVariant": null,
-                    "stringId": 2221694881268862976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あとちょっとで買い物終わるから、ね",
-                    "maleVariant": null,
-                    "stringId": 2221695385122213888
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "手を洗いたい",
+              "maleVariant": "",
+              "stringId": 2167941624791224320
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "大丈夫、落ち着いて。すぐに帰れるから",
+              "maleVariant": "",
+              "stringId": 2214502934741618688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こんな不潔な場所… マーサはここのモノを食べて肝炎になったんだぞ？",
+              "maleVariant": "",
+              "stringId": 2221694310860296192
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私たちはここでは食べないから",
+              "maleVariant": "",
+              "stringId": 2221694711651209216
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "殺菌しないと！ 大腸菌がスキャンで見えた！ ウェットティッシュをくれ、もう無理だ",
+              "maleVariant": "",
+              "stringId": 2221694881268862976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あとちょっとで買い物終わるから、ね",
+              "maleVariant": "",
+              "stringId": 2221695385122213888
             }
-          }
+          ]
         }
       }
     },

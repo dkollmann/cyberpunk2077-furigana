@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q003\\q003_01_call_militech.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "スカイライン沿い、NIDに向かう最初の出口、その先の高架下に来な。待たせるなよ",
-                    "maleVariant": null,
-                    "stringId": 1667888193326505984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "スタウトだ。一体どこでこの番号を知った？",
-                    "maleVariant": null,
-                    "stringId": 1667888193443946496
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "知ってるのは番号だけじゃない。コンボイを探してるんだって？",
-                    "maleVariant": "知ってるのは番号だけじゃない。コンボイを探してるんだろ？",
-                    "stringId": 1717311373233053712
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい！ そいつを黙らせろ！",
-                    "maleVariant": null,
-                    "stringId": 1717311373233053736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "電話では無理。会って取引をしましょ",
-                    "maleVariant": "電話では無理だ。会って取引をしよう",
-                    "stringId": 1717313126200467476
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "取引ね… いいだろう",
-                    "maleVariant": null,
-                    "stringId": 1717313126200467492
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "直接会って取引をしましょ",
-                    "maleVariant": "直接会って取引をしよう",
-                    "stringId": 1717313824468197380
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "交渉できる立場だと思ってるの？",
-                    "maleVariant": "交渉できる立場だと思ってるのか？",
-                    "stringId": 1717315521500372992
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "困ってるのはそっちでしょ。立場を考えてよく聞くことね",
-                    "maleVariant": "困ってるのはそっちだろ。立場を考えてよく聞け",
-                    "stringId": 1717316065333829632
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なるほど、協力ね… いいだろう…",
-                    "maleVariant": null,
-                    "stringId": 1717316065333829648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どういうことだ。説明しろ",
-                    "maleVariant": null,
-                    "stringId": 1741923384569032704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "直接会いましょ。お互い協力できないか、話をしようじゃない",
-                    "maleVariant": "直接会おう。お互い協力できないか、話をするのはどうだ",
-                    "stringId": 1741948057964965888
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "誰もいない… 急いで来たのに待ちぼうけとはね…",
-                    "maleVariant": "誰もいない… 急いで来たのに待ちぼうけとはな…",
-                    "stringId": 1768011511928414208
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[座って待つ]",
-                    "maleVariant": null,
-                    "stringId": 2020188459274428416
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "スカイライン沿い、NIDに向かう最初の出口、その先の高架下に来な。待たせるなよ",
+              "maleVariant": "",
+              "stringId": 1667888193326505984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "スタウトだ。一体どこでこの番号を知った？",
+              "maleVariant": "",
+              "stringId": 1667888193443946496
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "知ってるのは番号だけじゃない。コンボイを探してるんだって？",
+              "maleVariant": "知ってるのは番号だけじゃない。コンボイを探してるんだろ？",
+              "stringId": 1717311373233053712
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい！ そいつを黙らせろ！",
+              "maleVariant": "",
+              "stringId": 1717311373233053736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "電話では無理。会って取引をしましょ",
+              "maleVariant": "電話では無理だ。会って取引をしよう",
+              "stringId": 1717313126200467476
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "取引ね… いいだろう",
+              "maleVariant": "",
+              "stringId": 1717313126200467492
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "直接会って取引をしましょ",
+              "maleVariant": "直接会って取引をしよう",
+              "stringId": 1717313824468197380
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "交渉できる立場だと思ってるの？",
+              "maleVariant": "交渉できる立場だと思ってるのか？",
+              "stringId": 1717315521500372992
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "困ってるのはそっちでしょ。立場を考えてよく聞くことね",
+              "maleVariant": "困ってるのはそっちだろ。立場を考えてよく聞け",
+              "stringId": 1717316065333829632
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なるほど、協力ね… いいだろう…",
+              "maleVariant": "",
+              "stringId": 1717316065333829648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どういうことだ。説明しろ",
+              "maleVariant": "",
+              "stringId": 1741923384569032704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "直接会いましょ。お互い協力できないか、話をしようじゃない",
+              "maleVariant": "直接会おう。お互い協力できないか、話をするのはどうだ",
+              "stringId": 1741948057964965888
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "誰もいない… 急いで来たのに待ちぼうけとはね…",
+              "maleVariant": "誰もいない… 急いで来たのに待ちぼうけとはな…",
+              "stringId": 1768011511928414208
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[座って待つ]",
+              "maleVariant": "",
+              "stringId": 2020188459274428416
             }
-          }
+          ]
         }
       }
     },

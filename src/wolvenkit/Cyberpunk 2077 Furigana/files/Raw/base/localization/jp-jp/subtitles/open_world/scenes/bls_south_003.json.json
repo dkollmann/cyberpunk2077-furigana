@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_south_003.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うーん、どうだろうな。わからない",
-                    "maleVariant": null,
-                    "stringId": 1973554521173958656
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "大丈夫だって。ガイドは信用できる。あの壁の下にあるトンネルを抜けるんだ",
-                    "maleVariant": null,
-                    "stringId": 1978984026157142016
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "南部の奴に捕まったら、その場で頭を撃たれて… バーン！ おしまいだぞ",
-                    "maleVariant": null,
-                    "stringId": 1978985077971144704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ここで死ぬのを待ってるよりはマシだ。そう思わないか？",
-                    "maleVariant": null,
-                    "stringId": 1978986875062636544
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うーん、どうだろうな。わからない",
+              "maleVariant": "",
+              "stringId": 1973554521173958656
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "大丈夫だって。ガイドは信用できる。あの壁の下にあるトンネルを抜けるんだ",
+              "maleVariant": "",
+              "stringId": 1978984026157142016
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "南部の奴に捕まったら、その場で頭を撃たれて… バーン！ おしまいだぞ",
+              "maleVariant": "",
+              "stringId": 1978985077971144704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ここで死ぬのを待ってるよりはマシだ。そう思わないか？",
+              "maleVariant": "",
+              "stringId": 1978986875062636544
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_cpz_chat_010.json"
@@ -11,106 +11,80 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もう3ヶ月前か…",
-                    "maleVariant": null,
-                    "stringId": 1963277194359775232
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "アユミ…",
-                    "maleVariant": null,
-                    "stringId": 1967938254815436800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3ヶ月も経ってるのに、まだ跡が残ってるなんて",
-                    "maleVariant": null,
-                    "stringId": 1967938538820149248
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "アユミは頑固だった。これが彼女なりの… 俺たちと一緒にいる方法なのかもしれないな",
-                    "maleVariant": null,
-                    "stringId": 1967939301730492416
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "かわいそうに…",
-                    "maleVariant": null,
-                    "stringId": 1967942759565041664
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "君を忘れることはない",
-                    "maleVariant": null,
-                    "stringId": 1967943042378571776
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それか、でしゃばるとこうなるっていう戒めとして、わざと残してるのかも",
-                    "maleVariant": null,
-                    "stringId": 1967950199673135104
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "で？ 来月も同じ時間でいいか？",
-                    "maleVariant": null,
-                    "stringId": 1967957033117097984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "安らかに眠ってね…",
-                    "maleVariant": null,
-                    "stringId": 1967958134222561280
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "地獄で焼かれな",
-                    "maleVariant": null,
-                    "stringId": 1967960400472121344
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まだ、拭き取られてなければね",
-                    "maleVariant": null,
-                    "stringId": 1967961162040287232
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もう3ヶ月前か…",
+              "maleVariant": "",
+              "stringId": 1963277194359775232
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "アユミ…",
+              "maleVariant": "",
+              "stringId": 1967938254815436800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3ヶ月も経ってるのに、まだ跡が残ってるなんて",
+              "maleVariant": "",
+              "stringId": 1967938538820149248
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "アユミは頑固だった。これが彼女なりの… 俺たちと一緒にいる方法なのかもしれないな",
+              "maleVariant": "",
+              "stringId": 1967939301730492416
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "かわいそうに…",
+              "maleVariant": "",
+              "stringId": 1967942759565041664
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "君を忘れることはない",
+              "maleVariant": "",
+              "stringId": 1967943042378571776
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それか、でしゃばるとこうなるっていう戒めとして、わざと残してるのかも",
+              "maleVariant": "",
+              "stringId": 1967950199673135104
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "で？ 来月も同じ時間でいいか？",
+              "maleVariant": "",
+              "stringId": 1967957033117097984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "安らかに眠ってね…",
+              "maleVariant": "",
+              "stringId": 1967958134222561280
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "地獄で焼かれな",
+              "maleVariant": "",
+              "stringId": 1967960400472121344
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まだ、拭き取られてなければね",
+              "maleVariant": "",
+              "stringId": 1967961162040287232
             }
-          }
+          ]
         }
       }
     },

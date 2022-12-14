@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_high_f_44_engb_50.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "よそに行ってちょうだい",
-                    "maleVariant": null,
-                    "stringId": 1882074026027261956
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あの、今はちょっと…",
-                    "maleVariant": null,
-                    "stringId": 1882074026060816388
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何なの！？",
-                    "maleVariant": null,
-                    "stringId": 1882074026127925252
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どういうつもりなの？",
-                    "maleVariant": null,
-                    "stringId": 1882074026144702468
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもし。私よ",
-                    "maleVariant": null,
-                    "stringId": 1882074026178256900
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "だめ、切らないで、お願い…！ 私にだって権利はあるはずよ… あの子の母親なんだから！ そうでしょ！",
-                    "maleVariant": null,
-                    "stringId": 1882074026245365764
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "時間あるかって…？ もちろんあるけど… 当然よ…！ あの子のために？ いいわ、何でも言って！",
-                    "maleVariant": null,
-                    "stringId": 1882074026262142980
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "会議が終わったら電話するわ",
-                    "maleVariant": null,
-                    "stringId": 1882074026312474628
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "誰か、あの人を止めて！",
-                    "maleVariant": null,
-                    "stringId": 1882074026497024004
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "助けて！",
-                    "maleVariant": null,
-                    "stringId": 1882074026513801220
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お願い、娘がいるの！",
-                    "maleVariant": null,
-                    "stringId": 1882074026614464512
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "娘のためにも死ねないの…！",
-                    "maleVariant": null,
-                    "stringId": 1882074026631241732
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "くだらないことに付き合ってる暇はないの",
-                    "maleVariant": null,
-                    "stringId": 1882074026731905028
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "近寄らないで。NCPDを呼ぶわよ？",
-                    "maleVariant": null,
-                    "stringId": 1882074026748682244
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "よそに行ってちょうだい",
+              "maleVariant": "",
+              "stringId": 1882074026027261956
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あの、今はちょっと…",
+              "maleVariant": "",
+              "stringId": 1882074026060816388
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何なの！？",
+              "maleVariant": "",
+              "stringId": 1882074026127925252
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どういうつもりなの？",
+              "maleVariant": "",
+              "stringId": 1882074026144702468
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもし。私よ",
+              "maleVariant": "",
+              "stringId": 1882074026178256900
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "だめ、切らないで、お願い…！ 私にだって権利はあるはずよ… あの子の母親なんだから！ そうでしょ！",
+              "maleVariant": "",
+              "stringId": 1882074026245365764
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "時間あるかって…？ もちろんあるけど… 当然よ…！ あの子のために？ いいわ、何でも言って！",
+              "maleVariant": "",
+              "stringId": 1882074026262142980
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "会議が終わったら電話するわ",
+              "maleVariant": "",
+              "stringId": 1882074026312474628
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "誰か、あの人を止めて！",
+              "maleVariant": "",
+              "stringId": 1882074026497024004
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "助けて！",
+              "maleVariant": "",
+              "stringId": 1882074026513801220
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お願い、娘がいるの！",
+              "maleVariant": "",
+              "stringId": 1882074026614464512
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "娘のためにも死ねないの…！",
+              "maleVariant": "",
+              "stringId": 1882074026631241732
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "くだらないことに付き合ってる暇はないの",
+              "maleVariant": "",
+              "stringId": 1882074026731905028
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "近寄らないで。NCPDを呼ぶわよ？",
+              "maleVariant": "",
+              "stringId": 1882074026748682244
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_gle_chat_010.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あなた、変わったね",
-                    "maleVariant": null,
-                    "stringId": 1832774546783592448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "成長したって言ってくれない？",
-                    "maleVariant": null,
-                    "stringId": 1966181128498561024
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "成長？ ゾンビみたいな見た目をしながら、銃のことばっか話すようになったのが？",
-                    "maleVariant": null,
-                    "stringId": 1966181286204391424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "前はどんなことでも話せたのに… 今じゃミリテクがどうのこうのっていう話ばっか",
-                    "maleVariant": null,
-                    "stringId": 1966181447383105536
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もっと気楽な会話がしたい… 以前のあなたに戻ってほしい",
-                    "maleVariant": null,
-                    "stringId": 1966181829920407552
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あの頃の私はもういない。ミリテクの前の私は… 何者でもなかった。あなたみたいにね",
-                    "maleVariant": null,
-                    "stringId": 1966181956135403520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あなたも仕事を見つけたらどう？ いつまでもフラフラしてるわけにもいかないでしょ",
-                    "maleVariant": null,
-                    "stringId": 1966182158518960128
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あなた、変わったね",
+              "maleVariant": "",
+              "stringId": 1832774546783592448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "成長したって言ってくれない？",
+              "maleVariant": "",
+              "stringId": 1966181128498561024
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "成長？ ゾンビみたいな見た目をしながら、銃のことばっか話すようになったのが？",
+              "maleVariant": "",
+              "stringId": 1966181286204391424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "前はどんなことでも話せたのに… 今じゃミリテクがどうのこうのっていう話ばっか",
+              "maleVariant": "",
+              "stringId": 1966181447383105536
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もっと気楽な会話がしたい… 以前のあなたに戻ってほしい",
+              "maleVariant": "",
+              "stringId": 1966181829920407552
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あの頃の私はもういない。ミリテクの前の私は… 何者でもなかった。あなたみたいにね",
+              "maleVariant": "",
+              "stringId": 1966181956135403520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あなたも仕事を見つけたらどう？ いつまでもフラフラしてるわけにもいかないでしょ",
+              "maleVariant": "",
+              "stringId": 1966182158518960128
             }
-          }
+          ]
         }
       }
     },

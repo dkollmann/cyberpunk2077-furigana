@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_mid_m_45_mex_25.json"
@@ -11,146 +11,110 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あんたの目、なんか怖いね",
-                    "maleVariant": null,
-                    "stringId": 1948860961711054852
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あんたはなんとなく信用できない",
-                    "maleVariant": null,
-                    "stringId": 1948860961727832068
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ミラー！",
-                    "maleVariant": null,
-                    "stringId": 1948860961794940932
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい！",
-                    "maleVariant": null,
-                    "stringId": 1948860961811718148
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "よう",
-                    "maleVariant": null,
-                    "stringId": 1948860961845272580
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わかってる… 忘れてた… 仕方ないだろ…",
-                    "maleVariant": null,
-                    "stringId": 1948860961895604228
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "で、場所は…？ 前回あそこでやったけど、ウケがよくなかった… さあ、どうだろな",
-                    "maleVariant": null,
-                    "stringId": 1948860961929158660
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "じゃ、またな",
-                    "maleVariant": null,
-                    "stringId": 1948860961962713092
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こんなの夢だ！ あり得ない！",
-                    "maleVariant": null,
-                    "stringId": 1948860962130485252
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "逃げろ！",
-                    "maleVariant": null,
-                    "stringId": 1948860962147262468
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "俺が何をしたっていうんだ！",
-                    "maleVariant": null,
-                    "stringId": 1948860962214371332
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何がしたいんだ",
-                    "maleVariant": null,
-                    "stringId": 1948860962247925760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "問題はごめんだ",
-                    "maleVariant": null,
-                    "stringId": 1948860962331811844
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "後ろには誰もいない、後ろには誰もいない",
-                    "maleVariant": null,
-                    "stringId": 1948860962365366276
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "怒鳴るな。今日ダウンロードして送る… なんてこたない、ご利用頂きどうも、ははは",
-                    "maleVariant": null,
-                    "stringId": 1948904756318167040
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あはは、わかった！ 任せとけって",
-                    "maleVariant": null,
-                    "stringId": 1948905182560116736
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あんたの目、なんか怖いね",
+              "maleVariant": "",
+              "stringId": 1948860961711054852
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あんたはなんとなく信用できない",
+              "maleVariant": "",
+              "stringId": 1948860961727832068
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ミラー！",
+              "maleVariant": "",
+              "stringId": 1948860961794940932
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい！",
+              "maleVariant": "",
+              "stringId": 1948860961811718148
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "よう",
+              "maleVariant": "",
+              "stringId": 1948860961845272580
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わかってる… 忘れてた… 仕方ないだろ…",
+              "maleVariant": "",
+              "stringId": 1948860961895604228
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "で、場所は…？ 前回あそこでやったけど、ウケがよくなかった… さあ、どうだろな",
+              "maleVariant": "",
+              "stringId": 1948860961929158660
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "じゃ、またな",
+              "maleVariant": "",
+              "stringId": 1948860961962713092
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こんなの夢だ！ あり得ない！",
+              "maleVariant": "",
+              "stringId": 1948860962130485252
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "逃げろ！",
+              "maleVariant": "",
+              "stringId": 1948860962147262468
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "俺が何をしたっていうんだ！",
+              "maleVariant": "",
+              "stringId": 1948860962214371332
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何がしたいんだ",
+              "maleVariant": "",
+              "stringId": 1948860962247925760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "問題はごめんだ",
+              "maleVariant": "",
+              "stringId": 1948860962331811844
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "後ろには誰もいない、後ろには誰もいない",
+              "maleVariant": "",
+              "stringId": 1948860962365366276
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "怒鳴るな。今日ダウンロードして送る… なんてこたない、ご利用頂きどうも、ははは",
+              "maleVariant": "",
+              "stringId": 1948904756318167040
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あはは、わかった！ 任せとけって",
+              "maleVariant": "",
+              "stringId": 1948905182560116736
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\mq041\\mq041_corpo_01_deadmans_switch.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "V、フランクだ。アラサカの。覚えてるか？",
-                    "maleVariant": null,
-                    "stringId": 1822800113761656832
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ… うん、もちろん。急に電話してくるなんて――",
-                    "maleVariant": "ああ… そりゃ、もちろん。急に電話してくるなんて――",
-                    "stringId": 1822802647440039936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "頼む、最後まで聞いてくれ",
-                    "maleVariant": null,
-                    "stringId": 1822803091549724672
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "アバナシーがリストラを始めた。支持しない奴が粛清されてる",
-                    "maleVariant": null,
-                    "stringId": 1822803529535725568
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なぜか俺もリストに入ってる。お前も知ってのとおり、そこに載ったら逃げられない",
-                    "maleVariant": null,
-                    "stringId": 1822803896772206592
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "だが、何もしないで待つつもりはない。あの女を破滅させるための証拠をファイルにまとめてるんだ",
-                    "maleVariant": null,
-                    "stringId": 1822804051693019136
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あとは頼んだぞ、V",
-                    "maleVariant": null,
-                    "stringId": 1822804282128080896
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "全ての書類は、とある場所に隠しておく。俺に何かあった時は、お前にこの伝言と位置情報が送られる",
-                    "maleVariant": null,
-                    "stringId": 1874799152169537536
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソッ…",
-                    "maleVariant": null,
-                    "stringId": 1874801294016040960
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "V、フランクだ。アラサカの。覚えてるか？",
+              "maleVariant": "",
+              "stringId": 1822800113761656832
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ… うん、もちろん。急に電話してくるなんて――",
+              "maleVariant": "ああ… そりゃ、もちろん。急に電話してくるなんて――",
+              "stringId": 1822802647440039936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "頼む、最後まで聞いてくれ",
+              "maleVariant": "",
+              "stringId": 1822803091549724672
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "アバナシーがリストラを始めた。支持しない奴が粛清されてる",
+              "maleVariant": "",
+              "stringId": 1822803529535725568
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なぜか俺もリストに入ってる。お前も知ってのとおり、そこに載ったら逃げられない",
+              "maleVariant": "",
+              "stringId": 1822803896772206592
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "だが、何もしないで待つつもりはない。あの女を破滅させるための証拠をファイルにまとめてるんだ",
+              "maleVariant": "",
+              "stringId": 1822804051693019136
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あとは頼んだぞ、V",
+              "maleVariant": "",
+              "stringId": 1822804282128080896
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "全ての書類は、とある場所に隠しておく。俺に何かあった時は、お前にこの伝言と位置情報が送られる",
+              "maleVariant": "",
+              "stringId": 1874799152169537536
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソッ…",
+              "maleVariant": "",
+              "stringId": 1874801294016040960
             }
-          }
+          ]
         }
       }
     },

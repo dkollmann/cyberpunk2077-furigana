@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_high_m_07_enus_40.json"
@@ -11,154 +11,116 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どなたかな…？",
-                    "maleVariant": null,
-                    "stringId": 1878029906212298756
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "知らない相手とは話さないようにしてる",
-                    "maleVariant": null,
-                    "stringId": 1878029906245853188
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今、触ったか？",
-                    "maleVariant": null,
-                    "stringId": 1878029906312962048
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今すぐ離れろ！",
-                    "maleVariant": null,
-                    "stringId": 1878029906329739268
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもし…？ 間違い電話ですよ",
-                    "maleVariant": null,
-                    "stringId": 1878029906363293700
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "冗談だ、私だよ…！ それはつまり… いや… 見てない… 本当にトラブルに巻き込まれやすい女だな…",
-                    "maleVariant": null,
-                    "stringId": 1878029906430402564
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "心当たり…？ あるわけないじゃないか… 君の妹だろ… 一緒に遊んでただろって…？ せいぜい2回くらいだよ",
-                    "maleVariant": null,
-                    "stringId": 1878029906463956996
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "じゃあ頑張ってくれ",
-                    "maleVariant": null,
-                    "stringId": 1878029906497511428
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "嘘だろ、またか…！",
-                    "maleVariant": null,
-                    "stringId": 1878029906682060804
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "勘弁してくれ！",
-                    "maleVariant": null,
-                    "stringId": 1878029906698838020
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ほっといてくれ！",
-                    "maleVariant": null,
-                    "stringId": 1878029906833055744
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "金はあるんだ… 欲しいならやるから…！",
-                    "maleVariant": null,
-                    "stringId": 1878029906967273476
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私に触れたら後悔するぞ",
-                    "maleVariant": null,
-                    "stringId": 1878029907118268420
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私の我慢を試す気か？",
-                    "maleVariant": null,
-                    "stringId": 1878029907135045636
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まだ話は終わってないぞ",
-                    "maleVariant": null,
-                    "stringId": 1958926110161936388
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ、戻ったのか",
-                    "maleVariant": null,
-                    "stringId": 1958926110212268036
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "待ってる時間はないんだ",
-                    "maleVariant": null,
-                    "stringId": 1958926110229045252
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どなたかな…？",
+              "maleVariant": "",
+              "stringId": 1878029906212298756
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "知らない相手とは話さないようにしてる",
+              "maleVariant": "",
+              "stringId": 1878029906245853188
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今、触ったか？",
+              "maleVariant": "",
+              "stringId": 1878029906312962048
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今すぐ離れろ！",
+              "maleVariant": "",
+              "stringId": 1878029906329739268
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもし…？ 間違い電話ですよ",
+              "maleVariant": "",
+              "stringId": 1878029906363293700
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "冗談だ、私だよ…！ それはつまり… いや… 見てない… 本当にトラブルに巻き込まれやすい女だな…",
+              "maleVariant": "",
+              "stringId": 1878029906430402564
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "心当たり…？ あるわけないじゃないか… 君の妹だろ… 一緒に遊んでただろって…？ せいぜい2回くらいだよ",
+              "maleVariant": "",
+              "stringId": 1878029906463956996
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "じゃあ頑張ってくれ",
+              "maleVariant": "",
+              "stringId": 1878029906497511428
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "嘘だろ、またか…！",
+              "maleVariant": "",
+              "stringId": 1878029906682060804
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "勘弁してくれ！",
+              "maleVariant": "",
+              "stringId": 1878029906698838020
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ほっといてくれ！",
+              "maleVariant": "",
+              "stringId": 1878029906833055744
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "金はあるんだ… 欲しいならやるから…！",
+              "maleVariant": "",
+              "stringId": 1878029906967273476
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私に触れたら後悔するぞ",
+              "maleVariant": "",
+              "stringId": 1878029907118268420
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私の我慢を試す気か？",
+              "maleVariant": "",
+              "stringId": 1878029907135045636
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まだ話は終わってないぞ",
+              "maleVariant": "",
+              "stringId": 1958926110161936388
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ、戻ったのか",
+              "maleVariant": "",
+              "stringId": 1958926110212268036
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "待ってる時間はないんだ",
+              "maleVariant": "",
+              "stringId": 1958926110229045252
             }
-          }
+          ]
         }
       }
     },

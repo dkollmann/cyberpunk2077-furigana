@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_spr_chat_021.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いいから黙って人の話を聞け！",
-                    "maleVariant": null,
-                    "stringId": 2162125980397449216
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いや、そっちが黙れ！ 話のわからねえジジイが。連中のせいで何人殺されたと思ってる！？",
-                    "maleVariant": null,
-                    "stringId": 2213044531687165952
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "逆だ！ 何人生き延びたと思ってる？ 何も知らないひよっこがナマ言うんじゃねえ！",
-                    "maleVariant": null,
-                    "stringId": 2218748144354955264
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お前が何知ってるって言うんだよ、ゼロ世代の老いぼれめ",
-                    "maleVariant": null,
-                    "stringId": 2218748662183727104
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "よく聞け、恩知らずのガキが！ ティーノズがいなければ、俺たちはいまだに家のなかに籠っておびえながら暮らしてたんだぞ！",
-                    "maleVariant": null,
-                    "stringId": 2218748980833390592
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ウソ言うな！ ヴァレンティーノズがでかい顔をし始める前から警察が地域を取り締まってたし、奴らに金を払う必要もなかった！ 普通の暮らしができてたんだ！",
-                    "maleVariant": null,
-                    "stringId": 2218749428583731200
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何言ってる。警察など、ここには近寄りもしなかった！ コンバット・ゾーン同然だったここが、ティーノズのおかげで落ち着いたんだ",
-                    "maleVariant": null,
-                    "stringId": 2218759142944116736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "知るか。ジジイも、ティーノズもクソ食らえだ！",
-                    "maleVariant": null,
-                    "stringId": 2218760070136958976
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いいから黙って人の話を聞け！",
+              "maleVariant": "",
+              "stringId": 2162125980397449216
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いや、そっちが黙れ！ 話のわからねえジジイが。連中のせいで何人殺されたと思ってる！？",
+              "maleVariant": "",
+              "stringId": 2213044531687165952
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "逆だ！ 何人生き延びたと思ってる？ 何も知らないひよっこがナマ言うんじゃねえ！",
+              "maleVariant": "",
+              "stringId": 2218748144354955264
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お前が何知ってるって言うんだよ、ゼロ世代の老いぼれめ",
+              "maleVariant": "",
+              "stringId": 2218748662183727104
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "よく聞け、恩知らずのガキが！ ティーノズがいなければ、俺たちはいまだに家のなかに籠っておびえながら暮らしてたんだぞ！",
+              "maleVariant": "",
+              "stringId": 2218748980833390592
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ウソ言うな！ ヴァレンティーノズがでかい顔をし始める前から警察が地域を取り締まってたし、奴らに金を払う必要もなかった！ 普通の暮らしができてたんだ！",
+              "maleVariant": "",
+              "stringId": 2218749428583731200
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何言ってる。警察など、ここには近寄りもしなかった！ コンバット・ゾーン同然だったここが、ティーノズのおかげで落ち着いたんだ",
+              "maleVariant": "",
+              "stringId": 2218759142944116736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "知るか。ジジイも、ティーノズもクソ食らえだ！",
+              "maleVariant": "",
+              "stringId": 2218760070136958976
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_cpz_chat_034.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "オーームーーー…",
-                    "maleVariant": null,
-                    "stringId": 2172148285126074368
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "オーームーーー…",
-                    "maleVariant": null,
-                    "stringId": 2208492400590295040
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "オーームーーー…",
-                    "maleVariant": null,
-                    "stringId": 2208492723753029632
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "弟子よ！ 喉のチャクラが滞っているぞ！ 口蓋の経絡を解放しなさい",
-                    "maleVariant": null,
-                    "stringId": 2208493017152983040
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "みな、忘れてはいけません。唱えることでエネルギーの流れを促すのです",
-                    "maleVariant": null,
-                    "stringId": 2208498522260869120
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そなたを遮ろうとする雑念を一切捨てて、癒やしの振動だけに集中しなさい",
-                    "maleVariant": null,
-                    "stringId": 2208527479299477504
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "オーームーーー…",
+              "maleVariant": "",
+              "stringId": 2172148285126074368
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "オーームーーー…",
+              "maleVariant": "",
+              "stringId": 2208492400590295040
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "オーームーーー…",
+              "maleVariant": "",
+              "stringId": 2208492723753029632
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "弟子よ！ 喉のチャクラが滞っているぞ！ 口蓋の経絡を解放しなさい",
+              "maleVariant": "",
+              "stringId": 2208493017152983040
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "みな、忘れてはいけません。唱えることでエネルギーの流れを促すのです",
+              "maleVariant": "",
+              "stringId": 2208498522260869120
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そなたを遮ろうとする雑念を一切捨てて、癒やしの振動だけに集中しなさい",
+              "maleVariant": "",
+              "stringId": 2208527479299477504
             }
-          }
+          ]
         }
       }
     },

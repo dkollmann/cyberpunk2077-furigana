@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_bls_ina_03_holocall_debriefs.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "アンテナの件、よくやってくれた。世の中には才能を無駄遣いする奴が多いが、お前は心配なさそうだ",
-                    "maleVariant": null,
-                    "stringId": 2328813252985712640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "モスキートのルートはこれで確保できた。仕事は完了だ。ご苦労だったね",
-                    "maleVariant": null,
-                    "stringId": 2332959587667001344
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "驚いた… まったく見事なもんだよ。仕事はスマートにこなすに限るね",
-                    "maleVariant": null,
-                    "stringId": 2332960825439666176
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "モスキートのドローン用ルートはこれで確保できた。いい仕事ぶりだったよ",
-                    "maleVariant": null,
-                    "stringId": 2332964669972267008
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "アンテナの件、よくやってくれた。世の中には才能を無駄遣いする奴が多いが、お前は心配なさそうだ",
+              "maleVariant": "",
+              "stringId": 2328813252985712640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "モスキートのルートはこれで確保できた。仕事は完了だ。ご苦労だったね",
+              "maleVariant": "",
+              "stringId": 2332959587667001344
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "驚いた… まったく見事なもんだよ。仕事はスマートにこなすに限るね",
+              "maleVariant": "",
+              "stringId": 2332960825439666176
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "モスキートのドローン用ルートはこれで確保できた。いい仕事ぶりだったよ",
+              "maleVariant": "",
+              "stringId": 2332964669972267008
             }
-          }
+          ]
         }
       }
     },

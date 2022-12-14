@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_mid_m_72_car_30.json"
@@ -11,146 +11,110 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "俺誰か知ってるのか？ やっぱりな",
-                    "maleVariant": null,
-                    "stringId": 1949004104515313668
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "んー、気に入った。でも忙しいんだ",
-                    "maleVariant": null,
-                    "stringId": 1949004104532090884
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おいおい、気をつけろ！",
-                    "maleVariant": null,
-                    "stringId": 1949004104582422532
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "近づきすぎだろ！",
-                    "maleVariant": null,
-                    "stringId": 1949004104615976964
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "調子どうだ？",
-                    "maleVariant": null,
-                    "stringId": 1949004104649531396
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "だったらいつも連絡してくるなよ…",
-                    "maleVariant": null,
-                    "stringId": 1949004104699863044
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "問題のことなんか聞きたくない。とにかくやるべきことをやれ…",
-                    "maleVariant": null,
-                    "stringId": 1949004104716640260
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "じゃあな",
-                    "maleVariant": null,
-                    "stringId": 1949004104750194692
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "生きてるって感じだ！",
-                    "maleVariant": null,
-                    "stringId": 1949004104884412420
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ははは！ ひでえことになるぞ！",
-                    "maleVariant": null,
-                    "stringId": 1949004104901189636
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "死にたくない！",
-                    "maleVariant": null,
-                    "stringId": 1949004104985075716
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やめるんだ！",
-                    "maleVariant": null,
-                    "stringId": 1949004105001852932
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "言うことあるなら言えよ",
-                    "maleVariant": null,
-                    "stringId": 1949004105085739012
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何なんだ？ 交尾の儀式のつもりか？",
-                    "maleVariant": null,
-                    "stringId": 1949004105102516228
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "終わったら話そう… ああ、今日のうちにだ…",
-                    "maleVariant": null,
-                    "stringId": 1949005925849882624
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なんだよ… 俺、お前の子守じゃないんだぞ…？ ああ…",
-                    "maleVariant": null,
-                    "stringId": 1949006223024709632
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "俺誰か知ってるのか？ やっぱりな",
+              "maleVariant": "",
+              "stringId": 1949004104515313668
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "んー、気に入った。でも忙しいんだ",
+              "maleVariant": "",
+              "stringId": 1949004104532090884
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おいおい、気をつけろ！",
+              "maleVariant": "",
+              "stringId": 1949004104582422532
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "近づきすぎだろ！",
+              "maleVariant": "",
+              "stringId": 1949004104615976964
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "調子どうだ？",
+              "maleVariant": "",
+              "stringId": 1949004104649531396
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "だったらいつも連絡してくるなよ…",
+              "maleVariant": "",
+              "stringId": 1949004104699863044
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "問題のことなんか聞きたくない。とにかくやるべきことをやれ…",
+              "maleVariant": "",
+              "stringId": 1949004104716640260
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "じゃあな",
+              "maleVariant": "",
+              "stringId": 1949004104750194692
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "生きてるって感じだ！",
+              "maleVariant": "",
+              "stringId": 1949004104884412420
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ははは！ ひでえことになるぞ！",
+              "maleVariant": "",
+              "stringId": 1949004104901189636
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "死にたくない！",
+              "maleVariant": "",
+              "stringId": 1949004104985075716
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やめるんだ！",
+              "maleVariant": "",
+              "stringId": 1949004105001852932
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "言うことあるなら言えよ",
+              "maleVariant": "",
+              "stringId": 1949004105085739012
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何なんだ？ 交尾の儀式のつもりか？",
+              "maleVariant": "",
+              "stringId": 1949004105102516228
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "終わったら話そう… ああ、今日のうちにだ…",
+              "maleVariant": "",
+              "stringId": 1949005925849882624
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なんだよ… 俺、お前の子守じゃないんだぞ…？ ああ…",
+              "maleVariant": "",
+              "stringId": 1949006223024709632
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\animated_billboards\\ab_ad_mrwhitey.json"
@@ -11,42 +11,32 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ようようよう、ハイテンションでやってるか？ ミスターホワイティだ！",
-                    "maleVariant": null,
-                    "stringId": 1985315510313459712
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いつものショボいドッグフードは捨てて、スイートスイート・クリーンスピードを味わってみろ！",
-                    "maleVariant": null,
-                    "stringId": 1993591919674183680
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "人生は短い――ショップへ急げ！",
-                    "maleVariant": null,
-                    "stringId": 1993593098105835520
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ようようよう、ハイテンションでやってるか？ ミスターホワイティだ！",
+              "maleVariant": "",
+              "stringId": 1985315510313459712
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いつものショボいドッグフードは捨てて、スイートスイート・クリーンスピードを味わってみろ！",
+              "maleVariant": "",
+              "stringId": 1993591919674183680
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "人生は短い――ショップへ急げ！",
+              "maleVariant": "",
+              "stringId": 1993593098105835520
             }
-          }
+          ]
         }
       }
     },

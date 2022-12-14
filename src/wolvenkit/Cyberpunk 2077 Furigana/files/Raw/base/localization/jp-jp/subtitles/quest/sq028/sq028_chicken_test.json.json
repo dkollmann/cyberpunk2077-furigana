@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\sq028\\sq028_chicken_test.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us]From the start.",
-                    "maleVariant": "[en_us][db_db]From the start.",
-                    "stringId": 1368987833829691392
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us]On the cabin cruiser.",
-                    "maleVariant": "[en_us][db_db]On the cabin cruiser.",
-                    "stringId": 1368987985562832896
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us]On the beach.",
-                    "maleVariant": "[en_us][db_db]On the beach.",
-                    "stringId": 1368988636887912448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Was there kissu kissu with Kerry?",
-                    "maleVariant": null,
-                    "stringId": 1743057479914385408
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]After quest - sms",
-                    "maleVariant": null,
-                    "stringId": 2070517436308033536
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]Yacht in marina.",
-                    "maleVariant": null,
-                    "stringId": 2166441404088487936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]spawn near",
-                    "maleVariant": null,
-                    "stringId": 2415688967998705668
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][db_db]spawn far",
-                    "maleVariant": null,
-                    "stringId": 2415689514382299136
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us]From the start.",
+              "maleVariant": "[en_us][db_db]From the start.",
+              "stringId": 1368987833829691392
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us]On the cabin cruiser.",
+              "maleVariant": "[en_us][db_db]On the cabin cruiser.",
+              "stringId": 1368987985562832896
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us]On the beach.",
+              "maleVariant": "[en_us][db_db]On the beach.",
+              "stringId": 1368988636887912448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Was there kissu kissu with Kerry?",
+              "maleVariant": "",
+              "stringId": 1743057479914385408
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]After quest - sms",
+              "maleVariant": "",
+              "stringId": 2070517436308033536
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]Yacht in marina.",
+              "maleVariant": "",
+              "stringId": 2166441404088487936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]spawn near",
+              "maleVariant": "",
+              "stringId": 2415688967998705668
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][db_db]spawn far",
+              "maleVariant": "",
+              "stringId": 2415689514382299136
             }
-          }
+          ]
         }
       }
     },

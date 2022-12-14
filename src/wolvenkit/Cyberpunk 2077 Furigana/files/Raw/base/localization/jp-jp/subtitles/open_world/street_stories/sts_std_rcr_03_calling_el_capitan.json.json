@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_std_rcr_03_calling_el_capitan.json"
@@ -11,138 +11,104 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "よう。どうした？",
-                    "maleVariant": null,
-                    "stringId": 1622762812727427072
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "シックス・ストリートがもう来てる",
-                    "maleVariant": null,
-                    "stringId": 1622763486248763396
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "シックス・ストリートの連中に先を越された",
-                    "maleVariant": null,
-                    "stringId": 1622763984716627968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "シックス・ストリートに皆殺しにされてる",
-                    "maleVariant": null,
-                    "stringId": 1622764036725997568
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "フラビオを見つけた。怪我をしてる",
-                    "maleVariant": null,
-                    "stringId": 1622764339504414720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "また連絡する",
-                    "maleVariant": null,
-                    "stringId": 1622777912993579008
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何？ くそ、誰が漏らしやがった！",
-                    "maleVariant": null,
-                    "stringId": 1622778936101765120
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "シックス・ストリートの連中にやられた。現場は血の海よ",
-                    "maleVariant": "シックス・ストリートの連中にやられた。現場は血の海だ",
-                    "stringId": 1622779382610591744
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうかい。とにかく依頼主の安否を確かめろ",
-                    "maleVariant": null,
-                    "stringId": 1622779690237624320
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "フラビオがいた。怪我はしてるけど、生きてる",
-                    "maleVariant": "フラビオがいた。怪我はしてるが、まだ生きてる",
-                    "stringId": 1622780072053506048
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ったく、面倒だな。奴を運べそうか？",
-                    "maleVariant": null,
-                    "stringId": 1895119800242712576
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "また後で",
-                    "maleVariant": null,
-                    "stringId": 1895120997431291904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ええ、たぶん",
-                    "maleVariant": "ああ、たぶん",
-                    "stringId": 1943038452400705536
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なら計画続行だ。例の場所で奴に手当てを受けさせろ",
-                    "maleVariant": null,
-                    "stringId": 1943038634416721920
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "中に入れ。依頼主は無事かもしれん",
-                    "maleVariant": null,
-                    "stringId": 1943041565077590016
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "よう。どうした？",
+              "maleVariant": "",
+              "stringId": 1622762812727427072
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "シックス・ストリートがもう来てる",
+              "maleVariant": "",
+              "stringId": 1622763486248763396
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "シックス・ストリートの連中に先を越された",
+              "maleVariant": "",
+              "stringId": 1622763984716627968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "シックス・ストリートに皆殺しにされてる",
+              "maleVariant": "",
+              "stringId": 1622764036725997568
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "フラビオを見つけた。怪我をしてる",
+              "maleVariant": "",
+              "stringId": 1622764339504414720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "また連絡する",
+              "maleVariant": "",
+              "stringId": 1622777912993579008
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何？ くそ、誰が漏らしやがった！",
+              "maleVariant": "",
+              "stringId": 1622778936101765120
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "シックス・ストリートの連中にやられた。現場は血の海よ",
+              "maleVariant": "シックス・ストリートの連中にやられた。現場は血の海だ",
+              "stringId": 1622779382610591744
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうかい。とにかく依頼主の安否を確かめろ",
+              "maleVariant": "",
+              "stringId": 1622779690237624320
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "フラビオがいた。怪我はしてるけど、生きてる",
+              "maleVariant": "フラビオがいた。怪我はしてるが、まだ生きてる",
+              "stringId": 1622780072053506048
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ったく、面倒だな。奴を運べそうか？",
+              "maleVariant": "",
+              "stringId": 1895119800242712576
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "また後で",
+              "maleVariant": "",
+              "stringId": 1895120997431291904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ええ、たぶん",
+              "maleVariant": "ああ、たぶん",
+              "stringId": 1943038452400705536
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なら計画続行だ。例の場所で奴に手当てを受けさせろ",
+              "maleVariant": "",
+              "stringId": 1943038634416721920
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "中に入れ。依頼主は無事かもしれん",
+              "maleVariant": "",
+              "stringId": 1943041565077590016
             }
-          }
+          ]
         }
       }
     },

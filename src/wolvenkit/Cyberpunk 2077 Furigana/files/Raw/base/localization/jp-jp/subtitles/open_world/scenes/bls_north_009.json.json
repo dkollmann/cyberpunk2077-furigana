@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_north_009.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "砂漠なんて、大嫌いだ",
-                    "maleVariant": null,
-                    "stringId": 1973569779229827072
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ふん、ただの仕事か。太陽が照りつける中で、歯に挟まった砂をほじる以外にやることもないんだぞ",
-                    "maleVariant": null,
-                    "stringId": 1975078611001786368
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "派遣されただけさ… 誰かが州境を警備しないといけないし。ただの仕事だ",
-                    "maleVariant": null,
-                    "stringId": 1975078621588209664
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "で、あんたはなんでここに？",
-                    "maleVariant": null,
-                    "stringId": 1975078634590552064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いい副業だったのに。ストリートで安く売り払って、そこそこ儲けてたんだ",
-                    "maleVariant": null,
-                    "stringId": 1975078648029102080
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "倉庫からクラッシャーをパクろうとしたら、バレてさ",
-                    "maleVariant": null,
-                    "stringId": 1975078657759887360
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "砂漠なんて、大嫌いだ",
+              "maleVariant": "",
+              "stringId": 1973569779229827072
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ふん、ただの仕事か。太陽が照りつける中で、歯に挟まった砂をほじる以外にやることもないんだぞ",
+              "maleVariant": "",
+              "stringId": 1975078611001786368
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "派遣されただけさ… 誰かが州境を警備しないといけないし。ただの仕事だ",
+              "maleVariant": "",
+              "stringId": 1975078621588209664
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "で、あんたはなんでここに？",
+              "maleVariant": "",
+              "stringId": 1975078634590552064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いい副業だったのに。ストリートで安く売り払って、そこそこ儲けてたんだ",
+              "maleVariant": "",
+              "stringId": 1975078648029102080
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "倉庫からクラッシャーをパクろうとしたら、バレてさ",
+              "maleVariant": "",
+              "stringId": 1975078657759887360
             }
-          }
+          ]
         }
       }
     },

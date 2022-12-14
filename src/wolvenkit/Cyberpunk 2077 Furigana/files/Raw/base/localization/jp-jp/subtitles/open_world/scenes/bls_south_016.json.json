@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_south_016.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "よし、次に身なりのいい奴が来たら、そいつを取り調べてやろう",
-                    "maleVariant": null,
-                    "stringId": 2178283834666639360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クビになるぞ。好き放題に所持品を盗むわけにはいかない。そのうち通報されるに決まってる",
-                    "maleVariant": null,
-                    "stringId": 2181177136598704128
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何言ってる、いちいち説明しないといけないのか？",
-                    "maleVariant": null,
-                    "stringId": 2181179076447526912
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なるほど… なあ、お前ギャングの仲間なんだよな？",
-                    "maleVariant": null,
-                    "stringId": 2181184670222999552
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "期待されても困る。それに「仲間」ってのは正確じゃない。もう抜けたからな",
-                    "maleVariant": null,
-                    "stringId": 2181185384680742912
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "濡れ衣を着せられたのさ。その後、刺客を送られ、撃たれはしたが… どうにか街の端まで逃げたんだ",
-                    "maleVariant": null,
-                    "stringId": 2181195613011140608
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "排水路に4日間もいたんだぞ！ でもまあ、傷口に色んな虫が寄ってきたから、食うものには困らなかったがな",
-                    "maleVariant": null,
-                    "stringId": 2181197481305137152
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いいか、たっぷり時間をかけて調べりゃ、そのうち折れるか、買収をもちかけてくる",
-                    "maleVariant": null,
-                    "stringId": 2188026908013977600
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "よし、次に身なりのいい奴が来たら、そいつを取り調べてやろう",
+              "maleVariant": "",
+              "stringId": 2178283834666639360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クビになるぞ。好き放題に所持品を盗むわけにはいかない。そのうち通報されるに決まってる",
+              "maleVariant": "",
+              "stringId": 2181177136598704128
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何言ってる、いちいち説明しないといけないのか？",
+              "maleVariant": "",
+              "stringId": 2181179076447526912
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なるほど… なあ、お前ギャングの仲間なんだよな？",
+              "maleVariant": "",
+              "stringId": 2181184670222999552
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "期待されても困る。それに「仲間」ってのは正確じゃない。もう抜けたからな",
+              "maleVariant": "",
+              "stringId": 2181185384680742912
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "濡れ衣を着せられたのさ。その後、刺客を送られ、撃たれはしたが… どうにか街の端まで逃げたんだ",
+              "maleVariant": "",
+              "stringId": 2181195613011140608
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "排水路に4日間もいたんだぞ！ でもまあ、傷口に色んな虫が寄ってきたから、食うものには困らなかったがな",
+              "maleVariant": "",
+              "stringId": 2181197481305137152
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いいか、たっぷり時間をかけて調べりゃ、そのうち折れるか、買収をもちかけてくる",
+              "maleVariant": "",
+              "stringId": 2188026908013977600
             }
-          }
+          ]
         }
       }
     },

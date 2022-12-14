@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\finalboards\\fb_judy_nomads_hut.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもーし、V！",
-                    "maleVariant": null,
-                    "stringId": 1790638455853588484
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私よ、私。なんであなたが朝食を作ってる最中に、メッセージを残してるかって？",
-                    "maleVariant": null,
-                    "stringId": 1800990085298765824
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "だって、ほら… 私、気持ちを伝えるのが苦手っていうか… 面と向かってやると、泣いちゃうからさ",
-                    "maleVariant": null,
-                    "stringId": 1800990262734602240
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "だから… こうやって伝えるのが一番いいかなと思って",
-                    "maleVariant": null,
-                    "stringId": 1800990552510676992
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "V、私は今… その… 人生で初めて幸せを感じてる。それも全部、あなたの――",
-                    "maleVariant": null,
-                    "stringId": 1800990722178662400
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ほら、起きて！ 朝食できてるよ！",
-                    "maleVariant": "ほら、起きろ！ 朝飯できてるぞ！",
-                    "stringId": 1800991008465076224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "噂をすればね… じゃ、また後で",
-                    "maleVariant": null,
-                    "stringId": 1800993210306904064
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもーし、V！",
+              "maleVariant": "",
+              "stringId": 1790638455853588484
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私よ、私。なんであなたが朝食を作ってる最中に、メッセージを残してるかって？",
+              "maleVariant": "",
+              "stringId": 1800990085298765824
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "だって、ほら… 私、気持ちを伝えるのが苦手っていうか… 面と向かってやると、泣いちゃうからさ",
+              "maleVariant": "",
+              "stringId": 1800990262734602240
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "だから… こうやって伝えるのが一番いいかなと思って",
+              "maleVariant": "",
+              "stringId": 1800990552510676992
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "V、私は今… その… 人生で初めて幸せを感じてる。それも全部、あなたの――",
+              "maleVariant": "",
+              "stringId": 1800990722178662400
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ほら、起きて！ 朝食できてるよ！",
+              "maleVariant": "ほら、起きろ！ 朝飯できてるぞ！",
+              "stringId": 1800991008465076224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "噂をすればね… じゃ、また後で",
+              "maleVariant": "",
+              "stringId": 1800993210306904064
             }
-          }
+          ]
         }
       }
     },

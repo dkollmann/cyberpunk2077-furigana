@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_south_006.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソ！",
-                    "maleVariant": null,
-                    "stringId": 1973555961414066176
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソ、クソ、クソ！",
-                    "maleVariant": null,
-                    "stringId": 1974934954478215168
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "一体何が起きたんだ？",
-                    "maleVariant": null,
-                    "stringId": 1974935572148199424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "アルデカルドスの仕業か。連中のボスを助けに来たんじゃ？",
-                    "maleVariant": null,
-                    "stringId": 1974955417917005824
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あの連中にそんな度胸はねえだろ。仮にそうだったとしても、誰かの助けを借りたに違いねえ",
-                    "maleVariant": null,
-                    "stringId": 1974956461912825856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "チッ、とにかく一旦戻って助けを呼ぼう",
-                    "maleVariant": null,
-                    "stringId": 1974959611700912128
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "その前に、周囲を調べるべきだろ",
-                    "maleVariant": null,
-                    "stringId": 1974960537601908736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お前一人でやれ。俺はもう行くぞ！",
-                    "maleVariant": null,
-                    "stringId": 1974960884437295104
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソ！",
+              "maleVariant": "",
+              "stringId": 1973555961414066176
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソ、クソ、クソ！",
+              "maleVariant": "",
+              "stringId": 1974934954478215168
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "一体何が起きたんだ？",
+              "maleVariant": "",
+              "stringId": 1974935572148199424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "アルデカルドスの仕業か。連中のボスを助けに来たんじゃ？",
+              "maleVariant": "",
+              "stringId": 1974955417917005824
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あの連中にそんな度胸はねえだろ。仮にそうだったとしても、誰かの助けを借りたに違いねえ",
+              "maleVariant": "",
+              "stringId": 1974956461912825856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "チッ、とにかく一旦戻って助けを呼ぼう",
+              "maleVariant": "",
+              "stringId": 1974959611700912128
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "その前に、周囲を調べるべきだろ",
+              "maleVariant": "",
+              "stringId": 1974960537601908736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お前一人でやれ。俺はもう行くぞ！",
+              "maleVariant": "",
+              "stringId": 1974960884437295104
             }
-          }
+          ]
         }
       }
     },

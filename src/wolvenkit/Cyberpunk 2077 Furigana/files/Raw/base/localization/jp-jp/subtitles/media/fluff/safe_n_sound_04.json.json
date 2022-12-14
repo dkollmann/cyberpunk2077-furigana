@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\fluff\\safe_n_sound_04.json"
@@ -11,106 +11,80 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ようこそ、“あんしんシティライフ”へ。本官はドブズ警部だ。街を離れる予定があるなら、今回は必見の回だぞ！",
-                    "maleVariant": null,
-                    "stringId": 1805369553240965120
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ミスター・パギンズは、街の外に出かけないといけない。出発前に気をつけることは？",
-                    "maleVariant": null,
-                    "stringId": 1805369907458326528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "第一に、街を出るときは最低でも1週間分の水と食料、CHOOH-2を準備しよう。備えあれば憂いなしだ！",
-                    "maleVariant": null,
-                    "stringId": 1805370037079097344
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "次に、可能な限り、同行者を探そう",
-                    "maleVariant": null,
-                    "stringId": 1805370428860645376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "必ず武器を持たせること。場合によっては、水より弾丸の方が大事なことだってある",
-                    "maleVariant": null,
-                    "stringId": 1805370678119743488
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "3つ目。目的地に砂嵐警報が出ていないか、天気予報を忘れずにチェックしよう",
-                    "maleVariant": null,
-                    "stringId": 1805370925650788352
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "最後に忘れてはならないのが、街の境界線を越える時は、有効なパスを所持しておくこと。見てのとおり、それがないと監視塔から撃たれて穴だらけのチーズにされてしまう。そんなのは我々の街を襲う、無法者のノーマッドだけで十分だ",
-                    "maleVariant": null,
-                    "stringId": 1805371826486624256
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ノーマッドといえば、バッドランズに入ったらミスター・パギンズは一切油断できない。そこではNCPDの勇敢な警官たちは、もう君のことを守ってはくれないぞ",
-                    "maleVariant": null,
-                    "stringId": 1805373340361932800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ノーマッドの気配や痕跡を察知したら、安全のため、ただちに街に避難したほうがいいだろう。でないと、道路脇の溝でハゲタカの餌になることに",
-                    "maleVariant": null,
-                    "stringId": 1805373503419695104
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "最後に、車でナイトシティの外に出るのは相当の覚悟が必要だ！ もし可能なら、空の移動をお勧めする",
-                    "maleVariant": null,
-                    "stringId": 1805374402292596736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "さて、今日の“あんしんシティライフ”はここまで。みんなしっかり生き延びろ！",
-                    "maleVariant": null,
-                    "stringId": 1805374561609039872
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ようこそ、“あんしんシティライフ”へ。本官はドブズ警部だ。街を離れる予定があるなら、今回は必見の回だぞ！",
+              "maleVariant": "",
+              "stringId": 1805369553240965120
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ミスター・パギンズは、街の外に出かけないといけない。出発前に気をつけることは？",
+              "maleVariant": "",
+              "stringId": 1805369907458326528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "第一に、街を出るときは最低でも1週間分の水と食料、CHOOH-2を準備しよう。備えあれば憂いなしだ！",
+              "maleVariant": "",
+              "stringId": 1805370037079097344
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "次に、可能な限り、同行者を探そう",
+              "maleVariant": "",
+              "stringId": 1805370428860645376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "必ず武器を持たせること。場合によっては、水より弾丸の方が大事なことだってある",
+              "maleVariant": "",
+              "stringId": 1805370678119743488
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "3つ目。目的地に砂嵐警報が出ていないか、天気予報を忘れずにチェックしよう",
+              "maleVariant": "",
+              "stringId": 1805370925650788352
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "最後に忘れてはならないのが、街の境界線を越える時は、有効なパスを所持しておくこと。見てのとおり、それがないと監視塔から撃たれて穴だらけのチーズにされてしまう。そんなのは我々の街を襲う、無法者のノーマッドだけで十分だ",
+              "maleVariant": "",
+              "stringId": 1805371826486624256
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ノーマッドといえば、バッドランズに入ったらミスター・パギンズは一切油断できない。そこではNCPDの勇敢な警官たちは、もう君のことを守ってはくれないぞ",
+              "maleVariant": "",
+              "stringId": 1805373340361932800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ノーマッドの気配や痕跡を察知したら、安全のため、ただちに街に避難したほうがいいだろう。でないと、道路脇の溝でハゲタカの餌になることに",
+              "maleVariant": "",
+              "stringId": 1805373503419695104
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "最後に、車でナイトシティの外に出るのは相当の覚悟が必要だ！ もし可能なら、空の移動をお勧めする",
+              "maleVariant": "",
+              "stringId": 1805374402292596736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "さて、今日の“あんしんシティライフ”はここまで。みんなしっかり生き延びろ！",
+              "maleVariant": "",
+              "stringId": 1805374561609039872
             }
-          }
+          ]
         }
       }
     },

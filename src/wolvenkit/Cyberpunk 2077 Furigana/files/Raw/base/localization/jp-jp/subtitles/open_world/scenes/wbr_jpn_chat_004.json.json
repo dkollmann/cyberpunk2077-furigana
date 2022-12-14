@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_jpn_chat_004.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やっぱりここにいたか！",
-                    "maleVariant": null,
-                    "stringId": 1806855581997850624
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちょっとくらい、いいでしょ？",
-                    "maleVariant": null,
-                    "stringId": 1806856496708444160
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "信用してたのに！ 買い物に行ってすぐ戻るんじゃなかったのか？",
-                    "maleVariant": null,
-                    "stringId": 1806856641848139776
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ねえ、お金持ってない？",
-                    "maleVariant": null,
-                    "stringId": 1806856805711208448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "買い物用にやった金はどうした？",
-                    "maleVariant": null,
-                    "stringId": 1806856959910600704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちゃんと取り戻すって。そろそろ確変入るから。あとちょっとだけ",
-                    "maleVariant": null,
-                    "stringId": 1806857168015187968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やめろ！",
-                    "maleVariant": null,
-                    "stringId": 1806857406754971648
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やっぱりここにいたか！",
+              "maleVariant": "",
+              "stringId": 1806855581997850624
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちょっとくらい、いいでしょ？",
+              "maleVariant": "",
+              "stringId": 1806856496708444160
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "信用してたのに！ 買い物に行ってすぐ戻るんじゃなかったのか？",
+              "maleVariant": "",
+              "stringId": 1806856641848139776
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ねえ、お金持ってない？",
+              "maleVariant": "",
+              "stringId": 1806856805711208448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "買い物用にやった金はどうした？",
+              "maleVariant": "",
+              "stringId": 1806856959910600704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちゃんと取り戻すって。そろそろ確変入るから。あとちょっとだけ",
+              "maleVariant": "",
+              "stringId": 1806857168015187968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やめろ！",
+              "maleVariant": "",
+              "stringId": 1806857406754971648
             }
-          }
+          ]
         }
       }
     },

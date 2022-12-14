@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\wbr_jpn_junk_01.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何か面白いものは？",
-                    "maleVariant": null,
-                    "stringId": 1885089914044170240
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "一番売れてる商品は何？",
-                    "maleVariant": "一番売れてる商品は何だ？",
-                    "stringId": 1885089914060947464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どんなものを売ってるの？",
-                    "maleVariant": "どんなものを売ってるんだ？",
-                    "stringId": 1885089914161610756
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "人の欲望を満たすものなら何でもさ",
-                    "maleVariant": null,
-                    "stringId": 1885089914178387968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "一番売れてる商品は何？",
-                    "maleVariant": "一番売れてる商品は何だ？",
-                    "stringId": 1885089914279051264
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "マッサージ器だ。モーターの振動で肩こり以外にも大活躍。BDなんかよりよっぽど確実だよ",
-                    "maleVariant": null,
-                    "stringId": 1885089914279051272
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何か面白いものは？",
+              "maleVariant": "",
+              "stringId": 1885089914044170240
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "一番売れてる商品は何？",
+              "maleVariant": "一番売れてる商品は何だ？",
+              "stringId": 1885089914060947464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どんなものを売ってるの？",
+              "maleVariant": "どんなものを売ってるんだ？",
+              "stringId": 1885089914161610756
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "人の欲望を満たすものなら何でもさ",
+              "maleVariant": "",
+              "stringId": 1885089914178387968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "一番売れてる商品は何？",
+              "maleVariant": "一番売れてる商品は何だ？",
+              "stringId": 1885089914279051264
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "マッサージ器だ。モーターの振動で肩こり以外にも大活躍。BDなんかよりよっぽど確実だよ",
+              "maleVariant": "",
+              "stringId": 1885089914279051272
             }
-          }
+          ]
         }
       }
     },

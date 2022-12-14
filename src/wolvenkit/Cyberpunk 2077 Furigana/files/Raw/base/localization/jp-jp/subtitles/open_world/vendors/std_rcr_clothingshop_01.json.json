@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\std_rcr_clothingshop_01.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "気分転換したくて",
-                    "maleVariant": null,
-                    "stringId": 1828390848615067648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "その服、似合ってる",
-                    "maleVariant": "その服、似合ってるよ",
-                    "stringId": 1828390848631844876
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "スタイルを変えてみようかと",
-                    "maleVariant": null,
-                    "stringId": 1828390849319710724
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "その服、似合ってる",
-                    "maleVariant": "その服、似合ってるよ",
-                    "stringId": 1828390849353265156
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でしょ。ありがとう！",
-                    "maleVariant": null,
-                    "stringId": 1828390849386819588
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あれ… 今のは笑顔？",
-                    "maleVariant": "あれ… 今のは笑顔か？",
-                    "stringId": 1973305504302419968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "え？ ここはナイトシティよ？ 他人に笑顔なんか見せたりしないって",
-                    "maleVariant": null,
-                    "stringId": 1973306155912712192
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "きっとお気に入りが見つかるはず",
-                    "maleVariant": null,
-                    "stringId": 1974690486451228672
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もちろん！ どうぞ、自由に見ていって",
-                    "maleVariant": null,
-                    "stringId": 1974690729720860672
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "スタイルを変えてみようかと",
-                    "maleVariant": null,
-                    "stringId": 2373410434598346764
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "気分転換したくて",
+              "maleVariant": "",
+              "stringId": 1828390848615067648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "その服、似合ってる",
+              "maleVariant": "その服、似合ってるよ",
+              "stringId": 1828390848631844876
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "スタイルを変えてみようかと",
+              "maleVariant": "",
+              "stringId": 1828390849319710724
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "その服、似合ってる",
+              "maleVariant": "その服、似合ってるよ",
+              "stringId": 1828390849353265156
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でしょ。ありがとう！",
+              "maleVariant": "",
+              "stringId": 1828390849386819588
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あれ… 今のは笑顔？",
+              "maleVariant": "あれ… 今のは笑顔か？",
+              "stringId": 1973305504302419968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "え？ ここはナイトシティよ？ 他人に笑顔なんか見せたりしないって",
+              "maleVariant": "",
+              "stringId": 1973306155912712192
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "きっとお気に入りが見つかるはず",
+              "maleVariant": "",
+              "stringId": 1974690486451228672
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もちろん！ どうぞ、自由に見ていって",
+              "maleVariant": "",
+              "stringId": 1974690729720860672
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "スタイルを変えてみようかと",
+              "maleVariant": "",
+              "stringId": 2373410434598346764
             }
-          }
+          ]
         }
       }
     },

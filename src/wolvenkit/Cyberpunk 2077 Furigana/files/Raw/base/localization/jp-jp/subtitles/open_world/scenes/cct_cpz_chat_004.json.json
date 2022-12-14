@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_cpz_chat_004.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "聞いてるの？",
-                    "maleVariant": null,
-                    "stringId": 1963274269587709952
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ご、ごめんなさい。今日は集中できなくて…",
-                    "maleVariant": null,
-                    "stringId": 1966154191168323584
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "しっかりしなさい。薬は飲んでる？",
-                    "maleVariant": null,
-                    "stringId": 1966154541610811392
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まず中身が何なのか知りたいんですけど、誰も教えてくれなくて",
-                    "maleVariant": null,
-                    "stringId": 1966154832024420352
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ここで働き続けたいなら、つべこべ言わずに飲むことね",
-                    "maleVariant": null,
-                    "stringId": 1966155093363113984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この仕事が欲しいのはあなただけじゃないのよ。わかるでしょ？",
-                    "maleVariant": null,
-                    "stringId": 1966155307440390144
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "は、はい…",
-                    "maleVariant": null,
-                    "stringId": 1966155614278893568
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "聞いてるの？",
+              "maleVariant": "",
+              "stringId": 1963274269587709952
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ご、ごめんなさい。今日は集中できなくて…",
+              "maleVariant": "",
+              "stringId": 1966154191168323584
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "しっかりしなさい。薬は飲んでる？",
+              "maleVariant": "",
+              "stringId": 1966154541610811392
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まず中身が何なのか知りたいんですけど、誰も教えてくれなくて",
+              "maleVariant": "",
+              "stringId": 1966154832024420352
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ここで働き続けたいなら、つべこべ言わずに飲むことね",
+              "maleVariant": "",
+              "stringId": 1966155093363113984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この仕事が欲しいのはあなただけじゃないのよ。わかるでしょ？",
+              "maleVariant": "",
+              "stringId": 1966155307440390144
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "は、はい…",
+              "maleVariant": "",
+              "stringId": 1966155614278893568
             }
-          }
+          ]
         }
       }
     },

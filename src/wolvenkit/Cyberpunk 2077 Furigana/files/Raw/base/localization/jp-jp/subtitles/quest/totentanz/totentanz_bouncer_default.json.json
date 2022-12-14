@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\totentanz\\totentanz_bouncer_default.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "閉店だ。わからねえのか？",
-                    "maleVariant": null,
-                    "stringId": 1802342029536960512
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "誰かがロイスを撃ったらしいね",
-                    "maleVariant": "誰かがロイスを撃ったらしいな",
-                    "stringId": 1802342295388725252
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "問題起こすと床にキスさせんぞ",
-                    "maleVariant": null,
-                    "stringId": 1802342721513234436
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "誰かがロイスを撃ったらしいね",
-                    "maleVariant": "誰かがロイスを撃ったらしいな",
-                    "stringId": 1802355493135360000
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "トーテンタンツで何か面白いことは起きてない？",
-                    "maleVariant": "トーテンタンツで何か面白いことは起きてないか？",
-                    "stringId": 1802357723968217088
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "トーテンタンツで最近面白いことはあった？",
-                    "maleVariant": "トーテンタンツで最近面白いことはあったか？",
-                    "stringId": 1802357972170350596
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "“誰か”じゃない。ミリテクのエージェントの仕業だ",
-                    "maleVariant": null,
-                    "stringId": 1802359046952361984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今日はダメだ。消えな",
-                    "maleVariant": null,
-                    "stringId": 1956146762027442180
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "俺を検索エンジン扱いすんじゃねえ。ここじゃ常に“面白いこと”だらけだよ",
-                    "maleVariant": null,
-                    "stringId": 1956163220526669824
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "別にお前には関係ないだろ",
-                    "maleVariant": null,
-                    "stringId": 1975272928558522368
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "閉店だ。わからねえのか？",
+              "maleVariant": "",
+              "stringId": 1802342029536960512
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "誰かがロイスを撃ったらしいね",
+              "maleVariant": "誰かがロイスを撃ったらしいな",
+              "stringId": 1802342295388725252
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "問題起こすと床にキスさせんぞ",
+              "maleVariant": "",
+              "stringId": 1802342721513234436
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "誰かがロイスを撃ったらしいね",
+              "maleVariant": "誰かがロイスを撃ったらしいな",
+              "stringId": 1802355493135360000
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "トーテンタンツで何か面白いことは起きてない？",
+              "maleVariant": "トーテンタンツで何か面白いことは起きてないか？",
+              "stringId": 1802357723968217088
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "トーテンタンツで最近面白いことはあった？",
+              "maleVariant": "トーテンタンツで最近面白いことはあったか？",
+              "stringId": 1802357972170350596
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "“誰か”じゃない。ミリテクのエージェントの仕業だ",
+              "maleVariant": "",
+              "stringId": 1802359046952361984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今日はダメだ。消えな",
+              "maleVariant": "",
+              "stringId": 1956146762027442180
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "俺を検索エンジン扱いすんじゃねえ。ここじゃ常に“面白いこと”だらけだよ",
+              "maleVariant": "",
+              "stringId": 1956163220526669824
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "別にお前には関係ないだろ",
+              "maleVariant": "",
+              "stringId": 1975272928558522368
             }
-          }
+          ]
         }
       }
     },

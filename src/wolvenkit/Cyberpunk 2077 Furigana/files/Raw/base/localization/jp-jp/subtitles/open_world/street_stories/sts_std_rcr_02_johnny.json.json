@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_std_rcr_02_johnny.json"
@@ -11,58 +11,44 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい、こいつを見てくれ。俺と同じ隊にいた奴だ",
-                    "maleVariant": null,
-                    "stringId": 1918422143395975168
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "知り合いなの？",
-                    "maleVariant": "知り合いか？",
-                    "stringId": 1925818834502340608
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "刺青に見覚えがある。死ぬほどビビりだった",
-                    "maleVariant": null,
-                    "stringId": 1925818920233914368
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "メキシコで待ってた地獄… 目にした光景… 俺たちがやったこと…",
-                    "maleVariant": null,
-                    "stringId": 1925819108692381696
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "イカれない方がどうかしてる",
-                    "maleVariant": null,
-                    "stringId": 1925819939986657280
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい、こいつを見てくれ。俺と同じ隊にいた奴だ",
+              "maleVariant": "",
+              "stringId": 1918422143395975168
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "知り合いなの？",
+              "maleVariant": "知り合いか？",
+              "stringId": 1925818834502340608
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "刺青に見覚えがある。死ぬほどビビりだった",
+              "maleVariant": "",
+              "stringId": 1925818920233914368
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "メキシコで待ってた地獄… 目にした光景… 俺たちがやったこと…",
+              "maleVariant": "",
+              "stringId": 1925819108692381696
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "イカれない方がどうかしてる",
+              "maleVariant": "",
+              "stringId": 1925819939986657280
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_arr_chat_013.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "これだけは確かだ。俺たちは屈しない",
-                    "maleVariant": null,
-                    "stringId": 2167867518284648448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "その通り！ 戦って勝ち取ろう。団結するんだ！",
-                    "maleVariant": null,
-                    "stringId": 2214409772538892288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でもどうやって？ 一度、自動化したら元には戻せないだろう",
-                    "maleVariant": null,
-                    "stringId": 2214409820337180672
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "会社はロボットの導入を決めたんだ。もうどうしようもない",
-                    "maleVariant": null,
-                    "stringId": 2221543300246376448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お前、気は確かか？ 突然クビにされたってのに、あのクソ野郎どもの肩を持つのかよ？",
-                    "maleVariant": null,
-                    "stringId": 2221543529255374848
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "肩を持つわけじゃない。でもこの社会は資本主義だろ？ 俺だって同じ立場なら、同じことをする",
-                    "maleVariant": null,
-                    "stringId": 2221545653922009088
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何言ってやがんだ、こいつ。耳を疑うぜ！",
-                    "maleVariant": null,
-                    "stringId": 2221546298938855424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "「同じことをする」だと！ ふざけやがって！",
-                    "maleVariant": null,
-                    "stringId": 2221546593680986112
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "これだけは確かだ。俺たちは屈しない",
+              "maleVariant": "",
+              "stringId": 2167867518284648448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "その通り！ 戦って勝ち取ろう。団結するんだ！",
+              "maleVariant": "",
+              "stringId": 2214409772538892288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でもどうやって？ 一度、自動化したら元には戻せないだろう",
+              "maleVariant": "",
+              "stringId": 2214409820337180672
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "会社はロボットの導入を決めたんだ。もうどうしようもない",
+              "maleVariant": "",
+              "stringId": 2221543300246376448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お前、気は確かか？ 突然クビにされたってのに、あのクソ野郎どもの肩を持つのかよ？",
+              "maleVariant": "",
+              "stringId": 2221543529255374848
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "肩を持つわけじゃない。でもこの社会は資本主義だろ？ 俺だって同じ立場なら、同じことをする",
+              "maleVariant": "",
+              "stringId": 2221545653922009088
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何言ってやがんだ、こいつ。耳を疑うぜ！",
+              "maleVariant": "",
+              "stringId": 2221546298938855424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "「同じことをする」だと！ ふざけやがって！",
+              "maleVariant": "",
+              "stringId": 2221546593680986112
             }
-          }
+          ]
         }
       }
     },

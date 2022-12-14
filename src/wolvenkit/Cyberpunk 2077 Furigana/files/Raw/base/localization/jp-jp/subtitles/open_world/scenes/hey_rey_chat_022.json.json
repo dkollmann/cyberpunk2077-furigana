@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_rey_chat_022.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "人をこき使って、楽して金を稼げると思ったら、大間違いよ",
-                    "maleVariant": null,
-                    "stringId": 2161904328059940864
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "へっ… いったい何の話だ？",
-                    "maleVariant": null,
-                    "stringId": 2227410684245020672
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "俺に聞くな。俺はただのお守り役だ",
-                    "maleVariant": null,
-                    "stringId": 2227411668614615040
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "自分の手は汚さないから、私たちより上だと思ってるんでしょ。でもね、あんたをクソの沼に引きずり込んで、溺れさせてやってもいいんだよ",
-                    "maleVariant": null,
-                    "stringId": 2227411956243206144
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それくらいにしておけ",
-                    "maleVariant": null,
-                    "stringId": 2227412958027550720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "黙って。これからはルールを変える。私たちもデータにアクセスできるようにして、仕事は一緒に来てもらう。でないと… わかるでしょ？",
-                    "maleVariant": null,
-                    "stringId": 2227413064613203968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わかったかって聞いてるんだ、フィクサーさん",
-                    "maleVariant": null,
-                    "stringId": 2227492232185090048
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ。わかったよ",
-                    "maleVariant": null,
-                    "stringId": 2227492476343914496
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "人をこき使って、楽して金を稼げると思ったら、大間違いよ",
+              "maleVariant": "",
+              "stringId": 2161904328059940864
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "へっ… いったい何の話だ？",
+              "maleVariant": "",
+              "stringId": 2227410684245020672
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "俺に聞くな。俺はただのお守り役だ",
+              "maleVariant": "",
+              "stringId": 2227411668614615040
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "自分の手は汚さないから、私たちより上だと思ってるんでしょ。でもね、あんたをクソの沼に引きずり込んで、溺れさせてやってもいいんだよ",
+              "maleVariant": "",
+              "stringId": 2227411956243206144
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それくらいにしておけ",
+              "maleVariant": "",
+              "stringId": 2227412958027550720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "黙って。これからはルールを変える。私たちもデータにアクセスできるようにして、仕事は一緒に来てもらう。でないと… わかるでしょ？",
+              "maleVariant": "",
+              "stringId": 2227413064613203968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わかったかって聞いてるんだ、フィクサーさん",
+              "maleVariant": "",
+              "stringId": 2227492232185090048
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ。わかったよ",
+              "maleVariant": "",
+              "stringId": 2227492476343914496
             }
-          }
+          ]
         }
       }
     },

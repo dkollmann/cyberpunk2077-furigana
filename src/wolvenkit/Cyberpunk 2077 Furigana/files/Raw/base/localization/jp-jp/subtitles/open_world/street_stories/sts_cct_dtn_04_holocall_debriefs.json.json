@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_cct_dtn_04_holocall_debriefs.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ジョアン・コークは無事、死んだようだな。よくやった。プロと仕事をするのはいいもんだ",
-                    "maleVariant": null,
-                    "stringId": 2328541762800967680
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "コークが向かってるとの報せが入った。温かく歓迎してやるとしよう",
-                    "maleVariant": null,
-                    "stringId": 2328548195739230208
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やってくれたな、V。ジョアン・コークはまだ生きてる。狙われてると知ったあいつは、今後警戒を強めるだろう",
-                    "maleVariant": null,
-                    "stringId": 2328662887673487360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "無事完了ってことで、報酬を送っておいたぜ",
-                    "maleVariant": null,
-                    "stringId": 2333237877287927808
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "助かったぜ、V。仕事はここまでだ",
-                    "maleVariant": null,
-                    "stringId": 2333238985389490176
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "二度目はないぞ、V。半端な奴は、この街じゃやってけないぜ",
-                    "maleVariant": null,
-                    "stringId": 2333241064724086784
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ジョアン・コークは無事、死んだようだな。よくやった。プロと仕事をするのはいいもんだ",
+              "maleVariant": "",
+              "stringId": 2328541762800967680
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "コークが向かってるとの報せが入った。温かく歓迎してやるとしよう",
+              "maleVariant": "",
+              "stringId": 2328548195739230208
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やってくれたな、V。ジョアン・コークはまだ生きてる。狙われてると知ったあいつは、今後警戒を強めるだろう",
+              "maleVariant": "",
+              "stringId": 2328662887673487360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "無事完了ってことで、報酬を送っておいたぜ",
+              "maleVariant": "",
+              "stringId": 2333237877287927808
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "助かったぜ、V。仕事はここまでだ",
+              "maleVariant": "",
+              "stringId": 2333238985389490176
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "二度目はないぞ、V。半端な奴は、この街じゃやってけないぜ",
+              "maleVariant": "",
+              "stringId": 2333241064724086784
             }
-          }
+          ]
         }
       }
     },

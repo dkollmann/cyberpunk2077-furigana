@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_f_24_enus_50.json"
@@ -11,138 +11,104 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何なのよ、もう…",
-                    "maleVariant": null,
-                    "stringId": 1949178640963592196
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "はあ、勘弁して",
-                    "maleVariant": null,
-                    "stringId": 1949178640997146628
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何考えてるの！？",
-                    "maleVariant": null,
-                    "stringId": 1949178641064255488
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "蹴飛ばしてやろうかしら…！",
-                    "maleVariant": null,
-                    "stringId": 1949178641081032708
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今いい？",
-                    "maleVariant": null,
-                    "stringId": 1949178641131364356
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何でって…！ ちゃんと片付けないと… いつもそう言うけど… うん、もちろん",
-                    "maleVariant": null,
-                    "stringId": 1949178641164918788
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちゃんと考えてよ… 自惚れるのも大概にして",
-                    "maleVariant": null,
-                    "stringId": 1949178641198473220
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "連絡待ってるから",
-                    "maleVariant": null,
-                    "stringId": 1949178641232027652
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こっちに来させないで！",
-                    "maleVariant": null,
-                    "stringId": 1949178641366245380
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "サイバーサイコが暴れてる！",
-                    "maleVariant": null,
-                    "stringId": 1949178641383022596
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お願い、逃がして！",
-                    "maleVariant": null,
-                    "stringId": 1949178641450131460
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "仕返しなんかしないから！",
-                    "maleVariant": null,
-                    "stringId": 1949178641466908676
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "さっさと行って。問題なら間に合ってる",
-                    "maleVariant": null,
-                    "stringId": 1949178641550794756
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どこかに行ってちょうだい",
-                    "maleVariant": null,
-                    "stringId": 1949178641567571972
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もうしっかりしてよ",
-                    "maleVariant": null,
-                    "stringId": 1949182159665881088
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何なのよ、もう…",
+              "maleVariant": "",
+              "stringId": 1949178640963592196
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "はあ、勘弁して",
+              "maleVariant": "",
+              "stringId": 1949178640997146628
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何考えてるの！？",
+              "maleVariant": "",
+              "stringId": 1949178641064255488
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "蹴飛ばしてやろうかしら…！",
+              "maleVariant": "",
+              "stringId": 1949178641081032708
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今いい？",
+              "maleVariant": "",
+              "stringId": 1949178641131364356
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何でって…！ ちゃんと片付けないと… いつもそう言うけど… うん、もちろん",
+              "maleVariant": "",
+              "stringId": 1949178641164918788
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちゃんと考えてよ… 自惚れるのも大概にして",
+              "maleVariant": "",
+              "stringId": 1949178641198473220
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "連絡待ってるから",
+              "maleVariant": "",
+              "stringId": 1949178641232027652
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こっちに来させないで！",
+              "maleVariant": "",
+              "stringId": 1949178641366245380
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "サイバーサイコが暴れてる！",
+              "maleVariant": "",
+              "stringId": 1949178641383022596
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お願い、逃がして！",
+              "maleVariant": "",
+              "stringId": 1949178641450131460
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "仕返しなんかしないから！",
+              "maleVariant": "",
+              "stringId": 1949178641466908676
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "さっさと行って。問題なら間に合ってる",
+              "maleVariant": "",
+              "stringId": 1949178641550794756
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どこかに行ってちょうだい",
+              "maleVariant": "",
+              "stringId": 1949178641567571972
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もうしっかりしてよ",
+              "maleVariant": "",
+              "stringId": 1949182159665881088
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\mq010\\mq010_05_barry_shot.json"
@@ -11,106 +11,80 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "バリーのバカ野郎！ ごめんな、本当にごめん…",
-                    "maleVariant": null,
-                    "stringId": 1896561456749199360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "メンデス… 手遅れよ。もう何も聞こえてない",
-                    "maleVariant": null,
-                    "stringId": 1896562543963127808
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "弱虫の遺伝子だなんて言って… 俺が悪かった。お前は誰よりも強い奴だったのに！",
-                    "maleVariant": null,
-                    "stringId": 1896562750792646656
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ごめんな、バリー… ごめん…",
-                    "maleVariant": null,
-                    "stringId": 1896563057312382976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もう話しただろ。令状がないなら入れさせない",
-                    "maleVariant": null,
-                    "stringId": 1896865735099793408
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい、バリー… 話くらいしないか？",
-                    "maleVariant": null,
-                    "stringId": 1896880223215665152
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ペトロワから、最後の事件はつらい仕事だったって聞いた。署長に口止めされたんだろ？",
-                    "maleVariant": null,
-                    "stringId": 1896880474353811456
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "俺だって似た経験をしたよ。子供殺しだ。ペトロケムの奴だったから、まったく手を出せなかった",
-                    "maleVariant": null,
-                    "stringId": 1896880561209458688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "...",
-                    "maleVariant": null,
-                    "stringId": 1896880643904356352
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "入れ",
-                    "maleVariant": null,
-                    "stringId": 1896880730055360512
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今でも覚えてるよ… あの子のシャツを。緑色に… 変な黄色の猫が描かれてた",
-                    "maleVariant": null,
-                    "stringId": 1905575970232582144
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "バリーのバカ野郎！ ごめんな、本当にごめん…",
+              "maleVariant": "",
+              "stringId": 1896561456749199360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "メンデス… 手遅れよ。もう何も聞こえてない",
+              "maleVariant": "",
+              "stringId": 1896562543963127808
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "弱虫の遺伝子だなんて言って… 俺が悪かった。お前は誰よりも強い奴だったのに！",
+              "maleVariant": "",
+              "stringId": 1896562750792646656
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ごめんな、バリー… ごめん…",
+              "maleVariant": "",
+              "stringId": 1896563057312382976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もう話しただろ。令状がないなら入れさせない",
+              "maleVariant": "",
+              "stringId": 1896865735099793408
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい、バリー… 話くらいしないか？",
+              "maleVariant": "",
+              "stringId": 1896880223215665152
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ペトロワから、最後の事件はつらい仕事だったって聞いた。署長に口止めされたんだろ？",
+              "maleVariant": "",
+              "stringId": 1896880474353811456
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "俺だって似た経験をしたよ。子供殺しだ。ペトロケムの奴だったから、まったく手を出せなかった",
+              "maleVariant": "",
+              "stringId": 1896880561209458688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "...",
+              "maleVariant": "",
+              "stringId": 1896880643904356352
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "入れ",
+              "maleVariant": "",
+              "stringId": 1896880730055360512
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今でも覚えてるよ… あの子のシャツを。緑色に… 変な黄色の猫が描かれてた",
+              "maleVariant": "",
+              "stringId": 1905575970232582144
             }
-          }
+          ]
         }
       }
     },

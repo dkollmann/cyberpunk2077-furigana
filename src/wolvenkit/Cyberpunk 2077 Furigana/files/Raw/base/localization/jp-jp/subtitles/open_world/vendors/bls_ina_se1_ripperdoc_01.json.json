@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\bls_ina_se1_ripperdoc_01.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "インプラントを探してる",
-                    "maleVariant": null,
-                    "stringId": 1935685493203578880
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おすすめのインプラントは？",
-                    "maleVariant": null,
-                    "stringId": 1935685493220356104
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "体を改造したい",
-                    "maleVariant": null,
-                    "stringId": 1935685493270687748
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "単刀直入だな。気に入った",
-                    "maleVariant": null,
-                    "stringId": 1935685493270687756
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おすすめのクロームはある？",
-                    "maleVariant": "おすすめのクロームはあるか？",
-                    "stringId": 1935685493321019396
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "サイバーインプラントってのは靴みたいなものだ。ニーズは人によって異なる。ネットランナー用とソロ用じゃ別物だからな",
-                    "maleVariant": null,
-                    "stringId": 1935685493321019404
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ただし… バッドランズに長くいるつもりなら、クローク装備は不可欠だ。ホロスキンや光学迷彩だな",
-                    "maleVariant": null,
-                    "stringId": 1976512165255106560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "街と比べると、郊外は人気がないように思うだろうが、だからといって安全だとは限らない",
-                    "maleVariant": null,
-                    "stringId": 1976518681693573120
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なるべく注目を集めないように行動するほうがいい。でないと、あっという間に厄介なことになるぞ",
-                    "maleVariant": null,
-                    "stringId": 1976522523105611776
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "知ってる。バッカー出身だからね",
-                    "maleVariant": "知ってる。バッカー出身だからな",
-                    "stringId": 1976524114894311424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なら、言うまでもなかったな",
-                    "maleVariant": null,
-                    "stringId": 1976527848965722112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "外見を変えたい",
-                    "maleVariant": null,
-                    "stringId": 3378317372547682304
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "薬を見せてもらえる？",
-                    "maleVariant": "薬を見せてもらえるか？",
-                    "stringId": 3378318216928186368
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "単刀直入だな。気に入った",
-                    "maleVariant": null,
-                    "stringId": 3378318693736665088
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "インプラントを探してる",
+              "maleVariant": "",
+              "stringId": 1935685493203578880
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おすすめのインプラントは？",
+              "maleVariant": "",
+              "stringId": 1935685493220356104
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "体を改造したい",
+              "maleVariant": "",
+              "stringId": 1935685493270687748
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "単刀直入だな。気に入った",
+              "maleVariant": "",
+              "stringId": 1935685493270687756
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おすすめのクロームはある？",
+              "maleVariant": "おすすめのクロームはあるか？",
+              "stringId": 1935685493321019396
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "サイバーインプラントってのは靴みたいなものだ。ニーズは人によって異なる。ネットランナー用とソロ用じゃ別物だからな",
+              "maleVariant": "",
+              "stringId": 1935685493321019404
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ただし… バッドランズに長くいるつもりなら、クローク装備は不可欠だ。ホロスキンや光学迷彩だな",
+              "maleVariant": "",
+              "stringId": 1976512165255106560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "街と比べると、郊外は人気がないように思うだろうが、だからといって安全だとは限らない",
+              "maleVariant": "",
+              "stringId": 1976518681693573120
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なるべく注目を集めないように行動するほうがいい。でないと、あっという間に厄介なことになるぞ",
+              "maleVariant": "",
+              "stringId": 1976522523105611776
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "知ってる。バッカー出身だからね",
+              "maleVariant": "知ってる。バッカー出身だからな",
+              "stringId": 1976524114894311424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なら、言うまでもなかったな",
+              "maleVariant": "",
+              "stringId": 1976527848965722112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "外見を変えたい",
+              "maleVariant": "",
+              "stringId": 3378317372547682304
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "薬を見せてもらえる？",
+              "maleVariant": "薬を見せてもらえるか？",
+              "stringId": 3378318216928186368
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "単刀直入だな。気に入った",
+              "maleVariant": "",
+              "stringId": 3378318693736665088
             }
-          }
+          ]
         }
       }
     },

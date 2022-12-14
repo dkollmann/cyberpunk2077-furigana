@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_arr_chat_019.json"
@@ -11,58 +11,44 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お前らは全員、巣に帰れ！ ナイトシティを食い物にするな！",
-                    "maleVariant": null,
-                    "stringId": 2167932130531135488
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ブースターに、人殺しに、強姦魔！ ろくでもないもんばかり持ち込みやがって！",
-                    "maleVariant": null,
-                    "stringId": 2221664624063123456
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まじめな市民の仕事を奪うな！ 今に見てろ、ホルトが街をきれいにしてくれる！",
-                    "maleVariant": null,
-                    "stringId": 2221665065622671360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わかったか！ 新合衆国のクソ溜めに帰れ！",
-                    "maleVariant": null,
-                    "stringId": 2221665562261819392
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "壁を建てて締め出してやる！ この街自体をコンバット・ゾーンにすればいいんだ！",
-                    "maleVariant": null,
-                    "stringId": 2221665780231409664
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お前らは全員、巣に帰れ！ ナイトシティを食い物にするな！",
+              "maleVariant": "",
+              "stringId": 2167932130531135488
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ブースターに、人殺しに、強姦魔！ ろくでもないもんばかり持ち込みやがって！",
+              "maleVariant": "",
+              "stringId": 2221664624063123456
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まじめな市民の仕事を奪うな！ 今に見てろ、ホルトが街をきれいにしてくれる！",
+              "maleVariant": "",
+              "stringId": 2221665065622671360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わかったか！ 新合衆国のクソ溜めに帰れ！",
+              "maleVariant": "",
+              "stringId": 2221665562261819392
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "壁を建てて締め出してやる！ この街自体をコンバット・ゾーンにすればいいんだ！",
+              "maleVariant": "",
+              "stringId": 2221665780231409664
             }
-          }
+          ]
         }
       }
     },

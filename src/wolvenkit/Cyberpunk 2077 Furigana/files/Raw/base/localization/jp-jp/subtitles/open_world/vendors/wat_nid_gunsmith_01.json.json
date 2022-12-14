@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\wat_nid_gunsmith_01.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "銃がほしい",
-                    "maleVariant": null,
-                    "stringId": 1979351707821776900
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "本当に店員なの？",
-                    "maleVariant": "本当に店員なのか？",
-                    "stringId": 1979352287189377024
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "銃を買いたい",
-                    "maleVariant": null,
-                    "stringId": 1979352912929202176
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "買えばいい",
-                    "maleVariant": null,
-                    "stringId": 1979354932671127552
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "見たところ、趣味でこの店をやってるようには思えないんだけど",
-                    "maleVariant": "見たところ、趣味でこの店をやってるようには思えないんだが",
-                    "stringId": 1979357082017046528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "買い物しに来たなら買え。話がしたいなら失せろ",
-                    "maleVariant": null,
-                    "stringId": 1979357626454482944
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "銃がほしい",
+              "maleVariant": "",
+              "stringId": 1979351707821776900
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "本当に店員なの？",
+              "maleVariant": "本当に店員なのか？",
+              "stringId": 1979352287189377024
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "銃を買いたい",
+              "maleVariant": "",
+              "stringId": 1979352912929202176
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "買えばいい",
+              "maleVariant": "",
+              "stringId": 1979354932671127552
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "見たところ、趣味でこの店をやってるようには思えないんだけど",
+              "maleVariant": "見たところ、趣味でこの店をやってるようには思えないんだが",
+              "stringId": 1979357082017046528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "買い物しに来たなら買え。話がしたいなら失せろ",
+              "maleVariant": "",
+              "stringId": 1979357626454482944
             }
-          }
+          ]
         }
       }
     },

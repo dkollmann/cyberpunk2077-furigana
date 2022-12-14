@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_hey_rey_08_holocall_debriefs.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "感謝するぞ。お前のおかげで、カルーボをこの手で地獄へ送ることができる…",
-                    "maleVariant": null,
-                    "stringId": 2328880621795532800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "「我が汝に復讐を果たす時、汝は我が主であることを知るだろう」、そしてカルーボ・バイレイは知ったわけだ。主の従順な使いたるVを介し、復讐が為されたことを",
-                    "maleVariant": null,
-                    "stringId": 2328880709892694016
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "見事だったぞ、V。仕事は完了だ",
-                    "maleVariant": null,
-                    "stringId": 2334534867720323072
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "思いがけない喜びだ。ご苦労だった。Vに誉れあれ！",
-                    "maleVariant": null,
-                    "stringId": 2334543254516383744
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "地獄の業火に焼かれ、苦しみながら泣き叫ぶカルーボの姿が目に浮かぶ…",
-                    "maleVariant": null,
-                    "stringId": 2334546400479264768
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私の心は喜びに満ちている。よくやってくれた。神と共にあれ",
-                    "maleVariant": null,
-                    "stringId": 2334546597326340096
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "感謝するぞ。お前のおかげで、カルーボをこの手で地獄へ送ることができる…",
+              "maleVariant": "",
+              "stringId": 2328880621795532800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "「我が汝に復讐を果たす時、汝は我が主であることを知るだろう」、そしてカルーボ・バイレイは知ったわけだ。主の従順な使いたるVを介し、復讐が為されたことを",
+              "maleVariant": "",
+              "stringId": 2328880709892694016
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "見事だったぞ、V。仕事は完了だ",
+              "maleVariant": "",
+              "stringId": 2334534867720323072
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "思いがけない喜びだ。ご苦労だった。Vに誉れあれ！",
+              "maleVariant": "",
+              "stringId": 2334543254516383744
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "地獄の業火に焼かれ、苦しみながら泣き叫ぶカルーボの姿が目に浮かぶ…",
+              "maleVariant": "",
+              "stringId": 2334546400479264768
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私の心は喜びに満ちている。よくやってくれた。神と共にあれ",
+              "maleVariant": "",
+              "stringId": 2334546597326340096
             }
-          }
+          ]
         }
       }
     },

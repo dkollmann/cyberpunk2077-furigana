@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\bls_ina_se5_gunsmith_01.json"
@@ -11,114 +11,86 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "銃が欲しい",
-                    "maleVariant": null,
-                    "stringId": 2019866338822369280
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ノーマッド以外の客も来るの？",
-                    "maleVariant": "ノーマッド以外の客も来るのか？",
-                    "stringId": 2019866338822369296
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ここにはノーマッド以外の客も来るの？",
-                    "maleVariant": "ここにはノーマッド以外の客も来るのか？",
-                    "stringId": 2019866339258576896
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "へっ、他にここらで給油する奴がいると思うか？ 家族でドライブに来る場所でもない",
-                    "maleVariant": null,
-                    "stringId": 2019866339258576908
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "武器が欲しい",
-                    "maleVariant": null,
-                    "stringId": 2019866339292131340
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それなら任せてくれ",
-                    "maleVariant": null,
-                    "stringId": 2019866339308908548
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もう商売を再開したのね",
-                    "maleVariant": "もう商売を再開したんだな",
-                    "stringId": 2019867177012080640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "カン・タオに襲われたのに、早くも営業再開？",
-                    "maleVariant": "カン・タオに襲われたのに、早くも営業再開か？",
-                    "stringId": 2019867543426478080
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "早くもだって？ あんなのはバッドランズじゃ日常茶飯事だ",
-                    "maleVariant": null,
-                    "stringId": 2019867946096439296
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "銃を買うにしても、ナイトシティで事足りるしな",
-                    "maleVariant": null,
-                    "stringId": 2028758815825707008
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "昔、アルデカルドスに追われたレイスの集団に押し入られてな。あいつら、俺を盾にしようとしやがった",
-                    "maleVariant": null,
-                    "stringId": 2028759379389169664
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それ以来、俺は何が起きたって動じないんだ",
-                    "maleVariant": null,
-                    "stringId": 2028759665776246784
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "銃が欲しい",
+              "maleVariant": "",
+              "stringId": 2019866338822369280
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ノーマッド以外の客も来るの？",
+              "maleVariant": "ノーマッド以外の客も来るのか？",
+              "stringId": 2019866338822369296
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ここにはノーマッド以外の客も来るの？",
+              "maleVariant": "ここにはノーマッド以外の客も来るのか？",
+              "stringId": 2019866339258576896
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "へっ、他にここらで給油する奴がいると思うか？ 家族でドライブに来る場所でもない",
+              "maleVariant": "",
+              "stringId": 2019866339258576908
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "武器が欲しい",
+              "maleVariant": "",
+              "stringId": 2019866339292131340
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それなら任せてくれ",
+              "maleVariant": "",
+              "stringId": 2019866339308908548
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もう商売を再開したのね",
+              "maleVariant": "もう商売を再開したんだな",
+              "stringId": 2019867177012080640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "カン・タオに襲われたのに、早くも営業再開？",
+              "maleVariant": "カン・タオに襲われたのに、早くも営業再開か？",
+              "stringId": 2019867543426478080
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "早くもだって？ あんなのはバッドランズじゃ日常茶飯事だ",
+              "maleVariant": "",
+              "stringId": 2019867946096439296
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "銃を買うにしても、ナイトシティで事足りるしな",
+              "maleVariant": "",
+              "stringId": 2028758815825707008
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "昔、アルデカルドスに追われたレイスの集団に押し入られてな。あいつら、俺を盾にしようとしやがった",
+              "maleVariant": "",
+              "stringId": 2028759379389169664
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それ以来、俺は何が起きたって動じないんだ",
+              "maleVariant": "",
+              "stringId": 2028759665776246784
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_wat_kab_103_johnny_comment.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何ひとつ変わんねえな",
-                    "maleVariant": null,
-                    "stringId": 1949136005979983872
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "最先端のBDを楽しむことだってできるのに、いまだに時代錯誤なもんに手を出しやがる",
-                    "maleVariant": null,
-                    "stringId": 1949191773495857152
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おおかた、何かほったらかしのもんでもあんだろう",
-                    "maleVariant": null,
-                    "stringId": 1949193347618148352
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ええ。おまけにひどい臭い",
-                    "maleVariant": "ああ。おまけにひどい臭いだ",
-                    "stringId": 1949202215685427200
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "死後2日ってとこね",
-                    "maleVariant": "死後2日ってとこだな",
-                    "stringId": 1949269826641170432
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "バカなガキだ… おそらく、“キラキラ”とやらのやり過ぎだろう",
-                    "maleVariant": null,
-                    "stringId": 1949270059643146240
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ここのラリった鉛頭どもは、気づきもしねえ",
-                    "maleVariant": null,
-                    "stringId": 1949273548783980544
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "死んでる",
-                    "maleVariant": null,
-                    "stringId": 1949299030002864128
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こいつね",
-                    "maleVariant": "こいつか",
-                    "stringId": 1949299058842898432
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何ひとつ変わんねえな",
+              "maleVariant": "",
+              "stringId": 1949136005979983872
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "最先端のBDを楽しむことだってできるのに、いまだに時代錯誤なもんに手を出しやがる",
+              "maleVariant": "",
+              "stringId": 1949191773495857152
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おおかた、何かほったらかしのもんでもあんだろう",
+              "maleVariant": "",
+              "stringId": 1949193347618148352
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ええ。おまけにひどい臭い",
+              "maleVariant": "ああ。おまけにひどい臭いだ",
+              "stringId": 1949202215685427200
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "死後2日ってとこね",
+              "maleVariant": "死後2日ってとこだな",
+              "stringId": 1949269826641170432
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "バカなガキだ… おそらく、“キラキラ”とやらのやり過ぎだろう",
+              "maleVariant": "",
+              "stringId": 1949270059643146240
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ここのラリった鉛頭どもは、気づきもしねえ",
+              "maleVariant": "",
+              "stringId": 1949273548783980544
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "死んでる",
+              "maleVariant": "",
+              "stringId": 1949299030002864128
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こいつね",
+              "maleVariant": "こいつか",
+              "stringId": 1949299058842898432
             }
-          }
+          ]
         }
       }
     },

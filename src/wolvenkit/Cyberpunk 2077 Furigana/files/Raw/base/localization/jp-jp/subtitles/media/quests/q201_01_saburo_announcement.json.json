@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\quests\\q201_01_saburo_announcement.json"
@@ -11,122 +11,92 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こちらのスタジオに大変なニュースが入ってきました。サブロウ・アラサカ氏が息子の体を使って、奇跡の復活を果たしたとのことです",
-                    "maleVariant": null,
-                    "stringId": 1744677149109444608
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "サブロウ氏は以前に亡くなられていますが、亡くなる前に意識のコピーが作られていたことが明らかになりました",
-                    "maleVariant": null,
-                    "stringId": 1744679276426878976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうやら、息子であり後継者であるヨリノブ・アラサカ氏の意識を上書きした模様です。この衝撃の事実は今日の会見で発表されました",
-                    "maleVariant": null,
-                    "stringId": 1744680663063781376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ようこそ、みなさん",
-                    "maleVariant": null,
-                    "stringId": 1751657247951876096
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今日という日は語り継がれるでしょう。人類の夢が、ついにテクノロジーによって現実のものとなったのです",
-                    "maleVariant": null,
-                    "stringId": 1751658368971894784
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "祖父はよく、「枯れ落ちた花は枝に戻らない」と言っていました",
-                    "maleVariant": null,
-                    "stringId": 1751659440532680704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "人は誰も、物心ついた瞬間から、死を恐れるものです",
-                    "maleVariant": null,
-                    "stringId": 1751659477476110336
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ついに、人類最大の恐怖が克服されました。私、サブロウ・アラサカは今、息子の体を使い、みなさんの前に立っています",
-                    "maleVariant": null,
-                    "stringId": 1751659894893244416
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私はかつてヨリノブに生を与えました。彼は愛する父のために、それを返してくれたのです",
-                    "maleVariant": null,
-                    "stringId": 1751661212642897920
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私のいない間、ヨリノブは会社を変革しようといくつかの決定を下しましたが、これらは過ちでした",
-                    "maleVariant": null,
-                    "stringId": 1751661577195024384
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私の指揮のもと、アラサカ社は元の姿を取り戻します。決して揺らぐことのない、強いアラサカが帰ってくることを、約束いたします",
-                    "maleVariant": null,
-                    "stringId": 1751661620413132800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ご清聴ありがとうございました",
-                    "maleVariant": null,
-                    "stringId": 1751661940371419136
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "サブロウ様、誠におめでとうございます",
-                    "maleVariant": null,
-                    "stringId": 1751662785154576384
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こちらのスタジオに大変なニュースが入ってきました。サブロウ・アラサカ氏が息子の体を使って、奇跡の復活を果たしたとのことです",
+              "maleVariant": "",
+              "stringId": 1744677149109444608
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "サブロウ氏は以前に亡くなられていますが、亡くなる前に意識のコピーが作られていたことが明らかになりました",
+              "maleVariant": "",
+              "stringId": 1744679276426878976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうやら、息子であり後継者であるヨリノブ・アラサカ氏の意識を上書きした模様です。この衝撃の事実は今日の会見で発表されました",
+              "maleVariant": "",
+              "stringId": 1744680663063781376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ようこそ、みなさん",
+              "maleVariant": "",
+              "stringId": 1751657247951876096
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今日という日は語り継がれるでしょう。人類の夢が、ついにテクノロジーによって現実のものとなったのです",
+              "maleVariant": "",
+              "stringId": 1751658368971894784
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "祖父はよく、「枯れ落ちた花は枝に戻らない」と言っていました",
+              "maleVariant": "",
+              "stringId": 1751659440532680704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "人は誰も、物心ついた瞬間から、死を恐れるものです",
+              "maleVariant": "",
+              "stringId": 1751659477476110336
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ついに、人類最大の恐怖が克服されました。私、サブロウ・アラサカは今、息子の体を使い、みなさんの前に立っています",
+              "maleVariant": "",
+              "stringId": 1751659894893244416
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私はかつてヨリノブに生を与えました。彼は愛する父のために、それを返してくれたのです",
+              "maleVariant": "",
+              "stringId": 1751661212642897920
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私のいない間、ヨリノブは会社を変革しようといくつかの決定を下しましたが、これらは過ちでした",
+              "maleVariant": "",
+              "stringId": 1751661577195024384
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私の指揮のもと、アラサカ社は元の姿を取り戻します。決して揺らぐことのない、強いアラサカが帰ってくることを、約束いたします",
+              "maleVariant": "",
+              "stringId": 1751661620413132800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ご清聴ありがとうございました",
+              "maleVariant": "",
+              "stringId": 1751661940371419136
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "サブロウ様、誠におめでとうございます",
+              "maleVariant": "",
+              "stringId": 1751662785154576384
             }
-          }
+          ]
         }
       }
     },

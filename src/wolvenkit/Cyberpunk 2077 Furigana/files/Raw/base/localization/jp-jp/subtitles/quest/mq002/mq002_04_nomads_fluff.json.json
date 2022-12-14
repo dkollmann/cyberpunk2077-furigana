@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\mq002\\mq002_04_nomads_fluff.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "V！ 助かったよ、ありがとな",
-                    "maleVariant": null,
-                    "stringId": 1905554978530811904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "気にしないで",
-                    "maleVariant": "気にするな",
-                    "stringId": 1905559785907838980
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "人助けは仕事みたいなもの",
-                    "maleVariant": "人助けは仕事みたいなもんだ",
-                    "stringId": 1905560205036249088
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "近くにいたから手を貸しただけよ。別に大したことじゃない",
-                    "maleVariant": "近くにいたから手を貸しただけだ。別に大したことじゃない",
-                    "stringId": 1905560663339458560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何言ってんだよ、大したことさ。とにかくありがとよ",
-                    "maleVariant": null,
-                    "stringId": 1905561254249783296
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まぁ、人助けはあたしの仕事みたいなもんだから",
-                    "maleVariant": "まぁ、人助けは俺の仕事みたいなもんだからな",
-                    "stringId": 1905561938391097344
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうみたいだな。とにかくありがとよ",
-                    "maleVariant": null,
-                    "stringId": 1905561938391097352
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "気にしないで",
-                    "maleVariant": "気にするな",
-                    "stringId": 1905563002536353792
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "人助けは仕事みたいなもの",
-                    "maleVariant": "人助けは仕事みたいなもんだ",
-                    "stringId": 1905563002553131020
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "V！ 助かったよ、ありがとな",
+              "maleVariant": "",
+              "stringId": 1905554978530811904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "気にしないで",
+              "maleVariant": "気にするな",
+              "stringId": 1905559785907838980
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "人助けは仕事みたいなもの",
+              "maleVariant": "人助けは仕事みたいなもんだ",
+              "stringId": 1905560205036249088
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "近くにいたから手を貸しただけよ。別に大したことじゃない",
+              "maleVariant": "近くにいたから手を貸しただけだ。別に大したことじゃない",
+              "stringId": 1905560663339458560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何言ってんだよ、大したことさ。とにかくありがとよ",
+              "maleVariant": "",
+              "stringId": 1905561254249783296
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まぁ、人助けはあたしの仕事みたいなもんだから",
+              "maleVariant": "まぁ、人助けは俺の仕事みたいなもんだからな",
+              "stringId": 1905561938391097344
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうみたいだな。とにかくありがとよ",
+              "maleVariant": "",
+              "stringId": 1905561938391097352
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "気にしないで",
+              "maleVariant": "気にするな",
+              "stringId": 1905563002536353792
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "人助けは仕事みたいなもの",
+              "maleVariant": "人助けは仕事みたいなもんだ",
+              "stringId": 1905563002553131020
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_awf_chat_016.json"
@@ -11,58 +11,44 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ええ。目撃者はいません",
-                    "maleVariant": null,
-                    "stringId": 2156480143515754496
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いえ、見当もつきません",
-                    "maleVariant": null,
-                    "stringId": 2177948230854307840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "はい、サンプルを回収し… バイオラボに預けました。昨日です",
-                    "maleVariant": null,
-                    "stringId": 2177948541987778560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ええ… もちろんです。この件を知っているのは、私と、あなたと、バイオラボのみです",
-                    "maleVariant": null,
-                    "stringId": 2177951371297484800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "了解しました。はい、火炎放射器で… 秘密裏に。お任せください",
-                    "maleVariant": null,
-                    "stringId": 2177952256614395904
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ええ。目撃者はいません",
+              "maleVariant": "",
+              "stringId": 2156480143515754496
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いえ、見当もつきません",
+              "maleVariant": "",
+              "stringId": 2177948230854307840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "はい、サンプルを回収し… バイオラボに預けました。昨日です",
+              "maleVariant": "",
+              "stringId": 2177948541987778560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ええ… もちろんです。この件を知っているのは、私と、あなたと、バイオラボのみです",
+              "maleVariant": "",
+              "stringId": 2177951371297484800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "了解しました。はい、火炎放射器で… 秘密裏に。お任せください",
+              "maleVariant": "",
+              "stringId": 2177952256614395904
             }
-          }
+          ]
         }
       }
     },

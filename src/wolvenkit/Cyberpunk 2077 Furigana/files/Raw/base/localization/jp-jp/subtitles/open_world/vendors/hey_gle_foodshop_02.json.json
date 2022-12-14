@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\hey_gle_foodshop_02.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "メニューを見せてくれる？",
-                    "maleVariant": "メニューを見せてくれるか？",
-                    "stringId": 1563353594227560452
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ここの店長は？",
-                    "maleVariant": null,
-                    "stringId": 1563354641998254080
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "アルヴァラードはここに来てる？",
-                    "maleVariant": null,
-                    "stringId": 1563354741638139904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いいお酒はおいてる？",
-                    "maleVariant": "いい酒はおいてるか？",
-                    "stringId": 1567899730927439872
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ここの店長は？",
-                    "maleVariant": null,
-                    "stringId": 1567899978039054336
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ハビエル・アルヴァラード。ここにはよく来る？",
-                    "maleVariant": "ハビエル・アルヴァラード。ここにはよく来るか？",
-                    "stringId": 1567900029108899840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もちろん",
-                    "maleVariant": null,
-                    "stringId": 1567902269085339648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "聞いてどうする？ ケチをつけたいのか？ 品揃えや、内装、バーテンに？",
-                    "maleVariant": null,
-                    "stringId": 1567903222433861632
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何なんだ… メキシカンバーを経営してるからって、この街のハビエルを1人残らず知ってなきゃダメなのか？",
-                    "maleVariant": null,
-                    "stringId": 1567904140701224960
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "このハビエルは聞き覚えがあるでしょ",
-                    "maleVariant": "このハビエルは聞き覚えがあるだろ",
-                    "stringId": 1984898259925725184
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この仕事をしてると、苗字や顔を知らなかったり忘れた方がいい場合もあることを学習するもんだ",
-                    "maleVariant": null,
-                    "stringId": 1984899080482582528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "興味があるだけよ",
-                    "maleVariant": "興味があるだけだ",
-                    "stringId": 1984908922215591936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ここで結婚式でも開きたいってわけでもあるまいに、何の話があるんだよ",
-                    "maleVariant": null,
-                    "stringId": 1984909421287436288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それに… ここのオーナーと関わり合うのは、やめといたほうがいいぞ",
-                    "maleVariant": null,
-                    "stringId": 1984910843441704960
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "メニューを見せてくれる？",
+              "maleVariant": "メニューを見せてくれるか？",
+              "stringId": 1563353594227560452
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ここの店長は？",
+              "maleVariant": "",
+              "stringId": 1563354641998254080
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "アルヴァラードはここに来てる？",
+              "maleVariant": "",
+              "stringId": 1563354741638139904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いいお酒はおいてる？",
+              "maleVariant": "いい酒はおいてるか？",
+              "stringId": 1567899730927439872
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ここの店長は？",
+              "maleVariant": "",
+              "stringId": 1567899978039054336
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ハビエル・アルヴァラード。ここにはよく来る？",
+              "maleVariant": "ハビエル・アルヴァラード。ここにはよく来るか？",
+              "stringId": 1567900029108899840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もちろん",
+              "maleVariant": "",
+              "stringId": 1567902269085339648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "聞いてどうする？ ケチをつけたいのか？ 品揃えや、内装、バーテンに？",
+              "maleVariant": "",
+              "stringId": 1567903222433861632
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何なんだ… メキシカンバーを経営してるからって、この街のハビエルを1人残らず知ってなきゃダメなのか？",
+              "maleVariant": "",
+              "stringId": 1567904140701224960
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "このハビエルは聞き覚えがあるでしょ",
+              "maleVariant": "このハビエルは聞き覚えがあるだろ",
+              "stringId": 1984898259925725184
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この仕事をしてると、苗字や顔を知らなかったり忘れた方がいい場合もあることを学習するもんだ",
+              "maleVariant": "",
+              "stringId": 1984899080482582528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "興味があるだけよ",
+              "maleVariant": "興味があるだけだ",
+              "stringId": 1984908922215591936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ここで結婚式でも開きたいってわけでもあるまいに、何の話があるんだよ",
+              "maleVariant": "",
+              "stringId": 1984909421287436288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それに… ここのオーナーと関わり合うのは、やめといたほうがいいぞ",
+              "maleVariant": "",
+              "stringId": 1984910843441704960
             }
-          }
+          ]
         }
       }
     },

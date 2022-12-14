@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\fluff\\wns_news_10.json"
@@ -11,114 +11,86 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こんにちは、アリフ・イクバルです。WNSニュースをお届けします",
-                    "maleVariant": null,
-                    "stringId": 1793568533377884160
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "27回目となるインプラント製造業協会の年次会議が先日行われました",
-                    "maleVariant": null,
-                    "stringId": 1796708730331185152
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "白熱したのは、一貫して増え続けるサイバーサイコシス発症者に関する議論です。この10年で事件の発生件数は43％も増加しています",
-                    "maleVariant": null,
-                    "stringId": 1796709010460360704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "会長であるレマー・キリムスキー氏によると、殺人を犯すのはインプラントではなく、あくまで使用方法を誤った人間であるとのこと。確かにその通りですね",
-                    "maleVariant": null,
-                    "stringId": 1796709218212626432
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "パリ郊外のアントニーで、左翼過激派の危険人物、トーマス・クリーシーがついに逮捕されました",
-                    "maleVariant": null,
-                    "stringId": 1796709499163885568
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "数多くの経済学者が、社会保障はGDP成長率を低下させる要因であると唱えるなか、クリーシーは欧州諸国の政府に対し、制度の復活を求めてきました",
-                    "maleVariant": null,
-                    "stringId": 1796709810934890496
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クリーシーは懲役40年に加え、ブレインダンスによる矯正セラピーを受けることになります",
-                    "maleVariant": null,
-                    "stringId": 1796710062207254528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "流通業界では、海上輸送の復活を待ち望む声が後を絶ちません",
-                    "maleVariant": null,
-                    "stringId": 1796710262728540160
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "“赤い十年”により、主要航路には今も危険な不発弾が多数散在。暴走した自動潜水艦が航行する貨物船を襲い続けています",
-                    "maleVariant": null,
-                    "stringId": 1796711401951838208
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "輸送手段が陸路と空路に制限されたことで流通コストは30倍以上に膨れ上がり、世界経済が停滞する要因となっています",
-                    "maleVariant": null,
-                    "stringId": 1796711755783323648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "各国政府は今こそ立ち上がり、海上輸送の復活に乗り出さなければいけません。皆さん今すぐ声をあげましょう",
-                    "maleVariant": null,
-                    "stringId": 1796712044368216064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "WNSニュースをお届けしました。それではまた",
-                    "maleVariant": null,
-                    "stringId": 1796712351038947328
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こんにちは、アリフ・イクバルです。WNSニュースをお届けします",
+              "maleVariant": "",
+              "stringId": 1793568533377884160
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "27回目となるインプラント製造業協会の年次会議が先日行われました",
+              "maleVariant": "",
+              "stringId": 1796708730331185152
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "白熱したのは、一貫して増え続けるサイバーサイコシス発症者に関する議論です。この10年で事件の発生件数は43％も増加しています",
+              "maleVariant": "",
+              "stringId": 1796709010460360704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "会長であるレマー・キリムスキー氏によると、殺人を犯すのはインプラントではなく、あくまで使用方法を誤った人間であるとのこと。確かにその通りですね",
+              "maleVariant": "",
+              "stringId": 1796709218212626432
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "パリ郊外のアントニーで、左翼過激派の危険人物、トーマス・クリーシーがついに逮捕されました",
+              "maleVariant": "",
+              "stringId": 1796709499163885568
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "数多くの経済学者が、社会保障はGDP成長率を低下させる要因であると唱えるなか、クリーシーは欧州諸国の政府に対し、制度の復活を求めてきました",
+              "maleVariant": "",
+              "stringId": 1796709810934890496
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クリーシーは懲役40年に加え、ブレインダンスによる矯正セラピーを受けることになります",
+              "maleVariant": "",
+              "stringId": 1796710062207254528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "流通業界では、海上輸送の復活を待ち望む声が後を絶ちません",
+              "maleVariant": "",
+              "stringId": 1796710262728540160
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "“赤い十年”により、主要航路には今も危険な不発弾が多数散在。暴走した自動潜水艦が航行する貨物船を襲い続けています",
+              "maleVariant": "",
+              "stringId": 1796711401951838208
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "輸送手段が陸路と空路に制限されたことで流通コストは30倍以上に膨れ上がり、世界経済が停滞する要因となっています",
+              "maleVariant": "",
+              "stringId": 1796711755783323648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "各国政府は今こそ立ち上がり、海上輸送の復活に乗り出さなければいけません。皆さん今すぐ声をあげましょう",
+              "maleVariant": "",
+              "stringId": 1796712044368216064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "WNSニュースをお届けしました。それではまた",
+              "maleVariant": "",
+              "stringId": 1796712351038947328
             }
-          }
+          ]
         }
       }
     },

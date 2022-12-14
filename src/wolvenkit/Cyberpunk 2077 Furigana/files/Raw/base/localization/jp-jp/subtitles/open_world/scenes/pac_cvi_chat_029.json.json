@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_cvi_chat_029.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソ！ こんなことが許されてたまるか！",
-                    "maleVariant": null,
-                    "stringId": 2179537880846987264
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "自分が使ってた場所だからどいてくれって頼めば…",
-                    "maleVariant": null,
-                    "stringId": 2188306224250601472
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ボコボコにされるに決まってる！ ああいう奴は嫌というほど見てきた",
-                    "maleVariant": null,
-                    "stringId": 2188306391519444992
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうか？ 腕っぷしが強そうには見えなかったぞ",
-                    "maleVariant": null,
-                    "stringId": 2188306540769558528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いいや、あれは確実にクロームを仕込んでる。絶対、元兵士だ",
-                    "maleVariant": null,
-                    "stringId": 2188306770265096192
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "だったら放っておくしかないな…",
-                    "maleVariant": null,
-                    "stringId": 2188307190618243072
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "言われなくてもわかってる！",
-                    "maleVariant": null,
-                    "stringId": 2188307352786812928
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソ！ こんなことが許されてたまるか！",
+              "maleVariant": "",
+              "stringId": 2179537880846987264
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "自分が使ってた場所だからどいてくれって頼めば…",
+              "maleVariant": "",
+              "stringId": 2188306224250601472
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ボコボコにされるに決まってる！ ああいう奴は嫌というほど見てきた",
+              "maleVariant": "",
+              "stringId": 2188306391519444992
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうか？ 腕っぷしが強そうには見えなかったぞ",
+              "maleVariant": "",
+              "stringId": 2188306540769558528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いいや、あれは確実にクロームを仕込んでる。絶対、元兵士だ",
+              "maleVariant": "",
+              "stringId": 2188306770265096192
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "だったら放っておくしかないな…",
+              "maleVariant": "",
+              "stringId": 2188307190618243072
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "言われなくてもわかってる！",
+              "maleVariant": "",
+              "stringId": 2188307352786812928
             }
-          }
+          ]
         }
       }
     },

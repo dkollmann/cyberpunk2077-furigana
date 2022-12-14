@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_nid_chat_020.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ママ… ママってば。20世紀じゃないんだから！",
-                    "maleVariant": null,
-                    "stringId": 2156416211431710720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "違う、見栄張りたいとかじゃなくて、表現よ。自己表現をさせてほしいって言ってるの！",
-                    "maleVariant": null,
-                    "stringId": 2170615755093819392
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ケミカル・インプラントっていうか… 肌の下の層に入れるのよ。それが吸収した光を放つの",
-                    "maleVariant": null,
-                    "stringId": 2170616557464174592
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なんで？ ケルシーのいとこはマイクロテックのエージェントだけど、入れてても何も言われてないじゃん",
-                    "maleVariant": null,
-                    "stringId": 2170616882539511808
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "大人になったら？ そこまで生きてるかわかんないのに。それにさ、気が変わったら皮膚をまた替えればいいだけだから",
-                    "maleVariant": null,
-                    "stringId": 2170617485445545984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もう！ 何が問題なのか全然わかんないんだけど",
-                    "maleVariant": null,
-                    "stringId": 2170618013709746176
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ママ… ママってば。20世紀じゃないんだから！",
+              "maleVariant": "",
+              "stringId": 2156416211431710720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "違う、見栄張りたいとかじゃなくて、表現よ。自己表現をさせてほしいって言ってるの！",
+              "maleVariant": "",
+              "stringId": 2170615755093819392
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ケミカル・インプラントっていうか… 肌の下の層に入れるのよ。それが吸収した光を放つの",
+              "maleVariant": "",
+              "stringId": 2170616557464174592
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なんで？ ケルシーのいとこはマイクロテックのエージェントだけど、入れてても何も言われてないじゃん",
+              "maleVariant": "",
+              "stringId": 2170616882539511808
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "大人になったら？ そこまで生きてるかわかんないのに。それにさ、気が変わったら皮膚をまた替えればいいだけだから",
+              "maleVariant": "",
+              "stringId": 2170617485445545984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もう！ 何が問題なのか全然わかんないんだけど",
+              "maleVariant": "",
+              "stringId": 2170618013709746176
             }
-          }
+          ]
         }
       }
     },

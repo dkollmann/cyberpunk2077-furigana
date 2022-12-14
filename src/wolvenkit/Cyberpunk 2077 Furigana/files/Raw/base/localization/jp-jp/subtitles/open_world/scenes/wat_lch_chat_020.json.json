@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_020.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "チューマ、本当なんだって。ひと吸いで、一気に動作が加速する",
-                    "maleVariant": null,
-                    "stringId": 2156504434860126208
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おまけに、効き目の持ちがいいんだ。仕事前にキメれば、夜寝るまで持つ",
-                    "maleVariant": null,
-                    "stringId": 2176426751288918016
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いや、遠慮する",
-                    "maleVariant": null,
-                    "stringId": 2176426967345905664
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "その手の新しい品が出回ると、決まって傭兵がバタバタ死にはじめる",
-                    "maleVariant": null,
-                    "stringId": 2176427323861745664
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いきなり心臓が止まったり、コプロセッサがオーバーヒートしたりな…",
-                    "maleVariant": null,
-                    "stringId": 2176427468280020992
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ただの噂だろ。一部の間抜けがオーバードースしたからって、やめることはない。何事もほどほどにってな",
-                    "maleVariant": null,
-                    "stringId": 2176427684085350400
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クロームと一緒で薬も仕事のうちさ。使わなきゃ結果も出せない。それだけのことだろ",
-                    "maleVariant": null,
-                    "stringId": 2176428217449824256
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "チューマ、本当なんだって。ひと吸いで、一気に動作が加速する",
+              "maleVariant": "",
+              "stringId": 2156504434860126208
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おまけに、効き目の持ちがいいんだ。仕事前にキメれば、夜寝るまで持つ",
+              "maleVariant": "",
+              "stringId": 2176426751288918016
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いや、遠慮する",
+              "maleVariant": "",
+              "stringId": 2176426967345905664
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "その手の新しい品が出回ると、決まって傭兵がバタバタ死にはじめる",
+              "maleVariant": "",
+              "stringId": 2176427323861745664
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いきなり心臓が止まったり、コプロセッサがオーバーヒートしたりな…",
+              "maleVariant": "",
+              "stringId": 2176427468280020992
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ただの噂だろ。一部の間抜けがオーバードースしたからって、やめることはない。何事もほどほどにってな",
+              "maleVariant": "",
+              "stringId": 2176427684085350400
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クロームと一緒で薬も仕事のうちさ。使わなきゃ結果も出せない。それだけのことだろ",
+              "maleVariant": "",
+              "stringId": 2176428217449824256
             }
-          }
+          ]
         }
       }
     },

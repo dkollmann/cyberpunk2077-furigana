@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_dtn_chat_032.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "聞いてるのか、チューマ！ 次のライブは必ずキメるぞ！ これが最後のチャンスなんだ！",
-                    "maleVariant": null,
-                    "stringId": 2172281829514260480
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "はいはい、わかってるって。最後のチャンスね",
-                    "maleVariant": null,
-                    "stringId": 2180821017675153408
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ヘマしたら、承知しないからな",
-                    "maleVariant": null,
-                    "stringId": 2180821237825781760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わかりましたよ、お母さん",
-                    "maleVariant": null,
-                    "stringId": 2180821358336524288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "真面目に聞け。俺は本気だぞ",
-                    "maleVariant": null,
-                    "stringId": 2180821847677583360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いい加減しつこいぞ。マークだってしょっちゅうやらかしてるだろ",
-                    "maleVariant": null,
-                    "stringId": 2180821958289768448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "マークはAメロの最中にゲロをまき散らしたりしてないだろうが",
-                    "maleVariant": null,
-                    "stringId": 2180822253837205504
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "聞いてるのか、チューマ！ 次のライブは必ずキメるぞ！ これが最後のチャンスなんだ！",
+              "maleVariant": "",
+              "stringId": 2172281829514260480
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "はいはい、わかってるって。最後のチャンスね",
+              "maleVariant": "",
+              "stringId": 2180821017675153408
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ヘマしたら、承知しないからな",
+              "maleVariant": "",
+              "stringId": 2180821237825781760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わかりましたよ、お母さん",
+              "maleVariant": "",
+              "stringId": 2180821358336524288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "真面目に聞け。俺は本気だぞ",
+              "maleVariant": "",
+              "stringId": 2180821847677583360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いい加減しつこいぞ。マークだってしょっちゅうやらかしてるだろ",
+              "maleVariant": "",
+              "stringId": 2180821958289768448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "マークはAメロの最中にゲロをまき散らしたりしてないだろうが",
+              "maleVariant": "",
+              "stringId": 2180822253837205504
             }
-          }
+          ]
         }
       }
     },

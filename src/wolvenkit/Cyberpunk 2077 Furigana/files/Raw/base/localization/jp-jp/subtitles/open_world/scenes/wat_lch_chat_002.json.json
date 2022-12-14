@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_002.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ハッ、その目どうしたんだよ！ハッハハハハ",
-                    "maleVariant": null,
-                    "stringId": 1802381095185539072
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "寝れなくてさ…",
-                    "maleVariant": null,
-                    "stringId": 1802385500781797376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "リトルチャイナはうるさいからな。耳栓でも使えば、ぐっすり眠れるようになる",
-                    "maleVariant": null,
-                    "stringId": 1802385856492331008
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうじゃない…",
-                    "maleVariant": null,
-                    "stringId": 1802386191466225664
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "じゃ何だ、ニオイか？ すし詰め状態とはいえ、15分も経てば鼻が慣れるだろ…",
-                    "maleVariant": null,
-                    "stringId": 1802386465924702208
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "部屋にいた奴が… 死んだんだ",
-                    "maleVariant": null,
-                    "stringId": 1802386694111617024
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "え？ どいつだ？",
-                    "maleVariant": null,
-                    "stringId": 1802386956171730944
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "白髪混じりのおっさんさ。ずっと寝てたから、みんな病気か何かだと思ってて… それが寝袋を開けてみたら… おええ… 最悪だ",
-                    "maleVariant": null,
-                    "stringId": 1802387100891996160
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ハッ、その目どうしたんだよ！ハッハハハハ",
+              "maleVariant": "",
+              "stringId": 1802381095185539072
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "寝れなくてさ…",
+              "maleVariant": "",
+              "stringId": 1802385500781797376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "リトルチャイナはうるさいからな。耳栓でも使えば、ぐっすり眠れるようになる",
+              "maleVariant": "",
+              "stringId": 1802385856492331008
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうじゃない…",
+              "maleVariant": "",
+              "stringId": 1802386191466225664
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "じゃ何だ、ニオイか？ すし詰め状態とはいえ、15分も経てば鼻が慣れるだろ…",
+              "maleVariant": "",
+              "stringId": 1802386465924702208
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "部屋にいた奴が… 死んだんだ",
+              "maleVariant": "",
+              "stringId": 1802386694111617024
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "え？ どいつだ？",
+              "maleVariant": "",
+              "stringId": 1802386956171730944
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "白髪混じりのおっさんさ。ずっと寝てたから、みんな病気か何かだと思ってて… それが寝袋を開けてみたら… おええ… 最悪だ",
+              "maleVariant": "",
+              "stringId": 1802387100891996160
             }
-          }
+          ]
         }
       }
     },

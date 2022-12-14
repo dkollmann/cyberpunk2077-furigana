@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_mid_f_42_mex_40.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あんたと話してる時間なんてないの",
-                    "maleVariant": null,
-                    "stringId": 1954525701989244932
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "仕事でも探したら？",
-                    "maleVariant": null,
-                    "stringId": 1954525702006022148
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なにをそんなに急いでんのよ？",
-                    "maleVariant": null,
-                    "stringId": 1954525702056353796
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "頭おかしいんじゃないの！？",
-                    "maleVariant": null,
-                    "stringId": 1954525702073131012
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "で？ やったの？",
-                    "maleVariant": null,
-                    "stringId": 1954525702106685444
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まだ製造ラインに載ってない？ だから何なの…！ それじゃなきゃダメなのよ、わかる…？ え…？ だからダメだって",
-                    "maleVariant": null,
-                    "stringId": 1954525702157017092
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あのコプロセッサが要るの… 事態をちゃんと把握してる…？  もうあんただけの問題じゃないのよ…",
-                    "maleVariant": null,
-                    "stringId": 1954525702173794308
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "じゃあ… 待ってるから",
-                    "maleVariant": null,
-                    "stringId": 1954525702207348740
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こんなの聞いてない！",
-                    "maleVariant": null,
-                    "stringId": 1954525702358343684
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なんでこんな目に！？",
-                    "maleVariant": null,
-                    "stringId": 1954525702391898116
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何でこんなことを…",
-                    "maleVariant": null,
-                    "stringId": 1954525702459006980
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こんなことしてなんになるの？",
-                    "maleVariant": null,
-                    "stringId": 1954525702475784196
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "無駄よ。お金なんか持ってない",
-                    "maleVariant": null,
-                    "stringId": 1954525702559670276
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "知り合いだっけ？ 違うならどっか行って",
-                    "maleVariant": null,
-                    "stringId": 1954525702576447492
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あんたと話してる時間なんてないの",
+              "maleVariant": "",
+              "stringId": 1954525701989244932
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "仕事でも探したら？",
+              "maleVariant": "",
+              "stringId": 1954525702006022148
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なにをそんなに急いでんのよ？",
+              "maleVariant": "",
+              "stringId": 1954525702056353796
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "頭おかしいんじゃないの！？",
+              "maleVariant": "",
+              "stringId": 1954525702073131012
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "で？ やったの？",
+              "maleVariant": "",
+              "stringId": 1954525702106685444
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まだ製造ラインに載ってない？ だから何なの…！ それじゃなきゃダメなのよ、わかる…？ え…？ だからダメだって",
+              "maleVariant": "",
+              "stringId": 1954525702157017092
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あのコプロセッサが要るの… 事態をちゃんと把握してる…？  もうあんただけの問題じゃないのよ…",
+              "maleVariant": "",
+              "stringId": 1954525702173794308
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "じゃあ… 待ってるから",
+              "maleVariant": "",
+              "stringId": 1954525702207348740
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こんなの聞いてない！",
+              "maleVariant": "",
+              "stringId": 1954525702358343684
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なんでこんな目に！？",
+              "maleVariant": "",
+              "stringId": 1954525702391898116
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何でこんなことを…",
+              "maleVariant": "",
+              "stringId": 1954525702459006980
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こんなことしてなんになるの？",
+              "maleVariant": "",
+              "stringId": 1954525702475784196
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "無駄よ。お金なんか持ってない",
+              "maleVariant": "",
+              "stringId": 1954525702559670276
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "知り合いだっけ？ 違うならどっか行って",
+              "maleVariant": "",
+              "stringId": 1954525702576447492
             }
-          }
+          ]
         }
       }
     },

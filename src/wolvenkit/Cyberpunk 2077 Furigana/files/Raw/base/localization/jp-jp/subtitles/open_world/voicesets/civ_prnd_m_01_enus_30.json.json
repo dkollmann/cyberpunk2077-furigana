@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_prnd_m_01_enus_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何かおかしい…",
-                    "maleVariant": null,
-                    "stringId": 1957791464325947396
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今の見たか？",
-                    "maleVariant": null,
-                    "stringId": 1957791464342724612
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああっ！",
-                    "maleVariant": null,
-                    "stringId": 1957791464393056260
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "怖くないぞ！",
-                    "maleVariant": null,
-                    "stringId": 1957791464409833476
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何とかしないと",
-                    "maleVariant": null,
-                    "stringId": 1957791464443387908
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "人がただ消えるなんてこと… 警官は知らない… もしくは知らないふりしてるか… いつもどおり買収されて…",
-                    "maleVariant": null,
-                    "stringId": 1957791464493719556
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "俺たちも消える… 何とかしない限りは… 選べ… 俺は… もう決めた",
-                    "maleVariant": null,
-                    "stringId": 1957791464510496772
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "俺の味方か、敵か、どっちだ？",
-                    "maleVariant": null,
-                    "stringId": 1957791464544051204
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "我々の敗北だ！",
-                    "maleVariant": null,
-                    "stringId": 1957791464695046148
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "侵略が始まった！",
-                    "maleVariant": null,
-                    "stringId": 1957791464711823364
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "全員殺すなんて、無理だからな！",
-                    "maleVariant": null,
-                    "stringId": 1957791464795709444
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "真実は必ず勝つ！",
-                    "maleVariant": null,
-                    "stringId": 1957791464812486660
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "手遅れになる前に帰れ…",
-                    "maleVariant": null,
-                    "stringId": 1957791464896372740
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ここはダメだ！ 監視されてる！",
-                    "maleVariant": null,
-                    "stringId": 1957791464913149956
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何かおかしい…",
+              "maleVariant": "",
+              "stringId": 1957791464325947396
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今の見たか？",
+              "maleVariant": "",
+              "stringId": 1957791464342724612
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああっ！",
+              "maleVariant": "",
+              "stringId": 1957791464393056260
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "怖くないぞ！",
+              "maleVariant": "",
+              "stringId": 1957791464409833476
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何とかしないと",
+              "maleVariant": "",
+              "stringId": 1957791464443387908
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "人がただ消えるなんてこと… 警官は知らない… もしくは知らないふりしてるか… いつもどおり買収されて…",
+              "maleVariant": "",
+              "stringId": 1957791464493719556
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "俺たちも消える… 何とかしない限りは… 選べ… 俺は… もう決めた",
+              "maleVariant": "",
+              "stringId": 1957791464510496772
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "俺の味方か、敵か、どっちだ？",
+              "maleVariant": "",
+              "stringId": 1957791464544051204
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "我々の敗北だ！",
+              "maleVariant": "",
+              "stringId": 1957791464695046148
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "侵略が始まった！",
+              "maleVariant": "",
+              "stringId": 1957791464711823364
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "全員殺すなんて、無理だからな！",
+              "maleVariant": "",
+              "stringId": 1957791464795709444
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "真実は必ず勝つ！",
+              "maleVariant": "",
+              "stringId": 1957791464812486660
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "手遅れになる前に帰れ…",
+              "maleVariant": "",
+              "stringId": 1957791464896372740
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ここはダメだ！ 監視されてる！",
+              "maleVariant": "",
+              "stringId": 1957791464913149956
             }
-          }
+          ]
         }
       }
     },

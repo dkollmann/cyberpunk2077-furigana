@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_cvi_chat_018.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "みんな、我先に逃げ出すのね",
-                    "maleVariant": null,
-                    "stringId": 2179412543517519872
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "母さん、よして。大げさよ",
-                    "maleVariant": null,
-                    "stringId": 2189631659328651264
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "事実でしょ。街から人が消えていってる。特に若い人たちがね",
-                    "maleVariant": null,
-                    "stringId": 2189631853424263168
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ここにいても、未来がないからよ。街に行けば仕事があるし、まともな暮らしができるかもしれない",
-                    "maleVariant": null,
-                    "stringId": 2189631944692318208
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "待ってて。私がヘイウッドで稼ぐから。お金が貯まったら母さんも一緒に住もう。きっとその方がいいって",
-                    "maleVariant": null,
-                    "stringId": 2189632076460572672
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "人もその根から切り離されると、枯れてしまう。私の故郷はここだけよ",
-                    "maleVariant": null,
-                    "stringId": 2189632295520681984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でも… はあ、もういい。また今度話そう",
-                    "maleVariant": null,
-                    "stringId": 2189632479130533888
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "みんな、我先に逃げ出すのね",
+              "maleVariant": "",
+              "stringId": 2179412543517519872
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "母さん、よして。大げさよ",
+              "maleVariant": "",
+              "stringId": 2189631659328651264
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "事実でしょ。街から人が消えていってる。特に若い人たちがね",
+              "maleVariant": "",
+              "stringId": 2189631853424263168
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ここにいても、未来がないからよ。街に行けば仕事があるし、まともな暮らしができるかもしれない",
+              "maleVariant": "",
+              "stringId": 2189631944692318208
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "待ってて。私がヘイウッドで稼ぐから。お金が貯まったら母さんも一緒に住もう。きっとその方がいいって",
+              "maleVariant": "",
+              "stringId": 2189632076460572672
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "人もその根から切り離されると、枯れてしまう。私の故郷はここだけよ",
+              "maleVariant": "",
+              "stringId": 2189632295520681984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でも… はあ、もういい。また今度話そう",
+              "maleVariant": "",
+              "stringId": 2189632479130533888
             }
-          }
+          ]
         }
       }
     },

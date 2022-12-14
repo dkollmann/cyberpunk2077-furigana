@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_f_25_enus_15_sml.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あら、どうも",
-                    "maleVariant": null,
-                    "stringId": 1949052563205251076
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "「枕投げの時間だぜ！」",
-                    "maleVariant": null,
-                    "stringId": 1949052563238805508
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちょっと、前見て歩いてる？",
-                    "maleVariant": null,
-                    "stringId": 1949052563289137156
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うう、もう！",
-                    "maleVariant": null,
-                    "stringId": 1949052563305914372
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なんで電話くれなかったの？",
-                    "maleVariant": null,
-                    "stringId": 1949052563339468804
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ねえねえ…！ 動いてる…？ ヤダ… すっごくかわいい…！ いくらしたの…？",
-                    "maleVariant": null,
-                    "stringId": 1949052563406577668
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "できれば、あとね… うん… そうなんだ…！ ハハ…！ ネコの耳ってすごいね…！",
-                    "maleVariant": null,
-                    "stringId": 1949052563423354884
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "じゃあまた明日！",
-                    "maleVariant": null,
-                    "stringId": 1949052563473686532
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ウソウソウソウソ！",
-                    "maleVariant": null,
-                    "stringId": 1949052563624681476
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうすればいいの！？",
-                    "maleVariant": null,
-                    "stringId": 1949052563641458692
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お願い… 何もしてないじゃない…！",
-                    "maleVariant": null,
-                    "stringId": 1949052563758899204
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こんな… こんな死に方はイヤ！",
-                    "maleVariant": null,
-                    "stringId": 1949052563775676420
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ねえ… ついてくるのやめて？ ね？",
-                    "maleVariant": null,
-                    "stringId": 1949052563859562500
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どっか行ってよ！ もう！",
-                    "maleVariant": null,
-                    "stringId": 1949052563893116932
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あら、どうも",
+              "maleVariant": "",
+              "stringId": 1949052563205251076
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "「枕投げの時間だぜ！」",
+              "maleVariant": "",
+              "stringId": 1949052563238805508
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちょっと、前見て歩いてる？",
+              "maleVariant": "",
+              "stringId": 1949052563289137156
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うう、もう！",
+              "maleVariant": "",
+              "stringId": 1949052563305914372
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なんで電話くれなかったの？",
+              "maleVariant": "",
+              "stringId": 1949052563339468804
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ねえねえ…！ 動いてる…？ ヤダ… すっごくかわいい…！ いくらしたの…？",
+              "maleVariant": "",
+              "stringId": 1949052563406577668
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "できれば、あとね… うん… そうなんだ…！ ハハ…！ ネコの耳ってすごいね…！",
+              "maleVariant": "",
+              "stringId": 1949052563423354884
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "じゃあまた明日！",
+              "maleVariant": "",
+              "stringId": 1949052563473686532
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ウソウソウソウソ！",
+              "maleVariant": "",
+              "stringId": 1949052563624681476
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうすればいいの！？",
+              "maleVariant": "",
+              "stringId": 1949052563641458692
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お願い… 何もしてないじゃない…！",
+              "maleVariant": "",
+              "stringId": 1949052563758899204
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こんな… こんな死に方はイヤ！",
+              "maleVariant": "",
+              "stringId": 1949052563775676420
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ねえ… ついてくるのやめて？ ね？",
+              "maleVariant": "",
+              "stringId": 1949052563859562500
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どっか行ってよ！ もう！",
+              "maleVariant": "",
+              "stringId": 1949052563893116932
             }
-          }
+          ]
         }
       }
     },

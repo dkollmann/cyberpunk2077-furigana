@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_jnk_f_01_enus_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "小銭ある？",
-                    "maleVariant": null,
-                    "stringId": 1948741517345595396
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちょ、ちょっと脅かさないで",
-                    "maleVariant": null,
-                    "stringId": 1948741517379149828
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちょっと、もう、やめて…",
-                    "maleVariant": null,
-                    "stringId": 1948741517479813124
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もめ事はごめんよ",
-                    "maleVariant": null,
-                    "stringId": 1948741517513367556
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うん… 私… 待って、切らないで！",
-                    "maleVariant": null,
-                    "stringId": 1948741517563699204
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちゃんと返すって。1週間待ってよ",
-                    "maleVariant": null,
-                    "stringId": 1948741517664362500
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "約束したのはわかってる",
-                    "maleVariant": null,
-                    "stringId": 1948741517681139716
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "待って… あーあ。まずい",
-                    "maleVariant": null,
-                    "stringId": 1948741517748248580
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ウソでしょ…",
-                    "maleVariant": null,
-                    "stringId": 1948741517966352388
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あーっ！ 人殺し！",
-                    "maleVariant": null,
-                    "stringId": 1948741517983129604
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お願い、命だけは…",
-                    "maleVariant": null,
-                    "stringId": 1948741518134124548
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お願い、やめて… お願い…",
-                    "maleVariant": null,
-                    "stringId": 1948741518167678980
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちょっと、放っておいてよ",
-                    "maleVariant": null,
-                    "stringId": 1948741518335451140
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "消えな！ 早く！",
-                    "maleVariant": null,
-                    "stringId": 1948741518369005572
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "小銭ある？",
+              "maleVariant": "",
+              "stringId": 1948741517345595396
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちょ、ちょっと脅かさないで",
+              "maleVariant": "",
+              "stringId": 1948741517379149828
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちょっと、もう、やめて…",
+              "maleVariant": "",
+              "stringId": 1948741517479813124
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もめ事はごめんよ",
+              "maleVariant": "",
+              "stringId": 1948741517513367556
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うん… 私… 待って、切らないで！",
+              "maleVariant": "",
+              "stringId": 1948741517563699204
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちゃんと返すって。1週間待ってよ",
+              "maleVariant": "",
+              "stringId": 1948741517664362500
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "約束したのはわかってる",
+              "maleVariant": "",
+              "stringId": 1948741517681139716
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "待って… あーあ。まずい",
+              "maleVariant": "",
+              "stringId": 1948741517748248580
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ウソでしょ…",
+              "maleVariant": "",
+              "stringId": 1948741517966352388
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あーっ！ 人殺し！",
+              "maleVariant": "",
+              "stringId": 1948741517983129604
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お願い、命だけは…",
+              "maleVariant": "",
+              "stringId": 1948741518134124548
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お願い、やめて… お願い…",
+              "maleVariant": "",
+              "stringId": 1948741518167678980
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちょっと、放っておいてよ",
+              "maleVariant": "",
+              "stringId": 1948741518335451140
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "消えな！ 早く！",
+              "maleVariant": "",
+              "stringId": 1948741518369005572
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_hey_rey_02_gangers.json"
@@ -11,114 +11,86 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい、どこへ行く？ 入場料を払え",
-                    "maleVariant": null,
-                    "stringId": 1344261447933308928
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もちろん、払うよ",
-                    "maleVariant": "もちろんだ、払うよ",
-                    "stringId": 1344266984599138304
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "見るだけ、お触りはナシだ。おかしな真似をすれば、その手を切り落とすからな。じゃ、楽しんでくれ",
-                    "maleVariant": null,
-                    "stringId": 1344269938831994880
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "音響設備を修理しに来ただけよ。取り付けたサブウーファーが緩んできてるって",
-                    "maleVariant": "音響設備を修理しに来ただけだ。取り付けたサブウーファーが緩んできてるんだろ",
-                    "stringId": 1347037398928797696
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そんな話は聞いてないぞ",
-                    "maleVariant": null,
-                    "stringId": 1347037398928797712
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "払うよ",
-                    "maleVariant": null,
-                    "stringId": 1347069170462830592
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "音響設備を直しに来た",
-                    "maleVariant": null,
-                    "stringId": 1347069293490155520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "はい、セニョール・ラドリリョ。万事順調です。ええ。ええ、そうです",
-                    "maleVariant": null,
-                    "stringId": 1721508198295351296
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "で、やたらボディタッチしてくるから言ったの。穴イジリたきゃてめえの鼻ほじってろってネ！",
-                    "maleVariant": null,
-                    "stringId": 1721512418520150016
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "男だけでパーティーするとすぐに勘違いするよな",
-                    "maleVariant": null,
-                    "stringId": 1721514493610110976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "疑うならボスに聞けば？ でも料金はたった今からカウントするからね。こっちも忙しいの",
-                    "maleVariant": "疑うならボスに聞けよ。だが料金はたった今からカウントするからな。こっちも忙しい",
-                    "stringId": 1895181017099325440
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ、もういい。入れ",
-                    "maleVariant": null,
-                    "stringId": 1895181816365895680
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい、どこへ行く？ 入場料を払え",
+              "maleVariant": "",
+              "stringId": 1344261447933308928
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もちろん、払うよ",
+              "maleVariant": "もちろんだ、払うよ",
+              "stringId": 1344266984599138304
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "見るだけ、お触りはナシだ。おかしな真似をすれば、その手を切り落とすからな。じゃ、楽しんでくれ",
+              "maleVariant": "",
+              "stringId": 1344269938831994880
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "音響設備を修理しに来ただけよ。取り付けたサブウーファーが緩んできてるって",
+              "maleVariant": "音響設備を修理しに来ただけだ。取り付けたサブウーファーが緩んできてるんだろ",
+              "stringId": 1347037398928797696
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そんな話は聞いてないぞ",
+              "maleVariant": "",
+              "stringId": 1347037398928797712
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "払うよ",
+              "maleVariant": "",
+              "stringId": 1347069170462830592
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "音響設備を直しに来た",
+              "maleVariant": "",
+              "stringId": 1347069293490155520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "はい、セニョール・ラドリリョ。万事順調です。ええ。ええ、そうです",
+              "maleVariant": "",
+              "stringId": 1721508198295351296
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "で、やたらボディタッチしてくるから言ったの。穴イジリたきゃてめえの鼻ほじってろってネ！",
+              "maleVariant": "",
+              "stringId": 1721512418520150016
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "男だけでパーティーするとすぐに勘違いするよな",
+              "maleVariant": "",
+              "stringId": 1721514493610110976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "疑うならボスに聞けば？ でも料金はたった今からカウントするからね。こっちも忙しいの",
+              "maleVariant": "疑うならボスに聞けよ。だが料金はたった今からカウントするからな。こっちも忙しい",
+              "stringId": 1895181017099325440
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ、もういい。入れ",
+              "maleVariant": "",
+              "stringId": 1895181816365895680
             }
-          }
+          ]
         }
       }
     },

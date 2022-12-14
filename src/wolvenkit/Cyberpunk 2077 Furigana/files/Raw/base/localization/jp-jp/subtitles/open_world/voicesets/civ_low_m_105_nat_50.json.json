@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_m_105_nat_50.json"
@@ -11,154 +11,116 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何か探し物？",
-                    "maleVariant": null,
-                    "stringId": 1922937322674331652
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お互い面識はないだろう？",
-                    "maleVariant": null,
-                    "stringId": 1922937322707886080
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "目はついてるのか！？",
-                    "maleVariant": null,
-                    "stringId": 1922937322774994948
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この…っ！",
-                    "maleVariant": null,
-                    "stringId": 1922937322791772164
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもし、久しぶりだな！",
-                    "maleVariant": null,
-                    "stringId": 1922937322842103812
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そっちは気に入ったかい？ いや、俺はまだまだ！ 本当かい…！？ ハイウェイか、ふむ…",
-                    "maleVariant": null,
-                    "stringId": 1922937322909212672
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうしたいのはやまやまだが… 無理かなあ… いつ？ そうか…！ そんなに早く…？ わかった、待ってるよ！",
-                    "maleVariant": null,
-                    "stringId": 1922937322925989892
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "みんなによろしく",
-                    "maleVariant": null,
-                    "stringId": 1922937322976321540
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "誰か銃持ってないのか？ 早く！",
-                    "maleVariant": null,
-                    "stringId": 1922937323177648132
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "撃ち殺せ！",
-                    "maleVariant": null,
-                    "stringId": 1922937323211202560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今ならまだ間に合うぞ！",
-                    "maleVariant": null,
-                    "stringId": 1922937323295088644
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "娘に会うはずだったのに…",
-                    "maleVariant": null,
-                    "stringId": 1922937323328643076
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なんで俺に付きまとってるんだよ？",
-                    "maleVariant": null,
-                    "stringId": 1922937323446083588
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "来るな。あっちへ行け！",
-                    "maleVariant": null,
-                    "stringId": 1922937323479638020
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "話がしたいんじゃなかったのか",
-                    "maleVariant": null,
-                    "stringId": 1958903786935197700
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "話の途中だっただろう？",
-                    "maleVariant": null,
-                    "stringId": 1958903787002306564
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "心が読めるわけじゃない…",
-                    "maleVariant": null,
-                    "stringId": 1958903787019083780
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何か探し物？",
+              "maleVariant": "",
+              "stringId": 1922937322674331652
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お互い面識はないだろう？",
+              "maleVariant": "",
+              "stringId": 1922937322707886080
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "目はついてるのか！？",
+              "maleVariant": "",
+              "stringId": 1922937322774994948
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この…っ！",
+              "maleVariant": "",
+              "stringId": 1922937322791772164
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもし、久しぶりだな！",
+              "maleVariant": "",
+              "stringId": 1922937322842103812
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そっちは気に入ったかい？ いや、俺はまだまだ！ 本当かい…！？ ハイウェイか、ふむ…",
+              "maleVariant": "",
+              "stringId": 1922937322909212672
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうしたいのはやまやまだが… 無理かなあ… いつ？ そうか…！ そんなに早く…？ わかった、待ってるよ！",
+              "maleVariant": "",
+              "stringId": 1922937322925989892
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "みんなによろしく",
+              "maleVariant": "",
+              "stringId": 1922937322976321540
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "誰か銃持ってないのか？ 早く！",
+              "maleVariant": "",
+              "stringId": 1922937323177648132
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "撃ち殺せ！",
+              "maleVariant": "",
+              "stringId": 1922937323211202560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今ならまだ間に合うぞ！",
+              "maleVariant": "",
+              "stringId": 1922937323295088644
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "娘に会うはずだったのに…",
+              "maleVariant": "",
+              "stringId": 1922937323328643076
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なんで俺に付きまとってるんだよ？",
+              "maleVariant": "",
+              "stringId": 1922937323446083588
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "来るな。あっちへ行け！",
+              "maleVariant": "",
+              "stringId": 1922937323479638020
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "話がしたいんじゃなかったのか",
+              "maleVariant": "",
+              "stringId": 1958903786935197700
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "話の途中だっただろう？",
+              "maleVariant": "",
+              "stringId": 1958903787002306564
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "心が読めるわけじゃない…",
+              "maleVariant": "",
+              "stringId": 1958903787019083780
             }
-          }
+          ]
         }
       }
     },

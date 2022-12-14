@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_arr_chat_021.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "人をカモにしようったって、そうはいかないぞ。第3世代のキロシに第1世代の筋繊維？ そんな組み合わせじゃシステムがイカレる！",
-                    "maleVariant": null,
-                    "stringId": 2167959241924988928
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お客さん、俺も同じセットアップを使ってるが何の問題もないよ。ほんのちょっとソフトをいじればいいだけさ",
-                    "maleVariant": null,
-                    "stringId": 2221752211264081920
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ふん、1個売っていくら懐に入るんだ？ それとも在庫処分か？",
-                    "maleVariant": null,
-                    "stringId": 2221753402026987520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いいかい、問題はインプラントじゃない、ソフトの方だ。キロシが互換性をつけないせいで、ユーザーは2年おきに筋繊維を取り替えなきゃならない",
-                    "maleVariant": null,
-                    "stringId": 2221754091084025856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "だが実際、キロシからは普通に信号が出てるんだ。それをソフトがブロックしてる。その方が儲かるからな",
-                    "maleVariant": null,
-                    "stringId": 2221756819982094336
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ふうん… で、どうソフトをいじるんだ？",
-                    "maleVariant": null,
-                    "stringId": 2221760427486187520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お客さんが興味あるなら、いいランナーを紹介するよ。それに、このインプラント代も値引きしよう",
-                    "maleVariant": null,
-                    "stringId": 2221760761419894784
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "人をカモにしようったって、そうはいかないぞ。第3世代のキロシに第1世代の筋繊維？ そんな組み合わせじゃシステムがイカレる！",
+              "maleVariant": "",
+              "stringId": 2167959241924988928
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お客さん、俺も同じセットアップを使ってるが何の問題もないよ。ほんのちょっとソフトをいじればいいだけさ",
+              "maleVariant": "",
+              "stringId": 2221752211264081920
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ふん、1個売っていくら懐に入るんだ？ それとも在庫処分か？",
+              "maleVariant": "",
+              "stringId": 2221753402026987520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いいかい、問題はインプラントじゃない、ソフトの方だ。キロシが互換性をつけないせいで、ユーザーは2年おきに筋繊維を取り替えなきゃならない",
+              "maleVariant": "",
+              "stringId": 2221754091084025856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "だが実際、キロシからは普通に信号が出てるんだ。それをソフトがブロックしてる。その方が儲かるからな",
+              "maleVariant": "",
+              "stringId": 2221756819982094336
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ふうん… で、どうソフトをいじるんだ？",
+              "maleVariant": "",
+              "stringId": 2221760427486187520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お客さんが興味あるなら、いいランナーを紹介するよ。それに、このインプラント代も値引きしよう",
+              "maleVariant": "",
+              "stringId": 2221760761419894784
             }
-          }
+          ]
         }
       }
     },

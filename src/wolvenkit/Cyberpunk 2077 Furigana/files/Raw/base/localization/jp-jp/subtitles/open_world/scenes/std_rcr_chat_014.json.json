@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_rcr_chat_014.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ここの怠け者どもにはうんざりだ…",
-                    "maleVariant": null,
-                    "stringId": 2167583306455732224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ホント、プライドってものがないのよね",
-                    "maleVariant": null,
-                    "stringId": 2214544611510423552
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うちの上の連中なんか特にだ。伝説のロッカーボーイだか何だか知らないが、夜通しクスリを吸ったり大音量で音楽を流してるだけだ。おかげで一睡もできやしない",
-                    "maleVariant": null,
-                    "stringId": 2228790780600094720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "苦情を言ったら、仕返しされるしね…",
-                    "maleVariant": null,
-                    "stringId": 2228826334876241920
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "昔はよかった。あの頃に戻ればいいのにな…",
-                    "maleVariant": null,
-                    "stringId": 2228826932262572032
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "昔って、クズみたいな連中はメガブロックに住めなかった頃のこと？",
-                    "maleVariant": null,
-                    "stringId": 2228827845245112320
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうだ",
-                    "maleVariant": null,
-                    "stringId": 2228829954459930624
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ここの怠け者どもにはうんざりだ…",
+              "maleVariant": "",
+              "stringId": 2167583306455732224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ホント、プライドってものがないのよね",
+              "maleVariant": "",
+              "stringId": 2214544611510423552
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うちの上の連中なんか特にだ。伝説のロッカーボーイだか何だか知らないが、夜通しクスリを吸ったり大音量で音楽を流してるだけだ。おかげで一睡もできやしない",
+              "maleVariant": "",
+              "stringId": 2228790780600094720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "苦情を言ったら、仕返しされるしね…",
+              "maleVariant": "",
+              "stringId": 2228826334876241920
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "昔はよかった。あの頃に戻ればいいのにな…",
+              "maleVariant": "",
+              "stringId": 2228826932262572032
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "昔って、クズみたいな連中はメガブロックに住めなかった頃のこと？",
+              "maleVariant": "",
+              "stringId": 2228827845245112320
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうだ",
+              "maleVariant": "",
+              "stringId": 2228829954459930624
             }
-          }
+          ]
         }
       }
     },

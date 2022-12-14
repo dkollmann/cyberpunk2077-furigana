@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\bls_ina_se5_foodshop_01.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おいしいものはある？",
-                    "maleVariant": "おいしいものあるか？",
-                    "stringId": 1935695189159358464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いい匂いがする。涎が出てきた",
-                    "maleVariant": null,
-                    "stringId": 1935695189159358480
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何かおいしいものはある？",
-                    "maleVariant": "何かおいしいものはあるか？",
-                    "stringId": 1935695189209690116
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もちろんだよ、お嬢さん",
-                    "maleVariant": "もちろんだよ、お兄さん",
-                    "stringId": 1935695189209690124
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いい匂いがする。涎が出てきた",
-                    "maleVariant": null,
-                    "stringId": 1935695189243244548
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ガーリックのバター炒めだな。 世界広しといえど、これに勝る香りはない",
-                    "maleVariant": null,
-                    "stringId": 1935695189243244556
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おいしいものはある？",
+              "maleVariant": "おいしいものあるか？",
+              "stringId": 1935695189159358464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いい匂いがする。涎が出てきた",
+              "maleVariant": "",
+              "stringId": 1935695189159358480
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何かおいしいものはある？",
+              "maleVariant": "何かおいしいものはあるか？",
+              "stringId": 1935695189209690116
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もちろんだよ、お嬢さん",
+              "maleVariant": "もちろんだよ、お兄さん",
+              "stringId": 1935695189209690124
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いい匂いがする。涎が出てきた",
+              "maleVariant": "",
+              "stringId": 1935695189243244548
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ガーリックのバター炒めだな。 世界広しといえど、これに勝る香りはない",
+              "maleVariant": "",
+              "stringId": 1935695189243244556
             }
-          }
+          ]
         }
       }
     },

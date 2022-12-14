@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_m_46_afam_40.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あんた、気合入ってんなあ",
-                    "maleVariant": null,
-                    "stringId": 1922895295395930116
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どこ行く気だ？ ん？",
-                    "maleVariant": null,
-                    "stringId": 1922895295429484548
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "失礼な奴！",
-                    "maleVariant": null,
-                    "stringId": 1922895295496593412
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "気をつけやがれ！",
-                    "maleVariant": null,
-                    "stringId": 1922895295513370628
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今度は何だ？",
-                    "maleVariant": null,
-                    "stringId": 1922895295563702272
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ん？… もちろんだ… ああ？ 俺のせいだって…？ ふざけるな…！",
-                    "maleVariant": null,
-                    "stringId": 1922895295614033924
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あの女が悪いんだろ… 何…？ 気が向いた時にな…！ おい… そんなことはさせねえぞ！",
-                    "maleVariant": null,
-                    "stringId": 1922895295630811140
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "また明日な",
-                    "maleVariant": null,
-                    "stringId": 1922895295681142788
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うわ…！ まずい！",
-                    "maleVariant": null,
-                    "stringId": 1922895295865692164
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "警察を呼べ！",
-                    "maleVariant": null,
-                    "stringId": 1922895295899246596
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "や、やめてくれ！ 死にたくない！",
-                    "maleVariant": null,
-                    "stringId": 1922895295983132676
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なんで？ なんでだよ…？",
-                    "maleVariant": null,
-                    "stringId": 1922895296100573184
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何をコソコソしてるんだ？",
-                    "maleVariant": null,
-                    "stringId": 1922895296218013696
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何してるんだ？ 構わないでくれ！",
-                    "maleVariant": null,
-                    "stringId": 1922895296234790916
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あんた、気合入ってんなあ",
+              "maleVariant": "",
+              "stringId": 1922895295395930116
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どこ行く気だ？ ん？",
+              "maleVariant": "",
+              "stringId": 1922895295429484548
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "失礼な奴！",
+              "maleVariant": "",
+              "stringId": 1922895295496593412
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "気をつけやがれ！",
+              "maleVariant": "",
+              "stringId": 1922895295513370628
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今度は何だ？",
+              "maleVariant": "",
+              "stringId": 1922895295563702272
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ん？… もちろんだ… ああ？ 俺のせいだって…？ ふざけるな…！",
+              "maleVariant": "",
+              "stringId": 1922895295614033924
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あの女が悪いんだろ… 何…？ 気が向いた時にな…！ おい… そんなことはさせねえぞ！",
+              "maleVariant": "",
+              "stringId": 1922895295630811140
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "また明日な",
+              "maleVariant": "",
+              "stringId": 1922895295681142788
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うわ…！ まずい！",
+              "maleVariant": "",
+              "stringId": 1922895295865692164
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "警察を呼べ！",
+              "maleVariant": "",
+              "stringId": 1922895295899246596
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "や、やめてくれ！ 死にたくない！",
+              "maleVariant": "",
+              "stringId": 1922895295983132676
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なんで？ なんでだよ…？",
+              "maleVariant": "",
+              "stringId": 1922895296100573184
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何をコソコソしてるんだ？",
+              "maleVariant": "",
+              "stringId": 1922895296218013696
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何してるんだ？ 構わないでくれ！",
+              "maleVariant": "",
+              "stringId": 1922895296234790916
             }
-          }
+          ]
         }
       }
     },

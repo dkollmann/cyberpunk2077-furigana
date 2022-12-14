@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q108\\q108_14b_lift.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "早く、乗って",
-                    "maleVariant": null,
-                    "stringId": 1199713875651371008
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "急いで",
-                    "maleVariant": null,
-                    "stringId": 1780446051313819648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あいつらも乗せてあげる気？ 早くして！",
-                    "maleVariant": null,
-                    "stringId": 1789366170710614016
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい、まだかよ",
-                    "maleVariant": null,
-                    "stringId": 1789367420999081984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "乗って！",
-                    "maleVariant": null,
-                    "stringId": 1789372393531023364
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "エレベーターに敵が乗ってるかもしれない。気をつけるんだよ",
-                    "maleVariant": null,
-                    "stringId": 2233328576890486784
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ここから脱出しないと。急ぐよ",
-                    "maleVariant": null,
-                    "stringId": 2233356649551708160
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いらっしゃい",
-                    "maleVariant": null,
-                    "stringId": 2237419660830654464
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "早く、乗って",
+              "maleVariant": "",
+              "stringId": 1199713875651371008
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "急いで",
+              "maleVariant": "",
+              "stringId": 1780446051313819648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あいつらも乗せてあげる気？ 早くして！",
+              "maleVariant": "",
+              "stringId": 1789366170710614016
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい、まだかよ",
+              "maleVariant": "",
+              "stringId": 1789367420999081984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "乗って！",
+              "maleVariant": "",
+              "stringId": 1789372393531023364
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "エレベーターに敵が乗ってるかもしれない。気をつけるんだよ",
+              "maleVariant": "",
+              "stringId": 2233328576890486784
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ここから脱出しないと。急ぐよ",
+              "maleVariant": "",
+              "stringId": 2233356649551708160
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いらっしゃい",
+              "maleVariant": "",
+              "stringId": 2237419660830654464
             }
-          }
+          ]
         }
       }
     },

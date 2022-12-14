@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\mq001\\mq001_01_mood_scenes_funeral.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "残りし灰よ、安らかなれ",
-                    "maleVariant": null,
-                    "stringId": 1807019459189952512
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いや。アリスの山を見てみろよ。まだ色々残ってるぞ",
-                    "maleVariant": null,
-                    "stringId": 1807033337621794820
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい、こいつを見ろよ",
-                    "maleVariant": null,
-                    "stringId": 1807033424997535744
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "すげえ… 誰のだ！？",
-                    "maleVariant": null,
-                    "stringId": 1807043816687685632
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ジョシュよ。子供の頃からずっと持ってた",
-                    "maleVariant": null,
-                    "stringId": 1807044023668199424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ありがとう。安らかなれ",
-                    "maleVariant": null,
-                    "stringId": 1807046517249036288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "安らかなれ",
-                    "maleVariant": null,
-                    "stringId": 1807046847223320576
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "風よ運びたまえ",
-                    "maleVariant": null,
-                    "stringId": 1807048525012029440
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "雨よ、流したまえ",
-                    "maleVariant": null,
-                    "stringId": 1807048642083442688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "俺のトラック用に電力変換器がほしいんだが、見かけてないか？",
-                    "maleVariant": null,
-                    "stringId": 1807049663329357824
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "残りし灰よ、安らかなれ",
+              "maleVariant": "",
+              "stringId": 1807019459189952512
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いや。アリスの山を見てみろよ。まだ色々残ってるぞ",
+              "maleVariant": "",
+              "stringId": 1807033337621794820
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい、こいつを見ろよ",
+              "maleVariant": "",
+              "stringId": 1807033424997535744
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "すげえ… 誰のだ！？",
+              "maleVariant": "",
+              "stringId": 1807043816687685632
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ジョシュよ。子供の頃からずっと持ってた",
+              "maleVariant": "",
+              "stringId": 1807044023668199424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ありがとう。安らかなれ",
+              "maleVariant": "",
+              "stringId": 1807046517249036288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "安らかなれ",
+              "maleVariant": "",
+              "stringId": 1807046847223320576
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "風よ運びたまえ",
+              "maleVariant": "",
+              "stringId": 1807048525012029440
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "雨よ、流したまえ",
+              "maleVariant": "",
+              "stringId": 1807048642083442688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "俺のトラック用に電力変換器がほしいんだが、見かけてないか？",
+              "maleVariant": "",
+              "stringId": 1807049663329357824
             }
-          }
+          ]
         }
       }
     },

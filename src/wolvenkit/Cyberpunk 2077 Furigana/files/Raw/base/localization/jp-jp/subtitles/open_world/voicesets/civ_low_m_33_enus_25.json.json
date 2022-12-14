@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_m_33_enus_25.json"
@@ -11,154 +11,116 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "空から落ちてきたみたいな顔してるな",
-                    "maleVariant": null,
-                    "stringId": 1922860277739036676
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この辺にはよく来るのか？",
-                    "maleVariant": null,
-                    "stringId": 1922860277755813892
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何だよ！",
-                    "maleVariant": null,
-                    "stringId": 1922860277822922756
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "危ないだろ！",
-                    "maleVariant": null,
-                    "stringId": 1922860277856477188
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもし、どうした？",
-                    "maleVariant": null,
-                    "stringId": 1922860277906808836
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ほんとに…？ 新しいドールか…？ そりゃ行かないとだな…！ うーん… 明日？",
-                    "maleVariant": null,
-                    "stringId": 1922860277973917696
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まさか、おいおい… クオリティこそ正義だって… ああ… それに一度だけじゃない！",
-                    "maleVariant": null,
-                    "stringId": 1922860277990694916
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "じゃ、明日な！",
-                    "maleVariant": null,
-                    "stringId": 1922860278024249348
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何とかしろ！",
-                    "maleVariant": null,
-                    "stringId": 1922860278208798724
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "頭がおかしいのか！",
-                    "maleVariant": null,
-                    "stringId": 1922860278242353156
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何が欲しいんだ！？ 金か！？",
-                    "maleVariant": null,
-                    "stringId": 1922860278343016452
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何でもするから！",
-                    "maleVariant": null,
-                    "stringId": 1922860278376570884
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "気まずくなってきたな…",
-                    "maleVariant": null,
-                    "stringId": 1922860278460456964
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今はちょっと困るんだけど…",
-                    "maleVariant": null,
-                    "stringId": 1922860278494011396
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あっそう、まあ別にいいけど…",
-                    "maleVariant": null,
-                    "stringId": 1958899397445066756
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いいか？",
-                    "maleVariant": null,
-                    "stringId": 1958899397495398404
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "早くしろよ",
-                    "maleVariant": null,
-                    "stringId": 1958899397528952836
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "空から落ちてきたみたいな顔してるな",
+              "maleVariant": "",
+              "stringId": 1922860277739036676
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この辺にはよく来るのか？",
+              "maleVariant": "",
+              "stringId": 1922860277755813892
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何だよ！",
+              "maleVariant": "",
+              "stringId": 1922860277822922756
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "危ないだろ！",
+              "maleVariant": "",
+              "stringId": 1922860277856477188
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもし、どうした？",
+              "maleVariant": "",
+              "stringId": 1922860277906808836
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ほんとに…？ 新しいドールか…？ そりゃ行かないとだな…！ うーん… 明日？",
+              "maleVariant": "",
+              "stringId": 1922860277973917696
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まさか、おいおい… クオリティこそ正義だって… ああ… それに一度だけじゃない！",
+              "maleVariant": "",
+              "stringId": 1922860277990694916
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "じゃ、明日な！",
+              "maleVariant": "",
+              "stringId": 1922860278024249348
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何とかしろ！",
+              "maleVariant": "",
+              "stringId": 1922860278208798724
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "頭がおかしいのか！",
+              "maleVariant": "",
+              "stringId": 1922860278242353156
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何が欲しいんだ！？ 金か！？",
+              "maleVariant": "",
+              "stringId": 1922860278343016452
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何でもするから！",
+              "maleVariant": "",
+              "stringId": 1922860278376570884
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "気まずくなってきたな…",
+              "maleVariant": "",
+              "stringId": 1922860278460456964
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今はちょっと困るんだけど…",
+              "maleVariant": "",
+              "stringId": 1922860278494011396
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あっそう、まあ別にいいけど…",
+              "maleVariant": "",
+              "stringId": 1958899397445066756
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いいか？",
+              "maleVariant": "",
+              "stringId": 1958899397495398404
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "早くしろよ",
+              "maleVariant": "",
+              "stringId": 1958899397528952836
             }
-          }
+          ]
         }
       }
     },

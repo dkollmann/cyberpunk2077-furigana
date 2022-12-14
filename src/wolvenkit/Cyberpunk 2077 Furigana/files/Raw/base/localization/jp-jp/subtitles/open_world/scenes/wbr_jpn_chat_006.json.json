@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_jpn_chat_006.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お前にどれだけ金をかけたかわかってんのか！ あのリパーだってタダじゃねえんだぞ！",
-                    "maleVariant": null,
-                    "stringId": 1806877200782843904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "だ、だってしょうがないじゃん… 殴られたのよ…",
-                    "maleVariant": null,
-                    "stringId": 1806877559261618176
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "んなもん言われなくても、見りゃわかる！",
-                    "maleVariant": null,
-                    "stringId": 1806877837696294912
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "許してやれよ。彼女が悪いわけじゃねえ",
-                    "maleVariant": null,
-                    "stringId": 1806878034493038592
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "黙ってろ！ そもそも、こいつを守るのがてめえの仕事だろうが",
-                    "maleVariant": null,
-                    "stringId": 1806879191114309632
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "殴ったのはこの子のインプットだ。プライベートまで干渉してられねえよ",
-                    "maleVariant": null,
-                    "stringId": 1806879410023424000
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いつの間に男なんか作ってやがった… 金も払わねえ相手に腰振ってるヒマがあんなら、もっと客をとってきたらどうだ",
-                    "maleVariant": null,
-                    "stringId": 1806879683659816960
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "彼に手を出したら、モックスに言うからね！",
-                    "maleVariant": null,
-                    "stringId": 1806880015932579840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "その潰れた顔でか？ ハッ、せいぜい頑張れよ",
-                    "maleVariant": null,
-                    "stringId": 1806880356644282368
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お前にどれだけ金をかけたかわかってんのか！ あのリパーだってタダじゃねえんだぞ！",
+              "maleVariant": "",
+              "stringId": 1806877200782843904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "だ、だってしょうがないじゃん… 殴られたのよ…",
+              "maleVariant": "",
+              "stringId": 1806877559261618176
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "んなもん言われなくても、見りゃわかる！",
+              "maleVariant": "",
+              "stringId": 1806877837696294912
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "許してやれよ。彼女が悪いわけじゃねえ",
+              "maleVariant": "",
+              "stringId": 1806878034493038592
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "黙ってろ！ そもそも、こいつを守るのがてめえの仕事だろうが",
+              "maleVariant": "",
+              "stringId": 1806879191114309632
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "殴ったのはこの子のインプットだ。プライベートまで干渉してられねえよ",
+              "maleVariant": "",
+              "stringId": 1806879410023424000
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いつの間に男なんか作ってやがった… 金も払わねえ相手に腰振ってるヒマがあんなら、もっと客をとってきたらどうだ",
+              "maleVariant": "",
+              "stringId": 1806879683659816960
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "彼に手を出したら、モックスに言うからね！",
+              "maleVariant": "",
+              "stringId": 1806880015932579840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "その潰れた顔でか？ ハッ、せいぜい頑張れよ",
+              "maleVariant": "",
+              "stringId": 1806880356644282368
             }
-          }
+          ]
         }
       }
     },

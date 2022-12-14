@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\fluff\\n54_news_6.json"
@@ -11,114 +11,86 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "皆さま、こんにちは。N54ニュースのジリアン・ジョーダンが、最新のワールドレポートをお伝えします",
-                    "maleVariant": null,
-                    "stringId": 1751847222072893440
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ロザリンド・マイヤーズ新合衆国大統領は今年の連邦党全国大会で、次期選挙も出馬する意向を表明しました",
-                    "maleVariant": null,
-                    "stringId": 1751847468949626880
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "選挙スローガンである「ふたたび一つの国へ」には、大統領のメッセージが込められています。引用します、「統一のため、あらゆる面で全力を尽くす」",
-                    "maleVariant": null,
-                    "stringId": 1751847588067860480
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "N54ニュースの世論調査によると、ナイトシティ市民の78%が新合衆国への加盟を希望しています",
-                    "maleVariant": null,
-                    "stringId": 1751847704669511680
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "果たしてナイトシティの人々の願いは叶うのか、目が離せません",
-                    "maleVariant": null,
-                    "stringId": 1751847907388612608
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "キールリンク大学の研究グループは今日行われた記者会見の中で、次世代3Dプリンタ、アーティフェックスの驚異的な性能を全世界に見せつけることに成功しました",
-                    "maleVariant": null,
-                    "stringId": 1751848076268068864
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "アーティフェックスは、ユーザーの脳の活動を読み取ることで、頭に思い浮かべた物体を作り出せるとのこと",
-                    "maleVariant": null,
-                    "stringId": 1751848255801057280
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "スイスの大手企業ムーア・テクノロジー社と共同開発されたこの最新型プリンタは、順調にいけば来年にも製品化される見込みとなっています",
-                    "maleVariant": null,
-                    "stringId": 1751848390572433408
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "“オメガ”の愛称で知られていた、オーストラリアで最後の野生のコアラに、別れが告げられました",
-                    "maleVariant": null,
-                    "stringId": 1751848566733201408
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "オメガは野生生物としてシドニー郊外で暮らしながらも、同市から手厚い支援を受けていました。市営植物園から毎日11ポンドのユーカリの葉と、新鮮な水が届けられていたのです",
-                    "maleVariant": null,
-                    "stringId": 1751848704792911872
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "数年前にブルーマウンテン疾病対策センターが安楽死を計画したことで、メディアが注目。この生きたテディベアとも言える貴重な野生動物を救うべく、シドニーに住む多くの人々が抗議活動を行ったのです",
-                    "maleVariant": null,
-                    "stringId": 1751848827048484864
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "以上、N54ニュースからワールドレポートをお届けしました",
-                    "maleVariant": null,
-                    "stringId": 1751849094661857280
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "皆さま、こんにちは。N54ニュースのジリアン・ジョーダンが、最新のワールドレポートをお伝えします",
+              "maleVariant": "",
+              "stringId": 1751847222072893440
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ロザリンド・マイヤーズ新合衆国大統領は今年の連邦党全国大会で、次期選挙も出馬する意向を表明しました",
+              "maleVariant": "",
+              "stringId": 1751847468949626880
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "選挙スローガンである「ふたたび一つの国へ」には、大統領のメッセージが込められています。引用します、「統一のため、あらゆる面で全力を尽くす」",
+              "maleVariant": "",
+              "stringId": 1751847588067860480
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "N54ニュースの世論調査によると、ナイトシティ市民の78%が新合衆国への加盟を希望しています",
+              "maleVariant": "",
+              "stringId": 1751847704669511680
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "果たしてナイトシティの人々の願いは叶うのか、目が離せません",
+              "maleVariant": "",
+              "stringId": 1751847907388612608
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "キールリンク大学の研究グループは今日行われた記者会見の中で、次世代3Dプリンタ、アーティフェックスの驚異的な性能を全世界に見せつけることに成功しました",
+              "maleVariant": "",
+              "stringId": 1751848076268068864
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "アーティフェックスは、ユーザーの脳の活動を読み取ることで、頭に思い浮かべた物体を作り出せるとのこと",
+              "maleVariant": "",
+              "stringId": 1751848255801057280
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "スイスの大手企業ムーア・テクノロジー社と共同開発されたこの最新型プリンタは、順調にいけば来年にも製品化される見込みとなっています",
+              "maleVariant": "",
+              "stringId": 1751848390572433408
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "“オメガ”の愛称で知られていた、オーストラリアで最後の野生のコアラに、別れが告げられました",
+              "maleVariant": "",
+              "stringId": 1751848566733201408
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "オメガは野生生物としてシドニー郊外で暮らしながらも、同市から手厚い支援を受けていました。市営植物園から毎日11ポンドのユーカリの葉と、新鮮な水が届けられていたのです",
+              "maleVariant": "",
+              "stringId": 1751848704792911872
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "数年前にブルーマウンテン疾病対策センターが安楽死を計画したことで、メディアが注目。この生きたテディベアとも言える貴重な野生動物を救うべく、シドニーに住む多くの人々が抗議活動を行ったのです",
+              "maleVariant": "",
+              "stringId": 1751848827048484864
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "以上、N54ニュースからワールドレポートをお届けしました",
+              "maleVariant": "",
+              "stringId": 1751849094661857280
             }
-          }
+          ]
         }
       }
     },

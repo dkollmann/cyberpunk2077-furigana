@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\vset_hwangbo_dong_gun.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"kor\" o=\"이제 모든 희망이 사라졌어.\" t=\"もうダメだ。希みはない\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 1895373356455575556
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"kor\" o=\"이 바닥이 다 이런 거 아니겠어?\" t=\"ギャングにとっては日常茶飯事か\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 1895373356489129988
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"kor\" o=\"어... 그래, 다음에 얘기하자.\" t=\"あ… じゃあまた後にするか\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 1895373356640124932
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"kor\" o=\"그래... 알았어.\" t=\"まあ… いいか\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 1895373356656902148
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"kor\" o=\"벌써 왔어? 빨리 왔네, 하하.\" t=\"もう戻ったのか？ 早かったな、はは\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 1895373356724011012
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"kor\" o=\"다시 올 줄 알았지.\" t=\"戻ってこないかと思った\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 1895373356757565444
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"kor\" o=\"빨리 결정해.\" t=\"決めかねるか？\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 1895373356774342660
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"kor\" o=\"빨리 좀 하면 안 돼?\" t=\"早くしてくれないか？\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 1895373356824674304
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"kor\" o=\"아우!\" t=\"痛っ！\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 1895373357193773060
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"kor\" o=\"아! 야, 아프잖아.\" t=\"痛いじゃないか\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 1895373357227327492
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"kor\" o=\"이제 모든 희망이 사라졌어.\" t=\"もうダメだ。希みはない\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 1895373356455575556
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"kor\" o=\"이 바닥이 다 이런 거 아니겠어?\" t=\"ギャングにとっては日常茶飯事か\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 1895373356489129988
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"kor\" o=\"어... 그래, 다음에 얘기하자.\" t=\"あ… じゃあまた後にするか\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 1895373356640124932
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"kor\" o=\"그래... 알았어.\" t=\"まあ… いいか\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 1895373356656902148
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"kor\" o=\"벌써 왔어? 빨리 왔네, 하하.\" t=\"もう戻ったのか？ 早かったな、はは\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 1895373356724011012
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"kor\" o=\"다시 올 줄 알았지.\" t=\"戻ってこないかと思った\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 1895373356757565444
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"kor\" o=\"빨리 결정해.\" t=\"決めかねるか？\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 1895373356774342660
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"kor\" o=\"빨리 좀 하면 안 돼?\" t=\"早くしてくれないか？\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 1895373356824674304
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"kor\" o=\"아우!\" t=\"痛っ！\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 1895373357193773060
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"kor\" o=\"아! 야, 아프잖아.\" t=\"痛いじゃないか\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 1895373357227327492
             }
-          }
+          ]
         }
       }
     },

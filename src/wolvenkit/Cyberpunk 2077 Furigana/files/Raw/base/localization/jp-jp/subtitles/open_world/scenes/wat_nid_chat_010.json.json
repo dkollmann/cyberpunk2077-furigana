@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_nid_chat_010.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なんでだ？ こんなことをしなくても、お前ならテッキーにだってなれるだろ",
-                    "maleVariant": null,
-                    "stringId": 1963288946766028800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "パパ、やめてよ… もういい加減、聞き飽きた…",
-                    "maleVariant": null,
-                    "stringId": 1965052560611721216
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何回言っても、お前が聞き入れないからだろ。かわいい息子がどこの馬の骨ともわからん奴に傷つけられたら…",
-                    "maleVariant": null,
-                    "stringId": 1965053021733502976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "心配いらない。モックスは仲間同士でしっかり守り合ってる",
-                    "maleVariant": null,
-                    "stringId": 1965053228982452224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "じゃ、じゃあこれはどうだ？ ボスとの面接を取り付けてやる。ずっと機械を扱う仕事をしたがってただろ",
-                    "maleVariant": null,
-                    "stringId": 1965053607862321152
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "パパ、ママはずっと機械の周りにいたせいで、がんを患ったのよ",
-                    "maleVariant": null,
-                    "stringId": 1965053864654389248
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "汚いガスで窒息するより、誰かのナニで窒息するほうがマシ",
-                    "maleVariant": null,
-                    "stringId": 1965054185015328768
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なんでだ？ こんなことをしなくても、お前ならテッキーにだってなれるだろ",
+              "maleVariant": "",
+              "stringId": 1963288946766028800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "パパ、やめてよ… もういい加減、聞き飽きた…",
+              "maleVariant": "",
+              "stringId": 1965052560611721216
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何回言っても、お前が聞き入れないからだろ。かわいい息子がどこの馬の骨ともわからん奴に傷つけられたら…",
+              "maleVariant": "",
+              "stringId": 1965053021733502976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "心配いらない。モックスは仲間同士でしっかり守り合ってる",
+              "maleVariant": "",
+              "stringId": 1965053228982452224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "じゃ、じゃあこれはどうだ？ ボスとの面接を取り付けてやる。ずっと機械を扱う仕事をしたがってただろ",
+              "maleVariant": "",
+              "stringId": 1965053607862321152
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "パパ、ママはずっと機械の周りにいたせいで、がんを患ったのよ",
+              "maleVariant": "",
+              "stringId": 1965053864654389248
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "汚いガスで窒息するより、誰かのナニで窒息するほうがマシ",
+              "maleVariant": "",
+              "stringId": 1965054185015328768
             }
-          }
+          ]
         }
       }
     },

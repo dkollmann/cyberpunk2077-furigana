@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_nok_chat_017.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "撮れた？ オッケー？",
-                    "maleVariant": null,
-                    "stringId": 2159361653899501568
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ、もう送信した。すでに編集チームが作業してる",
-                    "maleVariant": null,
-                    "stringId": 2199674145485287424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ギャラリーのおばあさんにリンクを貼るよう、マーケチームに伝えて。大枚はたいてくれたんだから、そのぶんスポットライトを当ててあげないと",
-                    "maleVariant": null,
-                    "stringId": 2199680968846143488
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "すでに伝えてあるよ。デラマンにもリンクを貼ってくれてる。撮影中に1台通ったからな",
-                    "maleVariant": null,
-                    "stringId": 2199683396861620224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そう。とりあえずお疲れ様",
-                    "maleVariant": null,
-                    "stringId": 2199694371325145088
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "インタビューの感想は？ よかった？",
-                    "maleVariant": null,
-                    "stringId": 2199694651823419392
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "本気で聞いてるのか？",
-                    "maleVariant": null,
-                    "stringId": 2199694844828512256
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ハハ、冗談よ",
-                    "maleVariant": null,
-                    "stringId": 2199695023891738624
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "撮れた？ オッケー？",
+              "maleVariant": "",
+              "stringId": 2159361653899501568
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ、もう送信した。すでに編集チームが作業してる",
+              "maleVariant": "",
+              "stringId": 2199674145485287424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ギャラリーのおばあさんにリンクを貼るよう、マーケチームに伝えて。大枚はたいてくれたんだから、そのぶんスポットライトを当ててあげないと",
+              "maleVariant": "",
+              "stringId": 2199680968846143488
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "すでに伝えてあるよ。デラマンにもリンクを貼ってくれてる。撮影中に1台通ったからな",
+              "maleVariant": "",
+              "stringId": 2199683396861620224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そう。とりあえずお疲れ様",
+              "maleVariant": "",
+              "stringId": 2199694371325145088
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "インタビューの感想は？ よかった？",
+              "maleVariant": "",
+              "stringId": 2199694651823419392
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "本気で聞いてるのか？",
+              "maleVariant": "",
+              "stringId": 2199694844828512256
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ハハ、冗談よ",
+              "maleVariant": "",
+              "stringId": 2199695023891738624
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\hey_rey_foodshop_04.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ここではどんな料理を？",
-                    "maleVariant": null,
-                    "stringId": 1863299347169820672
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "食中毒の心配はないよね？",
-                    "maleVariant": "食中毒の心配はないよな？",
-                    "stringId": 1863299347169820688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何を作ってるの？",
-                    "maleVariant": "何を作ってるんだ？",
-                    "stringId": 1863299347220152324
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あんた次第さ。何がほしい？",
-                    "maleVariant": null,
-                    "stringId": 1863299347220152332
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "食中毒の心配はないよね？",
-                    "maleVariant": "食中毒の心配はないよな？",
-                    "stringId": 1863299347270483972
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "場合による。そんなことばっか聞いてると、どうだろうな",
-                    "maleVariant": null,
-                    "stringId": 1863299347270483980
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うまいものばっかりだ。何にする？",
-                    "maleVariant": null,
-                    "stringId": 1974706148871557120
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ここではどんな料理を？",
+              "maleVariant": "",
+              "stringId": 1863299347169820672
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "食中毒の心配はないよね？",
+              "maleVariant": "食中毒の心配はないよな？",
+              "stringId": 1863299347169820688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何を作ってるの？",
+              "maleVariant": "何を作ってるんだ？",
+              "stringId": 1863299347220152324
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あんた次第さ。何がほしい？",
+              "maleVariant": "",
+              "stringId": 1863299347220152332
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "食中毒の心配はないよね？",
+              "maleVariant": "食中毒の心配はないよな？",
+              "stringId": 1863299347270483972
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "場合による。そんなことばっか聞いてると、どうだろうな",
+              "maleVariant": "",
+              "stringId": 1863299347270483980
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うまいものばっかりだ。何にする？",
+              "maleVariant": "",
+              "stringId": 1974706148871557120
             }
-          }
+          ]
         }
       }
     },

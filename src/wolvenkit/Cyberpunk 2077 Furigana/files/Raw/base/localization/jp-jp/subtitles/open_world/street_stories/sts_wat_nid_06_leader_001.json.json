@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_wat_nid_06_leader_001.json"
@@ -11,106 +11,80 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あのバカ、ヤツを殺しやがって！",
-                    "maleVariant": null,
-                    "stringId": 1621737920015437824
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "落ち着けよ、な？",
-                    "maleVariant": null,
-                    "stringId": 1720303603363975168
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "このことは黙ってろ",
-                    "maleVariant": null,
-                    "stringId": 1730070224592801792
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "パットが聞いたら何て言うか",
-                    "maleVariant": null,
-                    "stringId": 1730071977308557312
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ロイスが聞いたら何て言うか",
-                    "maleVariant": null,
-                    "stringId": 1730071977342111744
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あのバカをかばえってか？",
-                    "maleVariant": null,
-                    "stringId": 1730081510324015104
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "俺に任せとけ",
-                    "maleVariant": null,
-                    "stringId": 1730081606172250112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そんなこと言ったって、カールの野郎がヤツをやっちまったせいで、コードが…",
-                    "maleVariant": null,
-                    "stringId": 1730081817145741312
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "…それに、何のためにヘマをかばってやるんだよ？",
-                    "maleVariant": null,
-                    "stringId": 1730081970422386688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "かばうとは言ってねえ。自由に使える駒ができたってことさ",
-                    "maleVariant": null,
-                    "stringId": 1730088355444920320
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あんまり火遊びが過ぎると痛い目見るぞ",
-                    "maleVariant": null,
-                    "stringId": 1730091869214707712
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あのバカ、ヤツを殺しやがって！",
+              "maleVariant": "",
+              "stringId": 1621737920015437824
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "落ち着けよ、な？",
+              "maleVariant": "",
+              "stringId": 1720303603363975168
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "このことは黙ってろ",
+              "maleVariant": "",
+              "stringId": 1730070224592801792
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "パットが聞いたら何て言うか",
+              "maleVariant": "",
+              "stringId": 1730071977308557312
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ロイスが聞いたら何て言うか",
+              "maleVariant": "",
+              "stringId": 1730071977342111744
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あのバカをかばえってか？",
+              "maleVariant": "",
+              "stringId": 1730081510324015104
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "俺に任せとけ",
+              "maleVariant": "",
+              "stringId": 1730081606172250112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そんなこと言ったって、カールの野郎がヤツをやっちまったせいで、コードが…",
+              "maleVariant": "",
+              "stringId": 1730081817145741312
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "…それに、何のためにヘマをかばってやるんだよ？",
+              "maleVariant": "",
+              "stringId": 1730081970422386688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "かばうとは言ってねえ。自由に使える駒ができたってことさ",
+              "maleVariant": "",
+              "stringId": 1730088355444920320
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あんまり火遊びが過ぎると痛い目見るぞ",
+              "maleVariant": "",
+              "stringId": 1730091869214707712
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_south_005.json"
@@ -11,58 +11,44 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "オイルはまめに変えろって言ったでしょ。もうドロドロじゃない",
-                    "maleVariant": null,
-                    "stringId": 1973555515895095296
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "はいはい。で？ 直すのにいくらかかる？",
-                    "maleVariant": null,
-                    "stringId": 1979006129199697920
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今すぐ直せって言うの？ 新しいトランスミッションを入れないといけないから、高くつくよ",
-                    "maleVariant": null,
-                    "stringId": 1979006661104553984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そんな…",
-                    "maleVariant": null,
-                    "stringId": 1979007237821353984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "メンテナンスを怠ると、車も財布もダメージを負うのよ",
-                    "maleVariant": null,
-                    "stringId": 1979009381295247360
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "オイルはまめに変えろって言ったでしょ。もうドロドロじゃない",
+              "maleVariant": "",
+              "stringId": 1973555515895095296
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "はいはい。で？ 直すのにいくらかかる？",
+              "maleVariant": "",
+              "stringId": 1979006129199697920
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今すぐ直せって言うの？ 新しいトランスミッションを入れないといけないから、高くつくよ",
+              "maleVariant": "",
+              "stringId": 1979006661104553984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そんな…",
+              "maleVariant": "",
+              "stringId": 1979007237821353984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "メンテナンスを怠ると、車も財布もダメージを負うのよ",
+              "maleVariant": "",
+              "stringId": 1979009381295247360
             }
-          }
+          ]
         }
       }
     },

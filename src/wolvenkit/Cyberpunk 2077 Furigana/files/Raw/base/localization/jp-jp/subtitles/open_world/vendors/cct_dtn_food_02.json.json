@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\cct_dtn_food_02.json"
@@ -11,106 +11,80 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どんなメニューがある？",
-                    "maleVariant": null,
-                    "stringId": 1979199944430952452
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "マネージャーと話がしたい",
-                    "maleVariant": null,
-                    "stringId": 1979202558304428032
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ひどい音楽ね",
-                    "maleVariant": "ひどい音楽だ",
-                    "stringId": 1979202635865497600
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ここの音楽はひどいね",
-                    "maleVariant": "ここの音楽はひどいな",
-                    "stringId": 1979204222990131200
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "俺は好きだぜ。眠くならない",
-                    "maleVariant": null,
-                    "stringId": 1979204932347600896
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おいしいものはある？",
-                    "maleVariant": "おいしいものはあるか？",
-                    "stringId": 1979205486868144128
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "自分で見てみなよ",
-                    "maleVariant": null,
-                    "stringId": 1979206603123433472
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おたくのボスに話がある。今いる？",
-                    "maleVariant": "おたくのボスに話がある。今いるか？",
-                    "stringId": 1979208885126799360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ツイてないな。ボスは話したくないってさ",
-                    "maleVariant": null,
-                    "stringId": 1979209470433533952
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "向こうの気分は関係ない。いるかどうか訊いてるの",
-                    "maleVariant": "向こうの気分は関係ない。いるかどうか訊いてんだ",
-                    "stringId": 1979209914543218688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "上の階にいるよ。VIPルームにな… だが歓迎されると思うなよ",
-                    "maleVariant": null,
-                    "stringId": 1979210323387195392
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どんなメニューがある？",
+              "maleVariant": "",
+              "stringId": 1979199944430952452
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "マネージャーと話がしたい",
+              "maleVariant": "",
+              "stringId": 1979202558304428032
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ひどい音楽ね",
+              "maleVariant": "ひどい音楽だ",
+              "stringId": 1979202635865497600
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ここの音楽はひどいね",
+              "maleVariant": "ここの音楽はひどいな",
+              "stringId": 1979204222990131200
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "俺は好きだぜ。眠くならない",
+              "maleVariant": "",
+              "stringId": 1979204932347600896
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おいしいものはある？",
+              "maleVariant": "おいしいものはあるか？",
+              "stringId": 1979205486868144128
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "自分で見てみなよ",
+              "maleVariant": "",
+              "stringId": 1979206603123433472
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おたくのボスに話がある。今いる？",
+              "maleVariant": "おたくのボスに話がある。今いるか？",
+              "stringId": 1979208885126799360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ツイてないな。ボスは話したくないってさ",
+              "maleVariant": "",
+              "stringId": 1979209470433533952
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "向こうの気分は関係ない。いるかどうか訊いてるの",
+              "maleVariant": "向こうの気分は関係ない。いるかどうか訊いてんだ",
+              "stringId": 1979209914543218688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "上の階にいるよ。VIPルームにな… だが歓迎されると思うなよ",
+              "maleVariant": "",
+              "stringId": 1979210323387195392
             }
-          }
+          ]
         }
       }
     },

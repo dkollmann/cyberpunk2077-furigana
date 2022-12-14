@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_spr_chat_009.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "実行日は？",
-                    "maleVariant": null,
-                    "stringId": 1832672751780487168
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今は何とも。前回の後、奴もだいぶ慎重になってるからな",
-                    "maleVariant": null,
-                    "stringId": 1832675900058624000
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "電話もネットも使えない所に閉じ込められ、詳細は最後まで明かされない",
-                    "maleVariant": null,
-                    "stringId": 1832676068636090368
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "その場にしばらく… 下手すると一晩中監禁状態だ。やるとしても、そこからだろう",
-                    "maleVariant": null,
-                    "stringId": 1832676235602944000
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なるほど",
-                    "maleVariant": null,
-                    "stringId": 1832676545629118464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "で、奴は殺ってもいいのか？",
-                    "maleVariant": null,
-                    "stringId": 1832676695432880128
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いや、まだだ",
-                    "maleVariant": null,
-                    "stringId": 1832676858104766464
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "実行日は？",
+              "maleVariant": "",
+              "stringId": 1832672751780487168
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今は何とも。前回の後、奴もだいぶ慎重になってるからな",
+              "maleVariant": "",
+              "stringId": 1832675900058624000
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "電話もネットも使えない所に閉じ込められ、詳細は最後まで明かされない",
+              "maleVariant": "",
+              "stringId": 1832676068636090368
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "その場にしばらく… 下手すると一晩中監禁状態だ。やるとしても、そこからだろう",
+              "maleVariant": "",
+              "stringId": 1832676235602944000
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なるほど",
+              "maleVariant": "",
+              "stringId": 1832676545629118464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "で、奴は殺ってもいいのか？",
+              "maleVariant": "",
+              "stringId": 1832676695432880128
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いや、まだだ",
+              "maleVariant": "",
+              "stringId": 1832676858104766464
             }
-          }
+          ]
         }
       }
     },

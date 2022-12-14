@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\wbr_jpn_junk_02.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いいバーチャ置いてる？",
-                    "maleVariant": "いいバーチャ置いてるか？",
-                    "stringId": 1885146511026044928
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "売り物には全部目を通してるの？",
-                    "maleVariant": "売り物には全部目を通してるのか？",
-                    "stringId": 1885146511026044944
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いいバーチャはある？",
-                    "maleVariant": "いいバーチャはあるか？",
-                    "stringId": 1885146511076376580
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "売ってるBD、全部に目を通してるの？",
-                    "maleVariant": "売ってるBD、全部に目を通してるのか？",
-                    "stringId": 1885146511210594308
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "当たり前だろ。動作確認をしてない商品をひと様に売るわけにはいかないからな",
-                    "maleVariant": null,
-                    "stringId": 1885146511210594316
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あんたがこないだ買ったのほどじゃないよ",
-                    "maleVariant": null,
-                    "stringId": 1983737469952811008
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でも見てみてくれ",
-                    "maleVariant": null,
-                    "stringId": 1983737469952811020
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うちは品質優先だからな",
-                    "maleVariant": null,
-                    "stringId": 1983756461727768576
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "期待してる",
-                    "maleVariant": null,
-                    "stringId": 1983758703449038848
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いいバーチャ置いてる？",
+              "maleVariant": "いいバーチャ置いてるか？",
+              "stringId": 1885146511026044928
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "売り物には全部目を通してるの？",
+              "maleVariant": "売り物には全部目を通してるのか？",
+              "stringId": 1885146511026044944
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いいバーチャはある？",
+              "maleVariant": "いいバーチャはあるか？",
+              "stringId": 1885146511076376580
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "売ってるBD、全部に目を通してるの？",
+              "maleVariant": "売ってるBD、全部に目を通してるのか？",
+              "stringId": 1885146511210594308
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "当たり前だろ。動作確認をしてない商品をひと様に売るわけにはいかないからな",
+              "maleVariant": "",
+              "stringId": 1885146511210594316
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あんたがこないだ買ったのほどじゃないよ",
+              "maleVariant": "",
+              "stringId": 1983737469952811008
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でも見てみてくれ",
+              "maleVariant": "",
+              "stringId": 1983737469952811020
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うちは品質優先だからな",
+              "maleVariant": "",
+              "stringId": 1983756461727768576
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "期待してる",
+              "maleVariant": "",
+              "stringId": 1983758703449038848
             }
-          }
+          ]
         }
       }
     },

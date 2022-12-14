@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_awf_chat_015.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "聞いたか？ ケリー・ユーロダインがニューアルバムを制作中だって",
-                    "maleVariant": null,
-                    "stringId": 2156475910439608320
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "音楽には興味ない",
-                    "maleVariant": null,
-                    "stringId": 2177889701086818304
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうか、BD派なんだな？ 最近何かいいのあったか？",
-                    "maleVariant": null,
-                    "stringId": 2177890124174651392
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ブレインダンスはシナプスをダメにする。脳に悪いことにも興味はない",
-                    "maleVariant": null,
-                    "stringId": 2177891074167730176
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あー、うん、それはそうだな… 俺もだよ",
-                    "maleVariant": null,
-                    "stringId": 2177893192106700800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なら、一緒に散歩でもしないか？",
-                    "maleVariant": null,
-                    "stringId": 2177894022947991552
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "んー、それならいいかもね",
-                    "maleVariant": null,
-                    "stringId": 2177894648100614144
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "本当か？",
-                    "maleVariant": null,
-                    "stringId": 2177895651260690432
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もちろん。そろそろ次の巡回に行かなきゃって思ってたところだから",
-                    "maleVariant": null,
-                    "stringId": 2177896106275565568
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "聞いたか？ ケリー・ユーロダインがニューアルバムを制作中だって",
+              "maleVariant": "",
+              "stringId": 2156475910439608320
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "音楽には興味ない",
+              "maleVariant": "",
+              "stringId": 2177889701086818304
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうか、BD派なんだな？ 最近何かいいのあったか？",
+              "maleVariant": "",
+              "stringId": 2177890124174651392
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ブレインダンスはシナプスをダメにする。脳に悪いことにも興味はない",
+              "maleVariant": "",
+              "stringId": 2177891074167730176
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あー、うん、それはそうだな… 俺もだよ",
+              "maleVariant": "",
+              "stringId": 2177893192106700800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なら、一緒に散歩でもしないか？",
+              "maleVariant": "",
+              "stringId": 2177894022947991552
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "んー、それならいいかもね",
+              "maleVariant": "",
+              "stringId": 2177894648100614144
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "本当か？",
+              "maleVariant": "",
+              "stringId": 2177895651260690432
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もちろん。そろそろ次の巡回に行かなきゃって思ってたところだから",
+              "maleVariant": "",
+              "stringId": 2177896106275565568
             }
-          }
+          ]
         }
       }
     },

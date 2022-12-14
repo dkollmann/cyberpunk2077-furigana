@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_east_029.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "東に何があるって言うの？",
-                    "maleVariant": null,
-                    "stringId": 2178311137037459456
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "さあな。でも確かめる価値はある。ネブラスカにファミリーがいるから、しばらくそこにいてもいい",
-                    "maleVariant": null,
-                    "stringId": 2211250919570599936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "向こうは仕事が少ないって聞いたけど",
-                    "maleVariant": null,
-                    "stringId": 2211256300124434432
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ナイトシティだってそうだ",
-                    "maleVariant": null,
-                    "stringId": 2211256613405388800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あったって、ロクな仕事じゃない。俺はもう少し長生きしたいんでね",
-                    "maleVariant": null,
-                    "stringId": 2211256783039819776
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あのね、それはちゃんと探してないからよ。探せばいくらでもある",
-                    "maleVariant": null,
-                    "stringId": 2211258545603801088
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "じゃあ行ってきなよ。ネブラスカが性に合うといいね",
-                    "maleVariant": null,
-                    "stringId": 2211259659090849792
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "東に何があるって言うの？",
+              "maleVariant": "",
+              "stringId": 2178311137037459456
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "さあな。でも確かめる価値はある。ネブラスカにファミリーがいるから、しばらくそこにいてもいい",
+              "maleVariant": "",
+              "stringId": 2211250919570599936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "向こうは仕事が少ないって聞いたけど",
+              "maleVariant": "",
+              "stringId": 2211256300124434432
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ナイトシティだってそうだ",
+              "maleVariant": "",
+              "stringId": 2211256613405388800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あったって、ロクな仕事じゃない。俺はもう少し長生きしたいんでね",
+              "maleVariant": "",
+              "stringId": 2211256783039819776
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あのね、それはちゃんと探してないからよ。探せばいくらでもある",
+              "maleVariant": "",
+              "stringId": 2211258545603801088
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "じゃあ行ってきなよ。ネブラスカが性に合うといいね",
+              "maleVariant": "",
+              "stringId": 2211259659090849792
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_high_m_20_jap_40.json"
@@ -11,138 +11,104 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ふん。暇人ばかりだな",
-                    "maleVariant": null,
-                    "stringId": 1878084291051134980
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お前みたいなクズとは話す気にもならない",
-                    "maleVariant": null,
-                    "stringId": 1878084291067912196
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どこを見てる！",
-                    "maleVariant": null,
-                    "stringId": 1878084291135021060
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい… 今押したろ！",
-                    "maleVariant": null,
-                    "stringId": 1878084291151798276
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私だ。なぜ電話に出ない？",
-                    "maleVariant": null,
-                    "stringId": 1878084291202129924
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうでもいいだろう…！ 確かに… 時は金なりだ…",
-                    "maleVariant": null,
-                    "stringId": 1878084291269238788
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "せいぜい努力するんだな…！ それから…？ ああ… そう願いたいものだ",
-                    "maleVariant": null,
-                    "stringId": 1878084291302793216
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "また明日続きを話そう",
-                    "maleVariant": null,
-                    "stringId": 1878084291353124868
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "くそッ！",
-                    "maleVariant": null,
-                    "stringId": 1878084291520897028
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "邪魔だ、どけッ！",
-                    "maleVariant": null,
-                    "stringId": 1878084291537674244
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私が誰だか知らないようだな！",
-                    "maleVariant": null,
-                    "stringId": 1878084291638337540
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うちの連中からは逃げられないぞ！",
-                    "maleVariant": null,
-                    "stringId": 1878084291671891972
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それ以上近寄るな",
-                    "maleVariant": null,
-                    "stringId": 1878084291772555268
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どっかいけ！ 私に関わるな！",
-                    "maleVariant": null,
-                    "stringId": 1878084291789332484
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いや… どう思う…？ その通りだ",
-                    "maleVariant": null,
-                    "stringId": 1878085999374376960
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ふん。暇人ばかりだな",
+              "maleVariant": "",
+              "stringId": 1878084291051134980
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お前みたいなクズとは話す気にもならない",
+              "maleVariant": "",
+              "stringId": 1878084291067912196
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どこを見てる！",
+              "maleVariant": "",
+              "stringId": 1878084291135021060
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい… 今押したろ！",
+              "maleVariant": "",
+              "stringId": 1878084291151798276
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私だ。なぜ電話に出ない？",
+              "maleVariant": "",
+              "stringId": 1878084291202129924
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうでもいいだろう…！ 確かに… 時は金なりだ…",
+              "maleVariant": "",
+              "stringId": 1878084291269238788
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "せいぜい努力するんだな…！ それから…？ ああ… そう願いたいものだ",
+              "maleVariant": "",
+              "stringId": 1878084291302793216
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "また明日続きを話そう",
+              "maleVariant": "",
+              "stringId": 1878084291353124868
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "くそッ！",
+              "maleVariant": "",
+              "stringId": 1878084291520897028
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "邪魔だ、どけッ！",
+              "maleVariant": "",
+              "stringId": 1878084291537674244
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私が誰だか知らないようだな！",
+              "maleVariant": "",
+              "stringId": 1878084291638337540
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うちの連中からは逃げられないぞ！",
+              "maleVariant": "",
+              "stringId": 1878084291671891972
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それ以上近寄るな",
+              "maleVariant": "",
+              "stringId": 1878084291772555268
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どっかいけ！ 私に関わるな！",
+              "maleVariant": "",
+              "stringId": 1878084291789332484
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いや… どう思う…？ その通りだ",
+              "maleVariant": "",
+              "stringId": 1878085999374376960
             }
-          }
+          ]
         }
       }
     },

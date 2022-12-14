@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_nid_chat_014.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まったく… なんで仕事に使う物が全部自腹なんだ？ 給料も自分で払えってわけじゃないよな？",
-                    "maleVariant": null,
-                    "stringId": 2156376068888977408
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そういうもんなんだよ。仕事が欲しけりゃ、それなりの投資が必要だ",
-                    "maleVariant": null,
-                    "stringId": 2170848571027079168
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それなり？ 今年でもう2回目だぞ？ 仕事着を買えって言うなら、その分給料を上げろってんだ！",
-                    "maleVariant": null,
-                    "stringId": 2170848969653731328
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "仕事があるだけ恵まれてる",
-                    "maleVariant": null,
-                    "stringId": 2170849181986177024
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "稼ぐためだ。月に何日か食事を我慢すれば、十分金は作れる",
-                    "maleVariant": null,
-                    "stringId": 2170849399972544512
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "健康にもいいらしいぞ。デトックスとか言ってな",
-                    "maleVariant": null,
-                    "stringId": 2170849571754459136
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ケッ… 飯を抜いたら勤務中にぶっ倒れて、クビになるに決まってる",
-                    "maleVariant": null,
-                    "stringId": 2170849765850071040
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まったく… なんで仕事に使う物が全部自腹なんだ？ 給料も自分で払えってわけじゃないよな？",
+              "maleVariant": "",
+              "stringId": 2156376068888977408
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そういうもんなんだよ。仕事が欲しけりゃ、それなりの投資が必要だ",
+              "maleVariant": "",
+              "stringId": 2170848571027079168
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それなり？ 今年でもう2回目だぞ？ 仕事着を買えって言うなら、その分給料を上げろってんだ！",
+              "maleVariant": "",
+              "stringId": 2170848969653731328
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "仕事があるだけ恵まれてる",
+              "maleVariant": "",
+              "stringId": 2170849181986177024
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "稼ぐためだ。月に何日か食事を我慢すれば、十分金は作れる",
+              "maleVariant": "",
+              "stringId": 2170849399972544512
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "健康にもいいらしいぞ。デトックスとか言ってな",
+              "maleVariant": "",
+              "stringId": 2170849571754459136
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ケッ… 飯を抜いたら勤務中にぶっ倒れて、クビになるに決まってる",
+              "maleVariant": "",
+              "stringId": 2170849765850071040
             }
-          }
+          ]
         }
       }
     },

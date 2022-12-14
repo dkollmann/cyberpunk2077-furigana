@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_wwd_chat_030.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "最新のすげえヤツだ。もう1週間前から出回ってるって話だぞ",
-                    "maleVariant": null,
-                    "stringId": 2179649948556582912
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うん、知ってる。バイオテクニカのブースターでしょ。わざと流出させたらしいよ",
-                    "maleVariant": null,
-                    "stringId": 2211509490577240064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "へえ、次は何を言い出すんだ？ この世界はシミュレーションで、俺らは誰かに操作されてるってか？",
-                    "maleVariant": null,
-                    "stringId": 2212647982137012224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "本当よ。クローム耐性を上げる薬で、サイバーサイコの発症を抑えるんだって",
-                    "maleVariant": null,
-                    "stringId": 2212648243341488128
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何のために街に流したんだ？ 副作用の確認か？",
-                    "maleVariant": null,
-                    "stringId": 2212651062702305280
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ま、せっかくだし企業様のモルモットになってやろうぜ。今夜少しやって、朝になったら報告書でも書いてやるか",
-                    "maleVariant": null,
-                    "stringId": 2212651785078894592
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ハハ、いいね",
-                    "maleVariant": null,
-                    "stringId": 2212656220706369536
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "最新のすげえヤツだ。もう1週間前から出回ってるって話だぞ",
+              "maleVariant": "",
+              "stringId": 2179649948556582912
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うん、知ってる。バイオテクニカのブースターでしょ。わざと流出させたらしいよ",
+              "maleVariant": "",
+              "stringId": 2211509490577240064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "へえ、次は何を言い出すんだ？ この世界はシミュレーションで、俺らは誰かに操作されてるってか？",
+              "maleVariant": "",
+              "stringId": 2212647982137012224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "本当よ。クローム耐性を上げる薬で、サイバーサイコの発症を抑えるんだって",
+              "maleVariant": "",
+              "stringId": 2212648243341488128
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何のために街に流したんだ？ 副作用の確認か？",
+              "maleVariant": "",
+              "stringId": 2212651062702305280
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ま、せっかくだし企業様のモルモットになってやろうぜ。今夜少しやって、朝になったら報告書でも書いてやるか",
+              "maleVariant": "",
+              "stringId": 2212651785078894592
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ハハ、いいね",
+              "maleVariant": "",
+              "stringId": 2212656220706369536
             }
-          }
+          ]
         }
       }
     },

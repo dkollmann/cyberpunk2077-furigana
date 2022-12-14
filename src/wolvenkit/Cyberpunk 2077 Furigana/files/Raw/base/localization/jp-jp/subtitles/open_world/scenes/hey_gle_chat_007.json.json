@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_gle_chat_007.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ペラレスが負けたら、この世が終わるとでも言いたいの？",
-                    "maleVariant": null,
-                    "stringId": 1832735430050177024
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いや。だがあいつが勝ちゃ、ようやくこの街も変わるかもしれねえな",
-                    "maleVariant": null,
-                    "stringId": 1832741124455391232
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それで彼らの生活が良くなるわけ？",
-                    "maleVariant": null,
-                    "stringId": 1832741464294678528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あいつらだけじゃない、君のもだ",
-                    "maleVariant": null,
-                    "stringId": 1832741687901413376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "適当なこと言わないで。ペラレスが本当に民衆のことを考えてると思う？",
-                    "maleVariant": null,
-                    "stringId": 1832742476849995776
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "考える必要はねえ。考えてるように振舞ってくれりゃいいんだ",
-                    "maleVariant": null,
-                    "stringId": 1832742714146938880
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "信じられない。あなた、本当に何もわかってないのね",
-                    "maleVariant": null,
-                    "stringId": 1832742889670172672
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ペラレスが負けたら、この世が終わるとでも言いたいの？",
+              "maleVariant": "",
+              "stringId": 1832735430050177024
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いや。だがあいつが勝ちゃ、ようやくこの街も変わるかもしれねえな",
+              "maleVariant": "",
+              "stringId": 1832741124455391232
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それで彼らの生活が良くなるわけ？",
+              "maleVariant": "",
+              "stringId": 1832741464294678528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あいつらだけじゃない、君のもだ",
+              "maleVariant": "",
+              "stringId": 1832741687901413376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "適当なこと言わないで。ペラレスが本当に民衆のことを考えてると思う？",
+              "maleVariant": "",
+              "stringId": 1832742476849995776
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "考える必要はねえ。考えてるように振舞ってくれりゃいいんだ",
+              "maleVariant": "",
+              "stringId": 1832742714146938880
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "信じられない。あなた、本当に何もわかってないのね",
+              "maleVariant": "",
+              "stringId": 1832742889670172672
             }
-          }
+          ]
         }
       }
     },

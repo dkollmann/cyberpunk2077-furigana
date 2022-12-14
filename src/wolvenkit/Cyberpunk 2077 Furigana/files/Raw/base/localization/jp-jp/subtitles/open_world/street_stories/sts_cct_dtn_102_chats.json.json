@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_cct_dtn_102_chats.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "マイクが死んだんだって。「治療を受けた」写真の連中と同じ症状みたいよ",
-                    "maleVariant": null,
-                    "stringId": 1945942052525072384
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "メダルが贈られ、“バイオテクニカ研究への多大な貢献”を讃えられるのか",
-                    "maleVariant": null,
-                    "stringId": 1947417355488694272
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何よ、あんなもの。どうしよう… サンプルを採取した場所には…",
-                    "maleVariant": null,
-                    "stringId": 1947417675195322368
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "…同じ目にあった人間がもっといる",
-                    "maleVariant": null,
-                    "stringId": 1947422216083050496
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それどころか、70は下らないって話よ",
-                    "maleVariant": null,
-                    "stringId": 1947422430059663360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "“被験者”か",
-                    "maleVariant": null,
-                    "stringId": 1963321823447060480
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ええ",
-                    "maleVariant": null,
-                    "stringId": 1963322452928204800
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "マイクが死んだんだって。「治療を受けた」写真の連中と同じ症状みたいよ",
+              "maleVariant": "",
+              "stringId": 1945942052525072384
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "メダルが贈られ、“バイオテクニカ研究への多大な貢献”を讃えられるのか",
+              "maleVariant": "",
+              "stringId": 1947417355488694272
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何よ、あんなもの。どうしよう… サンプルを採取した場所には…",
+              "maleVariant": "",
+              "stringId": 1947417675195322368
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "…同じ目にあった人間がもっといる",
+              "maleVariant": "",
+              "stringId": 1947422216083050496
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それどころか、70は下らないって話よ",
+              "maleVariant": "",
+              "stringId": 1947422430059663360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "“被験者”か",
+              "maleVariant": "",
+              "stringId": 1963321823447060480
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ええ",
+              "maleVariant": "",
+              "stringId": 1963322452928204800
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\wbr_jpn_medic_01.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "医者を探してる",
-                    "maleVariant": null,
-                    "stringId": 1885160209220255744
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "“強い”薬は置いてない？",
-                    "maleVariant": "“強い”薬は置いてないか？",
-                    "stringId": 1885160209220255760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "医者を探してる",
-                    "maleVariant": null,
-                    "stringId": 1885160209270587396
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どんなご用かな？",
-                    "maleVariant": null,
-                    "stringId": 1885160209270587404
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "カウンターの下に“サプリメント”を隠してたりはしない？",
-                    "maleVariant": "カウンターの下に“サプリメント”を隠してたりはしないか？",
-                    "stringId": 1885160209354473476
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ビタミンCを探してるわけじゃないんだろう？ ふむ… いかにも、ご所望のものなら在庫はある",
-                    "maleVariant": null,
-                    "stringId": 1885160209371250688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "青い服の連中に訊かれても口は割るなよ",
-                    "maleVariant": null,
-                    "stringId": 1979441176302112768
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "医者を探してる",
+              "maleVariant": "",
+              "stringId": 1885160209220255744
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "“強い”薬は置いてない？",
+              "maleVariant": "“強い”薬は置いてないか？",
+              "stringId": 1885160209220255760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "医者を探してる",
+              "maleVariant": "",
+              "stringId": 1885160209270587396
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どんなご用かな？",
+              "maleVariant": "",
+              "stringId": 1885160209270587404
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "カウンターの下に“サプリメント”を隠してたりはしない？",
+              "maleVariant": "カウンターの下に“サプリメント”を隠してたりはしないか？",
+              "stringId": 1885160209354473476
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ビタミンCを探してるわけじゃないんだろう？ ふむ… いかにも、ご所望のものなら在庫はある",
+              "maleVariant": "",
+              "stringId": 1885160209371250688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "青い服の連中に訊かれても口は割るなよ",
+              "maleVariant": "",
+              "stringId": 1979441176302112768
             }
-          }
+          ]
         }
       }
     },

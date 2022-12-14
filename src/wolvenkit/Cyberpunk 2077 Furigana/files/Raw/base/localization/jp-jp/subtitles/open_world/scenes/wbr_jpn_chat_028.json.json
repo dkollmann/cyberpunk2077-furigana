@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_jpn_chat_028.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なんだ？ ものすごい量の電気が消費されてる。飲食店が使う量じゃないよな？",
-                    "maleVariant": null,
-                    "stringId": 2160371417893347328
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい。こいつはどういうことだ？",
-                    "maleVariant": null,
-                    "stringId": 2180890586751799296
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ、気にしなくていい",
-                    "maleVariant": null,
-                    "stringId": 2180890735481819136
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そんなわけあるか。レストラン数軒でこの電力量は不自然だ",
-                    "maleVariant": null,
-                    "stringId": 2180890813864972288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "だから気にするなって。何も問題はない",
-                    "maleVariant": null,
-                    "stringId": 2180890895737786368
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何言ってんだよ。誰かが割って入って、電力を盗んでるに違いない",
-                    "maleVariant": null,
-                    "stringId": 2180891312601272320
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いいか、よく聞け。与えられた仕事だけをすればいい。余計な問題を増やさないでくれ。わかったな？",
-                    "maleVariant": null,
-                    "stringId": 2180891467522084864
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ… わかったよ",
-                    "maleVariant": null,
-                    "stringId": 2180891856451506176
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なんだ？ ものすごい量の電気が消費されてる。飲食店が使う量じゃないよな？",
+              "maleVariant": "",
+              "stringId": 2160371417893347328
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい。こいつはどういうことだ？",
+              "maleVariant": "",
+              "stringId": 2180890586751799296
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ、気にしなくていい",
+              "maleVariant": "",
+              "stringId": 2180890735481819136
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そんなわけあるか。レストラン数軒でこの電力量は不自然だ",
+              "maleVariant": "",
+              "stringId": 2180890813864972288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "だから気にするなって。何も問題はない",
+              "maleVariant": "",
+              "stringId": 2180890895737786368
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何言ってんだよ。誰かが割って入って、電力を盗んでるに違いない",
+              "maleVariant": "",
+              "stringId": 2180891312601272320
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いいか、よく聞け。与えられた仕事だけをすればいい。余計な問題を増やさないでくれ。わかったな？",
+              "maleVariant": "",
+              "stringId": 2180891467522084864
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ… わかったよ",
+              "maleVariant": "",
+              "stringId": 2180891856451506176
             }
-          }
+          ]
         }
       }
     },

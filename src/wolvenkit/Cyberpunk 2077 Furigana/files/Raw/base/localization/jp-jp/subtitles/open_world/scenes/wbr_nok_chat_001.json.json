@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_nok_chat_001.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なにか言いたげだな",
-                    "maleVariant": null,
-                    "stringId": 1963352550248939520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あら、鋭いのね。議員に当選したのもうなずける",
-                    "maleVariant": null,
-                    "stringId": 1978228607177560064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "要求を言いたまえ",
-                    "maleVariant": null,
-                    "stringId": 1978228622226722816
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "例のジャパンタウンの物件。こちらの希望額で売却してちょうだい",
-                    "maleVariant": null,
-                    "stringId": 1978232649849081856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "決めるのは街だ、俺に決定権はない",
-                    "maleVariant": null,
-                    "stringId": 1978233637943218176
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いいえ。決めるのは私よ。あなたはそれを実現するために全力を尽くせばいいだけ",
-                    "maleVariant": null,
-                    "stringId": 1978233672588169216
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "最善を尽くそう",
-                    "maleVariant": null,
-                    "stringId": 1978234081381814272
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "最善を尽くすだけじゃダメよ。必ず売却しなさい",
-                    "maleVariant": null,
-                    "stringId": 1978234347703341056
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なにか言いたげだな",
+              "maleVariant": "",
+              "stringId": 1963352550248939520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あら、鋭いのね。議員に当選したのもうなずける",
+              "maleVariant": "",
+              "stringId": 1978228607177560064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "要求を言いたまえ",
+              "maleVariant": "",
+              "stringId": 1978228622226722816
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "例のジャパンタウンの物件。こちらの希望額で売却してちょうだい",
+              "maleVariant": "",
+              "stringId": 1978232649849081856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "決めるのは街だ、俺に決定権はない",
+              "maleVariant": "",
+              "stringId": 1978233637943218176
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いいえ。決めるのは私よ。あなたはそれを実現するために全力を尽くせばいいだけ",
+              "maleVariant": "",
+              "stringId": 1978233672588169216
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "最善を尽くそう",
+              "maleVariant": "",
+              "stringId": 1978234081381814272
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "最善を尽くすだけじゃダメよ。必ず売却しなさい",
+              "maleVariant": "",
+              "stringId": 1978234347703341056
             }
-          }
+          ]
         }
       }
     },

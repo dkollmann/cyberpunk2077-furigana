@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_bls_ina_05_holocall_prebrief.json"
@@ -11,34 +11,26 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "V、新しい依頼だ。ブルース・ウェルビーって名の密輸人が、ミリテクに捕まった。そいつの友達が救出を依頼してる",
-                    "maleVariant": null,
-                    "stringId": 2328991384771932160
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "自分ではできないから傭兵が必要ってわけさ。ブルースを自由の身にしてやってくれ。詳細を添付する",
-                    "maleVariant": null,
-                    "stringId": 2333026362395967488
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "V、新しい依頼だ。ブルース・ウェルビーって名の密輸人が、ミリテクに捕まった。そいつの友達が救出を依頼してる",
+              "maleVariant": "",
+              "stringId": 2328991384771932160
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "自分ではできないから傭兵が必要ってわけさ。ブルースを自由の身にしてやってくれ。詳細を添付する",
+              "maleVariant": "",
+              "stringId": 2333026362395967488
             }
-          }
+          ]
         }
       }
     },

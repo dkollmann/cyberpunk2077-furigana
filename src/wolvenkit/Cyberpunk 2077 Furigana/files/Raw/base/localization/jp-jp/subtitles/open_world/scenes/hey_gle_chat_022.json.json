@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_gle_chat_022.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どいつもこいつも間抜けばかりだ。こんなオークション、インチキだって気づきそうなもんだけどな",
-                    "maleVariant": null,
-                    "stringId": 2161783980021592064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "で、どうするんだ？ ガラクタの倉庫ユニットを出品するだけでいいのか？",
-                    "maleVariant": null,
-                    "stringId": 2230234929730142208
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ。金になりそうなものは、先にこっちで頂いておくのさ",
-                    "maleVariant": null,
-                    "stringId": 2230235038698160128
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でも待てよ。こないだ誰かが競り落としたのには、マホガニーの机が入ってたって聞いたぞ",
-                    "maleVariant": null,
-                    "stringId": 2230235171305275392
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "売ったら2万エディーになったって話だ",
-                    "maleVariant": null,
-                    "stringId": 2230235291027488768
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ。そうやって時々いい思いをさせてやるんだよ。話題作りが必要だろ？",
-                    "maleVariant": null,
-                    "stringId": 2230235435714199552
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "へえ、なるほどな",
-                    "maleVariant": null,
-                    "stringId": 2230235551946752000
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どいつもこいつも間抜けばかりだ。こんなオークション、インチキだって気づきそうなもんだけどな",
+              "maleVariant": "",
+              "stringId": 2161783980021592064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "で、どうするんだ？ ガラクタの倉庫ユニットを出品するだけでいいのか？",
+              "maleVariant": "",
+              "stringId": 2230234929730142208
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ。金になりそうなものは、先にこっちで頂いておくのさ",
+              "maleVariant": "",
+              "stringId": 2230235038698160128
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でも待てよ。こないだ誰かが競り落としたのには、マホガニーの机が入ってたって聞いたぞ",
+              "maleVariant": "",
+              "stringId": 2230235171305275392
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "売ったら2万エディーになったって話だ",
+              "maleVariant": "",
+              "stringId": 2230235291027488768
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ。そうやって時々いい思いをさせてやるんだよ。話題作りが必要だろ？",
+              "maleVariant": "",
+              "stringId": 2230235435714199552
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "へえ、なるほどな",
+              "maleVariant": "",
+              "stringId": 2230235551946752000
             }
-          }
+          ]
         }
       }
     },

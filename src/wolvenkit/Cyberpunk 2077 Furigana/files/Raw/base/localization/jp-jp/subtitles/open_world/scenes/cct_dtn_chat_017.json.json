@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_dtn_chat_017.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クズ野郎どもとの銃撃戦で命を落とした真のティーノ。あいつは漢のなかの漢だった",
-                    "maleVariant": null,
-                    "stringId": 2172176714216222720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "タフガイのなかのタフガイ",
-                    "maleVariant": null,
-                    "stringId": 2181164745956364288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あいつが恐れたのは自分の母親だけ。母親が亡くなった後は、自分の拳だけを恐れてたな",
-                    "maleVariant": null,
-                    "stringId": 2181165297591226368
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何人ものクズを殴り倒してきた、狂暴な拳を",
-                    "maleVariant": null,
-                    "stringId": 2181165909624066048
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ、そうだな",
-                    "maleVariant": null,
-                    "stringId": 2181166275770028032
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今日ここに我が友、エンリケ・フアン・デ・ポールに別れを告げる",
-                    "maleVariant": null,
-                    "stringId": 2181166501507469312
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "銃弾が顔をかすめても、瞬きすらしなかった",
-                    "maleVariant": null,
-                    "stringId": 2181168085041778688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "サンタ・ムエルテのご慈愛に包まれ、安らかに眠れ",
-                    "maleVariant": null,
-                    "stringId": 2181170007844950016
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クズ野郎どもとの銃撃戦で命を落とした真のティーノ。あいつは漢のなかの漢だった",
+              "maleVariant": "",
+              "stringId": 2172176714216222720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "タフガイのなかのタフガイ",
+              "maleVariant": "",
+              "stringId": 2181164745956364288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あいつが恐れたのは自分の母親だけ。母親が亡くなった後は、自分の拳だけを恐れてたな",
+              "maleVariant": "",
+              "stringId": 2181165297591226368
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何人ものクズを殴り倒してきた、狂暴な拳を",
+              "maleVariant": "",
+              "stringId": 2181165909624066048
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ、そうだな",
+              "maleVariant": "",
+              "stringId": 2181166275770028032
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今日ここに我が友、エンリケ・フアン・デ・ポールに別れを告げる",
+              "maleVariant": "",
+              "stringId": 2181166501507469312
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "銃弾が顔をかすめても、瞬きすらしなかった",
+              "maleVariant": "",
+              "stringId": 2181168085041778688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "サンタ・ムエルテのご慈愛に包まれ、安らかに眠れ",
+              "maleVariant": "",
+              "stringId": 2181170007844950016
             }
-          }
+          ]
         }
       }
     },

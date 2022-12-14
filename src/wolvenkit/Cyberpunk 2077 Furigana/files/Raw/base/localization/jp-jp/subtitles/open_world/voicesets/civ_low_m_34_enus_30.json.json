@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_m_34_enus_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうした？",
-                    "maleVariant": null,
-                    "stringId": 1922863485559513088
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いかした格好してるじゃないか",
-                    "maleVariant": null,
-                    "stringId": 1922863485576290308
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい！ 気をつけろよな！",
-                    "maleVariant": null,
-                    "stringId": 1922863485643399172
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああん？",
-                    "maleVariant": null,
-                    "stringId": 1922863485660176388
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "よう",
-                    "maleVariant": null,
-                    "stringId": 1922863485727285252
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やらかしたって…？ いやいや、俺は嫌だぞ…！ 関係ねえ話には首は突っ込まん",
-                    "maleVariant": null,
-                    "stringId": 1922863485794394112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "え、何…？ 俺のことは知ってるよな… もちろん…！ やるなら先払いだぞ！",
-                    "maleVariant": null,
-                    "stringId": 1922863485811171332
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "じゃ",
-                    "maleVariant": null,
-                    "stringId": 1922863485861502976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うわっ！",
-                    "maleVariant": null,
-                    "stringId": 1922863486062829572
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "イカれてる！",
-                    "maleVariant": null,
-                    "stringId": 1922863486096384004
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うわ、頼む、やめろ！",
-                    "maleVariant": null,
-                    "stringId": 1922863486213824516
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何もしてないだろ！",
-                    "maleVariant": null,
-                    "stringId": 1922863486247378948
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まったく… ストーカーかよ",
-                    "maleVariant": null,
-                    "stringId": 1922863486348042244
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "視界から消えてくれないか？",
-                    "maleVariant": null,
-                    "stringId": 1922863486415151108
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうした？",
+              "maleVariant": "",
+              "stringId": 1922863485559513088
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いかした格好してるじゃないか",
+              "maleVariant": "",
+              "stringId": 1922863485576290308
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい！ 気をつけろよな！",
+              "maleVariant": "",
+              "stringId": 1922863485643399172
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああん？",
+              "maleVariant": "",
+              "stringId": 1922863485660176388
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "よう",
+              "maleVariant": "",
+              "stringId": 1922863485727285252
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やらかしたって…？ いやいや、俺は嫌だぞ…！ 関係ねえ話には首は突っ込まん",
+              "maleVariant": "",
+              "stringId": 1922863485794394112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "え、何…？ 俺のことは知ってるよな… もちろん…！ やるなら先払いだぞ！",
+              "maleVariant": "",
+              "stringId": 1922863485811171332
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "じゃ",
+              "maleVariant": "",
+              "stringId": 1922863485861502976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うわっ！",
+              "maleVariant": "",
+              "stringId": 1922863486062829572
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "イカれてる！",
+              "maleVariant": "",
+              "stringId": 1922863486096384004
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うわ、頼む、やめろ！",
+              "maleVariant": "",
+              "stringId": 1922863486213824516
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何もしてないだろ！",
+              "maleVariant": "",
+              "stringId": 1922863486247378948
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まったく… ストーカーかよ",
+              "maleVariant": "",
+              "stringId": 1922863486348042244
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "視界から消えてくれないか？",
+              "maleVariant": "",
+              "stringId": 1922863486415151108
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_east_015.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私もこれで本物のスターよ！",
-                    "maleVariant": null,
-                    "stringId": 2189520183199752192
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "昨日と何も変わってないじゃない。調子に乗らないほうがいいと思うけど",
-                    "maleVariant": null,
-                    "stringId": 2189531689920454656
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わかってないのね。有名なクリエイターのブレインダンスに出演してきたのよ！",
-                    "maleVariant": null,
-                    "stringId": 2189532330826883072
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "え、本当に！？ どうだった？ 台詞をたくさん覚えたりしたの？",
-                    "maleVariant": null,
-                    "stringId": 2189532913617035264
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ううん。バットを振り回しながら道を歩いただけ",
-                    "maleVariant": null,
-                    "stringId": 2189533222586245120
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でも、野球のルールなんて知らないじゃん",
-                    "maleVariant": null,
-                    "stringId": 2189535391947382784
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そりゃこの街に野球場なんてないからね。それでもうまくやったの",
-                    "maleVariant": null,
-                    "stringId": 2189535832970059776
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい、今までどこに行ってた！？",
-                    "maleVariant": null,
-                    "stringId": 2227247446443646976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "有名になるチャンスを掴んでたのよ。バッドランズの貧しい暮らしとはもうおさらば。これでタワーに住める",
-                    "maleVariant": null,
-                    "stringId": 2227249684775919616
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ハッ、バカバカしい。タワーなんかで育ってたら、今頃お前は墓の下だ",
-                    "maleVariant": null,
-                    "stringId": 2227252243754344448
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私もこれで本物のスターよ！",
+              "maleVariant": "",
+              "stringId": 2189520183199752192
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "昨日と何も変わってないじゃない。調子に乗らないほうがいいと思うけど",
+              "maleVariant": "",
+              "stringId": 2189531689920454656
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わかってないのね。有名なクリエイターのブレインダンスに出演してきたのよ！",
+              "maleVariant": "",
+              "stringId": 2189532330826883072
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "え、本当に！？ どうだった？ 台詞をたくさん覚えたりしたの？",
+              "maleVariant": "",
+              "stringId": 2189532913617035264
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ううん。バットを振り回しながら道を歩いただけ",
+              "maleVariant": "",
+              "stringId": 2189533222586245120
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でも、野球のルールなんて知らないじゃん",
+              "maleVariant": "",
+              "stringId": 2189535391947382784
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そりゃこの街に野球場なんてないからね。それでもうまくやったの",
+              "maleVariant": "",
+              "stringId": 2189535832970059776
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい、今までどこに行ってた！？",
+              "maleVariant": "",
+              "stringId": 2227247446443646976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "有名になるチャンスを掴んでたのよ。バッドランズの貧しい暮らしとはもうおさらば。これでタワーに住める",
+              "maleVariant": "",
+              "stringId": 2227249684775919616
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ハッ、バカバカしい。タワーなんかで育ってたら、今頃お前は墓の下だ",
+              "maleVariant": "",
+              "stringId": 2227252243754344448
             }
-          }
+          ]
         }
       }
     },

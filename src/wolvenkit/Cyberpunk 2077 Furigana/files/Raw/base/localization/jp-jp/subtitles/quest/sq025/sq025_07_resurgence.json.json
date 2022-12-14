@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\sq025\\sq025_07_resurgence.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい、お前のチューマがまたぶっ壊れてるぞ。問題発生か？",
-                    "maleVariant": null,
-                    "stringId": 1730070130741911552
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ウイルスニヨリ、コアガソンショウ",
-                    "maleVariant": null,
-                    "stringId": 1730089518459166720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ドウカ、オネガイデス",
-                    "maleVariant": null,
-                    "stringId": 1730090022916497408
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "本当だ。何か起きてないかデラマンに連絡してみる",
-                    "maleVariant": null,
-                    "stringId": 1730290755796377600
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "デラマン？",
-                    "maleVariant": null,
-                    "stringId": 1934387835406147584
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "タスケテ",
-                    "maleVariant": null,
-                    "stringId": 1934388112465092608
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "デラマン？ あんたんとこの車がまたトラブってるみたいだけど？",
-                    "maleVariant": "あー、デラマン？ お前んとこの車がまたトラブってるみたいだぞ？",
-                    "stringId": 2004076145601060888
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい、お前のチューマがまたぶっ壊れてるぞ。問題発生か？",
+              "maleVariant": "",
+              "stringId": 1730070130741911552
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ウイルスニヨリ、コアガソンショウ",
+              "maleVariant": "",
+              "stringId": 1730089518459166720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ドウカ、オネガイデス",
+              "maleVariant": "",
+              "stringId": 1730090022916497408
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "本当だ。何か起きてないかデラマンに連絡してみる",
+              "maleVariant": "",
+              "stringId": 1730290755796377600
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "デラマン？",
+              "maleVariant": "",
+              "stringId": 1934387835406147584
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "タスケテ",
+              "maleVariant": "",
+              "stringId": 1934388112465092608
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "デラマン？ あんたんとこの車がまたトラブってるみたいだけど？",
+              "maleVariant": "あー、デラマン？ お前んとこの車がまたトラブってるみたいだぞ？",
+              "stringId": 2004076145601060888
             }
-          }
+          ]
         }
       }
     },

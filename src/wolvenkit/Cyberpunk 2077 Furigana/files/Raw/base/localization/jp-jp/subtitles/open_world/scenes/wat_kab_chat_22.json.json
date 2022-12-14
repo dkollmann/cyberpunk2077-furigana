@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_kab_chat_22.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それで奴に聞いたんだ。「人格矯正の何がそんなに悪いんだ？」って",
-                    "maleVariant": null,
-                    "stringId": 2156501492402987008
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "犯罪者を捕まえて、少しばかり脳みその神経を…",
-                    "maleVariant": null,
-                    "stringId": 2212585113999745024
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "パチン！ 暴力的思考とおさらば。パチン！ ばあちゃんをレイプすることもない！",
-                    "maleVariant": null,
-                    "stringId": 2212607527638900736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "たったそれだけで、まともな人間に生まれ変わる",
-                    "maleVariant": null,
-                    "stringId": 2212618008214740992
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ふん。残念だがお前には効果がなかったようだな。パチン！ パチン！ 残念、隠れファシストのままだ",
-                    "maleVariant": null,
-                    "stringId": 2212618774983843840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ファシストだと！？ クズの排除は正義だ",
-                    "maleVariant": null,
-                    "stringId": 2212620889852583936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "じゃあ聞くが、異常思考抑制チップはどうなんだ？ 誰も文句言わなかったろ？",
-                    "maleVariant": null,
-                    "stringId": 2212633064524587008
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それで奴に聞いたんだ。「人格矯正の何がそんなに悪いんだ？」って",
+              "maleVariant": "",
+              "stringId": 2156501492402987008
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "犯罪者を捕まえて、少しばかり脳みその神経を…",
+              "maleVariant": "",
+              "stringId": 2212585113999745024
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "パチン！ 暴力的思考とおさらば。パチン！ ばあちゃんをレイプすることもない！",
+              "maleVariant": "",
+              "stringId": 2212607527638900736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "たったそれだけで、まともな人間に生まれ変わる",
+              "maleVariant": "",
+              "stringId": 2212618008214740992
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ふん。残念だがお前には効果がなかったようだな。パチン！ パチン！ 残念、隠れファシストのままだ",
+              "maleVariant": "",
+              "stringId": 2212618774983843840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ファシストだと！？ クズの排除は正義だ",
+              "maleVariant": "",
+              "stringId": 2212620889852583936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "じゃあ聞くが、異常思考抑制チップはどうなんだ？ 誰も文句言わなかったろ？",
+              "maleVariant": "",
+              "stringId": 2212633064524587008
             }
-          }
+          ]
         }
       }
     },

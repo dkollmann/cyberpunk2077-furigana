@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_jpn_chat_022.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい、おっさん！ 目を覚ましな！",
-                    "maleVariant": null,
-                    "stringId": 2160347770424172544
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あ、今こっち見た！ 私のことが気になるみたい",
-                    "maleVariant": null,
-                    "stringId": 2178085903985381376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "新しいチャクラが開いたか？ 股間の辺りでな！",
-                    "maleVariant": null,
-                    "stringId": 2178091717106176000
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そっちの方はとっくに枯れてるんじゃない？ 毛が抜けてシワシワかも… 気持ちわるっ",
-                    "maleVariant": null,
-                    "stringId": 2178093100018536448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "よう、そんなにネハンに入りたいなら、一服5エディーで楽園に連れてってやるぜ",
-                    "maleVariant": null,
-                    "stringId": 2178093650831314944
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "バカげた衣装を着る必要もないしね",
-                    "maleVariant": null,
-                    "stringId": 2178094541500157952
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい、あの鼻歌みたいのはやらないのか？ お前ら、みんなやってるだろ？ ほら… マントラだっけ？ やれよ！",
-                    "maleVariant": null,
-                    "stringId": 2178094793024180224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ほら、やりなよ！ 早く、早く！",
-                    "maleVariant": null,
-                    "stringId": 2178097331853168640
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい、おっさん！ 目を覚ましな！",
+              "maleVariant": "",
+              "stringId": 2160347770424172544
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あ、今こっち見た！ 私のことが気になるみたい",
+              "maleVariant": "",
+              "stringId": 2178085903985381376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "新しいチャクラが開いたか？ 股間の辺りでな！",
+              "maleVariant": "",
+              "stringId": 2178091717106176000
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そっちの方はとっくに枯れてるんじゃない？ 毛が抜けてシワシワかも… 気持ちわるっ",
+              "maleVariant": "",
+              "stringId": 2178093100018536448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "よう、そんなにネハンに入りたいなら、一服5エディーで楽園に連れてってやるぜ",
+              "maleVariant": "",
+              "stringId": 2178093650831314944
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "バカげた衣装を着る必要もないしね",
+              "maleVariant": "",
+              "stringId": 2178094541500157952
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい、あの鼻歌みたいのはやらないのか？ お前ら、みんなやってるだろ？ ほら… マントラだっけ？ やれよ！",
+              "maleVariant": "",
+              "stringId": 2178094793024180224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ほら、やりなよ！ 早く、早く！",
+              "maleVariant": "",
+              "stringId": 2178097331853168640
             }
-          }
+          ]
         }
       }
     },

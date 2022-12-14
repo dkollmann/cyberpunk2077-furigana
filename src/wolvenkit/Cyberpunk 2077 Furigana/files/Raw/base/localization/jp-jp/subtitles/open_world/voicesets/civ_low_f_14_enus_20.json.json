@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_f_14_enus_20.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こんな生活、やってられないわね",
-                    "maleVariant": null,
-                    "stringId": 1949041726231011332
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "最後にはみんな死ぬのよ",
-                    "maleVariant": null,
-                    "stringId": 1949041726264565764
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何を急いでるの？",
-                    "maleVariant": null,
-                    "stringId": 1949041726348451840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "変な人",
-                    "maleVariant": null,
-                    "stringId": 1949041726382006276
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私よ",
-                    "maleVariant": null,
-                    "stringId": 1949041726398783492
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "彼の行方がわかったわ… いいえ、臓器ドナーの倉庫よ… ええ… バラバラに… 何もかも",
-                    "maleVariant": null,
-                    "stringId": 1949041726449115140
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "残ってるのは頭蓋骨と背骨だけ… ええ… 本当に… 葬儀は金曜よ… よろしくね",
-                    "maleVariant": null,
-                    "stringId": 1949041726482669572
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "じゃあ、また後で",
-                    "maleVariant": null,
-                    "stringId": 1949041726516224004
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そんな、ウソでしょ！",
-                    "maleVariant": null,
-                    "stringId": 1949041726667218948
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こうなると思ってたのよ！",
-                    "maleVariant": null,
-                    "stringId": 1949041726700773380
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お願いよ！",
-                    "maleVariant": null,
-                    "stringId": 1949041726784659456
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こんなことして何になるの？",
-                    "maleVariant": null,
-                    "stringId": 1949041726801436676
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "言っとくけど、金目のものは持ってないわよ",
-                    "maleVariant": null,
-                    "stringId": 1949041726902099972
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もっといい獲物を探したら",
-                    "maleVariant": null,
-                    "stringId": 1949041726918877188
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こんな生活、やってられないわね",
+              "maleVariant": "",
+              "stringId": 1949041726231011332
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "最後にはみんな死ぬのよ",
+              "maleVariant": "",
+              "stringId": 1949041726264565764
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何を急いでるの？",
+              "maleVariant": "",
+              "stringId": 1949041726348451840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "変な人",
+              "maleVariant": "",
+              "stringId": 1949041726382006276
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私よ",
+              "maleVariant": "",
+              "stringId": 1949041726398783492
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "彼の行方がわかったわ… いいえ、臓器ドナーの倉庫よ… ええ… バラバラに… 何もかも",
+              "maleVariant": "",
+              "stringId": 1949041726449115140
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "残ってるのは頭蓋骨と背骨だけ… ええ… 本当に… 葬儀は金曜よ… よろしくね",
+              "maleVariant": "",
+              "stringId": 1949041726482669572
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "じゃあ、また後で",
+              "maleVariant": "",
+              "stringId": 1949041726516224004
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そんな、ウソでしょ！",
+              "maleVariant": "",
+              "stringId": 1949041726667218948
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こうなると思ってたのよ！",
+              "maleVariant": "",
+              "stringId": 1949041726700773380
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お願いよ！",
+              "maleVariant": "",
+              "stringId": 1949041726784659456
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こんなことして何になるの？",
+              "maleVariant": "",
+              "stringId": 1949041726801436676
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "言っとくけど、金目のものは持ってないわよ",
+              "maleVariant": "",
+              "stringId": 1949041726902099972
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もっといい獲物を探したら",
+              "maleVariant": "",
+              "stringId": 1949041726918877188
             }
-          }
+          ]
         }
       }
     },

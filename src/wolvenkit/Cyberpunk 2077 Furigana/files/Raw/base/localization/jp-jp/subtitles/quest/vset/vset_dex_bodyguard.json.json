@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\vset\\vset_dex_bodyguard.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうも",
-                    "maleVariant": null,
-                    "stringId": 1796883115934728196
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "V",
-                    "maleVariant": null,
-                    "stringId": 1796883115968282624
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "じゃあまた後で",
-                    "maleVariant": null,
-                    "stringId": 1796883116052168708
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "戻ったら話そう",
-                    "maleVariant": null,
-                    "stringId": 1796883116068945924
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もう話せるか？",
-                    "maleVariant": null,
-                    "stringId": 1796883116152832004
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "じゃあ続きからだな",
-                    "maleVariant": null,
-                    "stringId": 1796883116169609220
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ただ突っ立ってるつもりか？",
-                    "maleVariant": null,
-                    "stringId": 1796883116203163652
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "喋り方を忘れたのか？",
-                    "maleVariant": null,
-                    "stringId": 1796883116236718084
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "気をつけろ",
-                    "maleVariant": null,
-                    "stringId": 1796883116505153540
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何のつもりだ？",
-                    "maleVariant": null,
-                    "stringId": 1796883116521930756
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうも",
+              "maleVariant": "",
+              "stringId": 1796883115934728196
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "V",
+              "maleVariant": "",
+              "stringId": 1796883115968282624
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "じゃあまた後で",
+              "maleVariant": "",
+              "stringId": 1796883116052168708
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "戻ったら話そう",
+              "maleVariant": "",
+              "stringId": 1796883116068945924
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もう話せるか？",
+              "maleVariant": "",
+              "stringId": 1796883116152832004
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "じゃあ続きからだな",
+              "maleVariant": "",
+              "stringId": 1796883116169609220
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ただ突っ立ってるつもりか？",
+              "maleVariant": "",
+              "stringId": 1796883116203163652
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "喋り方を忘れたのか？",
+              "maleVariant": "",
+              "stringId": 1796883116236718084
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "気をつけろ",
+              "maleVariant": "",
+              "stringId": 1796883116505153540
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何のつもりだ？",
+              "maleVariant": "",
+              "stringId": 1796883116521930756
             }
-          }
+          ]
         }
       }
     },

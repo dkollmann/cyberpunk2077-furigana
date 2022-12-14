@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\pac_wwd_guns_01.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "新しい武器がほしい",
-                    "maleVariant": null,
-                    "stringId": 1886574749301157888
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ヴードゥー・ボーイズが武器を？",
-                    "maleVariant": null,
-                    "stringId": 1886574749317935112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "銃を探してる",
-                    "maleVariant": null,
-                    "stringId": 1886574749334712324
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "好きに選んで",
-                    "maleVariant": null,
-                    "stringId": 1886574749351489536
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ヴードゥー・ボーイズは武器も扱ってたのね",
-                    "maleVariant": "ヴードゥー・ボーイズは武器も扱ってたんだな",
-                    "stringId": 1886574749368266756
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ヴードゥー・ボーイズだったの、昔の話。ヴードゥー、現実世界で人を撃つのを好まない。品格を失うと考えている",
-                    "maleVariant": null,
-                    "stringId": 1886574749368266764
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私も昔、そう思ってた",
-                    "maleVariant": null,
-                    "stringId": 1983631943261732864
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "新しい武器がほしい",
+              "maleVariant": "",
+              "stringId": 1886574749301157888
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ヴードゥー・ボーイズが武器を？",
+              "maleVariant": "",
+              "stringId": 1886574749317935112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "銃を探してる",
+              "maleVariant": "",
+              "stringId": 1886574749334712324
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "好きに選んで",
+              "maleVariant": "",
+              "stringId": 1886574749351489536
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ヴードゥー・ボーイズは武器も扱ってたのね",
+              "maleVariant": "ヴードゥー・ボーイズは武器も扱ってたんだな",
+              "stringId": 1886574749368266756
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ヴードゥー・ボーイズだったの、昔の話。ヴードゥー、現実世界で人を撃つのを好まない。品格を失うと考えている",
+              "maleVariant": "",
+              "stringId": 1886574749368266764
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私も昔、そう思ってた",
+              "maleVariant": "",
+              "stringId": 1983631943261732864
             }
-          }
+          ]
         }
       }
     },

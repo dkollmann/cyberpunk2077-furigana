@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_mid_f_29_enus_40.json"
@@ -11,154 +11,116 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何か用なの？ それともただ見てるだけ？",
-                    "maleVariant": null,
-                    "stringId": 1954504293389213700
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "イライラさせないで",
-                    "maleVariant": null,
-                    "stringId": 1954504293405990916
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちょっと？",
-                    "maleVariant": null,
-                    "stringId": 1954504293456322564
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何やってるの！？",
-                    "maleVariant": null,
-                    "stringId": 1954504293473099780
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "だから、ダメって言ってるでしょ",
-                    "maleVariant": null,
-                    "stringId": 1954504293506654212
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おばあちゃんには礼儀よくしないと… ううん、大丈夫よ、気にしないで",
-                    "maleVariant": null,
-                    "stringId": 1954504293556985860
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もう少し待ってね… 1週間だけだから… 用事が終わったら帰る。約束する",
-                    "maleVariant": null,
-                    "stringId": 1954504293573763076
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "じゃあね",
-                    "maleVariant": null,
-                    "stringId": 1954504293607317508
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "誰か、誰か―！",
-                    "maleVariant": null,
-                    "stringId": 1954504293758312452
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お願い、助けて！",
-                    "maleVariant": null,
-                    "stringId": 1954504293791866884
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "娘がいるの！",
-                    "maleVariant": null,
-                    "stringId": 1954504293858975748
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "殺さないで！",
-                    "maleVariant": null,
-                    "stringId": 1954504293892530176
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "無視してればいなくなるはず",
-                    "maleVariant": null,
-                    "stringId": 1954504293959639044
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私に何か用？",
-                    "maleVariant": null,
-                    "stringId": 1954504293976416260
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "用事があるの？",
-                    "maleVariant": null,
-                    "stringId": 1958923416999337988
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もういいの？",
-                    "maleVariant": null,
-                    "stringId": 1958923417049669636
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あまり時間がないの…",
-                    "maleVariant": null,
-                    "stringId": 1958923417083224068
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何か用なの？ それともただ見てるだけ？",
+              "maleVariant": "",
+              "stringId": 1954504293389213700
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "イライラさせないで",
+              "maleVariant": "",
+              "stringId": 1954504293405990916
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちょっと？",
+              "maleVariant": "",
+              "stringId": 1954504293456322564
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何やってるの！？",
+              "maleVariant": "",
+              "stringId": 1954504293473099780
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "だから、ダメって言ってるでしょ",
+              "maleVariant": "",
+              "stringId": 1954504293506654212
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おばあちゃんには礼儀よくしないと… ううん、大丈夫よ、気にしないで",
+              "maleVariant": "",
+              "stringId": 1954504293556985860
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もう少し待ってね… 1週間だけだから… 用事が終わったら帰る。約束する",
+              "maleVariant": "",
+              "stringId": 1954504293573763076
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "じゃあね",
+              "maleVariant": "",
+              "stringId": 1954504293607317508
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "誰か、誰か―！",
+              "maleVariant": "",
+              "stringId": 1954504293758312452
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お願い、助けて！",
+              "maleVariant": "",
+              "stringId": 1954504293791866884
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "娘がいるの！",
+              "maleVariant": "",
+              "stringId": 1954504293858975748
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "殺さないで！",
+              "maleVariant": "",
+              "stringId": 1954504293892530176
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "無視してればいなくなるはず",
+              "maleVariant": "",
+              "stringId": 1954504293959639044
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私に何か用？",
+              "maleVariant": "",
+              "stringId": 1954504293976416260
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "用事があるの？",
+              "maleVariant": "",
+              "stringId": 1958923416999337988
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もういいの？",
+              "maleVariant": "",
+              "stringId": 1958923417049669636
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あまり時間がないの…",
+              "maleVariant": "",
+              "stringId": 1958923417083224068
             }
-          }
+          ]
         }
       }
     },

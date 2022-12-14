@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_wat_kab_103_fixer_call.json"
@@ -11,138 +11,104 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもし",
-                    "maleVariant": null,
-                    "stringId": 1945954431459680256
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "アラティの息子を見つけた",
-                    "maleVariant": null,
-                    "stringId": 1948881635350253572
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "“キラキラ”って知ってる？",
-                    "maleVariant": "“キラキラ”って知ってるか？",
-                    "stringId": 1949034184032227328
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "“キラキラ”って名前に心当たりは？",
-                    "maleVariant": null,
-                    "stringId": 1949035889385902080
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "え？ あなたアレをやるつもり？",
-                    "maleVariant": null,
-                    "stringId": 1949036254592339968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "スマックよりひどい代物よ。あれに手を出しちゃダメ",
-                    "maleVariant": null,
-                    "stringId": 1949036704456609792
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "アラティの息子は死んでた",
-                    "maleVariant": null,
-                    "stringId": 1949037528050143232
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "殺したのは誰？",
-                    "maleVariant": null,
-                    "stringId": 1949037874700980224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "レジーナ。遺体はどうすれば？",
-                    "maleVariant": null,
-                    "stringId": 1949038000362328064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうね。車を手配して、アラティにも知らせておく。それじゃ",
-                    "maleVariant": null,
-                    "stringId": 1949038585216077824
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "本人よ。タイガークロウズのアジトで例の“キラキラ”をやりすぎたみたい",
-                    "maleVariant": "本人さ。タイガークロウズのアジトで例の“キラキラ”をやりすぎたみたいだ",
-                    "stringId": 1949043700505350144
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なるほど。まじめな子供がまた1人、餌食になったのね",
-                    "maleVariant": null,
-                    "stringId": 1949043970282983424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ええ",
-                    "maleVariant": "ああ",
-                    "stringId": 1949070128143765504
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "レジーナ",
-                    "maleVariant": null,
-                    "stringId": 1952113509254139904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "話して",
-                    "maleVariant": null,
-                    "stringId": 1952113594616614912
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもし",
+              "maleVariant": "",
+              "stringId": 1945954431459680256
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "アラティの息子を見つけた",
+              "maleVariant": "",
+              "stringId": 1948881635350253572
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "“キラキラ”って知ってる？",
+              "maleVariant": "“キラキラ”って知ってるか？",
+              "stringId": 1949034184032227328
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "“キラキラ”って名前に心当たりは？",
+              "maleVariant": "",
+              "stringId": 1949035889385902080
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "え？ あなたアレをやるつもり？",
+              "maleVariant": "",
+              "stringId": 1949036254592339968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "スマックよりひどい代物よ。あれに手を出しちゃダメ",
+              "maleVariant": "",
+              "stringId": 1949036704456609792
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "アラティの息子は死んでた",
+              "maleVariant": "",
+              "stringId": 1949037528050143232
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "殺したのは誰？",
+              "maleVariant": "",
+              "stringId": 1949037874700980224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "レジーナ。遺体はどうすれば？",
+              "maleVariant": "",
+              "stringId": 1949038000362328064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうね。車を手配して、アラティにも知らせておく。それじゃ",
+              "maleVariant": "",
+              "stringId": 1949038585216077824
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "本人よ。タイガークロウズのアジトで例の“キラキラ”をやりすぎたみたい",
+              "maleVariant": "本人さ。タイガークロウズのアジトで例の“キラキラ”をやりすぎたみたいだ",
+              "stringId": 1949043700505350144
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なるほど。まじめな子供がまた1人、餌食になったのね",
+              "maleVariant": "",
+              "stringId": 1949043970282983424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ええ",
+              "maleVariant": "ああ",
+              "stringId": 1949070128143765504
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "レジーナ",
+              "maleVariant": "",
+              "stringId": 1952113509254139904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "話して",
+              "maleVariant": "",
+              "stringId": 1952113594616614912
             }
-          }
+          ]
         }
       }
     },

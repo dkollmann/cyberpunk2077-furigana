@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_wbr_jpn_03_scene.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "退屈で死にそうだ… なあ、これから店に行ってくるからさあ…",
-                    "maleVariant": null,
-                    "stringId": 1167478881578795008
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何言ってるのよ。命令があるでしょ",
-                    "maleVariant": null,
-                    "stringId": 1167502340404953088
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ、空っぽの部屋を守れって命令がな。大した任務だよ",
-                    "maleVariant": null,
-                    "stringId": 1167502628989845504
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "口を慎んで！ ここは神聖な場所よ",
-                    "maleVariant": null,
-                    "stringId": 1167503065767886848
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "連絡があるまでここは立入禁止だ。よそに回ってくれ",
-                    "maleVariant": null,
-                    "stringId": 1186357875543785472
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でも拝観料を払ったのに！",
-                    "maleVariant": null,
-                    "stringId": 1186454034325061632
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ご案内しましょうか。御朱印をご希望ですか？ それともお守りをお探しで？",
-                    "maleVariant": null,
-                    "stringId": 1193898723185672192
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いえ、見てるだけなんで…",
-                    "maleVariant": null,
-                    "stringId": 1193906156750651392
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何と言われようと、連中を入れるのはやはり間違っています",
-                    "maleVariant": null,
-                    "stringId": 1753394088214151168
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ずっとというわけじゃない。一時的な措置だよ。君も聞いただろ",
-                    "maleVariant": null,
-                    "stringId": 1753399994817593344
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ええ。呆れて物も言えません。一度入れたら、タイガークロウズの連中はいつまでも居座るというのに",
-                    "maleVariant": null,
-                    "stringId": 1753400441477414912
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "君、ここは神のお社だぞ！ 喫煙は禁止だ！",
-                    "maleVariant": null,
-                    "stringId": 1763588276205535232
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "落ち着いてよ。もう吸い終わるから",
-                    "maleVariant": null,
-                    "stringId": 1763597470908432384
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ついでに歯の治療費も払うか？ 嫌なら失せろ",
-                    "maleVariant": null,
-                    "stringId": 1912565904533934080
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "退屈で死にそうだ… なあ、これから店に行ってくるからさあ…",
+              "maleVariant": "",
+              "stringId": 1167478881578795008
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何言ってるのよ。命令があるでしょ",
+              "maleVariant": "",
+              "stringId": 1167502340404953088
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ、空っぽの部屋を守れって命令がな。大した任務だよ",
+              "maleVariant": "",
+              "stringId": 1167502628989845504
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "口を慎んで！ ここは神聖な場所よ",
+              "maleVariant": "",
+              "stringId": 1167503065767886848
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "連絡があるまでここは立入禁止だ。よそに回ってくれ",
+              "maleVariant": "",
+              "stringId": 1186357875543785472
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でも拝観料を払ったのに！",
+              "maleVariant": "",
+              "stringId": 1186454034325061632
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ご案内しましょうか。御朱印をご希望ですか？ それともお守りをお探しで？",
+              "maleVariant": "",
+              "stringId": 1193898723185672192
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いえ、見てるだけなんで…",
+              "maleVariant": "",
+              "stringId": 1193906156750651392
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何と言われようと、連中を入れるのはやはり間違っています",
+              "maleVariant": "",
+              "stringId": 1753394088214151168
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ずっとというわけじゃない。一時的な措置だよ。君も聞いただろ",
+              "maleVariant": "",
+              "stringId": 1753399994817593344
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ええ。呆れて物も言えません。一度入れたら、タイガークロウズの連中はいつまでも居座るというのに",
+              "maleVariant": "",
+              "stringId": 1753400441477414912
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "君、ここは神のお社だぞ！ 喫煙は禁止だ！",
+              "maleVariant": "",
+              "stringId": 1763588276205535232
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "落ち着いてよ。もう吸い終わるから",
+              "maleVariant": "",
+              "stringId": 1763597470908432384
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ついでに歯の治療費も払うか？ 嫌なら失せろ",
+              "maleVariant": "",
+              "stringId": 1912565904533934080
             }
-          }
+          ]
         }
       }
     },

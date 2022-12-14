@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_m_05_enus_40.json"
@@ -11,154 +11,116 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "よう",
-                    "maleVariant": null,
-                    "stringId": 1922830598256730116
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何かほしいのか？",
-                    "maleVariant": null,
-                    "stringId": 1922830598290284544
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい、お前",
-                    "maleVariant": null,
-                    "stringId": 1922830598340616196
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わざとやってるのか？",
-                    "maleVariant": null,
-                    "stringId": 1922830598357393412
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やあ、ハニー",
-                    "maleVariant": null,
-                    "stringId": 1922830598390947844
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "BDでも観ないか…？ しばらく一緒に出かけてないだろ… それなら知ってる… 「試験管殺人事件」だろ？",
-                    "maleVariant": null,
-                    "stringId": 1922830598458056708
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おいおい… 今回だけだぞ…？ 結局は毎回君が選んでる… でもまあ… ああ… わかった",
-                    "maleVariant": null,
-                    "stringId": 1922830598491611140
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "じゃあ、今夜いつもの場所で",
-                    "maleVariant": null,
-                    "stringId": 1922830598525165572
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "銃撃だ！ また銃撃だ！",
-                    "maleVariant": null,
-                    "stringId": 1922830598692937732
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "物陰に隠れろ！",
-                    "maleVariant": null,
-                    "stringId": 1922830598726492160
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なんでこんなことを",
-                    "maleVariant": null,
-                    "stringId": 1922830598810378244
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "見逃してくれ！",
-                    "maleVariant": null,
-                    "stringId": 1922830598827155460
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "道に迷ったのか？",
-                    "maleVariant": null,
-                    "stringId": 1922830598927818756
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こんなところで何してんだ？",
-                    "maleVariant": null,
-                    "stringId": 1922830598944595972
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい、話はまだ終わってないだろ…",
-                    "maleVariant": null,
-                    "stringId": 1958897472611852292
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もういいのか？",
-                    "maleVariant": null,
-                    "stringId": 1958897472662183940
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "説明不足だったか…？",
-                    "maleVariant": null,
-                    "stringId": 1958897472678961156
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "よう",
+              "maleVariant": "",
+              "stringId": 1922830598256730116
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何かほしいのか？",
+              "maleVariant": "",
+              "stringId": 1922830598290284544
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい、お前",
+              "maleVariant": "",
+              "stringId": 1922830598340616196
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わざとやってるのか？",
+              "maleVariant": "",
+              "stringId": 1922830598357393412
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やあ、ハニー",
+              "maleVariant": "",
+              "stringId": 1922830598390947844
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "BDでも観ないか…？ しばらく一緒に出かけてないだろ… それなら知ってる… 「試験管殺人事件」だろ？",
+              "maleVariant": "",
+              "stringId": 1922830598458056708
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おいおい… 今回だけだぞ…？ 結局は毎回君が選んでる… でもまあ… ああ… わかった",
+              "maleVariant": "",
+              "stringId": 1922830598491611140
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "じゃあ、今夜いつもの場所で",
+              "maleVariant": "",
+              "stringId": 1922830598525165572
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "銃撃だ！ また銃撃だ！",
+              "maleVariant": "",
+              "stringId": 1922830598692937732
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "物陰に隠れろ！",
+              "maleVariant": "",
+              "stringId": 1922830598726492160
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なんでこんなことを",
+              "maleVariant": "",
+              "stringId": 1922830598810378244
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "見逃してくれ！",
+              "maleVariant": "",
+              "stringId": 1922830598827155460
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "道に迷ったのか？",
+              "maleVariant": "",
+              "stringId": 1922830598927818756
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こんなところで何してんだ？",
+              "maleVariant": "",
+              "stringId": 1922830598944595972
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい、話はまだ終わってないだろ…",
+              "maleVariant": "",
+              "stringId": 1958897472611852292
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もういいのか？",
+              "maleVariant": "",
+              "stringId": 1958897472662183940
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "説明不足だったか…？",
+              "maleVariant": "",
+              "stringId": 1958897472678961156
             }
-          }
+          ]
         }
       }
     },

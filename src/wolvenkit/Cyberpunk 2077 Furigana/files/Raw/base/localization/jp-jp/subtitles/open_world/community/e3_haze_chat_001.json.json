@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\community\\e3_haze_chat_001.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もうどれが自分の感情で、どれが他人のものかわからなくなって… へへっ、そしたら銃声がたくさん聞こえたんだ",
-                    "maleVariant": null,
-                    "stringId": 1202335763952881664
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "メキシコでな… コーポのクズどもにいろんな薬をぶち込まれて… 他にもいっぱい俺のような兵士がいて、みーんなリンクされたのさ",
-                    "maleVariant": null,
-                    "stringId": 1202375424788189184
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わかるか？ つまり俺は生ける死体になったのさ！ 死を超越した死体だ！",
-                    "maleVariant": null,
-                    "stringId": 1202384527786823680
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "死体がどこに帰りゃいいってんだ… でも俺は兵士だからな！ これは名誉除隊ってやつに違いねえ！",
-                    "maleVariant": null,
-                    "stringId": 1202387735775072256
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "とにかく、俺はもう大丈夫のはずだ… あの訓練は… いやいやいやいや、あんなの訓練じゃねえ… 訓練であってたまるか！",
-                    "maleVariant": null,
-                    "stringId": 1202391425571409920
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "他の奴らの感情、痛みが俺の中に入ってくるんだ… 10回も、100回も… とても耐えられなかった",
-                    "maleVariant": null,
-                    "stringId": 1264722296966520832
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "奴らは死んだ… そして俺も奴らと一緒に死んだんだ… 奴らの頭の中にいる俺は死んだ",
-                    "maleVariant": null,
-                    "stringId": 1264723518750498816
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もうわけがわからなくなった… そしたら連中が急に、もう帰ってもいいぞって言うんだよ。「解散！」ってな",
-                    "maleVariant": null,
-                    "stringId": 1264723906622955520
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もうどれが自分の感情で、どれが他人のものかわからなくなって… へへっ、そしたら銃声がたくさん聞こえたんだ",
+              "maleVariant": "",
+              "stringId": 1202335763952881664
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "メキシコでな… コーポのクズどもにいろんな薬をぶち込まれて… 他にもいっぱい俺のような兵士がいて、みーんなリンクされたのさ",
+              "maleVariant": "",
+              "stringId": 1202375424788189184
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わかるか？ つまり俺は生ける死体になったのさ！ 死を超越した死体だ！",
+              "maleVariant": "",
+              "stringId": 1202384527786823680
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "死体がどこに帰りゃいいってんだ… でも俺は兵士だからな！ これは名誉除隊ってやつに違いねえ！",
+              "maleVariant": "",
+              "stringId": 1202387735775072256
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "とにかく、俺はもう大丈夫のはずだ… あの訓練は… いやいやいやいや、あんなの訓練じゃねえ… 訓練であってたまるか！",
+              "maleVariant": "",
+              "stringId": 1202391425571409920
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "他の奴らの感情、痛みが俺の中に入ってくるんだ… 10回も、100回も… とても耐えられなかった",
+              "maleVariant": "",
+              "stringId": 1264722296966520832
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "奴らは死んだ… そして俺も奴らと一緒に死んだんだ… 奴らの頭の中にいる俺は死んだ",
+              "maleVariant": "",
+              "stringId": 1264723518750498816
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もうわけがわからなくなった… そしたら連中が急に、もう帰ってもいいぞって言うんだよ。「解散！」ってな",
+              "maleVariant": "",
+              "stringId": 1264723906622955520
             }
-          }
+          ]
         }
       }
     },

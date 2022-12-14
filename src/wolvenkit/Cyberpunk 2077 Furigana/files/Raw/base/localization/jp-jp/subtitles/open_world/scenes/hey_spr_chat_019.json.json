@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_spr_chat_019.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"mex\" o=\"El güey de al lado estiró la pata. Murió de joven, además. Apenas pasaba los cuarenta.\" t=\"隣に住んでた男が死んだの。まだ若いのに。40ちょっとよ\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 2162117537582264320
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"mex\" o=\"Pues no era tan joven.\" t=\"40なら別に若くないだろ\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 2213022632756219904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"mex\" o=\"Oye, que ya pasé la flor de la vida pero nunca me sentí tan viva.\" t=\"ちょっと、私も40越えてるけど、気分はまだ若者よ！\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 2218651103259889664
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"mex\" o=\"Y... ¿Qué le pasó?\" t=\"えーと… で、何があったんだ？\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 2218651296550195200
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"mex\" o=\"Una neurodanza. Se pasaba sentado en su casa viviendo las vidas de otros. Estaba días enteros sin salir.\" t=\"ブレインダンス。家で座って、ずーっと他の人の生活を体験してたのよ。何日も外に出ないで\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 2218651901301723136
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"mex\" o=\"Sí, pero todos lo hacen a veces... ¿Cuánto tardaron en encontrarlo?\" t=\"そんなの、別に珍しくもない… 見つけた時はどれくらい経ってたんだ？\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 2218658762679750656
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"mex\" o=\"No sé, no me dijeron. Parece que cuando la policía tiró la puerta abajo, ¡estaba repleto de bichos!\" t=\"さあ。教えてくれなかった。でも警官がドアを押し開けたら、床いっぱいに何かがうごめいてたって！\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 2218658893961465856
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"mex\" o=\"El güey de al lado estiró la pata. Murió de joven, además. Apenas pasaba los cuarenta.\" t=\"隣に住んでた男が死んだの。まだ若いのに。40ちょっとよ\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 2162117537582264320
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"mex\" o=\"Pues no era tan joven.\" t=\"40なら別に若くないだろ\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 2213022632756219904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"mex\" o=\"Oye, que ya pasé la flor de la vida pero nunca me sentí tan viva.\" t=\"ちょっと、私も40越えてるけど、気分はまだ若者よ！\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 2218651103259889664
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"mex\" o=\"Y... ¿Qué le pasó?\" t=\"えーと… で、何があったんだ？\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 2218651296550195200
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"mex\" o=\"Una neurodanza. Se pasaba sentado en su casa viviendo las vidas de otros. Estaba días enteros sin salir.\" t=\"ブレインダンス。家で座って、ずーっと他の人の生活を体験してたのよ。何日も外に出ないで\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 2218651901301723136
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"mex\" o=\"Sí, pero todos lo hacen a veces... ¿Cuánto tardaron en encontrarlo?\" t=\"そんなの、別に珍しくもない… 見つけた時はどれくらい経ってたんだ？\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 2218658762679750656
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"mex\" o=\"No sé, no me dijeron. Parece que cuando la policía tiró la puerta abajo, ¡estaba repleto de bichos!\" t=\"さあ。教えてくれなかった。でも警官がドアを押し開けたら、床いっぱいに何かがうごめいてたって！\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 2218658893961465856
             }
-          }
+          ]
         }
       }
     },

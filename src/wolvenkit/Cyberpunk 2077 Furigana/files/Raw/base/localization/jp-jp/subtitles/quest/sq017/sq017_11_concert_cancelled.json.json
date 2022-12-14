@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\sq017\\sq017_11_concert_cancelled.json"
@@ -11,138 +11,104 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "繰り返します。やむを得ない事情により、本日の公演は中止となりました",
-                    "maleVariant": null,
-                    "stringId": 1683588681209901056
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ファンの期待は絶対に裏切らないって言ってたのにさ",
-                    "maleVariant": null,
-                    "stringId": 1683609553626886144
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "メンバーのせいじゃないでしょ",
-                    "maleVariant": null,
-                    "stringId": 1683610089910595584
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "東京や横浜なら、中止になんかしないくせに！",
-                    "maleVariant": null,
-                    "stringId": 1683610683018735616
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "返金はどうなるんだ！？ 金は返してもらうぞ！",
-                    "maleVariant": null,
-                    "stringId": 1683611313808502784
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "〈Us Cracks〉！ 大好きよー！",
-                    "maleVariant": null,
-                    "stringId": 1683612099267424256
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "本日のチケットは〈Us Cracks〉の次回公演までそのままお持ちください。日程、開催地については追ってお知らせいたします",
-                    "maleVariant": null,
-                    "stringId": 1683612813993603072
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やっぱりトラックの件は事故じゃなかったのよ。爆破予告でもあったんじゃない？",
-                    "maleVariant": null,
-                    "stringId": 1683613638627323904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いや、それなら客を避難させるだろ",
-                    "maleVariant": null,
-                    "stringId": 1683613971923496960
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今後のツアー詳細は、後ほど公表させていただきます。メディア及び〈Us Cracks〉各種アカウントで情報をご確認ください",
-                    "maleVariant": null,
-                    "stringId": 1683614417375358976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "てことは新曲も聞けないのか。クソ、ガッカリだな",
-                    "maleVariant": null,
-                    "stringId": 1683619777041559552
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "キロシも売り切れよ。パープル・フォースのを買おうと思ってたのに全部なくなってる。はあ…",
-                    "maleVariant": null,
-                    "stringId": 1683620506565242880
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "最寄りの出口より、ご退場ください",
-                    "maleVariant": null,
-                    "stringId": 1834481768681041920
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "調子に乗ってんのよ。控え室のシャンパンがぬるかったとか、どうせそんな理由でしょ",
-                    "maleVariant": null,
-                    "stringId": 1834603812894666752
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "また、ご希望の方にはチケット代金を全額ご返金いたします",
-                    "maleVariant": null,
-                    "stringId": 1928492499843280896
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "繰り返します。やむを得ない事情により、本日の公演は中止となりました",
+              "maleVariant": "",
+              "stringId": 1683588681209901056
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ファンの期待は絶対に裏切らないって言ってたのにさ",
+              "maleVariant": "",
+              "stringId": 1683609553626886144
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "メンバーのせいじゃないでしょ",
+              "maleVariant": "",
+              "stringId": 1683610089910595584
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "東京や横浜なら、中止になんかしないくせに！",
+              "maleVariant": "",
+              "stringId": 1683610683018735616
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "返金はどうなるんだ！？ 金は返してもらうぞ！",
+              "maleVariant": "",
+              "stringId": 1683611313808502784
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "〈Us Cracks〉！ 大好きよー！",
+              "maleVariant": "",
+              "stringId": 1683612099267424256
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "本日のチケットは〈Us Cracks〉の次回公演までそのままお持ちください。日程、開催地については追ってお知らせいたします",
+              "maleVariant": "",
+              "stringId": 1683612813993603072
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やっぱりトラックの件は事故じゃなかったのよ。爆破予告でもあったんじゃない？",
+              "maleVariant": "",
+              "stringId": 1683613638627323904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いや、それなら客を避難させるだろ",
+              "maleVariant": "",
+              "stringId": 1683613971923496960
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今後のツアー詳細は、後ほど公表させていただきます。メディア及び〈Us Cracks〉各種アカウントで情報をご確認ください",
+              "maleVariant": "",
+              "stringId": 1683614417375358976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "てことは新曲も聞けないのか。クソ、ガッカリだな",
+              "maleVariant": "",
+              "stringId": 1683619777041559552
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "キロシも売り切れよ。パープル・フォースのを買おうと思ってたのに全部なくなってる。はあ…",
+              "maleVariant": "",
+              "stringId": 1683620506565242880
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "最寄りの出口より、ご退場ください",
+              "maleVariant": "",
+              "stringId": 1834481768681041920
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "調子に乗ってんのよ。控え室のシャンパンがぬるかったとか、どうせそんな理由でしょ",
+              "maleVariant": "",
+              "stringId": 1834603812894666752
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "また、ご希望の方にはチケット代金を全額ご返金いたします",
+              "maleVariant": "",
+              "stringId": 1928492499843280896
             }
-          }
+          ]
         }
       }
     },

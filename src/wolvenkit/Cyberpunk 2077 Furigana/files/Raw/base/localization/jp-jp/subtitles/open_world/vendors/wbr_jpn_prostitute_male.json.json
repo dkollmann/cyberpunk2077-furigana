@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\wbr_jpn_prostitute_male.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そのキュートなお尻はどこに急いでるんだい？",
-                    "maleVariant": null,
-                    "stringId": 1917045481570361348
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お手並み拝見といきましょ",
-                    "maleVariant": "お手並み拝見といこうか",
-                    "stringId": 1917045481603915776
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こんな街中で？",
-                    "maleVariant": null,
-                    "stringId": 1917045481603915792
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "へえ、街一番のマッサージ？ あたしはいいものしか選ばないの",
-                    "maleVariant": "へえ、街一番のマッサージ？ 俺はいいものしか選ばないんだ",
-                    "stringId": 1917045481637470212
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "決して後悔はさせない。ついてきて",
-                    "maleVariant": null,
-                    "stringId": 1917045481637470220
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まさか、今ここでやるっての？",
-                    "maleVariant": "まさか、今ここでやるってのか？",
-                    "stringId": 1917045481654247428
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "だとしたら追加料金をもらうかな",
-                    "maleVariant": null,
-                    "stringId": 1917045481671024640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "焦らないで。僕のところで、リ・ラ・ッ・ク・スしてきなよ",
-                    "maleVariant": null,
-                    "stringId": 1969136400467714048
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ナイトシティとカリフォルニア全土で一番のマッサージだよ",
-                    "maleVariant": null,
-                    "stringId": 1969145933818716160
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お手並み拝見といきましょ",
-                    "maleVariant": "お手並み拝見といこうか",
-                    "stringId": 1969206421453758464
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そのキュートなお尻はどこに急いでるんだい？",
+              "maleVariant": "",
+              "stringId": 1917045481570361348
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お手並み拝見といきましょ",
+              "maleVariant": "お手並み拝見といこうか",
+              "stringId": 1917045481603915776
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こんな街中で？",
+              "maleVariant": "",
+              "stringId": 1917045481603915792
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "へえ、街一番のマッサージ？ あたしはいいものしか選ばないの",
+              "maleVariant": "へえ、街一番のマッサージ？ 俺はいいものしか選ばないんだ",
+              "stringId": 1917045481637470212
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "決して後悔はさせない。ついてきて",
+              "maleVariant": "",
+              "stringId": 1917045481637470220
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まさか、今ここでやるっての？",
+              "maleVariant": "まさか、今ここでやるってのか？",
+              "stringId": 1917045481654247428
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "だとしたら追加料金をもらうかな",
+              "maleVariant": "",
+              "stringId": 1917045481671024640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "焦らないで。僕のところで、リ・ラ・ッ・ク・スしてきなよ",
+              "maleVariant": "",
+              "stringId": 1969136400467714048
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ナイトシティとカリフォルニア全土で一番のマッサージだよ",
+              "maleVariant": "",
+              "stringId": 1969145933818716160
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お手並み拝見といきましょ",
+              "maleVariant": "お手並み拝見といこうか",
+              "stringId": 1969206421453758464
             }
-          }
+          ]
         }
       }
     },

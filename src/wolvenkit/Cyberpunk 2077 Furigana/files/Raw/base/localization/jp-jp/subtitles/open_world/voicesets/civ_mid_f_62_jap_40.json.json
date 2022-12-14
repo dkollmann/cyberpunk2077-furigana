@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_mid_f_62_jap_40.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "構わないで… 大丈夫だから…",
-                    "maleVariant": null,
-                    "stringId": 1954550046618853380
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "少し… 昼寝しないと",
-                    "maleVariant": null,
-                    "stringId": 1954550046652407812
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ん…？",
-                    "maleVariant": null,
-                    "stringId": 1954550046702739460
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "謝ってよ！",
-                    "maleVariant": null,
-                    "stringId": 1954550046719516676
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何…？ あ、あの件、忘れてた",
-                    "maleVariant": null,
-                    "stringId": 1954550046753071108
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もう報告はしてある… アダムが対処するって… え…？ いや、大丈夫… 薬飲むの忘れて",
-                    "maleVariant": null,
-                    "stringId": 1954550046803402756
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "心配しないで… 大丈夫… まだマシ…  あと6ヶ月で休みだから… そこまではがんばる",
-                    "maleVariant": null,
-                    "stringId": 1954550046820179972
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そっちも。じゃあね",
-                    "maleVariant": null,
-                    "stringId": 1954550046853734404
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いや…！ 殺される！",
-                    "maleVariant": null,
-                    "stringId": 1954550047004729348
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やめてったら！",
-                    "maleVariant": null,
-                    "stringId": 1954550047021506564
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何なの…",
-                    "maleVariant": null,
-                    "stringId": 1954550047105392644
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まだ死にたくない！",
-                    "maleVariant": null,
-                    "stringId": 1954550047122169860
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あなた…？ あ、違う… ごめん、人違い",
-                    "maleVariant": null,
-                    "stringId": 1954550047206055940
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "一人で大丈夫だから。放っておいて",
-                    "maleVariant": null,
-                    "stringId": 1954550047222833156
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "構わないで… 大丈夫だから…",
+              "maleVariant": "",
+              "stringId": 1954550046618853380
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "少し… 昼寝しないと",
+              "maleVariant": "",
+              "stringId": 1954550046652407812
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ん…？",
+              "maleVariant": "",
+              "stringId": 1954550046702739460
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "謝ってよ！",
+              "maleVariant": "",
+              "stringId": 1954550046719516676
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何…？ あ、あの件、忘れてた",
+              "maleVariant": "",
+              "stringId": 1954550046753071108
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もう報告はしてある… アダムが対処するって… え…？ いや、大丈夫… 薬飲むの忘れて",
+              "maleVariant": "",
+              "stringId": 1954550046803402756
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "心配しないで… 大丈夫… まだマシ…  あと6ヶ月で休みだから… そこまではがんばる",
+              "maleVariant": "",
+              "stringId": 1954550046820179972
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そっちも。じゃあね",
+              "maleVariant": "",
+              "stringId": 1954550046853734404
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いや…！ 殺される！",
+              "maleVariant": "",
+              "stringId": 1954550047004729348
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やめてったら！",
+              "maleVariant": "",
+              "stringId": 1954550047021506564
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何なの…",
+              "maleVariant": "",
+              "stringId": 1954550047105392644
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まだ死にたくない！",
+              "maleVariant": "",
+              "stringId": 1954550047122169860
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あなた…？ あ、違う… ごめん、人違い",
+              "maleVariant": "",
+              "stringId": 1954550047206055940
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "一人で大丈夫だから。放っておいて",
+              "maleVariant": "",
+              "stringId": 1954550047222833156
             }
-          }
+          ]
         }
       }
     },

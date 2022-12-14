@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\mirror_scene_judys_apartment.json"
@@ -11,98 +11,74 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[鏡を見る]",
-                    "maleVariant": null,
-                    "stringId": 2413972943627247616
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[やめる]",
-                    "maleVariant": null,
-                    "stringId": 2413972943828574208
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[笑顔]",
-                    "maleVariant": null,
-                    "stringId": 2520253972175806464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[しかめっ面]",
-                    "maleVariant": null,
-                    "stringId": 2520253972175806476
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[仏頂面]",
-                    "maleVariant": null,
-                    "stringId": 2520253972175806488
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[ぽかん]",
-                    "maleVariant": null,
-                    "stringId": 2520253972192583684
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[凝視]",
-                    "maleVariant": null,
-                    "stringId": 2520253972192583696
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[外見を変える]",
-                    "maleVariant": null,
-                    "stringId": 2888246043123539968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[表情を変える]",
-                    "maleVariant": null,
-                    "stringId": 2888246043123539984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[戻る]",
-                    "maleVariant": null,
-                    "stringId": 2898456851430400000
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[鏡を見る]",
+              "maleVariant": "",
+              "stringId": 2413972943627247616
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[やめる]",
+              "maleVariant": "",
+              "stringId": 2413972943828574208
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[笑顔]",
+              "maleVariant": "",
+              "stringId": 2520253972175806464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[しかめっ面]",
+              "maleVariant": "",
+              "stringId": 2520253972175806476
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[仏頂面]",
+              "maleVariant": "",
+              "stringId": 2520253972175806488
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[ぽかん]",
+              "maleVariant": "",
+              "stringId": 2520253972192583684
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[凝視]",
+              "maleVariant": "",
+              "stringId": 2520253972192583696
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[外見を変える]",
+              "maleVariant": "",
+              "stringId": 2888246043123539968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[表情を変える]",
+              "maleVariant": "",
+              "stringId": 2888246043123539984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[戻る]",
+              "maleVariant": "",
+              "stringId": 2898456851430400000
             }
-          }
+          ]
         }
       }
     },

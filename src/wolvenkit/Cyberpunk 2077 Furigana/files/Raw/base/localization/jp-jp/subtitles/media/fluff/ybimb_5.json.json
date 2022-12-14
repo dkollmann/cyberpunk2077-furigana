@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\fluff\\ybimb_5.json"
@@ -11,106 +11,80 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やあどうも、ジョシュ・カヴォルキンです！  “株価上昇・気分上々”、始まります！",
-                    "maleVariant": null,
-                    "stringId": 1752958276475609088
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まだNCPDの株を持ってる方はいますか？ まあ、ここしばらくひとりで山に籠ってたか、意識不明で倒れてた人くらいでしょうね！ はっはっはっは！",
-                    "maleVariant": null,
-                    "stringId": 1752958738134261760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "はっきり言って… 船は沈没寸前！ 今すぐ売り払いましょう！",
-                    "maleVariant": null,
-                    "stringId": 1752959077587673088
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ナイトシティ警察は赤字続きの危機的状況です。その時価総額は1月時点から、なんと17%も下落しています",
-                    "maleVariant": null,
-                    "stringId": 1752959319179583488
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それも株価上昇の材料がそろった直後にです！ 2076年の民営化に続き、同社は経営立て直しを模索していました",
-                    "maleVariant": null,
-                    "stringId": 1752959452843663360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ドローン採用による人員削減、911緊急通報の有料課金、民営刑務所との提携などなど…",
-                    "maleVariant": null,
-                    "stringId": 1752959717370028032
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "しかしながら、同社の資金難は一向に改善しませんでした",
-                    "maleVariant": null,
-                    "stringId": 1752959849624821760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "長引く“警察問題”に対し、ナイトシティ市長は切り札を投入。企業セキュリティ業界のロビイストたちを迎え入れることを発表しました",
-                    "maleVariant": null,
-                    "stringId": 1752960010988085248
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "はっきり言って… 残念ながらもう潮時でしょうね。NCPDはもはや化石も同然の組織と成り果てました。経営の何たるかを、まったく理解できていないのです",
-                    "maleVariant": null,
-                    "stringId": 1752960165338472448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もし本気で身の安全を確保したいなら、アラサカ社のオフダ警護プランに投資しましょう。本日限りのキャンペーンを利用すれば、たった10万ユーロドルで1年間の安全保証が得られます",
-                    "maleVariant": null,
-                    "stringId": 1752960302357995520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "皆さんお金はケチらず、賢く上手に使いましょう。本日の“株価上昇・気分上々”はここまでです。それではまた！",
-                    "maleVariant": null,
-                    "stringId": 1752960469006082048
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やあどうも、ジョシュ・カヴォルキンです！  “株価上昇・気分上々”、始まります！",
+              "maleVariant": "",
+              "stringId": 1752958276475609088
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まだNCPDの株を持ってる方はいますか？ まあ、ここしばらくひとりで山に籠ってたか、意識不明で倒れてた人くらいでしょうね！ はっはっはっは！",
+              "maleVariant": "",
+              "stringId": 1752958738134261760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "はっきり言って… 船は沈没寸前！ 今すぐ売り払いましょう！",
+              "maleVariant": "",
+              "stringId": 1752959077587673088
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ナイトシティ警察は赤字続きの危機的状況です。その時価総額は1月時点から、なんと17%も下落しています",
+              "maleVariant": "",
+              "stringId": 1752959319179583488
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それも株価上昇の材料がそろった直後にです！ 2076年の民営化に続き、同社は経営立て直しを模索していました",
+              "maleVariant": "",
+              "stringId": 1752959452843663360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ドローン採用による人員削減、911緊急通報の有料課金、民営刑務所との提携などなど…",
+              "maleVariant": "",
+              "stringId": 1752959717370028032
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "しかしながら、同社の資金難は一向に改善しませんでした",
+              "maleVariant": "",
+              "stringId": 1752959849624821760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "長引く“警察問題”に対し、ナイトシティ市長は切り札を投入。企業セキュリティ業界のロビイストたちを迎え入れることを発表しました",
+              "maleVariant": "",
+              "stringId": 1752960010988085248
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "はっきり言って… 残念ながらもう潮時でしょうね。NCPDはもはや化石も同然の組織と成り果てました。経営の何たるかを、まったく理解できていないのです",
+              "maleVariant": "",
+              "stringId": 1752960165338472448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もし本気で身の安全を確保したいなら、アラサカ社のオフダ警護プランに投資しましょう。本日限りのキャンペーンを利用すれば、たった10万ユーロドルで1年間の安全保証が得られます",
+              "maleVariant": "",
+              "stringId": 1752960302357995520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "皆さんお金はケチらず、賢く上手に使いましょう。本日の“株価上昇・気分上々”はここまでです。それではまた！",
+              "maleVariant": "",
+              "stringId": 1752960469006082048
             }
-          }
+          ]
         }
       }
     },

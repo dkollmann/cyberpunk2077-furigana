@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\pac_cvi_foodshop_01.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "腹がペコペコなの",
-                    "maleVariant": "腹がペコペコなんだ",
-                    "stringId": 1885143479083102208
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2つのギャングに支配されるのはどんな感じ？",
-                    "maleVariant": "2つのギャングに支配されるのはどんな感じだ？",
-                    "stringId": 1885143479099879424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お腹空いた",
-                    "maleVariant": "腹が減った",
-                    "stringId": 1885143479133433860
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何にする？",
-                    "maleVariant": null,
-                    "stringId": 1885143479133433868
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2つのギャングに支配されるってどんな感じ？",
-                    "maleVariant": "2つのギャングに支配されるのはどんな感じだ？",
-                    "stringId": 1885143479183765508
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2人争ってる。3人目、目を閉じ、どっち勝つか待ってる。それ俺だ",
-                    "maleVariant": null,
-                    "stringId": 1885143479183765516
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "腹がペコペコなの",
+              "maleVariant": "腹がペコペコなんだ",
+              "stringId": 1885143479083102208
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2つのギャングに支配されるのはどんな感じ？",
+              "maleVariant": "2つのギャングに支配されるのはどんな感じだ？",
+              "stringId": 1885143479099879424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お腹空いた",
+              "maleVariant": "腹が減った",
+              "stringId": 1885143479133433860
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何にする？",
+              "maleVariant": "",
+              "stringId": 1885143479133433868
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2つのギャングに支配されるってどんな感じ？",
+              "maleVariant": "2つのギャングに支配されるのはどんな感じだ？",
+              "stringId": 1885143479183765508
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2人争ってる。3人目、目を閉じ、どっち勝つか待ってる。それ俺だ",
+              "maleVariant": "",
+              "stringId": 1885143479183765516
             }
-          }
+          ]
         }
       }
     },

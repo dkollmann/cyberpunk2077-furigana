@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\vset_tiny_mike.json"
@@ -11,146 +11,110 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "バカなことしたな！",
-                    "maleVariant": null,
-                    "stringId": 1895215660926476292
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やってやるよ！",
-                    "maleVariant": null,
-                    "stringId": 1895215660943253508
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "爆発すんぞ！",
-                    "maleVariant": null,
-                    "stringId": 1895215660993585152
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "はは、ひでえザマだな！",
-                    "maleVariant": null,
-                    "stringId": 1895215661043916804
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "はははは！",
-                    "maleVariant": null,
-                    "stringId": 1895215661060694020
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソ、また撃たれた！",
-                    "maleVariant": null,
-                    "stringId": 1895215661127802884
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい、おい、まずいぞ！",
-                    "maleVariant": null,
-                    "stringId": 1895215661178134532
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "フェアプレイなんて知るか！",
-                    "maleVariant": null,
-                    "stringId": 1895215661228466180
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "話の途中だぞ？",
-                    "maleVariant": null,
-                    "stringId": 1895215661480124420
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おい、まだ終わってない",
-                    "maleVariant": null,
-                    "stringId": 1895215661513678848
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうだ？ 満足したか？",
-                    "maleVariant": null,
-                    "stringId": 1895215661564010496
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やっぱり戻ってきたか。話の続きをするぞ？",
-                    "maleVariant": null,
-                    "stringId": 1895215661580787716
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まだ決められないか？",
-                    "maleVariant": null,
-                    "stringId": 1895215661597564932
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クールぶってないで、さっさと行くぞ",
-                    "maleVariant": null,
-                    "stringId": 1895215661614342148
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "“ごめん”くらい言えよ",
-                    "maleVariant": null,
-                    "stringId": 1895215661933109252
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "俺が見えないのか？",
-                    "maleVariant": null,
-                    "stringId": 1895215661949886468
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "バカなことしたな！",
+              "maleVariant": "",
+              "stringId": 1895215660926476292
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やってやるよ！",
+              "maleVariant": "",
+              "stringId": 1895215660943253508
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "爆発すんぞ！",
+              "maleVariant": "",
+              "stringId": 1895215660993585152
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "はは、ひでえザマだな！",
+              "maleVariant": "",
+              "stringId": 1895215661043916804
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "はははは！",
+              "maleVariant": "",
+              "stringId": 1895215661060694020
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソ、また撃たれた！",
+              "maleVariant": "",
+              "stringId": 1895215661127802884
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい、おい、まずいぞ！",
+              "maleVariant": "",
+              "stringId": 1895215661178134532
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "フェアプレイなんて知るか！",
+              "maleVariant": "",
+              "stringId": 1895215661228466180
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "話の途中だぞ？",
+              "maleVariant": "",
+              "stringId": 1895215661480124420
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おい、まだ終わってない",
+              "maleVariant": "",
+              "stringId": 1895215661513678848
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうだ？ 満足したか？",
+              "maleVariant": "",
+              "stringId": 1895215661564010496
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やっぱり戻ってきたか。話の続きをするぞ？",
+              "maleVariant": "",
+              "stringId": 1895215661580787716
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まだ決められないか？",
+              "maleVariant": "",
+              "stringId": 1895215661597564932
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クールぶってないで、さっさと行くぞ",
+              "maleVariant": "",
+              "stringId": 1895215661614342148
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "“ごめん”くらい言えよ",
+              "maleVariant": "",
+              "stringId": 1895215661933109252
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "俺が見えないのか？",
+              "maleVariant": "",
+              "stringId": 1895215661949886468
             }
-          }
+          ]
         }
       }
     },

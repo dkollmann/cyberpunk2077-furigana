@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_south_002.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "元々いたクランだろ？ だからあいつ、泣き落としで行くって",
-                    "maleVariant": null,
-                    "stringId": 1973554026900398080
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "目に涙をためて迎え入れたらしい",
-                    "maleVariant": null,
-                    "stringId": 1977838801026568192
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もう一度チャンスをくれ、後悔してる、とか色々言って",
-                    "maleVariant": null,
-                    "stringId": 1977838876876361728
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "連中は信じたのか？",
-                    "maleVariant": null,
-                    "stringId": 1977838964788973568
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "で、その夜うちらをキャンプに入れてくれたんだ",
-                    "maleVariant": null,
-                    "stringId": 1977840864104042496
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ハハハ！ まさに華々しい帰還だな",
-                    "maleVariant": null,
-                    "stringId": 1977841937577431040
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "監視役もつけられなかったって",
-                    "maleVariant": null,
-                    "stringId": 1977844885049069568
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "元々いたクランだろ？ だからあいつ、泣き落としで行くって",
+              "maleVariant": "",
+              "stringId": 1973554026900398080
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "目に涙をためて迎え入れたらしい",
+              "maleVariant": "",
+              "stringId": 1977838801026568192
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もう一度チャンスをくれ、後悔してる、とか色々言って",
+              "maleVariant": "",
+              "stringId": 1977838876876361728
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "連中は信じたのか？",
+              "maleVariant": "",
+              "stringId": 1977838964788973568
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "で、その夜うちらをキャンプに入れてくれたんだ",
+              "maleVariant": "",
+              "stringId": 1977840864104042496
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ハハハ！ まさに華々しい帰還だな",
+              "maleVariant": "",
+              "stringId": 1977841937577431040
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "監視役もつけられなかったって",
+              "maleVariant": "",
+              "stringId": 1977844885049069568
             }
-          }
+          ]
         }
       }
     },

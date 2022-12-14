@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_mid_f_26_enus_20.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今何時？",
-                    "maleVariant": null,
-                    "stringId": 1954487749695283200
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "前に会った？",
-                    "maleVariant": null,
-                    "stringId": 1954487749712060420
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うわ、何…！",
-                    "maleVariant": null,
-                    "stringId": 1954487749762392068
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "落ち着いて！",
-                    "maleVariant": null,
-                    "stringId": 1954487749779169284
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あー… 私",
-                    "maleVariant": null,
-                    "stringId": 1954487749812723716
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うー、ごめん… でも私のせいじゃ… 1杯だけのはずが… うん… 7杯かも",
-                    "maleVariant": null,
-                    "stringId": 1954487749863055364
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "怒鳴らないで… 行くから… うん、残るって… 何でもするから。とにかく怒鳴らないで",
-                    "maleVariant": null,
-                    "stringId": 1954487749879832580
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もう切る。じゃ",
-                    "maleVariant": null,
-                    "stringId": 1954487749913387012
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そんな！",
-                    "maleVariant": null,
-                    "stringId": 1954487750064381956
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この街はこんなのばっかり！",
-                    "maleVariant": null,
-                    "stringId": 1954487750081159172
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でも… 何もしてないでしょ？",
-                    "maleVariant": null,
-                    "stringId": 1954487750148268036
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "離れて、離れてってば！",
-                    "maleVariant": null,
-                    "stringId": 1954487750181822464
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "邪魔なんだけど？",
-                    "maleVariant": null,
-                    "stringId": 1954487750248931332
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "他の人をストーキングしなよ",
-                    "maleVariant": null,
-                    "stringId": 1954487750282485760
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今何時？",
+              "maleVariant": "",
+              "stringId": 1954487749695283200
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "前に会った？",
+              "maleVariant": "",
+              "stringId": 1954487749712060420
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うわ、何…！",
+              "maleVariant": "",
+              "stringId": 1954487749762392068
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "落ち着いて！",
+              "maleVariant": "",
+              "stringId": 1954487749779169284
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あー… 私",
+              "maleVariant": "",
+              "stringId": 1954487749812723716
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うー、ごめん… でも私のせいじゃ… 1杯だけのはずが… うん… 7杯かも",
+              "maleVariant": "",
+              "stringId": 1954487749863055364
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "怒鳴らないで… 行くから… うん、残るって… 何でもするから。とにかく怒鳴らないで",
+              "maleVariant": "",
+              "stringId": 1954487749879832580
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もう切る。じゃ",
+              "maleVariant": "",
+              "stringId": 1954487749913387012
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そんな！",
+              "maleVariant": "",
+              "stringId": 1954487750064381956
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この街はこんなのばっかり！",
+              "maleVariant": "",
+              "stringId": 1954487750081159172
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でも… 何もしてないでしょ？",
+              "maleVariant": "",
+              "stringId": 1954487750148268036
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "離れて、離れてってば！",
+              "maleVariant": "",
+              "stringId": 1954487750181822464
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "邪魔なんだけど？",
+              "maleVariant": "",
+              "stringId": 1954487750248931332
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "他の人をストーキングしなよ",
+              "maleVariant": "",
+              "stringId": 1954487750282485760
             }
-          }
+          ]
         }
       }
     },

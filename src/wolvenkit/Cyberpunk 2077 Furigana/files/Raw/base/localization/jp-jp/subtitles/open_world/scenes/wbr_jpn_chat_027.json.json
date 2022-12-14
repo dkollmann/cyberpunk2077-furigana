@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wbr_jpn_chat_027.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "目を入れ替えようとも、ものの見方を知らず",
-                    "maleVariant": null,
-                    "stringId": 2160361409076043776
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "脚を入れ替えようとも、走り向かう場所を持たぬ",
-                    "maleVariant": null,
-                    "stringId": 2179730189113987072
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "心臓を入れ替えようとも、何も感じることはできず",
-                    "maleVariant": null,
-                    "stringId": 2179730455133523968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あらゆる問題に対する答えを、硬貨に求めるようになる",
-                    "maleVariant": null,
-                    "stringId": 2179733249563398144
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "だが己の内にある空白は、何十億のユーロドルでも埋めることはできぬ。よいか、その道は間違っている",
-                    "maleVariant": null,
-                    "stringId": 2179744788227919872
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "肉体の卑しさに屈してはならぬ。表層を捨て心の奥を見つめるのだ。言葉を交わし、互いに愛し合うのだ",
-                    "maleVariant": null,
-                    "stringId": 2179745037872893952
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "恐れるべきは敵対者ではなく、快楽の源だ。己を満たすのはそばにいる者たちだ",
-                    "maleVariant": null,
-                    "stringId": 2179745209671585792
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "その者との交流は幸福を意味する。幸運にも、私たちは他者を思いやる気持ちを持ち合わせているのだから",
-                    "maleVariant": null,
-                    "stringId": 2179754241434161152
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "目を入れ替えようとも、ものの見方を知らず",
+              "maleVariant": "",
+              "stringId": 2160361409076043776
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "脚を入れ替えようとも、走り向かう場所を持たぬ",
+              "maleVariant": "",
+              "stringId": 2179730189113987072
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "心臓を入れ替えようとも、何も感じることはできず",
+              "maleVariant": "",
+              "stringId": 2179730455133523968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あらゆる問題に対する答えを、硬貨に求めるようになる",
+              "maleVariant": "",
+              "stringId": 2179733249563398144
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "だが己の内にある空白は、何十億のユーロドルでも埋めることはできぬ。よいか、その道は間違っている",
+              "maleVariant": "",
+              "stringId": 2179744788227919872
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "肉体の卑しさに屈してはならぬ。表層を捨て心の奥を見つめるのだ。言葉を交わし、互いに愛し合うのだ",
+              "maleVariant": "",
+              "stringId": 2179745037872893952
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "恐れるべきは敵対者ではなく、快楽の源だ。己を満たすのはそばにいる者たちだ",
+              "maleVariant": "",
+              "stringId": 2179745209671585792
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "その者との交流は幸福を意味する。幸運にも、私たちは他者を思いやる気持ちを持ち合わせているのだから",
+              "maleVariant": "",
+              "stringId": 2179754241434161152
             }
-          }
+          ]
         }
       }
     },

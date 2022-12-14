@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\fluff\\safe_n_sound_05.json"
@@ -11,106 +11,80 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ようこそ、“あんしんシティライフ”へ。本官はドブズ警部だ。今日は自宅の安全を確保する方法を紹介するぞ",
-                    "maleVariant": null,
-                    "stringId": 1805414969147899904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "我らがミスター・パギンズは、新しい部屋に引っ越したばかり。何に気をつければいいだろう？",
-                    "maleVariant": null,
-                    "stringId": 1805415658641145856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まずは基本から。NCPD公認の最新型強化ドアと強化ブラインドを取り付けよう。大切な家を、ちんけな泥棒の魔の手から守るんだ！",
-                    "maleVariant": null,
-                    "stringId": 1805415798210805760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "けれど、万が一犯罪者に室内まで押し入られた時には、日頃の備えがものを言う。ミスター・パギンズもそれを知っているから、どの部屋にも武器を用意して、使えるようにしているんだ！",
-                    "maleVariant": null,
-                    "stringId": 1805416123420360704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "安全のためなら投資はいくらでも惜しまない、というタイプの人は、タレットシステムの取り付けを検討してもいい。どんなに厄介な侵入者でも撃退できるぞ！",
-                    "maleVariant": null,
-                    "stringId": 1805416428379815936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "機械では心もとないという人は、名の知れた企業に所属するボディガードを雇うのがいいだろう。どこの馬の骨だかわからない用心棒には、いつ裏切られるかわからない。ミスター・パギンズも身をもって学んだようだ",
-                    "maleVariant": null,
-                    "stringId": 1805416667790688256
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それと、言うまでもないだろうが、不審な動きに目を光らせる屋内監視システムも、安全のためには欠かせないハードウェアだ",
-                    "maleVariant": null,
-                    "stringId": 1805416919583145984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もちろん、物理的な安全だけでなく、ローカルマイクロネットのセキュリティも忘れてはいけない。ミスター・パギンズのように、悪いネットランナーに洗濯機を乗っ取られるのは嫌だろう？",
-                    "maleVariant": null,
-                    "stringId": 1805417097572630528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "最後のアドバイスとして、ケブラーベストを入手しよう。日頃から防弾チョッキを身につけておけば、ミスター・パギンズのようにいつ何時何が起きてもへっちゃらだ。流れ弾も怖くない",
-                    "maleVariant": null,
-                    "stringId": 1805418019765862400
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "これで備えは万全だ。ミスター・パギンズもやっと安心してくつろげる。やっぱりおうちが一番だ！",
-                    "maleVariant": null,
-                    "stringId": 1805418269847044096
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "さて、今日の“あんしんシティライフ”はここまで。みんなしっかり生き延びろ！",
-                    "maleVariant": null,
-                    "stringId": 1805419267051208704
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ようこそ、“あんしんシティライフ”へ。本官はドブズ警部だ。今日は自宅の安全を確保する方法を紹介するぞ",
+              "maleVariant": "",
+              "stringId": 1805414969147899904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "我らがミスター・パギンズは、新しい部屋に引っ越したばかり。何に気をつければいいだろう？",
+              "maleVariant": "",
+              "stringId": 1805415658641145856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まずは基本から。NCPD公認の最新型強化ドアと強化ブラインドを取り付けよう。大切な家を、ちんけな泥棒の魔の手から守るんだ！",
+              "maleVariant": "",
+              "stringId": 1805415798210805760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "けれど、万が一犯罪者に室内まで押し入られた時には、日頃の備えがものを言う。ミスター・パギンズもそれを知っているから、どの部屋にも武器を用意して、使えるようにしているんだ！",
+              "maleVariant": "",
+              "stringId": 1805416123420360704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "安全のためなら投資はいくらでも惜しまない、というタイプの人は、タレットシステムの取り付けを検討してもいい。どんなに厄介な侵入者でも撃退できるぞ！",
+              "maleVariant": "",
+              "stringId": 1805416428379815936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "機械では心もとないという人は、名の知れた企業に所属するボディガードを雇うのがいいだろう。どこの馬の骨だかわからない用心棒には、いつ裏切られるかわからない。ミスター・パギンズも身をもって学んだようだ",
+              "maleVariant": "",
+              "stringId": 1805416667790688256
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それと、言うまでもないだろうが、不審な動きに目を光らせる屋内監視システムも、安全のためには欠かせないハードウェアだ",
+              "maleVariant": "",
+              "stringId": 1805416919583145984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もちろん、物理的な安全だけでなく、ローカルマイクロネットのセキュリティも忘れてはいけない。ミスター・パギンズのように、悪いネットランナーに洗濯機を乗っ取られるのは嫌だろう？",
+              "maleVariant": "",
+              "stringId": 1805417097572630528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "最後のアドバイスとして、ケブラーベストを入手しよう。日頃から防弾チョッキを身につけておけば、ミスター・パギンズのようにいつ何時何が起きてもへっちゃらだ。流れ弾も怖くない",
+              "maleVariant": "",
+              "stringId": 1805418019765862400
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "これで備えは万全だ。ミスター・パギンズもやっと安心してくつろげる。やっぱりおうちが一番だ！",
+              "maleVariant": "",
+              "stringId": 1805418269847044096
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "さて、今日の“あんしんシティライフ”はここまで。みんなしっかり生き延びろ！",
+              "maleVariant": "",
+              "stringId": 1805419267051208704
             }
-          }
+          ]
         }
       }
     },

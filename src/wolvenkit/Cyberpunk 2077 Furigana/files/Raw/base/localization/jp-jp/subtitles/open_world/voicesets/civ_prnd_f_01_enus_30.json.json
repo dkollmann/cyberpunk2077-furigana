@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_prnd_f_01_enus_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "大丈夫、恐れることは何もない…",
-                    "maleVariant": null,
-                    "stringId": 1957761794859638788
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "普段通りに振る舞えばいい…",
-                    "maleVariant": null,
-                    "stringId": 1957761794876416004
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あっ！",
-                    "maleVariant": null,
-                    "stringId": 1957761794926747652
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やだっ…！",
-                    "maleVariant": null,
-                    "stringId": 1957761794943524868
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やっぱり監視されてるのよ！",
-                    "maleVariant": null,
-                    "stringId": 1957761794993856516
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "彼は正しかった…！ 青い目の連中、そこら中にいる… 私は見たの…！ 監視されてる… きっと盗聴器を仕掛けられたのよ",
-                    "maleVariant": null,
-                    "stringId": 1957761795044188160
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "隣の家の人が変な目で見てくるし… うちに来たの… たぶん… とりあえず逃げてきた",
-                    "maleVariant": null,
-                    "stringId": 1957761795060965380
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "家まで一緒に来てくれる…？",
-                    "maleVariant": null,
-                    "stringId": 1957761795094519812
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "連中よ！",
-                    "maleVariant": null,
-                    "stringId": 1957761795245514752
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "始まった！",
-                    "maleVariant": null,
-                    "stringId": 1957761795262291972
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私は何も知らない！",
-                    "maleVariant": null,
-                    "stringId": 1957761795329400836
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "誰にも言わないから！",
-                    "maleVariant": null,
-                    "stringId": 1957761795346178052
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まさか… 宇宙船に連れ去るつもり？",
-                    "maleVariant": null,
-                    "stringId": 1957761795430064132
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やっぱり！ いつからつけてたの！？",
-                    "maleVariant": null,
-                    "stringId": 1957761795446841348
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "大丈夫、恐れることは何もない…",
+              "maleVariant": "",
+              "stringId": 1957761794859638788
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "普段通りに振る舞えばいい…",
+              "maleVariant": "",
+              "stringId": 1957761794876416004
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あっ！",
+              "maleVariant": "",
+              "stringId": 1957761794926747652
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やだっ…！",
+              "maleVariant": "",
+              "stringId": 1957761794943524868
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やっぱり監視されてるのよ！",
+              "maleVariant": "",
+              "stringId": 1957761794993856516
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "彼は正しかった…！ 青い目の連中、そこら中にいる… 私は見たの…！ 監視されてる… きっと盗聴器を仕掛けられたのよ",
+              "maleVariant": "",
+              "stringId": 1957761795044188160
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "隣の家の人が変な目で見てくるし… うちに来たの… たぶん… とりあえず逃げてきた",
+              "maleVariant": "",
+              "stringId": 1957761795060965380
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "家まで一緒に来てくれる…？",
+              "maleVariant": "",
+              "stringId": 1957761795094519812
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "連中よ！",
+              "maleVariant": "",
+              "stringId": 1957761795245514752
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "始まった！",
+              "maleVariant": "",
+              "stringId": 1957761795262291972
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私は何も知らない！",
+              "maleVariant": "",
+              "stringId": 1957761795329400836
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "誰にも言わないから！",
+              "maleVariant": "",
+              "stringId": 1957761795346178052
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まさか… 宇宙船に連れ去るつもり？",
+              "maleVariant": "",
+              "stringId": 1957761795430064132
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やっぱり！ いつからつけてたの！？",
+              "maleVariant": "",
+              "stringId": 1957761795446841348
             }
-          }
+          ]
         }
       }
     },

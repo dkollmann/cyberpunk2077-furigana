@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_039.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なんだ？ 何をためらってる？",
-                    "maleVariant": null,
-                    "stringId": 2157382750437666816
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "実の姉妹だろ？",
-                    "maleVariant": null,
-                    "stringId": 2182525368056496128
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でも向こうは、もう１年になるんだから、そろそろノース・オークに住めるぐらい稼いでるはず、って思ってるのよ",
-                    "maleVariant": null,
-                    "stringId": 2182526142610227200
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何があったか話してないのか？",
-                    "maleVariant": null,
-                    "stringId": 2182527082956406784
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ええ… だってあくまでも一時的なことだし。この部屋も… 何もかも",
-                    "maleVariant": null,
-                    "stringId": 2182531160910413824
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "はあ… もう少し現実を見たらどうだ",
-                    "maleVariant": null,
-                    "stringId": 2182535536576118784
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なんだ？ 何をためらってる？",
+              "maleVariant": "",
+              "stringId": 2157382750437666816
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "実の姉妹だろ？",
+              "maleVariant": "",
+              "stringId": 2182525368056496128
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でも向こうは、もう１年になるんだから、そろそろノース・オークに住めるぐらい稼いでるはず、って思ってるのよ",
+              "maleVariant": "",
+              "stringId": 2182526142610227200
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何があったか話してないのか？",
+              "maleVariant": "",
+              "stringId": 2182527082956406784
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ええ… だってあくまでも一時的なことだし。この部屋も… 何もかも",
+              "maleVariant": "",
+              "stringId": 2182531160910413824
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "はあ… もう少し現実を見たらどうだ",
+              "maleVariant": "",
+              "stringId": 2182535536576118784
             }
-          }
+          ]
         }
       }
     },

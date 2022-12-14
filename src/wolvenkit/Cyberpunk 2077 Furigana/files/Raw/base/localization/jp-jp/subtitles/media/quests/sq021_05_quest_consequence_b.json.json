@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\quests\\sq021_05_quest_consequence_b.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こんにちは、N54からあのニュースの速報をお伝えします。アンソニー・ハリス容疑者、別名“ピーター・パン”による少年たちを狙った誘拐事件が、無事解決したとのことです",
-                    "maleVariant": null,
-                    "stringId": 1792303370716749824
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "NCPDは匿名の情報提供を受け、少年たちの保護に成功。少年たちの容体は幸いにも安定しているとの発表です",
-                    "maleVariant": null,
-                    "stringId": 1802326798860271616
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ハリスは13歳から18歳の少年を自身の農場に監禁していました",
-                    "maleVariant": null,
-                    "stringId": 1802327150644936704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この非常に悪質な事件もまた、ナイトシティにおけるモラルの崩壊を表しているといえるでしょう",
-                    "maleVariant": null,
-                    "stringId": 1802327792474112000
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ナイトシティの犯罪発生率は今や新合衆国のおよそ2倍です。この先ナイトシティの治安改善を推し進めるには、新合衆国との結びつきを強めるのが、もっとも近道と言えるのではないでしょうか",
-                    "maleVariant": null,
-                    "stringId": 1802328018630983680
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CMの後、さらに詳しくお伝えします",
-                    "maleVariant": null,
-                    "stringId": 1802328337398087680
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こんにちは、N54からあのニュースの速報をお伝えします。アンソニー・ハリス容疑者、別名“ピーター・パン”による少年たちを狙った誘拐事件が、無事解決したとのことです",
+              "maleVariant": "",
+              "stringId": 1792303370716749824
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "NCPDは匿名の情報提供を受け、少年たちの保護に成功。少年たちの容体は幸いにも安定しているとの発表です",
+              "maleVariant": "",
+              "stringId": 1802326798860271616
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ハリスは13歳から18歳の少年を自身の農場に監禁していました",
+              "maleVariant": "",
+              "stringId": 1802327150644936704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この非常に悪質な事件もまた、ナイトシティにおけるモラルの崩壊を表しているといえるでしょう",
+              "maleVariant": "",
+              "stringId": 1802327792474112000
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ナイトシティの犯罪発生率は今や新合衆国のおよそ2倍です。この先ナイトシティの治安改善を推し進めるには、新合衆国との結びつきを強めるのが、もっとも近道と言えるのではないでしょうか",
+              "maleVariant": "",
+              "stringId": 1802328018630983680
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CMの後、さらに詳しくお伝えします",
+              "maleVariant": "",
+              "stringId": 1802328337398087680
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\fluff\\wns_news_06.json"
@@ -11,122 +11,92 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こんにちは、アリフ・イクバルです。WNSニュースをお届けします",
-                    "maleVariant": null,
-                    "stringId": 1793559929417539584
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まずは新合衆国大統領マイヤーズ氏の話題から参りましょう",
-                    "maleVariant": null,
-                    "stringId": 1796637961064529920
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "大統領は次期選挙への立候補を正式に発表しました",
-                    "maleVariant": null,
-                    "stringId": 1796638393061064704
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "これについてアナリストは、現政権が継続された場合、北アメリカにおける大規模な紛争のリスクが増大すると見ています",
-                    "maleVariant": null,
-                    "stringId": 1796638550750117888
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "マイヤーズ大統領が基本政策として掲げる“統一化”計画は、市民の自由と、当然の権利である自己決定権を制限するものであると言われています",
-                    "maleVariant": null,
-                    "stringId": 1796638736910106624
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "さらには、自身が10年近くCEOを務めたミリテク社との繋がりについて、隠そうともしていません",
-                    "maleVariant": null,
-                    "stringId": 1796639045476663296
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "積極的に介入し、自国の利益を守る大統領の取り組みは、新合衆国経済にとってはプラスかもしれません。しかしナイトシティなど他のアメリカ地域にとってはマイナスです",
-                    "maleVariant": null,
-                    "stringId": 1796639261969858560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そして大統領は、アラサカ社に対し断固たる対決姿勢を見せており、CEOのサブロウ・アラサカ氏が持ちかけた休戦協定を何度も拒絶しています",
-                    "maleVariant": null,
-                    "stringId": 1796639429070929920
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "さらに大勢の命が犠牲となったあの“釜山ホロコースト”についても、大統領の関与があったのではないかとされています",
-                    "maleVariant": null,
-                    "stringId": 1796639690124410880
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この件について、ミリテク社はいかなる情報の提供も拒否し続けてる状況です",
-                    "maleVariant": null,
-                    "stringId": 1796640023890345984
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "専門家たちの見解は一致しており、マイヤーズ氏の再選は新合衆国のみならず、北米全体にとって不利益であるとされています",
-                    "maleVariant": null,
-                    "stringId": 1796640321451048960
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "マイヤーズ氏の立候補に反対票を投じたい方は、下記のアドレスまでアクセスを",
-                    "maleVariant": null,
-                    "stringId": 1796640455417118720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "真実を求めるWNSニュースでした。それではまた！",
-                    "maleVariant": null,
-                    "stringId": 1796640708518199296
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こんにちは、アリフ・イクバルです。WNSニュースをお届けします",
+              "maleVariant": "",
+              "stringId": 1793559929417539584
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まずは新合衆国大統領マイヤーズ氏の話題から参りましょう",
+              "maleVariant": "",
+              "stringId": 1796637961064529920
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "大統領は次期選挙への立候補を正式に発表しました",
+              "maleVariant": "",
+              "stringId": 1796638393061064704
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "これについてアナリストは、現政権が継続された場合、北アメリカにおける大規模な紛争のリスクが増大すると見ています",
+              "maleVariant": "",
+              "stringId": 1796638550750117888
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "マイヤーズ大統領が基本政策として掲げる“統一化”計画は、市民の自由と、当然の権利である自己決定権を制限するものであると言われています",
+              "maleVariant": "",
+              "stringId": 1796638736910106624
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "さらには、自身が10年近くCEOを務めたミリテク社との繋がりについて、隠そうともしていません",
+              "maleVariant": "",
+              "stringId": 1796639045476663296
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "積極的に介入し、自国の利益を守る大統領の取り組みは、新合衆国経済にとってはプラスかもしれません。しかしナイトシティなど他のアメリカ地域にとってはマイナスです",
+              "maleVariant": "",
+              "stringId": 1796639261969858560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そして大統領は、アラサカ社に対し断固たる対決姿勢を見せており、CEOのサブロウ・アラサカ氏が持ちかけた休戦協定を何度も拒絶しています",
+              "maleVariant": "",
+              "stringId": 1796639429070929920
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "さらに大勢の命が犠牲となったあの“釜山ホロコースト”についても、大統領の関与があったのではないかとされています",
+              "maleVariant": "",
+              "stringId": 1796639690124410880
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この件について、ミリテク社はいかなる情報の提供も拒否し続けてる状況です",
+              "maleVariant": "",
+              "stringId": 1796640023890345984
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "専門家たちの見解は一致しており、マイヤーズ氏の再選は新合衆国のみならず、北米全体にとって不利益であるとされています",
+              "maleVariant": "",
+              "stringId": 1796640321451048960
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "マイヤーズ氏の立候補に反対票を投じたい方は、下記のアドレスまでアクセスを",
+              "maleVariant": "",
+              "stringId": 1796640455417118720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "真実を求めるWNSニュースでした。それではまた！",
+              "maleVariant": "",
+              "stringId": 1796640708518199296
             }
-          }
+          ]
         }
       }
     },

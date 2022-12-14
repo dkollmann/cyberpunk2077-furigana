@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\vset\\vset_elizabeth_peralez.json"
@@ -11,114 +11,86 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あらどうも",
-                    "maleVariant": null,
-                    "stringId": 1796883813799804928
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "会えてうれしい",
-                    "maleVariant": null,
-                    "stringId": 1796883813816582148
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あら。まあ後で話してもいいけど",
-                    "maleVariant": null,
-                    "stringId": 1796883813934022656
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "また別の時にしましょう",
-                    "maleVariant": null,
-                    "stringId": 1796883813950799876
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何の話をしてたんだっけ…？",
-                    "maleVariant": null,
-                    "stringId": 1796883814001131524
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "話の続きをしましょうか？",
-                    "maleVariant": null,
-                    "stringId": 1796883814034685956
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちょっと？",
-                    "maleVariant": null,
-                    "stringId": 1796883814051463172
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いつまで時間をかけるつもり？",
-                    "maleVariant": null,
-                    "stringId": 1796883814085017604
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "気をつけて…",
-                    "maleVariant": null,
-                    "stringId": 1796883814303121412
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "失礼ね",
-                    "maleVariant": null,
-                    "stringId": 1796883814319898628
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "V、まだそこにいる？",
-                    "maleVariant": null,
-                    "stringId": 1966179956393123840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何か言いかけてたでしょ？",
-                    "maleVariant": null,
-                    "stringId": 1966179956477009920
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あらどうも",
+              "maleVariant": "",
+              "stringId": 1796883813799804928
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "会えてうれしい",
+              "maleVariant": "",
+              "stringId": 1796883813816582148
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あら。まあ後で話してもいいけど",
+              "maleVariant": "",
+              "stringId": 1796883813934022656
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "また別の時にしましょう",
+              "maleVariant": "",
+              "stringId": 1796883813950799876
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何の話をしてたんだっけ…？",
+              "maleVariant": "",
+              "stringId": 1796883814001131524
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "話の続きをしましょうか？",
+              "maleVariant": "",
+              "stringId": 1796883814034685956
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちょっと？",
+              "maleVariant": "",
+              "stringId": 1796883814051463172
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いつまで時間をかけるつもり？",
+              "maleVariant": "",
+              "stringId": 1796883814085017604
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "気をつけて…",
+              "maleVariant": "",
+              "stringId": 1796883814303121412
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "失礼ね",
+              "maleVariant": "",
+              "stringId": 1796883814319898628
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "V、まだそこにいる？",
+              "maleVariant": "",
+              "stringId": 1966179956393123840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何か言いかけてたでしょ？",
+              "maleVariant": "",
+              "stringId": 1966179956477009920
             }
-          }
+          ]
         }
       }
     },

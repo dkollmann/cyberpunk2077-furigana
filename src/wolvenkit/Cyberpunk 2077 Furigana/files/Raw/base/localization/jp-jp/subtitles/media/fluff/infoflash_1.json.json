@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\fluff\\infoflash_1.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ナイトシティでは毎日たくさんのことが起き過ぎてて、世界で起きていることなんて目に入らない――",
-                    "maleVariant": null,
-                    "stringId": 1793516201533415424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そんなあなたのために、厳選した世界の情報をお届けするコーナー、その名も… “ブルシット・ニュース”",
-                    "maleVariant": null,
-                    "stringId": 1811001501829283840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "マイヤーズ大統領はソルトレイクシティに巨大教会を建設します。高さ約800フィートのこの建物には、2万人のキリスト教徒を収容できます。モルモン教なら3家族ですね",
-                    "maleVariant": null,
-                    "stringId": 1811001806788739072
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "テキサス共和国政府は、州境警備隊が今後、発砲前の警告を省略すると発表しました。これまではまず「失せろ、ここはテキサスだ」と叫ばなくてはなりませんでした",
-                    "maleVariant": null,
-                    "stringId": 1811002929788469248
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "マイアミでは今年6度目となるマラリア大流行が発生し、停電も続いています。フロリダ知事は「待つしかない」とコメントしています",
-                    "maleVariant": null,
-                    "stringId": 1811003340763152384
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "昨日、シカゴのサウスサイドで170人が発砲事件の犠牲となりました。ワシントンの政治家はこれを「惨劇」と、地元民は「日常」と呼んでいます",
-                    "maleVariant": null,
-                    "stringId": 1811004580666523648
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "メキシコ湾岸がハリケーン“ゼバダイア”の直撃を受けました。同地域が被害を受けたのは、今年ですでに30回目。避難民の生活物資は底をつき始めています。にしても、\"ゼバダイア\"って…",
-                    "maleVariant": null,
-                    "stringId": 1811004961979088896
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "以上、“ブルシット・ニュース”をお届けしました。お相手は私、ルース・ゼンでした",
-                    "maleVariant": null,
-                    "stringId": 1811005212026716160
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ナイトシティでは毎日たくさんのことが起き過ぎてて、世界で起きていることなんて目に入らない――",
+              "maleVariant": "",
+              "stringId": 1793516201533415424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そんなあなたのために、厳選した世界の情報をお届けするコーナー、その名も… “ブルシット・ニュース”",
+              "maleVariant": "",
+              "stringId": 1811001501829283840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "マイヤーズ大統領はソルトレイクシティに巨大教会を建設します。高さ約800フィートのこの建物には、2万人のキリスト教徒を収容できます。モルモン教なら3家族ですね",
+              "maleVariant": "",
+              "stringId": 1811001806788739072
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "テキサス共和国政府は、州境警備隊が今後、発砲前の警告を省略すると発表しました。これまではまず「失せろ、ここはテキサスだ」と叫ばなくてはなりませんでした",
+              "maleVariant": "",
+              "stringId": 1811002929788469248
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "マイアミでは今年6度目となるマラリア大流行が発生し、停電も続いています。フロリダ知事は「待つしかない」とコメントしています",
+              "maleVariant": "",
+              "stringId": 1811003340763152384
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "昨日、シカゴのサウスサイドで170人が発砲事件の犠牲となりました。ワシントンの政治家はこれを「惨劇」と、地元民は「日常」と呼んでいます",
+              "maleVariant": "",
+              "stringId": 1811004580666523648
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "メキシコ湾岸がハリケーン“ゼバダイア”の直撃を受けました。同地域が被害を受けたのは、今年ですでに30回目。避難民の生活物資は底をつき始めています。にしても、\"ゼバダイア\"って…",
+              "maleVariant": "",
+              "stringId": 1811004961979088896
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "以上、“ブルシット・ニュース”をお届けしました。お相手は私、ルース・ゼンでした",
+              "maleVariant": "",
+              "stringId": 1811005212026716160
             }
-          }
+          ]
         }
       }
     },

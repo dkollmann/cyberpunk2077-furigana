@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_prst_f_03_mex_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "コモ・エスタス？",
-                    "maleVariant": null,
-                    "stringId": 1955902911169994756
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "望みどおりの人になってあげる",
-                    "maleVariant": null,
-                    "stringId": 1955902911186771972
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "触らないで！",
-                    "maleVariant": null,
-                    "stringId": 1955902911237103620
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "手どけて！",
-                    "maleVariant": null,
-                    "stringId": 1955902911253880836
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "アドバイスしてあげる",
-                    "maleVariant": null,
-                    "stringId": 1955902911287435268
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あなたはまだ新人なんだから… 紫外線はポールで踊る時だけね… それでお客が集まってくる",
-                    "maleVariant": null,
-                    "stringId": 1955902911337766916
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "キラキラはもった？ …絶対に必要よ。 ローションも。それさえあれば、たいていなんとかなる",
-                    "maleVariant": null,
-                    "stringId": 1955902911354544132
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "頑張って",
-                    "maleVariant": null,
-                    "stringId": 1955902911421652996
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ、神様！",
-                    "maleVariant": null,
-                    "stringId": 1955902911656534020
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どこに隠れよう！？",
-                    "maleVariant": null,
-                    "stringId": 1955902911673311236
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お願い！ 殺さないで！",
-                    "maleVariant": null,
-                    "stringId": 1955902911757197316
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "死にたくないのよ、ねえ",
-                    "maleVariant": null,
-                    "stringId": 1955902911773974532
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ルールその1、ストーキングはNG",
-                    "maleVariant": null,
-                    "stringId": 1955902911857860612
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "シャイなのね？ 話なら聞くけど？",
-                    "maleVariant": null,
-                    "stringId": 1955902911874637828
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "コモ・エスタス？",
+              "maleVariant": "",
+              "stringId": 1955902911169994756
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "望みどおりの人になってあげる",
+              "maleVariant": "",
+              "stringId": 1955902911186771972
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "触らないで！",
+              "maleVariant": "",
+              "stringId": 1955902911237103620
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "手どけて！",
+              "maleVariant": "",
+              "stringId": 1955902911253880836
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "アドバイスしてあげる",
+              "maleVariant": "",
+              "stringId": 1955902911287435268
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あなたはまだ新人なんだから… 紫外線はポールで踊る時だけね… それでお客が集まってくる",
+              "maleVariant": "",
+              "stringId": 1955902911337766916
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "キラキラはもった？ …絶対に必要よ。 ローションも。それさえあれば、たいていなんとかなる",
+              "maleVariant": "",
+              "stringId": 1955902911354544132
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "頑張って",
+              "maleVariant": "",
+              "stringId": 1955902911421652996
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ、神様！",
+              "maleVariant": "",
+              "stringId": 1955902911656534020
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どこに隠れよう！？",
+              "maleVariant": "",
+              "stringId": 1955902911673311236
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お願い！ 殺さないで！",
+              "maleVariant": "",
+              "stringId": 1955902911757197316
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "死にたくないのよ、ねえ",
+              "maleVariant": "",
+              "stringId": 1955902911773974532
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ルールその1、ストーキングはNG",
+              "maleVariant": "",
+              "stringId": 1955902911857860612
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "シャイなのね？ 話なら聞くけど？",
+              "maleVariant": "",
+              "stringId": 1955902911874637828
             }
-          }
+          ]
         }
       }
     },

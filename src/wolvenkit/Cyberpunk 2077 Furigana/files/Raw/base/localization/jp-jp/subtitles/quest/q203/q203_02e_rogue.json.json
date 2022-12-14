@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q203\\q203_02e_rogue.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][pl_pl]Hej, Rogue, wszystko w porządku?",
-                    "maleVariant": null,
-                    "stringId": 2248689809550331904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][pl_pl]Jak zawsze. Dzwonię, żeby ci przypomnieć o spotkaniu.",
-                    "maleVariant": null,
-                    "stringId": 2251546556094410752
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][pl_pl]Klient właśnie potwierdził, zajrzy do Afterlife. Zamówiłam ci Delamaina, będzie niedługo.",
-                    "maleVariant": null,
-                    "stringId": 2251548111929536512
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "[en_us][pl_pl]Dobra, dzięki. Do zobaczenia.",
-                    "maleVariant": null,
-                    "stringId": 2251549223940190208
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][pl_pl]Hej, Rogue, wszystko w porządku?",
+              "maleVariant": "",
+              "stringId": 2248689809550331904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][pl_pl]Jak zawsze. Dzwonię, żeby ci przypomnieć o spotkaniu.",
+              "maleVariant": "",
+              "stringId": 2251546556094410752
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][pl_pl]Klient właśnie potwierdził, zajrzy do Afterlife. Zamówiłam ci Delamaina, będzie niedługo.",
+              "maleVariant": "",
+              "stringId": 2251548111929536512
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "[en_us][pl_pl]Dobra, dzięki. Do zobaczenia.",
+              "maleVariant": "",
+              "stringId": 2251549223940190208
             }
-          }
+          ]
         }
       }
     },

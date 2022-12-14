@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_high_f_05_enus_10_chd.json"
@@ -11,138 +11,104 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "パパは会社のえらい人。あなたのパパよりえらい人！",
-                    "maleVariant": null,
-                    "stringId": 1946174884432961536
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私はプリンセス。あなたは違う。ララララーラ！",
-                    "maleVariant": null,
-                    "stringId": 1946174884449738756
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "触んないで！",
-                    "maleVariant": null,
-                    "stringId": 1946174884500070404
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちょっと！",
-                    "maleVariant": null,
-                    "stringId": 1946174884533624836
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしもし？",
-                    "maleVariant": null,
-                    "stringId": 1946174884583956484
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "大きな声出さないで…！ 嫌よ！ ほんとのパパじゃないくせに！",
-                    "maleVariant": null,
-                    "stringId": 1946174884634288132
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いやだ…！ 行かないから…！ いいもん…！ あんたなんかキライだし！",
-                    "maleVariant": null,
-                    "stringId": 1946174884651065348
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ヤだもん！",
-                    "maleVariant": null,
-                    "stringId": 1946174884701396996
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "きゃーーっ！",
-                    "maleVariant": null,
-                    "stringId": 1946174884852391940
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やめて、助けてぇー！",
-                    "maleVariant": null,
-                    "stringId": 1946174884852391956
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いやだ、やめてよ、怖いよ…",
-                    "maleVariant": null,
-                    "stringId": 1946174884936278020
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "弟がほしいの… 離してよ…",
-                    "maleVariant": null,
-                    "stringId": 1946174884953055236
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "変な人。ついてこないで！",
-                    "maleVariant": null,
-                    "stringId": 1946174885036941316
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いけないんだ、タイホされちゃうよ！",
-                    "maleVariant": null,
-                    "stringId": 1946174885053718532
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ウソばっかり…！ 本物のパパにお仕置きされるよ！ 待ってなさい！",
-                    "maleVariant": null,
-                    "stringId": 1946176781550215168
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "パパは会社のえらい人。あなたのパパよりえらい人！",
+              "maleVariant": "",
+              "stringId": 1946174884432961536
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私はプリンセス。あなたは違う。ララララーラ！",
+              "maleVariant": "",
+              "stringId": 1946174884449738756
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "触んないで！",
+              "maleVariant": "",
+              "stringId": 1946174884500070404
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちょっと！",
+              "maleVariant": "",
+              "stringId": 1946174884533624836
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしもし？",
+              "maleVariant": "",
+              "stringId": 1946174884583956484
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "大きな声出さないで…！ 嫌よ！ ほんとのパパじゃないくせに！",
+              "maleVariant": "",
+              "stringId": 1946174884634288132
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いやだ…！ 行かないから…！ いいもん…！ あんたなんかキライだし！",
+              "maleVariant": "",
+              "stringId": 1946174884651065348
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ヤだもん！",
+              "maleVariant": "",
+              "stringId": 1946174884701396996
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "きゃーーっ！",
+              "maleVariant": "",
+              "stringId": 1946174884852391940
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やめて、助けてぇー！",
+              "maleVariant": "",
+              "stringId": 1946174884852391956
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いやだ、やめてよ、怖いよ…",
+              "maleVariant": "",
+              "stringId": 1946174884936278020
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "弟がほしいの… 離してよ…",
+              "maleVariant": "",
+              "stringId": 1946174884953055236
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "変な人。ついてこないで！",
+              "maleVariant": "",
+              "stringId": 1946174885036941316
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いけないんだ、タイホされちゃうよ！",
+              "maleVariant": "",
+              "stringId": 1946174885053718532
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ウソばっかり…！ 本物のパパにお仕置きされるよ！ 待ってなさい！",
+              "maleVariant": "",
+              "stringId": 1946176781550215168
             }
-          }
+          ]
         }
       }
     },

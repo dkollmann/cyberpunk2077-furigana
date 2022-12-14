@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_high_f_20_jap_40.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何か用なの？",
-                    "maleVariant": null,
-                    "stringId": 1882063923089776644
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "人のことはほっといて！",
-                    "maleVariant": null,
-                    "stringId": 1882063923106553860
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "謝ってもらえる？",
-                    "maleVariant": null,
-                    "stringId": 1882063923156885508
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何するのよ！！",
-                    "maleVariant": null,
-                    "stringId": 1882063923207217156
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうしたの？",
-                    "maleVariant": null,
-                    "stringId": 1882063923257548804
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いいえ…！ 言ったでしょ… だめよ、聞いて…！ 脅しには屈しないから…！",
-                    "maleVariant": null,
-                    "stringId": 1882063923374989316
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やればいいじゃない… そうね…！ あなたが思ってるよりずっとね…！",
-                    "maleVariant": null,
-                    "stringId": 1882063923391766532
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "さよなら",
-                    "maleVariant": null,
-                    "stringId": 1882063923425320964
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "誰か！ どうにかして！",
-                    "maleVariant": null,
-                    "stringId": 1882063923593093124
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "誰か！ マックス・タックに通報して！",
-                    "maleVariant": null,
-                    "stringId": 1882063923609870340
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "言っておくわよ！ 指一本触らないで！",
-                    "maleVariant": null,
-                    "stringId": 1882063923710533632
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私は偉いのよ、だから殺さないで！",
-                    "maleVariant": null,
-                    "stringId": 1882063923727310852
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "付きまとわないでよ！",
-                    "maleVariant": null,
-                    "stringId": 1882063923844751364
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "近寄らないで、わかった！？",
-                    "maleVariant": null,
-                    "stringId": 1882063923878305796
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何か用なの？",
+              "maleVariant": "",
+              "stringId": 1882063923089776644
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "人のことはほっといて！",
+              "maleVariant": "",
+              "stringId": 1882063923106553860
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "謝ってもらえる？",
+              "maleVariant": "",
+              "stringId": 1882063923156885508
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何するのよ！！",
+              "maleVariant": "",
+              "stringId": 1882063923207217156
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうしたの？",
+              "maleVariant": "",
+              "stringId": 1882063923257548804
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いいえ…！ 言ったでしょ… だめよ、聞いて…！ 脅しには屈しないから…！",
+              "maleVariant": "",
+              "stringId": 1882063923374989316
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やればいいじゃない… そうね…！ あなたが思ってるよりずっとね…！",
+              "maleVariant": "",
+              "stringId": 1882063923391766532
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "さよなら",
+              "maleVariant": "",
+              "stringId": 1882063923425320964
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "誰か！ どうにかして！",
+              "maleVariant": "",
+              "stringId": 1882063923593093124
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "誰か！ マックス・タックに通報して！",
+              "maleVariant": "",
+              "stringId": 1882063923609870340
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "言っておくわよ！ 指一本触らないで！",
+              "maleVariant": "",
+              "stringId": 1882063923710533632
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私は偉いのよ、だから殺さないで！",
+              "maleVariant": "",
+              "stringId": 1882063923727310852
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "付きまとわないでよ！",
+              "maleVariant": "",
+              "stringId": 1882063923844751364
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "近寄らないで、わかった！？",
+              "maleVariant": "",
+              "stringId": 1882063923878305796
             }
-          }
+          ]
         }
       }
     },

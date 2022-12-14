@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_rcr_chat_021.json"
@@ -11,90 +11,68 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ねえ、明日テストでしょ。勉強しなくていいの？",
-                    "maleVariant": null,
-                    "stringId": 2167632358018928640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうせいい点とれないし、やらなくたって同じでしょ？",
-                    "maleVariant": null,
-                    "stringId": 2196939676842680320
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "徹夜で暗記するために山ほどクスリ吸ってるような連中には勝てねえよ",
-                    "maleVariant": null,
-                    "stringId": 2196949074348564480
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "でもさ、あんた売人でしょ。自分で吸えばいいのに",
-                    "maleVariant": null,
-                    "stringId": 2196950680985100288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "売人だから吸わないのよ… とにかく、もう行くね。今日はママの家でご飯なの。着替えなきゃ",
-                    "maleVariant": null,
-                    "stringId": 2196952940976758784
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "その服で別にいいだろ",
-                    "maleVariant": null,
-                    "stringId": 2196960642624872448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ママからおばさんのお下がりをもらってて、「どうして着ないの」ってうるさいんだよね",
-                    "maleVariant": null,
-                    "stringId": 2196962506892337152
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お下がりとか要らないでしょ？ クスリでメチャクチャ稼いでるのに",
-                    "maleVariant": null,
-                    "stringId": 2196963073509253120
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まあね。でも受け取らないと、それはそれでうるさいからさ",
-                    "maleVariant": null,
-                    "stringId": 2196963865460957184
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ねえ、明日テストでしょ。勉強しなくていいの？",
+              "maleVariant": "",
+              "stringId": 2167632358018928640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうせいい点とれないし、やらなくたって同じでしょ？",
+              "maleVariant": "",
+              "stringId": 2196939676842680320
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "徹夜で暗記するために山ほどクスリ吸ってるような連中には勝てねえよ",
+              "maleVariant": "",
+              "stringId": 2196949074348564480
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "でもさ、あんた売人でしょ。自分で吸えばいいのに",
+              "maleVariant": "",
+              "stringId": 2196950680985100288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "売人だから吸わないのよ… とにかく、もう行くね。今日はママの家でご飯なの。着替えなきゃ",
+              "maleVariant": "",
+              "stringId": 2196952940976758784
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "その服で別にいいだろ",
+              "maleVariant": "",
+              "stringId": 2196960642624872448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ママからおばさんのお下がりをもらってて、「どうして着ないの」ってうるさいんだよね",
+              "maleVariant": "",
+              "stringId": 2196962506892337152
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お下がりとか要らないでしょ？ クスリでメチャクチャ稼いでるのに",
+              "maleVariant": "",
+              "stringId": 2196963073509253120
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まあね。でも受け取らないと、それはそれでうるさいからさ",
+              "maleVariant": "",
+              "stringId": 2196963865460957184
             }
-          }
+          ]
         }
       }
     },

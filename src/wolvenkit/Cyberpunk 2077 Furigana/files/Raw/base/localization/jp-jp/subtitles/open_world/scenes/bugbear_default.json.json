@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bugbear_default.json"
@@ -11,114 +11,86 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "必要なものがある…",
-                    "maleVariant": null,
-                    "stringId": 1937441522138763268
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "起きた時… どんな気分だった？",
-                    "maleVariant": null,
-                    "stringId": 1937443779110522880
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "起きた時、大丈夫だった？",
-                    "maleVariant": "起きた時、大丈夫だったか？",
-                    "stringId": 1937445641230503936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "少し必要なものがあるの…",
-                    "maleVariant": "少し必要なものがある…",
-                    "stringId": 1937446264822845440
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何？",
-                    "maleVariant": null,
-                    "stringId": 1937448094462136320
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "助けてくれてありがとう",
-                    "maleVariant": null,
-                    "stringId": 1937537478452596736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "綺麗に眠りから覚めた感じかな",
-                    "maleVariant": null,
-                    "stringId": 1937554339705671680
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "Vね。何があったのかワカコに聞いた後、あなたについて調べたの",
-                    "maleVariant": null,
-                    "stringId": 1937567143875596288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "誰かに窓から放りだされたみたいに、アザだらけだけど…",
-                    "maleVariant": null,
-                    "stringId": 1949225070059343872
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まあ、こうして生きてる。だからやったかいはあった。ありがとう",
-                    "maleVariant": null,
-                    "stringId": 1949225073582559232
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "変だよね？ こうやってまた会うなんて",
-                    "maleVariant": null,
-                    "stringId": 1949226057281064960
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何かご用？",
-                    "maleVariant": null,
-                    "stringId": 1949228245483016192
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "必要なものがある…",
+              "maleVariant": "",
+              "stringId": 1937441522138763268
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "起きた時… どんな気分だった？",
+              "maleVariant": "",
+              "stringId": 1937443779110522880
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "起きた時、大丈夫だった？",
+              "maleVariant": "起きた時、大丈夫だったか？",
+              "stringId": 1937445641230503936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "少し必要なものがあるの…",
+              "maleVariant": "少し必要なものがある…",
+              "stringId": 1937446264822845440
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何？",
+              "maleVariant": "",
+              "stringId": 1937448094462136320
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "助けてくれてありがとう",
+              "maleVariant": "",
+              "stringId": 1937537478452596736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "綺麗に眠りから覚めた感じかな",
+              "maleVariant": "",
+              "stringId": 1937554339705671680
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "Vね。何があったのかワカコに聞いた後、あなたについて調べたの",
+              "maleVariant": "",
+              "stringId": 1937567143875596288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "誰かに窓から放りだされたみたいに、アザだらけだけど…",
+              "maleVariant": "",
+              "stringId": 1949225070059343872
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まあ、こうして生きてる。だからやったかいはあった。ありがとう",
+              "maleVariant": "",
+              "stringId": 1949225073582559232
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "変だよね？ こうやってまた会うなんて",
+              "maleVariant": "",
+              "stringId": 1949226057281064960
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何かご用？",
+              "maleVariant": "",
+              "stringId": 1949228245483016192
             }
-          }
+          ]
         }
       }
     },

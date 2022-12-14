@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_kab_chat_005.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おっしゃる通り、必要以上の出費を好む方はいらっしゃいませんよね",
-                    "maleVariant": null,
-                    "stringId": 1802481504742924288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うさんくさいセールストークが好きな奴もな",
-                    "maleVariant": null,
-                    "stringId": 1802482031950159872
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そう言わずに。今回は特別に安くしときますから",
-                    "maleVariant": null,
-                    "stringId": 1802482223495634944
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "「ただし」が付くんだろ？",
-                    "maleVariant": null,
-                    "stringId": 1802482492165971968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ただし… 銃、弾薬、スコープのフルセットをご購入いただいた場合のみです",
-                    "maleVariant": null,
-                    "stringId": 1802482591000551424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いいだろう",
-                    "maleVariant": null,
-                    "stringId": 1802482768453165056
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おっしゃる通り、必要以上の出費を好む方はいらっしゃいませんよね",
+              "maleVariant": "",
+              "stringId": 1802481504742924288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うさんくさいセールストークが好きな奴もな",
+              "maleVariant": "",
+              "stringId": 1802482031950159872
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そう言わずに。今回は特別に安くしときますから",
+              "maleVariant": "",
+              "stringId": 1802482223495634944
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "「ただし」が付くんだろ？",
+              "maleVariant": "",
+              "stringId": 1802482492165971968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ただし… 銃、弾薬、スコープのフルセットをご購入いただいた場合のみです",
+              "maleVariant": "",
+              "stringId": 1802482591000551424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いいだろう",
+              "maleVariant": "",
+              "stringId": 1802482768453165056
             }
-          }
+          ]
         }
       }
     },

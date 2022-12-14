@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_m_97_chn_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あー、調子わりい",
-                    "maleVariant": null,
-                    "stringId": 1922689537169432576
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やってられねえ…",
-                    "maleVariant": null,
-                    "stringId": 1922689537186209796
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あ？",
-                    "maleVariant": null,
-                    "stringId": 1922689537236541444
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どいつもこいつも…",
-                    "maleVariant": null,
-                    "stringId": 1922689537270095876
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "聞いたか？",
-                    "maleVariant": null,
-                    "stringId": 1922689537303650308
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ… 息ができない… 終わりが近づいてる… 本当だ… ああ…",
-                    "maleVariant": null,
-                    "stringId": 1922689537353981956
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もうお終いなんだよ… 酸性雨…？ そんなんじゃない、これは死の灰だよ…",
-                    "maleVariant": null,
-                    "stringId": 1922689537370759172
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "またな",
-                    "maleVariant": null,
-                    "stringId": 1922689537404313604
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やばいって！",
-                    "maleVariant": null,
-                    "stringId": 1922689537572085764
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "全員殺されるぞー！",
-                    "maleVariant": null,
-                    "stringId": 1922689537588862980
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "せめて遺書を書く時間をくれよ！",
-                    "maleVariant": null,
-                    "stringId": 1922689537672749060
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "死にたくねえ！",
-                    "maleVariant": null,
-                    "stringId": 1922689537706303492
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "俺についてきても面白いことはないぞ",
-                    "maleVariant": null,
-                    "stringId": 1922689537790189572
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "金が目的なら、おあいにく様だ",
-                    "maleVariant": null,
-                    "stringId": 1922689537823744004
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あー、調子わりい",
+              "maleVariant": "",
+              "stringId": 1922689537169432576
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やってられねえ…",
+              "maleVariant": "",
+              "stringId": 1922689537186209796
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あ？",
+              "maleVariant": "",
+              "stringId": 1922689537236541444
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どいつもこいつも…",
+              "maleVariant": "",
+              "stringId": 1922689537270095876
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "聞いたか？",
+              "maleVariant": "",
+              "stringId": 1922689537303650308
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ… 息ができない… 終わりが近づいてる… 本当だ… ああ…",
+              "maleVariant": "",
+              "stringId": 1922689537353981956
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もうお終いなんだよ… 酸性雨…？ そんなんじゃない、これは死の灰だよ…",
+              "maleVariant": "",
+              "stringId": 1922689537370759172
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "またな",
+              "maleVariant": "",
+              "stringId": 1922689537404313604
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やばいって！",
+              "maleVariant": "",
+              "stringId": 1922689537572085764
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "全員殺されるぞー！",
+              "maleVariant": "",
+              "stringId": 1922689537588862980
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "せめて遺書を書く時間をくれよ！",
+              "maleVariant": "",
+              "stringId": 1922689537672749060
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "死にたくねえ！",
+              "maleVariant": "",
+              "stringId": 1922689537706303492
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "俺についてきても面白いことはないぞ",
+              "maleVariant": "",
+              "stringId": 1922689537790189572
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "金が目的なら、おあいにく様だ",
+              "maleVariant": "",
+              "stringId": 1922689537823744004
             }
-          }
+          ]
         }
       }
     },

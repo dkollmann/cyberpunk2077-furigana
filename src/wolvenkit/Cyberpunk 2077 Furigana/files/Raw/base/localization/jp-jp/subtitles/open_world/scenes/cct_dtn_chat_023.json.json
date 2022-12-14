@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\cct_dtn_chat_023.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "心配するな。そのためにブースターがあるんだ",
-                    "maleVariant": null,
-                    "stringId": 2178096400413999104
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "時々、こうやって下を見下ろすと、考えるんだ… 「ここから飛び降りたらどうなる？」って。ほら、下の車道に",
-                    "maleVariant": null,
-                    "stringId": 2179547339083726848
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やろうと思えばやれるんだ。今すぐに。でもやらない",
-                    "maleVariant": null,
-                    "stringId": 2179548305870798848
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "変だろ？ これって自殺願望かな？",
-                    "maleVariant": null,
-                    "stringId": 2179548483575070720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いや、違う。そういうのを「奈落の呼び声」って言うんだ",
-                    "maleVariant": null,
-                    "stringId": 2179548665976963072
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "気にするな、普通のことだ。お前が本気で飛び降りたいなんて言い始めたら… 話は別だが",
-                    "maleVariant": null,
-                    "stringId": 2179548862857592832
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "怖いんだよ。ひょっとしたら心の片隅にそういう気持ちがあって、一歩踏み出しちまったらって…",
-                    "maleVariant": null,
-                    "stringId": 2179549054956716032
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "心配するな。そのためにブースターがあるんだ",
+              "maleVariant": "",
+              "stringId": 2178096400413999104
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "時々、こうやって下を見下ろすと、考えるんだ… 「ここから飛び降りたらどうなる？」って。ほら、下の車道に",
+              "maleVariant": "",
+              "stringId": 2179547339083726848
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やろうと思えばやれるんだ。今すぐに。でもやらない",
+              "maleVariant": "",
+              "stringId": 2179548305870798848
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "変だろ？ これって自殺願望かな？",
+              "maleVariant": "",
+              "stringId": 2179548483575070720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いや、違う。そういうのを「奈落の呼び声」って言うんだ",
+              "maleVariant": "",
+              "stringId": 2179548665976963072
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "気にするな、普通のことだ。お前が本気で飛び降りたいなんて言い始めたら… 話は別だが",
+              "maleVariant": "",
+              "stringId": 2179548862857592832
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "怖いんだよ。ひょっとしたら心の片隅にそういう気持ちがあって、一歩踏み出しちまったらって…",
+              "maleVariant": "",
+              "stringId": 2179549054956716032
             }
-          }
+          ]
         }
       }
     },

@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\pac_cvi_chat_015.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソ… もう俺はクロームを全部外す",
-                    "maleVariant": null,
-                    "stringId": 2179396891616505856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "は？ なんで？ 金でも必要なのか？",
-                    "maleVariant": null,
-                    "stringId": 2182439668946358272
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちげえよ。スカベンジャーに襲われる前に外したいんだ。近所でもう5人やられた。夜にやって来て、バンに乗せられ… それっきりさ",
-                    "maleVariant": null,
-                    "stringId": 2182442139357859840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それで、インプラントを取っちまえば、襲われないって？",
-                    "maleVariant": null,
-                    "stringId": 2182442405360619520
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうだよ",
-                    "maleVariant": null,
-                    "stringId": 2218390946335477760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "奴らは何を着けてるかなんておかまいなしに、切り刻むだけだ。クロームはそのままにして、銃を手に入れるんだな",
-                    "maleVariant": null,
-                    "stringId": 2218391033291788288
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソ… もう俺はクロームを全部外す",
+              "maleVariant": "",
+              "stringId": 2179396891616505856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "は？ なんで？ 金でも必要なのか？",
+              "maleVariant": "",
+              "stringId": 2182439668946358272
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちげえよ。スカベンジャーに襲われる前に外したいんだ。近所でもう5人やられた。夜にやって来て、バンに乗せられ… それっきりさ",
+              "maleVariant": "",
+              "stringId": 2182442139357859840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それで、インプラントを取っちまえば、襲われないって？",
+              "maleVariant": "",
+              "stringId": 2182442405360619520
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうだよ",
+              "maleVariant": "",
+              "stringId": 2218390946335477760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "奴らは何を着けてるかなんておかまいなしに、切り刻むだけだ。クロームはそのままにして、銃を手に入れるんだな",
+              "maleVariant": "",
+              "stringId": 2218391033291788288
             }
-          }
+          ]
         }
       }
     },

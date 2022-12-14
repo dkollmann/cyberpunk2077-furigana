@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\mq014\\mq014_06_fire.json"
@@ -11,122 +11,92 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今からそなたに教えるのは火の瞑想だ",
-                    "maleVariant": null,
-                    "stringId": 1815550918190403588
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ここは森の中、太陽の光が樹々の合間から差し込み、下で燃え盛る炎の上で踊っている",
-                    "maleVariant": null,
-                    "stringId": 1816922686184460288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "我々は一心同体。そなたなしに命は存在しえない。我はそなたから作られ、そなたに戻るのだから",
-                    "maleVariant": null,
-                    "stringId": 1822765850526978048
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "根源たる火、太陽の精霊よ。我の身体と魂から穢れを全て焼き払い、害ある人々、社会、次元から害ある気を焼き払いたまえ",
-                    "maleVariant": null,
-                    "stringId": 1822767135779164160
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "全細胞を浄化したまえ。命の気、健康、若さ、知恵、知識、強さ、喜び、そして幸せを与えたまえ",
-                    "maleVariant": null,
-                    "stringId": 1822770179350695936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この目を通し、火と太陽の気は我々の頭に触れ、次に全ての内臓の中を流れ、やがては足先まで達しよう",
-                    "maleVariant": null,
-                    "stringId": 1822774555922370560
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そして我々に、光が宿るのだ",
-                    "maleVariant": null,
-                    "stringId": 1822775532222124032
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "太陽の精霊、火の元素よ、精神、身体、魂をもって感謝申し上げる",
-                    "maleVariant": null,
-                    "stringId": 1822781310043656192
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "火の精霊、太陽の精霊よ、ご挨拶申し上げる… そなたは他の全てのものに美を与えてくださった",
-                    "maleVariant": null,
-                    "stringId": 1925616428986109952
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "我に内なる安らぎを与え、我を神聖なる平静から守りたまえ",
-                    "maleVariant": null,
-                    "stringId": 1925617208791109632
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "我々は目を細め、太陽の神聖な気を吸収する",
-                    "maleVariant": null,
-                    "stringId": 1925617534923411456
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "我々の肉体の全細胞が、その隅々に至るまで、再び太陽の気で満たされていく",
-                    "maleVariant": null,
-                    "stringId": 1925619216168226816
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "我らは太陽",
-                    "maleVariant": null,
-                    "stringId": 1925620860083736576
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今からそなたに教えるのは火の瞑想だ",
+              "maleVariant": "",
+              "stringId": 1815550918190403588
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ここは森の中、太陽の光が樹々の合間から差し込み、下で燃え盛る炎の上で踊っている",
+              "maleVariant": "",
+              "stringId": 1816922686184460288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "我々は一心同体。そなたなしに命は存在しえない。我はそなたから作られ、そなたに戻るのだから",
+              "maleVariant": "",
+              "stringId": 1822765850526978048
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "根源たる火、太陽の精霊よ。我の身体と魂から穢れを全て焼き払い、害ある人々、社会、次元から害ある気を焼き払いたまえ",
+              "maleVariant": "",
+              "stringId": 1822767135779164160
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "全細胞を浄化したまえ。命の気、健康、若さ、知恵、知識、強さ、喜び、そして幸せを与えたまえ",
+              "maleVariant": "",
+              "stringId": 1822770179350695936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この目を通し、火と太陽の気は我々の頭に触れ、次に全ての内臓の中を流れ、やがては足先まで達しよう",
+              "maleVariant": "",
+              "stringId": 1822774555922370560
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そして我々に、光が宿るのだ",
+              "maleVariant": "",
+              "stringId": 1822775532222124032
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "太陽の精霊、火の元素よ、精神、身体、魂をもって感謝申し上げる",
+              "maleVariant": "",
+              "stringId": 1822781310043656192
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "火の精霊、太陽の精霊よ、ご挨拶申し上げる… そなたは他の全てのものに美を与えてくださった",
+              "maleVariant": "",
+              "stringId": 1925616428986109952
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "我に内なる安らぎを与え、我を神聖なる平静から守りたまえ",
+              "maleVariant": "",
+              "stringId": 1925617208791109632
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "我々は目を細め、太陽の神聖な気を吸収する",
+              "maleVariant": "",
+              "stringId": 1925617534923411456
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "我々の肉体の全細胞が、その隅々に至るまで、再び太陽の気で満たされていく",
+              "maleVariant": "",
+              "stringId": 1925619216168226816
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "我らは太陽",
+              "maleVariant": "",
+              "stringId": 1925620860083736576
             }
-          }
+          ]
         }
       }
     },

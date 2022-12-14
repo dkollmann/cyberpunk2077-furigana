@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_m_15_enus_25.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ、どうも",
-                    "maleVariant": null,
-                    "stringId": 1922840462185996292
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "見ない顔だね？",
-                    "maleVariant": null,
-                    "stringId": 1922840462202773508
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "目が見えないのか？",
-                    "maleVariant": null,
-                    "stringId": 1922840462269882372
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うわ…！",
-                    "maleVariant": null,
-                    "stringId": 1922840462286659588
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうも",
-                    "maleVariant": null,
-                    "stringId": 1922840462336991232
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "調子はどう…？へへ…  いや別に… へへ、え、え、俺…？ へへ… 俺が何かしたとでも？",
-                    "maleVariant": null,
-                    "stringId": 1922840462387322884
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "金を貸してくれないか…？ ああ！ 少しでいい… 100か、200… うん、俺じゃなくて、ゴモラにだよ",
-                    "maleVariant": null,
-                    "stringId": 1922840462420877316
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ありがとな！ じゃあ！",
-                    "maleVariant": null,
-                    "stringId": 1922840462471208964
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うわうわうわ！",
-                    "maleVariant": null,
-                    "stringId": 1922840462672535556
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "テレビみたい！",
-                    "maleVariant": null,
-                    "stringId": 1922840462706089988
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "お願いだから！ 頼む！",
-                    "maleVariant": null,
-                    "stringId": 1922840462806753284
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まだ生きたいんだ！",
-                    "maleVariant": null,
-                    "stringId": 1922840462840307716
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何のつもりだ？",
-                    "maleVariant": null,
-                    "stringId": 1922840462924193796
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "金も何もないぞ！",
-                    "maleVariant": null,
-                    "stringId": 1922840462957748228
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ、どうも",
+              "maleVariant": "",
+              "stringId": 1922840462185996292
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "見ない顔だね？",
+              "maleVariant": "",
+              "stringId": 1922840462202773508
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "目が見えないのか？",
+              "maleVariant": "",
+              "stringId": 1922840462269882372
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うわ…！",
+              "maleVariant": "",
+              "stringId": 1922840462286659588
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうも",
+              "maleVariant": "",
+              "stringId": 1922840462336991232
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "調子はどう…？へへ…  いや別に… へへ、え、え、俺…？ へへ… 俺が何かしたとでも？",
+              "maleVariant": "",
+              "stringId": 1922840462387322884
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "金を貸してくれないか…？ ああ！ 少しでいい… 100か、200… うん、俺じゃなくて、ゴモラにだよ",
+              "maleVariant": "",
+              "stringId": 1922840462420877316
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ありがとな！ じゃあ！",
+              "maleVariant": "",
+              "stringId": 1922840462471208964
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うわうわうわ！",
+              "maleVariant": "",
+              "stringId": 1922840462672535556
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "テレビみたい！",
+              "maleVariant": "",
+              "stringId": 1922840462706089988
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "お願いだから！ 頼む！",
+              "maleVariant": "",
+              "stringId": 1922840462806753284
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まだ生きたいんだ！",
+              "maleVariant": "",
+              "stringId": 1922840462840307716
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何のつもりだ？",
+              "maleVariant": "",
+              "stringId": 1922840462924193796
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "金も何もないぞ！",
+              "maleVariant": "",
+              "stringId": 1922840462957748228
             }
-          }
+          ]
         }
       }
     },

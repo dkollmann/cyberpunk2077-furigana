@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_mid_f_38_afam_30.json"
@@ -11,146 +11,110 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "友達にでもなりたいっての？",
-                    "maleVariant": null,
-                    "stringId": 1954519109969420292
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何かニュースはある？",
-                    "maleVariant": null,
-                    "stringId": 1954519109986197508
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "見えてるわよね？",
-                    "maleVariant": null,
-                    "stringId": 1954519110036529156
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちょっと！",
-                    "maleVariant": null,
-                    "stringId": 1954519110053306372
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何？",
-                    "maleVariant": null,
-                    "stringId": 1954519110086860804
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まさか… 魔法使いじゃないのよ… 電池は自分じゃ作れない。用意して",
-                    "maleVariant": null,
-                    "stringId": 1954519110137192452
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "時間がかかるのよ… 忙しくて",
-                    "maleVariant": null,
-                    "stringId": 1954519110153969668
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ふん、そっちこそ",
-                    "maleVariant": null,
-                    "stringId": 1954519110187524100
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "逃げないと！",
-                    "maleVariant": null,
-                    "stringId": 1954519110338519044
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おかしいんじゃないの！？",
-                    "maleVariant": null,
-                    "stringId": 1954519110355296260
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あんたのことをチクったりはしないって！",
-                    "maleVariant": null,
-                    "stringId": 1954519110455959556
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "待って。殺さないで",
-                    "maleVariant": null,
-                    "stringId": 1954519110489513988
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私はここの人間よ。仲間が容赦しないから",
-                    "maleVariant": null,
-                    "stringId": 1954519110590177284
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何か欲しいもんでもあんの！？",
-                    "maleVariant": null,
-                    "stringId": 1954519110606954500
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あのね、別に何でもしてやる義理はないし、気に入らないなら他の人を探して",
-                    "maleVariant": null,
-                    "stringId": 1954520896021504000
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あのね、何なら誰かに代わりにやらせればいいでしょ… そうよ",
-                    "maleVariant": null,
-                    "stringId": 1954521204202184704
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "友達にでもなりたいっての？",
+              "maleVariant": "",
+              "stringId": 1954519109969420292
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何かニュースはある？",
+              "maleVariant": "",
+              "stringId": 1954519109986197508
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "見えてるわよね？",
+              "maleVariant": "",
+              "stringId": 1954519110036529156
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちょっと！",
+              "maleVariant": "",
+              "stringId": 1954519110053306372
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何？",
+              "maleVariant": "",
+              "stringId": 1954519110086860804
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まさか… 魔法使いじゃないのよ… 電池は自分じゃ作れない。用意して",
+              "maleVariant": "",
+              "stringId": 1954519110137192452
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "時間がかかるのよ… 忙しくて",
+              "maleVariant": "",
+              "stringId": 1954519110153969668
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ふん、そっちこそ",
+              "maleVariant": "",
+              "stringId": 1954519110187524100
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "逃げないと！",
+              "maleVariant": "",
+              "stringId": 1954519110338519044
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おかしいんじゃないの！？",
+              "maleVariant": "",
+              "stringId": 1954519110355296260
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あんたのことをチクったりはしないって！",
+              "maleVariant": "",
+              "stringId": 1954519110455959556
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "待って。殺さないで",
+              "maleVariant": "",
+              "stringId": 1954519110489513988
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私はここの人間よ。仲間が容赦しないから",
+              "maleVariant": "",
+              "stringId": 1954519110590177284
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何か欲しいもんでもあんの！？",
+              "maleVariant": "",
+              "stringId": 1954519110606954500
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あのね、別に何でもしてやる義理はないし、気に入らないなら他の人を探して",
+              "maleVariant": "",
+              "stringId": 1954520896021504000
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あのね、何なら誰かに代わりにやらせればいいでしょ… そうよ",
+              "maleVariant": "",
+              "stringId": 1954521204202184704
             }
-          }
+          ]
         }
       }
     },

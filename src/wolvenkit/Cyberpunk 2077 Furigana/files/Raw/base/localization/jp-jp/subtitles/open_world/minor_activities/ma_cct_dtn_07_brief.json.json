@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\minor_activities\\ma_cct_dtn_07_brief.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "“悪鬼”に襲われたタイガークロウズのメンバーが、助けを求めてきた",
-                    "maleVariant": null,
-                    "stringId": 2357683923642888192
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "連中は同胞殺しのことをそう呼ぶの。この悪鬼は標的を選んで、静かに、そして惨いやり方で始末してる",
-                    "maleVariant": null,
-                    "stringId": 2357691500569178112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "おそらくサイバーサイコ発症の手前じゃないかと思うんだけど… それを確認してくれる？",
-                    "maleVariant": null,
-                    "stringId": 2357691866010497024
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "必要がない限り殺さないで。背後には十分気をつけるのよ",
-                    "maleVariant": null,
-                    "stringId": 2357692621035548672
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "“悪鬼”に襲われたタイガークロウズのメンバーが、助けを求めてきた",
+              "maleVariant": "",
+              "stringId": 2357683923642888192
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "連中は同胞殺しのことをそう呼ぶの。この悪鬼は標的を選んで、静かに、そして惨いやり方で始末してる",
+              "maleVariant": "",
+              "stringId": 2357691500569178112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "おそらくサイバーサイコ発症の手前じゃないかと思うんだけど… それを確認してくれる？",
+              "maleVariant": "",
+              "stringId": 2357691866010497024
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "必要がない限り殺さないで。背後には十分気をつけるのよ",
+              "maleVariant": "",
+              "stringId": 2357692621035548672
             }
-          }
+          ]
         }
       }
     },

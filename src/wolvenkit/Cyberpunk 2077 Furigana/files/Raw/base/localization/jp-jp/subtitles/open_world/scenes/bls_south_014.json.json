@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\bls_south_014.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "女と子供は行っていい。お前はここに残れ",
-                    "maleVariant": null,
-                    "stringId": 2178243834931568640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "は？ なぜだ？",
-                    "maleVariant": null,
-                    "stringId": 2182332323065454592
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "駐車違反の罰金が未払いだ",
-                    "maleVariant": null,
-                    "stringId": 2182343683354615808
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いったい何の話だ！？",
-                    "maleVariant": null,
-                    "stringId": 2182349234918612992
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "落ち着いて。いくら？ 今払うから",
-                    "maleVariant": null,
-                    "stringId": 2182349498354458624
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "罰金は市庁舎か、自宅の最寄りの警察署に本人が出向いて支払うことになってる",
-                    "maleVariant": null,
-                    "stringId": 2182349868292071424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それじゃあバスに乗れないじゃないか！",
-                    "maleVariant": null,
-                    "stringId": 2182351892580622336
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "2人は乗ればいい。お前はここに残るんだ",
-                    "maleVariant": null,
-                    "stringId": 2182352528168673280
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "女と子供は行っていい。お前はここに残れ",
+              "maleVariant": "",
+              "stringId": 2178243834931568640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "は？ なぜだ？",
+              "maleVariant": "",
+              "stringId": 2182332323065454592
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "駐車違反の罰金が未払いだ",
+              "maleVariant": "",
+              "stringId": 2182343683354615808
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いったい何の話だ！？",
+              "maleVariant": "",
+              "stringId": 2182349234918612992
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "落ち着いて。いくら？ 今払うから",
+              "maleVariant": "",
+              "stringId": 2182349498354458624
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "罰金は市庁舎か、自宅の最寄りの警察署に本人が出向いて支払うことになってる",
+              "maleVariant": "",
+              "stringId": 2182349868292071424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それじゃあバスに乗れないじゃないか！",
+              "maleVariant": "",
+              "stringId": 2182351892580622336
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "2人は乗ればいい。お前はここに残るんだ",
+              "maleVariant": "",
+              "stringId": 2182352528168673280
             }
-          }
+          ]
         }
       }
     },

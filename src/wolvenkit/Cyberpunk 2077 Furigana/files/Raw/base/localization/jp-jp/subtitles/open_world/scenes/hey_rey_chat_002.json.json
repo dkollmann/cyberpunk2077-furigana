@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_rey_chat_002.json"
@@ -11,74 +11,56 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "奮発して新しいケムスキンを買おうかな",
-                    "maleVariant": null,
-                    "stringId": 1833083872609951744
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今持ってるヤツじゃダメなの？",
-                    "maleVariant": null,
-                    "stringId": 1833091159290404864
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あれ安物だから、少し色が変わるだけなのよ",
-                    "maleVariant": null,
-                    "stringId": 1833091293441024000
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ヒョウ柄フェチとかの客も増えてきてるからね",
-                    "maleVariant": null,
-                    "stringId": 1833091456247128064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "確かに、昔はアニマルズだけだったのに",
-                    "maleVariant": null,
-                    "stringId": 1833091620110196736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "わかってないわね",
-                    "maleVariant": null,
-                    "stringId": 1964786365518036992
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もっと頭を柔らかくしないと。もちろん、身体もね",
-                    "maleVariant": null,
-                    "stringId": 1964786787901227008
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "奮発して新しいケムスキンを買おうかな",
+              "maleVariant": "",
+              "stringId": 1833083872609951744
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今持ってるヤツじゃダメなの？",
+              "maleVariant": "",
+              "stringId": 1833091159290404864
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あれ安物だから、少し色が変わるだけなのよ",
+              "maleVariant": "",
+              "stringId": 1833091293441024000
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ヒョウ柄フェチとかの客も増えてきてるからね",
+              "maleVariant": "",
+              "stringId": 1833091456247128064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "確かに、昔はアニマルズだけだったのに",
+              "maleVariant": "",
+              "stringId": 1833091620110196736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "わかってないわね",
+              "maleVariant": "",
+              "stringId": 1964786365518036992
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もっと頭を柔らかくしないと。もちろん、身体もね",
+              "maleVariant": "",
+              "stringId": 1964786787901227008
             }
-          }
+          ]
         }
       }
     },

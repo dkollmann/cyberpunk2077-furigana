@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\conversation_street_new_val_05.json"
@@ -11,42 +11,32 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"mex\" o=\"Ahora formas parte de los Valentinos. Eso quiere decir que nos representas, y te tienen que respetar.\" t=\"お前はもうヴァレンティーノズの一員なんだ。お前がナメられるってことは、ギャングがナメられるってことと同じなんだよ\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 2276541424190267408
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"mex\" o=\"Mira, no estoy comparando quién la tiene más grande con estos putos pendejos.\" t=\"別にナニのデカさを比べるわけじゃあるまいし…\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 2276541424207044608
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "<kiroshi l=\"mex\" o=\"Ah, pero lo harás. Y si la tienes pequeña, demuestra que tienes los huevos bien puestos, ¿me entiendes?\" t=\"同じようなもんだ。ナニに自信がないなら、せめてタマがあることを証明しろ。わかったか？\" b=\"\" a=\"\"/>",
-                    "maleVariant": null,
-                    "stringId": 2276541424207044620
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"mex\" o=\"Ahora formas parte de los Valentinos. Eso quiere decir que nos representas, y te tienen que respetar.\" t=\"お前はもうヴァレンティーノズの一員なんだ。お前がナメられるってことは、ギャングがナメられるってことと同じなんだよ\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 2276541424190267408
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"mex\" o=\"Mira, no estoy comparando quién la tiene más grande con estos putos pendejos.\" t=\"別にナニのデカさを比べるわけじゃあるまいし…\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 2276541424207044608
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "<kiroshi l=\"mex\" o=\"Ah, pero lo harás. Y si la tienes pequeña, demuestra que tienes los huevos bien puestos, ¿me entiendes?\" t=\"同じようなもんだ。ナニに自信がないなら、せめてタマがあることを証明しろ。わかったか？\" b=\"\" a=\"\"/>",
+              "maleVariant": "",
+              "stringId": 2276541424207044620
             }
-          }
+          ]
         }
       }
     },

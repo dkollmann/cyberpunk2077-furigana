@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\vendors\\wbr_hil_foodshop_01.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "メニューはある？",
-                    "maleVariant": "メニューはあるか？",
-                    "stringId": 1764923827777089536
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いい店ね",
-                    "maleVariant": "いい店だな",
-                    "stringId": 1764924182615207936
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "いい店ね。シックで趣がある",
-                    "maleVariant": "いい店だな。シックで趣がある",
-                    "stringId": 1764924610551656448
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "マナーがあり、きちんとお支払いになる、良いお客様をお迎えするための店ですから。ワトソンの野蛮人向けではございません",
-                    "maleVariant": null,
-                    "stringId": 1764924913531400192
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "メニューをもらえる？",
-                    "maleVariant": "メニューをもらえるか？",
-                    "stringId": 1764925173796352000
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "はい、ただいま",
-                    "maleVariant": null,
-                    "stringId": 1764925400087441408
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "メニューはある？",
+              "maleVariant": "メニューはあるか？",
+              "stringId": 1764923827777089536
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いい店ね",
+              "maleVariant": "いい店だな",
+              "stringId": 1764924182615207936
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "いい店ね。シックで趣がある",
+              "maleVariant": "いい店だな。シックで趣がある",
+              "stringId": 1764924610551656448
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "マナーがあり、きちんとお支払いになる、良いお客様をお迎えするための店ですから。ワトソンの野蛮人向けではございません",
+              "maleVariant": "",
+              "stringId": 1764924913531400192
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "メニューをもらえる？",
+              "maleVariant": "メニューをもらえるか？",
+              "stringId": 1764925173796352000
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "はい、ただいま",
+              "maleVariant": "",
+              "stringId": 1764925400087441408
             }
-          }
+          ]
         }
       }
     },

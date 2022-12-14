@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_hey_rey_09_holocall_debriefs.json"
@@ -11,42 +11,32 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ようやったな、V。あんたに頼んで正解やったわ。また連絡さしてもらうで。ご苦労はん",
-                    "maleVariant": null,
-                    "stringId": 2328779755594993668
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "標的を死なせてからに。ミスは起きるもんや。それはしゃあない。せやけどな、一番あかんかったのが何かわかるか？",
-                    "maleVariant": null,
-                    "stringId": 2328779755628548100
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うちをがっかりさせたことや。よう考えもせんと行動して… 昔の旦那はんらを思い出したわ。みーんなその後すぐ死なはったけど。ほなな、V",
-                    "maleVariant": null,
-                    "stringId": 2340929764586786816
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ようやったな、V。あんたに頼んで正解やったわ。また連絡さしてもらうで。ご苦労はん",
+              "maleVariant": "",
+              "stringId": 2328779755594993668
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "標的を死なせてからに。ミスは起きるもんや。それはしゃあない。せやけどな、一番あかんかったのが何かわかるか？",
+              "maleVariant": "",
+              "stringId": 2328779755628548100
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うちをがっかりさせたことや。よう考えもせんと行動して… 昔の旦那はんらを思い出したわ。みーんなその後すぐ死なはったけど。ほなな、V",
+              "maleVariant": "",
+              "stringId": 2340929764586786816
             }
-          }
+          ]
         }
       }
     },

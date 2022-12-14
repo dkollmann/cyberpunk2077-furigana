@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_026.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ねえねえねえ、いいこと思いついた！ ライブで彼女にプレゼント渡そうよ！",
-                    "maleVariant": null,
-                    "stringId": 2156529816405569536
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "サイトには確か、高級なお茶が好きって書いてあったよね…",
-                    "maleVariant": null,
-                    "stringId": 2172091033477431296
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それ、めっちゃいい！ きっと私たちのこと覚えてくれるよ！ 最高じゃない？",
-                    "maleVariant": null,
-                    "stringId": 2172092221790863360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうね… そして何年後かに、街でバッタリ彼女と会うの。そしたら彼女が…",
-                    "maleVariant": null,
-                    "stringId": 2172094217944023040
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "「あら、ナイトシティで会った子たちね！ 素敵なティーカップをありがとう」なんて！",
-                    "maleVariant": null,
-                    "stringId": 2172094716948758528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "んー、でもさ、そもそもどうやってバックステージに入るの？",
-                    "maleVariant": null,
-                    "stringId": 2172095176745140224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "きっとなんとかなるって",
-                    "maleVariant": null,
-                    "stringId": 2172095474456838144
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ティーカップでも作ってみる？ 抹茶を飲む時に使えるようなの",
-                    "maleVariant": null,
-                    "stringId": 2230243414958129152
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ねえねえねえ、いいこと思いついた！ ライブで彼女にプレゼント渡そうよ！",
+              "maleVariant": "",
+              "stringId": 2156529816405569536
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "サイトには確か、高級なお茶が好きって書いてあったよね…",
+              "maleVariant": "",
+              "stringId": 2172091033477431296
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それ、めっちゃいい！ きっと私たちのこと覚えてくれるよ！ 最高じゃない？",
+              "maleVariant": "",
+              "stringId": 2172092221790863360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうね… そして何年後かに、街でバッタリ彼女と会うの。そしたら彼女が…",
+              "maleVariant": "",
+              "stringId": 2172094217944023040
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "「あら、ナイトシティで会った子たちね！ 素敵なティーカップをありがとう」なんて！",
+              "maleVariant": "",
+              "stringId": 2172094716948758528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "んー、でもさ、そもそもどうやってバックステージに入るの？",
+              "maleVariant": "",
+              "stringId": 2172095176745140224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "きっとなんとかなるって",
+              "maleVariant": "",
+              "stringId": 2172095474456838144
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ティーカップでも作ってみる？ 抹茶を飲む時に使えるようなの",
+              "maleVariant": "",
+              "stringId": 2230243414958129152
             }
-          }
+          ]
         }
       }
     },

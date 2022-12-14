@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_mid_f_49_chn_10_chd.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うちのパパはあんたのパパより強いんだから！",
-                    "maleVariant": null,
-                    "stringId": 1954536081885011972
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "こないだ子猫見たんだ！",
-                    "maleVariant": null,
-                    "stringId": 1954536081901789188
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ひっどーい！",
-                    "maleVariant": null,
-                    "stringId": 1954536081952120836
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何なのよ！",
-                    "maleVariant": null,
-                    "stringId": 1954536081968898052
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "とっても面白かったの！",
-                    "maleVariant": null,
-                    "stringId": 1954536082002452484
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "パパってすごいの… リールービーンズをくれたんだよ！ 『Kings of Acid』もやったんだ",
-                    "maleVariant": null,
-                    "stringId": 1954536082052784132
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "明日また行ってもいい…？ え…！ そんなに待てない…！ パパは一緒に遊ぶって約束してくれたのに…",
-                    "maleVariant": null,
-                    "stringId": 1954536082069561348
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "大嫌い！",
-                    "maleVariant": null,
-                    "stringId": 1954536082103115780
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "友達、きっと信じないだろうな！",
-                    "maleVariant": null,
-                    "stringId": 1954536082254110724
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ゲームみたい！",
-                    "maleVariant": null,
-                    "stringId": 1954536082270887940
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あの… 撃ったりしないよね？",
-                    "maleVariant": null,
-                    "stringId": 1954536082354774020
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "子供に手をだすの！？",
-                    "maleVariant": null,
-                    "stringId": 1954536082371551236
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "子供だからって気づかないと思うの？",
-                    "maleVariant": null,
-                    "stringId": 1954536082421882884
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "誘拐するつもり？",
-                    "maleVariant": null,
-                    "stringId": 1954536082455437316
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うちのパパはあんたのパパより強いんだから！",
+              "maleVariant": "",
+              "stringId": 1954536081885011972
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "こないだ子猫見たんだ！",
+              "maleVariant": "",
+              "stringId": 1954536081901789188
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ひっどーい！",
+              "maleVariant": "",
+              "stringId": 1954536081952120836
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何なのよ！",
+              "maleVariant": "",
+              "stringId": 1954536081968898052
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "とっても面白かったの！",
+              "maleVariant": "",
+              "stringId": 1954536082002452484
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "パパってすごいの… リールービーンズをくれたんだよ！ 『Kings of Acid』もやったんだ",
+              "maleVariant": "",
+              "stringId": 1954536082052784132
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "明日また行ってもいい…？ え…！ そんなに待てない…！ パパは一緒に遊ぶって約束してくれたのに…",
+              "maleVariant": "",
+              "stringId": 1954536082069561348
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "大嫌い！",
+              "maleVariant": "",
+              "stringId": 1954536082103115780
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "友達、きっと信じないだろうな！",
+              "maleVariant": "",
+              "stringId": 1954536082254110724
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ゲームみたい！",
+              "maleVariant": "",
+              "stringId": 1954536082270887940
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あの… 撃ったりしないよね？",
+              "maleVariant": "",
+              "stringId": 1954536082354774020
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "子供に手をだすの！？",
+              "maleVariant": "",
+              "stringId": 1954536082371551236
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "子供だからって気づかないと思うの？",
+              "maleVariant": "",
+              "stringId": 1954536082421882884
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "誘拐するつもり？",
+              "maleVariant": "",
+              "stringId": 1954536082455437316
             }
-          }
+          ]
         }
       }
     },

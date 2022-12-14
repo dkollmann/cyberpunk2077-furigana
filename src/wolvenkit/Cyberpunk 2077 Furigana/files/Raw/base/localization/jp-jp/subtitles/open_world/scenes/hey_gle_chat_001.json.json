@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_gle_chat_001.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "学校は面白い？",
-                    "maleVariant": null,
-                    "stringId": 1806990013702463488
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "昨日、昔の人はインプラント無しでどうやって暮らしてたか教わったんだ！",
-                    "maleVariant": null,
-                    "stringId": 1806990749618266112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "腕とか失くしちゃっても、新しいのは買えなかったんだって！",
-                    "maleVariant": null,
-                    "stringId": 1806990910125891584
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今だって、誰もが買えるわけじゃないのよ",
-                    "maleVariant": null,
-                    "stringId": 1806991169048666112
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うん！ 一生ずっと同じ身体だったら退屈しちゃうもん！",
-                    "maleVariant": null,
-                    "stringId": 1806991545479061504
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それに、何か重いものを持ち上げたかったら、大きな機械を使ってたって！",
-                    "maleVariant": null,
-                    "stringId": 1964902848906641408
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "学校は面白い？",
+              "maleVariant": "",
+              "stringId": 1806990013702463488
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "昨日、昔の人はインプラント無しでどうやって暮らしてたか教わったんだ！",
+              "maleVariant": "",
+              "stringId": 1806990749618266112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "腕とか失くしちゃっても、新しいのは買えなかったんだって！",
+              "maleVariant": "",
+              "stringId": 1806990910125891584
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今だって、誰もが買えるわけじゃないのよ",
+              "maleVariant": "",
+              "stringId": 1806991169048666112
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うん！ 一生ずっと同じ身体だったら退屈しちゃうもん！",
+              "maleVariant": "",
+              "stringId": 1806991545479061504
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それに、何か重いものを持ち上げたかったら、大きな機械を使ってたって！",
+              "maleVariant": "",
+              "stringId": 1964902848906641408
             }
-          }
+          ]
         }
       }
     },

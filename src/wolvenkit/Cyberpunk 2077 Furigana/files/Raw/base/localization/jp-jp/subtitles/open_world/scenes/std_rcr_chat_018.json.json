@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\std_rcr_chat_018.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "世も末だな、近頃のガキはどうなってんだ…",
-                    "maleVariant": null,
-                    "stringId": 2167613373089075200
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "まったくだな。ストリートキッドとは大違いだ。ストリートは一番の学校だからな",
-                    "maleVariant": null,
-                    "stringId": 2214561007262863360
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "クソガキども… ブロック一番のワルで通ってる俺を捕まえて、サンプルをよこせだと？ しかもタダでだぜ。どっからそんな発想が出てくるんだ？",
-                    "maleVariant": null,
-                    "stringId": 2229115825604104192
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "映画じゃねえか",
-                    "maleVariant": null,
-                    "stringId": 2229117406940598272
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "きっとクソメディアだ",
-                    "maleVariant": null,
-                    "stringId": 2229117820901625856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうだろうな",
-                    "maleVariant": null,
-                    "stringId": 2229118006222753792
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "人生に「タダ」はねえんだよ",
-                    "maleVariant": null,
-                    "stringId": 2229119472836644864
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "俺に言われてもな",
-                    "maleVariant": null,
-                    "stringId": 2229119634971660288
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "世も末だな、近頃のガキはどうなってんだ…",
+              "maleVariant": "",
+              "stringId": 2167613373089075200
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "まったくだな。ストリートキッドとは大違いだ。ストリートは一番の学校だからな",
+              "maleVariant": "",
+              "stringId": 2214561007262863360
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "クソガキども… ブロック一番のワルで通ってる俺を捕まえて、サンプルをよこせだと？ しかもタダでだぜ。どっからそんな発想が出てくるんだ？",
+              "maleVariant": "",
+              "stringId": 2229115825604104192
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "映画じゃねえか",
+              "maleVariant": "",
+              "stringId": 2229117406940598272
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "きっとクソメディアだ",
+              "maleVariant": "",
+              "stringId": 2229117820901625856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうだろうな",
+              "maleVariant": "",
+              "stringId": 2229118006222753792
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "人生に「タダ」はねえんだよ",
+              "maleVariant": "",
+              "stringId": 2229119472836644864
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "俺に言われてもな",
+              "maleVariant": "",
+              "stringId": 2229119634971660288
             }
-          }
+          ]
         }
       }
     },

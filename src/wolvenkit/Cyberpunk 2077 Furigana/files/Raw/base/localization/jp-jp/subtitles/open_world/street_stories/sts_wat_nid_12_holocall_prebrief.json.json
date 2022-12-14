@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_wat_nid_12_holocall_prebrief.json"
@@ -11,34 +11,26 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ある男が助けを必要としてる。名前はマックス・ジョーンズ。本人は認めないかもしれないけど、急がないと命が危ないわ",
-                    "maleVariant": null,
-                    "stringId": 2328836340497272836
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "マックスはジャーナリストで私の友人よ。彼を私のところまで送り届けてほしいの。抵抗するようなら、力尽くでも構わない。とにかく頑固な奴なのよ。添付の詳細を確認して",
-                    "maleVariant": null,
-                    "stringId": 2340208327672565760
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ある男が助けを必要としてる。名前はマックス・ジョーンズ。本人は認めないかもしれないけど、急がないと命が危ないわ",
+              "maleVariant": "",
+              "stringId": 2328836340497272836
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "マックスはジャーナリストで私の友人よ。彼を私のところまで送り届けてほしいの。抵抗するようなら、力尽くでも構わない。とにかく頑固な奴なのよ。添付の詳細を確認して",
+              "maleVariant": "",
+              "stringId": 2340208327672565760
             }
-          }
+          ]
         }
       }
     },

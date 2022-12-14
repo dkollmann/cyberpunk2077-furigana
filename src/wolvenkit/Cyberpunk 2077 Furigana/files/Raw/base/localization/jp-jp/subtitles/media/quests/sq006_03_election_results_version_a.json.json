@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\quests\\sq006_03_election_results_version_a.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "皆さん、こんにちは。ジリアン・ジョーダンが、N54ニュースによる選挙速報をお伝えします。ナイトシティ市長選挙の開票が先ほど終わり、結果が出た模様です",
-                    "maleVariant": null,
-                    "stringId": 1744646259704651776
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "移譲党のナイトシティ現職市長ウェルドン・ホルト氏は、47.8%の得票を集めました。ルシアス・ライン元市長殺害への関与が疑われる中、健闘を見せたと言えるのではないでしょうか",
-                    "maleVariant": null,
-                    "stringId": 1744677367045484544
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "結果的に接戦を制したのは、49.3%の得票率を獲得した連邦党候補のジェファーソン・ペラレス氏でした",
-                    "maleVariant": null,
-                    "stringId": 1744677625985036288
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ホルト市長は敗北演説を行い、勝利した候補に祝辞を述べました",
-                    "maleVariant": null,
-                    "stringId": 1744678119251963904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ペラレス氏が大胆な公約を実現することができるか、今後注目が集まります",
-                    "maleVariant": null,
-                    "stringId": 1744678493669093376
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "CMの後、連敗続きのコルセアーズに秘策はあるのでしょうか？",
-                    "maleVariant": null,
-                    "stringId": 1744678782824411136
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "皆さん、こんにちは。ジリアン・ジョーダンが、N54ニュースによる選挙速報をお伝えします。ナイトシティ市長選挙の開票が先ほど終わり、結果が出た模様です",
+              "maleVariant": "",
+              "stringId": 1744646259704651776
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "移譲党のナイトシティ現職市長ウェルドン・ホルト氏は、47.8%の得票を集めました。ルシアス・ライン元市長殺害への関与が疑われる中、健闘を見せたと言えるのではないでしょうか",
+              "maleVariant": "",
+              "stringId": 1744677367045484544
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "結果的に接戦を制したのは、49.3%の得票率を獲得した連邦党候補のジェファーソン・ペラレス氏でした",
+              "maleVariant": "",
+              "stringId": 1744677625985036288
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ホルト市長は敗北演説を行い、勝利した候補に祝辞を述べました",
+              "maleVariant": "",
+              "stringId": 1744678119251963904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ペラレス氏が大胆な公約を実現することができるか、今後注目が集まります",
+              "maleVariant": "",
+              "stringId": 1744678493669093376
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "CMの後、連敗続きのコルセアーズに秘策はあるのでしょうか？",
+              "maleVariant": "",
+              "stringId": 1744678782824411136
             }
-          }
+          ]
         }
       }
     },

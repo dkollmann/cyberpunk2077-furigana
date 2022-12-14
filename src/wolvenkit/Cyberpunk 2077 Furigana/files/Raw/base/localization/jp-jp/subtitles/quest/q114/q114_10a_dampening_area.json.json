@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q114\\q114_10a_dampening_area.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "メンテナンス用のシャフトがある",
-                    "maleVariant": null,
-                    "stringId": 1703162972194230272
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "考えてみれば――いま俺たちは、あのアラサカ社爆破事件で出来たクレーターの真下にいるんだな",
-                    "maleVariant": null,
-                    "stringId": 1703163314902421504
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なにこれ？",
-                    "maleVariant": null,
-                    "stringId": 1703164897983746048
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "耐震ダンパーだ",
-                    "maleVariant": null,
-                    "stringId": 1703165488491417600
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "上に繋がってるようだな",
-                    "maleVariant": null,
-                    "stringId": 1703166483095113728
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "てことは… ここは放射能で汚染されてる可能性があるんじゃない？",
-                    "maleVariant": null,
-                    "stringId": 1703166932858720256
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "地下のさらに下にいるのね",
-                    "maleVariant": "地下のさらに下にいるのか",
-                    "stringId": 1794269083009306624
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "建物を地震から守る装置さ",
-                    "maleVariant": null,
-                    "stringId": 1802216666871681024
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そういうことだ。上に上がる方法を探すぞ",
-                    "maleVariant": null,
-                    "stringId": 1802219193470078976
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "かもな",
-                    "maleVariant": null,
-                    "stringId": 1998342903946670080
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "最悪",
-                    "maleVariant": null,
-                    "stringId": 1998343528344317952
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "V！ 撃って！ もっと！",
-                    "maleVariant": null,
-                    "stringId": 2238875491870371840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ドローンを排除しないと！",
-                    "maleVariant": null,
-                    "stringId": 2238876102108049408
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もう撃ってるってば！",
-                    "maleVariant": "もう撃ってるだろ！",
-                    "stringId": 2238876718217752576
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "メンテナンス用のシャフトがある",
+              "maleVariant": "",
+              "stringId": 1703162972194230272
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "考えてみれば――いま俺たちは、あのアラサカ社爆破事件で出来たクレーターの真下にいるんだな",
+              "maleVariant": "",
+              "stringId": 1703163314902421504
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なにこれ？",
+              "maleVariant": "",
+              "stringId": 1703164897983746048
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "耐震ダンパーだ",
+              "maleVariant": "",
+              "stringId": 1703165488491417600
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "上に繋がってるようだな",
+              "maleVariant": "",
+              "stringId": 1703166483095113728
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "てことは… ここは放射能で汚染されてる可能性があるんじゃない？",
+              "maleVariant": "",
+              "stringId": 1703166932858720256
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "地下のさらに下にいるのね",
+              "maleVariant": "地下のさらに下にいるのか",
+              "stringId": 1794269083009306624
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "建物を地震から守る装置さ",
+              "maleVariant": "",
+              "stringId": 1802216666871681024
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そういうことだ。上に上がる方法を探すぞ",
+              "maleVariant": "",
+              "stringId": 1802219193470078976
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "かもな",
+              "maleVariant": "",
+              "stringId": 1998342903946670080
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "最悪",
+              "maleVariant": "",
+              "stringId": 1998343528344317952
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "V！ 撃って！ もっと！",
+              "maleVariant": "",
+              "stringId": 2238875491870371840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ドローンを排除しないと！",
+              "maleVariant": "",
+              "stringId": 2238876102108049408
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もう撃ってるってば！",
+              "maleVariant": "もう撃ってるだろ！",
+              "stringId": 2238876718217752576
             }
-          }
+          ]
         }
       }
     },

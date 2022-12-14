@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_frk_m_01_enus_30.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "私の名はレギオン。私たちはたくさんいるからだ",
-                    "maleVariant": null,
-                    "stringId": 1958867300701478916
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "助けてくれ…！ あああッ…！ 奴は私を消す気だ…！",
-                    "maleVariant": null,
-                    "stringId": 1958867300718256132
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この感じは、奴だ！",
-                    "maleVariant": null,
-                    "stringId": 1958867300768587780
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "燃え盛る炎のようだ！",
-                    "maleVariant": null,
-                    "stringId": 1958867300785364996
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何とかしてくれ！ お願いだ！",
-                    "maleVariant": null,
-                    "stringId": 1958867300818919428
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ネットで奴に捕まってしまった… プロセッサーに潜り込んでたんだ！ 奴は悪魔だ、気をつけろ…！ 体が、乗っ取られる…！ あと少ししか… ああ、来る！ 来る！！",
-                    "maleVariant": null,
-                    "stringId": 1958867300869251076
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "我は蛇より生まれし闇。我に戦を挑むがいい… さすれば貴様らのはらわたを焼き、生き血を飲み干してくれよう",
-                    "maleVariant": null,
-                    "stringId": 1958867300886028292
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "貴様らの体は我のものだ",
-                    "maleVariant": null,
-                    "stringId": 1958867300919582724
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "君の崇拝を受け入れよう！",
-                    "maleVariant": null,
-                    "stringId": 1958867301070577668
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "第十圏は人が作りしもの！",
-                    "maleVariant": null,
-                    "stringId": 1958867301087354884
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やってくれ！ 奴に食われちまう前に！",
-                    "maleVariant": null,
-                    "stringId": 1958867301171240964
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "君、魂が穢れてるぞ。私が食ってやる",
-                    "maleVariant": null,
-                    "stringId": 1958867301188018180
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "悪魔どもが… ネットから出るすべを見つけた！ 時間がない！ みんなに伝えてくれ！",
-                    "maleVariant": null,
-                    "stringId": 1958867301271904260
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "君はもう手遅れだ。印のない者は売ることも買うこともできない。印とはすなわち、獣の名だ",
-                    "maleVariant": null,
-                    "stringId": 1958867301288681476
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "私の名はレギオン。私たちはたくさんいるからだ",
+              "maleVariant": "",
+              "stringId": 1958867300701478916
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "助けてくれ…！ あああッ…！ 奴は私を消す気だ…！",
+              "maleVariant": "",
+              "stringId": 1958867300718256132
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この感じは、奴だ！",
+              "maleVariant": "",
+              "stringId": 1958867300768587780
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "燃え盛る炎のようだ！",
+              "maleVariant": "",
+              "stringId": 1958867300785364996
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何とかしてくれ！ お願いだ！",
+              "maleVariant": "",
+              "stringId": 1958867300818919428
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ネットで奴に捕まってしまった… プロセッサーに潜り込んでたんだ！ 奴は悪魔だ、気をつけろ…！ 体が、乗っ取られる…！ あと少ししか… ああ、来る！ 来る！！",
+              "maleVariant": "",
+              "stringId": 1958867300869251076
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "我は蛇より生まれし闇。我に戦を挑むがいい… さすれば貴様らのはらわたを焼き、生き血を飲み干してくれよう",
+              "maleVariant": "",
+              "stringId": 1958867300886028292
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "貴様らの体は我のものだ",
+              "maleVariant": "",
+              "stringId": 1958867300919582724
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "君の崇拝を受け入れよう！",
+              "maleVariant": "",
+              "stringId": 1958867301070577668
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "第十圏は人が作りしもの！",
+              "maleVariant": "",
+              "stringId": 1958867301087354884
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やってくれ！ 奴に食われちまう前に！",
+              "maleVariant": "",
+              "stringId": 1958867301171240964
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "君、魂が穢れてるぞ。私が食ってやる",
+              "maleVariant": "",
+              "stringId": 1958867301188018180
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "悪魔どもが… ネットから出るすべを見つけた！ 時間がない！ みんなに伝えてくれ！",
+              "maleVariant": "",
+              "stringId": 1958867301271904260
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "君はもう手遅れだ。印のない者は売ることも買うこともできない。印とはすなわち、獣の名だ",
+              "maleVariant": "",
+              "stringId": 1958867301288681476
             }
-          }
+          ]
         }
       }
     },

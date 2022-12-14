@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\media\\loading_screens\\loading_screen_12_after_q114_and_q116.json"
@@ -11,82 +11,62 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "皆さん、こんばんは。まずは、あー… えー…",
-                    "maleVariant": null,
-                    "stringId": 1672054587723259904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "市場は混乱に陥っており… この株価急落を受けた損失は5千億ユーロドルを超えると言われています",
-                    "maleVariant": null,
-                    "stringId": 1680732233364983808
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "先日発生したアラサカ・タワーに対する襲撃を受け、同社は17パーセントという株価の大下落に見舞われる形となりました。アナリストの予測では、この下落はまだ続くとのこと",
-                    "maleVariant": null,
-                    "stringId": 1680734240188452864
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "NCPDの公式発表によりますと、襲撃を行ったのはノーマッドの一団で、リニア用のトンネルからタワーに侵入したとのことです",
-                    "maleVariant": null,
-                    "stringId": 1680734635057008640
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "この悲惨な事件を受けて、私から言えることは1つしかありません。売りましょう",
-                    "maleVariant": null,
-                    "stringId": 1680735393403949056
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今夜はまず… いつもどおり、株式市場から",
-                    "maleVariant": null,
-                    "stringId": 1741544287841357824
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "アラサカ社のCEO、ヨリノブ・アラサカ氏は、ナイトシティのオフィスから東京に避難しました",
-                    "maleVariant": null,
-                    "stringId": 1741554562191659008
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今すぐにです。売れるうちにね",
-                    "maleVariant": null,
-                    "stringId": 1741555189407879168
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "皆さん、こんばんは。まずは、あー… えー…",
+              "maleVariant": "",
+              "stringId": 1672054587723259904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "市場は混乱に陥っており… この株価急落を受けた損失は5千億ユーロドルを超えると言われています",
+              "maleVariant": "",
+              "stringId": 1680732233364983808
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "先日発生したアラサカ・タワーに対する襲撃を受け、同社は17パーセントという株価の大下落に見舞われる形となりました。アナリストの予測では、この下落はまだ続くとのこと",
+              "maleVariant": "",
+              "stringId": 1680734240188452864
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "NCPDの公式発表によりますと、襲撃を行ったのはノーマッドの一団で、リニア用のトンネルからタワーに侵入したとのことです",
+              "maleVariant": "",
+              "stringId": 1680734635057008640
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "この悲惨な事件を受けて、私から言えることは1つしかありません。売りましょう",
+              "maleVariant": "",
+              "stringId": 1680735393403949056
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今夜はまず… いつもどおり、株式市場から",
+              "maleVariant": "",
+              "stringId": 1741544287841357824
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "アラサカ社のCEO、ヨリノブ・アラサカ氏は、ナイトシティのオフィスから東京に避難しました",
+              "maleVariant": "",
+              "stringId": 1741554562191659008
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今すぐにです。売れるうちにね",
+              "maleVariant": "",
+              "stringId": 1741555189407879168
             }
-          }
+          ]
         }
       }
     },

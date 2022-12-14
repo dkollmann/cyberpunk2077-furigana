@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_wbr_jpn_05_civilian_chats.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "悲鳴みたいな声が聞こえなかった？",
-                    "maleVariant": null,
-                    "stringId": 1715835099826696192
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "誰かが、フライヤーに手でも突っ込んだんじゃない？",
-                    "maleVariant": null,
-                    "stringId": 1715835099826696200
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そんな感じじゃなかったけど… 地下から聞こえてきたみたい…",
-                    "maleVariant": null,
-                    "stringId": 1924381494049787904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ここには点心を食べに来たんでしょう？ 怪談話は後にしましょ",
-                    "maleVariant": null,
-                    "stringId": 1924383912166707200
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "悲鳴みたいな声が聞こえなかった？",
+              "maleVariant": "",
+              "stringId": 1715835099826696192
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "誰かが、フライヤーに手でも突っ込んだんじゃない？",
+              "maleVariant": "",
+              "stringId": 1715835099826696200
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そんな感じじゃなかったけど… 地下から聞こえてきたみたい…",
+              "maleVariant": "",
+              "stringId": 1924381494049787904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ここには点心を食べに来たんでしょう？ 怪談話は後にしましょ",
+              "maleVariant": "",
+              "stringId": 1924383912166707200
             }
-          }
+          ]
         }
       }
     },

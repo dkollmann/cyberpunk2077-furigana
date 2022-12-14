@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\wat_lch_chat_042.json"
@@ -11,58 +11,44 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ガラクタじゃねえ、こいつは一級品だ！ レンジも抜群で干渉もない…",
-                    "maleVariant": null,
-                    "stringId": 2157391700075769856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "レンジも“抜群”だ？ 冗談のつもりか？",
-                    "maleVariant": null,
-                    "stringId": 2182595521280557056
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もう3回も通信が切れてる！ 3回だぞ！？",
-                    "maleVariant": null,
-                    "stringId": 2182599191078453248
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "使い物にならないんだよ",
-                    "maleVariant": null,
-                    "stringId": 2182601482292510720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "とにかく金を返せ",
-                    "maleVariant": null,
-                    "stringId": 2182601750593748992
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ガラクタじゃねえ、こいつは一級品だ！ レンジも抜群で干渉もない…",
+              "maleVariant": "",
+              "stringId": 2157391700075769856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "レンジも“抜群”だ？ 冗談のつもりか？",
+              "maleVariant": "",
+              "stringId": 2182595521280557056
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もう3回も通信が切れてる！ 3回だぞ！？",
+              "maleVariant": "",
+              "stringId": 2182599191078453248
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "使い物にならないんだよ",
+              "maleVariant": "",
+              "stringId": 2182601482292510720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "とにかく金を返せ",
+              "maleVariant": "",
+              "stringId": 2182601750593748992
             }
-          }
+          ]
         }
       }
     },

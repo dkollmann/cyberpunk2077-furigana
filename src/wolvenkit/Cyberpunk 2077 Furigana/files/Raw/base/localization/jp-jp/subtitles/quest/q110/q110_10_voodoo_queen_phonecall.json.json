@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q110\\q110_10_voodoo_queen_phonecall.json"
@@ -11,122 +11,92 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何だ？",
-                    "maleVariant": null,
-                    "stringId": 1709812103440781312
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "V？",
-                    "maleVariant": null,
-                    "stringId": 1709812493695602688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やはりかけてきたか…",
-                    "maleVariant": null,
-                    "stringId": 1709812581323001856
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "チップを見せてもいい",
-                    "maleVariant": null,
-                    "stringId": 1709820319310565380
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "チップを… 見せてもいい。力を貸してくれるなら",
-                    "maleVariant": "チップを… 見せてもいい。力を貸してくれるならな",
-                    "stringId": 1709897449205682176
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やっぱり何でもない",
-                    "maleVariant": null,
-                    "stringId": 1709898803278008320
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やっぱ、何でもない",
-                    "maleVariant": null,
-                    "stringId": 1709899043158642688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "考えを変えてくれたようだな",
-                    "maleVariant": null,
-                    "stringId": 1709900708649652224
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "他に選択肢がなかっただけよ",
-                    "maleVariant": "他に選択肢がなかっただけだ",
-                    "stringId": 1709902214136352768
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どこに行けばいい？",
-                    "maleVariant": null,
-                    "stringId": 1709904552561496064
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ホテルは捨てたんでしょ。ネットウォッチにやられたのを見た",
-                    "maleVariant": "ホテルは捨てたんだろ。ネットウォッチにやられたのを見た",
-                    "stringId": 1709911830970781696
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "パシフィカの教会、祭壇のそばで待っていろ",
-                    "maleVariant": null,
-                    "stringId": 1709921935686651904
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ええ、わかった",
-                    "maleVariant": "ああ、わかった",
-                    "stringId": 1712963947725131776
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何だ？",
+              "maleVariant": "",
+              "stringId": 1709812103440781312
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "V？",
+              "maleVariant": "",
+              "stringId": 1709812493695602688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やはりかけてきたか…",
+              "maleVariant": "",
+              "stringId": 1709812581323001856
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "チップを見せてもいい",
+              "maleVariant": "",
+              "stringId": 1709820319310565380
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "チップを… 見せてもいい。力を貸してくれるなら",
+              "maleVariant": "チップを… 見せてもいい。力を貸してくれるならな",
+              "stringId": 1709897449205682176
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やっぱり何でもない",
+              "maleVariant": "",
+              "stringId": 1709898803278008320
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やっぱ、何でもない",
+              "maleVariant": "",
+              "stringId": 1709899043158642688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "考えを変えてくれたようだな",
+              "maleVariant": "",
+              "stringId": 1709900708649652224
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "他に選択肢がなかっただけよ",
+              "maleVariant": "他に選択肢がなかっただけだ",
+              "stringId": 1709902214136352768
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どこに行けばいい？",
+              "maleVariant": "",
+              "stringId": 1709904552561496064
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ホテルは捨てたんでしょ。ネットウォッチにやられたのを見た",
+              "maleVariant": "ホテルは捨てたんだろ。ネットウォッチにやられたのを見た",
+              "stringId": 1709911830970781696
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "パシフィカの教会、祭壇のそばで待っていろ",
+              "maleVariant": "",
+              "stringId": 1709921935686651904
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ええ、わかった",
+              "maleVariant": "ああ、わかった",
+              "stringId": 1712963947725131776
             }
-          }
+          ]
         }
       }
     },

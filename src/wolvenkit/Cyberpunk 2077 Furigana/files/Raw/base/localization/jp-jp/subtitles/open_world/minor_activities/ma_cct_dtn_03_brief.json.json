@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\minor_activities\\ma_cct_dtn_03_brief.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "V、工事現場で朝、工具が血まみれになってるのが見つかって、作業員が仕事を拒否してるらしいの",
-                    "maleVariant": null,
-                    "stringId": 2355036260620693504
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "現場は駐車場。よくギャングがうろついてたそうよ",
-                    "maleVariant": null,
-                    "stringId": 2355048815044980736
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "抗争の可能性もあるけど、私はサイバーサイコじゃないかと思ってる",
-                    "maleVariant": null,
-                    "stringId": 2360707291594579968
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もしそうなら、何とか無力化して。あとは私が引き受ける",
-                    "maleVariant": null,
-                    "stringId": 2360708074587250688
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "V、工事現場で朝、工具が血まみれになってるのが見つかって、作業員が仕事を拒否してるらしいの",
+              "maleVariant": "",
+              "stringId": 2355036260620693504
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "現場は駐車場。よくギャングがうろついてたそうよ",
+              "maleVariant": "",
+              "stringId": 2355048815044980736
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "抗争の可能性もあるけど、私はサイバーサイコじゃないかと思ってる",
+              "maleVariant": "",
+              "stringId": 2360707291594579968
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もしそうなら、何とか無力化して。あとは私が引き受ける",
+              "maleVariant": "",
+              "stringId": 2360708074587250688
             }
-          }
+          ]
         }
       }
     },

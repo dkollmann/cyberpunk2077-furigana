@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_m_73_mex_20.json"
@@ -11,130 +11,98 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "オラ。ほう…",
-                    "maleVariant": null,
-                    "stringId": 1922905386908131332
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "俺の家に来るか？",
-                    "maleVariant": null,
-                    "stringId": 1922905386924908548
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "急ぎすぎだ！",
-                    "maleVariant": null,
-                    "stringId": 1922905386992017412
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "なに焦ってる？",
-                    "maleVariant": null,
-                    "stringId": 1922905387025571840
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "元気か？",
-                    "maleVariant": null,
-                    "stringId": 1922905387059126276
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今日？ ボディキュアか… 確かに頃合いだな！ ああ… 髪型も変える",
-                    "maleVariant": null,
-                    "stringId": 1922905387126235140
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ん？ いつだってそうだ！ お前もやってみろって… それが人生だ… はは！ だな",
-                    "maleVariant": null,
-                    "stringId": 1922905387143012356
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "じゃ",
-                    "maleVariant": null,
-                    "stringId": 1922905387193344004
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ビルヘン・サンティシマ！",
-                    "maleVariant": null,
-                    "stringId": 1922905387377893380
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "人殺し！",
-                    "maleVariant": null,
-                    "stringId": 1922905387394670596
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "頼む、やめてくれ！",
-                    "maleVariant": null,
-                    "stringId": 1922905387495333892
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何もしてないだろ！？ ううっ…",
-                    "maleVariant": null,
-                    "stringId": 1922905387528888324
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "今は困るんだ。また今度な",
-                    "maleVariant": null,
-                    "stringId": 1922905387629551616
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そんなふうに後ろを歩いてると怖いぞ",
-                    "maleVariant": null,
-                    "stringId": 1922905387646328836
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "オラ。ほう…",
+              "maleVariant": "",
+              "stringId": 1922905386908131332
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "俺の家に来るか？",
+              "maleVariant": "",
+              "stringId": 1922905386924908548
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "急ぎすぎだ！",
+              "maleVariant": "",
+              "stringId": 1922905386992017412
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "なに焦ってる？",
+              "maleVariant": "",
+              "stringId": 1922905387025571840
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "元気か？",
+              "maleVariant": "",
+              "stringId": 1922905387059126276
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今日？ ボディキュアか… 確かに頃合いだな！ ああ… 髪型も変える",
+              "maleVariant": "",
+              "stringId": 1922905387126235140
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ん？ いつだってそうだ！ お前もやってみろって… それが人生だ… はは！ だな",
+              "maleVariant": "",
+              "stringId": 1922905387143012356
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "じゃ",
+              "maleVariant": "",
+              "stringId": 1922905387193344004
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ビルヘン・サンティシマ！",
+              "maleVariant": "",
+              "stringId": 1922905387377893380
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "人殺し！",
+              "maleVariant": "",
+              "stringId": 1922905387394670596
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "頼む、やめてくれ！",
+              "maleVariant": "",
+              "stringId": 1922905387495333892
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何もしてないだろ！？ ううっ…",
+              "maleVariant": "",
+              "stringId": 1922905387528888324
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "今は困るんだ。また今度な",
+              "maleVariant": "",
+              "stringId": 1922905387629551616
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そんなふうに後ろを歩いてると怖いぞ",
+              "maleVariant": "",
+              "stringId": 1922905387646328836
             }
-          }
+          ]
         }
       }
     },

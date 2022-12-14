@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\quest\\q115\\q115_08b_garden_guards.json"
@@ -11,154 +11,116 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "コキデン班！ 報告がないぞ！ 繰り返す！",
-                    "maleVariant": null,
-                    "stringId": 1660485107146825728
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "フジツボ班からの連絡が途絶えた。指示を乞う",
-                    "maleVariant": null,
-                    "stringId": 1660501165559783424
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "はい、ブロンド様",
-                    "maleVariant": null,
-                    "stringId": 1660502283476017152
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "AV周辺にいたら報告せよ！ 音声がよく聞こえない！",
-                    "maleVariant": null,
-                    "stringId": 1660504904077156352
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "キリツボ班！ 報告しろ！",
-                    "maleVariant": null,
-                    "stringId": 1668991833222389760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "フジツボ班、報告はどうした！",
-                    "maleVariant": null,
-                    "stringId": 1704003090614558720
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "作業急げ！",
-                    "maleVariant": null,
-                    "stringId": 1704003533197516800
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ミリテク製金属樹脂装甲に手こずっているようで！",
-                    "maleVariant": null,
-                    "stringId": 1704239985374240768
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "出力を上げろ！ 作業を止めるな！",
-                    "maleVariant": null,
-                    "stringId": 1704241425463353344
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "手を止めるな！",
-                    "maleVariant": null,
-                    "stringId": 1705417761708023808
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "もちろんです、ブロンド様",
-                    "maleVariant": null,
-                    "stringId": 1754570467727773696
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "『Chippin' In』だ… どうなってる？",
-                    "maleVariant": null,
-                    "stringId": 1912877387810349056
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "陽動のつもりだろう",
-                    "maleVariant": null,
-                    "stringId": 1912878246619258884
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "応答ありません",
-                    "maleVariant": null,
-                    "stringId": 2056502047116124160
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "一体いつまで時間がかかってる！？",
-                    "maleVariant": null,
-                    "stringId": 2056508810380992512
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "無能な奴らめ",
-                    "maleVariant": null,
-                    "stringId": 2056512052796088320
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "連中はAVに戻るはずだ。警戒しろ",
-                    "maleVariant": null,
-                    "stringId": 2056543448856027136
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "コキデン班！ 報告がないぞ！ 繰り返す！",
+              "maleVariant": "",
+              "stringId": 1660485107146825728
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "フジツボ班からの連絡が途絶えた。指示を乞う",
+              "maleVariant": "",
+              "stringId": 1660501165559783424
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "はい、ブロンド様",
+              "maleVariant": "",
+              "stringId": 1660502283476017152
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "AV周辺にいたら報告せよ！ 音声がよく聞こえない！",
+              "maleVariant": "",
+              "stringId": 1660504904077156352
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "キリツボ班！ 報告しろ！",
+              "maleVariant": "",
+              "stringId": 1668991833222389760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "フジツボ班、報告はどうした！",
+              "maleVariant": "",
+              "stringId": 1704003090614558720
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "作業急げ！",
+              "maleVariant": "",
+              "stringId": 1704003533197516800
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ミリテク製金属樹脂装甲に手こずっているようで！",
+              "maleVariant": "",
+              "stringId": 1704239985374240768
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "出力を上げろ！ 作業を止めるな！",
+              "maleVariant": "",
+              "stringId": 1704241425463353344
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "手を止めるな！",
+              "maleVariant": "",
+              "stringId": 1705417761708023808
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "もちろんです、ブロンド様",
+              "maleVariant": "",
+              "stringId": 1754570467727773696
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "『Chippin' In』だ… どうなってる？",
+              "maleVariant": "",
+              "stringId": 1912877387810349056
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "陽動のつもりだろう",
+              "maleVariant": "",
+              "stringId": 1912878246619258884
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "応答ありません",
+              "maleVariant": "",
+              "stringId": 2056502047116124160
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "一体いつまで時間がかかってる！？",
+              "maleVariant": "",
+              "stringId": 2056508810380992512
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "無能な奴らめ",
+              "maleVariant": "",
+              "stringId": 2056512052796088320
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "連中はAVに戻るはずだ。警戒しろ",
+              "maleVariant": "",
+              "stringId": 2056543448856027136
             }
-          }
+          ]
         }
       }
     },

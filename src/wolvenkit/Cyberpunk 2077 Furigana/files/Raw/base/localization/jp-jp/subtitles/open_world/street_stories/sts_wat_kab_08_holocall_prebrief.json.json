@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\street_stories\\sts_wat_kab_08_holocall_prebrief.json"
@@ -11,50 +11,38 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "V、仕事よ。ナイトシティ最後の清く正しい警官…",
-                    "maleVariant": null,
-                    "stringId": 2328584425749061632
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "言いたいことはわかってる。でもVがやらなきゃ、他の誰かがやるだけよ",
-                    "maleVariant": null,
-                    "stringId": 2331865293050449920
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "名前はアナ・ハミル。彼女は手を出してはいけない事件の捜査に乗り出し、その結果、多くの敵を作った。あなたの仕事は彼女に捜査を“諦めて”もらうこと",
-                    "maleVariant": null,
-                    "stringId": 2344884702861955072
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "うまくやれば、誰も傷つかずに済むかも… とにかく、まずは詳細を見て",
-                    "maleVariant": null,
-                    "stringId": 2344884876975902720
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "V、仕事よ。ナイトシティ最後の清く正しい警官…",
+              "maleVariant": "",
+              "stringId": 2328584425749061632
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "言いたいことはわかってる。でもVがやらなきゃ、他の誰かがやるだけよ",
+              "maleVariant": "",
+              "stringId": 2331865293050449920
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "名前はアナ・ハミル。彼女は手を出してはいけない事件の捜査に乗り出し、その結果、多くの敵を作った。あなたの仕事は彼女に捜査を“諦めて”もらうこと",
+              "maleVariant": "",
+              "stringId": 2344884702861955072
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "うまくやれば、誰も傷つかずに済むかも… とにかく、まずは詳細を見て",
+              "maleVariant": "",
+              "stringId": 2344884876975902720
             }
-          }
+          ]
         }
       }
     },

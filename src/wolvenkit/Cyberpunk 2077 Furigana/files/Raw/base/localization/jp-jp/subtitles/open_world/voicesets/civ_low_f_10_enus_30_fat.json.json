@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\voicesets\\civ_low_f_10_enus_30_fat.json"
@@ -11,138 +11,104 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "やだ、あの子かわいい",
-                    "maleVariant": "やだ、あの人かっこいい",
-                    "stringId": 1949169821449576452
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そんなに口を開けてると、虫が飛び込むよ",
-                    "maleVariant": null,
-                    "stringId": 1949169821466353668
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どういう神経してるの！",
-                    "maleVariant": null,
-                    "stringId": 1949169821516685316
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "よそ見しないでよ！",
-                    "maleVariant": null,
-                    "stringId": 1949169821533462532
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "無理よ！",
-                    "maleVariant": null,
-                    "stringId": 1949169821567016964
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そんなの無理…！ あれがなきゃ生きてけない…？ どうすればやめられるの？",
-                    "maleVariant": null,
-                    "stringId": 1949169821617348612
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そんなお金ない…！ 安ければ考えるけど… とてもじゃないけどそんな額…！ 無理よ？",
-                    "maleVariant": null,
-                    "stringId": 1949169821634125828
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そうね、残念。本当に残念",
-                    "maleVariant": null,
-                    "stringId": 1949169821667680260
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "あああ… あああっ！ いやああッ！",
-                    "maleVariant": null,
-                    "stringId": 1949169821801897988
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "イヤ、まだ死にたくないの！",
-                    "maleVariant": null,
-                    "stringId": 1949169821835452416
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "や… やめて… そんな… 私…",
-                    "maleVariant": null,
-                    "stringId": 1949169821919338500
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "何がほしいの！？ 何でもするから！",
-                    "maleVariant": null,
-                    "stringId": 1949169821936115716
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "どうしてつきまとうの？",
-                    "maleVariant": null,
-                    "stringId": 1949169822036779012
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ちょっとどっか行ってよ！",
-                    "maleVariant": null,
-                    "stringId": 1949169822070333444
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "え…？ 手術？",
-                    "maleVariant": null,
-                    "stringId": 1949173053664124928
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "やだ、あの子かわいい",
+              "maleVariant": "やだ、あの人かっこいい",
+              "stringId": 1949169821449576452
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そんなに口を開けてると、虫が飛び込むよ",
+              "maleVariant": "",
+              "stringId": 1949169821466353668
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どういう神経してるの！",
+              "maleVariant": "",
+              "stringId": 1949169821516685316
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "よそ見しないでよ！",
+              "maleVariant": "",
+              "stringId": 1949169821533462532
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "無理よ！",
+              "maleVariant": "",
+              "stringId": 1949169821567016964
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そんなの無理…！ あれがなきゃ生きてけない…？ どうすればやめられるの？",
+              "maleVariant": "",
+              "stringId": 1949169821617348612
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そんなお金ない…！ 安ければ考えるけど… とてもじゃないけどそんな額…！ 無理よ？",
+              "maleVariant": "",
+              "stringId": 1949169821634125828
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そうね、残念。本当に残念",
+              "maleVariant": "",
+              "stringId": 1949169821667680260
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "あああ… あああっ！ いやああッ！",
+              "maleVariant": "",
+              "stringId": 1949169821801897988
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "イヤ、まだ死にたくないの！",
+              "maleVariant": "",
+              "stringId": 1949169821835452416
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "や… やめて… そんな… 私…",
+              "maleVariant": "",
+              "stringId": 1949169821919338500
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "何がほしいの！？ 何でもするから！",
+              "maleVariant": "",
+              "stringId": 1949169821936115716
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "どうしてつきまとうの？",
+              "maleVariant": "",
+              "stringId": 1949169822036779012
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ちょっとどっか行ってよ！",
+              "maleVariant": "",
+              "stringId": 1949169822070333444
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "え…？ 手術？",
+              "maleVariant": "",
+              "stringId": 1949173053664124928
             }
-          }
+          ]
         }
       }
     },

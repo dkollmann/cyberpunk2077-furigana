@@ -1,8 +1,8 @@
 {
   "Header": {
-    "WolvenKitVersion": "1.6.5",
-    "WKitJsonVersion": "0.0.1",
-    "GameVersion": 1520,
+    "WolvenKitVersion": "1.7.3",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
     "ExportedDateTime": "2077-01-01T00:00:00.00Z",
     "DataType": "CR2W",
     "ArchiveFileName": "C:\\Users\\Dan\\cyberpunk2077-furigana\\src\\wolvenkit\\Cyberpunk 2077 Furigana\\files\\Raw\\base\\localization\\jp-jp\\subtitles\\open_world\\scenes\\hey_rey_chat_003.json"
@@ -11,66 +11,50 @@
     "Version": 195,
     "BuildVersion": 0,
     "RootChunk": {
-      "Type": "JsonResource",
-      "Properties": {
-        "cookingPlatform": "PLATFORM_PC",
-        "root": {
-          "HandleId": "0",
-          "Data": {
-            "Type": "localizationPersistenceSubtitleEntries",
-            "Properties": {
-              "entries": [
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "う… 腕が… 腕がない！",
-                    "maleVariant": null,
-                    "stringId": 1833093299459186688
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "スカベンジャー… 盗まれたんだ、寝てる間に。奴ら相手じゃ… 取り… 戻せない…",
-                    "maleVariant": null,
-                    "stringId": 1833095428773109760
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "それどころか、殺されちゃうかも… どうしよう…！",
-                    "maleVariant": null,
-                    "stringId": 1833095623690805248
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "チューマ、腕はクスリ代を稼ぐために売ったんだろ？ 2ヶ月前くらいにそう言ってたぞ",
-                    "maleVariant": null,
-                    "stringId": 1833095790926094336
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "ああ… そ、そうか",
-                    "maleVariant": null,
-                    "stringId": 1833095945897238528
-                  }
-                },
-                {
-                  "Type": "localizationPersistenceSubtitleEntry",
-                  "Properties": {
-                    "femaleVariant": "そん時に、新しいのを母親に買ってもらったって",
-                    "maleVariant": null,
-                    "stringId": 1964789105170300928
-                  }
-                }
-              ]
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceSubtitleEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "う… 腕が… 腕がない！",
+              "maleVariant": "",
+              "stringId": 1833093299459186688
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "スカベンジャー… 盗まれたんだ、寝てる間に。奴ら相手じゃ… 取り… 戻せない…",
+              "maleVariant": "",
+              "stringId": 1833095428773109760
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "それどころか、殺されちゃうかも… どうしよう…！",
+              "maleVariant": "",
+              "stringId": 1833095623690805248
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "チューマ、腕はクスリ代を稼ぐために売ったんだろ？ 2ヶ月前くらいにそう言ってたぞ",
+              "maleVariant": "",
+              "stringId": 1833095790926094336
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "ああ… そ、そうか",
+              "maleVariant": "",
+              "stringId": 1833095945897238528
+            },
+            {
+              "$type": "localizationPersistenceSubtitleEntry",
+              "femaleVariant": "そん時に、新しいのを母親に買ってもらったって",
+              "maleVariant": "",
+              "stringId": 1964789105170300928
             }
-          }
+          ]
         }
       }
     },
