@@ -1,7 +1,7 @@
 # cyberpunk2077-furigana
 Adds support for Japanese furigana for Cyberpunk 2077.
 
-Built for Cyberpunk 2077 version 1.6.
+Built for Cyberpunk 2077 version 1.6_DLSS3.
 
 Nexus page: https://www.nexusmods.com/cyberpunk2077/mods/3775
 
@@ -26,20 +26,20 @@ This mod requires the following mods!!!
 
 
 ### Cyber Engine Tweaks
-This mod requires version 1.21.1 or higher.<br/>
+This mod requires version 1.22.0 or higher.<br/>
 https://www.nexusmods.com/cyberpunk2077/mods/107
 
 
 ### redscript
-This mod requires version 0.5.8 or higher.<br/>
+This mod requires version 0.5.10 or higher.<br/>
 https://www.nexusmods.com/cyberpunk2077/mods/1511
 
 
 ### red4ext
-This mod requires version 1.9.0 or higher.<br/>
+This mod requires version 1.10.1 or higher.<br/>
 https://www.nexusmods.com/cyberpunk2077/mods/2380
 
 
 ### Native Settings UI
-This mod requires version 1.9 or higher.<br/>
+This mod requires version 1.92 or higher.<br/>
 https://www.nexusmods.com/cyberpunk2077/mods/3518
