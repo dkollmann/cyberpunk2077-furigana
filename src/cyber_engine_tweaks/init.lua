@@ -117,8 +117,8 @@ registerForEvent("onInit", function()
 		colorKanjiHue2 = 77,
 		colorKanjiSat = 50,
 
-		colorLatinHue = colorKatakanaHue,
-		colorLatinSat = colorKatakanaSat,
+		colorLatinHue = 210,
+		colorLatinSat = 100,
 
 		showLineIDs = false
 	}
