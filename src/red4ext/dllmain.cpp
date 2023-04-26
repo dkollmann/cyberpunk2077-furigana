@@ -1,5 +1,8 @@
-﻿#define WIN32_LEAN_AND_MEAN
+﻿// ReSharper disable CppZeroConstantCanBeReplacedWithNullptr
+
+#define WIN32_LEAN_AND_MEAN
 #define NOMINMAX
+
 #include <Windows.h>
 #include <shellapi.h>
 #include <RED4ext/RED4ext.hpp>
@@ -23,7 +26,7 @@ public:
     {
         assert(start >= 0 && end >= start);
 
-        size_t len = (size_t)(end - start + 1);
+        size_t len = (size_t) (end - start + 1);  // NOLINT(bugprone-misplaced-widening-cast)
         size_t pos = this->size();
 
         this->resize(pos + len);
@@ -37,11 +40,11 @@ public:
     }
 };
 
-static const int JapaneseSpace = 0x3000; /*　*/
-static const int JapaneseDot   = 0x3002; /*。*/
-static const int JapaneseComma = 0x3001; /*、*/
-static const int JapaneseExclamationMark = 0xFF01; /*！*/
-static const int JapaneseQuestionMark    = 0xFF1F; /*？*/
+static constexpr int JapaneseSpace = 0x3000; /*　*/
+static constexpr int JapaneseDot   = 0x3002; /*。*/
+static constexpr int JapaneseComma = 0x3001; /*、*/
+static constexpr int JapaneseExclamationMark = 0xFF01; /*！*/
+static constexpr int JapaneseQuestionMark    = 0xFF1F; /*？*/
 
 template<typename T> bool ToWChar(const char *utf8, T &wchar)
 {
@@ -109,7 +112,7 @@ void StrAddSpaces(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, 
         return;
 
     auto textstr = text.c_str();
-    const int len = text.Length();
+    const int len = (int) text.Length();
 
     // check if we will add spaces
     bool needspaces = false;
@@ -166,7 +169,7 @@ void StrAddSpaces(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, 
         if(ch == JapaneseComma || ch == JapaneseDot || ch == JapaneseExclamationMark || ch == JapaneseQuestionMark)
         {
             // insert a space
-            str.insert(str.begin() + index, { (char)0xE3, (char)0x80, (char)0x80 });
+            str.insert(str.begin() + (int) index, { (char)0xE3, (char)0x80, (char)0x80 });
 
             index += 3;
         }
@@ -389,7 +392,7 @@ void ParseFurigana(const char8_t *textstr, int textsize, int katakanamode, StrSp
         int start = fragments[f + (int)StrSplitFuriganaIndex::Start];
         int sz = fragments[f + (int)StrSplitFuriganaIndex::Size];
         int count = fragments[f + (int)StrSplitFuriganaIndex::CharCount];
-        auto tpe = (StrSplitFuriganaListType) fragments[f + (int)StrSplitFuriganaIndex::Type];
+        //auto tpe = (StrSplitFuriganaListType) fragments[f + (int)StrSplitFuriganaIndex::Type];
 
         assert(index >= start && index <= start + sz);
 
@@ -489,12 +492,12 @@ void StrFindLastWord(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFram
         return;
 
     auto textstr = text.c_str();
-    const int len = text.Length();
+    const int len = (int) text.Length();
 
     if(desiredlength < 1 || desiredlength > len)
         desiredlength = len;
 
-    const size_t size = (size_t) desiredlength;
+    //const size_t size = (size_t) desiredlength;
 
     // find the last word
     int lastword = -1;
@@ -542,7 +545,7 @@ void UnicodeStringLen(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
         return;
 
     auto textstr = text.c_str();
-    const int len = text.Length();
+    const int len = (int) text.Length();
 
     int count = 0;
     for(int index = 0; index < len; )
@@ -564,7 +567,7 @@ void UnicodeStringLen(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFra
 
 void CRUIDToUint64(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, uint64_t* aOut, int64_t a4)
 {
-    RED4ext::CRUID id;
+    RED4ext::CRUID id {};
     RED4ext::GetParameter(aFrame, &id);
 
     aFrame->code++; // skip ParamEnd
@@ -583,7 +586,7 @@ void OpenBrowser(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, u
 
     aFrame->code++; // skip ParamEnd
 
-    ShellExecuteA(NULL, "open", url.c_str(), NULL, NULL, SW_SHOWNORMAL);
+	ShellExecuteA(NULL, "open", url.c_str(), NULL, NULL, SW_SHOWNORMAL);
 }
 
 RED4EXT_C_EXPORT void RED4EXT_CALL RegisterTypes()
@@ -598,7 +601,7 @@ RED4EXT_C_EXPORT void RED4EXT_CALL PostRegisterTypes()
     //MessageBoxA(NULL, "Registered Furigana DLL", "Furigana DLL", MB_OK);
 
     auto rtti = RED4ext::CRTTISystem::Get();
-    const RED4ext::CBaseFunction::Flags flags = { .isNative = true, .isStatic = true };
+    constexpr RED4ext::CBaseFunction::Flags flags = { .isNative = true, .isStatic = true };
 
     {
         auto func = RED4ext::CGlobalFunction::Create("StrAddSpaces", "StrAddSpaces", &StrAddSpaces);
@@ -678,7 +681,7 @@ RED4EXT_C_EXPORT void RED4EXT_CALL Query(RED4ext::PluginInfo* aInfo)
 {
     aInfo->name = L"Cyberpunk 2077 Furigana";
     aInfo->author = L"Daniel Kollmann";
-    aInfo->version = RED4EXT_SEMVER(1, 2, 4);
+    aInfo->version = RED4EXT_SEMVER(1, 2, 5);
     aInfo->runtime = RED4EXT_RUNTIME_LATEST;
     aInfo->sdk = RED4EXT_SDK_LATEST;
 }

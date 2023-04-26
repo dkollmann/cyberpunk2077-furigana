@@ -1,5 +1,7 @@
 #pragma once
 
+// ReSharper disable once CppUnusedIncludeDirective
+#include "RED4ext/Memory/Allocators.hpp"
 #include "RED4ext/DynArray.hpp"
 
 
