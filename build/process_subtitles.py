@@ -7,8 +7,11 @@ from jamdict import Jamdict
 sourcepath = "../src/wolvenkit/Cyberpunk 2077 Furigana/files/Raw"
 
 if not os.path.isfile( os.path.join(unidic.DICDIR, "matrix.bin")):
-	print("You have to run as admin: python -m unidic download")
-	exit(100)
+	#print("You have to run as admin: python -m unidic download")
+	#exit(100)
+
+	from unidic.download import download_version
+	download_version()
 
 if os.path.isdir(os.path.abspath(sourcepath + "_Subtitles")):
 	shutil.rmtree( os.path.abspath(sourcepath + "_Subtitles") )

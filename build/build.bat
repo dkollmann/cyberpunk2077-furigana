@@ -9,7 +9,7 @@ rem Run the compiler
 echo Cyberpunk 2077 Path: %CP2077FOLDER%
 
 echo Killing Cyberpunk2077.exe...
-taskkill /F /IM Cyberpunk2077.exe
+rem taskkill /F /IM Cyberpunk2077.exe
 
 echo Copying files...
 mkdir ..\dist\r6\scripts\cyberpunk2077-furigana
