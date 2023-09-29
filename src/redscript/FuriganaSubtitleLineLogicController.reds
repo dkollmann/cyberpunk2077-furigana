@@ -118,11 +118,11 @@ public func SetLineData(const lineData: script_ref<scnDialogLineData>) -> Void
 		{
 			displayData = scnDialogLineData.GetDisplayText(Deref(lineData));
 
-			generator.GenerateFurigana(rootParent, displayData.translation, displayData.text, this.m_lineData.duration, CRUIDToUint64(Deref(lineData).id), fontsize, false, false, GenerateFuriganaTextType.Default);
+			generator.GenerateFurigana(rootParent, displayData.translation, displayData.text, Deref(lineData).duration, CRUIDToUint64(Deref(lineData).id), fontsize, false, false, GenerateFuriganaTextType.Default);
 		}
 		else
 		{
-			generator.GenerateFurigana(rootParent, this.m_lineData.text, "", this.m_lineData.duration, CRUIDToUint64(Deref(lineData).id), fontsize, false, false, GenerateFuriganaTextType.Default);
+			generator.GenerateFurigana(rootParent, Deref(lineData).text, "", Deref(lineData).duration, CRUIDToUint64(Deref(lineData).id), fontsize, false, false, GenerateFuriganaTextType.Default);
 		}
 	}
 }
