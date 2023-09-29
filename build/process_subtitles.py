@@ -3,6 +3,7 @@ from furiganamaker import Instance, KanjiReading, WordReading, Problems, has_kan
 import os, sys, shutil, json, MeCab, unidic, pykakasi
 import xml.etree.cElementTree as ET
 from jamdict import Jamdict
+from numpy import int64
 
 sourcepath = "../src/wolvenkit/Cyberpunk 2077 Furigana/files/Raw"
 
@@ -84,7 +85,7 @@ def processjson(instance, file, jsn, problems):
 
 		if t == "localizationPersistenceSubtitleEntry":
 			hasfurigana = False
-			stringid = cc["stringId"]
+			stringid = int64( cc["stringId"] )
 			relstringid = stringid % 4294967296
 			hexid = hex(relstringid)[2:].upper()
 			if hexid.endswith("000"):
