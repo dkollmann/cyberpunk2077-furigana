@@ -2,7 +2,7 @@
 public func SetLineData(const lineData: script_ref<scnDialogLineData>) -> Void
 {
 	let displayData: scnDialogDisplayString;
-	let gameObject: wref<GameObject> = lineData.speaker;
+	let gameObject: wref<GameObject> = Deref(lineData).speaker;
 
 	if IsDefined(gameObject) && gameObject.IsDevice()
 	{
@@ -17,9 +17,9 @@ public func SetLineData(const lineData: script_ref<scnDialogLineData>) -> Void
 		this.m_subtitlesMaxDistance = 0.00;
 	}
 
-	this.m_projection.SetEntity(lineData.speaker);
+	this.m_projection.SetEntity(Deref(lineData).speaker);
 	displayData = scnDialogLineData.GetDisplayText(Deref(lineData));
-	this.m_ownerId = lineData.speaker.GetEntityID();
+	this.m_ownerId = Deref(lineData).speaker.GetEntityID();
 
 	inkWidgetRef.SetVisible(this.m_TextContainer, true);
 	inkWidgetRef.SetVisible(this.m_speachBubble, true);
@@ -57,11 +57,11 @@ public func SetLineData(const lineData: script_ref<scnDialogLineData>) -> Void
 
 		if kiroshi || scnDialogLineData.HasMothertongueTag(Deref(lineData))
 		{
-			generator.GenerateFurigana(root, displayData.translation, displayData.text, lineData.duration, CRUIDToUint64(lineData.id), fontsize, false, false, GenerateFuriganaTextType.Default);
+			generator.GenerateFurigana(root, displayData.translation, displayData.text, Deref(lineData).duration, CRUIDToUint64(Deref(lineData).id), fontsize, false, false, GenerateFuriganaTextType.Default);
 		}
 		else
 		{
-			generator.GenerateFurigana(root, lineData.text, "", lineData.duration, CRUIDToUint64(lineData.id), fontsize, false, false, GenerateFuriganaTextType.Default);
+			generator.GenerateFurigana(root, Deref(lineData).text, "", Deref(lineData).duration, CRUIDToUint64(Deref(lineData).id), fontsize, false, false, GenerateFuriganaTextType.Default);
 		}
 
 		inkTextRef.SetVisible(this.m_container_normal, false);

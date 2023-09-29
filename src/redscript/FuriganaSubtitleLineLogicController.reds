@@ -13,13 +13,13 @@ public func SetLineData(const lineData: script_ref<scnDialogLineData>) -> Void
 	this.m_lineData = Deref(lineData);
 
 	// determine speaker name
-	if IsStringValid(lineData.speakerName)
+	if IsStringValid(Deref(lineData).speakerName)
 	{
-		speakerName = lineData.speakerName;
+		speakerName = Deref(lineData).speakerName;
 	}
 	else
 	{
-		speakerName = lineData.speaker.GetDisplayName();
+		speakerName = Deref(lineData).speaker.GetDisplayName();
 	}
 
 	// localize speaker name
@@ -35,7 +35,7 @@ public func SetLineData(const lineData: script_ref<scnDialogLineData>) -> Void
 	{
 		speakerNameWidgetStateName = n"Default";
 
-		playerPuppet = lineData.speaker as gamePuppetBase;
+		playerPuppet = Deref(lineData).speaker as gamePuppetBase;
 		if playerPuppet != null
 		{
 			characterRecordID = playerPuppet.GetRecordID();
@@ -45,7 +45,7 @@ public func SetLineData(const lineData: script_ref<scnDialogLineData>) -> Void
 		inkWidgetRef.SetState(this.m_speakerNameWidget, speakerNameWidgetStateName);
 	}
 
-	if Equals(lineData.type, scnDialogLineType.Radio)
+	if Equals(Deref(lineData).type, scnDialogLineType.Radio)
 	{
 		// handle radio lines
 		this.m_targetTextWidgetRef = this.m_radioSubtitle;
@@ -57,7 +57,7 @@ public func SetLineData(const lineData: script_ref<scnDialogLineData>) -> Void
 	}
 	else
 	{
-		if Equals(lineData.type, scnDialogLineType.AlwaysCinematicNoSpeaker)
+		if Equals(Deref(lineData).type, scnDialogLineType.AlwaysCinematicNoSpeaker)
 		{
 			// handle no speaker lines
 			this.m_targetTextWidgetRef = this.m_radioSubtitle;
@@ -68,7 +68,7 @@ public func SetLineData(const lineData: script_ref<scnDialogLineData>) -> Void
 		}
 		else
 		{
-			if Equals(lineData.type, scnDialogLineType.GlobalTVAlwaysVisible)
+			if Equals(Deref(lineData).type, scnDialogLineType.GlobalTVAlwaysVisible)
 			{
 				// handle TV lines
 				this.m_targetTextWidgetRef = this.m_subtitleWidget;
@@ -118,11 +118,11 @@ public func SetLineData(const lineData: script_ref<scnDialogLineData>) -> Void
 		{
 			displayData = scnDialogLineData.GetDisplayText(Deref(lineData));
 
-			generator.GenerateFurigana(rootParent, displayData.translation, displayData.text, this.m_lineData.duration, CRUIDToUint64(lineData.id), fontsize, false, false, GenerateFuriganaTextType.Default);
+			generator.GenerateFurigana(rootParent, displayData.translation, displayData.text, this.m_lineData.duration, CRUIDToUint64(Deref(lineData).id), fontsize, false, false, GenerateFuriganaTextType.Default);
 		}
 		else
 		{
-			generator.GenerateFurigana(rootParent, this.m_lineData.text, "", this.m_lineData.duration, CRUIDToUint64(lineData.id), fontsize, false, false, GenerateFuriganaTextType.Default);
+			generator.GenerateFurigana(rootParent, this.m_lineData.text, "", this.m_lineData.duration, CRUIDToUint64(Deref(lineData).id), fontsize, false, false, GenerateFuriganaTextType.Default);
 		}
 	}
 }
