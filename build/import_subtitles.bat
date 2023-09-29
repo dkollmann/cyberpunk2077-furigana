@@ -2,10 +2,9 @@
 
 cd %~dp0
 
-set SUBTITLEPATH=base\localization\jp-jp\subtitles
-set SOURCE=..\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw_Subtitles\%SUBTITLEPATH%
+set SOURCE=..\src\wolvenkit\Cyberpunk 2077 Furigana\files\Raw_Subtitles
 SET MODFILES=..\src\wolvenkit\Cyberpunk 2077 Furigana\files\Mod
-set TARGET=%MODFILES%\%SUBTITLEPATH%
+set TARGET=%MODFILES%
 set ARCHIVEFOLDER=..\src\wolvenkit\Cyberpunk 2077 Furigana\packed\archive\pc\mod
 
 echo Removing previous files...
