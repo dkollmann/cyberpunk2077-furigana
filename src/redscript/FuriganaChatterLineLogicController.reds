@@ -1,5 +1,5 @@
 @replaceMethod(ChatterLineLogicController)
-public func SetLineData(lineData: scnDialogLineData) -> Void
+public func SetLineData(const lineData: script_ref<scnDialogLineData>) -> Void
 {
 	let displayData: scnDialogDisplayString;
 	let gameObject: wref<GameObject> = lineData.speaker;
@@ -18,7 +18,7 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 	}
 
 	this.m_projection.SetEntity(lineData.speaker);
-	displayData = scnDialogLineData.GetDisplayText(lineData);
+	displayData = scnDialogLineData.GetDisplayText(Deref(lineData));
 	this.m_ownerId = lineData.speaker.GetEntityID();
 
 	inkWidgetRef.SetVisible(this.m_TextContainer, true);
@@ -28,7 +28,7 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 	let fontsize = inkTextRef.GetFontSize(this.m_text_normal);
 	fontsize = Cast<Int32>( Cast<Float>(fontsize) * generator.settings.chatterTextScale );
 
-	let kiroshi = scnDialogLineData.HasKiroshiTag(lineData);
+	let kiroshi = scnDialogLineData.HasKiroshiTag(Deref(lineData));
 	if kiroshi && !this.IsKiroshiEnabled()
 	{
 		let isWide = StrLen(displayData.translation) >= this.c_ExtraWideTextWidth;
@@ -55,10 +55,8 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 		let root = inkWidgetRef.Get(this.m_TextContainer) as inkCompoundWidget;
 		Assert(root, "Failed to get m_TextContainer!!");
 
-		if kiroshi || scnDialogLineData.HasMothertongueTag(lineData)
+		if kiroshi || scnDialogLineData.HasMothertongueTag(Deref(lineData))
 		{
-			displayData = scnDialogLineData.GetDisplayText(lineData);
-
 			generator.GenerateFurigana(root, displayData.translation, displayData.text, lineData.duration, CRUIDToUint64(lineData.id), fontsize, false, false, GenerateFuriganaTextType.Default);
 		}
 		else

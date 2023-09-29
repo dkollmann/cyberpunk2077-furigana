@@ -51,6 +51,11 @@ private static native func CRUIDToUint64(id :CRUID) -> Uint64;
 private static native func OpenBrowser(url :String) -> Void;
 
 
+private static func LogChannel(channel :CName, msg :String) -> Void
+{
+	FTLog(msg);
+}
+
 private static func Assert(cond :Bool, msg :String) -> Void
 {
 	if !cond {

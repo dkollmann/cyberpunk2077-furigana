@@ -1,5 +1,5 @@
 @replaceMethod(SubtitleLineLogicController)
-public func SetLineData(lineData: scnDialogLineData) -> Void
+public func SetLineData(const lineData: script_ref<scnDialogLineData>) -> Void
 {
 	let characterRecordID: TweakDBID;
 	let displayData: scnDialogDisplayString;
@@ -10,7 +10,7 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 	let speakerNameDisplayText: String;
 	let speakerNameWidgetStateName: CName;
 
-	this.m_lineData = lineData;
+	this.m_lineData = Deref(lineData);
 
 	// determine speaker name
 	if IsStringValid(lineData.speakerName)
@@ -90,7 +90,7 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 		}
 	}
 
-	let kiroshi = scnDialogLineData.HasKiroshiTag(lineData);
+	let kiroshi = scnDialogLineData.HasKiroshiTag(Deref(lineData));
 	if kiroshi && !this.IsKiroshiEnabled()
 	{
 		motherTongueCtrl = inkWidgetRef.GetControllerByType(this.m_motherTongueContainter, n"inkTextMotherTongueController") as inkTextMotherTongueController;
@@ -114,9 +114,9 @@ public func SetLineData(lineData: scnDialogLineData) -> Void
 		let rootParent = subtitlesWidget.GetWidgetByPathName(n"Line/subtitleFlex") as inkCompoundWidget;
 		Assert(rootParent, "Failed to get root Line/subtitleFlex!!");
 
-		if kiroshi || scnDialogLineData.HasMothertongueTag(lineData)
+		if kiroshi || scnDialogLineData.HasMothertongueTag(Deref(lineData))
 		{
-			displayData = scnDialogLineData.GetDisplayText(lineData);
+			displayData = scnDialogLineData.GetDisplayText(Deref(lineData));
 
 			generator.GenerateFurigana(rootParent, displayData.translation, displayData.text, this.m_lineData.duration, CRUIDToUint64(lineData.id), fontsize, false, false, GenerateFuriganaTextType.Default);
 		}
