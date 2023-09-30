@@ -22,8 +22,16 @@ private final func UpdateDialogHubData() -> Void
 		tags = GetCaptionTagsFromArray(currListChoiceData.captionParts.parts);
 		localizedText = currListChoiceData.localizedName;
 
-		if StrLen(tags) > 0 {
-			localizedText = ("[" + tags + "] ") + localizedText;
+		if Equals(tags, "") && StrBeginsWith(localizedText, "[")
+		{
+			if StrSplitFirst(localizedText, "]", tags, localizedText)
+			{
+				tags = StrFrontToUpper(StrAfterFirst(tags, "["));
+				if StrBeginsWith(localizedText, " ")
+				{
+					localizedText = StrAfterFirst(localizedText, " ");
+				}
+			}
 		}
 
 		if fontsize < 0 {
@@ -51,6 +59,11 @@ private final func UpdateDialogHubData() -> Void
 		// generate furigana
 		generator.GenerateFurigana(rootParent, localizedText, "", 0.0, Cast<Uint64>(0), fontsize, true, true, textType);
 
+		let hasTags = NotEquals(tags, "");
+
+		inkTextRef.SetText(currentItem.m_tagTextRef, tags);
+		inkWidgetRef.SetVisible(currentItem.m_tagTextRef, hasTags);
+		inkWidgetRef.SetVisible(currentItem.m_tagSeparator, hasTags);
 		inkTextRef.SetVisible(currentItem.m_ActiveTextRef, false);
 
 		currentItem.SetType(currListChoiceData.type);
@@ -59,10 +72,16 @@ private final func UpdateDialogHubData() -> Void
 		currentItem.SetDimmed(dimmed);
 		currentItem.SetSelected(selected);
 		currentItem.SetData(this.m_dialogHubData.m_currentNum + i, this.m_dialogHubData.m_argTotalCountAcrossHubs, this.m_dialogHubData.m_hasAboveElements, this.m_dialogHubData.m_hasBelowElements);
+		currentItem.SetVisible(true);
 
 		if ChoiceTypeWrapper.IsType(currListChoiceData.type, gameinteractionsChoiceType.PossessedDialog)
 		{
 			isPossessed = true;
+		}
+
+		if ChoiceTypeWrapper.IsType(currListChoiceData.type, gameinteractionsChoiceType.Glowline)
+		{
+			currentItem.SetGlowline();
 		}
 
 		if IsDefined(currListChoiceData.timeProvider)

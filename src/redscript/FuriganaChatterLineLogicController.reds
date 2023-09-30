@@ -4,17 +4,31 @@ public func SetLineData(const lineData: script_ref<scnDialogLineData>) -> Void
 	let displayData: scnDialogDisplayString;
 	let gameObject: wref<GameObject> = Deref(lineData).speaker;
 
+	this.m_isOverHead = Equals(Deref(lineData).type, scnDialogLineType.OverHead);
+
 	if IsDefined(gameObject) && gameObject.IsDevice()
 	{
 		this.m_rootWidget.SetAnchorPoint(new Vector2(0.50, 0.00));
 		this.m_limitSubtitlesDistance = true;
 		this.m_subtitlesMaxDistance = 10.00;
+		this.m_bubbleMinDistance = 10.00;
 	}
 	else
 	{
-		this.m_rootWidget.SetAnchorPoint(new Vector2(0.50, 1.00));
-		this.m_limitSubtitlesDistance = false;
-		this.m_subtitlesMaxDistance = 0.00;
+		if IsDefined(gameObject) && this.m_isOverHead
+		{
+			this.m_rootWidget.SetAnchorPoint(new Vector2(0.50, 1.00));
+			this.m_limitSubtitlesDistance = true;
+			this.m_subtitlesMaxDistance = 30.00;
+			this.m_bubbleMinDistance = 25.00;
+		}
+		else
+		{
+			this.m_rootWidget.SetAnchorPoint(new Vector2(0.50, 1.00));
+			this.m_limitSubtitlesDistance = false;
+			this.m_subtitlesMaxDistance = 0.00;
+			this.m_bubbleMinDistance = 0.00;
+		}
 	}
 
 	this.m_projection.SetEntity(Deref(lineData).speaker);
@@ -32,7 +46,7 @@ public func SetLineData(const lineData: script_ref<scnDialogLineData>) -> Void
 	if kiroshi && !this.IsKiroshiEnabled()
 	{
 		let isWide = StrLen(displayData.translation) >= this.c_ExtraWideTextWidth;
-		let motherTongueCtrl = isWide ?  this.m_motherTongueCtrl_Wide : this.m_motherTongueCtrl_Normal;
+		let motherTongueCtrl = isWide ? this.m_motherTongueCtrl_Wide : this.m_motherTongueCtrl_Normal;
 
 		inkWidgetRef.SetVisible(this.m_text_normal, !isWide);
 		inkWidgetRef.SetVisible(this.m_text_wide, isWide);
