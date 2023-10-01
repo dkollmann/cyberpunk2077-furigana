@@ -14,7 +14,7 @@ private final func SetLabel(data: script_ref<InteractionChoiceData>) -> Void
 
 	if ArraySize(Deref(data).data) > 0
 	{
-		action = FromVariant(Deref(data).data[0]);
+		action = FromVariant<ref<DeviceAction>>(Deref(data).data[0]);
 		deviceAction = action as ScriptableDeviceAction;
 	}
 
@@ -82,7 +82,8 @@ public final func SetData(data: script_ref<InteractionChoiceData>, opt skillChec
 	if skillCheck.isValid
 	{
 		skillReqParams = new inkTextParams();
-		if Equals(skillCheck.skillCheck, EDeviceChallengeSkill.Hacking) {
+		if Equals(skillCheck.skillCheck, EDeviceChallengeSkill.Hacking)
+		{
 			iconID = t"ChoiceIcons.HackingIcon";
 			skillReqParams.AddLocalizedString("NAME", "LocKey#22278");
 		}
