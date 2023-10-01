@@ -18,54 +18,60 @@ private final func SetLabel(data: script_ref<InteractionChoiceData>) -> Void
 		deviceAction = action as ScriptableDeviceAction;
 	}
 
-	let locTextOriginal = locText;
-	let inactive = IsDefined(deviceAction) && deviceAction.IsInactive() && NotEquals(deviceAction.GetInactiveReason(), "");
-
-	if inactive
-	{
-		locText += " (" + deviceAction.GetInactiveReason() + ")";
-	}
-	
 	let rootParent = this.m_RootWidget.GetWidgetByPathName(n"text_holder") as inkCompoundWidget;
 	Assert(rootParent, "Failed to get root text_holder!!");
 
-	// generate furigana
 	let generator = new FuriganaGenerator().init(FuriganaGeneratorMode.Interaction);
-	let fontsize = inkTextRef.GetFontSize(this.m_label);
 
-	let furigana = generator.GenerateFuriganaLegacy(rootParent, locText, Cast<Uint64>(0), fontsize);
-
-	if furigana
+	let inactive = IsDefined(deviceAction) && deviceAction.IsInactive() && NotEquals(deviceAction.GetInactiveReason(), "");
+	
+	if StrOnlyLatin(locText)
 	{
-		inkTextRef.SetVisible(this.m_label, false);
-		inkTextRef.SetVisible(this.m_labelFail, false);
-
-		generator.furiganaroot.SetHAlign(inkEHorizontalAlign.Center);
-		generator.furiganaroot.SetMargin(150.0, 0.0, 0.0, 0.0);
-
-		// adjust fail size
-		let failSize = rootParent.GetWidgetByPathName(n"Fail_panel/Canvas_fail_flex/inputLabel");
-		Assert(failSize, "Failed to get root text_holder/Fail_panel/Canvas_fail_flex/inputLabel!!");
-
-		failSize.SetFitToContent(false);
-		failSize.SetWidth(400);
-	}
-	else
-	{
+		// clear any previously generated furigana
+		generator.GetRootWidget(rootParent, true);
+		
 		if inactive
 		{
 			textParams = new inkTextParams();
-			textParams.AddString("ACTION", locTextOriginal);
+			textParams.AddString("ACTION", locText);
 			textParams.AddLocalizedString("ADDITIONALINFO", deviceAction.GetInactiveReason());
 			inkTextRef.SetLocalizedTextScript(this.m_label, "LocKey#42173", textParams);
 			inkTextRef.SetLocalizedTextScript(this.m_labelFail, "LocKey#42173", textParams);
 		}
 		else
 		{
-			inkTextRef.SetText(this.m_label, locTextOriginal);
-			inkTextRef.SetText(this.m_labelFail, locTextOriginal);
+			inkTextRef.SetText(this.m_label, locText);
+			inkTextRef.SetText(this.m_labelFail, locText);
 		}
+
+		inkTextRef.SetVisible(this.m_label, true);
+		inkTextRef.SetVisible(this.m_labelFail, true);
+
+		return;
 	}
+
+	if inactive
+	{
+		locText += " (" + deviceAction.GetInactiveReason() + ")";
+	}
+	
+	// generate furigana
+	let fontsize = inkTextRef.GetFontSize(this.m_label);
+
+	generator.GenerateFurigana(rootParent, locText, "", 0.0, Cast<Uint64>(0), fontsize, true, true, GenerateFuriganaTextType.Default);
+
+	/*generator.furiganaroot.SetHAlign(inkEHorizontalAlign.Center);
+	generator.furiganaroot.SetMargin(150.0, 0.0, 0.0, 0.0);
+
+	// adjust fail size
+	let failSize = rootParent.GetWidgetByPathName(n"Fail_panel/Canvas_fail_flex/inputLabel");
+	Assert(failSize, "Failed to get root text_holder/Fail_panel/Canvas_fail_flex/inputLabel!!");
+
+	failSize.SetFitToContent(false);
+	failSize.SetWidth(400);*/
+
+	inkTextRef.SetVisible(this.m_label, false);
+	inkTextRef.SetVisible(this.m_labelFail, false);
 }
 
 @replaceMethod(interactionItemLogicController)

@@ -41,6 +41,9 @@ private static native func StrStripFurigana(text: String) -> String;
 /** Determine the last word in the string before "end". */
 private static native func StrFindLastWord(text: String, end :Int32) -> Int32;
 
+/** Check if a string contains only latin characters. */
+private static native func StrOnlyLatin(text: String) -> Bool;
+
 /** Counts the number of actual utf-8 characters in the string. */
 private static native func UnicodeStringLen(text: String) -> Int32;
 
@@ -346,15 +349,24 @@ public class FuriganaGenerator
 		this.AddFadeInAnimation(widget, delay, duration);
 	}
 
+	public func GetRootWidget(parent :ref<inkCompoundWidget>, clearRoot :Bool) -> ref<inkCompoundWidget>
+	{
+		let root = parent.GetWidgetByPathName(n"furiganaSubtitle") as inkCompoundWidget;
+
+		if IsDefined(root) && clearRoot {
+			root.RemoveAllChildren();
+		}
+
+		return root;
+	}
+
 	private func CreateRootWidget(parent :ref<inkCompoundWidget>, singleline :Bool, checkForExisting :Bool) -> Void
 	{
 		if checkForExisting
 		{
-			let root = parent.GetWidgetByPathName(n"furiganaSubtitle") as inkCompoundWidget;
+			let root = this.GetRootWidget(parent, true);
 
 			if IsDefined(root) {
-				root.RemoveAllChildren();
-
 				this.furiganaroot = root;
 				return;
 			}
@@ -701,37 +713,5 @@ public class FuriganaGenerator
 		let blocks = StrSplitFurigana(japaneseText, this.settings.colorizeKatakana);
 
 		this.GenerateFuriganaWidgets(parent, japaneseText, motherTongueText, duration, lineid, blocks, fontsize, singleline, checkForExisting, textType);
-	}
-
-	public func GenerateFuriganaLegacy(parent :ref<inkCompoundWidget>, japaneseText :String, lineid :Uint64, fontsize :Int32) -> Bool
-	{
-		if this.settings.addSpaces {
-			japaneseText = StrAddSpaces(japaneseText);
-		}
-
-		let blocks = StrSplitFurigana(japaneseText, this.settings.colorizeKatakana);
-		let size = ArraySize(blocks);
-
-		// check if there is any data
-		if size < 1 {
-			return false;
-		}
-
-		// check if there is a single entry
-		if size == EnumInt(StrSplitFuriganaIndex.COUNT)
-		{
-			let type = Cast<Int32>( blocks[ EnumInt(StrSplitFuriganaIndex.Type) ] );
-
-			// check if this block is a text block
-			if type == EnumInt(StrSplitFuriganaType.Text)
-			{
-				// do not generate our stuff
-				return false;
-			}
-		}
-
-		this.GenerateFuriganaWidgets(parent, japaneseText, "", 0.0, lineid, blocks, fontsize, true, false, GenerateFuriganaTextType.Default);
-
-		return true;
 	}
 }

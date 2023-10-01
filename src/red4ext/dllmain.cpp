@@ -533,6 +533,44 @@ void StrFindLastWord(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFram
     *aOut = lastword;
 }
 
+void StrOnlyLatin(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, bool* aOut, int64_t a4)
+{
+    RED4ext::CString text;
+    RED4ext::GetParameter(aFrame, &text);
+
+    aFrame->code++; // skip ParamEnd
+
+    // if the result cannot be stored, there is no point of doing this
+    if(aOut == nullptr)
+        return;
+
+    auto textstr = text.c_str();
+    const int len = (int) text.Length();
+
+    // check all letters
+    bool onlylatin = true;
+
+    for(int index = 0; index < len; )
+    {
+        // get the next character
+        utf8proc_int32_t ch;
+        const int chsize = (int) utf8proc_iterate((const utf8proc_uint8_t*)textstr + index, -1, &ch);
+
+        if(chsize <= 0)
+            break;
+
+        index += chsize;
+
+        if( isjapanese(ch) )
+        {
+	        onlylatin = false;
+            break;
+        }
+    }
+
+    *aOut = onlylatin;
+}
+
 void UnicodeStringLen(RED4ext::IScriptable* aContext, RED4ext::CStackFrame* aFrame, int* aOut, int64_t a4)
 {
     RED4ext::CString text;
@@ -634,6 +672,14 @@ RED4EXT_C_EXPORT void RED4EXT_CALL PostRegisterTypes()
         func->AddParam("String", "text");
         func->AddParam("Int32", "end");
         func->SetReturnType("Int32");
+        rtti->RegisterFunction(func);
+    }
+
+    {
+        auto func = RED4ext::CGlobalFunction::Create("StrOnlyLatin", "StrOnlyLatin", &StrOnlyLatin);
+        func->flags = flags;
+        func->AddParam("String", "text");
+        func->SetReturnType("Bool");
         rtti->RegisterFunction(func);
     }
 
