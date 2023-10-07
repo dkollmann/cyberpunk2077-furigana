@@ -172,6 +172,10 @@ kanjireadings = {
 	"一": KanjiReading(("イチ", "イツ", "イ"), ("ひと", "いっ")),
 	"六": KanjiReading(("ロク", "リク"), ("む", "むっ", "むい", "ろっ")),
 	"八": KanjiReading(("ハチ", "ハツ"), ("や", "やっ", "よう", "はっ")),
+	"実": KanjiReading(("ジツ", "シツ", "ジッ"), ("み", "みの", "まこと", "みち")),
+	"達": KanjiReading(("タツ", "ダ"), ("たち", "だち")),
+	"葉": KanjiReading(("ヨウ",), ("は", "ば")),
+	#"上": KanjiReading(("ジョウ", "ショウ", "シャン"), ("うえ", "うわ", "かみ", "あ", "のぼ", "たてまつ", "う", "うま")),
 }
 
 # provide readings for kanji words, in case that translation is incorrect
