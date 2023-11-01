@@ -713,7 +713,8 @@ RED4EXT_C_EXPORT bool RED4EXT_CALL Main(RED4ext::PluginHandle aHandle, RED4ext::
     switch (aReason)
     {
     case RED4ext::EMainReason::Load:
-        RED4ext::RTTIRegistrator::Add(RegisterTypes, PostRegisterTypes);
+	    RED4ext::CRTTISystem::Get()->AddRegisterCallback(RegisterTypes);
+	    RED4ext::CRTTISystem::Get()->AddPostRegisterCallback(PostRegisterTypes);
         break;
 
     case RED4ext::EMainReason::Unload:
@@ -727,7 +728,7 @@ RED4EXT_C_EXPORT void RED4EXT_CALL Query(RED4ext::PluginInfo* aInfo)
 {
     aInfo->name = L"Cyberpunk 2077 Furigana";
     aInfo->author = L"Daniel Kollmann";
-    aInfo->version = RED4EXT_SEMVER(1, 3, 0);
+    aInfo->version = RED4EXT_SEMVER(1, 3, 2);
     aInfo->runtime = RED4EXT_RUNTIME_LATEST;
     aInfo->sdk = RED4EXT_SDK_LATEST;
 }
