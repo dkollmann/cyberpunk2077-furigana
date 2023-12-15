@@ -1,10 +1,10 @@
 @replaceMethod(interactionItemLogicController)
-private final func SetLabel(data: script_ref<InteractionChoiceData>) -> Void
+private final func SetLabel(data: script_ref<InteractionChoiceData>, isItemBroken : Bool) -> Void
 {
 	let action: ref<DeviceAction>;
 	let deviceAction: ref<ScriptableDeviceAction>;
 	let textParams: ref<inkTextParams>;
-	let locText: String = GetLocalizedText(Deref(data).localizedName);
+	let locText: String = GetLocalizedText( ( ( isItemBroken ) ? ( "LocKey#6887" ) : ( data.localizedName ) ) );
 	let captionTags: String = GetCaptionTagsFromArray(Deref(data).captionParts.parts);
 
 	if NotEquals(captionTags, "")
@@ -75,7 +75,7 @@ private final func SetLabel(data: script_ref<InteractionChoiceData>) -> Void
 }
 
 @replaceMethod(interactionItemLogicController)
-public final func SetData(data: script_ref<InteractionChoiceData>, opt skillCheck: UIInteractionSkillCheck) -> Void
+public final func SetData(data: script_ref<InteractionChoiceData>, opt skillCheck: UIInteractionSkillCheck, opt isItemBroken : Bool) -> Void
 {
 	let iconID: TweakDBID;
 	let skillReqParams: ref<inkTextParams>;
@@ -129,7 +129,7 @@ public final func SetData(data: script_ref<InteractionChoiceData>, opt skillChec
 		inkWidgetRef.SetVisible(this.m_additionalReqsNeeded, !skillCheck.isPassed && skillCheck.hasAdditionalRequirements);
 	}
 
-	this.SetLabel(data);
+	this.SetLabel(data, isItemBroken);
 
 	if ArraySize(Deref(data).captionParts.parts) > 0
 	{
