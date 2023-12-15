@@ -21,12 +21,21 @@ def unespace_text(text):
 		if pos < 0:
 			return text
 
+		# check if this is a path
+		if pos > 0 and text[pos-1] == "\\":
+			pos += 1
+			continue
+
 		escaped = text[pos:pos + 6]
 
 		if escaped == "\\u0022":
 			uchar = "\\\""
 		else:
-			uchar = escaped.encode('latin1').decode('unicode-escape')
+			try:
+				uchar = escaped.encode('latin1').decode('unicode-escape')
+			except:
+				print("Failed to unescape\"" + escaped + "\"")
+				return None
 
 		text = text[:pos] + uchar + text[pos + 6:]
 
@@ -39,6 +48,10 @@ def unescape_file(file):
 		line = lines[i]
 
 		unescaped = unespace_text(line)
+		if unescaped is None:
+			print("Failed to unescape file \"" + file + "\" line " + str(i) + ": \"" + line + "\"")
+			continue
+
 		unescaped = replace_timestamp(unescaped)
 
 		lines[i] = unescaped
