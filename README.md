@@ -25,20 +25,20 @@ This mod requires the following mods!!!
 
 
 ### Cyber Engine Tweaks
-This mod requires version 1.29.1 or higher.<br/>
+This mod requires version 1.30.1 or higher.<br/>
 https://www.nexusmods.com/cyberpunk2077/mods/107
 
 
 ### redscript
-This mod requires version 0.5.16 or higher.<br/>
+This mod requires version 0.5.17 or higher.<br/>
 https://www.nexusmods.com/cyberpunk2077/mods/1511
 
 
 ### RED4ext
-This mod requires version 1.19.0 or higher.<br/>
+This mod requires version 1.22.0 or higher.<br/>
 https://www.nexusmods.com/cyberpunk2077/mods/2380
 
 
 ### Native Settings UI
-This mod requires version 1.95 or higher.<br/>
+This mod requires version 1.96 or higher.<br/>
 https://www.nexusmods.com/cyberpunk2077/mods/3518
