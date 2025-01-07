@@ -40,8 +40,8 @@ echo Copy to CP2077FOLDER folder...
 xcopy /y /e ..\dist\* "%CP2077FOLDER%"
 
 echo Running redscript compiler...
-rem redscript-cli.exe compile -s "%CP2077FOLDER%\r6\scripts" -b "%CP2077FOLDER%\r6\cache\final.redscripts.bk" -o "%CP2077FOLDER%\r6\cache\final_patched.redscripts"
-redscript-cli.exe compile -s "%CP2077FOLDER%\r6\scripts" -b "%CP2077FOLDER%\r6\cache\final.redscripts.bk" -o "scripts_final_patched.redscripts"
+rem redscript-cli.exe compile -s "%CP2077FOLDER%\r6\scripts" -b "%CP2077FOLDER%\r6\cache\final.redscripts.bk" -o "scripts_final_patched.redscripts"
+redscript-cli.exe compile -s "%CP2077FOLDER%\r6\scripts" -b "%CP2077FOLDER%\r6\cache\final.redscripts" -o "%CP2077FOLDER%\r6\cache\final.redscripts.modded"
 
 rem type "%CP2077FOLDER%\r6\cache\redscript.log"
 

@@ -1,4 +1,4 @@
-# requires mecab-python3, unidic, pykakasi, jamdict, wheel, jamdict-data package
+# requires mecab-python3, unidic, pykakasi, jamdict, wheel, jamdict-data-fix package
 from furiganamaker import Instance, KanjiReading, WordReading, Problems, has_kanji
 import os, sys, shutil, json, MeCab, unidic, pykakasi
 import xml.etree.cElementTree as ET
