@@ -1,4 +1,4 @@
-﻿// ReSharper disable CppZeroConstantCanBeReplacedWithNullptr
+// ReSharper disable CppZeroConstantCanBeReplacedWithNullptr
 
 #define WIN32_LEAN_AND_MEAN
 #define NOMINMAX
@@ -728,7 +728,7 @@ RED4EXT_C_EXPORT void RED4EXT_CALL Query(RED4ext::PluginInfo* aInfo)
 {
     aInfo->name = L"Cyberpunk 2077 Furigana";
     aInfo->author = L"Daniel Kollmann";
-    aInfo->version = RED4EXT_SEMVER(1, 3, 6);
+    aInfo->version = RED4EXT_SEMVER(1, 3, 7);
     aInfo->runtime = RED4EXT_RUNTIME_LATEST;
     aInfo->sdk = RED4EXT_SDK_LATEST;
 }
