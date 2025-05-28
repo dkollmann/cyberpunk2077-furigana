@@ -24,11 +24,18 @@ private final func SetLabel(data: script_ref<InteractionChoiceData>, isItemBroke
 	let generator = new FuriganaGenerator().init(FuriganaGeneratorMode.Interaction);
 
 	let inactive = IsDefined(deviceAction) && deviceAction.IsInactive() && NotEquals(deviceAction.GetInactiveReason(), "");
-	
+
 	if StrOnlyLatin(locText)
 	{
 		// clear any previously generated furigana
-		generator.GetRootWidget(rootParent, true);
+		let root = rootParent.GetWidgetByPathName(n"furiganaSubtitle")  as inkCompoundWidget;
+
+		if IsDefined(root) {
+			root.RemoveAllChildren();
+		}
+
+		// causes crash for unknown reason
+		//generator.GetRootWidget(rootParent, true);
 		
 		if inactive
 		{
