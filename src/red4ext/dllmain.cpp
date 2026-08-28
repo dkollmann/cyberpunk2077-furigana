@@ -1,4 +1,4 @@
-// ReSharper disable CppZeroConstantCanBeReplacedWithNullptr
+﻿// ReSharper disable CppZeroConstantCanBeReplacedWithNullptr
 
 #define WIN32_LEAN_AND_MEAN
 #define NOMINMAX
@@ -708,32 +708,30 @@ RED4EXT_C_EXPORT void RED4EXT_CALL PostRegisterTypes()
     }
 }
 
-RED4EXT_C_EXPORT bool RED4EXT_CALL Main(RED4ext::PluginHandle aHandle, RED4ext::EMainReason aReason, const RED4ext::Sdk* aSdk)
+RED4EXT_C_EXPORT bool RED4EXT_CALL Main(RED4ext::v1::PluginHandle aHandle, RED4ext::v1::EMainReason aReason, const RED4ext::v1::Sdk* aSdk)
 {
     switch (aReason)
     {
-    case RED4ext::EMainReason::Load:
-	    RED4ext::CRTTISystem::Get()->AddRegisterCallback(RegisterTypes);
-	    RED4ext::CRTTISystem::Get()->AddPostRegisterCallback(PostRegisterTypes);
+    case RED4ext::v1::EMainReason::Load:
+        RED4ext::CRTTISystem::Get()->AddRegisterCallback(RegisterTypes);
+        RED4ext::CRTTISystem::Get()->AddPostRegisterCallback(PostRegisterTypes);
         break;
-
-    case RED4ext::EMainReason::Unload:
+    case RED4ext::v1::EMainReason::Unload:
         break;
     }
-
     return true;
 }
 
-RED4EXT_C_EXPORT void RED4EXT_CALL Query(RED4ext::PluginInfo* aInfo)
+RED4EXT_C_EXPORT void RED4EXT_CALL Query(RED4ext::v1::PluginInfo* aInfo)
 {
     aInfo->name = L"Cyberpunk 2077 Furigana";
     aInfo->author = L"Daniel Kollmann";
-    aInfo->version = RED4EXT_SEMVER(1, 3, 7);
-    aInfo->runtime = RED4EXT_RUNTIME_LATEST;
-    aInfo->sdk = RED4EXT_SDK_LATEST;
+    aInfo->version = RED4EXT_V1_SEMVER(1, 3, 8);
+    aInfo->runtime = RED4EXT_V1_RUNTIME_VERSION_LATEST;
+    aInfo->sdk = RED4EXT_V1_SDK_VERSION_CURRENT;
 }
 
 RED4EXT_C_EXPORT uint32_t RED4EXT_CALL Supports()
 {
-    return RED4EXT_API_VERSION_LATEST;
+    return RED4EXT_API_VERSION_1;
 }

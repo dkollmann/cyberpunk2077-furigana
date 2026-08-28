@@ -7,6 +7,8 @@ These are the steps usually required to update the mod.
 - Make sure you have Python 3 installed.
 - Download WolvenKit.Console-x.x.x.zip from https://github.com/WolvenKit/WolvenKit/releases and extract it in "build\WolvenKit.Console".
 - Open "build\process_subtitles.py", for example in PyCharm and make sure all dependencies are installed. For Windows make sure "jamdict-data-fix" is installed instead of "jamdict-data", if you encounter file access errors when installing that package. The required packages are: mecab-python3, unidic, pykakasi, jamdict, wheel, jamdict-data-fix.
+- To generate the red4ext Visual Studio project files, download and install the CMake installer from https://cmake.org/download/
+- To automatically create the mod package, you have to install WinRAR from https://www.win-rar.com/download.html.
 
 ## Update Subtitles
 - Open a terminal in the "build" folder, to make sure you see any errors which occur.
@@ -18,6 +20,8 @@ These are the steps usually required to update the mod.
 Requires Visual Studio 2022 setup for C++.
 
 - Open the submodule "src\red4ext\sdk" and make sure you check out the remote "master" branch.
+- You might have to update the Visual Studio project files, so open a command-line in the "src\red4ext\sdk" folder.
+- Run ```cmake -S . -B build -G "Visual Studio 17 2022"```
 - Open "src\red4ext\cyberpunk2077-furigana.sln" in Visual Studio 2022.
 - Update the version "RED4EXT_SEMVER" at the bottom of "dllmain.cpp" to bump up the version of the mod.
 - Rebuild the "Release x64" version.
