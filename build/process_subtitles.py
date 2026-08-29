@@ -5,7 +5,7 @@ import xml.etree.cElementTree as ET
 from jamdict import Jamdict
 from numpy import int64
 
-sourcepath = "../src/wolvenkit/Cyberpunk 2077 Furigana/files/Raw"
+sourcepath = os.path.abspath("../src/wolvenkit/Cyberpunk 2077 Furigana/files/Raw")
 
 if not os.path.isfile( os.path.join(unidic.DICDIR, "matrix.bin")):
 	#print("You have to run as admin: python -m unidic download")
@@ -98,8 +98,8 @@ def processjson(instance, file, jsn, problems):
 				hasfurigana = True
 
 			if hasfurigana:
-				file = file.replace("\\", "/")
-				outfile = file.replace("/Raw/", "/Raw_Subtitles/")
+				file = file.replace("/", "\\")
+				outfile = file.replace("\\Raw\\", "\\Raw_Subtitles\\")
 				outdir = os.path.dirname(outfile)
 
 				if not os.path.isdir(outdir):
